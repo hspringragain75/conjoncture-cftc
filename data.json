@@ -1,12 +1,14 @@
 {
-  "last_updated": "2026-01-06T13:06:37.015536",
+  "last_updated": "2026-01-07T07:05:42.585161",
   "sources": [
     "INSEE - Indice des prix à la consommation",
     "INSEE - Enquête Emploi",
+    "INSEE - Estimations trimestrielles d'emploi",
     "INSEE - Base Tous salariés",
     "INSEE - Indices trimestriels de salaire (ACEMO)",
-    "Banque de France - Négociations salariales",
-    "DARES - Statistiques du marché du travail",
+    "INSEE - Enquête de conjoncture industrie",
+    "DARES - Mouvements de Main d'Oeuvre",
+    "France Travail - Enquête BMO",
     "Urssaf - Prime de partage de la valeur"
   ],
   "inflation_salaires": [
@@ -106,58 +108,58 @@
   "chomage": [
     {
       "trimestre": "T1 2023",
-      "taux": 6.9,
-      "jeunes": 5.0
+      "taux": 7.1,
+      "jeunes": 17.5
     },
     {
       "trimestre": "T2 2023",
-      "taux": 7.0,
-      "jeunes": 4.9
+      "taux": 7.2,
+      "jeunes": 17.0
     },
     {
       "trimestre": "T3 2023",
-      "taux": 7.2,
-      "jeunes": 5.0
+      "taux": 7.4,
+      "jeunes": 17.6
     },
     {
       "trimestre": "T4 2023",
-      "taux": 7.3,
-      "jeunes": 4.9
+      "taux": 7.5,
+      "jeunes": 17.6
     },
     {
       "trimestre": "T1 2024",
-      "taux": 7.3,
-      "jeunes": 4.8
+      "taux": 7.5,
+      "jeunes": 18.1
     },
     {
       "trimestre": "T2 2024",
-      "taux": 7.1,
-      "jeunes": 4.9
+      "taux": 7.3,
+      "jeunes": 17.7
     },
     {
       "trimestre": "T3 2024",
-      "taux": 7.2,
-      "jeunes": 4.5
+      "taux": 7.4,
+      "jeunes": 18.3
     },
     {
       "trimestre": "T4 2024",
-      "taux": 7.1,
-      "jeunes": 4.6
+      "taux": 7.3,
+      "jeunes": 19.0
     },
     {
       "trimestre": "T1 2025",
-      "taux": 7.3,
-      "jeunes": 4.6
+      "taux": 7.4,
+      "jeunes": 18.5
     },
     {
       "trimestre": "T2 2025",
-      "taux": 7.4,
-      "jeunes": 4.7
+      "taux": 7.5,
+      "jeunes": 18.8
     },
     {
       "trimestre": "T3 2025",
-      "taux": 7.5,
-      "jeunes": 5.0
+      "taux": 7.7,
+      "jeunes": 19.2
     }
   ],
   "smic": {
@@ -226,18 +228,19 @@
     }
   ],
   "indicateurs_cles": {
-    "taux_chomage_actuel": 7.5,
+    "taux_chomage_actuel": 7.7,
+    "taux_chomage_jeunes": 19.2,
+    "taux_emploi_seniors": 7.5,
     "inflation_annuelle": 0.9,
     "smic_brut": 1823.03,
     "smic_net": 1443.11,
     "salaire_median": 2190,
     "salaire_moyen": 2733,
-    "ecart_hf_eqtp": 25.8
+    "ecart_hf_eqtp": 25.8,
+    "difficultes_recrutement": 61
   },
   "salaire_median": {
     "montant_2024": 2190,
-    "montant_2023": 2091,
-    "montant_2022": 2090,
     "evolution": [
       {
         "annee": "2019",
@@ -332,28 +335,6 @@
       "evolution": 0.9
     }
   ],
-  "salaires_csp": [
-    {
-      "categorie": "Cadres",
-      "salaire": 4812,
-      "evolution_reelle": 0.1
-    },
-    {
-      "categorie": "Prof. intermédiaires",
-      "salaire": 2633,
-      "evolution_reelle": -0.1
-    },
-    {
-      "categorie": "Employés",
-      "salaire": 1941,
-      "evolution_reelle": 0.4
-    },
-    {
-      "categorie": "Ouvriers",
-      "salaire": 2051,
-      "evolution_reelle": 1.1
-    }
-  ],
   "ppv": {
     "beneficiaires_2023": 23.1,
     "beneficiaires_2024": 14.6,
@@ -361,5 +342,406 @@
     "montant_total_2024": 3.4,
     "montant_moyen": 885,
     "commentaire": "Données Urssaf - À mettre à jour manuellement chaque année"
+  },
+  "emploi_seniors": [
+    {
+      "trimestre": "T1 2023",
+      "taux": 7.2
+    },
+    {
+      "trimestre": "T2 2023",
+      "taux": 7.1
+    },
+    {
+      "trimestre": "T3 2023",
+      "taux": 7.2
+    },
+    {
+      "trimestre": "T4 2023",
+      "taux": 7.4
+    },
+    {
+      "trimestre": "T1 2024",
+      "taux": 7.4
+    },
+    {
+      "trimestre": "T2 2024",
+      "taux": 7.1
+    },
+    {
+      "trimestre": "T3 2024",
+      "taux": 7.4
+    },
+    {
+      "trimestre": "T4 2024",
+      "taux": 7.2
+    },
+    {
+      "trimestre": "T1 2025",
+      "taux": 7.3
+    },
+    {
+      "trimestre": "T2 2025",
+      "taux": 7.5
+    },
+    {
+      "trimestre": "T3 2025",
+      "taux": 7.5
+    }
+  ],
+  "types_contrats": [
+    {
+      "trimestre": "T1 2023",
+      "cdi": 83.2,
+      "cdd": 5.4,
+      "interim": 1.4
+    },
+    {
+      "trimestre": "T2 2023",
+      "cdi": 83.2,
+      "cdd": 5.4,
+      "interim": 1.4
+    },
+    {
+      "trimestre": "T3 2023",
+      "cdi": 83.4,
+      "cdd": 5.3,
+      "interim": 1.3
+    },
+    {
+      "trimestre": "T4 2023",
+      "cdi": 83.4,
+      "cdd": 5.3,
+      "interim": 1.3
+    },
+    {
+      "trimestre": "T1 2024",
+      "cdi": 83.4,
+      "cdd": 5.3,
+      "interim": 1.3
+    },
+    {
+      "trimestre": "T2 2024",
+      "cdi": 83.4,
+      "cdd": 5.3,
+      "interim": 1.3
+    },
+    {
+      "trimestre": "T3 2024",
+      "cdi": 83.4,
+      "cdd": 5.3,
+      "interim": 1.3
+    },
+    {
+      "trimestre": "T4 2024",
+      "cdi": 83.5,
+      "cdd": 5.2,
+      "interim": 1.3
+    },
+    {
+      "trimestre": "T1 2025",
+      "cdi": 83.6,
+      "cdd": 5.1,
+      "interim": 1.3
+    },
+    {
+      "trimestre": "T2 2025",
+      "cdi": 83.5,
+      "cdd": 5.2,
+      "interim": 1.3
+    },
+    {
+      "trimestre": "T3 2025",
+      "cdi": 83.6,
+      "cdd": 5.1,
+      "interim": 1.3
+    }
+  ],
+  "difficultes_recrutement": [
+    {
+      "trimestre": "T1 2023",
+      "industrie": 65,
+      "services": 48,
+      "construction": 78
+    },
+    {
+      "trimestre": "T2 2023",
+      "industrie": 64,
+      "services": 48,
+      "construction": 76
+    },
+    {
+      "trimestre": "T3 2023",
+      "industrie": 60,
+      "services": 45,
+      "construction": 72
+    },
+    {
+      "trimestre": "T4 2023",
+      "industrie": 57,
+      "services": 42,
+      "construction": 68
+    },
+    {
+      "trimestre": "T1 2024",
+      "industrie": 53,
+      "services": 39,
+      "construction": 63
+    },
+    {
+      "trimestre": "T2 2024",
+      "industrie": 52,
+      "services": 39,
+      "construction": 62
+    },
+    {
+      "trimestre": "T3 2024",
+      "industrie": 48,
+      "services": 36,
+      "construction": 57
+    },
+    {
+      "trimestre": "T4 2024",
+      "industrie": 46,
+      "services": 34,
+      "construction": 55
+    },
+    {
+      "trimestre": "T1 2025",
+      "industrie": 44,
+      "services": 33,
+      "construction": 52
+    },
+    {
+      "trimestre": "T2 2025",
+      "industrie": 41,
+      "services": 30,
+      "construction": 49
+    },
+    {
+      "trimestre": "T3 2025",
+      "industrie": 40,
+      "services": 30,
+      "construction": 48
+    },
+    {
+      "trimestre": "T4 2025",
+      "industrie": 38,
+      "services": 28,
+      "construction": 45
+    }
+  ],
+  "emploi_secteur": {
+    "derniere_mise_a_jour": "T3 2025",
+    "secteurs": [
+      {
+        "secteur": "Tertiaire marchand",
+        "emploi": 12850,
+        "evolution_trim": -0.1,
+        "evolution_an": -0.3
+      },
+      {
+        "secteur": "Tertiaire non marchand",
+        "emploi": 8420,
+        "evolution_trim": 0.3,
+        "evolution_an": 0.8
+      },
+      {
+        "secteur": "Industrie",
+        "emploi": 3180,
+        "evolution_trim": -0.1,
+        "evolution_an": -0.3
+      },
+      {
+        "secteur": "Construction",
+        "emploi": 1530,
+        "evolution_trim": 0.0,
+        "evolution_an": -1.3
+      },
+      {
+        "secteur": "Intérim",
+        "emploi": 700,
+        "evolution_trim": -0.6,
+        "evolution_an": -2.9
+      }
+    ],
+    "evolution_trimestrielle": [
+      {
+        "trimestre": "T1 2024",
+        "industrie": 3210,
+        "construction": 1580,
+        "tertiaire": 21100,
+        "interim": 750
+      },
+      {
+        "trimestre": "T2 2024",
+        "industrie": 3200,
+        "construction": 1560,
+        "tertiaire": 21150,
+        "interim": 730
+      },
+      {
+        "trimestre": "T3 2024",
+        "industrie": 3195,
+        "construction": 1545,
+        "tertiaire": 21180,
+        "interim": 720
+      },
+      {
+        "trimestre": "T4 2024",
+        "industrie": 3190,
+        "construction": 1535,
+        "tertiaire": 21220,
+        "interim": 710
+      },
+      {
+        "trimestre": "T1 2025",
+        "industrie": 3185,
+        "construction": 1530,
+        "tertiaire": 21250,
+        "interim": 705
+      },
+      {
+        "trimestre": "T2 2025",
+        "industrie": 3182,
+        "construction": 1530,
+        "tertiaire": 21270,
+        "interim": 702
+      },
+      {
+        "trimestre": "T3 2025",
+        "industrie": 3180,
+        "construction": 1530,
+        "tertiaire": 21270,
+        "interim": 700
+      }
+    ]
+  },
+  "creations_destructions": {
+    "source": "DARES - Mouvements de Main d'Oeuvre",
+    "commentaire": "À mettre à jour manuellement chaque trimestre via DARES",
+    "derniere_mise_a_jour": "T3 2025",
+    "donnees": [
+      {
+        "trimestre": "T1 2024",
+        "creations": 120,
+        "destructions": 95,
+        "solde": 25
+      },
+      {
+        "trimestre": "T2 2024",
+        "creations": 115,
+        "destructions": 100,
+        "solde": 15
+      },
+      {
+        "trimestre": "T3 2024",
+        "creations": 110,
+        "destructions": 105,
+        "solde": 5
+      },
+      {
+        "trimestre": "T4 2024",
+        "creations": 105,
+        "destructions": 110,
+        "solde": -5
+      },
+      {
+        "trimestre": "T1 2025",
+        "creations": 100,
+        "destructions": 108,
+        "solde": -8
+      },
+      {
+        "trimestre": "T2 2025",
+        "creations": 102,
+        "destructions": 105,
+        "solde": -3
+      },
+      {
+        "trimestre": "T3 2025",
+        "creations": 98,
+        "destructions": 108,
+        "solde": -10
+      }
+    ]
+  },
+  "tensions_metiers": {
+    "source": "France Travail - Enquête Besoins en Main d'Oeuvre",
+    "commentaire": "À mettre à jour manuellement chaque année (publication avril)",
+    "annee": 2025,
+    "taux_difficultes_global": 61,
+    "metiers_plus_tendus": [
+      {
+        "metier": "Aides à domicile",
+        "difficulte": 85,
+        "projets": 125000
+      },
+      {
+        "metier": "Aides-soignants",
+        "difficulte": 78,
+        "projets": 98000
+      },
+      {
+        "metier": "Ingénieurs informatique",
+        "difficulte": 75,
+        "projets": 45000
+      },
+      {
+        "metier": "Couvreurs",
+        "difficulte": 82,
+        "projets": 18000
+      },
+      {
+        "metier": "Serveurs",
+        "difficulte": 72,
+        "projets": 95000
+      },
+      {
+        "metier": "Conducteurs routiers",
+        "difficulte": 76,
+        "projets": 52000
+      },
+      {
+        "metier": "Cuisiniers",
+        "difficulte": 70,
+        "projets": 68000
+      },
+      {
+        "metier": "Maçons",
+        "difficulte": 79,
+        "projets": 22000
+      }
+    ],
+    "evolution": [
+      {
+        "annee": "2019",
+        "taux": 50
+      },
+      {
+        "annee": "2020",
+        "taux": 40
+      },
+      {
+        "annee": "2021",
+        "taux": 45
+      },
+      {
+        "annee": "2022",
+        "taux": 58
+      },
+      {
+        "annee": "2023",
+        "taux": 61
+      },
+      {
+        "annee": "2024",
+        "taux": 58
+      },
+      {
+        "annee": "2025",
+        "taux": 61
+      }
+    ]
   }
 }
