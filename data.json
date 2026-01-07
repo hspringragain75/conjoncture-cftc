@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-01-07T07:05:42.585161",
+  "last_updated": "2026-01-07T07:28:24.847623",
   "sources": [
     "INSEE - Indice des prix à la consommation",
     "INSEE - Enquête Emploi",
@@ -236,8 +236,11 @@
     "smic_net": 1443.11,
     "salaire_median": 2190,
     "salaire_moyen": 2733,
-    "ecart_hf_eqtp": 25.8,
-    "difficultes_recrutement": 61
+    "ecart_hf_eqtp": 13.0,
+    "difficultes_recrutement": 61,
+    "irl_glissement": 0.87,
+    "prix_gazole": 1.68,
+    "taux_effort_locataires": 29.6
   },
   "salaire_median": {
     "montant_2024": 2190,
@@ -270,36 +273,36 @@
   },
   "ecart_hommes_femmes": {
     "ecart_global": 22.2,
-    "ecart_eqtp": 25.8,
+    "ecart_eqtp": 13.0,
     "ecart_poste_comparable": 4.0,
     "evolution": [
       {
-        "annee": "2018",
-        "ecart": 23.2
+        "annee": "2015",
+        "ecart": 18.4
+      },
+      {
+        "annee": "2017",
+        "ecart": 16.6
       },
       {
         "annee": "2019",
-        "ecart": 23.8
-      },
-      {
-        "annee": "2020",
-        "ecart": 24.5
+        "ecart": 16.1
       },
       {
         "annee": "2021",
-        "ecart": 24.3
+        "ecart": 15.5
       },
       {
         "annee": "2022",
-        "ecart": 25.1
+        "ecart": 14.9
       },
       {
         "annee": "2023",
-        "ecart": 25.6
+        "ecart": 14.2
       },
       {
         "annee": "2024",
-        "ecart": 25.8
+        "ecart": 13.0
       }
     ]
   },
@@ -741,6 +744,271 @@
       {
         "annee": "2025",
         "taux": 61
+      }
+    ]
+  },
+  "irl": {
+    "valeur_actuelle": 145.77,
+    "glissement_annuel": 0.87,
+    "trimestre": "T3 2025",
+    "evolution": [
+      {
+        "trimestre": "T1 2022",
+        "indice": 133.93,
+        "glissement": 2.48
+      },
+      {
+        "trimestre": "T3 2022",
+        "indice": 136.27,
+        "glissement": 3.49
+      },
+      {
+        "trimestre": "T1 2023",
+        "indice": 138.61,
+        "glissement": 3.49
+      },
+      {
+        "trimestre": "T3 2023",
+        "indice": 141.03,
+        "glissement": 3.49
+      },
+      {
+        "trimestre": "T1 2024",
+        "indice": 143.46,
+        "glissement": 3.5
+      },
+      {
+        "trimestre": "T3 2024",
+        "indice": 144.51,
+        "glissement": 2.47
+      },
+      {
+        "trimestre": "T1 2025",
+        "indice": 145.47,
+        "glissement": 1.4
+      },
+      {
+        "trimestre": "T3 2025",
+        "indice": 145.77,
+        "glissement": 0.87
+      }
+    ]
+  },
+  "prix_immobilier": {
+    "indice_actuel": 128.5,
+    "variation_trim": 1.0,
+    "variation_an": 0.7,
+    "transactions_annuelles": 880000,
+    "evolution": [
+      {
+        "trimestre": "T4 2023",
+        "indice": 128.7,
+        "variation": -3.6
+      },
+      {
+        "trimestre": "T1 2024",
+        "indice": 126.0,
+        "variation": -4.8
+      },
+      {
+        "trimestre": "T2 2024",
+        "indice": 125.7,
+        "variation": -4.6
+      },
+      {
+        "trimestre": "T3 2024",
+        "indice": 127.6,
+        "variation": -3.5
+      },
+      {
+        "trimestre": "T4 2024",
+        "indice": 126.3,
+        "variation": -1.9
+      },
+      {
+        "trimestre": "T1 2025",
+        "indice": 126.5,
+        "variation": 0.4
+      },
+      {
+        "trimestre": "T2 2025",
+        "indice": 126.5,
+        "variation": 0.6
+      },
+      {
+        "trimestre": "T3 2025",
+        "indice": 128.5,
+        "variation": 0.7
+      }
+    ],
+    "par_zone": [
+      {
+        "zone": "Paris",
+        "prix_m2": 9450,
+        "variation": -3.2
+      },
+      {
+        "zone": "Île-de-France",
+        "prix_m2": 6220,
+        "variation": -0.3
+      },
+      {
+        "zone": "Province",
+        "prix_m2": 2650,
+        "variation": 1.2
+      },
+      {
+        "zone": "France entière",
+        "prix_m2": 3180,
+        "variation": -0.5
+      }
+    ]
+  },
+  "carburants": {
+    "gazole": {
+      "prix": 1.68,
+      "variation_an": 1.2
+    },
+    "sp95": {
+      "prix": 1.74,
+      "variation_an": -1.7
+    },
+    "sp98": {
+      "prix": 1.84,
+      "variation_an": -1.7
+    },
+    "evolution": [
+      {
+        "mois": "Jan 2023",
+        "gazole": 1.92,
+        "sp95": 1.87
+      },
+      {
+        "mois": "Avr 2023",
+        "gazole": 1.81,
+        "sp95": 1.95
+      },
+      {
+        "mois": "Juil 2023",
+        "gazole": 1.72,
+        "sp95": 1.85
+      },
+      {
+        "mois": "Oct 2023",
+        "gazole": 1.91,
+        "sp95": 1.89
+      },
+      {
+        "mois": "Jan 2024",
+        "gazole": 1.75,
+        "sp95": 1.82
+      },
+      {
+        "mois": "Avr 2024",
+        "gazole": 1.79,
+        "sp95": 1.94
+      },
+      {
+        "mois": "Juil 2024",
+        "gazole": 1.73,
+        "sp95": 1.86
+      },
+      {
+        "mois": "Oct 2024",
+        "gazole": 1.63,
+        "sp95": 1.76
+      },
+      {
+        "mois": "Jan 2025",
+        "gazole": 1.71,
+        "sp95": 1.81
+      },
+      {
+        "mois": "Avr 2025",
+        "gazole": 1.59,
+        "sp95": 1.73
+      },
+      {
+        "mois": "Juil 2025",
+        "gazole": 1.65,
+        "sp95": 1.72
+      },
+      {
+        "mois": "Oct 2025",
+        "gazole": 1.61,
+        "sp95": 1.72
+      }
+    ]
+  },
+  "taux_effort": {
+    "annee": 2023,
+    "source": "INSEE enquête SRCV 2024",
+    "commentaire": "STATIQUE - À mettre à jour manuellement chaque année",
+    "par_statut": [
+      {
+        "statut": "Locataires secteur libre",
+        "taux_median": 29.6,
+        "taux_q1": 42.0
+      },
+      {
+        "statut": "Accédants propriété",
+        "taux_median": 27.5,
+        "taux_q1": 44.0
+      },
+      {
+        "statut": "Locataires HLM",
+        "taux_median": 24.1,
+        "taux_q1": 30.0
+      },
+      {
+        "statut": "Propriétaires non accédants",
+        "taux_median": 10.0,
+        "taux_q1": 15.0
+      }
+    ],
+    "par_revenu": [
+      {
+        "quartile": "Q1 (25% + modestes)",
+        "taux": 31.0
+      },
+      {
+        "quartile": "Q2",
+        "taux": 22.0
+      },
+      {
+        "quartile": "Q3",
+        "taux": 18.0
+      },
+      {
+        "quartile": "Q4 (25% + aisés)",
+        "taux": 14.1
+      }
+    ],
+    "evolution": [
+      {
+        "annee": "2001",
+        "ensemble": 16.2,
+        "locataires_libre": 23.8
+      },
+      {
+        "annee": "2006",
+        "ensemble": 17.5,
+        "locataires_libre": 25.2
+      },
+      {
+        "annee": "2013",
+        "ensemble": 18.3,
+        "locataires_libre": 28.6
+      },
+      {
+        "annee": "2017",
+        "ensemble": 19.7,
+        "locataires_libre": 28.6
+      },
+      {
+        "annee": "2023",
+        "ensemble": 20.5,
+        "locataires_libre": 29.6
       }
     ]
   }
