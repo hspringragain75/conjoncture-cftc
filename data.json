@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-01-08T13:32:15.704913",
+  "last_updated": "2026-01-08T13:34:33.731017",
   "sources": [
     "INSEE - Indice des prix à la consommation",
     "INSEE - Enquête Emploi",
@@ -230,7 +230,7 @@
   "indicateurs_cles": {
     "taux_chomage_actuel": 7.5,
     "taux_chomage_jeunes": 5.0,
-    "taux_emploi_seniors": 62.0,
+    "taux_emploi_seniors": 7.5,
     "inflation_annuelle": 0.9,
     "smic_brut": 1823.03,
     "smic_net": 1443.11,
@@ -241,7 +241,7 @@
     "irl_glissement": 0.87,
     "prix_gazole": 1.68,
     "taux_effort_locataires": 29.6,
-    "croissance_pib": 0.5,
+    "croissance_pib": 0.9,
     "climat_affaires": 99,
     "defaillances_12m": 68145
   },
@@ -352,47 +352,47 @@
   "emploi_seniors": [
     {
       "trimestre": "T1 2023",
-      "taux": 58.5
+      "taux": 7.2
     },
     {
       "trimestre": "T2 2023",
-      "taux": 58.8
+      "taux": 7.1
     },
     {
       "trimestre": "T3 2023",
-      "taux": 59.2
+      "taux": 7.2
     },
     {
       "trimestre": "T4 2023",
-      "taux": 59.7
+      "taux": 7.4
     },
     {
       "trimestre": "T1 2024",
-      "taux": 60.1
+      "taux": 7.4
     },
     {
       "trimestre": "T2 2024",
-      "taux": 60.5
+      "taux": 7.1
     },
     {
       "trimestre": "T3 2024",
-      "taux": 60.9
+      "taux": 7.4
     },
     {
       "trimestre": "T4 2024",
-      "taux": 61.2
+      "taux": 7.2
     },
     {
       "trimestre": "T1 2025",
-      "taux": 61.5
+      "taux": 7.3
     },
     {
       "trimestre": "T2 2025",
-      "taux": 61.8
+      "taux": 7.5
     },
     {
       "trimestre": "T3 2025",
-      "taux": 62.0
+      "taux": 7.5
     }
   ],
   "types_contrats": [
@@ -466,75 +466,69 @@
   "difficultes_recrutement": [
     {
       "trimestre": "T1 2023",
-      "industrie": 65,
-      "services": 48,
-      "construction": 78
+      "industrie": 52,
+      "services": 38,
+      "construction": 65
     },
     {
       "trimestre": "T2 2023",
-      "industrie": 64,
-      "services": 48,
-      "construction": 76
-    },
-    {
-      "trimestre": "T3 2023",
-      "industrie": 60,
-      "services": 45,
-      "construction": 72
-    },
-    {
-      "trimestre": "T4 2023",
-      "industrie": 57,
-      "services": 42,
-      "construction": 68
-    },
-    {
-      "trimestre": "T1 2024",
-      "industrie": 53,
-      "services": 39,
-      "construction": 63
-    },
-    {
-      "trimestre": "T2 2024",
-      "industrie": 52,
-      "services": 39,
+      "industrie": 50,
+      "services": 36,
       "construction": 62
     },
     {
-      "trimestre": "T3 2024",
+      "trimestre": "T3 2023",
       "industrie": 48,
-      "services": 36,
-      "construction": 57
+      "services": 35,
+      "construction": 60
     },
     {
-      "trimestre": "T4 2024",
-      "industrie": 46,
-      "services": 34,
+      "trimestre": "T4 2023",
+      "industrie": 45,
+      "services": 33,
+      "construction": 58
+    },
+    {
+      "trimestre": "T1 2024",
+      "industrie": 43,
+      "services": 32,
       "construction": 55
     },
     {
-      "trimestre": "T1 2025",
-      "industrie": 44,
-      "services": 33,
+      "trimestre": "T2 2024",
+      "industrie": 41,
+      "services": 30,
       "construction": 52
     },
     {
-      "trimestre": "T2 2025",
-      "industrie": 41,
-      "services": 30,
-      "construction": 49
+      "trimestre": "T3 2024",
+      "industrie": 40,
+      "services": 29,
+      "construction": 50
     },
     {
-      "trimestre": "T3 2025",
-      "industrie": 40,
-      "services": 30,
+      "trimestre": "T4 2024",
+      "industrie": 38,
+      "services": 28,
       "construction": 48
     },
     {
-      "trimestre": "T4 2025",
-      "industrie": 38,
-      "services": 28,
+      "trimestre": "T1 2025",
+      "industrie": 36,
+      "services": 27,
+      "construction": 46
+    },
+    {
+      "trimestre": "T2 2025",
+      "industrie": 35,
+      "services": 26,
       "construction": 45
+    },
+    {
+      "trimestre": "T3 2025",
+      "industrie": 34,
+      "services": 25,
+      "construction": 44
     }
   ],
   "emploi_secteur": {
@@ -1051,70 +1045,70 @@
     ]
   },
   "pib": {
-    "croissance_trim_actuel": 0.5,
-    "croissance_annuelle": 1.1,
+    "croissance_trim_actuel": 0.9,
+    "croissance_annuelle": 1.8,
     "trimestre": "T3 2025",
-    "commentaire": "PIB volume trimestriel",
+    "commentaire": "PIB volume trimestriel - INSEE",
     "evolution": [
       {
         "trimestre": "T1 2022",
-        "croissance": 0.0
+        "croissance": 0.8
       },
       {
         "trimestre": "T2 2022",
-        "croissance": 0.5
+        "croissance": 1.0
       },
       {
         "trimestre": "T3 2022",
-        "croissance": 0.2
+        "croissance": 2.0
       },
       {
         "trimestre": "T4 2022",
-        "croissance": 0.1
+        "croissance": 1.9
       },
       {
         "trimestre": "T1 2023",
-        "croissance": 0.1
+        "croissance": 1.5
       },
       {
         "trimestre": "T2 2023",
-        "croissance": 0.6
+        "croissance": 2.3
       },
       {
         "trimestre": "T3 2023",
-        "croissance": 0.0
+        "croissance": 0.7
       },
       {
         "trimestre": "T4 2023",
-        "croissance": 0.0
+        "croissance": 1.3
       },
       {
         "trimestre": "T1 2024",
-        "croissance": 0.2
+        "croissance": 0.5
       },
       {
         "trimestre": "T2 2024",
-        "croissance": 0.3
+        "croissance": 0.1
       },
       {
         "trimestre": "T3 2024",
-        "croissance": 0.4
+        "croissance": 1.5
       },
       {
         "trimestre": "T4 2024",
-        "croissance": -0.1
+        "croissance": -0.0
       },
       {
         "trimestre": "T1 2025",
-        "croissance": 0.2
+        "croissance": 0.5
       },
       {
         "trimestre": "T2 2025",
-        "croissance": 0.3
+        "croissance": 0.4
       },
       {
         "trimestre": "T3 2025",
-        "croissance": 0.5
+        "croissance": 0.9
       }
     ],
     "contributions": {
@@ -1383,5 +1377,293 @@
         "variation_an": -1.2
       }
     ]
+  },
+  "partage_va": {
+    "commentaire": "STATIQUE - Comptes nationaux INSEE base 2020 - màj annuelle",
+    "annee_actuelle": 2024,
+    "part_salaires_snf": 57.8,
+    "part_ebe_snf": 32.5,
+    "part_impots_snf": 9.7,
+    "evolution": [
+      {
+        "annee": "1980",
+        "salaires": 68.0,
+        "ebe": 25.5
+      },
+      {
+        "annee": "1990",
+        "salaires": 60.5,
+        "ebe": 31.5
+      },
+      {
+        "annee": "2000",
+        "salaires": 58.5,
+        "ebe": 32.8
+      },
+      {
+        "annee": "2010",
+        "salaires": 58.2,
+        "ebe": 32.4
+      },
+      {
+        "annee": "2020",
+        "salaires": 58.5,
+        "ebe": 31.0
+      },
+      {
+        "annee": "2022",
+        "salaires": 56.5,
+        "ebe": 34.0
+      },
+      {
+        "annee": "2024",
+        "salaires": 57.8,
+        "ebe": 32.5
+      }
+    ],
+    "par_secteur": [
+      {
+        "secteur": "Industrie",
+        "salaires": 52,
+        "ebe": 30
+      },
+      {
+        "secteur": "Construction",
+        "salaires": 60,
+        "ebe": 25
+      },
+      {
+        "secteur": "Commerce",
+        "salaires": 55,
+        "ebe": 32
+      },
+      {
+        "secteur": "Services march.",
+        "salaires": 58,
+        "ebe": 22
+      },
+      {
+        "secteur": "Info-comm",
+        "salaires": 48,
+        "ebe": 38
+      }
+    ],
+    "taux_marge_snf": [
+      {
+        "annee": "2019",
+        "taux": 31.8
+      },
+      {
+        "annee": "2020",
+        "taux": 29.5
+      },
+      {
+        "annee": "2021",
+        "taux": 33.8
+      },
+      {
+        "annee": "2022",
+        "taux": 32.8
+      },
+      {
+        "annee": "2023",
+        "taux": 32.2
+      },
+      {
+        "annee": "2024",
+        "taux": 32.5
+      }
+    ]
+  },
+  "comparaison_ue": {
+    "commentaire": "STATIQUE - Eurostat - màj semestrielle (juillet 2025)",
+    "date_maj": "2025-07-01",
+    "smic_europe": [
+      {
+        "pays": "Luxembourg",
+        "code": "LU",
+        "smic": 2704,
+        "spa": 2035
+      },
+      {
+        "pays": "Irlande",
+        "code": "IE",
+        "smic": 2282,
+        "spa": 1653
+      },
+      {
+        "pays": "Pays-Bas",
+        "code": "NL",
+        "smic": 2246,
+        "spa": 1825
+      },
+      {
+        "pays": "Allemagne",
+        "code": "DE",
+        "smic": 2161,
+        "spa": 1989
+      },
+      {
+        "pays": "Belgique",
+        "code": "BE",
+        "smic": 2112,
+        "spa": 1750
+      },
+      {
+        "pays": "France",
+        "code": "FR",
+        "smic": 1802,
+        "spa": 1580
+      },
+      {
+        "pays": "Espagne",
+        "code": "ES",
+        "smic": 1323,
+        "spa": 1350
+      },
+      {
+        "pays": "Pologne",
+        "code": "PL",
+        "smic": 1091,
+        "spa": 1420
+      },
+      {
+        "pays": "Bulgarie",
+        "code": "BG",
+        "smic": 551,
+        "spa": 886
+      }
+    ],
+    "chomage_europe": [
+      {
+        "pays": "Allemagne",
+        "code": "DE",
+        "taux": 3.7,
+        "jeunes": 6.7
+      },
+      {
+        "pays": "Pays-Bas",
+        "code": "NL",
+        "taux": 3.8,
+        "jeunes": 8.8
+      },
+      {
+        "pays": "Pologne",
+        "code": "PL",
+        "taux": 2.9,
+        "jeunes": 10.5
+      },
+      {
+        "pays": "France",
+        "code": "FR",
+        "taux": 7.7,
+        "jeunes": 18.3
+      },
+      {
+        "pays": "Italie",
+        "code": "IT",
+        "taux": 6.1,
+        "jeunes": 20.6
+      },
+      {
+        "pays": "Espagne",
+        "code": "ES",
+        "taux": 10.5,
+        "jeunes": 25.0
+      },
+      {
+        "pays": "UE-27",
+        "code": "EU",
+        "taux": 6.0,
+        "jeunes": 14.8
+      }
+    ],
+    "part_salaires_va_ue": [
+      {
+        "pays": "Allemagne",
+        "code": "DE",
+        "part": 61.2
+      },
+      {
+        "pays": "Pays-Bas",
+        "code": "NL",
+        "part": 58.5
+      },
+      {
+        "pays": "France",
+        "code": "FR",
+        "part": 57.8
+      },
+      {
+        "pays": "UE-27",
+        "code": "EU",
+        "part": 56.8
+      },
+      {
+        "pays": "Espagne",
+        "code": "ES",
+        "part": 54.2
+      },
+      {
+        "pays": "Italie",
+        "code": "IT",
+        "part": 53.5
+      }
+    ]
+  },
+  "simulateur_nao": {
+    "commentaire": "Paramètres pour le simulateur NAO - màj annuelle (janvier)",
+    "annee": 2025,
+    "taux_cotisations": {
+      "non_cadre": 0.23,
+      "cadre": 0.25,
+      "fonctionnaire": 0.17,
+      "detail": {
+        "non_cadre": {
+          "securite_sociale": 0.073,
+          "retraite_complementaire": 0.0315,
+          "csg_crds": 0.097,
+          "chomage": 0.0,
+          "autres": 0.028
+        },
+        "cadre": {
+          "securite_sociale": 0.073,
+          "retraite_complementaire": 0.0315,
+          "csg_crds": 0.097,
+          "apec": 0.00024,
+          "prevoyance": 0.015,
+          "autres": 0.033
+        },
+        "fonctionnaire": {
+          "pension_civile": 0.111,
+          "rafp": 0.05,
+          "csg_crds": 0.009
+        }
+      }
+    },
+    "prime_activite": {
+      "forfait_base": 633.21,
+      "majoration_couple": 1.5,
+      "majoration_enfant": 0.3,
+      "seuil_bonification_min": 700.92,
+      "seuil_bonification_max": 1416,
+      "bonification_max": 184.27,
+      "forfait_logement_seul": 76.04,
+      "forfait_logement_couple": 152.08,
+      "seuil_versement": 15,
+      "plafond_ressources_seul": 1900,
+      "plafond_ressources_couple": 2500
+    },
+    "smic": {
+      "brut_mensuel": 1823.03,
+      "net_mensuel": 1443.11,
+      "horaire_brut": 12.02,
+      "date_vigueur": "2025-01-01"
+    },
+    "exonerations": {
+      "seuil_fillon": 1.6,
+      "taux_patronal_avec_fillon": 0.3,
+      "taux_patronal_sans_fillon": 0.45
+    }
   }
 }
