@@ -1,166 +1,46 @@
 {
-  "last_updated": "2026-01-09T11:48:20.294783",
+  "last_updated": "2026-01-06T14:00:00",
   "sources": [
     "INSEE - Indice des prix à la consommation",
     "INSEE - Enquête Emploi",
     "INSEE - Estimations trimestrielles d'emploi",
-    "INSEE - Base Tous salariés",
-    "INSEE - Indices trimestriels de salaire (ACEMO)",
     "INSEE - Enquête de conjoncture industrie",
     "DARES - Mouvements de Main d'Oeuvre",
     "France Travail - Enquête BMO",
     "Urssaf - Prime de partage de la valeur"
   ],
   "inflation_salaires": [
-    {
-      "annee": "2021",
-      "inflation": 1.6,
-      "smic": 2.2,
-      "salaires_base": 1.4
-    },
-    {
-      "annee": "2022",
-      "inflation": 5.2,
-      "smic": 5.6,
-      "salaires_base": 3.5
-    },
-    {
-      "annee": "2023",
-      "inflation": 4.9,
-      "smic": 6.6,
-      "salaires_base": 4.2
-    },
-    {
-      "annee": "2024",
-      "inflation": 2.0,
-      "smic": 2.0,
-      "salaires_base": 2.8
-    },
-    {
-      "annee": "2025",
-      "inflation": 0.9,
-      "smic": 1.2,
-      "salaires_base": 2.0
-    }
+    { "annee": "2020", "inflation": 0.5, "smic": 1.2, "salaires_base": 1.5 },
+    { "annee": "2021", "inflation": 1.6, "smic": 2.2, "salaires_base": 1.4 },
+    { "annee": "2022", "inflation": 5.2, "smic": 5.6, "salaires_base": 3.5 },
+    { "annee": "2023", "inflation": 4.9, "smic": 6.6, "salaires_base": 4.2 },
+    { "annee": "2024", "inflation": 2.0, "smic": 2.0, "salaires_base": 2.8 },
+    { "annee": "2025", "inflation": 0.9, "smic": 1.2, "salaires_base": 2.0 }
   ],
   "pouvoir_achat_cumule": [
-    {
-      "periode": "T4 2020",
-      "smic": 100,
-      "salaires": 100,
-      "prix": 100
-    },
-    {
-      "periode": "T2 2021",
-      "smic": 101,
-      "salaires": 100.5,
-      "prix": 101
-    },
-    {
-      "periode": "T4 2021",
-      "smic": 102.2,
-      "salaires": 101.4,
-      "prix": 102.5
-    },
-    {
-      "periode": "T2 2022",
-      "smic": 105,
-      "salaires": 103,
-      "prix": 106
-    },
-    {
-      "periode": "T4 2022",
-      "smic": 108,
-      "salaires": 105,
-      "prix": 109
-    },
-    {
-      "periode": "T2 2023",
-      "smic": 112,
-      "salaires": 108,
-      "prix": 113
-    },
-    {
-      "periode": "T4 2023",
-      "smic": 115,
-      "salaires": 111,
-      "prix": 115
-    },
-    {
-      "periode": "T2 2024",
-      "smic": 116,
-      "salaires": 113,
-      "prix": 116
-    },
-    {
-      "periode": "T4 2024",
-      "smic": 117,
-      "salaires": 115,
-      "prix": 117
-    },
-    {
-      "periode": "T3 2025",
-      "smic": 118,
-      "salaires": 116.5,
-      "prix": 117.5
-    }
+    { "periode": "T4 2020", "smic": 100, "salaires": 100, "prix": 100 },
+    { "periode": "T2 2021", "smic": 101, "salaires": 100.5, "prix": 101 },
+    { "periode": "T4 2021", "smic": 102.2, "salaires": 101.4, "prix": 102.5 },
+    { "periode": "T2 2022", "smic": 105, "salaires": 103, "prix": 106 },
+    { "periode": "T4 2022", "smic": 108, "salaires": 105, "prix": 109 },
+    { "periode": "T2 2023", "smic": 112, "salaires": 108, "prix": 113 },
+    { "periode": "T4 2023", "smic": 115, "salaires": 111, "prix": 115 },
+    { "periode": "T2 2024", "smic": 116, "salaires": 113, "prix": 116 },
+    { "periode": "T4 2024", "smic": 117, "salaires": 115, "prix": 117 },
+    { "periode": "T3 2025", "smic": 118, "salaires": 116.5, "prix": 117.5 }
   ],
   "chomage": [
-    {
-      "trimestre": "T1 2023",
-      "taux": 6.9,
-      "jeunes": 5.0
-    },
-    {
-      "trimestre": "T2 2023",
-      "taux": 7.0,
-      "jeunes": 4.9
-    },
-    {
-      "trimestre": "T3 2023",
-      "taux": 7.2,
-      "jeunes": 5.0
-    },
-    {
-      "trimestre": "T4 2023",
-      "taux": 7.3,
-      "jeunes": 4.9
-    },
-    {
-      "trimestre": "T1 2024",
-      "taux": 7.3,
-      "jeunes": 4.8
-    },
-    {
-      "trimestre": "T2 2024",
-      "taux": 7.1,
-      "jeunes": 4.9
-    },
-    {
-      "trimestre": "T3 2024",
-      "taux": 7.2,
-      "jeunes": 4.5
-    },
-    {
-      "trimestre": "T4 2024",
-      "taux": 7.1,
-      "jeunes": 4.6
-    },
-    {
-      "trimestre": "T1 2025",
-      "taux": 7.3,
-      "jeunes": 4.6
-    },
-    {
-      "trimestre": "T2 2025",
-      "taux": 7.4,
-      "jeunes": 4.7
-    },
-    {
-      "trimestre": "T3 2025",
-      "taux": 7.5,
-      "jeunes": 5.0
-    }
+    { "trimestre": "T1 2023", "taux": 7.1, "jeunes": 17.5 },
+    { "trimestre": "T2 2023", "taux": 7.2, "jeunes": 17.0 },
+    { "trimestre": "T3 2023", "taux": 7.4, "jeunes": 17.6 },
+    { "trimestre": "T4 2023", "taux": 7.5, "jeunes": 17.6 },
+    { "trimestre": "T1 2024", "taux": 7.5, "jeunes": 18.1 },
+    { "trimestre": "T2 2024", "taux": 7.3, "jeunes": 17.7 },
+    { "trimestre": "T3 2024", "taux": 7.4, "jeunes": 18.3 },
+    { "trimestre": "T4 2024", "taux": 7.3, "jeunes": 19.0 },
+    { "trimestre": "T1 2025", "taux": 7.4, "jeunes": 18.5 },
+    { "trimestre": "T2 2025", "taux": 7.5, "jeunes": 18.8 },
+    { "trimestre": "T3 2025", "taux": 7.7, "jeunes": 19.2 }
   ],
   "smic": {
     "montant_brut": 1823.03,
@@ -169,585 +49,165 @@
     "date_vigueur": "2026-01-01",
     "evolution_depuis_2020": 17,
     "part_salaries": [
-      {
-        "annee": "2019",
-        "part": 12.0
-      },
-      {
-        "annee": "2020",
-        "part": 12.5
-      },
-      {
-        "annee": "2021",
-        "part": 13.4
-      },
-      {
-        "annee": "2022",
-        "part": 14.5
-      },
-      {
-        "annee": "2023",
-        "part": 17.3
-      },
-      {
-        "annee": "2024",
-        "part": 14.6
-      }
+      { "annee": "2019", "part": 12.0 },
+      { "annee": "2020", "part": 12.5 },
+      { "annee": "2021", "part": 13.4 },
+      { "annee": "2022", "part": 14.5 },
+      { "annee": "2023", "part": 17.3 },
+      { "annee": "2024", "part": 14.6 }
     ]
   },
   "inflation_detail": [
-    {
-      "poste": "Alimentation",
-      "val2022": 6.8,
-      "val2023": 11.8,
-      "val2024": 1.4
-    },
-    {
-      "poste": "Énergie",
-      "val2022": 23.1,
-      "val2023": 5.6,
-      "val2024": 2.3
-    },
-    {
-      "poste": "Services",
-      "val2022": 3.0,
-      "val2023": 3.0,
-      "val2024": 2.7
-    },
-    {
-      "poste": "Manufacturés",
-      "val2022": 3.3,
-      "val2023": 3.5,
-      "val2024": 0.0
-    },
-    {
-      "poste": "Loyers",
-      "val2022": 2.0,
-      "val2023": 2.8,
-      "val2024": 2.8
-    }
+    { "poste": "Alimentation", "val2022": 6.8, "val2023": 11.8, "val2024": 1.4 },
+    { "poste": "Énergie", "val2022": 23.1, "val2023": 5.6, "val2024": 2.3 },
+    { "poste": "Services", "val2022": 3.0, "val2023": 3.0, "val2024": 2.7 },
+    { "poste": "Manufacturés", "val2022": 3.3, "val2023": 3.5, "val2024": 0.0 },
+    { "poste": "Loyers", "val2022": 2.0, "val2023": 2.8, "val2024": 2.8 }
   ],
   "indicateurs_cles": {
-    "taux_chomage_actuel": 7.5,
-    "taux_chomage_jeunes": 5.0,
-    "taux_emploi_seniors": 7.5,
+    "taux_chomage_actuel": 7.7,
+    "taux_chomage_jeunes": 19.2,
+    "taux_emploi_seniors": 62.0,
     "inflation_annuelle": 0.9,
     "smic_brut": 1823.03,
     "smic_net": 1443.11,
     "salaire_median": 2190,
     "salaire_moyen": 2733,
-    "ecart_hf_eqtp": 25.8,
+    "ecart_hf_eqtp": 13.0,
     "difficultes_recrutement": 61,
     "irl_glissement": 0.87,
-    "prix_gazole": 1.68,
+    "prix_gazole": 1.58,
     "taux_effort_locataires": 29.6,
-    "croissance_pib": 0.9,
-    "climat_affaires": 99,
-    "defaillances_12m": 68145
+    "croissance_pib": 0.5,
+    "climat_affaires": 98,
+    "defaillances_12m": 68227
   },
   "salaire_median": {
     "montant_2024": 2190,
     "evolution": [
-      {
-        "annee": "2019",
-        "montant": 1940
-      },
-      {
-        "annee": "2020",
-        "montant": 1960
-      },
-      {
-        "annee": "2021",
-        "montant": 2010
-      },
-      {
-        "annee": "2022",
-        "montant": 2090
-      },
-      {
-        "annee": "2023",
-        "montant": 2091
-      },
-      {
-        "annee": "2024",
-        "montant": 2190
-      }
+      { "annee": "2019", "montant": 1940 },
+      { "annee": "2020", "montant": 1960 },
+      { "annee": "2021", "montant": 2010 },
+      { "annee": "2022", "montant": 2090 },
+      { "annee": "2023", "montant": 2091 },
+      { "annee": "2024", "montant": 2190 }
     ]
   },
   "ecart_hommes_femmes": {
     "ecart_global": 22.2,
-    "ecart_eqtp": 25.8,
+    "ecart_eqtp": 13.0,
     "ecart_poste_comparable": 4.0,
     "evolution": [
-      {
-        "annee": "2018",
-        "ecart": 23.2
-      },
-      {
-        "annee": "2019",
-        "ecart": 23.8
-      },
-      {
-        "annee": "2020",
-        "ecart": 24.5
-      },
-      {
-        "annee": "2021",
-        "ecart": 24.3
-      },
-      {
-        "annee": "2022",
-        "ecart": 25.1
-      },
-      {
-        "annee": "2023",
-        "ecart": 25.6
-      },
-      {
-        "annee": "2024",
-        "ecart": 25.8
-      }
+      { "annee": "2015", "ecart": 18.4 },
+      { "annee": "2017", "ecart": 16.6 },
+      { "annee": "2019", "ecart": 16.1 },
+      { "annee": "2021", "ecart": 15.5 },
+      { "annee": "2022", "ecart": 14.9 },
+      { "annee": "2023", "ecart": 14.2 },
+      { "annee": "2024", "ecart": 13.0 }
     ]
   },
   "salaires_secteur": [
-    {
-      "secteur": "Services financiers",
-      "salaire": 4123,
-      "evolution": 0.5
-    },
-    {
-      "secteur": "Info-communication",
-      "salaire": 3853,
-      "evolution": 0.8
-    },
-    {
-      "secteur": "Industrie",
-      "salaire": 3021,
-      "evolution": 1.1
-    },
-    {
-      "secteur": "Tertiaire (moyenne)",
-      "salaire": 2705,
-      "evolution": 0.7
-    },
-    {
-      "secteur": "Construction",
-      "salaire": 2411,
-      "evolution": 0.4
-    },
-    {
-      "secteur": "Héberg.-restauration",
-      "salaire": 1979,
-      "evolution": 0.9
-    }
+    { "secteur": "Services financiers", "salaire": 4123, "evolution": 0.5 },
+    { "secteur": "Info-communication", "salaire": 3853, "evolution": 0.8 },
+    { "secteur": "Industrie", "salaire": 3021, "evolution": 1.1 },
+    { "secteur": "Tertiaire (moyenne)", "salaire": 2705, "evolution": 0.7 },
+    { "secteur": "Construction", "salaire": 2411, "evolution": 0.4 },
+    { "secteur": "Héberg.-restauration", "salaire": 1979, "evolution": 0.9 }
   ],
   "ppv": {
     "beneficiaires_2023": 23.1,
     "beneficiaires_2024": 14.6,
     "montant_total_2023": 5.3,
     "montant_total_2024": 3.4,
-    "montant_moyen": 885,
-    "commentaire": "Données Urssaf - À mettre à jour manuellement chaque année"
+    "montant_moyen": 885
   },
   "emploi_seniors": [
-    {
-      "trimestre": "T1 2023",
-      "taux": 7.2
-    },
-    {
-      "trimestre": "T2 2023",
-      "taux": 7.1
-    },
-    {
-      "trimestre": "T3 2023",
-      "taux": 7.2
-    },
-    {
-      "trimestre": "T4 2023",
-      "taux": 7.4
-    },
-    {
-      "trimestre": "T1 2024",
-      "taux": 7.4
-    },
-    {
-      "trimestre": "T2 2024",
-      "taux": 7.1
-    },
-    {
-      "trimestre": "T3 2024",
-      "taux": 7.4
-    },
-    {
-      "trimestre": "T4 2024",
-      "taux": 7.2
-    },
-    {
-      "trimestre": "T1 2025",
-      "taux": 7.3
-    },
-    {
-      "trimestre": "T2 2025",
-      "taux": 7.5
-    },
-    {
-      "trimestre": "T3 2025",
-      "taux": 7.5
-    }
+    { "trimestre": "T1 2023", "taux": 58.5 },
+    { "trimestre": "T2 2023", "taux": 58.8 },
+    { "trimestre": "T3 2023", "taux": 59.2 },
+    { "trimestre": "T4 2023", "taux": 59.7 },
+    { "trimestre": "T1 2024", "taux": 60.1 },
+    { "trimestre": "T2 2024", "taux": 60.5 },
+    { "trimestre": "T3 2024", "taux": 60.9 },
+    { "trimestre": "T4 2024", "taux": 61.2 },
+    { "trimestre": "T1 2025", "taux": 61.5 },
+    { "trimestre": "T2 2025", "taux": 61.8 },
+    { "trimestre": "T3 2025", "taux": 62.0 }
   ],
   "types_contrats": [
-    {
-      "trimestre": "T1 2023",
-      "cdi": 83.2,
-      "cdd": 5.4,
-      "interim": 1.4
-    },
-    {
-      "trimestre": "T2 2023",
-      "cdi": 83.2,
-      "cdd": 5.4,
-      "interim": 1.4
-    },
-    {
-      "trimestre": "T3 2023",
-      "cdi": 83.4,
-      "cdd": 5.3,
-      "interim": 1.3
-    },
-    {
-      "trimestre": "T4 2023",
-      "cdi": 83.4,
-      "cdd": 5.3,
-      "interim": 1.3
-    },
-    {
-      "trimestre": "T1 2024",
-      "cdi": 83.4,
-      "cdd": 5.3,
-      "interim": 1.3
-    },
-    {
-      "trimestre": "T2 2024",
-      "cdi": 83.4,
-      "cdd": 5.3,
-      "interim": 1.3
-    },
-    {
-      "trimestre": "T3 2024",
-      "cdi": 83.4,
-      "cdd": 5.3,
-      "interim": 1.3
-    },
-    {
-      "trimestre": "T4 2024",
-      "cdi": 83.5,
-      "cdd": 5.2,
-      "interim": 1.3
-    },
-    {
-      "trimestre": "T1 2025",
-      "cdi": 83.6,
-      "cdd": 5.1,
-      "interim": 1.3
-    },
-    {
-      "trimestre": "T2 2025",
-      "cdi": 83.5,
-      "cdd": 5.2,
-      "interim": 1.3
-    },
-    {
-      "trimestre": "T3 2025",
-      "cdi": 83.6,
-      "cdd": 5.1,
-      "interim": 1.3
-    }
+    { "trimestre": "T1 2023", "cdi": 74.5, "cdd": 8.8, "interim": 2.2 },
+    { "trimestre": "T2 2023", "cdi": 74.3, "cdd": 9.0, "interim": 2.1 },
+    { "trimestre": "T3 2023", "cdi": 74.4, "cdd": 8.9, "interim": 2.0 },
+    { "trimestre": "T4 2023", "cdi": 74.6, "cdd": 8.7, "interim": 2.0 },
+    { "trimestre": "T1 2024", "cdi": 74.8, "cdd": 8.5, "interim": 1.9 },
+    { "trimestre": "T2 2024", "cdi": 74.7, "cdd": 8.6, "interim": 1.9 },
+    { "trimestre": "T3 2024", "cdi": 74.9, "cdd": 8.4, "interim": 1.8 },
+    { "trimestre": "T4 2024", "cdi": 75.0, "cdd": 8.3, "interim": 1.8 },
+    { "trimestre": "T1 2025", "cdi": 75.1, "cdd": 8.2, "interim": 1.7 },
+    { "trimestre": "T2 2025", "cdi": 75.2, "cdd": 8.1, "interim": 1.7 },
+    { "trimestre": "T3 2025", "cdi": 75.3, "cdd": 8.0, "interim": 1.6 }
   ],
   "difficultes_recrutement": [
-    {
-      "trimestre": "T1 2023",
-      "industrie": 65,
-      "services": 48,
-      "construction": 78
-    },
-    {
-      "trimestre": "T2 2023",
-      "industrie": 64,
-      "services": 48,
-      "construction": 76
-    },
-    {
-      "trimestre": "T3 2023",
-      "industrie": 60,
-      "services": 45,
-      "construction": 72
-    },
-    {
-      "trimestre": "T4 2023",
-      "industrie": 57,
-      "services": 42,
-      "construction": 68
-    },
-    {
-      "trimestre": "T1 2024",
-      "industrie": 53,
-      "services": 39,
-      "construction": 63
-    },
-    {
-      "trimestre": "T2 2024",
-      "industrie": 52,
-      "services": 39,
-      "construction": 62
-    },
-    {
-      "trimestre": "T3 2024",
-      "industrie": 48,
-      "services": 36,
-      "construction": 57
-    },
-    {
-      "trimestre": "T4 2024",
-      "industrie": 46,
-      "services": 34,
-      "construction": 55
-    },
-    {
-      "trimestre": "T1 2025",
-      "industrie": 44,
-      "services": 33,
-      "construction": 52
-    },
-    {
-      "trimestre": "T2 2025",
-      "industrie": 41,
-      "services": 30,
-      "construction": 49
-    },
-    {
-      "trimestre": "T3 2025",
-      "industrie": 40,
-      "services": 30,
-      "construction": 48
-    },
-    {
-      "trimestre": "T4 2025",
-      "industrie": 38,
-      "services": 28,
-      "construction": 45
-    }
+    { "trimestre": "T1 2023", "industrie": 52, "services": 38, "construction": 65 },
+    { "trimestre": "T2 2023", "industrie": 50, "services": 36, "construction": 62 },
+    { "trimestre": "T3 2023", "industrie": 48, "services": 35, "construction": 60 },
+    { "trimestre": "T4 2023", "industrie": 45, "services": 33, "construction": 58 },
+    { "trimestre": "T1 2024", "industrie": 43, "services": 32, "construction": 55 },
+    { "trimestre": "T2 2024", "industrie": 41, "services": 30, "construction": 52 },
+    { "trimestre": "T3 2024", "industrie": 40, "services": 29, "construction": 50 },
+    { "trimestre": "T4 2024", "industrie": 38, "services": 28, "construction": 48 },
+    { "trimestre": "T1 2025", "industrie": 36, "services": 27, "construction": 46 },
+    { "trimestre": "T2 2025", "industrie": 35, "services": 26, "construction": 45 },
+    { "trimestre": "T3 2025", "industrie": 34, "services": 25, "construction": 44 }
   ],
   "emploi_secteur": {
     "derniere_mise_a_jour": "T3 2025",
     "secteurs": [
-      {
-        "secteur": "Tertiaire marchand",
-        "emploi": 12850,
-        "evolution_trim": -0.1,
-        "evolution_an": -0.3
-      },
-      {
-        "secteur": "Tertiaire non marchand",
-        "emploi": 8420,
-        "evolution_trim": 0.3,
-        "evolution_an": 0.8
-      },
-      {
-        "secteur": "Industrie",
-        "emploi": 3180,
-        "evolution_trim": -0.1,
-        "evolution_an": -0.3
-      },
-      {
-        "secteur": "Construction",
-        "emploi": 1530,
-        "evolution_trim": 0.0,
-        "evolution_an": -1.3
-      },
-      {
-        "secteur": "Intérim",
-        "emploi": 700,
-        "evolution_trim": -0.6,
-        "evolution_an": -2.9
-      }
-    ],
-    "evolution_trimestrielle": [
-      {
-        "trimestre": "T1 2024",
-        "industrie": 3210,
-        "construction": 1580,
-        "tertiaire": 21100,
-        "interim": 750
-      },
-      {
-        "trimestre": "T2 2024",
-        "industrie": 3200,
-        "construction": 1560,
-        "tertiaire": 21150,
-        "interim": 730
-      },
-      {
-        "trimestre": "T3 2024",
-        "industrie": 3195,
-        "construction": 1545,
-        "tertiaire": 21180,
-        "interim": 720
-      },
-      {
-        "trimestre": "T4 2024",
-        "industrie": 3190,
-        "construction": 1535,
-        "tertiaire": 21220,
-        "interim": 710
-      },
-      {
-        "trimestre": "T1 2025",
-        "industrie": 3185,
-        "construction": 1530,
-        "tertiaire": 21250,
-        "interim": 705
-      },
-      {
-        "trimestre": "T2 2025",
-        "industrie": 3182,
-        "construction": 1530,
-        "tertiaire": 21270,
-        "interim": 702
-      },
-      {
-        "trimestre": "T3 2025",
-        "industrie": 3180,
-        "construction": 1530,
-        "tertiaire": 21270,
-        "interim": 700
-      }
+      { "secteur": "Tertiaire marchand", "emploi": 12850, "evolution_trim": -0.1, "evolution_an": -0.3 },
+      { "secteur": "Tertiaire non marchand", "emploi": 8420, "evolution_trim": 0.3, "evolution_an": 0.8 },
+      { "secteur": "Industrie", "emploi": 3180, "evolution_trim": -0.1, "evolution_an": -0.3 },
+      { "secteur": "Construction", "emploi": 1530, "evolution_trim": 0.0, "evolution_an": -1.3 },
+      { "secteur": "Intérim", "emploi": 700, "evolution_trim": -0.6, "evolution_an": -2.9 }
     ]
   },
   "creations_destructions": {
     "source": "DARES - Mouvements de Main d'Oeuvre",
-    "commentaire": "À mettre à jour manuellement chaque trimestre via DARES",
+    "commentaire": "STATIQUE - À mettre à jour manuellement chaque trimestre",
     "derniere_mise_a_jour": "T3 2025",
     "donnees": [
-      {
-        "trimestre": "T1 2024",
-        "creations": 120,
-        "destructions": 95,
-        "solde": 25
-      },
-      {
-        "trimestre": "T2 2024",
-        "creations": 115,
-        "destructions": 100,
-        "solde": 15
-      },
-      {
-        "trimestre": "T3 2024",
-        "creations": 110,
-        "destructions": 105,
-        "solde": 5
-      },
-      {
-        "trimestre": "T4 2024",
-        "creations": 105,
-        "destructions": 110,
-        "solde": -5
-      },
-      {
-        "trimestre": "T1 2025",
-        "creations": 100,
-        "destructions": 108,
-        "solde": -8
-      },
-      {
-        "trimestre": "T2 2025",
-        "creations": 102,
-        "destructions": 105,
-        "solde": -3
-      },
-      {
-        "trimestre": "T3 2025",
-        "creations": 98,
-        "destructions": 108,
-        "solde": -10
-      }
+      { "trimestre": "T1 2024", "creations": 120, "destructions": 95, "solde": 25 },
+      { "trimestre": "T2 2024", "creations": 115, "destructions": 100, "solde": 15 },
+      { "trimestre": "T3 2024", "creations": 110, "destructions": 105, "solde": 5 },
+      { "trimestre": "T4 2024", "creations": 105, "destructions": 110, "solde": -5 },
+      { "trimestre": "T1 2025", "creations": 100, "destructions": 108, "solde": -8 },
+      { "trimestre": "T2 2025", "creations": 102, "destructions": 105, "solde": -3 },
+      { "trimestre": "T3 2025", "creations": 98, "destructions": 108, "solde": -10 }
     ]
   },
   "tensions_metiers": {
-    "source": "France Travail - Enquête Besoins en Main d'Oeuvre",
-    "commentaire": "À mettre à jour manuellement chaque année (publication avril)",
+    "source": "France Travail - Enquête BMO",
+    "commentaire": "STATIQUE - À mettre à jour manuellement chaque année (avril)",
     "annee": 2025,
     "taux_difficultes_global": 61,
     "metiers_plus_tendus": [
-      {
-        "metier": "Aides à domicile",
-        "difficulte": 85,
-        "projets": 125000
-      },
-      {
-        "metier": "Aides-soignants",
-        "difficulte": 78,
-        "projets": 98000
-      },
-      {
-        "metier": "Ingénieurs informatique",
-        "difficulte": 75,
-        "projets": 45000
-      },
-      {
-        "metier": "Couvreurs",
-        "difficulte": 82,
-        "projets": 18000
-      },
-      {
-        "metier": "Serveurs",
-        "difficulte": 72,
-        "projets": 95000
-      },
-      {
-        "metier": "Conducteurs routiers",
-        "difficulte": 76,
-        "projets": 52000
-      },
-      {
-        "metier": "Cuisiniers",
-        "difficulte": 70,
-        "projets": 68000
-      },
-      {
-        "metier": "Maçons",
-        "difficulte": 79,
-        "projets": 22000
-      }
+      { "metier": "Aides à domicile", "difficulte": 85, "projets": 125000 },
+      { "metier": "Couvreurs", "difficulte": 82, "projets": 18000 },
+      { "metier": "Maçons", "difficulte": 79, "projets": 22000 },
+      { "metier": "Aides-soignants", "difficulte": 78, "projets": 98000 },
+      { "metier": "Conducteurs routiers", "difficulte": 76, "projets": 52000 },
+      { "metier": "Ingénieurs informatique", "difficulte": 75, "projets": 45000 },
+      { "metier": "Serveurs", "difficulte": 72, "projets": 95000 },
+      { "metier": "Cuisiniers", "difficulte": 70, "projets": 68000 }
     ],
     "evolution": [
-      {
-        "annee": "2019",
-        "taux": 50
-      },
-      {
-        "annee": "2020",
-        "taux": 40
-      },
-      {
-        "annee": "2021",
-        "taux": 45
-      },
-      {
-        "annee": "2022",
-        "taux": 58
-      },
-      {
-        "annee": "2023",
-        "taux": 61
-      },
-      {
-        "annee": "2024",
-        "taux": 58
-      },
-      {
-        "annee": "2025",
-        "taux": 61
-      }
+      { "annee": "2019", "taux": 50 },
+      { "annee": "2020", "taux": 40 },
+      { "annee": "2021", "taux": 45 },
+      { "annee": "2022", "taux": 58 },
+      { "annee": "2023", "taux": 61 },
+      { "annee": "2024", "taux": 58 },
+      { "annee": "2025", "taux": 61 }
     ]
   },
   "irl": {
@@ -755,367 +215,100 @@
     "glissement_annuel": 0.87,
     "trimestre": "T3 2025",
     "evolution": [
-      {
-        "trimestre": "T1 2022",
-        "indice": 133.93,
-        "glissement": 2.48
-      },
-      {
-        "trimestre": "T2 2022",
-        "indice": 135.84,
-        "glissement": 3.6
-      },
-      {
-        "trimestre": "T3 2022",
-        "indice": 136.27,
-        "glissement": 3.49
-      },
-      {
-        "trimestre": "T4 2022",
-        "indice": 137.26,
-        "glissement": 3.5
-      },
-      {
-        "trimestre": "T1 2023",
-        "indice": 138.61,
-        "glissement": 3.49
-      },
-      {
-        "trimestre": "T2 2023",
-        "indice": 140.59,
-        "glissement": 3.5
-      },
-      {
-        "trimestre": "T3 2023",
-        "indice": 141.03,
-        "glissement": 3.49
-      },
-      {
-        "trimestre": "T4 2023",
-        "indice": 142.06,
-        "glissement": 3.5
-      },
-      {
-        "trimestre": "T1 2024",
-        "indice": 143.46,
-        "glissement": 3.5
-      },
-      {
-        "trimestre": "T2 2024",
-        "indice": 145.17,
-        "glissement": 3.26
-      },
-      {
-        "trimestre": "T3 2024",
-        "indice": 144.51,
-        "glissement": 2.47
-      },
-      {
-        "trimestre": "T4 2024",
-        "indice": 144.64,
-        "glissement": 1.82
-      },
-      {
-        "trimestre": "T1 2025",
-        "indice": 145.47,
-        "glissement": 1.4
-      },
-      {
-        "trimestre": "T2 2025",
-        "indice": 146.68,
-        "glissement": 1.04
-      },
-      {
-        "trimestre": "T3 2025",
-        "indice": 145.77,
-        "glissement": 0.87
-      }
+      { "trimestre": "T1 2022", "indice": 133.93, "glissement": 2.48 },
+      { "trimestre": "T3 2022", "indice": 136.27, "glissement": 3.49 },
+      { "trimestre": "T1 2023", "indice": 138.61, "glissement": 3.49 },
+      { "trimestre": "T3 2023", "indice": 141.03, "glissement": 3.49 },
+      { "trimestre": "T1 2024", "indice": 143.46, "glissement": 3.50 },
+      { "trimestre": "T3 2024", "indice": 144.51, "glissement": 2.47 },
+      { "trimestre": "T1 2025", "indice": 145.47, "glissement": 1.40 },
+      { "trimestre": "T3 2025", "indice": 145.77, "glissement": 0.87 }
     ]
   },
   "prix_immobilier": {
-    "indice_actuel": 128.5,
+    "indice_actuel": 116.2,
     "variation_trim": 1.0,
-    "variation_an": 0.7,
+    "variation_an": -1.8,
     "transactions_annuelles": 880000,
     "evolution": [
-      {
-        "trimestre": "T4 2023",
-        "indice": 128.7,
-        "variation": -3.6
-      },
-      {
-        "trimestre": "T1 2024",
-        "indice": 126.0,
-        "variation": -4.8
-      },
-      {
-        "trimestre": "T2 2024",
-        "indice": 125.7,
-        "variation": -4.6
-      },
-      {
-        "trimestre": "T3 2024",
-        "indice": 127.6,
-        "variation": -3.5
-      },
-      {
-        "trimestre": "T4 2024",
-        "indice": 126.3,
-        "variation": -1.9
-      },
-      {
-        "trimestre": "T1 2025",
-        "indice": 126.5,
-        "variation": 0.4
-      },
-      {
-        "trimestre": "T2 2025",
-        "indice": 126.5,
-        "variation": 0.6
-      },
-      {
-        "trimestre": "T3 2025",
-        "indice": 128.5,
-        "variation": 0.7
-      }
+      { "trimestre": "T1 2022", "indice": 124.5, "variation": 7.2 },
+      { "trimestre": "T3 2022", "indice": 126.8, "variation": 6.1 },
+      { "trimestre": "T1 2023", "indice": 124.2, "variation": -0.2 },
+      { "trimestre": "T3 2023", "indice": 120.5, "variation": -5.0 },
+      { "trimestre": "T1 2024", "indice": 117.8, "variation": -5.1 },
+      { "trimestre": "T3 2024", "indice": 115.3, "variation": -4.3 },
+      { "trimestre": "T1 2025", "indice": 116.2, "variation": -1.4 }
     ],
     "par_zone": [
-      {
-        "zone": "Paris",
-        "prix_m2": 9450,
-        "variation": -3.2
-      },
-      {
-        "zone": "Île-de-France",
-        "prix_m2": 6220,
-        "variation": -0.3
-      },
-      {
-        "zone": "Province",
-        "prix_m2": 2650,
-        "variation": 1.2
-      },
-      {
-        "zone": "France entière",
-        "prix_m2": 3180,
-        "variation": -0.5
-      }
+      { "zone": "Paris", "prix_m2": 9450, "variation": -3.2 },
+      { "zone": "Île-de-France", "prix_m2": 6220, "variation": -0.3 },
+      { "zone": "Province", "prix_m2": 2650, "variation": 1.2 },
+      { "zone": "France entière", "prix_m2": 3180, "variation": -0.5 }
     ]
   },
   "carburants": {
-    "gazole": {
-      "prix": 1.68,
-      "variation_an": 1.2
-    },
-    "sp95": {
-      "prix": 1.74,
-      "variation_an": -1.7
-    },
-    "sp98": {
-      "prix": 1.84,
-      "variation_an": -1.7
-    },
+    "gazole": { "prix": 1.58, "variation_an": -0.6 },
+    "sp95": { "prix": 1.72, "variation_an": -1.9 },
+    "sp98": { "prix": 1.82, "variation_an": -1.5 },
     "evolution": [
-      {
-        "mois": "Jan 2023",
-        "gazole": 1.92,
-        "sp95": 1.87
-      },
-      {
-        "mois": "Avr 2023",
-        "gazole": 1.81,
-        "sp95": 1.95
-      },
-      {
-        "mois": "Juil 2023",
-        "gazole": 1.72,
-        "sp95": 1.85
-      },
-      {
-        "mois": "Oct 2023",
-        "gazole": 1.91,
-        "sp95": 1.89
-      },
-      {
-        "mois": "Jan 2024",
-        "gazole": 1.75,
-        "sp95": 1.82
-      },
-      {
-        "mois": "Avr 2024",
-        "gazole": 1.79,
-        "sp95": 1.94
-      },
-      {
-        "mois": "Juil 2024",
-        "gazole": 1.73,
-        "sp95": 1.86
-      },
-      {
-        "mois": "Oct 2024",
-        "gazole": 1.63,
-        "sp95": 1.76
-      },
-      {
-        "mois": "Jan 2025",
-        "gazole": 1.71,
-        "sp95": 1.81
-      },
-      {
-        "mois": "Avr 2025",
-        "gazole": 1.59,
-        "sp95": 1.73
-      },
-      {
-        "mois": "Juil 2025",
-        "gazole": 1.65,
-        "sp95": 1.72
-      },
-      {
-        "mois": "Oct 2025",
-        "gazole": 1.61,
-        "sp95": 1.72
-      }
+      { "mois": "Jan 2023", "gazole": 1.85, "sp95": 1.82 },
+      { "mois": "Avr 2023", "gazole": 1.78, "sp95": 1.88 },
+      { "mois": "Juil 2023", "gazole": 1.72, "sp95": 1.85 },
+      { "mois": "Oct 2023", "gazole": 1.88, "sp95": 1.92 },
+      { "mois": "Jan 2024", "gazole": 1.72, "sp95": 1.78 },
+      { "mois": "Avr 2024", "gazole": 1.75, "sp95": 1.82 },
+      { "mois": "Juil 2024", "gazole": 1.68, "sp95": 1.75 },
+      { "mois": "Oct 2024", "gazole": 1.62, "sp95": 1.72 },
+      { "mois": "Jan 2025", "gazole": 1.65, "sp95": 1.78 },
+      { "mois": "Avr 2025", "gazole": 1.60, "sp95": 1.74 },
+      { "mois": "Oct 2025", "gazole": 1.58, "sp95": 1.72 }
     ]
   },
   "taux_effort": {
     "annee": 2023,
     "source": "INSEE enquête SRCV 2024",
-    "commentaire": "STATIQUE - À mettre à jour manuellement chaque année",
+    "commentaire": "STATIQUE - màj annuelle",
     "par_statut": [
-      {
-        "statut": "Locataires secteur libre",
-        "taux_median": 29.6,
-        "taux_q1": 42.0
-      },
-      {
-        "statut": "Accédants propriété",
-        "taux_median": 27.5,
-        "taux_q1": 44.0
-      },
-      {
-        "statut": "Locataires HLM",
-        "taux_median": 24.1,
-        "taux_q1": 30.0
-      },
-      {
-        "statut": "Propriétaires non accédants",
-        "taux_median": 10.0,
-        "taux_q1": 15.0
-      }
+      { "statut": "Locataires secteur libre", "taux_median": 29.6, "taux_q1": 42.0 },
+      { "statut": "Accédants propriété", "taux_median": 27.5, "taux_q1": 44.0 },
+      { "statut": "Locataires HLM", "taux_median": 24.1, "taux_q1": 30.0 },
+      { "statut": "Propriétaires non accédants", "taux_median": 10.0, "taux_q1": 15.0 }
     ],
     "par_revenu": [
-      {
-        "quartile": "Q1 (25% + modestes)",
-        "taux": 31.0
-      },
-      {
-        "quartile": "Q2",
-        "taux": 22.0
-      },
-      {
-        "quartile": "Q3",
-        "taux": 18.0
-      },
-      {
-        "quartile": "Q4 (25% + aisés)",
-        "taux": 14.1
-      }
+      { "quartile": "Q1 (25% + modestes)", "taux": 31.0 },
+      { "quartile": "Q2", "taux": 22.0 },
+      { "quartile": "Q3", "taux": 18.0 },
+      { "quartile": "Q4 (25% + aisés)", "taux": 14.1 }
     ],
     "evolution": [
-      {
-        "annee": "2001",
-        "ensemble": 16.2,
-        "locataires_libre": 23.8
-      },
-      {
-        "annee": "2006",
-        "ensemble": 17.5,
-        "locataires_libre": 25.2
-      },
-      {
-        "annee": "2013",
-        "ensemble": 18.3,
-        "locataires_libre": 28.6
-      },
-      {
-        "annee": "2017",
-        "ensemble": 19.7,
-        "locataires_libre": 28.6
-      },
-      {
-        "annee": "2023",
-        "ensemble": 20.5,
-        "locataires_libre": 29.6
-      }
+      { "annee": "2001", "ensemble": 16.2, "locataires_libre": 23.8 },
+      { "annee": "2006", "ensemble": 17.5, "locataires_libre": 25.2 },
+      { "annee": "2013", "ensemble": 18.3, "locataires_libre": 28.6 },
+      { "annee": "2017", "ensemble": 19.7, "locataires_libre": 28.6 },
+      { "annee": "2023", "ensemble": 20.5, "locataires_libre": 29.6 }
     ]
   },
   "pib": {
-    "croissance_trim_actuel": 0.9,
-    "croissance_annuelle": 1.8,
+    "croissance_trim_actuel": 0.5,
+    "croissance_annuelle": 1.1,
     "trimestre": "T3 2025",
-    "commentaire": "PIB volume trimestriel - INSEE",
+    "commentaire": "STATIQUE - màj trimestrielle",
     "evolution": [
-      {
-        "trimestre": "T1 2022",
-        "croissance": 0.8
-      },
-      {
-        "trimestre": "T2 2022",
-        "croissance": 1.0
-      },
-      {
-        "trimestre": "T3 2022",
-        "croissance": 2.0
-      },
-      {
-        "trimestre": "T4 2022",
-        "croissance": 1.9
-      },
-      {
-        "trimestre": "T1 2023",
-        "croissance": 1.5
-      },
-      {
-        "trimestre": "T2 2023",
-        "croissance": 2.3
-      },
-      {
-        "trimestre": "T3 2023",
-        "croissance": 0.7
-      },
-      {
-        "trimestre": "T4 2023",
-        "croissance": 1.3
-      },
-      {
-        "trimestre": "T1 2024",
-        "croissance": 0.5
-      },
-      {
-        "trimestre": "T2 2024",
-        "croissance": 0.1
-      },
-      {
-        "trimestre": "T3 2024",
-        "croissance": 1.5
-      },
-      {
-        "trimestre": "T4 2024",
-        "croissance": -0.0
-      },
-      {
-        "trimestre": "T1 2025",
-        "croissance": 0.5
-      },
-      {
-        "trimestre": "T2 2025",
-        "croissance": 0.4
-      },
-      {
-        "trimestre": "T3 2025",
-        "croissance": 0.9
-      }
+      { "trimestre": "T1 2022", "croissance": 0.0 },
+      { "trimestre": "T2 2022", "croissance": 0.5 },
+      { "trimestre": "T3 2022", "croissance": 0.2 },
+      { "trimestre": "T4 2022", "croissance": 0.1 },
+      { "trimestre": "T1 2023", "croissance": 0.1 },
+      { "trimestre": "T2 2023", "croissance": 0.6 },
+      { "trimestre": "T3 2023", "croissance": 0.0 },
+      { "trimestre": "T4 2023", "croissance": 0.0 },
+      { "trimestre": "T1 2024", "croissance": 0.2 },
+      { "trimestre": "T2 2024", "croissance": 0.3 },
+      { "trimestre": "T3 2024", "croissance": 0.4 },
+      { "trimestre": "T4 2024", "croissance": -0.1 },
+      { "trimestre": "T1 2025", "croissance": 0.2 },
+      { "trimestre": "T2 2025", "croissance": 0.3 },
+      { "trimestre": "T3 2025", "croissance": 0.5 }
     ],
     "contributions": {
       "trimestre": "T3 2025",
@@ -1124,193 +317,64 @@
       "stocks": -0.6
     },
     "annuel": [
-      {
-        "annee": "2019",
-        "croissance": 1.8
-      },
-      {
-        "annee": "2020",
-        "croissance": -7.9
-      },
-      {
-        "annee": "2021",
-        "croissance": 6.4
-      },
-      {
-        "annee": "2022",
-        "croissance": 2.6
-      },
-      {
-        "annee": "2023",
-        "croissance": 1.1
-      },
-      {
-        "annee": "2024",
-        "croissance": 1.1
-      },
-      {
-        "annee": "2025",
-        "croissance": 0.9
-      }
+      { "annee": "2019", "croissance": 1.8 },
+      { "annee": "2020", "croissance": -7.9 },
+      { "annee": "2021", "croissance": 6.4 },
+      { "annee": "2022", "croissance": 2.6 },
+      { "annee": "2023", "croissance": 1.1 },
+      { "annee": "2024", "croissance": 1.1 },
+      { "annee": "2025", "croissance": 0.9 }
     ]
   },
   "climat_affaires": {
-    "valeur_actuelle": 99,
-    "confiance_menages": 90,
+    "valeur_actuelle": 98,
+    "confiance_menages": 92,
     "moyenne_long_terme": 100,
-    "mois": "Déc 2025",
+    "mois": "Nov 2025",
     "evolution": [
-      {
-        "mois": "Jan 2024",
-        "climat": 100,
-        "menages": 91
-      },
-      {
-        "mois": "Avr 2024",
-        "climat": 100,
-        "menages": 90
-      },
-      {
-        "mois": "Juil 2024",
-        "climat": 94,
-        "menages": 91
-      },
-      {
-        "mois": "Oct 2024",
-        "climat": 97,
-        "menages": 93
-      },
-      {
-        "mois": "Jan 2025",
-        "climat": 95,
-        "menages": 92
-      },
-      {
-        "mois": "Avr 2025",
-        "climat": 97,
-        "menages": 91
-      },
-      {
-        "mois": "Juil 2025",
-        "climat": 96,
-        "menages": 89
-      },
-      {
-        "mois": "Oct 2025",
-        "climat": 96,
-        "menages": 90
-      },
-      {
-        "mois": "Déc 2025",
-        "climat": 99,
-        "menages": 90
-      }
+      { "mois": "Jan 2024", "climat": 99, "menages": 91 },
+      { "mois": "Avr 2024", "climat": 100, "menages": 90 },
+      { "mois": "Juil 2024", "climat": 97, "menages": 92 },
+      { "mois": "Oct 2024", "climat": 97, "menages": 93 },
+      { "mois": "Jan 2025", "climat": 95, "menages": 92 },
+      { "mois": "Avr 2025", "climat": 97, "menages": 91 },
+      { "mois": "Juil 2025", "climat": 96, "menages": 93 },
+      { "mois": "Oct 2025", "climat": 97, "menages": 92 },
+      { "mois": "Nov 2025", "climat": 98, "menages": 92 }
     ],
     "par_secteur": [
-      {
-        "secteur": "Industrie",
-        "climat": 101
-      },
-      {
-        "secteur": "Services",
-        "climat": 98
-      },
-      {
-        "secteur": "Bâtiment",
-        "climat": 96
-      },
-      {
-        "secteur": "Commerce détail",
-        "climat": 97
-      }
+      { "secteur": "Industrie", "climat": 101 },
+      { "secteur": "Services", "climat": 98 },
+      { "secteur": "Bâtiment", "climat": 96 },
+      { "secteur": "Commerce détail", "climat": 97 }
     ]
   },
   "defaillances": {
-    "cumul_12_mois": 68145,
-    "variation_an": 4.1,
-    "mois": "Oct 2025",
+    "cumul_12_mois": 68227,
+    "variation_an": 0.8,
+    "mois": "Sep 2025",
     "moyenne_2010_2019": 58000,
     "evolution": [
-      {
-        "mois": "Jan 2023",
-        "cumul": 42962
-      },
-      {
-        "mois": "Avr 2023",
-        "cumul": 46804
-      },
-      {
-        "mois": "Juil 2023",
-        "cumul": 50360
-      },
-      {
-        "mois": "Oct 2023",
-        "cumul": 53384
-      },
-      {
-        "mois": "Jan 2024",
-        "cumul": 57344
-      },
-      {
-        "mois": "Avr 2024",
-        "cumul": 60524
-      },
-      {
-        "mois": "Juil 2024",
-        "cumul": 63678
-      },
-      {
-        "mois": "Oct 2024",
-        "cumul": 65259
-      },
-      {
-        "mois": "Jan 2025",
-        "cumul": 66333
-      },
-      {
-        "mois": "Avr 2025",
-        "cumul": 67321
-      },
-      {
-        "mois": "Juil 2025",
-        "cumul": 67727
-      },
-      {
-        "mois": "Oct 2025",
-        "cumul": 68145
-      }
+      { "mois": "Jan 2023", "cumul": 42000 },
+      { "mois": "Avr 2023", "cumul": 47000 },
+      { "mois": "Juil 2023", "cumul": 51000 },
+      { "mois": "Oct 2023", "cumul": 55000 },
+      { "mois": "Jan 2024", "cumul": 57500 },
+      { "mois": "Avr 2024", "cumul": 60000 },
+      { "mois": "Juil 2024", "cumul": 63500 },
+      { "mois": "Oct 2024", "cumul": 66000 },
+      { "mois": "Jan 2025", "cumul": 66500 },
+      { "mois": "Avr 2025", "cumul": 67000 },
+      { "mois": "Juil 2025", "cumul": 67600 },
+      { "mois": "Sep 2025", "cumul": 68227 }
     ],
     "par_secteur": [
-      {
-        "secteur": "Construction",
-        "part": 21,
-        "evolution": 5
-      },
-      {
-        "secteur": "Commerce",
-        "part": 19,
-        "evolution": 8
-      },
-      {
-        "secteur": "Héberg-resto",
-        "part": 13,
-        "evolution": 12
-      },
-      {
-        "secteur": "Services",
-        "part": 28,
-        "evolution": 6
-      },
-      {
-        "secteur": "Industrie",
-        "part": 8,
-        "evolution": 3
-      },
-      {
-        "secteur": "Autres",
-        "part": 11,
-        "evolution": 4
-      }
+      { "secteur": "Construction", "part": 21, "evolution": 5 },
+      { "secteur": "Commerce", "part": 19, "evolution": 8 },
+      { "secteur": "Héberg-resto", "part": 13, "evolution": 12 },
+      { "secteur": "Services", "part": 28, "evolution": 6 },
+      { "secteur": "Industrie", "part": 8, "evolution": 3 },
+      { "secteur": "Autres", "part": 11, "evolution": 4 }
     ]
   },
   "investissement": {
@@ -1318,70 +382,25 @@
     "fbcf_variation_an": -1.5,
     "trimestre": "T3 2025",
     "taux_investissement": 25.2,
-    "commentaire": "STATIQUE - À mettre à jour manuellement chaque trimestre",
+    "commentaire": "STATIQUE - màj trimestrielle",
     "evolution": [
-      {
-        "trimestre": "T1 2023",
-        "variation": 0.8
-      },
-      {
-        "trimestre": "T2 2023",
-        "variation": 0.5
-      },
-      {
-        "trimestre": "T3 2023",
-        "variation": 1.0
-      },
-      {
-        "trimestre": "T4 2023",
-        "variation": -0.7
-      },
-      {
-        "trimestre": "T1 2024",
-        "variation": 0.3
-      },
-      {
-        "trimestre": "T2 2024",
-        "variation": -0.2
-      },
-      {
-        "trimestre": "T3 2024",
-        "variation": -0.3
-      },
-      {
-        "trimestre": "T4 2024",
-        "variation": -0.1
-      },
-      {
-        "trimestre": "T1 2025",
-        "variation": -0.1
-      },
-      {
-        "trimestre": "T2 2025",
-        "variation": 0.0
-      },
-      {
-        "trimestre": "T3 2025",
-        "variation": 0.4
-      }
+      { "trimestre": "T1 2023", "variation": 0.8 },
+      { "trimestre": "T2 2023", "variation": 0.5 },
+      { "trimestre": "T3 2023", "variation": 1.0 },
+      { "trimestre": "T4 2023", "variation": -0.7 },
+      { "trimestre": "T1 2024", "variation": 0.3 },
+      { "trimestre": "T2 2024", "variation": -0.2 },
+      { "trimestre": "T3 2024", "variation": -0.3 },
+      { "trimestre": "T4 2024", "variation": -0.1 },
+      { "trimestre": "T1 2025", "variation": -0.1 },
+      { "trimestre": "T2 2025", "variation": 0.0 },
+      { "trimestre": "T3 2025", "variation": 0.4 }
     ],
     "par_type": [
-      {
-        "type": "Construction",
-        "variation_an": -2.5
-      },
-      {
-        "type": "Équipements",
-        "variation_an": -0.8
-      },
-      {
-        "type": "Info-communication",
-        "variation_an": 5.0
-      },
-      {
-        "type": "Transport",
-        "variation_an": -1.2
-      }
+      { "type": "Construction", "variation_an": -2.5 },
+      { "type": "Équipements", "variation_an": -0.8 },
+      { "type": "Info-communication", "variation_an": 5.0 },
+      { "type": "Transport", "variation_an": -1.2 }
     ]
   },
   "partage_va": {
@@ -1391,261 +410,67 @@
     "part_ebe_snf": 32.5,
     "part_impots_snf": 9.7,
     "evolution": [
-      {
-        "annee": "1980",
-        "salaires": 68.0,
-        "ebe": 25.5
-      },
-      {
-        "annee": "1990",
-        "salaires": 60.5,
-        "ebe": 31.5
-      },
-      {
-        "annee": "2000",
-        "salaires": 58.5,
-        "ebe": 32.8
-      },
-      {
-        "annee": "2010",
-        "salaires": 58.2,
-        "ebe": 32.4
-      },
-      {
-        "annee": "2020",
-        "salaires": 58.5,
-        "ebe": 31.0
-      },
-      {
-        "annee": "2022",
-        "salaires": 56.5,
-        "ebe": 34.0
-      },
-      {
-        "annee": "2024",
-        "salaires": 57.8,
-        "ebe": 32.5
-      }
+      { "annee": "1980", "salaires": 68.0, "ebe": 25.5 },
+      { "annee": "1990", "salaires": 60.5, "ebe": 31.5 },
+      { "annee": "2000", "salaires": 58.5, "ebe": 32.8 },
+      { "annee": "2010", "salaires": 58.2, "ebe": 32.4 },
+      { "annee": "2020", "salaires": 58.5, "ebe": 31.0 },
+      { "annee": "2022", "salaires": 56.5, "ebe": 34.0 },
+      { "annee": "2024", "salaires": 57.8, "ebe": 32.5 }
     ],
     "par_secteur": [
-      {
-        "secteur": "Industrie",
-        "salaires": 52,
-        "ebe": 30
-      },
-      {
-        "secteur": "Construction",
-        "salaires": 60,
-        "ebe": 25
-      },
-      {
-        "secteur": "Commerce",
-        "salaires": 55,
-        "ebe": 32
-      },
-      {
-        "secteur": "Services march.",
-        "salaires": 58,
-        "ebe": 22
-      },
-      {
-        "secteur": "Info-comm",
-        "salaires": 48,
-        "ebe": 38
-      }
+      { "secteur": "Industrie", "salaires": 52, "ebe": 30 },
+      { "secteur": "Construction", "salaires": 60, "ebe": 25 },
+      { "secteur": "Commerce", "salaires": 55, "ebe": 32 },
+      { "secteur": "Services march.", "salaires": 58, "ebe": 22 },
+      { "secteur": "Info-comm", "salaires": 48, "ebe": 38 }
     ],
     "taux_marge_snf": [
-      {
-        "annee": "2019",
-        "taux": 31.8
-      },
-      {
-        "annee": "2020",
-        "taux": 29.5
-      },
-      {
-        "annee": "2021",
-        "taux": 33.8
-      },
-      {
-        "annee": "2022",
-        "taux": 32.8
-      },
-      {
-        "annee": "2023",
-        "taux": 32.2
-      },
-      {
-        "annee": "2024",
-        "taux": 32.5
-      }
+      { "annee": "2019", "taux": 31.8 },
+      { "annee": "2020", "taux": 29.5 },
+      { "annee": "2021", "taux": 33.8 },
+      { "annee": "2022", "taux": 32.8 },
+      { "annee": "2023", "taux": 32.2 },
+      { "annee": "2024", "taux": 32.5 }
     ]
   },
   "comparaison_ue": {
     "commentaire": "STATIQUE - Eurostat - màj semestrielle (juillet 2025)",
-    "date_maj": "2025-07-01",
     "smic_europe": [
-      {
-        "pays": "Luxembourg",
-        "code": "LU",
-        "smic": 2704,
-        "spa": 2035
-      },
-      {
-        "pays": "Irlande",
-        "code": "IE",
-        "smic": 2282,
-        "spa": 1653
-      },
-      {
-        "pays": "Pays-Bas",
-        "code": "NL",
-        "smic": 2246,
-        "spa": 1825
-      },
-      {
-        "pays": "Allemagne",
-        "code": "DE",
-        "smic": 2161,
-        "spa": 1989
-      },
-      {
-        "pays": "Belgique",
-        "code": "BE",
-        "smic": 2112,
-        "spa": 1750
-      },
-      {
-        "pays": "France",
-        "code": "FR",
-        "smic": 1802,
-        "spa": 1580
-      },
-      {
-        "pays": "Espagne",
-        "code": "ES",
-        "smic": 1323,
-        "spa": 1350
-      },
-      {
-        "pays": "Pologne",
-        "code": "PL",
-        "smic": 1091,
-        "spa": 1420
-      },
-      {
-        "pays": "Bulgarie",
-        "code": "BG",
-        "smic": 551,
-        "spa": 886
-      }
+      { "pays": "Luxembourg", "code": "LU", "smic": 2704, "spa": 2035 },
+      { "pays": "Irlande", "code": "IE", "smic": 2282, "spa": 1653 },
+      { "pays": "Pays-Bas", "code": "NL", "smic": 2246, "spa": 1825 },
+      { "pays": "Allemagne", "code": "DE", "smic": 2161, "spa": 1989 },
+      { "pays": "Belgique", "code": "BE", "smic": 2112, "spa": 1750 },
+      { "pays": "France", "code": "FR", "smic": 1802, "spa": 1580 },
+      { "pays": "Espagne", "code": "ES", "smic": 1323, "spa": 1350 },
+      { "pays": "Pologne", "code": "PL", "smic": 1091, "spa": 1420 },
+      { "pays": "Bulgarie", "code": "BG", "smic": 551, "spa": 886 }
     ],
     "chomage_europe": [
-      {
-        "pays": "Allemagne",
-        "code": "DE",
-        "taux": 3.7,
-        "jeunes": 6.7
-      },
-      {
-        "pays": "Pays-Bas",
-        "code": "NL",
-        "taux": 3.8,
-        "jeunes": 8.8
-      },
-      {
-        "pays": "Pologne",
-        "code": "PL",
-        "taux": 2.9,
-        "jeunes": 10.5
-      },
-      {
-        "pays": "France",
-        "code": "FR",
-        "taux": 7.7,
-        "jeunes": 18.3
-      },
-      {
-        "pays": "Italie",
-        "code": "IT",
-        "taux": 6.1,
-        "jeunes": 20.6
-      },
-      {
-        "pays": "Espagne",
-        "code": "ES",
-        "taux": 10.5,
-        "jeunes": 25.0
-      },
-      {
-        "pays": "UE-27",
-        "code": "EU",
-        "taux": 6.0,
-        "jeunes": 14.8
-      }
+      { "pays": "Allemagne", "code": "DE", "taux": 3.7, "jeunes": 6.7 },
+      { "pays": "Pays-Bas", "code": "NL", "taux": 3.8, "jeunes": 8.8 },
+      { "pays": "Pologne", "code": "PL", "taux": 2.9, "jeunes": 10.5 },
+      { "pays": "France", "code": "FR", "taux": 7.7, "jeunes": 18.3 },
+      { "pays": "Italie", "code": "IT", "taux": 6.1, "jeunes": 20.6 },
+      { "pays": "Espagne", "code": "ES", "taux": 10.5, "jeunes": 25.0 },
+      { "pays": "UE-27", "code": "EU", "taux": 6.0, "jeunes": 14.8 }
     ],
     "part_salaires_va_ue": [
-      {
-        "pays": "Allemagne",
-        "code": "DE",
-        "part": 61.2
-      },
-      {
-        "pays": "Pays-Bas",
-        "code": "NL",
-        "part": 58.5
-      },
-      {
-        "pays": "France",
-        "code": "FR",
-        "part": 57.8
-      },
-      {
-        "pays": "UE-27",
-        "code": "EU",
-        "part": 56.8
-      },
-      {
-        "pays": "Espagne",
-        "code": "ES",
-        "part": 54.2
-      },
-      {
-        "pays": "Italie",
-        "code": "IT",
-        "part": 53.5
-      }
+      { "pays": "Allemagne", "code": "DE", "part": 61.2 },
+      { "pays": "Pays-Bas", "code": "NL", "part": 58.5 },
+      { "pays": "France", "code": "FR", "part": 57.8 },
+      { "pays": "UE-27", "code": "EU", "part": 56.8 },
+      { "pays": "Espagne", "code": "ES", "part": 54.2 },
+      { "pays": "Italie", "code": "IT", "part": 53.5 }
     ]
   },
   "simulateur_nao": {
-    "commentaire": "Paramètres pour le simulateur NAO - màj annuelle (janvier)",
-    "annee": 2025,
+    "commentaire": "Paramètres pour le simulateur NAO - màj annuelle",
     "taux_cotisations": {
       "non_cadre": 0.23,
       "cadre": 0.25,
-      "fonctionnaire": 0.17,
-      "detail": {
-        "non_cadre": {
-          "securite_sociale": 0.073,
-          "retraite_complementaire": 0.0315,
-          "csg_crds": 0.097,
-          "chomage": 0.0,
-          "autres": 0.028
-        },
-        "cadre": {
-          "securite_sociale": 0.073,
-          "retraite_complementaire": 0.0315,
-          "csg_crds": 0.097,
-          "apec": 0.00024,
-          "prevoyance": 0.015,
-          "autres": 0.033
-        },
-        "fonctionnaire": {
-          "pension_civile": 0.111,
-          "rafp": 0.05,
-          "csg_crds": 0.009
-        }
-      }
+      "fonctionnaire": 0.17
     },
     "prime_activite": {
       "forfait_base": 633.21,
@@ -1656,20 +481,185 @@
       "bonification_max": 184.27,
       "forfait_logement_seul": 76.04,
       "forfait_logement_couple": 152.08,
-      "seuil_versement": 15,
-      "plafond_ressources_seul": 1900,
-      "plafond_ressources_couple": 2500
+      "seuil_versement": 15
     },
-    "smic": {
-      "brut_mensuel": 1823.03,
-      "net_mensuel": 1443.11,
-      "horaire_brut": 12.02,
-      "date_vigueur": "2025-01-01"
+    "rgcp_2025": {
+      "commentaire": "Réduction Générale Cotisations Patronales - ancien régime jusqu'au 31/12/2025",
+      "smic_brut": 1801.80,
+      "plafond_smic": 1.6,
+      "param_T_moins50": 0.3193,
+      "param_T_plus50": 0.3233,
+      "taux_reduit_maladie": { "seuil_smic": 2.25, "economie": 0.06 },
+      "taux_reduit_famille": { "seuil_smic": 3.3, "economie": 0.018 },
+      "charges_patronales_base": 0.45
     },
-    "exonerations": {
-      "seuil_fillon": 1.6,
-      "taux_patronal_avec_fillon": 0.3,
-      "taux_patronal_sans_fillon": 0.45
+    "rgdu_2026": {
+      "commentaire": "Réduction Générale Dégressive Unique - décret n°2025-1446 du 31/12/2025",
+      "smic_brut": 1823.03,
+      "plafond_smic": 3.0,
+      "T_min": 0.0200,
+      "T_delta_moins50": 0.3781,
+      "T_delta_plus50": 0.3821,
+      "coef_max_moins50": 0.3981,
+      "coef_max_plus50": 0.4021,
+      "puissance_P": 1.75,
+      "charges_patronales_base": 0.47,
+      "formule": "C = Tmin + (Tdelta × [(1/2) × (3 × SMIC_annuel / rémunération - 1)]^P)"
     }
+  },
+  "conventions_collectives": {
+    "commentaire": "Données des principales conventions collectives - màj selon accords de branche",
+    "smic_reference": {
+      "mensuel": 1823.03,
+      "annuel": 21876.36,
+      "date": "2026-01-01"
+    },
+    "statistiques_branches": {
+      "total_branches": 171,
+      "branches_conformes": 152,
+      "branches_non_conformes": 19,
+      "pourcentage_non_conformes": 11,
+      "date_comite_suivi": "2025-10-03",
+      "source": "Comité de suivi des négociations salariales de branche"
+    },
+    "branches": [
+      {
+        "idcc": "3248",
+        "nom": "Métallurgie",
+        "effectif": 1500000,
+        "grille": [
+          { "niveau": "A1", "intitule": "Employé débutant", "minimum_annuel": 21700, "minimum_mensuel": 1808 },
+          { "niveau": "A2", "intitule": "Employé", "minimum_annuel": 21850, "minimum_mensuel": 1821 },
+          { "niveau": "B3", "intitule": "Employé qualifié", "minimum_annuel": 22100, "minimum_mensuel": 1842 },
+          { "niveau": "C4", "intitule": "Technicien", "minimum_annuel": 23100, "minimum_mensuel": 1925 },
+          { "niveau": "C5", "intitule": "Technicien confirmé", "minimum_annuel": 24500, "minimum_mensuel": 2042 },
+          { "niveau": "D6", "intitule": "Agent de maîtrise", "minimum_annuel": 26100, "minimum_mensuel": 2175 },
+          { "niveau": "D7", "intitule": "Agent de maîtrise confirmé", "minimum_annuel": 28100, "minimum_mensuel": 2342 },
+          { "niveau": "E8", "intitule": "Technicien supérieur", "minimum_annuel": 30100, "minimum_mensuel": 2508 },
+          { "niveau": "F9", "intitule": "Cadre débutant", "minimum_annuel": 32000, "minimum_mensuel": 2667 },
+          { "niveau": "F10", "intitule": "Cadre", "minimum_annuel": 34900, "minimum_mensuel": 2908 },
+          { "niveau": "G11", "intitule": "Cadre confirmé", "minimum_annuel": 38800, "minimum_mensuel": 3233 },
+          { "niveau": "H14", "intitule": "Cadre supérieur", "minimum_annuel": 52000, "minimum_mensuel": 4333 }
+        ],
+        "derniere_revalorisation": "2024-01-01",
+        "statut": "en_retard",
+        "commentaire": "Échec des négociations 2025 - grille 2024 maintenue"
+      },
+      {
+        "idcc": "1486",
+        "nom": "Bureaux d'études (SYNTEC)",
+        "effectif": 910000,
+        "grille": [
+          { "niveau": "1.1", "intitule": "ETAM Position 1.1", "minimum_annuel": 21780, "minimum_mensuel": 1815 },
+          { "niveau": "1.2", "intitule": "ETAM Position 1.2", "minimum_annuel": 22020, "minimum_mensuel": 1835 },
+          { "niveau": "2.1", "intitule": "ETAM Position 2.1", "minimum_annuel": 23400, "minimum_mensuel": 1950 },
+          { "niveau": "2.2", "intitule": "ETAM Position 2.2", "minimum_annuel": 24660, "minimum_mensuel": 2055 },
+          { "niveau": "2.3", "intitule": "ETAM Position 2.3", "minimum_annuel": 26220, "minimum_mensuel": 2185 },
+          { "niveau": "3.1", "intitule": "ETAM Position 3.1", "minimum_annuel": 28200, "minimum_mensuel": 2350 },
+          { "niveau": "1.1", "intitule": "Cadre Position 1.1", "minimum_annuel": 30600, "minimum_mensuel": 2550 },
+          { "niveau": "2.1", "intitule": "Cadre Position 2.1", "minimum_annuel": 36720, "minimum_mensuel": 3060 },
+          { "niveau": "3.1", "intitule": "Cadre Position 3.1", "minimum_annuel": 51000, "minimum_mensuel": 4250 }
+        ],
+        "derniere_revalorisation": "2025-01-01",
+        "statut": "non_conforme",
+        "commentaire": "Premier niveau ETAM inférieur au SMIC 2026"
+      },
+      {
+        "idcc": "1090",
+        "nom": "Services de l'automobile",
+        "effectif": 450000,
+        "grille": [
+          { "niveau": "1A", "intitule": "Ouvrier/Employé échelon 1", "minimum_annuel": 21960, "minimum_mensuel": 1830 },
+          { "niveau": "1B", "intitule": "Ouvrier/Employé échelon 2", "minimum_annuel": 22200, "minimum_mensuel": 1850 },
+          { "niveau": "2A", "intitule": "Ouvrier/Employé qualifié", "minimum_annuel": 22560, "minimum_mensuel": 1880 },
+          { "niveau": "3", "intitule": "Technicien", "minimum_annuel": 24000, "minimum_mensuel": 2000 },
+          { "niveau": "6", "intitule": "Agent de maîtrise", "minimum_annuel": 27600, "minimum_mensuel": 2300 },
+          { "niveau": "Cadre I", "intitule": "Cadre débutant", "minimum_annuel": 32400, "minimum_mensuel": 2700 }
+        ],
+        "derniere_revalorisation": "2025-10-01",
+        "statut": "conforme",
+        "commentaire": "Grille revalorisée octobre 2025"
+      },
+      {
+        "idcc": "1979",
+        "nom": "Hôtels, cafés, restaurants (HCR)",
+        "effectif": 660000,
+        "grille": [
+          { "niveau": "I-1", "intitule": "Employé niveau I échelon 1", "minimum_annuel": 21876, "minimum_mensuel": 1823 },
+          { "niveau": "I-2", "intitule": "Employé niveau I échelon 2", "minimum_annuel": 22080, "minimum_mensuel": 1840 },
+          { "niveau": "II-1", "intitule": "Employé qualifié niveau II", "minimum_annuel": 22560, "minimum_mensuel": 1880 },
+          { "niveau": "III-1", "intitule": "Chef de rang / Cuisinier", "minimum_annuel": 24000, "minimum_mensuel": 2000 },
+          { "niveau": "IV-1", "intitule": "Maître d'hôtel / Chef de partie", "minimum_annuel": 26400, "minimum_mensuel": 2200 },
+          { "niveau": "V-1", "intitule": "Cadre niveau V", "minimum_annuel": 32400, "minimum_mensuel": 2700 }
+        ],
+        "derniere_revalorisation": "2025-04-01",
+        "statut": "conforme",
+        "commentaire": "Accord avril 2025 avec effet rétroactif"
+      },
+      {
+        "idcc": "176",
+        "nom": "Industrie pharmaceutique",
+        "effectif": 100000,
+        "grille": [
+          { "niveau": "1A", "intitule": "Agent de fabrication", "minimum_annuel": 22048, "minimum_mensuel": 1837 },
+          { "niveau": "2A", "intitule": "Opérateur qualifié", "minimum_annuel": 23400, "minimum_mensuel": 1950 },
+          { "niveau": "3A", "intitule": "Technicien", "minimum_annuel": 26400, "minimum_mensuel": 2200 },
+          { "niveau": "4A", "intitule": "Technicien supérieur", "minimum_annuel": 30000, "minimum_mensuel": 2500 },
+          { "niveau": "5", "intitule": "Cadre groupe 5", "minimum_annuel": 36000, "minimum_mensuel": 3000 },
+          { "niveau": "7", "intitule": "Cadre groupe 7", "minimum_annuel": 48000, "minimum_mensuel": 4000 }
+        ],
+        "derniere_revalorisation": "2026-01-01",
+        "statut": "conforme",
+        "commentaire": "Accord novembre 2025 applicable janvier 2026"
+      },
+      {
+        "idcc": "1517",
+        "nom": "Commerce de détail non alimentaire",
+        "effectif": 380000,
+        "grille": [
+          { "niveau": "1", "intitule": "Employé niveau 1", "minimum_annuel": 21876, "minimum_mensuel": 1823 },
+          { "niveau": "2", "intitule": "Employé niveau 2", "minimum_annuel": 22200, "minimum_mensuel": 1850 },
+          { "niveau": "3", "intitule": "Employé qualifié", "minimum_annuel": 22800, "minimum_mensuel": 1900 },
+          { "niveau": "4", "intitule": "Agent de maîtrise", "minimum_annuel": 25200, "minimum_mensuel": 2100 },
+          { "niveau": "5", "intitule": "Cadre", "minimum_annuel": 30000, "minimum_mensuel": 2500 }
+        ],
+        "derniere_revalorisation": "2025-07-01",
+        "statut": "conforme",
+        "commentaire": "Grille juillet 2025"
+      },
+      {
+        "idcc": "1606",
+        "nom": "BTP - Ouvriers (+ de 10 salariés)",
+        "effectif": 850000,
+        "grille": [
+          { "niveau": "N1P1", "intitule": "Ouvrier d'exécution", "minimum_annuel": 21900, "minimum_mensuel": 1825 },
+          { "niveau": "N1P2", "intitule": "Ouvrier d'exécution confirmé", "minimum_annuel": 22320, "minimum_mensuel": 1860 },
+          { "niveau": "N2P1", "intitule": "Ouvrier professionnel", "minimum_annuel": 22920, "minimum_mensuel": 1910 },
+          { "niveau": "N2P2", "intitule": "Ouvrier professionnel confirmé", "minimum_annuel": 23760, "minimum_mensuel": 1980 },
+          { "niveau": "N3P1", "intitule": "Compagnon professionnel", "minimum_annuel": 25200, "minimum_mensuel": 2100 },
+          { "niveau": "N3P2", "intitule": "Compagnon confirmé", "minimum_annuel": 27000, "minimum_mensuel": 2250 },
+          { "niveau": "N4P1", "intitule": "Chef d'équipe", "minimum_annuel": 29400, "minimum_mensuel": 2450 },
+          { "niveau": "N4P2", "intitule": "Maître ouvrier", "minimum_annuel": 32400, "minimum_mensuel": 2700 }
+        ],
+        "derniere_revalorisation": "2025-01-01",
+        "statut": "conforme",
+        "commentaire": "Accord janvier 2025"
+      },
+      {
+        "idcc": "2941",
+        "nom": "Intérim - Salariés permanents",
+        "effectif": 35000,
+        "grille": [
+          { "niveau": "A", "intitule": "Agent administratif", "minimum_annuel": 21700, "minimum_mensuel": 1808 },
+          { "niveau": "B", "intitule": "Secrétaire", "minimum_annuel": 22200, "minimum_mensuel": 1850 },
+          { "niveau": "C", "intitule": "Assistant RH", "minimum_annuel": 24000, "minimum_mensuel": 2000 },
+          { "niveau": "D", "intitule": "Chargé de recrutement", "minimum_annuel": 27600, "minimum_mensuel": 2300 },
+          { "niveau": "E", "intitule": "Responsable agence", "minimum_annuel": 36000, "minimum_mensuel": 3000 }
+        ],
+        "derniere_revalorisation": "2024-01-01",
+        "statut": "non_conforme",
+        "commentaire": "Négociations en échec - grille 2024"
+      }
+    ]
   }
 }
