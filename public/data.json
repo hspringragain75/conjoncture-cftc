@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-01-09T13:00:58.887649",
+  "last_updated": "2026-01-09T13:19:49.281792",
   "sources": [
     "INSEE - Indice des prix à la consommation",
     "INSEE - Enquête Emploi",
@@ -108,58 +108,58 @@
   "chomage": [
     {
       "trimestre": "T1 2023",
-      "taux": 6.9,
-      "jeunes": 5.0
+      "taux": 7.1,
+      "jeunes": 17.5
     },
     {
       "trimestre": "T2 2023",
-      "taux": 7.0,
-      "jeunes": 4.9
+      "taux": 7.2,
+      "jeunes": 17.0
     },
     {
       "trimestre": "T3 2023",
-      "taux": 7.2,
-      "jeunes": 5.0
+      "taux": 7.4,
+      "jeunes": 17.6
     },
     {
       "trimestre": "T4 2023",
-      "taux": 7.3,
-      "jeunes": 4.9
+      "taux": 7.5,
+      "jeunes": 17.6
     },
     {
       "trimestre": "T1 2024",
-      "taux": 7.3,
-      "jeunes": 4.8
+      "taux": 7.5,
+      "jeunes": 18.1
     },
     {
       "trimestre": "T2 2024",
-      "taux": 7.1,
-      "jeunes": 4.9
+      "taux": 7.3,
+      "jeunes": 17.7
     },
     {
       "trimestre": "T3 2024",
-      "taux": 7.2,
-      "jeunes": 4.5
+      "taux": 7.4,
+      "jeunes": 18.3
     },
     {
       "trimestre": "T4 2024",
-      "taux": 7.1,
-      "jeunes": 4.6
+      "taux": 7.3,
+      "jeunes": 19.0
     },
     {
       "trimestre": "T1 2025",
-      "taux": 7.3,
-      "jeunes": 4.6
+      "taux": 7.4,
+      "jeunes": 18.5
     },
     {
       "trimestre": "T2 2025",
-      "taux": 7.4,
-      "jeunes": 4.7
+      "taux": 7.5,
+      "jeunes": 18.8
     },
     {
       "trimestre": "T3 2025",
-      "taux": 7.5,
-      "jeunes": 5.0
+      "taux": 7.7,
+      "jeunes": 19.2
     }
   ],
   "smic": {
@@ -228,20 +228,20 @@
     }
   ],
   "indicateurs_cles": {
-    "taux_chomage_actuel": 7.5,
-    "taux_chomage_jeunes": 5.0,
-    "taux_emploi_seniors": 7.5,
+    "taux_chomage_actuel": 7.7,
+    "taux_chomage_jeunes": 19.2,
+    "taux_emploi_seniors": 62.0,
     "inflation_annuelle": 0.9,
     "smic_brut": 1823.03,
     "smic_net": 1443.11,
     "salaire_median": 2190,
     "salaire_moyen": 2733,
-    "ecart_hf_eqtp": 13.0,
+    "ecart_hf_eqtp": 25.8,
     "difficultes_recrutement": 61,
     "irl_glissement": 0.87,
     "prix_gazole": 1.68,
     "taux_effort_locataires": 29.6,
-    "croissance_pib": 0.9,
+    "croissance_pib": 0.5,
     "climat_affaires": 99,
     "defaillances_12m": 68145
   },
@@ -276,36 +276,36 @@
   },
   "ecart_hommes_femmes": {
     "ecart_global": 22.2,
-    "ecart_eqtp": 13.0,
+    "ecart_eqtp": 25.8,
     "ecart_poste_comparable": 4.0,
     "evolution": [
       {
-        "annee": "2015",
-        "ecart": 18.4
-      },
-      {
-        "annee": "2017",
-        "ecart": 16.6
+        "annee": "2018",
+        "ecart": 23.2
       },
       {
         "annee": "2019",
-        "ecart": 16.1
+        "ecart": 23.8
+      },
+      {
+        "annee": "2020",
+        "ecart": 24.5
       },
       {
         "annee": "2021",
-        "ecart": 15.5
+        "ecart": 24.3
       },
       {
         "annee": "2022",
-        "ecart": 14.9
+        "ecart": 25.1
       },
       {
         "annee": "2023",
-        "ecart": 14.2
+        "ecart": 25.6
       },
       {
         "annee": "2024",
-        "ecart": 13.0
+        "ecart": 25.8
       }
     ]
   },
@@ -352,47 +352,47 @@
   "emploi_seniors": [
     {
       "trimestre": "T1 2023",
-      "taux": 7.2
+      "taux": 58.5
     },
     {
       "trimestre": "T2 2023",
-      "taux": 7.1
+      "taux": 58.8
     },
     {
       "trimestre": "T3 2023",
-      "taux": 7.2
+      "taux": 59.2
     },
     {
       "trimestre": "T4 2023",
-      "taux": 7.4
+      "taux": 59.7
     },
     {
       "trimestre": "T1 2024",
-      "taux": 7.4
+      "taux": 60.1
     },
     {
       "trimestre": "T2 2024",
-      "taux": 7.1
+      "taux": 60.5
     },
     {
       "trimestre": "T3 2024",
-      "taux": 7.4
+      "taux": 60.9
     },
     {
       "trimestre": "T4 2024",
-      "taux": 7.2
+      "taux": 61.2
     },
     {
       "trimestre": "T1 2025",
-      "taux": 7.3
+      "taux": 61.5
     },
     {
       "trimestre": "T2 2025",
-      "taux": 7.5
+      "taux": 61.8
     },
     {
       "trimestre": "T3 2025",
-      "taux": 7.5
+      "taux": 62.0
     }
   ],
   "types_contrats": [
@@ -466,75 +466,69 @@
   "difficultes_recrutement": [
     {
       "trimestre": "T1 2023",
-      "industrie": 65,
-      "services": 48,
-      "construction": 78
+      "industrie": 52,
+      "services": 38,
+      "construction": 65
     },
     {
       "trimestre": "T2 2023",
-      "industrie": 64,
-      "services": 48,
-      "construction": 76
-    },
-    {
-      "trimestre": "T3 2023",
-      "industrie": 60,
-      "services": 45,
-      "construction": 72
-    },
-    {
-      "trimestre": "T4 2023",
-      "industrie": 57,
-      "services": 42,
-      "construction": 68
-    },
-    {
-      "trimestre": "T1 2024",
-      "industrie": 53,
-      "services": 39,
-      "construction": 63
-    },
-    {
-      "trimestre": "T2 2024",
-      "industrie": 52,
-      "services": 39,
+      "industrie": 50,
+      "services": 36,
       "construction": 62
     },
     {
-      "trimestre": "T3 2024",
+      "trimestre": "T3 2023",
       "industrie": 48,
-      "services": 36,
-      "construction": 57
+      "services": 35,
+      "construction": 60
     },
     {
-      "trimestre": "T4 2024",
-      "industrie": 46,
-      "services": 34,
+      "trimestre": "T4 2023",
+      "industrie": 45,
+      "services": 33,
+      "construction": 58
+    },
+    {
+      "trimestre": "T1 2024",
+      "industrie": 43,
+      "services": 32,
       "construction": 55
     },
     {
-      "trimestre": "T1 2025",
-      "industrie": 44,
-      "services": 33,
+      "trimestre": "T2 2024",
+      "industrie": 41,
+      "services": 30,
       "construction": 52
     },
     {
-      "trimestre": "T2 2025",
-      "industrie": 41,
-      "services": 30,
-      "construction": 49
+      "trimestre": "T3 2024",
+      "industrie": 40,
+      "services": 29,
+      "construction": 50
     },
     {
-      "trimestre": "T3 2025",
-      "industrie": 40,
-      "services": 30,
+      "trimestre": "T4 2024",
+      "industrie": 38,
+      "services": 28,
       "construction": 48
     },
     {
-      "trimestre": "T4 2025",
-      "industrie": 38,
-      "services": 28,
+      "trimestre": "T1 2025",
+      "industrie": 36,
+      "services": 27,
+      "construction": 46
+    },
+    {
+      "trimestre": "T2 2025",
+      "industrie": 35,
+      "services": 26,
       "construction": 45
+    },
+    {
+      "trimestre": "T3 2025",
+      "industrie": 34,
+      "services": 25,
+      "construction": 44
     }
   ],
   "emploi_secteur": {
@@ -1051,70 +1045,70 @@
     ]
   },
   "pib": {
-    "croissance_trim_actuel": 0.9,
-    "croissance_annuelle": 1.8,
+    "croissance_trim_actuel": 0.5,
+    "croissance_annuelle": 1.1,
     "trimestre": "T3 2025",
-    "commentaire": "PIB volume trimestriel - INSEE",
+    "commentaire": "PIB volume trimestriel",
     "evolution": [
       {
         "trimestre": "T1 2022",
-        "croissance": 0.8
+        "croissance": 0.0
       },
       {
         "trimestre": "T2 2022",
-        "croissance": 1.0
+        "croissance": 0.5
       },
       {
         "trimestre": "T3 2022",
-        "croissance": 2.0
+        "croissance": 0.2
       },
       {
         "trimestre": "T4 2022",
-        "croissance": 1.9
-      },
-      {
-        "trimestre": "T1 2023",
-        "croissance": 1.5
-      },
-      {
-        "trimestre": "T2 2023",
-        "croissance": 2.3
-      },
-      {
-        "trimestre": "T3 2023",
-        "croissance": 0.7
-      },
-      {
-        "trimestre": "T4 2023",
-        "croissance": 1.3
-      },
-      {
-        "trimestre": "T1 2024",
-        "croissance": 0.5
-      },
-      {
-        "trimestre": "T2 2024",
         "croissance": 0.1
       },
       {
+        "trimestre": "T1 2023",
+        "croissance": 0.1
+      },
+      {
+        "trimestre": "T2 2023",
+        "croissance": 0.6
+      },
+      {
+        "trimestre": "T3 2023",
+        "croissance": 0.0
+      },
+      {
+        "trimestre": "T4 2023",
+        "croissance": 0.0
+      },
+      {
+        "trimestre": "T1 2024",
+        "croissance": 0.2
+      },
+      {
+        "trimestre": "T2 2024",
+        "croissance": 0.3
+      },
+      {
         "trimestre": "T3 2024",
-        "croissance": 1.5
-      },
-      {
-        "trimestre": "T4 2024",
-        "croissance": -0.0
-      },
-      {
-        "trimestre": "T1 2025",
-        "croissance": 0.5
-      },
-      {
-        "trimestre": "T2 2025",
         "croissance": 0.4
       },
       {
+        "trimestre": "T4 2024",
+        "croissance": -0.1
+      },
+      {
+        "trimestre": "T1 2025",
+        "croissance": 0.2
+      },
+      {
+        "trimestre": "T2 2025",
+        "croissance": 0.3
+      },
+      {
         "trimestre": "T3 2025",
-        "croissance": 0.9
+        "croissance": 0.5
       }
     ],
     "contributions": {
@@ -1671,260 +1665,5 @@
       "taux_patronal_avec_fillon": 0.3,
       "taux_patronal_sans_fillon": 0.45
     }
-  },
-  "conventions_collectives": {
-    "smic_reference": {
-      "mensuel": 1823.03,
-      "annuel": 21876.36,
-      "date": "2026-01-01"
-    },
-    "statistiques_branches": {
-      "total_branches": 171,
-      "branches_conformes": 152,
-      "branches_non_conformes": 19,
-      "pourcentage_non_conformes": 11
-    },
-    "branches": [
-      {
-        "idcc": "3248",
-        "nom": "Métallurgie",
-        "effectif": 1500000,
-        "grille": [
-          {
-            "niveau": "A1",
-            "intitule": "Opérateur",
-            "minimum_mensuel": 1802,
-            "minimum_annuel": 21624
-          },
-          {
-            "niveau": "A2",
-            "intitule": "Opérateur qualifié",
-            "minimum_mensuel": 1815,
-            "minimum_annuel": 21780
-          },
-          {
-            "niveau": "B3",
-            "intitule": "Technicien",
-            "minimum_mensuel": 1870,
-            "minimum_annuel": 22440
-          },
-          {
-            "niveau": "C5",
-            "intitule": "Tech. supérieur",
-            "minimum_mensuel": 2100,
-            "minimum_annuel": 25200
-          },
-          {
-            "niveau": "D8",
-            "intitule": "Cadre",
-            "minimum_mensuel": 2600,
-            "minimum_annuel": 31200
-          }
-        ],
-        "derniere_revalorisation": "2024-01-01",
-        "statut": "non_conforme",
-        "commentaire": "Niveaux A1-A2 < SMIC 2026"
-      },
-      {
-        "idcc": "1486",
-        "nom": "SYNTEC (Bureaux d'études)",
-        "effectif": 910000,
-        "grille": [
-          {
-            "niveau": "1.1",
-            "intitule": "ETAM position 1.1",
-            "minimum_mensuel": 1815,
-            "minimum_annuel": 21780
-          },
-          {
-            "niveau": "1.2",
-            "intitule": "ETAM position 1.2",
-            "minimum_mensuel": 1860,
-            "minimum_annuel": 22320
-          },
-          {
-            "niveau": "2.1",
-            "intitule": "ETAM position 2.1",
-            "minimum_mensuel": 1950,
-            "minimum_annuel": 23400
-          },
-          {
-            "niveau": "2.3",
-            "intitule": "Cadre position 2.3",
-            "minimum_mensuel": 2400,
-            "minimum_annuel": 28800
-          },
-          {
-            "niveau": "3.1",
-            "intitule": "Cadre position 3.1",
-            "minimum_mensuel": 3100,
-            "minimum_annuel": 37200
-          }
-        ],
-        "derniere_revalorisation": "2024-04-01",
-        "statut": "non_conforme",
-        "commentaire": "Premier niveau ETAM < SMIC"
-      },
-      {
-        "idcc": "1090",
-        "nom": "Services automobile",
-        "effectif": 450000,
-        "grille": [
-          {
-            "niveau": "1",
-            "intitule": "Employé",
-            "minimum_mensuel": 1825,
-            "minimum_annuel": 21900
-          },
-          {
-            "niveau": "3",
-            "intitule": "Ouvrier spécialisé",
-            "minimum_mensuel": 1870,
-            "minimum_annuel": 22440
-          },
-          {
-            "niveau": "6",
-            "intitule": "Technicien",
-            "minimum_mensuel": 2050,
-            "minimum_annuel": 24600
-          },
-          {
-            "niveau": "9",
-            "intitule": "Agent de maîtrise",
-            "minimum_mensuel": 2350,
-            "minimum_annuel": 28200
-          },
-          {
-            "niveau": "12",
-            "intitule": "Cadre",
-            "minimum_mensuel": 2900,
-            "minimum_annuel": 34800
-          }
-        ],
-        "derniere_revalorisation": "2025-01-01",
-        "statut": "conforme",
-        "commentaire": "Grille à jour"
-      },
-      {
-        "idcc": "1979",
-        "nom": "Hôtels Cafés Restaurants (HCR)",
-        "effectif": 660000,
-        "grille": [
-          {
-            "niveau": "I-1",
-            "intitule": "Employé",
-            "minimum_mensuel": 1830,
-            "minimum_annuel": 21960
-          },
-          {
-            "niveau": "I-2",
-            "intitule": "Employé qualifié",
-            "minimum_mensuel": 1855,
-            "minimum_annuel": 22260
-          },
-          {
-            "niveau": "II",
-            "intitule": "Chef de rang",
-            "minimum_mensuel": 1900,
-            "minimum_annuel": 22800
-          },
-          {
-            "niveau": "III",
-            "intitule": "Maître d'hôtel",
-            "minimum_mensuel": 2050,
-            "minimum_annuel": 24600
-          },
-          {
-            "niveau": "V",
-            "intitule": "Cadre",
-            "minimum_mensuel": 2700,
-            "minimum_annuel": 32400
-          }
-        ],
-        "derniere_revalorisation": "2025-01-01",
-        "statut": "conforme",
-        "commentaire": "Accord janvier 2025"
-      },
-      {
-        "idcc": "176",
-        "nom": "Industrie pharmaceutique",
-        "effectif": 100000,
-        "grille": [
-          {
-            "niveau": "1A",
-            "intitule": "Agent de fabrication",
-            "minimum_mensuel": 1850,
-            "minimum_annuel": 22200
-          },
-          {
-            "niveau": "2A",
-            "intitule": "Opérateur qualifié",
-            "minimum_mensuel": 1950,
-            "minimum_annuel": 23400
-          },
-          {
-            "niveau": "3A",
-            "intitule": "Technicien",
-            "minimum_mensuel": 2200,
-            "minimum_annuel": 26400
-          },
-          {
-            "niveau": "5",
-            "intitule": "Cadre groupe 5",
-            "minimum_mensuel": 3000,
-            "minimum_annuel": 36000
-          },
-          {
-            "niveau": "7",
-            "intitule": "Cadre groupe 7",
-            "minimum_mensuel": 4000,
-            "minimum_annuel": 48000
-          }
-        ],
-        "derniere_revalorisation": "2025-01-01",
-        "statut": "conforme",
-        "commentaire": "Grille revalorisée"
-      },
-      {
-        "idcc": "1606",
-        "nom": "BTP Ouvriers",
-        "effectif": 850000,
-        "grille": [
-          {
-            "niveau": "N1P1",
-            "intitule": "Ouvrier d'exécution",
-            "minimum_mensuel": 1830,
-            "minimum_annuel": 21960
-          },
-          {
-            "niveau": "N2P1",
-            "intitule": "Ouvrier professionnel",
-            "minimum_mensuel": 1910,
-            "minimum_annuel": 22920
-          },
-          {
-            "niveau": "N3P1",
-            "intitule": "Compagnon",
-            "minimum_mensuel": 2100,
-            "minimum_annuel": 25200
-          },
-          {
-            "niveau": "N4P1",
-            "intitule": "Chef d'équipe",
-            "minimum_mensuel": 2450,
-            "minimum_annuel": 29400
-          },
-          {
-            "niveau": "N4P2",
-            "intitule": "Maître ouvrier",
-            "minimum_mensuel": 2700,
-            "minimum_annuel": 32400
-          }
-        ],
-        "derniere_revalorisation": "2025-01-01",
-        "statut": "conforme",
-        "commentaire": "Accord janvier 2025"
-      }
-    ]
   }
 }
