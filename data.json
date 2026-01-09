@@ -1,5 +1,6 @@
 {
-  "last_updated": "2026-01-09T13:32:18.313515",
+  "last_updated": "2026-01-09T13:39:13.064306",
+  "contact": "hspringragain@cftc.fr",
   "sources": [
     "INSEE - Indice des prix à la consommation",
     "INSEE - Enquête Emploi",
@@ -230,7 +231,7 @@
   "indicateurs_cles": {
     "taux_chomage_actuel": 7.7,
     "taux_chomage_jeunes": 19.2,
-    "taux_emploi_seniors": 7.5,
+    "taux_emploi_seniors": 62.0,
     "inflation_annuelle": 0.9,
     "smic_brut": 1823.03,
     "smic_net": 1443.11,
@@ -352,115 +353,115 @@
   "emploi_seniors": [
     {
       "trimestre": "T1 2023",
-      "taux": 7.2
+      "taux": 58.5
     },
     {
       "trimestre": "T2 2023",
-      "taux": 7.1
+      "taux": 58.8
     },
     {
       "trimestre": "T3 2023",
-      "taux": 7.2
+      "taux": 59.2
     },
     {
       "trimestre": "T4 2023",
-      "taux": 7.4
+      "taux": 59.7
     },
     {
       "trimestre": "T1 2024",
-      "taux": 7.4
+      "taux": 60.1
     },
     {
       "trimestre": "T2 2024",
-      "taux": 7.1
+      "taux": 60.5
     },
     {
       "trimestre": "T3 2024",
-      "taux": 7.4
+      "taux": 60.9
     },
     {
       "trimestre": "T4 2024",
-      "taux": 7.2
+      "taux": 61.2
     },
     {
       "trimestre": "T1 2025",
-      "taux": 7.3
+      "taux": 61.5
     },
     {
       "trimestre": "T2 2025",
-      "taux": 7.5
+      "taux": 61.8
     },
     {
       "trimestre": "T3 2025",
-      "taux": 7.5
+      "taux": 62.0
     }
   ],
   "types_contrats": [
     {
       "trimestre": "T1 2023",
-      "cdi": 74.5,
-      "cdd": 8.8,
-      "interim": 2.2
+      "cdi": 83.2,
+      "cdd": 5.4,
+      "interim": 1.4
     },
     {
       "trimestre": "T2 2023",
-      "cdi": 74.3,
-      "cdd": 9.0,
-      "interim": 2.1
+      "cdi": 83.2,
+      "cdd": 5.4,
+      "interim": 1.4
     },
     {
       "trimestre": "T3 2023",
-      "cdi": 74.4,
-      "cdd": 8.9,
-      "interim": 2.0
+      "cdi": 83.4,
+      "cdd": 5.3,
+      "interim": 1.3
     },
     {
       "trimestre": "T4 2023",
-      "cdi": 74.6,
-      "cdd": 8.7,
-      "interim": 2.0
+      "cdi": 83.4,
+      "cdd": 5.3,
+      "interim": 1.3
     },
     {
       "trimestre": "T1 2024",
-      "cdi": 74.8,
-      "cdd": 8.5,
-      "interim": 1.9
+      "cdi": 83.4,
+      "cdd": 5.3,
+      "interim": 1.3
     },
     {
       "trimestre": "T2 2024",
-      "cdi": 74.7,
-      "cdd": 8.6,
-      "interim": 1.9
+      "cdi": 83.4,
+      "cdd": 5.3,
+      "interim": 1.3
     },
     {
       "trimestre": "T3 2024",
-      "cdi": 74.9,
-      "cdd": 8.4,
-      "interim": 1.8
+      "cdi": 83.4,
+      "cdd": 5.3,
+      "interim": 1.3
     },
     {
       "trimestre": "T4 2024",
-      "cdi": 75.0,
-      "cdd": 8.3,
-      "interim": 1.8
+      "cdi": 83.5,
+      "cdd": 5.2,
+      "interim": 1.3
     },
     {
       "trimestre": "T1 2025",
-      "cdi": 75.1,
-      "cdd": 8.2,
-      "interim": 1.7
+      "cdi": 83.6,
+      "cdd": 5.1,
+      "interim": 1.3
     },
     {
       "trimestre": "T2 2025",
-      "cdi": 75.2,
-      "cdd": 8.1,
-      "interim": 1.7
+      "cdi": 83.5,
+      "cdd": 5.2,
+      "interim": 1.3
     },
     {
       "trimestre": "T3 2025",
-      "cdi": 75.3,
-      "cdd": 8.0,
-      "interim": 1.6
+      "cdi": 83.6,
+      "cdd": 5.1,
+      "interim": 1.3
     }
   ],
   "difficultes_recrutement": [
