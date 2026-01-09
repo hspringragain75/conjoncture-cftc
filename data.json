@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-01-09T13:39:13.064306",
+  "last_updated": "2026-01-09T14:16:05.836675",
   "contact": "hspringragain@cftc.fr",
   "sources": [
     "INSEE - Indice des prix à la consommation",
@@ -237,7 +237,7 @@
     "smic_net": 1443.11,
     "salaire_median": 2190,
     "salaire_moyen": 2733,
-    "ecart_hf_eqtp": 25.8,
+    "ecart_hf_eqtp": 13.0,
     "difficultes_recrutement": 61,
     "irl_glissement": 0.87,
     "prix_gazole": 1.68,
@@ -277,36 +277,36 @@
   },
   "ecart_hommes_femmes": {
     "ecart_global": 22.2,
-    "ecart_eqtp": 25.8,
+    "ecart_eqtp": 13.0,
     "ecart_poste_comparable": 4.0,
     "evolution": [
       {
-        "annee": "2018",
-        "ecart": 23.2
+        "annee": "2015",
+        "ecart": 18.4
+      },
+      {
+        "annee": "2017",
+        "ecart": 16.6
       },
       {
         "annee": "2019",
-        "ecart": 23.8
-      },
-      {
-        "annee": "2020",
-        "ecart": 24.5
+        "ecart": 16.1
       },
       {
         "annee": "2021",
-        "ecart": 24.3
+        "ecart": 15.5
       },
       {
         "annee": "2022",
-        "ecart": 25.1
+        "ecart": 14.9
       },
       {
         "annee": "2023",
-        "ecart": 25.6
+        "ecart": 14.2
       },
       {
         "annee": "2024",
-        "ecart": 25.8
+        "ecart": 13.0
       }
     ]
   },
@@ -1674,16 +1674,29 @@
     }
   },
   "conventions_collectives": {
+    "meta": {
+      "derniere_mise_a_jour": "2026-01-09",
+      "prochaine_verification": "2026-04-01",
+      "sources": [
+        "https://travail-emploi.gouv.fr/dialogue-social/negociation-collective/",
+        "https://www.legifrance.gouv.fr/liste/idcc",
+        "https://code.travail.gouv.fr/outils/convention-collective"
+      ],
+      "note": "Données des 25 principales branches par effectifs. Mise à jour manuelle recommandée après chaque revalorisation du SMIC."
+    },
     "smic_reference": {
       "mensuel": 1823.03,
       "annuel": 21876.36,
+      "horaire": 12.02,
       "date": "2026-01-01"
     },
     "statistiques_branches": {
       "total_branches": 171,
       "branches_conformes": 152,
       "branches_non_conformes": 19,
-      "pourcentage_non_conformes": 11
+      "pourcentage_non_conformes": 11,
+      "date_comite_suivi": "2025-10-03",
+      "source": "https://travail-emploi.gouv.fr/comite-de-suivi-de-la-negociation-salariale-de-branches"
     },
     "branches": [
       {
@@ -1694,146 +1707,326 @@
           {
             "niveau": "A1",
             "intitule": "Opérateur",
-            "minimum_mensuel": 1802,
-            "minimum_annuel": 21624
+            "minimum_mensuel": 2021,
+            "minimum_annuel": 24250
           },
           {
             "niveau": "A2",
             "intitule": "Opérateur qualifié",
-            "minimum_mensuel": 1815,
-            "minimum_annuel": 21780
+            "minimum_mensuel": 2021,
+            "minimum_annuel": 24250
           },
           {
             "niveau": "B3",
             "intitule": "Technicien",
-            "minimum_mensuel": 1870,
-            "minimum_annuel": 22440
+            "minimum_mensuel": 2042,
+            "minimum_annuel": 24500
           },
           {
             "niveau": "C5",
             "intitule": "Tech. supérieur",
-            "minimum_mensuel": 2100,
-            "minimum_annuel": 25200
+            "minimum_mensuel": 2125,
+            "minimum_annuel": 25500
           },
           {
             "niveau": "D8",
-            "intitule": "Cadre",
-            "minimum_mensuel": 2600,
-            "minimum_annuel": 31200
+            "intitule": "Cadre débutant",
+            "minimum_mensuel": 2458,
+            "minimum_annuel": 29500
+          },
+          {
+            "niveau": "F11",
+            "intitule": "Cadre confirmé",
+            "minimum_mensuel": 3000,
+            "minimum_annuel": 36000
+          },
+          {
+            "niveau": "I18",
+            "intitule": "Cadre supérieur",
+            "minimum_mensuel": 6500,
+            "minimum_annuel": 78000
           }
         ],
         "derniere_revalorisation": "2024-01-01",
-        "statut": "non_conforme",
-        "commentaire": "Niveaux A1-A2 < SMIC 2026"
+        "date_verification": "2026-01-09",
+        "statut": "conforme",
+        "source": "https://code.travail.gouv.fr/convention-collective/3248-metallurgie",
+        "commentaire": "Nouvelle CCN unifiée depuis 01/2024. Grille unique nationale. Négociations 2025 en échec."
       },
       {
         "idcc": "1486",
-        "nom": "SYNTEC (Bureaux d'études)",
+        "nom": "SYNTEC - Bureaux d'études techniques",
         "effectif": 910000,
         "grille": [
           {
-            "niveau": "1.1",
-            "intitule": "ETAM position 1.1",
+            "niveau": "ETAM 1.1",
+            "intitule": "Employé débutant",
             "minimum_mensuel": 1815,
             "minimum_annuel": 21780
           },
           {
-            "niveau": "1.2",
-            "intitule": "ETAM position 1.2",
-            "minimum_mensuel": 1860,
-            "minimum_annuel": 22320
+            "niveau": "ETAM 1.2",
+            "intitule": "Employé",
+            "minimum_mensuel": 1864,
+            "minimum_annuel": 22368
           },
           {
-            "niveau": "2.1",
-            "intitule": "ETAM position 2.1",
-            "minimum_mensuel": 1950,
-            "minimum_annuel": 23400
+            "niveau": "ETAM 2.1",
+            "intitule": "Technicien",
+            "minimum_mensuel": 1983,
+            "minimum_annuel": 23796
           },
           {
-            "niveau": "2.3",
-            "intitule": "Cadre position 2.3",
-            "minimum_mensuel": 2400,
-            "minimum_annuel": 28800
+            "niveau": "ETAM 2.2",
+            "intitule": "Technicien qualifié",
+            "minimum_mensuel": 2074,
+            "minimum_annuel": 24888
           },
           {
-            "niveau": "3.1",
-            "intitule": "Cadre position 3.1",
-            "minimum_mensuel": 3100,
-            "minimum_annuel": 37200
+            "niveau": "ETAM 3.1",
+            "intitule": "Agent maîtrise",
+            "minimum_mensuel": 2243,
+            "minimum_annuel": 26916
+          },
+          {
+            "niveau": "IC 1.1",
+            "intitule": "Cadre débutant",
+            "minimum_mensuel": 2844,
+            "minimum_annuel": 34128
+          },
+          {
+            "niveau": "IC 2.1",
+            "intitule": "Cadre confirmé",
+            "minimum_mensuel": 3418,
+            "minimum_annuel": 41016
+          },
+          {
+            "niveau": "IC 3.1",
+            "intitule": "Cadre senior",
+            "minimum_mensuel": 4778,
+            "minimum_annuel": 57336
           }
         ],
-        "derniere_revalorisation": "2024-04-01",
+        "derniere_revalorisation": "2025-01-01",
+        "date_verification": "2026-01-09",
         "statut": "non_conforme",
-        "commentaire": "Premier niveau ETAM < SMIC"
+        "source": "https://www.syntec.fr/convention-collective/",
+        "commentaire": "Position ETAM 1.1 inférieure au SMIC 2026. Accord du 26/06/2024 applicable au 01/12/2024."
       },
       {
-        "idcc": "1090",
-        "nom": "Services automobile",
-        "effectif": 450000,
+        "idcc": "1979",
+        "nom": "Hôtels, Cafés, Restaurants (HCR)",
+        "effectif": 800000,
         "grille": [
           {
-            "niveau": "1",
-            "intitule": "Employé",
-            "minimum_mensuel": 1825,
-            "minimum_annuel": 21900
+            "niveau": "I-1",
+            "intitule": "Employé sans qualification",
+            "minimum_mensuel": 1862,
+            "minimum_annuel": 22344
+          },
+          {
+            "niveau": "I-2",
+            "intitule": "Employé qualifié",
+            "minimum_mensuel": 1875,
+            "minimum_annuel": 22500
+          },
+          {
+            "niveau": "II",
+            "intitule": "Chef de rang",
+            "minimum_mensuel": 1905,
+            "minimum_annuel": 22860
+          },
+          {
+            "niveau": "III",
+            "intitule": "Maître d'hôtel",
+            "minimum_mensuel": 1965,
+            "minimum_annuel": 23580
+          },
+          {
+            "niveau": "IV",
+            "intitule": "Assistant direction",
+            "minimum_mensuel": 2100,
+            "minimum_annuel": 25200
+          },
+          {
+            "niveau": "V",
+            "intitule": "Cadre",
+            "minimum_mensuel": 2750,
+            "minimum_annuel": 33000
+          }
+        ],
+        "derniere_revalorisation": "2025-01-01",
+        "date_verification": "2026-01-09",
+        "statut": "conforme",
+        "source": "https://code.travail.gouv.fr/convention-collective/1979-hotels-cafes-restaurants",
+        "commentaire": "Avenant n°32 du 01/01/2025. Secteur en tension de recrutement."
+      },
+      {
+        "idcc": "2216",
+        "nom": "Commerce de détail et de gros à prédominance alimentaire",
+        "effectif": 750000,
+        "grille": [
+          {
+            "niveau": "1A",
+            "intitule": "Employé commercial",
+            "minimum_mensuel": 1830,
+            "minimum_annuel": 21960
+          },
+          {
+            "niveau": "1B",
+            "intitule": "Employé qualifié",
+            "minimum_mensuel": 1845,
+            "minimum_annuel": 22140
+          },
+          {
+            "niveau": "2A",
+            "intitule": "Employé confirmé",
+            "minimum_mensuel": 1875,
+            "minimum_annuel": 22500
           },
           {
             "niveau": "3",
-            "intitule": "Ouvrier spécialisé",
-            "minimum_mensuel": 1870,
-            "minimum_annuel": 22440
-          },
-          {
-            "niveau": "6",
-            "intitule": "Technicien",
+            "intitule": "Agent de maîtrise",
             "minimum_mensuel": 2050,
             "minimum_annuel": 24600
           },
           {
-            "niveau": "9",
-            "intitule": "Agent de maîtrise",
+            "niveau": "5",
+            "intitule": "Cadre",
+            "minimum_mensuel": 2700,
+            "minimum_annuel": 32400
+          }
+        ],
+        "derniere_revalorisation": "2025-01-01",
+        "date_verification": "2026-01-09",
+        "statut": "conforme",
+        "source": "https://code.travail.gouv.fr/convention-collective/2216-commerce-detail-gros-alimentaire",
+        "commentaire": "Grande distribution. Négociations annuelles régulières."
+      },
+      {
+        "idcc": "1606",
+        "nom": "BTP - Ouvriers (+ 10 salariés)",
+        "effectif": 700000,
+        "grille": [
+          {
+            "niveau": "N1P1",
+            "intitule": "Ouvrier d'exécution",
+            "minimum_mensuel": 1830,
+            "minimum_annuel": 21960
+          },
+          {
+            "niveau": "N1P2",
+            "intitule": "Ouvrier exécution confirmé",
+            "minimum_mensuel": 1855,
+            "minimum_annuel": 22260
+          },
+          {
+            "niveau": "N2P1",
+            "intitule": "Ouvrier professionnel",
+            "minimum_mensuel": 1905,
+            "minimum_annuel": 22860
+          },
+          {
+            "niveau": "N3P1",
+            "intitule": "Compagnon professionnel",
+            "minimum_mensuel": 2050,
+            "minimum_annuel": 24600
+          },
+          {
+            "niveau": "N3P2",
+            "intitule": "Compagnon confirmé",
+            "minimum_mensuel": 2200,
+            "minimum_annuel": 26400
+          },
+          {
+            "niveau": "N4P1",
+            "intitule": "Chef d'équipe",
+            "minimum_mensuel": 2450,
+            "minimum_annuel": 29400
+          },
+          {
+            "niveau": "N4P2",
+            "intitule": "Maître ouvrier",
+            "minimum_mensuel": 2700,
+            "minimum_annuel": 32400
+          }
+        ],
+        "derniere_revalorisation": "2025-01-01",
+        "date_verification": "2026-01-09",
+        "statut": "conforme",
+        "source": "https://code.travail.gouv.fr/convention-collective/1606-batiment-ouvriers",
+        "commentaire": "Grille régionale Île-de-France. Variations selon départements."
+      },
+      {
+        "idcc": "2609",
+        "nom": "BTP - ETAM",
+        "effectif": 350000,
+        "grille": [
+          {
+            "niveau": "A",
+            "intitule": "ETAM débutant",
+            "minimum_mensuel": 1855,
+            "minimum_annuel": 22260
+          },
+          {
+            "niveau": "B",
+            "intitule": "ETAM confirmé",
+            "minimum_mensuel": 1950,
+            "minimum_annuel": 23400
+          },
+          {
+            "niveau": "C",
+            "intitule": "ETAM qualifié",
+            "minimum_mensuel": 2100,
+            "minimum_annuel": 25200
+          },
+          {
+            "niveau": "D",
+            "intitule": "ETAM hautement qualifié",
             "minimum_mensuel": 2350,
             "minimum_annuel": 28200
           },
           {
-            "niveau": "12",
-            "intitule": "Cadre",
-            "minimum_mensuel": 2900,
-            "minimum_annuel": 34800
+            "niveau": "E",
+            "intitule": "Agent de maîtrise",
+            "minimum_mensuel": 2650,
+            "minimum_annuel": 31800
           }
         ],
         "derniere_revalorisation": "2025-01-01",
+        "date_verification": "2026-01-09",
         "statut": "conforme",
-        "commentaire": "Grille à jour"
+        "source": "https://code.travail.gouv.fr/convention-collective/2609-batiment-etam",
+        "commentaire": "Grille nationale ETAM BTP."
       },
       {
-        "idcc": "1979",
-        "nom": "Hôtels Cafés Restaurants (HCR)",
-        "effectif": 660000,
+        "idcc": "2098",
+        "nom": "Prestataires de services secteur tertiaire",
+        "effectif": 500000,
         "grille": [
           {
-            "niveau": "I-1",
+            "niveau": "I",
             "intitule": "Employé",
             "minimum_mensuel": 1830,
             "minimum_annuel": 21960
           },
           {
-            "niveau": "I-2",
-            "intitule": "Employé qualifié",
-            "minimum_mensuel": 1855,
-            "minimum_annuel": 22260
-          },
-          {
             "niveau": "II",
-            "intitule": "Chef de rang",
-            "minimum_mensuel": 1900,
-            "minimum_annuel": 22800
+            "intitule": "Employé qualifié",
+            "minimum_mensuel": 1870,
+            "minimum_annuel": 22440
           },
           {
             "niveau": "III",
-            "intitule": "Maître d'hôtel",
-            "minimum_mensuel": 2050,
-            "minimum_annuel": 24600
+            "intitule": "Technicien",
+            "minimum_mensuel": 1950,
+            "minimum_annuel": 23400
+          },
+          {
+            "niveau": "IV",
+            "intitule": "Agent de maîtrise",
+            "minimum_mensuel": 2150,
+            "minimum_annuel": 25800
           },
           {
             "niveau": "V",
@@ -1842,9 +2035,101 @@
             "minimum_annuel": 32400
           }
         ],
-        "derniere_revalorisation": "2025-01-01",
+        "derniere_revalorisation": "2024-07-01",
+        "date_verification": "2026-01-09",
         "statut": "conforme",
-        "commentaire": "Accord janvier 2025"
+        "source": "https://code.travail.gouv.fr/convention-collective/2098-prestataires-services",
+        "commentaire": "Centres d'appels, télémarketing, services aux entreprises."
+      },
+      {
+        "idcc": "3127",
+        "nom": "Propreté et services associés",
+        "effectif": 550000,
+        "grille": [
+          {
+            "niveau": "AS1",
+            "intitule": "Agent de service",
+            "minimum_mensuel": 1830,
+            "minimum_annuel": 21960
+          },
+          {
+            "niveau": "AS2",
+            "intitule": "Agent qualifié",
+            "minimum_mensuel": 1855,
+            "minimum_annuel": 22260
+          },
+          {
+            "niveau": "AS3",
+            "intitule": "Agent très qualifié",
+            "minimum_mensuel": 1890,
+            "minimum_annuel": 22680
+          },
+          {
+            "niveau": "AQS1",
+            "intitule": "Agent haute qualif.",
+            "minimum_mensuel": 1950,
+            "minimum_annuel": 23400
+          },
+          {
+            "niveau": "CE1",
+            "intitule": "Chef d'équipe",
+            "minimum_mensuel": 2100,
+            "minimum_annuel": 25200
+          },
+          {
+            "niveau": "MP1",
+            "intitule": "Maîtrise/Cadre",
+            "minimum_mensuel": 2500,
+            "minimum_annuel": 30000
+          }
+        ],
+        "derniere_revalorisation": "2025-01-01",
+        "date_verification": "2026-01-09",
+        "statut": "conforme",
+        "source": "https://code.travail.gouv.fr/convention-collective/3127-proprete",
+        "commentaire": "Secteur nettoyage industriel et tertiaire."
+      },
+      {
+        "idcc": "2511",
+        "nom": "Sport",
+        "effectif": 130000,
+        "grille": [
+          {
+            "niveau": "1",
+            "intitule": "Employé",
+            "minimum_mensuel": 1830,
+            "minimum_annuel": 21960
+          },
+          {
+            "niveau": "2",
+            "intitule": "Technicien",
+            "minimum_mensuel": 1880,
+            "minimum_annuel": 22560
+          },
+          {
+            "niveau": "3",
+            "intitule": "Éducateur sportif",
+            "minimum_mensuel": 1950,
+            "minimum_annuel": 23400
+          },
+          {
+            "niveau": "4",
+            "intitule": "Entraîneur",
+            "minimum_mensuel": 2150,
+            "minimum_annuel": 25800
+          },
+          {
+            "niveau": "5",
+            "intitule": "Cadre",
+            "minimum_mensuel": 2600,
+            "minimum_annuel": 31200
+          }
+        ],
+        "derniere_revalorisation": "2024-09-01",
+        "date_verification": "2026-01-09",
+        "statut": "conforme",
+        "source": "https://code.travail.gouv.fr/convention-collective/2511-sport",
+        "commentaire": "Clubs sportifs, salles de fitness, associations."
       },
       {
         "idcc": "176",
@@ -1870,26 +2155,640 @@
             "minimum_annuel": 26400
           },
           {
+            "niveau": "4",
+            "intitule": "Tech. supérieur",
+            "minimum_mensuel": 2650,
+            "minimum_annuel": 31800
+          },
+          {
             "niveau": "5",
             "intitule": "Cadre groupe 5",
-            "minimum_mensuel": 3000,
-            "minimum_annuel": 36000
+            "minimum_mensuel": 3200,
+            "minimum_annuel": 38400
           },
           {
             "niveau": "7",
             "intitule": "Cadre groupe 7",
-            "minimum_mensuel": 4000,
-            "minimum_annuel": 48000
+            "minimum_mensuel": 4200,
+            "minimum_annuel": 50400
           }
         ],
         "derniere_revalorisation": "2025-01-01",
+        "date_verification": "2026-01-09",
         "statut": "conforme",
-        "commentaire": "Grille revalorisée"
+        "source": "https://code.travail.gouv.fr/convention-collective/176-industrie-pharmaceutique",
+        "commentaire": "Industrie du médicament. Grille revalorisée régulièrement."
       },
       {
-        "idcc": "1606",
-        "nom": "BTP Ouvriers",
-        "effectif": 850000,
+        "idcc": "1090",
+        "nom": "Services de l'automobile",
+        "effectif": 450000,
+        "grille": [
+          {
+            "niveau": "1",
+            "intitule": "Employé",
+            "minimum_mensuel": 1830,
+            "minimum_annuel": 21960
+          },
+          {
+            "niveau": "3",
+            "intitule": "Ouvrier spécialisé",
+            "minimum_mensuel": 1870,
+            "minimum_annuel": 22440
+          },
+          {
+            "niveau": "6",
+            "intitule": "Ouvrier qualifié",
+            "minimum_mensuel": 1980,
+            "minimum_annuel": 23760
+          },
+          {
+            "niveau": "9",
+            "intitule": "Technicien confirmé",
+            "minimum_mensuel": 2200,
+            "minimum_annuel": 26400
+          },
+          {
+            "niveau": "12",
+            "intitule": "Agent de maîtrise",
+            "minimum_mensuel": 2550,
+            "minimum_annuel": 30600
+          },
+          {
+            "niveau": "20",
+            "intitule": "Cadre",
+            "minimum_mensuel": 3100,
+            "minimum_annuel": 37200
+          }
+        ],
+        "derniere_revalorisation": "2025-01-01",
+        "date_verification": "2026-01-09",
+        "statut": "conforme",
+        "source": "https://code.travail.gouv.fr/convention-collective/1090-services-automobile",
+        "commentaire": "Garages, concessions, réparation automobile."
+      },
+      {
+        "idcc": "2148",
+        "nom": "Télécommunications",
+        "effectif": 150000,
+        "grille": [
+          {
+            "niveau": "A",
+            "intitule": "Employé",
+            "minimum_mensuel": 1850,
+            "minimum_annuel": 22200
+          },
+          {
+            "niveau": "B",
+            "intitule": "Technicien",
+            "minimum_mensuel": 1980,
+            "minimum_annuel": 23760
+          },
+          {
+            "niveau": "C",
+            "intitule": "Tech. supérieur",
+            "minimum_mensuel": 2200,
+            "minimum_annuel": 26400
+          },
+          {
+            "niveau": "D",
+            "intitule": "Cadre débutant",
+            "minimum_mensuel": 2800,
+            "minimum_annuel": 33600
+          },
+          {
+            "niveau": "E",
+            "intitule": "Cadre confirmé",
+            "minimum_mensuel": 3500,
+            "minimum_annuel": 42000
+          },
+          {
+            "niveau": "F",
+            "intitule": "Cadre supérieur",
+            "minimum_mensuel": 4500,
+            "minimum_annuel": 54000
+          }
+        ],
+        "derniere_revalorisation": "2024-07-01",
+        "date_verification": "2026-01-09",
+        "statut": "conforme",
+        "source": "https://code.travail.gouv.fr/convention-collective/2148-telecommunications",
+        "commentaire": "Opérateurs télécom, équipementiers."
+      },
+      {
+        "idcc": "2264",
+        "nom": "Hospitalisation privée",
+        "effectif": 200000,
+        "grille": [
+          {
+            "niveau": "EQ",
+            "intitule": "Employé qualifié",
+            "minimum_mensuel": 1830,
+            "minimum_annuel": 21960
+          },
+          {
+            "niveau": "T1",
+            "intitule": "Technicien",
+            "minimum_mensuel": 1920,
+            "minimum_annuel": 23040
+          },
+          {
+            "niveau": "T2",
+            "intitule": "Tech. supérieur",
+            "minimum_mensuel": 2100,
+            "minimum_annuel": 25200
+          },
+          {
+            "niveau": "AM",
+            "intitule": "Agent de maîtrise",
+            "minimum_mensuel": 2400,
+            "minimum_annuel": 28800
+          },
+          {
+            "niveau": "C1",
+            "intitule": "Cadre",
+            "minimum_mensuel": 2900,
+            "minimum_annuel": 34800
+          },
+          {
+            "niveau": "C3",
+            "intitule": "Cadre supérieur",
+            "minimum_mensuel": 3800,
+            "minimum_annuel": 45600
+          }
+        ],
+        "derniere_revalorisation": "2024-10-01",
+        "date_verification": "2026-01-09",
+        "statut": "conforme",
+        "source": "https://code.travail.gouv.fr/convention-collective/2264-hospitalisation-privee",
+        "commentaire": "Cliniques privées, établissements de santé."
+      },
+      {
+        "idcc": "573",
+        "nom": "Commerces de gros",
+        "effectif": 400000,
+        "grille": [
+          {
+            "niveau": "I",
+            "intitule": "Employé",
+            "minimum_mensuel": 1830,
+            "minimum_annuel": 21960
+          },
+          {
+            "niveau": "II",
+            "intitule": "Employé qualifié",
+            "minimum_mensuel": 1870,
+            "minimum_annuel": 22440
+          },
+          {
+            "niveau": "III",
+            "intitule": "Technicien",
+            "minimum_mensuel": 1970,
+            "minimum_annuel": 23640
+          },
+          {
+            "niveau": "IV",
+            "intitule": "Agent de maîtrise",
+            "minimum_mensuel": 2200,
+            "minimum_annuel": 26400
+          },
+          {
+            "niveau": "V",
+            "intitule": "Cadre",
+            "minimum_mensuel": 2800,
+            "minimum_annuel": 33600
+          }
+        ],
+        "derniere_revalorisation": "2025-01-01",
+        "date_verification": "2026-01-09",
+        "statut": "conforme",
+        "source": "https://code.travail.gouv.fr/convention-collective/573-commerces-gros",
+        "commentaire": "Négoce, grossistes, distribution B2B."
+      },
+      {
+        "idcc": "1517",
+        "nom": "Commerce de détail non alimentaire",
+        "effectif": 350000,
+        "grille": [
+          {
+            "niveau": "1",
+            "intitule": "Employé",
+            "minimum_mensuel": 1830,
+            "minimum_annuel": 21960
+          },
+          {
+            "niveau": "2",
+            "intitule": "Vendeur",
+            "minimum_mensuel": 1855,
+            "minimum_annuel": 22260
+          },
+          {
+            "niveau": "3",
+            "intitule": "Vendeur qualifié",
+            "minimum_mensuel": 1900,
+            "minimum_annuel": 22800
+          },
+          {
+            "niveau": "4",
+            "intitule": "Responsable rayon",
+            "minimum_mensuel": 2050,
+            "minimum_annuel": 24600
+          },
+          {
+            "niveau": "5",
+            "intitule": "Cadre",
+            "minimum_mensuel": 2600,
+            "minimum_annuel": 31200
+          }
+        ],
+        "derniere_revalorisation": "2024-07-01",
+        "date_verification": "2026-01-09",
+        "statut": "conforme",
+        "source": "https://code.travail.gouv.fr/convention-collective/1517-commerce-detail-non-alimentaire",
+        "commentaire": "Magasins spécialisés, équipement de la personne/maison."
+      },
+      {
+        "idcc": "2941",
+        "nom": "Aide à domicile (BAD)",
+        "effectif": 500000,
+        "grille": [
+          {
+            "niveau": "A",
+            "intitule": "Agent à domicile",
+            "minimum_mensuel": 1830,
+            "minimum_annuel": 21960
+          },
+          {
+            "niveau": "B",
+            "intitule": "Employé à domicile",
+            "minimum_mensuel": 1860,
+            "minimum_annuel": 22320
+          },
+          {
+            "niveau": "C",
+            "intitule": "Auxiliaire de vie",
+            "minimum_mensuel": 1920,
+            "minimum_annuel": 23040
+          },
+          {
+            "niveau": "D",
+            "intitule": "Tech. intervention sociale",
+            "minimum_mensuel": 2050,
+            "minimum_annuel": 24600
+          },
+          {
+            "niveau": "E",
+            "intitule": "Cadre",
+            "minimum_mensuel": 2500,
+            "minimum_annuel": 30000
+          }
+        ],
+        "derniere_revalorisation": "2024-10-01",
+        "date_verification": "2026-01-09",
+        "statut": "conforme",
+        "source": "https://code.travail.gouv.fr/convention-collective/2941-aide-domicile",
+        "commentaire": "Services à la personne, aide aux personnes âgées/handicapées."
+      },
+      {
+        "idcc": "1702",
+        "nom": "Travaux publics - Ouvriers",
+        "effectif": 280000,
+        "grille": [
+          {
+            "niveau": "I",
+            "intitule": "Ouvrier d'exécution",
+            "minimum_mensuel": 1835,
+            "minimum_annuel": 22020
+          },
+          {
+            "niveau": "II",
+            "intitule": "Ouvrier professionnel",
+            "minimum_mensuel": 1900,
+            "minimum_annuel": 22800
+          },
+          {
+            "niveau": "III",
+            "intitule": "Ouvrier compagnon",
+            "minimum_mensuel": 2050,
+            "minimum_annuel": 24600
+          },
+          {
+            "niveau": "IV",
+            "intitule": "Chef d'équipe",
+            "minimum_mensuel": 2350,
+            "minimum_annuel": 28200
+          }
+        ],
+        "derniere_revalorisation": "2025-01-01",
+        "date_verification": "2026-01-09",
+        "statut": "conforme",
+        "source": "https://code.travail.gouv.fr/convention-collective/1702-travaux-publics-ouvriers",
+        "commentaire": "Routes, canalisations, ouvrages d'art."
+      },
+      {
+        "idcc": "44",
+        "nom": "Industries chimiques",
+        "effectif": 220000,
+        "grille": [
+          {
+            "niveau": "130",
+            "intitule": "Ouvrier",
+            "minimum_mensuel": 1850,
+            "minimum_annuel": 22200
+          },
+          {
+            "niveau": "160",
+            "intitule": "Ouvrier qualifié",
+            "minimum_mensuel": 1950,
+            "minimum_annuel": 23400
+          },
+          {
+            "niveau": "190",
+            "intitule": "Technicien",
+            "minimum_mensuel": 2150,
+            "minimum_annuel": 25800
+          },
+          {
+            "niveau": "225",
+            "intitule": "Agent de maîtrise",
+            "minimum_mensuel": 2450,
+            "minimum_annuel": 29400
+          },
+          {
+            "niveau": "350",
+            "intitule": "Cadre",
+            "minimum_mensuel": 3200,
+            "minimum_annuel": 38400
+          },
+          {
+            "niveau": "550",
+            "intitule": "Cadre supérieur",
+            "minimum_mensuel": 4500,
+            "minimum_annuel": 54000
+          }
+        ],
+        "derniere_revalorisation": "2025-01-01",
+        "date_verification": "2026-01-09",
+        "statut": "conforme",
+        "source": "https://code.travail.gouv.fr/convention-collective/44-industries-chimiques",
+        "commentaire": "Chimie de base, spécialités, parachimie."
+      },
+      {
+        "idcc": "3239",
+        "nom": "Particuliers employeurs et emploi à domicile",
+        "effectif": 1200000,
+        "grille": [
+          {
+            "niveau": "I",
+            "intitule": "Employé familial",
+            "minimum_mensuel": 1830,
+            "minimum_annuel": 21960
+          },
+          {
+            "niveau": "II",
+            "intitule": "Employé familial qualifié",
+            "minimum_mensuel": 1870,
+            "minimum_annuel": 22440
+          },
+          {
+            "niveau": "III",
+            "intitule": "Garde d'enfants",
+            "minimum_mensuel": 1920,
+            "minimum_annuel": 23040
+          },
+          {
+            "niveau": "IV",
+            "intitule": "Assistant de vie",
+            "minimum_mensuel": 2000,
+            "minimum_annuel": 24000
+          }
+        ],
+        "derniere_revalorisation": "2025-01-01",
+        "date_verification": "2026-01-09",
+        "statut": "conforme",
+        "source": "https://code.travail.gouv.fr/convention-collective/3239-particuliers-employeurs",
+        "commentaire": "Nouvelle CCN fusionnée depuis 2022. Nounous, aides ménagères."
+      },
+      {
+        "idcc": "1527",
+        "nom": "Immobilier (administrateurs de biens)",
+        "effectif": 150000,
+        "grille": [
+          {
+            "niveau": "E1",
+            "intitule": "Employé",
+            "minimum_mensuel": 1835,
+            "minimum_annuel": 22020
+          },
+          {
+            "niveau": "E2",
+            "intitule": "Employé qualifié",
+            "minimum_mensuel": 1900,
+            "minimum_annuel": 22800
+          },
+          {
+            "niveau": "E3",
+            "intitule": "Employé confirmé",
+            "minimum_mensuel": 2000,
+            "minimum_annuel": 24000
+          },
+          {
+            "niveau": "AM1",
+            "intitule": "Agent de maîtrise",
+            "minimum_mensuel": 2300,
+            "minimum_annuel": 27600
+          },
+          {
+            "niveau": "C1",
+            "intitule": "Cadre",
+            "minimum_mensuel": 2900,
+            "minimum_annuel": 34800
+          },
+          {
+            "niveau": "C4",
+            "intitule": "Cadre supérieur",
+            "minimum_mensuel": 4200,
+            "minimum_annuel": 50400
+          }
+        ],
+        "derniere_revalorisation": "2024-07-01",
+        "date_verification": "2026-01-09",
+        "statut": "conforme",
+        "source": "https://code.travail.gouv.fr/convention-collective/1527-immobilier",
+        "commentaire": "Syndics, gérants, administrateurs de biens."
+      },
+      {
+        "idcc": "1501",
+        "nom": "Restauration rapide",
+        "effectif": 250000,
+        "grille": [
+          {
+            "niveau": "I",
+            "intitule": "Équipier",
+            "minimum_mensuel": 1830,
+            "minimum_annuel": 21960
+          },
+          {
+            "niveau": "II",
+            "intitule": "Équipier polyvalent",
+            "minimum_mensuel": 1865,
+            "minimum_annuel": 22380
+          },
+          {
+            "niveau": "III",
+            "intitule": "Responsable équipe",
+            "minimum_mensuel": 1950,
+            "minimum_annuel": 23400
+          },
+          {
+            "niveau": "IV",
+            "intitule": "Assistant manager",
+            "minimum_mensuel": 2150,
+            "minimum_annuel": 25800
+          },
+          {
+            "niveau": "V",
+            "intitule": "Directeur adjoint",
+            "minimum_mensuel": 2600,
+            "minimum_annuel": 31200
+          }
+        ],
+        "derniere_revalorisation": "2025-01-01",
+        "date_verification": "2026-01-09",
+        "statut": "conforme",
+        "source": "https://code.travail.gouv.fr/convention-collective/1501-restauration-rapide",
+        "commentaire": "Fast-food, restauration à emporter."
+      },
+      {
+        "idcc": "2335",
+        "nom": "Agences de voyage et tourisme",
+        "effectif": 50000,
+        "grille": [
+          {
+            "niveau": "A",
+            "intitule": "Employé",
+            "minimum_mensuel": 1830,
+            "minimum_annuel": 21960
+          },
+          {
+            "niveau": "B",
+            "intitule": "Agent de comptoir",
+            "minimum_mensuel": 1880,
+            "minimum_annuel": 22560
+          },
+          {
+            "niveau": "C",
+            "intitule": "Agent de voyage",
+            "minimum_mensuel": 1980,
+            "minimum_annuel": 23760
+          },
+          {
+            "niveau": "D",
+            "intitule": "Responsable agence",
+            "minimum_mensuel": 2300,
+            "minimum_annuel": 27600
+          },
+          {
+            "niveau": "E",
+            "intitule": "Cadre",
+            "minimum_mensuel": 2800,
+            "minimum_annuel": 33600
+          }
+        ],
+        "derniere_revalorisation": "2024-04-01",
+        "date_verification": "2026-01-09",
+        "statut": "conforme",
+        "source": "https://code.travail.gouv.fr/convention-collective/2335-agences-voyage",
+        "commentaire": "Tour-opérateurs, agences de voyages."
+      },
+      {
+        "idcc": "1516",
+        "nom": "Organismes de formation",
+        "effectif": 180000,
+        "grille": [
+          {
+            "niveau": "A",
+            "intitule": "Personnel administratif",
+            "minimum_mensuel": 1830,
+            "minimum_annuel": 21960
+          },
+          {
+            "niveau": "B",
+            "intitule": "Formateur débutant",
+            "minimum_mensuel": 1920,
+            "minimum_annuel": 23040
+          },
+          {
+            "niveau": "C",
+            "intitule": "Formateur",
+            "minimum_mensuel": 2100,
+            "minimum_annuel": 25200
+          },
+          {
+            "niveau": "D",
+            "intitule": "Formateur confirmé",
+            "minimum_mensuel": 2400,
+            "minimum_annuel": 28800
+          },
+          {
+            "niveau": "E",
+            "intitule": "Responsable formation",
+            "minimum_mensuel": 2900,
+            "minimum_annuel": 34800
+          }
+        ],
+        "derniere_revalorisation": "2024-09-01",
+        "date_verification": "2026-01-09",
+        "statut": "conforme",
+        "source": "https://code.travail.gouv.fr/convention-collective/1516-organismes-formation",
+        "commentaire": "Formation professionnelle continue."
+      },
+      {
+        "idcc": "1266",
+        "nom": "Restauration de collectivités",
+        "effectif": 120000,
+        "grille": [
+          {
+            "niveau": "I",
+            "intitule": "Employé de restauration",
+            "minimum_mensuel": 1830,
+            "minimum_annuel": 21960
+          },
+          {
+            "niveau": "II",
+            "intitule": "Cuisinier",
+            "minimum_mensuel": 1900,
+            "minimum_annuel": 22800
+          },
+          {
+            "niveau": "III",
+            "intitule": "Chef de partie",
+            "minimum_mensuel": 2050,
+            "minimum_annuel": 24600
+          },
+          {
+            "niveau": "IV",
+            "intitule": "Chef gérant",
+            "minimum_mensuel": 2350,
+            "minimum_annuel": 28200
+          },
+          {
+            "niveau": "V",
+            "intitule": "Directeur site",
+            "minimum_mensuel": 2900,
+            "minimum_annuel": 34800
+          }
+        ],
+        "derniere_revalorisation": "2025-01-01",
+        "date_verification": "2026-01-09",
+        "statut": "conforme",
+        "source": "https://code.travail.gouv.fr/convention-collective/1266-restauration-collectivites",
+        "commentaire": "Cantines, restaurants d'entreprise."
+      },
+      {
+        "idcc": "1596",
+        "nom": "BTP - Ouvriers (jusqu'à 10 salariés)",
+        "effectif": 300000,
         "grille": [
           {
             "niveau": "N1P1",
@@ -1900,31 +2799,27 @@
           {
             "niveau": "N2P1",
             "intitule": "Ouvrier professionnel",
-            "minimum_mensuel": 1910,
-            "minimum_annuel": 22920
+            "minimum_mensuel": 1900,
+            "minimum_annuel": 22800
           },
           {
             "niveau": "N3P1",
             "intitule": "Compagnon",
-            "minimum_mensuel": 2100,
-            "minimum_annuel": 25200
+            "minimum_mensuel": 2030,
+            "minimum_annuel": 24360
           },
           {
             "niveau": "N4P1",
-            "intitule": "Chef d'équipe",
-            "minimum_mensuel": 2450,
-            "minimum_annuel": 29400
-          },
-          {
-            "niveau": "N4P2",
             "intitule": "Maître ouvrier",
-            "minimum_mensuel": 2700,
-            "minimum_annuel": 32400
+            "minimum_mensuel": 2300,
+            "minimum_annuel": 27600
           }
         ],
         "derniere_revalorisation": "2025-01-01",
+        "date_verification": "2026-01-09",
         "statut": "conforme",
-        "commentaire": "Accord janvier 2025"
+        "source": "https://code.travail.gouv.fr/convention-collective/1596-batiment-ouvriers-petites-entreprises",
+        "commentaire": "Artisans du bâtiment, petites entreprises."
       }
     ]
   }
