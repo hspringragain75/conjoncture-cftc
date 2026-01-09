@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-01-08T13:34:33.731017",
+  "last_updated": "2026-01-09T06:58:51.307034",
   "sources": [
     "INSEE - Indice des prix à la consommation",
     "INSEE - Enquête Emploi",
@@ -108,58 +108,58 @@
   "chomage": [
     {
       "trimestre": "T1 2023",
-      "taux": 6.9,
-      "jeunes": 5.0
+      "taux": 7.1,
+      "jeunes": 17.5
     },
     {
       "trimestre": "T2 2023",
-      "taux": 7.0,
-      "jeunes": 4.9
+      "taux": 7.2,
+      "jeunes": 17.0
     },
     {
       "trimestre": "T3 2023",
-      "taux": 7.2,
-      "jeunes": 5.0
+      "taux": 7.4,
+      "jeunes": 17.6
     },
     {
       "trimestre": "T4 2023",
-      "taux": 7.3,
-      "jeunes": 4.9
+      "taux": 7.5,
+      "jeunes": 17.6
     },
     {
       "trimestre": "T1 2024",
-      "taux": 7.3,
-      "jeunes": 4.8
+      "taux": 7.5,
+      "jeunes": 18.1
     },
     {
       "trimestre": "T2 2024",
-      "taux": 7.1,
-      "jeunes": 4.9
+      "taux": 7.3,
+      "jeunes": 17.7
     },
     {
       "trimestre": "T3 2024",
-      "taux": 7.2,
-      "jeunes": 4.5
+      "taux": 7.4,
+      "jeunes": 18.3
     },
     {
       "trimestre": "T4 2024",
-      "taux": 7.1,
-      "jeunes": 4.6
+      "taux": 7.3,
+      "jeunes": 19.0
     },
     {
       "trimestre": "T1 2025",
-      "taux": 7.3,
-      "jeunes": 4.6
+      "taux": 7.4,
+      "jeunes": 18.5
     },
     {
       "trimestre": "T2 2025",
-      "taux": 7.4,
-      "jeunes": 4.7
+      "taux": 7.5,
+      "jeunes": 18.8
     },
     {
       "trimestre": "T3 2025",
-      "taux": 7.5,
-      "jeunes": 5.0
+      "taux": 7.7,
+      "jeunes": 19.2
     }
   ],
   "smic": {
@@ -228,8 +228,8 @@
     }
   ],
   "indicateurs_cles": {
-    "taux_chomage_actuel": 7.5,
-    "taux_chomage_jeunes": 5.0,
+    "taux_chomage_actuel": 7.7,
+    "taux_chomage_jeunes": 19.2,
     "taux_emploi_seniors": 7.5,
     "inflation_annuelle": 0.9,
     "smic_brut": 1823.03,
@@ -241,9 +241,9 @@
     "irl_glissement": 0.87,
     "prix_gazole": 1.68,
     "taux_effort_locataires": 29.6,
-    "croissance_pib": 0.9,
+    "croissance_pib": 0.5,
     "climat_affaires": 99,
-    "defaillances_12m": 68145
+    "defaillances_12m": 68227
   },
   "salaire_median": {
     "montant_2024": 2190,
@@ -466,69 +466,75 @@
   "difficultes_recrutement": [
     {
       "trimestre": "T1 2023",
-      "industrie": 52,
-      "services": 38,
-      "construction": 65
+      "industrie": 65,
+      "services": 48,
+      "construction": 78
     },
     {
       "trimestre": "T2 2023",
-      "industrie": 50,
-      "services": 36,
-      "construction": 62
+      "industrie": 64,
+      "services": 48,
+      "construction": 76
     },
     {
       "trimestre": "T3 2023",
-      "industrie": 48,
-      "services": 35,
-      "construction": 60
+      "industrie": 60,
+      "services": 45,
+      "construction": 72
     },
     {
       "trimestre": "T4 2023",
-      "industrie": 45,
-      "services": 33,
-      "construction": 58
+      "industrie": 57,
+      "services": 42,
+      "construction": 68
     },
     {
       "trimestre": "T1 2024",
-      "industrie": 43,
-      "services": 32,
-      "construction": 55
+      "industrie": 53,
+      "services": 39,
+      "construction": 63
     },
     {
       "trimestre": "T2 2024",
-      "industrie": 41,
-      "services": 30,
-      "construction": 52
+      "industrie": 52,
+      "services": 39,
+      "construction": 62
     },
     {
       "trimestre": "T3 2024",
-      "industrie": 40,
-      "services": 29,
-      "construction": 50
+      "industrie": 48,
+      "services": 36,
+      "construction": 57
     },
     {
       "trimestre": "T4 2024",
-      "industrie": 38,
-      "services": 28,
-      "construction": 48
+      "industrie": 46,
+      "services": 34,
+      "construction": 55
     },
     {
       "trimestre": "T1 2025",
-      "industrie": 36,
-      "services": 27,
-      "construction": 46
+      "industrie": 44,
+      "services": 33,
+      "construction": 52
     },
     {
       "trimestre": "T2 2025",
-      "industrie": 35,
-      "services": 26,
-      "construction": 45
+      "industrie": 41,
+      "services": 30,
+      "construction": 49
     },
     {
       "trimestre": "T3 2025",
-      "industrie": 34,
-      "services": 25,
-      "construction": 44
+      "industrie": 40,
+      "services": 30,
+      "construction": 48
+    },
+    {
+      "trimestre": "T4 2025",
+      "industrie": 38,
+      "services": 28,
+      "construction": 45
     }
   ],
   "emploi_secteur": {
@@ -755,19 +761,9 @@
         "glissement": 2.48
       },
       {
-        "trimestre": "T2 2022",
-        "indice": 135.84,
-        "glissement": 3.6
-      },
-      {
         "trimestre": "T3 2022",
         "indice": 136.27,
         "glissement": 3.49
-      },
-      {
-        "trimestre": "T4 2022",
-        "indice": 137.26,
-        "glissement": 3.5
       },
       {
         "trimestre": "T1 2023",
@@ -775,19 +771,9 @@
         "glissement": 3.49
       },
       {
-        "trimestre": "T2 2023",
-        "indice": 140.59,
-        "glissement": 3.5
-      },
-      {
         "trimestre": "T3 2023",
         "indice": 141.03,
         "glissement": 3.49
-      },
-      {
-        "trimestre": "T4 2023",
-        "indice": 142.06,
-        "glissement": 3.5
       },
       {
         "trimestre": "T1 2024",
@@ -795,29 +781,14 @@
         "glissement": 3.5
       },
       {
-        "trimestre": "T2 2024",
-        "indice": 145.17,
-        "glissement": 3.26
-      },
-      {
         "trimestre": "T3 2024",
         "indice": 144.51,
         "glissement": 2.47
       },
       {
-        "trimestre": "T4 2024",
-        "indice": 144.64,
-        "glissement": 1.82
-      },
-      {
         "trimestre": "T1 2025",
         "indice": 145.47,
         "glissement": 1.4
-      },
-      {
-        "trimestre": "T2 2025",
-        "indice": 146.68,
-        "glissement": 1.04
       },
       {
         "trimestre": "T3 2025",
@@ -1045,70 +1016,70 @@
     ]
   },
   "pib": {
-    "croissance_trim_actuel": 0.9,
-    "croissance_annuelle": 1.8,
+    "croissance_trim_actuel": 0.5,
+    "croissance_annuelle": 1.1,
     "trimestre": "T3 2025",
-    "commentaire": "PIB volume trimestriel - INSEE",
+    "commentaire": "PIB volume trimestriel",
     "evolution": [
       {
         "trimestre": "T1 2022",
-        "croissance": 0.8
+        "croissance": 0.0
       },
       {
         "trimestre": "T2 2022",
-        "croissance": 1.0
+        "croissance": 0.5
       },
       {
         "trimestre": "T3 2022",
-        "croissance": 2.0
+        "croissance": 0.2
       },
       {
         "trimestre": "T4 2022",
-        "croissance": 1.9
-      },
-      {
-        "trimestre": "T1 2023",
-        "croissance": 1.5
-      },
-      {
-        "trimestre": "T2 2023",
-        "croissance": 2.3
-      },
-      {
-        "trimestre": "T3 2023",
-        "croissance": 0.7
-      },
-      {
-        "trimestre": "T4 2023",
-        "croissance": 1.3
-      },
-      {
-        "trimestre": "T1 2024",
-        "croissance": 0.5
-      },
-      {
-        "trimestre": "T2 2024",
         "croissance": 0.1
       },
       {
+        "trimestre": "T1 2023",
+        "croissance": 0.1
+      },
+      {
+        "trimestre": "T2 2023",
+        "croissance": 0.6
+      },
+      {
+        "trimestre": "T3 2023",
+        "croissance": 0.0
+      },
+      {
+        "trimestre": "T4 2023",
+        "croissance": 0.0
+      },
+      {
+        "trimestre": "T1 2024",
+        "croissance": 0.2
+      },
+      {
+        "trimestre": "T2 2024",
+        "croissance": 0.3
+      },
+      {
         "trimestre": "T3 2024",
-        "croissance": 1.5
-      },
-      {
-        "trimestre": "T4 2024",
-        "croissance": -0.0
-      },
-      {
-        "trimestre": "T1 2025",
-        "croissance": 0.5
-      },
-      {
-        "trimestre": "T2 2025",
         "croissance": 0.4
       },
       {
+        "trimestre": "T4 2024",
+        "croissance": -0.1
+      },
+      {
+        "trimestre": "T1 2025",
+        "croissance": 0.2
+      },
+      {
+        "trimestre": "T2 2025",
+        "croissance": 0.3
+      },
+      {
         "trimestre": "T3 2025",
-        "croissance": 0.9
+        "croissance": 0.5
       }
     ],
     "contributions": {
@@ -1220,58 +1191,58 @@
     ]
   },
   "defaillances": {
-    "cumul_12_mois": 68145,
-    "variation_an": 4.1,
-    "mois": "Oct 2025",
+    "cumul_12_mois": 68227,
+    "variation_an": 0.8,
+    "mois": "Sep 2025",
     "moyenne_2010_2019": 58000,
     "evolution": [
       {
         "mois": "Jan 2023",
-        "cumul": 42962
+        "cumul": 42000
       },
       {
         "mois": "Avr 2023",
-        "cumul": 46804
+        "cumul": 47000
       },
       {
         "mois": "Juil 2023",
-        "cumul": 50360
+        "cumul": 51000
       },
       {
         "mois": "Oct 2023",
-        "cumul": 53384
+        "cumul": 55000
       },
       {
         "mois": "Jan 2024",
-        "cumul": 57344
+        "cumul": 57500
       },
       {
         "mois": "Avr 2024",
-        "cumul": 60524
+        "cumul": 60000
       },
       {
         "mois": "Juil 2024",
-        "cumul": 63678
+        "cumul": 63500
       },
       {
         "mois": "Oct 2024",
-        "cumul": 65259
+        "cumul": 66000
       },
       {
         "mois": "Jan 2025",
-        "cumul": 66333
+        "cumul": 66500
       },
       {
         "mois": "Avr 2025",
-        "cumul": 67321
+        "cumul": 67000
       },
       {
         "mois": "Juil 2025",
-        "cumul": 67727
+        "cumul": 67600
       },
       {
-        "mois": "Oct 2025",
-        "cumul": 68145
+        "mois": "Sep 2025",
+        "cumul": 68227
       }
     ],
     "par_secteur": [
