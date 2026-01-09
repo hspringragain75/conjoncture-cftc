@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-01-09T11:50:52.262619",
+  "last_updated": "2026-01-09T12:48:04.421419",
   "sources": [
     "INSEE - Indice des prix à la consommation",
     "INSEE - Enquête Emploi",
@@ -230,7 +230,7 @@
   "indicateurs_cles": {
     "taux_chomage_actuel": 7.7,
     "taux_chomage_jeunes": 19.2,
-    "taux_emploi_seniors": 62.0,
+    "taux_emploi_seniors": 7.5,
     "inflation_annuelle": 0.9,
     "smic_brut": 1823.03,
     "smic_net": 1443.11,
@@ -352,47 +352,47 @@
   "emploi_seniors": [
     {
       "trimestre": "T1 2023",
-      "taux": 58.5
+      "taux": 7.2
     },
     {
       "trimestre": "T2 2023",
-      "taux": 58.8
+      "taux": 7.1
     },
     {
       "trimestre": "T3 2023",
-      "taux": 59.2
+      "taux": 7.2
     },
     {
       "trimestre": "T4 2023",
-      "taux": 59.7
+      "taux": 7.4
     },
     {
       "trimestre": "T1 2024",
-      "taux": 60.1
+      "taux": 7.4
     },
     {
       "trimestre": "T2 2024",
-      "taux": 60.5
+      "taux": 7.1
     },
     {
       "trimestre": "T3 2024",
-      "taux": 60.9
+      "taux": 7.4
     },
     {
       "trimestre": "T4 2024",
-      "taux": 61.2
+      "taux": 7.2
     },
     {
       "trimestre": "T1 2025",
-      "taux": 61.5
+      "taux": 7.3
     },
     {
       "trimestre": "T2 2025",
-      "taux": 61.8
+      "taux": 7.5
     },
     {
       "trimestre": "T3 2025",
-      "taux": 62.0
+      "taux": 7.5
     }
   ],
   "types_contrats": [
@@ -761,9 +761,19 @@
         "glissement": 2.48
       },
       {
+        "trimestre": "T2 2022",
+        "indice": 135.84,
+        "glissement": 3.6
+      },
+      {
         "trimestre": "T3 2022",
         "indice": 136.27,
         "glissement": 3.49
+      },
+      {
+        "trimestre": "T4 2022",
+        "indice": 137.26,
+        "glissement": 3.5
       },
       {
         "trimestre": "T1 2023",
@@ -771,9 +781,19 @@
         "glissement": 3.49
       },
       {
+        "trimestre": "T2 2023",
+        "indice": 140.59,
+        "glissement": 3.5
+      },
+      {
         "trimestre": "T3 2023",
         "indice": 141.03,
         "glissement": 3.49
+      },
+      {
+        "trimestre": "T4 2023",
+        "indice": 142.06,
+        "glissement": 3.5
       },
       {
         "trimestre": "T1 2024",
@@ -781,14 +801,29 @@
         "glissement": 3.5
       },
       {
+        "trimestre": "T2 2024",
+        "indice": 145.17,
+        "glissement": 3.26
+      },
+      {
         "trimestre": "T3 2024",
         "indice": 144.51,
         "glissement": 2.47
       },
       {
+        "trimestre": "T4 2024",
+        "indice": 144.64,
+        "glissement": 1.82
+      },
+      {
         "trimestre": "T1 2025",
         "indice": 145.47,
         "glissement": 1.4
+      },
+      {
+        "trimestre": "T2 2025",
+        "indice": 146.68,
+        "glissement": 1.04
       },
       {
         "trimestre": "T3 2025",
@@ -798,50 +833,45 @@
     ]
   },
   "prix_immobilier": {
-    "indice_actuel": 128.5,
+    "indice_actuel": 116.2,
     "variation_trim": 1.0,
-    "variation_an": 0.7,
+    "variation_an": -1.8,
     "transactions_annuelles": 880000,
     "evolution": [
       {
-        "trimestre": "T4 2023",
-        "indice": 128.7,
-        "variation": -3.6
+        "trimestre": "T1 2022",
+        "indice": 124.5,
+        "variation": 7.2
+      },
+      {
+        "trimestre": "T3 2022",
+        "indice": 126.8,
+        "variation": 6.1
+      },
+      {
+        "trimestre": "T1 2023",
+        "indice": 124.2,
+        "variation": -0.2
+      },
+      {
+        "trimestre": "T3 2023",
+        "indice": 120.5,
+        "variation": -5.0
       },
       {
         "trimestre": "T1 2024",
-        "indice": 126.0,
-        "variation": -4.8
-      },
-      {
-        "trimestre": "T2 2024",
-        "indice": 125.7,
-        "variation": -4.6
+        "indice": 117.8,
+        "variation": -5.1
       },
       {
         "trimestre": "T3 2024",
-        "indice": 127.6,
-        "variation": -3.5
-      },
-      {
-        "trimestre": "T4 2024",
-        "indice": 126.3,
-        "variation": -1.9
+        "indice": 115.3,
+        "variation": -4.3
       },
       {
         "trimestre": "T1 2025",
-        "indice": 126.5,
-        "variation": 0.4
-      },
-      {
-        "trimestre": "T2 2025",
-        "indice": 126.5,
-        "variation": 0.6
-      },
-      {
-        "trimestre": "T3 2025",
-        "indice": 128.5,
-        "variation": 0.7
+        "indice": 116.2,
+        "variation": -1.4
       }
     ],
     "par_zone": [
