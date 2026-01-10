@@ -48,7 +48,7 @@ SERIES_IDS = {
     
     # === CHÔMAGE ===
     "chomage_total": "001688526",
-    "chomage_jeunes": "001688530",
+    "chomage_jeunes": "001688537",
     
     # === EMPLOI (NOUVEAUX) ===
     "taux_emploi_seniors": "001688534",       # Taux d'emploi 55-64 ans
