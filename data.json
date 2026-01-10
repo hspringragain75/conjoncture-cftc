@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-01-10T19:33:28.958153",
+  "last_updated": "2026-01-10T19:52:15.416773",
   "contact": "hspringragain@cftc.fr",
   "sources": [
     "INSEE - Indice des prix à la consommation",
@@ -237,13 +237,13 @@
     "smic_net": 1443.11,
     "salaire_median": 2190,
     "salaire_moyen": 2733,
-    "ecart_hf_eqtp": 13.0,
+    "ecart_hf_eqtp": 25.8,
     "difficultes_recrutement": 61,
     "irl_glissement": 0.87,
     "prix_gazole": 1.68,
     "taux_effort_locataires": 29.6,
-    "croissance_pib": 0.5,
-    "climat_affaires": 98,
+    "croissance_pib": 0.9,
+    "climat_affaires": 99,
     "defaillances_12m": 68145
   },
   "salaire_median": {
@@ -277,36 +277,36 @@
   },
   "ecart_hommes_femmes": {
     "ecart_global": 22.2,
-    "ecart_eqtp": 13.0,
+    "ecart_eqtp": 25.8,
     "ecart_poste_comparable": 4.0,
     "evolution": [
       {
-        "annee": "2015",
-        "ecart": 18.4
-      },
-      {
-        "annee": "2017",
-        "ecart": 16.6
+        "annee": "2018",
+        "ecart": 23.2
       },
       {
         "annee": "2019",
-        "ecart": 16.1
+        "ecart": 23.8
+      },
+      {
+        "annee": "2020",
+        "ecart": 24.5
       },
       {
         "annee": "2021",
-        "ecart": 15.5
+        "ecart": 24.3
       },
       {
         "annee": "2022",
-        "ecart": 14.9
+        "ecart": 25.1
       },
       {
         "annee": "2023",
-        "ecart": 14.2
+        "ecart": 25.6
       },
       {
         "annee": "2024",
-        "ecart": 13.0
+        "ecart": 25.8
       }
     ]
   },
@@ -467,69 +467,75 @@
   "difficultes_recrutement": [
     {
       "trimestre": "T1 2023",
-      "industrie": 52,
-      "services": 38,
-      "construction": 65
+      "industrie": 65,
+      "services": 48,
+      "construction": 78
     },
     {
       "trimestre": "T2 2023",
-      "industrie": 50,
-      "services": 36,
-      "construction": 62
+      "industrie": 64,
+      "services": 48,
+      "construction": 76
     },
     {
       "trimestre": "T3 2023",
-      "industrie": 48,
-      "services": 35,
-      "construction": 60
+      "industrie": 60,
+      "services": 45,
+      "construction": 72
     },
     {
       "trimestre": "T4 2023",
-      "industrie": 45,
-      "services": 33,
-      "construction": 58
+      "industrie": 57,
+      "services": 42,
+      "construction": 68
     },
     {
       "trimestre": "T1 2024",
-      "industrie": 43,
-      "services": 32,
-      "construction": 55
+      "industrie": 53,
+      "services": 39,
+      "construction": 63
     },
     {
       "trimestre": "T2 2024",
-      "industrie": 41,
-      "services": 30,
-      "construction": 52
+      "industrie": 52,
+      "services": 39,
+      "construction": 62
     },
     {
       "trimestre": "T3 2024",
-      "industrie": 40,
-      "services": 29,
-      "construction": 50
+      "industrie": 48,
+      "services": 36,
+      "construction": 57
     },
     {
       "trimestre": "T4 2024",
-      "industrie": 38,
-      "services": 28,
-      "construction": 48
+      "industrie": 46,
+      "services": 34,
+      "construction": 55
     },
     {
       "trimestre": "T1 2025",
-      "industrie": 36,
-      "services": 27,
-      "construction": 46
+      "industrie": 44,
+      "services": 33,
+      "construction": 52
     },
     {
       "trimestre": "T2 2025",
-      "industrie": 35,
-      "services": 26,
-      "construction": 45
+      "industrie": 41,
+      "services": 30,
+      "construction": 49
     },
     {
       "trimestre": "T3 2025",
-      "industrie": 34,
-      "services": 25,
-      "construction": 44
+      "industrie": 40,
+      "services": 30,
+      "construction": 48
+    },
+    {
+      "trimestre": "T4 2025",
+      "industrie": 38,
+      "services": 28,
+      "construction": 45
     }
   ],
   "emploi_secteur": {
@@ -828,45 +834,50 @@
     ]
   },
   "prix_immobilier": {
-    "indice_actuel": 116.2,
+    "indice_actuel": 128.5,
     "variation_trim": 1.0,
-    "variation_an": -1.8,
+    "variation_an": 0.7,
     "transactions_annuelles": 880000,
     "evolution": [
       {
-        "trimestre": "T1 2022",
-        "indice": 124.5,
-        "variation": 7.2
-      },
-      {
-        "trimestre": "T3 2022",
-        "indice": 126.8,
-        "variation": 6.1
-      },
-      {
-        "trimestre": "T1 2023",
-        "indice": 124.2,
-        "variation": -0.2
-      },
-      {
-        "trimestre": "T3 2023",
-        "indice": 120.5,
-        "variation": -5.0
+        "trimestre": "T4 2023",
+        "indice": 128.7,
+        "variation": -3.6
       },
       {
         "trimestre": "T1 2024",
-        "indice": 117.8,
-        "variation": -5.1
+        "indice": 126.0,
+        "variation": -4.8
+      },
+      {
+        "trimestre": "T2 2024",
+        "indice": 125.7,
+        "variation": -4.6
       },
       {
         "trimestre": "T3 2024",
-        "indice": 115.3,
-        "variation": -4.3
+        "indice": 127.6,
+        "variation": -3.5
+      },
+      {
+        "trimestre": "T4 2024",
+        "indice": 126.3,
+        "variation": -1.9
       },
       {
         "trimestre": "T1 2025",
-        "indice": 116.2,
-        "variation": -1.4
+        "indice": 126.5,
+        "variation": 0.4
+      },
+      {
+        "trimestre": "T2 2025",
+        "indice": 126.5,
+        "variation": 0.6
+      },
+      {
+        "trimestre": "T3 2025",
+        "indice": 128.5,
+        "variation": 0.7
       }
     ],
     "par_zone": [
@@ -1041,70 +1052,70 @@
     ]
   },
   "pib": {
-    "croissance_trim_actuel": 0.5,
-    "croissance_annuelle": 1.1,
+    "croissance_trim_actuel": 0.9,
+    "croissance_annuelle": 1.8,
     "trimestre": "T3 2025",
-    "commentaire": "PIB volume trimestriel",
+    "commentaire": "PIB volume trimestriel - INSEE",
     "evolution": [
       {
         "trimestre": "T1 2022",
-        "croissance": 0.0
+        "croissance": 0.8
       },
       {
         "trimestre": "T2 2022",
-        "croissance": 0.5
+        "croissance": 1.0
       },
       {
         "trimestre": "T3 2022",
-        "croissance": 0.2
+        "croissance": 2.0
       },
       {
         "trimestre": "T4 2022",
-        "croissance": 0.1
+        "croissance": 1.9
       },
       {
         "trimestre": "T1 2023",
-        "croissance": 0.1
+        "croissance": 1.5
       },
       {
         "trimestre": "T2 2023",
-        "croissance": 0.6
+        "croissance": 2.3
       },
       {
         "trimestre": "T3 2023",
-        "croissance": 0.0
+        "croissance": 0.7
       },
       {
         "trimestre": "T4 2023",
-        "croissance": 0.0
+        "croissance": 1.3
       },
       {
         "trimestre": "T1 2024",
-        "croissance": 0.2
+        "croissance": 0.5
       },
       {
         "trimestre": "T2 2024",
-        "croissance": 0.3
+        "croissance": 0.1
       },
       {
         "trimestre": "T3 2024",
-        "croissance": 0.4
+        "croissance": 1.5
       },
       {
         "trimestre": "T4 2024",
-        "croissance": -0.1
+        "croissance": -0.0
       },
       {
         "trimestre": "T1 2025",
-        "croissance": 0.2
+        "croissance": 0.5
       },
       {
         "trimestre": "T2 2025",
-        "croissance": 0.3
+        "croissance": 0.4
       },
       {
         "trimestre": "T3 2025",
-        "croissance": 0.5
+        "croissance": 0.9
       }
     ],
     "contributions": {
@@ -1145,14 +1156,14 @@
     ]
   },
   "climat_affaires": {
-    "valeur_actuelle": 98,
-    "confiance_menages": 92,
+    "valeur_actuelle": 99,
+    "confiance_menages": 90,
     "moyenne_long_terme": 100,
-    "mois": "Nov 2025",
+    "mois": "Déc 2025",
     "evolution": [
       {
         "mois": "Jan 2024",
-        "climat": 99,
+        "climat": 100,
         "menages": 91
       },
       {
@@ -1162,8 +1173,8 @@
       },
       {
         "mois": "Juil 2024",
-        "climat": 97,
-        "menages": 92
+        "climat": 94,
+        "menages": 91
       },
       {
         "mois": "Oct 2024",
@@ -1183,17 +1194,17 @@
       {
         "mois": "Juil 2025",
         "climat": 96,
-        "menages": 93
+        "menages": 89
       },
       {
         "mois": "Oct 2025",
-        "climat": 97,
-        "menages": 92
+        "climat": 96,
+        "menages": 90
       },
       {
-        "mois": "Nov 2025",
-        "climat": 98,
-        "menages": 92
+        "mois": "Déc 2025",
+        "climat": 99,
+        "menages": 90
       }
     ],
     "par_secteur": [
@@ -1660,6 +1671,183 @@
       "seuil_fillon": 1.6,
       "taux_patronal_avec_fillon": 0.3,
       "taux_patronal_sans_fillon": 0.45
+    }
+  },
+  "historique_5ans": {
+    "meta": {
+      "derniere_mise_a_jour": "2026-01-10",
+      "periode": "2020-2025",
+      "sources": [
+        "INSEE",
+        "Ministère du Travail",
+        "DARES",
+        "Banque de France"
+      ],
+      "automatise": true
+    },
+    "annees": [
+      2020,
+      2021,
+      2022,
+      2023,
+      2024,
+      2025
+    ],
+    "inflation": {
+      "label": "Inflation annuelle (%)",
+      "valeurs": [
+        0.5,
+        1.6,
+        5.2,
+        4.9,
+        2.0,
+        0.9
+      ],
+      "source": "INSEE - IPC moyenne annuelle (API)",
+      "note": "Calculé automatiquement depuis les indices mensuels"
+    },
+    "chomage": {
+      "label": "Taux de chômage BIT (%)",
+      "valeurs": [
+        7.8,
+        7.7,
+        7.1,
+        7.1,
+        7.2,
+        7.4
+      ],
+      "source": "INSEE - Enquête Emploi (API)",
+      "note": "Moyenne annuelle des trimestres"
+    },
+    "smic_brut_mensuel": {
+      "label": "SMIC brut mensuel (€)",
+      "valeurs": [
+        1539,
+        1555,
+        1679,
+        1747,
+        1767,
+        1802
+      ],
+      "source": "Ministère du Travail",
+      "note": "Valeur au 31 décembre de chaque année"
+    },
+    "smic_net_mensuel": {
+      "label": "SMIC net mensuel (€)",
+      "valeurs": [
+        1219,
+        1231,
+        1329,
+        1383,
+        1399,
+        1426
+      ],
+      "source": "Calcul à partir du SMIC brut",
+      "note": "Estimation après prélèvements"
+    },
+    "salaire_median": {
+      "label": "Salaire médian net mensuel (€)",
+      "valeurs": [
+        1940,
+        1980,
+        2012,
+        2091,
+        2183,
+        2250
+      ],
+      "source": "INSEE - Base Tous Salariés",
+      "note": "Secteur privé, temps complet, 2025: estimation"
+    },
+    "pib_croissance": {
+      "label": "Croissance PIB (%)",
+      "valeurs": [
+        -7.5,
+        6.4,
+        2.6,
+        1.1,
+        1.1,
+        0.8
+      ],
+      "source": "INSEE - Comptes nationaux",
+      "note": "2025: prévision"
+    },
+    "taux_marge": {
+      "label": "Taux de marge SNF (%)",
+      "valeurs": [
+        28.9,
+        34.2,
+        32.0,
+        32.8,
+        32.5,
+        32.0
+      ],
+      "source": "INSEE - Comptes nationaux",
+      "note": "Sociétés non financières"
+    },
+    "defaillances": {
+      "label": "Défaillances d'entreprises",
+      "valeurs": [
+        32000,
+        28000,
+        42000,
+        57000,
+        66000,
+        68000
+      ],
+      "source": "Banque de France",
+      "note": "Cumul 12 mois, 2025: estimation"
+    },
+    "emploi_salarie": {
+      "label": "Emploi salarié privé (millions)",
+      "valeurs": [
+        19.8,
+        20.3,
+        20.8,
+        21.0,
+        21.1,
+        21.0
+      ],
+      "source": "INSEE - Estimations d'emploi",
+      "note": "Secteur privé, fin d'année"
+    },
+    "inflation_cumulee": {
+      "label": "Inflation cumulée depuis 2020 (%)",
+      "valeurs": [
+        0.5,
+        2.1,
+        7.3,
+        12.2,
+        14.2,
+        15.1
+      ],
+      "source": "Calcul cumulé",
+      "note": "Base 100 = janvier 2020"
+    },
+    "smic_evolution": {
+      "label": "Évolution SMIC depuis 2020 (%)",
+      "valeurs": [
+        0.0,
+        1.0,
+        9.1,
+        13.5,
+        14.8,
+        17.1
+      ],
+      "source": "Calcul",
+      "note": "Base 100 = janvier 2020"
+    },
+    "pouvoir_achat_smic": {
+      "label": "Pouvoir d'achat SMIC (évol. cumulée %)",
+      "valeurs": [
+        -0.5,
+        -1.1,
+        1.8,
+        1.3,
+        0.6,
+        2.0
+      ],
+      "source": "Calcul SMIC réel",
+      "note": "SMIC - inflation, base 2020"
     }
   },
   "conventions_collectives": {
