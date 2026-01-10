@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-01-09T14:16:05.836675",
+  "last_updated": "2026-01-10T19:10:11.547398",
   "contact": "hspringragain@cftc.fr",
   "sources": [
     "INSEE - Indice des prix à la consommation",
@@ -109,58 +109,58 @@
   "chomage": [
     {
       "trimestre": "T1 2023",
-      "taux": 7.1,
-      "jeunes": 17.5
+      "taux": 6.9,
+      "jeunes": 5.0
     },
     {
       "trimestre": "T2 2023",
-      "taux": 7.2,
-      "jeunes": 17.0
+      "taux": 7.0,
+      "jeunes": 4.9
     },
     {
       "trimestre": "T3 2023",
-      "taux": 7.4,
-      "jeunes": 17.6
+      "taux": 7.2,
+      "jeunes": 5.0
     },
     {
       "trimestre": "T4 2023",
-      "taux": 7.5,
-      "jeunes": 17.6
+      "taux": 7.3,
+      "jeunes": 4.9
     },
     {
       "trimestre": "T1 2024",
-      "taux": 7.5,
-      "jeunes": 18.1
+      "taux": 7.3,
+      "jeunes": 4.8
     },
     {
       "trimestre": "T2 2024",
-      "taux": 7.3,
-      "jeunes": 17.7
+      "taux": 7.1,
+      "jeunes": 4.9
     },
     {
       "trimestre": "T3 2024",
-      "taux": 7.4,
-      "jeunes": 18.3
+      "taux": 7.2,
+      "jeunes": 4.5
     },
     {
       "trimestre": "T4 2024",
-      "taux": 7.3,
-      "jeunes": 19.0
+      "taux": 7.1,
+      "jeunes": 4.6
     },
     {
       "trimestre": "T1 2025",
-      "taux": 7.4,
-      "jeunes": 18.5
+      "taux": 7.3,
+      "jeunes": 4.6
     },
     {
       "trimestre": "T2 2025",
-      "taux": 7.5,
-      "jeunes": 18.8
+      "taux": 7.4,
+      "jeunes": 4.7
     },
     {
       "trimestre": "T3 2025",
-      "taux": 7.7,
-      "jeunes": 19.2
+      "taux": 7.5,
+      "jeunes": 5.0
     }
   ],
   "smic": {
@@ -229,8 +229,8 @@
     }
   ],
   "indicateurs_cles": {
-    "taux_chomage_actuel": 7.7,
-    "taux_chomage_jeunes": 19.2,
+    "taux_chomage_actuel": 7.5,
+    "taux_chomage_jeunes": 5.0,
     "taux_emploi_seniors": 62.0,
     "inflation_annuelle": 0.9,
     "smic_brut": 1823.03,
@@ -243,7 +243,7 @@
     "prix_gazole": 1.68,
     "taux_effort_locataires": 29.6,
     "croissance_pib": 0.9,
-    "climat_affaires": 98,
+    "climat_affaires": 99,
     "defaillances_12m": 68145
   },
   "salaire_median": {
@@ -1156,14 +1156,14 @@
     ]
   },
   "climat_affaires": {
-    "valeur_actuelle": 98,
-    "confiance_menages": 92,
+    "valeur_actuelle": 99,
+    "confiance_menages": 90,
     "moyenne_long_terme": 100,
-    "mois": "Nov 2025",
+    "mois": "Déc 2025",
     "evolution": [
       {
         "mois": "Jan 2024",
-        "climat": 99,
+        "climat": 100,
         "menages": 91
       },
       {
@@ -1173,8 +1173,8 @@
       },
       {
         "mois": "Juil 2024",
-        "climat": 97,
-        "menages": 92
+        "climat": 94,
+        "menages": 91
       },
       {
         "mois": "Oct 2024",
@@ -1194,17 +1194,17 @@
       {
         "mois": "Juil 2025",
         "climat": 96,
-        "menages": 93
+        "menages": 89
       },
       {
         "mois": "Oct 2025",
-        "climat": 97,
-        "menages": 92
+        "climat": 96,
+        "menages": 90
       },
       {
-        "mois": "Nov 2025",
-        "climat": 98,
-        "menages": 92
+        "mois": "Déc 2025",
+        "climat": 99,
+        "menages": 90
       }
     ],
     "par_secteur": [
@@ -1682,7 +1682,13 @@
         "https://www.legifrance.gouv.fr/liste/idcc",
         "https://code.travail.gouv.fr/outils/convention-collective"
       ],
-      "note": "Données des 25 principales branches par effectifs. Mise à jour manuelle recommandée après chaque revalorisation du SMIC."
+      "note": "25 principales branches par effectifs. 19 branches non conformes au total (source DGT oct 2025). Parmi les 25 affichées: Métallurgie (IDCC 3248) et SYNTEC (IDCC 1486) sont non conformes.",
+      "branches_non_conformes_connues": [
+        "Métallurgie (3248) - A1/A2 < SMIC",
+        "SYNTEC (1486) - ETAM 1.1 < SMIC",
+        "Casinos - non conforme depuis +2 ans",
+        "Prévention sécurité - historiquement problématique"
+      ]
     },
     "smic_reference": {
       "mensuel": 1823.03,
@@ -1707,38 +1713,38 @@
           {
             "niveau": "A1",
             "intitule": "Opérateur",
-            "minimum_mensuel": 2021,
-            "minimum_annuel": 24250
+            "minimum_mensuel": 1808,
+            "minimum_annuel": 21700
           },
           {
             "niveau": "A2",
             "intitule": "Opérateur qualifié",
-            "minimum_mensuel": 2021,
-            "minimum_annuel": 24250
+            "minimum_mensuel": 1821,
+            "minimum_annuel": 21850
           },
           {
             "niveau": "B3",
             "intitule": "Technicien",
-            "minimum_mensuel": 2042,
-            "minimum_annuel": 24500
+            "minimum_mensuel": 1854,
+            "minimum_annuel": 22250
           },
           {
             "niveau": "C5",
             "intitule": "Tech. supérieur",
-            "minimum_mensuel": 2125,
-            "minimum_annuel": 25500
+            "minimum_mensuel": 1958,
+            "minimum_annuel": 23500
           },
           {
             "niveau": "D8",
             "intitule": "Cadre débutant",
-            "minimum_mensuel": 2458,
-            "minimum_annuel": 29500
+            "minimum_mensuel": 2167,
+            "minimum_annuel": 26000
           },
           {
             "niveau": "F11",
             "intitule": "Cadre confirmé",
-            "minimum_mensuel": 3000,
-            "minimum_annuel": 36000
+            "minimum_mensuel": 2833,
+            "minimum_annuel": 34000
           },
           {
             "niveau": "I18",
@@ -1749,9 +1755,9 @@
         ],
         "derniere_revalorisation": "2024-01-01",
         "date_verification": "2026-01-09",
-        "statut": "conforme",
+        "statut": "non_conforme",
         "source": "https://code.travail.gouv.fr/convention-collective/3248-metallurgie",
-        "commentaire": "Nouvelle CCN unifiée depuis 01/2024. Grille unique nationale. Négociations 2025 en échec."
+        "commentaire": "Niveaux A1 (21700€) et A2 (21850€) < SMIC 2026 (21876€). Négociations 2025 en échec."
       },
       {
         "idcc": "1486",
