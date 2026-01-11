@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-01-11T14:12:09.092914",
+  "last_updated": "2026-01-11T14:50:03.500745",
   "contact": "hspringragain@cftc.fr",
   "sources": [
     "INSEE - Indice des prix à la consommation",
@@ -237,13 +237,13 @@
     "smic_net": 1443.11,
     "salaire_median": 2190,
     "salaire_moyen": 2733,
-    "ecart_hf_eqtp": 13.0,
+    "ecart_hf_eqtp": 25.8,
     "difficultes_recrutement": 61,
     "irl_glissement": 0.87,
-    "prix_gazole": 1.68,
+    "prix_gazole": 1.58,
     "taux_effort_locataires": 29.6,
     "croissance_pib": 0.9,
-    "climat_affaires": 99,
+    "climat_affaires": 98,
     "defaillances_12m": 68145
   },
   "salaire_median": {
@@ -277,36 +277,36 @@
   },
   "ecart_hommes_femmes": {
     "ecart_global": 22.2,
-    "ecart_eqtp": 13.0,
+    "ecart_eqtp": 25.8,
     "ecart_poste_comparable": 4.0,
     "evolution": [
       {
-        "annee": "2015",
-        "ecart": 18.4
-      },
-      {
-        "annee": "2017",
-        "ecart": 16.6
+        "annee": "2018",
+        "ecart": 23.2
       },
       {
         "annee": "2019",
-        "ecart": 16.1
+        "ecart": 23.8
+      },
+      {
+        "annee": "2020",
+        "ecart": 24.5
       },
       {
         "annee": "2021",
-        "ecart": 15.5
+        "ecart": 24.3
       },
       {
         "annee": "2022",
-        "ecart": 14.9
+        "ecart": 25.1
       },
       {
         "annee": "2023",
-        "ecart": 14.2
+        "ecart": 25.6
       },
       {
         "annee": "2024",
-        "ecart": 13.0
+        "ecart": 25.8
       }
     ]
   },
@@ -762,19 +762,9 @@
         "glissement": 2.48
       },
       {
-        "trimestre": "T2 2022",
-        "indice": 135.84,
-        "glissement": 3.6
-      },
-      {
         "trimestre": "T3 2022",
         "indice": 136.27,
         "glissement": 3.49
-      },
-      {
-        "trimestre": "T4 2022",
-        "indice": 137.26,
-        "glissement": 3.5
       },
       {
         "trimestre": "T1 2023",
@@ -782,19 +772,9 @@
         "glissement": 3.49
       },
       {
-        "trimestre": "T2 2023",
-        "indice": 140.59,
-        "glissement": 3.5
-      },
-      {
         "trimestre": "T3 2023",
         "indice": 141.03,
         "glissement": 3.49
-      },
-      {
-        "trimestre": "T4 2023",
-        "indice": 142.06,
-        "glissement": 3.5
       },
       {
         "trimestre": "T1 2024",
@@ -802,29 +782,14 @@
         "glissement": 3.5
       },
       {
-        "trimestre": "T2 2024",
-        "indice": 145.17,
-        "glissement": 3.26
-      },
-      {
         "trimestre": "T3 2024",
         "indice": 144.51,
         "glissement": 2.47
       },
       {
-        "trimestre": "T4 2024",
-        "indice": 144.64,
-        "glissement": 1.82
-      },
-      {
         "trimestre": "T1 2025",
         "indice": 145.47,
         "glissement": 1.4
-      },
-      {
-        "trimestre": "T2 2025",
-        "indice": 146.68,
-        "glissement": 1.04
       },
       {
         "trimestre": "T3 2025",
@@ -905,27 +870,27 @@
   },
   "carburants": {
     "gazole": {
-      "prix": 1.68,
-      "variation_an": 1.2
+      "prix": 1.58,
+      "variation_an": -0.6
     },
     "sp95": {
-      "prix": 1.74,
-      "variation_an": -1.7
+      "prix": 1.72,
+      "variation_an": -1.9
     },
     "sp98": {
-      "prix": 1.84,
-      "variation_an": -1.7
+      "prix": 1.82,
+      "variation_an": -1.5
     },
     "evolution": [
       {
         "mois": "Jan 2023",
-        "gazole": 1.92,
-        "sp95": 1.87
+        "gazole": 1.85,
+        "sp95": 1.82
       },
       {
         "mois": "Avr 2023",
-        "gazole": 1.81,
-        "sp95": 1.95
+        "gazole": 1.78,
+        "sp95": 1.88
       },
       {
         "mois": "Juil 2023",
@@ -934,47 +899,42 @@
       },
       {
         "mois": "Oct 2023",
-        "gazole": 1.91,
-        "sp95": 1.89
+        "gazole": 1.88,
+        "sp95": 1.92
       },
       {
         "mois": "Jan 2024",
+        "gazole": 1.72,
+        "sp95": 1.78
+      },
+      {
+        "mois": "Avr 2024",
         "gazole": 1.75,
         "sp95": 1.82
       },
       {
-        "mois": "Avr 2024",
-        "gazole": 1.79,
-        "sp95": 1.94
-      },
-      {
         "mois": "Juil 2024",
-        "gazole": 1.73,
-        "sp95": 1.86
+        "gazole": 1.68,
+        "sp95": 1.75
       },
       {
         "mois": "Oct 2024",
-        "gazole": 1.63,
-        "sp95": 1.76
-      },
-      {
-        "mois": "Jan 2025",
-        "gazole": 1.71,
-        "sp95": 1.81
-      },
-      {
-        "mois": "Avr 2025",
-        "gazole": 1.59,
-        "sp95": 1.73
-      },
-      {
-        "mois": "Juil 2025",
-        "gazole": 1.65,
+        "gazole": 1.62,
         "sp95": 1.72
       },
       {
+        "mois": "Jan 2025",
+        "gazole": 1.65,
+        "sp95": 1.78
+      },
+      {
+        "mois": "Avr 2025",
+        "gazole": 1.6,
+        "sp95": 1.74
+      },
+      {
         "mois": "Oct 2025",
-        "gazole": 1.61,
+        "gazole": 1.58,
         "sp95": 1.72
       }
     ]
@@ -1156,14 +1116,14 @@
     ]
   },
   "climat_affaires": {
-    "valeur_actuelle": 99,
-    "confiance_menages": 90,
+    "valeur_actuelle": 98,
+    "confiance_menages": 92,
     "moyenne_long_terme": 100,
-    "mois": "Déc 2025",
+    "mois": "Nov 2025",
     "evolution": [
       {
         "mois": "Jan 2024",
-        "climat": 100,
+        "climat": 99,
         "menages": 91
       },
       {
@@ -1173,8 +1133,8 @@
       },
       {
         "mois": "Juil 2024",
-        "climat": 94,
-        "menages": 91
+        "climat": 97,
+        "menages": 92
       },
       {
         "mois": "Oct 2024",
@@ -1194,17 +1154,17 @@
       {
         "mois": "Juil 2025",
         "climat": 96,
-        "menages": 89
+        "menages": 93
       },
       {
         "mois": "Oct 2025",
-        "climat": 96,
-        "menages": 90
+        "climat": 97,
+        "menages": 92
       },
       {
-        "mois": "Déc 2025",
-        "climat": 99,
-        "menages": 90
+        "mois": "Nov 2025",
+        "climat": 98,
+        "menages": 92
       }
     ],
     "par_secteur": [
@@ -1709,15 +1669,15 @@
     "chomage": {
       "label": "Taux de chômage BIT (%)",
       "valeurs": [
-        7.8,
-        7.7,
-        7.1,
-        7.1,
-        7.2,
-        7.4
+        8.0,
+        7.9,
+        7.3,
+        7.3,
+        7.4,
+        7.7
       ],
-      "source": "INSEE - Enquête Emploi (API)",
-      "note": "Moyenne annuelle des trimestres"
+      "source": "INSEE - Enquête Emploi (valeurs par défaut)",
+      "note": "API indisponible, valeurs statiques"
     },
     "smic_brut_mensuel": {
       "label": "SMIC brut mensuel (€)",
