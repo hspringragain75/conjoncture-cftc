@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-01-10T20:03:10.764532",
+  "last_updated": "2026-01-11T08:49:51.807100",
   "contact": "hspringragain@cftc.fr",
   "sources": [
     "INSEE - Indice des prix à la consommation",
@@ -244,7 +244,7 @@
     "taux_effort_locataires": 29.6,
     "croissance_pib": 0.9,
     "climat_affaires": 99,
-    "defaillances_12m": 68227
+    "defaillances_12m": 68145
   },
   "salaire_median": {
     "montant_2024": 2190,
@@ -467,69 +467,75 @@
   "difficultes_recrutement": [
     {
       "trimestre": "T1 2023",
-      "industrie": 52,
-      "services": 38,
-      "construction": 65
+      "industrie": 65,
+      "services": 48,
+      "construction": 78
     },
     {
       "trimestre": "T2 2023",
-      "industrie": 50,
-      "services": 36,
-      "construction": 62
+      "industrie": 64,
+      "services": 48,
+      "construction": 76
     },
     {
       "trimestre": "T3 2023",
-      "industrie": 48,
-      "services": 35,
-      "construction": 60
+      "industrie": 60,
+      "services": 45,
+      "construction": 72
     },
     {
       "trimestre": "T4 2023",
-      "industrie": 45,
-      "services": 33,
-      "construction": 58
+      "industrie": 57,
+      "services": 42,
+      "construction": 68
     },
     {
       "trimestre": "T1 2024",
-      "industrie": 43,
-      "services": 32,
-      "construction": 55
+      "industrie": 53,
+      "services": 39,
+      "construction": 63
     },
     {
       "trimestre": "T2 2024",
-      "industrie": 41,
-      "services": 30,
-      "construction": 52
+      "industrie": 52,
+      "services": 39,
+      "construction": 62
     },
     {
       "trimestre": "T3 2024",
-      "industrie": 40,
-      "services": 29,
-      "construction": 50
+      "industrie": 48,
+      "services": 36,
+      "construction": 57
     },
     {
       "trimestre": "T4 2024",
-      "industrie": 38,
-      "services": 28,
-      "construction": 48
+      "industrie": 46,
+      "services": 34,
+      "construction": 55
     },
     {
       "trimestre": "T1 2025",
-      "industrie": 36,
-      "services": 27,
-      "construction": 46
+      "industrie": 44,
+      "services": 33,
+      "construction": 52
     },
     {
       "trimestre": "T2 2025",
-      "industrie": 35,
-      "services": 26,
-      "construction": 45
+      "industrie": 41,
+      "services": 30,
+      "construction": 49
     },
     {
       "trimestre": "T3 2025",
-      "industrie": 34,
-      "services": 25,
-      "construction": 44
+      "industrie": 40,
+      "services": 30,
+      "construction": 48
+    },
+    {
+      "trimestre": "T4 2025",
+      "industrie": 38,
+      "services": 28,
+      "construction": 45
     }
   ],
   "emploi_secteur": {
@@ -756,9 +762,19 @@
         "glissement": 2.48
       },
       {
+        "trimestre": "T2 2022",
+        "indice": 135.84,
+        "glissement": 3.6
+      },
+      {
         "trimestre": "T3 2022",
         "indice": 136.27,
         "glissement": 3.49
+      },
+      {
+        "trimestre": "T4 2022",
+        "indice": 137.26,
+        "glissement": 3.5
       },
       {
         "trimestre": "T1 2023",
@@ -766,9 +782,19 @@
         "glissement": 3.49
       },
       {
+        "trimestre": "T2 2023",
+        "indice": 140.59,
+        "glissement": 3.5
+      },
+      {
         "trimestre": "T3 2023",
         "indice": 141.03,
         "glissement": 3.49
+      },
+      {
+        "trimestre": "T4 2023",
+        "indice": 142.06,
+        "glissement": 3.5
       },
       {
         "trimestre": "T1 2024",
@@ -776,14 +802,29 @@
         "glissement": 3.5
       },
       {
+        "trimestre": "T2 2024",
+        "indice": 145.17,
+        "glissement": 3.26
+      },
+      {
         "trimestre": "T3 2024",
         "indice": 144.51,
         "glissement": 2.47
       },
       {
+        "trimestre": "T4 2024",
+        "indice": 144.64,
+        "glissement": 1.82
+      },
+      {
         "trimestre": "T1 2025",
         "indice": 145.47,
         "glissement": 1.4
+      },
+      {
+        "trimestre": "T2 2025",
+        "indice": 146.68,
+        "glissement": 1.04
       },
       {
         "trimestre": "T3 2025",
@@ -793,50 +834,45 @@
     ]
   },
   "prix_immobilier": {
-    "indice_actuel": 128.5,
+    "indice_actuel": 116.2,
     "variation_trim": 1.0,
-    "variation_an": 0.7,
+    "variation_an": -1.8,
     "transactions_annuelles": 880000,
     "evolution": [
       {
-        "trimestre": "T4 2023",
-        "indice": 128.7,
-        "variation": -3.6
+        "trimestre": "T1 2022",
+        "indice": 124.5,
+        "variation": 7.2
+      },
+      {
+        "trimestre": "T3 2022",
+        "indice": 126.8,
+        "variation": 6.1
+      },
+      {
+        "trimestre": "T1 2023",
+        "indice": 124.2,
+        "variation": -0.2
+      },
+      {
+        "trimestre": "T3 2023",
+        "indice": 120.5,
+        "variation": -5.0
       },
       {
         "trimestre": "T1 2024",
-        "indice": 126.0,
-        "variation": -4.8
-      },
-      {
-        "trimestre": "T2 2024",
-        "indice": 125.7,
-        "variation": -4.6
+        "indice": 117.8,
+        "variation": -5.1
       },
       {
         "trimestre": "T3 2024",
-        "indice": 127.6,
-        "variation": -3.5
-      },
-      {
-        "trimestre": "T4 2024",
-        "indice": 126.3,
-        "variation": -1.9
+        "indice": 115.3,
+        "variation": -4.3
       },
       {
         "trimestre": "T1 2025",
-        "indice": 126.5,
-        "variation": 0.4
-      },
-      {
-        "trimestre": "T2 2025",
-        "indice": 126.5,
-        "variation": 0.6
-      },
-      {
-        "trimestre": "T3 2025",
-        "indice": 128.5,
-        "variation": 0.7
+        "indice": 116.2,
+        "variation": -1.4
       }
     ],
     "par_zone": [
@@ -1186,58 +1222,58 @@
     ]
   },
   "defaillances": {
-    "cumul_12_mois": 68227,
-    "variation_an": 0.8,
-    "mois": "Sep 2025",
+    "cumul_12_mois": 68145,
+    "variation_an": 4.1,
+    "mois": "Oct 2025",
     "moyenne_2010_2019": 58000,
     "evolution": [
       {
         "mois": "Jan 2023",
-        "cumul": 42000
+        "cumul": 42962
       },
       {
         "mois": "Avr 2023",
-        "cumul": 47000
+        "cumul": 46804
       },
       {
         "mois": "Juil 2023",
-        "cumul": 51000
+        "cumul": 50360
       },
       {
         "mois": "Oct 2023",
-        "cumul": 55000
+        "cumul": 53384
       },
       {
         "mois": "Jan 2024",
-        "cumul": 57500
+        "cumul": 57344
       },
       {
         "mois": "Avr 2024",
-        "cumul": 60000
+        "cumul": 60524
       },
       {
         "mois": "Juil 2024",
-        "cumul": 63500
+        "cumul": 63678
       },
       {
         "mois": "Oct 2024",
-        "cumul": 66000
+        "cumul": 65259
       },
       {
         "mois": "Jan 2025",
-        "cumul": 66500
+        "cumul": 66333
       },
       {
         "mois": "Avr 2025",
-        "cumul": 67000
+        "cumul": 67321
       },
       {
         "mois": "Juil 2025",
-        "cumul": 67600
+        "cumul": 67727
       },
       {
-        "mois": "Sep 2025",
-        "cumul": 68227
+        "mois": "Oct 2025",
+        "cumul": 68145
       }
     ],
     "par_secteur": [
@@ -1634,7 +1670,7 @@
   },
   "historique_5ans": {
     "meta": {
-      "derniere_mise_a_jour": "2026-01-10",
+      "derniere_mise_a_jour": "2026-01-11",
       "periode": "2020-2025",
       "sources": [
         "INSEE",
@@ -1662,8 +1698,8 @@
         2.0,
         0.9
       ],
-      "source": "INSEE - IPC moyenne annuelle (API)",
-      "note": "Calculé automatiquement depuis les indices mensuels"
+      "source": "INSEE - IPC (valeurs par défaut)",
+      "note": "API indisponible, valeurs statiques"
     },
     "chomage": {
       "label": "Taux de chômage BIT (%)",
@@ -1808,6 +1844,515 @@
       "source": "Calcul SMIC réel",
       "note": "SMIC - inflation, base 2020"
     }
+  },
+  "egalite_professionnelle": {
+    "meta": {
+      "source": "Ministère du Travail - Egapro",
+      "url": "https://egapro.travail.gouv.fr/consulter-index",
+      "derniere_mise_a_jour": "2026-01-11",
+      "automatise": true
+    },
+    "index_moyen_national": 88,
+    "nombre_declarations": 31000,
+    "entreprises_conformes_pct": 77,
+    "repartition_notes": {
+      "moins_de_75": 23,
+      "entre_75_et_85": 35,
+      "entre_85_et_99": 38,
+      "note_100": 4
+    },
+    "indicateurs_moyens": {
+      "ecart_remuneration": 37,
+      "ecart_augmentations": 19,
+      "ecart_promotions": 14,
+      "retour_conge_maternite": 15,
+      "hautes_remunerations": 8
+    },
+    "evolution": [
+      {
+        "annee": 2019,
+        "index_moyen": 83,
+        "declarations": 17000
+      },
+      {
+        "annee": 2020,
+        "index_moyen": 84,
+        "declarations": 20000
+      },
+      {
+        "annee": 2021,
+        "index_moyen": 85,
+        "declarations": 23000
+      },
+      {
+        "annee": 2022,
+        "index_moyen": 86,
+        "declarations": 27000
+      },
+      {
+        "annee": 2023,
+        "index_moyen": 87,
+        "declarations": 29000
+      },
+      {
+        "annee": 2024,
+        "index_moyen": 88,
+        "declarations": 31000
+      },
+      {
+        "annee": 2025,
+        "index_moyen": 88,
+        "declarations": 31000
+      }
+    ],
+    "par_taille": [
+      {
+        "taille": "50-250 salariés",
+        "index_moyen": 86,
+        "part_conformes": 72
+      },
+      {
+        "taille": "251-999 salariés",
+        "index_moyen": 88,
+        "part_conformes": 80
+      },
+      {
+        "taille": "1000+ salariés",
+        "index_moyen": 91,
+        "part_conformes": 89
+      }
+    ],
+    "arguments_nao": [
+      "Index moyen national de 88/100 : marge de progression",
+      "23% des entreprises en-dessous du seuil légal de 75 points",
+      "Écart de rémunération H/F encore significatif (3 points perdus en moyenne)",
+      "Les grandes entreprises font mieux que les PME (+5 points d'index)"
+    ]
+  },
+  "accidents_travail": {
+    "meta": {
+      "source": "DARES - Harmonisation CNAM/CCMSA/CNRACL",
+      "url": "https://dares.travail-emploi.gouv.fr/donnees/les-accidents-du-travail",
+      "derniere_mise_a_jour": "2025-10",
+      "periode": "2023",
+      "automatise": false,
+      "note": "Mise à jour annuelle (octobre)"
+    },
+    "total_national": {
+      "accidents_avec_arret": 668510,
+      "evolution_vs_2022": -1.8,
+      "evolution_vs_2019": -7.2,
+      "indice_frequence": 31.4,
+      "accidents_mortels": 738
+    },
+    "par_secteur": [
+      {
+        "secteur": "Santé, nettoyage, intérim",
+        "accidents": 193867,
+        "part_pct": 29,
+        "if": 45
+      },
+      {
+        "secteur": "Alimentation",
+        "accidents": 113646,
+        "part_pct": 17,
+        "if": 52
+      },
+      {
+        "secteur": "Transport, logistique",
+        "accidents": 100276,
+        "part_pct": 15,
+        "if": 48
+      },
+      {
+        "secteur": "BTP",
+        "accidents": 93591,
+        "part_pct": 14,
+        "if": 43
+      },
+      {
+        "secteur": "Commerce",
+        "accidents": 66851,
+        "part_pct": 10,
+        "if": 25
+      },
+      {
+        "secteur": "Industrie",
+        "accidents": 53481,
+        "part_pct": 8,
+        "if": 28
+      },
+      {
+        "secteur": "Services",
+        "accidents": 46798,
+        "part_pct": 7,
+        "if": 18
+      }
+    ],
+    "evolution_historique": [
+      {
+        "annee": 2019,
+        "accidents": 720000,
+        "if": 33.4
+      },
+      {
+        "annee": 2020,
+        "accidents": 540000,
+        "if": 27.0,
+        "note": "COVID"
+      },
+      {
+        "annee": 2021,
+        "accidents": 604565,
+        "if": 31.0
+      },
+      {
+        "annee": 2022,
+        "accidents": 681000,
+        "if": 32.1
+      },
+      {
+        "annee": 2023,
+        "accidents": 668510,
+        "if": 31.4
+      }
+    ],
+    "maladies_professionnelles": {
+      "total": 47500,
+      "tms_pct": 87,
+      "amiante_pct": 5,
+      "psychiques_pct": 3
+    },
+    "arguments_nao": [
+      "Indice de fréquence de 31.4 AT pour 1000 salariés",
+      "Secteurs les plus exposés : alimentation (IF=52), transport (IF=48)",
+      "87% des maladies pro sont des TMS (ergonomie, charge de travail)",
+      "Négocier des mesures de prévention et d'amélioration des conditions de travail"
+    ]
+  },
+  "formation": {
+    "meta": {
+      "sources": [
+        "Caisse des Dépôts - Open Data CPF",
+        "DARES - Apprentissage et alternance"
+      ],
+      "derniere_mise_a_jour": "2026-01-11",
+      "automatise": false
+    },
+    "cpf": {
+      "solde_moyen_euros": 1850,
+      "formations_financees_2024": 980000,
+      "montant_moyen_formation": 1420,
+      "taux_utilisation_pct": 8.5,
+      "titulaires_compte": 38000000,
+      "top_formations": [
+        {
+          "nom": "Permis B",
+          "part_pct": 28
+        },
+        {
+          "nom": "Langues étrangères",
+          "part_pct": 18
+        },
+        {
+          "nom": "Informatique/Digital",
+          "part_pct": 15
+        },
+        {
+          "nom": "Création d'entreprise",
+          "part_pct": 8
+        },
+        {
+          "nom": "Bilan de compétences",
+          "part_pct": 7
+        }
+      ],
+      "evolution": [
+        {
+          "annee": 2020,
+          "formations": 630000
+        },
+        {
+          "annee": 2021,
+          "formations": 1100000
+        },
+        {
+          "annee": 2022,
+          "formations": 1850000
+        },
+        {
+          "annee": 2023,
+          "formations": 1200000,
+          "note": "Reste à charge"
+        },
+        {
+          "annee": 2024,
+          "formations": 980000
+        }
+      ]
+    },
+    "alternance": {
+      "contrats_apprentissage_2024": 852000,
+      "contrats_pro_2024": 95000,
+      "total_alternants": 947000,
+      "evolution_vs_2023": 2.5,
+      "taux_insertion_6mois": 67,
+      "secteurs_principaux": [
+        {
+          "secteur": "Commerce",
+          "part_pct": 22
+        },
+        {
+          "secteur": "Services aux entreprises",
+          "part_pct": 18
+        },
+        {
+          "secteur": "Industrie",
+          "part_pct": 15
+        },
+        {
+          "secteur": "BTP",
+          "part_pct": 12
+        },
+        {
+          "secteur": "Hôtellerie-restauration",
+          "part_pct": 10
+        }
+      ],
+      "par_niveau": [
+        {
+          "niveau": "CAP-BEP",
+          "part_pct": 25
+        },
+        {
+          "niveau": "Bac",
+          "part_pct": 22
+        },
+        {
+          "niveau": "Bac+2",
+          "part_pct": 20
+        },
+        {
+          "niveau": "Bac+3/4",
+          "part_pct": 18
+        },
+        {
+          "niveau": "Bac+5",
+          "part_pct": 15
+        }
+      ],
+      "evolution": [
+        {
+          "annee": 2019,
+          "apprentis": 368000
+        },
+        {
+          "annee": 2020,
+          "apprentis": 495000
+        },
+        {
+          "annee": 2021,
+          "apprentis": 732000
+        },
+        {
+          "annee": 2022,
+          "apprentis": 837000
+        },
+        {
+          "annee": 2023,
+          "apprentis": 830000
+        },
+        {
+          "annee": 2024,
+          "apprentis": 852000
+        }
+      ]
+    },
+    "plan_formation": {
+      "entreprises_formant_pct": 72,
+      "acces_formation_cadres_pct": 58,
+      "acces_formation_ouvriers_pct": 32,
+      "duree_moyenne_heures": 21,
+      "budget_moyen_par_salarie": 420
+    },
+    "arguments_nao": [
+      "Solde CPF moyen de 1850€ : encourager l'utilisation",
+      "Écart d'accès à la formation : 58% des cadres vs 32% des ouvriers",
+      "Budget formation moyen de 420€/salarié : négocier une hausse",
+      "L'alternance permet 67% d'insertion à 6 mois : développer les contrats"
+    ]
+  },
+  "epargne_salariale": {
+    "meta": {
+      "source": "DARES - Enquête PIPA",
+      "url": "https://dares.travail-emploi.gouv.fr/donnees/participation-interessement-et-epargne-salariale",
+      "derniere_mise_a_jour": "2024-12",
+      "periode": "2023",
+      "automatise": false,
+      "note": "Publication annuelle (décembre N+1)"
+    },
+    "couverture": {
+      "salaries_couverts_pct": 53.5,
+      "salaries_couverts_millions": 9.8,
+      "beneficiaires_primes_millions": 7.9,
+      "taux_perception_pct": 81
+    },
+    "dispositifs": {
+      "participation": {
+        "entreprises_pct": 26,
+        "salaries_couverts_pct": 42,
+        "montant_moyen": 1650,
+        "montant_total_mds": 9.2
+      },
+      "interessement": {
+        "entreprises_pct": 22,
+        "salaries_couverts_pct": 35,
+        "montant_moyen": 2180,
+        "montant_total_mds": 12.5
+      },
+      "pee": {
+        "entreprises_pct": 28,
+        "salaries_couverts_pct": 45,
+        "abondement_moyen": 680
+      },
+      "perco_percol": {
+        "entreprises_pct": 18,
+        "salaries_couverts_pct": 28,
+        "abondement_moyen": 520
+      }
+    },
+    "montants_totaux": {
+      "primes_brutes_mds": 21.7,
+      "montant_moyen_beneficiaire": 2750,
+      "evolution_vs_2022": 3.2
+    },
+    "par_taille": [
+      {
+        "taille": "10-49 salariés",
+        "couverture_pct": 18,
+        "montant_moyen": 1800
+      },
+      {
+        "taille": "50-99 salariés",
+        "couverture_pct": 42,
+        "montant_moyen": 2100
+      },
+      {
+        "taille": "100-249 salariés",
+        "couverture_pct": 58,
+        "montant_moyen": 2400
+      },
+      {
+        "taille": "250-499 salariés",
+        "couverture_pct": 72,
+        "montant_moyen": 2650
+      },
+      {
+        "taille": "500+ salariés",
+        "couverture_pct": 91,
+        "montant_moyen": 3200
+      }
+    ],
+    "evolution": [
+      {
+        "annee": 2019,
+        "montant_mds": 19.8,
+        "beneficiaires_m": 7.9
+      },
+      {
+        "annee": 2020,
+        "montant_mds": 18.6,
+        "beneficiaires_m": 7.6,
+        "note": "COVID"
+      },
+      {
+        "annee": 2021,
+        "montant_mds": 19.2,
+        "beneficiaires_m": 7.8
+      },
+      {
+        "annee": 2022,
+        "montant_mds": 21.0,
+        "beneficiaires_m": 8.1
+      },
+      {
+        "annee": 2023,
+        "montant_mds": 21.7,
+        "beneficiaires_m": 7.9
+      }
+    ],
+    "arguments_nao": [
+      "Montant moyen de 2750€/bénéficiaire : argument pour augmenter",
+      "Seules 53% des salariés couverts : négocier la mise en place",
+      "Intéressement plus généreux (2180€) que participation (1650€)",
+      "Écart selon taille : 1800€ dans PME vs 3200€ dans grands groupes",
+      "Loi Partage de la Valeur : obligation de négocier dans entreprises >11 sal."
+    ]
+  },
+  "temps_travail": {
+    "meta": {
+      "sources": [
+        "INSEE - Enquête Emploi",
+        "DARES"
+      ],
+      "derniere_mise_a_jour": "2024-06",
+      "periode": "2023",
+      "automatise": false
+    },
+    "duree_travail": {
+      "duree_hebdo_habituelle": 37.1,
+      "duree_hebdo_temps_complet": 39.1,
+      "duree_hebdo_temps_partiel": 23.4,
+      "duree_annuelle_effective": 1669,
+      "duree_legale": 35
+    },
+    "temps_partiel": {
+      "taux_global_pct": 17.4,
+      "taux_femmes_pct": 26.8,
+      "taux_hommes_pct": 8.2,
+      "temps_partiel_subi_pct": 28,
+      "duree_moyenne_heures": 23.4
+    },
+    "heures_supplementaires": {
+      "salaries_concernés_pct": 48,
+      "volume_moyen_heures_mois": 8.5,
+      "majoration_legale_pct": 25
+    },
+    "horaires_atypiques": {
+      "travail_samedi_pct": 37,
+      "travail_dimanche_pct": 21,
+      "travail_soir_pct": 27,
+      "travail_nuit_pct": 9
+    },
+    "par_csp": {
+      "cadres": {
+        "heures_hebdo": 42.1,
+        "annuelles": 1798
+      },
+      "professions_intermediaires": {
+        "heures_hebdo": 38.5,
+        "annuelles": 1650
+      },
+      "employes": {
+        "heures_hebdo": 37.3,
+        "annuelles": 1603
+      },
+      "ouvriers": {
+        "heures_hebdo": 38.0,
+        "annuelles": 1634
+      }
+    },
+    "rtt": {
+      "salaries_beneficiaires_pct": 32,
+      "jours_moyens_annuels": 12
+    },
+    "arguments_nao": [
+      "Durée réelle (39.1h temps complet) > durée légale (35h)",
+      "48% des salariés font des heures sup (8.5h/mois en moyenne)",
+      "Temps partiel subi pour 28% des concernés (sous-emploi)",
+      "21% travaillent le dimanche : majoration à négocier",
+      "Cadres : 1798h/an vs 1634h pour ouvriers"
+    ]
   },
   "conventions_collectives": {
     "meta": {
