@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-01-11T14:50:03.500745",
+  "last_updated": "2026-01-11T14:54:06.827439",
   "contact": "hspringragain@cftc.fr",
   "sources": [
     "INSEE - Indice des prix à la consommation",
@@ -243,7 +243,7 @@
     "prix_gazole": 1.58,
     "taux_effort_locataires": 29.6,
     "croissance_pib": 0.9,
-    "climat_affaires": 98,
+    "climat_affaires": 99,
     "defaillances_12m": 68145
   },
   "salaire_median": {
@@ -762,9 +762,19 @@
         "glissement": 2.48
       },
       {
+        "trimestre": "T2 2022",
+        "indice": 135.84,
+        "glissement": 3.6
+      },
+      {
         "trimestre": "T3 2022",
         "indice": 136.27,
         "glissement": 3.49
+      },
+      {
+        "trimestre": "T4 2022",
+        "indice": 137.26,
+        "glissement": 3.5
       },
       {
         "trimestre": "T1 2023",
@@ -772,9 +782,19 @@
         "glissement": 3.49
       },
       {
+        "trimestre": "T2 2023",
+        "indice": 140.59,
+        "glissement": 3.5
+      },
+      {
         "trimestre": "T3 2023",
         "indice": 141.03,
         "glissement": 3.49
+      },
+      {
+        "trimestre": "T4 2023",
+        "indice": 142.06,
+        "glissement": 3.5
       },
       {
         "trimestre": "T1 2024",
@@ -782,14 +802,29 @@
         "glissement": 3.5
       },
       {
+        "trimestre": "T2 2024",
+        "indice": 145.17,
+        "glissement": 3.26
+      },
+      {
         "trimestre": "T3 2024",
         "indice": 144.51,
         "glissement": 2.47
       },
       {
+        "trimestre": "T4 2024",
+        "indice": 144.64,
+        "glissement": 1.82
+      },
+      {
         "trimestre": "T1 2025",
         "indice": 145.47,
         "glissement": 1.4
+      },
+      {
+        "trimestre": "T2 2025",
+        "indice": 146.68,
+        "glissement": 1.04
       },
       {
         "trimestre": "T3 2025",
@@ -1116,14 +1151,14 @@
     ]
   },
   "climat_affaires": {
-    "valeur_actuelle": 98,
-    "confiance_menages": 92,
+    "valeur_actuelle": 99,
+    "confiance_menages": 90,
     "moyenne_long_terme": 100,
-    "mois": "Nov 2025",
+    "mois": "Déc 2025",
     "evolution": [
       {
         "mois": "Jan 2024",
-        "climat": 99,
+        "climat": 100,
         "menages": 91
       },
       {
@@ -1133,8 +1168,8 @@
       },
       {
         "mois": "Juil 2024",
-        "climat": 97,
-        "menages": 92
+        "climat": 94,
+        "menages": 91
       },
       {
         "mois": "Oct 2024",
@@ -1154,17 +1189,17 @@
       {
         "mois": "Juil 2025",
         "climat": 96,
-        "menages": 93
+        "menages": 89
       },
       {
         "mois": "Oct 2025",
-        "climat": 97,
-        "menages": 92
+        "climat": 96,
+        "menages": 90
       },
       {
-        "mois": "Nov 2025",
-        "climat": 98,
-        "menages": 92
+        "mois": "Déc 2025",
+        "climat": 99,
+        "menages": 90
       }
     ],
     "par_secteur": [
@@ -1669,15 +1704,15 @@
     "chomage": {
       "label": "Taux de chômage BIT (%)",
       "valeurs": [
-        8.0,
-        7.9,
-        7.3,
-        7.3,
-        7.4,
-        7.7
+        7.8,
+        7.7,
+        7.1,
+        7.1,
+        7.2,
+        7.4
       ],
-      "source": "INSEE - Enquête Emploi (valeurs par défaut)",
-      "note": "API indisponible, valeurs statiques"
+      "source": "INSEE - Enquête Emploi (API)",
+      "note": "Moyenne annuelle des trimestres"
     },
     "smic_brut_mensuel": {
       "label": "SMIC brut mensuel (€)",
