@@ -1910,11 +1910,11 @@ def main():
                 {"taille": "251-999 salariés", "index_moyen": 88, "part_conformes": 79},
                 {"taille": "1000+ salariés", "index_moyen": 91, "part_conformes": 88}
             ],
-            "arguments_nao": [
-                "📊 Index moyen national : 88/100 - marge de progression",
-                "⚖️ 23% des entreprises sous le seuil légal de 75 pts",
-                "💰 Écart de rémunération moyen encore à 4% à poste égal",
-                "🎯 Obligation de résultat : plans d'action si index < 75 pts"
+            "notes_lecture": [
+                "📊 L'index moyen national est de 88/100 en 2025",
+                "⚖️ 23% des entreprises sont sous le seuil légal de 75 points",
+                "💰 L'écart de rémunération moyen reste de 4% à poste égal",
+                "📈 Progression de 4 points depuis 2020 (84 → 88)"
             ],
             "evolution": [{"annee": 2020, "index": 84}, {"annee": 2021, "index": 85}, {"annee": 2022, "index": 86}, {"annee": 2023, "index": 87}, {"annee": 2024, "index": 88}, {"annee": 2025, "index": 88}]
         },
@@ -1941,11 +1941,11 @@ def main():
                 {"secteur": "Commerce", "frequence": 24, "gravite": 1.1},
                 {"secteur": "Services", "frequence": 18, "gravite": 0.8}
             ],
-            "arguments_nao": [
-                "⚠️ 738 accidents mortels en 2024 - un mort chaque jour ouvré",
-                "📈 Indice de fréquence stable mais élevé : 32.4 AT/1000 salariés",
-                "💰 Coût AT/MP : 14.2 Md€/an pour les entreprises",
-                "🏗️ BTP : secteur le plus accidentogène (fréquence 52)"
+            "notes_lecture": [
+                "⚠️ 738 accidents mortels recensés en 2024",
+                "📈 Indice de fréquence : 32.4 accidents pour 1000 salariés",
+                "💰 Coût total AT/MP : 14.2 milliards d'euros par an",
+                "🏗️ Le BTP reste le secteur le plus accidentogène (fréquence 52)"
             ]
         },
         
@@ -1968,11 +1968,11 @@ def main():
                 {"annee": 2022, "nombre": 837000}, {"annee": 2023, "nombre": 852000},
                 {"annee": 2024, "nombre": 920000}, {"annee": 2025, "nombre": 980000}
             ],
-            "arguments_nao": [
-                "📚 Écart d'accès à la formation : cadres 62% vs ouvriers 28%",
-                "💰 38M de titulaires CPF - montant moyen 1520€",
-                "📈 Apprentissage x3 depuis 2018 : 980 000 apprentis",
-                "🎯 Négocier un plan de formation pour toutes les catégories"
+            "notes_lecture": [
+                "📚 Taux d'accès à la formation : cadres 62% vs ouvriers 28%",
+                "💰 38 millions de titulaires CPF avec un montant moyen de 1520€",
+                "📈 L'apprentissage a triplé depuis 2018 : 980 000 apprentis en 2025",
+                "🎓 Budget formation des entreprises : 32 milliards d'euros"
             ]
         },
         
@@ -1990,11 +1990,11 @@ def main():
                 {"annee": 2022, "encours": 158}, {"annee": 2023, "encours": 172},
                 {"annee": 2024, "encours": 182}, {"annee": 2025, "encours": 188}
             ],
-            "arguments_nao": [
-                "💰 Participation moyenne : 1 850€ - négocier une formule dérogatoire",
+            "notes_lecture": [
+                "💰 Participation moyenne versée : 1 850€ par bénéficiaire",
                 "📈 Intéressement moyen : 2 100€ - 52% des salariés couverts",
-                "🏦 Encours épargne salariale : 188 Md€ (+29% depuis 2020)",
-                "🎯 Abondement employeur : levier d'attractivité à négocier"
+                "🏦 Encours total de l'épargne salariale : 188 milliards d'euros",
+                "📊 Progression de 29% des encours depuis 2020"
             ]
         },
         
@@ -2013,11 +2013,11 @@ def main():
                 {"tranche": "36-39h", "pct": 28},
                 {"tranche": "40h et plus", "pct": 20}
             ],
-            "arguments_nao": [
-                "⏰ Temps partiel subi : 26.5% des femmes vs 8.1% des hommes",
-                "🏠 Télétravail : 26% des salariés - négocier un accord cadre",
-                "💼 185M d'heures sup/trimestre - majorations à vérifier",
-                "⚖️ Durée moyenne 37.2h - attention aux forfaits jours"
+            "notes_lecture": [
+                "⏰ Temps partiel : 26.5% des femmes vs 8.1% des hommes",
+                "🏠 Télétravail : 26% des salariés concernés",
+                "💼 185 millions d'heures supplémentaires par trimestre",
+                "⚖️ Durée hebdomadaire moyenne : 37.2 heures"
             ]
         },
     }
