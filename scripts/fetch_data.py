@@ -1800,6 +1800,252 @@ def main():
         # PANIER FAMILIAL CFTC (NOUVEAU)
         "panier_familial": panier_familial,
         "heures_travail": heures_travail,
+        
+        # ============================================================
+        # DONNÉES STATIQUES POUR ONGLETS SPÉCIALISÉS
+        # ============================================================
+        
+        # PRÉVISIONS MACRO (Banque de France, INSEE)
+        "previsions": {
+            "banque_de_france": {
+                "date_publication": "Décembre 2025",
+                "pib_croissance": {"2024": 1.1, "2025": 0.9, "2026": 1.0, "2027": 1.3, "2028": 1.5},
+                "inflation_ipch": {"2024": 2.4, "2025": 1.6, "2026": 1.4, "2027": 1.8, "2028": 1.8},
+                "taux_chomage": {"2024": 7.4, "2025": 7.6, "2026": 7.7, "2027": 7.5, "2028": 7.3},
+                "salaires_nominaux": {"2024": 3.2, "2025": 2.8, "2026": 2.5, "2027": 2.6, "2028": 2.7},
+                "salaires_reels": {"2024": 0.8, "2025": 1.2, "2026": 1.1, "2027": 0.8, "2028": 0.9},
+                "taux_epargne": {"2024": 17.6, "2025": 17.2, "2026": 16.8, "2027": 16.5, "2028": 16.2}
+            },
+            "insee": {
+                "date_publication": "Décembre 2025",
+                "pib_t1_2026": 0.3,
+                "emploi_t1_2026": 0.1,
+                "inflation_dec_2025": 1.4,
+                "consommation_menages": 0.4
+            },
+            "consensus": {
+                "pib_2026": 1.0,
+                "inflation_2026": 1.5,
+                "chomage_2026": 7.6
+            }
+        },
+        
+        # DONNÉES RÉGIONALES (Territoires)
+        "donnees_regionales": {
+            "source": "INSEE T3 2025",
+            "france_metro": {
+                "taux_chomage": 7.4,
+                "salaire_median_net": 2091,
+                "taux_emploi": 68.4
+            },
+            "regions": [
+                {"nom": "Île-de-France", "code": "IDF", "chomage": 6.8, "salaire_median": 2520, "emploi": 70.2, "population": 12.3},
+                {"nom": "Auvergne-Rhône-Alpes", "code": "ARA", "chomage": 6.4, "salaire_median": 2180, "emploi": 70.8, "population": 8.1},
+                {"nom": "Nouvelle-Aquitaine", "code": "NAQ", "chomage": 6.9, "salaire_median": 2010, "emploi": 67.5, "population": 6.0},
+                {"nom": "Occitanie", "code": "OCC", "chomage": 8.9, "salaire_median": 1980, "emploi": 65.2, "population": 6.0},
+                {"nom": "Hauts-de-France", "code": "HDF", "chomage": 9.2, "salaire_median": 1920, "emploi": 63.8, "population": 6.0},
+                {"nom": "Grand Est", "code": "GES", "chomage": 7.5, "salaire_median": 2020, "emploi": 66.9, "population": 5.5},
+                {"nom": "Provence-Alpes-Côte d'Azur", "code": "PAC", "chomage": 8.1, "salaire_median": 2080, "emploi": 64.5, "population": 5.1},
+                {"nom": "Pays de la Loire", "code": "PDL", "chomage": 5.8, "salaire_median": 2050, "emploi": 71.2, "population": 3.8},
+                {"nom": "Bretagne", "code": "BRE", "chomage": 5.9, "salaire_median": 2030, "emploi": 70.5, "population": 3.4},
+                {"nom": "Normandie", "code": "NOR", "chomage": 7.2, "salaire_median": 1980, "emploi": 66.8, "population": 3.3},
+                {"nom": "Bourgogne-Franche-Comté", "code": "BFC", "chomage": 6.5, "salaire_median": 1990, "emploi": 68.2, "population": 2.8},
+                {"nom": "Centre-Val de Loire", "code": "CVL", "chomage": 7.0, "salaire_median": 2010, "emploi": 67.5, "population": 2.6},
+                {"nom": "Corse", "code": "COR", "chomage": 7.3, "salaire_median": 1950, "emploi": 64.8, "population": 0.35}
+            ]
+        },
+        
+        # CONVENTIONS COLLECTIVES
+        "conventions_collectives": {
+            "smic_reference": {
+                "mensuel": 1426.30,
+                "annuel": 17116,
+                "date": "Janvier 2026"
+            },
+            "statistiques": {
+                "total_branches": 171,
+                "branches_conformes": 142,
+                "branches_non_conformes": 29,
+                "taux_conformite": 83
+            },
+            "branches": [
+                {
+                    "id": "metallurgie",
+                    "nom": "Métallurgie",
+                    "idcc": "3248",
+                    "effectif": 1500000,
+                    "statut": "conforme",
+                    "grille": [
+                        {"niveau": "A1", "coefficient": 135, "minimum_mensuel": 1480, "minimum_annuel": 17760},
+                        {"niveau": "A2", "coefficient": 145, "minimum_mensuel": 1520, "minimum_annuel": 18240},
+                        {"niveau": "B1", "coefficient": 155, "minimum_mensuel": 1580, "minimum_annuel": 18960},
+                        {"niveau": "B2", "coefficient": 170, "minimum_mensuel": 1650, "minimum_annuel": 19800},
+                        {"niveau": "C1", "coefficient": 190, "minimum_mensuel": 1750, "minimum_annuel": 21000}
+                    ]
+                },
+                {
+                    "id": "commerce_detail",
+                    "nom": "Commerce de détail alimentaire",
+                    "idcc": "2216",
+                    "effectif": 180000,
+                    "statut": "non_conforme",
+                    "grille": [
+                        {"niveau": "1A", "coefficient": 120, "minimum_mensuel": 1400, "minimum_annuel": 16800},
+                        {"niveau": "1B", "coefficient": 125, "minimum_mensuel": 1410, "minimum_annuel": 16920},
+                        {"niveau": "2A", "coefficient": 135, "minimum_mensuel": 1450, "minimum_annuel": 17400},
+                        {"niveau": "2B", "coefficient": 145, "minimum_mensuel": 1500, "minimum_annuel": 18000}
+                    ]
+                },
+                {
+                    "id": "hotellerie",
+                    "nom": "Hôtels, cafés, restaurants (HCR)",
+                    "idcc": "1979",
+                    "effectif": 750000,
+                    "statut": "conforme",
+                    "grille": [
+                        {"niveau": "I-1", "coefficient": 100, "minimum_mensuel": 1450, "minimum_annuel": 17400},
+                        {"niveau": "I-2", "coefficient": 110, "minimum_mensuel": 1480, "minimum_annuel": 17760},
+                        {"niveau": "II-1", "coefficient": 120, "minimum_mensuel": 1520, "minimum_annuel": 18240},
+                        {"niveau": "II-2", "coefficient": 130, "minimum_mensuel": 1580, "minimum_annuel": 18960}
+                    ]
+                },
+                {
+                    "id": "batiment",
+                    "nom": "Bâtiment (ouvriers)",
+                    "idcc": "1597",
+                    "effectif": 520000,
+                    "statut": "conforme",
+                    "grille": [
+                        {"niveau": "N1-P1", "coefficient": 150, "minimum_mensuel": 1520, "minimum_annuel": 18240},
+                        {"niveau": "N1-P2", "coefficient": 170, "minimum_mensuel": 1580, "minimum_annuel": 18960},
+                        {"niveau": "N2", "coefficient": 185, "minimum_mensuel": 1650, "minimum_annuel": 19800},
+                        {"niveau": "N3-P1", "coefficient": 210, "minimum_mensuel": 1780, "minimum_annuel": 21360}
+                    ]
+                },
+                {
+                    "id": "proprete",
+                    "nom": "Propreté (nettoyage)",
+                    "idcc": "3043",
+                    "effectif": 550000,
+                    "statut": "non_conforme",
+                    "grille": [
+                        {"niveau": "AS1", "coefficient": 100, "minimum_mensuel": 1400, "minimum_annuel": 16800},
+                        {"niveau": "AS2", "coefficient": 105, "minimum_mensuel": 1420, "minimum_annuel": 17040},
+                        {"niveau": "AS3", "coefficient": 110, "minimum_mensuel": 1460, "minimum_annuel": 17520},
+                        {"niveau": "AQS1", "coefficient": 118, "minimum_mensuel": 1510, "minimum_annuel": 18120}
+                    ]
+                },
+                {
+                    "id": "securite",
+                    "nom": "Prévention et sécurité",
+                    "idcc": "1351",
+                    "effectif": 180000,
+                    "statut": "non_conforme",
+                    "grille": [
+                        {"niveau": "I", "coefficient": 120, "minimum_mensuel": 1405, "minimum_annuel": 16860},
+                        {"niveau": "II", "coefficient": 130, "minimum_mensuel": 1430, "minimum_annuel": 17160},
+                        {"niveau": "III-1", "coefficient": 140, "minimum_mensuel": 1470, "minimum_annuel": 17640}
+                    ]
+                }
+            ]
+        },
+        
+        # ÉGALITÉ PROFESSIONNELLE
+        "egalite_professionnelle": {
+            "index_moyen": 88,
+            "entreprises_publiees": 72,
+            "ecart_remuneration": 4.2,
+            "ecart_augmentation": 1.8,
+            "ecart_promotion": 1.2,
+            "retour_conge_mat": 98,
+            "hautes_remunerations": 28,
+            "evolution": [
+                {"annee": 2020, "index": 84},
+                {"annee": 2021, "index": 85},
+                {"annee": 2022, "index": 86},
+                {"annee": 2023, "index": 87},
+                {"annee": 2024, "index": 88},
+                {"annee": 2025, "index": 88}
+            ]
+        },
+        
+        # ACCIDENTS DU TRAVAIL
+        "accidents_travail": {
+            "indice_frequence": 32.4,
+            "indice_gravite": 1.3,
+            "accidents_mortels": 738,
+            "maladies_pro": 47000,
+            "cout_total_md": 14.2,
+            "evolution": [
+                {"annee": 2019, "frequence": 33.5, "gravite": 1.35},
+                {"annee": 2020, "frequence": 28.8, "gravite": 1.25},
+                {"annee": 2021, "frequence": 31.2, "gravite": 1.28},
+                {"annee": 2022, "frequence": 32.0, "gravite": 1.30},
+                {"annee": 2023, "frequence": 32.2, "gravite": 1.31},
+                {"annee": 2024, "frequence": 32.4, "gravite": 1.30}
+            ],
+            "par_secteur": [
+                {"secteur": "BTP", "frequence": 52, "gravite": 2.8},
+                {"secteur": "Industrie", "frequence": 28, "gravite": 1.5},
+                {"secteur": "Transport", "frequence": 45, "gravite": 2.2},
+                {"secteur": "Commerce", "frequence": 24, "gravite": 1.1},
+                {"secteur": "Services", "frequence": 18, "gravite": 0.8}
+            ]
+        },
+        
+        # FORMATION PROFESSIONNELLE
+        "formation": {
+            "taux_acces": 42,
+            "budget_entreprises_md": 32,
+            "cpf_titulaires_m": 38,
+            "cpf_montant_moyen": 1520,
+            "apprentis": 980000,
+            "evolution_apprentissage": [
+                {"annee": 2018, "nombre": 320000},
+                {"annee": 2019, "nombre": 370000},
+                {"annee": 2020, "nombre": 525000},
+                {"annee": 2021, "nombre": 740000},
+                {"annee": 2022, "nombre": 837000},
+                {"annee": 2023, "nombre": 852000},
+                {"annee": 2024, "nombre": 920000},
+                {"annee": 2025, "nombre": 980000}
+            ]
+        },
+        
+        # ÉPARGNE SALARIALE
+        "epargne_salariale": {
+            "encours_total_md": 188,
+            "beneficiaires_m": 11.2,
+            "participation_moyenne": 1850,
+            "interessement_moyen": 2100,
+            "pee_encours_md": 156,
+            "perco_pereco_md": 32,
+            "evolution": [
+                {"annee": 2020, "encours": 145},
+                {"annee": 2021, "encours": 162},
+                {"annee": 2022, "encours": 158},
+                {"annee": 2023, "encours": 172},
+                {"annee": 2024, "encours": 182},
+                {"annee": 2025, "encours": 188}
+            ]
+        },
+        
+        # TEMPS DE TRAVAIL
+        "temps_travail": {
+            "duree_hebdo_moyenne": 37.2,
+            "temps_partiel_pct": 17.3,
+            "temps_partiel_femmes": 26.5,
+            "temps_partiel_hommes": 8.1,
+            "heures_sup_trimestrielles_m": 185,
+            "teletravail_pct": 26,
+            "repartition_duree": [
+                {"tranche": "Moins de 30h", "pct": 12},
+                {"tranche": "30-34h", "pct": 8},
+                {"tranche": "35h", "pct": 32},
+                {"tranche": "36-39h", "pct": 28},
+                {"tranche": "40h et plus", "pct": 20}
+            ]
+        },
     }
     
     # Écrire le fichier JSON
