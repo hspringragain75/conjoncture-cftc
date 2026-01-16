@@ -1458,7 +1458,7 @@ def build_heures_travail_data():
         2023: 8.92,
         2024: 9.22,
         2025: 9.40,
-        2026: 9.65,  # À confirmer janvier 2026
+        2026: 9.52,  # À confirmer janvier 2026
     }
     
     return {
