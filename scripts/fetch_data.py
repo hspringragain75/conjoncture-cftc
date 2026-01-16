@@ -1745,6 +1745,7 @@ def main():
     # Assembler le JSON final
     data = {
         "last_updated": datetime.now().isoformat(),
+        "contact": "hspringragain@cftc.fr",
         "sources": [
             "INSEE - Indice des prix à la consommation",
             "INSEE - Enquête Emploi",
