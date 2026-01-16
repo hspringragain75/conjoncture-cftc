@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-01-16T13:14:37.972056",
+  "last_updated": "2026-01-16T13:31:33.295928",
   "contact": "hspringragain@cftc.fr",
   "sources": [
     "INSEE - Indice des prix à la consommation",
@@ -109,58 +109,58 @@
   "chomage": [
     {
       "trimestre": "T1 2023",
-      "taux": 6.9,
-      "jeunes": 5.0
+      "taux": 7.1,
+      "jeunes": 17.5
     },
     {
       "trimestre": "T2 2023",
-      "taux": 7.0,
-      "jeunes": 4.9
+      "taux": 7.2,
+      "jeunes": 17.0
     },
     {
       "trimestre": "T3 2023",
-      "taux": 7.2,
-      "jeunes": 5.0
+      "taux": 7.4,
+      "jeunes": 17.6
     },
     {
       "trimestre": "T4 2023",
-      "taux": 7.3,
-      "jeunes": 4.9
+      "taux": 7.5,
+      "jeunes": 17.6
     },
     {
       "trimestre": "T1 2024",
-      "taux": 7.3,
-      "jeunes": 4.8
+      "taux": 7.5,
+      "jeunes": 18.1
     },
     {
       "trimestre": "T2 2024",
-      "taux": 7.1,
-      "jeunes": 4.9
+      "taux": 7.3,
+      "jeunes": 17.7
     },
     {
       "trimestre": "T3 2024",
-      "taux": 7.2,
-      "jeunes": 4.5
+      "taux": 7.4,
+      "jeunes": 18.3
     },
     {
       "trimestre": "T4 2024",
-      "taux": 7.1,
-      "jeunes": 4.6
+      "taux": 7.3,
+      "jeunes": 19.0
     },
     {
       "trimestre": "T1 2025",
-      "taux": 7.3,
-      "jeunes": 4.6
+      "taux": 7.4,
+      "jeunes": 18.5
     },
     {
       "trimestre": "T2 2025",
-      "taux": 7.4,
-      "jeunes": 4.7
+      "taux": 7.5,
+      "jeunes": 18.8
     },
     {
       "trimestre": "T3 2025",
-      "taux": 7.5,
-      "jeunes": 5.0
+      "taux": 7.7,
+      "jeunes": 19.2
     }
   ],
   "smic": {
@@ -229,8 +229,8 @@
     }
   ],
   "indicateurs_cles": {
-    "taux_chomage_actuel": 7.5,
-    "taux_chomage_jeunes": 5.0,
+    "taux_chomage_actuel": 7.7,
+    "taux_chomage_jeunes": 19.2,
     "taux_emploi_seniors": 7.5,
     "inflation_annuelle": 0.9,
     "smic_brut": 1823.03,
@@ -240,9 +240,9 @@
     "ecart_hf_eqtp": 25.8,
     "difficultes_recrutement": 61,
     "irl_glissement": 0.79,
-    "prix_gazole": 1.61,
+    "prix_gazole": 1.58,
     "taux_effort_locataires": 29.6,
-    "croissance_pib": 0.5,
+    "croissance_pib": 0.9,
     "climat_affaires": 99,
     "defaillances_12m": 68145
   },
@@ -910,27 +910,27 @@
   },
   "carburants": {
     "gazole": {
-      "prix": 1.61,
-      "variation_an": -5.8
+      "prix": 1.58,
+      "variation_an": -0.6
     },
     "sp95": {
-      "prix": 1.71,
-      "variation_an": -5.5
+      "prix": 1.72,
+      "variation_an": -1.9
     },
     "sp98": {
-      "prix": 1.81,
-      "variation_an": -5.5
+      "prix": 1.82,
+      "variation_an": -1.5
     },
     "evolution": [
       {
         "mois": "Jan 2023",
-        "gazole": 1.92,
-        "sp95": 1.87
+        "gazole": 1.85,
+        "sp95": 1.82
       },
       {
         "mois": "Avr 2023",
-        "gazole": 1.81,
-        "sp95": 1.95
+        "gazole": 1.78,
+        "sp95": 1.88
       },
       {
         "mois": "Juil 2023",
@@ -939,47 +939,42 @@
       },
       {
         "mois": "Oct 2023",
-        "gazole": 1.91,
-        "sp95": 1.89
+        "gazole": 1.88,
+        "sp95": 1.92
       },
       {
         "mois": "Jan 2024",
+        "gazole": 1.72,
+        "sp95": 1.78
+      },
+      {
+        "mois": "Avr 2024",
         "gazole": 1.75,
         "sp95": 1.82
       },
       {
-        "mois": "Avr 2024",
-        "gazole": 1.79,
-        "sp95": 1.94
-      },
-      {
         "mois": "Juil 2024",
-        "gazole": 1.73,
-        "sp95": 1.86
+        "gazole": 1.68,
+        "sp95": 1.75
       },
       {
         "mois": "Oct 2024",
-        "gazole": 1.63,
-        "sp95": 1.76
-      },
-      {
-        "mois": "Jan 2025",
-        "gazole": 1.71,
-        "sp95": 1.81
-      },
-      {
-        "mois": "Avr 2025",
-        "gazole": 1.59,
-        "sp95": 1.73
-      },
-      {
-        "mois": "Juil 2025",
-        "gazole": 1.65,
+        "gazole": 1.62,
         "sp95": 1.72
       },
       {
+        "mois": "Jan 2025",
+        "gazole": 1.65,
+        "sp95": 1.78
+      },
+      {
+        "mois": "Avr 2025",
+        "gazole": 1.6,
+        "sp95": 1.74
+      },
+      {
         "mois": "Oct 2025",
-        "gazole": 1.61,
+        "gazole": 1.58,
         "sp95": 1.72
       }
     ]
@@ -1057,70 +1052,70 @@
     ]
   },
   "pib": {
-    "croissance_trim_actuel": 0.5,
-    "croissance_annuelle": 1.1,
+    "croissance_trim_actuel": 0.9,
+    "croissance_annuelle": 1.8,
     "trimestre": "T3 2025",
-    "commentaire": "PIB volume trimestriel",
+    "commentaire": "PIB volume trimestriel - INSEE",
     "evolution": [
       {
         "trimestre": "T1 2022",
-        "croissance": 0.0
+        "croissance": 0.8
       },
       {
         "trimestre": "T2 2022",
-        "croissance": 0.5
+        "croissance": 1.0
       },
       {
         "trimestre": "T3 2022",
-        "croissance": 0.2
+        "croissance": 2.0
       },
       {
         "trimestre": "T4 2022",
-        "croissance": 0.1
+        "croissance": 1.9
       },
       {
         "trimestre": "T1 2023",
-        "croissance": 0.1
+        "croissance": 1.5
       },
       {
         "trimestre": "T2 2023",
-        "croissance": 0.6
+        "croissance": 2.3
       },
       {
         "trimestre": "T3 2023",
-        "croissance": 0.0
+        "croissance": 0.7
       },
       {
         "trimestre": "T4 2023",
-        "croissance": 0.0
+        "croissance": 1.3
       },
       {
         "trimestre": "T1 2024",
-        "croissance": 0.2
+        "croissance": 0.5
       },
       {
         "trimestre": "T2 2024",
-        "croissance": 0.3
+        "croissance": 0.1
       },
       {
         "trimestre": "T3 2024",
-        "croissance": 0.4
+        "croissance": 1.5
       },
       {
         "trimestre": "T4 2024",
-        "croissance": -0.1
+        "croissance": -0.0
       },
       {
         "trimestre": "T1 2025",
-        "croissance": 0.2
+        "croissance": 0.5
       },
       {
         "trimestre": "T2 2025",
-        "croissance": 0.3
+        "croissance": 0.4
       },
       {
         "trimestre": "T3 2025",
-        "croissance": 0.5
+        "croissance": 0.9
       }
     ],
     "contributions": {
