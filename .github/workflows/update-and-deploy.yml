@@ -27,6 +27,7 @@ jobs:
           git config user.name "github-actions[bot]"
           git add public/data.json
           git diff --staged --quiet || git commit -m "📊 Mise à jour données"
+          git pull --rebase origin main
           git push
 
   build-deploy:
