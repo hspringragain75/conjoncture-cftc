@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-01-16T08:54:20.570157",
+  "last_updated": "2026-01-16T09:13:35.154109",
   "contact": "hspringragain@cftc.fr",
   "sources": [
     "INSEE - Indice des prix à la consommation",
@@ -231,7 +231,7 @@
   "indicateurs_cles": {
     "taux_chomage_actuel": 7.7,
     "taux_chomage_jeunes": 19.2,
-    "taux_emploi_seniors": 7.5,
+    "taux_emploi_seniors": 62.0,
     "inflation_annuelle": 0.9,
     "smic_brut": 1823.03,
     "smic_net": 1443.11,
@@ -242,7 +242,7 @@
     "irl_glissement": 0.87,
     "prix_gazole": 1.61,
     "taux_effort_locataires": 29.6,
-    "croissance_pib": 0.5,
+    "croissance_pib": 0.9,
     "climat_affaires": 99,
     "defaillances_12m": 68145
   },
@@ -353,47 +353,47 @@
   "emploi_seniors": [
     {
       "trimestre": "T1 2023",
-      "taux": 7.2
+      "taux": 58.5
     },
     {
       "trimestre": "T2 2023",
-      "taux": 7.1
+      "taux": 58.8
     },
     {
       "trimestre": "T3 2023",
-      "taux": 7.2
+      "taux": 59.2
     },
     {
       "trimestre": "T4 2023",
-      "taux": 7.4
+      "taux": 59.7
     },
     {
       "trimestre": "T1 2024",
-      "taux": 7.4
+      "taux": 60.1
     },
     {
       "trimestre": "T2 2024",
-      "taux": 7.1
+      "taux": 60.5
     },
     {
       "trimestre": "T3 2024",
-      "taux": 7.4
+      "taux": 60.9
     },
     {
       "trimestre": "T4 2024",
-      "taux": 7.2
+      "taux": 61.2
     },
     {
       "trimestre": "T1 2025",
-      "taux": 7.3
+      "taux": 61.5
     },
     {
       "trimestre": "T2 2025",
-      "taux": 7.5
+      "taux": 61.8
     },
     {
       "trimestre": "T3 2025",
-      "taux": 7.5
+      "taux": 62.0
     }
   ],
   "types_contrats": [
@@ -1017,70 +1017,70 @@
     ]
   },
   "pib": {
-    "croissance_trim_actuel": 0.5,
-    "croissance_annuelle": 1.1,
+    "croissance_trim_actuel": 0.9,
+    "croissance_annuelle": 1.8,
     "trimestre": "T3 2025",
-    "commentaire": "PIB volume trimestriel",
+    "commentaire": "PIB volume trimestriel - INSEE",
     "evolution": [
       {
         "trimestre": "T1 2022",
-        "croissance": 0.0
+        "croissance": 0.8
       },
       {
         "trimestre": "T2 2022",
-        "croissance": 0.5
+        "croissance": 1.0
       },
       {
         "trimestre": "T3 2022",
-        "croissance": 0.2
+        "croissance": 2.0
       },
       {
         "trimestre": "T4 2022",
-        "croissance": 0.1
+        "croissance": 1.9
       },
       {
         "trimestre": "T1 2023",
-        "croissance": 0.1
+        "croissance": 1.5
       },
       {
         "trimestre": "T2 2023",
-        "croissance": 0.6
+        "croissance": 2.3
       },
       {
         "trimestre": "T3 2023",
-        "croissance": 0.0
+        "croissance": 0.7
       },
       {
         "trimestre": "T4 2023",
-        "croissance": 0.0
+        "croissance": 1.3
       },
       {
         "trimestre": "T1 2024",
-        "croissance": 0.2
+        "croissance": 0.5
       },
       {
         "trimestre": "T2 2024",
-        "croissance": 0.3
+        "croissance": 0.1
       },
       {
         "trimestre": "T3 2024",
-        "croissance": 0.4
+        "croissance": 1.5
       },
       {
         "trimestre": "T4 2024",
-        "croissance": -0.1
+        "croissance": -0.0
       },
       {
         "trimestre": "T1 2025",
-        "croissance": 0.2
+        "croissance": 0.5
       },
       {
         "trimestre": "T2 2025",
-        "croissance": 0.3
+        "croissance": 0.4
       },
       {
         "trimestre": "T3 2025",
-        "croissance": 0.5
+        "croissance": 0.9
       }
     ],
     "contributions": {
