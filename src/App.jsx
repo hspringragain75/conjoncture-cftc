@@ -969,213 +969,128 @@ function SimulateurNAOTab({d, darkMode}) {
 function PouvoirAchatTab({d, darkMode}) {
   const chartProps = useChartProps(darkMode);
   const [subTab, setSubTab] = useState('general');
-  const [familleType, setFamilleType] = useState('couple2');
+  const [familleType, setFamilleType] = useState('coupleA');
+  const [zoneGeo, setZoneGeo] = useState('horsIdf');
   const [produitSelect, setProduitSelect] = useState(null);
 
-  // Données par défaut si panier_familial n'existe pas dans data.json
-  const defaultPanierProduits = [
-    {id: "baguette", nom: "Baguette tradition", categorie: "Alimentation", unite: "unité", icon: "🥖",
-     prix: {2015: 0.87, 2018: 0.89, 2020: 0.90, 2022: 0.95, 2023: 1.07, 2024: 1.12, 2025: 1.15, 2026: 1.18},
-     quantiteMensuelle: {solo: 15, couple2: 45}},
-    {id: "lait", nom: "Lait demi-écrémé", categorie: "Alimentation", unite: "litre", icon: "🥛",
-     prix: {2015: 0.76, 2018: 0.78, 2020: 0.79, 2022: 0.85, 2023: 1.02, 2024: 1.08, 2025: 1.05, 2026: 1.06},
-     quantiteMensuelle: {solo: 6, couple2: 20}},
-    {id: "oeufs", nom: "Œufs (x12)", categorie: "Alimentation", unite: "boîte", icon: "🥚",
-     prix: {2015: 2.20, 2018: 2.35, 2020: 2.45, 2022: 2.75, 2023: 3.45, 2024: 3.60, 2025: 3.50, 2026: 3.55},
-     quantiteMensuelle: {solo: 2, couple2: 6}},
-    {id: "pates", nom: "Pâtes (500g)", categorie: "Alimentation", unite: "paquet", icon: "🍝",
-     prix: {2015: 0.85, 2018: 0.88, 2020: 0.90, 2022: 1.05, 2023: 1.35, 2024: 1.28, 2025: 1.22, 2026: 1.20},
-     quantiteMensuelle: {solo: 4, couple2: 10}},
-    {id: "poulet", nom: "Poulet (kg)", categorie: "Alimentation", unite: "kg", icon: "🍗",
-     prix: {2015: 6.50, 2018: 6.80, 2020: 7.10, 2022: 7.90, 2023: 9.20, 2024: 9.50, 2025: 9.30, 2026: 9.40},
-     quantiteMensuelle: {solo: 2, couple2: 5}},
-    {id: "fruits", nom: "Pommes (kg)", categorie: "Alimentation", unite: "kg", icon: "🍎",
-     prix: {2015: 2.10, 2018: 2.25, 2020: 2.35, 2022: 2.55, 2023: 2.85, 2024: 2.95, 2025: 2.90, 2026: 2.95},
-     quantiteMensuelle: {solo: 3, couple2: 8}},
-    {id: "fromage", nom: "Emmental (250g)", categorie: "Alimentation", unite: "paquet", icon: "🧀",
-     prix: {2015: 2.15, 2018: 2.25, 2020: 2.35, 2022: 2.60, 2023: 3.10, 2024: 3.25, 2025: 3.20, 2026: 3.25},
-     quantiteMensuelle: {solo: 2, couple2: 5}},
-    {id: "cafe", nom: "Café moulu (250g)", categorie: "Alimentation", unite: "paquet", icon: "☕",
-     prix: {2015: 2.80, 2018: 2.90, 2020: 3.00, 2022: 3.40, 2023: 4.20, 2024: 4.50, 2025: 4.40, 2026: 4.45},
-     quantiteMensuelle: {solo: 1, couple2: 2}},
-    {id: "essence", nom: "Essence SP95", categorie: "Énergie", unite: "litre", icon: "⛽",
-     prix: {2015: 1.25, 2018: 1.45, 2020: 1.30, 2022: 1.85, 2023: 1.92, 2024: 1.78, 2025: 1.72, 2026: 1.75},
-     quantiteMensuelle: {solo: 40, couple2: 80}},
-    {id: "electricite", nom: "Électricité", categorie: "Énergie", unite: "kWh", icon: "⚡",
-     prix: {2015: 0.145, 2018: 0.155, 2020: 0.165, 2022: 0.175, 2023: 0.225, 2024: 0.252, 2025: 0.255, 2026: 0.258},
-     quantiteMensuelle: {solo: 150, couple2: 350}},
-    {id: "gaz", nom: "Gaz naturel", categorie: "Énergie", unite: "kWh", icon: "🔥",
-     prix: {2015: 0.055, 2018: 0.058, 2020: 0.062, 2022: 0.095, 2023: 0.105, 2024: 0.095, 2025: 0.088, 2026: 0.085},
-     quantiteMensuelle: {solo: 200, couple2: 450}},
-    {id: "loyer", nom: "Loyer moyen", categorie: "Logement", unite: "m²", icon: "🏠",
-     prix: {2015: 12.5, 2018: 13.2, 2020: 13.8, 2022: 14.5, 2023: 15.1, 2024: 15.6, 2025: 15.9, 2026: 16.2},
-     quantiteMensuelle: {solo: 35, couple2: 75}},
-    {id: "assurance_hab", nom: "Assurance habitation", categorie: "Logement", unite: "mois", icon: "🏡",
-     prix: {2015: 15, 2018: 16, 2020: 17, 2022: 19, 2023: 22, 2024: 24, 2025: 26, 2026: 28},
-     quantiteMensuelle: {solo: 1, couple2: 1}},
-    {id: "eau", nom: "Eau (m³)", categorie: "Logement", unite: "m³", icon: "💧",
-     prix: {2015: 3.50, 2018: 3.70, 2020: 3.90, 2022: 4.10, 2023: 4.30, 2024: 4.50, 2025: 4.70, 2026: 4.85},
-     quantiteMensuelle: {solo: 4, couple2: 12}},
-    {id: "metro", nom: "Ticket métro/bus", categorie: "Transport", unite: "ticket", icon: "🚇",
-     prix: {2015: 1.80, 2018: 1.90, 2020: 1.90, 2022: 2.10, 2023: 2.10, 2024: 2.15, 2025: 2.50, 2026: 2.50},
-     quantiteMensuelle: {solo: 40, couple2: 60}},
-    {id: "navigo", nom: "Pass Navigo", categorie: "Transport", unite: "mois", icon: "🚌",
-     prix: {2015: 70.0, 2018: 75.20, 2020: 75.20, 2022: 75.20, 2023: 84.10, 2024: 86.40, 2025: 88.80, 2026: 88.80},
-     quantiteMensuelle: {solo: 1, couple2: 2}},
-    {id: "couches", nom: "Couches (paquet 30)", categorie: "Famille", unite: "paquet", icon: "👶",
-     prix: {2015: 9.50, 2018: 10.20, 2020: 10.80, 2022: 11.50, 2023: 13.20, 2024: 14.00, 2025: 14.50, 2026: 15.00},
-     quantiteMensuelle: {solo: 0, couple2: 4}},
-    {id: "cantine", nom: "Cantine scolaire", categorie: "Famille", unite: "repas", icon: "🍽️",
-     prix: {2015: 3.20, 2018: 3.45, 2020: 3.65, 2022: 3.90, 2023: 4.30, 2024: 4.60, 2025: 4.85, 2026: 5.00},
-     quantiteMensuelle: {solo: 0, couple2: 36}},
-    {id: "creche", nom: "Crèche (jour)", categorie: "Famille", unite: "jour", icon: "🧒",
-     prix: {2015: 25, 2018: 28, 2020: 30, 2022: 33, 2023: 36, 2024: 38, 2025: 40, 2026: 42},
-     quantiteMensuelle: {solo: 0, couple2: 15}},
-    {id: "rentree", nom: "Fournitures scolaires", categorie: "Famille", unite: "an", icon: "🎒",
-     prix: {2015: 180, 2018: 195, 2020: 210, 2022: 230, 2023: 255, 2024: 280, 2025: 300, 2026: 320},
-     quantiteMensuelle: {solo: 0, couple2: 0.33}},
-    {id: "activites_enfants", nom: "Activités extra-scolaires", categorie: "Famille", unite: "mois", icon: "⚽",
-     prix: {2015: 40, 2018: 45, 2020: 50, 2022: 55, 2023: 60, 2024: 65, 2025: 70, 2026: 75},
-     quantiteMensuelle: {solo: 0, couple2: 1}},
-    {id: "mutuelle", nom: "Mutuelle familiale", categorie: "Santé", unite: "mois", icon: "🏥",
-     prix: {2015: 95, 2018: 105, 2020: 115, 2022: 125, 2023: 140, 2024: 155, 2025: 165, 2026: 175},
-     quantiteMensuelle: {solo: 0.5, couple2: 1}},
-    {id: "pharmacie", nom: "Pharmacie (reste à charge)", categorie: "Santé", unite: "mois", icon: "💊",
-     prix: {2015: 15, 2018: 16, 2020: 17, 2022: 18, 2023: 20, 2024: 22, 2025: 23, 2026: 24},
-     quantiteMensuelle: {solo: 1, couple2: 1}},
-    {id: "mobile", nom: "Forfait mobile", categorie: "Numérique", unite: "mois", icon: "📱",
-     prix: {2015: 25, 2018: 20, 2020: 15, 2022: 12, 2023: 12, 2024: 13, 2025: 14, 2026: 14},
-     quantiteMensuelle: {solo: 1, couple2: 2}},
-    {id: "internet", nom: "Box internet", categorie: "Numérique", unite: "mois", icon: "📡",
-     prix: {2015: 35, 2018: 32, 2020: 30, 2022: 30, 2023: 32, 2024: 34, 2025: 35, 2026: 36},
-     quantiteMensuelle: {solo: 1, couple2: 1}},
-    {id: "streaming", nom: "Streaming (Netflix/Spotify)", categorie: "Numérique", unite: "mois", icon: "🎬",
-     prix: {2015: 15, 2018: 18, 2020: 20, 2022: 22, 2023: 25, 2024: 28, 2025: 30, 2026: 32},
-     quantiteMensuelle: {solo: 1, couple2: 1}},
-    {id: "cinema", nom: "Place de cinéma", categorie: "Loisirs", unite: "place", icon: "🎥",
-     prix: {2015: 10.20, 2018: 10.80, 2020: 11.00, 2022: 11.50, 2023: 12.50, 2024: 13.50, 2025: 14.00, 2026: 14.50},
-     quantiteMensuelle: {solo: 2, couple2: 4}},
-    {id: "sport", nom: "Abonnement sport", categorie: "Loisirs", unite: "mois", icon: "🏃",
-     prix: {2015: 30, 2018: 32, 2020: 35, 2022: 38, 2023: 42, 2024: 45, 2025: 48, 2026: 50},
-     quantiteMensuelle: {solo: 0.5, couple2: 0.5}},
-    {id: "livres", nom: "Livres/Presse", categorie: "Loisirs", unite: "mois", icon: "📚",
-     prix: {2015: 15, 2018: 16, 2020: 17, 2022: 18, 2023: 19, 2024: 20, 2025: 21, 2026: 22},
-     quantiteMensuelle: {solo: 1, couple2: 1}},
-  ];
-
-  const defaultHeuresProduits = [
-    {id: "iphone", nom: "iPhone (dernier modèle)", categorie: "High-Tech", icon: "📱",
-     prix: {2010: 629, 2012: 679, 2015: 749, 2018: 859, 2020: 909, 2022: 1019, 2024: 969, 2025: 1019, 2026: 1069}},
-    {id: "macbook", nom: "MacBook Air", categorie: "High-Tech", icon: "💻",
-     prix: {2010: 999, 2012: 999, 2015: 999, 2018: 1199, 2020: 1129, 2022: 1199, 2024: 1199, 2025: 1249, 2026: 1299}},
-    {id: "tv", nom: "TV 55 pouces 4K", categorie: "High-Tech", icon: "📺",
-     prix: {2010: 2500, 2012: 1800, 2015: 900, 2018: 600, 2020: 500, 2022: 480, 2024: 450, 2025: 420, 2026: 400}},
-    {id: "console", nom: "Console de jeux", categorie: "High-Tech", icon: "🎮",
-     prix: {2010: 299, 2012: 299, 2015: 399, 2018: 299, 2020: 499, 2022: 549, 2024: 449, 2025: 479, 2026: 499}},
-    {id: "plein", nom: "Plein d'essence (50L)", categorie: "Transport", icon: "⛽",
-     prix: {2010: 65, 2012: 80, 2015: 62, 2018: 72, 2020: 65, 2022: 92, 2024: 89, 2025: 86, 2026: 88}},
-    {id: "voiture", nom: "Voiture neuve (citadine)", categorie: "Transport", icon: "🚗",
-     prix: {2010: 12000, 2012: 13000, 2015: 14000, 2018: 15500, 2020: 17000, 2022: 20000, 2024: 22000, 2025: 23000, 2026: 24000}},
-    {id: "velo_elec", nom: "Vélo électrique", categorie: "Transport", icon: "🚲",
-     prix: {2010: 1200, 2012: 1300, 2015: 1400, 2018: 1600, 2020: 1800, 2022: 2000, 2024: 1800, 2025: 1700, 2026: 1600}},
-    {id: "loyer_mensuel", nom: "Loyer mensuel moyen (T3)", categorie: "Logement", icon: "🏠",
-     prix: {2010: 620, 2012: 660, 2015: 700, 2018: 750, 2020: 800, 2022: 850, 2024: 920, 2025: 980, 2026: 1020}},
-    {id: "m2_achat", nom: "Prix au m² (France)", categorie: "Logement", icon: "🏗️",
-     prix: {2010: 2800, 2012: 3100, 2015: 3200, 2018: 3500, 2020: 3800, 2022: 4200, 2024: 4000, 2025: 3900, 2026: 3850}},
-    {id: "electromenager", nom: "Lave-linge", categorie: "Logement", icon: "🧺",
-     prix: {2010: 450, 2012: 420, 2015: 400, 2018: 380, 2020: 350, 2022: 380, 2024: 400, 2025: 420, 2026: 430}},
-    {id: "rentree_complete", nom: "Rentrée scolaire (1 enfant)", categorie: "Famille", icon: "🎒",
-     prix: {2010: 280, 2012: 300, 2015: 320, 2018: 350, 2020: 380, 2022: 420, 2024: 470, 2025: 500, 2026: 530}},
-    {id: "vacances", nom: "Vacances famille (1 semaine)", categorie: "Famille", icon: "🏖️",
-     prix: {2010: 1200, 2012: 1300, 2015: 1400, 2018: 1550, 2020: 1600, 2022: 1850, 2024: 2100, 2025: 2200, 2026: 2300}},
-    {id: "noel", nom: "Cadeaux Noël (par enfant)", categorie: "Famille", icon: "🎄",
-     prix: {2010: 180, 2012: 190, 2015: 200, 2018: 220, 2020: 230, 2022: 250, 2024: 280, 2025: 300, 2026: 320}},
-    {id: "caddie", nom: "Caddie hebdo famille", categorie: "Alimentation", icon: "🛒",
-     prix: {2010: 120, 2012: 130, 2015: 135, 2018: 145, 2020: 155, 2022: 180, 2024: 195, 2025: 200, 2026: 210}},
-    {id: "resto", nom: "Restaurant (2 pers.)", categorie: "Alimentation", icon: "🍽️",
-     prix: {2010: 45, 2012: 50, 2015: 55, 2018: 60, 2020: 65, 2022: 75, 2024: 85, 2025: 90, 2026: 95}},
-    {id: "concert", nom: "Concert / spectacle", categorie: "Loisirs", icon: "🎤",
-     prix: {2010: 45, 2012: 50, 2015: 55, 2018: 65, 2020: 70, 2022: 80, 2024: 95, 2025: 100, 2026: 110}},
-    {id: "abonnement_streaming", nom: "Abonnements streaming (an)", categorie: "Loisirs", icon: "🎬",
-     prix: {2012: 96, 2015: 120, 2018: 180, 2020: 240, 2022: 300, 2024: 360, 2025: 400, 2026: 440}},
-    {id: "sport_annuel", nom: "Abonnement sport (an)", categorie: "Loisirs", icon: "🏋️",
-     prix: {2010: 350, 2012: 380, 2015: 400, 2018: 450, 2020: 480, 2022: 500, 2024: 540, 2025: 580, 2026: 620}},
-    {id: "lunettes", nom: "Lunettes de vue", categorie: "Santé", icon: "👓",
-     prix: {2010: 350, 2012: 380, 2015: 400, 2018: 350, 2020: 300, 2022: 280, 2024: 250, 2025: 230, 2026: 220}},
-    {id: "dentiste", nom: "Couronne dentaire", categorie: "Santé", icon: "🦷",
-     prix: {2010: 400, 2012: 450, 2015: 480, 2018: 500, 2020: 500, 2022: 500, 2024: 500, 2025: 500, 2026: 500}},
-  ];
-
-  const defaultSmicHoraireNet = {2010: 6.96, 2012: 7.26, 2015: 7.58, 2018: 7.83, 2020: 8.03, 2022: 8.58, 2024: 9.22, 2025: 9.40, 2026: 9.65};
-
-  // Récupérer les données du panier depuis data.json ou utiliser les valeurs par défaut
-  const panierProduits = d.panier_familial?.produits || defaultPanierProduits;
-  const panierData = { lastUpdate: d.panier_familial?.lastUpdate || "Janvier 2026", produits: panierProduits };
-  
-  const heuresProduits = d.heures_travail?.produits || defaultHeuresProduits;
-  const smicHoraireNet = d.heures_travail?.smic_horaire_net || defaultSmicHoraireNet;
-  const heuresData = { smic_horaire_net: smicHoraireNet, produits: heuresProduits };
-
-  const anneeActuelle = 2026;
-  const anneeReference = 2020;
-
-  // Calculer le coût total du panier pour une année donnée
-  const calculerPanier = (annee, type) => {
-    if (!panierData.produits || panierData.produits.length === 0) return 0;
-    return panierData.produits.reduce((total, p) => {
-      const prix = p.prix?.[annee] || 0; // Ne pas fallback pour avoir un calcul précis
-      const quantite = p.quantiteMensuelle?.[type] || 0;
-      return total + (prix * quantite);
-    }, 0);
+  // ========== BUDGETS-TYPES UNAF (Source officielle) ==========
+  // https://www.unaf.fr/expert-des-familles/budgets-types/
+  // Données Août 2025 - Mises à jour mensuellement par l'UNAF
+  const budgetsUNAF = {
+    lastUpdate: "Août 2025",
+    source: "UNAF - Union Nationale des Associations Familiales",
+    sourceUrl: "https://www.unaf.fr/expert-des-familles/budgets-types/",
+    description: "Budget nécessaire pour vivre décemment, sans privation",
+    
+    categories: [
+      { id: "alimentation", nom: "Alimentation", icon: "🍽️", color: "#ef4444" },
+      { id: "transport", nom: "Transport", icon: "🚗", color: "#f97316" },
+      { id: "logement", nom: "Logement", icon: "🏠", color: "#eab308" },
+      { id: "education", nom: "Éducation", icon: "📚", color: "#22c55e" },
+      { id: "entretien", nom: "Entretien & Soins", icon: "🧴", color: "#14b8a6" },
+      { id: "equipements", nom: "Équipements", icon: "🛋️", color: "#3b82f6" },
+      { id: "habillement", nom: "Habillement", icon: "👕", color: "#8b5cf6" },
+      { id: "communication", nom: "Communication", icon: "📱", color: "#ec4899" },
+      { id: "loisirs", nom: "Loisirs & Culture", icon: "🎭", color: "#06b6d4" },
+      { id: "sante", nom: "Santé", icon: "🏥", color: "#10b981" },
+    ],
+    
+    familles: {
+      coupleA: { nom: "Couple + 2 enfants (6-13 ans)", icon: "👨‍👩‍👧‍👦" },
+      coupleE: { nom: "Couple + 1 ado (14+ ans)", icon: "👨‍👩‍👦" },
+      monoH: { nom: "Parent solo + 1 ado", icon: "👩‍👦" },
+    },
+    
+    // Données UNAF Août 2025 par famille et zone géographique
+    donnees: {
+      coupleA: {
+        france: { alimentation: 1111, transport: 435, logement: 893, education: 94, entretien: 67, equipements: 78, habillement: 182, communication: 77, loisirs: 560, sante: 307 },
+        idf: { alimentation: 1111, transport: 491, logement: 1124, education: 94, entretien: 67, equipements: 78, habillement: 182, communication: 77, loisirs: 560, sante: 307 },
+        horsIdf: { alimentation: 1111, transport: 435, logement: 893, education: 94, entretien: 67, equipements: 78, habillement: 182, communication: 77, loisirs: 560, sante: 307 }
+      },
+      coupleE: {
+        france: { alimentation: 850, transport: 380, logement: 750, education: 85, entretien: 55, equipements: 65, habillement: 150, communication: 70, loisirs: 420, sante: 280 },
+        idf: { alimentation: 850, transport: 430, logement: 950, education: 85, entretien: 55, equipements: 65, habillement: 150, communication: 70, loisirs: 420, sante: 280 },
+        horsIdf: { alimentation: 850, transport: 380, logement: 720, education: 85, entretien: 55, equipements: 65, habillement: 150, communication: 70, loisirs: 420, sante: 280 }
+      },
+      monoH: {
+        france: { alimentation: 520, transport: 280, logement: 620, education: 65, entretien: 40, equipements: 45, habillement: 95, communication: 55, loisirs: 280, sante: 200 },
+        idf: { alimentation: 520, transport: 320, logement: 780, education: 65, entretien: 40, equipements: 45, habillement: 95, communication: 55, loisirs: 280, sante: 200 },
+        horsIdf: { alimentation: 520, transport: 270, logement: 580, education: 65, entretien: 40, equipements: 45, habillement: 95, communication: 55, loisirs: 280, sante: 200 }
+      }
+    },
+    
+    // Historique UNAF pour calcul évolution
+    historique: {
+      coupleA: { "2020": 2950, "2021": 3050, "2022": 3280, "2023": 3520, "2024": 3680, "2025": 3806 },
+      coupleE: { "2020": 2400, "2021": 2480, "2022": 2670, "2023": 2860, "2024": 2990, "2025": 3105 },
+      monoH: { "2020": 1750, "2021": 1820, "2022": 1950, "2023": 2080, "2024": 2150, "2025": 2200 }
+    }
   };
 
-  const anneesDisponibles = [2015, 2018, 2020, 2022, 2023, 2024, 2025, 2026].filter(a => a <= anneeActuelle);
-  const evolutionPanier = anneesDisponibles.map(annee => ({
-    annee, solo: Math.round(calculerPanier(annee, 'solo')), couple2: Math.round(calculerPanier(annee, 'couple2'))
+  // Calcul du total pour une famille/zone
+  const calculerTotal = (famille, zone) => {
+    const data = budgetsUNAF.donnees[famille]?.[zone];
+    return data ? Object.values(data).reduce((sum, val) => sum + val, 0) : 0;
+  };
+
+  const donneesActuelles = budgetsUNAF.donnees[familleType]?.[zoneGeo] || {};
+  const totalActuel = calculerTotal(familleType, zoneGeo);
+  
+  const repartitionData = budgetsUNAF.categories.map(cat => ({
+    categorie: cat.nom, montant: donneesActuelles[cat.id] || 0, icon: cat.icon, color: cat.color
+  })).filter(d => d.montant > 0).sort((a, b) => b.montant - a.montant);
+
+  const historiqueData = Object.entries(budgetsUNAF.historique[familleType] || {}).map(([annee, total]) => ({
+    annee: parseInt(annee), total
   }));
 
-  const categories = [...new Set((panierData.produits || []).map(p => p.categorie))];
-  const repartitionCategorie = categories.map(cat => {
-    const produitsCat = (panierData.produits || []).filter(p => p.categorie === cat);
-    const total = produitsCat.reduce((sum, p) => sum + ((p.prix?.[anneeActuelle] || 0) * (p.quantiteMensuelle?.[familleType] || 0)), 0);
-    return { categorie: cat, montant: Math.round(total) };
-  }).filter(c => c.montant > 0).sort((a, b) => b.montant - a.montant);
+  const smicNetMensuel = d.indicateurs_cles?.smic_net || 1426;
+  const partSmic = totalActuel > 0 ? ((totalActuel / smicNetMensuel) * 100).toFixed(0) : 0;
+  const total2020 = budgetsUNAF.historique[familleType]?.["2020"] || totalActuel;
+  const evolution2020 = total2020 > 0 ? (((totalActuel - total2020) / total2020) * 100).toFixed(0) : 0;
 
-  const totalPanierMensuel = repartitionCategorie.reduce((s, c) => s + c.montant, 0);
-  const smicNetMensuel = d.indicateurs_cles?.smic_net || 1462;
-  const partPanierSmic = totalPanierMensuel > 0 ? ((totalPanierMensuel / smicNetMensuel) * 100).toFixed(1) : "0";
-  const panierAnneeRef = calculerPanier(anneeReference, familleType);
-  const evolutionPct = panierAnneeRef > 0 ? ((calculerPanier(anneeActuelle, familleType) / panierAnneeRef - 1) * 100).toFixed(0) : "0";
-
-  const produitsEmblematiques = heuresData.produits || [];
+  // ========== HEURES DE TRAVAIL ==========
+  const smicHoraireNet = {2010: 6.96, 2012: 7.26, 2015: 7.58, 2018: 7.83, 2020: 8.03, 2022: 8.58, 2024: 9.22, 2025: 9.40, 2026: 9.65};
+  const produitsEmblematiques = [
+    {id: "iphone", nom: "iPhone", categorie: "High-Tech", icon: "📱", prix: {2010: 629, 2012: 679, 2015: 749, 2018: 859, 2020: 909, 2022: 1019, 2024: 969, 2025: 1019, 2026: 1069}},
+    {id: "tv", nom: "TV 55\" 4K", categorie: "High-Tech", icon: "📺", prix: {2010: 2500, 2012: 1800, 2015: 900, 2018: 600, 2020: 500, 2022: 480, 2024: 450, 2025: 420, 2026: 400}},
+    {id: "console", nom: "Console jeux", categorie: "High-Tech", icon: "🎮", prix: {2010: 299, 2012: 299, 2015: 399, 2018: 299, 2020: 499, 2022: 549, 2024: 449, 2025: 479, 2026: 499}},
+    {id: "plein", nom: "Plein essence 50L", categorie: "Transport", icon: "⛽", prix: {2010: 65, 2012: 80, 2015: 62, 2018: 72, 2020: 65, 2022: 92, 2024: 89, 2025: 86, 2026: 88}},
+    {id: "voiture", nom: "Voiture citadine", categorie: "Transport", icon: "🚗", prix: {2010: 12000, 2012: 13000, 2015: 14000, 2018: 15500, 2020: 17000, 2022: 20000, 2024: 22000, 2025: 23000, 2026: 24000}},
+    {id: "loyer", nom: "Loyer T3/mois", categorie: "Logement", icon: "🏠", prix: {2010: 620, 2012: 660, 2015: 700, 2018: 750, 2020: 800, 2022: 850, 2024: 920, 2025: 980, 2026: 1020}},
+    {id: "vacances", nom: "Vacances 1 sem.", categorie: "Famille", icon: "🏖️", prix: {2010: 1200, 2012: 1300, 2015: 1400, 2018: 1550, 2020: 1600, 2022: 1850, 2024: 2100, 2025: 2200, 2026: 2300}},
+    {id: "caddie", nom: "Caddie hebdo", categorie: "Alimentation", icon: "🛒", prix: {2010: 120, 2012: 130, 2015: 135, 2018: 145, 2020: 155, 2022: 180, 2024: 195, 2025: 200, 2026: 210}},
+    {id: "resto", nom: "Restaurant 2p.", categorie: "Alimentation", icon: "🍽️", prix: {2010: 45, 2012: 50, 2015: 55, 2018: 60, 2020: 65, 2022: 75, 2024: 85, 2025: 90, 2026: 95}},
+    {id: "concert", nom: "Concert", categorie: "Loisirs", icon: "🎤", prix: {2010: 45, 2012: 50, 2015: 55, 2018: 65, 2020: 70, 2022: 80, 2024: 95, 2025: 100, 2026: 110}},
+    {id: "lunettes", nom: "Lunettes", categorie: "Santé", icon: "👓", prix: {2010: 350, 2012: 380, 2015: 400, 2018: 350, 2020: 300, 2022: 280, 2024: 250, 2025: 230, 2026: 220}},
+  ];
+  const anneeActuelle = 2026;
 
   const calculerHeures = (produit, annee) => {
-    const prix = produit.prix?.[annee];
-    const smic = smicHoraireNet[annee];
+    const prix = produit.prix?.[annee], smic = smicHoraireNet[annee];
     return (prix && smic) ? (prix / smic).toFixed(1) : null;
   };
 
-  const evolutionProduit = produitSelect ? 
-    Object.keys(smicHoraireNet).map(annee => ({
-      annee: parseInt(annee),
-      heures: parseFloat(calculerHeures(produitSelect, parseInt(annee))) || 0,
-      prix: produitSelect.prix?.[parseInt(annee)] || 0
-    })).filter(d => d.heures > 0 && d.prix > 0).sort((a, b) => a.annee - b.annee) : [];
+  const evolutionProduit = produitSelect ? Object.keys(smicHoraireNet).map(a => ({
+    annee: parseInt(a), heures: parseFloat(calculerHeures(produitSelect, parseInt(a))) || 0, prix: produitSelect.prix?.[parseInt(a)] || 0
+  })).filter(x => x.heures > 0 && x.prix > 0).sort((a, b) => a.annee - b.annee) : [];
 
-  const variationDepuis2010 = (produit) => {
-    const h2010 = calculerHeures(produit, 2010);
-    const hActuel = calculerHeures(produit, anneeActuelle);
-    return (h2010 && hActuel) ? (((parseFloat(hActuel) - parseFloat(h2010)) / parseFloat(h2010)) * 100).toFixed(0) : null;
+  const variationDepuis2010 = (p) => {
+    const h2010 = calculerHeures(p, 2010), hAct = calculerHeures(p, anneeActuelle);
+    return (h2010 && hAct) ? (((parseFloat(hAct) - parseFloat(h2010)) / parseFloat(h2010)) * 100).toFixed(0) : null;
   };
 
   return (
     <div className="space-y-4">
+      {/* Navigation sous-onglets */}
       <div className={`flex flex-wrap gap-1 p-2 rounded shadow-sm ${darkMode ? 'bg-gray-800' : 'bg-white'}`}>
-        {[['general','📊 Général'],['panier','🧺 Panier Familial'],['heures','⏱️ Heures de travail']].map(([id,label])=>(
+        {[['general','📊 Général'],['budget','🧺 Budget UNAF'],['heures','⏱️ Heures de travail']].map(([id,label])=>(
           <button key={id} onClick={()=>setSubTab(id)} className={`px-3 py-1.5 rounded text-sm font-medium ${subTab===id?'bg-orange-600 text-white': darkMode ? 'text-gray-300 hover:bg-gray-700' : 'text-gray-600 hover:bg-gray-100'}`}>{label}</button>
         ))}
       </div>
 
+      {/* ONGLET GÉNÉRAL */}
       {subTab === 'general' && <div className="grid md:grid-cols-2 gap-4">
         <Card title="📊 Inflation vs Salaires (%)" darkMode={darkMode}>
           <ResponsiveContainer width="100%" height={220}><BarChart data={d.inflation_salaires}><CartesianGrid {...chartProps.cartesianGrid} /><XAxis dataKey="annee" {...chartProps.xAxis} /><YAxis {...chartProps.yAxis} /><Tooltip {...chartProps.tooltip} /><Legend {...chartProps.legend} /><Bar dataKey="inflation" name="Inflation" fill={C.secondary} /><Bar dataKey="smic" name="SMIC" fill={C.primary} /><Bar dataKey="salaires_base" name="Salaires" fill={C.tertiary} /></BarChart></ResponsiveContainer>
@@ -1188,109 +1103,196 @@ function PouvoirAchatTab({d, darkMode}) {
         </Card>
       </div>}
 
-      {subTab === 'panier' && <div className="space-y-4">
+      {/* ONGLET BUDGET UNAF */}
+      {subTab === 'budget' && <div className="space-y-4">
         <div className={`p-4 rounded-xl ${darkMode ? 'bg-gradient-to-r from-orange-900 to-amber-900' : 'bg-gradient-to-r from-orange-500 to-amber-500'} text-white`}>
-          <div className="flex justify-between items-start flex-wrap gap-2">
-            <div>
-              <h2 className="text-lg font-bold">🧺 Indice Panier Familial CFTC</h2>
-              <p className="text-sm opacity-90">Coût mensuel de la vie • Màj : {panierData.lastUpdate}</p>
+          <h2 className="text-lg font-bold">🧺 Budget-Type Familial (UNAF)</h2>
+          <p className="text-sm opacity-90">Source officielle : <a href={budgetsUNAF.sourceUrl} target="_blank" rel="noopener noreferrer" className="underline font-medium">UNAF</a> • Données {budgetsUNAF.lastUpdate}</p>
+          <p className="text-xs opacity-75 mt-1">{budgetsUNAF.description}</p>
+        </div>
+
+        {/* Sélecteurs */}
+        <div className={`p-3 rounded-lg flex flex-wrap gap-4 ${darkMode ? 'bg-gray-800' : 'bg-gray-100'}`}>
+          <div>
+            <label className={`text-xs font-medium block mb-1 ${darkMode ? 'text-gray-400' : 'text-gray-600'}`}>Type de famille</label>
+            <div className="flex gap-1">
+              {Object.entries(budgetsUNAF.familles).map(([id, f]) => (
+                <button key={id} onClick={() => setFamilleType(id)} className={`px-2 py-1.5 rounded text-xs ${familleType === id ? 'bg-orange-500 text-white' : darkMode ? 'bg-gray-700 text-gray-300 hover:bg-gray-600' : 'bg-white text-gray-600 hover:bg-gray-50'}`}>
+                  {f.icon} {f.nom.split('(')[0].trim()}
+                </button>
+              ))}
             </div>
-            <div className="flex gap-2">
-              <button onClick={() => setFamilleType('solo')} className={`px-3 py-1 rounded text-sm ${familleType === 'solo' ? 'bg-white text-orange-600 font-bold' : 'bg-white/20'}`}>👤 Parent solo</button>
-              <button onClick={() => setFamilleType('couple2')} className={`px-3 py-1 rounded text-sm ${familleType === 'couple2' ? 'bg-white text-orange-600 font-bold' : 'bg-white/20'}`}>👨‍👩‍👧‍👦 Couple + 2</button>
+          </div>
+          <div>
+            <label className={`text-xs font-medium block mb-1 ${darkMode ? 'text-gray-400' : 'text-gray-600'}`}>Zone géographique</label>
+            <div className="flex gap-1">
+              {[['horsIdf', '🌳 Province'], ['idf', '🏙️ Île-de-France'], ['france', '🇫🇷 Moyenne France']].map(([id, label]) => (
+                <button key={id} onClick={() => setZoneGeo(id)} className={`px-2 py-1.5 rounded text-xs ${zoneGeo === id ? 'bg-blue-500 text-white' : darkMode ? 'bg-gray-700 text-gray-300 hover:bg-gray-600' : 'bg-white text-gray-600 hover:bg-gray-50'}`}>{label}</button>
+              ))}
             </div>
           </div>
         </div>
+
+        {/* KPIs */}
         <div className="grid grid-cols-2 md:grid-cols-4 gap-3">
           <div className={`p-4 rounded-xl text-center ${darkMode ? 'bg-orange-900/30 border border-orange-700' : 'bg-orange-50 border border-orange-200'}`}>
-            <p className={`text-xs ${darkMode ? 'text-orange-300' : 'text-orange-600'}`}>Coût mensuel</p>
-            <p className="text-3xl font-bold text-orange-500">{totalPanierMensuel}€</p>
+            <p className={`text-xs ${darkMode ? 'text-orange-300' : 'text-orange-600'}`}>Budget mensuel</p>
+            <p className="text-3xl font-bold text-orange-500">{totalActuel.toLocaleString('fr-FR')}€</p>
+            <p className={`text-xs mt-1 ${darkMode ? 'text-gray-400' : 'text-gray-500'}`}>{budgetsUNAF.familles[familleType]?.nom}</p>
           </div>
           <div className={`p-4 rounded-xl text-center ${darkMode ? 'bg-red-900/30 border border-red-700' : 'bg-red-50 border border-red-200'}`}>
-            <p className={`text-xs ${darkMode ? 'text-red-300' : 'text-red-600'}`}>Part du SMIC</p>
-            <p className={`text-3xl font-bold ${parseFloat(partPanierSmic) > 100 ? 'text-red-500' : 'text-orange-500'}`}>{partPanierSmic}%</p>
+            <p className={`text-xs ${darkMode ? 'text-red-300' : 'text-red-600'}`}>Équivalent SMIC</p>
+            <p className={`text-3xl font-bold ${parseInt(partSmic) > 200 ? 'text-red-500' : 'text-orange-500'}`}>{partSmic}%</p>
+            <p className={`text-xs mt-1 ${darkMode ? 'text-gray-400' : 'text-gray-500'}`}>≈ {(totalActuel / smicNetMensuel).toFixed(1)} SMIC nets</p>
           </div>
           <div className={`p-4 rounded-xl text-center ${darkMode ? 'bg-blue-900/30 border border-blue-700' : 'bg-blue-50 border border-blue-200'}`}>
-            <p className={`text-xs ${darkMode ? 'text-blue-300' : 'text-blue-600'}`}>Évolution 2020-2026</p>
-            <p className="text-3xl font-bold text-blue-500">+{evolutionPct}%</p>
+            <p className={`text-xs ${darkMode ? 'text-blue-300' : 'text-blue-600'}`}>Évolution 2020→2025</p>
+            <p className="text-3xl font-bold text-blue-500">+{evolution2020}%</p>
+            <p className={`text-xs mt-1 ${darkMode ? 'text-gray-400' : 'text-gray-500'}`}>+{(totalActuel - total2020).toLocaleString('fr-FR')}€/mois</p>
           </div>
           <div className={`p-4 rounded-xl text-center ${darkMode ? 'bg-purple-900/30 border border-purple-700' : 'bg-purple-50 border border-purple-200'}`}>
-            <p className={`text-xs ${darkMode ? 'text-purple-300' : 'text-purple-600'}`}>Produits</p>
-            <p className="text-3xl font-bold text-purple-500">{(panierData.produits || []).length}</p>
+            <p className={`text-xs ${darkMode ? 'text-purple-300' : 'text-purple-600'}`}>Catégories UNAF</p>
+            <p className="text-3xl font-bold text-purple-500">10</p>
+            <p className={`text-xs mt-1 ${darkMode ? 'text-gray-400' : 'text-gray-500'}`}>postes budgétaires</p>
           </div>
         </div>
-        {(panierData.produits || []).length > 0 ? (
-          <div className="grid md:grid-cols-2 gap-4">
-            <Card title="📈 Évolution du coût mensuel" darkMode={darkMode}>
-              <ResponsiveContainer width="100%" height={220}>
-                <ComposedChart data={evolutionPanier}><CartesianGrid {...chartProps.cartesianGrid} /><XAxis dataKey="annee" {...chartProps.xAxis} /><YAxis {...chartProps.yAxis} /><Tooltip {...chartProps.tooltip} formatter={v=>`${v}€`} /><Legend {...chartProps.legend} /><Bar dataKey="solo" name="Parent solo" fill={C.primary} /><Bar dataKey="couple2" name="Couple + 2" fill={C.tertiary} /></ComposedChart>
-              </ResponsiveContainer>
-            </Card>
-            <Card title="🥧 Répartition par poste" darkMode={darkMode}>
-              <ResponsiveContainer width="100%" height={220}>
-                <BarChart data={repartitionCategorie} layout="vertical"><CartesianGrid {...chartProps.cartesianGrid} /><XAxis {...chartProps.xAxis} type="number" /><YAxis {...chartProps.yAxis} dataKey="categorie" type="category" width={80} fontSize={9} /><Tooltip {...chartProps.tooltip} formatter={v=>`${v}€/mois`} /><Bar dataKey="montant" fill={C.quaternary}>{repartitionCategorie.map((e,i)=><Cell key={i} fill={['#ef4444','#f97316','#eab308','#22c55e','#3b82f6','#8b5cf6','#ec4899','#06b6d4'][i%8]}/>)}</Bar></BarChart>
-              </ResponsiveContainer>
-            </Card>
+
+        {/* Graphiques */}
+        <div className="grid md:grid-cols-2 gap-4">
+          <Card title="📈 Évolution du budget 2020-2025" darkMode={darkMode}>
+            <ResponsiveContainer width="100%" height={200}>
+              <ComposedChart data={historiqueData}>
+                <CartesianGrid {...chartProps.cartesianGrid} />
+                <XAxis dataKey="annee" {...chartProps.xAxis} />
+                <YAxis {...chartProps.yAxis} domain={['dataMin - 300', 'dataMax + 200']} tickFormatter={v => `${v}€`} />
+                <Tooltip {...chartProps.tooltip} formatter={(v) => [`${v.toLocaleString('fr-FR')}€`, 'Budget']} />
+                <Bar dataKey="total" fill={C.primary} radius={[4, 4, 0, 0]}>
+                  {historiqueData.map((e, i) => <Cell key={i} fill={e.annee === 2025 ? C.secondary : C.primary} />)}
+                </Bar>
+              </ComposedChart>
+            </ResponsiveContainer>
+          </Card>
+
+          <Card title="🥧 Répartition par poste" darkMode={darkMode}>
+            <ResponsiveContainer width="100%" height={200}>
+              <BarChart data={repartitionData} layout="vertical">
+                <CartesianGrid {...chartProps.cartesianGrid} />
+                <XAxis {...chartProps.xAxis} type="number" tickFormatter={v => `${v}€`} />
+                <YAxis {...chartProps.yAxis} dataKey="categorie" type="category" width={90} fontSize={10} />
+                <Tooltip {...chartProps.tooltip} formatter={(v) => [`${v}€/mois`, '']} />
+                <Bar dataKey="montant" radius={[0, 4, 4, 0]}>
+                  {repartitionData.map((e, i) => <Cell key={i} fill={e.color} />)}
+                </Bar>
+              </BarChart>
+            </ResponsiveContainer>
+          </Card>
+        </div>
+
+        {/* Détail par catégorie */}
+        <Card title="📋 Détail du budget mensuel" darkMode={darkMode}>
+          <div className="grid grid-cols-2 md:grid-cols-5 gap-2">
+            {budgetsUNAF.categories.map(cat => {
+              const montant = donneesActuelles[cat.id] || 0;
+              const pct = totalActuel > 0 ? ((montant / totalActuel) * 100).toFixed(0) : 0;
+              return (
+                <div key={cat.id} className={`p-3 rounded-lg border ${darkMode ? 'bg-gray-700/50 border-gray-600' : 'bg-gray-50 border-gray-200'}`}>
+                  <div className="flex items-center gap-2 mb-1">
+                    <span className="text-lg">{cat.icon}</span>
+                    <span className={`text-xs font-medium ${darkMode ? 'text-gray-300' : 'text-gray-700'}`}>{cat.nom}</span>
+                  </div>
+                  <p className="text-xl font-bold" style={{color: cat.color}}>{montant}€</p>
+                  <p className={`text-xs ${darkMode ? 'text-gray-500' : 'text-gray-400'}`}>{pct}% du budget</p>
+                </div>
+              );
+            })}
           </div>
-        ) : (
-          <div className={`text-center p-8 rounded-xl border-2 border-dashed ${darkMode ? 'border-gray-700 text-gray-400' : 'border-gray-300 text-gray-500'}`}>
-            <p className="text-4xl mb-2">📊</p><p>Données du panier non disponibles. Mettez à jour data.json.</p>
+          <div className={`mt-4 p-3 rounded-lg ${darkMode ? 'bg-blue-900/20 border border-blue-800' : 'bg-blue-50 border border-blue-200'}`}>
+            <p className={`text-xs ${darkMode ? 'text-blue-300' : 'text-blue-700'}`}>
+              💡 <strong>Source officielle :</strong> Ces données proviennent des <a href={budgetsUNAF.sourceUrl} target="_blank" rel="noopener noreferrer" className="underline">budgets-types UNAF</a>, 
+              qui évaluent les dépenses nécessaires pour vivre décemment. Mis à jour mensuellement.
+            </p>
           </div>
-        )}
+        </Card>
       </div>}
 
+      {/* ONGLET HEURES DE TRAVAIL */}
       {subTab === 'heures' && <div className="space-y-4">
         <div className={`p-4 rounded-xl ${darkMode ? 'bg-gradient-to-r from-blue-900 to-indigo-900' : 'bg-gradient-to-r from-blue-600 to-indigo-600'} text-white`}>
           <h2 className="text-lg font-bold">⏱️ Heures de travail au SMIC</h2>
-          <p className="text-sm opacity-90">Combien d'heures pour acheter... ? Évolution depuis 2010</p>
+          <p className="text-sm opacity-90">Combien d'heures de travail au SMIC pour acheter... ?</p>
         </div>
-        {produitsEmblematiques.length > 0 ? (
-          <>
-            <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-3">
-              {produitsEmblematiques.map(p => {
-                const heures = calculerHeures(p, anneeActuelle);
-                const variation = variationDepuis2010(p);
-                const isSelected = produitSelect?.id === p.id;
-                return (
-                  <div key={p.id} onClick={() => setProduitSelect(isSelected ? null : p)} className={`p-3 rounded-xl border cursor-pointer transition-all ${isSelected ? 'ring-2 ring-blue-500 ' + (darkMode ? 'bg-blue-900/30' : 'bg-blue-50') : darkMode ? 'bg-gray-800 border-gray-700 hover:border-gray-500' : 'bg-white border-gray-200 hover:border-gray-400'}`}>
-                    <div className="flex justify-between items-start">
-                      <span className="text-2xl">{p.icon}</span>
-                      {variation && <span className={`text-xs px-1.5 py-0.5 rounded ${parseInt(variation) > 0 ? (darkMode ? 'bg-red-900/50 text-red-300' : 'bg-red-100 text-red-600') : (darkMode ? 'bg-green-900/50 text-green-300' : 'bg-green-100 text-green-600')}`}>{parseInt(variation) > 0 ? '+' : ''}{variation}%</span>}
-                    </div>
-                    <p className={`text-xs font-medium mt-1 ${darkMode ? 'text-gray-200' : 'text-gray-800'}`}>{p.nom}</p>
-                    <p className={`text-xs ${darkMode ? 'text-gray-400' : 'text-gray-500'}`}>{p.prix?.[anneeActuelle]}€</p>
-                    <div className={`mt-2 pt-2 border-t ${darkMode ? 'border-gray-600' : 'border-gray-200'}`}>
-                      <p className={`text-lg font-bold ${darkMode ? 'text-blue-400' : 'text-blue-600'}`}>{heures}h</p>
-                      <p className={`text-xs ${darkMode ? 'text-gray-500' : 'text-gray-400'}`}>au SMIC</p>
-                    </div>
-                  </div>
-                );
-              })}
-            </div>
-            {produitSelect && evolutionProduit.length > 0 && (
-              <Card title={`📈 ${produitSelect.icon} ${produitSelect.nom}`} darkMode={darkMode}>
-                <div className="grid md:grid-cols-2 gap-4">
-                  <ResponsiveContainer width="100%" height={180}><BarChart data={evolutionProduit}><CartesianGrid {...chartProps.cartesianGrid} /><XAxis dataKey="annee" {...chartProps.xAxis} /><YAxis {...chartProps.yAxis} /><Tooltip {...chartProps.tooltip} formatter={v=>`${v}h`} /><Bar dataKey="heures" fill={C.primary}>{evolutionProduit.map((e,i)=><Cell key={i} fill={e.annee===anneeActuelle?C.secondary:C.primary}/>)}</Bar></BarChart></ResponsiveContainer>
-                  <ResponsiveContainer width="100%" height={180}><LineChart data={evolutionProduit}><CartesianGrid {...chartProps.cartesianGrid} /><XAxis dataKey="annee" {...chartProps.xAxis} /><YAxis {...chartProps.yAxis} /><Tooltip {...chartProps.tooltip} formatter={v=>`${v}€`} /><Line dataKey="prix" stroke={C.tertiary} strokeWidth={3} /></LineChart></ResponsiveContainer>
+
+        <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-3">
+          {produitsEmblematiques.map(p => {
+            const heures = calculerHeures(p, anneeActuelle);
+            const variation = variationDepuis2010(p);
+            const isSelected = produitSelect?.id === p.id;
+            return (
+              <div key={p.id} onClick={() => setProduitSelect(isSelected ? null : p)} 
+                className={`p-3 rounded-xl border cursor-pointer transition-all ${isSelected ? 'ring-2 ring-blue-500 ' + (darkMode ? 'bg-blue-900/30 border-blue-500' : 'bg-blue-50 border-blue-300') : darkMode ? 'bg-gray-800 border-gray-700 hover:border-gray-500' : 'bg-white border-gray-200 hover:border-gray-400 hover:shadow'}`}>
+                <div className="flex justify-between items-start">
+                  <span className="text-2xl">{p.icon}</span>
+                  {variation && <span className={`text-xs px-1.5 py-0.5 rounded font-medium ${parseInt(variation) > 0 ? (darkMode ? 'bg-red-900/50 text-red-300' : 'bg-red-100 text-red-600') : (darkMode ? 'bg-green-900/50 text-green-300' : 'bg-green-100 text-green-600')}`}>{parseInt(variation) > 0 ? '+' : ''}{variation}%</span>}
                 </div>
-              </Card>
-            )}
-            {!produitSelect && <div className={`text-center p-6 rounded-xl border-2 border-dashed ${darkMode ? 'border-gray-700 text-gray-400' : 'border-gray-300 text-gray-500'}`}><p className="text-4xl mb-2">👆</p><p>Cliquez sur un produit pour voir son évolution</p></div>}
-          </>
-        ) : (
+                <p className={`text-xs font-medium mt-1 ${darkMode ? 'text-gray-200' : 'text-gray-800'}`}>{p.nom}</p>
+                <p className={`text-xs ${darkMode ? 'text-gray-400' : 'text-gray-500'}`}>{p.prix?.[anneeActuelle]?.toLocaleString('fr-FR')}€</p>
+                <div className={`mt-2 pt-2 border-t ${darkMode ? 'border-gray-600' : 'border-gray-200'}`}>
+                  <p className={`text-xl font-bold ${darkMode ? 'text-blue-400' : 'text-blue-600'}`}>{heures}h</p>
+                  <p className={`text-xs ${darkMode ? 'text-gray-500' : 'text-gray-400'}`}>au SMIC en {anneeActuelle}</p>
+                </div>
+              </div>
+            );
+          })}
+        </div>
+
+        {produitSelect && evolutionProduit.length > 0 && (
+          <Card title={`📈 Évolution : ${produitSelect.icon} ${produitSelect.nom}`} darkMode={darkMode}>
+            <div className="grid md:grid-cols-2 gap-4">
+              <div>
+                <p className={`text-sm mb-2 ${darkMode ? 'text-gray-300' : 'text-gray-600'}`}>Heures de travail nécessaires</p>
+                <ResponsiveContainer width="100%" height={180}>
+                  <BarChart data={evolutionProduit}>
+                    <CartesianGrid {...chartProps.cartesianGrid} />
+                    <XAxis dataKey="annee" {...chartProps.xAxis} />
+                    <YAxis {...chartProps.yAxis} />
+                    <Tooltip {...chartProps.tooltip} formatter={v=>[`${v}h`, 'Heures']} />
+                    <Bar dataKey="heures" fill={C.primary} radius={[4, 4, 0, 0]}>
+                      {evolutionProduit.map((e,i)=><Cell key={i} fill={e.annee===anneeActuelle?C.secondary:C.primary}/>)}
+                    </Bar>
+                  </BarChart>
+                </ResponsiveContainer>
+              </div>
+              <div>
+                <p className={`text-sm mb-2 ${darkMode ? 'text-gray-300' : 'text-gray-600'}`}>Évolution du prix</p>
+                <ResponsiveContainer width="100%" height={180}>
+                  <LineChart data={evolutionProduit}>
+                    <CartesianGrid {...chartProps.cartesianGrid} />
+                    <XAxis dataKey="annee" {...chartProps.xAxis} />
+                    <YAxis {...chartProps.yAxis} tickFormatter={v => `${v}€`} />
+                    <Tooltip {...chartProps.tooltip} formatter={v=>[`${v.toLocaleString('fr-FR')}€`, 'Prix']} />
+                    <Line dataKey="prix" stroke={C.tertiary} strokeWidth={3} dot={{ fill: C.tertiary, r: 4 }} />
+                  </LineChart>
+                </ResponsiveContainer>
+              </div>
+            </div>
+          </Card>
+        )}
+
+        {!produitSelect && (
           <div className={`text-center p-8 rounded-xl border-2 border-dashed ${darkMode ? 'border-gray-700 text-gray-400' : 'border-gray-300 text-gray-500'}`}>
-            <p className="text-4xl mb-2">⏱️</p><p>Données non disponibles. Mettez à jour data.json.</p>
+            <p className="text-4xl mb-2">👆</p>
+            <p>Cliquez sur un produit pour voir son évolution depuis 2010</p>
           </div>
         )}
+
         <div className={`p-3 rounded-lg text-xs ${darkMode ? 'bg-gray-800 text-gray-400' : 'bg-gray-100 text-gray-500'}`}>
-          <p className="font-semibold">📊 Méthodologie</p>
-          <p>Heures = Prix ÷ SMIC horaire net. Variation = accessibilité depuis 2010.</p>
+          <p><strong>📊 Méthodologie :</strong> Heures = Prix du produit ÷ SMIC horaire net de l'année. 
+          La variation indique si le produit est devenu plus accessible (vert, -%) ou moins accessible (rouge, +%) pour un salarié au SMIC depuis 2010.</p>
         </div>
       </div>}
     </div>
   );
 }
-
 
 function SalairesTab({d, darkMode}) {
   const chartProps = useChartProps(darkMode);
