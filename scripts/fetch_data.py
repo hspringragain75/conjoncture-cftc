@@ -1919,27 +1919,31 @@ def main():
             "evolution": [{"annee": 2020, "index": 84}, {"annee": 2021, "index": 85}, {"annee": 2022, "index": 86}, {"annee": 2023, "index": 87}, {"annee": 2024, "index": 88}, {"annee": 2025, "index": 88}]
         },
         
-        # ACCIDENTS DU TRAVAIL - version complète
+        # ACCIDENTS DU TRAVAIL - version complète avec bonne structure
         "accidents_travail": {
-            "indice_frequence": 32.4,
-            "indice_gravite": 1.3,
-            "accidents_mortels": 738,
-            "maladies_pro": 47000,
-            "cout_total_md": 14.2,
-            "evolution": [
-                {"annee": 2019, "frequence": 33.5, "gravite": 1.35, "mortels": 790},
-                {"annee": 2020, "frequence": 28.8, "gravite": 1.25, "mortels": 550},
-                {"annee": 2021, "frequence": 31.2, "gravite": 1.28, "mortels": 696},
-                {"annee": 2022, "frequence": 32.0, "gravite": 1.30, "mortels": 738},
-                {"annee": 2023, "frequence": 32.2, "gravite": 1.31, "mortels": 759},
-                {"annee": 2024, "frequence": 32.4, "gravite": 1.30, "mortels": 738}
-            ],
+            "total_national": {
+                "accidents_avec_arret": 640000,
+                "indice_frequence": 32.4,
+                "indice_gravite": 1.3,
+                "accidents_mortels": 738,
+                "maladies_professionnelles": 47000,
+                "evolution_vs_2019": -3.2
+            },
             "par_secteur": [
-                {"secteur": "BTP", "frequence": 52, "gravite": 2.8},
-                {"secteur": "Industrie", "frequence": 28, "gravite": 1.5},
-                {"secteur": "Transport", "frequence": 45, "gravite": 2.2},
-                {"secteur": "Commerce", "frequence": 24, "gravite": 1.1},
-                {"secteur": "Services", "frequence": 18, "gravite": 0.8}
+                {"secteur": "BTP", "accidents": 85000, "if": 52, "ig": 2.8, "mortels": 142},
+                {"secteur": "Industrie", "accidents": 120000, "if": 28, "ig": 1.5, "mortels": 98},
+                {"secteur": "Transport/Logistique", "accidents": 75000, "if": 45, "ig": 2.2, "mortels": 124},
+                {"secteur": "Commerce", "accidents": 95000, "if": 24, "ig": 1.1, "mortels": 45},
+                {"secteur": "Services", "accidents": 180000, "if": 18, "ig": 0.8, "mortels": 89},
+                {"secteur": "Agriculture", "accidents": 35000, "if": 38, "ig": 2.5, "mortels": 150}
+            ],
+            "evolution": [
+                {"annee": 2019, "if": 33.5, "mortels": 790},
+                {"annee": 2020, "if": 28.8, "mortels": 550},
+                {"annee": 2021, "if": 31.2, "mortels": 696},
+                {"annee": 2022, "if": 32.0, "mortels": 738},
+                {"annee": 2023, "if": 32.2, "mortels": 759},
+                {"annee": 2024, "if": 32.4, "mortels": 738}
             ],
             "notes_lecture": [
                 "⚠️ 738 accidents mortels recensés en 2024",
@@ -1949,25 +1953,39 @@ def main():
             ]
         },
         
-        # FORMATION PROFESSIONNELLE - version complète
+        # FORMATION PROFESSIONNELLE - version complète avec bonne structure
         "formation": {
-            "taux_acces_global": 42,
+            "cpf": {
+                "solde_moyen_euros": 1520,
+                "formations_financees_2024": 985000,
+                "montant_moyen_formation": 1450,
+                "titulaires_millions": 38,
+                "reste_a_charge_moyen": 180
+            },
+            "taux_acces": {
+                "global": 42,
+                "par_csp": [
+                    {"csp": "Cadres", "taux": 62},
+                    {"csp": "Professions intermédiaires", "taux": 52},
+                    {"csp": "Employés", "taux": 38},
+                    {"csp": "Ouvriers", "taux": 28}
+                ]
+            },
+            "apprentissage": {
+                "apprentis_2025": 980000,
+                "evolution": [
+                    {"annee": 2018, "nombre": 320000},
+                    {"annee": 2019, "nombre": 370000},
+                    {"annee": 2020, "nombre": 525000},
+                    {"annee": 2021, "nombre": 740000},
+                    {"annee": 2022, "nombre": 837000},
+                    {"annee": 2023, "nombre": 852000},
+                    {"annee": 2024, "nombre": 920000},
+                    {"annee": 2025, "nombre": 980000}
+                ],
+                "taux_insertion_6mois": 72
+            },
             "budget_entreprises_md": 32,
-            "cpf_titulaires_m": 38,
-            "cpf_montant_moyen": 1520,
-            "apprentis": 980000,
-            "taux_acces_par_csp": [
-                {"csp": "Cadres", "taux": 62},
-                {"csp": "Prof. intermédiaires", "taux": 52},
-                {"csp": "Employés", "taux": 38},
-                {"csp": "Ouvriers", "taux": 28}
-            ],
-            "evolution_apprentissage": [
-                {"annee": 2018, "nombre": 320000}, {"annee": 2019, "nombre": 370000},
-                {"annee": 2020, "nombre": 525000}, {"annee": 2021, "nombre": 740000},
-                {"annee": 2022, "nombre": 837000}, {"annee": 2023, "nombre": 852000},
-                {"annee": 2024, "nombre": 920000}, {"annee": 2025, "nombre": 980000}
-            ],
             "notes_lecture": [
                 "📚 Taux d'accès à la formation : cadres 62% vs ouvriers 28%",
                 "💰 38 millions de titulaires CPF avec un montant moyen de 1520€",
@@ -1976,20 +1994,36 @@ def main():
             ]
         },
         
-        # ÉPARGNE SALARIALE - version complète
+        # ÉPARGNE SALARIALE - version complète avec bonne structure
         "epargne_salariale": {
-            "encours_total_md": 188,
-            "beneficiaires_m": 11.2,
-            "participation_moyenne": 1850,
-            "interessement_moyen": 2100,
-            "pee_encours_md": 156,
-            "perco_pereco_md": 32,
-            "taux_couverture_pct": 52,
-            "evolution_encours": [
-                {"annee": 2020, "encours": 145}, {"annee": 2021, "encours": 162},
-                {"annee": 2022, "encours": 158}, {"annee": 2023, "encours": 172},
-                {"annee": 2024, "encours": 182}, {"annee": 2025, "encours": 188}
-            ],
+            "couverture": {
+                "salaries_couverts_pct": 52,
+                "salaries_couverts_millions": 11.2,
+                "entreprises_couvertes_pct": 22
+            },
+            "montants_totaux": {
+                "primes_brutes_mds": 22.8,
+                "participation_mds": 10.2,
+                "interessement_mds": 12.6
+            },
+            "montants_moyens": {
+                "participation": 1850,
+                "interessement": 2100,
+                "abondement_pee": 820
+            },
+            "encours": {
+                "total_mds": 188,
+                "pee_mds": 156,
+                "perco_pereco_mds": 32,
+                "evolution": [
+                    {"annee": 2020, "encours": 145},
+                    {"annee": 2021, "encours": 162},
+                    {"annee": 2022, "encours": 158},
+                    {"annee": 2023, "encours": 172},
+                    {"annee": 2024, "encours": 182},
+                    {"annee": 2025, "encours": 188}
+                ]
+            },
             "notes_lecture": [
                 "💰 Participation moyenne versée : 1 850€ par bénéficiaire",
                 "📈 Intéressement moyen : 2 100€ - 52% des salariés couverts",
@@ -1998,14 +2032,25 @@ def main():
             ]
         },
         
-        # TEMPS DE TRAVAIL - version complète
+        # TEMPS DE TRAVAIL - version complète avec bonne structure
         "temps_travail": {
-            "duree_hebdo_moyenne": 37.2,
-            "temps_partiel_pct": 17.3,
-            "temps_partiel_femmes": 26.5,
-            "temps_partiel_hommes": 8.1,
-            "heures_sup_trimestrielles_m": 185,
-            "teletravail_pct": 26,
+            "duree_travail": {
+                "duree_hebdo_habituelle": 37.2,
+                "duree_legale": 35,
+                "duree_annuelle_effective": 1607,
+                "heures_sup_trimestrielles_m": 185
+            },
+            "temps_partiel": {
+                "taux_global": 17.3,
+                "taux_femmes": 26.5,
+                "taux_hommes": 8.1,
+                "temps_partiel_subi_pct": 24
+            },
+            "teletravail": {
+                "taux_salaries": 26,
+                "jours_moyens_semaine": 1.8,
+                "eligible_non_pratiquant_pct": 15
+            },
             "repartition_duree": [
                 {"tranche": "Moins de 30h", "pct": 12},
                 {"tranche": "30-34h", "pct": 8},
