@@ -1930,20 +1930,12 @@ def main():
                 "evolution_vs_2019": -3.2
             },
             "par_secteur": [
-                {"secteur": "BTP", "accidents": 85000, "if": 52, "ig": 2.8, "mortels": 142},
-                {"secteur": "Industrie", "accidents": 120000, "if": 28, "ig": 1.5, "mortels": 98},
-                {"secteur": "Transport/Logistique", "accidents": 75000, "if": 45, "ig": 2.2, "mortels": 124},
-                {"secteur": "Commerce", "accidents": 95000, "if": 24, "ig": 1.1, "mortels": 45},
-                {"secteur": "Services", "accidents": 180000, "if": 18, "ig": 0.8, "mortels": 89},
-                {"secteur": "Agriculture", "accidents": 35000, "if": 38, "ig": 2.5, "mortels": 150}
-            ],
-            "evolution": [
-                {"annee": 2019, "if": 33.5, "mortels": 790},
-                {"annee": 2020, "if": 28.8, "mortels": 550},
-                {"annee": 2021, "if": 31.2, "mortels": 696},
-                {"annee": 2022, "if": 32.0, "mortels": 738},
-                {"annee": 2023, "if": 32.2, "mortels": 759},
-                {"annee": 2024, "if": 32.4, "mortels": 738}
+                {"secteur": "BTP", "accidents": 85000, "part_pct": 13, "if": 52},
+                {"secteur": "Industrie", "accidents": 120000, "part_pct": 19, "if": 28},
+                {"secteur": "Transport/Logistique", "accidents": 75000, "part_pct": 12, "if": 45},
+                {"secteur": "Commerce", "accidents": 95000, "part_pct": 15, "if": 24},
+                {"secteur": "Services", "accidents": 180000, "part_pct": 28, "if": 18},
+                {"secteur": "Santé/Action sociale", "accidents": 85000, "part_pct": 13, "if": 35}
             ],
             "notes_lecture": [
                 "⚠️ 738 accidents mortels recensés en 2024",
@@ -1952,7 +1944,6 @@ def main():
                 "🏗️ Le BTP reste le secteur le plus accidentogène (fréquence 52)"
             ]
         },
-        
         # FORMATION PROFESSIONNELLE - version complète avec bonne structure
         "formation": {
             "cpf": {
@@ -2041,10 +2032,16 @@ def main():
                 "heures_sup_trimestrielles_m": 185
             },
             "temps_partiel": {
-                "taux_global": 17.3,
+                "taux_global_pct": 17.3,
                 "taux_femmes": 26.5,
                 "taux_hommes": 8.1,
                 "temps_partiel_subi_pct": 24
+            },
+            "horaires_atypiques": {
+                "travail_samedi_pct": 28,
+                "travail_dimanche_pct": 12,
+                "travail_soir_pct": 15,
+                "travail_nuit_pct": 7
             },
             "teletravail": {
                 "taux_salaries": 26,
