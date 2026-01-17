@@ -1916,6 +1916,7 @@ def main():
                 "💰 L'écart de rémunération moyen reste de 4% à poste égal",
                 "📈 Progression de 4 points depuis 2020 (84 → 88)"
             ],
+            "sources": "Ministère du Travail - Index Egapro",
             "evolution": [{"annee": 2020, "index": 84}, {"annee": 2021, "index": 85}, {"annee": 2022, "index": 86}, {"annee": 2023, "index": 87}, {"annee": 2024, "index": 88}, {"annee": 2025, "index": 88}]
         },
         
@@ -1942,7 +1943,8 @@ def main():
                 "📈 Indice de fréquence : 32.4 accidents pour 1000 salariés",
                 "💰 Coût total AT/MP : 14.2 milliards d'euros par an",
                 "🏗️ Le BTP reste le secteur le plus accidentogène (fréquence 52)"
-            ]
+            ],
+            "sources": "CNAM-TS (Assurance Maladie), DARES"
         },
         # FORMATION PROFESSIONNELLE - version complète avec bonne structure
         "formation": {
@@ -1962,19 +1964,23 @@ def main():
                     {"csp": "Ouvriers", "taux": 28}
                 ]
             },
-            "apprentissage": {
-                "apprentis_2025": 980000,
-                "evolution": [
-                    {"annee": 2018, "nombre": 320000},
-                    {"annee": 2019, "nombre": 370000},
-                    {"annee": 2020, "nombre": 525000},
-                    {"annee": 2021, "nombre": 740000},
-                    {"annee": 2022, "nombre": 837000},
-                    {"annee": 2023, "nombre": 852000},
-                    {"annee": 2024, "nombre": 920000},
-                    {"annee": 2025, "nombre": 980000}
-                ],
-                "taux_insertion_6mois": 72
+            "alternance": {
+                "contrats_apprentissage_2024": 920000,
+                "total_alternants": 1050000,
+                "taux_insertion_6mois": 72,
+                "evolution_vs_2023": 8,
+                "repartition_niveau": [
+                    {"niveau": "CAP-BEP", "pct": 22},
+                    {"niveau": "Bac Pro", "pct": 28},
+                    {"niveau": "BTS-DUT", "pct": 25},
+                    {"niveau": "Licence+", "pct": 25}
+                ]
+            },
+            "plan_formation": {
+                "acces_formation_cadres_pct": 62,
+                "acces_formation_ouvriers_pct": 28,
+                "duree_moyenne_heures": 27,
+                "budget_entreprises_mds": 32
             },
             "budget_entreprises_md": 32,
             "notes_lecture": [
@@ -1982,7 +1988,8 @@ def main():
                 "💰 38 millions de titulaires CPF avec un montant moyen de 1520€",
                 "📈 L'apprentissage a triplé depuis 2018 : 980 000 apprentis en 2025",
                 "🎓 Budget formation des entreprises : 32 milliards d'euros"
-            ]
+            ],
+            "sources": "DARES, France Compétences, Caisse des Dépôts (CPF)"
         },
         
         # ÉPARGNE SALARIALE - version complète avec bonne structure
@@ -2020,7 +2027,8 @@ def main():
                 "📈 Intéressement moyen : 2 100€ - 52% des salariés couverts",
                 "🏦 Encours total de l'épargne salariale : 188 milliards d'euros",
                 "📊 Progression de 29% des encours depuis 2020"
-            ]
+            ],
+            "sources": "DARES, AFG (Association Française de la Gestion)"
         },
         
         # TEMPS DE TRAVAIL - version complète avec bonne structure
@@ -2060,7 +2068,8 @@ def main():
                 "🏠 Télétravail : 26% des salariés concernés",
                 "💼 185 millions d'heures supplémentaires par trimestre",
                 "⚖️ Durée hebdomadaire moyenne : 37.2 heures"
-            ]
+            ],
+            "sources": "INSEE - Enquête Emploi, DARES"
         },
     }
     
