@@ -1802,6 +1802,23 @@ def main():
         "heures_travail": heures_travail,
         
         # ============================================================
+        # SOURCES PAR ONGLET
+        # ============================================================
+        "sources_par_onglet": {
+            "conjoncture": "INSEE - Comptes nationaux, Banque de France",
+            "previsions": "Banque de France (projections macroéconomiques), INSEE (Note de conjoncture)",
+            "evolutions": "INSEE - Comptes nationaux trimestriels, IPC, Enquête Emploi",
+            "pouvoir_achat": "UNAF - Budgets types des familles, INSEE - IPC",
+            "salaires": "INSEE - DADS, Base Tous Salariés, ACEMO",
+            "emploi": "INSEE - Enquête Emploi, DARES - MMO, France Travail - BMO",
+            "conditions_vie": "INSEE - IRL, Notaires de France, Prix des carburants (data.gouv)",
+            "inflation": "INSEE - Indice des Prix à la Consommation (IPC)",
+            "conventions": "Ministère du Travail - Suivi des salaires conventionnels, Légifrance",
+            "comparaison_ue": "Eurostat - Statistiques structurelles sur les salaires",
+            "territoires": "INSEE - Estimations d'emploi localisées, Enquête Emploi régionale"
+        },
+        
+        # ============================================================
         # DONNÉES STATIQUES POUR ONGLETS SPÉCIALISÉS
         # ============================================================
         
@@ -1823,12 +1840,14 @@ def main():
                 "inflation_dec_2025": 1.4,
                 "consommation_menages": 0.4
             },
-            "consensus": {"pib_2026": 1.0, "inflation_2026": 1.5, "chomage_2026": 7.6}
+            "consensus": {"pib_2026": 1.0, "inflation_2026": 1.5, "chomage_2026": 7.6},
+            "sources": "Banque de France (Projections macroéconomiques), INSEE (Note de conjoncture)"
         },
         
         # DONNÉES RÉGIONALES (Territoires) - avec tensions et évol chômage
         "donnees_regionales": {
             "source": "INSEE T3 2025",
+            "sources": "INSEE - Estimations d'emploi localisées, Taux de chômage localisés",
             "france_metro": {
                 "taux_chomage": 7.4,
                 "salaire_median_net": 2091,
