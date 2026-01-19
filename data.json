@@ -1,6 +1,41 @@
 {
-  "last_updated": "2026-01-19T07:44:28.668726",
+  "last_updated": "19/01/2026 07:52",
+  "last_updated_iso": "2026-01-19T07:52:23.420252",
   "contact": "hspringragain@cftc.fr",
+  "alertes": [
+    {
+      "id": "smic_2026",
+      "date": "2026-01-01",
+      "type": "success",
+      "titre": "🎉 SMIC 2026",
+      "message": "Le SMIC a été revalorisé de 2% au 1er janvier 2026. Nouveau montant net : 1 462€/mois.",
+      "onglet": "salaires"
+    },
+    {
+      "id": "chomage_t3_2025",
+      "date": "2025-11-15",
+      "type": "info",
+      "titre": "📊 Chômage T3 2025",
+      "message": "Taux de chômage T3 2025 : 7.4% (+0.1 point). Le chômage des jeunes reste élevé à 19.2%.",
+      "onglet": "emploi"
+    },
+    {
+      "id": "inflation_dec_2025",
+      "date": "2025-12-15",
+      "type": "success",
+      "titre": "📉 Inflation en baisse",
+      "message": "L'inflation annuelle est passée sous les 1.5% en décembre 2025. Bonne nouvelle pour le pouvoir d'achat !",
+      "onglet": "inflation"
+    },
+    {
+      "id": "previsions_bdf_2026",
+      "date": "2025-12-18",
+      "type": "info",
+      "titre": "🔮 Prévisions Banque de France",
+      "message": "Nouvelles projections : PIB +1.0% en 2026, inflation 1.4%, chômage 7.7%.",
+      "onglet": "previsions"
+    }
+  ],
   "sources": [
     "INSEE - Indice des prix à la consommation",
     "INSEE - Enquête Emploi",
@@ -242,7 +277,7 @@
     "irl_glissement": 0.79,
     "prix_gazole": 1.61,
     "taux_effort_locataires": 29.6,
-    "croissance_pib": 0.5,
+    "croissance_pib": 0.9,
     "climat_affaires": 99,
     "defaillances_12m": 68145
   },
@@ -1057,70 +1092,70 @@
     ]
   },
   "pib": {
-    "croissance_trim_actuel": 0.5,
-    "croissance_annuelle": 1.1,
+    "croissance_trim_actuel": 0.9,
+    "croissance_annuelle": 1.8,
     "trimestre": "T3 2025",
-    "commentaire": "PIB volume trimestriel",
+    "commentaire": "PIB volume trimestriel - INSEE",
     "evolution": [
       {
         "trimestre": "T1 2022",
-        "croissance": 0.0
+        "croissance": 0.8
       },
       {
         "trimestre": "T2 2022",
-        "croissance": 0.5
+        "croissance": 1.0
       },
       {
         "trimestre": "T3 2022",
-        "croissance": 0.2
+        "croissance": 2.0
       },
       {
         "trimestre": "T4 2022",
-        "croissance": 0.1
+        "croissance": 1.9
       },
       {
         "trimestre": "T1 2023",
-        "croissance": 0.1
+        "croissance": 1.5
       },
       {
         "trimestre": "T2 2023",
-        "croissance": 0.6
+        "croissance": 2.3
       },
       {
         "trimestre": "T3 2023",
-        "croissance": 0.0
+        "croissance": 0.7
       },
       {
         "trimestre": "T4 2023",
-        "croissance": 0.0
+        "croissance": 1.3
       },
       {
         "trimestre": "T1 2024",
-        "croissance": 0.2
+        "croissance": 0.5
       },
       {
         "trimestre": "T2 2024",
-        "croissance": 0.3
+        "croissance": 0.1
       },
       {
         "trimestre": "T3 2024",
-        "croissance": 0.4
+        "croissance": 1.5
       },
       {
         "trimestre": "T4 2024",
-        "croissance": -0.1
+        "croissance": -0.0
       },
       {
         "trimestre": "T1 2025",
-        "croissance": 0.2
+        "croissance": 0.5
       },
       {
         "trimestre": "T2 2025",
-        "croissance": 0.3
+        "croissance": 0.4
       },
       {
         "trimestre": "T3 2025",
-        "croissance": 0.5
+        "croissance": 0.9
       }
     ],
     "contributions": {
