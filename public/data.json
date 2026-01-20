@@ -1,6 +1,6 @@
 {
-  "last_updated": "20/01/2026 11:08",
-  "last_updated_iso": "2026-01-20T11:08:00.011661",
+  "last_updated": "20/01/2026 13:00",
+  "last_updated_iso": "2026-01-20T13:00:33.471319",
   "contact": "hspringragain@cftc.fr",
   "alertes": [
     {
@@ -144,58 +144,58 @@
   "chomage": [
     {
       "trimestre": "T1 2023",
-      "taux": 7.1,
-      "jeunes": 17.5
+      "taux": 6.9,
+      "jeunes": 16.6
     },
     {
       "trimestre": "T2 2023",
-      "taux": 7.2,
-      "jeunes": 17.0
+      "taux": 7.0,
+      "jeunes": 16.9
     },
     {
       "trimestre": "T3 2023",
-      "taux": 7.4,
-      "jeunes": 17.6
+      "taux": 7.2,
+      "jeunes": 17.4
     },
     {
       "trimestre": "T4 2023",
-      "taux": 7.5,
-      "jeunes": 17.6
-    },
-    {
-      "trimestre": "T1 2024",
-      "taux": 7.5,
-      "jeunes": 18.1
-    },
-    {
-      "trimestre": "T2 2024",
       "taux": 7.3,
       "jeunes": 17.7
     },
     {
+      "trimestre": "T1 2024",
+      "taux": 7.3,
+      "jeunes": 18.1
+    },
+    {
+      "trimestre": "T2 2024",
+      "taux": 7.1,
+      "jeunes": 17.8
+    },
+    {
       "trimestre": "T3 2024",
-      "taux": 7.4,
-      "jeunes": 18.3
+      "taux": 7.2,
+      "jeunes": 19.6
     },
     {
       "trimestre": "T4 2024",
-      "taux": 7.3,
+      "taux": 7.1,
       "jeunes": 19.0
     },
     {
       "trimestre": "T1 2025",
-      "taux": 7.4,
-      "jeunes": 18.5
+      "taux": 7.3,
+      "jeunes": 19.2
     },
     {
       "trimestre": "T2 2025",
-      "taux": 7.5,
-      "jeunes": 18.8
+      "taux": 7.4,
+      "jeunes": 19.0
     },
     {
       "trimestre": "T3 2025",
-      "taux": 7.7,
-      "jeunes": 19.2
+      "taux": 7.5,
+      "jeunes": 18.8
     }
   ],
   "smic": {
@@ -264,15 +264,15 @@
     }
   ],
   "indicateurs_cles": {
-    "taux_chomage_actuel": 7.7,
-    "taux_chomage_jeunes": 19.2,
+    "taux_chomage_actuel": 7.5,
+    "taux_chomage_jeunes": 18.8,
     "taux_emploi_seniors": 61.5,
     "inflation_annuelle": 0.9,
     "smic_brut": 1823.03,
     "smic_net": 1443.11,
     "salaire_median": 2190,
     "salaire_moyen": 2733,
-    "ecart_hf_eqtp": 25.8,
+    "ecart_hf_eqtp": 13.0,
     "difficultes_recrutement": 61,
     "irl_glissement": 0.79,
     "prix_gazole": 1.61,
@@ -312,36 +312,36 @@
   },
   "ecart_hommes_femmes": {
     "ecart_global": 22.2,
-    "ecart_eqtp": 25.8,
+    "ecart_eqtp": 13.0,
     "ecart_poste_comparable": 4.0,
     "evolution": [
       {
-        "annee": "2018",
-        "ecart": 23.2
+        "annee": "2015",
+        "ecart": 18.4
+      },
+      {
+        "annee": "2017",
+        "ecart": 16.6
       },
       {
         "annee": "2019",
-        "ecart": 23.8
-      },
-      {
-        "annee": "2020",
-        "ecart": 24.5
+        "ecart": 16.1
       },
       {
         "annee": "2021",
-        "ecart": 24.3
+        "ecart": 15.5
       },
       {
         "annee": "2022",
-        "ecart": 25.1
+        "ecart": 14.9
       },
       {
         "annee": "2023",
-        "ecart": 25.6
+        "ecart": 14.2
       },
       {
         "annee": "2024",
-        "ecart": 25.8
+        "ecart": 13.0
       }
     ]
   },
