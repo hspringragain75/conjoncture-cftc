@@ -1,6 +1,6 @@
 {
-  "last_updated": "20/01/2026 07:46",
-  "last_updated_iso": "2026-01-20T07:46:45.526343",
+  "last_updated": "20/01/2026 11:08",
+  "last_updated_iso": "2026-01-20T11:08:00.011661",
   "contact": "hspringragain@cftc.fr",
   "alertes": [
     {
@@ -266,7 +266,7 @@
   "indicateurs_cles": {
     "taux_chomage_actuel": 7.7,
     "taux_chomage_jeunes": 19.2,
-    "taux_emploi_seniors": 7.5,
+    "taux_emploi_seniors": 61.5,
     "inflation_annuelle": 0.9,
     "smic_brut": 1823.03,
     "smic_net": 1443.11,
@@ -277,8 +277,8 @@
     "irl_glissement": 0.79,
     "prix_gazole": 1.61,
     "taux_effort_locataires": 29.6,
-    "croissance_pib": 0.9,
-    "climat_affaires": 98,
+    "croissance_pib": 0.4,
+    "climat_affaires": 99,
     "defaillances_12m": 68145
   },
   "salaire_median": {
@@ -388,59 +388,105 @@
   "emploi_seniors": [
     {
       "trimestre": "T1 2023",
-      "taux": 7.2
+      "taux": 56.5
     },
     {
       "trimestre": "T2 2023",
-      "taux": 7.1
+      "taux": 57.0
     },
     {
       "trimestre": "T3 2023",
-      "taux": 7.2
+      "taux": 57.5
     },
     {
       "trimestre": "T4 2023",
-      "taux": 7.4
+      "taux": 58.4
     },
     {
       "trimestre": "T1 2024",
-      "taux": 7.4
+      "taux": 59.0
     },
     {
       "trimestre": "T2 2024",
-      "taux": 7.1
+      "taux": 59.6
     },
     {
       "trimestre": "T3 2024",
-      "taux": 7.4
+      "taux": 60.2
     },
     {
       "trimestre": "T4 2024",
-      "taux": 7.2
+      "taux": 60.4
     },
     {
       "trimestre": "T1 2025",
-      "taux": 7.3
+      "taux": 60.8
     },
     {
       "trimestre": "T2 2025",
-      "taux": 7.5
+      "taux": 61.1
     },
     {
       "trimestre": "T3 2025",
-      "taux": 7.5
+      "taux": 61.5
+    }
+  ],
+  "chomage_seniors": [
+    {
+      "trimestre": "T1 2023",
+      "taux": 5.0
+    },
+    {
+      "trimestre": "T2 2023",
+      "taux": 5.1
+    },
+    {
+      "trimestre": "T3 2023",
+      "taux": 5.0
+    },
+    {
+      "trimestre": "T4 2023",
+      "taux": 4.9
+    },
+    {
+      "trimestre": "T1 2024",
+      "taux": 5.0
+    },
+    {
+      "trimestre": "T2 2024",
+      "taux": 5.1
+    },
+    {
+      "trimestre": "T3 2024",
+      "taux": 5.2
+    },
+    {
+      "trimestre": "T4 2024",
+      "taux": 5.2
+    },
+    {
+      "trimestre": "T1 2025",
+      "taux": 5.3
+    },
+    {
+      "trimestre": "T2 2025",
+      "taux": 5.4
+    },
+    {
+      "trimestre": "T3 2025",
+      "taux": 5.5
     }
   ],
   "emploi_seniors_detail": {
-    "taux_55_64": 7.5,
+    "taux_55_64": 61.5,
     "taux_55_59": 77.8,
     "taux_60_64": 38.9,
-    "chomage_seniors": 5.2,
+    "chomage_seniors": 5.5,
     "evolution_1an": 1.9,
     "duree_chomage_moyenne_mois": 18,
     "taux_temps_partiel": 25.5,
     "comparaison_ue": {
-      "france": 7.5,
+      "france": 61.5,
       "allemagne": 72.3,
       "moyenne_ue": 65.2,
       "suede": 77.0,
@@ -450,7 +496,7 @@
     },
     "sources": [
       "INSEE - Enquête Emploi 2024",
-      "DARES",
+      "INSEE - Série 001688530 (chômage 50+)",
       "Eurostat"
     ]
   },
@@ -897,45 +943,50 @@
     ]
   },
   "prix_immobilier": {
-    "indice_actuel": 116.2,
+    "indice_actuel": 128.5,
     "variation_trim": 1.0,
-    "variation_an": -1.8,
+    "variation_an": 0.7,
     "transactions_annuelles": 880000,
     "evolution": [
       {
-        "trimestre": "T1 2022",
-        "indice": 124.5,
-        "variation": 7.2
-      },
-      {
-        "trimestre": "T3 2022",
-        "indice": 126.8,
-        "variation": 6.1
-      },
-      {
-        "trimestre": "T1 2023",
-        "indice": 124.2,
-        "variation": -0.2
-      },
-      {
-        "trimestre": "T3 2023",
-        "indice": 120.5,
-        "variation": -5.0
+        "trimestre": "T4 2023",
+        "indice": 128.7,
+        "variation": -3.6
       },
       {
         "trimestre": "T1 2024",
-        "indice": 117.8,
-        "variation": -5.1
+        "indice": 126.0,
+        "variation": -4.8
+      },
+      {
+        "trimestre": "T2 2024",
+        "indice": 125.7,
+        "variation": -4.6
       },
       {
         "trimestre": "T3 2024",
-        "indice": 115.3,
-        "variation": -4.3
+        "indice": 127.6,
+        "variation": -3.5
+      },
+      {
+        "trimestre": "T4 2024",
+        "indice": 126.3,
+        "variation": -1.9
       },
       {
         "trimestre": "T1 2025",
-        "indice": 116.2,
-        "variation": -1.4
+        "indice": 126.5,
+        "variation": 0.4
+      },
+      {
+        "trimestre": "T2 2025",
+        "indice": 126.5,
+        "variation": 0.6
+      },
+      {
+        "trimestre": "T3 2025",
+        "indice": 128.5,
+        "variation": 0.7
       }
     ],
     "par_zone": [
@@ -1110,70 +1161,70 @@
     ]
   },
   "pib": {
-    "croissance_trim_actuel": 0.9,
+    "croissance_trim_actuel": 0.4,
     "croissance_annuelle": 1.1,
     "trimestre": "T3 2025",
-    "commentaire": "PIB volume trimestriel - INSEE",
+    "commentaire": "PIB volume trimestriel",
     "evolution": [
       {
         "trimestre": "T1 2022",
-        "croissance": 0.8
+        "croissance": 0.5
       },
       {
         "trimestre": "T2 2022",
-        "croissance": 1.0
-      },
-      {
-        "trimestre": "T3 2022",
-        "croissance": 2.0
-      },
-      {
-        "trimestre": "T4 2022",
-        "croissance": 1.9
-      },
-      {
-        "trimestre": "T1 2023",
-        "croissance": 1.5
-      },
-      {
-        "trimestre": "T2 2023",
-        "croissance": 2.3
-      },
-      {
-        "trimestre": "T3 2023",
-        "croissance": 0.7
-      },
-      {
-        "trimestre": "T4 2023",
-        "croissance": 1.3
-      },
-      {
-        "trimestre": "T1 2024",
-        "croissance": 0.5
-      },
-      {
-        "trimestre": "T2 2024",
-        "croissance": 0.1
-      },
-      {
-        "trimestre": "T3 2024",
-        "croissance": 1.5
-      },
-      {
-        "trimestre": "T4 2024",
-        "croissance": -0.0
-      },
-      {
-        "trimestre": "T1 2025",
-        "croissance": 0.5
-      },
-      {
-        "trimestre": "T2 2025",
         "croissance": 0.4
       },
       {
+        "trimestre": "T3 2022",
+        "croissance": 0.6
+      },
+      {
+        "trimestre": "T4 2022",
+        "croissance": 0.1
+      },
+      {
+        "trimestre": "T1 2023",
+        "croissance": 0.0
+      },
+      {
+        "trimestre": "T2 2023",
+        "croissance": 0.7
+      },
+      {
+        "trimestre": "T3 2023",
+        "croissance": 0.1
+      },
+      {
+        "trimestre": "T4 2023",
+        "croissance": 0.1
+      },
+      {
+        "trimestre": "T1 2024",
+        "croissance": 0.3
+      },
+      {
+        "trimestre": "T2 2024",
+        "croissance": 0.2
+      },
+      {
+        "trimestre": "T3 2024",
+        "croissance": 0.4
+      },
+      {
+        "trimestre": "T4 2024",
+        "croissance": -0.1
+      },
+      {
+        "trimestre": "T1 2025",
+        "croissance": 0.2
+      },
+      {
+        "trimestre": "T2 2025",
+        "croissance": 0.3
+      },
+      {
         "trimestre": "T3 2025",
-        "croissance": 0.9
+        "croissance": 0.4
       }
     ],
     "contributions": {
@@ -1214,14 +1265,14 @@
     ]
   },
   "climat_affaires": {
-    "valeur_actuelle": 98,
-    "confiance_menages": 92,
+    "valeur_actuelle": 99,
+    "confiance_menages": 90,
     "moyenne_long_terme": 100,
-    "mois": "Nov 2025",
+    "mois": "Déc 2025",
     "evolution": [
       {
         "mois": "Jan 2024",
-        "climat": 99,
+        "climat": 100,
         "menages": 91
       },
       {
@@ -1231,8 +1282,8 @@
       },
       {
         "mois": "Juil 2024",
-        "climat": 97,
-        "menages": 92
+        "climat": 94,
+        "menages": 91
       },
       {
         "mois": "Oct 2024",
@@ -1252,17 +1303,17 @@
       {
         "mois": "Juil 2025",
         "climat": 96,
-        "menages": 93
+        "menages": 89
       },
       {
         "mois": "Oct 2025",
-        "climat": 97,
-        "menages": 92
+        "climat": 96,
+        "menages": 90
       },
       {
-        "mois": "Nov 2025",
-        "climat": 98,
-        "menages": 92
+        "mois": "Déc 2025",
+        "climat": 99,
+        "menages": 90
       }
     ],
     "par_secteur": [
