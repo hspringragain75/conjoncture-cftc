@@ -3065,12 +3065,12 @@ function TravailTab({d, darkMode}) {
                       {formation.financement?.participation_forfaitaire?.montant_euros || 102.23}€
                     </div>
                     <div className={`text-xs ${darkMode ? 'text-red-300' : 'text-red-600'}`}>
-                      <p>Depuis janv. 2025</p>
+                      <p>Depuis janv. 2026</p>
                       <p>Indexé sur l'inflation</p>
                     </div>
                   </div>
                   <p className={`text-xs mt-2 ${darkMode ? 'text-gray-400' : 'text-gray-500'}`}>
-                    100€ en mai 2024 → 102,23€ en 2025. Montant 2026 à préciser (loi de finances)
+                    100€ en mai 2024 → 102,23€ en 2026. 
                   </p>
                 </div>
                 
