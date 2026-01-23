@@ -1,6 +1,6 @@
 {
   "last_updated": "23/01/2026 10:30",
-  "last_updated_iso": "2026-01-23T10:30:02.534443",
+  "last_updated_iso": "2026-01-23T10:30:18.628043",
   "contact": "hspringragain@cftc.fr",
   "alertes": [
     {
@@ -275,11 +275,11 @@
     "ecart_hf_eqtp": 13.0,
     "difficultes_recrutement": 61,
     "irl_glissement": 0.79,
-    "prix_gazole": 1.58,
+    "prix_gazole": 1.61,
     "taux_effort_locataires": 29.6,
     "croissance_pib": 0.9,
     "climat_affaires": 99,
-    "defaillances_12m": 68227
+    "defaillances_12m": 68145
   },
   "salaire_median": {
     "montant_2024": 2190,
@@ -949,50 +949,45 @@
     ]
   },
   "prix_immobilier": {
-    "indice_actuel": 128.5,
+    "indice_actuel": 116.2,
     "variation_trim": 1.0,
-    "variation_an": 0.7,
+    "variation_an": -1.8,
     "transactions_annuelles": 880000,
     "evolution": [
       {
-        "trimestre": "T4 2023",
-        "indice": 128.7,
-        "variation": -3.6
+        "trimestre": "T1 2022",
+        "indice": 124.5,
+        "variation": 7.2
+      },
+      {
+        "trimestre": "T3 2022",
+        "indice": 126.8,
+        "variation": 6.1
+      },
+      {
+        "trimestre": "T1 2023",
+        "indice": 124.2,
+        "variation": -0.2
+      },
+      {
+        "trimestre": "T3 2023",
+        "indice": 120.5,
+        "variation": -5.0
       },
       {
         "trimestre": "T1 2024",
-        "indice": 126.0,
-        "variation": -4.8
-      },
-      {
-        "trimestre": "T2 2024",
-        "indice": 125.7,
-        "variation": -4.6
+        "indice": 117.8,
+        "variation": -5.1
       },
       {
         "trimestre": "T3 2024",
-        "indice": 127.6,
-        "variation": -3.5
-      },
-      {
-        "trimestre": "T4 2024",
-        "indice": 126.3,
-        "variation": -1.9
+        "indice": 115.3,
+        "variation": -4.3
       },
       {
         "trimestre": "T1 2025",
-        "indice": 126.5,
-        "variation": 0.4
-      },
-      {
-        "trimestre": "T2 2025",
-        "indice": 126.5,
-        "variation": 0.6
-      },
-      {
-        "trimestre": "T3 2025",
-        "indice": 128.5,
-        "variation": 0.7
+        "indice": 116.2,
+        "variation": -1.4
       }
     ],
     "par_zone": [
@@ -1020,27 +1015,27 @@
   },
   "carburants": {
     "gazole": {
-      "prix": 1.58,
-      "variation_an": -0.6
+      "prix": 1.61,
+      "variation_an": -5.8
     },
     "sp95": {
-      "prix": 1.72,
-      "variation_an": -1.9
+      "prix": 1.71,
+      "variation_an": -5.5
     },
     "sp98": {
-      "prix": 1.82,
-      "variation_an": -1.5
+      "prix": 1.81,
+      "variation_an": -5.5
     },
     "evolution": [
       {
         "mois": "Jan 2023",
-        "gazole": 1.85,
-        "sp95": 1.82
+        "gazole": 1.92,
+        "sp95": 1.87
       },
       {
         "mois": "Avr 2023",
-        "gazole": 1.78,
-        "sp95": 1.88
+        "gazole": 1.81,
+        "sp95": 1.95
       },
       {
         "mois": "Juil 2023",
@@ -1049,42 +1044,47 @@
       },
       {
         "mois": "Oct 2023",
-        "gazole": 1.88,
-        "sp95": 1.92
+        "gazole": 1.91,
+        "sp95": 1.89
       },
       {
         "mois": "Jan 2024",
-        "gazole": 1.72,
-        "sp95": 1.78
-      },
-      {
-        "mois": "Avr 2024",
         "gazole": 1.75,
         "sp95": 1.82
       },
       {
+        "mois": "Avr 2024",
+        "gazole": 1.79,
+        "sp95": 1.94
+      },
+      {
         "mois": "Juil 2024",
-        "gazole": 1.68,
-        "sp95": 1.75
+        "gazole": 1.73,
+        "sp95": 1.86
       },
       {
         "mois": "Oct 2024",
-        "gazole": 1.62,
-        "sp95": 1.72
+        "gazole": 1.63,
+        "sp95": 1.76
       },
       {
         "mois": "Jan 2025",
-        "gazole": 1.65,
-        "sp95": 1.78
+        "gazole": 1.71,
+        "sp95": 1.81
       },
       {
         "mois": "Avr 2025",
-        "gazole": 1.6,
-        "sp95": 1.74
+        "gazole": 1.59,
+        "sp95": 1.73
+      },
+      {
+        "mois": "Juil 2025",
+        "gazole": 1.65,
+        "sp95": 1.72
       },
       {
         "mois": "Oct 2025",
-        "gazole": 1.58,
+        "gazole": 1.61,
         "sp95": 1.72
       }
     ]
@@ -1337,58 +1337,58 @@
     ]
   },
   "defaillances": {
-    "cumul_12_mois": 68227,
-    "variation_an": 0.8,
-    "mois": "Sep 2025",
+    "cumul_12_mois": 68145,
+    "variation_an": 4.1,
+    "mois": "Oct 2025",
     "moyenne_2010_2019": 58000,
     "evolution": [
       {
         "mois": "Jan 2023",
-        "cumul": 42000
+        "cumul": 42962
       },
       {
         "mois": "Avr 2023",
-        "cumul": 47000
+        "cumul": 46804
       },
       {
         "mois": "Juil 2023",
-        "cumul": 51000
+        "cumul": 50360
       },
       {
         "mois": "Oct 2023",
-        "cumul": 55000
+        "cumul": 53384
       },
       {
         "mois": "Jan 2024",
-        "cumul": 57500
+        "cumul": 57344
       },
       {
         "mois": "Avr 2024",
-        "cumul": 60000
+        "cumul": 60524
       },
       {
         "mois": "Juil 2024",
-        "cumul": 63500
+        "cumul": 63678
       },
       {
         "mois": "Oct 2024",
-        "cumul": 66000
+        "cumul": 65259
       },
       {
         "mois": "Jan 2025",
-        "cumul": 66500
+        "cumul": 66333
       },
       {
         "mois": "Avr 2025",
-        "cumul": 67000
+        "cumul": 67321
       },
       {
         "mois": "Juil 2025",
-        "cumul": 67600
+        "cumul": 67727
       },
       {
-        "mois": "Sep 2025",
-        "cumul": 68227
+        "mois": "Oct 2025",
+        "cumul": 68145
       }
     ],
     "par_secteur": [
@@ -3627,12 +3627,336 @@
     "sources": "CNAM-TS (Assurance Maladie), DARES"
   },
   "formation": {
+    "source_cdc": "Caisse des Dépôts - Point utilisation MonCompteFormation au 28/12/2025",
+    "date_mise_a_jour": "28/12/2025",
     "cpf": {
       "solde_moyen_euros": 1520,
-      "formations_financees_2024": 985000,
-      "montant_moyen_formation": 1450,
       "titulaires_millions": 38,
-      "reste_a_charge_moyen": 180
+      "participation_forfaitaire": 100,
+      "historique_dossiers": [
+        {
+          "annee": "2019-2020",
+          "dossiers_millions": 1.18,
+          "cout_mds": 1.44,
+          "prix_moyen": 1215
+        },
+        {
+          "annee": "2021",
+          "dossiers_millions": 2.35,
+          "cout_mds": 3.17,
+          "prix_moyen": 1350
+        },
+        {
+          "annee": "2022",
+          "dossiers_millions": 2.09,
+          "cout_mds": 3.0,
+          "prix_moyen": 1438
+        },
+        {
+          "annee": "2023",
+          "dossiers_millions": 1.45,
+          "cout_mds": 2.26,
+          "prix_moyen": 1559
+        },
+        {
+          "annee": "2024",
+          "dossiers_millions": 1.49,
+          "cout_mds": 2.36,
+          "prix_moyen": 1587
+        },
+        {
+          "annee": "2025",
+          "dossiers_millions": 1.33,
+          "cout_mds": 2.36,
+          "prix_moyen": 1776
+        }
+      ],
+      "cumul": {
+        "dossiers_millions": 9.89,
+        "cout_total_mds": 14.59,
+        "prix_moyen_global": 1476
+      },
+      "dossiers_2025": 1330000,
+      "cout_pedagogique_2025_mds": 2.36,
+      "prix_moyen_2025": 1776,
+      "taux_annulation_pct": 7.1,
+      "top_domaines": [
+        {
+          "domaine": "Transport, manutention, magasinage",
+          "part_pct": 39.8,
+          "evolution": -4.6
+        },
+        {
+          "domaine": "Insertion sociale et professionnelle",
+          "part_pct": 10.3,
+          "evolution": -1.5
+        },
+        {
+          "domaine": "Langues vivantes",
+          "part_pct": 10.3,
+          "evolution": 0.7
+        },
+        {
+          "domaine": "Informatique, réseaux",
+          "part_pct": 7.2,
+          "evolution": 0.5
+        },
+        {
+          "domaine": "Coiffure, esthétique, services",
+          "part_pct": 3.5,
+          "evolution": 0.6
+        },
+        {
+          "domaine": "Sécurité, police, surveillance",
+          "part_pct": 2.7,
+          "evolution": 0.8
+        }
+      ],
+      "top_certifications": [
+        {
+          "nom": "Permis de conduire B",
+          "dossiers_k": 298.2,
+          "cout_m": 330
+        },
+        {
+          "nom": "Bilan de compétences",
+          "dossiers_k": 91.6,
+          "cout_m": 190
+        },
+        {
+          "nom": "Accompagnement VAE",
+          "dossiers_k": 36.2,
+          "cout_m": 61
+        },
+        {
+          "nom": "Permis de conduire C",
+          "dossiers_k": 29.8,
+          "cout_m": 66
+        },
+        {
+          "nom": "Anglais professionnel (English 360)",
+          "dossiers_k": 26.3,
+          "cout_m": 66
+        },
+        {
+          "nom": "TOEIC",
+          "dossiers_k": 24.2,
+          "cout_m": 53
+        },
+        {
+          "nom": "CACES (chariots)",
+          "dossiers_k": 21.4,
+          "cout_m": 16
+        },
+        {
+          "nom": "Permis BE",
+          "dossiers_k": 18.8,
+          "cout_m": 19
+        },
+        {
+          "nom": "Excel bureautique",
+          "dossiers_k": 15.6,
+          "cout_m": 37
+        }
+      ]
+    },
+    "profil_stagiaires": {
+      "annee": 2025,
+      "statut": {
+        "demandeurs_emploi_pct": 43,
+        "salaries_pct": 57
+      },
+      "demandeurs_emploi": {
+        "dossiers_2025_k": 570,
+        "part_dossiers_pct": 42.8,
+        "cout_mds": 0.93,
+        "part_cout_pct": 39.4,
+        "financement": {
+          "france_competences_pct": 87.3,
+          "france_travail_pct": 5.4,
+          "autres_pct": 7.3
+        }
+      },
+      "genre": {
+        "femmes_pct": 47,
+        "hommes_pct": 53
+      },
+      "tranches_age": [
+        {
+          "tranche": "16-25 ans",
+          "pct": 15
+        },
+        {
+          "tranche": "26-35 ans",
+          "pct": 32
+        },
+        {
+          "tranche": "36-45 ans",
+          "pct": 26
+        },
+        {
+          "tranche": "46-55 ans",
+          "pct": 17
+        },
+        {
+          "tranche": "56 ans et +",
+          "pct": 9
+        }
+      ],
+      "csp_salaries": {
+        "non_cadres_pct": 79,
+        "cadres_pct": 21
+      },
+      "niveau_diplome": [
+        {
+          "niveau": "Bac+5 et plus",
+          "pct": 16
+        },
+        {
+          "niveau": "Bac+3 et 4",
+          "pct": 13
+        },
+        {
+          "niveau": "Bac+2",
+          "pct": 13
+        },
+        {
+          "niveau": "Bac",
+          "pct": 23
+        },
+        {
+          "niveau": "CAP, BEP",
+          "pct": 22
+        },
+        {
+          "niveau": "Sans diplôme/Brevet",
+          "pct": 13
+        }
+      ]
+    },
+    "temps_travail": {
+      "formations_sur_temps_travail_2024_pct": 17.4,
+      "formations_sur_temps_travail_2025_pct": 20.0,
+      "nb_formations_salaries_2025": 143992,
+      "cout_formations_salaries_2025_m": 278.2,
+      "dotation_entreprise_pct": 4.7,
+      "top_formations_temps_travail": [
+        {
+          "nom": "Permis B",
+          "nb": 22304,
+          "cout_m": 25
+        },
+        {
+          "nom": "Accompagnement VAE",
+          "nb": 7984,
+          "cout_m": 13
+        },
+        {
+          "nom": "Bilan de compétences",
+          "nb": 7045,
+          "cout_m": 15
+        },
+        {
+          "nom": "Permis C",
+          "nb": 5115,
+          "cout_m": 11
+        },
+        {
+          "nom": "TOEIC",
+          "nb": 3069,
+          "cout_m": 8
+        }
+      ]
+    },
+    "financement": {
+      "annee": 2025,
+      "total_cout_mds": 2.21,
+      "repartition": [
+        {
+          "financeur": "France Compétences (droits CPF)",
+          "part_pct": 91.7,
+          "montant_m": 1950
+        },
+        {
+          "financeur": "Participation forfaitaire titulaire",
+          "part_pct": 7.1,
+          "montant_m": 156
+        },
+        {
+          "financeur": "France Travail",
+          "part_pct": 2.1,
+          "montant_m": 47
+        },
+        {
+          "financeur": "Régions et OPCO",
+          "part_pct": 1.0,
+          "montant_m": 22
+        },
+        {
+          "financeur": "Dotations entreprises",
+          "part_pct": 1.2,
+          "montant_m": 26
+        }
+      ],
+      "participation_forfaitaire": {
+        "obligatoire_depuis": "2024-05-02",
+        "montant_euros": 100,
+        "description": "Depuis mai 2024, les titulaires doivent payer 100€ minimum par formation"
+      }
+    },
+    "dotations_employeurs": {
+      "dotations_creees": 48119,
+      "beneficiaires": 133351,
+      "montant_total_m": 309,
+      "evolution_dossiers_2025": 12200,
+      "montant_2025_m": 25.6
+    },
+    "offre": {
+      "organismes_actifs": 14094,
+      "certifications_disponibles": 3672,
+      "formations_differentes": 185279,
+      "sessions_disponibles": 878322,
+      "part_sessions_distance_pct": 10.9,
+      "prix_moyen_catalogue": 2435,
+      "repartition_offre": [
+        {
+          "domaine": "Transport",
+          "part_pct": 33.6
+        },
+        {
+          "domaine": "Langues vivantes",
+          "part_pct": 17.4
+        },
+        {
+          "domaine": "Autres",
+          "part_pct": 49.0
+        }
+      ]
+    },
+    "permis_conduire": {
+      "total_cumule_mds": 2.17,
+      "permis_voiture_mds": 1.57,
+      "permis_moto_m": 163,
+      "organismes_permis": 3187,
+      "organismes_moto": 1314,
+      "dossiers_2025": 12139,
+      "cout_2025_m": 23.4
+    },
+    "qualite": {
+      "evaluations_totales": 816293,
+      "dossiers_clotures_total": 8152649,
+      "taux_evaluation_pct": 10,
+      "note_moyenne_globale": 4.5,
+      "note_moyenne_formations_actives": 4.7,
+      "formations_evaluees_actives": 36364,
+      "of_avec_evaluations": 10064
+    },
+    "usage_plateforme": {
+      "visites_cumulees_2025_m": 70.9,
+      "visites_cumulees_2024_m": 67.1,
+      "part_site_web_pct": 84.9,
+      "part_application_mobile_pct": 15.1,
+      "delai_reponse_of_2j_pct": 72
     },
     "taux_acces": {
       "global": 42,
@@ -3683,16 +4007,19 @@
       "acces_formation_cadres_pct": 62,
       "acces_formation_ouvriers_pct": 28,
       "duree_moyenne_heures": 27,
-      "budget_entreprises_mds": 32
+      "budget_entreprises_mds": 32,
+      "budget_moyen_par_salarie": 700
     },
-    "budget_entreprises_md": 32,
     "notes_lecture": [
-      "📚 Taux d'accès à la formation : cadres 62% vs ouvriers 28%",
-      "💰 38 millions de titulaires CPF avec un montant moyen de 1520€",
-      "📈 L'apprentissage a triplé depuis 2018 : 980 000 apprentis en 2025",
-      "🎓 Budget formation des entreprises : 32 milliards d'euros"
+      "📊 43% des bénéficiaires CPF sont des demandeurs d'emploi en 2025 (vs 31% en 2023)",
+      "💰 Depuis mai 2024, participation forfaitaire obligatoire de 100€ par formation",
+      "⏰ 20% des formations CPF se font sur le temps de travail (vs 17.4% en 2024) → argument pour négocier !",
+      "🚗 Le permis de conduire représente près de 40% des formations CPF",
+      "📈 79% des salariés utilisant le CPF sont des non-cadres",
+      "🏢 Taux d'accès à la formation : cadres 62% vs ouvriers 28% → inégalité persistante",
+      "⭐ Note moyenne des formations : 4.7/5 (mais seulement 10% sont évaluées)"
     ],
-    "sources": "DARES, France Compétences, Caisse des Dépôts (CPF)"
+    "sources": "Caisse des Dépôts (MonCompteFormation), France Compétences, DARES"
   },
   "epargne_salariale": {
     "couverture": {
