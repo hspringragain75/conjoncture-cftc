@@ -2242,7 +2242,7 @@ def main():
                     "obligatoire_depuis": "2024-05-02",
                     "montant_euros": 102.23,
                     "montant_initial_mai_2024": 100,
-                    "description": "Participation indexée sur l'inflation. 100€ en mai 2024, 102,23€ au 01/01/2025. Montant 2026 à préciser (loi de finances)"
+                    "description": "Participation indexée sur l'inflation. 100€ en mai 2024, 102,23€ au 01/01/2026."
                 }
             },
             
