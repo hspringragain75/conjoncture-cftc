@@ -2,50 +2,67 @@ name: Update Economic Data
 
 on:
   schedule:
+    # Tous les lundis à 7h UTC
     - cron: '0 7 * * 1'
-  workflow_dispatch:
+  workflow_dispatch:  # Permet le déclenchement manuel
   push:
     branches: [main]
 
 jobs:
   update-data:
     runs-on: ubuntu-latest
+    
     steps:
-      - uses: actions/checkout@v4
+      - name: Checkout repository
+        uses: actions/checkout@v4
       
       - name: Setup Python
         uses: actions/setup-python@v5
         with:
           python-version: '3.11'
       
-      - name: Fetch latest data
+      # Étape 1 : Récupérer les données économiques (INSEE, etc.)
+      - name: Fetch latest economic data
         run: python scripts/fetch_data.py
       
+      # Étape 2 : Générer les prévisions CFTC (NOUVEAU)
+      - name: Generate CFTC predictions
+        run: python scripts/predictions_model_v2.py public/data.json
+      
+      # Étape 3 : Commit et push si changements
       - name: Commit and push if changed
         run: |
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git config user.name "github-actions[bot]"
           git add -A
-          git diff --staged --quiet || git commit -m "📊 Mise à jour données"
-          git push --force
+          git diff --staged --quiet || git commit -m "📊 Mise à jour données + prévisions $(date +'%Y-%m-%d')"
+          git push
 
   build-deploy:
     needs: update-data
     runs-on: ubuntu-latest
+    
     steps:
-      - uses: actions/checkout@v4
+      - name: Checkout updated repo
+        uses: actions/checkout@v4
         with:
           ref: main
       
-      - uses: actions/setup-node@v4
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
         with:
           node-version: '20'
+          cache: 'npm'
       
-      - run: npm install
-      - run: npm run build
+      - name: Install dependencies
+        run: npm ci
       
-      - name: Deploy
+      - name: Build
+        run: npm run build
+      
+      - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v4
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./dist
+          commit_message: "🚀 Deploy $(date +'%Y-%m-%d %H:%M')"
