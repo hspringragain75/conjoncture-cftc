@@ -3348,153 +3348,583 @@ function TravailTab({d, darkMode}) {
 
 // ==================== ONGLET PRÉVISIONS ÉCONOMIQUES ====================
 function PrevisionsTab({d, darkMode}) {
+  const [activeSubTab, setActiveSubTab] = useState('vue_ensemble');
   const chartProps = useChartProps(darkMode);
+  
+  // Données existantes (Banque de France / INSEE)
   const prev = d.previsions || {};
   const bdf = prev.banque_de_france || {};
   const insee = prev.insee || {};
   
+  // Nouvelles prévisions CFTC
+  const cftc = d.previsions_cftc || {};
+  const inflationCftc = cftc.inflation || {};
+  const smicCftc = cftc.smic || {};
+  const chomageCftc = cftc.chomage || {};
+  const scenarios = cftc.scenarios || {};
+  const naoArgs = cftc.nao_arguments || {};
+
+  const subTabs = [
+    ['vue_ensemble', '📊 Vue d\'ensemble'],
+    ['inflation', '📈 Inflation'],
+    ['smic', '💰 SMIC'],
+    ['chomage', '👥 Chômage'],
+    ['scenarios', '🎯 Scénarios'],
+    ['nao', '💬 Arguments NAO']
+  ];
+
+  // Composant graphique de prévision avec intervalle de confiance
+  const ForecastChart = ({ data, color, height = 200, yAxisLabel = "%" }) => {
+    if (!data?.predictions || !data?.periods) return null;
+    
+    const chartData = data.periods.map((period, i) => ({
+      period: period.replace(/^\d{4}-/, '').replace('T', 'T'),
+      value: data.predictions[i],
+      lower: data.lower_bound?.[i],
+      upper: data.upper_bound?.[i]
+    }));
+
+    return (
+      <ResponsiveContainer width="100%" height={height}>
+        <ComposedChart data={chartData} margin={{ top: 10, right: 10, left: -10, bottom: 0 }}>
+          <CartesianGrid {...chartProps.cartesianGrid} />
+          <XAxis dataKey="period" {...chartProps.xAxis} />
+          <YAxis {...chartProps.yAxis} tickFormatter={(v) => `${v}${yAxisLabel}`} />
+          <Tooltip 
+            {...chartProps.tooltip}
+            formatter={(value, name) => {
+              const labels = { value: 'Prévision', lower: 'Min (IC 95%)', upper: 'Max (IC 95%)' };
+              return [`${value?.toFixed(1)}%`, labels[name] || name];
+            }}
+          />
+          <ReferenceLine y={0} stroke={darkMode ? '#6b7280' : '#9ca3af'} strokeDasharray="3 3" />
+          
+          {/* Zone d'incertitude */}
+          <Area type="monotone" dataKey="upper" stroke="none" fill={color} fillOpacity={0.15} />
+          <Area type="monotone" dataKey="lower" stroke="none" fill={darkMode ? '#1f2937' : '#ffffff'} fillOpacity={1} />
+          
+          {/* Ligne principale */}
+          <Line type="monotone" dataKey="value" stroke={color} strokeWidth={3} dot={{ fill: color, r: 4 }} />
+          
+          {/* Bornes */}
+          <Line type="monotone" dataKey="upper" stroke={color} strokeWidth={1} strokeDasharray="4 4" dot={false} opacity={0.5} />
+          <Line type="monotone" dataKey="lower" stroke={color} strokeWidth={1} strokeDasharray="4 4" dot={false} opacity={0.5} />
+        </ComposedChart>
+      </ResponsiveContainer>
+    );
+  };
+
+  // Composant timeline SMIC
+  const SmicTimeline = ({ events }) => {
+    if (!events || events.length === 0) {
+      return (
+        <div className={`text-center py-6 ${darkMode ? 'text-gray-400' : 'text-gray-500'}`}>
+          <span className="text-3xl">📅</span>
+          <p className="mt-2">Chargement des prévisions SMIC...</p>
+        </div>
+      );
+    }
+
+    return (
+      <div className="space-y-4">
+        {events.map((event, idx) => {
+          const isJanuary = event.type === 'janvier';
+          const probColor = event.probability >= 0.9 ? 'green' : event.probability >= 0.6 ? 'yellow' : 'orange';
+          
+          return (
+            <div key={idx} className={`relative pl-6 border-l-4 ${
+              isJanuary 
+                ? (darkMode ? 'border-green-500' : 'border-green-500')
+                : (darkMode ? 'border-yellow-500' : 'border-yellow-500')
+            }`}>
+              {/* Point sur la timeline */}
+              <div className={`absolute -left-2.5 top-2 w-5 h-5 rounded-full flex items-center justify-center text-xs ${
+                isJanuary 
+                  ? 'bg-green-500 text-white' 
+                  : 'bg-yellow-500 text-white'
+              }`}>
+                {isJanuary ? '✓' : '?'}
+              </div>
+              
+              <div className={`rounded-xl p-4 ${darkMode ? 'bg-gray-700/50' : 'bg-gray-50'}`}>
+                {/* Header */}
+                <div className="flex items-center justify-between mb-3">
+                  <div>
+                    <span className={`text-lg font-bold ${darkMode ? 'text-white' : 'text-gray-900'}`}>
+                      {new Date(event.date).toLocaleDateString('fr-FR', { day: 'numeric', month: 'long', year: 'numeric' })}
+                    </span>
+                    <span className={`ml-2 text-xs px-2 py-1 rounded-full ${
+                      isJanuary 
+                        ? (darkMode ? 'bg-green-900/50 text-green-300' : 'bg-green-100 text-green-800')
+                        : (darkMode ? 'bg-yellow-900/50 text-yellow-300' : 'bg-yellow-100 text-yellow-800')
+                    }`}>
+                      {isJanuary ? '📅 Annuelle obligatoire' : '⚡ Automatique (seuil 2%)'}
+                    </span>
+                  </div>
+                  <div className="text-right">
+                    <span className={`text-xs ${darkMode ? 'text-gray-400' : 'text-gray-500'}`}>Probabilité</span>
+                    <div className={`text-xl font-bold ${
+                      event.probability >= 0.9 ? 'text-green-500' : 
+                      event.probability >= 0.6 ? 'text-yellow-500' : 'text-orange-500'
+                    }`}>
+                      {Math.round(event.probability * 100)}%
+                    </div>
+                  </div>
+                </div>
+                
+                {/* Données principales */}
+                <div className="grid grid-cols-3 gap-4 mb-3">
+                  <div className={`p-3 rounded-lg ${darkMode ? 'bg-gray-800' : 'bg-white'}`}>
+                    <span className={`text-xs ${darkMode ? 'text-gray-400' : 'text-gray-500'}`}>Hausse estimée</span>
+                    <p className="text-2xl font-bold text-green-500">+{event.estimated_increase_pct}%</p>
+                  </div>
+                  <div className={`p-3 rounded-lg ${darkMode ? 'bg-gray-800' : 'bg-white'}`}>
+                    <span className={`text-xs ${darkMode ? 'text-gray-400' : 'text-gray-500'}`}>Nouveau SMIC brut</span>
+                    <p className={`text-2xl font-bold ${darkMode ? 'text-white' : 'text-gray-900'}`}>
+                      {event.estimated_new_smic_brut?.toFixed(0)}€
+                    </p>
+                  </div>
+                  <div className={`p-3 rounded-lg ${darkMode ? 'bg-gray-800' : 'bg-white'}`}>
+                    <span className={`text-xs ${darkMode ? 'text-gray-400' : 'text-gray-500'}`}>Nouveau SMIC net</span>
+                    <p className={`text-2xl font-bold ${darkMode ? 'text-blue-400' : 'text-blue-600'}`}>
+                      {event.estimated_new_smic_net?.toFixed(0)}€
+                    </p>
+                  </div>
+                </div>
+                
+                {/* Explication légale */}
+                <div className={`text-xs p-2 rounded-lg ${darkMode ? 'bg-gray-800/50' : 'bg-gray-100'}`}>
+                  <span className={darkMode ? 'text-gray-300' : 'text-gray-600'}>{event.trigger}</span>
+                  {event.legal_basis && (
+                    <span className={`ml-2 ${darkMode ? 'text-gray-500' : 'text-gray-400'}`}>
+                      ({event.legal_basis})
+                    </span>
+                  )}
+                </div>
+              </div>
+            </div>
+          );
+        })}
+      </div>
+    );
+  };
+
+  // Composant scénarios
+  const ScenariosComparison = () => {
+    const scenariosList = [
+      { key: 'optimiste', label: 'Optimiste', icon: '🌟', color: 'green' },
+      { key: 'central', label: 'Central', icon: '📊', color: 'blue', highlight: true },
+      { key: 'pessimiste', label: 'Pessimiste', icon: '⚠️', color: 'red' }
+    ];
+
+    return (
+      <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
+        {scenariosList.map(({ key, label, icon, color, highlight }) => {
+          const scenario = scenarios[key] || {};
+          
+          return (
+            <div 
+              key={key}
+              className={`rounded-2xl p-5 ${
+                highlight 
+                  ? (darkMode ? 'bg-blue-900/30 border-2 border-blue-500' : 'bg-blue-50 border-2 border-blue-500')
+                  : (darkMode ? 'bg-gray-800' : 'bg-gray-50')
+              } relative`}
+            >
+              {highlight && (
+                <span className="absolute -top-3 right-4 text-xs px-3 py-1 bg-blue-500 text-white rounded-full">
+                  Probable
+                </span>
+              )}
+              
+              <div className="flex items-center gap-2 mb-4">
+                <span className="text-2xl">{icon}</span>
+                <span className={`text-lg font-bold ${darkMode ? 'text-white' : 'text-gray-900'}`}>{label}</span>
+              </div>
+              
+              <div className="space-y-3">
+                <div className="flex justify-between items-center">
+                  <span className={`text-sm ${darkMode ? 'text-gray-400' : 'text-gray-500'}`}>Inflation 12m</span>
+                  <span className={`font-bold ${darkMode ? 'text-orange-400' : 'text-orange-600'}`}>{scenario.inflation_12m}%</span>
+                </div>
+                <div className="flex justify-between items-center">
+                  <span className={`text-sm ${darkMode ? 'text-gray-400' : 'text-gray-500'}`}>SMIC</span>
+                  <span className={`font-bold ${darkMode ? 'text-green-400' : 'text-green-600'}`}>{scenario.smic_increase}</span>
+                </div>
+                <div className="flex justify-between items-center">
+                  <span className={`text-sm ${darkMode ? 'text-gray-400' : 'text-gray-500'}`}>Chômage Q4</span>
+                  <span className={`font-bold ${darkMode ? 'text-red-400' : 'text-red-600'}`}>{scenario.chomage_q4}%</span>
+                </div>
+                <div className="flex justify-between items-center">
+                  <span className={`text-sm ${darkMode ? 'text-gray-400' : 'text-gray-500'}`}>PIB</span>
+                  <span className={`font-bold ${darkMode ? 'text-blue-400' : 'text-blue-600'}`}>{scenario.pib}</span>
+                </div>
+              </div>
+              
+              <p className={`text-xs mt-4 pt-3 border-t ${darkMode ? 'border-gray-700 text-gray-400' : 'border-gray-200 text-gray-500'}`}>
+                {scenario.hypotheses}
+              </p>
+            </div>
+          );
+        })}
+      </div>
+    );
+  };
+
   return (
     <div className="space-y-4">
-      {/* KPIs Prévisions 2026 */}
-      <div className="grid grid-cols-2 md:grid-cols-4 gap-3">
-        <div className={`text-center p-4 rounded-xl ${darkMode ? 'bg-green-900/30' : 'bg-green-50'}`}>
-          <div className={`text-3xl font-bold ${darkMode ? 'text-green-300' : 'text-green-600'}`}>+{bdf.pib_croissance?.['2026'] || 1.0}%</div>
-          <div className="text-sm text-gray-500">PIB 2026</div>
-          <div className="text-xs text-gray-400">Banque de France</div>
-        </div>
-        <div className={`text-center p-4 rounded-xl ${darkMode ? 'bg-orange-900/30' : 'bg-orange-50'}`}>
-          <div className={`text-3xl font-bold ${darkMode ? 'text-orange-300' : 'text-orange-600'}`}>{bdf.inflation_ipch?.['2026'] || 1.4}%</div>
-          <div className="text-sm text-gray-500">Inflation 2026</div>
-          <div className="text-xs text-gray-400">IPCH</div>
-        </div>
-        <div className={`text-center p-4 rounded-xl ${darkMode ? 'bg-red-900/30' : 'bg-red-50'}`}>
-          <div className={`text-3xl font-bold ${darkMode ? 'text-red-300' : 'text-red-600'}`}>{bdf.taux_chomage?.['2026'] || 7.7}%</div>
-          <div className="text-sm text-gray-500">Chômage 2026</div>
-          <div className="text-xs text-gray-400">Taux BIT</div>
-        </div>
-        <div className={`text-center p-4 rounded-xl ${darkMode ? 'bg-blue-900/30' : 'bg-blue-50'}`}>
-          <div className={`text-3xl font-bold ${darkMode ? 'text-blue-300' : 'text-blue-600'}`}>+{bdf.salaires_nominaux?.['2026'] || 2.5}%</div>
-          <div className="text-sm text-gray-500">Salaires 2026</div>
-          <div className="text-xs text-gray-400">Nominaux</div>
-        </div>
-      </div>
       
-      {/* Trajectoire pluriannuelle */}
-      <Card title="🔮 Trajectoire macroéconomique (Banque de France déc. 2025)" darkMode={darkMode}>
-        <div className="overflow-x-auto">
-          <table className={`w-full text-sm ${darkMode ? 'text-gray-300' : ''}`}>
-            <thead className={darkMode ? 'bg-gray-800' : 'bg-gray-50'}>
-              <tr>
-                <th className="text-left p-2">Indicateur</th>
-                <th className="text-center p-2">2024</th>
-                <th className="text-center p-2 bg-yellow-100 dark:bg-yellow-900/30">2025</th>
-                <th className="text-center p-2 bg-green-100 dark:bg-green-900/30">2026</th>
-                <th className="text-center p-2">2027</th>
-                <th className="text-center p-2">2028</th>
-              </tr>
-            </thead>
-            <tbody>
-              <tr className={darkMode ? 'border-gray-700' : 'border-gray-200'}>
-                <td className="p-2 font-medium">PIB (%)</td>
-                <td className="text-center p-2">{bdf.pib_croissance?.['2024']}</td>
-                <td className={`text-center p-2 ${darkMode ? 'bg-yellow-900/30' : 'bg-yellow-50'} dark:bg-yellow-900/20`}>{bdf.pib_croissance?.['2025']}</td>
-                <td className={`text-center p-2 ${darkMode ? 'bg-green-900/30' : 'bg-green-50'} dark:bg-green-900/20 font-bold`}>{bdf.pib_croissance?.['2026']}</td>
-                <td className="text-center p-2">{bdf.pib_croissance?.['2027']}</td>
-                <td className="text-center p-2">{bdf.pib_croissance?.['2028']}</td>
-              </tr>
-              <tr className={darkMode ? 'border-gray-700' : 'border-gray-200'}>
-                <td className="p-2 font-medium">Inflation IPCH (%)</td>
-                <td className="text-center p-2">{bdf.inflation_ipch?.['2024']}</td>
-                <td className={`text-center p-2 ${darkMode ? 'bg-yellow-900/30' : 'bg-yellow-50'} dark:bg-yellow-900/20`}>{bdf.inflation_ipch?.['2025']}</td>
-                <td className={`text-center p-2 ${darkMode ? 'bg-green-900/30' : 'bg-green-50'} dark:bg-green-900/20 font-bold`}>{bdf.inflation_ipch?.['2026']}</td>
-                <td className="text-center p-2">{bdf.inflation_ipch?.['2027']}</td>
-                <td className="text-center p-2">{bdf.inflation_ipch?.['2028']}</td>
-              </tr>
-              <tr className={darkMode ? 'border-gray-700' : 'border-gray-200'}>
-                <td className="p-2 font-medium">Chômage (%)</td>
-                <td className="text-center p-2">{bdf.taux_chomage?.['2024']}</td>
-                <td className={`text-center p-2 ${darkMode ? 'bg-yellow-900/30' : 'bg-yellow-50'} dark:bg-yellow-900/20`}>{bdf.taux_chomage?.['2025']}</td>
-                <td className={`text-center p-2 ${darkMode ? 'bg-green-900/30' : 'bg-green-50'} dark:bg-green-900/20 font-bold`}>{bdf.taux_chomage?.['2026']}</td>
-                <td className="text-center p-2">{bdf.taux_chomage?.['2027']}</td>
-                <td className="text-center p-2">{bdf.taux_chomage?.['2028']}</td>
-              </tr>
-              <tr className={darkMode ? 'border-gray-700' : 'border-gray-200'}>
-                <td className="p-2 font-medium">Salaires nominaux (%)</td>
-                <td className="text-center p-2">{bdf.salaires_nominaux?.['2024']}</td>
-                <td className={`text-center p-2 ${darkMode ? 'bg-yellow-900/30' : 'bg-yellow-50'} dark:bg-yellow-900/20`}>{bdf.salaires_nominaux?.['2025']}</td>
-                <td className={`text-center p-2 ${darkMode ? 'bg-green-900/30' : 'bg-green-50'} dark:bg-green-900/20 font-bold`}>{bdf.salaires_nominaux?.['2026']}</td>
-                <td className="text-center p-2">{bdf.salaires_nominaux?.['2027']}</td>
-                <td className="text-center p-2">-</td>
-              </tr>
-              <tr className={darkMode ? 'border-gray-700 bg-gray-800/50' : 'border-gray-200 bg-gray-50'}>
-                <td className="p-2 font-medium">Dette publique (% PIB)</td>
-                <td className="text-center p-2">{bdf.dette_publique_pct_pib?.['2024']}</td>
-                <td className="text-center p-2">{bdf.dette_publique_pct_pib?.['2025']}</td>
-                <td className="text-center p-2 font-bold">{bdf.dette_publique_pct_pib?.['2026']}</td>
-                <td className="text-center p-2">{bdf.dette_publique_pct_pib?.['2027']}</td>
-                <td className="text-center p-2">{bdf.dette_publique_pct_pib?.['2028']}</td>
-              </tr>
-            </tbody>
-          </table>
-        </div>
-      </Card>
-      
-      {/* Comparaison des instituts */}
-      {prev.comparaison_2026 && (
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-3 sm:gap-4">
-          <Card title="📊 Prévisions PIB 2026" darkMode={darkMode}>
-            <div className="space-y-2">
-              {prev.comparaison_2026.pib?.map((p, i) => (
-                <div key={i} className="flex justify-between items-center">
-                  <span className="text-sm">{p.source}</span>
-                  <span className={`font-bold ${p.valeur >= 1.0 ? (darkMode ? 'text-green-400' : 'text-green-600') : (darkMode ? 'text-orange-400' : 'text-orange-600')}`}>
-                    +{p.valeur}%
-                  </span>
-                </div>
-              ))}
+      {/* Sub-navigation */}
+      <BubbleSubTabs 
+        tabs={subTabs} 
+        activeTab={activeSubTab} 
+        setActiveTab={setActiveSubTab} 
+        darkMode={darkMode}
+        color="purple"
+      />
+
+      {/* ==================== VUE D'ENSEMBLE ==================== */}
+      {activeSubTab === 'vue_ensemble' && (
+        <>
+          {/* KPIs avec comparaison CFTC vs BDF */}
+          <div className="grid grid-cols-2 md:grid-cols-4 gap-3">
+            <div className={`text-center p-4 rounded-2xl ${darkMode ? 'bg-orange-900/30 border border-orange-800/50' : 'bg-orange-50 border border-orange-200'}`}>
+              <div className={`text-3xl font-bold ${darkMode ? 'text-orange-300' : 'text-orange-600'}`}>
+                {inflationCftc.prevision_6m || bdf.inflation_ipch?.['2026'] || '?'}%
+              </div>
+              <div className={`text-sm ${darkMode ? 'text-gray-400' : 'text-gray-500'}`}>Inflation 6 mois</div>
+              <div className={`text-xs mt-1 flex items-center justify-center gap-1 ${
+                inflationCftc.tendance === 'hausse' ? 'text-red-400' : 'text-green-400'
+              }`}>
+                {inflationCftc.tendance === 'hausse' ? '↗' : '↘'} {inflationCftc.tendance}
+              </div>
             </div>
+            
+            <div className={`text-center p-4 rounded-2xl ${darkMode ? 'bg-green-900/30 border border-green-800/50' : 'bg-green-50 border border-green-200'}`}>
+              <div className={`text-3xl font-bold ${darkMode ? 'text-green-300' : 'text-green-600'}`}>
+                +{smicCftc.events?.[0]?.estimated_increase_pct || '?'}%
+              </div>
+              <div className={`text-sm ${darkMode ? 'text-gray-400' : 'text-gray-500'}`}>SMIC janvier</div>
+              <div className="text-xs text-green-400 mt-1">✓ Certain</div>
+            </div>
+            
+            <div className={`text-center p-4 rounded-2xl ${darkMode ? 'bg-red-900/30 border border-red-800/50' : 'bg-red-50 border border-red-200'}`}>
+              <div className={`text-3xl font-bold ${darkMode ? 'text-red-300' : 'text-red-600'}`}>
+                {chomageCftc.prevision_q4 || bdf.taux_chomage?.['2026'] || '?'}%
+              </div>
+              <div className={`text-sm ${darkMode ? 'text-gray-400' : 'text-gray-500'}`}>Chômage Q4</div>
+              <div className={`text-xs mt-1 ${
+                chomageCftc.tendance === 'hausse' ? 'text-red-400' : chomageCftc.tendance === 'baisse' ? 'text-green-400' : 'text-gray-400'
+              }`}>
+                {chomageCftc.tendance === 'hausse' ? '↗' : chomageCftc.tendance === 'baisse' ? '↘' : '→'} {chomageCftc.tendance}
+              </div>
+            </div>
+            
+            <div className={`text-center p-4 rounded-2xl ${darkMode ? 'bg-blue-900/30 border border-blue-800/50' : 'bg-blue-50 border border-blue-200'}`}>
+              <div className={`text-3xl font-bold ${darkMode ? 'text-blue-300' : 'text-blue-600'}`}>
+                +{bdf.pib_croissance?.['2026'] || '?'}%
+              </div>
+              <div className={`text-sm ${darkMode ? 'text-gray-400' : 'text-gray-500'}`}>PIB 2026</div>
+              <div className="text-xs text-gray-400 mt-1">Banque de France</div>
+            </div>
+          </div>
+
+          {/* Graphiques en ligne */}
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-4">
+            <Card title="📈 Prévision d'inflation (CFTC)" darkMode={darkMode}>
+              {inflationCftc.mensuel ? (
+                <ForecastChart data={inflationCftc.mensuel} color="#f59e0b" height={220} />
+              ) : (
+                <p className="text-gray-500 text-center py-8">Données non disponibles</p>
+              )}
+              <div className={`text-xs mt-2 p-2 rounded-lg ${darkMode ? 'bg-gray-700/50' : 'bg-gray-100'}`}>
+                💡 {inflationCftc.insight || "Modèle CFTC basé sur tendance historique + indicateurs avancés"}
+              </div>
+            </Card>
+            
+            <Card title="👥 Prévision de chômage (CFTC)" darkMode={darkMode}>
+              {chomageCftc.trimestriel ? (
+                <ForecastChart data={chomageCftc.trimestriel} color="#ef4444" height={220} />
+              ) : (
+                <p className="text-gray-500 text-center py-8">Données non disponibles</p>
+              )}
+              <div className={`text-xs mt-2 p-2 rounded-lg ${darkMode ? 'bg-gray-700/50' : 'bg-gray-100'}`}>
+                💡 {chomageCftc.insight || "Modèle basé sur loi d'Okun + climat des affaires"}
+              </div>
+            </Card>
+          </div>
+
+          {/* Tableau Banque de France (existant) */}
+          <Card title="🏦 Trajectoire Banque de France (décembre 2025)" darkMode={darkMode}>
+            <div className="overflow-x-auto">
+              <table className={`w-full text-sm ${darkMode ? 'text-gray-300' : ''}`}>
+                <thead className={darkMode ? 'bg-gray-800' : 'bg-gray-50'}>
+                  <tr>
+                    <th className="text-left p-2">Indicateur</th>
+                    <th className="text-center p-2">2024</th>
+                    <th className={`text-center p-2 ${darkMode ? 'bg-yellow-900/30' : 'bg-yellow-50'}`}>2025</th>
+                    <th className={`text-center p-2 ${darkMode ? 'bg-green-900/30' : 'bg-green-50'}`}>2026</th>
+                    <th className="text-center p-2">2027</th>
+                  </tr>
+                </thead>
+                <tbody className={`divide-y ${darkMode ? 'divide-gray-700' : 'divide-gray-200'}`}>
+                  <tr>
+                    <td className="p-2 font-medium">PIB (%)</td>
+                    <td className="text-center p-2">{bdf.pib_croissance?.['2024']}</td>
+                    <td className={`text-center p-2 ${darkMode ? 'bg-yellow-900/20' : 'bg-yellow-50'}`}>{bdf.pib_croissance?.['2025']}</td>
+                    <td className={`text-center p-2 font-bold ${darkMode ? 'bg-green-900/20' : 'bg-green-50'}`}>{bdf.pib_croissance?.['2026']}</td>
+                    <td className="text-center p-2">{bdf.pib_croissance?.['2027']}</td>
+                  </tr>
+                  <tr>
+                    <td className="p-2 font-medium">Inflation IPCH (%)</td>
+                    <td className="text-center p-2">{bdf.inflation_ipch?.['2024']}</td>
+                    <td className={`text-center p-2 ${darkMode ? 'bg-yellow-900/20' : 'bg-yellow-50'}`}>{bdf.inflation_ipch?.['2025']}</td>
+                    <td className={`text-center p-2 font-bold ${darkMode ? 'bg-green-900/20' : 'bg-green-50'}`}>{bdf.inflation_ipch?.['2026']}</td>
+                    <td className="text-center p-2">{bdf.inflation_ipch?.['2027']}</td>
+                  </tr>
+                  <tr>
+                    <td className="p-2 font-medium">Chômage (%)</td>
+                    <td className="text-center p-2">{bdf.taux_chomage?.['2024']}</td>
+                    <td className={`text-center p-2 ${darkMode ? 'bg-yellow-900/20' : 'bg-yellow-50'}`}>{bdf.taux_chomage?.['2025']}</td>
+                    <td className={`text-center p-2 font-bold ${darkMode ? 'bg-green-900/20' : 'bg-green-50'}`}>{bdf.taux_chomage?.['2026']}</td>
+                    <td className="text-center p-2">{bdf.taux_chomage?.['2027']}</td>
+                  </tr>
+                  <tr>
+                    <td className="p-2 font-medium">Salaires nominaux (%)</td>
+                    <td className="text-center p-2">{bdf.salaires_nominaux?.['2024']}</td>
+                    <td className={`text-center p-2 ${darkMode ? 'bg-yellow-900/20' : 'bg-yellow-50'}`}>{bdf.salaires_nominaux?.['2025']}</td>
+                    <td className={`text-center p-2 font-bold ${darkMode ? 'bg-green-900/20' : 'bg-green-50'}`}>{bdf.salaires_nominaux?.['2026']}</td>
+                    <td className="text-center p-2">{bdf.salaires_nominaux?.['2027']}</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </Card>
+        </>
+      )}
+
+      {/* ==================== INFLATION ==================== */}
+      {activeSubTab === 'inflation' && (
+        <>
+          <Card title="📈 Prévision d'inflation mensuelle (modèle CFTC)" darkMode={darkMode}>
+            {inflationCftc.mensuel ? (
+              <>
+                <ForecastChart data={inflationCftc.mensuel} color="#f59e0b" height={300} />
+                <div className="grid grid-cols-3 gap-3 mt-4">
+                  <BubbleStatBlock label="Inflation actuelle" value={`${inflationCftc.actuel}%`} status="neutral" darkMode={darkMode} />
+                  <BubbleStatBlock label="Prévision 6 mois" value={`${inflationCftc.prevision_6m}%`} status={inflationCftc.prevision_6m > 2 ? 'warning' : 'good'} darkMode={darkMode} />
+                  <BubbleStatBlock label="Prévision 12 mois" value={`${inflationCftc.prevision_12m}%`} status={inflationCftc.prevision_12m > 2 ? 'warning' : 'good'} darkMode={darkMode} />
+                </div>
+              </>
+            ) : (
+              <p className="text-gray-500 text-center py-8">Exécutez predictions_model_v2.py pour générer les prévisions</p>
+            )}
           </Card>
           
-          <Card title="📊 Prévisions Inflation 2026" darkMode={darkMode}>
+          <BubbleNote type="info" title="💡 Note méthodologique" darkMode={darkMode}>
+            <p>Le modèle CFTC prédit l'inflation en combinant :</p>
+            <ul className="mt-2 space-y-1">
+              <li>• <b>Tendance historique</b> : régression sur les 5 dernières années</li>
+              <li>• <b>Convergence BCE</b> : l'inflation tend vers la cible de 2%</li>
+              <li>• <b>Choc énergie</b> : impact des prix du pétrole/gaz</li>
+              <li>• <b>Saisonnalité</b> : variations mensuelles typiques</li>
+            </ul>
+            <p className="mt-2 text-xs opacity-75">Intervalle de confiance à 95% affiché en zone colorée</p>
+          </BubbleNote>
+        </>
+      )}
+
+      {/* ==================== SMIC ==================== */}
+      {activeSubTab === 'smic' && (
+        <>
+          <Card title="💰 Prévisions de revalorisation du SMIC" darkMode={darkMode}>
+            <SmicTimeline events={smicCftc.events} />
+          </Card>
+          
+          {/* Résumé 12 mois */}
+          {smicCftc.forecast_12m && (
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+              <Card title="📊 SMIC actuel" darkMode={darkMode}>
+                <div className="space-y-3">
+                  <BubbleStatBlock label="SMIC brut mensuel" value={`${smicCftc.current?.brut?.toFixed(2)}€`} status="neutral" darkMode={darkMode} />
+                  <BubbleStatBlock label="SMIC net mensuel" value={`${smicCftc.current?.net?.toFixed(2)}€`} status="neutral" darkMode={darkMode} />
+                  <BubbleStatBlock label="SMIC horaire brut" value={`${smicCftc.current?.horaire_brut?.toFixed(2)}€`} status="neutral" darkMode={darkMode} />
+                </div>
+              </Card>
+              
+              <Card title="🔮 SMIC prévu dans 12 mois" darkMode={darkMode}>
+                <div className="space-y-3">
+                  <BubbleStatBlock label="SMIC brut prévu" value={`${smicCftc.forecast_12m.final_smic_brut?.toFixed(2)}€`} status="good" darkMode={darkMode} />
+                  <BubbleStatBlock label="SMIC net prévu" value={`${smicCftc.forecast_12m.final_smic_net?.toFixed(2)}€`} status="good" darkMode={darkMode} />
+                  <BubbleStatBlock label="Hausse totale" value={`+${smicCftc.forecast_12m.total_increase_pct}%`} status="good" darkMode={darkMode} />
+                </div>
+              </Card>
+            </div>
+          )}
+          
+          {/* Règles légales */}
+          <BubbleNote type="info" title="⚖️ Règles légales du SMIC (Code du travail)" darkMode={darkMode}>
             <div className="space-y-2">
-              {prev.comparaison_2026.inflation?.map((p, i) => (
-                <div key={i} className="flex justify-between items-center">
-                  <span className="text-sm">{p.source}</span>
-                  <span className={`font-bold ${darkMode ? 'text-orange-400' : 'text-orange-600'}`}>
-                    {p.valeur}%
-                  </span>
+              <p><b>1. Revalorisation annuelle obligatoire (1er janvier)</b></p>
+              <p className="text-sm ml-4">Base = inflation des 20% ménages les plus modestes + 50% du gain de pouvoir d'achat du SHBOE</p>
+              
+              <p className="mt-3"><b>2. Revalorisation automatique en cours d'année</b></p>
+              <p className="text-sm ml-4">Déclenchée si l'inflation dépasse +2% depuis la dernière revalorisation</p>
+              
+              <p className="mt-3"><b>3. Coup de pouce gouvernemental</b></p>
+              <p className="text-sm ml-4">Possible à tout moment mais non prévisible par le modèle</p>
+            </div>
+            <p className="text-xs mt-3 opacity-75">Sources : Articles L3231-4 à L3231-11 du Code du travail</p>
+          </BubbleNote>
+        </>
+      )}
+
+      {/* ==================== CHÔMAGE ==================== */}
+      {activeSubTab === 'chomage' && (
+        <>
+          <Card title="👥 Prévision du taux de chômage (modèle CFTC)" darkMode={darkMode}>
+            {chomageCftc.trimestriel ? (
+              <>
+                <ForecastChart data={chomageCftc.trimestriel} color="#ef4444" height={300} />
+                <div className="grid grid-cols-3 gap-3 mt-4">
+                  <BubbleStatBlock label="Chômage actuel" value={`${chomageCftc.actuel}%`} status="neutral" darkMode={darkMode} />
+                  <BubbleStatBlock label="Prévision Q4" value={`${chomageCftc.prevision_q4}%`} status={chomageCftc.prevision_q4 > 8 ? 'bad' : 'neutral'} darkMode={darkMode} />
+                  <BubbleStatBlock label="Tendance" value={chomageCftc.tendance} status={chomageCftc.tendance === 'baisse' ? 'good' : chomageCftc.tendance === 'hausse' ? 'bad' : 'neutral'} darkMode={darkMode} />
+                </div>
+              </>
+            ) : (
+              <p className="text-gray-500 text-center py-8">Données non disponibles</p>
+            )}
+          </Card>
+          
+          {chomageCftc.trimestriel?.factors && (
+            <Card title="🔍 Facteurs du modèle" darkMode={darkMode}>
+              <div className="grid grid-cols-2 md:grid-cols-4 gap-3">
+                <BubbleStatBlock 
+                  label="PIB prévu" 
+                  value={`+${chomageCftc.trimestriel.factors.pib_forecast}%`} 
+                  status="neutral" 
+                  darkMode={darkMode} 
+                />
+                <BubbleStatBlock 
+                  label="Impact Okun" 
+                  value={`${chomageCftc.trimestriel.factors.okun_impact > 0 ? '+' : ''}${chomageCftc.trimestriel.factors.okun_impact}`} 
+                  status={chomageCftc.trimestriel.factors.okun_impact < 0 ? 'good' : 'bad'} 
+                  darkMode={darkMode} 
+                />
+                <BubbleStatBlock 
+                  label="Climat affaires" 
+                  value={chomageCftc.trimestriel.factors.climate_index} 
+                  status={chomageCftc.trimestriel.factors.climate_index > 100 ? 'good' : 'warning'} 
+                  darkMode={darkMode} 
+                />
+                <BubbleStatBlock 
+                  label="Tendance récente" 
+                  value={`${chomageCftc.trimestriel.factors.recent_trend > 0 ? '+' : ''}${chomageCftc.trimestriel.factors.recent_trend}`} 
+                  status={chomageCftc.trimestriel.factors.recent_trend < 0 ? 'good' : 'bad'} 
+                  darkMode={darkMode} 
+                />
+              </div>
+            </Card>
+          )}
+          
+          <BubbleNote type="info" title="💡 Loi d'Okun" darkMode={darkMode}>
+            <p>Le modèle utilise la <b>loi d'Okun</b> adaptée à la France :</p>
+            <p className="mt-2 font-mono text-sm bg-gray-100 dark:bg-gray-800 p-2 rounded">
+              Δchômage ≈ -0.35 × (croissance PIB - 1.3%)
+            </p>
+            <p className="mt-2">Interprétation : 1 point de croissance au-dessus du potentiel (1.3%) fait baisser le chômage de 0.35 point.</p>
+          </BubbleNote>
+        </>
+      )}
+
+      {/* ==================== SCÉNARIOS ==================== */}
+      {activeSubTab === 'scenarios' && (
+        <>
+          <Card title="🎯 Comparaison des scénarios à 12 mois" darkMode={darkMode}>
+            <ScenariosComparison />
+          </Card>
+          
+          {/* Aléas existants */}
+          {prev.aleas && (
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+              <Card title="⬇️ Risques baissiers" darkMode={darkMode}>
+                <ul className={`text-sm space-y-2 ${darkMode ? 'text-red-300' : 'text-red-700'}`}>
+                  {prev.aleas.baissiers?.map((a, i) => (
+                    <li key={i} className="flex items-start gap-2">
+                      <span>⚠️</span>
+                      <span>{a}</span>
+                    </li>
+                  ))}
+                </ul>
+              </Card>
+              <Card title="⬆️ Facteurs haussiers" darkMode={darkMode}>
+                <ul className={`text-sm space-y-2 ${darkMode ? 'text-green-300' : 'text-green-700'}`}>
+                  {prev.aleas.haussiers?.map((a, i) => (
+                    <li key={i} className="flex items-start gap-2">
+                      <span>✅</span>
+                      <span>{a}</span>
+                    </li>
+                  ))}
+                </ul>
+              </Card>
+            </div>
+          )}
+        </>
+      )}
+
+      {/* ==================== ARGUMENTS NAO ==================== */}
+      {activeSubTab === 'nao' && (
+        <>
+          <div className={`rounded-2xl p-6 ${darkMode ? 'bg-gradient-to-br from-purple-900/40 to-indigo-900/40 border border-purple-700/50' : 'bg-gradient-to-br from-purple-50 to-indigo-50 border border-purple-200'}`}>
+            <div className="flex items-center gap-3 mb-4">
+              <span className="text-3xl">💬</span>
+              <h3 className={`text-xl font-bold ${darkMode ? 'text-white' : 'text-gray-900'}`}>
+                Arguments pour vos Négociations Annuelles
+              </h3>
+            </div>
+            
+            {/* Argument principal */}
+            <div className={`p-5 rounded-xl mb-4 ${darkMode ? 'bg-gray-800/70' : 'bg-white'}`}>
+              <p className={`text-lg italic ${darkMode ? 'text-gray-200' : 'text-gray-700'}`}>
+                "{naoArgs.argument_principal || "Chargement..."}"
+              </p>
+            </div>
+            
+            {/* Points clés */}
+            <div className="space-y-3">
+              {naoArgs.points_cles?.map((point, idx) => (
+                <div key={idx} className={`flex items-start gap-3 p-3 rounded-xl ${darkMode ? 'bg-gray-800/50' : 'bg-white/80'}`}>
+                  <span className="text-green-500 text-xl">✓</span>
+                  <p className={`${darkMode ? 'text-gray-200' : 'text-gray-700'}`}>{point}</p>
                 </div>
               ))}
             </div>
-          </Card>
-        </div>
+            
+            {/* Phrase choc */}
+            {naoArgs.phrase_choc && (
+              <div className={`mt-4 p-4 rounded-xl ${darkMode ? 'bg-red-900/30 border border-red-700/50' : 'bg-red-50 border border-red-200'}`}>
+                <p className={`font-semibold ${darkMode ? 'text-red-300' : 'text-red-700'}`}>
+                  🎯 {naoArgs.phrase_choc}
+                </p>
+              </div>
+            )}
+          </div>
+          
+          <BubbleNote type="success" title="📋 Comment utiliser ces arguments" darkMode={darkMode}>
+            <ol className="list-decimal list-inside space-y-2">
+              <li>Commencez par rappeler le contexte d'inflation cumulée depuis 2022</li>
+              <li>Présentez les prévisions de revalorisation du SMIC comme plancher minimum</li>
+              <li>Soulignez les tensions de recrutement pour justifier une revalorisation attractive</li>
+              <li>Proposez un chiffre supérieur à l'inflation + SMIC pour valoriser l'engagement</li>
+            </ol>
+          </BubbleNote>
+        </>
       )}
-      
-      {/* Aléas */}
-      {prev.aleas && (
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-3 sm:gap-4">
-          <Card title="⬇️ Risques baissiers" darkMode={darkMode}>
-            <ul className={`text-sm space-y-1 ${darkMode ? 'text-red-300' : 'text-red-700'}`}>
-              {prev.aleas.baissiers?.map((a, i) => <li key={i}>• {a}</li>)}
-            </ul>
-          </Card>
-          <Card title="⬆️ Facteurs haussiers" darkMode={darkMode}>
-            <ul className={`text-sm space-y-1 ${darkMode ? 'text-green-300' : 'text-green-700'}`}>
-              {prev.aleas.haussiers?.map((a, i) => <li key={i}>• {a}</li>)}
-            </ul>
-          </Card>
-        </div>
-      )}
-      
-      {/* Note de lecture */}
-      <div className={`p-4 rounded-xl ${darkMode ? 'bg-purple-900/20 border border-purple-800' : 'bg-purple-50 border border-purple-200'}`}>
-        <h4 className={`font-semibold mb-2 ${darkMode ? 'text-purple-300' : 'text-purple-700'}`}>📖 Note de lecture</h4>
-        <ul className={`text-sm space-y-1 ${darkMode ? 'text-purple-200' : 'text-purple-800'}`}>
-          <li>• Les prévisions de la Banque de France sont publiées chaque trimestre</li>
-          <li>• L'INSEE publie ses projections conjoncturelles trimestrielles</li>
-          <li>• Ces données reflètent un consensus des économistes à date</li>
-        </ul>
-        {prev.sources && <p className="text-xs text-gray-500 mt-3 pt-2 border-t border-gray-300">📚 Sources : {prev.sources}</p>}
+
+      {/* Disclaimer */}
+      <div className={`text-center text-xs p-3 rounded-xl ${darkMode ? 'bg-gray-800 text-gray-500' : 'bg-gray-100 text-gray-400'}`}>
+        ⚠️ {cftc.disclaimer || "Les prévisions CFTC sont indicatives. Les prévisions institutionnelles (Banque de France, INSEE) restent la référence officielle."}
       </div>
     </div>
   );
