@@ -3873,14 +3873,14 @@ function PrevisionsTab({d, darkMode}) {
         </>
       )}
 
-      {/* ==================== ARGUMENTS NAO ==================== */}
+      {/* ==================== Note de lecture ==================== */}
       {activeSubTab === 'nao' && (
         <>
           <div className={`rounded-2xl p-6 ${darkMode ? 'bg-gradient-to-br from-purple-900/40 to-indigo-900/40 border border-purple-700/50' : 'bg-gradient-to-br from-purple-50 to-indigo-50 border border-purple-200'}`}>
             <div className="flex items-center gap-3 mb-4">
               <span className="text-3xl">💬</span>
               <h3 className={`text-xl font-bold ${darkMode ? 'text-white' : 'text-gray-900'}`}>
-                Arguments pour vos Négociations Annuelles
+                Conseils de lecture
               </h3>
             </div>
             
