@@ -1,6 +1,6 @@
 {
-  "last_updated": "27/01/2026 12:45",
-  "last_updated_iso": "2026-01-27T12:45:54.261361",
+  "last_updated": "27/01/2026 13:01",
+  "last_updated_iso": "2026-01-27T13:01:46.223040",
   "contact": "hspringragain@cftc.fr",
   "alertes": [
     {
@@ -275,7 +275,7 @@
     "ecart_hf_eqtp": 13.0,
     "difficultes_recrutement": 61,
     "irl_glissement": 0.79,
-    "prix_gazole": 1.58,
+    "prix_gazole": 1.61,
     "taux_effort_locataires": 29.6,
     "croissance_pib": 0.9,
     "climat_affaires": 99,
@@ -571,69 +571,81 @@
   "difficultes_recrutement": [
     {
       "trimestre": "T1 2023",
-      "industrie": 52,
-      "services": 38,
-      "construction": 65
+      "industrie": 65,
+      "services": 48,
+      "construction": 78
     },
     {
       "trimestre": "T2 2023",
-      "industrie": 50,
-      "services": 36,
-      "construction": 62
+      "industrie": 64,
+      "services": 48,
+      "construction": 76
     },
     {
       "trimestre": "T3 2023",
-      "industrie": 48,
-      "services": 35,
-      "construction": 60
+      "industrie": 60,
+      "services": 45,
+      "construction": 72
     },
     {
       "trimestre": "T4 2023",
-      "industrie": 45,
-      "services": 33,
-      "construction": 58
+      "industrie": 57,
+      "services": 42,
+      "construction": 68
     },
     {
       "trimestre": "T1 2024",
-      "industrie": 43,
-      "services": 32,
-      "construction": 55
+      "industrie": 53,
+      "services": 39,
+      "construction": 63
     },
     {
       "trimestre": "T2 2024",
-      "industrie": 41,
-      "services": 30,
-      "construction": 52
+      "industrie": 52,
+      "services": 39,
+      "construction": 62
     },
     {
       "trimestre": "T3 2024",
-      "industrie": 40,
-      "services": 29,
-      "construction": 50
+      "industrie": 48,
+      "services": 36,
+      "construction": 57
     },
     {
       "trimestre": "T4 2024",
-      "industrie": 38,
-      "services": 28,
-      "construction": 48
+      "industrie": 46,
+      "services": 34,
+      "construction": 55
     },
     {
       "trimestre": "T1 2025",
-      "industrie": 36,
-      "services": 27,
-      "construction": 46
+      "industrie": 44,
+      "services": 33,
+      "construction": 52
     },
     {
       "trimestre": "T2 2025",
-      "industrie": 35,
-      "services": 26,
-      "construction": 45
+      "industrie": 41,
+      "services": 30,
+      "construction": 49
     },
     {
       "trimestre": "T3 2025",
-      "industrie": 34,
-      "services": 25,
-      "construction": 44
+      "industrie": 40,
+      "services": 30,
+      "construction": 48
+    },
+    {
+      "trimestre": "T4 2025",
+      "industrie": 38,
+      "services": 28,
+      "construction": 45
+    },
+    {
+      "trimestre": "T1 2026",
+      "industrie": 39,
+      "services": 29,
+      "construction": 46
     }
   ],
   "emploi_secteur": {
@@ -1008,27 +1020,27 @@
   },
   "carburants": {
     "gazole": {
-      "prix": 1.58,
-      "variation_an": -0.6
+      "prix": 1.61,
+      "variation_an": -5.8
     },
     "sp95": {
-      "prix": 1.72,
-      "variation_an": -1.9
+      "prix": 1.71,
+      "variation_an": -5.5
     },
     "sp98": {
-      "prix": 1.82,
-      "variation_an": -1.5
+      "prix": 1.81,
+      "variation_an": -5.5
     },
     "evolution": [
       {
         "mois": "Jan 2023",
-        "gazole": 1.85,
-        "sp95": 1.82
+        "gazole": 1.92,
+        "sp95": 1.87
       },
       {
         "mois": "Avr 2023",
-        "gazole": 1.78,
-        "sp95": 1.88
+        "gazole": 1.81,
+        "sp95": 1.95
       },
       {
         "mois": "Juil 2023",
@@ -1037,42 +1049,47 @@
       },
       {
         "mois": "Oct 2023",
-        "gazole": 1.88,
-        "sp95": 1.92
+        "gazole": 1.91,
+        "sp95": 1.89
       },
       {
         "mois": "Jan 2024",
-        "gazole": 1.72,
-        "sp95": 1.78
-      },
-      {
-        "mois": "Avr 2024",
         "gazole": 1.75,
         "sp95": 1.82
       },
       {
+        "mois": "Avr 2024",
+        "gazole": 1.79,
+        "sp95": 1.94
+      },
+      {
         "mois": "Juil 2024",
-        "gazole": 1.68,
-        "sp95": 1.75
+        "gazole": 1.73,
+        "sp95": 1.86
       },
       {
         "mois": "Oct 2024",
-        "gazole": 1.62,
-        "sp95": 1.72
+        "gazole": 1.63,
+        "sp95": 1.76
       },
       {
         "mois": "Jan 2025",
-        "gazole": 1.65,
-        "sp95": 1.78
+        "gazole": 1.71,
+        "sp95": 1.81
       },
       {
         "mois": "Avr 2025",
-        "gazole": 1.6,
-        "sp95": 1.74
+        "gazole": 1.59,
+        "sp95": 1.73
+      },
+      {
+        "mois": "Juil 2025",
+        "gazole": 1.65,
+        "sp95": 1.72
       },
       {
         "mois": "Oct 2025",
-        "gazole": 1.58,
+        "gazole": 1.61,
         "sp95": 1.72
       }
     ]
@@ -4120,7 +4137,7 @@
     "sources": "INSEE - Enquête Emploi, DARES"
   },
   "previsions_cftc": {
-    "generated_at": "2026-01-27T12:45:54.329956",
+    "generated_at": "2026-01-27T13:01:46.285751",
     "model_version": "CFTC v3.0",
     "horizon": "12 mois",
     "inflation": {
