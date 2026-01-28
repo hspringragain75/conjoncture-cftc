@@ -2185,6 +2185,7 @@ def build_changelog():
                 }
             ]
         },
+    ]
     return changelog
 
 
