@@ -1,6 +1,6 @@
 {
-  "last_updated": "27/01/2026 14:13",
-  "last_updated_iso": "2026-01-27T14:13:35.347838",
+  "last_updated": "28/01/2026 07:11",
+  "last_updated_iso": "2026-01-28T07:11:40.296345",
   "contact": "hspringragain@cftc.fr",
   "alertes": [
     {
@@ -274,7 +274,7 @@
     "salaire_moyen": 2733,
     "ecart_hf_eqtp": 25.8,
     "difficultes_recrutement": 61,
-    "irl_glissement": 0.79,
+    "irl_glissement": 0.87,
     "prix_gazole": 1.61,
     "taux_effort_locataires": 29.6,
     "croissance_pib": 0.9,
@@ -850,9 +850,9 @@
     ]
   },
   "irl": {
-    "valeur_actuelle": 145.78,
-    "glissement_annuel": 0.79,
-    "trimestre": "T4 2025",
+    "valeur_actuelle": 145.77,
+    "glissement_annuel": 0.87,
+    "trimestre": "T3 2025",
     "evolution": [
       {
         "trimestre": "T1 2022",
@@ -860,19 +860,9 @@
         "glissement": 2.48
       },
       {
-        "trimestre": "T2 2022",
-        "indice": 135.84,
-        "glissement": 3.6
-      },
-      {
         "trimestre": "T3 2022",
         "indice": 136.27,
         "glissement": 3.49
-      },
-      {
-        "trimestre": "T4 2022",
-        "indice": 137.26,
-        "glissement": 3.5
       },
       {
         "trimestre": "T1 2023",
@@ -880,19 +870,9 @@
         "glissement": 3.49
       },
       {
-        "trimestre": "T2 2023",
-        "indice": 140.59,
-        "glissement": 3.5
-      },
-      {
         "trimestre": "T3 2023",
         "indice": 141.03,
         "glissement": 3.49
-      },
-      {
-        "trimestre": "T4 2023",
-        "indice": 142.06,
-        "glissement": 3.5
       },
       {
         "trimestre": "T1 2024",
@@ -900,19 +880,9 @@
         "glissement": 3.5
       },
       {
-        "trimestre": "T2 2024",
-        "indice": 145.17,
-        "glissement": 3.26
-      },
-      {
         "trimestre": "T3 2024",
         "indice": 144.51,
         "glissement": 2.47
-      },
-      {
-        "trimestre": "T4 2024",
-        "indice": 144.64,
-        "glissement": 1.82
       },
       {
         "trimestre": "T1 2025",
@@ -920,62 +890,57 @@
         "glissement": 1.4
       },
       {
-        "trimestre": "T2 2025",
-        "indice": 146.68,
-        "glissement": 1.04
-      },
-      {
         "trimestre": "T3 2025",
         "indice": 145.77,
         "glissement": 0.87
-      },
-      {
-        "trimestre": "T4 2025",
-        "indice": 145.78,
-        "glissement": 0.79
       }
     ]
   },
   "prix_immobilier": {
-    "indice_actuel": 116.2,
+    "indice_actuel": 128.5,
     "variation_trim": 1.0,
-    "variation_an": -1.8,
+    "variation_an": 0.7,
     "transactions_annuelles": 880000,
     "evolution": [
       {
-        "trimestre": "T1 2022",
-        "indice": 124.5,
-        "variation": 7.2
-      },
-      {
-        "trimestre": "T3 2022",
-        "indice": 126.8,
-        "variation": 6.1
-      },
-      {
-        "trimestre": "T1 2023",
-        "indice": 124.2,
-        "variation": -0.2
-      },
-      {
-        "trimestre": "T3 2023",
-        "indice": 120.5,
-        "variation": -5.0
+        "trimestre": "T4 2023",
+        "indice": 128.7,
+        "variation": -3.6
       },
       {
         "trimestre": "T1 2024",
-        "indice": 117.8,
-        "variation": -5.1
+        "indice": 126.0,
+        "variation": -4.8
+      },
+      {
+        "trimestre": "T2 2024",
+        "indice": 125.7,
+        "variation": -4.6
       },
       {
         "trimestre": "T3 2024",
-        "indice": 115.3,
-        "variation": -4.3
+        "indice": 127.6,
+        "variation": -3.5
+      },
+      {
+        "trimestre": "T4 2024",
+        "indice": 126.3,
+        "variation": -1.9
       },
       {
         "trimestre": "T1 2025",
-        "indice": 116.2,
-        "variation": -1.4
+        "indice": 126.5,
+        "variation": 0.4
+      },
+      {
+        "trimestre": "T2 2025",
+        "indice": 126.5,
+        "variation": 0.6
+      },
+      {
+        "trimestre": "T3 2025",
+        "indice": 128.5,
+        "variation": 0.7
       }
     ],
     "par_zone": [
@@ -1201,7 +1166,7 @@
       },
       {
         "trimestre": "T4 2024",
-        "croissance": -0.0
+        "croissance": 0.0
       },
       {
         "trimestre": "T1 2025",
@@ -4120,7 +4085,7 @@
     "sources": "INSEE - Enquête Emploi, DARES"
   },
   "previsions_cftc": {
-    "generated_at": "2026-01-27T14:13:35.431472",
+    "generated_at": "2026-01-28T07:11:40.360439",
     "model_version": "CFTC v3.0",
     "horizon": "12 mois",
     "inflation": {
