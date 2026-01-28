@@ -2086,8 +2086,8 @@ def build_alertes_automatiques(data_actuelle):
             })
     
     # ========== ALERTES EMPLOIS VACANTS ==========
-    if 'emplois_vacants' in data_actuelle and data_actuelle['emplois_vacants']:
-        ev_data = data_actuelle['emplois_vacants']
+    if 'emplois_vacants_data' in data_actuelle and data_actuelle['emplois_vacants_data']:
+        ev_data = data_actuelle['emplois_vacants_data']
         if 'taux_vacance' in ev_data and ev_data['taux_vacance']:
             dernier_taux = ev_data['taux_vacance'][-1]
             taux_vacance = dernier_taux.get('taux', 0)
