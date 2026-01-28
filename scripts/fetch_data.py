@@ -2222,6 +2222,106 @@ def main():
                 "👨 62% des AT concernent les hommes, pic chez les 30-39 ans"
             ]
         },
+         # MALADIES PROFESSIONNELLES - Données 2024 officielles CNAM
+        # Source : Caisse nationale de l'Assurance Maladie – Risques professionnels
+        # Rapport annuel 2024 (édition novembre 2025)
+        "maladies_professionnelles": {
+            "annee": 2024,
+            "source": "CNAM - Risques professionnels, Rapport annuel 2024 (édition novembre 2025)",
+            
+            "total": 50598,
+            "evolution_pct": 6.7,
+            
+            # Répartition par sexe
+            "demographie": {
+                "femmes_pct": 52,
+                "hommes_pct": 48,
+                "commentaire": "Les CTN à forte prédominance féminine (CTN D, CTN I) et exposés aux gestes répétitifs contribuent à la majorité féminine"
+            },
+            
+            # Types de maladies
+            "types": {
+                "tms_pct": 87,  # Troubles musculo-squelettiques (tableau 57)
+                "amiante_pct": 5,
+                "surdite_pct": 2,
+                "autres_pct": 6
+            },
+            
+            # Par CTN (Comité Technique National) - Données 2024
+            "par_ctn": [
+                {
+                    "ctn": "D",
+                    "secteur": "Services, Commerces, Alimentation",
+                    "mp": 10557,
+                    "evolution_pct": 5.8,
+                    "commentaire": "Grande distribution, gestes répétitifs"
+                },
+                {
+                    "ctn": "I",
+                    "secteur": "Santé, Nettoyage, Intérim",
+                    "mp": 10383,
+                    "evolution_pct": 6.1,
+                    "commentaire": "Forte prédominance féminine"
+                },
+                {
+                    "ctn": "B",
+                    "secteur": "Bâtiment et Travaux Publics",
+                    "mp": 7238,
+                    "evolution_pct": 4.5,
+                    "commentaire": None
+                },
+                {
+                    "ctn": "A",
+                    "secteur": "Métallurgie",
+                    "mp": 6237,
+                    "evolution_pct": 8.1,
+                    "commentaire": None
+                },
+                {
+                    "ctn": "C",
+                    "secteur": "Transports, Eau, Gaz, Électricité",
+                    "mp": 3968,
+                    "evolution_pct": 9.6,
+                    "commentaire": None
+                },
+                {
+                    "ctn": "G",
+                    "secteur": "Commerce non alimentaire",
+                    "mp": 3169,
+                    "evolution_pct": 12.7,
+                    "commentaire": "Plus forte hausse"
+                },
+                {
+                    "ctn": "F",
+                    "secteur": "Bois, Ameublement, Papier-Carton",
+                    "mp": 2569,
+                    "evolution_pct": 3.8,
+                    "commentaire": None
+                },
+                {
+                    "ctn": "H",
+                    "secteur": "Banques, Assurances, Services I",
+                    "mp": 2250,
+                    "evolution_pct": 12.3,
+                    "commentaire": None
+                },
+                {
+                    "ctn": "E",
+                    "secteur": "Chimie, Caoutchouc, Plasturgie",
+                    "mp": 1671,
+                    "evolution_pct": 8.9,
+                    "commentaire": None
+                }
+            ],
+            
+            "notes_lecture": [
+                "📈 50 598 maladies professionnelles reconnues en 2024 (+6.7% vs 2023)",
+                "👩 52% des MP touchent les femmes — lié aux gestes répétitifs (TMS)",
+                "🏥 Les TMS (tableau 57) représentent 87% des maladies professionnelles",
+                "📊 Les secteurs Services (CTN D et I) concentrent 41% des MP",
+                "⚠️ Plus fortes hausses : Commerce non alim. (+12.7%) et Banques (+12.3%)"
+            ]
+        },
         # FORMATION PROFESSIONNELLE - DONNÉES CDC MonCompteFormation (28/12/2025)
         # ⚠️ MàJ trimestrielle manuelle via PPT Caisse des Dépôts
         "formation": {
