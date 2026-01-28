@@ -2373,7 +2373,7 @@ def main():
         "smic": smic,
         "irl": irl,
         "defaillances": defaillances,
-        "emplois_vacants": emplois_vacants,
+        "emplois_vacants": emplois_vacants_data,
     }
     
     alertes_auto = build_alertes_automatiques(data_pour_alertes)
