@@ -3906,15 +3906,6 @@ function PrevisionsTab({d, darkMode}) {
             </div>
           </Card>
           
-          <BubbleNote type="info" title="💡 Utilisation en négociation" darkMode={darkMode}>
-            <ol className="list-decimal list-inside space-y-2">
-              <li><b>Contexte</b> : Rappeler l'inflation cumulée depuis 2022 (~12%)</li>
-              <li><b>Référence</b> : Citer les prévisions Banque de France comme source officielle</li>
-              <li><b>Plancher</b> : Le SMIC augmente de X%, les salaires doivent suivre au minimum</li>
-              <li><b>Tensions</b> : Souligner les difficultés de recrutement pour fidéliser</li>
-            </ol>
-          </BubbleNote>
-          
           {cftc.sources && (
             <div className={`p-4 rounded-xl ${darkMode ? 'bg-gray-800' : 'bg-gray-50'}`}>
               <h4 className={`font-semibold mb-2 ${darkMode ? 'text-gray-300' : 'text-gray-700'}`}>📚 Sources</h4>
