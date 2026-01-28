@@ -27,7 +27,7 @@ jobs:
       
       # Étape 2 : Générer les prévisions CFTC
       - name: Generate CFTC predictions
-        run: python scripts/predictions_model_v3.py public/data.json
+        run: python scripts/predictions_model_v4.py public/data.json
       
       # Étape 3 : Commit et push si changements
       - name: Commit and push if changed
