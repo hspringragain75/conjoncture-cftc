@@ -2218,20 +2218,6 @@ def main():
     print(f"   {datetime.now().strftime('%d/%m/%Y %H:%M')}")
     print("=" * 70)
     print()
-    
-    # Dictionnaire temporaire pour passer aux alertes
-    data_pour_alertes = {
-        "inflation_salaires": inflation_salaires,
-        "chomage": chomage,
-        "pib": pib,
-        "smic": smic,
-        "irl": irl,
-        "defaillances": defaillances,
-        "emplois_vacants": emplois_vacants,
-    }
-    
-    alertes_auto = build_alertes_automatiques(data_pour_alertes)
-    changelog = build_changelog()
 
     
     # === DONNÉES AUTOMATIQUES ===
@@ -2379,7 +2365,19 @@ def main():
         "defaillances_12m": defaillances["cumul_12_mois"]
     }
 
+    # Dictionnaire temporaire pour passer aux alertes
+    data_pour_alertes = {
+        "inflation_salaires": inflation_salaires,
+        "chomage": chomage,
+        "pib": pib,
+        "smic": smic,
+        "irl": irl,
+        "defaillances": defaillances,
+        "emplois_vacants": emplois_vacants,
+    }
     
+    alertes_auto = build_alertes_automatiques(data_pour_alertes)
+    changelog = build_changelog()
     # Assembler le JSON final
     data = {
         "last_updated": datetime.now().strftime("%d/%m/%Y %H:%M"),
