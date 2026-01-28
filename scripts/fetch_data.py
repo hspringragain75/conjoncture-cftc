@@ -1918,7 +1918,298 @@ def build_heures_travail_data():
         ]
     }
 
+def build_alertes_automatiques(data_actuelle):
+    """
+    Génère automatiquement des alertes basées sur les données récupérées.
+    
+    Types d'alertes :
+    - Nouvelles données trimestrielles/mensuelles disponibles
+    - Variations significatives (chômage, inflation, PIB...)
+    - Seuils dépassés (inflation > 2%, chômage > 8%, etc.)
+    - Mises à jour importantes (SMIC, IRL, etc.)
+    
+    Args:
+        data_actuelle: Dictionnaire contenant toutes les données récupérées
+    
+    Returns:
+        Liste d'alertes au format [{id, date, type, titre, message, onglet}, ...]
+    """
+    from datetime import datetime, timedelta
+    
+    alertes = []
+    today = datetime.now()
+    date_str = today.strftime("%Y-%m-%d")
+    
+    # ========== ALERTES INFLATION ==========
+    if 'inflation_salaires' in data_actuelle and data_actuelle['inflation_salaires']:
+        derniere_inflation = data_actuelle['inflation_salaires'][-1]
+        inflation_val = derniere_inflation.get('inflation', 0)
+        annee = derniere_inflation.get('annee', '')
+        
+        # Alerte si inflation > 2%
+        if inflation_val > 2:
+            alertes.append({
+                "id": f"inflation_elevee_{annee}",
+                "date": date_str,
+                "type": "warning",
+                "titre": f"⚠️ Inflation {annee} : {inflation_val}%",
+                "message": f"L'inflation reste au-dessus de la cible BCE (2%). Argument pour les NAO : les salaires doivent suivre.",
+                "onglet": "inflation"
+            })
+        # Alerte si inflation < 1% (bonne nouvelle)
+        elif inflation_val < 1.5:
+            alertes.append({
+                "id": f"inflation_maitrisee_{annee}",
+                "date": date_str,
+                "type": "success",
+                "titre": f"📉 Inflation maîtrisée : {inflation_val}%",
+                "message": f"L'inflation {annee} est sous contrôle. Le pouvoir d'achat se stabilise.",
+                "onglet": "inflation"
+            })
+    
+    # ========== ALERTES CHÔMAGE ==========
+    if 'chomage' in data_actuelle and data_actuelle['chomage']:
+        dernier_chomage = data_actuelle['chomage'][-1]
+        taux = dernier_chomage.get('taux', 0)
+        taux_jeunes = dernier_chomage.get('jeunes', 0)
+        trimestre = dernier_chomage.get('trimestre', '')
+        
+        # Comparer avec le trimestre précédent si disponible
+        if len(data_actuelle['chomage']) >= 2:
+            precedent = data_actuelle['chomage'][-2]
+            variation = taux - precedent.get('taux', taux)
+            
+            if variation >= 0.3:
+                alertes.append({
+                    "id": f"chomage_hausse_{trimestre.replace(' ', '_')}",
+                    "date": date_str,
+                    "type": "warning",
+                    "titre": f"📈 Chômage en hausse : {taux}%",
+                    "message": f"Le taux de chômage a augmenté de {variation:.1f} point(s) au {trimestre}.",
+                    "onglet": "emploi"
+                })
+            elif variation <= -0.3:
+                alertes.append({
+                    "id": f"chomage_baisse_{trimestre.replace(' ', '_')}",
+                    "date": date_str,
+                    "type": "success",
+                    "titre": f"📉 Chômage en baisse : {taux}%",
+                    "message": f"Bonne nouvelle ! Le chômage a reculé de {abs(variation):.1f} point(s) au {trimestre}.",
+                    "onglet": "emploi"
+                })
+        
+        # Alerte chômage des jeunes élevé
+        if taux_jeunes > 18:
+            alertes.append({
+                "id": f"chomage_jeunes_{trimestre.replace(' ', '_')}",
+                "date": date_str,
+                "type": "warning",
+                "titre": f"🧑‍🎓 Chômage jeunes élevé : {taux_jeunes}%",
+                "message": f"Le taux de chômage des 15-24 ans reste préoccupant ({trimestre}).",
+                "onglet": "emploi"
+            })
+    
+    # ========== ALERTES PIB ==========
+    if 'pib' in data_actuelle and data_actuelle['pib']:
+        croissance = data_actuelle['pib'].get('croissance_trim_actuel', 0)
+        trimestre_pib = data_actuelle['pib'].get('dernier_trimestre', '')
+        
+        if croissance < 0:
+            alertes.append({
+                "id": f"pib_negatif_{trimestre_pib.replace(' ', '_')}",
+                "date": date_str,
+                "type": "danger",
+                "titre": f"🔴 PIB en recul : {croissance}%",
+                "message": f"L'économie française se contracte au {trimestre_pib}. Vigilance sur l'emploi.",
+                "onglet": "conjoncture"
+            })
+        elif croissance >= 0.5:
+            alertes.append({
+                "id": f"pib_dynamique_{trimestre_pib.replace(' ', '_')}",
+                "date": date_str,
+                "type": "success",
+                "titre": f"📈 Croissance dynamique : +{croissance}%",
+                "message": f"Le PIB progresse de {croissance}% au {trimestre_pib}. Argument pour des augmentations !",
+                "onglet": "conjoncture"
+            })
+    
+    # ========== ALERTES SMIC ==========
+    if 'smic' in data_actuelle:
+        smic_data = data_actuelle['smic']
+        date_vigueur = smic_data.get('date_vigueur', '')
+        montant_brut = smic_data.get('montant_brut', 0)
+        
+        # Vérifier si le SMIC a été revalorisé récemment (dans les 30 derniers jours)
+        try:
+            date_smic = datetime.strptime(date_vigueur, "%Y-%m-%d")
+            if (today - date_smic).days <= 60:
+                alertes.append({
+                    "id": f"smic_{date_vigueur}",
+                    "date": date_vigueur,
+                    "type": "info",
+                    "titre": f"💰 SMIC revalorisé",
+                    "message": f"Nouveau SMIC brut : {montant_brut}€/mois depuis le {date_vigueur}. Vérifiez vos grilles !",
+                    "onglet": "salaires"
+                })
+        except:
+            pass
+    
+    # ========== ALERTES IRL ==========
+    if 'irl' in data_actuelle:
+        irl_data = data_actuelle['irl']
+        glissement = irl_data.get('glissement_annuel', 0)
+        
+        if glissement > 3:
+            alertes.append({
+                "id": f"irl_hausse_{date_str}",
+                "date": date_str,
+                "type": "warning",
+                "titre": f"🏠 IRL en hausse : +{glissement}%",
+                "message": f"Les loyers peuvent augmenter jusqu'à {glissement}% à la date anniversaire du bail.",
+                "onglet": "conditions_vie"
+            })
+    
+    # ========== ALERTES DÉFAILLANCES ==========
+    if 'defaillances' in data_actuelle:
+        defaillances = data_actuelle['defaillances']
+        cumul = defaillances.get('cumul_12_mois', 0)
+        variation = defaillances.get('variation_annuelle', 0)
+        
+        if variation > 10:
+            alertes.append({
+                "id": f"defaillances_hausse_{date_str}",
+                "date": date_str,
+                "type": "warning",
+                "titre": f"🏢 Défaillances : +{variation}%",
+                "message": f"{cumul:,} défaillances sur 12 mois. Hausse significative à surveiller.",
+                "onglet": "conjoncture"
+            })
+    
+    # ========== ALERTES EMPLOIS VACANTS ==========
+    if 'emplois_vacants' in data_actuelle and data_actuelle['emplois_vacants']:
+        ev_data = data_actuelle['emplois_vacants']
+        if 'taux_vacance' in ev_data and ev_data['taux_vacance']:
+            dernier_taux = ev_data['taux_vacance'][-1]
+            taux_vacance = dernier_taux.get('taux', 0)
+            
+            if taux_vacance > 2:
+                alertes.append({
+                    "id": f"tension_emploi_{date_str}",
+                    "date": date_str,
+                    "type": "info",
+                    "titre": f"🎯 Tensions recrutement : {taux_vacance}%",
+                    "message": "Le taux d'emplois vacants reste élevé. Les entreprises peinent à recruter.",
+                    "onglet": "emploi"
+                })
+    
+    # ========== ALERTE NOUVELLE MISE À JOUR ==========
+    # Toujours ajouter une alerte indiquant la date de mise à jour
+    alertes.append({
+        "id": f"maj_{date_str}",
+        "date": date_str,
+        "type": "info",
+        "titre": "🔄 Données actualisées",
+        "message": f"Le tableau de bord a été mis à jour le {today.strftime('%d/%m/%Y à %H:%M')}.",
+        "onglet": "conjoncture"
+    })
+    
+    # Trier par date décroissante et limiter à 10 alertes max
+    alertes = sorted(alertes, key=lambda x: x['date'], reverse=True)[:10]
+    
+    return alertes
 
+
+def build_changelog():
+    """
+    Retourne l'historique des modifications du tableau de bord.
+    À mettre à jour manuellement lors de changements importants.
+    
+    Format:
+    - version: Numéro de version (ex: "2.1.0")
+    - date: Date de la modification
+    - type: "feature" | "fix" | "data" | "breaking"
+    - titre: Titre court
+    - description: Description détaillée
+    """
+    
+    changelog = [
+        {
+            "version": "2.1.0",
+            "date": "2026-01-28",
+            "modifications": [
+                {
+                    "type": "feature",
+                    "titre": "Ajout des emplois vacants DARES",
+                    "description": "Nouveau sous-onglet 'Vacants' dans Emploi avec données API DARES (emplois vacants, occupés, taux de vacance par secteur)."
+                },
+                {
+                    "type": "feature",
+                    "titre": "Alertes automatiques",
+                    "description": "Les alertes sont maintenant générées automatiquement en fonction des variations des indicateurs (chômage, inflation, PIB...)."
+                },
+                {
+                    "type": "feature",
+                    "titre": "Changelog intégré",
+                    "description": "Nouveau sous-onglet 'Mises à jour' dans l'aide pour suivre l'historique des modifications."
+                }
+            ]
+        },
+        {
+            "version": "2.0.0",
+            "date": "2026-01-15",
+            "modifications": [
+                {
+                    "type": "feature",
+                    "titre": "Refonte graphique",
+                    "description": "Nouveau design 'Bulle' avec mode sombre, KPIs avec sparklines, et navigation améliorée."
+                },
+                {
+                    "type": "feature",
+                    "titre": "Conditions de vie",
+                    "description": "Nouvel onglet avec IRL, prix immobilier, carburants et taux d'effort logement."
+                },
+                {
+                    "type": "feature",
+                    "titre": "Conjoncture générale",
+                    "description": "PIB, climat des affaires, confiance des ménages, défaillances d'entreprises."
+                },
+                {
+                    "type": "data",
+                    "titre": "APIs automatiques",
+                    "description": "Connexion aux APIs INSEE (SDMX), data.gouv.fr (carburants), DARES."
+                }
+            ]
+        },
+        {
+            "version": "1.5.0",
+            "date": "2025-11-01",
+            "modifications": [
+                {
+                    "type": "feature",
+                    "titre": "Simulateur NAO",
+                    "description": "Calculateur interactif du coût employeur avec RGDU 2026."
+                },
+                {
+                    "type": "feature",
+                    "titre": "Comparaison européenne",
+                    "description": "Données Eurostat sur les salaires et coûts du travail dans l'UE."
+                }
+            ]
+        },
+        {
+            "version": "1.0.0",
+            "date": "2025-09-01",
+            "modifications": [
+                {
+                    "type": "feature",
+                    "titre": "Lancement initial",
+                    "description": "Première version du tableau de bord économique CFTC avec inflation, chômage, salaires."
+                }
+            ]
+        }
+    ]
+    
+    return changelog
 
 
 def main():
@@ -1927,6 +2218,21 @@ def main():
     print(f"   {datetime.now().strftime('%d/%m/%Y %H:%M')}")
     print("=" * 70)
     print()
+    
+    # Dictionnaire temporaire pour passer aux alertes
+    data_pour_alertes = {
+        "inflation_salaires": inflation_salaires,
+        "chomage": chomage,
+        "pib": pib,
+        "smic": smic,
+        "irl": irl,
+        "defaillances": defaillances,
+        "emplois_vacants": emplois_vacants,
+    }
+    
+    alertes_auto = build_alertes_automatiques(data_pour_alertes)
+    changelog = build_changelog()
+
     
     # === DONNÉES AUTOMATIQUES ===
     print("━" * 70)
@@ -2072,54 +2378,15 @@ def main():
         "climat_affaires": climat_affaires["valeur_actuelle"],
         "defaillances_12m": defaillances["cumul_12_mois"]
     }
-    
-    # ============================================================
-    # SYSTÈME D'ALERTES - Nouveautés à afficher
-    # ============================================================
-    # Modifiez cette section quand vous mettez à jour des données importantes
-    # Format: {"id": unique, "date": "YYYY-MM-DD", "type": "info|warning|success", "titre": "...", "message": "...", "onglet": "nom_onglet"}
-    
-    alertes_nouveautes = [
-        {
-            "id": "smic_2026",
-            "date": "2026-01-01",
-            "type": "success",
-            "titre": "🎉 SMIC 2026",
-            "message": "Le SMIC a été revalorisé de 2% au 1er janvier 2026. Nouveau montant net : 1 462€/mois.",
-            "onglet": "salaires"
-        },
-        {
-            "id": "chomage_t3_2025",
-            "date": "2025-11-15",
-            "type": "info",
-            "titre": "📊 Chômage T3 2025",
-            "message": "Taux de chômage T3 2025 : 7.4% (+0.1 point). Le chômage des jeunes reste élevé à 19.2%.",
-            "onglet": "emploi"
-        },
-        {
-            "id": "inflation_dec_2025",
-            "date": "2025-12-15",
-            "type": "success",
-            "titre": "📉 Inflation en baisse",
-            "message": "L'inflation annuelle est passée sous les 1.5% en décembre 2025. Bonne nouvelle pour le pouvoir d'achat !",
-            "onglet": "inflation"
-        },
-        {
-            "id": "previsions_bdf_2026",
-            "date": "2025-12-18",
-            "type": "info",
-            "titre": "🔮 Prévisions Banque de France",
-            "message": "Nouvelles projections : PIB +1.0% en 2026, inflation 1.4%, chômage 7.7%.",
-            "onglet": "previsions"
-        }
-    ]
+
     
     # Assembler le JSON final
     data = {
         "last_updated": datetime.now().strftime("%d/%m/%Y %H:%M"),
         "last_updated_iso": datetime.now().isoformat(),
         "contact": "hspringragain@cftc.fr",
-        "alertes": alertes_nouveautes,
+        "alertes": alertes_auto,
+        "changelog": changelog,
         "sources": [
             "INSEE - Indice des prix à la consommation",
             "INSEE - Enquête Emploi",
