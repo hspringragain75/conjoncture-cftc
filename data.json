@@ -1,6 +1,6 @@
 {
-  "last_updated": "28/01/2026 08:31",
-  "last_updated_iso": "2026-01-28T08:31:17.352403",
+  "last_updated": "28/01/2026 08:38",
+  "last_updated_iso": "2026-01-28T08:38:33.174667",
   "contact": "hspringragain@cftc.fr",
   "alertes": [
     {
@@ -275,7 +275,7 @@
     "ecart_hf_eqtp": 25.8,
     "difficultes_recrutement": 61,
     "irl_glissement": 0.79,
-    "prix_gazole": 1.61,
+    "prix_gazole": 1.58,
     "taux_effort_locataires": 29.6,
     "croissance_pib": 0.9,
     "climat_affaires": 98,
@@ -438,7 +438,7 @@
     },
     {
       "trimestre": "T2 2023",
-      "taux": 4.9
+      "taux": 5.1
     },
     {
       "trimestre": "T3 2023",
@@ -450,38 +450,38 @@
     },
     {
       "trimestre": "T1 2024",
-      "taux": 4.8
+      "taux": 5.0
     },
     {
       "trimestre": "T2 2024",
-      "taux": 4.9
+      "taux": 5.1
     },
     {
       "trimestre": "T3 2024",
-      "taux": 4.5
+      "taux": 5.2
     },
     {
       "trimestre": "T4 2024",
-      "taux": 4.6
+      "taux": 5.2
     },
     {
       "trimestre": "T1 2025",
-      "taux": 4.6
+      "taux": 5.3
     },
     {
       "trimestre": "T2 2025",
-      "taux": 4.7
+      "taux": 5.4
     },
     {
       "trimestre": "T3 2025",
-      "taux": 5.0
+      "taux": 5.5
     }
   ],
   "emploi_seniors_detail": {
     "taux_55_64": 61.5,
     "taux_55_59": 77.8,
     "taux_60_64": 38.9,
-    "chomage_seniors": 5.0,
+    "chomage_seniors": 5.5,
     "evolution_1an": 1.9,
     "duree_chomage_moyenne_mois": 18,
     "taux_temps_partiel": 25.5,
@@ -1020,27 +1020,27 @@
   },
   "carburants": {
     "gazole": {
-      "prix": 1.61,
-      "variation_an": -5.8
+      "prix": 1.58,
+      "variation_an": -0.6
     },
     "sp95": {
-      "prix": 1.71,
-      "variation_an": -5.5
+      "prix": 1.72,
+      "variation_an": -1.9
     },
     "sp98": {
-      "prix": 1.81,
-      "variation_an": -5.5
+      "prix": 1.82,
+      "variation_an": -1.5
     },
     "evolution": [
       {
         "mois": "Jan 2023",
-        "gazole": 1.92,
-        "sp95": 1.87
+        "gazole": 1.85,
+        "sp95": 1.82
       },
       {
         "mois": "Avr 2023",
-        "gazole": 1.81,
-        "sp95": 1.95
+        "gazole": 1.78,
+        "sp95": 1.88
       },
       {
         "mois": "Juil 2023",
@@ -1049,47 +1049,42 @@
       },
       {
         "mois": "Oct 2023",
-        "gazole": 1.91,
-        "sp95": 1.89
+        "gazole": 1.88,
+        "sp95": 1.92
       },
       {
         "mois": "Jan 2024",
+        "gazole": 1.72,
+        "sp95": 1.78
+      },
+      {
+        "mois": "Avr 2024",
         "gazole": 1.75,
         "sp95": 1.82
       },
       {
-        "mois": "Avr 2024",
-        "gazole": 1.79,
-        "sp95": 1.94
-      },
-      {
         "mois": "Juil 2024",
-        "gazole": 1.73,
-        "sp95": 1.86
+        "gazole": 1.68,
+        "sp95": 1.75
       },
       {
         "mois": "Oct 2024",
-        "gazole": 1.63,
-        "sp95": 1.76
-      },
-      {
-        "mois": "Jan 2025",
-        "gazole": 1.71,
-        "sp95": 1.81
-      },
-      {
-        "mois": "Avr 2025",
-        "gazole": 1.59,
-        "sp95": 1.73
-      },
-      {
-        "mois": "Juil 2025",
-        "gazole": 1.65,
+        "gazole": 1.62,
         "sp95": 1.72
       },
       {
+        "mois": "Jan 2025",
+        "gazole": 1.65,
+        "sp95": 1.78
+      },
+      {
+        "mois": "Avr 2025",
+        "gazole": 1.6,
+        "sp95": 1.74
+      },
+      {
         "mois": "Oct 2025",
-        "gazole": 1.61,
+        "gazole": 1.58,
         "sp95": 1.72
       }
     ]
@@ -4141,7 +4136,7 @@
     "sources": "INSEE - Enquête Emploi, DARES"
   },
   "previsions_cftc": {
-    "generated_at": "2026-01-28T08:31:17.444806",
+    "generated_at": "2026-01-28T08:38:33.476589",
     "model_version": "CFTC v4.0 (Monte Carlo)",
     "n_simulations": 1000,
     "horizon": "12 mois",
