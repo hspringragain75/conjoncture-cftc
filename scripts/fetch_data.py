@@ -2139,6 +2139,11 @@ def build_changelog():
             "modifications": [
                 {
                     "type": "feature",
+                    "titre": "Prévisions modèle Monte Carlo",
+                    "description": "Utilisation d'un modèle Monte Carlo complexe pour les prévisions CFTC."
+                },
+                {
+                    "type": "feature",
                     "titre": "Ajout des emplois vacants DARES",
                     "description": "Nouveau sous-onglet 'Vacants' dans Emploi avec données API DARES (emplois vacants, occupés, taux de vacance par secteur)."
                 },
@@ -2156,7 +2161,7 @@ def build_changelog():
         },
         {
             "version": "2.0.0",
-            "date": "2026-01-15",
+            "date": "2026-01-19",
             "modifications": [
                 {
                     "type": "feature",
@@ -2180,35 +2185,6 @@ def build_changelog():
                 }
             ]
         },
-        {
-            "version": "1.5.0",
-            "date": "2025-11-01",
-            "modifications": [
-                {
-                    "type": "feature",
-                    "titre": "Simulateur NAO",
-                    "description": "Calculateur interactif du coût employeur avec RGDU 2026."
-                },
-                {
-                    "type": "feature",
-                    "titre": "Comparaison européenne",
-                    "description": "Données Eurostat sur les salaires et coûts du travail dans l'UE."
-                }
-            ]
-        },
-        {
-            "version": "1.0.0",
-            "date": "2025-09-01",
-            "modifications": [
-                {
-                    "type": "feature",
-                    "titre": "Lancement initial",
-                    "description": "Première version du tableau de bord économique CFTC avec inflation, chômage, salaires."
-                }
-            ]
-        }
-    ]
-    
     return changelog
 
 
