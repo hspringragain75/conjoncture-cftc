@@ -2091,15 +2091,6 @@ def main():
             "sources": "Ministère du Travail - Index Egapro",
             "evolution": [{"annee": 2020, "index": 84}, {"annee": 2021, "index": 85}, {"annee": 2022, "index": 86}, {"annee": 2023, "index": 87}, {"annee": 2024, "index": 88}, {"annee": 2025, "index": 88}]
         },
-        
-        # ============================================================================
-# 🔧 PATCH - Accidents du Travail 2024
-# Source : CNAM - Risques professionnels, Rapport annuel 2024 (nov. 2025)
-# ============================================================================
-#
-# Dans fetch_data.py, remplacer la section "accidents_travail" (lignes ~2093-2117)
-# par le code ci-dessous :
-#
 
         # ACCIDENTS DU TRAVAIL - Données 2024 officielles CNAM
         # Source : Caisse nationale de l'Assurance Maladie – Risques professionnels
@@ -2158,7 +2149,7 @@ def main():
                     "accidents": 85150,
                     "evolution_pct": -0.5,
                     "if": 36.6,
-                    "commentaire": null
+                    "commentaire": None
                 },
                 {
                     "ctn": "D",
@@ -2166,7 +2157,7 @@ def main():
                     "accidents": 93735,
                     "evolution_pct": -0.9,
                     "if": 32.5,
-                    "commentaire": null
+                    "commentaire": None
                 },
                 {
                     "ctn": "E",
@@ -2190,7 +2181,7 @@ def main():
                     "accidents": 41677,
                     "evolution_pct": 0.1,
                     "if": 17.6,
-                    "commentaire": null
+                    "commentaire": None
                 },
                 {
                     "ctn": "H",
