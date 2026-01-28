@@ -2182,7 +2182,7 @@ def main():
         "types_contrats": types_contrats,
         "difficultes_recrutement": difficultes_recrutement,
         "emploi_secteur": emploi_secteur,
-        "emplois_vacants": emplois_vacants,
+        "emplois_vacants": emplois_vacants_data,
         "creations_destructions": creations_destructions,
         "tensions_metiers": tensions_metiers,
         
