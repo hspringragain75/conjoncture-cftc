@@ -2092,31 +2092,144 @@ def main():
             "evolution": [{"annee": 2020, "index": 84}, {"annee": 2021, "index": 85}, {"annee": 2022, "index": 86}, {"annee": 2023, "index": 87}, {"annee": 2024, "index": 88}, {"annee": 2025, "index": 88}]
         },
         
-        # ACCIDENTS DU TRAVAIL - version complète avec bonne structure
+        # ============================================================================
+# 🔧 PATCH - Accidents du Travail 2024
+# Source : CNAM - Risques professionnels, Rapport annuel 2024 (nov. 2025)
+# ============================================================================
+#
+# Dans fetch_data.py, remplacer la section "accidents_travail" (lignes ~2093-2117)
+# par le code ci-dessous :
+#
+
+        # ACCIDENTS DU TRAVAIL - Données 2024 officielles CNAM
+        # Source : Caisse nationale de l'Assurance Maladie – Risques professionnels
+        # Rapport annuel 2024 (édition novembre 2025)
         "accidents_travail": {
+            "annee": 2024,
+            "source": "CNAM - Risques professionnels, Rapport annuel 2024 (édition novembre 2025)",
+            
             "total_national": {
-                "accidents_avec_arret": 640000,
-                "indice_frequence": 32.4,
-                "indice_gravite": 1.3,
-                "accidents_mortels": 738,
-                "maladies_professionnelles": 47000,
-                "evolution_vs_2019": -3.2
+                "accidents_avec_arret": 549614,
+                "indice_frequence": 26.4,  # IF pour 1000 salariés
+                "accidents_mortels": 759,
+                "evolution_mortels_pct": 8.2,  # +8.2% vs 2023
+                "tendance_accidents": "baisse",
+                "tendance_gravite": "hausse"
             },
+            
+            # Répartition par sexe et âge
+            "demographie": {
+                "hommes_pct": 62,
+                "femmes_pct": 38,
+                "tranche_pic": "30-39 ans",
+                "tranche_elevee": "40-49 ans"
+            },
+            
+            # Causes principales
+            "causes": {
+                "manutention_manuelle_pct": 50,
+                "chutes_plain_pied_pct": 15,
+                "chutes_hauteur_pct": 12,
+                "outillage_pct": 8,
+                "autres_pct": 15
+            },
+            
+            # Par CTN (Comité Technique National) - Données 2024
+            "par_ctn": [
+                {
+                    "ctn": "A",
+                    "secteur": "Métallurgie",
+                    "accidents": 40161,
+                    "evolution_pct": -1.0,
+                    "if": 22.6,
+                    "commentaire": "Baisse des accidents malgré hausse des effectifs (+2.2%)"
+                },
+                {
+                    "ctn": "B",
+                    "secteur": "BTP",
+                    "accidents": 72633,
+                    "evolution_pct": -5.4,
+                    "if": 38.1,
+                    "commentaire": "IF au plus bas depuis 20 ans, perd sa place de secteur le plus accidentogène"
+                },
+                {
+                    "ctn": "C",
+                    "secteur": "Transports, Eau, Gaz, Électricité",
+                    "accidents": 85150,
+                    "evolution_pct": -0.5,
+                    "if": 36.6,
+                    "commentaire": null
+                },
+                {
+                    "ctn": "D",
+                    "secteur": "Services, Commerces, Alimentation",
+                    "accidents": 93735,
+                    "evolution_pct": -0.9,
+                    "if": 32.5,
+                    "commentaire": null
+                },
+                {
+                    "ctn": "E",
+                    "secteur": "Chimie, Caoutchouc, Plasturgie",
+                    "accidents": 8551,
+                    "evolution_pct": 3.3,
+                    "if": 19.8,
+                    "commentaire": "Hausse tirée par industrie pharmaceutique (+20% IF)"
+                },
+                {
+                    "ctn": "F",
+                    "secteur": "Bois, Ameublement, Textile",
+                    "accidents": 14363,
+                    "evolution_pct": -7.7,
+                    "if": 33.3,
+                    "commentaire": "Plus forte baisse, niveau proche de 2020"
+                },
+                {
+                    "ctn": "G",
+                    "secteur": "Commerce non alimentaire",
+                    "accidents": 41677,
+                    "evolution_pct": 0.1,
+                    "if": 17.6,
+                    "commentaire": null
+                },
+                {
+                    "ctn": "H",
+                    "secteur": "Banques, Assurances, Services I",
+                    "accidents": 36773,
+                    "evolution_pct": 7.2,
+                    "if": 7.8,
+                    "commentaire": "Plus forte hausse (+7.2%), mais IF le plus faible"
+                },
+                {
+                    "ctn": "I",
+                    "secteur": "Intérim, Santé, Action sociale",
+                    "accidents": 156571,
+                    "evolution_pct": -1.2,
+                    "if": 39.8,
+                    "commentaire": "Plus gros volume, devient le secteur avec l'IF le plus élevé (dépasse BTP)"
+                }
+            ],
+            
+            # Ancienne structure pour compatibilité (simplifiée)
             "par_secteur": [
-                {"secteur": "BTP", "accidents": 85000, "part_pct": 13, "if": 52},
-                {"secteur": "Industrie", "accidents": 120000, "part_pct": 19, "if": 28},
-                {"secteur": "Transport/Logistique", "accidents": 75000, "part_pct": 12, "if": 45},
-                {"secteur": "Commerce", "accidents": 95000, "part_pct": 15, "if": 24},
-                {"secteur": "Services", "accidents": 180000, "part_pct": 28, "if": 18},
-                {"secteur": "Santé/Action sociale", "accidents": 85000, "part_pct": 13, "if": 35}
+                {"secteur": "Intérim/Santé/Social", "accidents": 156571, "part_pct": 28, "if": 39.8},
+                {"secteur": "Services/Commerce/Alim.", "accidents": 93735, "part_pct": 17, "if": 32.5},
+                {"secteur": "Transports/Eau/Gaz", "accidents": 85150, "part_pct": 15, "if": 36.6},
+                {"secteur": "BTP", "accidents": 72633, "part_pct": 13, "if": 38.1},
+                {"secteur": "Commerce non alim.", "accidents": 41677, "part_pct": 8, "if": 17.6},
+                {"secteur": "Métallurgie", "accidents": 40161, "part_pct": 7, "if": 22.6},
+                {"secteur": "Banques/Assurances", "accidents": 36773, "part_pct": 7, "if": 7.8},
+                {"secteur": "Autres (Bois, Chimie...)", "accidents": 22914, "part_pct": 4, "if": 25.0}
             ],
+            
             "notes_lecture": [
-                "⚠️ 738 accidents mortels recensés en 2024",
-                "📈 Indice de fréquence : 32.4 accidents pour 1000 salariés",
-                "💰 Coût total AT/MP : 14.2 milliards d'euros par an",
-                "🏗️ Le BTP reste le secteur le plus accidentogène (fréquence 52)"
-            ],
-            "sources": "CNAM-TS (Assurance Maladie), DARES"
+                "📉 549 614 accidents du travail en 2024 : la baisse se poursuit",
+                "⚠️ 759 décès reconnus (+8.2% vs 2023) : la gravité augmente",
+                "📊 Indice de fréquence : 26.4 AT pour 1 000 salariés (tous secteurs)",
+                "🏥 Le secteur Intérim/Santé/Social devient le plus accidentogène (IF 39.8), dépassant le BTP (38.1)",
+                "👷 La manutention manuelle est à l'origine de 50% des accidents",
+                "👨 62% des AT concernent les hommes, pic chez les 30-39 ans"
+            ]
         },
         # FORMATION PROFESSIONNELLE - DONNÉES CDC MonCompteFormation (28/12/2025)
         # ⚠️ MàJ trimestrielle manuelle via PPT Caisse des Dépôts
