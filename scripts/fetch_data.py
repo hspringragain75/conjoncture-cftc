@@ -305,7 +305,7 @@ def build_emplois_vacants_data():
     return default_data
 
 
-    def build_emplois_vacants_par_secteur():
+def build_emplois_vacants_par_secteur():
     """
     Récupère les emplois vacants détaillés par secteur NAF
     Utile pour analyser les tensions par secteur d'activité
