@@ -1,6 +1,6 @@
 {
-  "last_updated": "28/01/2026 17:57",
-  "last_updated_iso": "2026-01-28T17:57:13.837028",
+  "last_updated": "28/01/2026 18:05",
+  "last_updated_iso": "2026-01-28T18:05:12.880180",
   "contact": "hspringragain@cftc.fr",
   "alertes": [
     {
@@ -20,11 +20,19 @@
       "onglet": "emploi"
     },
     {
+      "id": "pib_dynamique_",
+      "date": "2026-01-28",
+      "type": "success",
+      "titre": "📈 Croissance dynamique : +0.9%",
+      "message": "Le PIB progresse de 0.9% au . Argument pour des augmentations !",
+      "onglet": "conjoncture"
+    },
+    {
       "id": "maj_2026-01-28",
       "date": "2026-01-28",
       "type": "info",
       "titre": "🔄 Données actualisées",
-      "message": "Le tableau de bord a été mis à jour le 28/01/2026 à 17:57.",
+      "message": "Le tableau de bord a été mis à jour le 28/01/2026 à 18:05.",
       "onglet": "conjoncture"
     },
     {
@@ -331,9 +339,9 @@
     "irl_glissement": 0.87,
     "prix_gazole": 1.61,
     "taux_effort_locataires": 29.6,
-    "croissance_pib": 0.4,
+    "croissance_pib": 0.9,
     "climat_affaires": 99,
-    "defaillances_12m": 68227
+    "defaillances_12m": 68296
   },
   "salaire_median": {
     "montant_2024": 2190,
@@ -492,7 +500,7 @@
     },
     {
       "trimestre": "T2 2023",
-      "taux": 4.9
+      "taux": 5.1
     },
     {
       "trimestre": "T3 2023",
@@ -504,38 +512,38 @@
     },
     {
       "trimestre": "T1 2024",
-      "taux": 4.8
+      "taux": 5.0
     },
     {
       "trimestre": "T2 2024",
-      "taux": 4.9
+      "taux": 5.1
     },
     {
       "trimestre": "T3 2024",
-      "taux": 4.5
+      "taux": 5.2
     },
     {
       "trimestre": "T4 2024",
-      "taux": 4.6
+      "taux": 5.2
     },
     {
       "trimestre": "T1 2025",
-      "taux": 4.6
+      "taux": 5.3
     },
     {
       "trimestre": "T2 2025",
-      "taux": 4.7
+      "taux": 5.4
     },
     {
       "trimestre": "T3 2025",
-      "taux": 5.0
+      "taux": 5.5
     }
   ],
   "emploi_seniors_detail": {
     "taux_55_64": 61.5,
     "taux_55_59": 77.8,
     "taux_60_64": 38.9,
-    "chomage_seniors": 5.0,
+    "chomage_seniors": 5.5,
     "evolution_1an": 1.9,
     "duree_chomage_moyenne_mois": 18,
     "taux_temps_partiel": 25.5,
@@ -557,69 +565,69 @@
   "types_contrats": [
     {
       "trimestre": "T1 2023",
-      "cdi": 74.5,
-      "cdd": 8.8,
-      "interim": 2.2
+      "cdi": 83.2,
+      "cdd": 5.4,
+      "interim": 1.4
     },
     {
       "trimestre": "T2 2023",
-      "cdi": 74.3,
-      "cdd": 9.0,
-      "interim": 2.1
+      "cdi": 83.2,
+      "cdd": 5.4,
+      "interim": 1.4
     },
     {
       "trimestre": "T3 2023",
-      "cdi": 74.4,
-      "cdd": 8.9,
-      "interim": 2.0
+      "cdi": 83.4,
+      "cdd": 5.3,
+      "interim": 1.3
     },
     {
       "trimestre": "T4 2023",
-      "cdi": 74.6,
-      "cdd": 8.7,
-      "interim": 2.0
+      "cdi": 83.4,
+      "cdd": 5.3,
+      "interim": 1.3
     },
     {
       "trimestre": "T1 2024",
-      "cdi": 74.8,
-      "cdd": 8.5,
-      "interim": 1.9
+      "cdi": 83.4,
+      "cdd": 5.3,
+      "interim": 1.3
     },
     {
       "trimestre": "T2 2024",
-      "cdi": 74.7,
-      "cdd": 8.6,
-      "interim": 1.9
+      "cdi": 83.4,
+      "cdd": 5.3,
+      "interim": 1.3
     },
     {
       "trimestre": "T3 2024",
-      "cdi": 74.9,
-      "cdd": 8.4,
-      "interim": 1.8
+      "cdi": 83.4,
+      "cdd": 5.3,
+      "interim": 1.3
     },
     {
       "trimestre": "T4 2024",
-      "cdi": 75.0,
-      "cdd": 8.3,
-      "interim": 1.8
+      "cdi": 83.5,
+      "cdd": 5.2,
+      "interim": 1.3
     },
     {
       "trimestre": "T1 2025",
-      "cdi": 75.1,
-      "cdd": 8.2,
-      "interim": 1.7
+      "cdi": 83.6,
+      "cdd": 5.1,
+      "interim": 1.3
     },
     {
       "trimestre": "T2 2025",
-      "cdi": 75.2,
-      "cdd": 8.1,
-      "interim": 1.7
+      "cdi": 83.5,
+      "cdd": 5.2,
+      "interim": 1.3
     },
     {
       "trimestre": "T3 2025",
-      "cdi": 75.3,
-      "cdd": 8.0,
-      "interim": 1.6
+      "cdi": 83.6,
+      "cdd": 5.1,
+      "interim": 1.3
     }
   ],
   "difficultes_recrutement": [
@@ -1301,70 +1309,70 @@
     ]
   },
   "pib": {
-    "croissance_trim_actuel": 0.4,
+    "croissance_trim_actuel": 0.9,
     "croissance_annuelle": 1.1,
     "trimestre": "T3 2025",
-    "commentaire": "PIB volume trimestriel",
+    "commentaire": "PIB volume trimestriel - INSEE",
     "evolution": [
       {
         "trimestre": "T1 2022",
-        "croissance": 0.5
+        "croissance": 0.8
       },
       {
         "trimestre": "T2 2022",
-        "croissance": 0.4
+        "croissance": 1.0
       },
       {
         "trimestre": "T3 2022",
-        "croissance": 0.6
+        "croissance": 2.0
       },
       {
         "trimestre": "T4 2022",
-        "croissance": 0.1
+        "croissance": 1.9
       },
       {
         "trimestre": "T1 2023",
-        "croissance": 0.0
+        "croissance": 1.5
       },
       {
         "trimestre": "T2 2023",
-        "croissance": 0.7
+        "croissance": 2.3
       },
       {
         "trimestre": "T3 2023",
-        "croissance": 0.1
+        "croissance": 0.7
       },
       {
         "trimestre": "T4 2023",
-        "croissance": 0.1
+        "croissance": 1.3
       },
       {
         "trimestre": "T1 2024",
-        "croissance": 0.3
+        "croissance": 0.5
       },
       {
         "trimestre": "T2 2024",
-        "croissance": 0.2
+        "croissance": 0.1
       },
       {
         "trimestre": "T3 2024",
-        "croissance": 0.4
+        "croissance": 1.5
       },
       {
         "trimestre": "T4 2024",
-        "croissance": -0.1
+        "croissance": 0.0
       },
       {
         "trimestre": "T1 2025",
-        "croissance": 0.2
+        "croissance": 0.5
       },
       {
         "trimestre": "T2 2025",
-        "croissance": 0.3
+        "croissance": 0.4
       },
       {
         "trimestre": "T3 2025",
-        "croissance": 0.4
+        "croissance": 0.9
       }
     ],
     "contributions": {
@@ -1476,58 +1484,62 @@
     ]
   },
   "defaillances": {
-    "cumul_12_mois": 68227,
-    "variation_an": 0.8,
-    "mois": "Sep 2025",
+    "cumul_12_mois": 68296,
+    "variation_an": 3.1,
+    "mois": "Nov 2025",
     "moyenne_2010_2019": 58000,
     "evolution": [
       {
         "mois": "Jan 2023",
-        "cumul": 42000
+        "cumul": 42962
       },
       {
         "mois": "Avr 2023",
-        "cumul": 47000
+        "cumul": 46804
       },
       {
         "mois": "Juil 2023",
-        "cumul": 51000
+        "cumul": 50360
       },
       {
         "mois": "Oct 2023",
-        "cumul": 55000
+        "cumul": 53384
       },
       {
         "mois": "Jan 2024",
-        "cumul": 57500
+        "cumul": 57339
       },
       {
         "mois": "Avr 2024",
-        "cumul": 60000
+        "cumul": 60508
       },
       {
         "mois": "Juil 2024",
-        "cumul": 63500
+        "cumul": 63653
       },
       {
         "mois": "Oct 2024",
-        "cumul": 66000
+        "cumul": 65224
       },
       {
         "mois": "Jan 2025",
-        "cumul": 66500
+        "cumul": 66307
       },
       {
         "mois": "Avr 2025",
-        "cumul": 67000
+        "cumul": 67300
       },
       {
         "mois": "Juil 2025",
-        "cumul": 67600
+        "cumul": 67716
       },
       {
-        "mois": "Sep 2025",
-        "cumul": 68227
+        "mois": "Oct 2025",
+        "cumul": 68282
+      },
+      {
+        "mois": "Nov 2025",
+        "cumul": 68296
       }
     ],
     "par_secteur": [
@@ -4462,7 +4474,7 @@
     "sources": "INSEE - Enquête Emploi, DARES"
   },
   "previsions_cftc": {
-    "generated_at": "2026-01-28T17:57:13.968098",
+    "generated_at": "2026-01-28T18:05:12.964632",
     "model_version": "CFTC v4.0 (Monte Carlo)",
     "n_simulations": 1000,
     "horizon": "12 mois",
