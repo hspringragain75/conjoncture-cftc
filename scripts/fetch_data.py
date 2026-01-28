@@ -35,6 +35,9 @@ import xml.etree.ElementTree as ET
 from datetime import datetime
 import os
 
+def normalize_zero(value):
+    """Évite les -0.0 qui posent problème en JavaScript."""
+    return 0.0 if value == 0 else value
 # ============================================================================
 # CONFIGURATION DES SÉRIES INSEE
 # ============================================================================
@@ -840,7 +843,7 @@ def build_pib_data():
             if i > 0:
                 # Calculer la variation T/T-1
                 prev = data[i-1]['valeur']
-                croissance = round(((d['valeur'] / prev) - 1) * 100, 1)
+                croissance = normalize_zero(round(((d['valeur'] / prev) - 1) * 100, 1))
                 evolution.append({
                     "trimestre": d['trimestre'],
                     "croissance": croissance
