@@ -1,6 +1,6 @@
 {
-  "last_updated": "28/01/2026 07:27",
-  "last_updated_iso": "2026-01-28T07:27:07.157825",
+  "last_updated": "28/01/2026 08:31",
+  "last_updated_iso": "2026-01-28T08:31:17.352403",
   "contact": "hspringragain@cftc.fr",
   "alertes": [
     {
@@ -279,7 +279,7 @@
     "taux_effort_locataires": 29.6,
     "croissance_pib": 0.9,
     "climat_affaires": 98,
-    "defaillances_12m": 68145
+    "defaillances_12m": 68296
   },
   "salaire_median": {
     "montant_2024": 2190,
@@ -1342,9 +1342,9 @@
     ]
   },
   "defaillances": {
-    "cumul_12_mois": 68145,
-    "variation_an": 4.1,
-    "mois": "Oct 2025",
+    "cumul_12_mois": 68296,
+    "variation_an": 3.1,
+    "mois": "Nov 2025",
     "moyenne_2010_2019": 58000,
     "evolution": [
       {
@@ -1365,35 +1365,39 @@
       },
       {
         "mois": "Jan 2024",
-        "cumul": 57344
+        "cumul": 57339
       },
       {
         "mois": "Avr 2024",
-        "cumul": 60524
+        "cumul": 60508
       },
       {
         "mois": "Juil 2024",
-        "cumul": 63678
+        "cumul": 63653
       },
       {
         "mois": "Oct 2024",
-        "cumul": 65259
+        "cumul": 65224
       },
       {
         "mois": "Jan 2025",
-        "cumul": 66333
+        "cumul": 66307
       },
       {
         "mois": "Avr 2025",
-        "cumul": 67321
+        "cumul": 67300
       },
       {
         "mois": "Juil 2025",
-        "cumul": 67727
+        "cumul": 67716
       },
       {
         "mois": "Oct 2025",
-        "cumul": 68145
+        "cumul": 68282
+      },
+      {
+        "mois": "Nov 2025",
+        "cumul": 68296
       }
     ],
     "par_secteur": [
@@ -4137,57 +4141,86 @@
     "sources": "INSEE - Enquête Emploi, DARES"
   },
   "previsions_cftc": {
-    "generated_at": "2026-01-28T07:27:07.213713",
-    "model_version": "CFTC v3.0",
+    "generated_at": "2026-01-28T08:31:17.444806",
+    "model_version": "CFTC v4.0 (Monte Carlo)",
+    "n_simulations": 1000,
     "horizon": "12 mois",
     "inflation": {
       "actuel": 0.9,
-      "prevision_6m": 1.4,
+      "prevision_6m": 1.3,
       "prevision_12m": 1.5,
       "tendance": "hausse",
       "confidence": 0.85,
       "mensuel": {
         "predictions": [
+          1.0,
+          1.0,
+          1.1,
           1.1,
           1.2,
           1.3,
-          1.3,
           1.4,
-          1.4,
-          1.4,
-          1.4,
-          1.4,
+          1.5,
+          1.5,
           1.4,
           1.4,
           1.5
         ],
         "lower_bound": [
-          0.9,
+          0.8,
+          0.8,
+          0.8,
+          0.8,
+          0.8,
           0.9,
           1.0,
-          0.9,
+          1.1,
+          1.1,
+          1.1,
           1.0,
-          0.9,
-          0.9,
-          0.9,
-          0.8,
-          0.8,
-          0.8,
-          0.8
+          1.1
         ],
         "upper_bound": [
+          1.1,
+          1.2,
+          1.4,
+          1.4,
+          1.5,
+          1.6,
+          1.7,
+          1.9,
+          1.8,
+          1.8,
+          1.8,
+          1.9
+        ],
+        "p25": [
+          0.8,
+          0.9,
+          0.9,
+          1.0,
+          1.0,
+          1.1,
+          1.1,
+          1.3,
+          1.3,
+          1.3,
+          1.2,
+          1.3
+        ],
+        "p75": [
+          1.1,
+          1.1,
+          1.2,
+          1.3,
           1.3,
           1.5,
           1.6,
           1.7,
-          1.8,
-          1.9,
-          1.9,
-          1.9,
-          2.0,
-          2.0,
-          2.0,
-          2.2
+          1.7,
+          1.7,
+          1.6,
+          1.7
         ],
         "periods": [
           "2026-02",
@@ -4203,69 +4236,90 @@
           "2026-12",
           "2027-01"
         ],
-        "confidence": 0.85,
-        "sources": {
-          "actuel": 0.9,
-          "bdf_2026": 1.4,
-          "bdf_2027": 1.8
-        },
-        "methodology": "Interpolation vers prévisions Banque de France"
+        "methodology": "Monte Carlo (1000 simulations) + saisonnalité + mean reversion"
       },
-      "insight": "L'inflation devrait converger vers 1.4% fin 2026 (prévision Banque de France)."
+      "probabilites": {
+        "inflation_sous_2pct": 94.7,
+        "inflation_cible_bce": 94.7,
+        "inflation_au_dessus_3pct": 0.0,
+        "description": "94.7% de chances que l'inflation reste sous 2% à 12 mois"
+      },
+      "facteurs": {
+        "cible_bdf": 1.4,
+        "ajustement_climat": -0.02,
+        "ajustement_energie": 0.0,
+        "cible_ajustee": 1.38
+      },
+      "insight": "Inflation médiane à 12 mois : 1.5% [IC 80% : 1.1% - 1.9%]. 94.7% de probabilité de rester sous 2%."
     },
     "smic": {
       "current": {
         "brut": 1823.03,
         "net": 1443.11,
-        "horaire_brut": 12.02,
-        "last_revalorisation": "2026-01-01"
+        "horaire_brut": 12.02
       },
       "events": [
         {
           "date": "2027-01-01",
           "type": "janvier",
           "probability": 1.0,
-          "estimated_increase_pct": 2.1,
-          "estimated_new_smic_brut": 1861.31,
-          "estimated_new_smic_net": 1474.16,
+          "estimated_increase_pct": 1.7,
+          "estimated_new_smic_brut": 1854.02,
+          "estimated_new_smic_net": 1468.38,
           "trigger": "Revalorisation annuelle obligatoire",
           "legal_basis": "Code du travail, art. L3231-5",
           "confidence": "haute",
-          "details": {
-            "base_inflation_bdf": 1.8,
-            "marge_estimee": 0.3
+          "fourchette": {
+            "min": 1.4,
+            "max": 2.2
           }
         }
       ],
       "forecast_12m": {
-        "total_increase_pct": 2.1,
-        "final_smic_brut": 1861.31,
-        "final_smic_net": 1474.16
+        "total_increase_pct": 1.7,
+        "final_smic_brut": 1854.02,
+        "final_smic_net": 1468.38,
+        "fourchette": {
+          "min": 1.4,
+          "max": 2.2
+        }
       },
-      "methodology": "Règles légales + inflation BDF"
+      "methodology": "Règles légales + Monte Carlo inflation"
     },
     "chomage": {
       "actuel": 7.7,
-      "prevision_q4": 7.5,
+      "prevision_q4": 7.7,
       "tendance": "stable",
-      "confidence": 0.82,
+      "confidence": 0.8,
       "trimestriel": {
         "predictions": [
           7.7,
           7.7,
           7.7,
-          7.5
+          7.7
         ],
         "lower_bound": [
-          7.6,
           7.5,
           7.5,
-          7.2
+          7.5,
+          7.5
         ],
         "upper_bound": [
           7.8,
           7.9,
           7.9,
+          7.9
+        ],
+        "p25": [
+          7.6,
+          7.6,
+          7.5,
+          7.5
+        ],
+        "p75": [
+          7.8,
+          7.8,
+          7.8,
           7.8
         ],
         "periods": [
@@ -4274,53 +4328,143 @@
           "T4 2026",
           "T1 2027"
         ],
-        "confidence": 0.82,
-        "sources": {
-          "actuel": 7.7,
-          "bdf_2026": 7.7,
-          "bdf_2027": 7.5
-        },
-        "methodology": "Interpolation vers prévisions Banque de France"
+        "methodology": "Monte Carlo (1000 simulations) + indicateurs avancés"
       },
-      "insight": "Le chômage devrait rester autour de 7.7% en 2026 (prévision Banque de France)."
+      "probabilites": {
+        "chomage_sous_7pct": 0.0,
+        "chomage_au_dessus_8pct": 0.0
+      },
+      "facteurs": {
+        "cible_bdf": 7.7,
+        "ajustement_climat": 0.04,
+        "ajustement_recrutement": -0.11,
+        "cible_ajustee": 7.63
+      },
+      "insight": "Chômage médian à Q4 : 7.7% [IC 80% : 7.5% - 7.9%]."
     },
     "scenarios": {
       "optimiste": {
-        "inflation_12m": 0.8,
-        "chomage_q4": 7.2,
-        "smic_increase": "+2.6%",
+        "inflation_12m": 1.3,
+        "chomage_q4": 7.5,
+        "smic_increase": "+2.0%",
         "pib": "+1.5%",
-        "hypotheses": "Baisse de l'énergie, reprise européenne, consommation soutenue"
+        "hypotheses": "Scénario favorable (percentile 25)"
       },
       "central": {
         "inflation_12m": 1.5,
-        "chomage_q4": 7.5,
-        "smic_increase": "+2.1%",
+        "chomage_q4": 7.7,
+        "smic_increase": "+1.7%",
         "pib": "+1.0%",
-        "hypotheses": "Scénario Banque de France (décembre 2025)"
+        "hypotheses": "Scénario médian (Banque de France)"
       },
       "pessimiste": {
-        "inflation_12m": 2.2,
+        "inflation_12m": 1.7,
         "chomage_q4": 7.8,
-        "smic_increase": "+1.6%",
+        "smic_increase": "+1.5%",
         "pib": "+0.5%",
-        "hypotheses": "Tensions géopolitiques, hausse énergie, ralentissement mondial"
+        "hypotheses": "Scénario défavorable (percentile 75)"
+      }
+    },
+    "whatif_scenarios": {
+      "choc_petrolier": {
+        "nom": "🛢️ Choc pétrolier (+30%)",
+        "description": "Hausse brutale du prix du pétrole de 30%",
+        "hypotheses": {
+          "petrole": "+30%",
+          "gaz": "+20%"
+        },
+        "impact": {
+          "inflation_12m": 1.8,
+          "chomage_q4": 7.9,
+          "smic_supp": "+0.5%"
+        },
+        "probabilite": "15%",
+        "declencheur": "Tensions géopolitiques Moyen-Orient"
+      },
+      "recession_ue": {
+        "nom": "📉 Récession zone euro",
+        "description": "Contraction économique en Allemagne et Italie",
+        "hypotheses": {
+          "pib_ue": "-0.5%",
+          "climat": "-15pts"
+        },
+        "impact": {
+          "inflation_12m": 1.0,
+          "chomage_q4": 8.2,
+          "smic_supp": "0%"
+        },
+        "probabilite": "20%",
+        "declencheur": "Crise industrielle allemande"
+      },
+      "hausse_taux": {
+        "nom": "🏦 Hausse taux BCE (+1pt)",
+        "description": "Resserrement monétaire inattendu",
+        "hypotheses": {
+          "taux_bce": "+1pt",
+          "credit": "-10%"
+        },
+        "impact": {
+          "inflation_12m": 1.2,
+          "chomage_q4": 8.0,
+          "smic_supp": "0%"
+        },
+        "probabilite": "10%",
+        "declencheur": "Inflation zone euro persistante"
+      },
+      "reprise_forte": {
+        "nom": "🚀 Reprise économique forte",
+        "description": "Consommation et investissement repartent",
+        "hypotheses": {
+          "pib": "+2%",
+          "climat": "+10pts"
+        },
+        "impact": {
+          "inflation_12m": 1.7,
+          "chomage_q4": 7.3,
+          "smic_supp": "+0.3% (coup de pouce possible)"
+        },
+        "probabilite": "25%",
+        "declencheur": "Confiance ménages, baisse épargne"
+      },
+      "crise_energie": {
+        "nom": "⚡ Crise énergétique",
+        "description": "Rupture approvisionnement gaz",
+        "hypotheses": {
+          "gaz": "+100%",
+          "electricite": "+50%"
+        },
+        "impact": {
+          "inflation_12m": 2.0,
+          "chomage_q4": 7.9,
+          "smic_supp": "+1% (revalorisation automatique probable)"
+        },
+        "probabilite": "10%",
+        "declencheur": "Conflit Russie-Ukraine escalade"
       }
     },
     "notes_lecture": [
-      "📈 Inflation prévue à 6 mois : 1.4% (en hausse vs 0.9% actuel) — Source : modèle CFTC basé sur Banque de France",
-      "💰 Prochaine revalorisation SMIC : 2027-01-01 → 1861€ brut (+2.1%) — Obligatoire (Code du travail)",
-      "👥 Chômage prévu : 7.5% (tendance stable) — Le marché du travail reste tendu",
-      "🏢 61% des entreprises déclarent des difficultés de recrutement — Argument pour négocier",
-      "⚠️ Rappel : l'inflation cumulée depuis 2022 est d'environ 12.0% — Les salaires doivent rattraper",
-      "💡 Pour maintenir le pouvoir d'achat, une augmentation minimale de 2.0% est recommandée"
+      "📈 Inflation médiane à 12 mois : 1.5% [1.1% - 1.9%] — 94.7% de chances de rester sous 2%",
+      "💰 SMIC janvier 2027 : 1854€ brut (+1.7%, fourchette 1.4-2.2%) — Certain",
+      "👥 Chômage Q4 : 7.7% [7.5% - 7.9%] — Tendance stable",
+      "🎲 Scénario à surveiller : 🚀 Reprise économique forte (25% de probabilité)",
+      "💡 Recommandation NAO : demander au minimum +2.0% pour préserver le pouvoir d'achat"
     ],
     "sources": [
-      "Banque de France - Projections macroéconomiques (décembre 2025)",
-      "INSEE - Indices des prix à la consommation",
-      "Code du travail - Articles L3231-4 à L3231-11 (SMIC)",
-      "Modèle CFTC v3.0 - Interpolation et règles légales"
+      "Banque de France - Projections macroéconomiques",
+      "INSEE - Indices des prix et climat des affaires",
+      "Code du travail - Articles L3231-4 à L3231-11",
+      "Modèle CFTC v4.0 - Monte Carlo (1000 simulations)"
     ],
-    "disclaimer": "Prévisions basées sur les projections Banque de France et les règles légales. Les données institutionnelles font référence."
+    "methodology": {
+      "type": "Monte Carlo avec mean reversion",
+      "simulations": 1000,
+      "features": [
+        "Saisonnalité mensuelle (inflation)",
+        "Indicateurs avancés (climat affaires)",
+        "Intervalles de confiance probabilistes",
+        "Scénarios what-if pré-calculés"
+      ]
+    },
+    "disclaimer": "Prévisions probabilistes basées sur simulations Monte Carlo. Les probabilités indiquées reflètent l'incertitude du modèle."
   }
 }
