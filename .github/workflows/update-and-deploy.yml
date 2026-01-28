@@ -39,8 +39,8 @@ jobs:
             echo "Pas de changements à commit"
           else
             git commit -m "📊 Mise à jour données + prévisions $(date +'%Y-%m-%d')"
-            git pull --rebase origin main
-            git push
+            # Force push pour éviter les conflits (les données générées sont toujours les plus récentes)
+            git push --force-with-lease origin main || git push --force origin main
           fi
 
   build-deploy:
