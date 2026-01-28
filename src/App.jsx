@@ -420,6 +420,7 @@ const useChartProps = (darkMode) => {
 // ==================== COMPOSANT PRINCIPAL APP ====================
 export default function App() {
   const [data, setData] = useState(null);
+  const [modalTab, setModalTab] = useState('nouveautes'); // 'nouveautes' ou 'miseajour'
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState(null);
   const [tab, setTab] = useState('conjoncture');
@@ -521,13 +522,14 @@ export default function App() {
     <div className={`min-h-screen transition-colors duration-300 ${darkMode ? 'bg-gray-900' : 'bg-gray-50'}`}>
       <style>{scrollbarHideStyle}</style>
       
-      {/* ==================== MODAL ALERTES STYLE BULLE ==================== */}
-      {showAlertes && alertesNonLues.length > 0 && (
+      {/* ==================== MODAL ALERTES AVEC ONGLETS ==================== */}
+      {showAlertes && (
         <div className="fixed inset-0 bg-black/50 z-50 flex items-center justify-center p-4" onClick={() => setShowAlertes(false)}>
           <div 
             className={`w-full max-w-lg rounded-2xl shadow-2xl overflow-hidden ${darkMode ? 'bg-gray-800' : 'bg-white'}`}
             onClick={e => e.stopPropagation()}
           >
+            {/* Header */}
             <div className={`px-5 py-4 border-b ${darkMode ? 'border-gray-700' : 'border-gray-200'}`}>
               <div className="flex items-center justify-between">
                 <div className="flex items-center gap-3">
@@ -536,7 +538,11 @@ export default function App() {
                   </div>
                   <div>
                     <h2 className={`font-bold ${darkMode ? 'text-white' : 'text-gray-800'}`}>Quoi de neuf ?</h2>
-                    <p className={`text-xs ${darkMode ? 'text-gray-400' : 'text-gray-500'}`}>{alertesNonLues.length} nouveauté{alertesNonLues.length > 1 ? 's' : ''}</p>
+                    <p className={`text-xs ${darkMode ? 'text-gray-400' : 'text-gray-500'}`}>
+                      {modalTab === 'nouveautes' 
+                        ? `${alertesNonLues.length} notification${alertesNonLues.length > 1 ? 's' : ''}` 
+                        : 'Historique des versions'}
+                    </p>
                   </div>
                 </div>
                 <button 
@@ -547,37 +553,190 @@ export default function App() {
                 </button>
               </div>
             </div>
-            
-            <div className="p-4 space-y-3 max-h-[60vh] overflow-y-auto">
-              {alertesNonLues.map(alerte => (
-                <div 
-                  key={alerte.id}
-                  className={`p-4 rounded-2xl cursor-pointer transition-all hover:scale-[1.02] ${
-                    alerte.type === 'success' 
-                      ? (darkMode ? 'bg-green-900/30 border border-green-800' : 'bg-green-50 border border-green-200') 
-                      : alerte.type === 'warning'
-                        ? (darkMode ? 'bg-orange-900/30 border border-orange-800' : 'bg-orange-50 border border-orange-200')
-                        : (darkMode ? 'bg-blue-900/30 border border-blue-800' : 'bg-blue-50 border border-blue-200')
-                  }`}
-                  onClick={() => allerVersOnglet(alerte.onglet)}
-                >
-                  <div className="flex justify-between items-start mb-1">
-                    <h3 className={`font-semibold ${darkMode ? 'text-white' : 'text-gray-800'}`}>{alerte.titre}</h3>
-                    <span className={`text-xs px-2 py-0.5 rounded-full ${darkMode ? 'bg-gray-700 text-gray-400' : 'bg-gray-200 text-gray-500'}`}>{alerte.date}</span>
-                  </div>
-                  <p className={`text-sm ${darkMode ? 'text-gray-300' : 'text-gray-600'}`}>{alerte.message}</p>
-                  <p className="text-xs text-blue-500 mt-2">👆 Cliquer pour voir les détails</p>
-                </div>
-              ))}
+
+            {/* Onglets */}
+            <div className={`flex border-b ${darkMode ? 'border-gray-700' : 'border-gray-200'}`}>
+              <button
+                onClick={() => setModalTab('nouveautes')}
+                className={`flex-1 px-4 py-3 text-sm font-medium transition-colors relative ${
+                  modalTab === 'nouveautes'
+                    ? darkMode ? 'text-blue-400' : 'text-blue-600'
+                    : darkMode ? 'text-gray-400 hover:text-gray-200' : 'text-gray-500 hover:text-gray-700'
+                }`}
+              >
+                <span className="flex items-center justify-center gap-2">
+                  📢 Nouveautés
+                  {alertesNonLues.length > 0 && (
+                    <span className="px-1.5 py-0.5 text-xs bg-red-500 text-white rounded-full">
+                      {alertesNonLues.length}
+                    </span>
+                  )}
+                </span>
+                {modalTab === 'nouveautes' && (
+                  <div className="absolute bottom-0 left-0 right-0 h-0.5 bg-blue-500"></div>
+                )}
+              </button>
+              <button
+                onClick={() => setModalTab('miseajour')}
+                className={`flex-1 px-4 py-3 text-sm font-medium transition-colors relative ${
+                  modalTab === 'miseajour'
+                    ? darkMode ? 'text-blue-400' : 'text-blue-600'
+                    : darkMode ? 'text-gray-400 hover:text-gray-200' : 'text-gray-500 hover:text-gray-700'
+                }`}
+              >
+                <span className="flex items-center justify-center gap-2">
+                  🔄 Mises à jour
+                </span>
+                {modalTab === 'miseajour' && (
+                  <div className="absolute bottom-0 left-0 right-0 h-0.5 bg-blue-500"></div>
+                )}
+              </button>
             </div>
             
+            {/* Contenu - Onglet Nouveautés */}
+            {modalTab === 'nouveautes' && (
+              <div className="p-4 space-y-3 max-h-[50vh] overflow-y-auto">
+                {alertesNonLues.length > 0 ? (
+                  alertesNonLues.map(alerte => {
+                    const typeConfig = {
+                      success: {
+                        bg: darkMode ? 'bg-green-900/30 border-green-800' : 'bg-green-50 border-green-200',
+                        icon: '✅'
+                      },
+                      warning: {
+                        bg: darkMode ? 'bg-orange-900/30 border-orange-800' : 'bg-orange-50 border-orange-200',
+                        icon: '⚠️'
+                      },
+                      danger: {
+                        bg: darkMode ? 'bg-red-900/30 border-red-800' : 'bg-red-50 border-red-200',
+                        icon: '🔴'
+                      },
+                      info: {
+                        bg: darkMode ? 'bg-blue-900/30 border-blue-800' : 'bg-blue-50 border-blue-200',
+                        icon: 'ℹ️'
+                      }
+                    };
+                    const config = typeConfig[alerte.type] || typeConfig.info;
+                    
+                    return (
+                      <div 
+                        key={alerte.id}
+                        className={`p-4 rounded-2xl border cursor-pointer transition-all hover:scale-[1.02] ${config.bg}`}
+                        onClick={() => allerVersOnglet(alerte.onglet)}
+                      >
+                        <div className="flex justify-between items-start mb-1">
+                          <h3 className={`font-semibold ${darkMode ? 'text-white' : 'text-gray-800'}`}>
+                            {config.icon} {alerte.titre}
+                          </h3>
+                          <span className={`text-xs px-2 py-0.5 rounded-full ${darkMode ? 'bg-gray-700 text-gray-400' : 'bg-gray-200 text-gray-500'}`}>
+                            {alerte.date}
+                          </span>
+                        </div>
+                        <p className={`text-sm ${darkMode ? 'text-gray-300' : 'text-gray-600'}`}>
+                          {alerte.message}
+                        </p>
+                        <p className="text-xs text-blue-500 mt-2">👆 Cliquer pour voir les détails</p>
+                      </div>
+                    );
+                  })
+                ) : (
+                  <div className={`text-center py-8 ${darkMode ? 'text-gray-400' : 'text-gray-500'}`}>
+                    <div className="text-4xl mb-2">🎉</div>
+                    <p className="font-medium">Vous êtes à jour !</p>
+                    <p className="text-sm mt-1">Aucune nouvelle notification</p>
+                  </div>
+                )}
+              </div>
+            )}
+
+            {/* Contenu - Onglet Mises à jour (Changelog) */}
+            {modalTab === 'miseajour' && (
+              <div className="p-4 max-h-[50vh] overflow-y-auto">
+                {d.changelog && d.changelog.length > 0 ? (
+                  <div className="space-y-4">
+                    {d.changelog.map((release, idx) => (
+                      <div key={idx} className={`${idx !== 0 ? 'pt-4 border-t ' + (darkMode ? 'border-gray-700' : 'border-gray-200') : ''}`}>
+                        {/* En-tête version */}
+                        <div className="flex items-center gap-2 mb-3">
+                          <span className={`px-2.5 py-1 rounded-lg text-sm font-bold ${
+                            idx === 0 
+                              ? 'bg-blue-600 text-white' 
+                              : darkMode ? 'bg-gray-700 text-gray-300' : 'bg-gray-100 text-gray-600'
+                          }`}>
+                            v{release.version}
+                          </span>
+                          <span className={`text-sm ${darkMode ? 'text-gray-400' : 'text-gray-500'}`}>
+                            {new Date(release.date).toLocaleDateString('fr-FR', { 
+                              year: 'numeric', 
+                              month: 'short', 
+                              day: 'numeric' 
+                            })}
+                          </span>
+                          {idx === 0 && (
+                            <span className="px-2 py-0.5 bg-green-500 text-white text-[10px] rounded-full font-medium">
+                              ACTUELLE
+                            </span>
+                          )}
+                        </div>
+                        
+                        {/* Liste des modifications */}
+                        <div className="space-y-2 pl-2">
+                          {release.modifications.map((mod, modIdx) => {
+                            const typeEmoji = {
+                              feature: '✨',
+                              fix: '🔧',
+                              data: '📊',
+                              breaking: '⚠️'
+                            };
+                            
+                            return (
+                              <div key={modIdx} className="flex items-start gap-2">
+                                <span>{typeEmoji[mod.type] || '•'}</span>
+                                <div>
+                                  <span className={`font-medium ${darkMode ? 'text-gray-200' : 'text-gray-700'}`}>
+                                    {mod.titre}
+                                  </span>
+                                  <span className={`text-sm ${darkMode ? 'text-gray-400' : 'text-gray-500'}`}>
+                                    {' — '}{mod.description}
+                                  </span>
+                                </div>
+                              </div>
+                            );
+                          })}
+                        </div>
+                      </div>
+                    ))}
+                  </div>
+                ) : (
+                  <div className={`text-center py-8 ${darkMode ? 'text-gray-400' : 'text-gray-500'}`}>
+                    <div className="text-4xl mb-2">📝</div>
+                    <p>Aucun historique disponible</p>
+                  </div>
+                )}
+              </div>
+            )}
+            
+            {/* Footer */}
             <div className={`px-4 py-3 border-t ${darkMode ? 'border-gray-700' : 'border-gray-200'}`}>
-              <button 
-                onClick={marquerAlertesLues}
-                className="w-full py-3 bg-blue-600 hover:bg-blue-700 text-white rounded-xl font-medium transition"
-              >
-                ✓ Tout marquer comme lu
-              </button>
+              {modalTab === 'nouveautes' && alertesNonLues.length > 0 ? (
+                <button 
+                  onClick={marquerAlertesLues}
+                  className="w-full py-3 bg-blue-600 hover:bg-blue-700 text-white rounded-xl font-medium transition"
+                >
+                  ✓ Tout marquer comme lu
+                </button>
+              ) : (
+                <button 
+                  onClick={() => setShowAlertes(false)}
+                  className={`w-full py-3 rounded-xl font-medium transition ${
+                    darkMode 
+                      ? 'bg-gray-700 text-gray-200 hover:bg-gray-600' 
+                      : 'bg-gray-100 text-gray-700 hover:bg-gray-200'
+                  }`}
+                >
+                  Fermer
+                </button>
+              )}
             </div>
           </div>
         </div>
