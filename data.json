@@ -1,6 +1,6 @@
 {
-  "last_updated": "28/01/2026 13:14",
-  "last_updated_iso": "2026-01-28T13:14:01.536120",
+  "last_updated": "28/01/2026 15:30",
+  "last_updated_iso": "2026-01-28T15:30:21.040243",
   "contact": "hspringragain@cftc.fr",
   "alertes": [
     {
@@ -272,13 +272,13 @@
     "smic_net": 1443.11,
     "salaire_median": 2190,
     "salaire_moyen": 2733,
-    "ecart_hf_eqtp": 13.0,
+    "ecart_hf_eqtp": 25.8,
     "difficultes_recrutement": 61,
     "irl_glissement": 0.79,
     "prix_gazole": 1.61,
     "taux_effort_locataires": 29.6,
     "croissance_pib": 0.9,
-    "climat_affaires": 99,
+    "climat_affaires": 98,
     "defaillances_12m": 68296
   },
   "salaire_median": {
@@ -312,36 +312,36 @@
   },
   "ecart_hommes_femmes": {
     "ecart_global": 22.2,
-    "ecart_eqtp": 13.0,
+    "ecart_eqtp": 25.8,
     "ecart_poste_comparable": 4.0,
     "evolution": [
       {
-        "annee": "2015",
-        "ecart": 18.4
-      },
-      {
-        "annee": "2017",
-        "ecart": 16.6
+        "annee": "2018",
+        "ecart": 23.2
       },
       {
         "annee": "2019",
-        "ecart": 16.1
+        "ecart": 23.8
+      },
+      {
+        "annee": "2020",
+        "ecart": 24.5
       },
       {
         "annee": "2021",
-        "ecart": 15.5
+        "ecart": 24.3
       },
       {
         "annee": "2022",
-        "ecart": 14.9
+        "ecart": 25.1
       },
       {
         "annee": "2023",
-        "ecart": 14.2
+        "ecart": 25.6
       },
       {
         "annee": "2024",
-        "ecart": 13.0
+        "ecart": 25.8
       }
     ]
   },
@@ -438,7 +438,7 @@
     },
     {
       "trimestre": "T2 2023",
-      "taux": 4.9
+      "taux": 5.1
     },
     {
       "trimestre": "T3 2023",
@@ -450,38 +450,38 @@
     },
     {
       "trimestre": "T1 2024",
-      "taux": 4.8
+      "taux": 5.0
     },
     {
       "trimestre": "T2 2024",
-      "taux": 4.9
+      "taux": 5.1
     },
     {
       "trimestre": "T3 2024",
-      "taux": 4.5
+      "taux": 5.2
     },
     {
       "trimestre": "T4 2024",
-      "taux": 4.6
+      "taux": 5.2
     },
     {
       "trimestre": "T1 2025",
-      "taux": 4.6
+      "taux": 5.3
     },
     {
       "trimestre": "T2 2025",
-      "taux": 4.7
+      "taux": 5.4
     },
     {
       "trimestre": "T3 2025",
-      "taux": 5.0
+      "taux": 5.5
     }
   ],
   "emploi_seniors_detail": {
     "taux_55_64": 61.5,
     "taux_55_59": 77.8,
     "taux_60_64": 38.9,
-    "chomage_seniors": 5.0,
+    "chomage_seniors": 5.5,
     "evolution_1an": 1.9,
     "duree_chomage_moyenne_mois": 18,
     "taux_temps_partiel": 25.5,
@@ -1271,14 +1271,14 @@
     ]
   },
   "climat_affaires": {
-    "valeur_actuelle": 99,
-    "confiance_menages": 90,
+    "valeur_actuelle": 98,
+    "confiance_menages": 92,
     "moyenne_long_terme": 100,
-    "mois": "Jan 2026",
+    "mois": "Nov 2025",
     "evolution": [
       {
         "mois": "Jan 2024",
-        "climat": 100,
+        "climat": 99,
         "menages": 91
       },
       {
@@ -1288,8 +1288,8 @@
       },
       {
         "mois": "Juil 2024",
-        "climat": 94,
-        "menages": 91
+        "climat": 97,
+        "menages": 92
       },
       {
         "mois": "Oct 2024",
@@ -1299,7 +1299,7 @@
       {
         "mois": "Jan 2025",
         "climat": 95,
-        "menages": 91
+        "menages": 92
       },
       {
         "mois": "Avr 2025",
@@ -1309,17 +1309,17 @@
       {
         "mois": "Juil 2025",
         "climat": 96,
-        "menages": 89
+        "menages": 93
       },
       {
         "mois": "Oct 2025",
-        "climat": 96,
-        "menages": 90
+        "climat": 97,
+        "menages": 92
       },
       {
-        "mois": "Jan 2026",
-        "climat": 99,
-        "menages": 90
+        "mois": "Nov 2025",
+        "climat": 98,
+        "menages": 92
       }
     ],
     "par_secteur": [
@@ -4332,7 +4332,7 @@
     "sources": "INSEE - Enquête Emploi, DARES"
   },
   "previsions_cftc": {
-    "generated_at": "2026-01-28T13:14:01.628608",
+    "generated_at": "2026-01-28T15:30:21.131043",
     "model_version": "CFTC v4.0 (Monte Carlo)",
     "n_simulations": 1000,
     "horizon": "12 mois",
@@ -4380,19 +4380,19 @@
           1.6,
           1.7,
           1.9,
-          1.9,
-          1.9,
+          1.8,
+          1.8,
           1.8,
           1.9
         ],
         "p25": [
-          0.9,
+          0.8,
           0.9,
           0.9,
           1.0,
           1.0,
           1.1,
-          1.2,
+          1.1,
           1.3,
           1.3,
           1.3,
@@ -4430,18 +4430,18 @@
         "methodology": "Monte Carlo (1000 simulations) + saisonnalité + mean reversion"
       },
       "probabilites": {
-        "inflation_sous_2pct": 94.5,
-        "inflation_cible_bce": 94.5,
+        "inflation_sous_2pct": 94.7,
+        "inflation_cible_bce": 94.7,
         "inflation_au_dessus_3pct": 0.0,
-        "description": "94.5% de chances que l'inflation reste sous 2% à 12 mois"
+        "description": "94.7% de chances que l'inflation reste sous 2% à 12 mois"
       },
       "facteurs": {
         "cible_bdf": 1.4,
-        "ajustement_climat": -0.01,
+        "ajustement_climat": -0.02,
         "ajustement_energie": 0.0,
-        "cible_ajustee": 1.39
+        "cible_ajustee": 1.38
       },
-      "insight": "Inflation médiane à 12 mois : 1.5% [IC 80% : 1.1% - 1.9%]. 94.5% de probabilité de rester sous 2%."
+      "insight": "Inflation médiane à 12 mois : 1.5% [IC 80% : 1.1% - 1.9%]. 94.7% de probabilité de rester sous 2%."
     },
     "smic": {
       "current": {
@@ -4492,12 +4492,12 @@
         "lower_bound": [
           7.5,
           7.5,
-          7.4,
-          7.4
+          7.5,
+          7.5
         ],
         "upper_bound": [
           7.8,
-          7.8,
+          7.9,
           7.9,
           7.9
         ],
@@ -4527,11 +4527,11 @@
       },
       "facteurs": {
         "cible_bdf": 7.7,
-        "ajustement_climat": 0.02,
+        "ajustement_climat": 0.04,
         "ajustement_recrutement": -0.11,
-        "cible_ajustee": 7.61
+        "cible_ajustee": 7.63
       },
-      "insight": "Chômage médian à Q4 : 7.7% [IC 80% : 7.4% - 7.9%]."
+      "insight": "Chômage médian à Q4 : 7.7% [IC 80% : 7.5% - 7.9%]."
     },
     "scenarios": {
       "optimiste": {
@@ -4634,9 +4634,9 @@
       }
     },
     "notes_lecture": [
-      "📈 Inflation médiane à 12 mois : 1.5% [1.1% - 1.9%] — 94.5% de chances de rester sous 2%",
+      "📈 Inflation médiane à 12 mois : 1.5% [1.1% - 1.9%] — 94.7% de chances de rester sous 2%",
       "💰 SMIC janvier 2027 : 1854€ brut (+1.7%, fourchette 1.4-2.2%) — Certain",
-      "👥 Chômage Q4 : 7.7% [7.4% - 7.9%] — Tendance stable",
+      "👥 Chômage Q4 : 7.7% [7.5% - 7.9%] — Tendance stable",
       "🎲 Scénario à surveiller : 🚀 Reprise économique forte (25% de probabilité)",
       "💡 Recommandation NAO : demander au minimum +2.0% pour préserver le pouvoir d'achat"
     ],
