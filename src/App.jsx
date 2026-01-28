@@ -1828,7 +1828,7 @@ function EmploiTab({d, subTab, setSubTab, darkMode}) {
   return (
     <div className="space-y-4">
       <div className={`flex flex-wrap gap-2`}>
-        {[['chomage','👥 Chômage'],['seniors','👴 Seniors'],['contrats','📝 Contrats'],['secteurs','🏢 Secteurs'],['recrutement','🎯 Recrutement'],['dynamique','📊 Dynamique']].map(([id,label])=>(
+        {[['chomage','👥 Chômage'],['seniors','👴 Seniors'],['vacants','📋 Vacants'],['contrats','📝 Contrats'],['secteurs','🏢 Secteurs'],['recrutement','🎯 Recrutement'],['dynamique','📊 Dynamique']].map(([id,label])=>(
           <button key={id} onClick={()=>setSubTab(id)} className={`px-3 py-1.5 rounded-xl text-xs font-medium transition-all ${subTab===id?'bg-purple-600 text-white shadow-lg': darkMode ? 'bg-gray-800 text-gray-300 hover:bg-gray-700' : 'bg-gray-100 text-gray-600 hover:bg-gray-200'}`}>{label}</button>
         ))}
       </div>
@@ -1968,7 +1968,216 @@ function EmploiTab({d, subTab, setSubTab, darkMode}) {
           </ul>
         </div>
       </div>}
+      {subTab === 'vacants' && d.emplois_vacants && (
+        <div className="space-y-4">
+          {/* KPIs principaux */}
+          <div className="grid grid-cols-2 md:grid-cols-4 gap-3">
+            <div className={`p-4 rounded-xl ${darkMode ? 'bg-blue-900/30' : 'bg-blue-50'}`}>
+              <p className={`text-xs ${darkMode ? 'text-gray-400' : 'text-gray-500'}`}>Emplois vacants</p>
+              <p className="text-2xl font-bold text-blue-600">
+                {d.emplois_vacants.emplois_vacants?.length > 0 
+                  ? `${(d.emplois_vacants.emplois_vacants[d.emplois_vacants.emplois_vacants.length-1].valeur / 1000).toFixed(0)}k`
+                  : 'N/A'}
+              </p>
+              <p className={`text-xs ${darkMode ? 'text-gray-500' : 'text-gray-400'}`}>
+                {d.emplois_vacants.emplois_vacants?.[d.emplois_vacants.emplois_vacants.length-1]?.trimestre}
+              </p>
+            </div>
+            <div className={`p-4 rounded-xl ${darkMode ? 'bg-green-900/30' : 'bg-green-50'}`}>
+              <p className={`text-xs ${darkMode ? 'text-gray-400' : 'text-gray-500'}`}>Emplois occupés</p>
+              <p className="text-2xl font-bold text-green-600">
+                {d.emplois_vacants.emplois_occupes?.length > 0 
+                  ? `${(d.emplois_vacants.emplois_occupes[d.emplois_vacants.emplois_occupes.length-1].valeur / 1000000).toFixed(1)}M`
+                  : 'N/A'}
+              </p>
+              <p className={`text-xs ${darkMode ? 'text-gray-500' : 'text-gray-400'}`}>
+                {d.emplois_vacants.emplois_occupes?.[d.emplois_vacants.emplois_occupes.length-1]?.trimestre}
+              </p>
+            </div>
+            <div className={`p-4 rounded-xl ${darkMode ? 'bg-orange-900/30' : 'bg-orange-50'}`}>
+              <p className={`text-xs ${darkMode ? 'text-gray-400' : 'text-gray-500'}`}>Taux de vacance</p>
+              <p className="text-2xl font-bold text-orange-600">
+                {d.emplois_vacants.taux_vacance?.length > 0 
+                  ? `${d.emplois_vacants.taux_vacance[d.emplois_vacants.taux_vacance.length-1].taux}%`
+                  : 'N/A'}
+              </p>
+              <p className={`text-xs ${darkMode ? 'text-gray-500' : 'text-gray-400'}`}>
+                {d.emplois_vacants.taux_vacance?.[d.emplois_vacants.taux_vacance.length-1]?.trimestre}
+              </p>
+            </div>
+            <div className={`p-4 rounded-xl ${darkMode ? 'bg-purple-900/30' : 'bg-purple-50'}`}>
+              <p className={`text-xs ${darkMode ? 'text-gray-400' : 'text-gray-500'}`}>Source</p>
+              <p className="text-sm font-bold text-purple-600">{d.emplois_vacants.source || 'DARES'}</p>
+              <p className={`text-xs ${darkMode ? 'text-gray-500' : 'text-gray-400'}`}>
+                Màj : {d.emplois_vacants.derniere_maj}
+              </p>
+            </div>
+          </div>
 
+          {/* Graphiques */}
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-3 sm:gap-4">
+            {/* Graphique Emplois vacants */}
+            <Card title="📋 Nombre d'emplois vacants" darkMode={darkMode}>
+              <ResponsiveContainer width="100%" height={200}>
+                <ComposedChart data={d.emplois_vacants.emplois_vacants}>
+                  <CartesianGrid {...chartProps.cartesianGrid} />
+                  <XAxis dataKey="trimestre" {...chartProps.xAxis} fontSize={9} />
+                  <YAxis 
+                    {...chartProps.yAxis} 
+                    fontSize={11}
+                    tickFormatter={(v) => `${(v/1000).toFixed(0)}k`}
+                  />
+                  <Tooltip 
+                    {...chartProps.tooltip} 
+                    formatter={(v) => [`${v.toLocaleString()} postes`, 'Emplois vacants']}
+                  />
+                  <Area dataKey="valeur" fill={C.primary} fillOpacity={0.2} stroke="none" />
+                  <Line 
+                    strokeLinecap="round" 
+                    strokeLinejoin="round" 
+                    dataKey="valeur" 
+                    stroke={C.primary} 
+                    strokeWidth={3} 
+                    dot={{ fill: C.primary, strokeWidth: 2 }}
+                  />
+                </ComposedChart>
+              </ResponsiveContainer>
+              <p className={`text-xs mt-1 ${darkMode ? 'text-gray-500' : 'text-gray-400'}`}>
+                Postes à pourvoir avec recherche active de candidat
+              </p>
+            </Card>
+
+            {/* Graphique Taux de vacance */}
+            <Card title="📊 Taux d'emplois vacants (%)" darkMode={darkMode}>
+              <ResponsiveContainer width="100%" height={200}>
+                <ComposedChart data={d.emplois_vacants.taux_vacance}>
+                  <CartesianGrid {...chartProps.cartesianGrid} />
+                  <XAxis dataKey="trimestre" {...chartProps.xAxis} fontSize={9} />
+                  <YAxis 
+                    {...chartProps.yAxis} 
+                    domain={[0, 2.5]} 
+                    fontSize={11}
+                    tickFormatter={(v) => `${v}%`}
+                  />
+                  <Tooltip 
+                    {...chartProps.tooltip} 
+                    formatter={(v) => [`${v}%`, 'Taux de vacance']}
+                  />
+                  <ReferenceLine 
+                    y={1.5} 
+                    stroke={C.quaternary} 
+                    strokeDasharray="5 5" 
+                    label={{ value: 'Seuil tension', position: 'right', fontSize: 10, fill: C.quaternary }} 
+                  />
+                  <Area dataKey="taux" fill={C.secondary} fillOpacity={0.2} stroke="none" />
+                  <Line 
+                    strokeLinecap="round" 
+                    strokeLinejoin="round" 
+                    dataKey="taux" 
+                    stroke={C.secondary} 
+                    strokeWidth={3} 
+                    dot={{ fill: C.secondary, strokeWidth: 2 }}
+                  />
+                </ComposedChart>
+              </ResponsiveContainer>
+              <p className={`text-xs mt-1 ${darkMode ? 'text-gray-500' : 'text-gray-400'}`}>
+                Ratio emplois vacants / (vacants + occupés)
+              </p>
+            </Card>
+          </div>
+
+          {/* Graphique Emplois occupés */}
+          <Card title="👥 Évolution des emplois occupés" darkMode={darkMode}>
+            <ResponsiveContainer width="100%" height={180}>
+              <ComposedChart data={d.emplois_vacants.emplois_occupes}>
+                <CartesianGrid {...chartProps.cartesianGrid} />
+                <XAxis dataKey="trimestre" {...chartProps.xAxis} fontSize={9} />
+                <YAxis 
+                  {...chartProps.yAxis} 
+                  fontSize={11}
+                  tickFormatter={(v) => `${(v/1000000).toFixed(1)}M`}
+                  domain={['dataMin - 500000', 'dataMax + 500000']}
+                />
+                <Tooltip 
+                  {...chartProps.tooltip} 
+                  formatter={(v) => [`${(v/1000000).toFixed(2)} millions`, 'Emplois occupés']}
+                />
+                <Area dataKey="valeur" fill={C.tertiary} fillOpacity={0.2} stroke="none" />
+                <Line 
+                  strokeLinecap="round" 
+                  strokeLinejoin="round" 
+                  dataKey="valeur" 
+                  stroke={C.tertiary} 
+                  strokeWidth={3} 
+                  dot={{ fill: C.tertiary, strokeWidth: 2 }}
+                />
+              </ComposedChart>
+            </ResponsiveContainer>
+          </Card>
+
+          {/* Par secteur si disponible */}
+          {d.emplois_vacants.par_secteur && d.emplois_vacants.par_secteur.length > 0 && (
+            <Card title="🏢 Emplois vacants par secteur" darkMode={darkMode}>
+              <ResponsiveContainer width="100%" height={220}>
+                <BarChart data={d.emplois_vacants.par_secteur} layout="vertical">
+                  <CartesianGrid {...chartProps.cartesianGrid} />
+                  <XAxis 
+                    {...chartProps.xAxis} 
+                    type="number" 
+                    fontSize={11}
+                    tickFormatter={(v) => `${(v/1000).toFixed(0)}k`}
+                  />
+                  <YAxis 
+                    {...chartProps.yAxis} 
+                    dataKey="secteur" 
+                    type="category" 
+                    width={140} 
+                    fontSize={10} 
+                  />
+                  <Tooltip 
+                    {...chartProps.tooltip} 
+                    formatter={(v, name) => {
+                      if (name === 'vacants') return [`${v.toLocaleString()} postes`, 'Emplois vacants'];
+                      if (name === 'taux') return [`${v}%`, 'Taux de vacance'];
+                      return [v, name];
+                    }}
+                  />
+                  <Bar 
+                    radius={[0, 6, 6, 0]} 
+                    dataKey="vacants" 
+                    fill={C.primary}
+                  >
+                    {d.emplois_vacants.par_secteur.map((entry, index) => (
+                      <Cell 
+                        key={`cell-${index}`} 
+                        fill={entry.taux > 2.5 ? C.secondary : entry.taux > 1.5 ? C.quaternary : C.primary} 
+                      />
+                    ))}
+                  </Bar>
+                </BarChart>
+              </ResponsiveContainer>
+              <p className={`text-xs mt-1 ${darkMode ? 'text-gray-500' : 'text-gray-400'}`}>
+                🔴 Taux &gt; 2.5% | 🟠 Taux &gt; 1.5% | 🔵 Taux normal
+              </p>
+            </Card>
+          )}
+
+          {/* Notes de lecture */}
+          {d.emplois_vacants.notes_lecture && (
+            <BubbleNote type="info" title="💡 Notes de lecture" darkMode={darkMode}>
+              <ul className="space-y-1">
+                {d.emplois_vacants.notes_lecture.map((note, i) => (
+                  <li key={i}>{note}</li>
+                ))}
+              </ul>
+            </BubbleNote>
+          )}
+
+          <p className={`text-xs ${darkMode ? 'text-gray-500' : 'text-gray-400'} text-center`}>
+            📚 Source : {d.emplois_vacants.source || 'DARES - Enquête ACEMO'}
+          </p>
+        </div>
+      )}
       {subTab === 'contrats' && <div className="grid grid-cols-1 md:grid-cols-2 gap-3 sm:gap-4">
         <Card title="📋 Répartition contrats" darkMode={darkMode}>
           <ResponsiveContainer width="100%" height={180}><BarChart data={d.types_contrats}><CartesianGrid {...chartProps.cartesianGrid} /><XAxis dataKey="trimestre" {...chartProps.xAxis} fontSize={8} /><YAxis {...chartProps.yAxis} fontSize={11} /><Tooltip {...chartProps.tooltip} /><Legend {...chartProps.legend} /><Bar radius={[6, 6, 0, 0]} dataKey="cdi" name="CDI" stackId="a" fill={C.primary} /><Bar radius={[6, 6, 0, 0]} dataKey="cdd" name="CDD" stackId="a" fill={C.quaternary} /><Bar radius={[6, 6, 0, 0]} dataKey="interim" name="Intérim" stackId="a" fill={C.secondary} /></BarChart></ResponsiveContainer>
