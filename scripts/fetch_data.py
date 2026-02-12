@@ -2134,6 +2134,17 @@ def build_changelog():
     
     changelog = [
         {
+            "version": "2.1.1",
+            "date": "2026-02-12",
+            "modifications": [
+                {
+                    "type": "feature",
+                    "titre": "Analyse du traffic",
+                    "description": "Connexion du tableau de bord avec google analytics pour analyser la navigation sur le site"
+                },
+            ]
+        },
+        {
             "version": "2.1.0",
             "date": "2026-01-28",
             "modifications": [
