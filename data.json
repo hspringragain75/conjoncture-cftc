@@ -1,6 +1,6 @@
 {
-  "last_updated": "12/02/2026 08:21",
-  "last_updated_iso": "2026-02-12T08:21:00.480705",
+  "last_updated": "12/02/2026 10:29",
+  "last_updated_iso": "2026-02-12T10:29:30.992753",
   "contact": "hspringragain@cftc.fr",
   "alertes": [
     {
@@ -20,19 +20,11 @@
       "onglet": "emploi"
     },
     {
-      "id": "pib_dynamique_",
-      "date": "2026-02-12",
-      "type": "success",
-      "titre": "📈 Croissance dynamique : +0.5%",
-      "message": "Le PIB progresse de 0.5% au . Argument pour des augmentations !",
-      "onglet": "conjoncture"
-    },
-    {
       "id": "maj_2026-02-12",
       "date": "2026-02-12",
       "type": "info",
       "titre": "🔄 Données actualisées",
-      "message": "Le tableau de bord a été mis à jour le 12/02/2026 à 08:21.",
+      "message": "Le tableau de bord a été mis à jour le 12/02/2026 à 10:29.",
       "onglet": "conjoncture"
     },
     {
@@ -45,6 +37,17 @@
     }
   ],
   "changelog": [
+    {
+      "version": "2.1.1",
+      "date": "2026-02-12",
+      "modifications": [
+        {
+          "type": "feature",
+          "titre": "Analyse du traffic",
+          "description": "Connexion du tableau de bord avec google analytics pour analyser la navigation sur le site"
+        }
+      ]
+    },
     {
       "version": "2.1.0",
       "date": "2026-01-28",
@@ -334,13 +337,13 @@
     "smic_net": 1443.11,
     "salaire_median": 2190,
     "salaire_moyen": 2733,
-    "ecart_hf_eqtp": 13.0,
+    "ecart_hf_eqtp": 25.8,
     "difficultes_recrutement": 61,
     "irl_glissement": 0.79,
-    "prix_gazole": 1.58,
+    "prix_gazole": 1.61,
     "taux_effort_locataires": 29.6,
-    "croissance_pib": 0.5,
-    "climat_affaires": 98,
+    "croissance_pib": 0.4,
+    "climat_affaires": 99,
     "defaillances_12m": 68296
   },
   "salaire_median": {
@@ -374,36 +377,36 @@
   },
   "ecart_hommes_femmes": {
     "ecart_global": 22.2,
-    "ecart_eqtp": 13.0,
+    "ecart_eqtp": 25.8,
     "ecart_poste_comparable": 4.0,
     "evolution": [
       {
-        "annee": "2015",
-        "ecart": 18.4
-      },
-      {
-        "annee": "2017",
-        "ecart": 16.6
+        "annee": "2018",
+        "ecart": 23.2
       },
       {
         "annee": "2019",
-        "ecart": 16.1
+        "ecart": 23.8
+      },
+      {
+        "annee": "2020",
+        "ecart": 24.5
       },
       {
         "annee": "2021",
-        "ecart": 15.5
+        "ecart": 24.3
       },
       {
         "annee": "2022",
-        "ecart": 14.9
+        "ecart": 25.1
       },
       {
         "annee": "2023",
-        "ecart": 14.2
+        "ecart": 25.6
       },
       {
         "annee": "2024",
-        "ecart": 13.0
+        "ecart": 25.8
       }
     ]
   },
@@ -1208,27 +1211,27 @@
   },
   "carburants": {
     "gazole": {
-      "prix": 1.58,
-      "variation_an": -0.6
+      "prix": 1.61,
+      "variation_an": -5.8
     },
     "sp95": {
-      "prix": 1.72,
-      "variation_an": -1.9
+      "prix": 1.71,
+      "variation_an": -5.5
     },
     "sp98": {
-      "prix": 1.82,
-      "variation_an": -1.5
+      "prix": 1.81,
+      "variation_an": -5.5
     },
     "evolution": [
       {
         "mois": "Jan 2023",
-        "gazole": 1.85,
-        "sp95": 1.82
+        "gazole": 1.92,
+        "sp95": 1.87
       },
       {
         "mois": "Avr 2023",
-        "gazole": 1.78,
-        "sp95": 1.88
+        "gazole": 1.81,
+        "sp95": 1.95
       },
       {
         "mois": "Juil 2023",
@@ -1237,42 +1240,47 @@
       },
       {
         "mois": "Oct 2023",
-        "gazole": 1.88,
-        "sp95": 1.92
+        "gazole": 1.91,
+        "sp95": 1.89
       },
       {
         "mois": "Jan 2024",
-        "gazole": 1.72,
-        "sp95": 1.78
-      },
-      {
-        "mois": "Avr 2024",
         "gazole": 1.75,
         "sp95": 1.82
       },
       {
+        "mois": "Avr 2024",
+        "gazole": 1.79,
+        "sp95": 1.94
+      },
+      {
         "mois": "Juil 2024",
-        "gazole": 1.68,
-        "sp95": 1.75
+        "gazole": 1.73,
+        "sp95": 1.86
       },
       {
         "mois": "Oct 2024",
-        "gazole": 1.62,
-        "sp95": 1.72
+        "gazole": 1.63,
+        "sp95": 1.76
       },
       {
         "mois": "Jan 2025",
-        "gazole": 1.65,
-        "sp95": 1.78
+        "gazole": 1.71,
+        "sp95": 1.81
       },
       {
         "mois": "Avr 2025",
-        "gazole": 1.6,
-        "sp95": 1.74
+        "gazole": 1.59,
+        "sp95": 1.73
+      },
+      {
+        "mois": "Juil 2025",
+        "gazole": 1.65,
+        "sp95": 1.72
       },
       {
         "mois": "Oct 2025",
-        "gazole": 1.58,
+        "gazole": 1.61,
         "sp95": 1.72
       }
     ]
@@ -1350,70 +1358,70 @@
     ]
   },
   "pib": {
-    "croissance_trim_actuel": 0.5,
+    "croissance_trim_actuel": 0.4,
     "croissance_annuelle": 1.1,
-    "trimestre": "T4 2025",
-    "commentaire": "PIB volume trimestriel - INSEE",
+    "trimestre": "T3 2025",
+    "commentaire": "PIB volume trimestriel",
     "evolution": [
       {
+        "trimestre": "T1 2022",
+        "croissance": 0.5
+      },
+      {
         "trimestre": "T2 2022",
-        "croissance": 1.0
+        "croissance": 0.4
       },
       {
         "trimestre": "T3 2022",
-        "croissance": 2.0
+        "croissance": 0.6
       },
       {
         "trimestre": "T4 2022",
-        "croissance": 1.9
-      },
-      {
-        "trimestre": "T1 2023",
-        "croissance": 1.5
-      },
-      {
-        "trimestre": "T2 2023",
-        "croissance": 2.2
-      },
-      {
-        "trimestre": "T3 2023",
-        "croissance": 0.7
-      },
-      {
-        "trimestre": "T4 2023",
-        "croissance": 1.3
-      },
-      {
-        "trimestre": "T1 2024",
-        "croissance": 0.5
-      },
-      {
-        "trimestre": "T2 2024",
         "croissance": 0.1
       },
       {
-        "trimestre": "T3 2024",
-        "croissance": 1.4
-      },
-      {
-        "trimestre": "T4 2024",
+        "trimestre": "T1 2023",
         "croissance": 0.0
       },
       {
-        "trimestre": "T1 2025",
+        "trimestre": "T2 2023",
+        "croissance": 0.7
+      },
+      {
+        "trimestre": "T3 2023",
+        "croissance": 0.1
+      },
+      {
+        "trimestre": "T4 2023",
+        "croissance": 0.1
+      },
+      {
+        "trimestre": "T1 2024",
+        "croissance": 0.3
+      },
+      {
+        "trimestre": "T2 2024",
+        "croissance": 0.2
+      },
+      {
+        "trimestre": "T3 2024",
         "croissance": 0.4
+      },
+      {
+        "trimestre": "T4 2024",
+        "croissance": -0.1
+      },
+      {
+        "trimestre": "T1 2025",
+        "croissance": 0.2
       },
       {
         "trimestre": "T2 2025",
-        "croissance": 0.4
+        "croissance": 0.3
       },
       {
         "trimestre": "T3 2025",
-        "croissance": 0.8
-      },
-      {
-        "trimestre": "T4 2025",
-        "croissance": 0.5
+        "croissance": 0.4
       }
     ],
     "contributions": {
@@ -1454,14 +1462,14 @@
     ]
   },
   "climat_affaires": {
-    "valeur_actuelle": 98,
-    "confiance_menages": 92,
+    "valeur_actuelle": 99,
+    "confiance_menages": 90,
     "moyenne_long_terme": 100,
-    "mois": "Nov 2025",
+    "mois": "Jan 2026",
     "evolution": [
       {
         "mois": "Jan 2024",
-        "climat": 99,
+        "climat": 100,
         "menages": 91
       },
       {
@@ -1471,8 +1479,8 @@
       },
       {
         "mois": "Juil 2024",
-        "climat": 97,
-        "menages": 92
+        "climat": 94,
+        "menages": 91
       },
       {
         "mois": "Oct 2024",
@@ -1482,7 +1490,7 @@
       {
         "mois": "Jan 2025",
         "climat": 95,
-        "menages": 92
+        "menages": 91
       },
       {
         "mois": "Avr 2025",
@@ -1492,17 +1500,17 @@
       {
         "mois": "Juil 2025",
         "climat": 96,
-        "menages": 93
+        "menages": 89
       },
       {
         "mois": "Oct 2025",
-        "climat": 97,
-        "menages": 92
+        "climat": 96,
+        "menages": 90
       },
       {
-        "mois": "Nov 2025",
-        "climat": 98,
-        "menages": 92
+        "mois": "Jan 2026",
+        "climat": 99,
+        "menages": 90
       }
     ],
     "par_secteur": [
@@ -4515,13 +4523,13 @@
     "sources": "INSEE - Enquête Emploi, DARES"
   },
   "previsions_cftc": {
-    "generated_at": "2026-02-12T08:21:00.566506",
+    "generated_at": "2026-02-12T10:29:31.084485",
     "model_version": "CFTC v4.0 (Monte Carlo)",
     "n_simulations": 1000,
     "horizon": "12 mois",
     "inflation": {
       "actuel": 0.9,
-      "prevision_6m": 1.3,
+      "prevision_6m": 1.4,
       "prevision_12m": 1.5,
       "tendance": "hausse",
       "confidence": 0.85,
@@ -4532,7 +4540,7 @@
           1.1,
           1.1,
           1.2,
-          1.3,
+          1.4,
           1.5,
           1.5,
           1.4,
@@ -4571,7 +4579,7 @@
         "p25": [
           0.9,
           0.9,
-          0.9,
+          1.0,
           1.0,
           1.1,
           1.2,
@@ -4589,7 +4597,7 @@
           1.3,
           1.4,
           1.5,
-          1.6,
+          1.7,
           1.6,
           1.6,
           1.6,
@@ -4613,18 +4621,18 @@
         "methodology": "Monte Carlo (1000 simulations) + saisonnalité + mean reversion"
       },
       "probabilites": {
-        "inflation_sous_2pct": 95.5,
-        "inflation_cible_bce": 95.5,
+        "inflation_sous_2pct": 95.4,
+        "inflation_cible_bce": 95.4,
         "inflation_au_dessus_3pct": 0.0,
-        "description": "95.5% de chances que l'inflation reste sous 2% à 12 mois"
+        "description": "95.4% de chances que l'inflation reste sous 2% à 12 mois"
       },
       "facteurs": {
         "cible_bdf": 1.4,
-        "ajustement_climat": -0.02,
+        "ajustement_climat": -0.01,
         "ajustement_energie": 0.0,
-        "cible_ajustee": 1.38
+        "cible_ajustee": 1.39
       },
-      "insight": "Inflation médiane à 12 mois : 1.5% [IC 80% : 1.1% - 1.9%]. 95.5% de probabilité de rester sous 2%."
+      "insight": "Inflation médiane à 12 mois : 1.5% [IC 80% : 1.1% - 1.9%]. 95.4% de probabilité de rester sous 2%."
     },
     "smic": {
       "current": {
@@ -4687,7 +4695,7 @@
         "p25": [
           7.6,
           7.6,
-          7.6,
+          7.5,
           7.5
         ],
         "p75": [
@@ -4710,9 +4718,9 @@
       },
       "facteurs": {
         "cible_bdf": 7.7,
-        "ajustement_climat": 0.04,
+        "ajustement_climat": 0.02,
         "ajustement_recrutement": -0.11,
-        "cible_ajustee": 7.63
+        "cible_ajustee": 7.61
       },
       "insight": "Chômage médian à Q4 : 7.7% [IC 80% : 7.4% - 7.9%]."
     },
@@ -4817,7 +4825,7 @@
       }
     },
     "notes_lecture": [
-      "📈 Inflation médiane à 12 mois : 1.5% [1.1% - 1.9%] — 95.5% de chances de rester sous 2%",
+      "📈 Inflation médiane à 12 mois : 1.5% [1.1% - 1.9%] — 95.4% de chances de rester sous 2%",
       "💰 SMIC janvier 2027 : 1852€ brut (+1.6%, fourchette 1.3-2.1%) — Certain",
       "👥 Chômage Q4 : 7.7% [7.4% - 7.9%] — Tendance stable",
       "🎲 Scénario à surveiller : 🚀 Reprise économique forte (25% de probabilité)",
