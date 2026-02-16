@@ -1,11 +1,11 @@
 {
-  "last_updated": "12/02/2026 10:29",
-  "last_updated_iso": "2026-02-12T10:29:30.992753",
+  "last_updated": "16/02/2026 07:59",
+  "last_updated_iso": "2026-02-16T07:59:20.327991",
   "contact": "hspringragain@cftc.fr",
   "alertes": [
     {
       "id": "inflation_maitrisee_2025",
-      "date": "2026-02-12",
+      "date": "2026-02-16",
       "type": "success",
       "titre": "📉 Inflation maîtrisée : 0.9%",
       "message": "L'inflation 2025 est sous contrôle. Le pouvoir d'achat se stabilise.",
@@ -13,18 +13,26 @@
     },
     {
       "id": "chomage_jeunes_T3_2025",
-      "date": "2026-02-12",
+      "date": "2026-02-16",
       "type": "warning",
       "titre": "🧑‍🎓 Chômage jeunes élevé : 19.2%",
       "message": "Le taux de chômage des 15-24 ans reste préoccupant (T3 2025).",
       "onglet": "emploi"
     },
     {
-      "id": "maj_2026-02-12",
-      "date": "2026-02-12",
+      "id": "pib_dynamique_",
+      "date": "2026-02-16",
+      "type": "success",
+      "titre": "📈 Croissance dynamique : +0.5%",
+      "message": "Le PIB progresse de 0.5% au . Argument pour des augmentations !",
+      "onglet": "conjoncture"
+    },
+    {
+      "id": "maj_2026-02-16",
+      "date": "2026-02-16",
       "type": "info",
       "titre": "🔄 Données actualisées",
-      "message": "Le tableau de bord a été mis à jour le 12/02/2026 à 10:29.",
+      "message": "Le tableau de bord a été mis à jour le 16/02/2026 à 07:59.",
       "onglet": "conjoncture"
     },
     {
@@ -342,9 +350,9 @@
     "irl_glissement": 0.79,
     "prix_gazole": 1.61,
     "taux_effort_locataires": 29.6,
-    "croissance_pib": 0.4,
+    "croissance_pib": 0.5,
     "climat_affaires": 99,
-    "defaillances_12m": 68296
+    "defaillances_12m": 68227
   },
   "salaire_median": {
     "montant_2024": 2190,
@@ -642,81 +650,69 @@
   "difficultes_recrutement": [
     {
       "trimestre": "T1 2023",
-      "industrie": 65,
-      "services": 48,
-      "construction": 78
+      "industrie": 52,
+      "services": 38,
+      "construction": 65
     },
     {
       "trimestre": "T2 2023",
-      "industrie": 64,
-      "services": 48,
-      "construction": 76
-    },
-    {
-      "trimestre": "T3 2023",
-      "industrie": 60,
-      "services": 45,
-      "construction": 72
-    },
-    {
-      "trimestre": "T4 2023",
-      "industrie": 57,
-      "services": 42,
-      "construction": 68
-    },
-    {
-      "trimestre": "T1 2024",
-      "industrie": 53,
-      "services": 39,
-      "construction": 63
-    },
-    {
-      "trimestre": "T2 2024",
-      "industrie": 52,
-      "services": 39,
+      "industrie": 50,
+      "services": 36,
       "construction": 62
     },
     {
-      "trimestre": "T3 2024",
+      "trimestre": "T3 2023",
       "industrie": 48,
-      "services": 36,
-      "construction": 57
+      "services": 35,
+      "construction": 60
     },
     {
-      "trimestre": "T4 2024",
-      "industrie": 46,
-      "services": 34,
+      "trimestre": "T4 2023",
+      "industrie": 45,
+      "services": 33,
+      "construction": 58
+    },
+    {
+      "trimestre": "T1 2024",
+      "industrie": 43,
+      "services": 32,
       "construction": 55
     },
     {
-      "trimestre": "T1 2025",
-      "industrie": 44,
-      "services": 33,
+      "trimestre": "T2 2024",
+      "industrie": 41,
+      "services": 30,
       "construction": 52
     },
     {
-      "trimestre": "T2 2025",
-      "industrie": 41,
-      "services": 30,
-      "construction": 49
+      "trimestre": "T3 2024",
+      "industrie": 40,
+      "services": 29,
+      "construction": 50
     },
     {
-      "trimestre": "T3 2025",
-      "industrie": 40,
-      "services": 30,
+      "trimestre": "T4 2024",
+      "industrie": 38,
+      "services": 28,
       "construction": 48
     },
     {
-      "trimestre": "T4 2025",
-      "industrie": 38,
-      "services": 28,
+      "trimestre": "T1 2025",
+      "industrie": 36,
+      "services": 27,
+      "construction": 46
+    },
+    {
+      "trimestre": "T2 2025",
+      "industrie": 35,
+      "services": 26,
       "construction": 45
     },
     {
-      "trimestre": "T1 2026",
-      "industrie": 39,
-      "services": 29,
-      "construction": 46
+      "trimestre": "T3 2025",
+      "industrie": 34,
+      "services": 25,
+      "construction": 44
     }
   ],
   "emploi_secteur": {
@@ -1358,70 +1354,70 @@
     ]
   },
   "pib": {
-    "croissance_trim_actuel": 0.4,
+    "croissance_trim_actuel": 0.5,
     "croissance_annuelle": 1.1,
-    "trimestre": "T3 2025",
-    "commentaire": "PIB volume trimestriel",
+    "trimestre": "T4 2025",
+    "commentaire": "PIB volume trimestriel - INSEE",
     "evolution": [
       {
-        "trimestre": "T1 2022",
-        "croissance": 0.5
-      },
-      {
         "trimestre": "T2 2022",
-        "croissance": 0.4
+        "croissance": 1.0
       },
       {
         "trimestre": "T3 2022",
-        "croissance": 0.6
+        "croissance": 2.0
       },
       {
         "trimestre": "T4 2022",
-        "croissance": 0.1
+        "croissance": 1.9
       },
       {
         "trimestre": "T1 2023",
-        "croissance": 0.0
+        "croissance": 1.5
       },
       {
         "trimestre": "T2 2023",
-        "croissance": 0.7
+        "croissance": 2.2
       },
       {
         "trimestre": "T3 2023",
-        "croissance": 0.1
+        "croissance": 0.7
       },
       {
         "trimestre": "T4 2023",
-        "croissance": 0.1
+        "croissance": 1.3
       },
       {
         "trimestre": "T1 2024",
-        "croissance": 0.3
+        "croissance": 0.5
       },
       {
         "trimestre": "T2 2024",
-        "croissance": 0.2
+        "croissance": 0.1
       },
       {
         "trimestre": "T3 2024",
-        "croissance": 0.4
+        "croissance": 1.4
       },
       {
         "trimestre": "T4 2024",
-        "croissance": -0.1
+        "croissance": 0.0
       },
       {
         "trimestre": "T1 2025",
-        "croissance": 0.2
+        "croissance": 0.4
       },
       {
         "trimestre": "T2 2025",
-        "croissance": 0.3
+        "croissance": 0.4
       },
       {
         "trimestre": "T3 2025",
-        "croissance": 0.4
+        "croissance": 0.8
+      },
+      {
+        "trimestre": "T4 2025",
+        "croissance": 0.5
       }
     ],
     "contributions": {
@@ -1533,62 +1529,58 @@
     ]
   },
   "defaillances": {
-    "cumul_12_mois": 68296,
-    "variation_an": 3.1,
-    "mois": "Nov 2025",
+    "cumul_12_mois": 68227,
+    "variation_an": 0.8,
+    "mois": "Sep 2025",
     "moyenne_2010_2019": 58000,
     "evolution": [
       {
         "mois": "Jan 2023",
-        "cumul": 42962
+        "cumul": 42000
       },
       {
         "mois": "Avr 2023",
-        "cumul": 46804
+        "cumul": 47000
       },
       {
         "mois": "Juil 2023",
-        "cumul": 50360
+        "cumul": 51000
       },
       {
         "mois": "Oct 2023",
-        "cumul": 53384
+        "cumul": 55000
       },
       {
         "mois": "Jan 2024",
-        "cumul": 57339
+        "cumul": 57500
       },
       {
         "mois": "Avr 2024",
-        "cumul": 60508
+        "cumul": 60000
       },
       {
         "mois": "Juil 2024",
-        "cumul": 63653
+        "cumul": 63500
       },
       {
         "mois": "Oct 2024",
-        "cumul": 65224
+        "cumul": 66000
       },
       {
         "mois": "Jan 2025",
-        "cumul": 66307
+        "cumul": 66500
       },
       {
         "mois": "Avr 2025",
-        "cumul": 67300
+        "cumul": 67000
       },
       {
         "mois": "Juil 2025",
-        "cumul": 67716
+        "cumul": 67600
       },
       {
-        "mois": "Oct 2025",
-        "cumul": 68282
-      },
-      {
-        "mois": "Nov 2025",
-        "cumul": 68296
+        "mois": "Sep 2025",
+        "cumul": 68227
       }
     ],
     "par_secteur": [
@@ -4523,13 +4515,13 @@
     "sources": "INSEE - Enquête Emploi, DARES"
   },
   "previsions_cftc": {
-    "generated_at": "2026-02-12T10:29:31.084485",
+    "generated_at": "2026-02-16T07:59:20.467848",
     "model_version": "CFTC v4.0 (Monte Carlo)",
     "n_simulations": 1000,
     "horizon": "12 mois",
     "inflation": {
       "actuel": 0.9,
-      "prevision_6m": 1.4,
+      "prevision_6m": 1.3,
       "prevision_12m": 1.5,
       "tendance": "hausse",
       "confidence": 0.85,
@@ -4540,10 +4532,10 @@
           1.1,
           1.1,
           1.2,
+          1.3,
+          1.5,
           1.4,
           1.5,
-          1.5,
-          1.4,
           1.4,
           1.5,
           1.5
@@ -4579,13 +4571,13 @@
         "p25": [
           0.9,
           0.9,
-          1.0,
+          0.9,
           1.0,
           1.1,
           1.2,
           1.3,
           1.3,
-          1.3,
+          1.2,
           1.2,
           1.3,
           1.3
@@ -4593,7 +4585,7 @@
         "p75": [
           1.1,
           1.2,
-          1.3,
+          1.2,
           1.3,
           1.4,
           1.5,
@@ -4621,10 +4613,10 @@
         "methodology": "Monte Carlo (1000 simulations) + saisonnalité + mean reversion"
       },
       "probabilites": {
-        "inflation_sous_2pct": 95.4,
-        "inflation_cible_bce": 95.4,
+        "inflation_sous_2pct": 95.5,
+        "inflation_cible_bce": 95.5,
         "inflation_au_dessus_3pct": 0.0,
-        "description": "95.4% de chances que l'inflation reste sous 2% à 12 mois"
+        "description": "95.5% de chances que l'inflation reste sous 2% à 12 mois"
       },
       "facteurs": {
         "cible_bdf": 1.4,
@@ -4632,7 +4624,7 @@
         "ajustement_energie": 0.0,
         "cible_ajustee": 1.39
       },
-      "insight": "Inflation médiane à 12 mois : 1.5% [IC 80% : 1.1% - 1.9%]. 95.4% de probabilité de rester sous 2%."
+      "insight": "Inflation médiane à 12 mois : 1.5% [IC 80% : 1.1% - 1.9%]. 95.5% de probabilité de rester sous 2%."
     },
     "smic": {
       "current": {
@@ -4645,25 +4637,25 @@
           "date": "2027-01-01",
           "type": "janvier",
           "probability": 1.0,
-          "estimated_increase_pct": 1.6,
-          "estimated_new_smic_brut": 1852.2,
-          "estimated_new_smic_net": 1466.94,
+          "estimated_increase_pct": 1.7,
+          "estimated_new_smic_brut": 1854.02,
+          "estimated_new_smic_net": 1468.38,
           "trigger": "Revalorisation annuelle obligatoire",
           "legal_basis": "Code du travail, art. L3231-5",
           "confidence": "haute",
           "fourchette": {
-            "min": 1.3,
-            "max": 2.1
+            "min": 1.4,
+            "max": 2.2
           }
         }
       ],
       "forecast_12m": {
-        "total_increase_pct": 1.6,
-        "final_smic_brut": 1852.2,
-        "final_smic_net": 1466.94,
+        "total_increase_pct": 1.7,
+        "final_smic_brut": 1854.02,
+        "final_smic_net": 1468.38,
         "fourchette": {
-          "min": 1.3,
-          "max": 2.1
+          "min": 1.4,
+          "max": 2.2
         }
       },
       "methodology": "Règles légales + Monte Carlo inflation"
@@ -4683,12 +4675,12 @@
         "lower_bound": [
           7.5,
           7.5,
-          7.5,
+          7.4,
           7.4
         ],
         "upper_bound": [
           7.8,
-          7.9,
+          7.8,
           7.9,
           7.9
         ],
@@ -4728,21 +4720,21 @@
       "optimiste": {
         "inflation_12m": 1.3,
         "chomage_q4": 7.5,
-        "smic_increase": "+1.9%",
+        "smic_increase": "+2.0%",
         "pib": "+1.5%",
         "hypotheses": "Scénario favorable (percentile 25)"
       },
       "central": {
         "inflation_12m": 1.5,
         "chomage_q4": 7.7,
-        "smic_increase": "+1.6%",
+        "smic_increase": "+1.7%",
         "pib": "+1.0%",
         "hypotheses": "Scénario médian (Banque de France)"
       },
       "pessimiste": {
         "inflation_12m": 1.7,
         "chomage_q4": 7.8,
-        "smic_increase": "+1.4%",
+        "smic_increase": "+1.5%",
         "pib": "+0.5%",
         "hypotheses": "Scénario défavorable (percentile 75)"
       }
@@ -4825,8 +4817,8 @@
       }
     },
     "notes_lecture": [
-      "📈 Inflation médiane à 12 mois : 1.5% [1.1% - 1.9%] — 95.4% de chances de rester sous 2%",
-      "💰 SMIC janvier 2027 : 1852€ brut (+1.6%, fourchette 1.3-2.1%) — Certain",
+      "📈 Inflation médiane à 12 mois : 1.5% [1.1% - 1.9%] — 95.5% de chances de rester sous 2%",
+      "💰 SMIC janvier 2027 : 1854€ brut (+1.7%, fourchette 1.4-2.2%) — Certain",
       "👥 Chômage Q4 : 7.7% [7.4% - 7.9%] — Tendance stable",
       "🎲 Scénario à surveiller : 🚀 Reprise économique forte (25% de probabilité)",
       "💡 Recommandation NAO : demander au minimum +2.0% pour préserver le pouvoir d'achat"
