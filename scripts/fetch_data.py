@@ -2149,7 +2149,7 @@ def build_changelog():
             "date": "2026-01-28",
             "modifications": [
                 {
-                    "type": "feature",
+                    "type": "breaking",
                     "titre": "Prévisions modèle Monte Carlo",
                     "description": "Utilisation d'un modèle Monte Carlo complexe pour les prévisions CFTC."
                 },
