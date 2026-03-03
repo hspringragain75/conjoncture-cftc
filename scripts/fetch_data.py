@@ -2140,7 +2140,7 @@ def build_changelog():
                 {
                     "type": "feature",
                     "titre": "Sous-onglet marchés financiers",
-                    "description": "Suite aux événements au Moyen-Orient, il semble judicieux de pouvoir analyser les marchés financiers en intra-day, vous pouvez retrouver ces éléments dans la partie "conjoncture", sous-onglet "marchés financiers""
+                    "description": "Suite aux événements au Moyen-Orient, il semble judicieux de pouvoir analyser les marchés financiers en intra-day, vous pouvez retrouver ces éléments dans la partie "conjoncture", sous-onglet "marchés financiers"",
                 },
             ]
         },
