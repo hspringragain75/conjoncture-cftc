@@ -1,6 +1,6 @@
 {
-  "last_updated": "03/03/2026 13:44",
-  "last_updated_iso": "2026-03-03T13:44:08.680778",
+  "last_updated": "03/03/2026 13:48",
+  "last_updated_iso": "2026-03-03T13:48:11.949164",
   "contact": "hspringragain@cftc.fr",
   "alertes": [
     {
@@ -12,11 +12,11 @@
       "onglet": "inflation"
     },
     {
-      "id": "chomage_jeunes_T4_2025",
+      "id": "chomage_jeunes_T3_2025",
       "date": "2026-03-03",
       "type": "warning",
-      "titre": "🧑‍🎓 Chômage jeunes élevé : 21.5%",
-      "message": "Le taux de chômage des 15-24 ans reste préoccupant (T4 2025).",
+      "titre": "🧑‍🎓 Chômage jeunes élevé : 19.2%",
+      "message": "Le taux de chômage des 15-24 ans reste préoccupant (T3 2025).",
       "onglet": "emploi"
     },
     {
@@ -32,7 +32,7 @@
       "date": "2026-03-03",
       "type": "info",
       "titre": "🔄 Données actualisées",
-      "message": "Le tableau de bord a été mis à jour le 03/03/2026 à 13:44.",
+      "message": "Le tableau de bord a été mis à jour le 03/03/2026 à 13:48.",
       "onglet": "conjoncture"
     }
   ],
@@ -209,63 +209,58 @@
   "chomage": [
     {
       "trimestre": "T1 2023",
-      "taux": 6.9,
-      "jeunes": 16.6
+      "taux": 7.1,
+      "jeunes": 17.5
     },
     {
       "trimestre": "T2 2023",
-      "taux": 7.0,
-      "jeunes": 17.1
+      "taux": 7.2,
+      "jeunes": 17.0
     },
     {
       "trimestre": "T3 2023",
-      "taux": 7.2,
-      "jeunes": 17.4
+      "taux": 7.4,
+      "jeunes": 17.6
     },
     {
       "trimestre": "T4 2023",
-      "taux": 7.3,
+      "taux": 7.5,
       "jeunes": 17.6
     },
     {
       "trimestre": "T1 2024",
-      "taux": 7.3,
+      "taux": 7.5,
       "jeunes": 18.1
     },
     {
       "trimestre": "T2 2024",
-      "taux": 7.1,
-      "jeunes": 18.0
+      "taux": 7.3,
+      "jeunes": 17.7
     },
     {
       "trimestre": "T3 2024",
-      "taux": 7.2,
-      "jeunes": 19.7
+      "taux": 7.4,
+      "jeunes": 18.3
     },
     {
       "trimestre": "T4 2024",
-      "taux": 7.1,
-      "jeunes": 18.7
+      "taux": 7.3,
+      "jeunes": 19.0
     },
     {
       "trimestre": "T1 2025",
-      "taux": 7.3,
-      "jeunes": 19.2
+      "taux": 7.4,
+      "jeunes": 18.5
     },
     {
       "trimestre": "T2 2025",
-      "taux": 7.4,
-      "jeunes": 19.1
+      "taux": 7.5,
+      "jeunes": 18.8
     },
     {
       "trimestre": "T3 2025",
-      "taux": 7.5,
-      "jeunes": 19.1
-    },
-    {
-      "trimestre": "T4 2025",
       "taux": 7.7,
-      "jeunes": 21.5
+      "jeunes": 19.2
     }
   ],
   "smic": {
@@ -335,7 +330,7 @@
   ],
   "indicateurs_cles": {
     "taux_chomage_actuel": 7.7,
-    "taux_chomage_jeunes": 21.5,
+    "taux_chomage_jeunes": 19.2,
     "taux_emploi_seniors": 61.5,
     "inflation_annuelle": 0.9,
     "smic_brut": 1823.03,
@@ -344,11 +339,11 @@
     "salaire_moyen": 2733,
     "ecart_hf_eqtp": 13.0,
     "difficultes_recrutement": 61,
-    "irl_glissement": 0.87,
+    "irl_glissement": 0.79,
     "prix_gazole": 1.65,
     "taux_effort_locataires": 29.6,
     "croissance_pib": 0.7,
-    "climat_affaires": 98,
+    "climat_affaires": 97,
     "defaillances_12m": 68564
   },
   "salaire_median": {
@@ -508,7 +503,7 @@
     },
     {
       "trimestre": "T2 2023",
-      "taux": 5.1
+      "taux": 4.9
     },
     {
       "trimestre": "T3 2023",
@@ -520,38 +515,42 @@
     },
     {
       "trimestre": "T1 2024",
-      "taux": 5.0
+      "taux": 4.8
     },
     {
       "trimestre": "T2 2024",
-      "taux": 5.1
+      "taux": 4.9
     },
     {
       "trimestre": "T3 2024",
-      "taux": 5.2
+      "taux": 4.5
     },
     {
       "trimestre": "T4 2024",
-      "taux": 5.2
+      "taux": 4.6
     },
     {
       "trimestre": "T1 2025",
-      "taux": 5.3
+      "taux": 4.6
     },
     {
       "trimestre": "T2 2025",
-      "taux": 5.4
+      "taux": 4.7
     },
     {
       "trimestre": "T3 2025",
-      "taux": 5.5
+      "taux": 5.0
+    },
+    {
+      "trimestre": "T4 2025",
+      "taux": 4.9
     }
   ],
   "emploi_seniors_detail": {
     "taux_55_64": 61.5,
     "taux_55_59": 77.8,
     "taux_60_64": 38.9,
-    "chomage_seniors": 5.5,
+    "chomage_seniors": 4.9,
     "evolution_1an": 1.9,
     "duree_chomage_moyenne_mois": 18,
     "taux_temps_partiel": 25.5,
@@ -647,81 +646,69 @@
   "difficultes_recrutement": [
     {
       "trimestre": "T1 2023",
-      "industrie": 65,
-      "services": 48,
-      "construction": 78
+      "industrie": 52,
+      "services": 38,
+      "construction": 65
     },
     {
       "trimestre": "T2 2023",
-      "industrie": 64,
-      "services": 48,
-      "construction": 76
-    },
-    {
-      "trimestre": "T3 2023",
-      "industrie": 60,
-      "services": 45,
-      "construction": 72
-    },
-    {
-      "trimestre": "T4 2023",
-      "industrie": 57,
-      "services": 42,
-      "construction": 68
-    },
-    {
-      "trimestre": "T1 2024",
-      "industrie": 53,
-      "services": 39,
-      "construction": 63
-    },
-    {
-      "trimestre": "T2 2024",
-      "industrie": 52,
-      "services": 39,
+      "industrie": 50,
+      "services": 36,
       "construction": 62
     },
     {
-      "trimestre": "T3 2024",
+      "trimestre": "T3 2023",
       "industrie": 48,
-      "services": 36,
-      "construction": 57
+      "services": 35,
+      "construction": 60
     },
     {
-      "trimestre": "T4 2024",
-      "industrie": 46,
-      "services": 34,
+      "trimestre": "T4 2023",
+      "industrie": 45,
+      "services": 33,
+      "construction": 58
+    },
+    {
+      "trimestre": "T1 2024",
+      "industrie": 43,
+      "services": 32,
       "construction": 55
     },
     {
-      "trimestre": "T1 2025",
-      "industrie": 44,
-      "services": 33,
+      "trimestre": "T2 2024",
+      "industrie": 41,
+      "services": 30,
       "construction": 52
     },
     {
-      "trimestre": "T2 2025",
-      "industrie": 41,
-      "services": 30,
-      "construction": 49
+      "trimestre": "T3 2024",
+      "industrie": 40,
+      "services": 29,
+      "construction": 50
     },
     {
-      "trimestre": "T3 2025",
-      "industrie": 40,
-      "services": 30,
+      "trimestre": "T4 2024",
+      "industrie": 38,
+      "services": 28,
       "construction": 48
     },
     {
-      "trimestre": "T4 2025",
-      "industrie": 38,
-      "services": 28,
+      "trimestre": "T1 2025",
+      "industrie": 36,
+      "services": 27,
+      "construction": 46
+    },
+    {
+      "trimestre": "T2 2025",
+      "industrie": 35,
+      "services": 26,
       "construction": 45
     },
     {
-      "trimestre": "T1 2026",
-      "industrie": 39,
-      "services": 29,
-      "construction": 46
+      "trimestre": "T3 2025",
+      "industrie": 34,
+      "services": 25,
+      "construction": 44
     }
   ],
   "emploi_secteur": {
@@ -1058,9 +1045,9 @@
     ]
   },
   "irl": {
-    "valeur_actuelle": 145.77,
-    "glissement_annuel": 0.87,
-    "trimestre": "T3 2025",
+    "valeur_actuelle": 145.78,
+    "glissement_annuel": 0.79,
+    "trimestre": "T4 2025",
     "evolution": [
       {
         "trimestre": "T1 2022",
@@ -1068,9 +1055,19 @@
         "glissement": 2.48
       },
       {
+        "trimestre": "T2 2022",
+        "indice": 135.84,
+        "glissement": 3.6
+      },
+      {
         "trimestre": "T3 2022",
         "indice": 136.27,
         "glissement": 3.49
+      },
+      {
+        "trimestre": "T4 2022",
+        "indice": 137.26,
+        "glissement": 3.5
       },
       {
         "trimestre": "T1 2023",
@@ -1078,9 +1075,19 @@
         "glissement": 3.49
       },
       {
+        "trimestre": "T2 2023",
+        "indice": 140.59,
+        "glissement": 3.5
+      },
+      {
         "trimestre": "T3 2023",
         "indice": 141.03,
         "glissement": 3.49
+      },
+      {
+        "trimestre": "T4 2023",
+        "indice": 142.06,
+        "glissement": 3.5
       },
       {
         "trimestre": "T1 2024",
@@ -1088,9 +1095,19 @@
         "glissement": 3.5
       },
       {
+        "trimestre": "T2 2024",
+        "indice": 145.17,
+        "glissement": 3.26
+      },
+      {
         "trimestre": "T3 2024",
         "indice": 144.51,
         "glissement": 2.47
+      },
+      {
+        "trimestre": "T4 2024",
+        "indice": 144.64,
+        "glissement": 1.82
       },
       {
         "trimestre": "T1 2025",
@@ -1098,52 +1115,67 @@
         "glissement": 1.4
       },
       {
+        "trimestre": "T2 2025",
+        "indice": 146.68,
+        "glissement": 1.04
+      },
+      {
         "trimestre": "T3 2025",
         "indice": 145.77,
         "glissement": 0.87
+      },
+      {
+        "trimestre": "T4 2025",
+        "indice": 145.78,
+        "glissement": 0.79
       }
     ]
   },
   "prix_immobilier": {
-    "indice_actuel": 116.2,
+    "indice_actuel": 128.5,
     "variation_trim": 1.0,
-    "variation_an": -1.8,
+    "variation_an": 0.7,
     "transactions_annuelles": 880000,
     "evolution": [
       {
-        "trimestre": "T1 2022",
-        "indice": 124.5,
-        "variation": 7.2
-      },
-      {
-        "trimestre": "T3 2022",
-        "indice": 126.8,
-        "variation": 6.1
-      },
-      {
-        "trimestre": "T1 2023",
-        "indice": 124.2,
-        "variation": -0.2
-      },
-      {
-        "trimestre": "T3 2023",
-        "indice": 120.5,
-        "variation": -5.0
+        "trimestre": "T4 2023",
+        "indice": 128.7,
+        "variation": -3.6
       },
       {
         "trimestre": "T1 2024",
-        "indice": 117.8,
-        "variation": -5.1
+        "indice": 126.0,
+        "variation": -4.8
+      },
+      {
+        "trimestre": "T2 2024",
+        "indice": 125.7,
+        "variation": -4.6
       },
       {
         "trimestre": "T3 2024",
-        "indice": 115.3,
-        "variation": -4.3
+        "indice": 127.6,
+        "variation": -3.5
+      },
+      {
+        "trimestre": "T4 2024",
+        "indice": 126.3,
+        "variation": -1.9
       },
       {
         "trimestre": "T1 2025",
-        "indice": 116.2,
-        "variation": -1.4
+        "indice": 126.5,
+        "variation": 0.4
+      },
+      {
+        "trimestre": "T2 2025",
+        "indice": 126.5,
+        "variation": 0.6
+      },
+      {
+        "trimestre": "T3 2025",
+        "indice": 128.5,
+        "variation": 0.7
       }
     ],
     "par_zone": [
@@ -1422,14 +1454,14 @@
     ]
   },
   "climat_affaires": {
-    "valeur_actuelle": 98,
-    "confiance_menages": 92,
+    "valeur_actuelle": 97,
+    "confiance_menages": 91,
     "moyenne_long_terme": 100,
-    "mois": "Nov 2025",
+    "mois": "Fév 2026",
     "evolution": [
       {
         "mois": "Jan 2024",
-        "climat": 99,
+        "climat": 100,
         "menages": 91
       },
       {
@@ -1439,8 +1471,8 @@
       },
       {
         "mois": "Juil 2024",
-        "climat": 97,
-        "menages": 92
+        "climat": 94,
+        "menages": 91
       },
       {
         "mois": "Oct 2024",
@@ -1460,17 +1492,22 @@
       {
         "mois": "Juil 2025",
         "climat": 96,
-        "menages": 93
+        "menages": 89
       },
       {
         "mois": "Oct 2025",
         "climat": 97,
-        "menages": 92
+        "menages": 90
       },
       {
-        "mois": "Nov 2025",
-        "climat": 98,
-        "menages": 92
+        "mois": "Jan 2026",
+        "climat": 99,
+        "menages": 90
+      },
+      {
+        "mois": "Fév 2026",
+        "climat": 97,
+        "menages": 91
       }
     ],
     "par_secteur": [
@@ -4483,7 +4520,7 @@
     "sources": "INSEE - Enquête Emploi, DARES"
   },
   "previsions_cftc": {
-    "generated_at": "2026-03-03T13:44:08.774191",
+    "generated_at": "2026-03-03T13:48:12.082756",
     "model_version": "CFTC v4.0 (Monte Carlo)",
     "n_simulations": 1000,
     "horizon": "12 mois",
@@ -4527,7 +4564,7 @@
           1.3,
           1.4,
           1.5,
-          1.7,
+          1.6,
           1.8,
           1.8,
           1.8,
@@ -4581,18 +4618,18 @@
         "methodology": "Monte Carlo (1000 simulations) + saisonnalité + mean reversion"
       },
       "probabilites": {
-        "inflation_sous_2pct": 95.9,
-        "inflation_cible_bce": 95.9,
+        "inflation_sous_2pct": 96.4,
+        "inflation_cible_bce": 96.4,
         "inflation_au_dessus_3pct": 0.0,
-        "description": "95.9% de chances que l'inflation reste sous 2% à 12 mois"
+        "description": "96.4% de chances que l'inflation reste sous 2% à 12 mois"
       },
       "facteurs": {
         "cible_bdf": 1.4,
-        "ajustement_climat": -0.02,
+        "ajustement_climat": -0.03,
         "ajustement_energie": 0.0,
-        "cible_ajustee": 1.38
+        "cible_ajustee": 1.37
       },
-      "insight": "Inflation médiane à 12 mois : 1.4% [IC 80% : 1.1% - 1.8%]. 95.9% de probabilité de rester sous 2%."
+      "insight": "Inflation médiane à 12 mois : 1.4% [IC 80% : 1.1% - 1.8%]. 96.4% de probabilité de rester sous 2%."
     },
     "smic": {
       "current": {
@@ -4678,9 +4715,9 @@
       },
       "facteurs": {
         "cible_bdf": 7.7,
-        "ajustement_climat": 0.04,
+        "ajustement_climat": 0.06,
         "ajustement_recrutement": -0.11,
-        "cible_ajustee": 7.63
+        "cible_ajustee": 7.65
       },
       "insight": "Chômage médian à Q4 : 7.7% [IC 80% : 7.4% - 7.9%]."
     },
@@ -4785,7 +4822,7 @@
       }
     },
     "notes_lecture": [
-      "📈 Inflation médiane à 12 mois : 1.4% [1.1% - 1.8%] — 95.9% de chances de rester sous 2%",
+      "📈 Inflation médiane à 12 mois : 1.4% [1.1% - 1.8%] — 96.4% de chances de rester sous 2%",
       "💰 SMIC janvier 2027 : 1854€ brut (+1.7%, fourchette 1.4-2.2%) — Certain",
       "👥 Chômage Q4 : 7.7% [7.4% - 7.9%] — Tendance stable",
       "🎲 Scénario à surveiller : 🚀 Reprise économique forte (25% de probabilité)",
