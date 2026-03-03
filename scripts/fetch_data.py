@@ -2134,6 +2134,17 @@ def build_changelog():
     
     changelog = [
         {
+            "version": "2.1.2",
+            "date": "2026-03-03",
+            "modifications": [
+                {
+                    "type": "feature",
+                    "titre": "Sous-onglet marchés financiers",
+                    "description": "Suite aux événements au Moyen-Orient, il semble judicieux de pouvoir analyser les marchés financiers en intra-day, vous pouvez retrouver ces éléments dans la partie "conjoncture", sous-onglet "marchés financiers""
+                },
+            ]
+        },
+        {
             "version": "2.1.1",
             "date": "2026-02-12",
             "modifications": [
