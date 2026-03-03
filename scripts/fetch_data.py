@@ -2139,8 +2139,8 @@ def build_changelog():
             "modifications": [
                 {
                     "type": "feature",
-                    "titre": "Sous-onglet marchés financiers",
-                    "description": "Suite aux événements au Moyen-Orient, il semble judicieux de pouvoir analyser les marchés financiers en intra-day, vous pouvez retrouver ces éléments dans la partie "conjoncture", sous-onglet "marchés financiers"",
+                    "titre": "Sous-onglet march\u00e9s financiers",
+                    "description": "Suite aux \u00e9v\u00e9nements au Moyen-Orient, il semble judicieux de pouvoir analyser les march\u00e9s financiers en intra-day. Retrouvez ces \u00e9l\u00e9ments dans la partie conjoncture, sous-onglet march\u00e9s financiers. Donn\u00e9es quotidiennes sur 1 an avec moyennes mobiles, variations multi-horizons et corr\u00e9lation inflation."
                 },
             ]
         },
@@ -2209,8 +2209,6 @@ def build_changelog():
         },
     ]
     return changelog
-
-
 
 def build_marches_financiers_data():
     """
