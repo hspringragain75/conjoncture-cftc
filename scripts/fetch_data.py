@@ -2134,6 +2134,17 @@ def build_changelog():
     
     changelog = [
         {
+            "version": "2.1.3",
+            "date": "2026-03-04",
+            "modifications": [
+                {
+                    "type": "breaking",
+                    "titre": "Données mises à jour tous les jours",
+                    "description": "Les informations financières ayant besoin d'être actualisées régulièrement, le tableau de bord se mettra désormais à jour chaque jour à 6 h UTC"
+                },
+            ]
+        },        
+        {
             "version": "2.1.2",
             "date": "2026-03-03",
             "modifications": [
