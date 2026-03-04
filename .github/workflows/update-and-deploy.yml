@@ -2,9 +2,11 @@ name: Update Economic Data
 
 on:
   schedule:
-    # Tous les lundis à 7h UTC
-    - cron: '0 7 * * 1'
-  workflow_dispatch:  # Permet le déclenchement manuel
+    # Tous les jours du lundi au vendredi a 6h UTC = 7h heure de Paris (CET)
+    # Note : en heure d'ete (CEST), 6h UTC = 8h Paris. Pour 7h Paris toute l'annee,
+    # il faudrait deux crons (5h UTC ete, 6h UTC hiver) mais GitHub ne gere pas les fuseaux.
+    - cron: '0 6 * * 1-5'
+  workflow_dispatch:  # Permet le declenchement manuel
   push:
     branches: [main]
 
@@ -21,25 +23,25 @@ jobs:
         with:
           python-version: '3.11'
       
-      # Étape 1 : Récupérer les données économiques (INSEE, etc.)
+      # Etape 1 : Recuperer les donnees economiques (INSEE, etc.)
       - name: Fetch latest economic data
         run: python scripts/fetch_data.py
       
-      # Étape 2 : Générer les prévisions CFTC
+      # Etape 2 : Generer les previsions CFTC
       - name: Generate CFTC predictions
         run: python scripts/predictions_model_v4.py public/data.json
       
-      # Étape 3 : Commit et push si changements
+      # Etape 3 : Commit et push si changements
       - name: Commit and push if changed
         run: |
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git config user.name "github-actions[bot]"
           git add -A
           if git diff --staged --quiet; then
-            echo "Pas de changements à commit"
+            echo "Pas de changements a commit"
           else
-            git commit -m "📊 Mise à jour données + prévisions $(date +'%Y-%m-%d')"
-            # Force push pour éviter les conflits (les données générées sont toujours les plus récentes)
+            git commit -m "📊 Mise a jour donnees + previsions $(date +'%Y-%m-%d %H:%M')"
+            # Force push pour eviter les conflits (les donnees generees sont toujours les plus recentes)
             git push --force-with-lease origin main || git push --force origin main
           fi
 
