@@ -287,7 +287,7 @@ def build_changelog():
 ### Déploiement automatique
 
 Le workflow GitHub Actions s'exécute :
-- **Automatiquement** : Chaque lundi à 8h (Paris)
+- **Automatiquement** : Chaque jour à 6 H UTC
 - **Manuellement** : Via Actions > "Update and Deploy" > "Run workflow"
 
 ### Modifier la fréquence
