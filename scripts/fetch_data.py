@@ -1136,13 +1136,13 @@ def build_pib_data():
         {"annee": "2022", "croissance": 2.6},
         {"annee": "2023", "croissance": 1.1},
         {"annee": "2024", "croissance": 1.1},  # Chiffre officiel INSEE
-        {"annee": "2025", "croissance": 0.8},  # Estimation
+        {"annee": "2025", "croissance": 0.9},  # Officiel INSEE (1ère estimation T4 2025, jan 2026)
     ]
     
     default_pib = {
-        "croissance_trim_actuel": 0.4,
-        "croissance_annuelle": 1.1,  # 2024 officiel
-        "trimestre": "T3 2025",
+        "croissance_trim_actuel": 0.2,
+        "croissance_annuelle": 0.9,  # 2025 officiel (1ère estimation INSEE jan 2026)
+        "trimestre": "T4 2025",
         "commentaire": "PIB volume trimestriel",
         "evolution": [
             {"trimestre": "T1 2022", "croissance": 0.5},
@@ -1159,12 +1159,13 @@ def build_pib_data():
             {"trimestre": "T4 2024", "croissance": -0.1},
             {"trimestre": "T1 2025", "croissance": 0.2},
             {"trimestre": "T2 2025", "croissance": 0.3},
-            {"trimestre": "T3 2025", "croissance": 0.4},
+            {"trimestre": "T3 2025", "croissance": 0.5},
+            {"trimestre": "T4 2025", "croissance": 0.2},
         ],
         "contributions": {
-            "trimestre": "T3 2025",
+            "trimestre": "T4 2025",
             "demande_interieure": 0.3,
-            "commerce_exterieur": 0.1,
+            "commerce_exterieur": 0.0,
             "stocks": -0.1
         },
         "annuel": donnees_annuelles
@@ -1193,7 +1194,7 @@ def build_pib_data():
             print(f"  ✓ {len(evolution)} trimestres de PIB récupérés")
             return {
                 "croissance_trim_actuel": latest['croissance'],
-                "croissance_annuelle": 1.1,  # Toujours utiliser le chiffre officiel 2024
+                "croissance_annuelle": 0.9,  # 2025 officiel (1ère estimation INSEE jan 2026)
                 "trimestre": latest['trimestre'],
                 "commentaire": "PIB volume trimestriel - INSEE",
                 "evolution": evolution,
@@ -1572,8 +1573,8 @@ def build_comparaison_ue_data():
     print("🇪🇺 Comparaison UE (statique - Eurostat)...")
     
     return {
-        "commentaire": "STATIQUE - Eurostat - màj semestrielle (juillet 2025)",
-        "date_maj": "2025-07-01",
+        "commentaire": "STATIQUE - Eurostat - données 1er semestre 2026 (publiées 30/01/2026)",
+        "date_maj": "2026-01-01",
         "smic_europe": [
             # Données Eurostat juillet 2025 - SMIC brut mensuel en euros
             {"pays": "Luxembourg", "code": "LU", "smic": 2704, "spa": 2035},
@@ -1587,14 +1588,14 @@ def build_comparaison_ue_data():
             {"pays": "Bulgarie", "code": "BG", "smic": 551, "spa": 886},
         ],
         "chomage_europe": [
-            # Données Eurostat septembre 2025 - taux de chômage %
-            {"pays": "Allemagne", "code": "DE", "taux": 3.7, "jeunes": 6.7},
-            {"pays": "Pays-Bas", "code": "NL", "taux": 3.8, "jeunes": 8.8},
-            {"pays": "Pologne", "code": "PL", "taux": 2.9, "jeunes": 10.5},
+            # Données Eurostat janvier 2026 (publiées mars 2026)
+            {"pays": "Allemagne", "code": "DE", "taux": 4.0, "jeunes": 6.8},
+            {"pays": "Pays-Bas", "code": "NL", "taux": 4.0, "jeunes": 9.2},
+            {"pays": "Pologne", "code": "PL", "taux": 3.2, "jeunes": 10.5},
             {"pays": "France", "code": "FR", "taux": 7.7, "jeunes": 18.3},
-            {"pays": "Italie", "code": "IT", "taux": 6.1, "jeunes": 20.6},
-            {"pays": "Espagne", "code": "ES", "taux": 10.5, "jeunes": 25.0},
-            {"pays": "UE-27", "code": "EU", "taux": 6.0, "jeunes": 14.8},
+            {"pays": "Italie", "code": "IT", "taux": 5.1, "jeunes": 20.6},
+            {"pays": "Espagne", "code": "ES", "taux": 9.8, "jeunes": 23.4},
+            {"pays": "UE-27", "code": "EU", "taux": 5.8, "jeunes": 15.1},
         ],
         "part_salaires_va_ue": [
             # Part de la rémunération des salariés dans la VA - Eurostat 2024
@@ -2771,6 +2772,7 @@ def build_marches_financiers_data():
         {"date": "2025-09", "valeur": 3.04}, {"date": "2025-10", "valeur": 3.08},
         {"date": "2025-11", "valeur": 3.01}, {"date": "2025-12", "valeur": 3.10},
         {"date": "2026-01", "valeur": 3.20},
+        {"date": "2026-02", "valeur": 3.25},
     ]
     taux_immo_source = "Banque de France / Observatoire Credit Logement"
     taux_immo_variations = {
@@ -4017,10 +4019,16 @@ def main():
     print("   │ 📅 Avril     : Tensions métiers (enquête BMO France Travail)│")
     print("   │ 📅 Avril     : Taux d'effort logement (enquête SRCV)       │")
     print("   │ 📅 Juillet   : Comparaison UE (Eurostat semestriel)        │")
+    print("   │              → Données jan 2026 (Eurostat 30/01/2026) ✅   │")
     print("   │ 📅 Trimestriel: Créations/destructions emploi (DARES MMO)  │")
+    print("   │              → T4 2025 attendu (non encore publié)         │")
     print("   │ 📅 Trimestriel: Prix immobilier par zone (Notaires-INSEE)  │")
     print("   │ 📅 Trimestriel: PIB (Comptes nationaux ~45j après trim.)   │")
+    print("   │              → T4 2025 : +0.2%, annuel 2025 : +0.9% ✅    │")
     print("   │ 📅 Trimestriel: Investissement FBCF (Comptes nationaux)    │")
+    print("   │              → FBCF T4 2025 : +0.2% (inclus dans PIB) ✅  │")
+    print("   │ 📅 Mensuel   : Taux crédit immo (Observatoire CL/CSA)      │")
+    print("   │              → Fév 2026 : 3.25% (+5pdb) ✅                 │")
     print("   │ 📅 Annuel    : Partage VA (Comptes nationaux INSEE)        │")
     print("   │ 📅 Octobre   : Salaire médian (INSEE)                      │")
     print("   │ 📅 Trimestriel: CPF/Formation (PPT Caisse des Dépôts)      │")
