@@ -1,6 +1,6 @@
 {
-  "last_updated": "11/03/2026 07:06",
-  "last_updated_iso": "2026-03-11T07:06:02.805843",
+  "last_updated": "11/03/2026 09:02",
+  "last_updated_iso": "2026-03-11T09:02:39.648447",
   "contact": "hspringragain@cftc.fr",
   "alertes": [
     {
@@ -32,7 +32,7 @@
       "date": "2026-03-11",
       "type": "info",
       "titre": "🔄 Données actualisées",
-      "message": "Le tableau de bord a été mis à jour le 11/03/2026 à 07:06.",
+      "message": "Le tableau de bord a été mis à jour le 11/03/2026 à 09:02.",
       "onglet": "conjoncture"
     }
   ],
@@ -409,7 +409,7 @@
     ]
   },
   "ecart_hommes_femmes": {
-    "ecart_global": 22.2,
+    "ecart_global": 21.8,
     "ecart_eqtp": 25.8,
     "ecart_poste_comparable": 4.0,
     "evolution": [
@@ -481,7 +481,7 @@
     "montant_total_2023": 5.3,
     "montant_total_2024": 3.4,
     "montant_moyen": 885,
-    "commentaire": "Données Urssaf - À mettre à jour manuellement chaque année"
+    "commentaire": "Données confirmées par INSEE Première n°2079 (mars 2025). Données 2025 non encore publiées (attendues mars 2026)."
   },
   "emploi_seniors": [
     {
@@ -536,7 +536,7 @@
     },
     {
       "trimestre": "T2 2023",
-      "taux": 5.1
+      "taux": 4.9
     },
     {
       "trimestre": "T3 2023",
@@ -548,38 +548,42 @@
     },
     {
       "trimestre": "T1 2024",
-      "taux": 5.0
+      "taux": 4.8
     },
     {
       "trimestre": "T2 2024",
-      "taux": 5.1
+      "taux": 4.9
     },
     {
       "trimestre": "T3 2024",
-      "taux": 5.2
+      "taux": 4.5
     },
     {
       "trimestre": "T4 2024",
-      "taux": 5.2
+      "taux": 4.6
     },
     {
       "trimestre": "T1 2025",
-      "taux": 5.3
+      "taux": 4.6
     },
     {
       "trimestre": "T2 2025",
-      "taux": 5.4
+      "taux": 4.7
     },
     {
       "trimestre": "T3 2025",
-      "taux": 5.5
+      "taux": 5.0
+    },
+    {
+      "trimestre": "T4 2025",
+      "taux": 4.9
     }
   ],
   "emploi_seniors_detail": {
     "taux_55_64": 61.5,
     "taux_55_59": 77.8,
     "taux_60_64": 38.9,
-    "chomage_seniors": 5.5,
+    "chomage_seniors": 4.9,
     "evolution_1an": 1.9,
     "duree_chomage_moyenne_mois": 18,
     "taux_temps_partiel": 25.5,
@@ -601,75 +605,69 @@
   "types_contrats": [
     {
       "trimestre": "T1 2023",
-      "cdi": 83.2,
-      "cdd": 5.4,
-      "interim": 1.4
+      "cdi": 74.5,
+      "cdd": 8.8,
+      "interim": 2.2
     },
     {
       "trimestre": "T2 2023",
-      "cdi": 83.2,
-      "cdd": 5.4,
-      "interim": 1.4
+      "cdi": 74.3,
+      "cdd": 9.0,
+      "interim": 2.1
     },
     {
       "trimestre": "T3 2023",
-      "cdi": 83.4,
-      "cdd": 5.3,
-      "interim": 1.3
+      "cdi": 74.4,
+      "cdd": 8.9,
+      "interim": 2.0
     },
     {
       "trimestre": "T4 2023",
-      "cdi": 83.4,
-      "cdd": 5.3,
-      "interim": 1.3
+      "cdi": 74.6,
+      "cdd": 8.7,
+      "interim": 2.0
     },
     {
       "trimestre": "T1 2024",
-      "cdi": 83.4,
-      "cdd": 5.3,
-      "interim": 1.3
+      "cdi": 74.8,
+      "cdd": 8.5,
+      "interim": 1.9
     },
     {
       "trimestre": "T2 2024",
-      "cdi": 83.4,
-      "cdd": 5.3,
-      "interim": 1.3
+      "cdi": 74.7,
+      "cdd": 8.6,
+      "interim": 1.9
     },
     {
       "trimestre": "T3 2024",
-      "cdi": 83.4,
-      "cdd": 5.3,
-      "interim": 1.3
+      "cdi": 74.9,
+      "cdd": 8.4,
+      "interim": 1.8
     },
     {
       "trimestre": "T4 2024",
-      "cdi": 83.5,
-      "cdd": 5.2,
-      "interim": 1.3
+      "cdi": 75.0,
+      "cdd": 8.3,
+      "interim": 1.8
     },
     {
       "trimestre": "T1 2025",
-      "cdi": 83.6,
-      "cdd": 5.1,
-      "interim": 1.3
+      "cdi": 75.1,
+      "cdd": 8.2,
+      "interim": 1.7
     },
     {
       "trimestre": "T2 2025",
-      "cdi": 83.5,
-      "cdd": 5.2,
-      "interim": 1.3
+      "cdi": 75.2,
+      "cdd": 8.1,
+      "interim": 1.7
     },
     {
       "trimestre": "T3 2025",
-      "cdi": 83.6,
-      "cdd": 5.1,
-      "interim": 1.3
-    },
-    {
-      "trimestre": "T4 2025",
-      "cdi": 83.4,
-      "cdd": 5.3,
-      "interim": 1.3
+      "cdi": 75.3,
+      "cdd": 8.0,
+      "interim": 1.6
     }
   ],
   "difficultes_recrutement": [
@@ -3329,7 +3327,7 @@
       "note_lecture": "Le TEC-10 mesure le rendement des emprunts d'Etat francais a 10 ans. Un taux eleve rencherit le cout de la dette publique et impacte les taux de credit immobilier."
     },
     "petrole_brent": {
-      "valeur": 85.24,
+      "valeur": 86.58,
       "date": "2026-03-11",
       "unite": "USD/baril",
       "source": "Yahoo Finance",
@@ -4849,16 +4847,16 @@
         },
         {
           "date": "2026-03-11",
-          "valeur": 85.24,
-          "ma50": 69.79,
-          "ma200": 67.08
+          "valeur": 86.58,
+          "ma50": 69.81,
+          "ma200": 67.09
         }
       ],
       "variations": {
-        "jour": -2.92,
-        "semaine": 4.72,
-        "mois": 25.26,
-        "ytd": 40.31
+        "jour": -1.39,
+        "semaine": 6.36,
+        "mois": 27.23,
+        "ytd": 42.52
       },
       "min_max": {
         "min": 58.92,
@@ -4869,19 +4867,13 @@
       "note_lecture": "Le prix du Brent influence directement les couts de transport et d'energie, donc l'inflation et le pouvoir d'achat des salaries."
     },
     "cac40": {
-      "valeur": 8057.36,
-      "date": "2026-03-10",
-      "variation_jour_pct": 1.79,
+      "valeur": 7997.59,
+      "date": "2026-03-11",
+      "variation_jour_pct": -0.74,
       "unite": "points",
       "source": "Yahoo Finance",
       "nb_points": 256,
       "historique": [
-        {
-          "date": "2025-03-10",
-          "valeur": 8047.6,
-          "ma50": null,
-          "ma200": null
-        },
         {
           "date": "2025-03-11",
           "valeur": 7941.91,
@@ -5173,7 +5165,7 @@
         {
           "date": "2025-05-21",
           "valeur": 7910.49,
-          "ma50": 7702.49,
+          "ma50": null,
           "ma200": null
         },
         {
@@ -6074,7 +6066,7 @@
           "date": "2025-12-17",
           "valeur": 8086.05,
           "ma50": 8095.85,
-          "ma200": 7841.93
+          "ma200": null
         },
         {
           "date": "2025-12-18",
@@ -6411,13 +6403,19 @@
           "valeur": 8057.36,
           "ma50": 8254.45,
           "ma200": 7989.52
+        },
+        {
+          "date": "2026-03-11",
+          "valeur": 7997.59,
+          "ma50": 8251.04,
+          "ma200": 7990.75
         }
       ],
       "variations": {
-        "jour": 1.79,
-        "semaine": -0.57,
-        "mois": -2.62,
-        "ytd": -1.68
+        "jour": -0.74,
+        "semaine": -2.08,
+        "mois": -3.91,
+        "ytd": -2.41
       },
       "min_max": {
         "min": 6863.02,
@@ -7998,7 +7996,7 @@
       "note_lecture": "Le taux de change euro-dollar determine le prix de tout ce qui est importe en dollars : petrole, matieres premieres, electronique. Un euro faible rencherit les importations et alimente l'inflation."
     },
     "or": {
-      "valeur": 5204.2,
+      "valeur": 5194.5,
       "date": "2026-03-11",
       "unite": "USD/oz",
       "source": "Yahoo Finance",
@@ -9518,16 +9516,16 @@
         },
         {
           "date": "2026-03-11",
-          "valeur": 5204.2,
-          "ma50": 4882.13,
-          "ma200": 4008.72
+          "valeur": 5194.5,
+          "ma50": 4881.94,
+          "ma200": 4008.68
         }
       ],
       "variations": {
-        "jour": -0.49,
-        "semaine": 1.64,
-        "mois": 5.11,
-        "ytd": 20.62
+        "jour": -0.67,
+        "semaine": 1.45,
+        "mois": 4.91,
+        "ytd": 20.4
       },
       "min_max": {
         "min": 2912.9,
@@ -9538,11 +9536,11 @@
       "note_lecture": "L'or est la valeur refuge par excellence. Sa hausse traduit une montee de l'incertitude economique ou geopolitique. Il sert aussi de protection contre l'inflation."
     },
     "gaz_naturel": {
-      "valeur": 47.0,
-      "date": "2026-03-10",
+      "valeur": 49.49,
+      "date": "2026-03-11",
       "unite": "EUR/MWh",
       "source": "Yahoo Finance (TTF)",
-      "nb_points": 252,
+      "nb_points": 253,
       "historique": [
         {
           "date": "2025-03-11",
@@ -11052,16 +11050,22 @@
         },
         {
           "date": "2026-03-10",
-          "valeur": 47.0,
-          "ma50": 35.35,
-          "ma200": 33.18
+          "valeur": 47.39,
+          "ma50": 35.36,
+          "ma200": 33.19
+        },
+        {
+          "date": "2026-03-11",
+          "valeur": 49.49,
+          "ma50": 35.78,
+          "ma200": 33.25
         }
       ],
       "variations": {
-        "jour": -16.74,
-        "semaine": -13.43,
-        "mois": 39.3,
-        "ytd": 62.07
+        "jour": 4.43,
+        "semaine": 1.48,
+        "mois": 38.67,
+        "ytd": 70.66
       },
       "min_max": {
         "min": 26.6,
@@ -11072,7 +11076,7 @@
       "note_lecture": "Le prix du gaz naturel (TTF europeen) impacte directement les factures de chauffage et d'electricite des menages, ainsi que les couts de production industrielle."
     },
     "ble": {
-      "valeur": 593.0,
+      "valeur": 596.0,
       "date": "2026-03-11",
       "unite": "cents/boisseau",
       "source": "Yahoo Finance",
@@ -12586,16 +12590,16 @@
         },
         {
           "date": "2026-03-11",
-          "valeur": 593.0,
-          "ma50": 540.22,
-          "ma200": 528.79
+          "valeur": 596.0,
+          "ma50": 540.28,
+          "ma200": 528.81
         }
       ],
       "variations": {
-        "jour": 1.41,
-        "semaine": 4.63,
-        "mois": 11.94,
-        "ytd": 17.08
+        "jour": 1.92,
+        "semaine": 5.16,
+        "mois": 12.51,
+        "ytd": 17.67
       },
       "min_max": {
         "min": 495.0,
@@ -13131,7 +13135,7 @@
   },
   "simulateur_nao": {
     "commentaire": "Paramètres pour le simulateur NAO - màj annuelle (janvier)",
-    "annee": 2025,
+    "annee": 2026,
     "taux_cotisations": {
       "non_cadre": 0.23,
       "cadre": 0.25,
@@ -13176,7 +13180,7 @@
       "brut_mensuel": 1823.03,
       "net_mensuel": 1443.11,
       "horaire_brut": 12.02,
-      "date_vigueur": "2025-01-01"
+      "date_vigueur": "2026-01-01"
     },
     "exonerations": {
       "seuil_fillon": 1.6,
@@ -14715,12 +14719,12 @@
         "nom": "Martinique",
         "code": "MQ",
         "emoji": "🌴",
-        "chomage": 17.1,
+        "chomage": 13.7,
         "salaire_median": 1840,
         "emploi": 56.8,
         "population": 0.349,
         "tensions": 40,
-        "evol_chomage": -0.3,
+        "evol_chomage": 1.3,
         "note": "Taux de chômage des jeunes : ~40%"
       },
       {
@@ -14763,8 +14767,8 @@
   },
   "conventions_collectives": {
     "smic_reference": {
-      "mensuel": 1426.3,
-      "annuel": 17116,
+      "mensuel": 1443.11,
+      "annuel": 17317,
       "date": "Janvier 2026"
     },
     "statistiques_branches": {
@@ -15786,7 +15790,7 @@
     "sources": "INSEE - Enquête Emploi, DARES"
   },
   "previsions_cftc": {
-    "generated_at": "2026-03-11T07:06:03.047194",
+    "generated_at": "2026-03-11T09:02:39.843786",
     "model_version": "CFTC v4.0 (Monte Carlo)",
     "n_simulations": 1000,
     "horizon": "12 mois",
