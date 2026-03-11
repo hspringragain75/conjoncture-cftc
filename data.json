@@ -1,6 +1,6 @@
 {
-  "last_updated": "11/03/2026 09:19",
-  "last_updated_iso": "2026-03-11T09:19:18.018034",
+  "last_updated": "11/03/2026 10:03",
+  "last_updated_iso": "2026-03-11T10:03:55.143102",
   "contact": "hspringragain@cftc.fr",
   "alertes": [
     {
@@ -32,7 +32,7 @@
       "date": "2026-03-11",
       "type": "info",
       "titre": "🔄 Données actualisées",
-      "message": "Le tableau de bord a été mis à jour le 11/03/2026 à 09:19.",
+      "message": "Le tableau de bord a été mis à jour le 11/03/2026 à 10:03.",
       "onglet": "conjoncture"
     }
   ],
@@ -370,9 +370,9 @@
     "smic_net": 1443.11,
     "salaire_median": 2190,
     "salaire_moyen": 2733,
-    "ecart_hf_eqtp": 14.0,
+    "ecart_hf_eqtp": 25.8,
     "difficultes_recrutement": 61,
-    "irl_glissement": 0.87,
+    "irl_glissement": 0.79,
     "prix_gazole": 1.58,
     "taux_effort_locataires": 29.6,
     "croissance_pib": 0.7,
@@ -410,36 +410,36 @@
   },
   "ecart_hommes_femmes": {
     "ecart_global": 21.8,
-    "ecart_eqtp": 14.0,
+    "ecart_eqtp": 25.8,
     "ecart_poste_comparable": 4.0,
     "evolution": [
       {
-        "annee": "2015",
-        "ecart": 18.4
-      },
-      {
-        "annee": "2017",
-        "ecart": 16.6
+        "annee": "2018",
+        "ecart": 23.2
       },
       {
         "annee": "2019",
-        "ecart": 16.1
+        "ecart": 23.8
+      },
+      {
+        "annee": "2020",
+        "ecart": 24.5
       },
       {
         "annee": "2021",
-        "ecart": 15.5
+        "ecart": 24.3
       },
       {
         "annee": "2022",
-        "ecart": 14.9
+        "ecart": 25.1
       },
       {
         "annee": "2023",
-        "ecart": 14.2
+        "ecart": 25.6
       },
       {
         "annee": "2024",
-        "ecart": 14.0
+        "ecart": 25.8
       }
     ]
   },
@@ -536,7 +536,7 @@
     },
     {
       "trimestre": "T2 2023",
-      "taux": 5.1
+      "taux": 4.9
     },
     {
       "trimestre": "T3 2023",
@@ -548,38 +548,42 @@
     },
     {
       "trimestre": "T1 2024",
-      "taux": 5.0
+      "taux": 4.8
     },
     {
       "trimestre": "T2 2024",
-      "taux": 5.1
+      "taux": 4.9
     },
     {
       "trimestre": "T3 2024",
-      "taux": 5.2
+      "taux": 4.5
     },
     {
       "trimestre": "T4 2024",
-      "taux": 5.2
+      "taux": 4.6
     },
     {
       "trimestre": "T1 2025",
-      "taux": 5.3
+      "taux": 4.6
     },
     {
       "trimestre": "T2 2025",
-      "taux": 5.4
+      "taux": 4.7
     },
     {
       "trimestre": "T3 2025",
-      "taux": 5.5
+      "taux": 5.0
+    },
+    {
+      "trimestre": "T4 2025",
+      "taux": 4.9
     }
   ],
   "emploi_seniors_detail": {
     "taux_55_64": 61.5,
     "taux_55_59": 77.8,
     "taux_60_64": 38.9,
-    "chomage_seniors": 5.5,
+    "chomage_seniors": 4.9,
     "evolution_1an": 1.9,
     "duree_chomage_moyenne_mois": 18,
     "taux_temps_partiel": 25.5,
@@ -675,81 +679,69 @@
   "difficultes_recrutement": [
     {
       "trimestre": "T1 2023",
-      "industrie": 65,
-      "services": 48,
-      "construction": 78
+      "industrie": 52,
+      "services": 38,
+      "construction": 65
     },
     {
       "trimestre": "T2 2023",
-      "industrie": 64,
-      "services": 48,
-      "construction": 76
-    },
-    {
-      "trimestre": "T3 2023",
-      "industrie": 60,
-      "services": 45,
-      "construction": 72
-    },
-    {
-      "trimestre": "T4 2023",
-      "industrie": 57,
-      "services": 42,
-      "construction": 68
-    },
-    {
-      "trimestre": "T1 2024",
-      "industrie": 53,
-      "services": 39,
-      "construction": 63
-    },
-    {
-      "trimestre": "T2 2024",
-      "industrie": 52,
-      "services": 39,
+      "industrie": 50,
+      "services": 36,
       "construction": 62
     },
     {
-      "trimestre": "T3 2024",
+      "trimestre": "T3 2023",
       "industrie": 48,
-      "services": 36,
-      "construction": 57
+      "services": 35,
+      "construction": 60
     },
     {
-      "trimestre": "T4 2024",
-      "industrie": 46,
-      "services": 34,
+      "trimestre": "T4 2023",
+      "industrie": 45,
+      "services": 33,
+      "construction": 58
+    },
+    {
+      "trimestre": "T1 2024",
+      "industrie": 43,
+      "services": 32,
       "construction": 55
     },
     {
-      "trimestre": "T1 2025",
-      "industrie": 44,
-      "services": 33,
+      "trimestre": "T2 2024",
+      "industrie": 41,
+      "services": 30,
       "construction": 52
     },
     {
-      "trimestre": "T2 2025",
-      "industrie": 41,
-      "services": 30,
-      "construction": 49
+      "trimestre": "T3 2024",
+      "industrie": 40,
+      "services": 29,
+      "construction": 50
     },
     {
-      "trimestre": "T3 2025",
-      "industrie": 40,
-      "services": 30,
+      "trimestre": "T4 2024",
+      "industrie": 38,
+      "services": 28,
       "construction": 48
     },
     {
-      "trimestre": "T4 2025",
-      "industrie": 38,
-      "services": 28,
+      "trimestre": "T1 2025",
+      "industrie": 36,
+      "services": 27,
+      "construction": 46
+    },
+    {
+      "trimestre": "T2 2025",
+      "industrie": 35,
+      "services": 26,
       "construction": 45
     },
     {
-      "trimestre": "T1 2026",
-      "industrie": 39,
-      "services": 29,
-      "construction": 46
+      "trimestre": "T3 2025",
+      "industrie": 34,
+      "services": 25,
+      "construction": 44
     }
   ],
   "emploi_secteur": {
@@ -1086,9 +1078,9 @@
     ]
   },
   "irl": {
-    "valeur_actuelle": 145.77,
-    "glissement_annuel": 0.87,
-    "trimestre": "T3 2025",
+    "valeur_actuelle": 145.78,
+    "glissement_annuel": 0.79,
+    "trimestre": "T4 2025",
     "evolution": [
       {
         "trimestre": "T1 2022",
@@ -1096,9 +1088,19 @@
         "glissement": 2.48
       },
       {
+        "trimestre": "T2 2022",
+        "indice": 135.84,
+        "glissement": 3.6
+      },
+      {
         "trimestre": "T3 2022",
         "indice": 136.27,
         "glissement": 3.49
+      },
+      {
+        "trimestre": "T4 2022",
+        "indice": 137.26,
+        "glissement": 3.5
       },
       {
         "trimestre": "T1 2023",
@@ -1106,9 +1108,19 @@
         "glissement": 3.49
       },
       {
+        "trimestre": "T2 2023",
+        "indice": 140.59,
+        "glissement": 3.5
+      },
+      {
         "trimestre": "T3 2023",
         "indice": 141.03,
         "glissement": 3.49
+      },
+      {
+        "trimestre": "T4 2023",
+        "indice": 142.06,
+        "glissement": 3.5
       },
       {
         "trimestre": "T1 2024",
@@ -1116,9 +1128,19 @@
         "glissement": 3.5
       },
       {
+        "trimestre": "T2 2024",
+        "indice": 145.17,
+        "glissement": 3.26
+      },
+      {
         "trimestre": "T3 2024",
         "indice": 144.51,
         "glissement": 2.47
+      },
+      {
+        "trimestre": "T4 2024",
+        "indice": 144.64,
+        "glissement": 1.82
       },
       {
         "trimestre": "T1 2025",
@@ -1126,9 +1148,19 @@
         "glissement": 1.4
       },
       {
+        "trimestre": "T2 2025",
+        "indice": 146.68,
+        "glissement": 1.04
+      },
+      {
         "trimestre": "T3 2025",
         "indice": 145.77,
         "glissement": 0.87
+      },
+      {
+        "trimestre": "T4 2025",
+        "indice": 145.78,
+        "glissement": 0.79
       }
     ]
   },
@@ -3319,7 +3351,7 @@
       "note_lecture": "Le TEC-10 mesure le rendement des emprunts d'Etat francais a 10 ans. Un taux eleve rencherit le cout de la dette publique et impacte les taux de credit immobilier."
     },
     "petrole_brent": {
-      "valeur": 87.53,
+      "valeur": 88.47,
       "date": "2026-03-11",
       "unite": "USD/baril",
       "source": "Yahoo Finance",
@@ -4839,16 +4871,16 @@
         },
         {
           "date": "2026-03-11",
-          "valeur": 87.53,
-          "ma50": 69.83,
-          "ma200": 67.09
+          "valeur": 88.47,
+          "ma50": 69.85,
+          "ma200": 67.1
         }
       ],
       "variations": {
-        "jour": -0.31,
-        "semaine": 7.53,
-        "mois": 28.63,
-        "ytd": 44.08
+        "jour": 0.76,
+        "semaine": 8.69,
+        "mois": 30.01,
+        "ytd": 45.63
       },
       "min_max": {
         "min": 58.92,
@@ -4859,9 +4891,9 @@
       "note_lecture": "Le prix du Brent influence directement les couts de transport et d'energie, donc l'inflation et le pouvoir d'achat des salaries."
     },
     "cac40": {
-      "valeur": 7975.1,
+      "valeur": 7971.12,
       "date": "2026-03-11",
-      "variation_jour_pct": -1.02,
+      "variation_jour_pct": -1.07,
       "unite": "points",
       "source": "Yahoo Finance",
       "nb_points": 256,
@@ -6398,16 +6430,16 @@
         },
         {
           "date": "2026-03-11",
-          "valeur": 7975.1,
-          "ma50": 8250.59,
-          "ma200": 7990.64
+          "valeur": 7971.12,
+          "ma50": 8250.51,
+          "ma200": 7990.62
         }
       ],
       "variations": {
-        "jour": -1.02,
-        "semaine": -2.36,
-        "mois": -4.18,
-        "ytd": -2.69
+        "jour": -1.07,
+        "semaine": -2.41,
+        "mois": -4.23,
+        "ytd": -2.73
       },
       "min_max": {
         "min": 6863.02,
@@ -7988,7 +8020,7 @@
       "note_lecture": "Le taux de change euro-dollar determine le prix de tout ce qui est importe en dollars : petrole, matieres premieres, electronique. Un euro faible rencherit les importations et alimente l'inflation."
     },
     "or": {
-      "valeur": 5189.3,
+      "valeur": 5198.2,
       "date": "2026-03-11",
       "unite": "USD/oz",
       "source": "Yahoo Finance",
@@ -9508,16 +9540,16 @@
         },
         {
           "date": "2026-03-11",
-          "valeur": 5189.3,
-          "ma50": 4881.83,
-          "ma200": 4008.65
+          "valeur": 5198.2,
+          "ma50": 4882.01,
+          "ma200": 4008.69
         }
       ],
       "variations": {
-        "jour": -0.77,
-        "semaine": 1.35,
-        "mois": 4.81,
-        "ytd": 20.28
+        "jour": -0.6,
+        "semaine": 1.52,
+        "mois": 4.99,
+        "ytd": 20.48
       },
       "min_max": {
         "min": 2912.9,
@@ -9528,7 +9560,7 @@
       "note_lecture": "L'or est la valeur refuge par excellence. Sa hausse traduit une montee de l'incertitude economique ou geopolitique. Il sert aussi de protection contre l'inflation."
     },
     "gaz_naturel": {
-      "valeur": 51.35,
+      "valeur": 50.37,
       "date": "2026-03-11",
       "unite": "EUR/MWh",
       "source": "Yahoo Finance (TTF)",
@@ -11048,16 +11080,16 @@
         },
         {
           "date": "2026-03-11",
-          "valeur": 51.35,
-          "ma50": 35.82,
+          "valeur": 50.37,
+          "ma50": 35.8,
           "ma200": 33.26
         }
       ],
       "variations": {
-        "jour": 8.36,
-        "semaine": 5.29,
-        "mois": 43.88,
-        "ytd": 77.07
+        "jour": 6.29,
+        "semaine": 3.28,
+        "mois": 41.13,
+        "ytd": 73.69
       },
       "min_max": {
         "min": 26.6,
@@ -11068,7 +11100,7 @@
       "note_lecture": "Le prix du gaz naturel (TTF europeen) impacte directement les factures de chauffage et d'electricite des menages, ainsi que les couts de production industrielle."
     },
     "ble": {
-      "valeur": 600.0,
+      "valeur": 602.0,
       "date": "2026-03-11",
       "unite": "cents/boisseau",
       "source": "Yahoo Finance",
@@ -12582,16 +12614,16 @@
         },
         {
           "date": "2026-03-11",
-          "valeur": 600.0,
-          "ma50": 540.36,
-          "ma200": 528.83
+          "valeur": 602.0,
+          "ma50": 540.4,
+          "ma200": 528.84
         }
       ],
       "variations": {
-        "jour": 2.61,
-        "semaine": 5.87,
-        "mois": 13.26,
-        "ytd": 18.46
+        "jour": 2.95,
+        "semaine": 6.22,
+        "mois": 13.64,
+        "ytd": 18.85
       },
       "min_max": {
         "min": 495.0,
@@ -15685,12 +15717,31 @@
     "montants_totaux": {
       "primes_brutes_mds": 22.8,
       "participation_mds": 10.2,
-      "interessement_mds": 12.6
+      "interessement_mds": 12.6,
+      "montant_moyen_beneficiaire": 2050
     },
     "montants_moyens": {
       "participation": 1850,
       "interessement": 2100,
       "abondement_pee": 820
+    },
+    "dispositifs": {
+      "participation": {
+        "montant_moyen": 1850,
+        "salaries_couverts_pct": 45
+      },
+      "interessement": {
+        "montant_moyen": 2100,
+        "salaries_couverts_pct": 38
+      },
+      "pee": {
+        "abondement_moyen": 820,
+        "salaries_couverts_pct": 52
+      },
+      "perco_percol": {
+        "abondement_moyen": 650,
+        "salaries_couverts_pct": 18
+      }
     },
     "encours": {
       "total_mds": 188,
@@ -15786,7 +15837,7 @@
     "sources": "INSEE - Enquête Emploi, DARES"
   },
   "previsions_cftc": {
-    "generated_at": "2026-03-11T09:19:18.169048",
+    "generated_at": "2026-03-11T10:03:55.235877",
     "model_version": "CFTC v4.0 (Monte Carlo)",
     "n_simulations": 1000,
     "horizon": "12 mois",
