@@ -3906,12 +3906,31 @@ def main():
             "montants_totaux": {
                 "primes_brutes_mds": 22.8,
                 "participation_mds": 10.2,
-                "interessement_mds": 12.6
+                "interessement_mds": 12.6,
+                "montant_moyen_beneficiaire": 2050  # Moyenne participation+intéressement par bénéficiaire (DARES)
             },
             "montants_moyens": {
                 "participation": 1850,
                 "interessement": 2100,
                 "abondement_pee": 820
+            },
+            "dispositifs": {
+                "participation": {
+                    "montant_moyen": 1850,
+                    "salaries_couverts_pct": 45
+                },
+                "interessement": {
+                    "montant_moyen": 2100,
+                    "salaries_couverts_pct": 38
+                },
+                "pee": {
+                    "abondement_moyen": 820,
+                    "salaries_couverts_pct": 52
+                },
+                "perco_percol": {
+                    "abondement_moyen": 650,
+                    "salaries_couverts_pct": 18
+                }
             },
             "encours": {
                 "total_mds": 188,
