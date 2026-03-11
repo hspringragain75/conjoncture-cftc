@@ -1427,7 +1427,13 @@ def build_salaires_secteur_data():
 
 
 def build_ecart_hf_data():
-    """Construit les données d'écart salarial H/F"""
+    """Construit les données d'écart salarial H/F
+    
+    Dernière source officielle : INSEE Focus n°377, février 2026 (données 2024)
+    - Écart global (tous temps) : 21,8%
+    - Écart en EQTP : ~14%
+    - Écart à poste comparable : 4%
+    """
     print("📊 Récupération des données écart H/F...")
     
     default_evolution = [
@@ -1437,7 +1443,7 @@ def build_ecart_hf_data():
         {"annee": "2021", "ecart": 15.5},
         {"annee": "2022", "ecart": 14.9},
         {"annee": "2023", "ecart": 14.2},
-        {"annee": "2024", "ecart": 13.0},
+        {"annee": "2024", "ecart": 14.0},
     ]
     
     salaires_femmes = get_annual_values(SERIES_IDS["salaire_net_femmes"], 2015)
@@ -1457,16 +1463,16 @@ def build_ecart_hf_data():
             print(f"  ✓ {len(evolution)} années d'écart H/F récupérées")
             evolution = evolution[-7:] if len(evolution) > 7 else evolution
             return {
-                "ecart_global": 22.2,
-                "ecart_eqtp": evolution[-1]['ecart'] if evolution else 13.0,
+                "ecart_global": 21.8,
+                "ecart_eqtp": evolution[-1]['ecart'] if evolution else 14.0,
                 "ecart_poste_comparable": 4.0,
                 "evolution": evolution
             }
     
     print("  ⚠️ Utilisation des données par défaut")
     return {
-        "ecart_global": 22.2,
-        "ecart_eqtp": 13.0,
+        "ecart_global": 21.8,
+        "ecart_eqtp": 14.0,
         "ecart_poste_comparable": 4.0,
         "evolution": default_evolution
     }
@@ -1499,7 +1505,7 @@ def build_ppv_data():
         "montant_total_2023": 5.3,
         "montant_total_2024": 3.4,
         "montant_moyen": 885,
-        "commentaire": "Données Urssaf - À mettre à jour manuellement chaque année"
+        "commentaire": "Données confirmées par INSEE Première n°2079 (mars 2025). Données 2025 non encore publiées (attendues mars 2026)."
     }
 
 
@@ -1619,7 +1625,7 @@ def build_simulateur_nao_data():
     
     return {
         "commentaire": "Paramètres pour le simulateur NAO - màj annuelle (janvier)",
-        "annee": 2025,
+        "annee": 2026,
         "taux_cotisations": {
             # Taux moyens de cotisations salariales
             # Non-cadre: sécu (maladie, vieillesse) + retraite AGIRC-ARRCO + CSG/CRDS
@@ -1669,7 +1675,7 @@ def build_simulateur_nao_data():
             "brut_mensuel": 1823.03,
             "net_mensuel": 1443.11,
             "horaire_brut": 12.02,
-            "date_vigueur": "2025-01-01",
+            "date_vigueur": "2026-01-01",
         },
         "exonerations": {
             # Réduction générale de cotisations patronales (Fillon)
@@ -1872,7 +1878,7 @@ def build_heures_travail_data():
         2023: 8.92,
         2024: 9.22,
         2025: 9.40,
-        2026: 9.52,  # À confirmer janvier 2026
+        2026: 9.52,  # Confirmé - SMIC net horaire au 1er janvier 2026
     }
     
     return {
@@ -3359,8 +3365,8 @@ def main():
         # CONVENTIONS COLLECTIVES - avec statistiques_branches
         "conventions_collectives": {
             "smic_reference": {
-                "mensuel": 1426.30,
-                "annuel": 17116,
+                "mensuel": 1443.11,
+                "annuel": 17317,
                 "date": "Janvier 2026"
             },
             "statistiques_branches": {
@@ -4001,11 +4007,13 @@ def main():
     print("📌 RAPPEL - Données à mettre à jour MANUELLEMENT :")
     print("   ┌─────────────────────────────────────────────────────────────┐")
     print("   │ 📅 Janvier   : SMIC (revalorisation légale)                │")
+    print("   │              → Confirmé : 1 823,03€ brut / 1 443,11€ net ✅ │")
     print("   │ 📅 Janvier   : Barèmes simulateur NAO (CAF/URSSAF)         │")
     print("   │ 📅 Janvier   : Panier Familial CFTC (prix produits)        │")
     print("   │ 📅 Janvier   : Heures de travail (prix + SMIC horaire)     │")
     print("   │ 📅 Mars      : PPV (données Urssaf)                        │")
     print("   │ 📅 Mars      : Écart H/F à poste comparable (INSEE Focus)  │")
+    print("   │              → Focus n°377 publié (fév. 2026) - données 2024 ✅│")
     print("   │ 📅 Avril     : Tensions métiers (enquête BMO France Travail)│")
     print("   │ 📅 Avril     : Taux d'effort logement (enquête SRCV)       │")
     print("   │ 📅 Juillet   : Comparaison UE (Eurostat semestriel)        │")
