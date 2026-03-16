@@ -1,6 +1,6 @@
 {
-  "last_updated": "16/03/2026 11:47",
-  "last_updated_iso": "2026-03-16T11:47:21.929774",
+  "last_updated": "16/03/2026 12:07",
+  "last_updated_iso": "2026-03-16T12:07:30.428110",
   "contact": "hspringragain@cftc.fr",
   "alertes": [
     {
@@ -32,7 +32,7 @@
       "date": "2026-03-16",
       "type": "info",
       "titre": "🔄 Données actualisées",
-      "message": "Le tableau de bord a été mis à jour le 16/03/2026 à 11:47.",
+      "message": "Le tableau de bord a été mis à jour le 16/03/2026 à 12:07.",
       "onglet": "conjoncture"
     }
   ],
@@ -237,6 +237,12 @@
       "smic": 118,
       "salaires": 116.5,
       "prix": 117.5
+    },
+    {
+      "periode": "T4 2025",
+      "smic": 118.2,
+      "salaires": 117.0,
+      "prix": 117.6
     }
   ],
   "chomage": [
@@ -374,7 +380,7 @@
   "indicateurs_cles": {
     "taux_chomage_actuel": 7.7,
     "taux_chomage_jeunes": 21.5,
-    "taux_emploi_seniors": 61.5,
+    "taux_emploi_seniors": 61.7,
     "inflation_annuelle": 0.9,
     "smic_brut": 1823.03,
     "smic_net": 1443.11,
@@ -382,11 +388,11 @@
     "salaire_moyen": 2733,
     "ecart_hf_eqtp": 25.8,
     "difficultes_recrutement": 61,
-    "irl_glissement": 0.87,
+    "irl_glissement": 0.79,
     "prix_gazole": 1.65,
     "taux_effort_locataires": 29.6,
     "croissance_pib": 0.7,
-    "climat_affaires": 98,
+    "climat_affaires": 97,
     "defaillances_12m": 68564
   },
   "salaire_median": {
@@ -537,6 +543,10 @@
     {
       "trimestre": "T3 2025",
       "taux": 61.5
+    },
+    {
+      "trimestre": "T4 2025",
+      "taux": 61.7
     }
   ],
   "chomage_seniors": [
@@ -546,7 +556,7 @@
     },
     {
       "trimestre": "T2 2023",
-      "taux": 5.1
+      "taux": 4.9
     },
     {
       "trimestre": "T3 2023",
@@ -558,43 +568,47 @@
     },
     {
       "trimestre": "T1 2024",
-      "taux": 5.0
+      "taux": 4.8
     },
     {
       "trimestre": "T2 2024",
-      "taux": 5.1
+      "taux": 4.9
     },
     {
       "trimestre": "T3 2024",
-      "taux": 5.2
+      "taux": 4.5
     },
     {
       "trimestre": "T4 2024",
-      "taux": 5.2
+      "taux": 4.6
     },
     {
       "trimestre": "T1 2025",
-      "taux": 5.3
+      "taux": 4.6
     },
     {
       "trimestre": "T2 2025",
-      "taux": 5.4
+      "taux": 4.7
     },
     {
       "trimestre": "T3 2025",
-      "taux": 5.5
+      "taux": 5.0
+    },
+    {
+      "trimestre": "T4 2025",
+      "taux": 4.9
     }
   ],
   "emploi_seniors_detail": {
-    "taux_55_64": 61.5,
+    "taux_55_64": 61.7,
     "taux_55_59": 77.8,
     "taux_60_64": 38.9,
-    "chomage_seniors": 5.5,
+    "chomage_seniors": 4.9,
     "evolution_1an": 1.9,
     "duree_chomage_moyenne_mois": 18,
     "taux_temps_partiel": 25.5,
     "comparaison_ue": {
-      "france": 61.5,
+      "france": 61.7,
       "allemagne": 72.3,
       "moyenne_ue": 65.2,
       "suede": 77.0,
@@ -611,51 +625,51 @@
   "types_contrats": [
     {
       "trimestre": "T1 2023",
-      "cdi": 83.2,
-      "cdd": 5.4,
-      "interim": 1.4
+      "cdi": 74.5,
+      "cdd": 8.8,
+      "interim": 2.2
     },
     {
       "trimestre": "T2 2023",
-      "cdi": 83.2,
-      "cdd": 5.4,
-      "interim": 1.4
+      "cdi": 74.3,
+      "cdd": 9.0,
+      "interim": 2.1
     },
     {
       "trimestre": "T3 2023",
-      "cdi": 83.4,
-      "cdd": 5.3,
-      "interim": 1.3
+      "cdi": 74.4,
+      "cdd": 8.9,
+      "interim": 2.0
     },
     {
       "trimestre": "T4 2023",
-      "cdi": 83.4,
-      "cdd": 5.3,
-      "interim": 1.3
+      "cdi": 74.6,
+      "cdd": 8.7,
+      "interim": 2.0
     },
     {
       "trimestre": "T1 2024",
-      "cdi": 83.4,
-      "cdd": 5.3,
-      "interim": 1.3
+      "cdi": 74.8,
+      "cdd": 8.5,
+      "interim": 1.9
     },
     {
       "trimestre": "T2 2024",
-      "cdi": 83.4,
-      "cdd": 5.3,
-      "interim": 1.3
+      "cdi": 74.7,
+      "cdd": 8.6,
+      "interim": 1.9
     },
     {
       "trimestre": "T3 2024",
-      "cdi": 83.4,
-      "cdd": 5.3,
-      "interim": 1.3
+      "cdi": 74.9,
+      "cdd": 8.4,
+      "interim": 1.8
     },
     {
       "trimestre": "T4 2024",
-      "cdi": 83.5,
-      "cdd": 5.2,
-      "interim": 1.3
+      "cdi": 75.0,
+      "cdd": 8.3,
+      "interim": 1.8
     },
     {
       "trimestre": "T1 2025",
@@ -763,7 +777,7 @@
     }
   ],
   "emploi_secteur": {
-    "derniere_mise_a_jour": "T3 2025",
+    "derniere_mise_a_jour": "T4 2025",
     "secteurs": [
       {
         "secteur": "Tertiaire marchand",
@@ -845,6 +859,13 @@
         "construction": 1530,
         "tertiaire": 21270,
         "interim": 700
+      },
+      {
+        "trimestre": "T4 2025",
+        "industrie": 3178,
+        "construction": 1528,
+        "tertiaire": 21275,
+        "interim": 698
       }
     ]
   },
@@ -1096,9 +1117,9 @@
     ]
   },
   "irl": {
-    "valeur_actuelle": 145.77,
-    "glissement_annuel": 0.87,
-    "trimestre": "T3 2025",
+    "valeur_actuelle": 145.78,
+    "glissement_annuel": 0.79,
+    "trimestre": "T4 2025",
     "evolution": [
       {
         "trimestre": "T1 2022",
@@ -1106,9 +1127,19 @@
         "glissement": 2.48
       },
       {
+        "trimestre": "T2 2022",
+        "indice": 135.84,
+        "glissement": 3.6
+      },
+      {
         "trimestre": "T3 2022",
         "indice": 136.27,
         "glissement": 3.49
+      },
+      {
+        "trimestre": "T4 2022",
+        "indice": 137.26,
+        "glissement": 3.5
       },
       {
         "trimestre": "T1 2023",
@@ -1116,9 +1147,19 @@
         "glissement": 3.49
       },
       {
+        "trimestre": "T2 2023",
+        "indice": 140.59,
+        "glissement": 3.5
+      },
+      {
         "trimestre": "T3 2023",
         "indice": 141.03,
         "glissement": 3.49
+      },
+      {
+        "trimestre": "T4 2023",
+        "indice": 142.06,
+        "glissement": 3.5
       },
       {
         "trimestre": "T1 2024",
@@ -1126,9 +1167,19 @@
         "glissement": 3.5
       },
       {
+        "trimestre": "T2 2024",
+        "indice": 145.17,
+        "glissement": 3.26
+      },
+      {
         "trimestre": "T3 2024",
         "indice": 144.51,
         "glissement": 2.47
+      },
+      {
+        "trimestre": "T4 2024",
+        "indice": 144.64,
+        "glissement": 1.82
       },
       {
         "trimestre": "T1 2025",
@@ -1136,52 +1187,67 @@
         "glissement": 1.4
       },
       {
+        "trimestre": "T2 2025",
+        "indice": 146.68,
+        "glissement": 1.04
+      },
+      {
         "trimestre": "T3 2025",
         "indice": 145.77,
         "glissement": 0.87
+      },
+      {
+        "trimestre": "T4 2025",
+        "indice": 145.78,
+        "glissement": 0.79
       }
     ]
   },
   "prix_immobilier": {
-    "indice_actuel": 116.2,
-    "variation_trim": 1.0,
-    "variation_an": -1.8,
+    "indice_actuel": 128.5,
+    "variation_trim": 0.7,
+    "variation_an": 0.7,
     "transactions_annuelles": 880000,
     "evolution": [
       {
-        "trimestre": "T1 2022",
-        "indice": 124.5,
-        "variation": 7.2
-      },
-      {
-        "trimestre": "T3 2022",
-        "indice": 126.8,
-        "variation": 6.1
-      },
-      {
-        "trimestre": "T1 2023",
-        "indice": 124.2,
-        "variation": -0.2
-      },
-      {
-        "trimestre": "T3 2023",
-        "indice": 120.5,
-        "variation": -5.0
+        "trimestre": "T4 2023",
+        "indice": 128.7,
+        "variation": -3.6
       },
       {
         "trimestre": "T1 2024",
-        "indice": 117.8,
-        "variation": -5.1
+        "indice": 126.0,
+        "variation": -4.8
+      },
+      {
+        "trimestre": "T2 2024",
+        "indice": 125.7,
+        "variation": -4.6
       },
       {
         "trimestre": "T3 2024",
-        "indice": 115.3,
-        "variation": -4.3
+        "indice": 127.6,
+        "variation": -3.5
+      },
+      {
+        "trimestre": "T4 2024",
+        "indice": 126.3,
+        "variation": -1.9
       },
       {
         "trimestre": "T1 2025",
-        "indice": 116.2,
-        "variation": -1.4
+        "indice": 126.5,
+        "variation": 0.4
+      },
+      {
+        "trimestre": "T2 2025",
+        "indice": 126.5,
+        "variation": 0.6
+      },
+      {
+        "trimestre": "T3 2025",
+        "indice": 128.5,
+        "variation": 0.7
       }
     ],
     "par_zone": [
@@ -1359,7 +1425,7 @@
     "croissance_trim_actuel": 0.7,
     "croissance_annuelle": 0.9,
     "trimestre": "T4 2025",
-    "commentaire": "PIB volume trimestriel - INSEE",
+    "commentaire": "PIB volume trimestriel - glissement annuel - INSEE",
     "evolution": [
       {
         "trimestre": "T2 2022",
@@ -1460,14 +1526,14 @@
     ]
   },
   "climat_affaires": {
-    "valeur_actuelle": 98,
-    "confiance_menages": 92,
+    "valeur_actuelle": 97,
+    "confiance_menages": 91,
     "moyenne_long_terme": 100,
-    "mois": "Nov 2025",
+    "mois": "Fév 2026",
     "evolution": [
       {
         "mois": "Jan 2024",
-        "climat": 99,
+        "climat": 100,
         "menages": 91
       },
       {
@@ -1477,8 +1543,8 @@
       },
       {
         "mois": "Juil 2024",
-        "climat": 97,
-        "menages": 92
+        "climat": 94,
+        "menages": 91
       },
       {
         "mois": "Oct 2024",
@@ -1498,17 +1564,22 @@
       {
         "mois": "Juil 2025",
         "climat": 96,
-        "menages": 93
+        "menages": 89
       },
       {
         "mois": "Oct 2025",
         "climat": 97,
-        "menages": 92
+        "menages": 90
       },
       {
-        "mois": "Nov 2025",
-        "climat": 98,
-        "menages": 92
+        "mois": "Jan 2026",
+        "climat": 99,
+        "menages": 90
+      },
+      {
+        "mois": "Fév 2026",
+        "climat": 97,
+        "menages": 91
       }
     ],
     "par_secteur": [
@@ -3310,6 +3381,10 @@
         {
           "annee": 2025,
           "valeur": 3.1
+        },
+        {
+          "annee": 2026,
+          "valeur": 3.025
         }
       ],
       "variations": {
@@ -3327,7 +3402,7 @@
       "note_lecture": "Le TEC-10 mesure le rendement des emprunts d'Etat francais a 10 ans. Un taux eleve rencherit le cout de la dette publique et impacte les taux de credit immobilier."
     },
     "petrole_brent": {
-      "valeur": 98.63,
+      "valeur": 98.61,
       "date": "2026-03-16",
       "unite": "USD/baril",
       "source": "Yahoo Finance",
@@ -4841,16 +4916,16 @@
         },
         {
           "date": "2026-03-16",
-          "valeur": 98.63,
+          "valeur": 98.61,
           "ma50": 72.27,
           "ma200": 67.66
         }
       ],
       "variations": {
-        "jour": -4.37,
-        "semaine": -0.33,
-        "mois": 42.12,
-        "ytd": 62.35
+        "jour": -4.39,
+        "semaine": -0.35,
+        "mois": 42.09,
+        "ytd": 62.32
       },
       "min_max": {
         "min": 58.92,
@@ -4861,9 +4936,9 @@
       "note_lecture": "Le prix du Brent influence directement les couts de transport et d'energie, donc l'inflation et le pouvoir d'achat des salaries."
     },
     "cac40": {
-      "valeur": 7906.27,
+      "valeur": 7917.18,
       "date": "2026-03-16",
-      "variation_jour_pct": -0.07,
+      "variation_jour_pct": 0.07,
       "unite": "points",
       "source": "Yahoo Finance",
       "nb_points": 255,
@@ -6394,16 +6469,16 @@
         },
         {
           "date": "2026-03-16",
-          "valeur": 7906.27,
-          "ma50": 8236.84,
-          "ma200": 7993.45
+          "valeur": 7917.18,
+          "ma50": 8237.06,
+          "ma200": 7993.51
         }
       ],
       "variations": {
-        "jour": -0.07,
-        "semaine": -0.11,
-        "mois": -5.21,
-        "ytd": -3.53
+        "jour": 0.07,
+        "semaine": 0.02,
+        "mois": -5.08,
+        "ytd": -3.39
       },
       "min_max": {
         "min": 6863.02,
@@ -7978,7 +8053,7 @@
       "note_lecture": "Le taux de change euro-dollar determine le prix de tout ce qui est importe en dollars : petrole, matieres premieres, electronique. Un euro faible rencherit les importations et alimente l'inflation."
     },
     "or": {
-      "valeur": 5023.7,
+      "valeur": 5001.3,
       "date": "2026-03-16",
       "unite": "USD/oz",
       "source": "Yahoo Finance",
@@ -9492,16 +9567,16 @@
         },
         {
           "date": "2026-03-16",
-          "valeur": 5023.7,
-          "ma50": 4924.82,
-          "ma200": 4034.95
+          "valeur": 5001.3,
+          "ma50": 4924.37,
+          "ma200": 4034.84
         }
       ],
       "variations": {
-        "jour": -0.57,
-        "semaine": -1.33,
-        "mois": -0.94,
-        "ytd": 16.44
+        "jour": -1.01,
+        "semaine": -1.77,
+        "mois": -1.39,
+        "ytd": 15.92
       },
       "min_max": {
         "min": 2951.3,
@@ -11046,7 +11121,7 @@
       "note_lecture": "Le prix du gaz naturel (TTF europeen) impacte directement les factures de chauffage et d'electricite des menages, ainsi que les couts de production industrielle."
     },
     "ble": {
-      "valeur": 606.75,
+      "valeur": 608.5,
       "date": "2026-03-16",
       "unite": "cents/boisseau",
       "source": "Yahoo Finance",
@@ -12554,16 +12629,16 @@
         },
         {
           "date": "2026-03-16",
-          "valeur": 606.75,
-          "ma50": 545.87,
-          "ma200": 529.85
+          "valeur": 608.5,
+          "ma50": 545.9,
+          "ma200": 529.86
         }
       ],
       "variations": {
-        "jour": -1.9,
-        "semaine": 1.46,
-        "mois": 12.94,
-        "ytd": 19.79
+        "jour": -1.62,
+        "semaine": 1.76,
+        "mois": 13.26,
+        "ytd": 20.14
       },
       "min_max": {
         "min": 495.0,
@@ -13354,7 +13429,7 @@
           "2023": 1.92,
           "2024": 1.78,
           "2025": 1.72,
-          "2026": 0.002
+          "2026": 1.931
         },
         "quantiteMensuelle": {
           "solo": 40,
@@ -14687,12 +14762,12 @@
         "nom": "Martinique",
         "code": "MQ",
         "emoji": "🌴",
-        "chomage": 17.1,
+        "chomage": 13.7,
         "salaire_median": 1840,
         "emploi": 56.8,
         "population": 0.349,
         "tensions": 40,
-        "evol_chomage": -0.3,
+        "evol_chomage": 1.3,
         "note": "Taux de chômage des jeunes : ~40%"
       },
       {
@@ -15777,7 +15852,7 @@
     "sources": "INSEE - Enquête Emploi, DARES"
   },
   "previsions_cftc": {
-    "generated_at": "2026-03-16T11:47:22.041566",
+    "generated_at": "2026-03-16T12:07:30.566624",
     "model_version": "CFTC v4.0 (Monte Carlo)",
     "n_simulations": 1000,
     "horizon": "12 mois",
@@ -15875,18 +15950,18 @@
         "methodology": "Monte Carlo (1000 simulations) + saisonnalité + mean reversion"
       },
       "probabilites": {
-        "inflation_sous_2pct": 97.8,
-        "inflation_cible_bce": 97.8,
+        "inflation_sous_2pct": 97.9,
+        "inflation_cible_bce": 97.9,
         "inflation_au_dessus_3pct": 0.0,
-        "description": "97.8% de chances que l'inflation reste sous 2% à 12 mois"
+        "description": "97.9% de chances que l'inflation reste sous 2% à 12 mois"
       },
       "facteurs": {
         "cible_bdf": 1.4,
-        "ajustement_climat": -0.02,
+        "ajustement_climat": -0.03,
         "ajustement_energie": 0.0,
-        "cible_ajustee": 1.38
+        "cible_ajustee": 1.37
       },
-      "insight": "Inflation médiane à 12 mois : 1.5% [IC 80% : 1.1% - 1.8%]. 97.8% de probabilité de rester sous 2%."
+      "insight": "Inflation médiane à 12 mois : 1.5% [IC 80% : 1.1% - 1.8%]. 97.9% de probabilité de rester sous 2%."
     },
     "smic": {
       "current": {
@@ -15972,9 +16047,9 @@
       },
       "facteurs": {
         "cible_bdf": 7.7,
-        "ajustement_climat": 0.04,
+        "ajustement_climat": 0.06,
         "ajustement_recrutement": -0.11,
-        "cible_ajustee": 7.63
+        "cible_ajustee": 7.65
       },
       "insight": "Chômage médian à Q4 : 7.7% [IC 80% : 7.4% - 7.9%]."
     },
@@ -16079,7 +16154,7 @@
       }
     },
     "notes_lecture": [
-      "📈 Inflation médiane à 12 mois : 1.5% [1.1% - 1.8%] — 97.8% de chances de rester sous 2%",
+      "📈 Inflation médiane à 12 mois : 1.5% [1.1% - 1.8%] — 97.9% de chances de rester sous 2%",
       "💰 SMIC janvier 2027 : 1852€ brut (+1.6%, fourchette 1.3-2.1%) — Certain",
       "👥 Chômage Q4 : 7.7% [7.4% - 7.9%] — Tendance stable",
       "🎲 Scénario à surveiller : 🚀 Reprise économique forte (25% de probabilité)",
