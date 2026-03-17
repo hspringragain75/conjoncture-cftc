@@ -1,6 +1,6 @@
 {
-  "last_updated": "17/03/2026 10:17",
-  "last_updated_iso": "2026-03-17T10:17:24.097983",
+  "last_updated": "17/03/2026 10:28",
+  "last_updated_iso": "2026-03-17T10:28:18.483230",
   "contact": "hspringragain@cftc.fr",
   "alertes": [
     {
@@ -12,11 +12,11 @@
       "onglet": "inflation"
     },
     {
-      "id": "chomage_jeunes_T3_2025",
+      "id": "chomage_jeunes_T4_2025",
       "date": "2026-03-17",
       "type": "warning",
-      "titre": "🧑‍🎓 Chômage jeunes élevé : 19.2%",
-      "message": "Le taux de chômage des 15-24 ans reste préoccupant (T3 2025).",
+      "titre": "🧑‍🎓 Chômage jeunes élevé : 21.5%",
+      "message": "Le taux de chômage des 15-24 ans reste préoccupant (T4 2025).",
       "onglet": "emploi"
     },
     {
@@ -32,7 +32,7 @@
       "date": "2026-03-17",
       "type": "info",
       "titre": "🔄 Données actualisées",
-      "message": "Le tableau de bord a été mis à jour le 17/03/2026 à 10:17.",
+      "message": "Le tableau de bord a été mis à jour le 17/03/2026 à 10:27.",
       "onglet": "conjoncture"
     }
   ],
@@ -135,7 +135,7 @@
     }
   ],
   "revue_presse": {
-    "derniere_maj": "17/03/2026 10:17",
+    "derniere_maj": "17/03/2026 10:28",
     "nb_sources": 12,
     "sources_noms": [
       "INSEE",
@@ -152,188 +152,7 @@
       "OCDE"
     ],
     "a_la_une": [],
-    "tous": [
-      {
-        "source": "Le Monde Éco",
-        "couleur": "#374151",
-        "emoji": "🌐",
-        "tag": "Presse économique",
-        "titre": "Kpler, l’entreprise qui cartographie en temps réel les flux de pétrole et des matières premières dans le monde",
-        "resume": "L’entreprise, créée par deux ingénieurs français en 2010, est montée en influence après la pandémie de Covid-19 et gagne en notoriété avec la guerre au Moyen-Orient.",
-        "lien": "https://www.lemonde.fr/economie/article/2026/03/17/kpler-la-start-up-qui-irrigue-la-planete-de-donnees-sur-les-matieres-premieres-s-est-fait-un-nom-de-crises-en-conflits_6671676_3234.html",
-        "date_iso": "2026-03-17T10:14:04+01:00",
-        "date_fr": "17/03/2026",
-        "pertinence": 1
-      },
-      {
-        "source": "Le Monde Éco",
-        "couleur": "#374151",
-        "emoji": "🌐",
-        "tag": "Presse économique",
-        "titre": "Les prix du pétrole et du gaz continuent d’augmenter, les pays européens divisés sur la réponse à apporter",
-        "resume": "Le sujet sera à l’ordre du jour de la réunion des chefs d’Etat et de gouvernement, le 19 mars. Plusieurs pays poussent à revenir – au moins partiellement – sur les principes actuels de la politique énergétique des Vingt-Sept : pas de recours au pétrole russe et objectif de neutralité carbone en 2050",
-        "lien": "https://www.lemonde.fr/economie/article/2026/03/17/face-a-la-flambee-des-prix-de-l-energie-le-desarroi-et-les-desaccords-des-europeens_6671586_3234.html",
-        "date_iso": "2026-03-17T05:00:15+01:00",
-        "date_fr": "17/03/2026",
-        "pertinence": 0
-      },
-      {
-        "source": "Le Monde Éco",
-        "couleur": "#374151",
-        "emoji": "🌐",
-        "tag": "Presse économique",
-        "titre": "« Je suis honteuse d’avoir tout cet argent non mérité » : à l’heure de la transmission du patrimoine des baby-boomeurs, le malaise des jeunes héritiers",
-        "resume": "Recevoir une grosse somme d’argent quand on est jeune n’a rien d’anodin. Les donations et héritages précoces suscitent aussi malaise, culpabilité et silence chez ceux qui en bénéficient et tendent à creuser les inégalités.",
-        "lien": "https://www.lemonde.fr/campus/article/2026/03/17/je-suis-honteuse-d-avoir-tout-cet-argent-non-merite-a-l-heure-de-la-transmission-du-patrimoine-des-baby-boomeurs-le-malaise-des-jeunes-heritiers_6671583_4401467.html",
-        "date_iso": "2026-03-17T05:00:03+01:00",
-        "date_fr": "17/03/2026",
-        "pertinence": 1
-      },
-      {
-        "source": "Le Monde Éco",
-        "couleur": "#374151",
-        "emoji": "🌐",
-        "tag": "Presse économique",
-        "titre": "« On n’est pas là pour casser les prix » : Joybuy (JD.com) se lance en France en cherchant à se démarquer de Shein et Temu",
-        "resume": "Concurrent potentiel d’Amazon, le groupe chinois d’e-commerce donnait, lundi, le coup d’envoi officiel de ses activités dans six pays européens. Reportage dans ses bureaux parisiens, transformés pour l’occasion en espace de démonstration de produits, à deux pas des Champs-Elysées.",
-        "lien": "https://www.lemonde.fr/economie/article/2026/03/16/on-n-est-pas-la-pour-casser-les-prix-joybuy-jd-com-se-lance-en-france-en-cherchant-a-se-demarquer-de-shein-et-temu_6671470_3234.html",
-        "date_iso": "2026-03-16T20:32:32+01:00",
-        "date_fr": "16/03/2026",
-        "pertinence": 0
-      },
-      {
-        "source": "Le Monde Éco",
-        "couleur": "#374151",
-        "emoji": "🌐",
-        "tag": "Presse économique",
-        "titre": "Municipales à Paris : dans les arrondissements, trois maires élus au premier tour et quelques curiosités",
-        "resume": "Dans les secteurs encore disputés et avant d’éventuelles fusions de listes, sept triangulaires, six quadrangulaires et un duel se dessinent. Dans deux arrondissements, les résultats diffèrent entre les listes locales et la liste centrale.",
-        "lien": "https://www.lemonde.fr/politique/article/2026/03/16/municipales-a-paris-dans-les-arrondissements-trois-maires-elus-au-premier-tour-et-quelques-curiosites_6671458_823448.html",
-        "date_iso": "2026-03-16T19:05:57+01:00",
-        "date_fr": "16/03/2026",
-        "pertinence": 0
-      },
-      {
-        "source": "Le Monde Éco",
-        "couleur": "#374151",
-        "emoji": "🌐",
-        "tag": "Presse économique",
-        "titre": "La banque italienne UniCredit lance une nouvelle offensive pour forcer l’allemande Commerzbank à l’union",
-        "resume": "L’établissement milanais a fait lundi une offre de rachat dans le but de récupérer plus de 30 % du capital de la banque allemande. Depuis 2024, Andrea Orcel, l’ambitieux patron d’UniCredit, cherche à bâtir un poids lourd européen de la finance.",
-        "lien": "https://www.lemonde.fr/economie/article/2026/03/16/nouvelle-offensive-de-la-banque-italienne-unicredit-pour-forcer-commerzbank-a-l-union_6671452_3234.html",
-        "date_iso": "2026-03-16T18:32:29+01:00",
-        "date_fr": "16/03/2026",
-        "pertinence": 0
-      },
-      {
-        "source": "Le Monde Éco",
-        "couleur": "#374151",
-        "emoji": "🌐",
-        "tag": "Presse économique",
-        "titre": "« Si l’Europe n’est pas aujourd’hui capable de créer une véritable société supranationale, elle ne le fera jamais »",
-        "resume": "Sans restriction du périmètre applicable et sans montée en ambition, le « 28ᵉ régime » juridique des sociétés, qui doit être présenté mercredi, ne sera qu’un concept bruxellois de plus, avec un logo et un site Internet, dénoncent les économistes Luis Garicano et Ulrike Malmendier dans une tribune au",
-        "lien": "https://www.lemonde.fr/idees/article/2026/03/16/si-l-europe-n-est-pas-aujourd-hui-capable-de-creer-une-veritable-societe-supranationale-elle-ne-le-fera-jamais_6671449_3232.html",
-        "date_iso": "2026-03-16T18:00:32+01:00",
-        "date_fr": "16/03/2026",
-        "pertinence": 0
-      },
-      {
-        "source": "Le Monde Éco",
-        "couleur": "#374151",
-        "emoji": "🌐",
-        "tag": "Presse économique",
-        "titre": "A Lens, le RN échoue à ravir la mairie mais confirme sa percée",
-        "resume": "Avec 46,49 % des voix au premier tour, Bruno Clavet, le candidat Rassemblement national, n’est pas parvenu à renverser le maire sortant socialiste, Sylvain Robert.",
-        "lien": "https://www.lemonde.fr/politique/article/2026/03/16/a-lens-le-rn-echoue-a-ravir-la-mairie-mais-confirme-sa-percee_6671443_823448.html",
-        "date_iso": "2026-03-16T17:55:36+01:00",
-        "date_fr": "16/03/2026",
-        "pertinence": 0
-      },
-      {
-        "source": "Le Monde Éco",
-        "couleur": "#374151",
-        "emoji": "🌐",
-        "tag": "Presse économique",
-        "titre": "Municipales en Polynésie : le parti indépendantiste perd du terrain au premier tour",
-        "resume": "Les candidats soutenus par le Tavini, le parti indépendantiste polynésien large vainqueur des dernières élections territoriales, ont essuyé plusieurs défaites cuisantes dimanche 15 mars, notamment à Papeete.",
-        "lien": "https://www.lemonde.fr/politique/article/2026/03/16/municipales-en-polynesie-le-parti-independantiste-perd-du-terrain-au-premier-tour_6671441_823448.html",
-        "date_iso": "2026-03-16T17:14:16+01:00",
-        "date_fr": "16/03/2026",
-        "pertinence": 0
-      },
-      {
-        "source": "Le Monde Éco",
-        "couleur": "#374151",
-        "emoji": "🌐",
-        "tag": "Presse économique",
-        "titre": "Municipales 2026 : simulez l’impact des différents scénarios d’alliances au second tour dans votre commune",
-        "resume": "Les listes ayant obtenu plus de 5 % au premier tour peuvent se désister ou fusionner avec une liste mieux placée pour tenter de peser sur l’issue du second. Explorez par vous-même l’effet des différentes alliances possibles avec notre simulateur.",
-        "lien": "https://www.lemonde.fr/les-decodeurs/article/2026/03/16/municipales-2026-simulez-l-impact-des-differents-scenarios-d-alliances-au-second-tour-dans-votre-commune_6671438_4355770.html",
-        "date_iso": "2026-03-16T17:00:06+01:00",
-        "date_fr": "16/03/2026",
-        "pertinence": 0
-      },
-      {
-        "source": "Le Monde Éco",
-        "couleur": "#374151",
-        "emoji": "🌐",
-        "tag": "Presse économique",
-        "titre": "Comment le RN s’est patiemment installé dans le bassin d’Arcachon pour les municipales",
-        "resume": "Le parti d’extrême droite a obtenu plusieurs sièges dans la lagune girondine, lors du premier tour des élections municipales, dimanche 15 mars, historiquement acquise à une droite de plus en plus perméable aux idéaux lepénistes.",
-        "lien": "https://www.lemonde.fr/politique/article/2026/03/16/comment-le-rn-s-est-patiemment-installe-dans-le-bassin-d-arcachon-pour-les-municipales_6671434_823448.html",
-        "date_iso": "2026-03-16T16:35:52+01:00",
-        "date_fr": "16/03/2026",
-        "pertinence": 0
-      },
-      {
-        "source": "Le Monde Éco",
-        "couleur": "#374151",
-        "emoji": "🌐",
-        "tag": "Presse économique",
-        "titre": "Audiovisuel : la lobbyiste des producteurs indépendants plaide pour « une régulation forte en faveur de la diversité culturelle »",
-        "resume": "Face à la multiplication des appels à la dérégulation venus des Etats-Unis et, fait nouveau, des télévisions françaises, Juliette Prissard, la déléguée générale d’Eurocinéma, qui représente les organisations de producteurs, plaide pour un renforcement des règles vis-à-vis de YouTube.",
-        "lien": "https://www.lemonde.fr/economie/article/2026/03/16/audiovisuel-la-lobbyiste-des-producteurs-independants-plaide-pour-une-regulation-forte-en-faveur-de-la-diversite-culturelle_6671432_3234.html",
-        "date_iso": "2026-03-16T16:30:02+01:00",
-        "date_fr": "16/03/2026",
-        "pertinence": 0
-      },
-      {
-        "source": "Le Monde Éco",
-        "couleur": "#374151",
-        "emoji": "🌐",
-        "tag": "Presse économique",
-        "titre": "En Chine, la ruée vers OpenClaw, l’agent IA autonome",
-        "resume": "L’outil d’intelligence artificielle, conçu par un programmeur autrichien, connaît un succès fulgurant en Chine. Les géants Baidu, Alibaba et Tencent se livrent une course commerciale pour l’intégrer à leurs services et fidéliser ainsi leurs utilisateurs.",
-        "lien": "https://www.lemonde.fr/economie/article/2026/03/16/en-chine-la-ruee-vers-l-agent-ia-autonome-openclaw_6671420_3234.html",
-        "date_iso": "2026-03-16T15:00:00+01:00",
-        "date_fr": "16/03/2026",
-        "pertinence": 0
-      },
-      {
-        "source": "Le Monde Éco",
-        "couleur": "#374151",
-        "emoji": "🌐",
-        "tag": "Presse économique",
-        "titre": "Louis Sarkozy essuie une lourde défaite lors des municipales à Menton",
-        "resume": "La candidate RN, Alexandra Masson, est largement en tête avec 36,25 % des voix à l’issue du premier tour du 15 mars. Les trois candidats divers droite qualifiés pour le second tour devront s’entendre s’ils veulent empêcher la ville de basculer à l’extrême droite.",
-        "lien": "https://www.lemonde.fr/politique/article/2026/03/16/municipales-a-menton-louis-sarkozy-essuie-une-lourde-defaite_6671406_823448.html",
-        "date_iso": "2026-03-16T14:49:12+01:00",
-        "date_fr": "16/03/2026",
-        "pertinence": 0
-      },
-      {
-        "source": "Le Monde Éco",
-        "couleur": "#374151",
-        "emoji": "🌐",
-        "tag": "Presse économique",
-        "titre": "Nathalie Saint-Cricq, sanctionnée pour ses propos sur Eric Ciotti, ne participera pas à la soirée électorale du second tour des municipales",
-        "resume": "Dimanche soir, l’éditorialiste politique de France Télévisions, persuadée que son micro était coupé, avait comparé Eric Ciotti, président de l’Union des droites pour la République (UDR), au leader fasciste italien Benito Mussolini.",
-        "lien": "https://www.lemonde.fr/economie/article/2026/03/16/sanctionnee-pour-ses-propos-sur-eric-ciotti-nathalie-saint-cricq-ne-participera-pas-a-la-soiree-electorale-du-second-tour-des-municipales_6671404_3234.html",
-        "date_iso": "2026-03-16T14:25:19+01:00",
-        "date_fr": "16/03/2026",
-        "pertinence": 0
-      }
-    ]
+    "tous": []
   },
   "sources": [
     "INSEE - Indice des prix à la consommation",
@@ -449,58 +268,63 @@
   "chomage": [
     {
       "trimestre": "T1 2023",
-      "taux": 7.1,
-      "jeunes": 17.5
+      "taux": 6.9,
+      "jeunes": 16.6
     },
     {
       "trimestre": "T2 2023",
-      "taux": 7.2,
-      "jeunes": 17.0
+      "taux": 7.0,
+      "jeunes": 17.1
     },
     {
       "trimestre": "T3 2023",
-      "taux": 7.4,
-      "jeunes": 17.6
+      "taux": 7.2,
+      "jeunes": 17.4
     },
     {
       "trimestre": "T4 2023",
-      "taux": 7.5,
+      "taux": 7.3,
       "jeunes": 17.6
     },
     {
       "trimestre": "T1 2024",
-      "taux": 7.5,
+      "taux": 7.3,
       "jeunes": 18.1
     },
     {
       "trimestre": "T2 2024",
-      "taux": 7.3,
-      "jeunes": 17.7
+      "taux": 7.1,
+      "jeunes": 18.0
     },
     {
       "trimestre": "T3 2024",
-      "taux": 7.4,
-      "jeunes": 18.3
+      "taux": 7.2,
+      "jeunes": 19.7
     },
     {
       "trimestre": "T4 2024",
-      "taux": 7.3,
-      "jeunes": 19.0
+      "taux": 7.1,
+      "jeunes": 18.7
     },
     {
       "trimestre": "T1 2025",
-      "taux": 7.4,
-      "jeunes": 18.5
+      "taux": 7.3,
+      "jeunes": 19.2
     },
     {
       "trimestre": "T2 2025",
-      "taux": 7.5,
-      "jeunes": 18.8
+      "taux": 7.4,
+      "jeunes": 19.1
     },
     {
       "trimestre": "T3 2025",
+      "taux": 7.5,
+      "jeunes": 19.1
+    },
+    {
+      "trimestre": "T4 2025",
       "taux": 7.7,
-      "jeunes": 19.2
+      "jeunes": 21.5
     }
   ],
   "smic": {
@@ -575,14 +399,14 @@
   ],
   "indicateurs_cles": {
     "taux_chomage_actuel": 7.7,
-    "taux_chomage_jeunes": 19.2,
+    "taux_chomage_jeunes": 21.5,
     "taux_emploi_seniors": 61.7,
     "inflation_annuelle": 0.9,
     "smic_brut": 1823.03,
     "smic_net": 1443.11,
     "salaire_median": 2190,
     "salaire_moyen": 2733,
-    "ecart_hf_eqtp": 25.8,
+    "ecart_hf_eqtp": 14.0,
     "difficultes_recrutement": 61,
     "irl_glissement": 0.79,
     "prix_gazole": 1.65,
@@ -622,36 +446,36 @@
   },
   "ecart_hommes_femmes": {
     "ecart_global": 21.8,
-    "ecart_eqtp": 25.8,
+    "ecart_eqtp": 14.0,
     "ecart_poste_comparable": 4.0,
     "evolution": [
       {
-        "annee": "2018",
-        "ecart": 23.2
+        "annee": "2015",
+        "ecart": 18.4
+      },
+      {
+        "annee": "2017",
+        "ecart": 16.6
       },
       {
         "annee": "2019",
-        "ecart": 23.8
-      },
-      {
-        "annee": "2020",
-        "ecart": 24.5
+        "ecart": 16.1
       },
       {
         "annee": "2021",
-        "ecart": 24.3
+        "ecart": 15.5
       },
       {
         "annee": "2022",
-        "ecart": 25.1
+        "ecart": 14.9
       },
       {
         "annee": "2023",
-        "ecart": 25.6
+        "ecart": 14.2
       },
       {
         "annee": "2024",
-        "ecart": 25.8
+        "ecart": 14.0
       }
     ]
   },
@@ -752,7 +576,7 @@
     },
     {
       "trimestre": "T2 2023",
-      "taux": 4.9
+      "taux": 5.1
     },
     {
       "trimestre": "T3 2023",
@@ -764,19 +588,19 @@
     },
     {
       "trimestre": "T1 2024",
-      "taux": 4.8
+      "taux": 5.0
     },
     {
       "trimestre": "T2 2024",
-      "taux": 4.9
+      "taux": 5.1
     },
     {
       "trimestre": "T3 2024",
-      "taux": 4.5
+      "taux": 5.2
     },
     {
       "trimestre": "T4 2024",
-      "taux": 4.6
+      "taux": 5.2
     },
     {
       "trimestre": "T1 2025",
@@ -1480,18 +1304,13 @@
     },
     "sp98": {
       "prix": 1.82,
-      "variation_an": -4.5
+      "variation_an": -5.0
     },
     "evolution": [
       {
-        "mois": "Jan 2023",
-        "gazole": 1.85,
-        "sp95": 1.82
-      },
-      {
         "mois": "Avr 2023",
-        "gazole": 1.78,
-        "sp95": 1.88
+        "gazole": 1.81,
+        "sp95": 1.95
       },
       {
         "mois": "Juil 2023",
@@ -1500,56 +1319,51 @@
       },
       {
         "mois": "Oct 2023",
-        "gazole": 1.88,
-        "sp95": 1.92
+        "gazole": 1.91,
+        "sp95": 1.89
       },
       {
         "mois": "Jan 2024",
-        "gazole": 1.72,
-        "sp95": 1.78
-      },
-      {
-        "mois": "Avr 2024",
         "gazole": 1.75,
         "sp95": 1.82
       },
       {
+        "mois": "Avr 2024",
+        "gazole": 1.79,
+        "sp95": 1.94
+      },
+      {
         "mois": "Juil 2024",
-        "gazole": 1.68,
-        "sp95": 1.75
+        "gazole": 1.73,
+        "sp95": 1.86
       },
       {
         "mois": "Oct 2024",
-        "gazole": 1.62,
-        "sp95": 1.72
+        "gazole": 1.63,
+        "sp95": 1.76
       },
       {
         "mois": "Jan 2025",
-        "gazole": 1.65,
-        "sp95": 1.78
+        "gazole": 1.71,
+        "sp95": 1.81
       },
       {
         "mois": "Avr 2025",
-        "gazole": 1.6,
-        "sp95": 1.74
+        "gazole": 1.59,
+        "sp95": 1.73
       },
       {
         "mois": "Juil 2025",
-        "gazole": 1.58,
-        "sp95": 1.7
+        "gazole": 1.65,
+        "sp95": 1.72
       },
       {
         "mois": "Oct 2025",
-        "gazole": 1.58,
+        "gazole": 1.61,
         "sp95": 1.72
       },
       {
         "mois": "Jan 2026",
-        "gazole": 1.62,
-        "sp95": 1.71
-      },
-      {
-        "mois": "Mar 2026",
         "gazole": 1.65,
         "sp95": 1.72
       }
@@ -1631,7 +1445,7 @@
     "croissance_trim_actuel": 0.7,
     "croissance_annuelle": 0.9,
     "trimestre": "T4 2025",
-    "commentaire": "PIB volume trimestriel - glissement annuel - INSEE",
+    "commentaire": "PIB volume trimestriel - glissement annuel",
     "evolution": [
       {
         "trimestre": "T2 2022",
@@ -3614,7 +3428,7 @@
       "note_lecture": "Le TEC-10 mesure le rendement des emprunts d'Etat francais a 10 ans. Un taux eleve rencherit le cout de la dette publique et impacte les taux de credit immobilier."
     },
     "petrole_brent": {
-      "valeur": 103.18,
+      "valeur": 103.4,
       "date": "2026-03-17",
       "unite": "USD/baril",
       "source": "Yahoo Finance",
@@ -5134,29 +4948,29 @@
         },
         {
           "date": "2026-03-17",
-          "valeur": 103.18,
-          "ma50": 73.15,
-          "ma200": 67.86
+          "valeur": 103.4,
+          "ma50": 73.16,
+          "ma200": 67.87
         }
       ],
       "variations": {
-        "jour": 2.96,
-        "semaine": 17.52,
-        "mois": 52.81,
-        "ytd": 69.84
+        "jour": 3.18,
+        "semaine": 17.77,
+        "mois": 53.14,
+        "ytd": 70.21
       },
       "min_max": {
         "min": 58.92,
         "min_date": "2025-12-16",
-        "max": 103.18,
+        "max": 103.4,
         "max_date": "2026-03-17"
       },
       "note_lecture": "Le prix du Brent influence directement les couts de transport et d'energie, donc l'inflation et le pouvoir d'achat des salaries."
     },
     "cac40": {
-      "valeur": 7986.77,
+      "valeur": 7975.47,
       "date": "2026-03-17",
-      "variation_jour_pct": 0.64,
+      "variation_jour_pct": 0.5,
       "unite": "points",
       "source": "Yahoo Finance",
       "nb_points": 256,
@@ -6693,16 +6507,16 @@
         },
         {
           "date": "2026-03-17",
-          "valeur": 7986.77,
-          "ma50": 8232.42,
-          "ma200": 7994.58
+          "valeur": 7975.47,
+          "ma50": 8232.2,
+          "ma200": 7994.53
         }
       ],
       "variations": {
-        "jour": 0.64,
-        "semaine": -0.88,
-        "mois": -3.91,
-        "ytd": -2.54
+        "jour": 0.5,
+        "semaine": -1.02,
+        "mois": -4.05,
+        "ytd": -2.68
       },
       "min_max": {
         "min": 6863.02,
@@ -8283,7 +8097,7 @@
       "note_lecture": "Le taux de change euro-dollar determine le prix de tout ce qui est importe en dollars : petrole, matieres premieres, electronique. Un euro faible rencherit les importations et alimente l'inflation."
     },
     "or": {
-      "valeur": 5009.1,
+      "valeur": 5009.2,
       "date": "2026-03-17",
       "unite": "USD/oz",
       "source": "Yahoo Finance",
@@ -9803,7 +9617,7 @@
         },
         {
           "date": "2026-03-17",
-          "valeur": 5009.1,
+          "valeur": 5009.2,
           "ma50": 4938.12,
           "ma200": 4043.4
         }
@@ -9811,7 +9625,7 @@
       "variations": {
         "jour": 0.3,
         "semaine": -4.22,
-        "mois": 1.73,
+        "mois": 1.74,
         "ytd": 16.1
       },
       "min_max": {
@@ -11363,7 +11177,7 @@
       "note_lecture": "Le prix du gaz naturel (TTF europeen) impacte directement les factures de chauffage et d'electricite des menages, ainsi que les couts de production industrielle."
     },
     "ble": {
-      "valeur": 596.0,
+      "valeur": 598.5,
       "date": "2026-03-17",
       "unite": "cents/boisseau",
       "source": "Yahoo Finance",
@@ -12877,16 +12691,16 @@
         },
         {
           "date": "2026-03-17",
-          "valeur": 596.0,
-          "ma50": 547.47,
-          "ma200": 530.11
+          "valeur": 598.5,
+          "ma50": 547.51,
+          "ma200": 530.13
         }
       ],
       "variations": {
-        "jour": -0.21,
-        "semaine": 1.92,
-        "mois": 7.87,
-        "ytd": 17.67
+        "jour": 0.21,
+        "semaine": 2.35,
+        "mois": 8.33,
+        "ytd": 18.16
       },
       "min_max": {
         "min": 495.0,
@@ -13677,7 +13491,7 @@
           "2023": 1.92,
           "2024": 1.78,
           "2025": 1.72,
-          "2026": 1.939
+          "2026": 1.94
         },
         "quantiteMensuelle": {
           "solo": 40,
@@ -16100,7 +15914,7 @@
     "sources": "INSEE - Enquête Emploi, DARES"
   },
   "previsions_cftc": {
-    "generated_at": "2026-03-17T10:17:24.241323",
+    "generated_at": "2026-03-17T10:28:18.637642",
     "model_version": "CFTC v4.0 (Monte Carlo)",
     "n_simulations": 1000,
     "horizon": "12 mois",
