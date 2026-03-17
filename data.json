@@ -1,6 +1,6 @@
 {
-  "last_updated": "17/03/2026 10:32",
-  "last_updated_iso": "2026-03-17T10:32:07.300006",
+  "last_updated": "17/03/2026 12:31",
+  "last_updated_iso": "2026-03-17T12:31:22.779191",
   "contact": "hspringragain@cftc.fr",
   "alertes": [
     {
@@ -12,11 +12,11 @@
       "onglet": "inflation"
     },
     {
-      "id": "chomage_jeunes_T3_2025",
+      "id": "chomage_jeunes_T4_2025",
       "date": "2026-03-17",
       "type": "warning",
-      "titre": "🧑‍🎓 Chômage jeunes élevé : 19.2%",
-      "message": "Le taux de chômage des 15-24 ans reste préoccupant (T3 2025).",
+      "titre": "🧑‍🎓 Chômage jeunes élevé : 21.5%",
+      "message": "Le taux de chômage des 15-24 ans reste préoccupant (T4 2025).",
       "onglet": "emploi"
     },
     {
@@ -32,7 +32,7 @@
       "date": "2026-03-17",
       "type": "info",
       "titre": "🔄 Données actualisées",
-      "message": "Le tableau de bord a été mis à jour le 17/03/2026 à 10:31.",
+      "message": "Le tableau de bord a été mis à jour le 17/03/2026 à 12:31.",
       "onglet": "conjoncture"
     }
   ],
@@ -135,7 +135,7 @@
     }
   ],
   "revue_presse": {
-    "derniere_maj": "17/03/2026 10:32",
+    "derniere_maj": "17/03/2026 12:31",
     "nb_sources": 12,
     "sources_noms": [
       "INSEE",
@@ -153,6 +153,54 @@
     ],
     "a_la_une": [],
     "tous": [
+      {
+        "source": "Le Monde Éco",
+        "couleur": "#374151",
+        "emoji": "🌐",
+        "tag": "Presse économique",
+        "titre": "« Les Européens ont une version dégradée de l’IA, ce qui ne peut que retarder leur adaptation »",
+        "resume": "Face à la lame de fond économique de l’intelligence artificielle, Arnaud Leparmentier, dans sa chronique, invite l’Europe à être plus réactive et à ne pas s’enfermer dans la seule incantation de la souveraineté numérique.",
+        "lien": "https://www.lemonde.fr/idees/article/2026/03/17/les-europeens-ont-une-version-degradee-de-l-ia-ce-qui-ne-peut-que-retarder-leur-adaptation_6671709_3232.html",
+        "date_iso": "2026-03-17T13:00:06+01:00",
+        "date_fr": "17/03/2026",
+        "pertinence": 0
+      },
+      {
+        "source": "Le Monde Éco",
+        "couleur": "#374151",
+        "emoji": "🌐",
+        "tag": "Presse économique",
+        "titre": "L’Ecole du ski français condamnée à 3,4 millions d’euros d’amende pour ses pratiques anticoncurrentielles",
+        "resume": "L’Autorité de la concurrence a sanctionné le syndicat qui regroupe les écoles de ski ESF, en raison de clauses qui empêchent ses moniteurs, en théorie indépendants, à travailler pour eux-mêmes ou d’autres structures.",
+        "lien": "https://www.lemonde.fr/economie/article/2026/03/17/l-ecole-du-ski-francais-condamnee-a-3-4-millions-d-euros-d-amende-pour-ses-pratiques-anticoncurrentielles_6671704_3234.html",
+        "date_iso": "2026-03-17T12:34:36+01:00",
+        "date_fr": "17/03/2026",
+        "pertinence": 1
+      },
+      {
+        "source": "Le Monde Éco",
+        "couleur": "#374151",
+        "emoji": "🌐",
+        "tag": "Presse économique",
+        "titre": "Johanna Rolland, maire sortante de Nantes et numéro deux du PS, signe avec LFI pour éviter « le hold-up du siècle » aux municipales",
+        "resume": "L’édile, qui brigue un troisième mandat, est talonnée par le candidat de l’union de la droite et du centre, Foulques Chombart de Lauwe (Les Républicains). Pour le second tour, elle fait le choix de fusionner sa liste avec celle de La France insoumise.",
+        "lien": "https://www.lemonde.fr/politique/article/2026/03/17/municipales-a-nantes-la-maire-sortante-johanna-rolland-numero-deux-du-ps-signe-avec-les-insoumis-pour-eviter-le-hold-up-du-siecle_6671694_823448.html",
+        "date_iso": "2026-03-17T11:50:58+01:00",
+        "date_fr": "17/03/2026",
+        "pertinence": 0
+      },
+      {
+        "source": "Le Monde Éco",
+        "couleur": "#374151",
+        "emoji": "🌐",
+        "tag": "Presse économique",
+        "titre": "Electronic Arts : « Un test grandeur nature qui démontre la capacité des marchés à ingurgiter encore du risque »",
+        "resume": "Les banques de Wall Street ont lancé le refinancement de quelque 15 milliards de dollars de dette mise en place mise en place lors du rachat de l’éditeur de jeux vidéos, en septembre. Un pari qui a attiré des investisseurs malgré les multiples incertitudes qui planent sur les marchés, observe Isabel",
+        "lien": "https://www.lemonde.fr/economie/article/2026/03/17/electronic-arts-un-test-grandeur-nature-qui-demontre-la-capacite-des-marches-a-ingurgiter-encore-du-risque_6671690_3234.html",
+        "date_iso": "2026-03-17T11:30:08+01:00",
+        "date_fr": "17/03/2026",
+        "pertinence": 1
+      },
       {
         "source": "Le Monde Éco",
         "couleur": "#374151",
@@ -284,54 +332,6 @@
         "date_iso": "2026-03-16T16:35:52+01:00",
         "date_fr": "16/03/2026",
         "pertinence": 0
-      },
-      {
-        "source": "Le Monde Éco",
-        "couleur": "#374151",
-        "emoji": "🌐",
-        "tag": "Presse économique",
-        "titre": "Audiovisuel : la lobbyiste des producteurs indépendants plaide pour « une régulation forte en faveur de la diversité culturelle »",
-        "resume": "Face à la multiplication des appels à la dérégulation venus des Etats-Unis et, fait nouveau, des télévisions françaises, Juliette Prissard, la déléguée générale d’Eurocinéma, qui représente les organisations de producteurs, plaide pour un renforcement des règles vis-à-vis de YouTube.",
-        "lien": "https://www.lemonde.fr/economie/article/2026/03/16/audiovisuel-la-lobbyiste-des-producteurs-independants-plaide-pour-une-regulation-forte-en-faveur-de-la-diversite-culturelle_6671432_3234.html",
-        "date_iso": "2026-03-16T16:30:02+01:00",
-        "date_fr": "16/03/2026",
-        "pertinence": 0
-      },
-      {
-        "source": "Le Monde Éco",
-        "couleur": "#374151",
-        "emoji": "🌐",
-        "tag": "Presse économique",
-        "titre": "En Chine, la ruée vers OpenClaw, l’agent IA autonome",
-        "resume": "L’outil d’intelligence artificielle, conçu par un programmeur autrichien, connaît un succès fulgurant en Chine. Les géants Baidu, Alibaba et Tencent se livrent une course commerciale pour l’intégrer à leurs services et fidéliser ainsi leurs utilisateurs.",
-        "lien": "https://www.lemonde.fr/economie/article/2026/03/16/en-chine-la-ruee-vers-l-agent-ia-autonome-openclaw_6671420_3234.html",
-        "date_iso": "2026-03-16T15:00:00+01:00",
-        "date_fr": "16/03/2026",
-        "pertinence": 0
-      },
-      {
-        "source": "Le Monde Éco",
-        "couleur": "#374151",
-        "emoji": "🌐",
-        "tag": "Presse économique",
-        "titre": "Louis Sarkozy essuie une lourde défaite lors des municipales à Menton",
-        "resume": "La candidate RN, Alexandra Masson, est largement en tête avec 36,25 % des voix à l’issue du premier tour du 15 mars. Les trois candidats divers droite qualifiés pour le second tour devront s’entendre s’ils veulent empêcher la ville de basculer à l’extrême droite.",
-        "lien": "https://www.lemonde.fr/politique/article/2026/03/16/municipales-a-menton-louis-sarkozy-essuie-une-lourde-defaite_6671406_823448.html",
-        "date_iso": "2026-03-16T14:49:12+01:00",
-        "date_fr": "16/03/2026",
-        "pertinence": 0
-      },
-      {
-        "source": "Le Monde Éco",
-        "couleur": "#374151",
-        "emoji": "🌐",
-        "tag": "Presse économique",
-        "titre": "Nathalie Saint-Cricq, sanctionnée pour ses propos sur Eric Ciotti, ne participera pas à la soirée électorale du second tour des municipales",
-        "resume": "Dimanche soir, l’éditorialiste politique de France Télévisions, persuadée que son micro était coupé, avait comparé Eric Ciotti, président de l’Union des droites pour la République (UDR), au leader fasciste italien Benito Mussolini.",
-        "lien": "https://www.lemonde.fr/economie/article/2026/03/16/sanctionnee-pour-ses-propos-sur-eric-ciotti-nathalie-saint-cricq-ne-participera-pas-a-la-soiree-electorale-du-second-tour-des-municipales_6671404_3234.html",
-        "date_iso": "2026-03-16T14:25:19+01:00",
-        "date_fr": "16/03/2026",
-        "pertinence": 0
       }
     ]
   },
@@ -449,58 +449,63 @@
   "chomage": [
     {
       "trimestre": "T1 2023",
-      "taux": 7.1,
-      "jeunes": 17.5
+      "taux": 6.9,
+      "jeunes": 16.6
     },
     {
       "trimestre": "T2 2023",
-      "taux": 7.2,
-      "jeunes": 17.0
+      "taux": 7.0,
+      "jeunes": 17.1
     },
     {
       "trimestre": "T3 2023",
-      "taux": 7.4,
-      "jeunes": 17.6
+      "taux": 7.2,
+      "jeunes": 17.4
     },
     {
       "trimestre": "T4 2023",
-      "taux": 7.5,
+      "taux": 7.3,
       "jeunes": 17.6
     },
     {
       "trimestre": "T1 2024",
-      "taux": 7.5,
+      "taux": 7.3,
       "jeunes": 18.1
     },
     {
       "trimestre": "T2 2024",
-      "taux": 7.3,
-      "jeunes": 17.7
+      "taux": 7.1,
+      "jeunes": 18.0
     },
     {
       "trimestre": "T3 2024",
-      "taux": 7.4,
-      "jeunes": 18.3
+      "taux": 7.2,
+      "jeunes": 19.7
     },
     {
       "trimestre": "T4 2024",
-      "taux": 7.3,
-      "jeunes": 19.0
+      "taux": 7.1,
+      "jeunes": 18.7
     },
     {
       "trimestre": "T1 2025",
-      "taux": 7.4,
-      "jeunes": 18.5
+      "taux": 7.3,
+      "jeunes": 19.2
     },
     {
       "trimestre": "T2 2025",
-      "taux": 7.5,
-      "jeunes": 18.8
+      "taux": 7.4,
+      "jeunes": 19.1
     },
     {
       "trimestre": "T3 2025",
+      "taux": 7.5,
+      "jeunes": 19.1
+    },
+    {
+      "trimestre": "T4 2025",
       "taux": 7.7,
-      "jeunes": 19.2
+      "jeunes": 21.5
     }
   ],
   "smic": {
@@ -575,7 +580,7 @@
   ],
   "indicateurs_cles": {
     "taux_chomage_actuel": 7.7,
-    "taux_chomage_jeunes": 19.2,
+    "taux_chomage_jeunes": 21.5,
     "taux_emploi_seniors": 61.7,
     "inflation_annuelle": 0.9,
     "smic_brut": 1823.03,
@@ -752,7 +757,7 @@
     },
     {
       "trimestre": "T2 2023",
-      "taux": 4.9
+      "taux": 5.1
     },
     {
       "trimestre": "T3 2023",
@@ -764,19 +769,19 @@
     },
     {
       "trimestre": "T1 2024",
-      "taux": 4.8
+      "taux": 5.0
     },
     {
       "trimestre": "T2 2024",
-      "taux": 4.9
+      "taux": 5.1
     },
     {
       "trimestre": "T3 2024",
-      "taux": 4.5
+      "taux": 5.2
     },
     {
       "trimestre": "T4 2024",
-      "taux": 4.6
+      "taux": 5.2
     },
     {
       "trimestre": "T1 2025",
@@ -821,51 +826,51 @@
   "types_contrats": [
     {
       "trimestre": "T1 2023",
-      "cdi": 74.5,
-      "cdd": 8.8,
-      "interim": 2.2
+      "cdi": 83.2,
+      "cdd": 5.4,
+      "interim": 1.4
     },
     {
       "trimestre": "T2 2023",
-      "cdi": 74.3,
-      "cdd": 9.0,
-      "interim": 2.1
+      "cdi": 83.2,
+      "cdd": 5.4,
+      "interim": 1.4
     },
     {
       "trimestre": "T3 2023",
-      "cdi": 74.4,
-      "cdd": 8.9,
-      "interim": 2.0
+      "cdi": 83.4,
+      "cdd": 5.3,
+      "interim": 1.3
     },
     {
       "trimestre": "T4 2023",
-      "cdi": 74.6,
-      "cdd": 8.7,
-      "interim": 2.0
+      "cdi": 83.4,
+      "cdd": 5.3,
+      "interim": 1.3
     },
     {
       "trimestre": "T1 2024",
-      "cdi": 74.8,
-      "cdd": 8.5,
-      "interim": 1.9
+      "cdi": 83.4,
+      "cdd": 5.3,
+      "interim": 1.3
     },
     {
       "trimestre": "T2 2024",
-      "cdi": 74.7,
-      "cdd": 8.6,
-      "interim": 1.9
+      "cdi": 83.4,
+      "cdd": 5.3,
+      "interim": 1.3
     },
     {
       "trimestre": "T3 2024",
-      "cdi": 74.9,
-      "cdd": 8.4,
-      "interim": 1.8
+      "cdi": 83.4,
+      "cdd": 5.3,
+      "interim": 1.3
     },
     {
       "trimestre": "T4 2024",
-      "cdi": 75.0,
-      "cdd": 8.3,
-      "interim": 1.8
+      "cdi": 83.5,
+      "cdd": 5.2,
+      "interim": 1.3
     },
     {
       "trimestre": "T1 2025",
@@ -1621,7 +1626,7 @@
     "croissance_trim_actuel": 0.7,
     "croissance_annuelle": 0.9,
     "trimestre": "T4 2025",
-    "commentaire": "PIB volume trimestriel - glissement annuel",
+    "commentaire": "PIB volume trimestriel - glissement annuel - INSEE",
     "evolution": [
       {
         "trimestre": "T2 2022",
@@ -3604,7 +3609,7 @@
       "note_lecture": "Le TEC-10 mesure le rendement des emprunts d'Etat francais a 10 ans. Un taux eleve rencherit le cout de la dette publique et impacte les taux de credit immobilier."
     },
     "petrole_brent": {
-      "valeur": 103.69,
+      "valeur": 102.51,
       "date": "2026-03-17",
       "unite": "USD/baril",
       "source": "Yahoo Finance",
@@ -5124,29 +5129,29 @@
         },
         {
           "date": "2026-03-17",
-          "valeur": 103.69,
-          "ma50": 73.16,
-          "ma200": 67.87
+          "valeur": 102.51,
+          "ma50": 73.14,
+          "ma200": 67.86
         }
       ],
       "variations": {
-        "jour": 3.47,
-        "semaine": 18.1,
-        "mois": 53.57,
-        "ytd": 70.68
+        "jour": 2.3,
+        "semaine": 16.75,
+        "mois": 51.82,
+        "ytd": 68.74
       },
       "min_max": {
         "min": 58.92,
         "min_date": "2025-12-16",
-        "max": 103.69,
-        "max_date": "2026-03-17"
+        "max": 103.14,
+        "max_date": "2026-03-13"
       },
       "note_lecture": "Le prix du Brent influence directement les couts de transport et d'energie, donc l'inflation et le pouvoir d'achat des salaries."
     },
     "cac40": {
-      "valeur": 7975.86,
+      "valeur": 7998.56,
       "date": "2026-03-17",
-      "variation_jour_pct": 0.5,
+      "variation_jour_pct": 0.79,
       "unite": "points",
       "source": "Yahoo Finance",
       "nb_points": 256,
@@ -6683,16 +6688,16 @@
         },
         {
           "date": "2026-03-17",
-          "valeur": 7975.86,
-          "ma50": 8232.2,
-          "ma200": 7994.53
+          "valeur": 7998.56,
+          "ma50": 8232.66,
+          "ma200": 7994.64
         }
       ],
       "variations": {
-        "jour": 0.5,
-        "semaine": -1.01,
-        "mois": -4.04,
-        "ytd": -2.68
+        "jour": 0.79,
+        "semaine": -0.73,
+        "mois": -3.77,
+        "ytd": -2.4
       },
       "min_max": {
         "min": 6863.02,
@@ -8273,7 +8278,7 @@
       "note_lecture": "Le taux de change euro-dollar determine le prix de tout ce qui est importe en dollars : petrole, matieres premieres, electronique. Un euro faible rencherit les importations et alimente l'inflation."
     },
     "or": {
-      "valeur": 5010.6,
+      "valeur": 5019.9,
       "date": "2026-03-17",
       "unite": "USD/oz",
       "source": "Yahoo Finance",
@@ -9793,16 +9798,16 @@
         },
         {
           "date": "2026-03-17",
-          "valeur": 5010.6,
-          "ma50": 4938.15,
-          "ma200": 4043.41
+          "valeur": 5019.9,
+          "ma50": 4938.33,
+          "ma200": 4043.46
         }
       ],
       "variations": {
-        "jour": 0.33,
-        "semaine": -4.19,
-        "mois": 1.76,
-        "ytd": 16.14
+        "jour": 0.52,
+        "semaine": -4.01,
+        "mois": 1.95,
+        "ytd": 16.35
       },
       "min_max": {
         "min": 2951.3,
@@ -9813,7 +9818,7 @@
       "note_lecture": "L'or est la valeur refuge par excellence. Sa hausse traduit une montee de l'incertitude economique ou geopolitique. Il sert aussi de protection contre l'inflation."
     },
     "gaz_naturel": {
-      "valeur": 52.0,
+      "valeur": 51.9,
       "date": "2026-03-17",
       "unite": "EUR/MWh",
       "source": "Yahoo Finance (TTF)",
@@ -11333,16 +11338,16 @@
         },
         {
           "date": "2026-03-17",
-          "valeur": 52.0,
+          "valeur": 51.9,
           "ma50": 37.6,
           "ma200": 33.56
         }
       ],
       "variations": {
-        "jour": 2.18,
-        "semaine": 9.73,
-        "mois": 57.62,
-        "ytd": 79.31
+        "jour": 1.98,
+        "semaine": 9.52,
+        "mois": 57.32,
+        "ytd": 78.97
       },
       "min_max": {
         "min": 26.6,
@@ -11353,7 +11358,7 @@
       "note_lecture": "Le prix du gaz naturel (TTF europeen) impacte directement les factures de chauffage et d'electricite des menages, ainsi que les couts de production industrielle."
     },
     "ble": {
-      "valeur": 598.25,
+      "valeur": 594.5,
       "date": "2026-03-17",
       "unite": "cents/boisseau",
       "source": "Yahoo Finance",
@@ -12867,16 +12872,16 @@
         },
         {
           "date": "2026-03-17",
-          "valeur": 598.25,
-          "ma50": 547.51,
-          "ma200": 530.12
+          "valeur": 594.5,
+          "ma50": 547.43,
+          "ma200": 530.11
         }
       ],
       "variations": {
-        "jour": 0.17,
-        "semaine": 2.31,
-        "mois": 8.28,
-        "ytd": 18.11
+        "jour": -0.46,
+        "semaine": 1.67,
+        "mois": 7.6,
+        "ytd": 17.37
       },
       "min_max": {
         "min": 495.0,
@@ -13667,7 +13672,7 @@
           "2023": 1.92,
           "2024": 1.78,
           "2025": 1.72,
-          "2026": 1.94
+          "2026": 1.941
         },
         "quantiteMensuelle": {
           "solo": 40,
@@ -16090,7 +16095,7 @@
     "sources": "INSEE - Enquête Emploi, DARES"
   },
   "previsions_cftc": {
-    "generated_at": "2026-03-17T10:32:07.411148",
+    "generated_at": "2026-03-17T12:31:22.882214",
     "model_version": "CFTC v4.0 (Monte Carlo)",
     "n_simulations": 1000,
     "horizon": "12 mois",
