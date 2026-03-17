@@ -2262,6 +2262,17 @@ def build_changelog():
     
     changelog = [
         {
+            "version": "2.1.5",
+            "date": "2026-03-17",
+            "modifications": [
+                {
+                    "type": "Features",
+                    "titre": "Cartographie des inégalités territoriales",
+                    "description": "Création d'un sous-onglet dans la partie territoires"
+                },
+            ]
+        },       
+        {
             "version": "2.1.4",
             "date": "2026-03-10",
             "modifications": [
