@@ -1,6 +1,6 @@
 {
-  "last_updated": "17/03/2026 12:47",
-  "last_updated_iso": "2026-03-17T12:47:46.907042",
+  "last_updated": "17/03/2026 12:54",
+  "last_updated_iso": "2026-03-17T12:54:11.741926",
   "contact": "hspringragain@cftc.fr",
   "alertes": [
     {
@@ -12,11 +12,11 @@
       "onglet": "inflation"
     },
     {
-      "id": "chomage_jeunes_T3_2025",
+      "id": "chomage_jeunes_T4_2025",
       "date": "2026-03-17",
       "type": "warning",
-      "titre": "🧑‍🎓 Chômage jeunes élevé : 19.2%",
-      "message": "Le taux de chômage des 15-24 ans reste préoccupant (T3 2025).",
+      "titre": "🧑‍🎓 Chômage jeunes élevé : 21.5%",
+      "message": "Le taux de chômage des 15-24 ans reste préoccupant (T4 2025).",
       "onglet": "emploi"
     },
     {
@@ -32,7 +32,7 @@
       "date": "2026-03-17",
       "type": "info",
       "titre": "🔄 Données actualisées",
-      "message": "Le tableau de bord a été mis à jour le 17/03/2026 à 12:47.",
+      "message": "Le tableau de bord a été mis à jour le 17/03/2026 à 12:54.",
       "onglet": "conjoncture"
     }
   ],
@@ -135,7 +135,7 @@
     }
   ],
   "revue_presse": {
-    "derniere_maj": "17/03/2026 12:47",
+    "derniere_maj": "17/03/2026 12:54",
     "nb_sources": 12,
     "sources_noms": [
       "Le Monde Éco",
@@ -153,6 +153,18 @@
     ],
     "a_la_une": [],
     "tous": [
+      {
+        "source": "Le Figaro Éco",
+        "couleur": "#92400e",
+        "emoji": "📊",
+        "tag": "Presse économique",
+        "titre": "Arnaque au faux livreur : attention, les escrocs envoient désormais des photos générées par IA de votre prétendu colis",
+        "resume": "Les SMS invitant à payer pour reprogrammer une livraison deviennent de plus en plus piégeux. Ces fausses images comprennent votre nom et votre véritable adresse postale.",
+        "lien": "https://www.lefigaro.fr/secteur/high-tech/arnaque-au-faux-livreur-attention-les-escrocs-envoient-desormais-des-photos-generees-par-ia-de-votre-pretendu-colis-20260317",
+        "date_iso": "2026-03-17T13:40:29+01:00",
+        "date_fr": "17/03/2026",
+        "pertinence": 0
+      },
       {
         "source": "Le Figaro Éco",
         "couleur": "#92400e",
@@ -176,18 +188,6 @@
         "date_iso": "2026-03-17T12:33:20+01:00",
         "date_fr": "17/03/2026",
         "pertinence": 2
-      },
-      {
-        "source": "Le Figaro Éco",
-        "couleur": "#92400e",
-        "emoji": "📊",
-        "tag": "Presse économique",
-        "titre": "Arnaque au faux livreur : attention, les escrocs envoient désormais des photos générées par IA de votre prétendu colis",
-        "resume": "Les SMS invitant à payer pour reprogrammer une livraison deviennent de plus en plus piégeux. Ces fausses images comprennent votre nom et votre véritable adresse postale.",
-        "lien": "https://www.lefigaro.fr/secteur/high-tech/arnaque-au-faux-livreur-attention-les-escrocs-envoient-desormais-des-photos-generees-par-ia-de-votre-pretendu-colis-20260317",
-        "date_iso": "2026-03-17T12:24:02+01:00",
-        "date_fr": "17/03/2026",
-        "pertinence": 0
       },
       {
         "source": "Le Figaro Éco",
@@ -629,58 +629,63 @@
   "chomage": [
     {
       "trimestre": "T1 2023",
-      "taux": 7.1,
-      "jeunes": 17.5
+      "taux": 6.9,
+      "jeunes": 16.6
     },
     {
       "trimestre": "T2 2023",
-      "taux": 7.2,
-      "jeunes": 17.0
+      "taux": 7.0,
+      "jeunes": 17.1
     },
     {
       "trimestre": "T3 2023",
-      "taux": 7.4,
-      "jeunes": 17.6
+      "taux": 7.2,
+      "jeunes": 17.4
     },
     {
       "trimestre": "T4 2023",
-      "taux": 7.5,
+      "taux": 7.3,
       "jeunes": 17.6
     },
     {
       "trimestre": "T1 2024",
-      "taux": 7.5,
+      "taux": 7.3,
       "jeunes": 18.1
     },
     {
       "trimestre": "T2 2024",
-      "taux": 7.3,
-      "jeunes": 17.7
+      "taux": 7.1,
+      "jeunes": 18.0
     },
     {
       "trimestre": "T3 2024",
-      "taux": 7.4,
-      "jeunes": 18.3
+      "taux": 7.2,
+      "jeunes": 19.7
     },
     {
       "trimestre": "T4 2024",
-      "taux": 7.3,
-      "jeunes": 19.0
+      "taux": 7.1,
+      "jeunes": 18.7
     },
     {
       "trimestre": "T1 2025",
-      "taux": 7.4,
-      "jeunes": 18.5
+      "taux": 7.3,
+      "jeunes": 19.2
     },
     {
       "trimestre": "T2 2025",
-      "taux": 7.5,
-      "jeunes": 18.8
+      "taux": 7.4,
+      "jeunes": 19.1
     },
     {
       "trimestre": "T3 2025",
+      "taux": 7.5,
+      "jeunes": 19.1
+    },
+    {
+      "trimestre": "T4 2025",
       "taux": 7.7,
-      "jeunes": 19.2
+      "jeunes": 21.5
     }
   ],
   "smic": {
@@ -755,7 +760,7 @@
   ],
   "indicateurs_cles": {
     "taux_chomage_actuel": 7.7,
-    "taux_chomage_jeunes": 19.2,
+    "taux_chomage_jeunes": 21.5,
     "taux_emploi_seniors": 61.7,
     "inflation_annuelle": 0.9,
     "smic_brut": 1823.03,
@@ -932,7 +937,7 @@
     },
     {
       "trimestre": "T2 2023",
-      "taux": 4.9
+      "taux": 5.1
     },
     {
       "trimestre": "T3 2023",
@@ -944,19 +949,19 @@
     },
     {
       "trimestre": "T1 2024",
-      "taux": 4.8
+      "taux": 5.0
     },
     {
       "trimestre": "T2 2024",
-      "taux": 4.9
+      "taux": 5.1
     },
     {
       "trimestre": "T3 2024",
-      "taux": 4.5
+      "taux": 5.2
     },
     {
       "trimestre": "T4 2024",
-      "taux": 4.6
+      "taux": 5.2
     },
     {
       "trimestre": "T1 2025",
@@ -1075,57 +1080,57 @@
   "difficultes_recrutement": [
     {
       "trimestre": "T1 2023",
-      "industrie": 52,
-      "services": 38,
-      "construction": 65
+      "industrie": 65,
+      "services": 48,
+      "construction": 78
     },
     {
       "trimestre": "T2 2023",
-      "industrie": 50,
-      "services": 36,
-      "construction": 62
+      "industrie": 64,
+      "services": 48,
+      "construction": 76
     },
     {
       "trimestre": "T3 2023",
-      "industrie": 48,
-      "services": 35,
-      "construction": 60
+      "industrie": 60,
+      "services": 45,
+      "construction": 72
     },
     {
       "trimestre": "T4 2023",
-      "industrie": 45,
-      "services": 33,
-      "construction": 58
+      "industrie": 57,
+      "services": 42,
+      "construction": 68
     },
     {
       "trimestre": "T1 2024",
-      "industrie": 43,
-      "services": 32,
-      "construction": 55
+      "industrie": 53,
+      "services": 39,
+      "construction": 63
     },
     {
       "trimestre": "T2 2024",
-      "industrie": 41,
-      "services": 30,
-      "construction": 52
+      "industrie": 52,
+      "services": 39,
+      "construction": 62
     },
     {
       "trimestre": "T3 2024",
-      "industrie": 40,
-      "services": 30,
-      "construction": 50
+      "industrie": 48,
+      "services": 36,
+      "construction": 57
     },
     {
       "trimestre": "T4 2024",
-      "industrie": 38,
-      "services": 28,
-      "construction": 48
+      "industrie": 46,
+      "services": 34,
+      "construction": 55
     },
     {
       "trimestre": "T1 2025",
-      "industrie": 36,
-      "services": 27,
-      "construction": 46
+      "industrie": 44,
+      "services": 33,
+      "construction": 52
     },
     {
       "trimestre": "T2 2025",
@@ -1582,28 +1587,38 @@
   "prix_immobilier": {
     "indice_actuel": 128.5,
     "variation_trim": 0.7,
-    "variation_an": 0.7,
+    "variation_an": -1.8,
     "transactions_annuelles": 880000,
     "evolution": [
       {
-        "trimestre": "T4 2023",
-        "indice": 128.7,
-        "variation": -3.6
+        "trimestre": "T1 2022",
+        "indice": 124.5,
+        "variation": 7.2
+      },
+      {
+        "trimestre": "T3 2022",
+        "indice": 126.8,
+        "variation": 6.1
+      },
+      {
+        "trimestre": "T1 2023",
+        "indice": 124.2,
+        "variation": -0.2
+      },
+      {
+        "trimestre": "T3 2023",
+        "indice": 120.5,
+        "variation": -5.0
       },
       {
         "trimestre": "T1 2024",
-        "indice": 126.0,
-        "variation": -4.8
-      },
-      {
-        "trimestre": "T2 2024",
-        "indice": 125.7,
-        "variation": -4.6
+        "indice": 117.8,
+        "variation": -5.1
       },
       {
         "trimestre": "T3 2024",
-        "indice": 127.6,
-        "variation": -3.5
+        "indice": 115.3,
+        "variation": -4.3
       },
       {
         "trimestre": "T4 2024",
@@ -1660,18 +1675,13 @@
     },
     "sp98": {
       "prix": 1.82,
-      "variation_an": -4.5
+      "variation_an": -5.0
     },
     "evolution": [
       {
-        "mois": "Jan 2023",
-        "gazole": 1.85,
-        "sp95": 1.82
-      },
-      {
         "mois": "Avr 2023",
-        "gazole": 1.78,
-        "sp95": 1.88
+        "gazole": 1.81,
+        "sp95": 1.95
       },
       {
         "mois": "Juil 2023",
@@ -1680,56 +1690,51 @@
       },
       {
         "mois": "Oct 2023",
-        "gazole": 1.88,
-        "sp95": 1.92
+        "gazole": 1.91,
+        "sp95": 1.89
       },
       {
         "mois": "Jan 2024",
-        "gazole": 1.72,
-        "sp95": 1.78
-      },
-      {
-        "mois": "Avr 2024",
         "gazole": 1.75,
         "sp95": 1.82
       },
       {
+        "mois": "Avr 2024",
+        "gazole": 1.79,
+        "sp95": 1.94
+      },
+      {
         "mois": "Juil 2024",
-        "gazole": 1.68,
-        "sp95": 1.75
+        "gazole": 1.73,
+        "sp95": 1.86
       },
       {
         "mois": "Oct 2024",
-        "gazole": 1.62,
-        "sp95": 1.72
+        "gazole": 1.63,
+        "sp95": 1.76
       },
       {
         "mois": "Jan 2025",
-        "gazole": 1.65,
-        "sp95": 1.78
+        "gazole": 1.71,
+        "sp95": 1.81
       },
       {
         "mois": "Avr 2025",
-        "gazole": 1.6,
-        "sp95": 1.74
+        "gazole": 1.59,
+        "sp95": 1.73
       },
       {
         "mois": "Juil 2025",
-        "gazole": 1.58,
-        "sp95": 1.7
+        "gazole": 1.65,
+        "sp95": 1.72
       },
       {
         "mois": "Oct 2025",
-        "gazole": 1.58,
+        "gazole": 1.61,
         "sp95": 1.72
       },
       {
         "mois": "Jan 2026",
-        "gazole": 1.62,
-        "sp95": 1.71
-      },
-      {
-        "mois": "Mar 2026",
         "gazole": 1.65,
         "sp95": 1.72
       }
@@ -3794,7 +3799,7 @@
       "note_lecture": "Le TEC-10 mesure le rendement des emprunts d'Etat francais a 10 ans. Un taux eleve rencherit le cout de la dette publique et impacte les taux de credit immobilier."
     },
     "petrole_brent": {
-      "valeur": 102.37,
+      "valeur": 102.47,
       "date": "2026-03-17",
       "unite": "USD/baril",
       "source": "Yahoo Finance",
@@ -5314,16 +5319,16 @@
         },
         {
           "date": "2026-03-17",
-          "valeur": 102.37,
+          "valeur": 102.47,
           "ma50": 73.14,
           "ma200": 67.86
         }
       ],
       "variations": {
-        "jour": 2.16,
-        "semaine": 16.59,
-        "mois": 51.61,
-        "ytd": 68.51
+        "jour": 2.26,
+        "semaine": 16.71,
+        "mois": 51.76,
+        "ytd": 68.67
       },
       "min_max": {
         "min": 58.92,
@@ -5334,9 +5339,9 @@
       "note_lecture": "Le prix du Brent influence directement les couts de transport et d'energie, donc l'inflation et le pouvoir d'achat des salaries."
     },
     "cac40": {
-      "valeur": 7998.94,
+      "valeur": 7995.06,
       "date": "2026-03-17",
-      "variation_jour_pct": 0.79,
+      "variation_jour_pct": 0.74,
       "unite": "points",
       "source": "Yahoo Finance",
       "nb_points": 256,
@@ -6873,16 +6878,16 @@
         },
         {
           "date": "2026-03-17",
-          "valeur": 7998.94,
-          "ma50": 8232.66,
-          "ma200": 7994.64
+          "valeur": 7995.06,
+          "ma50": 8232.59,
+          "ma200": 7994.62
         }
       ],
       "variations": {
-        "jour": 0.79,
-        "semaine": -0.73,
-        "mois": -3.76,
-        "ytd": -2.39
+        "jour": 0.74,
+        "semaine": -0.77,
+        "mois": -3.81,
+        "ytd": -2.44
       },
       "min_max": {
         "min": 6863.02,
@@ -8463,7 +8468,7 @@
       "note_lecture": "Le taux de change euro-dollar determine le prix de tout ce qui est importe en dollars : petrole, matieres premieres, electronique. Un euro faible rencherit les importations et alimente l'inflation."
     },
     "or": {
-      "valeur": 5024.2,
+      "valeur": 5022.6,
       "date": "2026-03-17",
       "unite": "USD/oz",
       "source": "Yahoo Finance",
@@ -9983,16 +9988,16 @@
         },
         {
           "date": "2026-03-17",
-          "valeur": 5024.2,
-          "ma50": 4938.42,
-          "ma200": 4043.48
+          "valeur": 5022.6,
+          "ma50": 4938.39,
+          "ma200": 4043.47
         }
       ],
       "variations": {
-        "jour": 0.6,
-        "semaine": -3.93,
-        "mois": 2.04,
-        "ytd": 16.45
+        "jour": 0.57,
+        "semaine": -3.96,
+        "mois": 2.01,
+        "ytd": 16.41
       },
       "min_max": {
         "min": 2951.3,
@@ -11543,7 +11548,7 @@
       "note_lecture": "Le prix du gaz naturel (TTF europeen) impacte directement les factures de chauffage et d'electricite des menages, ainsi que les couts de production industrielle."
     },
     "ble": {
-      "valeur": 593.25,
+      "valeur": 594.25,
       "date": "2026-03-17",
       "unite": "cents/boisseau",
       "source": "Yahoo Finance",
@@ -13057,16 +13062,16 @@
         },
         {
           "date": "2026-03-17",
-          "valeur": 593.25,
-          "ma50": 547.41,
-          "ma200": 530.1
+          "valeur": 594.25,
+          "ma50": 547.43,
+          "ma200": 530.11
         }
       ],
       "variations": {
-        "jour": -0.67,
-        "semaine": 1.45,
-        "mois": 7.38,
-        "ytd": 17.13
+        "jour": -0.5,
+        "semaine": 1.62,
+        "mois": 7.56,
+        "ytd": 17.32
       },
       "min_max": {
         "min": 495.0,
@@ -16280,7 +16285,7 @@
     "sources": "INSEE - Enquête Emploi, DARES"
   },
   "previsions_cftc": {
-    "generated_at": "2026-03-17T12:47:47.107722",
+    "generated_at": "2026-03-17T12:54:11.861895",
     "model_version": "CFTC v4.0 (Monte Carlo)",
     "n_simulations": 1000,
     "horizon": "12 mois",
