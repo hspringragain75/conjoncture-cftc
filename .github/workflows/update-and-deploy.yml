@@ -6,31 +6,49 @@ on:
     # Note : en heure d'ete (CEST), 6h UTC = 8h Paris. Pour 7h Paris toute l'annee,
     # il faudrait deux crons (5h UTC ete, 6h UTC hiver) mais GitHub ne gere pas les fuseaux.
     - cron: '0 6 * * 1-5'
-  workflow_dispatch:  # Permet le declenchement manuel
+  workflow_dispatch:
+    # Declenchement manuel avec option de diagnostic RSS
+    inputs:
+      mode:
+        description: 'Mode de lancement'
+        required: false
+        default: 'normal'
+        type: choice
+        options:
+          - normal
+          - diagnostic_rss
   push:
     branches: [main]
 
 jobs:
   update-data:
     runs-on: ubuntu-latest
-    
+    # Ne pas tourner en mode diagnostic_rss (job dédié ci-dessous)
+    if: ${{ github.event.inputs.mode != 'diagnostic_rss' }}
+
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
-      
+
       - name: Setup Python
         uses: actions/setup-python@v5
         with:
           python-version: '3.11'
-      
-      # Etape 1 : Recuperer les donnees economiques (INSEE, etc.)
+
+      # Installation des dépendances Python
+      - name: Install Python dependencies
+        run: |
+          pip install --upgrade pip
+          pip install feedparser requests
+
+      # Etape 1 : Recuperer les donnees economiques (INSEE, etc.) + flux RSS
       - name: Fetch latest economic data
         run: python scripts/fetch_data.py
-      
+
       # Etape 2 : Generer les previsions CFTC
       - name: Generate CFTC predictions
         run: python scripts/predictions_model_v4.py public/data.json
-      
+
       # Etape 3 : Commit et push si changements
       - name: Commit and push if changed
         run: |
@@ -41,34 +59,56 @@ jobs:
             echo "Pas de changements a commit"
           else
             git commit -m "📊 Mise a jour donnees + previsions $(date +'%Y-%m-%d %H:%M')"
-            # Force push pour eviter les conflits (les donnees generees sont toujours les plus recentes)
             git push --force-with-lease origin main || git push --force origin main
           fi
 
   build-deploy:
     needs: update-data
     runs-on: ubuntu-latest
-    
+
     steps:
       - name: Checkout updated repo
         uses: actions/checkout@v4
         with:
           ref: main
-      
+
       - name: Setup Node.js
         uses: actions/setup-node@v4
         with:
           node-version: '20'
-      
+
       - name: Install dependencies
         run: npm install
-      
+
       - name: Build
         run: npm run build
-      
+
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v4
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./dist
           commit_message: "🚀 Deploy $(date +'%Y-%m-%d %H:%M')"
+
+  # ── Job diagnostic RSS ── déclenché uniquement en mode manuel "diagnostic_rss"
+  diagnostic-rss:
+    runs-on: ubuntu-latest
+    if: ${{ github.event.inputs.mode == 'diagnostic_rss' }}
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install Python dependencies
+        run: pip install feedparser requests
+
+      - name: Run RSS diagnostic
+        run: python scripts/test_rss.py
+
+      # Les résultats s'affichent dans les logs GitHub Actions
+      # Actions > diagnostic-rss > Run RSS diagnostic
