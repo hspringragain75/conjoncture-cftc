@@ -2274,11 +2274,22 @@ def build_changelog():
                 },                
                 {
                     "type": "Features",
+                    "titre": "Carte des inégalités",
+                    "description": "Une cartographie des inégalités est créée dans le sous-onglet territoires"
+                }
+            ]
+        },
+                {
+            "version": "2.1.4",
+            "date": "2026-03-10",
+            "modifications": [
+                {
+                    "type": "Features",
                     "titre": "Données Outre-Mer onglet territoires",
                     "description": "Les données des Outre-Mer sont désormais intégrées dans la suite de l'onglet territoires"
-                },
+                }
             ]
-        },         
+        },
         {
             "version": "2.1.3",
             "date": "2026-03-04",
