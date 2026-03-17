@@ -87,23 +87,7 @@ for source in SOURCES:
         resultats_ok.append({"nom": nom, "url": url, "nb": nb})
     else:
         print(f"   ❌ KO — HTTP {status} | {erreur}")
-
-        # Tester les alternatives
-        alternatives = ALTERNATIVES.get(nom, [])
-        trouvee = False
-        for alt_url in alternatives:
-            alt_status, alt_nb, alt_err, alt_titre = test_url(alt_url)
-            if alt_nb > 0:
-                print(f"   ✅ ALTERNATIVE OK : {alt_url}")
-                print(f"      → {alt_nb} articles | {alt_titre}")
-                resultats_ok.append({"nom": nom, "url": alt_url, "nb": alt_nb})
-                trouvee = True
-                break
-            else:
-                print(f"   ⚠️  Alt KO ({alt_status}) : {alt_url}")
-
-        if not trouvee:
-            resultats_ko.append({"nom": nom, "url_principale": url})
+        resultats_ko.append({"nom": nom, "url_principale": url})
 
     print()
 
