@@ -1,6 +1,6 @@
 {
-  "last_updated": "17/03/2026 09:09",
-  "last_updated_iso": "2026-03-17T09:09:39.588960",
+  "last_updated": "17/03/2026 09:29",
+  "last_updated_iso": "2026-03-17T09:29:20.622071",
   "contact": "hspringragain@cftc.fr",
   "alertes": [
     {
@@ -32,7 +32,7 @@
       "date": "2026-03-17",
       "type": "info",
       "titre": "🔄 Données actualisées",
-      "message": "Le tableau de bord a été mis à jour le 17/03/2026 à 09:09.",
+      "message": "Le tableau de bord a été mis à jour le 17/03/2026 à 09:29.",
       "onglet": "conjoncture"
     }
   ],
@@ -392,7 +392,7 @@
     "smic_net": 1443.11,
     "salaire_median": 2190,
     "salaire_moyen": 2733,
-    "ecart_hf_eqtp": 14.0,
+    "ecart_hf_eqtp": 25.8,
     "difficultes_recrutement": 61,
     "irl_glissement": 0.79,
     "prix_gazole": 1.65,
@@ -432,36 +432,36 @@
   },
   "ecart_hommes_femmes": {
     "ecart_global": 21.8,
-    "ecart_eqtp": 14.0,
+    "ecart_eqtp": 25.8,
     "ecart_poste_comparable": 4.0,
     "evolution": [
       {
-        "annee": "2015",
-        "ecart": 18.4
-      },
-      {
-        "annee": "2017",
-        "ecart": 16.6
+        "annee": "2018",
+        "ecart": 23.2
       },
       {
         "annee": "2019",
-        "ecart": 16.1
+        "ecart": 23.8
+      },
+      {
+        "annee": "2020",
+        "ecart": 24.5
       },
       {
         "annee": "2021",
-        "ecart": 15.5
+        "ecart": 24.3
       },
       {
         "annee": "2022",
-        "ecart": 14.9
+        "ecart": 25.1
       },
       {
         "annee": "2023",
-        "ecart": 14.2
+        "ecart": 25.6
       },
       {
         "annee": "2024",
-        "ecart": 14.0
+        "ecart": 25.8
       }
     ]
   },
@@ -1290,13 +1290,18 @@
     },
     "sp98": {
       "prix": 1.82,
-      "variation_an": -5.0
+      "variation_an": -4.5
     },
     "evolution": [
       {
+        "mois": "Jan 2023",
+        "gazole": 1.85,
+        "sp95": 1.82
+      },
+      {
         "mois": "Avr 2023",
-        "gazole": 1.81,
-        "sp95": 1.95
+        "gazole": 1.78,
+        "sp95": 1.88
       },
       {
         "mois": "Juil 2023",
@@ -1305,51 +1310,56 @@
       },
       {
         "mois": "Oct 2023",
-        "gazole": 1.91,
-        "sp95": 1.89
+        "gazole": 1.88,
+        "sp95": 1.92
       },
       {
         "mois": "Jan 2024",
+        "gazole": 1.72,
+        "sp95": 1.78
+      },
+      {
+        "mois": "Avr 2024",
         "gazole": 1.75,
         "sp95": 1.82
       },
       {
-        "mois": "Avr 2024",
-        "gazole": 1.79,
-        "sp95": 1.94
-      },
-      {
         "mois": "Juil 2024",
-        "gazole": 1.73,
-        "sp95": 1.86
+        "gazole": 1.68,
+        "sp95": 1.75
       },
       {
         "mois": "Oct 2024",
-        "gazole": 1.63,
-        "sp95": 1.76
-      },
-      {
-        "mois": "Jan 2025",
-        "gazole": 1.71,
-        "sp95": 1.81
-      },
-      {
-        "mois": "Avr 2025",
-        "gazole": 1.59,
-        "sp95": 1.73
-      },
-      {
-        "mois": "Juil 2025",
-        "gazole": 1.65,
+        "gazole": 1.62,
         "sp95": 1.72
       },
       {
+        "mois": "Jan 2025",
+        "gazole": 1.65,
+        "sp95": 1.78
+      },
+      {
+        "mois": "Avr 2025",
+        "gazole": 1.6,
+        "sp95": 1.74
+      },
+      {
+        "mois": "Juil 2025",
+        "gazole": 1.58,
+        "sp95": 1.7
+      },
+      {
         "mois": "Oct 2025",
-        "gazole": 1.61,
+        "gazole": 1.58,
         "sp95": 1.72
       },
       {
         "mois": "Jan 2026",
+        "gazole": 1.62,
+        "sp95": 1.71
+      },
+      {
+        "mois": "Mar 2026",
         "gazole": 1.65,
         "sp95": 1.72
       }
@@ -3414,7 +3424,7 @@
       "note_lecture": "Le TEC-10 mesure le rendement des emprunts d'Etat francais a 10 ans. Un taux eleve rencherit le cout de la dette publique et impacte les taux de credit immobilier."
     },
     "petrole_brent": {
-      "valeur": 104.16,
+      "valeur": 103.63,
       "date": "2026-03-17",
       "unite": "USD/baril",
       "source": "Yahoo Finance",
@@ -4934,29 +4944,29 @@
         },
         {
           "date": "2026-03-17",
-          "valeur": 104.16,
-          "ma50": 73.17,
+          "valeur": 103.63,
+          "ma50": 73.16,
           "ma200": 67.87
         }
       ],
       "variations": {
-        "jour": 3.94,
-        "semaine": 18.63,
-        "mois": 54.27,
-        "ytd": 71.46
+        "jour": 3.41,
+        "semaine": 18.03,
+        "mois": 53.48,
+        "ytd": 70.58
       },
       "min_max": {
         "min": 58.92,
         "min_date": "2025-12-16",
-        "max": 104.16,
+        "max": 103.63,
         "max_date": "2026-03-17"
       },
       "note_lecture": "Le prix du Brent influence directement les couts de transport et d'energie, donc l'inflation et le pouvoir d'achat des salaries."
     },
     "cac40": {
-      "valeur": 7940.68,
+      "valeur": 7955.99,
       "date": "2026-03-17",
-      "variation_jour_pct": 0.06,
+      "variation_jour_pct": 0.25,
       "unite": "points",
       "source": "Yahoo Finance",
       "nb_points": 256,
@@ -6493,16 +6503,16 @@
         },
         {
           "date": "2026-03-17",
-          "valeur": 7940.68,
-          "ma50": 8231.5,
-          "ma200": 7994.35
+          "valeur": 7955.99,
+          "ma50": 8231.81,
+          "ma200": 7994.43
         }
       ],
       "variations": {
-        "jour": 0.06,
-        "semaine": -1.45,
-        "mois": -4.46,
-        "ytd": -3.11
+        "jour": 0.25,
+        "semaine": -1.26,
+        "mois": -4.28,
+        "ytd": -2.92
       },
       "min_max": {
         "min": 6863.02,
@@ -8083,7 +8093,7 @@
       "note_lecture": "Le taux de change euro-dollar determine le prix de tout ce qui est importe en dollars : petrole, matieres premieres, electronique. Un euro faible rencherit les importations et alimente l'inflation."
     },
     "or": {
-      "valeur": 5029.0,
+      "valeur": 5018.7,
       "date": "2026-03-17",
       "unite": "USD/oz",
       "source": "Yahoo Finance",
@@ -9603,16 +9613,16 @@
         },
         {
           "date": "2026-03-17",
-          "valeur": 5029.0,
-          "ma50": 4938.52,
-          "ma200": 4043.5
+          "valeur": 5018.7,
+          "ma50": 4938.31,
+          "ma200": 4043.45
         }
       ],
       "variations": {
-        "jour": 0.7,
-        "semaine": -3.84,
-        "mois": 2.14,
-        "ytd": 16.56
+        "jour": 0.49,
+        "semaine": -4.03,
+        "mois": 1.93,
+        "ytd": 16.32
       },
       "min_max": {
         "min": 2951.3,
@@ -11163,7 +11173,7 @@
       "note_lecture": "Le prix du gaz naturel (TTF europeen) impacte directement les factures de chauffage et d'electricite des menages, ainsi que les couts de production industrielle."
     },
     "ble": {
-      "valeur": 603.75,
+      "valeur": 600.5,
       "date": "2026-03-17",
       "unite": "cents/boisseau",
       "source": "Yahoo Finance",
@@ -12677,16 +12687,16 @@
         },
         {
           "date": "2026-03-17",
-          "valeur": 603.75,
-          "ma50": 547.62,
-          "ma200": 530.15
+          "valeur": 600.5,
+          "ma50": 547.55,
+          "ma200": 530.14
         }
       ],
       "variations": {
-        "jour": 1.09,
-        "semaine": 3.25,
-        "mois": 9.28,
-        "ytd": 19.2
+        "jour": 0.54,
+        "semaine": 2.69,
+        "mois": 8.69,
+        "ytd": 18.56
       },
       "min_max": {
         "min": 495.0,
@@ -13477,7 +13487,7 @@
           "2023": 1.92,
           "2024": 1.78,
           "2025": 1.72,
-          "2026": 1.935
+          "2026": 1.939
         },
         "quantiteMensuelle": {
           "solo": 40,
@@ -15900,7 +15910,7 @@
     "sources": "INSEE - Enquête Emploi, DARES"
   },
   "previsions_cftc": {
-    "generated_at": "2026-03-17T09:09:39.759016",
+    "generated_at": "2026-03-17T09:29:20.826915",
     "model_version": "CFTC v4.0 (Monte Carlo)",
     "n_simulations": 1000,
     "horizon": "12 mois",
