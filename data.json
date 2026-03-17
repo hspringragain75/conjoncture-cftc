@@ -1,6 +1,6 @@
 {
-  "last_updated": "17/03/2026 09:33",
-  "last_updated_iso": "2026-03-17T09:33:29.150788",
+  "last_updated": "17/03/2026 09:43",
+  "last_updated_iso": "2026-03-17T09:43:24.463319",
   "contact": "hspringragain@cftc.fr",
   "alertes": [
     {
@@ -32,22 +32,11 @@
       "date": "2026-03-17",
       "type": "info",
       "titre": "🔄 Données actualisées",
-      "message": "Le tableau de bord a été mis à jour le 17/03/2026 à 09:33.",
+      "message": "Le tableau de bord a été mis à jour le 17/03/2026 à 09:43.",
       "onglet": "conjoncture"
     }
   ],
   "changelog": [
-    {
-      "version": "2.1.5",
-      "date": "2026-03-17",
-      "modifications": [
-        {
-          "type": "Features",
-          "titre": "Cartographie des inégalités territoriales",
-          "description": "Création d'un sous-onglet dans la partie territoires"
-        }
-      ]
-    },
     {
       "version": "2.1.4",
       "date": "2026-03-10",
@@ -145,6 +134,19 @@
       ]
     }
   ],
+  "revue_presse": {
+    "derniere_maj": "17/03/2026 09:43",
+    "nb_sources": 5,
+    "sources_noms": [
+      "INSEE",
+      "DARES",
+      "Banque de France",
+      "Ministère du Travail",
+      "Eurostat"
+    ],
+    "a_la_une": [],
+    "tous": []
+  },
   "sources": [
     "INSEE - Indice des prix à la consommation",
     "INSEE - Enquête Emploi",
@@ -631,51 +633,51 @@
   "types_contrats": [
     {
       "trimestre": "T1 2023",
-      "cdi": 74.5,
-      "cdd": 8.8,
-      "interim": 2.2
+      "cdi": 83.2,
+      "cdd": 5.4,
+      "interim": 1.4
     },
     {
       "trimestre": "T2 2023",
-      "cdi": 74.3,
-      "cdd": 9.0,
-      "interim": 2.1
+      "cdi": 83.2,
+      "cdd": 5.4,
+      "interim": 1.4
     },
     {
       "trimestre": "T3 2023",
-      "cdi": 74.4,
-      "cdd": 8.9,
-      "interim": 2.0
+      "cdi": 83.4,
+      "cdd": 5.3,
+      "interim": 1.3
     },
     {
       "trimestre": "T4 2023",
-      "cdi": 74.6,
-      "cdd": 8.7,
-      "interim": 2.0
+      "cdi": 83.4,
+      "cdd": 5.3,
+      "interim": 1.3
     },
     {
       "trimestre": "T1 2024",
-      "cdi": 74.8,
-      "cdd": 8.5,
-      "interim": 1.9
+      "cdi": 83.4,
+      "cdd": 5.3,
+      "interim": 1.3
     },
     {
       "trimestre": "T2 2024",
-      "cdi": 74.7,
-      "cdd": 8.6,
-      "interim": 1.9
+      "cdi": 83.4,
+      "cdd": 5.3,
+      "interim": 1.3
     },
     {
       "trimestre": "T3 2024",
-      "cdi": 74.9,
-      "cdd": 8.4,
-      "interim": 1.8
+      "cdi": 83.4,
+      "cdd": 5.3,
+      "interim": 1.3
     },
     {
       "trimestre": "T4 2024",
-      "cdi": 75.0,
-      "cdd": 8.3,
-      "interim": 1.8
+      "cdi": 83.5,
+      "cdd": 5.2,
+      "interim": 1.3
     },
     {
       "trimestre": "T1 2025",
@@ -3424,7 +3426,7 @@
       "note_lecture": "Le TEC-10 mesure le rendement des emprunts d'Etat francais a 10 ans. Un taux eleve rencherit le cout de la dette publique et impacte les taux de credit immobilier."
     },
     "petrole_brent": {
-      "valeur": 103.64,
+      "valeur": 102.96,
       "date": "2026-03-17",
       "unite": "USD/baril",
       "source": "Yahoo Finance",
@@ -4944,29 +4946,29 @@
         },
         {
           "date": "2026-03-17",
-          "valeur": 103.64,
-          "ma50": 73.16,
-          "ma200": 67.87
+          "valeur": 102.96,
+          "ma50": 73.15,
+          "ma200": 67.86
         }
       ],
       "variations": {
-        "jour": 3.42,
-        "semaine": 18.04,
-        "mois": 53.5,
-        "ytd": 70.6
+        "jour": 2.74,
+        "semaine": 17.27,
+        "mois": 52.49,
+        "ytd": 69.48
       },
       "min_max": {
         "min": 58.92,
         "min_date": "2025-12-16",
-        "max": 103.64,
-        "max_date": "2026-03-17"
+        "max": 103.14,
+        "max_date": "2026-03-13"
       },
       "note_lecture": "Le prix du Brent influence directement les couts de transport et d'energie, donc l'inflation et le pouvoir d'achat des salaries."
     },
     "cac40": {
-      "valeur": 7957.7,
+      "valeur": 7976.05,
       "date": "2026-03-17",
-      "variation_jour_pct": 0.27,
+      "variation_jour_pct": 0.51,
       "unite": "points",
       "source": "Yahoo Finance",
       "nb_points": 256,
@@ -6503,16 +6505,16 @@
         },
         {
           "date": "2026-03-17",
-          "valeur": 7957.7,
-          "ma50": 8231.84,
-          "ma200": 7994.44
+          "valeur": 7976.05,
+          "ma50": 8232.21,
+          "ma200": 7994.53
         }
       ],
       "variations": {
-        "jour": 0.27,
-        "semaine": -1.24,
-        "mois": -4.26,
-        "ytd": -2.9
+        "jour": 0.51,
+        "semaine": -1.01,
+        "mois": -4.04,
+        "ytd": -2.67
       },
       "min_max": {
         "min": 6863.02,
@@ -8093,7 +8095,7 @@
       "note_lecture": "Le taux de change euro-dollar determine le prix de tout ce qui est importe en dollars : petrole, matieres premieres, electronique. Un euro faible rencherit les importations et alimente l'inflation."
     },
     "or": {
-      "valeur": 5021.9,
+      "valeur": 5020.2,
       "date": "2026-03-17",
       "unite": "USD/oz",
       "source": "Yahoo Finance",
@@ -9613,16 +9615,16 @@
         },
         {
           "date": "2026-03-17",
-          "valeur": 5021.9,
-          "ma50": 4938.37,
-          "ma200": 4043.47
+          "valeur": 5020.2,
+          "ma50": 4938.34,
+          "ma200": 4043.46
         }
       ],
       "variations": {
-        "jour": 0.56,
-        "semaine": -3.97,
-        "mois": 1.99,
-        "ytd": 16.4
+        "jour": 0.52,
+        "semaine": -4.01,
+        "mois": 1.96,
+        "ytd": 16.36
       },
       "min_max": {
         "min": 2951.3,
@@ -9633,7 +9635,7 @@
       "note_lecture": "L'or est la valeur refuge par excellence. Sa hausse traduit une montee de l'incertitude economique ou geopolitique. Il sert aussi de protection contre l'inflation."
     },
     "gaz_naturel": {
-      "valeur": 52.35,
+      "valeur": 52.0,
       "date": "2026-03-17",
       "unite": "EUR/MWh",
       "source": "Yahoo Finance (TTF)",
@@ -11153,16 +11155,16 @@
         },
         {
           "date": "2026-03-17",
-          "valeur": 52.35,
-          "ma50": 37.61,
+          "valeur": 52.0,
+          "ma50": 37.6,
           "ma200": 33.56
         }
       ],
       "variations": {
-        "jour": 2.87,
-        "semaine": 10.47,
-        "mois": 58.68,
-        "ytd": 80.52
+        "jour": 2.18,
+        "semaine": 9.73,
+        "mois": 57.62,
+        "ytd": 79.31
       },
       "min_max": {
         "min": 26.6,
@@ -11173,7 +11175,7 @@
       "note_lecture": "Le prix du gaz naturel (TTF europeen) impacte directement les factures de chauffage et d'electricite des menages, ainsi que les couts de production industrielle."
     },
     "ble": {
-      "valeur": 600.5,
+      "valeur": 597.25,
       "date": "2026-03-17",
       "unite": "cents/boisseau",
       "source": "Yahoo Finance",
@@ -12687,16 +12689,16 @@
         },
         {
           "date": "2026-03-17",
-          "valeur": 600.5,
-          "ma50": 547.55,
-          "ma200": 530.14
+          "valeur": 597.25,
+          "ma50": 547.49,
+          "ma200": 530.12
         }
       ],
       "variations": {
-        "jour": 0.54,
-        "semaine": 2.69,
-        "mois": 8.69,
-        "ytd": 18.56
+        "jour": 0.0,
+        "semaine": 2.14,
+        "mois": 8.1,
+        "ytd": 17.92
       },
       "min_max": {
         "min": 495.0,
@@ -15910,7 +15912,7 @@
     "sources": "INSEE - Enquête Emploi, DARES"
   },
   "previsions_cftc": {
-    "generated_at": "2026-03-17T09:33:29.275818",
+    "generated_at": "2026-03-17T09:43:24.571248",
     "model_version": "CFTC v4.0 (Monte Carlo)",
     "n_simulations": 1000,
     "horizon": "12 mois",
