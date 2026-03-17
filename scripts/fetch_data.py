@@ -2264,9 +2264,14 @@ def build_changelog():
     
     changelog = [
         {
-            "version": "2.1.4",
-            "date": "2026-03-10",
+            "version": "2.2.1",
+            "date": "2026-03-17",
             "modifications": [
+                {
+                    "type": "breaking",
+                    "titre": "Outil de suivi de presse économique",
+                    "description": "Intégration d'un bouton presse avec une remonté des derniers articles de presse liés à l'économie"
+                },                
                 {
                     "type": "Features",
                     "titre": "Données Outre-Mer onglet territoires",
