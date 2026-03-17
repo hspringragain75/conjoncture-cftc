@@ -1,6 +1,6 @@
 {
-  "last_updated": "17/03/2026 13:12",
-  "last_updated_iso": "2026-03-17T13:12:50.441998",
+  "last_updated": "17/03/2026 13:20",
+  "last_updated_iso": "2026-03-17T13:20:18.211227",
   "contact": "hspringragain@cftc.fr",
   "alertes": [
     {
@@ -32,15 +32,20 @@
       "date": "2026-03-17",
       "type": "info",
       "titre": "🔄 Données actualisées",
-      "message": "Le tableau de bord a été mis à jour le 17/03/2026 à 13:12.",
+      "message": "Le tableau de bord a été mis à jour le 17/03/2026 à 13:19.",
       "onglet": "conjoncture"
     }
   ],
   "changelog": [
     {
-      "version": "2.1.4",
-      "date": "2026-03-10",
+      "version": "2.2.1",
+      "date": "2026-03-17",
       "modifications": [
+        {
+          "type": "breaking",
+          "titre": "Outil de suivi de presse économique",
+          "description": "Intégration d'un bouton presse avec une remonté des derniers articles de presse liés à l'économie"
+        },
         {
           "type": "Features",
           "titre": "Données Outre-Mer onglet territoires",
@@ -135,7 +140,7 @@
     }
   ],
   "revue_presse": {
-    "derniere_maj": "17/03/2026 13:12",
+    "derniere_maj": "17/03/2026 13:20",
     "nb_sources": 7,
     "sources_noms": [
       "Le Monde Éco",
@@ -153,10 +158,46 @@
         "couleur": "#92400e",
         "emoji": "📊",
         "tag": "Presse économique",
+        "titre": "«Hors de question de payer plus cher» : la flambée du kérosène fait bondir les billets d’avion et exaspère les voyageurs",
+        "resume": "TÉMOIGNAGES - Destinations modifiées, réservations repoussées ou séjours finalement abandonnés... Face à la hausse rapide des tarifs aériens liée à l’envolée du prix du pétrole, de nombreux touristes commencent à revoir leurs projets de vacances.",
+        "lien": "https://www.lefigaro.fr/conjoncture/hors-de-question-de-payer-plus-cher-la-flambee-du-kerosene-fait-bondir-les-billets-d-avion-et-exaspere-les-voyageurs-20260317",
+        "date_iso": "2026-03-17T14:02:39+01:00",
+        "date_fr": "17/03/2026",
+        "pertinence": 0
+      },
+      {
+        "source": "Le Figaro Éco",
+        "couleur": "#92400e",
+        "emoji": "📊",
+        "tag": "Presse économique",
         "titre": "Arnaque au faux livreur : attention, les escrocs envoient désormais des photos générées par IA de votre prétendu colis",
         "resume": "Les SMS invitant à payer pour reprogrammer une livraison deviennent de plus en plus piégeux. Ces fausses images comprennent votre nom et votre véritable adresse postale.",
         "lien": "https://www.lefigaro.fr/secteur/high-tech/arnaque-au-faux-livreur-attention-les-escrocs-envoient-desormais-des-photos-generees-par-ia-de-votre-pretendu-colis-20260317",
         "date_iso": "2026-03-17T13:40:29+01:00",
+        "date_fr": "17/03/2026",
+        "pertinence": 0
+      },
+      {
+        "source": "Libération Éco",
+        "couleur": "#dc2626",
+        "emoji": "📰",
+        "tag": "Presse économique",
+        "titre": "Guerre au Moyen-Orient : les attaques d’infrastructures stratégiques dans le Golfe font rebondir les cours du pétrole",
+        "resume": "Au lendemain d’une timide baisse, les prix des barils de Brent et de WTI sont remontés en flèche sur les marchés mondiaux, en réaction au ciblage de hubs pétroliers par des drones et des missiles tirés par l’Iran.",
+        "lien": "https://www.liberation.fr/economie/guerre-au-moyen-orient-les-attaques-dinfrastructures-strategiques-dans-le-golfe-font-rebondir-les-cours-du-petrole-20260317_N7PLEKKNVNFINIU24FOR74PUII/",
+        "date_iso": "2026-03-17T13:19:15+00:00",
+        "date_fr": "17/03/2026",
+        "pertinence": 0
+      },
+      {
+        "source": "Euractiv FR",
+        "couleur": "#0369a1",
+        "emoji": "🇪🇺",
+        "tag": "Europe & politique",
+        "titre": "Le paquet phare sur la souveraineté technologique de l’UE une nouvelle fois reporté",
+        "resume": "La Commission présentera désormais les mesures relatives aux infrastructures numériques, dont le projet CAIDA, à la fin du mois de mai, selon l'agenda du collège The post Le paquet phare sur la souveraineté technologique de l’UE une nouvelle fois reporté appeared first on Euractiv FR .",
+        "lien": "https://euractiv.fr/news/le-paquet-phare-sur-la-souverainete-technologique-de-lue-une-nouvelle-fois-reporte/",
+        "date_iso": "2026-03-17T13:13:02+00:00",
         "date_fr": "17/03/2026",
         "pertinence": 0
       },
@@ -173,14 +214,14 @@
         "pertinence": 0
       },
       {
-        "source": "Le Figaro Éco",
-        "couleur": "#92400e",
-        "emoji": "📊",
+        "source": "Le Monde Éco",
+        "couleur": "#374151",
+        "emoji": "🌐",
         "tag": "Presse économique",
-        "titre": "Avancée ou catastrophe ? Nvidia annonce le DLSS 5, une nouvelle technologie d’IA qui veut révolutionner le jeu vidéo",
-        "resume": "Le géant de l’IA a illustré son tour de force avec de nombreux visuels impressionnants. Tous les joueurs ne sont toutefois pas convaincus, certains craignant une uniformisation à venir du jeu vidéo.",
-        "lien": "https://www.lefigaro.fr/secteur/high-tech/avancee-ou-catastrophe-nvidia-annonce-le-dlss-5-une-nouvelle-technologie-d-ia-qui-veut-revolutionner-le-jeu-video-20260317",
-        "date_iso": "2026-03-17T12:45:39+01:00",
+        "titre": "Municipales 2026 : suivez en temps réel les alliances et désistements avant le second tour",
+        "resume": "Les candidats ont jusqu’à mardi soir pour déposer leur liste de second tour à la préfecture. Entre-temps, les tractions battent leur plein en vue d’éventuelles alliances.",
+        "lien": "https://www.lemonde.fr/les-decodeurs/article/2026/03/17/municipales-2026-suivez-en-temps-reel-les-alliances-et-desistements-avant-le-second-tour_6671707_4355770.html",
+        "date_iso": "2026-03-17T12:51:43+01:00",
         "date_fr": "17/03/2026",
         "pertinence": 0
       },
@@ -470,42 +511,6 @@
         "lien": "https://www.lemonde.fr/economie/article/2026/03/17/face-a-la-flambee-des-prix-de-l-energie-le-desarroi-et-les-desaccords-des-europeens_6671586_3234.html",
         "date_iso": "2026-03-17T05:00:15+01:00",
         "date_fr": "17/03/2026",
-        "pertinence": 0
-      },
-      {
-        "source": "Le Monde Éco",
-        "couleur": "#374151",
-        "emoji": "🌐",
-        "tag": "Presse économique",
-        "titre": "« Je suis honteuse d’avoir tout cet argent non mérité » : à l’heure de la transmission du patrimoine des baby-boomeurs, le malaise des jeunes héritiers",
-        "resume": "Recevoir une grosse somme d’argent quand on est jeune n’a rien d’anodin. Les donations et héritages précoces suscitent aussi malaise, culpabilité et silence chez ceux qui en bénéficient et tendent à creuser les inégalités.",
-        "lien": "https://www.lemonde.fr/campus/article/2026/03/17/je-suis-honteuse-d-avoir-tout-cet-argent-non-merite-a-l-heure-de-la-transmission-du-patrimoine-des-baby-boomeurs-le-malaise-des-jeunes-heritiers_6671583_4401467.html",
-        "date_iso": "2026-03-17T05:00:03+01:00",
-        "date_fr": "17/03/2026",
-        "pertinence": 1
-      },
-      {
-        "source": "Le Figaro Éco",
-        "couleur": "#92400e",
-        "emoji": "📊",
-        "tag": "Presse économique",
-        "titre": "Haute-Savoie: sept gardes à vue après un rapt en janvier lié aux cryptomonnaies",
-        "resume": "Le couple de septuagénaires avait été kidnappé à son domicile à Sallanches dans la nuit du 14 au 15 janvier, selon le Pnaco.",
-        "lien": "https://www.lefigaro.fr/faits-divers/haute-savoie-sept-gardes-a-vue-apres-un-rapt-en-janvier-lie-aux-cryptomonnaies-20260316",
-        "date_iso": "2026-03-16T21:56:34+01:00",
-        "date_fr": "16/03/2026",
-        "pertinence": 0
-      },
-      {
-        "source": "Le Figaro Éco",
-        "couleur": "#92400e",
-        "emoji": "📊",
-        "tag": "Presse économique",
-        "titre": "Émirats arabes unis : une frappe de drone met le feu à un important champ pétrolier",
-        "resume": "L’attaque a touché le champ pétrolier de Shah, situé à 230 kilomètres au sud d’Abou Dhabi, selon les autorités de l’émirat, qui n’ont pas fait état de blessés.",
-        "lien": "https://www.lefigaro.fr/conjoncture/emirats-arabes-unis-une-frappe-de-drone-met-le-feu-a-un-important-champ-petrolier-20260316",
-        "date_iso": "2026-03-16T21:31:17+01:00",
-        "date_fr": "16/03/2026",
         "pertinence": 0
       }
     ]
@@ -1655,18 +1660,13 @@
     },
     "sp98": {
       "prix": 1.82,
-      "variation_an": -4.5
+      "variation_an": -5.0
     },
     "evolution": [
       {
-        "mois": "Jan 2023",
-        "gazole": 1.85,
-        "sp95": 1.82
-      },
-      {
         "mois": "Avr 2023",
-        "gazole": 1.78,
-        "sp95": 1.88
+        "gazole": 1.81,
+        "sp95": 1.95
       },
       {
         "mois": "Juil 2023",
@@ -1675,56 +1675,51 @@
       },
       {
         "mois": "Oct 2023",
-        "gazole": 1.88,
-        "sp95": 1.92
+        "gazole": 1.91,
+        "sp95": 1.89
       },
       {
         "mois": "Jan 2024",
-        "gazole": 1.72,
-        "sp95": 1.78
-      },
-      {
-        "mois": "Avr 2024",
         "gazole": 1.75,
         "sp95": 1.82
       },
       {
+        "mois": "Avr 2024",
+        "gazole": 1.79,
+        "sp95": 1.94
+      },
+      {
         "mois": "Juil 2024",
-        "gazole": 1.68,
-        "sp95": 1.75
+        "gazole": 1.73,
+        "sp95": 1.86
       },
       {
         "mois": "Oct 2024",
-        "gazole": 1.62,
-        "sp95": 1.72
+        "gazole": 1.63,
+        "sp95": 1.76
       },
       {
         "mois": "Jan 2025",
-        "gazole": 1.65,
-        "sp95": 1.78
+        "gazole": 1.71,
+        "sp95": 1.81
       },
       {
         "mois": "Avr 2025",
-        "gazole": 1.6,
-        "sp95": 1.74
+        "gazole": 1.59,
+        "sp95": 1.73
       },
       {
         "mois": "Juil 2025",
-        "gazole": 1.58,
-        "sp95": 1.7
+        "gazole": 1.65,
+        "sp95": 1.72
       },
       {
         "mois": "Oct 2025",
-        "gazole": 1.58,
+        "gazole": 1.61,
         "sp95": 1.72
       },
       {
         "mois": "Jan 2026",
-        "gazole": 1.62,
-        "sp95": 1.71
-      },
-      {
-        "mois": "Mar 2026",
         "gazole": 1.65,
         "sp95": 1.72
       }
@@ -3789,7 +3784,7 @@
       "note_lecture": "Le TEC-10 mesure le rendement des emprunts d'Etat francais a 10 ans. Un taux eleve rencherit le cout de la dette publique et impacte les taux de credit immobilier."
     },
     "petrole_brent": {
-      "valeur": 102.19,
+      "valeur": 101.97,
       "date": "2026-03-17",
       "unite": "USD/baril",
       "source": "Yahoo Finance",
@@ -5309,16 +5304,16 @@
         },
         {
           "date": "2026-03-17",
-          "valeur": 102.19,
+          "valeur": 101.97,
           "ma50": 73.13,
           "ma200": 67.86
         }
       ],
       "variations": {
-        "jour": 1.98,
-        "semaine": 16.39,
-        "mois": 51.35,
-        "ytd": 68.21
+        "jour": 1.76,
+        "semaine": 16.14,
+        "mois": 51.02,
+        "ytd": 67.85
       },
       "min_max": {
         "min": 58.92,
@@ -5329,9 +5324,9 @@
       "note_lecture": "Le prix du Brent influence directement les couts de transport et d'energie, donc l'inflation et le pouvoir d'achat des salaries."
     },
     "cac40": {
-      "valeur": 7991.69,
+      "valeur": 8001.89,
       "date": "2026-03-17",
-      "variation_jour_pct": 0.7,
+      "variation_jour_pct": 0.83,
       "unite": "points",
       "source": "Yahoo Finance",
       "nb_points": 256,
@@ -6868,16 +6863,16 @@
         },
         {
           "date": "2026-03-17",
-          "valeur": 7991.69,
-          "ma50": 8232.52,
-          "ma200": 7994.61
+          "valeur": 8001.89,
+          "ma50": 8232.72,
+          "ma200": 7994.66
         }
       ],
       "variations": {
-        "jour": 0.7,
-        "semaine": -0.82,
-        "mois": -3.85,
-        "ytd": -2.48
+        "jour": 0.83,
+        "semaine": -0.69,
+        "mois": -3.73,
+        "ytd": -2.36
       },
       "min_max": {
         "min": 6863.02,
@@ -8458,7 +8453,7 @@
       "note_lecture": "Le taux de change euro-dollar determine le prix de tout ce qui est importe en dollars : petrole, matieres premieres, electronique. Un euro faible rencherit les importations et alimente l'inflation."
     },
     "or": {
-      "valeur": 5020.4,
+      "valeur": 5019.0,
       "date": "2026-03-17",
       "unite": "USD/oz",
       "source": "Yahoo Finance",
@@ -9978,16 +9973,16 @@
         },
         {
           "date": "2026-03-17",
-          "valeur": 5020.4,
-          "ma50": 4938.34,
-          "ma200": 4043.46
+          "valeur": 5019.0,
+          "ma50": 4938.32,
+          "ma200": 4043.45
         }
       ],
       "variations": {
-        "jour": 0.53,
-        "semaine": -4.0,
-        "mois": 1.96,
-        "ytd": 16.36
+        "jour": 0.5,
+        "semaine": -4.03,
+        "mois": 1.94,
+        "ytd": 16.33
       },
       "min_max": {
         "min": 2951.3,
@@ -16275,7 +16270,7 @@
     "sources": "INSEE - Enquête Emploi, DARES"
   },
   "previsions_cftc": {
-    "generated_at": "2026-03-17T13:12:50.554382",
+    "generated_at": "2026-03-17T13:20:18.363891",
     "model_version": "CFTC v4.0 (Monte Carlo)",
     "n_simulations": 1000,
     "horizon": "12 mois",
