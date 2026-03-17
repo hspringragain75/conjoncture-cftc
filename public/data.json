@@ -1,6 +1,6 @@
 {
-  "last_updated": "17/03/2026 13:20",
-  "last_updated_iso": "2026-03-17T13:20:18.211227",
+  "last_updated": "17/03/2026 13:33",
+  "last_updated_iso": "2026-03-17T13:33:39.731144",
   "contact": "hspringragain@cftc.fr",
   "alertes": [
     {
@@ -32,7 +32,7 @@
       "date": "2026-03-17",
       "type": "info",
       "titre": "🔄 Données actualisées",
-      "message": "Le tableau de bord a été mis à jour le 17/03/2026 à 13:19.",
+      "message": "Le tableau de bord a été mis à jour le 17/03/2026 à 13:33.",
       "onglet": "conjoncture"
     }
   ],
@@ -46,6 +46,17 @@
           "titre": "Outil de suivi de presse économique",
           "description": "Intégration d'un bouton presse avec une remonté des derniers articles de presse liés à l'économie"
         },
+        {
+          "type": "Features",
+          "titre": "Carte des inégalités",
+          "description": "Une cartographie des inégalités est créée dans le sous-onglet territoires"
+        }
+      ]
+    },
+    {
+      "version": "2.1.4",
+      "date": "2026-03-10",
+      "modifications": [
         {
           "type": "Features",
           "titre": "Données Outre-Mer onglet territoires",
@@ -140,7 +151,7 @@
     }
   ],
   "revue_presse": {
-    "derniere_maj": "17/03/2026 13:20",
+    "derniere_maj": "17/03/2026 13:33",
     "nb_sources": 7,
     "sources_noms": [
       "Le Monde Éco",
@@ -153,6 +164,18 @@
     ],
     "a_la_une": [],
     "tous": [
+      {
+        "source": "Le Monde Éco",
+        "couleur": "#374151",
+        "emoji": "🌐",
+        "tag": "Presse économique",
+        "titre": "DS Automobiles lance la Nᵒ 7, sa nouvelle voiture haut de gamme pour redresser les ventes",
+        "resume": "Dévoilé mardi 17 mars, ce SUV compact haut de gamme de la marque du groupe Stellantis va remplacer la DS7, alors que les ventes de DS Automobiles ont chuté en 2025.",
+        "lien": "https://www.lemonde.fr/economie/article/2026/03/17/ds-automobiles-lance-la-n-7-sa-nouvelle-voiture-haut-de-gamme-pour-redresser-les-ventes_6671720_3234.html",
+        "date_iso": "2026-03-17T14:30:47+01:00",
+        "date_fr": "17/03/2026",
+        "pertinence": 0
+      },
       {
         "source": "Le Figaro Éco",
         "couleur": "#92400e",
@@ -176,6 +199,18 @@
         "date_iso": "2026-03-17T13:40:29+01:00",
         "date_fr": "17/03/2026",
         "pertinence": 0
+      },
+      {
+        "source": "Euractiv FR",
+        "couleur": "#0369a1",
+        "emoji": "🇪🇺",
+        "tag": "Europe & politique",
+        "titre": "Mode de vote assoupli pour les députées européennes enceintes : Metsola salue une « fissure dans le plafond de verre »",
+        "resume": "Approuvé par l'UE, cet accord doit encore être ratifié par les parlements nationaux avant d'entrer en vigueur The post Mode de vote assoupli pour les députées européennes enceintes : Metsola salue une « fissure dans le plafond de verre » appeared first on Euractiv FR .",
+        "lien": "https://euractiv.fr/news/mode-de-vote-assoupli-pour-les-deputees-europeennes-enceintes-metsola-salue-une-fissure-dans-le-plafond-de-verre/",
+        "date_iso": "2026-03-17T13:27:40+00:00",
+        "date_fr": "17/03/2026",
+        "pertinence": 1
       },
       {
         "source": "Libération Éco",
@@ -488,30 +523,6 @@
         "date_iso": "2026-03-17T07:18:14+00:00",
         "date_fr": "17/03/2026",
         "pertinence": 0
-      },
-      {
-        "source": "Euractiv FR",
-        "couleur": "#0369a1",
-        "emoji": "🇪🇺",
-        "tag": "Europe & politique",
-        "titre": "Naviguer dans le détroit de Budapest",
-        "resume": "Également dans l'édition de mardi : Merz contre Weber, le podcast de Sánchez, Kubilius, un préservatif géant The post Naviguer dans le détroit de Budapest appeared first on Euractiv FR .",
-        "lien": "https://euractiv.fr/news/naviguer-dans-le-detroit-de-budapest/",
-        "date_iso": "2026-03-17T07:08:26+00:00",
-        "date_fr": "17/03/2026",
-        "pertinence": 0
-      },
-      {
-        "source": "Le Monde Éco",
-        "couleur": "#374151",
-        "emoji": "🌐",
-        "tag": "Presse économique",
-        "titre": "Les prix du pétrole et du gaz continuent d’augmenter, les pays européens divisés sur la réponse à apporter",
-        "resume": "Le sujet sera à l’ordre du jour de la réunion des chefs d’Etat et de gouvernement, le 19 mars. Plusieurs pays poussent à revenir – au moins partiellement – sur les principes actuels de la politique énergétique des Vingt-Sept : pas de recours au pétrole russe et objectif de neutralité carbone en 2050",
-        "lien": "https://www.lemonde.fr/economie/article/2026/03/17/face-a-la-flambee-des-prix-de-l-energie-le-desarroi-et-les-desaccords-des-europeens_6671586_3234.html",
-        "date_iso": "2026-03-17T05:00:15+01:00",
-        "date_fr": "17/03/2026",
-        "pertinence": 0
       }
     ]
   },
@@ -762,14 +773,14 @@
     "smic_net": 1443.11,
     "salaire_median": 2190,
     "salaire_moyen": 2733,
-    "ecart_hf_eqtp": 14.0,
+    "ecart_hf_eqtp": 25.8,
     "difficultes_recrutement": 61,
     "irl_glissement": 0.79,
     "prix_gazole": 1.65,
     "taux_effort_locataires": 29.6,
     "croissance_pib": 0.7,
     "climat_affaires": 97,
-    "defaillances_12m": 68564
+    "defaillances_12m": 68227
   },
   "salaire_median": {
     "montant_2024": 2190,
@@ -802,36 +813,36 @@
   },
   "ecart_hommes_femmes": {
     "ecart_global": 21.8,
-    "ecart_eqtp": 14.0,
+    "ecart_eqtp": 25.8,
     "ecart_poste_comparable": 4.0,
     "evolution": [
       {
-        "annee": "2015",
-        "ecart": 18.4
-      },
-      {
-        "annee": "2017",
-        "ecart": 16.6
+        "annee": "2018",
+        "ecart": 23.2
       },
       {
         "annee": "2019",
-        "ecart": 16.1
+        "ecart": 23.8
+      },
+      {
+        "annee": "2020",
+        "ecart": 24.5
       },
       {
         "annee": "2021",
-        "ecart": 15.5
+        "ecart": 24.3
       },
       {
         "annee": "2022",
-        "ecart": 14.9
+        "ecart": 25.1
       },
       {
         "annee": "2023",
-        "ecart": 14.2
+        "ecart": 25.6
       },
       {
         "annee": "2024",
-        "ecart": 14.0
+        "ecart": 25.8
       }
     ]
   },
@@ -932,7 +943,7 @@
     },
     {
       "trimestre": "T2 2023",
-      "taux": 5.1
+      "taux": 4.9
     },
     {
       "trimestre": "T3 2023",
@@ -944,19 +955,19 @@
     },
     {
       "trimestre": "T1 2024",
-      "taux": 5.0
+      "taux": 4.8
     },
     {
       "trimestre": "T2 2024",
-      "taux": 5.1
+      "taux": 4.9
     },
     {
       "trimestre": "T3 2024",
-      "taux": 5.2
+      "taux": 4.5
     },
     {
       "trimestre": "T4 2024",
-      "taux": 5.2
+      "taux": 4.6
     },
     {
       "trimestre": "T1 2025",
@@ -1001,51 +1012,51 @@
   "types_contrats": [
     {
       "trimestre": "T1 2023",
-      "cdi": 83.2,
-      "cdd": 5.4,
-      "interim": 1.4
+      "cdi": 74.5,
+      "cdd": 8.8,
+      "interim": 2.2
     },
     {
       "trimestre": "T2 2023",
-      "cdi": 83.2,
-      "cdd": 5.4,
-      "interim": 1.4
+      "cdi": 74.3,
+      "cdd": 9.0,
+      "interim": 2.1
     },
     {
       "trimestre": "T3 2023",
-      "cdi": 83.4,
-      "cdd": 5.3,
-      "interim": 1.3
+      "cdi": 74.4,
+      "cdd": 8.9,
+      "interim": 2.0
     },
     {
       "trimestre": "T4 2023",
-      "cdi": 83.4,
-      "cdd": 5.3,
-      "interim": 1.3
+      "cdi": 74.6,
+      "cdd": 8.7,
+      "interim": 2.0
     },
     {
       "trimestre": "T1 2024",
-      "cdi": 83.4,
-      "cdd": 5.3,
-      "interim": 1.3
+      "cdi": 74.8,
+      "cdd": 8.5,
+      "interim": 1.9
     },
     {
       "trimestre": "T2 2024",
-      "cdi": 83.4,
-      "cdd": 5.3,
-      "interim": 1.3
+      "cdi": 74.7,
+      "cdd": 8.6,
+      "interim": 1.9
     },
     {
       "trimestre": "T3 2024",
-      "cdi": 83.4,
-      "cdd": 5.3,
-      "interim": 1.3
+      "cdi": 74.9,
+      "cdd": 8.4,
+      "interim": 1.8
     },
     {
       "trimestre": "T4 2024",
-      "cdi": 83.5,
-      "cdd": 5.2,
-      "interim": 1.3
+      "cdi": 75.0,
+      "cdd": 8.3,
+      "interim": 1.8
     },
     {
       "trimestre": "T1 2025",
@@ -1978,62 +1989,58 @@
     ]
   },
   "defaillances": {
-    "cumul_12_mois": 68564,
-    "variation_an": 3.4,
-    "mois": "Déc 2025",
+    "cumul_12_mois": 68227,
+    "variation_an": 0.8,
+    "mois": "Sep 2025",
     "moyenne_2010_2019": 58000,
     "evolution": [
       {
         "mois": "Jan 2023",
-        "cumul": 42962
+        "cumul": 42000
       },
       {
         "mois": "Avr 2023",
-        "cumul": 46804
+        "cumul": 47000
       },
       {
         "mois": "Juil 2023",
-        "cumul": 50360
+        "cumul": 51000
       },
       {
         "mois": "Oct 2023",
-        "cumul": 53384
+        "cumul": 55000
       },
       {
         "mois": "Jan 2024",
-        "cumul": 57340
+        "cumul": 57500
       },
       {
         "mois": "Avr 2024",
-        "cumul": 60506
+        "cumul": 60000
       },
       {
         "mois": "Juil 2024",
-        "cumul": 63648
+        "cumul": 63500
       },
       {
         "mois": "Oct 2024",
-        "cumul": 65217
+        "cumul": 66000
       },
       {
         "mois": "Jan 2025",
-        "cumul": 66296
+        "cumul": 66500
       },
       {
         "mois": "Avr 2025",
-        "cumul": 67282
+        "cumul": 67000
       },
       {
         "mois": "Juil 2025",
-        "cumul": 67702
+        "cumul": 67600
       },
       {
-        "mois": "Oct 2025",
-        "cumul": 68296
-      },
-      {
-        "mois": "Déc 2025",
-        "cumul": 68564
+        "mois": "Sep 2025",
+        "cumul": 68227
       }
     ],
     "par_secteur": [
@@ -3784,7 +3791,7 @@
       "note_lecture": "Le TEC-10 mesure le rendement des emprunts d'Etat francais a 10 ans. Un taux eleve rencherit le cout de la dette publique et impacte les taux de credit immobilier."
     },
     "petrole_brent": {
-      "valeur": 101.97,
+      "valeur": 102.13,
       "date": "2026-03-17",
       "unite": "USD/baril",
       "source": "Yahoo Finance",
@@ -5304,16 +5311,16 @@
         },
         {
           "date": "2026-03-17",
-          "valeur": 101.97,
+          "valeur": 102.13,
           "ma50": 73.13,
           "ma200": 67.86
         }
       ],
       "variations": {
-        "jour": 1.76,
-        "semaine": 16.14,
-        "mois": 51.02,
-        "ytd": 67.85
+        "jour": 1.92,
+        "semaine": 16.32,
+        "mois": 51.26,
+        "ytd": 68.12
       },
       "min_max": {
         "min": 58.92,
@@ -5324,9 +5331,9 @@
       "note_lecture": "Le prix du Brent influence directement les couts de transport et d'energie, donc l'inflation et le pouvoir d'achat des salaries."
     },
     "cac40": {
-      "valeur": 8001.89,
+      "valeur": 8015.79,
       "date": "2026-03-17",
-      "variation_jour_pct": 0.83,
+      "variation_jour_pct": 1.01,
       "unite": "points",
       "source": "Yahoo Finance",
       "nb_points": 256,
@@ -6863,16 +6870,16 @@
         },
         {
           "date": "2026-03-17",
-          "valeur": 8001.89,
-          "ma50": 8232.72,
-          "ma200": 7994.66
+          "valeur": 8015.79,
+          "ma50": 8233.0,
+          "ma200": 7994.73
         }
       ],
       "variations": {
-        "jour": 0.83,
-        "semaine": -0.69,
-        "mois": -3.73,
-        "ytd": -2.36
+        "jour": 1.01,
+        "semaine": -0.52,
+        "mois": -3.56,
+        "ytd": -2.19
       },
       "min_max": {
         "min": 6863.02,
@@ -8453,7 +8460,7 @@
       "note_lecture": "Le taux de change euro-dollar determine le prix de tout ce qui est importe en dollars : petrole, matieres premieres, electronique. Un euro faible rencherit les importations et alimente l'inflation."
     },
     "or": {
-      "valeur": 5019.0,
+      "valeur": 5018.4,
       "date": "2026-03-17",
       "unite": "USD/oz",
       "source": "Yahoo Finance",
@@ -9973,16 +9980,16 @@
         },
         {
           "date": "2026-03-17",
-          "valeur": 5019.0,
-          "ma50": 4938.32,
+          "valeur": 5018.4,
+          "ma50": 4938.3,
           "ma200": 4043.45
         }
       ],
       "variations": {
-        "jour": 0.5,
-        "semaine": -4.03,
-        "mois": 1.94,
-        "ytd": 16.33
+        "jour": 0.49,
+        "semaine": -4.04,
+        "mois": 1.92,
+        "ytd": 16.32
       },
       "min_max": {
         "min": 2951.3,
@@ -9993,7 +10000,7 @@
       "note_lecture": "L'or est la valeur refuge par excellence. Sa hausse traduit une montee de l'incertitude economique ou geopolitique. Il sert aussi de protection contre l'inflation."
     },
     "gaz_naturel": {
-      "valeur": 51.9,
+      "valeur": 51.7,
       "date": "2026-03-17",
       "unite": "EUR/MWh",
       "source": "Yahoo Finance (TTF)",
@@ -11513,16 +11520,16 @@
         },
         {
           "date": "2026-03-17",
-          "valeur": 51.9,
+          "valeur": 51.7,
           "ma50": 37.6,
           "ma200": 33.56
         }
       ],
       "variations": {
-        "jour": 1.98,
-        "semaine": 9.52,
-        "mois": 57.32,
-        "ytd": 78.97
+        "jour": 1.59,
+        "semaine": 9.09,
+        "mois": 56.71,
+        "ytd": 78.28
       },
       "min_max": {
         "min": 26.6,
@@ -16270,7 +16277,7 @@
     "sources": "INSEE - Enquête Emploi, DARES"
   },
   "previsions_cftc": {
-    "generated_at": "2026-03-17T13:20:18.363891",
+    "generated_at": "2026-03-17T13:33:39.831085",
     "model_version": "CFTC v4.0 (Monte Carlo)",
     "n_simulations": 1000,
     "horizon": "12 mois",
