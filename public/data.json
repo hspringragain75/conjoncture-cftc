@@ -1,6 +1,6 @@
 {
-  "last_updated": "17/03/2026 12:31",
-  "last_updated_iso": "2026-03-17T12:31:22.779191",
+  "last_updated": "17/03/2026 12:40",
+  "last_updated_iso": "2026-03-17T12:40:27.485434",
   "contact": "hspringragain@cftc.fr",
   "alertes": [
     {
@@ -32,7 +32,7 @@
       "date": "2026-03-17",
       "type": "info",
       "titre": "🔄 Données actualisées",
-      "message": "Le tableau de bord a été mis à jour le 17/03/2026 à 12:31.",
+      "message": "Le tableau de bord a été mis à jour le 17/03/2026 à 12:40.",
       "onglet": "conjoncture"
     }
   ],
@@ -135,201 +135,381 @@
     }
   ],
   "revue_presse": {
-    "derniere_maj": "17/03/2026 12:31",
+    "derniere_maj": "17/03/2026 12:40",
     "nb_sources": 12,
     "sources_noms": [
-      "INSEE",
-      "DARES",
-      "Banque de France",
-      "Ministère du Travail",
-      "Eurostat",
-      "France Travail",
-      "UNEDIC",
-      "Cour des comptes",
-      "OFCE",
-      "Les Échos",
       "Le Monde Éco",
-      "OCDE"
+      "Le Monde Emploi",
+      "Libération Éco",
+      "Le Figaro Éco",
+      "L'Humanité Social",
+      "Terra Nova",
+      "Institut Montaigne",
+      "La Croix Social",
+      "Euractiv FR",
+      "Service-Public.fr",
+      "INSEE Données",
+      "BNP Research"
     ],
     "a_la_une": [],
     "tous": [
       {
-        "source": "Le Monde Éco",
-        "couleur": "#374151",
-        "emoji": "🌐",
+        "source": "Le Figaro Éco",
+        "couleur": "#92400e",
+        "emoji": "📊",
         "tag": "Presse économique",
-        "titre": "« Les Européens ont une version dégradée de l’IA, ce qui ne peut que retarder leur adaptation »",
-        "resume": "Face à la lame de fond économique de l’intelligence artificielle, Arnaud Leparmentier, dans sa chronique, invite l’Europe à être plus réactive et à ne pas s’enfermer dans la seule incantation de la souveraineté numérique.",
-        "lien": "https://www.lemonde.fr/idees/article/2026/03/17/les-europeens-ont-une-version-degradee-de-l-ia-ce-qui-ne-peut-que-retarder-leur-adaptation_6671709_3232.html",
-        "date_iso": "2026-03-17T13:00:06+01:00",
+        "titre": "Avancée ou catastrophe ? Nvidia annonce le DLSS 5, une nouvelle technologie d’IA qui veut révolutionner le jeu vidéo",
+        "resume": "Le géant de l’IA a illustré son tour de force avec de nombreux visuels impressionnants. Tous les joueurs ne sont toutefois pas convaincus, certains craignant une uniformisation à venir du jeu vidéo.",
+        "lien": "https://www.lefigaro.fr/secteur/high-tech/avancee-ou-catastrophe-nvidia-annonce-le-dlss-5-une-nouvelle-technologie-d-ia-qui-veut-revolutionner-le-jeu-video-20260317",
+        "date_iso": "2026-03-17T12:45:39+01:00",
         "date_fr": "17/03/2026",
         "pertinence": 0
       },
       {
-        "source": "Le Monde Éco",
-        "couleur": "#374151",
-        "emoji": "🌐",
+        "source": "Le Figaro Éco",
+        "couleur": "#92400e",
+        "emoji": "📊",
         "tag": "Presse économique",
-        "titre": "L’Ecole du ski français condamnée à 3,4 millions d’euros d’amende pour ses pratiques anticoncurrentielles",
-        "resume": "L’Autorité de la concurrence a sanctionné le syndicat qui regroupe les écoles de ski ESF, en raison de clauses qui empêchent ses moniteurs, en théorie indépendants, à travailler pour eux-mêmes ou d’autres structures.",
-        "lien": "https://www.lemonde.fr/economie/article/2026/03/17/l-ecole-du-ski-francais-condamnee-a-3-4-millions-d-euros-d-amende-pour-ses-pratiques-anticoncurrentielles_6671704_3234.html",
-        "date_iso": "2026-03-17T12:34:36+01:00",
+        "titre": "Les actionnaires individuels prennent du poids au sein du CAC 40",
+        "resume": "Ces dernières années, les Français sont revenus en Bourse et ils se montrent de plus en plus actifs dans leurs investissements.",
+        "lien": "https://www.lefigaro.fr/economie/les-actionnaires-individuels-prennent-du-poids-au-sein-du-cac-40-20260317",
+        "date_iso": "2026-03-17T12:33:20+01:00",
+        "date_fr": "17/03/2026",
+        "pertinence": 2
+      },
+      {
+        "source": "Le Figaro Éco",
+        "couleur": "#92400e",
+        "emoji": "📊",
+        "tag": "Presse économique",
+        "titre": "Arnaque au faux livreur : attention, les escrocs envoient désormais des photos générées par IA de votre prétendu colis",
+        "resume": "Les SMS invitant à payer pour reprogrammer une livraison deviennent de plus en plus piégeux. Ces fausses images comprennent votre nom et votre véritable adresse postale.",
+        "lien": "https://www.lefigaro.fr/secteur/high-tech/arnaque-au-faux-livreur-attention-les-escrocs-envoient-desormais-des-photos-generees-par-ia-de-votre-pretendu-colis-20260317",
+        "date_iso": "2026-03-17T12:24:02+01:00",
+        "date_fr": "17/03/2026",
+        "pertinence": 0
+      },
+      {
+        "source": "Le Figaro Éco",
+        "couleur": "#92400e",
+        "emoji": "📊",
+        "tag": "Presse économique",
+        "titre": "Bouches-du-Rhône : Elior rachète l'eau minérale 808, embouteillée en Provence",
+        "resume": "Le groupe français de restauration collective va acquérir l’eau minérale naturelle haut de gamme embouteillée près d’Aix-en-Provence avec pour objectif de doubler les équipes locales.",
+        "lien": "https://www.lefigaro.fr/marseille/bouches-du-rhone-elior-rachete-l-eau-minerale-808-embouteillee-en-provence-20260317",
+        "date_iso": "2026-03-17T11:47:38+01:00",
+        "date_fr": "17/03/2026",
+        "pertinence": 0
+      },
+      {
+        "source": "Le Figaro Éco",
+        "couleur": "#92400e",
+        "emoji": "📊",
+        "tag": "Presse économique",
+        "titre": "Guillaume Pley, Hugo Décrypte, Lena Situations... Spotify organise sa première soirée de récompenses de podcasts",
+        "resume": "Animée par l’humoriste et podcasteur Pablo Mira, la cérémonie organisée par Spotify se tiendra au Grand Rex, à Paris, le 8 avril, et réunira créateurs, acteurs du secteur et 400 fans «parmi les plus engagés».",
+        "lien": "https://www.lefigaro.fr/medias/guillaume-pley-hugo-decrypte-lena-situations-spotify-organise-sa-premiere-soiree-de-recompenses-de-podcasts-20260317",
+        "date_iso": "2026-03-17T11:43:56+01:00",
+        "date_fr": "17/03/2026",
+        "pertinence": 0
+      },
+      {
+        "source": "Le Figaro Éco",
+        "couleur": "#92400e",
+        "emoji": "📊",
+        "tag": "Presse économique",
+        "titre": "Les prix du pétrole bondissent de plus de 5%, poussés par le conflit au Moyen-Orient",
+        "resume": "Les prix du pétrole sont repartis en hausse mardi, toujours suspendus aux développements de la guerre menée par les États-Unis et Israël contre l’Iran.",
+        "lien": "https://www.lefigaro.fr/conjoncture/les-prix-du-petrole-bondissent-de-4-pousses-par-le-conflit-au-moyen-orient-20260317",
+        "date_iso": "2026-03-17T11:07:46+01:00",
+        "date_fr": "17/03/2026",
+        "pertinence": 0
+      },
+      {
+        "source": "Le Figaro Éco",
+        "couleur": "#92400e",
+        "emoji": "📊",
+        "tag": "Presse économique",
+        "titre": "Guerre au Moyen-Orient : quels outils reste-t-il pour freiner l’envolée des prix du pétrole ?",
+        "resume": "ENTRETIEN - Malgré les efforts déployés par les pays développés, les prix du pétrole ne baissent pas. Mais revenir au « quoi qu’il en coûte » serait un contresens prévient la professeur d’économie à Paris Dauphine, Anna Creti.",
+        "lien": "https://www.lefigaro.fr/conjoncture/guerre-au-moyen-orient-quels-outils-reste-t-il-pour-freiner-l-envolee-des-prix-du-petrole-20260317",
+        "date_iso": "2026-03-17T11:07:41+01:00",
+        "date_fr": "17/03/2026",
+        "pertinence": 0
+      },
+      {
+        "source": "Le Figaro Éco",
+        "couleur": "#92400e",
+        "emoji": "📊",
+        "tag": "Presse économique",
+        "titre": "Guerre au Moyen-Orient : Giorgos Prokopiou, ce «Tycoon grec» qui brave le blocus du détroit d’Ormuz",
+        "resume": "PORTRAIT - Né en juin 1946 à Athènes, cet armateur incarne le visage des armateurs corsaires qui défient les restrictions des Gardiens de la Révolution iranienne en circulant dans le détroit d’Ormuz.",
+        "lien": "https://www.lefigaro.fr/conjoncture/guerre-au-moyen-orient-giorgos-prokopiou-ce-tycoon-grec-qui-brave-le-blocus-du-detroit-d-ormuz-20260317",
+        "date_iso": "2026-03-17T11:05:08+01:00",
+        "date_fr": "17/03/2026",
+        "pertinence": 0
+      },
+      {
+        "source": "Le Figaro Éco",
+        "couleur": "#92400e",
+        "emoji": "📊",
+        "tag": "Presse économique",
+        "titre": "Garantie des salaires : la Cour des comptes envisage une réduction des droits",
+        "resume": "Dans ce rapport, présenté lundi avant sa publication mardi, la Cour des comptes relève «un contexte d’augmentation, probablement durable, des charges du régime», justifiant que «tous les leviers susceptibles de réduire le déséquilibre» soient examinés.",
+        "lien": "https://www.lefigaro.fr/conjoncture/garantie-des-salaires-la-cour-des-comptes-envisage-une-reduction-des-droits-20260317",
+        "date_iso": "2026-03-17T10:57:01+01:00",
         "date_fr": "17/03/2026",
         "pertinence": 1
       },
       {
-        "source": "Le Monde Éco",
-        "couleur": "#374151",
-        "emoji": "🌐",
-        "tag": "Presse économique",
-        "titre": "Johanna Rolland, maire sortante de Nantes et numéro deux du PS, signe avec LFI pour éviter « le hold-up du siècle » aux municipales",
-        "resume": "L’édile, qui brigue un troisième mandat, est talonnée par le candidat de l’union de la droite et du centre, Foulques Chombart de Lauwe (Les Républicains). Pour le second tour, elle fait le choix de fusionner sa liste avec celle de La France insoumise.",
-        "lien": "https://www.lemonde.fr/politique/article/2026/03/17/municipales-a-nantes-la-maire-sortante-johanna-rolland-numero-deux-du-ps-signe-avec-les-insoumis-pour-eviter-le-hold-up-du-siecle_6671694_823448.html",
-        "date_iso": "2026-03-17T11:50:58+01:00",
+        "source": "Euractiv FR",
+        "couleur": "#0369a1",
+        "emoji": "🇪🇺",
+        "tag": "Europe & politique",
+        "titre": "Les agents IA, prochain obstacle pour la législation européenne ?",
+        "resume": "L'essor de l'IA autonome soulève des questions quant à savoir si la réglementation européenne est déjà dépassée The post Les agents IA, prochain obstacle pour la législation européenne ? appeared first on Euractiv FR . ]]>",
+        "lien": "https://euractiv.fr/news/les-agents-ia-prochain-obstacle-pour-la-legislation-europeenne/",
+        "date_iso": "2026-03-17T10:43:02+00:00",
         "date_fr": "17/03/2026",
         "pertinence": 0
       },
       {
-        "source": "Le Monde Éco",
-        "couleur": "#374151",
-        "emoji": "🌐",
+        "source": "Le Figaro Éco",
+        "couleur": "#92400e",
+        "emoji": "📊",
         "tag": "Presse économique",
-        "titre": "Electronic Arts : « Un test grandeur nature qui démontre la capacité des marchés à ingurgiter encore du risque »",
-        "resume": "Les banques de Wall Street ont lancé le refinancement de quelque 15 milliards de dollars de dette mise en place mise en place lors du rachat de l’éditeur de jeux vidéos, en septembre. Un pari qui a attiré des investisseurs malgré les multiples incertitudes qui planent sur les marchés, observe Isabel",
-        "lien": "https://www.lemonde.fr/economie/article/2026/03/17/electronic-arts-un-test-grandeur-nature-qui-demontre-la-capacite-des-marches-a-ingurgiter-encore-du-risque_6671690_3234.html",
-        "date_iso": "2026-03-17T11:30:08+01:00",
+        "titre": "Étienne de Rocquigny : « Le bonheur consiste à tenter de “gagner sa vie” en se réalisant soi-même »",
+        "resume": "ENTRETIEN. - L’essai d’Étienne de Rocquigny Au diable la rente ! déconstruit les illusions d’une existence sans risques. À l’heure où la quête de sécurité semble être un dogme de l’ère moderne, et ou l’intelligence artificielle promet de nous affranchir de l’effort, l’auteur réhabilite la valeur du ",
+        "lien": "https://www.lefigaro.fr/economie/etienne-de-rocquigny-le-bonheur-consiste-a-tenter-de-gagner-sa-vie-en-se-realisant-soi-meme-20260316",
+        "date_iso": "2026-03-17T10:36:28+01:00",
+        "date_fr": "17/03/2026",
+        "pertinence": 0
+      },
+      {
+        "source": "Le Figaro Éco",
+        "couleur": "#92400e",
+        "emoji": "📊",
+        "tag": "Presse économique",
+        "titre": "La «marketplace» de Shein pourrait-elle être suspendue en France ? La cour d’appel statue ce jeudi",
+        "resume": "Le 19 décembre, le tribunal judiciaire de Paris avait rejeté la demande de suspension totale du site Shein en France, jugée «disproportionnée», tout en reconnaissant l’existence d’un «dommage grave à l’ordre public». L’État avait fait appel.",
+        "lien": "https://www.lefigaro.fr/societes/la-marketplace-de-shein-pourrait-elle-etre-suspendue-en-france-la-cour-d-appel-statue-ce-jeudi-20260317",
+        "date_iso": "2026-03-17T10:29:34+01:00",
+        "date_fr": "17/03/2026",
+        "pertinence": 0
+      },
+      {
+        "source": "Euractiv FR",
+        "couleur": "#0369a1",
+        "emoji": "🇪🇺",
+        "tag": "Europe & politique",
+        "titre": "« Personne » ne souhaite s engager dans une guerre américano-israélienne contre l Iran, déclare Kaja Kallas",
+        "resume": "Les ministres des Affaires étrangères européens ignorent l'appel de Trump en faveur d'un soutien militaire dans le détroit d'Ormuz The post « Personne » ne souhaite s&rsquo;engager dans une guerre américano-israélienne contre l&rsquo;Iran, déclare Kaja Kallas appeared first on Euractiv FR . ]]>",
+        "lien": "https://euractiv.fr/news/personne-ne-souhaite-sengager-dans-une-guerre-americano-israelienne-contre-liran-declare-kaja-kallas/",
+        "date_iso": "2026-03-17T09:57:39+00:00",
+        "date_fr": "17/03/2026",
+        "pertinence": 0
+      },
+      {
+        "source": "Euractiv FR",
+        "couleur": "#0369a1",
+        "emoji": "🇪🇺",
+        "tag": "Europe & politique",
+        "titre": "Merz affirme que Weber « porte la responsabilité » d un vote d’extrême droite au Parlement européen",
+        "resume": "Une polémique éclate au sujet d'une coordination présumée de l'extrême droite lors du vote sur l'immigration The post Merz affirme que Weber « porte la responsabilité » d&rsquo;un vote d’extrême droite au Parlement européen appeared first on Euractiv FR . ]]>",
+        "lien": "https://euractiv.fr/news/merz-affirme-que-weber-porte-la-responsabilite-dun-vote-dextreme-droite-au-parlement-europeen/",
+        "date_iso": "2026-03-17T09:25:24+00:00",
+        "date_fr": "17/03/2026",
+        "pertinence": 0
+      },
+      {
+        "source": "Le Figaro Éco",
+        "couleur": "#92400e",
+        "emoji": "📊",
+        "tag": "Presse économique",
+        "titre": "«La majorité des procédures judiciaires est derrière nous» : Philips tourne la page des respirateurs défectueux",
+        "resume": "DÉCRYPTAGE - Recentré sur les produits médicaux, le groupe néerlandais prévoit 5% de croissance par an entre 2026 et 2028.",
+        "lien": "https://www.lefigaro.fr/societes/la-majorite-des-procedures-judiciaires-est-derriere-nous-philips-tourne-la-page-des-respirateurs-defectueux-20260317",
+        "date_iso": "2026-03-17T09:20:00+01:00",
         "date_fr": "17/03/2026",
         "pertinence": 1
       },
       {
-        "source": "Le Monde Éco",
-        "couleur": "#374151",
-        "emoji": "🌐",
-        "tag": "Presse économique",
-        "titre": "Kpler, l’entreprise qui cartographie en temps réel les flux de pétrole et des matières premières dans le monde",
-        "resume": "L’entreprise, créée par deux ingénieurs français en 2010, est montée en influence après la pandémie de Covid-19 et gagne en notoriété avec la guerre au Moyen-Orient.",
-        "lien": "https://www.lemonde.fr/economie/article/2026/03/17/kpler-la-start-up-qui-irrigue-la-planete-de-donnees-sur-les-matieres-premieres-s-est-fait-un-nom-de-crises-en-conflits_6671676_3234.html",
-        "date_iso": "2026-03-17T10:14:04+01:00",
+        "source": "Euractiv FR",
+        "couleur": "#0369a1",
+        "emoji": "🇪🇺",
+        "tag": "Europe & politique",
+        "titre": "Le modèle publicitaire de Meta enfreint toujours la réglementation européenne, selon des associations de consommateurs",
+        "resume": "Le modèle publicitaire controversé « payer ou consentir », accusé de continuer à enfreindre la législation, notamment le règlement sur les marchés numériques The post Le modèle publicitaire de Meta enfreint toujours la réglementation européenne, selon des associations de consommateurs appeared first",
+        "lien": "https://euractiv.fr/news/le-modele-publicitaire-de-meta-enfreint-toujours-la-reglementation-europeenne-selon-des-associations-de-consommateurs/",
+        "date_iso": "2026-03-17T08:44:39+00:00",
         "date_fr": "17/03/2026",
+        "pertinence": 0
+      },
+      {
+        "source": "Euractiv FR",
+        "couleur": "#0369a1",
+        "emoji": "🇪🇺",
+        "tag": "Europe & politique",
+        "titre": "Von der Leyen suggère d alléger la facture CO₂ des industriels pollueurs",
+        "resume": "Le président de la Commission européenne demande aux dirigeants de l'UE d'envisager une « trajectoire de décarbonisation plus réaliste » The post Von der Leyen suggère d&rsquo;alléger la facture CO₂ des industriels pollueurs appeared first on Euractiv FR . ]]>",
+        "lien": "https://euractiv.fr/news/von-der-leyen-suggere-dalleger-la-facture-co%e2%82%82-des-industriels-pollueurs/",
+        "date_iso": "2026-03-17T08:08:48+00:00",
+        "date_fr": "17/03/2026",
+        "pertinence": 0
+      },
+      {
+        "source": "Euractiv FR",
+        "couleur": "#0369a1",
+        "emoji": "🇪🇺",
+        "tag": "Europe & politique",
+        "titre": "INTERVIEW : Bruxelles devrait tenir tête aux États-Unis quant à la taxe sur les services numériques, estime un haut législateur européen",
+        "resume": "Pasquale Tridico déclare à Euractiv que l'Europe doit cesser de faire « tout ce que veulent les Américains » The post INTERVIEW : Bruxelles devrait tenir tête aux États-Unis quant à la taxe sur les services numériques, estime un haut législateur européen appeared first on Euractiv FR . ]]>",
+        "lien": "https://euractiv.fr/news/interview-bruxelles-devrait-tenir-tete-aux-etats-unis-quant-a-la-taxe-sur-les-services-numeriques-estime-un-haut-legislateur-europeen/",
+        "date_iso": "2026-03-17T07:27:32+00:00",
+        "date_fr": "17/03/2026",
+        "pertinence": 0
+      },
+      {
+        "source": "Euractiv FR",
+        "couleur": "#0369a1",
+        "emoji": "🇪🇺",
+        "tag": "Europe & politique",
+        "titre": "Zelenskyy se rendra en Espagne pour s entretenir avec Sánchez",
+        "resume": "En novembre, il a obtenu de Madrid une nouvelle aide militaire d'un montant de 615 millions d'euros The post Zelenskyy se rendra en Espagne pour s&rsquo;entretenir avec Sánchez appeared first on Euractiv FR . ]]>",
+        "lien": "https://euractiv.fr/news/zelensky-se-rendra-en-espagne-pour-sentretenir-avec-sanchez/",
+        "date_iso": "2026-03-17T07:18:14+00:00",
+        "date_fr": "17/03/2026",
+        "pertinence": 0
+      },
+      {
+        "source": "Euractiv FR",
+        "couleur": "#0369a1",
+        "emoji": "🇪🇺",
+        "tag": "Europe & politique",
+        "titre": "Naviguer dans le détroit de Budapest",
+        "resume": "Également dans l'édition de mardi : Merz contre Weber, le podcast de Sánchez, Kubilius, un préservatif géant The post Naviguer dans le détroit de Budapest appeared first on Euractiv FR . ]]>",
+        "lien": "https://euractiv.fr/news/naviguer-dans-le-detroit-de-budapest/",
+        "date_iso": "2026-03-17T07:08:26+00:00",
+        "date_fr": "17/03/2026",
+        "pertinence": 0
+      },
+      {
+        "source": "Le Figaro Éco",
+        "couleur": "#92400e",
+        "emoji": "📊",
+        "tag": "Presse économique",
+        "titre": "Haute-Savoie: sept gardes à vue après un rapt en janvier lié aux cryptomonnaies",
+        "resume": "Le couple de septuagénaires avait été kidnappé à son domicile à Sallanches dans la nuit du 14 au 15 janvier, selon le Pnaco.",
+        "lien": "https://www.lefigaro.fr/faits-divers/haute-savoie-sept-gardes-a-vue-apres-un-rapt-en-janvier-lie-aux-cryptomonnaies-20260316",
+        "date_iso": "2026-03-16T21:56:34+01:00",
+        "date_fr": "16/03/2026",
+        "pertinence": 0
+      },
+      {
+        "source": "Le Figaro Éco",
+        "couleur": "#92400e",
+        "emoji": "📊",
+        "tag": "Presse économique",
+        "titre": "Émirats arabes unis : une frappe de drone met le feu à un important champ pétrolier",
+        "resume": "L’attaque a touché le champ pétrolier de Shah, situé à 230 kilomètres au sud d’Abou Dhabi, selon les autorités de l’émirat, qui n’ont pas fait état de blessés.",
+        "lien": "https://www.lefigaro.fr/conjoncture/emirats-arabes-unis-une-frappe-de-drone-met-le-feu-a-un-important-champ-petrolier-20260316",
+        "date_iso": "2026-03-16T21:31:17+01:00",
+        "date_fr": "16/03/2026",
+        "pertinence": 0
+      },
+      {
+        "source": "Le Figaro Éco",
+        "couleur": "#92400e",
+        "emoji": "📊",
+        "tag": "Presse économique",
+        "titre": "Carburants : les prix à la pompe ont continué à grimper la semaine dernière, le gazole au plus haut depuis 2022",
+        "resume": "En moyenne, la semaine dernière, le litre de gazole a grimpé de 6,5 centimes. Il s’affichait à 2,0174 euros, franchissant officiellement une barre symbolique.",
+        "lien": "https://www.lefigaro.fr/conjoncture/carburants-les-prix-a-la-pompe-ont-continue-a-grimper-la-semaine-derniere-le-gazole-au-plus-haut-depuis-2022-20260316",
+        "date_iso": "2026-03-16T21:29:51+01:00",
+        "date_fr": "16/03/2026",
+        "pertinence": 0
+      },
+      {
+        "source": "Le Figaro Éco",
+        "couleur": "#92400e",
+        "emoji": "📊",
+        "tag": "Presse économique",
+        "titre": "Guerre au Moyen-Orient : l’économie mondiale est-elle déjà au bord de la «stagflation» ?",
+        "resume": "DÉCRYPTAGE - Aux États-Unis, le risque d’entrée en crise est désormais «assez élevé», alerte ce lundi le prix Nobel d’économie Joseph Stiglitz. D’ici quelques mois, c’est l’économie mondiale qui pourrait être prise en étau.",
+        "lien": "https://www.lefigaro.fr/conjoncture/penuries-spirale-inflationniste-croissance-en-berne-la-guerre-au-moyen-orient-fait-ressurgir-le-spectre-de-la-stagflation-20260311",
+        "date_iso": "2026-03-16T20:02:08+01:00",
+        "date_fr": "16/03/2026",
+        "pertinence": 0
+      },
+      {
+        "source": "Le Figaro Éco",
+        "couleur": "#92400e",
+        "emoji": "📊",
+        "tag": "Presse économique",
+        "titre": "Pourquoi le taux à 10 ans menace d’alourdir toujours plus la charge de la dette",
+        "resume": "DÉCRYPTAGE - Le taux d’intérêt à 10 ans flirte avec les 3,70 %, soit 50 points de base de plus qu’avant le déclenchement de la guerre en Iran. Un handicap de plus pour nos finances publiques.",
+        "lien": "https://www.lefigaro.fr/conjoncture/pourquoi-le-taux-a-10-ans-menace-d-alourdir-toujours-plus-la-charge-de-la-dette-20260316",
+        "date_iso": "2026-03-16T19:51:26+01:00",
+        "date_fr": "16/03/2026",
         "pertinence": 1
       },
       {
-        "source": "Le Monde Éco",
-        "couleur": "#374151",
-        "emoji": "🌐",
+        "source": "Le Figaro Éco",
+        "couleur": "#92400e",
+        "emoji": "📊",
         "tag": "Presse économique",
-        "titre": "Les prix du pétrole et du gaz continuent d’augmenter, les pays européens divisés sur la réponse à apporter",
-        "resume": "Le sujet sera à l’ordre du jour de la réunion des chefs d’Etat et de gouvernement, le 19 mars. Plusieurs pays poussent à revenir – au moins partiellement – sur les principes actuels de la politique énergétique des Vingt-Sept : pas de recours au pétrole russe et objectif de neutralité carbone en 2050",
-        "lien": "https://www.lemonde.fr/economie/article/2026/03/17/face-a-la-flambee-des-prix-de-l-energie-le-desarroi-et-les-desaccords-des-europeens_6671586_3234.html",
-        "date_iso": "2026-03-17T05:00:15+01:00",
-        "date_fr": "17/03/2026",
+        "titre": "Prix des carburants : le patron d'Intermarché appelle l'État à «réduire sa marge»",
+        "resume": "Alors que les prix du pétrole flambent, l’État et la grande distribution s’accusent mutuellement de se tailler la part du lion.",
+        "lien": "https://www.lefigaro.fr/flash-eco/prix-des-carburants-le-patron-d-intermarche-appelle-l-etat-a-reduire-sa-marge-20260316",
+        "date_iso": "2026-03-16T17:03:09+01:00",
+        "date_fr": "16/03/2026",
         "pertinence": 0
       },
       {
-        "source": "Le Monde Éco",
-        "couleur": "#374151",
-        "emoji": "🌐",
-        "tag": "Presse économique",
-        "titre": "« Je suis honteuse d’avoir tout cet argent non mérité » : à l’heure de la transmission du patrimoine des baby-boomeurs, le malaise des jeunes héritiers",
-        "resume": "Recevoir une grosse somme d’argent quand on est jeune n’a rien d’anodin. Les donations et héritages précoces suscitent aussi malaise, culpabilité et silence chez ceux qui en bénéficient et tendent à creuser les inégalités.",
-        "lien": "https://www.lemonde.fr/campus/article/2026/03/17/je-suis-honteuse-d-avoir-tout-cet-argent-non-merite-a-l-heure-de-la-transmission-du-patrimoine-des-baby-boomeurs-le-malaise-des-jeunes-heritiers_6671583_4401467.html",
-        "date_iso": "2026-03-17T05:00:03+01:00",
-        "date_fr": "17/03/2026",
+        "source": "Euractiv FR",
+        "couleur": "#0369a1",
+        "emoji": "🇪🇺",
+        "tag": "Europe & politique",
+        "titre": "DOSSIER : L opération Aspides sous les projecteurs alors que l UE débat de la question d Ormuz",
+        "resume": "Les capitales se demandent actuellement s'il faut renforcer les capacités de l'opération ou élargir son rôle The post DOSSIER : L&rsquo;opération Aspides sous les projecteurs alors que l&rsquo;UE débat de la question d&rsquo;Ormuz appeared first on Euractiv FR . ]]>",
+        "lien": "https://euractiv.fr/news/decryptage-loperation-aspides-sous-les-projecteurs-alors-que-lue-debat-de-la-question-dormuz/",
+        "date_iso": "2026-03-16T15:31:59+00:00",
+        "date_fr": "16/03/2026",
+        "pertinence": 0
+      },
+      {
+        "source": "Euractiv FR",
+        "couleur": "#0369a1",
+        "emoji": "🇪🇺",
+        "tag": "Europe & politique",
+        "titre": "L’UE envisage une réserve stratégique de munitions face à l’essor de la production de défense",
+        "resume": "Le secteur européen de la défense demande aux gouvernements nationaux davantage de prévisibilité afin de justifier ses investissements The post L’UE envisage une réserve stratégique de munitions face à l’essor de la production de défense appeared first on Euractiv FR . ]]>",
+        "lien": "https://euractiv.fr/news/lue-envisage-une-reserve-strategique-de-munitions-face-a-lessor-de-la-production-de-defense/",
+        "date_iso": "2026-03-16T14:41:20+00:00",
+        "date_fr": "16/03/2026",
         "pertinence": 1
       },
       {
-        "source": "Le Monde Éco",
-        "couleur": "#374151",
-        "emoji": "🌐",
-        "tag": "Presse économique",
-        "titre": "« On n’est pas là pour casser les prix » : Joybuy (JD.com) se lance en France en cherchant à se démarquer de Shein et Temu",
-        "resume": "Concurrent potentiel d’Amazon, le groupe chinois d’e-commerce donnait, lundi, le coup d’envoi officiel de ses activités dans six pays européens. Reportage dans ses bureaux parisiens, transformés pour l’occasion en espace de démonstration de produits, à deux pas des Champs-Elysées.",
-        "lien": "https://www.lemonde.fr/economie/article/2026/03/16/on-n-est-pas-la-pour-casser-les-prix-joybuy-jd-com-se-lance-en-france-en-cherchant-a-se-demarquer-de-shein-et-temu_6671470_3234.html",
-        "date_iso": "2026-03-16T20:32:32+01:00",
+        "source": "Euractiv FR",
+        "couleur": "#0369a1",
+        "emoji": "🇪🇺",
+        "tag": "Europe & politique",
+        "titre": "L’Ukraine risque de perdre le contrôle de ses innovations de guerre",
+        "resume": "Les innovateurs ukrainiens dans le domaine de la défense partent souvent du principe que leur technologie sera volée The post L’Ukraine risque de perdre le contrôle de ses innovations de guerre appeared first on Euractiv FR . ]]>",
+        "lien": "https://euractiv.fr/news/lukraine-risque-de-perdre-le-controle-de-ses-innovations-de-guerre/",
+        "date_iso": "2026-03-16T14:29:25+00:00",
         "date_fr": "16/03/2026",
         "pertinence": 0
       },
       {
-        "source": "Le Monde Éco",
-        "couleur": "#374151",
-        "emoji": "🌐",
-        "tag": "Presse économique",
-        "titre": "Municipales à Paris : dans les arrondissements, trois maires élus au premier tour et quelques curiosités",
-        "resume": "Dans les secteurs encore disputés et avant d’éventuelles fusions de listes, sept triangulaires, six quadrangulaires et un duel se dessinent. Dans deux arrondissements, les résultats diffèrent entre les listes locales et la liste centrale.",
-        "lien": "https://www.lemonde.fr/politique/article/2026/03/16/municipales-a-paris-dans-les-arrondissements-trois-maires-elus-au-premier-tour-et-quelques-curiosites_6671458_823448.html",
-        "date_iso": "2026-03-16T19:05:57+01:00",
-        "date_fr": "16/03/2026",
-        "pertinence": 0
-      },
-      {
-        "source": "Le Monde Éco",
-        "couleur": "#374151",
-        "emoji": "🌐",
-        "tag": "Presse économique",
-        "titre": "La banque italienne UniCredit lance une nouvelle offensive pour forcer l’allemande Commerzbank à l’union",
-        "resume": "L’établissement milanais a fait lundi une offre de rachat dans le but de récupérer plus de 30 % du capital de la banque allemande. Depuis 2024, Andrea Orcel, l’ambitieux patron d’UniCredit, cherche à bâtir un poids lourd européen de la finance.",
-        "lien": "https://www.lemonde.fr/economie/article/2026/03/16/nouvelle-offensive-de-la-banque-italienne-unicredit-pour-forcer-commerzbank-a-l-union_6671452_3234.html",
-        "date_iso": "2026-03-16T18:32:29+01:00",
-        "date_fr": "16/03/2026",
-        "pertinence": 0
-      },
-      {
-        "source": "Le Monde Éco",
-        "couleur": "#374151",
-        "emoji": "🌐",
-        "tag": "Presse économique",
-        "titre": "« Si l’Europe n’est pas aujourd’hui capable de créer une véritable société supranationale, elle ne le fera jamais »",
-        "resume": "Sans restriction du périmètre applicable et sans montée en ambition, le « 28ᵉ régime » juridique des sociétés, qui doit être présenté mercredi, ne sera qu’un concept bruxellois de plus, avec un logo et un site Internet, dénoncent les économistes Luis Garicano et Ulrike Malmendier dans une tribune au",
-        "lien": "https://www.lemonde.fr/idees/article/2026/03/16/si-l-europe-n-est-pas-aujourd-hui-capable-de-creer-une-veritable-societe-supranationale-elle-ne-le-fera-jamais_6671449_3232.html",
-        "date_iso": "2026-03-16T18:00:32+01:00",
-        "date_fr": "16/03/2026",
-        "pertinence": 0
-      },
-      {
-        "source": "Le Monde Éco",
-        "couleur": "#374151",
-        "emoji": "🌐",
-        "tag": "Presse économique",
-        "titre": "A Lens, le RN échoue à ravir la mairie mais confirme sa percée",
-        "resume": "Avec 46,49 % des voix au premier tour, Bruno Clavet, le candidat Rassemblement national, n’est pas parvenu à renverser le maire sortant socialiste, Sylvain Robert.",
-        "lien": "https://www.lemonde.fr/politique/article/2026/03/16/a-lens-le-rn-echoue-a-ravir-la-mairie-mais-confirme-sa-percee_6671443_823448.html",
-        "date_iso": "2026-03-16T17:55:36+01:00",
-        "date_fr": "16/03/2026",
-        "pertinence": 0
-      },
-      {
-        "source": "Le Monde Éco",
-        "couleur": "#374151",
-        "emoji": "🌐",
-        "tag": "Presse économique",
-        "titre": "Municipales en Polynésie : le parti indépendantiste perd du terrain au premier tour",
-        "resume": "Les candidats soutenus par le Tavini, le parti indépendantiste polynésien large vainqueur des dernières élections territoriales, ont essuyé plusieurs défaites cuisantes dimanche 15 mars, notamment à Papeete.",
-        "lien": "https://www.lemonde.fr/politique/article/2026/03/16/municipales-en-polynesie-le-parti-independantiste-perd-du-terrain-au-premier-tour_6671441_823448.html",
-        "date_iso": "2026-03-16T17:14:16+01:00",
-        "date_fr": "16/03/2026",
-        "pertinence": 0
-      },
-      {
-        "source": "Le Monde Éco",
-        "couleur": "#374151",
-        "emoji": "🌐",
-        "tag": "Presse économique",
-        "titre": "Municipales 2026 : simulez l’impact des différents scénarios d’alliances au second tour dans votre commune",
-        "resume": "Les listes ayant obtenu plus de 5 % au premier tour peuvent se désister ou fusionner avec une liste mieux placée pour tenter de peser sur l’issue du second. Explorez par vous-même l’effet des différentes alliances possibles avec notre simulateur.",
-        "lien": "https://www.lemonde.fr/les-decodeurs/article/2026/03/16/municipales-2026-simulez-l-impact-des-differents-scenarios-d-alliances-au-second-tour-dans-votre-commune_6671438_4355770.html",
-        "date_iso": "2026-03-16T17:00:06+01:00",
-        "date_fr": "16/03/2026",
-        "pertinence": 0
-      },
-      {
-        "source": "Le Monde Éco",
-        "couleur": "#374151",
-        "emoji": "🌐",
-        "tag": "Presse économique",
-        "titre": "Comment le RN s’est patiemment installé dans le bassin d’Arcachon pour les municipales",
-        "resume": "Le parti d’extrême droite a obtenu plusieurs sièges dans la lagune girondine, lors du premier tour des élections municipales, dimanche 15 mars, historiquement acquise à une droite de plus en plus perméable aux idéaux lepénistes.",
-        "lien": "https://www.lemonde.fr/politique/article/2026/03/16/comment-le-rn-s-est-patiemment-installe-dans-le-bassin-d-arcachon-pour-les-municipales_6671434_823448.html",
-        "date_iso": "2026-03-16T16:35:52+01:00",
+        "source": "Institut Montaigne",
+        "couleur": "#1d4ed8",
+        "emoji": "🏛️",
+        "tag": "Recherche économique",
+        "titre": "Plan quinquennal chinois : un argument pour l’Accélérateur industriel européen",
+        "resume": "Le 4 mars, la Commission européenne présentait sa proposition de règlement sur l'accélération industrielle ; le lendemain, l'Assemblée nationale populaire de Chine dévoilait son nouveau plan quinquennal, qui doit guider le développement économique du pays jusqu'en 2030. Quels en seront les impacts ?",
+        "lien": "https://www.institutmontaigne.org/expressions/plan-quinquennal-chinois-un-argument-pour-laccelerateur-industriel-europeen",
+        "date_iso": "2026-03-16T14:18:42+01:00",
         "date_fr": "16/03/2026",
         "pertinence": 0
       }
@@ -757,7 +937,7 @@
     },
     {
       "trimestre": "T2 2023",
-      "taux": 5.1
+      "taux": 4.9
     },
     {
       "trimestre": "T3 2023",
@@ -769,19 +949,19 @@
     },
     {
       "trimestre": "T1 2024",
-      "taux": 5.0
+      "taux": 4.8
     },
     {
       "trimestre": "T2 2024",
-      "taux": 5.1
+      "taux": 4.9
     },
     {
       "trimestre": "T3 2024",
-      "taux": 5.2
+      "taux": 4.5
     },
     {
       "trimestre": "T4 2024",
-      "taux": 5.2
+      "taux": 4.6
     },
     {
       "trimestre": "T1 2025",
@@ -3609,7 +3789,7 @@
       "note_lecture": "Le TEC-10 mesure le rendement des emprunts d'Etat francais a 10 ans. Un taux eleve rencherit le cout de la dette publique et impacte les taux de credit immobilier."
     },
     "petrole_brent": {
-      "valeur": 102.51,
+      "valeur": 102.22,
       "date": "2026-03-17",
       "unite": "USD/baril",
       "source": "Yahoo Finance",
@@ -5129,16 +5309,16 @@
         },
         {
           "date": "2026-03-17",
-          "valeur": 102.51,
-          "ma50": 73.14,
+          "valeur": 102.22,
+          "ma50": 73.13,
           "ma200": 67.86
         }
       ],
       "variations": {
-        "jour": 2.3,
-        "semaine": 16.75,
-        "mois": 51.82,
-        "ytd": 68.74
+        "jour": 2.01,
+        "semaine": 16.42,
+        "mois": 51.39,
+        "ytd": 68.26
       },
       "min_max": {
         "min": 58.92,
@@ -5149,9 +5329,9 @@
       "note_lecture": "Le prix du Brent influence directement les couts de transport et d'energie, donc l'inflation et le pouvoir d'achat des salaries."
     },
     "cac40": {
-      "valeur": 7998.56,
+      "valeur": 7993.03,
       "date": "2026-03-17",
-      "variation_jour_pct": 0.79,
+      "variation_jour_pct": 0.72,
       "unite": "points",
       "source": "Yahoo Finance",
       "nb_points": 256,
@@ -6688,16 +6868,16 @@
         },
         {
           "date": "2026-03-17",
-          "valeur": 7998.56,
-          "ma50": 8232.66,
-          "ma200": 7994.64
+          "valeur": 7993.03,
+          "ma50": 8232.55,
+          "ma200": 7994.61
         }
       ],
       "variations": {
-        "jour": 0.79,
-        "semaine": -0.73,
-        "mois": -3.77,
-        "ytd": -2.4
+        "jour": 0.72,
+        "semaine": -0.8,
+        "mois": -3.83,
+        "ytd": -2.47
       },
       "min_max": {
         "min": 6863.02,
@@ -8278,7 +8458,7 @@
       "note_lecture": "Le taux de change euro-dollar determine le prix de tout ce qui est importe en dollars : petrole, matieres premieres, electronique. Un euro faible rencherit les importations et alimente l'inflation."
     },
     "or": {
-      "valeur": 5019.9,
+      "valeur": 5024.5,
       "date": "2026-03-17",
       "unite": "USD/oz",
       "source": "Yahoo Finance",
@@ -9798,16 +9978,16 @@
         },
         {
           "date": "2026-03-17",
-          "valeur": 5019.9,
-          "ma50": 4938.33,
-          "ma200": 4043.46
+          "valeur": 5024.5,
+          "ma50": 4938.43,
+          "ma200": 4043.48
         }
       ],
       "variations": {
-        "jour": 0.52,
-        "semaine": -4.01,
-        "mois": 1.95,
-        "ytd": 16.35
+        "jour": 0.61,
+        "semaine": -3.92,
+        "mois": 2.05,
+        "ytd": 16.46
       },
       "min_max": {
         "min": 2951.3,
@@ -11358,7 +11538,7 @@
       "note_lecture": "Le prix du gaz naturel (TTF europeen) impacte directement les factures de chauffage et d'electricite des menages, ainsi que les couts de production industrielle."
     },
     "ble": {
-      "valeur": 594.5,
+      "valeur": 593.75,
       "date": "2026-03-17",
       "unite": "cents/boisseau",
       "source": "Yahoo Finance",
@@ -12872,16 +13052,16 @@
         },
         {
           "date": "2026-03-17",
-          "valeur": 594.5,
-          "ma50": 547.43,
-          "ma200": 530.11
+          "valeur": 593.75,
+          "ma50": 547.42,
+          "ma200": 530.1
         }
       ],
       "variations": {
-        "jour": -0.46,
-        "semaine": 1.67,
-        "mois": 7.6,
-        "ytd": 17.37
+        "jour": -0.59,
+        "semaine": 1.54,
+        "mois": 7.47,
+        "ytd": 17.23
       },
       "min_max": {
         "min": 495.0,
@@ -13672,7 +13852,7 @@
           "2023": 1.92,
           "2024": 1.78,
           "2025": 1.72,
-          "2026": 1.941
+          "2026": 1.94
         },
         "quantiteMensuelle": {
           "solo": 40,
@@ -16095,7 +16275,7 @@
     "sources": "INSEE - Enquête Emploi, DARES"
   },
   "previsions_cftc": {
-    "generated_at": "2026-03-17T12:31:22.882214",
+    "generated_at": "2026-03-17T12:40:27.595124",
     "model_version": "CFTC v4.0 (Monte Carlo)",
     "n_simulations": 1000,
     "horizon": "12 mois",
