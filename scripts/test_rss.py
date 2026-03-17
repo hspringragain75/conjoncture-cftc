@@ -11,72 +11,24 @@ import urllib.error
 import xml.etree.ElementTree as ET
 import re
 
+# Sources mises à jour après diagnostic du 17/03/2026
+# Institutions FR abandonnées : INSEE(500), DARES(SPA), BdF(404),
+# MinTravail(SPA), FranceTravail(SPA), UNEDIC(404), CComptes(timeout),
+# OFCE(404), LesEchos(403), OCDE(403)
 SOURCES = [
-    {"nom": "INSEE",              "url": "https://www.insee.fr/fr/rss/actu.xml"},
-    {"nom": "DARES",              "url": "https://dares.travail-emploi.gouv.fr/rss.xml"},
-    {"nom": "Banque de France",   "url": "https://www.banque-france.fr/rss/publications.xml"},
-    {"nom": "Ministère Travail",  "url": "https://travail-emploi.gouv.fr/rss.xml"},
-    {"nom": "Eurostat",           "url": "https://ec.europa.eu/eurostat/rss/fr/news-rss.xml"},
-    {"nom": "France Travail",     "url": "https://www.francetravail.fr/accueil/rss/actualites.xml"},
-    {"nom": "UNEDIC",             "url": "https://www.unedic.org/rss.xml"},
-    {"nom": "Cour des comptes",   "url": "https://www.ccomptes.fr/fr/rss/publications"},
-    {"nom": "OFCE",               "url": "https://www.ofce.sciences-po.fr/rss/blog.xml"},
-    {"nom": "Les Échos",          "url": "https://www.lesechos.fr/rss/rss_une.xml"},
     {"nom": "Le Monde Éco",       "url": "https://www.lemonde.fr/economie/rss_full.xml"},
-    {"nom": "OCDE",               "url": "https://www.oecd.org/fr/rss/actu.xml"},
+    {"nom": "Le Monde Emploi",    "url": "https://www.lemonde.fr/emploi/rss_full.xml"},
+    {"nom": "Libération Éco",     "url": "https://www.liberation.fr/arc/outboundfeeds/rss/category/economie/"},
+    {"nom": "Le Figaro Éco",      "url": "https://www.lefigaro.fr/rss/figaro_economie.xml"},
+    {"nom": "L'Humanité Social",  "url": "https://www.humanite.fr/rss.xml"},
+    {"nom": "Terra Nova",         "url": "https://tnova.fr/feed/"},
+    {"nom": "Institut Montaigne", "url": "https://www.institutmontaigne.org/rss.xml"},
+    {"nom": "La Croix Social",    "url": "https://www.la-croix.com/rss/economie.rss"},
+    {"nom": "Euractiv FR",        "url": "https://www.euractiv.fr/feed/"},
+    {"nom": "Service-Public.fr",  "url": "https://www.service-public.fr/rss/particuliers.xml"},
+    {"nom": "INSEE Données",      "url": "https://www.insee.fr/rss/donnees"},
+    {"nom": "BNP Research",       "url": "https://economic-research.bnpparibas.com/RSS/fr-FR"},
 ]
-
-# URLs alternatives à tester si la principale échoue
-ALTERNATIVES = {
-    "INSEE":            [
-        "https://www.insee.fr/fr/statistiques/flux.rss",
-        "https://www.insee.fr/fr/information/flux-rss",
-    ],
-    "DARES":            [
-        "https://dares.travail-emploi.gouv.fr/publications/rss.xml",
-        "https://travail-emploi.gouv.fr/rss/dares.xml",
-    ],
-    "Banque de France": [
-        "https://www.banque-france.fr/rss/actualites.xml",
-        "https://www.banque-france.fr/rss/communiques.xml",
-        "https://www.banque-france.fr/fr/publications-et-statistiques/publications/rss.xml",
-    ],
-    "Ministère Travail":[
-        "https://travail-emploi.gouv.fr/rss/actualites.xml",
-        "https://travail-emploi.gouv.fr/rss/publications.xml",
-    ],
-    "Eurostat":         [
-        "https://ec.europa.eu/eurostat/rss/news-rss.xml",
-        "https://ec.europa.eu/eurostat/rss/en/news-rss.xml",
-    ],
-    "France Travail":   [
-        "https://www.francetravail.fr/actualites/rss.xml",
-        "https://www.pole-emploi.fr/rss/actualites.xml",
-    ],
-    "UNEDIC":           [
-        "https://www.unedic.org/publications/rss",
-        "https://www.unedic.org/actus/rss.xml",
-    ],
-    "Cour des comptes": [
-        "https://www.ccomptes.fr/fr/flux-rss",
-        "https://www.ccomptes.fr/rss.xml",
-    ],
-    "OFCE":             [
-        "https://www.ofce.sciences-po.fr/rss.xml",
-        "https://blog.ofce.sciences-po.fr/feed/",
-        "https://www.ofce.sciences-po.fr/blog/feed/",
-    ],
-    "Les Échos":        [
-        "https://www.lesechos.fr/rss/rss_finance.xml",
-        "https://www.lesechos.fr/rss/rss_economie.xml",
-        "https://services.lesechos.fr/rss/les-echos-economie.xml",
-    ],
-    "OCDE":             [
-        "https://www.oecd.org/rss/publications.xml",
-        "https://www.oecd-ilibrary.org/rss",
-        "https://oecdinsights.org/feed/",
-    ],
-}
 
 HEADERS = {
     "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
@@ -175,18 +127,18 @@ if resultats_ok:
     print()
     print("    SOURCES = [")
     COULEURS = {
-        "INSEE":             ("#1e40af", "📊", "Statistiques nationales"),
-        "DARES":             ("#065f46", "👥", "Emploi & travail"),
-        "Banque de France":  ("#7c3aed", "🏦", "Conjoncture & finances"),
-        "Ministère Travail": ("#b45309", "⚖️",  "Droit du travail"),
-        "Eurostat":          ("#0369a1", "🇪🇺", "Comparaison européenne"),
-        "France Travail":    ("#0891b2", "🎯", "Marché de l'emploi"),
-        "UNEDIC":            ("#0f766e", "🛡️",  "Assurance chômage"),
-        "Cour des comptes":  ("#dc2626", "⚖️",  "Finances publiques"),
-        "OFCE":              ("#7e22ce", "🔬", "Recherche économique"),
-        "Les Échos":         ("#ea580c", "📰", "Presse économique"),
-        "Le Monde Éco":      ("#374151", "🌐", "Presse économique"),
-        "OCDE":              ("#1d4ed8", "🌍", "Comparaisons internationales"),
+        "Le Monde Éco":       ("#374151", "🌐", "Presse économique"),
+        "Le Monde Emploi":    ("#1f2937", "💼", "Emploi & travail"),
+        "Libération Éco":     ("#dc2626", "📰", "Presse économique"),
+        "Le Figaro Éco":      ("#92400e", "📊", "Presse économique"),
+        "L'Humanité Social":  ("#b91c1c", "✊", "Social & travail"),
+        "Terra Nova":         ("#0369a1", "🔬", "Recherche politique"),
+        "Institut Montaigne": ("#1d4ed8", "🏛️",  "Recherche économique"),
+        "La Croix Social":    ("#065f46", "⚖️",  "Social & travail"),
+        "Euractiv FR":        ("#0369a1", "🇪🇺", "Europe & politique"),
+        "Service-Public.fr":  ("#1e40af", "🏛️",  "Droit & réglementation"),
+        "INSEE Données":      ("#1e40af", "📊", "Statistiques nationales"),
+        "BNP Research":       ("#16a34a", "🏦", "Conjoncture & finances"),
     }
     for r in resultats_ok:
         c, e, t = COULEURS.get(r["nom"], ("#6b7280", "📄", "Actualités"))
