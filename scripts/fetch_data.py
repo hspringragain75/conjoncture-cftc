@@ -2264,6 +2264,27 @@ def build_changelog():
     
     changelog = [
         {
+            "version": "2.2.2",
+            "date": "2026-03-18",
+            "modifications": [
+                {
+                    "type": "features",
+                    "titre": "Comparaison par carte",
+                    "description": "Dans l'onglet conjoncture, vous retrouverez un sous-onglet globe vous permettant de comparer des indicateurs à l'international"
+                }, 
+                {
+                    "type": "features",
+                    "titre": "Fonction de recherche",
+                    "description": "Barre de recherche dans le header du site pour retrouver plus vite un élément"
+                },                
+                {
+                    "type": "features",
+                    "titre": "Mémoire des crises",
+                    "description": "Dans la partie évolutions, vous pourrez vos documenter sur les crises économiques contemporaines et visualiser les évolution d'indicateurs essentiels"
+                }
+            ]
+        },
+        {
             "version": "2.2.1",
             "date": "2026-03-17",
             "modifications": [
@@ -2273,7 +2294,7 @@ def build_changelog():
                     "description": "Intégration d'un bouton presse avec une remonté des derniers articles de presse liés à l'économie"
                 },                
                 {
-                    "type": "Features",
+                    "type": "features",
                     "titre": "Carte des inégalités",
                     "description": "Une cartographie des inégalités est créée dans le sous-onglet territoires"
                 }
@@ -2284,7 +2305,7 @@ def build_changelog():
             "date": "2026-03-10",
             "modifications": [
                 {
-                    "type": "Features",
+                    "type": "features",
                     "titre": "Données Outre-Mer onglet territoires",
                     "description": "Les données des Outre-Mer sont désormais intégrées dans la suite de l'onglet territoires"
                 }
