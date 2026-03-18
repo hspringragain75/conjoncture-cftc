@@ -1,6 +1,6 @@
 {
-  "last_updated": "18/03/2026 13:49",
-  "last_updated_iso": "2026-03-18T13:49:37.803288",
+  "last_updated": "18/03/2026 13:58",
+  "last_updated_iso": "2026-03-18T13:58:06.320243",
   "contact": "hspringragain@cftc.fr",
   "alertes": [
     {
@@ -12,11 +12,11 @@
       "onglet": "inflation"
     },
     {
-      "id": "chomage_jeunes_T3_2025",
+      "id": "chomage_jeunes_T4_2025",
       "date": "2026-03-18",
       "type": "warning",
-      "titre": "🧑‍🎓 Chômage jeunes élevé : 19.2%",
-      "message": "Le taux de chômage des 15-24 ans reste préoccupant (T3 2025).",
+      "titre": "🧑‍🎓 Chômage jeunes élevé : 21.5%",
+      "message": "Le taux de chômage des 15-24 ans reste préoccupant (T4 2025).",
       "onglet": "emploi"
     },
     {
@@ -32,7 +32,7 @@
       "date": "2026-03-18",
       "type": "info",
       "titre": "🔄 Données actualisées",
-      "message": "Le tableau de bord a été mis à jour le 18/03/2026 à 13:49.",
+      "message": "Le tableau de bord a été mis à jour le 18/03/2026 à 13:57.",
       "onglet": "conjoncture"
     }
   ],
@@ -151,7 +151,7 @@
     }
   ],
   "revue_presse": {
-    "derniere_maj": "18/03/2026 13:49",
+    "derniere_maj": "18/03/2026 13:58",
     "nb_sources": 7,
     "sources_noms": [
       "Le Monde Éco",
@@ -221,6 +221,18 @@
         "resume": "L’Italie, la Pologne, la Hongrie, la Slovaquie et la République tchèque réclament une suspension du marché carbone européen, qui coûte cher à leurs entreprises.",
         "lien": "https://www.lefigaro.fr/economie/face-a-la-guerre-au-moyen-orient-les-etats-europeens-s-opposent-sur-le-sort-du-marche-carbone-20260318",
         "date_iso": "2026-03-18T13:54:18+01:00",
+        "date_fr": "18/03/2026",
+        "pertinence": 1
+      },
+      {
+        "source": "Euractiv FR",
+        "couleur": "#0369a1",
+        "emoji": "🇪🇺",
+        "tag": "Europe & politique",
+        "titre": "Un scandale d espionnage secoue la campagne électorale en Slovénie",
+        "resume": "Cette polémique survient dans un contexte de tensions croissantes à l'approche du scrutin du 22 mars, les enregistrements ayant été largement diffusés sur Internet et relayés par le SDS The post Un scandale d&rsquo;espionnage secoue la campagne électorale en Slovénie appeared first on Euractiv FR .",
+        "lien": "https://euractiv.fr/news/un-scandale-despionnage-secoue-la-campagne-electorale-en-slovenie/",
+        "date_iso": "2026-03-18T13:49:29+00:00",
         "date_fr": "18/03/2026",
         "pertinence": 1
       },
@@ -511,18 +523,6 @@
         "date_iso": "2026-03-18T08:49:49+00:00",
         "date_fr": "18/03/2026",
         "pertinence": 0
-      },
-      {
-        "source": "Euractiv FR",
-        "couleur": "#0369a1",
-        "emoji": "🇪🇺",
-        "tag": "Europe & politique",
-        "titre": "La guerre en Iran transforme l’Ukraine en exportateur de sécurité",
-        "resume": "Kiev propose à ses alliés une expertise éprouvée sur le terrain pour lutter contre les drones iraniens The post La guerre en Iran transforme l’Ukraine en exportateur de sécurité appeared first on Euractiv FR .",
-        "lien": "https://euractiv.fr/news/la-guerre-en-iran-transforme-lukraine-en-exportateur-de-securite/",
-        "date_iso": "2026-03-18T08:41:41+00:00",
-        "date_fr": "18/03/2026",
-        "pertinence": 0
       }
     ]
   },
@@ -640,58 +640,63 @@
   "chomage": [
     {
       "trimestre": "T1 2023",
-      "taux": 7.1,
-      "jeunes": 17.5
+      "taux": 6.9,
+      "jeunes": 16.6
     },
     {
       "trimestre": "T2 2023",
-      "taux": 7.2,
-      "jeunes": 17.0
+      "taux": 7.0,
+      "jeunes": 17.1
     },
     {
       "trimestre": "T3 2023",
-      "taux": 7.4,
-      "jeunes": 17.6
+      "taux": 7.2,
+      "jeunes": 17.4
     },
     {
       "trimestre": "T4 2023",
-      "taux": 7.5,
+      "taux": 7.3,
       "jeunes": 17.6
     },
     {
       "trimestre": "T1 2024",
-      "taux": 7.5,
+      "taux": 7.3,
       "jeunes": 18.1
     },
     {
       "trimestre": "T2 2024",
-      "taux": 7.3,
-      "jeunes": 17.7
+      "taux": 7.1,
+      "jeunes": 18.0
     },
     {
       "trimestre": "T3 2024",
-      "taux": 7.4,
-      "jeunes": 18.3
+      "taux": 7.2,
+      "jeunes": 19.7
     },
     {
       "trimestre": "T4 2024",
-      "taux": 7.3,
-      "jeunes": 19.0
+      "taux": 7.1,
+      "jeunes": 18.7
     },
     {
       "trimestre": "T1 2025",
-      "taux": 7.4,
-      "jeunes": 18.5
+      "taux": 7.3,
+      "jeunes": 19.2
     },
     {
       "trimestre": "T2 2025",
-      "taux": 7.5,
-      "jeunes": 18.8
+      "taux": 7.4,
+      "jeunes": 19.1
     },
     {
       "trimestre": "T3 2025",
+      "taux": 7.5,
+      "jeunes": 19.1
+    },
+    {
+      "trimestre": "T4 2025",
       "taux": 7.7,
-      "jeunes": 19.2
+      "jeunes": 21.5
     }
   ],
   "smic": {
@@ -766,14 +771,14 @@
   ],
   "indicateurs_cles": {
     "taux_chomage_actuel": 7.7,
-    "taux_chomage_jeunes": 19.2,
+    "taux_chomage_jeunes": 21.5,
     "taux_emploi_seniors": 61.7,
     "inflation_annuelle": 0.9,
     "smic_brut": 1823.03,
     "smic_net": 1443.11,
     "salaire_median": 2190,
     "salaire_moyen": 2733,
-    "ecart_hf_eqtp": 14.0,
+    "ecart_hf_eqtp": 25.8,
     "difficultes_recrutement": 61,
     "irl_glissement": 0.79,
     "prix_gazole": 1.65,
@@ -813,36 +818,36 @@
   },
   "ecart_hommes_femmes": {
     "ecart_global": 21.8,
-    "ecart_eqtp": 14.0,
+    "ecart_eqtp": 25.8,
     "ecart_poste_comparable": 4.0,
     "evolution": [
       {
-        "annee": "2015",
-        "ecart": 18.4
-      },
-      {
-        "annee": "2017",
-        "ecart": 16.6
+        "annee": "2018",
+        "ecart": 23.2
       },
       {
         "annee": "2019",
-        "ecart": 16.1
+        "ecart": 23.8
+      },
+      {
+        "annee": "2020",
+        "ecart": 24.5
       },
       {
         "annee": "2021",
-        "ecart": 15.5
+        "ecart": 24.3
       },
       {
         "annee": "2022",
-        "ecart": 14.9
+        "ecart": 25.1
       },
       {
         "annee": "2023",
-        "ecart": 14.2
+        "ecart": 25.6
       },
       {
         "annee": "2024",
-        "ecart": 14.0
+        "ecart": 25.8
       }
     ]
   },
@@ -3805,7 +3810,7 @@
       "note_lecture": "Le TEC-10 mesure le rendement des emprunts d'Etat francais a 10 ans. Un taux eleve rencherit le cout de la dette publique et impacte les taux de credit immobilier."
     },
     "petrole_brent": {
-      "valeur": 108.29,
+      "valeur": 108.37,
       "date": "2026-03-18",
       "unite": "USD/baril",
       "source": "Yahoo Finance",
@@ -5325,29 +5330,29 @@
         },
         {
           "date": "2026-03-18",
-          "valeur": 108.29,
+          "valeur": 108.37,
           "ma50": 74.09,
           "ma200": 68.08
         }
       ],
       "variations": {
-        "jour": 4.71,
-        "semaine": 17.73,
-        "mois": 59.84,
-        "ytd": 78.26
+        "jour": 4.79,
+        "semaine": 17.82,
+        "mois": 59.96,
+        "ytd": 78.39
       },
       "min_max": {
         "min": 58.92,
         "min_date": "2025-12-16",
-        "max": 108.29,
+        "max": 108.37,
         "max_date": "2026-03-18"
       },
       "note_lecture": "Le prix du Brent influence directement les couts de transport et d'energie, donc l'inflation et le pouvoir d'achat des salaries."
     },
     "cac40": {
-      "valeur": 7986.44,
+      "valeur": 7994.98,
       "date": "2026-03-18",
-      "variation_jour_pct": 0.15,
+      "variation_jour_pct": 0.26,
       "unite": "points",
       "source": "Yahoo Finance",
       "nb_points": 256,
@@ -6884,16 +6889,16 @@
         },
         {
           "date": "2026-03-18",
-          "valeur": 7986.44,
-          "ma50": 8227.23,
-          "ma200": 7995.43
+          "valeur": 7994.98,
+          "ma50": 8227.4,
+          "ma200": 7995.47
         }
       ],
       "variations": {
-        "jour": 0.15,
-        "semaine": -0.69,
-        "mois": -3.97,
-        "ytd": -2.55
+        "jour": 0.26,
+        "semaine": -0.58,
+        "mois": -3.87,
+        "ytd": -2.44
       },
       "min_max": {
         "min": 6863.02,
@@ -8474,7 +8479,7 @@
       "note_lecture": "Le taux de change euro-dollar determine le prix de tout ce qui est importe en dollars : petrole, matieres premieres, electronique. Un euro faible rencherit les importations et alimente l'inflation."
     },
     "or": {
-      "valeur": 4866.9,
+      "valeur": 4882.1,
       "date": "2026-03-18",
       "unite": "USD/oz",
       "source": "Yahoo Finance",
@@ -9994,16 +9999,16 @@
         },
         {
           "date": "2026-03-18",
-          "valeur": 4866.9,
-          "ma50": 4946.56,
-          "ma200": 4050.84
+          "valeur": 4882.1,
+          "ma50": 4946.86,
+          "ma200": 4050.92
         }
       ],
       "variations": {
-        "jour": -2.68,
-        "semaine": -5.82,
-        "mois": -3.09,
-        "ytd": 12.81
+        "jour": -2.38,
+        "semaine": -5.52,
+        "mois": -2.79,
+        "ytd": 13.16
       },
       "min_max": {
         "min": 2951.3,
@@ -10014,7 +10019,7 @@
       "note_lecture": "L'or est la valeur refuge par excellence. Sa hausse traduit une montee de l'incertitude economique ou geopolitique. Il sert aussi de protection contre l'inflation."
     },
     "gaz_naturel": {
-      "valeur": 55.12,
+      "valeur": 55.49,
       "date": "2026-03-18",
       "unite": "EUR/MWh",
       "source": "Yahoo Finance (TTF)",
@@ -11534,16 +11539,16 @@
         },
         {
           "date": "2026-03-18",
-          "valeur": 55.12,
-          "ma50": 38.15,
+          "valeur": 55.49,
+          "ma50": 38.16,
           "ma200": 33.66
         }
       ],
       "variations": {
-        "jour": 6.9,
-        "semaine": 10.26,
-        "mois": 69.6,
-        "ytd": 90.07
+        "jour": 7.62,
+        "semaine": 11.0,
+        "mois": 70.74,
+        "ytd": 91.34
       },
       "min_max": {
         "min": 26.6,
@@ -11554,7 +11559,7 @@
       "note_lecture": "Le prix du gaz naturel (TTF europeen) impacte directement les factures de chauffage et d'electricite des menages, ainsi que les couts de production industrielle."
     },
     "ble": {
-      "valeur": 598.25,
+      "valeur": 593.75,
       "date": "2026-03-18",
       "unite": "cents/boisseau",
       "source": "Yahoo Finance",
@@ -13068,16 +13073,16 @@
         },
         {
           "date": "2026-03-18",
-          "valeur": 598.25,
-          "ma50": 549.05,
-          "ma200": 530.4
+          "valeur": 593.75,
+          "ma50": 548.97,
+          "ma200": 530.38
         }
       ],
       "variations": {
-        "jour": 1.44,
-        "semaine": 1.66,
-        "mois": 9.02,
-        "ytd": 18.11
+        "jour": 0.68,
+        "semaine": 0.89,
+        "mois": 8.2,
+        "ytd": 17.23
       },
       "min_max": {
         "min": 495.0,
@@ -16291,7 +16296,7 @@
     "sources": "INSEE - Enquête Emploi, DARES"
   },
   "previsions_cftc": {
-    "generated_at": "2026-03-18T13:49:37.937685",
+    "generated_at": "2026-03-18T13:58:06.406801",
     "model_version": "CFTC v4.0 (Monte Carlo)",
     "n_simulations": 1000,
     "horizon": "12 mois",
