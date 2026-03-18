@@ -7811,7 +7811,151 @@ function AideTab({darkMode}) {
     { terme: "Salaire minimum UE", definition: "Directive 2022/2041 demandant des salaires minimums 'adéquats'. Seuil indicatif: 60% du salaire médian ou 50% du salaire moyen.", categorie: "Europe", importance: "moyenne" },
     { terme: "Socle européen des droits sociaux", definition: "20 principes adoptés en 2017: emploi équitable, protection sociale, inclusion. Non contraignant mais influence les directives.", categorie: "Europe", importance: "basse" },
     { terme: "BCE", definition: "Banque Centrale Européenne. Fixe les taux d'intérêt de la zone euro. Objectif: inflation proche de 2%.", categorie: "Europe", importance: "moyenne" },
-    { terme: "Zone euro", definition: "20 pays de l'UE ayant adopté l'euro comme monnaie. Politique monétaire commune (BCE).", categorie: "Europe", importance: "basse" }
+    { terme: "Zone euro", definition: "20 pays de l'UE ayant adopté l'euro comme monnaie. Politique monétaire commune (BCE).", categorie: "Europe", importance: "basse" },
+
+    // ===== MACROÉCONOMIE =====
+    { terme: "PIB", definition: "Produit Intérieur Brut. Valeur totale des biens et services produits sur le territoire en un an. Principal indicateur de la taille d'une économie.", categorie: "Macroéconomie", importance: "haute" },
+    { terme: "PNB", definition: "Produit National Brut. Comme le PIB mais mesure la production des résidents français, y compris à l'étranger. Peu utilisé aujourd'hui.", categorie: "Macroéconomie", importance: "basse" },
+    { terme: "Croissance économique", definition: "Variation du PIB en volume sur une période. Une croissance positive signifie une hausse de la production. Négative = récession.", categorie: "Macroéconomie", importance: "haute" },
+    { terme: "Récession", definition: "Deux trimestres consécutifs de croissance négative. Entraîne généralement hausse du chômage et baisse de l'investissement.", categorie: "Macroéconomie", importance: "haute" },
+    { terme: "Stagflation", definition: "Situation rare combinant stagnation économique (chômage élevé) et inflation forte. Vécu en France lors du choc pétrolier de 1973.", categorie: "Macroéconomie", importance: "moyenne" },
+    { terme: "Déflation", definition: "Baisse généralisée et durable des prix. Paradoxalement néfaste: les ménages reportent leurs achats, l'économie se contracte (spirale déflationniste).", categorie: "Macroéconomie", importance: "moyenne" },
+    { terme: "Désinflation", definition: "Ralentissement de l'inflation: les prix continuent d'augmenter mais moins vite. Différent de la déflation.", categorie: "Macroéconomie", importance: "moyenne" },
+    { terme: "Productivité", definition: "Rapport entre la production et les facteurs utilisés (travail, capital). Productivité du travail = PIB / heures travaillées. Clé pour la compétitivité.", categorie: "Macroéconomie", importance: "haute" },
+    { terme: "Cycle économique", definition: "Alternance de phases d'expansion (croissance) et de contraction (récession). Durée moyenne : 7-10 ans. Théorisé par Juglar, Kondratiev.", categorie: "Macroéconomie", importance: "moyenne" },
+    { terme: "Politique monétaire", definition: "Action de la banque centrale sur la masse monétaire et les taux d'intérêt pour influencer l'activité économique et l'inflation.", categorie: "Macroéconomie", importance: "haute" },
+    { terme: "Politique budgétaire", definition: "Action de l'État via ses dépenses et ses recettes fiscales pour influencer l'activité économique. Peut être expansive ou restrictive.", categorie: "Macroéconomie", importance: "haute" },
+    { terme: "Politique d'austérité", definition: "Réduction des dépenses publiques et/ou hausse des impôts pour réduire le déficit. Controversée: peut aggraver la récession.", categorie: "Macroéconomie", importance: "haute" },
+    { terme: "Déficit public", definition: "Excédent des dépenses de l'État sur ses recettes. Exprimé en % du PIB. Critère de Maastricht: < 3% du PIB.", categorie: "Macroéconomie", importance: "haute" },
+    { terme: "Dette publique", definition: "Cumul des déficits passés. France: ~110% du PIB en 2025. Critère de Maastricht: < 60% du PIB.", categorie: "Macroéconomie", importance: "haute" },
+    { terme: "Taux directeur", definition: "Taux d'intérêt fixé par la banque centrale auquel les banques commerciales empruntent. Influence tous les autres taux de l'économie.", categorie: "Macroéconomie", importance: "haute" },
+    { terme: "Quantitative Easing (QE)", definition: "Politique non-conventionnelle: la banque centrale achète des actifs (obligations) pour injecter des liquidités dans l'économie. Utilisé massivement post-2008.", categorie: "Macroéconomie", importance: "moyenne" },
+    { terme: "Balance commerciale", definition: "Différence entre exportations et importations. Excédentaire si on exporte plus qu'on importe. France: déficitaire depuis 2004.", categorie: "Macroéconomie", importance: "moyenne" },
+    { terme: "Compétitivité", definition: "Capacité d'une entreprise ou d'un pays à maintenir ou accroître ses parts de marché. Compétitivité-prix (coûts) vs compétitivité hors-prix (qualité, innovation).", categorie: "Macroéconomie", importance: "moyenne" },
+    { terme: "Indicateur avancé", definition: "Indicateur qui prédit l'évolution économique future: commandes industrielles, confiance des ménages, prix des matières premières.", categorie: "Macroéconomie", importance: "basse" },
+    { terme: "Pouvoir d'achat", definition: "Quantité de biens et services qu'un revenu permet d'acheter. Évolue selon l'écart entre hausse des revenus et inflation.", categorie: "Macroéconomie", importance: "haute" },
+
+    // ===== FINANCE ET MARCHÉS =====
+    { terme: "CAC 40", definition: "Principal indice boursier français: les 40 plus grandes capitalisations de la Bourse de Paris. Créé en 1987, base 1000.", categorie: "Finance", importance: "moyenne" },
+    { terme: "Obligations", definition: "Titres de dette émis par l'État ou les entreprises. L'acheteur prête de l'argent et reçoit des intérêts (coupon). Moins risqués que les actions.", categorie: "Finance", importance: "moyenne" },
+    { terme: "Taux d'intérêt", definition: "Prix de l'argent emprunté, exprimé en %. Taux directeur (BCE), taux d'emprunt immobilier, taux de rémunération de l'épargne.", categorie: "Finance", importance: "haute" },
+    { terme: "Spread", definition: "Écart entre deux taux d'intérêt. Ex: spread OAT-Bund = différence entre taux d'emprunt français et allemand. Mesure la confiance des marchés.", categorie: "Finance", importance: "basse" },
+    { terme: "OAT", definition: "Obligation Assimilable du Trésor. Titre de dette émis par l'État français pour financer son déficit. Référence pour les taux longs en France.", categorie: "Finance", importance: "basse" },
+    { terme: "Livret A", definition: "Compte d'épargne réglementé, défiscalisé, garanti par l'État. Taux fixé par la Banque de France (2,4% en 2025). Plafond: 22 950€.", categorie: "Finance", importance: "moyenne" },
+    { terme: "PEA", definition: "Plan d'Épargne en Actions. Enveloppe fiscalement avantageuse pour investir en actions européennes. Exonération d'impôt après 5 ans.", categorie: "Finance", importance: "basse" },
+    { terme: "Assurance-vie", definition: "Premier produit d'épargne français (1 900 Mds€). Fiscalité avantageuse après 8 ans. Fonds euros (garanti) + unités de compte (risqués).", categorie: "Finance", importance: "moyenne" },
+    { terme: "Capital-risque", definition: "Investissement dans des jeunes entreprises innovantes à fort potentiel mais risque élevé. Moteur de la création de startups.", categorie: "Finance", importance: "basse" },
+    { terme: "Hedge fund", definition: "Fonds d'investissement spéculatif utilisant des stratégies complexes (vente à découvert, effet de levier). Peu régulés, réservés aux investisseurs institutionnels.", categorie: "Finance", importance: "basse" },
+    { terme: "Krach boursier", definition: "Chute brutale et massive des cours boursiers (-20% en peu de temps). Exemples: 1929, 1987, 2000, 2008. Souvent déclenchés par une panique collective.", categorie: "Finance", importance: "moyenne" },
+    { terme: "Bulle spéculative", definition: "Hausse excessive des prix d'un actif déconnectée des fondamentaux économiques. Finit toujours par éclater. Ex: tulipes (1637), immobilier US (2006).", categorie: "Finance", importance: "moyenne" },
+    { terme: "Dividende", definition: "Part des bénéfices d'une entreprise distribuée à ses actionnaires. Controversé: certains jugent qu'il capte de la valeur au détriment des salariés.", categorie: "Finance", importance: "moyenne" },
+    { terme: "Rachat d'actions", definition: "L'entreprise rachète ses propres actions pour les annuler, augmentant la valeur des actions restantes. Alternative au dividende, fiscal plus avantageux.", categorie: "Finance", importance: "basse" },
+
+    // ===== IMMOBILIER =====
+    { terme: "IRL", definition: "Indice de Référence des Loyers. Calculé par l'INSEE chaque trimestre sur base de l'inflation. Plafonne les révisions de loyers en France.", categorie: "Immobilier", importance: "haute" },
+    { terme: "ICC", definition: "Indice du Coût de la Construction. Publié par l'INSEE, sert à réviser certains baux commerciaux.", categorie: "Immobilier", importance: "basse" },
+    { terme: "PTZ", definition: "Prêt à Taux Zéro. Aide de l'État pour les primo-accédants sous conditions de ressources. Ne finance qu'une partie du bien.", categorie: "Immobilier", importance: "moyenne" },
+    { terme: "Taux d'effort", definition: "Part du revenu consacrée au logement. Seuil critique: 33% (banques) ou 40% (réalité pour les ménages modestes). En hausse depuis 2000.", categorie: "Immobilier", importance: "haute" },
+    { terme: "Bulle immobilière", definition: "Hausse des prix de l'immobilier déconnectée des revenus et des fondamentaux. France: prix/revenus au plus haut historique dans les grandes villes.", categorie: "Immobilier", importance: "moyenne" },
+    { terme: "DALO", definition: "Droit Au Logement Opposable. Permet aux mal-logés de faire valoir leur droit à un logement devant les tribunaux si l'État ne le leur fournit pas.", categorie: "Immobilier", importance: "basse" },
+    { terme: "HLM/HJS", definition: "Habitation à Loyer Modéré. Logement social dont le loyer est plafonné en fonction des ressources. 5,4 millions de logements en France, 2,5M sur liste d'attente.", categorie: "Immobilier", importance: "moyenne" },
+    { terme: "Encadrement des loyers", definition: "Dispositif limitant les loyers à un plafond dans certaines zones tendues (Paris, Lyon, Bordeaux...). Contesté par les propriétaires.", categorie: "Immobilier", importance: "moyenne" },
+
+    // ===== DROIT DU TRAVAIL =====
+    { terme: "Licenciement économique", definition: "Rupture du contrat de travail pour motif économique: difficultés économiques, mutations technologiques, cessation d'activité. Procédure stricte.", categorie: "Droit du travail", importance: "haute" },
+    { terme: "Licenciement pour faute", definition: "Rupture du contrat pour faute simple (insuffisance professionnelle), faute grave (pas de préavis), ou faute lourde (intention de nuire).", categorie: "Droit du travail", importance: "haute" },
+    { terme: "Rupture conventionnelle", definition: "Rupture du contrat d'un commun accord. Salarié touche les allocations chômage. +500 000 par an en France. Contestée car peut dissimuler un licenciement.", categorie: "Droit du travail", importance: "haute" },
+    { terme: "Préavis", definition: "Délai entre notification de la rupture et fin effective du contrat. Varie selon l'ancienneté et la catégorie. Peut être inexécuté (indemnité compensatrice).", categorie: "Droit du travail", importance: "haute" },
+    { terme: "Indemnité de licenciement", definition: "Indemnité légale minimum: 1/4 de mois de salaire par année d'ancienneté (jusqu'à 10 ans), 1/3 au-delà. La convention peut prévoir plus.", categorie: "Droit du travail", importance: "haute" },
+    { terme: "Barème Macron", definition: "Plafonnement des dommages-intérêts en cas de licenciement sans cause réelle (1 mois/an d'ancienneté, max 20 mois). Critiqué pour son effet dissuasif sur les recours.", categorie: "Droit du travail", importance: "haute" },
+    { terme: "Période d'essai", definition: "Période initiale du contrat permettant à chacun d'évaluer l'autre. CDI: 2 mois ouvriers, 3 mois agents de maîtrise, 4 mois cadres. Renouvelable une fois.", categorie: "Droit du travail", importance: "moyenne" },
+    { terme: "Clause de non-concurrence", definition: "Clause interdisant au salarié de travailler chez un concurrent après son départ. Doit être limitée en zone, durée et activité, et être compensée financièrement.", categorie: "Droit du travail", importance: "moyenne" },
+    { terme: "Harcèlement moral", definition: "Agissements répétés dégradant les conditions de travail, portant atteinte aux droits et à la dignité, altérant la santé. Définition: L.1152-1 Code du travail.", categorie: "Droit du travail", importance: "haute" },
+    { terme: "Discrimination au travail", definition: "Traitement défavorable basé sur un critère prohibé (sexe, âge, origine, syndicat, grossesse...). 25 critères protégés. Sanction pénale + civile.", categorie: "Droit du travail", importance: "haute" },
+    { terme: "Obligation de sécurité", definition: "L'employeur a une obligation de résultat sur la sécurité physique et mentale des salariés. La faute inexcusable engage sa responsabilité aggravée.", categorie: "Droit du travail", importance: "haute" },
+    { terme: "Document unique (DUERP)", definition: "Document Unique d'Évaluation des Risques Professionnels. Obligatoire pour tout employeur, mis à jour annuellement et après tout accident.", categorie: "Droit du travail", importance: "moyenne" },
+    { terme: "Inaptitude professionnelle", definition: "Constat médical du médecin du travail qu'un salarié ne peut plus occuper son poste. L'employeur doit rechercher un reclassement avant de licencier.", categorie: "Droit du travail", importance: "moyenne" },
+    { terme: "Plan de Sauvegarde de l'Emploi (PSE)", definition: "Obligatoire pour les licenciements collectifs de +10 salariés dans une entreprise de +50 salariés. Doit inclure des mesures de reclassement.", categorie: "Droit du travail", importance: "haute" },
+    { terme: "Accord de performance collective", definition: "Accord permettant de modifier durée du travail ou rémunération pour préserver l'emploi. Le salarié refusant peut être licencié (motif sui generis).", categorie: "Droit du travail", importance: "moyenne" },
+    { terme: "Télétravail", definition: "Travail effectué hors des locaux de l'employeur, via les technologies. Droit ouvert depuis 2017, généralisé par le Covid. Accord ou charte nécessaire.", categorie: "Droit du travail", importance: "haute" },
+    { terme: "Droit à la déconnexion", definition: "Droit pour le salarié de ne pas être connecté aux outils numériques professionnels en dehors de ses horaires. Doit faire l'objet d'une charte ou d'un accord.", categorie: "Droit du travail", importance: "moyenne" },
+    { terme: "Forfait jours", definition: "Convention individuelle de forfait pour cadres autonomes: 218 jours/an max. Pas d'heures supplémentaires mais repos obligatoires. Fait l'objet de contentieux.", categorie: "Droit du travail", importance: "moyenne" },
+    { terme: "Astreinte", definition: "Période où le salarié doit rester disponible sans être sur son lieu de travail. Compensée financièrement même si aucune intervention n'a lieu.", categorie: "Droit du travail", importance: "basse" },
+    { terme: "Portabilité des droits", definition: "Conservation des droits à la prévoyance et mutuelle pendant 12 mois max après rupture du contrat. Financée par les anciens collègues via la mutualisation.", categorie: "Droit du travail", importance: "basse" },
+
+    // ===== PROTECTION SOCIALE ÉLARGIE =====
+    { terme: "APA", definition: "Allocation Personnalisée d'Autonomie. Aide aux personnes âgées dépendantes (GIR 1 à 4) pour financer les soins à domicile ou en établissement.", categorie: "Protection sociale", importance: "basse" },
+    { terme: "MDPH", definition: "Maison Départementale des Personnes Handicapées. Attribue les droits liés au handicap: AAH, RQTH, PCH, carte mobilité inclusion.", categorie: "Protection sociale", importance: "basse" },
+    { terme: "AAH", definition: "Allocation aux Adultes Handicapés. Revenu de substitution pour les personnes handicapées ne pouvant pas travailler. ~1 000€/mois.", categorie: "Protection sociale", importance: "moyenne" },
+    { terme: "RSA", definition: "Revenu de Solidarité Active. Minimum social garantissant un revenu aux personnes sans ressources ou à faibles ressources (~635€/mois personne seule). Géré par les départements.", categorie: "Protection sociale", importance: "haute" },
+    { terme: "Prime d'activité", definition: "Complément de revenu pour les travailleurs modestes. Versée par la CAF, cumulable avec un salaire. Environ 4 millions de bénéficiaires.", categorie: "Protection sociale", importance: "haute" },
+    { terme: "APL", definition: "Aide Personnalisée au Logement. Aide de la CAF pour réduire le loyer ou les mensualités. Versée directement au bailleur dans la plupart des cas.", categorie: "Protection sociale", importance: "haute" },
+    { terme: "Minimum vieillesse (ASPA)", definition: "Allocation de Solidarité aux Personnes Agées. Revenu minimum garanti aux retraités ayant une retraite insuffisante (~916€/mois en 2025).", categorie: "Protection sociale", importance: "moyenne" },
+    { terme: "Complémentaire santé obligatoire", definition: "Depuis 2016, l'employeur doit proposer une mutuelle à tous ses salariés et financer 50% de la cotisation.", categorie: "Protection sociale", importance: "haute" },
+
+    // ===== EMPLOI ÉLARGI =====
+    { terme: "NEET", definition: "Not in Education, Employment or Training. Jeunes ni en emploi, ni en études, ni en formation. En France: ~12% des 15-29 ans.", categorie: "Emploi", importance: "moyenne" },
+    { terme: "Halo du chômage", definition: "Personnes proches du chômage mais non comptées dans le taux BIT: découragés, disponibles mais ne cherchant plus, cherchant mais pas disponibles.", categorie: "Emploi", importance: "moyenne" },
+    { terme: "SAS (Travail saisonnier)", definition: "Contrat de travail pour des activités saisonnières (agriculture, tourisme). Permet les CDD successifs sans délai de carence.", categorie: "Emploi", importance: "basse" },
+    { terme: "Portage salarial", definition: "Forme hybride entre salariat et indépendance. Une entreprise de portage emploie le consultant qui facture ses clients. Il bénéficie de la protection salariale.", categorie: "Emploi", importance: "basse" },
+    { terme: "Groupement d'employeurs", definition: "Structure permettant à plusieurs PME de partager des salariés à temps partiel. Évite le travail précaire tout en offrant de la flexibilité aux employeurs.", categorie: "Emploi", importance: "basse" },
+    { terme: "Emplois francs", definition: "Aide à l'embauche pour les personnes résidant dans les quartiers prioritaires de la politique de la ville (QPV). 5 000€/an sur 3 ans pour un CDI.", categorie: "Emploi", importance: "basse" },
+    { terme: "Contrat de professionnalisation", definition: "Alternance combinant formation et travail en entreprise pour adultes (+ de 26 ans) ou jeunes. Salaire: 55 à 100% du SMIC selon l'âge et le diplôme.", categorie: "Emploi", importance: "moyenne" },
+    { terme: "CEJ", definition: "Contrat d'Engagement Jeune. Accompagnement intensif des jeunes NEET vers l'emploi (15h+ activités/semaine). Allocation allant jusqu'à 528€/mois.", categorie: "Emploi", importance: "basse" },
+
+    // ===== INDICATEURS ÉCONOMIQUES =====
+    { terme: "Taux d'épargne", definition: "Part du revenu disponible non consommée. Élevé en France (~17%). Monte en période d'incertitude (épargne de précaution).", categorie: "Indicateurs", importance: "moyenne" },
+    { terme: "Confiance des ménages", definition: "Indicateur INSEE mensuel mesurant l'optimisme/pessimisme des ménages sur leur situation financière et l'économie. Prédit la consommation.", categorie: "Indicateurs", importance: "moyenne" },
+    { terme: "PMI", definition: "Purchasing Managers Index. Enquête mensuelle auprès des directeurs achats. Au-dessus de 50 = expansion, en dessous = contraction. Indicateur avancé.", categorie: "Indicateurs", importance: "moyenne" },
+    { terme: "ISM", definition: "Institute for Supply Management. Équivalent américain du PMI, très suivi par les marchés financiers.", categorie: "Indicateurs", importance: "basse" },
+    { terme: "IPC", definition: "Indice des Prix à la Consommation. Mesure l'inflation ressentie par les ménages. Panier de référence de ~300 produits et services mis à jour annuellement.", categorie: "Indicateurs", importance: "haute" },
+    { terme: "IPCH", definition: "Indice des Prix à la Consommation Harmonisé. Version européenne de l'IPC, permettant des comparaisons entre pays de la zone euro.", categorie: "Indicateurs", importance: "basse" },
+    { terme: "Déflateur du PIB", definition: "Mesure de l'inflation basée sur l'ensemble de la production (vs panier de consommation pour l'IPC). Utilisé pour calculer le PIB en volume.", categorie: "Indicateurs", importance: "basse" },
+    { terme: "Taux de marge", definition: "Excédent Brut d'Exploitation (EBE) / Valeur Ajoutée. Mesure la part de la richesse produite captée par le capital. France: ~32,5% en 2024.", categorie: "Indicateurs", importance: "haute" },
+    { terme: "GFCF", definition: "Formation Brute de Capital Fixe. Mesure l'investissement des entreprises, ménages et administrations. Indicateur de la capacité productive future.", categorie: "Indicateurs", importance: "basse" },
+    { terme: "Taux d'emploi", definition: "Part de la population en âge de travailler (15-64 ans) ayant un emploi. Objectif UE: 78% en 2030. France: ~69%.", categorie: "Indicateurs", importance: "moyenne" },
+    { terme: "Enquête ACEMO", definition: "Enquête sur l'Activité et les Conditions d'EMploi de la main-d'Œuvre. Source DARES pour les statistiques sur les salaires et le temps de travail.", categorie: "Indicateurs", importance: "basse" },
+
+    // ===== PARTAGE DE LA VALEUR =====
+    { terme: "Valeur ajoutée (VA)", definition: "Richesse créée par une entreprise = Production - Consommations intermédiaires. Se partage entre salaires, cotisations, impôts, amortissements et profits.", categorie: "Partage VA", importance: "haute" },
+    { terme: "EBE (Excédent Brut d'Exploitation)", definition: "Part de la VA restant à l'entreprise après paiement des salaires et impôts de production. Finance l'investissement, la dette et les dividendes.", categorie: "Partage VA", importance: "haute" },
+    { terme: "Taux de profit", definition: "Rapport entre le profit et le capital investi. Indicateur de la rentabilité du capital. En hausse depuis les années 1980.", categorie: "Partage VA", importance: "moyenne" },
+    { terme: "Coût du travail", definition: "Total des dépenses liées à l'emploi: salaire brut + cotisations patronales - aides de l'État. France: parmi les plus élevés d'Europe mais compensé par la productivité.", categorie: "Partage VA", importance: "haute" },
+    { terme: "Part salariale", definition: "Part des salaires (+ cotisations) dans la valeur ajoutée. En France: ~58%. En baisse de ~10 points depuis 1980 au profit du capital.", categorie: "Partage VA", importance: "haute" },
+    { terme: "Coefficient de Gini", definition: "Mesure les inégalités de revenus: 0 = égalité parfaite, 1 = inégalité maximale. France: 0,29 (relativement égalitaire vs 0,41 aux USA).", categorie: "Partage VA", importance: "moyenne" },
+    { terme: "Rapport D9/D1", definition: "Rapport entre le 9ème décile et le 1er décile de salaires. Mesure l'écart entre hauts et bas salaires. France: D9/D1 ≈ 2,9 (relativement faible).", categorie: "Partage VA", importance: "moyenne" },
+    { terme: "Top 1%", definition: "Les 1% les plus riches. En France, leur part dans les revenus est passée de ~7% (1980) à ~10-11% (2024). Moins extrême qu'aux USA (~20%).", categorie: "Partage VA", importance: "moyenne" },
+
+    // ===== IRP ET REPRÉSENTATION =====
+    { terme: "Procès-verbal de carence", definition: "Document constatant qu'aucun candidat ne s'est présenté aux élections CSE. L'employeur est dispensé d'organiser de nouvelles élections pendant 4 ans.", categorie: "IRP", importance: "basse" },
+    { terme: "Base de données économiques (BDES/BDESE)", definition: "Base de Données Économiques Sociales et Environnementales. Mise à disposition du CSE pour l'exercice de ses missions. Contenu défini par accord ou décret.", categorie: "IRP", importance: "haute" },
+    { terme: "Consultation récurrente", definition: "3 consultations annuelles obligatoires du CSE: orientations stratégiques, situation économique et financière, politique sociale.", categorie: "IRP", importance: "haute" },
+    { terme: "Droit d'alerte économique", definition: "Possibilité pour le CSE de demander des informations à l'employeur en cas de préoccupation sur la situation économique de l'entreprise.", categorie: "IRP", importance: "haute" },
+    { terme: "Droit d'alerte sociale", definition: "Le CSE peut alerter l'employeur et l'inspecteur du travail sur toute atteinte aux droits des personnes ou tout fait contraire aux réglementations.", categorie: "IRP", importance: "haute" },
+    { terme: "Commission de suivi", definition: "Instance paritaire créée par un accord pour surveiller son application. Obligatoire pour certains accords collectifs (participation, intéressement...).", categorie: "IRP", importance: "basse" },
+    { terme: "RSS", definition: "Représentant Syndical au Comité Social et Économique. Désigné par les OS dans les entreprises >500 salariés. Assiste aux séances du CSE sans voix délibérative.", categorie: "IRP", importance: "basse" },
+
+    // ===== EUROPE ÉLARGI =====
+    { terme: "Fonds structurels (FSE+)", definition: "Fonds Social Européen Plus. Finance la formation, l'emploi et l'inclusion en Europe. La France bénéficie de ~5 Mds€ sur 2021-2027.", categorie: "Europe", importance: "basse" },
+    { terme: "Semestre européen", definition: "Cycle annuel de coordination des politiques économiques entre les États membres. La Commission émet des recommandations sur les budgets nationaux.", categorie: "Europe", importance: "basse" },
+    { terme: "Mécanisme Européen de Stabilité (MES)", definition: "Fonds de secours pour les États de la zone euro en difficulté financière. A aidé Grèce, Irlande, Portugal, Espagne, Chypre post-2010.", categorie: "Europe", importance: "basse" },
+    { terme: "Pacte de stabilité et de croissance", definition: "Règles budgétaires de l'UE: déficit <3% du PIB, dette <60%. Suspendu pendant le Covid, réformé en 2024 pour plus de flexibilité.", categorie: "Europe", importance: "moyenne" },
+    { terme: "ETUI", definition: "European Trade Union Institute. Centre de recherche de la CES (Confédération Européenne des Syndicats). Produit des études sur le droit social européen.", categorie: "Europe", importance: "basse" },
+    { terme: "Comité d'entreprise européen (CEE)", definition: "Instance de représentation des salariés dans les multinationales opérant dans 2+ pays de l'UE avec >1000 salariés au total.", categorie: "Europe", importance: "moyenne" },
+
+    // ===== ENVIRONNEMENT ET TRANSITION =====
+    { terme: "Taxe carbone", definition: "Prélèvement sur les émissions de CO₂. En France via la contribution énergie-climat. Objectif: inciter à réduire les émissions et financer la transition.", categorie: "Environnement", importance: "moyenne" },
+    { terme: "Marché carbone (ETS)", definition: "Système d'échange de quotas d'émissions européen. Les entreprises polluantes doivent acheter des droits à polluer. Prix: ~60-90€/tonne CO₂.", categorie: "Environnement", importance: "basse" },
+    { terme: "Emplois verts", definition: "Emplois contribuant à réduire l'impact environnemental. En forte croissance: énergies renouvelables, rénovation thermique, transports durables.", categorie: "Environnement", importance: "basse" },
+    { terme: "Devoir de vigilance", definition: "Loi 2017 obligeant les grandes entreprises françaises à identifier et prévenir les risques sociaux et environnementaux de leurs filiales et sous-traitants.", categorie: "Environnement", importance: "moyenne" },
+    { terme: "Bilan carbone (bilan GES)", definition: "Inventaire des émissions de gaz à effet de serre d'une organisation. Obligatoire pour les entreprises >500 salariés tous les 4 ans.", categorie: "Environnement", importance: "basse" },
+
+    // ===== NUMÉRIQUE ET FUTUR DU TRAVAIL =====
+    { terme: "Plateforme (travail)", definition: "Modèle d'entreprise utilisant une application pour mettre en relation des travailleurs indépendants avec des clients (Uber, Deliveroo). Statut juridique contesté.", categorie: "Numérique", importance: "haute" },
+    { terme: "Ubérisation", definition: "Transformation d'un secteur par des plateformes numériques remplaçant des emplois salariés par du travail indépendant. Désintermédie et flexibilise.", categorie: "Numérique", importance: "haute" },
+    { terme: "IA et emploi", definition: "Les études divergent: l'IA détruirait 30% des emplois actuels (McKinsey) mais en créerait autant. Les emplois routiniers (bureau, logistique) sont les plus exposés.", categorie: "Numérique", importance: "haute" },
+    { terme: "Revenu universel de base (RUB)", definition: "Allocation versée à tous les citoyens sans condition. Expérimenté en Finlande (2017-2018), Écosse, Espagne. Débat sur son financement et ses effets sur l'offre de travail.", categorie: "Numérique", importance: "basse" },
+    { terme: "Semaine de 4 jours", definition: "Organisation du travail sur 4 jours au lieu de 5, sans réduction de salaire. Expérimentée dans plusieurs pays (Islande, Belgique, UK). Résultats positifs sur le bien-être.", categorie: "Numérique", importance: "moyenne" },
   ];
 
   const categories = [...new Set(glossaire.map(g => g.categorie))].sort();
@@ -7851,7 +7995,7 @@ function AideTab({darkMode}) {
     <div className="space-y-4">
       <div className={`p-4 rounded-2xl ${darkMode ? 'bg-gradient-to-r from-purple-900 to-indigo-900' : 'bg-gradient-to-r from-purple-600 to-indigo-600'} text-white`}>
         <h2 className="text-lg font-bold">📖 Aide & Glossaire</h2>
-        <p className="text-sm opacity-80">Plus de 120 termes expliqués pour maîtriser les NAO et l'économie</p>
+        <p className="text-sm opacity-80">Plus de 270 termes expliqués pour maîtriser les NAO et l'économie</p>
       </div>
 
       {/* Navigation */}
