@@ -2280,7 +2280,7 @@ def build_changelog():
                 {
                     "type": "features",
                     "titre": "Mémoire des crises",
-                    "description": "Dans la partie évolutions, vous pourrez vos documenter sur les crises économiques contemporaines et visualiser les évolution d'indicateurs essentiels"
+                    "description": "Dans la partie évolutions, vous pourrez vous documenter sur les crises économiques contemporaines et visualiser les évolution d'indicateurs essentiels"
                 }
             ]
         },
