@@ -420,7 +420,7 @@ const useChartProps = (darkMode) => {
 // ==================== COMPOSANT PRINCIPAL APP ====================
 export default function App() {
   const [data, setData] = useState(null);
-  const [modalTab, setModalTab] = useState('nouveautes'); // 'nouveautes' ou 'miseajour'
+  const [modalTab, setModalTab] = useState('miseajour'); // 'nouveautes' ou 'miseajour'
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState(null);
   const [tab, setTab] = useState('conjoncture');
