@@ -1,6 +1,6 @@
 {
-  "last_updated": "18/03/2026 13:08",
-  "last_updated_iso": "2026-03-18T13:08:41.855972",
+  "last_updated": "18/03/2026 13:24",
+  "last_updated_iso": "2026-03-18T13:24:32.687396",
   "contact": "hspringragain@cftc.fr",
   "alertes": [
     {
@@ -32,7 +32,7 @@
       "date": "2026-03-18",
       "type": "info",
       "titre": "🔄 Données actualisées",
-      "message": "Le tableau de bord a été mis à jour le 18/03/2026 à 13:08.",
+      "message": "Le tableau de bord a été mis à jour le 18/03/2026 à 13:24.",
       "onglet": "conjoncture"
     }
   ],
@@ -151,7 +151,7 @@
     }
   ],
   "revue_presse": {
-    "derniere_maj": "18/03/2026 13:08",
+    "derniere_maj": "18/03/2026 13:24",
     "nb_sources": 7,
     "sources_noms": [
       "Le Monde Éco",
@@ -164,6 +164,18 @@
     ],
     "a_la_une": [],
     "tous": [
+      {
+        "source": "Le Figaro Éco",
+        "couleur": "#92400e",
+        "emoji": "📊",
+        "tag": "Presse économique",
+        "titre": "Intelligence artificielle : le gouvernement américain juge qu’Anthropic lui fait courir un risque «inacceptable»",
+        "resume": "Pour justifier sa décision de classer Anthropic comme une société «à risque», le gouvernement américain dit craindre que «le fait de permettre à Anthropic de continuer à accéder à son infrastructure technique et opérationnelle de conduite des opérations militaires n’introduise un risque inacceptable",
+        "lien": "https://www.lefigaro.fr/secteur/high-tech/intelligence-artificielle-le-gouvernement-americain-juge-qu-anthropic-lui-fait-courir-un-risque-inacceptable-20260318",
+        "date_iso": "2026-03-18T14:12:37+01:00",
+        "date_fr": "18/03/2026",
+        "pertinence": 0
+      },
       {
         "source": "Le Monde Éco",
         "couleur": "#374151",
@@ -511,18 +523,6 @@
         "date_iso": "2026-03-18T07:17:36+00:00",
         "date_fr": "18/03/2026",
         "pertinence": 1
-      },
-      {
-        "source": "Le Monde Éco",
-        "couleur": "#374151",
-        "emoji": "🌐",
-        "tag": "Presse économique",
-        "titre": "Choisir sa place dans un monde en mutation",
-        "resume": "L’interruption du CDI est de plus en plus fréquente chez les jeunes à peine entrés sur le marché du travail, et le phénomène a tendance à s’accélérer, constate Anne Rodier, journaliste au « Monde », dans sa chronique.",
-        "lien": "https://www.lemonde.fr/emploi/article/2026/03/18/choisir-sa-place-dans-un-monde-en-mutation_6672023_1698637.html",
-        "date_iso": "2026-03-18T06:30:15+01:00",
-        "date_fr": "18/03/2026",
-        "pertinence": 2
       }
     ]
   },
@@ -1086,57 +1086,57 @@
   "difficultes_recrutement": [
     {
       "trimestre": "T1 2023",
-      "industrie": 52,
-      "services": 38,
-      "construction": 65
+      "industrie": 65,
+      "services": 48,
+      "construction": 78
     },
     {
       "trimestre": "T2 2023",
-      "industrie": 50,
-      "services": 36,
-      "construction": 62
+      "industrie": 64,
+      "services": 48,
+      "construction": 76
     },
     {
       "trimestre": "T3 2023",
-      "industrie": 48,
-      "services": 35,
-      "construction": 60
+      "industrie": 60,
+      "services": 45,
+      "construction": 72
     },
     {
       "trimestre": "T4 2023",
-      "industrie": 45,
-      "services": 33,
-      "construction": 58
+      "industrie": 57,
+      "services": 42,
+      "construction": 68
     },
     {
       "trimestre": "T1 2024",
-      "industrie": 43,
-      "services": 32,
-      "construction": 55
+      "industrie": 53,
+      "services": 39,
+      "construction": 63
     },
     {
       "trimestre": "T2 2024",
-      "industrie": 41,
-      "services": 30,
-      "construction": 52
+      "industrie": 52,
+      "services": 39,
+      "construction": 62
     },
     {
       "trimestre": "T3 2024",
-      "industrie": 40,
-      "services": 30,
-      "construction": 50
+      "industrie": 48,
+      "services": 36,
+      "construction": 57
     },
     {
       "trimestre": "T4 2024",
-      "industrie": 38,
-      "services": 28,
-      "construction": 48
+      "industrie": 46,
+      "services": 34,
+      "construction": 55
     },
     {
       "trimestre": "T1 2025",
-      "industrie": 36,
-      "services": 27,
-      "construction": 46
+      "industrie": 44,
+      "services": 33,
+      "construction": 52
     },
     {
       "trimestre": "T2 2025",
@@ -3795,7 +3795,7 @@
       "note_lecture": "Le TEC-10 mesure le rendement des emprunts d'Etat francais a 10 ans. Un taux eleve rencherit le cout de la dette publique et impacte les taux de credit immobilier."
     },
     "petrole_brent": {
-      "valeur": 108.05,
+      "valeur": 108.24,
       "date": "2026-03-18",
       "unite": "USD/baril",
       "source": "Yahoo Finance",
@@ -5315,29 +5315,29 @@
         },
         {
           "date": "2026-03-18",
-          "valeur": 108.05,
-          "ma50": 74.08,
+          "valeur": 108.24,
+          "ma50": 74.09,
           "ma200": 68.08
         }
       ],
       "variations": {
-        "jour": 4.48,
-        "semaine": 17.47,
-        "mois": 59.48,
-        "ytd": 77.86
+        "jour": 4.66,
+        "semaine": 17.68,
+        "mois": 59.76,
+        "ytd": 78.17
       },
       "min_max": {
         "min": 58.92,
         "min_date": "2025-12-16",
-        "max": 108.05,
+        "max": 108.24,
         "max_date": "2026-03-18"
       },
       "note_lecture": "Le prix du Brent influence directement les couts de transport et d'energie, donc l'inflation et le pouvoir d'achat des salaries."
     },
     "cac40": {
-      "valeur": 7980.09,
+      "valeur": 7972.5,
       "date": "2026-03-18",
-      "variation_jour_pct": 0.07,
+      "variation_jour_pct": -0.02,
       "unite": "points",
       "source": "Yahoo Finance",
       "nb_points": 256,
@@ -6874,16 +6874,16 @@
         },
         {
           "date": "2026-03-18",
-          "valeur": 7980.09,
-          "ma50": 8227.1,
-          "ma200": 7995.4
+          "valeur": 7972.5,
+          "ma50": 8226.95,
+          "ma200": 7995.36
         }
       ],
       "variations": {
-        "jour": 0.07,
-        "semaine": -0.77,
-        "mois": -4.05,
-        "ytd": -2.62
+        "jour": -0.02,
+        "semaine": -0.86,
+        "mois": -4.14,
+        "ytd": -2.72
       },
       "min_max": {
         "min": 6863.02,
@@ -8464,7 +8464,7 @@
       "note_lecture": "Le taux de change euro-dollar determine le prix de tout ce qui est importe en dollars : petrole, matieres premieres, electronique. Un euro faible rencherit les importations et alimente l'inflation."
     },
     "or": {
-      "valeur": 4882.8,
+      "valeur": 4866.4,
       "date": "2026-03-18",
       "unite": "USD/oz",
       "source": "Yahoo Finance",
@@ -9984,16 +9984,16 @@
         },
         {
           "date": "2026-03-18",
-          "valeur": 4882.8,
-          "ma50": 4946.87,
-          "ma200": 4050.92
+          "valeur": 4866.4,
+          "ma50": 4946.55,
+          "ma200": 4050.84
         }
       ],
       "variations": {
-        "jour": -2.36,
-        "semaine": -5.51,
-        "mois": -2.77,
-        "ytd": 13.17
+        "jour": -2.69,
+        "semaine": -5.82,
+        "mois": -3.1,
+        "ytd": 12.79
       },
       "min_max": {
         "min": 2951.3,
@@ -10004,7 +10004,7 @@
       "note_lecture": "L'or est la valeur refuge par excellence. Sa hausse traduit une montee de l'incertitude economique ou geopolitique. Il sert aussi de protection contre l'inflation."
     },
     "gaz_naturel": {
-      "valeur": 53.63,
+      "valeur": 55.1,
       "date": "2026-03-18",
       "unite": "EUR/MWh",
       "source": "Yahoo Finance (TTF)",
@@ -11524,16 +11524,16 @@
         },
         {
           "date": "2026-03-18",
-          "valeur": 53.63,
-          "ma50": 38.12,
-          "ma200": 33.65
+          "valeur": 55.1,
+          "ma50": 38.15,
+          "ma200": 33.66
         }
       ],
       "variations": {
-        "jour": 4.01,
-        "semaine": 7.28,
-        "mois": 65.02,
-        "ytd": 84.93
+        "jour": 6.87,
+        "semaine": 10.22,
+        "mois": 69.54,
+        "ytd": 90.0
       },
       "min_max": {
         "min": 26.6,
@@ -16281,7 +16281,7 @@
     "sources": "INSEE - Enquête Emploi, DARES"
   },
   "previsions_cftc": {
-    "generated_at": "2026-03-18T13:08:41.954591",
+    "generated_at": "2026-03-18T13:24:32.863535",
     "model_version": "CFTC v4.0 (Monte Carlo)",
     "n_simulations": 1000,
     "horizon": "12 mois",
