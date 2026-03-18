@@ -1,6 +1,6 @@
 {
-  "last_updated": "18/03/2026 14:24",
-  "last_updated_iso": "2026-03-18T14:24:26.919843",
+  "last_updated": "18/03/2026 14:40",
+  "last_updated_iso": "2026-03-18T14:40:05.576922",
   "contact": "hspringragain@cftc.fr",
   "alertes": [
     {
@@ -12,11 +12,11 @@
       "onglet": "inflation"
     },
     {
-      "id": "chomage_jeunes_T3_2025",
+      "id": "chomage_jeunes_T4_2025",
       "date": "2026-03-18",
       "type": "warning",
-      "titre": "🧑‍🎓 Chômage jeunes élevé : 19.2%",
-      "message": "Le taux de chômage des 15-24 ans reste préoccupant (T3 2025).",
+      "titre": "🧑‍🎓 Chômage jeunes élevé : 21.5%",
+      "message": "Le taux de chômage des 15-24 ans reste préoccupant (T4 2025).",
       "onglet": "emploi"
     },
     {
@@ -32,11 +32,32 @@
       "date": "2026-03-18",
       "type": "info",
       "titre": "🔄 Données actualisées",
-      "message": "Le tableau de bord a été mis à jour le 18/03/2026 à 14:24.",
+      "message": "Le tableau de bord a été mis à jour le 18/03/2026 à 14:39.",
       "onglet": "conjoncture"
     }
   ],
   "changelog": [
+    {
+      "version": "2.2.2",
+      "date": "2026-03-18",
+      "modifications": [
+        {
+          "type": "features",
+          "titre": "Comparaison par carte",
+          "description": "Dans l'onglet conjoncture, vous retrouverez un sous-onglet globe vous permettant de comparer des indicateurs à l'international"
+        },
+        {
+          "type": "features",
+          "titre": "Fonction de recherche",
+          "description": "Barre de recherche dans le header du site pour retrouver plus vite un élément"
+        },
+        {
+          "type": "features",
+          "titre": "Mémoire des crises",
+          "description": "Dans la partie évolutions, vous pourrez vos documenter sur les crises économiques contemporaines et visualiser les évolution d'indicateurs essentiels"
+        }
+      ]
+    },
     {
       "version": "2.2.1",
       "date": "2026-03-17",
@@ -47,7 +68,7 @@
           "description": "Intégration d'un bouton presse avec une remonté des derniers articles de presse liés à l'économie"
         },
         {
-          "type": "Features",
+          "type": "features",
           "titre": "Carte des inégalités",
           "description": "Une cartographie des inégalités est créée dans le sous-onglet territoires"
         }
@@ -58,7 +79,7 @@
       "date": "2026-03-10",
       "modifications": [
         {
-          "type": "Features",
+          "type": "features",
           "titre": "Données Outre-Mer onglet territoires",
           "description": "Les données des Outre-Mer sont désormais intégrées dans la suite de l'onglet territoires"
         }
@@ -151,7 +172,7 @@
     }
   ],
   "revue_presse": {
-    "derniere_maj": "18/03/2026 14:24",
+    "derniere_maj": "18/03/2026 14:40",
     "nb_sources": 7,
     "sources_noms": [
       "Le Monde Éco",
@@ -164,6 +185,66 @@
     ],
     "a_la_une": [],
     "tous": [
+      {
+        "source": "Le Figaro Éco",
+        "couleur": "#92400e",
+        "emoji": "📊",
+        "tag": "Presse économique",
+        "titre": "Guerre au Moyen-Orient : où en sont les rapatriements de Français bloqués dans la région ?",
+        "resume": "Les vols commerciaux «ont repris quasiment normalement», a assuré le ministre des Transports, même si plusieurs compagnies ont décidé de prolonger la suspension de leurs vols vers et à destination de la région.",
+        "lien": "https://www.lefigaro.fr/conjoncture/guerre-au-moyen-orient-ou-en-sont-les-rapatriements-de-francais-bloques-dans-la-region-20260318",
+        "date_iso": "2026-03-18T15:38:31+01:00",
+        "date_fr": "18/03/2026",
+        "pertinence": 0
+      },
+      {
+        "source": "Le Figaro Éco",
+        "couleur": "#92400e",
+        "emoji": "📊",
+        "tag": "Presse économique",
+        "titre": "Les injections illégales de botox et acide hyaluronique se multiplient, alertent les professionnels de santé",
+        "resume": "Selon les représentants de la profession, le phénomène est devenu «hors de contrôle», malgré des alertes répétées. En 2025, l’Ordre des médecins a reçu un record de 213 signalements, contre 128 en 2024.",
+        "lien": "https://www.lefigaro.fr/conjoncture/les-injections-illegales-de-botox-et-acide-hyaluronique-se-multiplient-alertent-les-professionnels-de-sante-20260318",
+        "date_iso": "2026-03-18T15:36:21+01:00",
+        "date_fr": "18/03/2026",
+        "pertinence": 0
+      },
+      {
+        "source": "Le Figaro Éco",
+        "couleur": "#92400e",
+        "emoji": "📊",
+        "tag": "Presse économique",
+        "titre": "Intelligence artificielle : le gouvernement américain juge qu’Anthropic lui fait courir un risque «inacceptable»",
+        "resume": "Pour justifier sa décision de classer Anthropic comme une société «à risque», le gouvernement américain dit craindre que «le fait de permettre à Anthropic de continuer à accéder à son infrastructure technique et opérationnelle de conduite des opérations militaires n’introduise un risque inacceptable",
+        "lien": "https://www.lefigaro.fr/secteur/high-tech/intelligence-artificielle-le-gouvernement-americain-juge-qu-anthropic-lui-fait-courir-un-risque-inacceptable-20260318",
+        "date_iso": "2026-03-18T15:36:00+01:00",
+        "date_fr": "18/03/2026",
+        "pertinence": 0
+      },
+      {
+        "source": "Le Figaro Éco",
+        "couleur": "#92400e",
+        "emoji": "📊",
+        "tag": "Presse économique",
+        "titre": "Tencent va intégrer des agents dans son application WeChat",
+        "resume": "Le géant chinois de l’internet a annoncé mercredi son intention d’intégrer des agents d’IA à son application, qui pourront effectuer des tâches concrètes, comme envoyer des courriels ou réserver des billets d’avion.",
+        "lien": "https://www.lefigaro.fr/secteur/high-tech/tencent-va-integrer-des-agents-dans-son-application-wechat-20260318",
+        "date_iso": "2026-03-18T15:31:02+01:00",
+        "date_fr": "18/03/2026",
+        "pertinence": 0
+      },
+      {
+        "source": "Le Monde Éco",
+        "couleur": "#374151",
+        "emoji": "🌐",
+        "tag": "Presse économique",
+        "titre": "Meublés touristiques : « Les mairies devraient récupérer en amendes potentiellement des dizaines de millions d’euros »",
+        "resume": "La France est la terre d’élection du tourisme de type Airbnb et les maires devraient avoir bientôt des outils pour identifier les propriétaires et les locataires, et percevoir les recettes fiscales liées à ces pratiques, explique l’économiste Philippe Askenazy dans sa chronique au « Monde ».",
+        "lien": "https://www.lemonde.fr/idees/article/2026/03/18/meubles-touristiques-les-mairies-devraient-recuperer-en-amendes-potentiellement-des-dizaines-de-millions-d-euros_6672095_3232.html",
+        "date_iso": "2026-03-18T15:30:05+01:00",
+        "date_fr": "18/03/2026",
+        "pertinence": 0
+      },
       {
         "source": "Le Figaro Éco",
         "couleur": "#92400e",
@@ -221,18 +302,6 @@
         "resume": "RÉCIT - La paralysie du trafic dans le détroit d’Ormuz bloque les livraisons de gaz. Des millions de familles et de restaurants se retrouvent pris en otage.",
         "lien": "https://www.lefigaro.fr/conjoncture/c-est-impossible-de-trouver-du-gaz-en-inde-la-guerre-au-moyen-orient-force-la-population-a-revenir-au-feu-de-bois-20260318",
         "date_iso": "2026-03-18T14:21:03+01:00",
-        "date_fr": "18/03/2026",
-        "pertinence": 0
-      },
-      {
-        "source": "Le Figaro Éco",
-        "couleur": "#92400e",
-        "emoji": "📊",
-        "tag": "Presse économique",
-        "titre": "Intelligence artificielle : le gouvernement américain juge qu’Anthropic lui fait courir un risque «inacceptable»",
-        "resume": "Pour justifier sa décision de classer Anthropic comme une société «à risque», le gouvernement américain dit craindre que «le fait de permettre à Anthropic de continuer à accéder à son infrastructure technique et opérationnelle de conduite des opérations militaires n’introduise un risque inacceptable",
-        "lien": "https://www.lefigaro.fr/secteur/high-tech/intelligence-artificielle-le-gouvernement-americain-juge-qu-anthropic-lui-fait-courir-un-risque-inacceptable-20260318",
-        "date_iso": "2026-03-18T14:12:37+01:00",
         "date_fr": "18/03/2026",
         "pertinence": 0
       },
@@ -309,30 +378,6 @@
         "pertinence": 0
       },
       {
-        "source": "Le Figaro Éco",
-        "couleur": "#92400e",
-        "emoji": "📊",
-        "tag": "Presse économique",
-        "titre": "Tencent va intégrer des agents dans son application WeChat",
-        "resume": "Le géant chinois de l’internet a annoncé mercredi son intention d’intégrer des agents d’IA à son application, qui pourront effectuer des tâches concrètes, comme envoyer des courriels ou réserver des billets d’avion.",
-        "lien": "https://www.lefigaro.fr/secteur/high-tech/tencent-va-integrer-des-agents-dans-son-application-wechat-20260318",
-        "date_iso": "2026-03-18T13:21:51+01:00",
-        "date_fr": "18/03/2026",
-        "pertinence": 0
-      },
-      {
-        "source": "Le Figaro Éco",
-        "couleur": "#92400e",
-        "emoji": "📊",
-        "tag": "Presse économique",
-        "titre": "Les injections illégales de botox et acide hyaluronique se multiplient, alertent les professionnels de santé",
-        "resume": "Selon les représentants de la profession, le phénomène est devenu «hors de contrôle», malgré des alertes répétées. En 2025, l’Ordre des médecins a reçu un record de 213 signalements, contre 128 en 2024.",
-        "lien": "https://www.lefigaro.fr/conjoncture/les-injections-illegales-de-botox-et-acide-hyaluronique-se-multiplient-alertent-les-professionnels-de-sante-20260318",
-        "date_iso": "2026-03-18T12:53:09+01:00",
-        "date_fr": "18/03/2026",
-        "pertinence": 0
-      },
-      {
         "source": "Le Monde Éco",
         "couleur": "#374151",
         "emoji": "🌐",
@@ -355,18 +400,6 @@
         "date_iso": "2026-03-18T12:09:00+00:00",
         "date_fr": "18/03/2026",
         "pertinence": 2
-      },
-      {
-        "source": "Le Figaro Éco",
-        "couleur": "#92400e",
-        "emoji": "📊",
-        "tag": "Presse économique",
-        "titre": "Guerre au Moyen-Orient : où en sont les rapatriements de Français bloqués dans la région ?",
-        "resume": "Les vols commerciaux «ont repris quasiment normalement», a assuré le ministre des Transports, même si plusieurs compagnies ont décidé de prolonger la suspension de leurs vols vers et à destination de la région.",
-        "lien": "https://www.lefigaro.fr/conjoncture/guerre-au-moyen-orient-ou-en-sont-les-rapatriements-de-francais-bloques-dans-la-region-20260318",
-        "date_iso": "2026-03-18T12:03:07+01:00",
-        "date_fr": "18/03/2026",
-        "pertinence": 0
       },
       {
         "source": "Le Figaro Éco",
@@ -511,18 +544,6 @@
         "date_iso": "2026-03-18T10:00:30+00:00",
         "date_fr": "18/03/2026",
         "pertinence": 1
-      },
-      {
-        "source": "Le Figaro Éco",
-        "couleur": "#92400e",
-        "emoji": "📊",
-        "tag": "Presse économique",
-        "titre": "Une première pour le site en France : les salariés de Leboncoin en grève ce mercredi",
-        "resume": "Les syndicats déplorent la dégradation des conditions de travail depuis la reprise du site français d’e-commerce par deux fonds d’investissement anglo-saxons.",
-        "lien": "https://www.lefigaro.fr/social/une-premiere-pour-le-site-en-france-les-salaries-de-leboncoin-en-greve-ce-mercredi-20260318",
-        "date_iso": "2026-03-18T09:25:24+01:00",
-        "date_fr": "18/03/2026",
-        "pertinence": 2
       }
     ]
   },
@@ -640,58 +661,63 @@
   "chomage": [
     {
       "trimestre": "T1 2023",
-      "taux": 7.1,
-      "jeunes": 17.5
+      "taux": 6.9,
+      "jeunes": 16.6
     },
     {
       "trimestre": "T2 2023",
-      "taux": 7.2,
-      "jeunes": 17.0
+      "taux": 7.0,
+      "jeunes": 17.1
     },
     {
       "trimestre": "T3 2023",
-      "taux": 7.4,
-      "jeunes": 17.6
+      "taux": 7.2,
+      "jeunes": 17.4
     },
     {
       "trimestre": "T4 2023",
-      "taux": 7.5,
+      "taux": 7.3,
       "jeunes": 17.6
     },
     {
       "trimestre": "T1 2024",
-      "taux": 7.5,
+      "taux": 7.3,
       "jeunes": 18.1
     },
     {
       "trimestre": "T2 2024",
-      "taux": 7.3,
-      "jeunes": 17.7
+      "taux": 7.1,
+      "jeunes": 18.0
     },
     {
       "trimestre": "T3 2024",
-      "taux": 7.4,
-      "jeunes": 18.3
+      "taux": 7.2,
+      "jeunes": 19.7
     },
     {
       "trimestre": "T4 2024",
-      "taux": 7.3,
-      "jeunes": 19.0
+      "taux": 7.1,
+      "jeunes": 18.7
     },
     {
       "trimestre": "T1 2025",
-      "taux": 7.4,
-      "jeunes": 18.5
+      "taux": 7.3,
+      "jeunes": 19.2
     },
     {
       "trimestre": "T2 2025",
-      "taux": 7.5,
-      "jeunes": 18.8
+      "taux": 7.4,
+      "jeunes": 19.1
     },
     {
       "trimestre": "T3 2025",
+      "taux": 7.5,
+      "jeunes": 19.1
+    },
+    {
+      "trimestre": "T4 2025",
       "taux": 7.7,
-      "jeunes": 19.2
+      "jeunes": 21.5
     }
   ],
   "smic": {
@@ -766,21 +792,21 @@
   ],
   "indicateurs_cles": {
     "taux_chomage_actuel": 7.7,
-    "taux_chomage_jeunes": 19.2,
+    "taux_chomage_jeunes": 21.5,
     "taux_emploi_seniors": 61.7,
     "inflation_annuelle": 0.9,
     "smic_brut": 1823.03,
     "smic_net": 1443.11,
     "salaire_median": 2190,
     "salaire_moyen": 2733,
-    "ecart_hf_eqtp": 14.0,
+    "ecart_hf_eqtp": 25.8,
     "difficultes_recrutement": 61,
     "irl_glissement": 0.79,
     "prix_gazole": 1.65,
     "taux_effort_locataires": 29.6,
     "croissance_pib": 0.7,
     "climat_affaires": 97,
-    "defaillances_12m": 68227
+    "defaillances_12m": 68564
   },
   "salaire_median": {
     "montant_2024": 2190,
@@ -813,36 +839,36 @@
   },
   "ecart_hommes_femmes": {
     "ecart_global": 21.8,
-    "ecart_eqtp": 14.0,
+    "ecart_eqtp": 25.8,
     "ecart_poste_comparable": 4.0,
     "evolution": [
       {
-        "annee": "2015",
-        "ecart": 18.4
-      },
-      {
-        "annee": "2017",
-        "ecart": 16.6
+        "annee": "2018",
+        "ecart": 23.2
       },
       {
         "annee": "2019",
-        "ecart": 16.1
+        "ecart": 23.8
+      },
+      {
+        "annee": "2020",
+        "ecart": 24.5
       },
       {
         "annee": "2021",
-        "ecart": 15.5
+        "ecart": 24.3
       },
       {
         "annee": "2022",
-        "ecart": 14.9
+        "ecart": 25.1
       },
       {
         "annee": "2023",
-        "ecart": 14.2
+        "ecart": 25.6
       },
       {
         "annee": "2024",
-        "ecart": 14.0
+        "ecart": 25.8
       }
     ]
   },
@@ -1012,51 +1038,51 @@
   "types_contrats": [
     {
       "trimestre": "T1 2023",
-      "cdi": 83.2,
-      "cdd": 5.4,
-      "interim": 1.4
+      "cdi": 74.5,
+      "cdd": 8.8,
+      "interim": 2.2
     },
     {
       "trimestre": "T2 2023",
-      "cdi": 83.2,
-      "cdd": 5.4,
-      "interim": 1.4
+      "cdi": 74.3,
+      "cdd": 9.0,
+      "interim": 2.1
     },
     {
       "trimestre": "T3 2023",
-      "cdi": 83.4,
-      "cdd": 5.3,
-      "interim": 1.3
+      "cdi": 74.4,
+      "cdd": 8.9,
+      "interim": 2.0
     },
     {
       "trimestre": "T4 2023",
-      "cdi": 83.4,
-      "cdd": 5.3,
-      "interim": 1.3
+      "cdi": 74.6,
+      "cdd": 8.7,
+      "interim": 2.0
     },
     {
       "trimestre": "T1 2024",
-      "cdi": 83.4,
-      "cdd": 5.3,
-      "interim": 1.3
+      "cdi": 74.8,
+      "cdd": 8.5,
+      "interim": 1.9
     },
     {
       "trimestre": "T2 2024",
-      "cdi": 83.4,
-      "cdd": 5.3,
-      "interim": 1.3
+      "cdi": 74.7,
+      "cdd": 8.6,
+      "interim": 1.9
     },
     {
       "trimestre": "T3 2024",
-      "cdi": 83.4,
-      "cdd": 5.3,
-      "interim": 1.3
+      "cdi": 74.9,
+      "cdd": 8.4,
+      "interim": 1.8
     },
     {
       "trimestre": "T4 2024",
-      "cdi": 83.5,
-      "cdd": 5.2,
-      "interim": 1.3
+      "cdi": 75.0,
+      "cdd": 8.3,
+      "interim": 1.8
     },
     {
       "trimestre": "T1 2025",
@@ -1671,18 +1697,13 @@
     },
     "sp98": {
       "prix": 1.82,
-      "variation_an": -4.5
+      "variation_an": -5.0
     },
     "evolution": [
       {
-        "mois": "Jan 2023",
-        "gazole": 1.85,
-        "sp95": 1.82
-      },
-      {
         "mois": "Avr 2023",
-        "gazole": 1.78,
-        "sp95": 1.88
+        "gazole": 1.81,
+        "sp95": 1.95
       },
       {
         "mois": "Juil 2023",
@@ -1691,56 +1712,51 @@
       },
       {
         "mois": "Oct 2023",
-        "gazole": 1.88,
-        "sp95": 1.92
+        "gazole": 1.91,
+        "sp95": 1.89
       },
       {
         "mois": "Jan 2024",
-        "gazole": 1.72,
-        "sp95": 1.78
-      },
-      {
-        "mois": "Avr 2024",
         "gazole": 1.75,
         "sp95": 1.82
       },
       {
+        "mois": "Avr 2024",
+        "gazole": 1.79,
+        "sp95": 1.94
+      },
+      {
         "mois": "Juil 2024",
-        "gazole": 1.68,
-        "sp95": 1.75
+        "gazole": 1.73,
+        "sp95": 1.86
       },
       {
         "mois": "Oct 2024",
-        "gazole": 1.62,
-        "sp95": 1.72
+        "gazole": 1.63,
+        "sp95": 1.76
       },
       {
         "mois": "Jan 2025",
-        "gazole": 1.65,
-        "sp95": 1.78
+        "gazole": 1.71,
+        "sp95": 1.81
       },
       {
         "mois": "Avr 2025",
-        "gazole": 1.6,
-        "sp95": 1.74
+        "gazole": 1.59,
+        "sp95": 1.73
       },
       {
         "mois": "Juil 2025",
-        "gazole": 1.58,
-        "sp95": 1.7
+        "gazole": 1.65,
+        "sp95": 1.72
       },
       {
         "mois": "Oct 2025",
-        "gazole": 1.58,
+        "gazole": 1.61,
         "sp95": 1.72
       },
       {
         "mois": "Jan 2026",
-        "gazole": 1.62,
-        "sp95": 1.71
-      },
-      {
-        "mois": "Mar 2026",
         "gazole": 1.65,
         "sp95": 1.72
       }
@@ -1999,58 +2015,62 @@
     ]
   },
   "defaillances": {
-    "cumul_12_mois": 68227,
-    "variation_an": 0.8,
-    "mois": "Sep 2025",
+    "cumul_12_mois": 68564,
+    "variation_an": 3.4,
+    "mois": "Déc 2025",
     "moyenne_2010_2019": 58000,
     "evolution": [
       {
         "mois": "Jan 2023",
-        "cumul": 42000
+        "cumul": 42962
       },
       {
         "mois": "Avr 2023",
-        "cumul": 47000
+        "cumul": 46804
       },
       {
         "mois": "Juil 2023",
-        "cumul": 51000
+        "cumul": 50360
       },
       {
         "mois": "Oct 2023",
-        "cumul": 55000
+        "cumul": 53384
       },
       {
         "mois": "Jan 2024",
-        "cumul": 57500
+        "cumul": 57340
       },
       {
         "mois": "Avr 2024",
-        "cumul": 60000
+        "cumul": 60506
       },
       {
         "mois": "Juil 2024",
-        "cumul": 63500
+        "cumul": 63648
       },
       {
         "mois": "Oct 2024",
-        "cumul": 66000
+        "cumul": 65217
       },
       {
         "mois": "Jan 2025",
-        "cumul": 66500
+        "cumul": 66296
       },
       {
         "mois": "Avr 2025",
-        "cumul": 67000
+        "cumul": 67282
       },
       {
         "mois": "Juil 2025",
-        "cumul": 67600
+        "cumul": 67702
       },
       {
-        "mois": "Sep 2025",
-        "cumul": 68227
+        "mois": "Oct 2025",
+        "cumul": 68296
+      },
+      {
+        "mois": "Déc 2025",
+        "cumul": 68564
       }
     ],
     "par_secteur": [
@@ -3801,7 +3821,7 @@
       "note_lecture": "Le TEC-10 mesure le rendement des emprunts d'Etat francais a 10 ans. Un taux eleve rencherit le cout de la dette publique et impacte les taux de credit immobilier."
     },
     "petrole_brent": {
-      "valeur": 109.03,
+      "valeur": 109.55,
       "date": "2026-03-18",
       "unite": "USD/baril",
       "source": "Yahoo Finance",
@@ -5321,29 +5341,29 @@
         },
         {
           "date": "2026-03-18",
-          "valeur": 109.03,
-          "ma50": 74.1,
+          "valeur": 109.55,
+          "ma50": 74.11,
           "ma200": 68.09
         }
       ],
       "variations": {
-        "jour": 5.42,
-        "semaine": 18.54,
-        "mois": 60.93,
-        "ytd": 79.47
+        "jour": 5.93,
+        "semaine": 19.1,
+        "mois": 61.7,
+        "ytd": 80.33
       },
       "min_max": {
         "min": 58.92,
         "min_date": "2025-12-16",
-        "max": 109.03,
+        "max": 109.55,
         "max_date": "2026-03-18"
       },
       "note_lecture": "Le prix du Brent influence directement les couts de transport et d'energie, donc l'inflation et le pouvoir d'achat des salaries."
     },
     "cac40": {
-      "valeur": 7986.44,
+      "valeur": 7969.36,
       "date": "2026-03-18",
-      "variation_jour_pct": 0.15,
+      "variation_jour_pct": -0.06,
       "unite": "points",
       "source": "Yahoo Finance",
       "nb_points": 256,
@@ -6880,16 +6900,16 @@
         },
         {
           "date": "2026-03-18",
-          "valeur": 7986.44,
-          "ma50": 8227.23,
-          "ma200": 7995.43
+          "valeur": 7969.36,
+          "ma50": 8226.88,
+          "ma200": 7995.34
         }
       ],
       "variations": {
-        "jour": 0.15,
-        "semaine": -0.69,
-        "mois": -3.97,
-        "ytd": -2.55
+        "jour": -0.06,
+        "semaine": -0.9,
+        "mois": -4.17,
+        "ytd": -2.76
       },
       "min_max": {
         "min": 6863.02,
@@ -8470,7 +8490,7 @@
       "note_lecture": "Le taux de change euro-dollar determine le prix de tout ce qui est importe en dollars : petrole, matieres premieres, electronique. Un euro faible rencherit les importations et alimente l'inflation."
     },
     "or": {
-      "valeur": 4886.2,
+      "valeur": 4864.8,
       "date": "2026-03-18",
       "unite": "USD/oz",
       "source": "Yahoo Finance",
@@ -9990,16 +10010,16 @@
         },
         {
           "date": "2026-03-18",
-          "valeur": 4886.2,
-          "ma50": 4946.94,
-          "ma200": 4050.94
+          "valeur": 4864.8,
+          "ma50": 4946.51,
+          "ma200": 4050.83
         }
       ],
       "variations": {
-        "jour": -2.3,
-        "semaine": -5.44,
-        "mois": -2.7,
-        "ytd": 13.25
+        "jour": -2.72,
+        "semaine": -5.86,
+        "mois": -3.13,
+        "ytd": 12.76
       },
       "min_max": {
         "min": 2951.3,
@@ -10010,7 +10030,7 @@
       "note_lecture": "L'or est la valeur refuge par excellence. Sa hausse traduit une montee de l'incertitude economique ou geopolitique. Il sert aussi de protection contre l'inflation."
     },
     "gaz_naturel": {
-      "valeur": 54.95,
+      "valeur": 55.75,
       "date": "2026-03-18",
       "unite": "EUR/MWh",
       "source": "Yahoo Finance (TTF)",
@@ -11530,16 +11550,16 @@
         },
         {
           "date": "2026-03-18",
-          "valeur": 54.95,
-          "ma50": 38.15,
+          "valeur": 55.75,
+          "ma50": 38.16,
           "ma200": 33.66
         }
       ],
       "variations": {
-        "jour": 6.57,
-        "semaine": 9.92,
-        "mois": 69.08,
-        "ytd": 89.48
+        "jour": 8.13,
+        "semaine": 11.52,
+        "mois": 71.54,
+        "ytd": 92.24
       },
       "min_max": {
         "min": 26.6,
@@ -11550,7 +11570,7 @@
       "note_lecture": "Le prix du gaz naturel (TTF europeen) impacte directement les factures de chauffage et d'electricite des menages, ainsi que les couts de production industrielle."
     },
     "ble": {
-      "valeur": 600.25,
+      "valeur": 601.5,
       "date": "2026-03-18",
       "unite": "cents/boisseau",
       "source": "Yahoo Finance",
@@ -13064,16 +13084,16 @@
         },
         {
           "date": "2026-03-18",
-          "valeur": 600.25,
-          "ma50": 549.1,
-          "ma200": 530.41
+          "valeur": 601.5,
+          "ma50": 549.12,
+          "ma200": 530.42
         }
       ],
       "variations": {
-        "jour": 1.78,
-        "semaine": 2.0,
-        "mois": 9.38,
-        "ytd": 18.51
+        "jour": 1.99,
+        "semaine": 2.21,
+        "mois": 9.61,
+        "ytd": 18.76
       },
       "min_max": {
         "min": 495.0,
@@ -16287,7 +16307,7 @@
     "sources": "INSEE - Enquête Emploi, DARES"
   },
   "previsions_cftc": {
-    "generated_at": "2026-03-18T14:24:27.067196",
+    "generated_at": "2026-03-18T14:40:05.667130",
     "model_version": "CFTC v4.0 (Monte Carlo)",
     "n_simulations": 1000,
     "horizon": "12 mois",
