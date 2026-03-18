@@ -1,6 +1,6 @@
 {
-  "last_updated": "18/03/2026 10:24",
-  "last_updated_iso": "2026-03-18T10:24:29.820029",
+  "last_updated": "18/03/2026 12:27",
+  "last_updated_iso": "2026-03-18T12:27:09.068832",
   "contact": "hspringragain@cftc.fr",
   "alertes": [
     {
@@ -12,11 +12,11 @@
       "onglet": "inflation"
     },
     {
-      "id": "chomage_jeunes_T4_2025",
+      "id": "chomage_jeunes_T3_2025",
       "date": "2026-03-18",
       "type": "warning",
-      "titre": "🧑‍🎓 Chômage jeunes élevé : 21.5%",
-      "message": "Le taux de chômage des 15-24 ans reste préoccupant (T4 2025).",
+      "titre": "🧑‍🎓 Chômage jeunes élevé : 19.2%",
+      "message": "Le taux de chômage des 15-24 ans reste préoccupant (T3 2025).",
       "onglet": "emploi"
     },
     {
@@ -32,7 +32,7 @@
       "date": "2026-03-18",
       "type": "info",
       "titre": "🔄 Données actualisées",
-      "message": "Le tableau de bord a été mis à jour le 18/03/2026 à 10:24.",
+      "message": "Le tableau de bord a été mis à jour le 18/03/2026 à 12:27.",
       "onglet": "conjoncture"
     }
   ],
@@ -151,7 +151,7 @@
     }
   ],
   "revue_presse": {
-    "derniere_maj": "18/03/2026 10:24",
+    "derniere_maj": "18/03/2026 12:27",
     "nb_sources": 7,
     "sources_noms": [
       "Le Monde Éco",
@@ -162,21 +162,116 @@
       "Institut Montaigne",
       "Euractiv FR"
     ],
-    "a_la_une": [
+    "a_la_une": [],
+    "tous": [
+      {
+        "source": "Le Figaro Éco",
+        "couleur": "#92400e",
+        "emoji": "📊",
+        "tag": "Presse économique",
+        "titre": "Les prix du pétrole connaissent une accalmie",
+        "resume": "Vers 11 heures GMT ce mercredi, le baril de West Texas Intermediate (WTI) perdait 1,79% à 94,49 dollars, avec la reprise partielle des exportations irakiennes de brut.",
+        "lien": "https://www.lefigaro.fr/conjoncture/petrole-le-cours-du-wti-produit-aux-etats-unis-chute-de-plus-de-4-20260318",
+        "date_iso": "2026-03-18T13:07:49+01:00",
+        "date_fr": "18/03/2026",
+        "pertinence": 0
+      },
+      {
+        "source": "Le Figaro Éco",
+        "couleur": "#92400e",
+        "emoji": "📊",
+        "tag": "Presse économique",
+        "titre": "Disney retire sa licence à l’éditeur français du «Journal de Mickey» et de «Picsou Magazine»",
+        "resume": "Les magazines Disney représentent la moitié du chiffre d’affaires du groupe de presse et d’édition Unique Heritage Media, qui devra se séparer d’une partie de ses effectifs.",
+        "lien": "https://www.lefigaro.fr/medias/disney-retire-sa-licence-a-l-editeur-francais-du-journal-de-mickey-et-de-picsou-magazine-20260318",
+        "date_iso": "2026-03-18T13:06:01+01:00",
+        "date_fr": "18/03/2026",
+        "pertinence": 0
+      },
+      {
+        "source": "Le Figaro Éco",
+        "couleur": "#92400e",
+        "emoji": "📊",
+        "tag": "Presse économique",
+        "titre": "«Si ça se refroidit fin mars ou en avril, certains vont le payer cher» : le prix du fioul s’envole avec la guerre au Moyen-Orient",
+        "resume": "En France, plus de 2,5 millions de résidences principales sont encore chauffées au fioul. Les ménages concernés se retrouvent à devoir choisir entre faire le dos rond, en espérant que la situation se calme avant que leur cuve soit vide, ou payer plein pot.",
+        "lien": "https://www.lefigaro.fr/conso/si-ca-se-refroidit-fin-mars-ou-en-avril-certains-vont-le-payer-cher-le-prix-du-fioul-s-envole-avec-la-guerre-au-moyen-orient-20260318",
+        "date_iso": "2026-03-18T12:57:43+01:00",
+        "date_fr": "18/03/2026",
+        "pertinence": 0
+      },
+      {
+        "source": "Le Figaro Éco",
+        "couleur": "#92400e",
+        "emoji": "📊",
+        "tag": "Presse économique",
+        "titre": "Les injections illégales de botox et acide hyaluronique se multiplient, alertent les professionnels de santé",
+        "resume": "Selon les représentants de la profession, le phénomène est devenu «hors de contrôle», malgré des alertes répétées. En 2025, l’Ordre des médecins a reçu un record de 213 signalements, contre 128 en 2024.",
+        "lien": "https://www.lefigaro.fr/conjoncture/les-injections-illegales-de-botox-et-acide-hyaluronique-se-multiplient-alertent-les-professionnels-de-sante-20260318",
+        "date_iso": "2026-03-18T12:53:09+01:00",
+        "date_fr": "18/03/2026",
+        "pertinence": 0
+      },
+      {
+        "source": "Le Monde Éco",
+        "couleur": "#374151",
+        "emoji": "🌐",
+        "tag": "Presse économique",
+        "titre": "« John Galliano, l’enfant terrible de la mode, va chercher sa rédemption chez Zara »",
+        "resume": "L’enseigne phare du groupe espagnol Inditex a annoncé mardi la signature d’un « partenariat artistique » de deux ans avec le designer britannique de 65 ans, qui avait été évincé du groupe LVMH en 2011 après avoir tenu des propos antisémites.",
+        "lien": "https://www.lemonde.fr/economie/article/2026/03/18/john-galliano-l-enfant-terrible-de-la-mode-va-chercher-sa-redemption-chez-zara_6672077_3234.html",
+        "date_iso": "2026-03-18T12:15:06+01:00",
+        "date_fr": "18/03/2026",
+        "pertinence": 0
+      },
       {
         "source": "Libération Éco",
         "couleur": "#dc2626",
         "emoji": "📰",
         "tag": "Presse économique",
-        "titre": "Réforme du RSA : un an après sa généralisation, des effets sur l’emploi encore bien cachés",
-        "resume": "Généralisée en janvier 2025, cette loi qui conditionne le revenu de solidarité active ne démontre toujours pas ses bénéfices sur le retour à l’emploi des allocataires. Alors que certains départements décident de ne pas appliquer de sanctions, d’autres durcissent leur politique.",
-        "lien": "https://www.liberation.fr/economie/social/reforme-du-rsa-un-an-apres-sa-generalisation-des-effets-sur-lemploi-encore-bien-caches-20260318_5MRLZDAFRRFQZBVSEA3BFGX74Y/",
-        "date_iso": "2026-03-18T04:43:00+00:00",
+        "titre": "En Seine-Saint-Denis, une autre approche du RSA pour «sortir de la logique du guichet stigmatisante»",
+        "resume": "Grâce à une expérimentation qui recentralise le financement du revenu de solidarité active, le département le plus pauvre de France métropolitaine a pu doubler ses investissements pour l’insertion de ses bénéficiaires et créer des agences où on sort de l’isolement.",
+        "lien": "https://www.liberation.fr/economie/social/en-seine-saint-denis-une-autre-approche-du-rsa-pour-sortir-de-la-logique-du-guichet-stigmatisante-20260318_KLSQVRPPMZDEDN2W36YZ3SFXXI/",
+        "date_iso": "2026-03-18T12:09:00+00:00",
         "date_fr": "18/03/2026",
-        "pertinence": 3
-      }
-    ],
-    "tous": [
+        "pertinence": 2
+      },
+      {
+        "source": "Le Figaro Éco",
+        "couleur": "#92400e",
+        "emoji": "📊",
+        "tag": "Presse économique",
+        "titre": "Guerre au Moyen-Orient : où en sont les rapatriements de Français bloqués dans la région ?",
+        "resume": "Les vols commerciaux «ont repris quasiment normalement», a assuré le ministre des Transports, même si plusieurs compagnies ont décidé de prolonger la suspension de leurs vols vers et à destination de la région.",
+        "lien": "https://www.lefigaro.fr/conjoncture/guerre-au-moyen-orient-ou-en-sont-les-rapatriements-de-francais-bloques-dans-la-region-20260318",
+        "date_iso": "2026-03-18T12:03:07+01:00",
+        "date_fr": "18/03/2026",
+        "pertinence": 0
+      },
+      {
+        "source": "Libération Éco",
+        "couleur": "#dc2626",
+        "emoji": "📰",
+        "tag": "Presse économique",
+        "titre": "«Tout ce qui n’est pas rentable est supprimé» : chez Climb Up, un conflit social révélateur du tournant business des salles d’escalade",
+        "resume": "Après une première journée de grève la semaine dernière, les salariés de la salle des Ponts-de-Cé, au sud d’Angers, comptaient recommencer, ce mercredi 18 mars, et entraîner d’autres sites, avant d’obtenir des concessions. Un épisode qui raconte l’intégration à des logiques capitalistiques de lieux ",
+        "lien": "https://www.liberation.fr/sports/tout-ce-qui-nest-pas-rentable-est-supprime-chez-climb-up-un-conflit-social-revelateur-du-tournant-business-des-salles-descalade-20260318_WMETSCT4ERGK3NLXFVB7445LUM/",
+        "date_iso": "2026-03-18T11:52:01+00:00",
+        "date_fr": "18/03/2026",
+        "pertinence": 0
+      },
+      {
+        "source": "Le Monde Éco",
+        "couleur": "#374151",
+        "emoji": "🌐",
+        "tag": "Presse économique",
+        "titre": "Energies renouvelables : les effets du soutien public « doivent être mieux suivis, contrôlés et maîtrisés », selon la Cour des comptes",
+        "resume": "Les aides publiques à la production d’éolien et de solaire ont coûté 26,3 milliards d’euros entre 2016 et 2024, selon l’institution.",
+        "lien": "https://www.lemonde.fr/economie/article/2026/03/18/les-effets-du-soutien-public-aux-energies-renouvelables-doivent-etre-mieux-suivis-controles-et-maitrises-selon-la-cour-des-comptes_6672068_3234.html",
+        "date_iso": "2026-03-18T11:29:16+01:00",
+        "date_fr": "18/03/2026",
+        "pertinence": 0
+      },
       {
         "source": "Le Figaro Éco",
         "couleur": "#92400e",
@@ -188,30 +283,6 @@
         "date_iso": "2026-03-18T11:08:04+01:00",
         "date_fr": "18/03/2026",
         "pertinence": 0
-      },
-      {
-        "source": "Le Monde Éco",
-        "couleur": "#374151",
-        "emoji": "🌐",
-        "tag": "Presse économique",
-        "titre": "L’IA, une menace pour 5 millions de salariés en France",
-        "resume": "La généralisation de l’intelligence artificielle dans les entreprises menace particulièrement les métiers les plus rémunérés, selon une étude de Coface et de l’Observatoire des emplois menacés et émergents.",
-        "lien": "https://www.lemonde.fr/economie/article/2026/03/18/l-ia-une-menace-pour-5-millions-de-salaries-en-france_6672064_3234.html",
-        "date_iso": "2026-03-18T11:00:33+01:00",
-        "date_fr": "18/03/2026",
-        "pertinence": 2
-      },
-      {
-        "source": "Le Monde Emploi",
-        "couleur": "#1f2937",
-        "emoji": "💼",
-        "tag": "Emploi & travail",
-        "titre": "L’IA, une menace pour 5 millions de salariés en France",
-        "resume": "La généralisation de l’intelligence artificielle dans les entreprises menace particulièrement les métiers les plus rémunérés, selon une étude de Coface et de l’Observatoire des emplois menacés et émergents.",
-        "lien": "https://www.lemonde.fr/economie/article/2026/03/18/l-ia-une-menace-pour-5-millions-de-salaries-en-france_6672064_3234.html",
-        "date_iso": "2026-03-18T11:00:33+01:00",
-        "date_fr": "18/03/2026",
-        "pertinence": 2
       },
       {
         "source": "Le Monde Éco",
@@ -230,10 +301,34 @@
         "couleur": "#374151",
         "emoji": "🌐",
         "tag": "Presse économique",
+        "titre": "L’IA est une menace pour 5 millions de salariés en France, selon une étude",
+        "resume": "La généralisation de l’intelligence artificielle dans les entreprises menace particulièrement les métiers les plus rémunérés, selon une étude de Coface et de l’Observatoire des emplois menacés et émergents.",
+        "lien": "https://www.lemonde.fr/economie/article/2026/03/18/l-ia-une-menace-pour-5-millions-de-salaries-en-france_6672064_3234.html",
+        "date_iso": "2026-03-18T11:00:20+01:00",
+        "date_fr": "18/03/2026",
+        "pertinence": 2
+      },
+      {
+        "source": "Le Monde Emploi",
+        "couleur": "#1f2937",
+        "emoji": "💼",
+        "tag": "Emploi & travail",
+        "titre": "L’IA est une menace pour 5 millions de salariés en France, selon une étude",
+        "resume": "La généralisation de l’intelligence artificielle dans les entreprises menace particulièrement les métiers les plus rémunérés, selon une étude de Coface et de l’Observatoire des emplois menacés et émergents.",
+        "lien": "https://www.lemonde.fr/economie/article/2026/03/18/l-ia-une-menace-pour-5-millions-de-salaries-en-france_6672064_3234.html",
+        "date_iso": "2026-03-18T11:00:20+01:00",
+        "date_fr": "18/03/2026",
+        "pertinence": 2
+      },
+      {
+        "source": "Le Monde Éco",
+        "couleur": "#374151",
+        "emoji": "🌐",
+        "tag": "Presse économique",
         "titre": "Un hymne d’entreprise, l’idée saugrenue de Forvia pour souder ses salariés",
         "resume": "L’équipementier automobile présente cet hymne, mercredi 18 mars, à tous les salariés et sur YouTube. Le nouveau directeur général veut changer la culture des quelque 140 000 salariés de l’entreprise.",
         "lien": "https://www.lemonde.fr/economie/article/2026/03/18/un-hymne-d-entreprise-l-idee-saugrenue-de-forvia-pour-souder-ses-salaries_6672059_3234.html",
-        "date_iso": "2026-03-18T10:55:27+01:00",
+        "date_iso": "2026-03-18T10:55:26+01:00",
         "date_fr": "18/03/2026",
         "pertinence": 1
       },
@@ -314,8 +409,8 @@
         "couleur": "#dc2626",
         "emoji": "📰",
         "tag": "Presse économique",
-        "titre": "Guerre au Moyen-Orient : quand la fièvre du monde produit un choc journalistique, par Hervé Brusini",
-        "resume": "Depuis le 28 février et les frappes israélo-américaines sur l’Iran, les reporters de terrain retrouvent les faveurs de leurs rédactions, même si leurs images en temps réel côtoient désormais celles des réseaux sociaux, analyse le journaliste et président de l’association du prix Albert-Londres, Herv",
+        "titre": "Moyen-Orient : quand la fièvre du monde produit un retour en grâce du reporter, par Hervé Brusini",
+        "resume": "Depuis le 28 février et les frappes israélo-américaines sur l’Iran, les journalistes de terrain retrouvent les faveurs de leurs rédactions. Ils et elles sont plus que jamais nécessaires, à l’heure des réseaux sociaux et de l’IA, analyse le journaliste et président de l’association du prix Albert-Lon",
         "lien": "https://www.liberation.fr/idees-et-debats/tribunes/guerre-au-moyen-orient-quand-la-fievre-du-monde-produit-un-choc-journalistique-par-herve-brusini-20260318_OUABB6YPGNAOBLH33CLVWAKS3A/",
         "date_iso": "2026-03-18T09:02:00+00:00",
         "date_fr": "18/03/2026",
@@ -362,22 +457,10 @@
         "couleur": "#374151",
         "emoji": "🌐",
         "tag": "Presse économique",
-        "titre": "Fraude au faux conseiller bancaire : la Cour de cassation serre la vis",
+        "titre": "Fraude au faux conseiller bancaire : la Cour de cassation serre la vis pour les remboursements aux victimes",
         "resume": "Une victime de « spoofing », qui consiste pour un escroc à usurper le numéro de téléphone de la banque, sera plus difficilement remboursée.",
         "lien": "https://www.lemonde.fr/argent/article/2026/03/18/fraude-au-faux-conseiller-bancaire-la-cour-de-cassation-serre-la-vis_6672033_1657007.html",
         "date_iso": "2026-03-18T08:38:29+01:00",
-        "date_fr": "18/03/2026",
-        "pertinence": 0
-      },
-      {
-        "source": "Le Figaro Éco",
-        "couleur": "#92400e",
-        "emoji": "📊",
-        "tag": "Presse économique",
-        "titre": "Pétrole : le cours du WTI, produit aux États-Unis, chute de plus de 4%",
-        "resume": "Vers 06h30 GMT, le baril de WTI perdait 4,26% à 92,11 dollars, se repliant après un bond de presque 3% la veille.",
-        "lien": "https://www.lefigaro.fr/conjoncture/petrole-le-cours-du-wti-produit-aux-etats-unis-chute-de-plus-de-4-20260318",
-        "date_iso": "2026-03-18T07:56:22+01:00",
         "date_fr": "18/03/2026",
         "pertinence": 0
       },
@@ -440,102 +523,6 @@
         "date_iso": "2026-03-18T06:30:02+01:00",
         "date_fr": "18/03/2026",
         "pertinence": 0
-      },
-      {
-        "source": "Le Monde Éco",
-        "couleur": "#374151",
-        "emoji": "🌐",
-        "tag": "Presse économique",
-        "titre": "Les « performance improvement plans », ou comment pousser les salariés vers la sortie sans le dire",
-        "resume": "Importés des Etats-Unis, ces « plans de performance » sont souvent utilisés pour constituer un dossier d’insuffisance professionnelle avant un licenciement ou pour pousser à la démission.",
-        "lien": "https://www.lemonde.fr/emploi/article/2026/03/18/les-plans-de-performance-ou-comment-pousser-les-salaries-vers-la-sortie-sans-le-dire_6672022_1698637.html",
-        "date_iso": "2026-03-18T06:30:02+01:00",
-        "date_fr": "18/03/2026",
-        "pertinence": 1
-      },
-      {
-        "source": "Le Monde Emploi",
-        "couleur": "#1f2937",
-        "emoji": "💼",
-        "tag": "Emploi & travail",
-        "titre": "Les « performance improvement plans », ou comment pousser les salariés vers la sortie sans le dire",
-        "resume": "Importés des Etats-Unis, ces « plans de performance » sont souvent utilisés pour constituer un dossier d’insuffisance professionnelle avant un licenciement ou pour pousser à la démission.",
-        "lien": "https://www.lemonde.fr/emploi/article/2026/03/18/les-plans-de-performance-ou-comment-pousser-les-salaries-vers-la-sortie-sans-le-dire_6672022_1698637.html",
-        "date_iso": "2026-03-18T06:30:02+01:00",
-        "date_fr": "18/03/2026",
-        "pertinence": 1
-      },
-      {
-        "source": "Le Monde Éco",
-        "couleur": "#374151",
-        "emoji": "🌐",
-        "tag": "Presse économique",
-        "titre": "Impôts : quels sont les délais de recours contentieux lorsque les époux sont séparés ?",
-        "resume": "Une décision du Conseil d’Etat modifie les conditions de recours, explique Adrien Merchadier, avocat chez CMS Francis Lefebvre.",
-        "lien": "https://www.lemonde.fr/argent/article/2026/03/18/impots-quels-sont-les-delais-de-recours-contentieux-lorsque-les-epoux-sont-separes_6672018_1657007.html",
-        "date_iso": "2026-03-18T06:00:08+01:00",
-        "date_fr": "18/03/2026",
-        "pertinence": 0
-      },
-      {
-        "source": "Le Monde Éco",
-        "couleur": "#374151",
-        "emoji": "🌐",
-        "tag": "Presse économique",
-        "titre": "Avec le nouveau statut d’entreprise « EU Inc. », la Commission européenne espère freiner les départs de start-up aux Etats-Unis",
-        "resume": "La Commission européenne doit présenter, mercredi 18 mars, son projet d’un « 28ᵉ régime », un nouveau statut juridique qui permettra aux entreprises d’opérer dans les vingt-sept Etats membres sans formalité supplémentaire. Depuis 2008, 30 % des licornes européennes ont quitté l’UE.",
-        "lien": "https://www.lemonde.fr/economie/article/2026/03/18/avec-le-nouveau-statut-d-entreprise-eu-inc-la-commission-europeenne-espere-freiner-les-departs-de-start-up-aux-etats-unis_6672010_3234.html",
-        "date_iso": "2026-03-18T05:15:09+01:00",
-        "date_fr": "18/03/2026",
-        "pertinence": 1
-      },
-      {
-        "source": "Libération Éco",
-        "couleur": "#dc2626",
-        "emoji": "📰",
-        "tag": "Presse économique",
-        "titre": "Réforme du RSA : un an après sa généralisation, des effets sur l’emploi encore bien cachés",
-        "resume": "Généralisée en janvier 2025, cette loi qui conditionne le revenu de solidarité active ne démontre toujours pas ses bénéfices sur le retour à l’emploi des allocataires. Alors que certains départements décident de ne pas appliquer de sanctions, d’autres durcissent leur politique.",
-        "lien": "https://www.liberation.fr/economie/social/reforme-du-rsa-un-an-apres-sa-generalisation-des-effets-sur-lemploi-encore-bien-caches-20260318_5MRLZDAFRRFQZBVSEA3BFGX74Y/",
-        "date_iso": "2026-03-18T04:43:00+00:00",
-        "date_fr": "18/03/2026",
-        "pertinence": 3
-      },
-      {
-        "source": "Le Figaro Éco",
-        "couleur": "#92400e",
-        "emoji": "📊",
-        "tag": "Presse économique",
-        "titre": "Municipales à Toulouse : après l’alliance LFI-PS, le patronat en panique face à un programme «anticapitaliste» et «décroissant»",
-        "resume": "La fusion des listes de François Piquemal (LFI) et François Briançon (PS) a provoqué une levée de boucliers dans le monde économique. Le Medef de Haute‑Garonne met en garde contre un cocktail explosif pour l’emploi, l’attractivité et l’avenir industriel de la ville.",
-        "lien": "https://www.lefigaro.fr/conjoncture/municipales-a-toulouse-apres-l-alliance-lfi-ps-le-patronat-en-panique-face-a-un-programme-anticapitaliste-et-decroissant-20260317",
-        "date_iso": "2026-03-17T23:45:19+01:00",
-        "date_fr": "17/03/2026",
-        "pertinence": 1
-      },
-      {
-        "source": "Le Figaro Éco",
-        "couleur": "#92400e",
-        "emoji": "📊",
-        "tag": "Presse économique",
-        "titre": "La Commission européenne s’inquiète de l’expiration imminente d’un dispositif pour lutter contre la diffusion d’images pédopornographiques",
-        "resume": "La détection d’images et de vidéos pédopornographiques par les plateformes en ligne et les services de messagerie se fait aujourd’hui sur une base volontaire. Mais ce dispositif expire d’ici au 3 avril.",
-        "lien": "https://www.lefigaro.fr/secteur/high-tech/la-commission-europeenne-s-inquiete-de-l-expiration-imminente-d-un-dispositif-pour-lutter-contre-la-diffusion-d-images-pedopornographiques-20260317",
-        "date_iso": "2026-03-17T20:31:54+01:00",
-        "date_fr": "17/03/2026",
-        "pertinence": 0
-      },
-      {
-        "source": "Le Figaro Éco",
-        "couleur": "#92400e",
-        "emoji": "📊",
-        "tag": "Presse économique",
-        "titre": "Salaires, fournisseurs, dépenses dans les programmes… France Télévisions lève le voile sur sa gestion budgétaire",
-        "resume": "DÉCRYPTAGE - Sous les feux de la commission d’enquête parlementaire, le groupe audiovisuel public veut « consolider son lien de confiance avec les Français » avec cet effort inédit de transparence.",
-        "lien": "https://www.lefigaro.fr/medias/salaires-fournisseurs-depenses-dans-les-programmes-france-televisions-leve-le-voile-sur-sa-gestion-budgetaire-20260317",
-        "date_iso": "2026-03-17T20:15:00+01:00",
-        "date_fr": "17/03/2026",
-        "pertinence": 1
       }
     ]
   },
@@ -653,63 +640,58 @@
   "chomage": [
     {
       "trimestre": "T1 2023",
-      "taux": 6.9,
-      "jeunes": 16.6
+      "taux": 7.1,
+      "jeunes": 17.5
     },
     {
       "trimestre": "T2 2023",
-      "taux": 7.0,
-      "jeunes": 17.1
+      "taux": 7.2,
+      "jeunes": 17.0
     },
     {
       "trimestre": "T3 2023",
-      "taux": 7.2,
-      "jeunes": 17.4
+      "taux": 7.4,
+      "jeunes": 17.6
     },
     {
       "trimestre": "T4 2023",
-      "taux": 7.3,
+      "taux": 7.5,
       "jeunes": 17.6
     },
     {
       "trimestre": "T1 2024",
-      "taux": 7.3,
+      "taux": 7.5,
       "jeunes": 18.1
     },
     {
       "trimestre": "T2 2024",
-      "taux": 7.1,
-      "jeunes": 18.0
+      "taux": 7.3,
+      "jeunes": 17.7
     },
     {
       "trimestre": "T3 2024",
-      "taux": 7.2,
-      "jeunes": 19.7
+      "taux": 7.4,
+      "jeunes": 18.3
     },
     {
       "trimestre": "T4 2024",
-      "taux": 7.1,
-      "jeunes": 18.7
+      "taux": 7.3,
+      "jeunes": 19.0
     },
     {
       "trimestre": "T1 2025",
-      "taux": 7.3,
-      "jeunes": 19.2
+      "taux": 7.4,
+      "jeunes": 18.5
     },
     {
       "trimestre": "T2 2025",
-      "taux": 7.4,
-      "jeunes": 19.1
+      "taux": 7.5,
+      "jeunes": 18.8
     },
     {
       "trimestre": "T3 2025",
-      "taux": 7.5,
-      "jeunes": 19.1
-    },
-    {
-      "trimestre": "T4 2025",
       "taux": 7.7,
-      "jeunes": 21.5
+      "jeunes": 19.2
     }
   ],
   "smic": {
@@ -784,14 +766,14 @@
   ],
   "indicateurs_cles": {
     "taux_chomage_actuel": 7.7,
-    "taux_chomage_jeunes": 21.5,
+    "taux_chomage_jeunes": 19.2,
     "taux_emploi_seniors": 61.7,
     "inflation_annuelle": 0.9,
     "smic_brut": 1823.03,
     "smic_net": 1443.11,
     "salaire_median": 2190,
     "salaire_moyen": 2733,
-    "ecart_hf_eqtp": 25.8,
+    "ecart_hf_eqtp": 14.0,
     "difficultes_recrutement": 61,
     "irl_glissement": 0.79,
     "prix_gazole": 1.65,
@@ -831,36 +813,36 @@
   },
   "ecart_hommes_femmes": {
     "ecart_global": 21.8,
-    "ecart_eqtp": 25.8,
+    "ecart_eqtp": 14.0,
     "ecart_poste_comparable": 4.0,
     "evolution": [
       {
-        "annee": "2018",
-        "ecart": 23.2
+        "annee": "2015",
+        "ecart": 18.4
+      },
+      {
+        "annee": "2017",
+        "ecart": 16.6
       },
       {
         "annee": "2019",
-        "ecart": 23.8
-      },
-      {
-        "annee": "2020",
-        "ecart": 24.5
+        "ecart": 16.1
       },
       {
         "annee": "2021",
-        "ecart": 24.3
+        "ecart": 15.5
       },
       {
         "annee": "2022",
-        "ecart": 25.1
+        "ecart": 14.9
       },
       {
         "annee": "2023",
-        "ecart": 25.6
+        "ecart": 14.2
       },
       {
         "annee": "2024",
-        "ecart": 25.8
+        "ecart": 14.0
       }
     ]
   },
@@ -961,7 +943,7 @@
     },
     {
       "trimestre": "T2 2023",
-      "taux": 5.1
+      "taux": 4.9
     },
     {
       "trimestre": "T3 2023",
@@ -973,19 +955,19 @@
     },
     {
       "trimestre": "T1 2024",
-      "taux": 5.0
+      "taux": 4.8
     },
     {
       "trimestre": "T2 2024",
-      "taux": 5.1
+      "taux": 4.9
     },
     {
       "trimestre": "T3 2024",
-      "taux": 5.2
+      "taux": 4.5
     },
     {
       "trimestre": "T4 2024",
-      "taux": 5.2
+      "taux": 4.6
     },
     {
       "trimestre": "T1 2025",
@@ -1030,51 +1012,51 @@
   "types_contrats": [
     {
       "trimestre": "T1 2023",
-      "cdi": 83.2,
-      "cdd": 5.4,
-      "interim": 1.4
+      "cdi": 74.5,
+      "cdd": 8.8,
+      "interim": 2.2
     },
     {
       "trimestre": "T2 2023",
-      "cdi": 83.2,
-      "cdd": 5.4,
-      "interim": 1.4
+      "cdi": 74.3,
+      "cdd": 9.0,
+      "interim": 2.1
     },
     {
       "trimestre": "T3 2023",
-      "cdi": 83.4,
-      "cdd": 5.3,
-      "interim": 1.3
+      "cdi": 74.4,
+      "cdd": 8.9,
+      "interim": 2.0
     },
     {
       "trimestre": "T4 2023",
-      "cdi": 83.4,
-      "cdd": 5.3,
-      "interim": 1.3
+      "cdi": 74.6,
+      "cdd": 8.7,
+      "interim": 2.0
     },
     {
       "trimestre": "T1 2024",
-      "cdi": 83.4,
-      "cdd": 5.3,
-      "interim": 1.3
+      "cdi": 74.8,
+      "cdd": 8.5,
+      "interim": 1.9
     },
     {
       "trimestre": "T2 2024",
-      "cdi": 83.4,
-      "cdd": 5.3,
-      "interim": 1.3
+      "cdi": 74.7,
+      "cdd": 8.6,
+      "interim": 1.9
     },
     {
       "trimestre": "T3 2024",
-      "cdi": 83.4,
-      "cdd": 5.3,
-      "interim": 1.3
+      "cdi": 74.9,
+      "cdd": 8.4,
+      "interim": 1.8
     },
     {
       "trimestre": "T4 2024",
-      "cdi": 83.5,
-      "cdd": 5.2,
-      "interim": 1.3
+      "cdi": 75.0,
+      "cdd": 8.3,
+      "interim": 1.8
     },
     {
       "trimestre": "T1 2025",
@@ -3823,7 +3805,7 @@
       "note_lecture": "Le TEC-10 mesure le rendement des emprunts d'Etat francais a 10 ans. Un taux eleve rencherit le cout de la dette publique et impacte les taux de credit immobilier."
     },
     "petrole_brent": {
-      "valeur": 103.22,
+      "valeur": 105.22,
       "date": "2026-03-18",
       "unite": "USD/baril",
       "source": "Yahoo Finance",
@@ -5343,29 +5325,29 @@
         },
         {
           "date": "2026-03-18",
-          "valeur": 103.22,
-          "ma50": 73.99,
-          "ma200": 68.06
+          "valeur": 105.22,
+          "ma50": 74.03,
+          "ma200": 68.07
         }
       ],
       "variations": {
-        "jour": -0.19,
-        "semaine": 12.22,
-        "mois": 52.35,
-        "ytd": 69.91
+        "jour": 1.74,
+        "semaine": 14.39,
+        "mois": 55.31,
+        "ytd": 73.2
       },
       "min_max": {
         "min": 58.92,
         "min_date": "2025-12-16",
-        "max": 103.42,
-        "max_date": "2026-03-17"
+        "max": 105.22,
+        "max_date": "2026-03-18"
       },
       "note_lecture": "Le prix du Brent influence directement les couts de transport et d'energie, donc l'inflation et le pouvoir d'achat des salaries."
     },
     "cac40": {
-      "valeur": 8059.93,
+      "valeur": 8035.57,
       "date": "2026-03-18",
-      "variation_jour_pct": 1.07,
+      "variation_jour_pct": 0.77,
       "unite": "points",
       "source": "Yahoo Finance",
       "nb_points": 256,
@@ -6902,16 +6884,16 @@
         },
         {
           "date": "2026-03-18",
-          "valeur": 8059.93,
-          "ma50": 8228.7,
-          "ma200": 7995.8
+          "valeur": 8035.57,
+          "ma50": 8228.21,
+          "ma200": 7995.68
         }
       ],
       "variations": {
-        "jour": 1.07,
-        "semaine": 0.23,
-        "mois": -3.09,
-        "ytd": -1.65
+        "jour": 0.77,
+        "semaine": -0.08,
+        "mois": -3.38,
+        "ytd": -1.95
       },
       "min_max": {
         "min": 6863.02,
@@ -8492,7 +8474,7 @@
       "note_lecture": "Le taux de change euro-dollar determine le prix de tout ce qui est importe en dollars : petrole, matieres premieres, electronique. Un euro faible rencherit les importations et alimente l'inflation."
     },
     "or": {
-      "valeur": 4993.1,
+      "valeur": 4906.1,
       "date": "2026-03-18",
       "unite": "USD/oz",
       "source": "Yahoo Finance",
@@ -10012,16 +9994,16 @@
         },
         {
           "date": "2026-03-18",
-          "valeur": 4993.1,
-          "ma50": 4949.08,
-          "ma200": 4051.48
+          "valeur": 4906.1,
+          "ma50": 4947.34,
+          "ma200": 4051.04
         }
       ],
       "variations": {
-        "jour": -0.16,
-        "semaine": -3.37,
-        "mois": -0.58,
-        "ytd": 15.73
+        "jour": -1.9,
+        "semaine": -5.06,
+        "mois": -2.31,
+        "ytd": 13.71
       },
       "min_max": {
         "min": 2951.3,
@@ -10032,7 +10014,7 @@
       "note_lecture": "L'or est la valeur refuge par excellence. Sa hausse traduit une montee de l'incertitude economique ou geopolitique. Il sert aussi de protection contre l'inflation."
     },
     "gaz_naturel": {
-      "valeur": 50.15,
+      "valeur": 51.85,
       "date": "2026-03-18",
       "unite": "EUR/MWh",
       "source": "Yahoo Finance (TTF)",
@@ -11552,16 +11534,16 @@
         },
         {
           "date": "2026-03-18",
-          "valeur": 50.15,
-          "ma50": 38.05,
-          "ma200": 33.63
+          "valeur": 51.85,
+          "ma50": 38.08,
+          "ma200": 33.64
         }
       ],
       "variations": {
-        "jour": -2.73,
-        "semaine": 0.32,
-        "mois": 54.31,
-        "ytd": 72.93
+        "jour": 0.56,
+        "semaine": 3.72,
+        "mois": 59.54,
+        "ytd": 78.79
       },
       "min_max": {
         "min": 26.6,
@@ -11572,7 +11554,7 @@
       "note_lecture": "Le prix du gaz naturel (TTF europeen) impacte directement les factures de chauffage et d'electricite des menages, ainsi que les couts de production industrielle."
     },
     "ble": {
-      "valeur": 591.0,
+      "valeur": 587.75,
       "date": "2026-03-18",
       "unite": "cents/boisseau",
       "source": "Yahoo Finance",
@@ -13086,16 +13068,16 @@
         },
         {
           "date": "2026-03-18",
-          "valeur": 591.0,
-          "ma50": 548.91,
-          "ma200": 530.37
+          "valeur": 587.75,
+          "ma50": 548.85,
+          "ma200": 530.35
         }
       ],
       "variations": {
-        "jour": 0.21,
-        "semaine": 0.42,
-        "mois": 7.7,
-        "ytd": 16.68
+        "jour": -0.34,
+        "semaine": -0.13,
+        "mois": 7.11,
+        "ytd": 16.04
       },
       "min_max": {
         "min": 495.0,
@@ -13886,7 +13868,7 @@
           "2023": 1.92,
           "2024": 1.78,
           "2025": 1.72,
-          "2026": 1.948
+          "2026": 1.949
         },
         "quantiteMensuelle": {
           "solo": 40,
@@ -16309,7 +16291,7 @@
     "sources": "INSEE - Enquête Emploi, DARES"
   },
   "previsions_cftc": {
-    "generated_at": "2026-03-18T10:24:29.951256",
+    "generated_at": "2026-03-18T12:27:09.177353",
     "model_version": "CFTC v4.0 (Monte Carlo)",
     "n_simulations": 1000,
     "horizon": "12 mois",
