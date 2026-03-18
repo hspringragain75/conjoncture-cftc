@@ -1,6 +1,6 @@
 {
-  "last_updated": "18/03/2026 14:46",
-  "last_updated_iso": "2026-03-18T14:46:36.264038",
+  "last_updated": "18/03/2026 14:53",
+  "last_updated_iso": "2026-03-18T14:53:54.580096",
   "contact": "hspringragain@cftc.fr",
   "alertes": [
     {
@@ -32,7 +32,7 @@
       "date": "2026-03-18",
       "type": "info",
       "titre": "🔄 Données actualisées",
-      "message": "Le tableau de bord a été mis à jour le 18/03/2026 à 14:46.",
+      "message": "Le tableau de bord a été mis à jour le 18/03/2026 à 14:53.",
       "onglet": "conjoncture"
     }
   ],
@@ -172,7 +172,7 @@
     }
   ],
   "revue_presse": {
-    "derniere_maj": "18/03/2026 14:46",
+    "derniere_maj": "18/03/2026 14:53",
     "nb_sources": 7,
     "sources_noms": [
       "Le Monde Éco",
@@ -183,7 +183,20 @@
       "Institut Montaigne",
       "Euractiv FR"
     ],
-    "a_la_une": [],
+    "a_la_une": [
+      {
+        "source": "Le Figaro Éco",
+        "couleur": "#92400e",
+        "emoji": "📊",
+        "tag": "Presse économique",
+        "titre": "En Chine, ces milliers d’ouvriers étranglés par les salaires impayés",
+        "resume": "REPORTAGE - Les travailleurs précaires sont très nombreux à ne pas avoir perçu de rémunérations, avant de rentrer chez eux pour le Nouvel An lunaire. Le nombre de protestations a augmenté de 60 % en un an, évalue une ONG.",
+        "lien": "https://www.lefigaro.fr/conjoncture/en-chine-ces-milliers-d-ouvriers-etrangles-par-les-salaires-impayes-20260318",
+        "date_iso": "2026-03-18T15:30:00+01:00",
+        "date_fr": "18/03/2026",
+        "pertinence": 3
+      }
+    ],
     "tous": [
       {
         "source": "Le Figaro Éco",
@@ -242,6 +255,30 @@
         "resume": "La France est la terre d’élection du tourisme de type Airbnb et les maires devraient avoir bientôt des outils pour identifier les propriétaires et les locataires, et percevoir les recettes fiscales liées à ces pratiques, explique l’économiste Philippe Askenazy dans sa chronique au « Monde ».",
         "lien": "https://www.lemonde.fr/idees/article/2026/03/18/meubles-touristiques-les-mairies-devraient-recuperer-en-amendes-potentiellement-des-dizaines-de-millions-d-euros_6672095_3232.html",
         "date_iso": "2026-03-18T15:30:05+01:00",
+        "date_fr": "18/03/2026",
+        "pertinence": 0
+      },
+      {
+        "source": "Le Figaro Éco",
+        "couleur": "#92400e",
+        "emoji": "📊",
+        "tag": "Presse économique",
+        "titre": "En Chine, ces milliers d’ouvriers étranglés par les salaires impayés",
+        "resume": "REPORTAGE - Les travailleurs précaires sont très nombreux à ne pas avoir perçu de rémunérations, avant de rentrer chez eux pour le Nouvel An lunaire. Le nombre de protestations a augmenté de 60 % en un an, évalue une ONG.",
+        "lien": "https://www.lefigaro.fr/conjoncture/en-chine-ces-milliers-d-ouvriers-etrangles-par-les-salaires-impayes-20260318",
+        "date_iso": "2026-03-18T15:30:00+01:00",
+        "date_fr": "18/03/2026",
+        "pertinence": 3
+      },
+      {
+        "source": "Le Figaro Éco",
+        "couleur": "#92400e",
+        "emoji": "📊",
+        "tag": "Presse économique",
+        "titre": "Des eurodéputés veulent interdire la création par IA de «deepfakes» sexuels",
+        "resume": "Le texte, adopté mercredi en commission, vise «à interdire les applications permettant de ’dénuder’ des personnes sans leur consentement, qui ont provoqué beaucoup de souffrances au bénéfice de quelques-uns».",
+        "lien": "https://www.lefigaro.fr/secteur/high-tech/des-eurodeputes-veulent-interdire-la-creation-par-ia-de-deepfakes-sexuels-20260318",
+        "date_iso": "2026-03-18T15:26:51+01:00",
         "date_fr": "18/03/2026",
         "pertinence": 0
       },
@@ -520,30 +557,6 @@
         "date_iso": "2026-03-18T10:52:03+01:00",
         "date_fr": "18/03/2026",
         "pertinence": 0
-      },
-      {
-        "source": "Le Monde Éco",
-        "couleur": "#374151",
-        "emoji": "🌐",
-        "tag": "Presse économique",
-        "titre": "Plus de 164 millions d’euros qui dormaient sur des comptes bancaires « inactifs » restitués à leurs ayants droit en 2025",
-        "resume": "Depuis 2017, il est possible de rechercher l’existence de ces comptes inactifs sur le service en ligne Ciclade.",
-        "lien": "https://www.lemonde.fr/argent/article/2026/03/18/comptes-bancaires-inactifs-164-millions-d-euros-restitues-en-2025_6672056_1657007.html",
-        "date_iso": "2026-03-18T10:45:01+01:00",
-        "date_fr": "18/03/2026",
-        "pertinence": 0
-      },
-      {
-        "source": "Le Figaro Éco",
-        "couleur": "#92400e",
-        "emoji": "📊",
-        "tag": "Presse économique",
-        "titre": "Japon : le nombre de touristes chinois en chute libre, sur fond de vives tensions entre Tokyo et Pékin",
-        "resume": "L’archipel a accueilli le mois dernier 396.400 visiteurs de Chine continentale, selon l’Agence japonaise du tourisme, un chiffre en baisse de 45,2% sur un an, malgré le Nouvel an lunaire tombé cette année en février.",
-        "lien": "https://www.lefigaro.fr/conjoncture/japon-le-nombre-de-touristes-chinois-en-chute-libre-sur-fond-de-vives-tensions-entre-tokyo-et-pekin-20260318",
-        "date_iso": "2026-03-18T10:22:26+01:00",
-        "date_fr": "18/03/2026",
-        "pertinence": 1
       }
     ]
   },
@@ -794,7 +807,7 @@
     "smic_net": 1443.11,
     "salaire_median": 2190,
     "salaire_moyen": 2733,
-    "ecart_hf_eqtp": 14.0,
+    "ecart_hf_eqtp": 25.8,
     "difficultes_recrutement": 61,
     "irl_glissement": 0.79,
     "prix_gazole": 1.65,
@@ -834,36 +847,36 @@
   },
   "ecart_hommes_femmes": {
     "ecart_global": 21.8,
-    "ecart_eqtp": 14.0,
+    "ecart_eqtp": 25.8,
     "ecart_poste_comparable": 4.0,
     "evolution": [
       {
-        "annee": "2015",
-        "ecart": 18.4
-      },
-      {
-        "annee": "2017",
-        "ecart": 16.6
+        "annee": "2018",
+        "ecart": 23.2
       },
       {
         "annee": "2019",
-        "ecart": 16.1
+        "ecart": 23.8
+      },
+      {
+        "annee": "2020",
+        "ecart": 24.5
       },
       {
         "annee": "2021",
-        "ecart": 15.5
+        "ecart": 24.3
       },
       {
         "annee": "2022",
-        "ecart": 14.9
+        "ecart": 25.1
       },
       {
         "annee": "2023",
-        "ecart": 14.2
+        "ecart": 25.6
       },
       {
         "annee": "2024",
-        "ecart": 14.0
+        "ecart": 25.8
       }
     ]
   },
@@ -1107,57 +1120,57 @@
   "difficultes_recrutement": [
     {
       "trimestre": "T1 2023",
-      "industrie": 52,
-      "services": 38,
-      "construction": 65
+      "industrie": 65,
+      "services": 48,
+      "construction": 78
     },
     {
       "trimestre": "T2 2023",
-      "industrie": 50,
-      "services": 36,
-      "construction": 62
+      "industrie": 64,
+      "services": 48,
+      "construction": 76
     },
     {
       "trimestre": "T3 2023",
-      "industrie": 48,
-      "services": 35,
-      "construction": 60
+      "industrie": 60,
+      "services": 45,
+      "construction": 72
     },
     {
       "trimestre": "T4 2023",
-      "industrie": 45,
-      "services": 33,
-      "construction": 58
+      "industrie": 57,
+      "services": 42,
+      "construction": 68
     },
     {
       "trimestre": "T1 2024",
-      "industrie": 43,
-      "services": 32,
-      "construction": 55
+      "industrie": 53,
+      "services": 39,
+      "construction": 63
     },
     {
       "trimestre": "T2 2024",
-      "industrie": 41,
-      "services": 30,
-      "construction": 52
+      "industrie": 52,
+      "services": 39,
+      "construction": 62
     },
     {
       "trimestre": "T3 2024",
-      "industrie": 40,
-      "services": 30,
-      "construction": 50
+      "industrie": 48,
+      "services": 36,
+      "construction": 57
     },
     {
       "trimestre": "T4 2024",
-      "industrie": 38,
-      "services": 28,
-      "construction": 48
+      "industrie": 46,
+      "services": 34,
+      "construction": 55
     },
     {
       "trimestre": "T1 2025",
-      "industrie": 36,
-      "services": 27,
-      "construction": 46
+      "industrie": 44,
+      "services": 33,
+      "construction": 52
     },
     {
       "trimestre": "T2 2025",
@@ -1614,38 +1627,28 @@
   "prix_immobilier": {
     "indice_actuel": 128.5,
     "variation_trim": 0.7,
-    "variation_an": -1.8,
+    "variation_an": 0.7,
     "transactions_annuelles": 880000,
     "evolution": [
       {
-        "trimestre": "T1 2022",
-        "indice": 124.5,
-        "variation": 7.2
-      },
-      {
-        "trimestre": "T3 2022",
-        "indice": 126.8,
-        "variation": 6.1
-      },
-      {
-        "trimestre": "T1 2023",
-        "indice": 124.2,
-        "variation": -0.2
-      },
-      {
-        "trimestre": "T3 2023",
-        "indice": 120.5,
-        "variation": -5.0
+        "trimestre": "T4 2023",
+        "indice": 128.7,
+        "variation": -3.6
       },
       {
         "trimestre": "T1 2024",
-        "indice": 117.8,
-        "variation": -5.1
+        "indice": 126.0,
+        "variation": -4.8
+      },
+      {
+        "trimestre": "T2 2024",
+        "indice": 125.7,
+        "variation": -4.6
       },
       {
         "trimestre": "T3 2024",
-        "indice": 115.3,
-        "variation": -4.3
+        "indice": 127.6,
+        "variation": -3.5
       },
       {
         "trimestre": "T4 2024",
@@ -1702,13 +1705,18 @@
     },
     "sp98": {
       "prix": 1.82,
-      "variation_an": -5.0
+      "variation_an": -4.5
     },
     "evolution": [
       {
+        "mois": "Jan 2023",
+        "gazole": 1.85,
+        "sp95": 1.82
+      },
+      {
         "mois": "Avr 2023",
-        "gazole": 1.81,
-        "sp95": 1.95
+        "gazole": 1.78,
+        "sp95": 1.88
       },
       {
         "mois": "Juil 2023",
@@ -1717,51 +1725,56 @@
       },
       {
         "mois": "Oct 2023",
-        "gazole": 1.91,
-        "sp95": 1.89
+        "gazole": 1.88,
+        "sp95": 1.92
       },
       {
         "mois": "Jan 2024",
+        "gazole": 1.72,
+        "sp95": 1.78
+      },
+      {
+        "mois": "Avr 2024",
         "gazole": 1.75,
         "sp95": 1.82
       },
       {
-        "mois": "Avr 2024",
-        "gazole": 1.79,
-        "sp95": 1.94
-      },
-      {
         "mois": "Juil 2024",
-        "gazole": 1.73,
-        "sp95": 1.86
+        "gazole": 1.68,
+        "sp95": 1.75
       },
       {
         "mois": "Oct 2024",
-        "gazole": 1.63,
-        "sp95": 1.76
-      },
-      {
-        "mois": "Jan 2025",
-        "gazole": 1.71,
-        "sp95": 1.81
-      },
-      {
-        "mois": "Avr 2025",
-        "gazole": 1.59,
-        "sp95": 1.73
-      },
-      {
-        "mois": "Juil 2025",
-        "gazole": 1.65,
+        "gazole": 1.62,
         "sp95": 1.72
       },
       {
+        "mois": "Jan 2025",
+        "gazole": 1.65,
+        "sp95": 1.78
+      },
+      {
+        "mois": "Avr 2025",
+        "gazole": 1.6,
+        "sp95": 1.74
+      },
+      {
+        "mois": "Juil 2025",
+        "gazole": 1.58,
+        "sp95": 1.7
+      },
+      {
         "mois": "Oct 2025",
-        "gazole": 1.61,
+        "gazole": 1.58,
         "sp95": 1.72
       },
       {
         "mois": "Jan 2026",
+        "gazole": 1.62,
+        "sp95": 1.71
+      },
+      {
+        "mois": "Mar 2026",
         "gazole": 1.65,
         "sp95": 1.72
       }
@@ -3826,7 +3839,7 @@
       "note_lecture": "Le TEC-10 mesure le rendement des emprunts d'Etat francais a 10 ans. Un taux eleve rencherit le cout de la dette publique et impacte les taux de credit immobilier."
     },
     "petrole_brent": {
-      "valeur": 109.7,
+      "valeur": 109.9,
       "date": "2026-03-18",
       "unite": "USD/baril",
       "source": "Yahoo Finance",
@@ -5346,29 +5359,29 @@
         },
         {
           "date": "2026-03-18",
-          "valeur": 109.7,
+          "valeur": 109.9,
           "ma50": 74.12,
           "ma200": 68.09
         }
       ],
       "variations": {
-        "jour": 6.07,
-        "semaine": 19.27,
-        "mois": 61.92,
-        "ytd": 80.58
+        "jour": 6.27,
+        "semaine": 19.48,
+        "mois": 62.21,
+        "ytd": 80.91
       },
       "min_max": {
         "min": 58.92,
         "min_date": "2025-12-16",
-        "max": 109.7,
+        "max": 109.9,
         "max_date": "2026-03-18"
       },
       "note_lecture": "Le prix du Brent influence directement les couts de transport et d'energie, donc l'inflation et le pouvoir d'achat des salaries."
     },
     "cac40": {
-      "valeur": 7962.36,
+      "valeur": 7956.8,
       "date": "2026-03-18",
-      "variation_jour_pct": -0.15,
+      "variation_jour_pct": -0.22,
       "unite": "points",
       "source": "Yahoo Finance",
       "nb_points": 256,
@@ -6905,16 +6918,16 @@
         },
         {
           "date": "2026-03-18",
-          "valeur": 7962.36,
-          "ma50": 8226.74,
-          "ma200": 7995.31
+          "valeur": 7956.8,
+          "ma50": 8226.63,
+          "ma200": 7995.28
         }
       ],
       "variations": {
-        "jour": -0.15,
-        "semaine": -0.99,
-        "mois": -4.26,
-        "ytd": -2.84
+        "jour": -0.22,
+        "semaine": -1.06,
+        "mois": -4.33,
+        "ytd": -2.91
       },
       "min_max": {
         "min": 6863.02,
@@ -8495,7 +8508,7 @@
       "note_lecture": "Le taux de change euro-dollar determine le prix de tout ce qui est importe en dollars : petrole, matieres premieres, electronique. Un euro faible rencherit les importations et alimente l'inflation."
     },
     "or": {
-      "valeur": 4862.2,
+      "valeur": 4862.8,
       "date": "2026-03-18",
       "unite": "USD/oz",
       "source": "Yahoo Finance",
@@ -10015,16 +10028,16 @@
         },
         {
           "date": "2026-03-18",
-          "valeur": 4862.2,
-          "ma50": 4946.46,
+          "valeur": 4862.8,
+          "ma50": 4946.47,
           "ma200": 4050.82
         }
       ],
       "variations": {
-        "jour": -2.78,
-        "semaine": -5.91,
-        "mois": -3.18,
-        "ytd": 12.7
+        "jour": -2.76,
+        "semaine": -5.89,
+        "mois": -3.17,
+        "ytd": 12.71
       },
       "min_max": {
         "min": 2951.3,
@@ -11575,7 +11588,7 @@
       "note_lecture": "Le prix du gaz naturel (TTF europeen) impacte directement les factures de chauffage et d'electricite des menages, ainsi que les couts de production industrielle."
     },
     "ble": {
-      "valeur": 601.0,
+      "valeur": 601.75,
       "date": "2026-03-18",
       "unite": "cents/boisseau",
       "source": "Yahoo Finance",
@@ -13089,16 +13102,16 @@
         },
         {
           "date": "2026-03-18",
-          "valeur": 601.0,
-          "ma50": 549.11,
+          "valeur": 601.75,
+          "ma50": 549.12,
           "ma200": 530.42
         }
       ],
       "variations": {
-        "jour": 1.91,
-        "semaine": 2.12,
-        "mois": 9.52,
-        "ytd": 18.66
+        "jour": 2.03,
+        "semaine": 2.25,
+        "mois": 9.66,
+        "ytd": 18.81
       },
       "min_max": {
         "min": 495.0,
@@ -16312,7 +16325,7 @@
     "sources": "INSEE - Enquête Emploi, DARES"
   },
   "previsions_cftc": {
-    "generated_at": "2026-03-18T14:46:36.382653",
+    "generated_at": "2026-03-18T14:53:54.682360",
     "model_version": "CFTC v4.0 (Monte Carlo)",
     "n_simulations": 1000,
     "horizon": "12 mois",
