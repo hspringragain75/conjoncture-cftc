@@ -1,6 +1,6 @@
 {
-  "last_updated": "18/03/2026 13:48",
-  "last_updated_iso": "2026-03-18T13:48:59.286593",
+  "last_updated": "18/03/2026 13:58",
+  "last_updated_iso": "2026-03-18T13:58:06.320243",
   "contact": "hspringragain@cftc.fr",
   "alertes": [
     {
@@ -32,7 +32,7 @@
       "date": "2026-03-18",
       "type": "info",
       "titre": "🔄 Données actualisées",
-      "message": "Le tableau de bord a été mis à jour le 18/03/2026 à 13:48.",
+      "message": "Le tableau de bord a été mis à jour le 18/03/2026 à 13:57.",
       "onglet": "conjoncture"
     }
   ],
@@ -151,7 +151,7 @@
     }
   ],
   "revue_presse": {
-    "derniere_maj": "18/03/2026 13:48",
+    "derniere_maj": "18/03/2026 13:58",
     "nb_sources": 7,
     "sources_noms": [
       "Le Monde Éco",
@@ -221,6 +221,18 @@
         "resume": "L’Italie, la Pologne, la Hongrie, la Slovaquie et la République tchèque réclament une suspension du marché carbone européen, qui coûte cher à leurs entreprises.",
         "lien": "https://www.lefigaro.fr/economie/face-a-la-guerre-au-moyen-orient-les-etats-europeens-s-opposent-sur-le-sort-du-marche-carbone-20260318",
         "date_iso": "2026-03-18T13:54:18+01:00",
+        "date_fr": "18/03/2026",
+        "pertinence": 1
+      },
+      {
+        "source": "Euractiv FR",
+        "couleur": "#0369a1",
+        "emoji": "🇪🇺",
+        "tag": "Europe & politique",
+        "titre": "Un scandale d espionnage secoue la campagne électorale en Slovénie",
+        "resume": "Cette polémique survient dans un contexte de tensions croissantes à l'approche du scrutin du 22 mars, les enregistrements ayant été largement diffusés sur Internet et relayés par le SDS The post Un scandale d&rsquo;espionnage secoue la campagne électorale en Slovénie appeared first on Euractiv FR .",
+        "lien": "https://euractiv.fr/news/un-scandale-despionnage-secoue-la-campagne-electorale-en-slovenie/",
+        "date_iso": "2026-03-18T13:49:29+00:00",
         "date_fr": "18/03/2026",
         "pertinence": 1
       },
@@ -509,18 +521,6 @@
         "resume": "Un plan visant à faciliter la vie des start-ups dans toute l'Union européenne devrait être présenté mercredi The post EU Inc. a pour objectif de retenir les innovateurs de ce côté-ci de l&rsquo;Atlantique appeared first on Euractiv FR .",
         "lien": "https://euractiv.fr/news/eu-inc-a-pour-objectif-de-retenir-les-innovateurs-de-ce-cote-ci-de-latlantique/",
         "date_iso": "2026-03-18T08:49:49+00:00",
-        "date_fr": "18/03/2026",
-        "pertinence": 0
-      },
-      {
-        "source": "Euractiv FR",
-        "couleur": "#0369a1",
-        "emoji": "🇪🇺",
-        "tag": "Europe & politique",
-        "titre": "La guerre en Iran transforme l’Ukraine en exportateur de sécurité",
-        "resume": "Kiev propose à ses alliés une expertise éprouvée sur le terrain pour lutter contre les drones iraniens The post La guerre en Iran transforme l’Ukraine en exportateur de sécurité appeared first on Euractiv FR .",
-        "lien": "https://euractiv.fr/news/la-guerre-en-iran-transforme-lukraine-en-exportateur-de-securite/",
-        "date_iso": "2026-03-18T08:41:41+00:00",
         "date_fr": "18/03/2026",
         "pertinence": 0
       }
@@ -1091,57 +1091,57 @@
   "difficultes_recrutement": [
     {
       "trimestre": "T1 2023",
-      "industrie": 52,
-      "services": 38,
-      "construction": 65
+      "industrie": 65,
+      "services": 48,
+      "construction": 78
     },
     {
       "trimestre": "T2 2023",
-      "industrie": 50,
-      "services": 36,
-      "construction": 62
+      "industrie": 64,
+      "services": 48,
+      "construction": 76
     },
     {
       "trimestre": "T3 2023",
-      "industrie": 48,
-      "services": 35,
-      "construction": 60
+      "industrie": 60,
+      "services": 45,
+      "construction": 72
     },
     {
       "trimestre": "T4 2023",
-      "industrie": 45,
-      "services": 33,
-      "construction": 58
+      "industrie": 57,
+      "services": 42,
+      "construction": 68
     },
     {
       "trimestre": "T1 2024",
-      "industrie": 43,
-      "services": 32,
-      "construction": 55
+      "industrie": 53,
+      "services": 39,
+      "construction": 63
     },
     {
       "trimestre": "T2 2024",
-      "industrie": 41,
-      "services": 30,
-      "construction": 52
+      "industrie": 52,
+      "services": 39,
+      "construction": 62
     },
     {
       "trimestre": "T3 2024",
-      "industrie": 40,
-      "services": 30,
-      "construction": 50
+      "industrie": 48,
+      "services": 36,
+      "construction": 57
     },
     {
       "trimestre": "T4 2024",
-      "industrie": 38,
-      "services": 28,
-      "construction": 48
+      "industrie": 46,
+      "services": 34,
+      "construction": 55
     },
     {
       "trimestre": "T1 2025",
-      "industrie": 36,
-      "services": 27,
-      "construction": 46
+      "industrie": 44,
+      "services": 33,
+      "construction": 52
     },
     {
       "trimestre": "T2 2025",
@@ -1598,38 +1598,28 @@
   "prix_immobilier": {
     "indice_actuel": 128.5,
     "variation_trim": 0.7,
-    "variation_an": -1.8,
+    "variation_an": 0.7,
     "transactions_annuelles": 880000,
     "evolution": [
       {
-        "trimestre": "T1 2022",
-        "indice": 124.5,
-        "variation": 7.2
-      },
-      {
-        "trimestre": "T3 2022",
-        "indice": 126.8,
-        "variation": 6.1
-      },
-      {
-        "trimestre": "T1 2023",
-        "indice": 124.2,
-        "variation": -0.2
-      },
-      {
-        "trimestre": "T3 2023",
-        "indice": 120.5,
-        "variation": -5.0
+        "trimestre": "T4 2023",
+        "indice": 128.7,
+        "variation": -3.6
       },
       {
         "trimestre": "T1 2024",
-        "indice": 117.8,
-        "variation": -5.1
+        "indice": 126.0,
+        "variation": -4.8
+      },
+      {
+        "trimestre": "T2 2024",
+        "indice": 125.7,
+        "variation": -4.6
       },
       {
         "trimestre": "T3 2024",
-        "indice": 115.3,
-        "variation": -4.3
+        "indice": 127.6,
+        "variation": -3.5
       },
       {
         "trimestre": "T4 2024",
@@ -1686,13 +1676,18 @@
     },
     "sp98": {
       "prix": 1.82,
-      "variation_an": -5.0
+      "variation_an": -4.5
     },
     "evolution": [
       {
+        "mois": "Jan 2023",
+        "gazole": 1.85,
+        "sp95": 1.82
+      },
+      {
         "mois": "Avr 2023",
-        "gazole": 1.81,
-        "sp95": 1.95
+        "gazole": 1.78,
+        "sp95": 1.88
       },
       {
         "mois": "Juil 2023",
@@ -1701,51 +1696,56 @@
       },
       {
         "mois": "Oct 2023",
-        "gazole": 1.91,
-        "sp95": 1.89
+        "gazole": 1.88,
+        "sp95": 1.92
       },
       {
         "mois": "Jan 2024",
+        "gazole": 1.72,
+        "sp95": 1.78
+      },
+      {
+        "mois": "Avr 2024",
         "gazole": 1.75,
         "sp95": 1.82
       },
       {
-        "mois": "Avr 2024",
-        "gazole": 1.79,
-        "sp95": 1.94
-      },
-      {
         "mois": "Juil 2024",
-        "gazole": 1.73,
-        "sp95": 1.86
+        "gazole": 1.68,
+        "sp95": 1.75
       },
       {
         "mois": "Oct 2024",
-        "gazole": 1.63,
-        "sp95": 1.76
-      },
-      {
-        "mois": "Jan 2025",
-        "gazole": 1.71,
-        "sp95": 1.81
-      },
-      {
-        "mois": "Avr 2025",
-        "gazole": 1.59,
-        "sp95": 1.73
-      },
-      {
-        "mois": "Juil 2025",
-        "gazole": 1.65,
+        "gazole": 1.62,
         "sp95": 1.72
       },
       {
+        "mois": "Jan 2025",
+        "gazole": 1.65,
+        "sp95": 1.78
+      },
+      {
+        "mois": "Avr 2025",
+        "gazole": 1.6,
+        "sp95": 1.74
+      },
+      {
+        "mois": "Juil 2025",
+        "gazole": 1.58,
+        "sp95": 1.7
+      },
+      {
         "mois": "Oct 2025",
-        "gazole": 1.61,
+        "gazole": 1.58,
         "sp95": 1.72
       },
       {
         "mois": "Jan 2026",
+        "gazole": 1.62,
+        "sp95": 1.71
+      },
+      {
+        "mois": "Mar 2026",
         "gazole": 1.65,
         "sp95": 1.72
       }
@@ -3810,7 +3810,7 @@
       "note_lecture": "Le TEC-10 mesure le rendement des emprunts d'Etat francais a 10 ans. Un taux eleve rencherit le cout de la dette publique et impacte les taux de credit immobilier."
     },
     "petrole_brent": {
-      "valeur": 108.32,
+      "valeur": 108.37,
       "date": "2026-03-18",
       "unite": "USD/baril",
       "source": "Yahoo Finance",
@@ -5330,29 +5330,29 @@
         },
         {
           "date": "2026-03-18",
-          "valeur": 108.32,
+          "valeur": 108.37,
           "ma50": 74.09,
           "ma200": 68.08
         }
       ],
       "variations": {
-        "jour": 4.74,
-        "semaine": 17.76,
-        "mois": 59.88,
-        "ytd": 78.3
+        "jour": 4.79,
+        "semaine": 17.82,
+        "mois": 59.96,
+        "ytd": 78.39
       },
       "min_max": {
         "min": 58.92,
         "min_date": "2025-12-16",
-        "max": 108.32,
+        "max": 108.37,
         "max_date": "2026-03-18"
       },
       "note_lecture": "Le prix du Brent influence directement les couts de transport et d'energie, donc l'inflation et le pouvoir d'achat des salaries."
     },
     "cac40": {
-      "valeur": 7989.62,
+      "valeur": 7994.98,
       "date": "2026-03-18",
-      "variation_jour_pct": 0.19,
+      "variation_jour_pct": 0.26,
       "unite": "points",
       "source": "Yahoo Finance",
       "nb_points": 256,
@@ -6889,16 +6889,16 @@
         },
         {
           "date": "2026-03-18",
-          "valeur": 7989.62,
-          "ma50": 8227.29,
-          "ma200": 7995.45
+          "valeur": 7994.98,
+          "ma50": 8227.4,
+          "ma200": 7995.47
         }
       ],
       "variations": {
-        "jour": 0.19,
-        "semaine": -0.65,
-        "mois": -3.93,
-        "ytd": -2.51
+        "jour": 0.26,
+        "semaine": -0.58,
+        "mois": -3.87,
+        "ytd": -2.44
       },
       "min_max": {
         "min": 6863.02,
@@ -8479,7 +8479,7 @@
       "note_lecture": "Le taux de change euro-dollar determine le prix de tout ce qui est importe en dollars : petrole, matieres premieres, electronique. Un euro faible rencherit les importations et alimente l'inflation."
     },
     "or": {
-      "valeur": 4865.0,
+      "valeur": 4882.1,
       "date": "2026-03-18",
       "unite": "USD/oz",
       "source": "Yahoo Finance",
@@ -9999,16 +9999,16 @@
         },
         {
           "date": "2026-03-18",
-          "valeur": 4865.0,
-          "ma50": 4946.52,
-          "ma200": 4050.84
+          "valeur": 4882.1,
+          "ma50": 4946.86,
+          "ma200": 4050.92
         }
       ],
       "variations": {
-        "jour": -2.72,
-        "semaine": -5.85,
-        "mois": -3.13,
-        "ytd": 12.76
+        "jour": -2.38,
+        "semaine": -5.52,
+        "mois": -2.79,
+        "ytd": 13.16
       },
       "min_max": {
         "min": 2951.3,
@@ -10019,7 +10019,7 @@
       "note_lecture": "L'or est la valeur refuge par excellence. Sa hausse traduit une montee de l'incertitude economique ou geopolitique. Il sert aussi de protection contre l'inflation."
     },
     "gaz_naturel": {
-      "valeur": 55.12,
+      "valeur": 55.49,
       "date": "2026-03-18",
       "unite": "EUR/MWh",
       "source": "Yahoo Finance (TTF)",
@@ -11539,16 +11539,16 @@
         },
         {
           "date": "2026-03-18",
-          "valeur": 55.12,
-          "ma50": 38.15,
+          "valeur": 55.49,
+          "ma50": 38.16,
           "ma200": 33.66
         }
       ],
       "variations": {
-        "jour": 6.9,
-        "semaine": 10.26,
-        "mois": 69.6,
-        "ytd": 90.07
+        "jour": 7.62,
+        "semaine": 11.0,
+        "mois": 70.74,
+        "ytd": 91.34
       },
       "min_max": {
         "min": 26.6,
@@ -11559,7 +11559,7 @@
       "note_lecture": "Le prix du gaz naturel (TTF europeen) impacte directement les factures de chauffage et d'electricite des menages, ainsi que les couts de production industrielle."
     },
     "ble": {
-      "valeur": 598.0,
+      "valeur": 593.75,
       "date": "2026-03-18",
       "unite": "cents/boisseau",
       "source": "Yahoo Finance",
@@ -13073,16 +13073,16 @@
         },
         {
           "date": "2026-03-18",
-          "valeur": 598.0,
-          "ma50": 549.05,
-          "ma200": 530.4
+          "valeur": 593.75,
+          "ma50": 548.97,
+          "ma200": 530.38
         }
       ],
       "variations": {
-        "jour": 1.4,
-        "semaine": 1.61,
-        "mois": 8.97,
-        "ytd": 18.07
+        "jour": 0.68,
+        "semaine": 0.89,
+        "mois": 8.2,
+        "ytd": 17.23
       },
       "min_max": {
         "min": 495.0,
@@ -16296,7 +16296,7 @@
     "sources": "INSEE - Enquête Emploi, DARES"
   },
   "previsions_cftc": {
-    "generated_at": "2026-03-18T13:48:59.427938",
+    "generated_at": "2026-03-18T13:58:06.406801",
     "model_version": "CFTC v4.0 (Monte Carlo)",
     "n_simulations": 1000,
     "horizon": "12 mois",
