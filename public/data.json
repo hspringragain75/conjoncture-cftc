@@ -1,6 +1,6 @@
 {
-  "last_updated": "18/03/2026 12:36",
-  "last_updated_iso": "2026-03-18T12:36:41.123680",
+  "last_updated": "18/03/2026 13:08",
+  "last_updated_iso": "2026-03-18T13:08:41.855972",
   "contact": "hspringragain@cftc.fr",
   "alertes": [
     {
@@ -32,7 +32,7 @@
       "date": "2026-03-18",
       "type": "info",
       "titre": "🔄 Données actualisées",
-      "message": "Le tableau de bord a été mis à jour le 18/03/2026 à 12:36.",
+      "message": "Le tableau de bord a été mis à jour le 18/03/2026 à 13:08.",
       "onglet": "conjoncture"
     }
   ],
@@ -151,7 +151,7 @@
     }
   ],
   "revue_presse": {
-    "derniere_maj": "18/03/2026 12:36",
+    "derniere_maj": "18/03/2026 13:08",
     "nb_sources": 7,
     "sources_noms": [
       "Le Monde Éco",
@@ -164,6 +164,30 @@
     ],
     "a_la_une": [],
     "tous": [
+      {
+        "source": "Le Monde Éco",
+        "couleur": "#374151",
+        "emoji": "🌐",
+        "tag": "Presse économique",
+        "titre": "L’ombre de l’IA sur l’avenir des emplois : « Cela va tellement vite qu’on ne sait pas ce qu’on sera dans cinq ans »",
+        "resume": "De l’outil d’assistance développé en interne aux prévisions d’emplois « à risques », les entreprises françaises tentent d’anticiper les bouleversements que va engendrer l’arrivée de l’intelligence artificielle dans leur organisation.",
+        "lien": "https://www.lemonde.fr/economie/article/2026/03/18/l-ombre-de-l-ia-sur-l-avenir-des-emplois-cela-va-tellement-vite-qu-on-ne-sait-pas-ce-qu-on-sera-dans-cinq-ans_6672086_3234.html",
+        "date_iso": "2026-03-18T14:00:13+01:00",
+        "date_fr": "18/03/2026",
+        "pertinence": 2
+      },
+      {
+        "source": "Le Monde Emploi",
+        "couleur": "#1f2937",
+        "emoji": "💼",
+        "tag": "Emploi & travail",
+        "titre": "L’ombre de l’IA sur l’avenir des emplois : « Cela va tellement vite qu’on ne sait pas ce qu’on sera dans cinq ans »",
+        "resume": "De l’outil d’assistance développé en interne aux prévisions d’emplois « à risques », les entreprises françaises tentent d’anticiper les bouleversements que va engendrer l’arrivée de l’intelligence artificielle dans leur organisation.",
+        "lien": "https://www.lemonde.fr/economie/article/2026/03/18/l-ombre-de-l-ia-sur-l-avenir-des-emplois-cela-va-tellement-vite-qu-on-ne-sait-pas-ce-qu-on-sera-dans-cinq-ans_6672086_3234.html",
+        "date_iso": "2026-03-18T14:00:13+01:00",
+        "date_fr": "18/03/2026",
+        "pertinence": 2
+      },
       {
         "source": "Le Figaro Éco",
         "couleur": "#92400e",
@@ -499,30 +523,6 @@
         "date_iso": "2026-03-18T06:30:15+01:00",
         "date_fr": "18/03/2026",
         "pertinence": 2
-      },
-      {
-        "source": "Le Monde Emploi",
-        "couleur": "#1f2937",
-        "emoji": "💼",
-        "tag": "Emploi & travail",
-        "titre": "Choisir sa place dans un monde en mutation",
-        "resume": "L’interruption du CDI est de plus en plus fréquente chez les jeunes à peine entrés sur le marché du travail, et le phénomène a tendance à s’accélérer, constate Anne Rodier, journaliste au « Monde », dans sa chronique.",
-        "lien": "https://www.lemonde.fr/emploi/article/2026/03/18/choisir-sa-place-dans-un-monde-en-mutation_6672023_1698637.html",
-        "date_iso": "2026-03-18T06:30:15+01:00",
-        "date_fr": "18/03/2026",
-        "pertinence": 2
-      },
-      {
-        "source": "Le Monde Éco",
-        "couleur": "#374151",
-        "emoji": "🌐",
-        "tag": "Presse économique",
-        "titre": "Pour mobiliser l’épargne des Européens, « il y a, cette fois, une vraie volonté des gouvernements pour avancer », assure le président de l’Eurogroupe",
-        "resume": "Kyriakos Pierrakakis, le ministre de l’économie de Grèce et président de l’Eurogroupe, organe qui regroupe ses homologues des pays de la zone euro, promet d’accélérer la mise en place d’un marché européen des capitaux, avec une supervision unique.",
-        "lien": "https://www.lemonde.fr/economie/article/2026/03/18/pour-mobiliser-l-epargne-des-europeens-il-y-a-cette-fois-une-vraie-volonte-des-gouvernements-pour-avancer-assure-le-president-de-l-eurogroupe_6672020_3234.html",
-        "date_iso": "2026-03-18T06:30:02+01:00",
-        "date_fr": "18/03/2026",
-        "pertinence": 0
       }
     ]
   },
@@ -1086,57 +1086,57 @@
   "difficultes_recrutement": [
     {
       "trimestre": "T1 2023",
-      "industrie": 65,
-      "services": 48,
-      "construction": 78
+      "industrie": 52,
+      "services": 38,
+      "construction": 65
     },
     {
       "trimestre": "T2 2023",
-      "industrie": 64,
-      "services": 48,
-      "construction": 76
-    },
-    {
-      "trimestre": "T3 2023",
-      "industrie": 60,
-      "services": 45,
-      "construction": 72
-    },
-    {
-      "trimestre": "T4 2023",
-      "industrie": 57,
-      "services": 42,
-      "construction": 68
-    },
-    {
-      "trimestre": "T1 2024",
-      "industrie": 53,
-      "services": 39,
-      "construction": 63
-    },
-    {
-      "trimestre": "T2 2024",
-      "industrie": 52,
-      "services": 39,
+      "industrie": 50,
+      "services": 36,
       "construction": 62
     },
     {
-      "trimestre": "T3 2024",
+      "trimestre": "T3 2023",
       "industrie": 48,
-      "services": 36,
-      "construction": 57
+      "services": 35,
+      "construction": 60
     },
     {
-      "trimestre": "T4 2024",
-      "industrie": 46,
-      "services": 34,
+      "trimestre": "T4 2023",
+      "industrie": 45,
+      "services": 33,
+      "construction": 58
+    },
+    {
+      "trimestre": "T1 2024",
+      "industrie": 43,
+      "services": 32,
       "construction": 55
     },
     {
-      "trimestre": "T1 2025",
-      "industrie": 44,
-      "services": 33,
+      "trimestre": "T2 2024",
+      "industrie": 41,
+      "services": 30,
       "construction": 52
+    },
+    {
+      "trimestre": "T3 2024",
+      "industrie": 40,
+      "services": 30,
+      "construction": 50
+    },
+    {
+      "trimestre": "T4 2024",
+      "industrie": 38,
+      "services": 28,
+      "construction": 48
+    },
+    {
+      "trimestre": "T1 2025",
+      "industrie": 36,
+      "services": 27,
+      "construction": 46
     },
     {
       "trimestre": "T2 2025",
@@ -3795,7 +3795,7 @@
       "note_lecture": "Le TEC-10 mesure le rendement des emprunts d'Etat francais a 10 ans. Un taux eleve rencherit le cout de la dette publique et impacte les taux de credit immobilier."
     },
     "petrole_brent": {
-      "valeur": 105.96,
+      "valeur": 108.05,
       "date": "2026-03-18",
       "unite": "USD/baril",
       "source": "Yahoo Finance",
@@ -5315,29 +5315,29 @@
         },
         {
           "date": "2026-03-18",
-          "valeur": 105.96,
-          "ma50": 74.04,
-          "ma200": 68.07
+          "valeur": 108.05,
+          "ma50": 74.08,
+          "ma200": 68.08
         }
       ],
       "variations": {
-        "jour": 2.46,
-        "semaine": 15.2,
-        "mois": 56.4,
-        "ytd": 74.42
+        "jour": 4.48,
+        "semaine": 17.47,
+        "mois": 59.48,
+        "ytd": 77.86
       },
       "min_max": {
         "min": 58.92,
         "min_date": "2025-12-16",
-        "max": 105.96,
+        "max": 108.05,
         "max_date": "2026-03-18"
       },
       "note_lecture": "Le prix du Brent influence directement les couts de transport et d'energie, donc l'inflation et le pouvoir d'achat des salaries."
     },
     "cac40": {
-      "valeur": 8001.84,
+      "valeur": 7980.09,
       "date": "2026-03-18",
-      "variation_jour_pct": 0.34,
+      "variation_jour_pct": 0.07,
       "unite": "points",
       "source": "Yahoo Finance",
       "nb_points": 256,
@@ -6874,16 +6874,16 @@
         },
         {
           "date": "2026-03-18",
-          "valeur": 8001.84,
-          "ma50": 8227.53,
-          "ma200": 7995.51
+          "valeur": 7980.09,
+          "ma50": 8227.1,
+          "ma200": 7995.4
         }
       ],
       "variations": {
-        "jour": 0.34,
-        "semaine": -0.5,
-        "mois": -3.78,
-        "ytd": -2.36
+        "jour": 0.07,
+        "semaine": -0.77,
+        "mois": -4.05,
+        "ytd": -2.62
       },
       "min_max": {
         "min": 6863.02,
@@ -8464,7 +8464,7 @@
       "note_lecture": "Le taux de change euro-dollar determine le prix de tout ce qui est importe en dollars : petrole, matieres premieres, electronique. Un euro faible rencherit les importations et alimente l'inflation."
     },
     "or": {
-      "valeur": 4899.9,
+      "valeur": 4882.8,
       "date": "2026-03-18",
       "unite": "USD/oz",
       "source": "Yahoo Finance",
@@ -9984,16 +9984,16 @@
         },
         {
           "date": "2026-03-18",
-          "valeur": 4899.9,
-          "ma50": 4947.22,
-          "ma200": 4051.01
+          "valeur": 4882.8,
+          "ma50": 4946.87,
+          "ma200": 4050.92
         }
       ],
       "variations": {
-        "jour": -2.02,
-        "semaine": -5.18,
-        "mois": -2.43,
-        "ytd": 13.57
+        "jour": -2.36,
+        "semaine": -5.51,
+        "mois": -2.77,
+        "ytd": 13.17
       },
       "min_max": {
         "min": 2951.3,
@@ -10004,7 +10004,7 @@
       "note_lecture": "L'or est la valeur refuge par excellence. Sa hausse traduit une montee de l'incertitude economique ou geopolitique. Il sert aussi de protection contre l'inflation."
     },
     "gaz_naturel": {
-      "valeur": 52.0,
+      "valeur": 53.63,
       "date": "2026-03-18",
       "unite": "EUR/MWh",
       "source": "Yahoo Finance (TTF)",
@@ -11524,16 +11524,16 @@
         },
         {
           "date": "2026-03-18",
-          "valeur": 52.0,
-          "ma50": 38.09,
-          "ma200": 33.64
+          "valeur": 53.63,
+          "ma50": 38.12,
+          "ma200": 33.65
         }
       ],
       "variations": {
-        "jour": 0.85,
-        "semaine": 4.02,
-        "mois": 60.0,
-        "ytd": 79.31
+        "jour": 4.01,
+        "semaine": 7.28,
+        "mois": 65.02,
+        "ytd": 84.93
       },
       "min_max": {
         "min": 26.6,
@@ -11544,7 +11544,7 @@
       "note_lecture": "Le prix du gaz naturel (TTF europeen) impacte directement les factures de chauffage et d'electricite des menages, ainsi que les couts de production industrielle."
     },
     "ble": {
-      "valeur": 591.25,
+      "valeur": 592.5,
       "date": "2026-03-18",
       "unite": "cents/boisseau",
       "source": "Yahoo Finance",
@@ -13058,16 +13058,16 @@
         },
         {
           "date": "2026-03-18",
-          "valeur": 591.25,
-          "ma50": 548.91,
-          "ma200": 530.37
+          "valeur": 592.5,
+          "ma50": 548.94,
+          "ma200": 530.38
         }
       ],
       "variations": {
-        "jour": 0.25,
-        "semaine": 0.47,
-        "mois": 7.74,
-        "ytd": 16.73
+        "jour": 0.47,
+        "semaine": 0.68,
+        "mois": 7.97,
+        "ytd": 16.98
       },
       "min_max": {
         "min": 495.0,
@@ -13858,7 +13858,7 @@
           "2023": 1.92,
           "2024": 1.78,
           "2025": 1.72,
-          "2026": 1.949
+          "2026": 1.95
         },
         "quantiteMensuelle": {
           "solo": 40,
@@ -16281,7 +16281,7 @@
     "sources": "INSEE - Enquête Emploi, DARES"
   },
   "previsions_cftc": {
-    "generated_at": "2026-03-18T12:36:41.294622",
+    "generated_at": "2026-03-18T13:08:41.954591",
     "model_version": "CFTC v4.0 (Monte Carlo)",
     "n_simulations": 1000,
     "horizon": "12 mois",
