@@ -1,6 +1,6 @@
 {
-  "last_updated": "18/03/2026 13:58",
-  "last_updated_iso": "2026-03-18T13:58:06.320243",
+  "last_updated": "18/03/2026 14:08",
+  "last_updated_iso": "2026-03-18T14:08:57.682936",
   "contact": "hspringragain@cftc.fr",
   "alertes": [
     {
@@ -32,7 +32,7 @@
       "date": "2026-03-18",
       "type": "info",
       "titre": "🔄 Données actualisées",
-      "message": "Le tableau de bord a été mis à jour le 18/03/2026 à 13:57.",
+      "message": "Le tableau de bord a été mis à jour le 18/03/2026 à 14:08.",
       "onglet": "conjoncture"
     }
   ],
@@ -151,7 +151,7 @@
     }
   ],
   "revue_presse": {
-    "derniere_maj": "18/03/2026 13:58",
+    "derniere_maj": "18/03/2026 14:08",
     "nb_sources": 7,
     "sources_noms": [
       "Le Monde Éco",
@@ -187,6 +187,18 @@
         "date_iso": "2026-03-18T14:12:37+01:00",
         "date_fr": "18/03/2026",
         "pertinence": 0
+      },
+      {
+        "source": "Euractiv FR",
+        "couleur": "#0369a1",
+        "emoji": "🇪🇺",
+        "tag": "Europe & politique",
+        "titre": "L’UE veut trancher sur le bœuf dans son accord commercial avec l’Australie",
+        "resume": "Une décision finale concernant les quotas de bœuf sera prise par Ursula von der Leyen et le Premier ministre australien à Canberra The post L’UE veut trancher sur le bœuf dans son accord commercial avec l’Australie appeared first on Euractiv FR .",
+        "lien": "https://euractiv.fr/news/lue-veut-trancher-sur-le-boeuf-dans-son-accord-commercial-avec-laustralie/",
+        "date_iso": "2026-03-18T14:05:05+00:00",
+        "date_fr": "18/03/2026",
+        "pertinence": 1
       },
       {
         "source": "Le Monde Éco",
@@ -509,18 +521,6 @@
         "resume": "Le géant asiatique a constitué des réserves stratégiques d’hydrocarbures au regard de sa dépendance et des nouveaux chocs mondiaux, mais se demande quand y puiser.",
         "lien": "https://www.lemonde.fr/economie/article/2026/03/18/en-chine-la-strategie-de-reserves-de-petrole-mise-a-l-epreuve-par-la-guerre-en-iran_6672038_3234.html",
         "date_iso": "2026-03-18T09:00:05+01:00",
-        "date_fr": "18/03/2026",
-        "pertinence": 0
-      },
-      {
-        "source": "Euractiv FR",
-        "couleur": "#0369a1",
-        "emoji": "🇪🇺",
-        "tag": "Europe & politique",
-        "titre": "EU Inc. a pour objectif de retenir les innovateurs de ce côté-ci de l Atlantique",
-        "resume": "Un plan visant à faciliter la vie des start-ups dans toute l'Union européenne devrait être présenté mercredi The post EU Inc. a pour objectif de retenir les innovateurs de ce côté-ci de l&rsquo;Atlantique appeared first on Euractiv FR .",
-        "lien": "https://euractiv.fr/news/eu-inc-a-pour-objectif-de-retenir-les-innovateurs-de-ce-cote-ci-de-latlantique/",
-        "date_iso": "2026-03-18T08:49:49+00:00",
         "date_fr": "18/03/2026",
         "pertinence": 0
       }
@@ -1017,51 +1017,51 @@
   "types_contrats": [
     {
       "trimestre": "T1 2023",
-      "cdi": 83.2,
-      "cdd": 5.4,
-      "interim": 1.4
+      "cdi": 74.5,
+      "cdd": 8.8,
+      "interim": 2.2
     },
     {
       "trimestre": "T2 2023",
-      "cdi": 83.2,
-      "cdd": 5.4,
-      "interim": 1.4
+      "cdi": 74.3,
+      "cdd": 9.0,
+      "interim": 2.1
     },
     {
       "trimestre": "T3 2023",
-      "cdi": 83.4,
-      "cdd": 5.3,
-      "interim": 1.3
+      "cdi": 74.4,
+      "cdd": 8.9,
+      "interim": 2.0
     },
     {
       "trimestre": "T4 2023",
-      "cdi": 83.4,
-      "cdd": 5.3,
-      "interim": 1.3
+      "cdi": 74.6,
+      "cdd": 8.7,
+      "interim": 2.0
     },
     {
       "trimestre": "T1 2024",
-      "cdi": 83.4,
-      "cdd": 5.3,
-      "interim": 1.3
+      "cdi": 74.8,
+      "cdd": 8.5,
+      "interim": 1.9
     },
     {
       "trimestre": "T2 2024",
-      "cdi": 83.4,
-      "cdd": 5.3,
-      "interim": 1.3
+      "cdi": 74.7,
+      "cdd": 8.6,
+      "interim": 1.9
     },
     {
       "trimestre": "T3 2024",
-      "cdi": 83.4,
-      "cdd": 5.3,
-      "interim": 1.3
+      "cdi": 74.9,
+      "cdd": 8.4,
+      "interim": 1.8
     },
     {
       "trimestre": "T4 2024",
-      "cdi": 83.5,
-      "cdd": 5.2,
-      "interim": 1.3
+      "cdi": 75.0,
+      "cdd": 8.3,
+      "interim": 1.8
     },
     {
       "trimestre": "T1 2025",
@@ -1676,18 +1676,13 @@
     },
     "sp98": {
       "prix": 1.82,
-      "variation_an": -4.5
+      "variation_an": -5.0
     },
     "evolution": [
       {
-        "mois": "Jan 2023",
-        "gazole": 1.85,
-        "sp95": 1.82
-      },
-      {
         "mois": "Avr 2023",
-        "gazole": 1.78,
-        "sp95": 1.88
+        "gazole": 1.81,
+        "sp95": 1.95
       },
       {
         "mois": "Juil 2023",
@@ -1696,56 +1691,51 @@
       },
       {
         "mois": "Oct 2023",
-        "gazole": 1.88,
-        "sp95": 1.92
+        "gazole": 1.91,
+        "sp95": 1.89
       },
       {
         "mois": "Jan 2024",
-        "gazole": 1.72,
-        "sp95": 1.78
-      },
-      {
-        "mois": "Avr 2024",
         "gazole": 1.75,
         "sp95": 1.82
       },
       {
+        "mois": "Avr 2024",
+        "gazole": 1.79,
+        "sp95": 1.94
+      },
+      {
         "mois": "Juil 2024",
-        "gazole": 1.68,
-        "sp95": 1.75
+        "gazole": 1.73,
+        "sp95": 1.86
       },
       {
         "mois": "Oct 2024",
-        "gazole": 1.62,
-        "sp95": 1.72
+        "gazole": 1.63,
+        "sp95": 1.76
       },
       {
         "mois": "Jan 2025",
-        "gazole": 1.65,
-        "sp95": 1.78
+        "gazole": 1.71,
+        "sp95": 1.81
       },
       {
         "mois": "Avr 2025",
-        "gazole": 1.6,
-        "sp95": 1.74
+        "gazole": 1.59,
+        "sp95": 1.73
       },
       {
         "mois": "Juil 2025",
-        "gazole": 1.58,
-        "sp95": 1.7
+        "gazole": 1.65,
+        "sp95": 1.72
       },
       {
         "mois": "Oct 2025",
-        "gazole": 1.58,
+        "gazole": 1.61,
         "sp95": 1.72
       },
       {
         "mois": "Jan 2026",
-        "gazole": 1.62,
-        "sp95": 1.71
-      },
-      {
-        "mois": "Mar 2026",
         "gazole": 1.65,
         "sp95": 1.72
       }
@@ -3810,7 +3800,7 @@
       "note_lecture": "Le TEC-10 mesure le rendement des emprunts d'Etat francais a 10 ans. Un taux eleve rencherit le cout de la dette publique et impacte les taux de credit immobilier."
     },
     "petrole_brent": {
-      "valeur": 108.37,
+      "valeur": 108.99,
       "date": "2026-03-18",
       "unite": "USD/baril",
       "source": "Yahoo Finance",
@@ -5330,29 +5320,29 @@
         },
         {
           "date": "2026-03-18",
-          "valeur": 108.37,
-          "ma50": 74.09,
-          "ma200": 68.08
+          "valeur": 108.99,
+          "ma50": 74.1,
+          "ma200": 68.09
         }
       ],
       "variations": {
-        "jour": 4.79,
-        "semaine": 17.82,
-        "mois": 59.96,
-        "ytd": 78.39
+        "jour": 5.39,
+        "semaine": 18.49,
+        "mois": 60.87,
+        "ytd": 79.41
       },
       "min_max": {
         "min": 58.92,
         "min_date": "2025-12-16",
-        "max": 108.37,
+        "max": 108.99,
         "max_date": "2026-03-18"
       },
       "note_lecture": "Le prix du Brent influence directement les couts de transport et d'energie, donc l'inflation et le pouvoir d'achat des salaries."
     },
     "cac40": {
-      "valeur": 7994.98,
+      "valeur": 7975.15,
       "date": "2026-03-18",
-      "variation_jour_pct": 0.26,
+      "variation_jour_pct": 0.01,
       "unite": "points",
       "source": "Yahoo Finance",
       "nb_points": 256,
@@ -6889,16 +6879,16 @@
         },
         {
           "date": "2026-03-18",
-          "valeur": 7994.98,
-          "ma50": 8227.4,
-          "ma200": 7995.47
+          "valeur": 7975.15,
+          "ma50": 8227.0,
+          "ma200": 7995.37
         }
       ],
       "variations": {
-        "jour": 0.26,
-        "semaine": -0.58,
-        "mois": -3.87,
-        "ytd": -2.44
+        "jour": 0.01,
+        "semaine": -0.83,
+        "mois": -4.1,
+        "ytd": -2.69
       },
       "min_max": {
         "min": 6863.02,
@@ -8479,7 +8469,7 @@
       "note_lecture": "Le taux de change euro-dollar determine le prix de tout ce qui est importe en dollars : petrole, matieres premieres, electronique. Un euro faible rencherit les importations et alimente l'inflation."
     },
     "or": {
-      "valeur": 4882.1,
+      "valeur": 4879.3,
       "date": "2026-03-18",
       "unite": "USD/oz",
       "source": "Yahoo Finance",
@@ -9999,16 +9989,16 @@
         },
         {
           "date": "2026-03-18",
-          "valeur": 4882.1,
-          "ma50": 4946.86,
-          "ma200": 4050.92
+          "valeur": 4879.3,
+          "ma50": 4946.8,
+          "ma200": 4050.91
         }
       ],
       "variations": {
-        "jour": -2.38,
-        "semaine": -5.52,
-        "mois": -2.79,
-        "ytd": 13.16
+        "jour": -2.43,
+        "semaine": -5.58,
+        "mois": -2.84,
+        "ytd": 13.09
       },
       "min_max": {
         "min": 2951.3,
@@ -11559,7 +11549,7 @@
       "note_lecture": "Le prix du gaz naturel (TTF europeen) impacte directement les factures de chauffage et d'electricite des menages, ainsi que les couts de production industrielle."
     },
     "ble": {
-      "valeur": 593.75,
+      "valeur": 595.25,
       "date": "2026-03-18",
       "unite": "cents/boisseau",
       "source": "Yahoo Finance",
@@ -13073,16 +13063,16 @@
         },
         {
           "date": "2026-03-18",
-          "valeur": 593.75,
-          "ma50": 548.97,
-          "ma200": 530.38
+          "valeur": 595.25,
+          "ma50": 549.0,
+          "ma200": 530.39
         }
       ],
       "variations": {
-        "jour": 0.68,
-        "semaine": 0.89,
-        "mois": 8.2,
-        "ytd": 17.23
+        "jour": 0.93,
+        "semaine": 1.15,
+        "mois": 8.47,
+        "ytd": 17.52
       },
       "min_max": {
         "min": 495.0,
@@ -16296,7 +16286,7 @@
     "sources": "INSEE - Enquête Emploi, DARES"
   },
   "previsions_cftc": {
-    "generated_at": "2026-03-18T13:58:06.406801",
+    "generated_at": "2026-03-18T14:08:57.783855",
     "model_version": "CFTC v4.0 (Monte Carlo)",
     "n_simulations": 1000,
     "horizon": "12 mois",
