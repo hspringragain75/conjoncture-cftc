@@ -1,6 +1,6 @@
 {
-  "last_updated": "19/03/2026 07:12",
-  "last_updated_iso": "2026-03-19T07:12:06.687587",
+  "last_updated": "19/03/2026 12:44",
+  "last_updated_iso": "2026-03-19T12:44:29.808665",
   "contact": "hspringragain@cftc.fr",
   "alertes": [
     {
@@ -12,11 +12,11 @@
       "onglet": "inflation"
     },
     {
-      "id": "chomage_jeunes_T3_2025",
+      "id": "chomage_jeunes_T4_2025",
       "date": "2026-03-19",
       "type": "warning",
-      "titre": "🧑‍🎓 Chômage jeunes élevé : 19.2%",
-      "message": "Le taux de chômage des 15-24 ans reste préoccupant (T3 2025).",
+      "titre": "🧑‍🎓 Chômage jeunes élevé : 21.5%",
+      "message": "Le taux de chômage des 15-24 ans reste préoccupant (T4 2025).",
       "onglet": "emploi"
     },
     {
@@ -32,7 +32,7 @@
       "date": "2026-03-19",
       "type": "info",
       "titre": "🔄 Données actualisées",
-      "message": "Le tableau de bord a été mis à jour le 19/03/2026 à 07:11.",
+      "message": "Le tableau de bord a été mis à jour le 19/03/2026 à 12:44.",
       "onglet": "conjoncture"
     }
   ],
@@ -42,17 +42,17 @@
       "date": "2026-03-18",
       "modifications": [
         {
-          "type": "features",
+          "type": "feature",
           "titre": "Comparaison par carte",
           "description": "Dans l'onglet conjoncture, vous retrouverez un sous-onglet globe vous permettant de comparer des indicateurs à l'international"
         },
         {
-          "type": "features",
+          "type": "feature",
           "titre": "Fonction de recherche",
           "description": "Barre de recherche dans le header du site pour retrouver plus vite un élément"
         },
         {
-          "type": "features",
+          "type": "feature",
           "titre": "Mémoire des crises",
           "description": "Dans la partie évolutions, vous pourrez vous documenter sur les crises économiques contemporaines et visualiser les évolution d'indicateurs essentiels"
         }
@@ -68,7 +68,7 @@
           "description": "Intégration d'un bouton presse avec une remonté des derniers articles de presse liés à l'économie"
         },
         {
-          "type": "features",
+          "type": "feature",
           "titre": "Carte des inégalités",
           "description": "Une cartographie des inégalités est créée dans le sous-onglet territoires"
         }
@@ -79,7 +79,7 @@
       "date": "2026-03-10",
       "modifications": [
         {
-          "type": "features",
+          "type": "feature",
           "titre": "Données Outre-Mer onglet territoires",
           "description": "Les données des Outre-Mer sont désormais intégrées dans la suite de l'onglet territoires"
         }
@@ -172,7 +172,7 @@
     }
   ],
   "revue_presse": {
-    "derniere_maj": "19/03/2026 07:12",
+    "derniere_maj": "19/03/2026 12:44",
     "nb_sources": 7,
     "sources_noms": [
       "Le Monde Éco",
@@ -195,46 +195,214 @@
         "date_iso": "2026-03-18T21:44:27+01:00",
         "date_fr": "18/03/2026",
         "pertinence": 3
-      },
-      {
-        "source": "Le Monde Emploi",
-        "couleur": "#1f2937",
-        "emoji": "💼",
-        "tag": "Emploi & travail",
-        "titre": "Des salariés de Leboncoin en grève pour dénoncer une « brutale » dégradation des conditions de travail, une première dans l’histoire de l’entreprise",
-        "resume": "Restriction soudaine du télétravail, pression à la performance : 10 % des effectifs du site d’annonces en ligne ont cessé le travail mercredi pour alerter sur la situation, qu’ils imputent au rachat de leur maison mère par des fonds d’investissement.",
-        "lien": "https://www.lemonde.fr/economie/article/2026/03/18/des-salaries-de-leboncoin-en-greve-pour-denoncer-une-brutale-degradation-des-conditions-de-travail-une-premiere-dans-l-histoire-de-l-entreprise_6672136_3234.html",
-        "date_iso": "2026-03-18T21:44:27+01:00",
-        "date_fr": "18/03/2026",
-        "pertinence": 3
-      },
-      {
-        "source": "Le Monde Éco",
-        "couleur": "#374151",
-        "emoji": "🌐",
-        "tag": "Presse économique",
-        "titre": "Les accords d’entreprise abordant la question de l’IA se multiplient",
-        "resume": "Le nombre d’accords mentionnant l’intelligence artificielle a quasiment doublé entre 2024 et 2025, dans les secteurs de la finance, de l’industrie et de l’information et de la communication. Et la place de l’emploi dans ces textes ne cesse d’augmenter.",
-        "lien": "https://www.lemonde.fr/economie/article/2026/03/18/les-accords-d-entreprise-abordant-la-question-de-l-ia-se-multiplient_6672098_3234.html",
-        "date_iso": "2026-03-18T16:00:11+01:00",
-        "date_fr": "18/03/2026",
-        "pertinence": 4
-      },
-      {
-        "source": "Le Monde Emploi",
-        "couleur": "#1f2937",
-        "emoji": "💼",
-        "tag": "Emploi & travail",
-        "titre": "Les accords d’entreprise abordant la question de l’IA se multiplient",
-        "resume": "Le nombre d’accords mentionnant l’intelligence artificielle a quasiment doublé entre 2024 et 2025, dans les secteurs de la finance, de l’industrie et de l’information et de la communication. Et la place de l’emploi dans ces textes ne cesse d’augmenter.",
-        "lien": "https://www.lemonde.fr/economie/article/2026/03/18/les-accords-d-entreprise-abordant-la-question-de-l-ia-se-multiplient_6672098_3234.html",
-        "date_iso": "2026-03-18T16:00:11+01:00",
-        "date_fr": "18/03/2026",
-        "pertinence": 4
       }
     ],
     "tous": [
       {
+        "source": "Le Figaro Éco",
+        "couleur": "#92400e",
+        "emoji": "📊",
+        "tag": "Presse économique",
+        "titre": "Envolée des prix du gaz et du pétrole : «le scénario d’une baisse des taxes n’est pas envisagé à l’heure où on se parle», déclare le gouvernement",
+        "resume": "Alors que les prix du gaz et du pétrole ont de nouveau flambé jeudi après des attaques contre des infrastructures énergétiques, le gouvernement n’envisage pas de baisse des taxes.",
+        "lien": "https://www.lefigaro.fr/conjoncture/envolee-des-prix-du-gaz-et-du-petrole-le-scenario-d-une-baisse-des-taxes-n-est-pas-envisage-a-l-heure-ou-on-se-parle-declare-le-gouvernement-20260319",
+        "date_iso": "2026-03-19T13:19:04+01:00",
+        "date_fr": "19/03/2026",
+        "pertinence": 0
+      },
+      {
+        "source": "Le Monde Éco",
+        "couleur": "#374151",
+        "emoji": "🌐",
+        "tag": "Presse économique",
+        "titre": "L’accord commercial entre l’Union européenne et les Etats-Unis approuvé en commission au Parlement européen",
+        "resume": "Les eurodéputés de la commission du commerce international ont donné leur aval à la suppression des droits de douane appliqués dans l’UE sur les importations de produits américains.",
+        "lien": "https://www.lemonde.fr/economie/article/2026/03/19/l-accord-commercial-entre-l-union-europeenne-et-les-etats-unis-approuve-en-commission-au-parlement-europeen_6672399_3234.html",
+        "date_iso": "2026-03-19T12:06:38+01:00",
+        "date_fr": "19/03/2026",
+        "pertinence": 1
+      },
+      {
+        "source": "Le Figaro Éco",
+        "couleur": "#92400e",
+        "emoji": "📊",
+        "tag": "Presse économique",
+        "titre": "Guerre en Iran : les frappes au Qatar font flamber les prix du gaz en Europe",
+        "resume": "DÉCRYPTAGE - Après les bombardements des infrastructures de liquéfaction de gaz naturel par Téhéran, les cours mondiaux des hydrocarbures ont brusquement augmenté. De nombreux secteurs industriels devraient être impactés.",
+        "lien": "https://www.lefigaro.fr/conjoncture/le-gaz-europeen-s-envole-de-35-apres-des-attaques-contre-des-infrastructures-energetiques-20260319",
+        "date_iso": "2026-03-19T12:03:05+01:00",
+        "date_fr": "19/03/2026",
+        "pertinence": 0
+      },
+      {
+        "source": "Le Monde Éco",
+        "couleur": "#374151",
+        "emoji": "🌐",
+        "tag": "Presse économique",
+        "titre": "« Spotify et Deezer ont eu beau éclore quasiment en même temps, cela reste surprenant de les voir sortir du rouge au même moment »",
+        "resume": "Deezer a présenté ses premiers bénéfices en 2025, un an après Spotify, le leader mondial des plateformes de streaming musicales. La pépite tricolore a profité de la hausse des tarifs de son concurrent suédois, et mise sur un positionnement plus éthique, observe Isabelle Chaperon, chroniqueuse au ser",
+        "lien": "https://www.lemonde.fr/economie/article/2026/03/19/spotify-et-deezer-ont-eu-beau-eclore-quasiment-en-meme-temps-cela-reste-surprenant-de-les-voir-sortir-du-rouge-au-meme-moment_6672388_3234.html",
+        "date_iso": "2026-03-19T11:30:06+01:00",
+        "date_fr": "19/03/2026",
+        "pertinence": 0
+      },
+      {
+        "source": "Euractiv FR",
+        "couleur": "#0369a1",
+        "emoji": "🇪🇺",
+        "tag": "Europe & politique",
+        "titre": "EXCLUSIF : Une sixième année d’état d’urgence pour les Ukrainiens envisagée par l UE",
+        "resume": "Des progrès lents et inégaux vers l'obtention d'un statut plus stable pour des millions de réfugiés à travers l'Union The post EXCLUSIF : Une sixième année d’état d’urgence pour les Ukrainiens envisagée par l&rsquo;UE appeared first on Euractiv FR .",
+        "lien": "https://euractiv.fr/news/exclusif-une-sixieme-annee-detat-durgence-pour-les-ukrainiens-envisagee-par-lue/",
+        "date_iso": "2026-03-19T10:58:32+00:00",
+        "date_fr": "19/03/2026",
+        "pertinence": 0
+      },
+      {
+        "source": "Le Monde Éco",
+        "couleur": "#374151",
+        "emoji": "🌐",
+        "tag": "Presse économique",
+        "titre": "L’Inde confrontée à une pénurie de gaz d’ampleur en raison de la guerre au Moyen-Orient",
+        "resume": "Restrictions, marché noir et réseau de stockage illégal… La vulnérabilité des Indiens a été mise au jour par le conflit qui affecte le détroit d’Ormuz, par lequel transite 90 % de son gaz de pétrole liquéfié. Le pays est le deuxième importateur derrière la Chine.",
+        "lien": "https://www.lemonde.fr/economie/article/2026/03/19/l-inde-confrontee-a-une-penurie-de-gaz-d-ampleur-en-raison-de-la-guerre-au-moyen-orient_6672384_3234.html",
+        "date_iso": "2026-03-19T10:55:26+01:00",
+        "date_fr": "19/03/2026",
+        "pertinence": 0
+      },
+      {
+        "source": "Le Monde Éco",
+        "couleur": "#374151",
+        "emoji": "🌐",
+        "tag": "Presse économique",
+        "titre": "La justice française refuse de suspendre Shein après le retrait des produits illicites",
+        "resume": "La cour d’appel de Paris a confirmé le jugement en première instance, estimant dans un communiqué que « le dommage qui avait justifié l’action de l’Etat n’existait plus ».",
+        "lien": "https://www.lemonde.fr/economie/article/2026/03/19/la-justice-francaise-refuse-de-suspendre-shein-apres-le-retrait-des-produits-illicites_6672382_3234.html",
+        "date_iso": "2026-03-19T10:50:24+01:00",
+        "date_fr": "19/03/2026",
+        "pertinence": 0
+      },
+      {
+        "source": "Le Figaro Éco",
+        "couleur": "#92400e",
+        "emoji": "📊",
+        "tag": "Presse économique",
+        "titre": "Baisse des taxes, plafonnement des prix… De l’Italie au Bangladesh, la réponse des États pour amortir la flambée des carburants",
+        "resume": "Partout dans le monde, les prix à la pompe atteignent des sommets, tirés par l’envolée des cours du pétrole liée à la guerre au Moyen-Orient. Face au mécontentement des populations, de nombreux gouvernements ont réagi.",
+        "lien": "https://www.lefigaro.fr/conjoncture/baisse-des-taxes-plafonnement-des-prix-rationnement-de-l-italie-au-bangladesh-les-etats-tentent-d-amortir-la-flambee-des-carburants-20260310",
+        "date_iso": "2026-03-19T10:39:31+01:00",
+        "date_fr": "19/03/2026",
+        "pertinence": 0
+      },
+      {
+        "source": "Le Figaro Éco",
+        "couleur": "#92400e",
+        "emoji": "📊",
+        "tag": "Presse économique",
+        "titre": "La cour d’appel de Paris décide de ne pas suspendre la place de marché Shein, nouvelle défaite pour le gouvernement",
+        "resume": "Cette décision en appel est une nouvelle défaite pour le gouvernement qui réclamait cette suspension.",
+        "lien": "https://www.lefigaro.fr/societes/la-cour-d-appel-de-paris-decide-de-ne-pas-suspendre-la-place-de-marche-shein-nouvelle-defaite-pour-le-gouvernement-20260319",
+        "date_iso": "2026-03-19T10:18:51+01:00",
+        "date_fr": "19/03/2026",
+        "pertinence": 0
+      },
+      {
+        "source": "Euractiv FR",
+        "couleur": "#0369a1",
+        "emoji": "🇪🇺",
+        "tag": "Europe & politique",
+        "titre": "La Suède, royaume du sans cash, fait marche arrière sur les billets",
+        "resume": "Le gouvernement a présenté mercredi au Parlement un projet de loi visant à obliger les épiceries et les pharmacies à accepter les paiements en espèces The post La Suède, royaume du sans cash, fait marche arrière sur les billets appeared first on Euractiv FR .",
+        "lien": "https://euractiv.fr/news/la-suede-royaume-du-sans-cash-fait-marche-arriere-sur-les-billets/",
+        "date_iso": "2026-03-19T10:08:38+00:00",
+        "date_fr": "19/03/2026",
+        "pertinence": 0
+      },
+      {
+        "source": "Euractiv FR",
+        "couleur": "#0369a1",
+        "emoji": "🇪🇺",
+        "tag": "Europe & politique",
+        "titre": "TikTok diffuse davantage de désinformation que ses principaux concurrents",
+        "resume": "Selon une étude indépendante qui s'est également penchée sur Facebook, Instagram, LinkedIn, X et YouTube, les fausses informations générées par l'IA sont également en hausse The post TikTok diffuse davantage de désinformation que ses principaux concurrents appeared first on Euractiv FR .",
+        "lien": "https://euractiv.fr/news/tiktok-diffuse-davantage-de-desinformation-que-ses-principaux-concurrents/",
+        "date_iso": "2026-03-19T09:55:51+00:00",
+        "date_fr": "19/03/2026",
+        "pertinence": 1
+      },
+      {
+        "source": "Libération Éco",
+        "couleur": "#dc2626",
+        "emoji": "📰",
+        "tag": "Presse économique",
+        "titre": "Shein : la justice française balaye les demandes de l’Etat, la «marketplace» ne sera pas suspendue",
+        "resume": "Après un revers judiciaire en décembre, le gouvernement demandait en appel la suspension de la plateforme réservée aux vendeurs tiers sur le site chinois, accusée d’avoir hébergé des poupées sexuelles à l’apparence de fillettes, des armes et des médicaments illicites.",
+        "lien": "https://www.liberation.fr/economie/conso/shein-la-justice-francaise-statue-ce-jeudi-sur-la-suspension-de-la-marketplace-20260319_4NUSWGPARRHSLIS3FDQ3DG6WUA/",
+        "date_iso": "2026-03-19T09:23:51+00:00",
+        "date_fr": "19/03/2026",
+        "pertinence": 0
+      },
+      {
+        "source": "Euractiv FR",
+        "couleur": "#0369a1",
+        "emoji": "🇪🇺",
+        "tag": "Europe & politique",
+        "titre": "Vite fait, mal fait ? La méthode von der Leyen sous surveillance",
+        "resume": "Si la politique est l’art du possible, personne n'a pensé à le souffler à la présidente de la Commission européenne The post Vite fait, mal fait ? La méthode von der Leyen sous surveillance appeared first on Euractiv FR .",
+        "lien": "https://euractiv.fr/news/vite-fait-mal-fait-la-methode-von-der-leyen-sous-surveillance/",
+        "date_iso": "2026-03-19T09:11:26+00:00",
+        "date_fr": "19/03/2026",
+        "pertinence": 0
+      },
+      {
+        "source": "Euractiv FR",
+        "couleur": "#0369a1",
+        "emoji": "🇪🇺",
+        "tag": "Europe & politique",
+        "titre": "Les pays de l’UE s apprêtent à renforcer l opération maritime en mer Rouge",
+        "resume": "Ce projet intervient alors que la guerre menée par les États-Unis contre l'Iran a placé la sécurité maritime au centre de l'attention The post Les pays de l’UE s&rsquo;apprêtent à renforcer l&rsquo;opération maritime en mer Rouge appeared first on Euractiv FR .",
+        "lien": "https://euractiv.fr/news/les-pays-de-lue-sappretent-a-renforcer-loperation-maritime-en-mer-rouge/",
+        "date_iso": "2026-03-19T08:48:07+00:00",
+        "date_fr": "19/03/2026",
+        "pertinence": 0
+      },
+      {
+        "source": "Le Monde Éco",
+        "couleur": "#374151",
+        "emoji": "🌐",
+        "tag": "Presse économique",
+        "titre": "Municipales 2026 : quelle affiche de second tour dans votre commune après les désistements et les fusions ?",
+        "resume": "Les listes en vue du second tour des élections municipales ont été officiellement déposées. Voici les candidats qui se maintiennent et ceux qui se sont désistés.",
+        "lien": "https://www.lemonde.fr/les-decodeurs/article/2026/03/19/municipales-2026-quelle-affiche-de-second-tour-dans-votre-commune-apres-les-desistements-et-les-fusions_6672366_4355770.html",
+        "date_iso": "2026-03-19T08:05:00+01:00",
+        "date_fr": "19/03/2026",
+        "pertinence": 0
+      },
+      {
+        "source": "Euractiv FR",
+        "couleur": "#0369a1",
+        "emoji": "🇪🇺",
+        "tag": "Europe & politique",
+        "titre": "« Pas d’alternative » au prêt de 90 milliards d’euros, déclare Zelenskyy",
+        "resume": "Zelenskyy estime que « presque tous » les États membres de l’UE reconnaissent que le blocus est injustifié The post « Pas d’alternative » au prêt de 90 milliards d’euros, déclare Zelenskyy appeared first on Euractiv FR .",
+        "lien": "https://euractiv.fr/news/pas-dalternative-au-pret-de-90-milliards-deuros-declare-zelenskyy/",
+        "date_iso": "2026-03-19T07:57:39+00:00",
+        "date_fr": "19/03/2026",
+        "pertinence": 0
+      },
+      {
+        "source": "Euractiv FR",
+        "couleur": "#0369a1",
+        "emoji": "🇪🇺",
+        "tag": "Europe & politique",
+        "titre": "Tempête Orbán sur Bruxelles",
+        "resume": "Également dans l'édition de jeudi : le Conseil européen, la protection des Ukrainiens, l'accord UE-États-Unis, le méthanier russe à la dérive The post Tempête Orbán sur Bruxelles appeared first on Euractiv FR .",
+        "lien": "https://euractiv.fr/news/tempete-orban-sur-bruxelles/",
+        "date_iso": "2026-03-19T07:40:59+00:00",
+        "date_fr": "19/03/2026",
+        "pertinence": 1
+      },
+      {
         "source": "Le Monde Éco",
         "couleur": "#374151",
         "emoji": "🌐",
@@ -257,6 +425,18 @@
         "date_iso": "2026-03-19T07:30:01+01:00",
         "date_fr": "19/03/2026",
         "pertinence": 2
+      },
+      {
+        "source": "Le Figaro Éco",
+        "couleur": "#92400e",
+        "emoji": "📊",
+        "tag": "Presse économique",
+        "titre": "Transports : Transdev double son bénéfice net et augmente son chiffre d'affaires en 2025",
+        "resume": "Le groupe réalise désormais 27,8% de son chiffre d’affaires en France, et pas moins de 27,5% aux États-Unis.",
+        "lien": "https://www.lefigaro.fr/societes/transports-transdev-double-son-benefice-net-et-augmente-son-chiffre-d-affaires-en-2025-20260319",
+        "date_iso": "2026-03-19T07:15:30+01:00",
+        "date_fr": "19/03/2026",
+        "pertinence": 0
       },
       {
         "source": "Le Monde Éco",
@@ -266,7 +446,7 @@
         "titre": "« Au travail, le sens n’est pas un acquis, mais le fruit d’une construction fragile soumise à l’épreuve du temps »",
         "resume": "Les chercheuses Margaux Trarieux et Emilie Veyrat, qui comptent parmi les coordinateurs de l’ouvrage collectif « Travailler fait-il toujours sens ? », reviennent, dans un entretien au « Monde », sur la compréhension des dynamiques qui permettent de construire le travail ou d’entraîner son altération",
         "lien": "https://www.lemonde.fr/emploi/article/2026/03/19/au-travail-le-sens-n-est-pas-un-acquis-mais-le-fruit-d-une-construction-fragile-soumise-a-l-epreuve-du-temps_6672361_1698637.html",
-        "date_iso": "2026-03-19T07:00:09+01:00",
+        "date_iso": "2026-03-19T07:00:08+01:00",
         "date_fr": "19/03/2026",
         "pertinence": 1
       },
@@ -278,7 +458,7 @@
         "titre": "« Au travail, le sens n’est pas un acquis, mais le fruit d’une construction fragile soumise à l’épreuve du temps »",
         "resume": "Les chercheuses Margaux Trarieux et Emilie Veyrat, qui comptent parmi les coordinateurs de l’ouvrage collectif « Travailler fait-il toujours sens ? », reviennent, dans un entretien au « Monde », sur la compréhension des dynamiques qui permettent de construire le travail ou d’entraîner son altération",
         "lien": "https://www.lemonde.fr/emploi/article/2026/03/19/au-travail-le-sens-n-est-pas-un-acquis-mais-le-fruit-d-une-construction-fragile-soumise-a-l-epreuve-du-temps_6672361_1698637.html",
-        "date_iso": "2026-03-19T07:00:09+01:00",
+        "date_iso": "2026-03-19T07:00:08+01:00",
         "date_fr": "19/03/2026",
         "pertinence": 1
       },
@@ -290,9 +470,21 @@
         "titre": "Immobilier : quand le voisin du dessous se prétend copropriétaire",
         "resume": "S’il n’a pas de parties communes, un bien divisé « en volumes » n’est pas soumis au statut de la copropriété.",
         "lien": "https://www.lemonde.fr/argent/article/2026/03/19/immobilier-quand-le-voisin-du-dessous-se-pretend-coproprietaire_6672358_1657007.html",
-        "date_iso": "2026-03-19T06:00:03+01:00",
+        "date_iso": "2026-03-19T06:00:01+01:00",
         "date_fr": "19/03/2026",
         "pertinence": 0
+      },
+      {
+        "source": "Le Figaro Éco",
+        "couleur": "#92400e",
+        "emoji": "📊",
+        "tag": "Presse économique",
+        "titre": "Arrêts de travail : le gouvernement toujours à la recherche d’économies",
+        "resume": "Sébastien Lecornu organise une réunion à Matignon avec les ministres de son gouvernement ce jeudi, avec comme objectif de lutter «contre les arrêts maladie abusifs».",
+        "lien": "https://www.lefigaro.fr/conjoncture/arrets-de-travail-le-gouvernement-toujours-a-la-recherche-d-economies-20260319",
+        "date_iso": "2026-03-19T06:00:00+01:00",
+        "date_fr": "19/03/2026",
+        "pertinence": 1
       },
       {
         "source": "Le Monde Éco",
@@ -302,7 +494,7 @@
         "titre": "A quoi ressemble le Grand Paris ? Dix ans après sa création, un portrait inédit de la métropole et ses 7,1 millions d’habitants",
         "resume": "Logement sous tension, mobilité en mutation, défis climatiques croissants : l’entité de 130 communes se raconte à travers un atlas riche en données publié par l’Atelier parisien d’urbanisme, qui éclaire les réalités d’un territoire aussi dynamique qu’inégalitaire.",
         "lien": "https://www.lemonde.fr/economie/article/2026/03/19/a-quoi-ressemble-le-grand-paris-dix-ans-apres-sa-creation-un-portrait-inedit-de-la-metropole-et-ses-7-1-millions-d-habitants_6672345_3234.html",
-        "date_iso": "2026-03-19T05:00:11+01:00",
+        "date_iso": "2026-03-19T05:00:09+01:00",
         "date_fr": "19/03/2026",
         "pertinence": 2
       },
@@ -312,11 +504,35 @@
         "emoji": "🔬",
         "tag": "Recherche politique",
         "titre": "Comment élargir l’offre locative ?",
-        "resume": "Pour maintenir un équilibre entre les statuts d’occupation, la France a soutenu l’offre locative privée à travers des avantages fiscaux aujourd’hui supprimés, ce qui menace la pérennité de cette offre, notamment dans les zones tendues. Le groupe logement de Terra Nova propose de créer un statut fisc",
+        "resume": "Le marché de la location privée est indispensable pour assurer la fluidité des parcours résidentiels, en particulier pour les jeunes actifs. Pourtant, le rôle des bailleurs privés est trop souvent assimilé à une activité de rente, alors qu’il faudrait le considérer comme une activité économique à pa",
         "lien": "https://tnova.fr/economie-social/logement-politique-de-la-ville/comment-elargir-loffre-locative/",
         "date_iso": "2026-03-19T05:00:00+01:00",
         "date_fr": "19/03/2026",
-        "pertinence": 1
+        "pertinence": 0
+      },
+      {
+        "source": "Le Figaro Éco",
+        "couleur": "#92400e",
+        "emoji": "📊",
+        "tag": "Presse économique",
+        "titre": "Pétrole : le Brent bondit de 5%, après les attaques d'infrastructures énergétiques au Moyen-Orient",
+        "resume": "Le cours du baril de Brent s’est envolé dans les premiers échanges asiatiques jeudi, poussé par l’annonce de frappes contre des infrastructures énergétiques en Iran et au Qatar qui avivent les craintes de perturbations durables de l’offre de brut.",
+        "lien": "https://www.lefigaro.fr/conjoncture/petrole-le-brent-bondit-de-5-apres-les-attaques-d-infrastructures-energetiques-au-moyen-orient-20260319",
+        "date_iso": "2026-03-19T03:31:43+01:00",
+        "date_fr": "19/03/2026",
+        "pertinence": 0
+      },
+      {
+        "source": "Le Figaro Éco",
+        "couleur": "#92400e",
+        "emoji": "📊",
+        "tag": "Presse économique",
+        "titre": "L’Italie réduit de 25 centimes le prix du carburant face à la flambée liée au Moyen-Orient",
+        "resume": "La première ministre Giorgia Meloni a annoncé sur X une baisse de «0,25 euro par litre pour tous» après l’adoption d’un décret-loi mercredi.",
+        "lien": "https://www.lefigaro.fr/conjoncture/l-italie-adopte-un-decret-pour-reduire-les-prix-des-carburants-20260318",
+        "date_iso": "2026-03-18T23:59:30+01:00",
+        "date_fr": "18/03/2026",
+        "pertinence": 0
       },
       {
         "source": "Le Monde Éco",
@@ -341,258 +557,6 @@
         "date_iso": "2026-03-18T21:44:27+01:00",
         "date_fr": "18/03/2026",
         "pertinence": 3
-      },
-      {
-        "source": "Le Monde Emploi",
-        "couleur": "#1f2937",
-        "emoji": "💼",
-        "tag": "Emploi & travail",
-        "titre": "Des salariés de Leboncoin en grève pour dénoncer une « brutale » dégradation des conditions de travail, une première dans l’histoire de l’entreprise",
-        "resume": "Restriction soudaine du télétravail, pression à la performance : 10 % des effectifs du site d’annonces en ligne ont cessé le travail mercredi pour alerter sur la situation, qu’ils imputent au rachat de leur maison mère par des fonds d’investissement.",
-        "lien": "https://www.lemonde.fr/economie/article/2026/03/18/des-salaries-de-leboncoin-en-greve-pour-denoncer-une-brutale-degradation-des-conditions-de-travail-une-premiere-dans-l-histoire-de-l-entreprise_6672136_3234.html",
-        "date_iso": "2026-03-18T21:44:27+01:00",
-        "date_fr": "18/03/2026",
-        "pertinence": 3
-      },
-      {
-        "source": "Le Figaro Éco",
-        "couleur": "#92400e",
-        "emoji": "📊",
-        "tag": "Presse économique",
-        "titre": "Ain : cinq hommes dont un mineur écroués dans le cadre d’une enquête sur le rapt du père d’un entrepreneur en cryptomonnaies en 2024",
-        "resume": "Âgés de 16 à 42 ans lors de l’agression et connus de la justice, les cinq individus ont été mis en examen puis placés en détention provisoire, indique dans un communiqué la procureure de Bourg-en-Bresse, Karine Malara.",
-        "lien": "https://www.lefigaro.fr/actualite-france/ain-cinq-hommes-dont-un-mineur-ecroues-dans-le-cadre-d-une-enquete-sur-le-rapt-du-pere-d-un-entrepreneur-en-cryptomonnaies-en-2024-20260318",
-        "date_iso": "2026-03-18T21:35:26+01:00",
-        "date_fr": "18/03/2026",
-        "pertinence": 0
-      },
-      {
-        "source": "Libération Éco",
-        "couleur": "#dc2626",
-        "emoji": "📰",
-        "tag": "Presse économique",
-        "titre": "«L’Ordre se croit encore au temps de la gabelle» : les médecins effarés après un rapport explosif révélé par le «Canard enchaîné»",
-        "resume": "Achat d’une villa XXL à Nice, notes de taxi stratosphériques, champagne à gogo… Epinglé ce mercredi 18 mars dans un rapport de l’Inspection générale des finances pour sa gestion calamiteuse, l’ordre des médecins fait face à une fronde de certains praticiens dont elle vient d’augmenter les cotisation",
-        "lien": "https://www.liberation.fr/societe/sante/lordre-se-croit-encore-au-temps-de-la-gabelle-les-medecins-effares-apres-un-rapport-explosif-revele-par-le-canard-enchaine-20260318_3RMTK34IQBAGLGVJOMMU55MOEM/",
-        "date_iso": "2026-03-18T19:51:02+00:00",
-        "date_fr": "18/03/2026",
-        "pertinence": 1
-      },
-      {
-        "source": "Le Monde Éco",
-        "couleur": "#374151",
-        "emoji": "🌐",
-        "tag": "Presse économique",
-        "titre": "Plainte d’un agriculteur contre TotalEnergies : la justice belge prête à se prononcer, mais pas avant la justice française",
-        "resume": "Hugues Falys accuse le groupe pétrolier d’avoir eu un impact sur son activité en favorisant le réchauffement climatique. Le tribunal de Tournai a décidé de statuer après le procès contre l’entreprise en France, dont le jugement est attendu en juin.",
-        "lien": "https://www.lemonde.fr/planete/article/2026/03/18/plainte-d-un-agriculteur-contre-totalenergies-la-justice-belge-prete-se-prononcer-mais-pas-avant-la-justice-francaise_6672126_3244.html",
-        "date_iso": "2026-03-18T19:25:10+01:00",
-        "date_fr": "18/03/2026",
-        "pertinence": 1
-      },
-      {
-        "source": "Le Figaro Éco",
-        "couleur": "#92400e",
-        "emoji": "📊",
-        "tag": "Presse économique",
-        "titre": "Free : panne massive du réseau internet pour les abonnés Freebox",
-        "resume": "D’après le site Downdetector, le réseau Wi-Fi de l’opérateur télécoms connaît d’importants dysfonctionnements depuis 10h ce mercredi matin dans l’ouest de la France.",
-        "lien": "https://www.lefigaro.fr/secteur/high-tech/free-panne-massive-du-reseau-internet-pour-les-abonnes-freebox-20260318",
-        "date_iso": "2026-03-18T19:15:09+01:00",
-        "date_fr": "18/03/2026",
-        "pertinence": 0
-      },
-      {
-        "source": "Libération Éco",
-        "couleur": "#dc2626",
-        "emoji": "📰",
-        "tag": "Presse économique",
-        "titre": "Des canards sur la sellette : l’éditeur du «Journal de Mickey» et de «Picsou Magazine» perd sa licence avec Disney",
-        "resume": "Le groupe français Unique Heritage Media ne pourra plus éditer les emblématiques magazines à partir de mars 2027. Les titres pourraient perdurer ailleurs, mais de nombreux emplois sont menacés.",
-        "lien": "https://www.liberation.fr/economie/medias/canards-sur-la-sellette-lediteur-du-journal-de-mickey-et-de-picsou-magazine-perd-sa-licence-avec-disney-20260318_NYLYIB23HBEP3FP5R4IH23ZKCQ/",
-        "date_iso": "2026-03-18T18:51:31+00:00",
-        "date_fr": "18/03/2026",
-        "pertinence": 1
-      },
-      {
-        "source": "Le Figaro Éco",
-        "couleur": "#92400e",
-        "emoji": "📊",
-        "tag": "Presse économique",
-        "titre": "«C’est un coup de tonnerre» : Disney retire sa licence à l’éditeur français du «Journal de Mickey» et de «Picsou Magazine»",
-        "resume": "Les magazines jeunesse Disney représentent la moitié du chiffre d’affaires du groupe de presse et d’édition Unique Heritage Media, qui devra se séparer d’une partie de ses effectifs.",
-        "lien": "https://www.lefigaro.fr/medias/disney-retire-sa-licence-a-l-editeur-francais-du-journal-de-mickey-et-de-picsou-magazine-20260318",
-        "date_iso": "2026-03-18T18:24:27+01:00",
-        "date_fr": "18/03/2026",
-        "pertinence": 0
-      },
-      {
-        "source": "Le Figaro Éco",
-        "couleur": "#92400e",
-        "emoji": "📊",
-        "tag": "Presse économique",
-        "titre": "Pièces collectors, mini-médailles, horlogerie... la Monnaie de Paris se diversifie pour faire face au déclin du cash",
-        "resume": "L’établissement millénaire a opéré un virage à 180 degrés alors que les commandes d’État baissent.",
-        "lien": "https://www.lefigaro.fr/conjoncture/pieces-collectors-mini-medailles-horlogerie-la-monnaie-de-paris-se-diversifie-pour-faire-face-au-declin-du-cash-20260318",
-        "date_iso": "2026-03-18T18:00:00+01:00",
-        "date_fr": "18/03/2026",
-        "pertinence": 0
-      },
-      {
-        "source": "Le Figaro Éco",
-        "couleur": "#92400e",
-        "emoji": "📊",
-        "tag": "Presse économique",
-        "titre": "Machines connectées, canapés colorés et bibliothèques partagées… La grande mue des laveries automatiques",
-        "resume": "Depuis une dizaine d’années, les laveries automatiques fleurissent partout en France, au coin des rues ou sur les parkings de grande surface. Un marché qui attire tant professionnels que particuliers en quête d’un revenu complémentaire qu’ils espèrent facile.",
-        "lien": "https://www.lefigaro.fr/conso/machines-connectees-canapes-colores-et-bibliotheques-partagees-la-grande-mue-des-laveries-automatiques-20260318",
-        "date_iso": "2026-03-18T17:50:16+01:00",
-        "date_fr": "18/03/2026",
-        "pertinence": 1
-      },
-      {
-        "source": "Le Monde Éco",
-        "couleur": "#374151",
-        "emoji": "🌐",
-        "tag": "Presse économique",
-        "titre": "Primark, l’enseigne d’habillement à petit prix, étend sa toile de Cergy à Dubaï",
-        "resume": "L’enseigne irlandaise a indiqué, mercredi 17 mars, vouloir doubler de taille en France.",
-        "lien": "https://www.lemonde.fr/economie/article/2026/03/18/de-cergy-a-dubai-primark-l-enseigne-d-habillement-a-petit-prix-etend-sa-toile_6672107_3234.html",
-        "date_iso": "2026-03-18T17:26:44+01:00",
-        "date_fr": "18/03/2026",
-        "pertinence": 0
-      },
-      {
-        "source": "Le Figaro Éco",
-        "couleur": "#92400e",
-        "emoji": "📊",
-        "tag": "Presse économique",
-        "titre": "«Un indicateur de récession» : le nouveau menu à 3 dollars de McDonald’s affole les internautes américains",
-        "resume": "Pour attirer une clientèle américaine fragilisée par l’inflation, la chaîne de restauration rapide accélère sur les offres à bas prix.",
-        "lien": "https://www.lefigaro.fr/conso/un-indicateur-de-recession-le-nouveau-menu-a-3-dollars-de-mcdonald-s-affole-les-internautes-americains-20260318",
-        "date_iso": "2026-03-18T17:25:37+01:00",
-        "date_fr": "18/03/2026",
-        "pertinence": 1
-      },
-      {
-        "source": "Libération Éco",
-        "couleur": "#dc2626",
-        "emoji": "📰",
-        "tag": "Presse économique",
-        "titre": "A Paris, une grève inédite chez Leboncoin : «On sent que l’objectif est de réduire les coûts et rogner sur les avantages des employés»",
-        "resume": "Pour la première fois de l’histoire du groupe qui fête ses vingt ans, les salariés de la plateforme de revente se sont mis en grève ce mercredi 18 mars. Ils dénoncent une dégradation de leurs conditions de travail depuis le passage du site internet sous pavillon anglosaxon en 2024.",
-        "lien": "https://www.liberation.fr/economie/social/a-paris-une-greve-inedite-chez-leboncoin-on-sent-que-lobjectif-est-de-reduire-les-couts-et-rogner-sur-les-avantages-des-employes-20260318_VAJ7QR352RHBXLFPKHS3KFVEMY/",
-        "date_iso": "2026-03-18T17:14:09+00:00",
-        "date_fr": "18/03/2026",
-        "pertinence": 1
-      },
-      {
-        "source": "Libération Éco",
-        "couleur": "#dc2626",
-        "emoji": "📰",
-        "tag": "Presse économique",
-        "titre": "«Le tribunal a démontré que c’étaient les dirigeants qui ont fait couler MBF Aluminium, pas les salariés»",
-        "resume": "L’ancien patron de l’équipementier automobile, liquidé en 2021 dans le Jura, a été condamné à 30 mois de prison avec sursis et 100 000 euros d’amende pour « abus de biens sociaux» et de «présentation de comptes annuels inexacts».",
-        "lien": "https://www.liberation.fr/societe/police-justice/le-tribunal-a-demontre-que-cetaient-les-dirigeants-qui-ont-fait-couler-mbf-aluminium-pas-les-salaries-20260318_TMOFJL3QONCLZK5UAG4ML7KLRY/",
-        "date_iso": "2026-03-18T17:09:09+00:00",
-        "date_fr": "18/03/2026",
-        "pertinence": 0
-      },
-      {
-        "source": "Le Monde Éco",
-        "couleur": "#374151",
-        "emoji": "🌐",
-        "tag": "Presse économique",
-        "titre": "Les accords d’entreprise abordant la question de l’IA se multiplient",
-        "resume": "Le nombre d’accords mentionnant l’intelligence artificielle a quasiment doublé entre 2024 et 2025, dans les secteurs de la finance, de l’industrie et de l’information et de la communication. Et la place de l’emploi dans ces textes ne cesse d’augmenter.",
-        "lien": "https://www.lemonde.fr/economie/article/2026/03/18/les-accords-d-entreprise-abordant-la-question-de-l-ia-se-multiplient_6672098_3234.html",
-        "date_iso": "2026-03-18T16:00:11+01:00",
-        "date_fr": "18/03/2026",
-        "pertinence": 4
-      },
-      {
-        "source": "Le Monde Emploi",
-        "couleur": "#1f2937",
-        "emoji": "💼",
-        "tag": "Emploi & travail",
-        "titre": "Les accords d’entreprise abordant la question de l’IA se multiplient",
-        "resume": "Le nombre d’accords mentionnant l’intelligence artificielle a quasiment doublé entre 2024 et 2025, dans les secteurs de la finance, de l’industrie et de l’information et de la communication. Et la place de l’emploi dans ces textes ne cesse d’augmenter.",
-        "lien": "https://www.lemonde.fr/economie/article/2026/03/18/les-accords-d-entreprise-abordant-la-question-de-l-ia-se-multiplient_6672098_3234.html",
-        "date_iso": "2026-03-18T16:00:11+01:00",
-        "date_fr": "18/03/2026",
-        "pertinence": 4
-      },
-      {
-        "source": "Euractiv FR",
-        "couleur": "#0369a1",
-        "emoji": "🇪🇺",
-        "tag": "Europe & politique",
-        "titre": "Jeu des reproches : l’UE échoue à prolonger les règles contre les abus sur enfants",
-        "resume": "Des associations de défense des enfants et des entreprises technologiques critiquent l'UE alors que les règles sur les contenus pédopornographiques arrivent à expiration The post Jeu des reproches : l’UE échoue à prolonger les règles contre les abus sur enfants appeared first on Euractiv FR .",
-        "lien": "https://euractiv.fr/news/guerre-des-reproches-lue-echoue-a-prolonger-les-regles-contre-les-abus-sur-enfants/",
-        "date_iso": "2026-03-18T15:52:35+00:00",
-        "date_fr": "18/03/2026",
-        "pertinence": 1
-      },
-      {
-        "source": "Le Figaro Éco",
-        "couleur": "#92400e",
-        "emoji": "📊",
-        "tag": "Presse économique",
-        "titre": "« Je regrette à mort d’avoir acheté il y a sept ans » : en Chine, l’économie gangrenée par la crise sans fin de l’immobilier",
-        "resume": "DÉCRYPTAGE - Chantiers à l’arrêt, chute des prix, défiance des Chinois… Le pays est pris dans une spirale qui plombe le marché intérieur. Pékin aura du mal à tenir l’objectif de 5 % de croissance.",
-        "lien": "https://www.lefigaro.fr/conjoncture/je-regrette-a-mort-d-avoir-achete-il-y-a-sept-ans-en-chine-l-economie-gangrenee-par-la-crise-sans-fin-de-l-immobilier-20260318",
-        "date_iso": "2026-03-18T15:51:43+01:00",
-        "date_fr": "18/03/2026",
-        "pertinence": 1
-      },
-      {
-        "source": "Le Figaro Éco",
-        "couleur": "#92400e",
-        "emoji": "📊",
-        "tag": "Presse économique",
-        "titre": "Guerre au Moyen-Orient : où en sont les rapatriements de Français bloqués dans la région ?",
-        "resume": "Les vols commerciaux «ont repris quasiment normalement», a assuré le ministre des Transports, même si plusieurs compagnies ont décidé de prolonger la suspension de leurs vols vers et à destination de la région.",
-        "lien": "https://www.lefigaro.fr/conjoncture/guerre-au-moyen-orient-ou-en-sont-les-rapatriements-de-francais-bloques-dans-la-region-20260318",
-        "date_iso": "2026-03-18T15:38:31+01:00",
-        "date_fr": "18/03/2026",
-        "pertinence": 0
-      },
-      {
-        "source": "Le Figaro Éco",
-        "couleur": "#92400e",
-        "emoji": "📊",
-        "tag": "Presse économique",
-        "titre": "Les injections illégales de botox et acide hyaluronique se multiplient, alertent les professionnels de santé",
-        "resume": "Selon les représentants de la profession, le phénomène est devenu «hors de contrôle», malgré des alertes répétées. En 2025, l’Ordre des médecins a reçu un record de 213 signalements, contre 128 en 2024.",
-        "lien": "https://www.lefigaro.fr/conjoncture/les-injections-illegales-de-botox-et-acide-hyaluronique-se-multiplient-alertent-les-professionnels-de-sante-20260318",
-        "date_iso": "2026-03-18T15:36:21+01:00",
-        "date_fr": "18/03/2026",
-        "pertinence": 0
-      },
-      {
-        "source": "Le Figaro Éco",
-        "couleur": "#92400e",
-        "emoji": "📊",
-        "tag": "Presse économique",
-        "titre": "Intelligence artificielle : le gouvernement américain juge qu’Anthropic lui fait courir un risque «inacceptable»",
-        "resume": "Pour justifier sa décision de classer Anthropic comme une société «à risque», le gouvernement américain dit craindre que «le fait de permettre à Anthropic de continuer à accéder à son infrastructure technique et opérationnelle de conduite des opérations militaires n’introduise un risque inacceptable",
-        "lien": "https://www.lefigaro.fr/secteur/high-tech/intelligence-artificielle-le-gouvernement-americain-juge-qu-anthropic-lui-fait-courir-un-risque-inacceptable-20260318",
-        "date_iso": "2026-03-18T15:36:00+01:00",
-        "date_fr": "18/03/2026",
-        "pertinence": 0
-      },
-      {
-        "source": "Le Figaro Éco",
-        "couleur": "#92400e",
-        "emoji": "📊",
-        "tag": "Presse économique",
-        "titre": "Tencent va intégrer des agents dans son application WeChat",
-        "resume": "Le géant chinois de l’internet a annoncé mercredi son intention d’intégrer des agents d’IA à son application, qui pourront effectuer des tâches concrètes, comme envoyer des courriels ou réserver des billets d’avion.",
-        "lien": "https://www.lefigaro.fr/secteur/high-tech/tencent-va-integrer-des-agents-dans-son-application-wechat-20260318",
-        "date_iso": "2026-03-18T15:31:02+01:00",
-        "date_fr": "18/03/2026",
-        "pertinence": 0
       }
     ]
   },
@@ -710,58 +674,63 @@
   "chomage": [
     {
       "trimestre": "T1 2023",
-      "taux": 7.1,
-      "jeunes": 17.5
+      "taux": 6.9,
+      "jeunes": 16.6
     },
     {
       "trimestre": "T2 2023",
-      "taux": 7.2,
-      "jeunes": 17.0
+      "taux": 7.0,
+      "jeunes": 17.1
     },
     {
       "trimestre": "T3 2023",
-      "taux": 7.4,
-      "jeunes": 17.6
+      "taux": 7.2,
+      "jeunes": 17.4
     },
     {
       "trimestre": "T4 2023",
-      "taux": 7.5,
+      "taux": 7.3,
       "jeunes": 17.6
     },
     {
       "trimestre": "T1 2024",
-      "taux": 7.5,
+      "taux": 7.3,
       "jeunes": 18.1
     },
     {
       "trimestre": "T2 2024",
-      "taux": 7.3,
-      "jeunes": 17.7
+      "taux": 7.1,
+      "jeunes": 18.0
     },
     {
       "trimestre": "T3 2024",
-      "taux": 7.4,
-      "jeunes": 18.3
+      "taux": 7.2,
+      "jeunes": 19.7
     },
     {
       "trimestre": "T4 2024",
-      "taux": 7.3,
-      "jeunes": 19.0
+      "taux": 7.1,
+      "jeunes": 18.7
     },
     {
       "trimestre": "T1 2025",
-      "taux": 7.4,
-      "jeunes": 18.5
+      "taux": 7.3,
+      "jeunes": 19.2
     },
     {
       "trimestre": "T2 2025",
-      "taux": 7.5,
-      "jeunes": 18.8
+      "taux": 7.4,
+      "jeunes": 19.1
     },
     {
       "trimestre": "T3 2025",
+      "taux": 7.5,
+      "jeunes": 19.1
+    },
+    {
+      "trimestre": "T4 2025",
       "taux": 7.7,
-      "jeunes": 19.2
+      "jeunes": 21.5
     }
   ],
   "smic": {
@@ -836,7 +805,7 @@
   ],
   "indicateurs_cles": {
     "taux_chomage_actuel": 7.7,
-    "taux_chomage_jeunes": 19.2,
+    "taux_chomage_jeunes": 21.5,
     "taux_emploi_seniors": 61.7,
     "inflation_annuelle": 0.9,
     "smic_brut": 1823.03,
@@ -1082,51 +1051,51 @@
   "types_contrats": [
     {
       "trimestre": "T1 2023",
-      "cdi": 83.2,
-      "cdd": 5.4,
-      "interim": 1.4
+      "cdi": 74.5,
+      "cdd": 8.8,
+      "interim": 2.2
     },
     {
       "trimestre": "T2 2023",
-      "cdi": 83.2,
-      "cdd": 5.4,
-      "interim": 1.4
+      "cdi": 74.3,
+      "cdd": 9.0,
+      "interim": 2.1
     },
     {
       "trimestre": "T3 2023",
-      "cdi": 83.4,
-      "cdd": 5.3,
-      "interim": 1.3
+      "cdi": 74.4,
+      "cdd": 8.9,
+      "interim": 2.0
     },
     {
       "trimestre": "T4 2023",
-      "cdi": 83.4,
-      "cdd": 5.3,
-      "interim": 1.3
+      "cdi": 74.6,
+      "cdd": 8.7,
+      "interim": 2.0
     },
     {
       "trimestre": "T1 2024",
-      "cdi": 83.4,
-      "cdd": 5.3,
-      "interim": 1.3
+      "cdi": 74.8,
+      "cdd": 8.5,
+      "interim": 1.9
     },
     {
       "trimestre": "T2 2024",
-      "cdi": 83.4,
-      "cdd": 5.3,
-      "interim": 1.3
+      "cdi": 74.7,
+      "cdd": 8.6,
+      "interim": 1.9
     },
     {
       "trimestre": "T3 2024",
-      "cdi": 83.4,
-      "cdd": 5.3,
-      "interim": 1.3
+      "cdi": 74.9,
+      "cdd": 8.4,
+      "interim": 1.8
     },
     {
       "trimestre": "T4 2024",
-      "cdi": 83.5,
-      "cdd": 5.2,
-      "interim": 1.3
+      "cdi": 75.0,
+      "cdd": 8.3,
+      "interim": 1.8
     },
     {
       "trimestre": "T1 2025",
@@ -3865,7 +3834,7 @@
       "note_lecture": "Le TEC-10 mesure le rendement des emprunts d'Etat francais a 10 ans. Un taux eleve rencherit le cout de la dette publique et impacte les taux de credit immobilier."
     },
     "petrole_brent": {
-      "valeur": 108.09,
+      "valeur": 106.51,
       "date": "2026-03-19",
       "unite": "USD/baril",
       "source": "Yahoo Finance",
@@ -5385,39 +5354,33 @@
         },
         {
           "date": "2026-03-19",
-          "valeur": 108.09,
-          "ma50": 75.02,
-          "ma200": 68.29
+          "valeur": 106.51,
+          "ma50": 74.99,
+          "ma200": 68.28
         }
       ],
       "variations": {
-        "jour": 0.66,
-        "semaine": 7.6,
-        "mois": 60.32,
-        "ytd": 77.93
+        "jour": -0.81,
+        "semaine": 6.02,
+        "mois": 57.98,
+        "ytd": 75.33
       },
       "min_max": {
         "min": 58.92,
         "min_date": "2025-12-16",
-        "max": 108.09,
-        "max_date": "2026-03-19"
+        "max": 107.38,
+        "max_date": "2026-03-18"
       },
       "note_lecture": "Le prix du Brent influence directement les couts de transport et d'energie, donc l'inflation et le pouvoir d'achat des salaries."
     },
     "cac40": {
-      "valeur": 7969.88,
-      "date": "2026-03-18",
-      "variation_jour_pct": 0.0,
+      "valeur": 7802.51,
+      "date": "2026-03-19",
+      "variation_jour_pct": -2.1,
       "unite": "points",
       "source": "Yahoo Finance",
-      "nb_points": 257,
+      "nb_points": 256,
       "historique": [
-        {
-          "date": "2025-03-18",
-          "valeur": 8114.57,
-          "ma50": null,
-          "ma200": null
-        },
         {
           "date": "2025-03-19",
           "valeur": 8171.47,
@@ -5709,7 +5672,7 @@
         {
           "date": "2025-05-29",
           "valeur": 7779.72,
-          "ma50": 7678.55,
+          "ma50": null,
           "ma200": null
         },
         {
@@ -6610,7 +6573,7 @@
           "date": "2025-12-29",
           "valeur": 8112.02,
           "ma50": 8109.13,
-          "ma200": 7845.54
+          "ma200": null
         },
         {
           "date": "2025-12-30",
@@ -6949,17 +6912,17 @@
           "ma200": 7995.35
         },
         {
-          "date": "2026-03-18",
-          "valeur": 7969.88,
-          "ma50": 8221.42,
-          "ma200": 7996.24
+          "date": "2026-03-19",
+          "valeur": 7802.51,
+          "ma50": 8218.08,
+          "ma200": 7995.4
         }
       ],
       "variations": {
-        "jour": 0.0,
-        "semaine": -0.18,
-        "mois": -4.68,
-        "ytd": -2.75
+        "jour": -2.1,
+        "semaine": -2.28,
+        "mois": -6.68,
+        "ytd": -4.79
       },
       "min_max": {
         "min": 6863.02,
@@ -8540,7 +8503,7 @@
       "note_lecture": "Le taux de change euro-dollar determine le prix de tout ce qui est importe en dollars : petrole, matieres premieres, electronique. Un euro faible rencherit les importations et alimente l'inflation."
     },
     "or": {
-      "valeur": 4770.7,
+      "valeur": 4607.3,
       "date": "2026-03-19",
       "unite": "USD/oz",
       "source": "Yahoo Finance",
@@ -10060,16 +10023,16 @@
         },
         {
           "date": "2026-03-19",
-          "valeur": 4770.7,
-          "ma50": 4952.79,
-          "ma200": 4058.06
+          "valeur": 4607.3,
+          "ma50": 4949.52,
+          "ma200": 4057.25
         }
       ],
       "variations": {
-        "jour": -2.44,
-        "semaine": -6.75,
-        "mois": -2.3,
-        "ytd": 10.58
+        "jour": -5.78,
+        "semaine": -9.94,
+        "mois": -5.64,
+        "ytd": 6.79
       },
       "min_max": {
         "min": 2951.3,
@@ -10080,11 +10043,11 @@
       "note_lecture": "L'or est la valeur refuge par excellence. Sa hausse traduit une montee de l'incertitude economique ou geopolitique. Il sert aussi de protection contre l'inflation."
     },
     "gaz_naturel": {
-      "valeur": 54.66,
-      "date": "2026-03-18",
+      "valeur": 65.25,
+      "date": "2026-03-19",
       "unite": "EUR/MWh",
       "source": "Yahoo Finance (TTF)",
-      "nb_points": 252,
+      "nb_points": 253,
       "historique": [
         {
           "date": "2025-03-19",
@@ -11597,24 +11560,30 @@
           "valeur": 54.66,
           "ma50": 38.14,
           "ma200": 33.65
+        },
+        {
+          "date": "2026-03-19",
+          "valeur": 65.25,
+          "ma50": 38.88,
+          "ma200": 33.8
         }
       ],
       "variations": {
-        "jour": 6.01,
-        "semaine": 9.34,
-        "mois": 68.18,
-        "ytd": 88.48
+        "jour": 19.37,
+        "semaine": 28.27,
+        "mois": 118.81,
+        "ytd": 125.0
       },
       "min_max": {
         "min": 26.6,
         "min_date": "2025-12-10",
-        "max": 56.45,
-        "max_date": "2026-03-09"
+        "max": 65.25,
+        "max_date": "2026-03-19"
       },
       "note_lecture": "Le prix du gaz naturel (TTF europeen) impacte directement les factures de chauffage et d'electricite des menages, ainsi que les couts de production industrielle."
     },
     "ble": {
-      "valeur": 607.25,
+      "valeur": 608.0,
       "date": "2026-03-19",
       "unite": "cents/boisseau",
       "source": "Yahoo Finance",
@@ -13128,16 +13097,16 @@
         },
         {
           "date": "2026-03-19",
-          "valeur": 607.25,
-          "ma50": 551.11,
-          "ma200": 530.77
+          "valeur": 608.0,
+          "ma50": 551.12,
+          "ma200": 530.78
         }
       ],
       "variations": {
-        "jour": 0.5,
-        "semaine": 2.53,
-        "mois": 12.92,
-        "ytd": 19.89
+        "jour": 0.62,
+        "semaine": 2.66,
+        "mois": 13.06,
+        "ytd": 20.04
       },
       "min_max": {
         "min": 495.0,
@@ -13928,7 +13897,7 @@
           "2023": 1.92,
           "2024": 1.78,
           "2025": 1.72,
-          "2026": 1.952
+          "2026": 1.959
         },
         "quantiteMensuelle": {
           "solo": 40,
@@ -16351,7 +16320,7 @@
     "sources": "INSEE - Enquête Emploi, DARES"
   },
   "previsions_cftc": {
-    "generated_at": "2026-03-19T07:12:06.775881",
+    "generated_at": "2026-03-19T12:44:29.911518",
     "model_version": "CFTC v4.0 (Monte Carlo)",
     "n_simulations": 1000,
     "horizon": "12 mois",
