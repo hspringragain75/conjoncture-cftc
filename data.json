@@ -1,6 +1,6 @@
 {
-  "last_updated": "19/03/2026 07:07",
-  "last_updated_iso": "2026-03-19T07:07:59.925838",
+  "last_updated": "19/03/2026 07:12",
+  "last_updated_iso": "2026-03-19T07:12:06.687587",
   "contact": "hspringragain@cftc.fr",
   "alertes": [
     {
@@ -32,7 +32,7 @@
       "date": "2026-03-19",
       "type": "info",
       "titre": "🔄 Données actualisées",
-      "message": "Le tableau de bord a été mis à jour le 19/03/2026 à 07:07.",
+      "message": "Le tableau de bord a été mis à jour le 19/03/2026 à 07:11.",
       "onglet": "conjoncture"
     }
   ],
@@ -172,7 +172,7 @@
     }
   ],
   "revue_presse": {
-    "derniere_maj": "19/03/2026 07:07",
+    "derniere_maj": "19/03/2026 07:12",
     "nb_sources": 7,
     "sources_noms": [
       "Le Monde Éco",
@@ -1882,7 +1882,7 @@
     "croissance_trim_actuel": 0.7,
     "croissance_annuelle": 0.9,
     "trimestre": "T4 2025",
-    "commentaire": "PIB volume trimestriel - glissement annuel",
+    "commentaire": "PIB volume trimestriel - glissement annuel - INSEE",
     "evolution": [
       {
         "trimestre": "T2 2022",
@@ -3865,7 +3865,7 @@
       "note_lecture": "Le TEC-10 mesure le rendement des emprunts d'Etat francais a 10 ans. Un taux eleve rencherit le cout de la dette publique et impacte les taux de credit immobilier."
     },
     "petrole_brent": {
-      "valeur": 108.34,
+      "valeur": 108.09,
       "date": "2026-03-19",
       "unite": "USD/baril",
       "source": "Yahoo Finance",
@@ -5385,21 +5385,21 @@
         },
         {
           "date": "2026-03-19",
-          "valeur": 108.34,
+          "valeur": 108.09,
           "ma50": 75.02,
           "ma200": 68.29
         }
       ],
       "variations": {
-        "jour": 0.89,
-        "semaine": 7.84,
-        "mois": 60.69,
-        "ytd": 78.34
+        "jour": 0.66,
+        "semaine": 7.6,
+        "mois": 60.32,
+        "ytd": 77.93
       },
       "min_max": {
         "min": 58.92,
         "min_date": "2025-12-16",
-        "max": 108.34,
+        "max": 108.09,
         "max_date": "2026-03-19"
       },
       "note_lecture": "Le prix du Brent influence directement les couts de transport et d'energie, donc l'inflation et le pouvoir d'achat des salaries."
@@ -8540,7 +8540,7 @@
       "note_lecture": "Le taux de change euro-dollar determine le prix de tout ce qui est importe en dollars : petrole, matieres premieres, electronique. Un euro faible rencherit les importations et alimente l'inflation."
     },
     "or": {
-      "valeur": 4766.1,
+      "valeur": 4770.7,
       "date": "2026-03-19",
       "unite": "USD/oz",
       "source": "Yahoo Finance",
@@ -10060,16 +10060,16 @@
         },
         {
           "date": "2026-03-19",
-          "valeur": 4766.1,
-          "ma50": 4952.69,
-          "ma200": 4058.04
+          "valeur": 4770.7,
+          "ma50": 4952.79,
+          "ma200": 4058.06
         }
       ],
       "variations": {
-        "jour": -2.53,
-        "semaine": -6.84,
-        "mois": -2.39,
-        "ytd": 10.47
+        "jour": -2.44,
+        "semaine": -6.75,
+        "mois": -2.3,
+        "ytd": 10.58
       },
       "min_max": {
         "min": 2951.3,
@@ -16351,7 +16351,7 @@
     "sources": "INSEE - Enquête Emploi, DARES"
   },
   "previsions_cftc": {
-    "generated_at": "2026-03-19T07:08:00.026184",
+    "generated_at": "2026-03-19T07:12:06.775881",
     "model_version": "CFTC v4.0 (Monte Carlo)",
     "n_simulations": 1000,
     "horizon": "12 mois",
