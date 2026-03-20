@@ -2,10 +2,9 @@ name: Update Economic Data
 
 on:
   schedule:
-    # Tous les jours du lundi au vendredi a 6h UTC = 7h heure de Paris (CET)
-    # Note : en heure d'ete (CEST), 6h UTC = 8h Paris. Pour 7h Paris toute l'annee,
-    # il faudrait deux crons (5h UTC ete, 6h UTC hiver) mais GitHub ne gere pas les fuseaux.
-    - cron: '0 6 * * 1-5'
+    # 5h UTC = 7h Paris en été (CEST = UTC+2) à partir du 30 mars
+    # En hiver (CET = UTC+1), ce sera 6h Paris — acceptable
+    - cron: '0 5 * * 1-5'
   workflow_dispatch:
     # Declenchement manuel avec option de diagnostic RSS
     inputs:
