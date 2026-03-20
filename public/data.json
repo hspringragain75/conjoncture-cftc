@@ -1,6 +1,6 @@
 {
-  "last_updated": "20/03/2026 07:06",
-  "last_updated_iso": "2026-03-20T07:06:03.075974",
+  "last_updated": "20/03/2026 07:12",
+  "last_updated_iso": "2026-03-20T07:12:45.566941",
   "contact": "hspringragain@cftc.fr",
   "alertes": [
     {
@@ -12,11 +12,11 @@
       "onglet": "inflation"
     },
     {
-      "id": "chomage_jeunes_T3_2025",
+      "id": "chomage_jeunes_T4_2025",
       "date": "2026-03-20",
       "type": "warning",
-      "titre": "🧑‍🎓 Chômage jeunes élevé : 19.2%",
-      "message": "Le taux de chômage des 15-24 ans reste préoccupant (T3 2025).",
+      "titre": "🧑‍🎓 Chômage jeunes élevé : 21.5%",
+      "message": "Le taux de chômage des 15-24 ans reste préoccupant (T4 2025).",
       "onglet": "emploi"
     },
     {
@@ -32,7 +32,7 @@
       "date": "2026-03-20",
       "type": "info",
       "titre": "🔄 Données actualisées",
-      "message": "Le tableau de bord a été mis à jour le 20/03/2026 à 07:05.",
+      "message": "Le tableau de bord a été mis à jour le 20/03/2026 à 07:12.",
       "onglet": "conjoncture"
     }
   ],
@@ -172,7 +172,7 @@
     }
   ],
   "revue_presse": {
-    "derniere_maj": "20/03/2026 07:06",
+    "derniere_maj": "20/03/2026 07:12",
     "nb_sources": 7,
     "sources_noms": [
       "Le Monde Éco",
@@ -661,58 +661,63 @@
   "chomage": [
     {
       "trimestre": "T1 2023",
-      "taux": 7.1,
-      "jeunes": 17.5
+      "taux": 6.9,
+      "jeunes": 16.6
     },
     {
       "trimestre": "T2 2023",
-      "taux": 7.2,
-      "jeunes": 17.0
+      "taux": 7.0,
+      "jeunes": 17.1
     },
     {
       "trimestre": "T3 2023",
-      "taux": 7.4,
-      "jeunes": 17.6
+      "taux": 7.2,
+      "jeunes": 17.4
     },
     {
       "trimestre": "T4 2023",
-      "taux": 7.5,
+      "taux": 7.3,
       "jeunes": 17.6
     },
     {
       "trimestre": "T1 2024",
-      "taux": 7.5,
+      "taux": 7.3,
       "jeunes": 18.1
     },
     {
       "trimestre": "T2 2024",
-      "taux": 7.3,
-      "jeunes": 17.7
+      "taux": 7.1,
+      "jeunes": 18.0
     },
     {
       "trimestre": "T3 2024",
-      "taux": 7.4,
-      "jeunes": 18.3
+      "taux": 7.2,
+      "jeunes": 19.7
     },
     {
       "trimestre": "T4 2024",
-      "taux": 7.3,
-      "jeunes": 19.0
+      "taux": 7.1,
+      "jeunes": 18.7
     },
     {
       "trimestre": "T1 2025",
-      "taux": 7.4,
-      "jeunes": 18.5
+      "taux": 7.3,
+      "jeunes": 19.2
     },
     {
       "trimestre": "T2 2025",
-      "taux": 7.5,
-      "jeunes": 18.8
+      "taux": 7.4,
+      "jeunes": 19.1
     },
     {
       "trimestre": "T3 2025",
+      "taux": 7.5,
+      "jeunes": 19.1
+    },
+    {
+      "trimestre": "T4 2025",
       "taux": 7.7,
-      "jeunes": 19.2
+      "jeunes": 21.5
     }
   ],
   "smic": {
@@ -787,7 +792,7 @@
   ],
   "indicateurs_cles": {
     "taux_chomage_actuel": 7.7,
-    "taux_chomage_jeunes": 19.2,
+    "taux_chomage_jeunes": 21.5,
     "taux_emploi_seniors": 61.7,
     "inflation_annuelle": 0.9,
     "smic_brut": 1823.03,
@@ -1614,28 +1619,38 @@
   "prix_immobilier": {
     "indice_actuel": 128.5,
     "variation_trim": 0.7,
-    "variation_an": 0.7,
+    "variation_an": -1.8,
     "transactions_annuelles": 880000,
     "evolution": [
       {
-        "trimestre": "T4 2023",
-        "indice": 128.7,
-        "variation": -3.6
+        "trimestre": "T1 2022",
+        "indice": 124.5,
+        "variation": 7.2
+      },
+      {
+        "trimestre": "T3 2022",
+        "indice": 126.8,
+        "variation": 6.1
+      },
+      {
+        "trimestre": "T1 2023",
+        "indice": 124.2,
+        "variation": -0.2
+      },
+      {
+        "trimestre": "T3 2023",
+        "indice": 120.5,
+        "variation": -5.0
       },
       {
         "trimestre": "T1 2024",
-        "indice": 126.0,
-        "variation": -4.8
-      },
-      {
-        "trimestre": "T2 2024",
-        "indice": 125.7,
-        "variation": -4.6
+        "indice": 117.8,
+        "variation": -5.1
       },
       {
         "trimestre": "T3 2024",
-        "indice": 127.6,
-        "variation": -3.5
+        "indice": 115.3,
+        "variation": -4.3
       },
       {
         "trimestre": "T4 2024",
@@ -3816,7 +3831,7 @@
       "note_lecture": "Le TEC-10 mesure le rendement des emprunts d'Etat francais a 10 ans. Un taux eleve rencherit le cout de la dette publique et impacte les taux de credit immobilier."
     },
     "petrole_brent": {
-      "valeur": 103.93,
+      "valeur": 103.75,
       "date": "2026-03-20",
       "unite": "USD/baril",
       "source": "Yahoo Finance",
@@ -5336,16 +5351,16 @@
         },
         {
           "date": "2026-03-20",
-          "valeur": 103.93,
+          "valeur": 103.75,
           "ma50": 75.91,
           "ma200": 68.49
         }
       ],
       "variations": {
-        "jour": -4.34,
-        "semaine": 0.77,
-        "mois": 47.73,
-        "ytd": 71.08
+        "jour": -4.51,
+        "semaine": 0.59,
+        "mois": 47.48,
+        "ytd": 70.78
       },
       "min_max": {
         "min": 58.92,
@@ -8485,7 +8500,7 @@
       "note_lecture": "Le taux de change euro-dollar determine le prix de tout ce qui est importe en dollars : petrole, matieres premieres, electronique. Un euro faible rencherit les importations et alimente l'inflation."
     },
     "or": {
-      "valeur": 4666.9,
+      "valeur": 4674.3,
       "date": "2026-03-20",
       "unite": "USD/oz",
       "source": "Yahoo Finance",
@@ -10005,16 +10020,16 @@
         },
         {
           "date": "2026-03-20",
-          "valeur": 4666.9,
-          "ma50": 4953.74,
-          "ma200": 4063.68
+          "valeur": 4674.3,
+          "ma50": 4953.89,
+          "ma200": 4063.72
         }
       ],
       "variations": {
-        "jour": 1.44,
-        "semaine": -7.63,
-        "mois": -6.41,
-        "ytd": 8.17
+        "jour": 1.6,
+        "semaine": -7.49,
+        "mois": -6.26,
+        "ytd": 8.34
       },
       "min_max": {
         "min": 2951.3,
@@ -13873,7 +13888,7 @@
           "2023": 1.92,
           "2024": 1.78,
           "2025": 1.72,
-          "2026": 1.967
+          "2026": 1.966
         },
         "quantiteMensuelle": {
           "solo": 40,
@@ -16296,7 +16311,7 @@
     "sources": "INSEE - Enquête Emploi, DARES"
   },
   "previsions_cftc": {
-    "generated_at": "2026-03-20T07:06:03.225804",
+    "generated_at": "2026-03-20T07:12:45.720041",
     "model_version": "CFTC v4.0 (Monte Carlo)",
     "n_simulations": 1000,
     "horizon": "12 mois",
