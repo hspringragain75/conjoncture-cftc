@@ -1,6 +1,6 @@
 {
-  "last_updated": "23/03/2026 14:48",
-  "last_updated_iso": "2026-03-23T14:48:36.687100",
+  "last_updated": "23/03/2026 17:07",
+  "last_updated_iso": "2026-03-23T17:07:21.098658",
   "contact": "hspringragain@cftc.fr",
   "alertes": [
     {
@@ -32,7 +32,7 @@
       "date": "2026-03-23",
       "type": "info",
       "titre": "🔄 Données actualisées",
-      "message": "Le tableau de bord a été mis à jour le 23/03/2026 à 14:48.",
+      "message": "Le tableau de bord a été mis à jour le 23/03/2026 à 17:07.",
       "onglet": "conjoncture"
     }
   ],
@@ -172,7 +172,7 @@
     }
   ],
   "revue_presse": {
-    "derniere_maj": "23/03/2026 14:48",
+    "derniere_maj": "23/03/2026 17:07",
     "nb_sources": 7,
     "sources_noms": [
       "Le Monde Éco",
@@ -186,6 +186,90 @@
     "a_la_une": [],
     "tous": [
       {
+        "source": "Le Figaro Éco",
+        "couleur": "#92400e",
+        "emoji": "📊",
+        "tag": "Presse économique",
+        "titre": "Guerre au Moyen-Orient : où et comment le gaz est-il stocké en France ?",
+        "resume": "Sur fond de conflit entre l’Iran, les États-Unis et Israël, l’Union européenne recommande à ses États membres de réduire le niveau de leurs stocks en vue de l’hiver prochain, afin de limiter la pression sur les prix de l’énergie.",
+        "lien": "https://www.lefigaro.fr/conjoncture/guerre-au-moyen-orient-ou-et-comment-le-gaz-est-il-stocke-en-france-20260323",
+        "date_iso": "2026-03-23T17:55:49+01:00",
+        "date_fr": "23/03/2026",
+        "pertinence": 0
+      },
+      {
+        "source": "Le Figaro Éco",
+        "couleur": "#92400e",
+        "emoji": "📊",
+        "tag": "Presse économique",
+        "titre": "Le gouvernement demande aux raffineurs s'ils peuvent «augmenter rapidement» leur production",
+        "resume": "Le gouvernement espère que cela contribuera «à alléger la tension sur les marchés des produits raffinés en Europe et à réduire les tensions sur les marchés européens si cette situation venait à perdurer dans le temps».",
+        "lien": "https://www.lefigaro.fr/conjoncture/le-gouvernement-demande-aux-raffineurs-s-ils-peuvent-augmenter-rapidement-leur-production-20260323",
+        "date_iso": "2026-03-23T17:35:27+01:00",
+        "date_fr": "23/03/2026",
+        "pertinence": 1
+      },
+      {
+        "source": "Le Figaro Éco",
+        "couleur": "#92400e",
+        "emoji": "📊",
+        "tag": "Presse économique",
+        "titre": "«Certains n’ont plus rien»: à Perpignan, une escroquerie à l’or fait une soixantaine de victimes, 4,7 millions d’euros de préjudice",
+        "resume": "À Perpignan, une boutique d’achat et de revente d’or est soupçonnée d’avoir mis en place une vaste escroquerie aux pièces d’or ayant fait une soixantaine de victimes.",
+        "lien": "https://www.lefigaro.fr/conjoncture/certains-n-ont-plus-rien-a-perpignan-une-escroquerie-a-l-or-fait-une-soixantaine-de-victimes-4-7-millions-d-euros-de-prejudice-20260323",
+        "date_iso": "2026-03-23T17:31:58+01:00",
+        "date_fr": "23/03/2026",
+        "pertinence": 0
+      },
+      {
+        "source": "Le Monde Éco",
+        "couleur": "#374151",
+        "emoji": "🌐",
+        "tag": "Presse économique",
+        "titre": "TotalEnergies et l’administration Trump concluent un accord d’environ 1 milliard de dollars pour annuler des projets éoliens en mer",
+        "resume": "Le groupe français récupérera chaque dollar et investira en particulier pour accélérer des projets de gaz naturel liquéfié (GNL) aux Etats-Unis, a expliqué son patron, Patrick Pouyanné.",
+        "lien": "https://www.lemonde.fr/economie/article/2026/03/23/totalenergies-et-l-administration-trump-concluent-un-accord-d-environ-1-milliard-de-dollars-pour-annuler-des-projets-eoliens-en-mer_6673952_3234.html",
+        "date_iso": "2026-03-23T17:16:54+01:00",
+        "date_fr": "23/03/2026",
+        "pertinence": 1
+      },
+      {
+        "source": "Le Monde Éco",
+        "couleur": "#374151",
+        "emoji": "🌐",
+        "tag": "Presse économique",
+        "titre": "L’Etat italien veut prendre le contrôle total de Telecom Italia",
+        "resume": "Le lancement d’une offre publique d’achat d’un montant de 10,8 milliards d’euros de Poste Italiane sur Telecom Italia démontre la volonté de Rome de prendre seul les rênes de cet opérateur historique, dont l’activité est jugée stratégique pour la souveraineté du pays.",
+        "lien": "https://www.lemonde.fr/economie/article/2026/03/23/l-etat-italien-veut-prendre-le-controle-total-de-telecom-italia_6673951_3234.html",
+        "date_iso": "2026-03-23T17:15:08+01:00",
+        "date_fr": "23/03/2026",
+        "pertinence": 0
+      },
+      {
+        "source": "Le Figaro Éco",
+        "couleur": "#92400e",
+        "emoji": "📊",
+        "tag": "Presse économique",
+        "titre": "Accord à près d’un milliard de dollars entre l’administration Trump et TotalEnergies pour renoncer à ses projets éoliens américains",
+        "resume": "Le groupe français va récupérer près d’un milliard de dollars en compensation de l’abandon de ses deux concessions de projets d’éoliennes en mer aux États-Unis, et va investir à la place dans le gaz et le pétrole américains.",
+        "lien": "https://www.lefigaro.fr/societes/accord-a-pres-d-un-milliard-de-dollars-entre-l-administration-trump-et-totalenergies-pour-renoncer-a-ses-projets-eoliens-americains-20260323",
+        "date_iso": "2026-03-23T17:09:32+01:00",
+        "date_fr": "23/03/2026",
+        "pertinence": 1
+      },
+      {
+        "source": "Le Figaro Éco",
+        "couleur": "#92400e",
+        "emoji": "📊",
+        "tag": "Presse économique",
+        "titre": "La guerre au Moyen-Orient inquiète les vacanciers, se replieront-ils sur la France cet été ? Tout n’est pas si simple",
+        "resume": "Les professionnels constatent un léger sursaut de réservations vers la France et l’Europe en général, perçus comme «destinations refuge». Mais la situation internationale crée surtout de l’attentisme pour les vacances d’été.",
+        "lien": "https://www.lefigaro.fr/voyages/guides/la-guerre-au-moyen-orient-inquiete-les-vacanciers-se-replieront-ils-sur-la-france-cet-ete-tout-n-est-pas-si-simple-20260323",
+        "date_iso": "2026-03-23T17:01:53+01:00",
+        "date_fr": "23/03/2026",
+        "pertinence": 0
+      },
+      {
         "source": "Institut Montaigne",
         "couleur": "#1d4ed8",
         "emoji": "🏛️",
@@ -198,16 +282,100 @@
         "pertinence": 1
       },
       {
+        "source": "Libération Éco",
+        "couleur": "#dc2626",
+        "emoji": "📰",
+        "tag": "Presse économique",
+        "titre": "Prix des carburants : «carte numérique», taxe sur les «surprofits», crédit d’impôt… Les mesures prises par nos voisins européens pour le pouvoir d’achat",
+        "resume": "Alors que la France se refuse toujours à baisser les taxes sur les carburants, beaucoup de pays européens ont déjà passé le pas. Comme en Espagne, où le gouvernement socialiste met en place un «bouclier social et économique» ambitieux.",
+        "lien": "https://www.liberation.fr/economie/conso/prix-des-carburants-carte-numerique-taxe-sur-les-surprofits-credit-dimpot-les-mesures-prises-par-nos-voisins-europeens-pour-le-pouvoir-dachat-20260323_PA25OL5LDBBZVMQMIDUH6JIPPM/",
+        "date_iso": "2026-03-23T16:09:42+00:00",
+        "date_fr": "23/03/2026",
+        "pertinence": 0
+      },
+      {
+        "source": "Le Figaro Éco",
+        "couleur": "#92400e",
+        "emoji": "📊",
+        "tag": "Presse économique",
+        "titre": "Pourquoi la France n’est pas si bien partie pour héberger l’un des «méga data center» de l’IA voulu par Bruxelles",
+        "resume": "ENQUÊTE - En retard face aux États-Unis et à la Chine, la Commission veut voir sortir de terre à travers le continent des centres de données souverains à plus de 10 milliards d’euros l’unité. La compétition entre États membres, appuyés par leurs géants industriels, est féroce.",
+        "lien": "https://www.lefigaro.fr/secteur/high-tech/pourquoi-la-france-n-est-pas-si-bien-partie-pour-heberger-l-un-des-mega-data-center-de-l-ia-voulu-par-bruxelles-20260323",
+        "date_iso": "2026-03-23T16:00:00+01:00",
+        "date_fr": "23/03/2026",
+        "pertinence": 0
+      },
+      {
+        "source": "Le Figaro Éco",
+        "couleur": "#92400e",
+        "emoji": "📊",
+        "tag": "Presse économique",
+        "titre": "Agneau, bœuf, lithium... Que contient l'accord commercial entre l’UE et Australie, sur le point d’être signé ?",
+        "resume": "La présidente de la Commission européenne, Ursula von der Leyen, est arrivée ce lundi en Australie, pour une visite de trois jours lors de laquelle elle espère régler les derniers détails d’un projet d’accord de libre-échange, en négociations depuis 2018.",
+        "lien": "https://www.lefigaro.fr/conjoncture/agneau-boeuf-lithium-que-contient-l-accord-commercial-entre-l-ue-et-australie-sur-le-point-d-etre-signe-20260323",
+        "date_iso": "2026-03-23T15:51:03+01:00",
+        "date_fr": "23/03/2026",
+        "pertinence": 2
+      },
+      {
+        "source": "Le Monde Éco",
+        "couleur": "#374151",
+        "emoji": "🌐",
+        "tag": "Presse économique",
+        "titre": "EN DIRECT, municipales 2026 : « Les urnes n’ont sacré personne », estime Sébastien Lecornu, qui défend sa méthode du compromis",
+        "resume": "Au lendemain du second tour des municipales, le chef du gouvernement a souligné dans un courrier aux maires que la « trop faible » participation à ce scrutin « nous oblige » et « impose une chose simple – agir concrètement, au plus près du terrain ».",
+        "lien": "https://www.lemonde.fr/politique/live/2026/03/23/en-direct-municipales-2026-les-urnes-n-ont-sacre-personne-estime-sebastien-lecornu-qui-defend-sa-methode-du-compromis_6673595_823448.html",
+        "date_iso": "2026-03-23T15:47:28+01:00",
+        "date_fr": "23/03/2026",
+        "pertinence": 0
+      },
+      {
+        "source": "Euractiv FR",
+        "couleur": "#0369a1",
+        "emoji": "🇪🇺",
+        "tag": "Europe & politique",
+        "titre": "L oléoduc de Schrödinger : pourquoi le bras de fer entre l Ukraine et la Hongrie n est pas un mystère quantique",
+        "resume": "La réticence de Kiev à réparer un oléoduc essentiel reliant la ville à Budapest s'explique parfaitement : elle n'a pas besoin d'argent – pour l'instant The post L&rsquo;oléoduc de Schrödinger : pourquoi le bras de fer entre l&rsquo;Ukraine et la Hongrie n&rsquo;est pas un mystère quantique appeared ",
+        "lien": "https://euractiv.fr/news/loleoduc-de-schrodinger-pourquoi-le-bras-de-fer-entre-lukraine-et-la-hongrie-nest-pas-un-mystere-quantique/",
+        "date_iso": "2026-03-23T15:43:05+00:00",
+        "date_fr": "23/03/2026",
+        "pertinence": 0
+      },
+      {
         "source": "Le Monde Éco",
         "couleur": "#374151",
         "emoji": "🌐",
         "tag": "Presse économique",
         "titre": "Face à la crise du petit commerce, la piste de l’encadrement des loyers",
-        "resume": "Après l’Assemblée nationale qui a lancé, en février, une mission d’information sur l’avenir des commerces de proximité, le Sénat doit examiner, mercredi, une proposition de loi pour encadrer les loyers des baux commerciaux. Une urgence, alors que le taux de vacance commerciale en France atteint des ",
+        "resume": "Après l’Assemblée nationale, qui a lancé, en février, une mission d’information sur l’avenir des commerces de proximité, le Sénat doit examiner, mercredi, une proposition de loi pour encadrer les loyers des baux commerciaux. Une urgence, alors que le taux de vacance commerciale en France atteint des",
         "lien": "https://www.lemonde.fr/economie/article/2026/03/23/face-a-la-crise-du-petit-commerce-la-piste-de-l-encadrement-des-loyers_6673930_3234.html",
-        "date_iso": "2026-03-23T15:28:33+01:00",
+        "date_iso": "2026-03-23T15:28:30+01:00",
         "date_fr": "23/03/2026",
         "pertinence": 2
+      },
+      {
+        "source": "Euractiv FR",
+        "couleur": "#0369a1",
+        "emoji": "🇪🇺",
+        "tag": "Europe & politique",
+        "titre": "L accord commercial entre l UE et le Mercosur entrera en vigueur à titre provisoire à compter du 1er mai",
+        "resume": "L'UE affirme que les entreprises, les consommateurs et les agriculteurs peuvent en bénéficier immédiatement The post L&rsquo;accord commercial entre l&rsquo;UE et le Mercosur entrera en vigueur à titre provisoire à compter du 1er mai appeared first on Euractiv FR .",
+        "lien": "https://euractiv.fr/news/laccord-commercial-entre-lue-et-le-mercosur-entrera-en-vigueur-a-titre-provisoire-a-compter-du-1er-mai/",
+        "date_iso": "2026-03-23T15:18:10+00:00",
+        "date_fr": "23/03/2026",
+        "pertinence": 2
+      },
+      {
+        "source": "Euractiv FR",
+        "couleur": "#0369a1",
+        "emoji": "🇪🇺",
+        "tag": "Europe & politique",
+        "titre": "L’UE exige une « réforme sérieuse » de l’OMC pour freiner l’invasion des exportations chinoises",
+        "resume": "Maroš Šefčovič va réclamer un « nouvel équilibre » dans les règles du commerce international afin de contenir Pékin The post L’UE exige une « réforme sérieuse » de l’OMC pour freiner l’invasion des exportations chinoises appeared first on Euractiv FR .",
+        "lien": "https://euractiv.fr/news/lue-exige-une-reforme-serieuse-de-lomc-pour-freiner-linvasion-des-exportations-chinoises/",
+        "date_iso": "2026-03-23T15:07:00+00:00",
+        "date_fr": "23/03/2026",
+        "pertinence": 1
       },
       {
         "source": "Le Figaro Éco",
@@ -220,6 +388,18 @@
         "date_iso": "2026-03-23T14:57:32+01:00",
         "date_fr": "23/03/2026",
         "pertinence": 1
+      },
+      {
+        "source": "Euractiv FR",
+        "couleur": "#0369a1",
+        "emoji": "🇪🇺",
+        "tag": "Europe & politique",
+        "titre": "Un train tue trois bisons rares dans l’est de la Pologne",
+        "resume": "« Je ne me souviens pas d'un accident où trois bisons auraient été tués en même temps, écrasés par un train. » The post Un train tue trois bisons rares dans l’est de la Pologne appeared first on Euractiv FR .",
+        "lien": "https://euractiv.fr/news/un-train-tue-trois-bisons-rares-dans-lest-de-la-pologne/",
+        "date_iso": "2026-03-23T14:51:50+00:00",
+        "date_fr": "23/03/2026",
+        "pertinence": 0
       },
       {
         "source": "Le Monde Éco",
@@ -364,186 +544,6 @@
         "date_iso": "2026-03-23T12:52:07+01:00",
         "date_fr": "23/03/2026",
         "pertinence": 1
-      },
-      {
-        "source": "Le Monde Éco",
-        "couleur": "#374151",
-        "emoji": "🌐",
-        "tag": "Presse économique",
-        "titre": "Mercosur : l’accord de libre-échange sera appliqué provisoirement à partir du 1ᵉʳ mai",
-        "resume": "Le Parlement européen avait saisi la justice en janvier pour vérifier la légalité de ce traité de libre-échange. Mais en attendant, la Commission européenne a opté pour une application provisoire de l’accord, combattu par le secteur agricole et la France.",
-        "lien": "https://www.lemonde.fr/economie/article/2026/03/23/mercosur-l-accord-de-libre-echange-sera-applique-provisoirement-a-partir-du-1er-mai_6673909_3234.html",
-        "date_iso": "2026-03-23T12:44:04+01:00",
-        "date_fr": "23/03/2026",
-        "pertinence": 1
-      },
-      {
-        "source": "Le Figaro Éco",
-        "couleur": "#92400e",
-        "emoji": "📊",
-        "tag": "Presse économique",
-        "titre": "Vincent Bolloré auditionné le 24 mars par la commission d’enquête sur l’audiovisuel public",
-        "resume": "INFO LE FIGARO - Ses travaux reprennent cette semaine. L’homme d’affaires sera questionné en tant qu’actionnaire de la société de production de Banijay.",
-        "lien": "https://www.lefigaro.fr/medias/vincent-bollore-auditionne-le-24-mars-par-la-commission-d-enquete-sur-l-audiovisuel-public-20260323",
-        "date_iso": "2026-03-23T12:34:58+01:00",
-        "date_fr": "23/03/2026",
-        "pertinence": 0
-      },
-      {
-        "source": "Le Figaro Éco",
-        "couleur": "#92400e",
-        "emoji": "📊",
-        "tag": "Presse économique",
-        "titre": "La guerre au Moyen-Orient inquiète les vacanciers, se replieront-ils sur la France cet été ? Tout n’est pas si simple",
-        "resume": "Les professionnels constatent un léger sursaut de réservations vers la France et l’Europe en général, perçus comme «destinations refuge». Mais la situation internationale crée surtout de l’attentisme pour les vacances d’été.",
-        "lien": "https://www.lefigaro.fr/voyages/guides/la-guerre-au-moyen-orient-inquiete-les-vacanciers-se-replieront-ils-sur-la-france-cet-ete-tout-n-est-pas-si-simple-20260323",
-        "date_iso": "2026-03-23T12:31:59+01:00",
-        "date_fr": "23/03/2026",
-        "pertinence": 0
-      },
-      {
-        "source": "Le Monde Éco",
-        "couleur": "#374151",
-        "emoji": "🌐",
-        "tag": "Presse économique",
-        "titre": "Municipales à Grenoble : l’écologiste Laurence Ruffin prend la succession d’Eric Piolle",
-        "resume": "La candidate écologiste l’a largement emporté, avec 56, 59 % des voix, contre l’ancien maire condamné par la justice Alain Carignon (LR), et se place dans les pas du maire sortant, tout en affirmant vouloir aller « plus loin ».",
-        "lien": "https://www.lemonde.fr/politique/article/2026/03/23/municipales-a-grenoble-laurence-ruffin-premiere-femme-elue-maire_6673907_823448.html",
-        "date_iso": "2026-03-23T12:30:03+01:00",
-        "date_fr": "23/03/2026",
-        "pertinence": 0
-      },
-      {
-        "source": "Le Figaro Éco",
-        "couleur": "#92400e",
-        "emoji": "📊",
-        "tag": "Presse économique",
-        "titre": "Contre les effets de la guerre en Iran, le Brésil taxe ses exportateurs de pétrole et subventionne le prix du diesel",
-        "resume": "DÉCRYPTAGE - Le président Lula tente de freiner l’impact économique du conflit au Moyen-Orient. Il veut préserver le pouvoir d’achat à sept mois de l’élection présidentielle où il brigue un nouveau mandat.",
-        "lien": "https://www.lefigaro.fr/conjoncture/contre-les-effets-de-la-guerre-en-iran-le-bresil-taxe-ses-exportateurs-de-petrole-et-subventionne-le-prix-du-diesel-20260323",
-        "date_iso": "2026-03-23T12:23:11+01:00",
-        "date_fr": "23/03/2026",
-        "pertinence": 0
-      },
-      {
-        "source": "Le Figaro Éco",
-        "couleur": "#92400e",
-        "emoji": "📊",
-        "tag": "Presse économique",
-        "titre": "Détroit d’Ormuz : quels sont les navires qui parviennent encore à traverser le passage ?",
-        "resume": "Si le trafic maritime dans ce passage crucial pour le commerce mondial a chuté de 95% depuis le début de la guerre au Moyen-Orient, 124 traversées ont toutefois été comptabilisées entre le 1er et le 21 mars.",
-        "lien": "https://www.lefigaro.fr/conjoncture/detroit-d-ormuz-qui-sont-les-navires-qui-parviennent-encore-a-traverser-le-passage-20260323",
-        "date_iso": "2026-03-23T12:12:09+01:00",
-        "date_fr": "23/03/2026",
-        "pertinence": 0
-      },
-      {
-        "source": "Le Monde Éco",
-        "couleur": "#374151",
-        "emoji": "🌐",
-        "tag": "Presse économique",
-        "titre": "Le recours de militants climatiques contre BMW et Mercedes-Benz sur la vente de véhicules thermiques rejeté par la justice allemande",
-        "resume": "Les militants de défense du climat demandaient une obligation pour les deux constructeurs de ne plus vendre de véhicules thermiques à partir de novembre 2030.",
-        "lien": "https://www.lemonde.fr/economie/article/2026/03/23/le-recours-de-militants-climatiques-contre-bmw-et-mercedes-benz-sur-la-vente-de-vehicules-thermiques-rejete-par-la-justice-allemande_6673902_3234.html",
-        "date_iso": "2026-03-23T12:07:30+01:00",
-        "date_fr": "23/03/2026",
-        "pertinence": 0
-      },
-      {
-        "source": "Le Figaro Éco",
-        "couleur": "#92400e",
-        "emoji": "📊",
-        "tag": "Presse économique",
-        "titre": "IPTV, VPN... Le piratage de contenus sportifs et culturels en léger recul en 2025",
-        "resume": "En 2025, l’Arcom a noté une baisse de 4% sur un an de l’audience des directs illégaux. Ce recul atteint 34% entre 2021 et 2025 grâce à un durcissement de la lutte anti-piratage.",
-        "lien": "https://www.lefigaro.fr/medias/iptv-vpn-le-piratage-de-contenus-sportifs-et-culturels-en-leger-recul-en-2025-20260323",
-        "date_iso": "2026-03-23T12:02:37+01:00",
-        "date_fr": "23/03/2026",
-        "pertinence": 0
-      },
-      {
-        "source": "Le Monde Éco",
-        "couleur": "#374151",
-        "emoji": "🌐",
-        "tag": "Presse économique",
-        "titre": "Prix de l’électricité : « La solution mise en place par l’Espagne et le Portugal a sensiblement réduit les factures sans peser sur les finances publiques »",
-        "resume": "Comme l’envolée des prix de l’électricité en Europe est liée à un défaut du marché, où le gaz continue de fixer les prix pour tous, l’Union européenne devrait agir à la source, en s’inspirant du mécanisme ibérique, explique l’économiste Natalia Fabra dans une tribune au « Monde ».",
-        "lien": "https://www.lemonde.fr/idees/article/2026/03/23/prix-de-l-electricite-la-solution-mise-en-place-par-l-espagne-et-le-portugal-a-sensiblement-reduit-les-factures-sans-peser-sur-les-finances-publiques_6673900_3232.html",
-        "date_iso": "2026-03-23T12:00:10+01:00",
-        "date_fr": "23/03/2026",
-        "pertinence": 0
-      },
-      {
-        "source": "Le Monde Éco",
-        "couleur": "#374151",
-        "emoji": "🌐",
-        "tag": "Presse économique",
-        "titre": "Municipales en Corse : Gilles Simeoni réussit son retour à Bastia",
-        "resume": "Dix ans après avoir abandonné son poste d’édile pour l’Assemblée de Corse, le président du conseil de l’exécutif de la Collectivité de Corse le retrouve. A Ajaccio, la droite reste maîtresse dans son bastion en confirmant le mandat de Stéphane Sbraggia.",
-        "lien": "https://www.lemonde.fr/politique/article/2026/03/23/municipales-en-corse-gilles-simeoni-reussit-son-retour-a-bastia_6673898_823448.html",
-        "date_iso": "2026-03-23T12:00:05+01:00",
-        "date_fr": "23/03/2026",
-        "pertinence": 0
-      },
-      {
-        "source": "Le Figaro Éco",
-        "couleur": "#92400e",
-        "emoji": "📊",
-        "tag": "Presse économique",
-        "titre": "Guerre au Moyen-Orient : la Chine annonce limiter la hausse du prix des carburants dans le pays",
-        "resume": "Les augmentations de l’essence et du gazole seront respectivement de 1160 yuans (146 euros) et de 1115 yuans (140 euros) la tonne, soit environ moitié moins que ce qu’elles auraient dû être en application du mécanisme de fixation des prix en vigueur dans le pays.",
-        "lien": "https://www.lefigaro.fr/conjoncture/guerre-au-moyen-orient-la-chine-annonce-limiter-la-hausse-du-prix-des-carburants-dans-le-pays-20260323",
-        "date_iso": "2026-03-23T11:36:08+01:00",
-        "date_fr": "23/03/2026",
-        "pertinence": 0
-      },
-      {
-        "source": "Le Figaro Éco",
-        "couleur": "#92400e",
-        "emoji": "📊",
-        "tag": "Presse économique",
-        "titre": "Les Bourses européennes creusent leurs pertes ce lundi, Paris cède plus de 2%",
-        "resume": "Les marchés sont toujours plombés par la flambée des prix du pétrole et la guerre au Moyen-Orient, avec la perspective d’une nouvelle semaine difficile face à l’absence de signes de désescalade.",
-        "lien": "https://www.lefigaro.fr/conjoncture/les-bourses-europeennes-en-net-recul-ce-lundi-a-l-ouverture-20260323",
-        "date_iso": "2026-03-23T11:31:36+01:00",
-        "date_fr": "23/03/2026",
-        "pertinence": 0
-      },
-      {
-        "source": "Le Figaro Éco",
-        "couleur": "#92400e",
-        "emoji": "📊",
-        "tag": "Presse économique",
-        "titre": "Un avion d’Air Canada percute un véhicule à l’aéroport de LaGuardia à New York, au moins deux morts",
-        "resume": "Un avion et un véhicule de secours et de lutte contre les incendies sont entrés en collision sur une piste d’atterrissage de l’aéroport, qui va rester fermé ce lundi jusqu’à au moins 19h heure de Paris.",
-        "lien": "https://www.lefigaro.fr/conjoncture/new-york-un-avion-d-air-canada-percute-un-vehicule-a-l-aeroport-de-laguardia-trafic-interrompu-20260323",
-        "date_iso": "2026-03-23T11:26:24+01:00",
-        "date_fr": "23/03/2026",
-        "pertinence": 0
-      },
-      {
-        "source": "Le Monde Éco",
-        "couleur": "#374151",
-        "emoji": "🌐",
-        "tag": "Presse économique",
-        "titre": "« Unilever songe à rendre son tablier de cuisine afin de passer plus de temps dans la salle de bains »",
-        "resume": "Le géant britannique est en pourparlers avec la société américaine McCormick pour la cession de son activité alimentation. La firme réduit depuis des années ses parts dans un secteur secoué par l’essor des marques distributeur et la transformation des habitudes de consommation, et veut miser davanta",
-        "lien": "https://www.lemonde.fr/economie/article/2026/03/23/unilever-songe-a-rendre-son-tablier-de-cuisine-afin-de-passer-plus-de-temps-dans-la-salle-de-bains_6673889_3234.html",
-        "date_iso": "2026-03-23T11:00:11+01:00",
-        "date_fr": "23/03/2026",
-        "pertinence": 1
-      },
-      {
-        "source": "Le Monde Éco",
-        "couleur": "#374151",
-        "emoji": "🌐",
-        "tag": "Presse économique",
-        "titre": "Municipales 2026 : la réactivation du clivage gauche-droite",
-        "resume": "Alors que la gauche conserve les trois plus grandes villes, la droite a remporté des victoires symboliques contre le PS et Les Ecologistes. Le RN progresse dans les villes moyennes, mais n’a pas réussi à s’imposer à Toulon ou à Marseille, tandis que les « insoumis » ont remporté plusieurs communes p",
-        "lien": "https://www.lemonde.fr/politique/article/2026/03/23/municipales-2026-la-reactivation-du-clivage-gauche-droite_6673890_823448.html",
-        "date_iso": "2026-03-23T11:00:09+01:00",
-        "date_fr": "23/03/2026",
-        "pertinence": 0
       }
     ]
   },
@@ -3807,7 +3807,7 @@
       "note_lecture": "Le TEC-10 mesure le rendement des emprunts d'Etat francais a 10 ans. Un taux eleve rencherit le cout de la dette publique et impacte les taux de credit immobilier."
     },
     "petrole_brent": {
-      "valeur": 101.87,
+      "valeur": 101.08,
       "date": "2026-03-23",
       "unite": "USD/baril",
       "source": "Yahoo Finance",
@@ -5321,16 +5321,16 @@
         },
         {
           "date": "2026-03-23",
-          "valeur": 101.87,
-          "ma50": 76.87,
+          "valeur": 101.08,
+          "ma50": 76.86,
           "ma200": 68.71
         }
       ],
       "variations": {
-        "jour": -9.2,
-        "semaine": 1.66,
-        "mois": 42.16,
-        "ytd": 67.69
+        "jour": -9.9,
+        "semaine": 0.87,
+        "mois": 41.05,
+        "ytd": 66.39
       },
       "min_max": {
         "min": 58.92,
@@ -5341,9 +5341,9 @@
       "note_lecture": "Le prix du Brent influence directement les couts de transport et d'energie, donc l'inflation et le pouvoir d'achat des salaries."
     },
     "cac40": {
-      "valeur": 7806.35,
+      "valeur": 7726.2,
       "date": "2026-03-23",
-      "variation_jour_pct": 1.84,
+      "variation_jour_pct": 0.79,
       "unite": "points",
       "source": "Yahoo Finance",
       "nb_points": 255,
@@ -6874,16 +6874,16 @@
         },
         {
           "date": "2026-03-23",
-          "valeur": 7806.35,
-          "ma50": 8193.21,
-          "ma200": 7994.89
+          "valeur": 7726.2,
+          "ma50": 8191.6,
+          "ma200": 7994.49
         }
       ],
       "variations": {
-        "jour": 1.84,
-        "semaine": -1.63,
-        "mois": -7.05,
-        "ytd": -4.74
+        "jour": 0.79,
+        "semaine": -2.64,
+        "mois": -8.01,
+        "ytd": -5.72
       },
       "min_max": {
         "min": 6863.02,
@@ -8458,7 +8458,7 @@
       "note_lecture": "Le taux de change euro-dollar determine le prix de tout ce qui est importe en dollars : petrole, matieres premieres, electronique. Un euro faible rencherit les importations et alimente l'inflation."
     },
     "or": {
-      "valeur": 4486.9,
+      "valeur": 4384.7,
       "date": "2026-03-23",
       "unite": "USD/oz",
       "source": "Yahoo Finance",
@@ -9972,16 +9972,16 @@
         },
         {
           "date": "2026-03-23",
-          "valeur": 4486.9,
-          "ma50": 4952.55,
-          "ma200": 4068.88
+          "valeur": 4384.7,
+          "ma50": 4950.51,
+          "ma200": 4068.37
         }
       ],
       "variations": {
-        "jour": -1.83,
-        "semaine": -10.15,
-        "mois": -9.83,
-        "ytd": 4.0
+        "jour": -4.06,
+        "semaine": -12.2,
+        "mois": -11.88,
+        "ytd": 1.63
       },
       "min_max": {
         "min": 2951.3,
@@ -11526,7 +11526,7 @@
       "note_lecture": "Le prix du gaz naturel (TTF europeen) impacte directement les factures de chauffage et d'electricite des menages, ainsi que les couts de production industrielle."
     },
     "ble": {
-      "valeur": 586.75,
+      "valeur": 584.0,
       "date": "2026-03-23",
       "unite": "cents/boisseau",
       "source": "Yahoo Finance",
@@ -13034,16 +13034,16 @@
         },
         {
           "date": "2026-03-23",
-          "valeur": 586.75,
-          "ma50": 554.04,
-          "ma200": 531.29
+          "valeur": 584.0,
+          "ma50": 553.99,
+          "ma200": 531.28
         }
       ],
       "variations": {
-        "jour": -1.43,
-        "semaine": -1.76,
-        "mois": 4.87,
-        "ytd": 15.84
+        "jour": -1.89,
+        "semaine": -2.22,
+        "mois": 4.38,
+        "ytd": 15.3
       },
       "min_max": {
         "min": 495.0,
@@ -13054,7 +13054,7 @@
       "note_lecture": "Le cours du ble est un indicateur avance des prix alimentaires. La France etant le premier producteur europeen, son evolution impacte a la fois les consommateurs et le secteur agricole."
     },
     "lme_cuivre": {
-      "valeur": 5.47,
+      "valeur": 5.48,
       "date": "2026-03-23",
       "unite": "cts/lb",
       "source": "Yahoo Finance",
@@ -14568,16 +14568,16 @@
         },
         {
           "date": "2026-03-23",
-          "valeur": 5.47,
+          "valeur": 5.48,
           "ma50": 5.82,
-          "ma200": 5.21
+          "ma200": 5.22
         }
       ],
       "variations": {
-        "jour": 2.43,
-        "semaine": -5.53,
-        "mois": -4.54,
-        "ytd": -3.01
+        "jour": 2.62,
+        "semaine": -5.35,
+        "mois": -4.36,
+        "ytd": -2.84
       },
       "min_max": {
         "min": 4.13,
@@ -14588,7 +14588,7 @@
       "note_lecture": "Le cuivre est le baromètre de l'activité industrielle mondiale ('Dr Copper'). Sa hausse signale une reprise économique, sa baisse anticipe un ralentissement. Utilisé massivement dans l'électrification et les énergies renouvelables."
     },
     "lme_aluminium": {
-      "valeur": 3130.25,
+      "valeur": 3120.0,
       "date": "2026-03-23",
       "unite": "cts/lb",
       "source": "Yahoo Finance",
@@ -16096,16 +16096,16 @@
         },
         {
           "date": "2026-03-23",
-          "valeur": 3130.25,
-          "ma50": 3110.6,
-          "ma200": 2752.09
+          "valeur": 3120.0,
+          "ma50": 3110.39,
+          "ma200": 2752.04
         }
       ],
       "variations": {
-        "jour": 0.91,
-        "semaine": -4.84,
-        "mois": 4.6,
-        "ytd": 6.54
+        "jour": 0.58,
+        "semaine": -5.15,
+        "mois": 4.26,
+        "ytd": 6.19
       },
       "min_max": {
         "min": 2166.25,
@@ -20000,7 +20000,7 @@
           "2023": 1.92,
           "2024": 1.78,
           "2025": 1.72,
-          "2026": 2.007
+          "2026": 2.01
         },
         "quantiteMensuelle": {
           "solo": 40,
@@ -21333,12 +21333,12 @@
         "nom": "Martinique",
         "code": "MQ",
         "emoji": "🌴",
-        "chomage": 13.7,
+        "chomage": 13.4,
         "salaire_median": 1840,
         "emploi": 56.8,
         "population": 0.349,
         "tensions": 40,
-        "evol_chomage": 1.3,
+        "evol_chomage": 1.0,
         "note": "Taux de chômage des jeunes : ~40%"
       },
       {
@@ -22423,7 +22423,7 @@
     "sources": "INSEE - Enquête Emploi, DARES"
   },
   "previsions_cftc": {
-    "generated_at": "2026-03-23T14:48:36.801639",
+    "generated_at": "2026-03-23T17:07:21.267430",
     "model_version": "CFTC v4.0 (Monte Carlo)",
     "n_simulations": 1000,
     "horizon": "12 mois",
