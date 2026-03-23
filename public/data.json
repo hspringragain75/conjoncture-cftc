@@ -1,6 +1,6 @@
 {
-  "last_updated": "23/03/2026 17:07",
-  "last_updated_iso": "2026-03-23T17:07:21.098658",
+  "last_updated": "23/03/2026 18:10",
+  "last_updated_iso": "2026-03-23T18:10:43.159605",
   "contact": "hspringragain@cftc.fr",
   "alertes": [
     {
@@ -32,7 +32,7 @@
       "date": "2026-03-23",
       "type": "info",
       "titre": "🔄 Données actualisées",
-      "message": "Le tableau de bord a été mis à jour le 23/03/2026 à 17:07.",
+      "message": "Le tableau de bord a été mis à jour le 23/03/2026 à 18:10.",
       "onglet": "conjoncture"
     }
   ],
@@ -172,7 +172,7 @@
     }
   ],
   "revue_presse": {
-    "derniere_maj": "23/03/2026 17:07",
+    "derniere_maj": "23/03/2026 18:10",
     "nb_sources": 7,
     "sources_noms": [
       "Le Monde Éco",
@@ -183,8 +183,93 @@
       "Institut Montaigne",
       "Euractiv FR"
     ],
-    "a_la_une": [],
+    "a_la_une": [
+      {
+        "source": "Le Figaro Éco",
+        "couleur": "#92400e",
+        "emoji": "📊",
+        "tag": "Presse économique",
+        "titre": "Lionel Jospin, l’homme qui a fait des 35 heures un totem politique... très controversé",
+        "resume": "DÉCRYPTAGE - La réforme phare de la gauche d’avant 2002 reste au cœur du débat en France, alors que ses effets sur l’emploi, les finances publiques et la productivité sont toujours discutés.",
+        "lien": "https://www.lefigaro.fr/social/lionel-jospin-l-homme-qui-a-fait-des-35-heures-un-totem-politique-tres-controverse-20260323",
+        "date_iso": "2026-03-23T18:58:02+01:00",
+        "date_fr": "23/03/2026",
+        "pertinence": 3
+      }
+    ],
     "tous": [
+      {
+        "source": "Le Figaro Éco",
+        "couleur": "#92400e",
+        "emoji": "📊",
+        "tag": "Presse économique",
+        "titre": "Carburants: le gouvernement français appelle les raffineurs à «augmenter rapidement» leur production",
+        "resume": "Le gouvernement espère que cela contribuera «à alléger la tension sur les marchés des produits raffinés en Europe» et à «réduire les tensions sur les marchés européens» si cette situation venait à perdurer dans le temps.",
+        "lien": "https://www.lefigaro.fr/conjoncture/le-gouvernement-demande-aux-raffineurs-s-ils-peuvent-augmenter-rapidement-leur-production-20260323",
+        "date_iso": "2026-03-23T19:06:34+01:00",
+        "date_fr": "23/03/2026",
+        "pertinence": 1
+      },
+      {
+        "source": "Le Figaro Éco",
+        "couleur": "#92400e",
+        "emoji": "📊",
+        "tag": "Presse économique",
+        "titre": "La Bourse de Paris termine en légère hausse après une journée très volatile",
+        "resume": "Les déclarations du président américain sur des négociations avec Téhéran ont un temps dopé les marchés boursiers, avant que le démenti iranien ne sème le trouble.",
+        "lien": "https://www.lefigaro.fr/conjoncture/les-bourses-europeennes-terminent-en-ordre-disperse-apres-les-propos-de-donald-trump-sur-l-iran-20260323",
+        "date_iso": "2026-03-23T19:04:02+01:00",
+        "date_fr": "23/03/2026",
+        "pertinence": 1
+      },
+      {
+        "source": "Le Figaro Éco",
+        "couleur": "#92400e",
+        "emoji": "📊",
+        "tag": "Presse économique",
+        "titre": "Lionel Jospin, l’homme qui a fait des 35 heures un totem politique... très controversé",
+        "resume": "DÉCRYPTAGE - La réforme phare de la gauche d’avant 2002 reste au cœur du débat en France, alors que ses effets sur l’emploi, les finances publiques et la productivité sont toujours discutés.",
+        "lien": "https://www.lefigaro.fr/social/lionel-jospin-l-homme-qui-a-fait-des-35-heures-un-totem-politique-tres-controverse-20260323",
+        "date_iso": "2026-03-23T18:58:02+01:00",
+        "date_fr": "23/03/2026",
+        "pertinence": 3
+      },
+      {
+        "source": "Le Figaro Éco",
+        "couleur": "#92400e",
+        "emoji": "📊",
+        "tag": "Presse économique",
+        "titre": "Les prix des carburants ont encore augmenté de 8 à 9 centimes en moyenne la semaine dernière en France",
+        "resume": "Le gazole a passé la barre des 2,10 euros le litre en moyenne, soit une augmentation de plus de 40 centimes depuis le début de la guerre au Moyen-Orient.",
+        "lien": "https://www.lefigaro.fr/conjoncture/les-prix-des-carburants-ont-encore-augmente-de-8-a-9-centimes-en-moyenne-la-semaine-derniere-en-france-20260323",
+        "date_iso": "2026-03-23T18:23:55+01:00",
+        "date_fr": "23/03/2026",
+        "pertinence": 0
+      },
+      {
+        "source": "Le Figaro Éco",
+        "couleur": "#92400e",
+        "emoji": "📊",
+        "tag": "Presse économique",
+        "titre": "Le patron de TotalEnergies prédit des prix du gaz «très élevés» si le détroit d'Ormuz reste fermé",
+        "resume": "Patrick Pouyanné a dit s’attendre à «un prix très élevé pour le gaz naturel liquéfié (GNL) d’ici l’été et septembre, au moment où nous remplissons à nouveau les stockages de gaz en Europe».",
+        "lien": "https://www.lefigaro.fr/conjoncture/le-patron-de-totalenergies-predit-des-prix-du-gaz-tres-eleves-si-le-detroit-d-ormuz-reste-ferme-20260323",
+        "date_iso": "2026-03-23T18:17:53+01:00",
+        "date_fr": "23/03/2026",
+        "pertinence": 0
+      },
+      {
+        "source": "Le Monde Éco",
+        "couleur": "#374151",
+        "emoji": "🌐",
+        "tag": "Presse économique",
+        "titre": "EN DIRECT, municipales 2026 : Parité, maires issus de l’immigration… les derniers enseignements du second tour",
+        "resume": "Au lendemain du second tour des municipales, Sébastien Lecornu a souligné, dans un courrier aux maires, que la « trop faible » participation à ce scrutin « nous oblige » et « impose une chose simple – agir concrètement, au plus près du terrain ».",
+        "lien": "https://www.lemonde.fr/politique/live/2026/03/23/en-direct-municipales-2026-parite-maires-issus-de-l-immigration-les-derniers-enseignements-du-second-tour_6673595_823448.html",
+        "date_iso": "2026-03-23T18:12:44+01:00",
+        "date_fr": "23/03/2026",
+        "pertinence": 0
+      },
       {
         "source": "Le Figaro Éco",
         "couleur": "#92400e",
@@ -198,16 +283,16 @@
         "pertinence": 0
       },
       {
-        "source": "Le Figaro Éco",
-        "couleur": "#92400e",
-        "emoji": "📊",
+        "source": "Libération Éco",
+        "couleur": "#dc2626",
+        "emoji": "📰",
         "tag": "Presse économique",
-        "titre": "Le gouvernement demande aux raffineurs s'ils peuvent «augmenter rapidement» leur production",
-        "resume": "Le gouvernement espère que cela contribuera «à alléger la tension sur les marchés des produits raffinés en Europe et à réduire les tensions sur les marchés européens si cette situation venait à perdurer dans le temps».",
-        "lien": "https://www.lefigaro.fr/conjoncture/le-gouvernement-demande-aux-raffineurs-s-ils-peuvent-augmenter-rapidement-leur-production-20260323",
-        "date_iso": "2026-03-23T17:35:27+01:00",
+        "titre": "Listériose mortelle dans de la charcuterie : information judiciaire ouverte pour homicide involontaire",
+        "resume": "Douze cas de listériose, dont deux mortels, ont été répertoriés entre septembre et janvier dernier. L’entreprise visée a annoncé l’arrêt prochain de son activité.",
+        "lien": "https://www.liberation.fr/economie/conso/listeriose-mortelle-dans-de-la-charcuterie-information-judiciaire-ouverte-pour-homicide-involontaire-20260323_JMN5M4WFMRC7LCDXY5BBOJNPC4/",
+        "date_iso": "2026-03-23T17:44:41+00:00",
         "date_fr": "23/03/2026",
-        "pertinence": 1
+        "pertinence": 2
       },
       {
         "source": "Le Figaro Éco",
@@ -316,18 +401,6 @@
         "date_iso": "2026-03-23T15:51:03+01:00",
         "date_fr": "23/03/2026",
         "pertinence": 2
-      },
-      {
-        "source": "Le Monde Éco",
-        "couleur": "#374151",
-        "emoji": "🌐",
-        "tag": "Presse économique",
-        "titre": "EN DIRECT, municipales 2026 : « Les urnes n’ont sacré personne », estime Sébastien Lecornu, qui défend sa méthode du compromis",
-        "resume": "Au lendemain du second tour des municipales, le chef du gouvernement a souligné dans un courrier aux maires que la « trop faible » participation à ce scrutin « nous oblige » et « impose une chose simple – agir concrètement, au plus près du terrain ».",
-        "lien": "https://www.lemonde.fr/politique/live/2026/03/23/en-direct-municipales-2026-les-urnes-n-ont-sacre-personne-estime-sebastien-lecornu-qui-defend-sa-methode-du-compromis_6673595_823448.html",
-        "date_iso": "2026-03-23T15:47:28+01:00",
-        "date_fr": "23/03/2026",
-        "pertinence": 0
       },
       {
         "source": "Euractiv FR",
@@ -484,66 +557,6 @@
         "date_iso": "2026-03-23T13:26:33+00:00",
         "date_fr": "23/03/2026",
         "pertinence": 0
-      },
-      {
-        "source": "Euractiv FR",
-        "couleur": "#0369a1",
-        "emoji": "🇪🇺",
-        "tag": "Europe & politique",
-        "titre": "Migrants d Asie centrale : l Europe séduit alors que la Russie perd de son attrait",
-        "resume": "Depuis le début de la guerre en Ukraine, la Russie n'est plus largement considérée comme un « Eldorado » économique The post Migrants d&rsquo;Asie centrale : l&rsquo;Europe séduit alors que la Russie perd de son attrait appeared first on Euractiv FR .",
-        "lien": "https://euractiv.fr/news/migrants-dasie-centrale-leurope-seduit-alors-que-la-russie-perd-de-son-attrait/",
-        "date_iso": "2026-03-23T13:15:57+00:00",
-        "date_fr": "23/03/2026",
-        "pertinence": 0
-      },
-      {
-        "source": "Le Figaro Éco",
-        "couleur": "#92400e",
-        "emoji": "📊",
-        "tag": "Presse économique",
-        "titre": "Le pétrole dégringole et les Bourses repartent dans le vert après des propos de Donald Trump sur l’Iran",
-        "resume": "Le président américain a annoncé un report des frappes contre les centrales électriques iraniennes, après de «très bonnes» discussions avec Téhéran.",
-        "lien": "https://www.lefigaro.fr/conjoncture/le-petrole-degringole-et-les-bourses-repartent-dans-le-vert-apres-des-propos-de-donald-trump-sur-l-iran-20260323",
-        "date_iso": "2026-03-23T13:11:44+01:00",
-        "date_fr": "23/03/2026",
-        "pertinence": 0
-      },
-      {
-        "source": "Le Figaro Éco",
-        "couleur": "#92400e",
-        "emoji": "📊",
-        "tag": "Presse économique",
-        "titre": "Stéphane Boujnah, président d’Euronext : « Notre addiction à la dépense publique va nous emmener aux urgences »",
-        "resume": "ENTRETIEN - Pour Le Figaro, Stéphane Boujnah, président du directoire d’Euronext, fait le point sur l’impact de la guerre au Moyen-Orient sur les marchés. Avec un avertissement sévère sur les déficits et la dette de la France.",
-        "lien": "https://www.lefigaro.fr/conjoncture/stephane-boujnah-president-d-euronext-notre-addiction-a-la-depense-publique-va-nous-emmener-aux-urgences-20260323",
-        "date_iso": "2026-03-23T13:02:27+01:00",
-        "date_fr": "23/03/2026",
-        "pertinence": 2
-      },
-      {
-        "source": "Le Figaro Éco",
-        "couleur": "#92400e",
-        "emoji": "📊",
-        "tag": "Presse économique",
-        "titre": "Le géant des pains et viennoiseries industriels Bridor réalise la plus grosse acquisition de son histoire",
-        "resume": "En rachetant l’espagnol Panamar pour plus de 1 milliard d’euros, la filiale du groupe le Duff se place parmi les leaders mondiaux des boulangers industriels.",
-        "lien": "https://www.lefigaro.fr/societes/le-geant-des-pains-et-viennoiseries-industriels-bridor-realise-la-plus-grosse-acquisition-de-son-histoire-20260323",
-        "date_iso": "2026-03-23T12:54:48+01:00",
-        "date_fr": "23/03/2026",
-        "pertinence": 0
-      },
-      {
-        "source": "Le Figaro Éco",
-        "couleur": "#92400e",
-        "emoji": "📊",
-        "tag": "Presse économique",
-        "titre": "L'accord commercial entre l'UE et le Mercosur appliqué provisoirement à partir du 1er mai",
-        "resume": "La Commission européenne a opté pour une application provisoire de cet accord, combattu par les agriculteurs européens et la France, mais plébiscité par l’Allemagne et l’Espagne.",
-        "lien": "https://www.lefigaro.fr/conjoncture/l-accord-commercial-entre-l-ue-et-le-mercosur-applique-provisoirement-a-partir-du-1er-mai-20260323",
-        "date_iso": "2026-03-23T12:52:07+01:00",
-        "date_fr": "23/03/2026",
-        "pertinence": 1
       }
     ]
   },
@@ -1692,13 +1705,18 @@
     },
     "sp98": {
       "prix": 1.82,
-      "variation_an": -5.0
+      "variation_an": -4.5
     },
     "evolution": [
       {
+        "mois": "Jan 2023",
+        "gazole": 1.85,
+        "sp95": 1.82
+      },
+      {
         "mois": "Avr 2023",
-        "gazole": 1.81,
-        "sp95": 1.95
+        "gazole": 1.78,
+        "sp95": 1.88
       },
       {
         "mois": "Juil 2023",
@@ -1707,56 +1725,61 @@
       },
       {
         "mois": "Oct 2023",
-        "gazole": 1.91,
-        "sp95": 1.89
+        "gazole": 1.88,
+        "sp95": 1.92
       },
       {
         "mois": "Jan 2024",
+        "gazole": 1.72,
+        "sp95": 1.78
+      },
+      {
+        "mois": "Avr 2024",
         "gazole": 1.75,
         "sp95": 1.82
       },
       {
-        "mois": "Avr 2024",
-        "gazole": 1.79,
-        "sp95": 1.94
-      },
-      {
         "mois": "Juil 2024",
-        "gazole": 1.73,
-        "sp95": 1.86
+        "gazole": 1.68,
+        "sp95": 1.75
       },
       {
         "mois": "Oct 2024",
-        "gazole": 1.63,
-        "sp95": 1.76
-      },
-      {
-        "mois": "Jan 2025",
-        "gazole": 1.71,
-        "sp95": 1.81
-      },
-      {
-        "mois": "Avr 2025",
-        "gazole": 1.59,
-        "sp95": 1.73
-      },
-      {
-        "mois": "Juil 2025",
-        "gazole": 1.65,
+        "gazole": 1.62,
         "sp95": 1.72
       },
       {
+        "mois": "Jan 2025",
+        "gazole": 1.65,
+        "sp95": 1.78
+      },
+      {
+        "mois": "Avr 2025",
+        "gazole": 1.6,
+        "sp95": 1.74
+      },
+      {
+        "mois": "Juil 2025",
+        "gazole": 1.58,
+        "sp95": 1.7
+      },
+      {
         "mois": "Oct 2025",
-        "gazole": 1.61,
+        "gazole": 1.58,
         "sp95": 1.72
       },
       {
         "mois": "Jan 2026",
+        "gazole": 1.62,
+        "sp95": 1.71
+      },
+      {
+        "mois": "Mar 2026",
         "gazole": 1.65,
         "sp95": 1.72
       }
     ],
-    "derniere_donnee": "Jan 2026"
+    "derniere_donnee": "Mar 2026"
   },
   "taux_effort": {
     "annee": 2023,
@@ -3807,7 +3830,7 @@
       "note_lecture": "Le TEC-10 mesure le rendement des emprunts d'Etat francais a 10 ans. Un taux eleve rencherit le cout de la dette publique et impacte les taux de credit immobilier."
     },
     "petrole_brent": {
-      "valeur": 101.08,
+      "valeur": 100.36,
       "date": "2026-03-23",
       "unite": "USD/baril",
       "source": "Yahoo Finance",
@@ -5321,16 +5344,16 @@
         },
         {
           "date": "2026-03-23",
-          "valeur": 101.08,
-          "ma50": 76.86,
+          "valeur": 100.36,
+          "ma50": 76.84,
           "ma200": 68.71
         }
       ],
       "variations": {
-        "jour": -9.9,
-        "semaine": 0.87,
-        "mois": 41.05,
-        "ytd": 66.39
+        "jour": -10.54,
+        "semaine": 0.15,
+        "mois": 40.05,
+        "ytd": 65.2
       },
       "min_max": {
         "min": 58.92,
@@ -8458,7 +8481,7 @@
       "note_lecture": "Le taux de change euro-dollar determine le prix de tout ce qui est importe en dollars : petrole, matieres premieres, electronique. Un euro faible rencherit les importations et alimente l'inflation."
     },
     "or": {
-      "valeur": 4384.7,
+      "valeur": 4424.9,
       "date": "2026-03-23",
       "unite": "USD/oz",
       "source": "Yahoo Finance",
@@ -9972,16 +9995,16 @@
         },
         {
           "date": "2026-03-23",
-          "valeur": 4384.7,
-          "ma50": 4950.51,
-          "ma200": 4068.37
+          "valeur": 4424.9,
+          "ma50": 4951.31,
+          "ma200": 4068.57
         }
       ],
       "variations": {
-        "jour": -4.06,
-        "semaine": -12.2,
-        "mois": -11.88,
-        "ytd": 1.63
+        "jour": -3.18,
+        "semaine": -11.4,
+        "mois": -11.07,
+        "ytd": 2.56
       },
       "min_max": {
         "min": 2951.3,
@@ -11526,7 +11549,7 @@
       "note_lecture": "Le prix du gaz naturel (TTF europeen) impacte directement les factures de chauffage et d'electricite des menages, ainsi que les couts de production industrielle."
     },
     "ble": {
-      "valeur": 584.0,
+      "valeur": 586.5,
       "date": "2026-03-23",
       "unite": "cents/boisseau",
       "source": "Yahoo Finance",
@@ -13034,16 +13057,16 @@
         },
         {
           "date": "2026-03-23",
-          "valeur": 584.0,
-          "ma50": 553.99,
-          "ma200": 531.28
+          "valeur": 586.5,
+          "ma50": 554.04,
+          "ma200": 531.29
         }
       ],
       "variations": {
-        "jour": -1.89,
-        "semaine": -2.22,
-        "mois": 4.38,
-        "ytd": 15.3
+        "jour": -1.47,
+        "semaine": -1.8,
+        "mois": 4.83,
+        "ytd": 15.79
       },
       "min_max": {
         "min": 495.0,
@@ -13054,7 +13077,7 @@
       "note_lecture": "Le cours du ble est un indicateur avance des prix alimentaires. La France etant le premier producteur europeen, son evolution impacte a la fois les consommateurs et le secteur agricole."
     },
     "lme_cuivre": {
-      "valeur": 5.48,
+      "valeur": 5.5,
       "date": "2026-03-23",
       "unite": "cts/lb",
       "source": "Yahoo Finance",
@@ -14568,16 +14591,16 @@
         },
         {
           "date": "2026-03-23",
-          "valeur": 5.48,
-          "ma50": 5.82,
+          "valeur": 5.5,
+          "ma50": 5.83,
           "ma200": 5.22
         }
       ],
       "variations": {
-        "jour": 2.62,
-        "semaine": -5.35,
-        "mois": -4.36,
-        "ytd": -2.84
+        "jour": 3.0,
+        "semaine": -5.01,
+        "mois": -4.01,
+        "ytd": -2.48
       },
       "min_max": {
         "min": 4.13,
@@ -14588,7 +14611,7 @@
       "note_lecture": "Le cuivre est le baromètre de l'activité industrielle mondiale ('Dr Copper'). Sa hausse signale une reprise économique, sa baisse anticipe un ralentissement. Utilisé massivement dans l'électrification et les énergies renouvelables."
     },
     "lme_aluminium": {
-      "valeur": 3120.0,
+      "valeur": 3122.25,
       "date": "2026-03-23",
       "unite": "cts/lb",
       "source": "Yahoo Finance",
@@ -16096,16 +16119,16 @@
         },
         {
           "date": "2026-03-23",
-          "valeur": 3120.0,
-          "ma50": 3110.39,
-          "ma200": 2752.04
+          "valeur": 3122.25,
+          "ma50": 3110.44,
+          "ma200": 2752.05
         }
       ],
       "variations": {
-        "jour": 0.58,
-        "semaine": -5.15,
-        "mois": 4.26,
-        "ytd": 6.19
+        "jour": 0.65,
+        "semaine": -5.08,
+        "mois": 4.34,
+        "ytd": 6.27
       },
       "min_max": {
         "min": 2166.25,
@@ -22423,7 +22446,7 @@
     "sources": "INSEE - Enquête Emploi, DARES"
   },
   "previsions_cftc": {
-    "generated_at": "2026-03-23T17:07:21.267430",
+    "generated_at": "2026-03-23T18:10:43.332401",
     "model_version": "CFTC v4.0 (Monte Carlo)",
     "n_simulations": 1000,
     "horizon": "12 mois",
