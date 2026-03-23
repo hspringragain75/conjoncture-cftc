@@ -1,6 +1,6 @@
 {
-  "last_updated": "23/03/2026 19:50",
-  "last_updated_iso": "2026-03-23T19:50:01.251654",
+  "last_updated": "23/03/2026 20:03",
+  "last_updated_iso": "2026-03-23T20:03:35.244842",
   "contact": "hspringragain@cftc.fr",
   "alertes": [
     {
@@ -12,11 +12,11 @@
       "onglet": "inflation"
     },
     {
-      "id": "chomage_jeunes_T3_2025",
+      "id": "chomage_jeunes_T4_2025",
       "date": "2026-03-23",
       "type": "warning",
-      "titre": "🧑‍🎓 Chômage jeunes élevé : 19.2%",
-      "message": "Le taux de chômage des 15-24 ans reste préoccupant (T3 2025).",
+      "titre": "🧑‍🎓 Chômage jeunes élevé : 21.5%",
+      "message": "Le taux de chômage des 15-24 ans reste préoccupant (T4 2025).",
       "onglet": "emploi"
     },
     {
@@ -32,7 +32,7 @@
       "date": "2026-03-23",
       "type": "info",
       "titre": "🔄 Données actualisées",
-      "message": "Le tableau de bord a été mis à jour le 23/03/2026 à 19:49.",
+      "message": "Le tableau de bord a été mis à jour le 23/03/2026 à 20:03.",
       "onglet": "conjoncture"
     }
   ],
@@ -172,7 +172,7 @@
     }
   ],
   "revue_presse": {
-    "derniere_maj": "23/03/2026 19:50",
+    "derniere_maj": "23/03/2026 20:03",
     "nb_sources": 7,
     "sources_noms": [
       "Le Monde Éco",
@@ -227,7 +227,7 @@
         "couleur": "#374151",
         "emoji": "🌐",
         "tag": "Presse économique",
-        "titre": "Avec l’annonce de l’entrée en vigueur du traité Mercosur au 1er mai et l’accord signé mardi avec l’Australie, l’Union européenne accélère dans le libre-échange",
+        "titre": "Avec l’annonce de l’entrée en vigueur du traité Mercosur au 1er mai et l’accord signé mardi avec l’Australie, l’UE accélère dans le libre-échange",
         "resume": "Amérique du Sud, Inde et maintenant Australie. La présidente de la Commission, Ursula von der Leyen s’est félicitée, lundi, de la « trilogie commerciale » que Bruxelles a bâtie en quelques mois pour accélérer les échanges de l’UE avec le reste de la planète. Et ce malgré de fortes réticences, en par",
         "lien": "https://www.lemonde.fr/economie/article/2026/03/23/avec-l-annonce-de-l-entree-en-vigueur-du-traite-mercosur-au-1er-mai-et-l-accord-signe-mardi-avec-l-australie-l-union-europeenne-accelere-dans-le-libre-echange_6673973_3234.html",
         "date_iso": "2026-03-23T19:37:27+01:00",
@@ -674,58 +674,63 @@
   "chomage": [
     {
       "trimestre": "T1 2023",
-      "taux": 7.1,
-      "jeunes": 17.5
+      "taux": 6.9,
+      "jeunes": 16.6
     },
     {
       "trimestre": "T2 2023",
-      "taux": 7.2,
-      "jeunes": 17.0
+      "taux": 7.0,
+      "jeunes": 17.1
     },
     {
       "trimestre": "T3 2023",
-      "taux": 7.4,
-      "jeunes": 17.6
+      "taux": 7.2,
+      "jeunes": 17.4
     },
     {
       "trimestre": "T4 2023",
-      "taux": 7.5,
+      "taux": 7.3,
       "jeunes": 17.6
     },
     {
       "trimestre": "T1 2024",
-      "taux": 7.5,
+      "taux": 7.3,
       "jeunes": 18.1
     },
     {
       "trimestre": "T2 2024",
-      "taux": 7.3,
-      "jeunes": 17.7
+      "taux": 7.1,
+      "jeunes": 18.0
     },
     {
       "trimestre": "T3 2024",
-      "taux": 7.4,
-      "jeunes": 18.3
+      "taux": 7.2,
+      "jeunes": 19.7
     },
     {
       "trimestre": "T4 2024",
-      "taux": 7.3,
-      "jeunes": 19.0
+      "taux": 7.1,
+      "jeunes": 18.7
     },
     {
       "trimestre": "T1 2025",
-      "taux": 7.4,
-      "jeunes": 18.5
+      "taux": 7.3,
+      "jeunes": 19.2
     },
     {
       "trimestre": "T2 2025",
-      "taux": 7.5,
-      "jeunes": 18.8
+      "taux": 7.4,
+      "jeunes": 19.1
     },
     {
       "trimestre": "T3 2025",
+      "taux": 7.5,
+      "jeunes": 19.1
+    },
+    {
+      "trimestre": "T4 2025",
       "taux": 7.7,
-      "jeunes": 19.2
+      "jeunes": 21.5
     }
   ],
   "smic": {
@@ -800,7 +805,7 @@
   ],
   "indicateurs_cles": {
     "taux_chomage_actuel": 7.7,
-    "taux_chomage_jeunes": 19.2,
+    "taux_chomage_jeunes": 21.5,
     "taux_emploi_seniors": 61.7,
     "inflation_annuelle": 0.9,
     "smic_brut": 1823.03,
@@ -1120,57 +1125,57 @@
   "difficultes_recrutement": [
     {
       "trimestre": "T1 2023",
-      "industrie": 65,
-      "services": 48,
-      "construction": 78
+      "industrie": 52,
+      "services": 38,
+      "construction": 65
     },
     {
       "trimestre": "T2 2023",
-      "industrie": 64,
-      "services": 48,
-      "construction": 76
-    },
-    {
-      "trimestre": "T3 2023",
-      "industrie": 60,
-      "services": 45,
-      "construction": 72
-    },
-    {
-      "trimestre": "T4 2023",
-      "industrie": 57,
-      "services": 42,
-      "construction": 68
-    },
-    {
-      "trimestre": "T1 2024",
-      "industrie": 53,
-      "services": 39,
-      "construction": 63
-    },
-    {
-      "trimestre": "T2 2024",
-      "industrie": 52,
-      "services": 39,
+      "industrie": 50,
+      "services": 36,
       "construction": 62
     },
     {
-      "trimestre": "T3 2024",
+      "trimestre": "T3 2023",
       "industrie": 48,
-      "services": 36,
-      "construction": 57
+      "services": 35,
+      "construction": 60
     },
     {
-      "trimestre": "T4 2024",
-      "industrie": 46,
-      "services": 34,
+      "trimestre": "T4 2023",
+      "industrie": 45,
+      "services": 33,
+      "construction": 58
+    },
+    {
+      "trimestre": "T1 2024",
+      "industrie": 43,
+      "services": 32,
       "construction": 55
     },
     {
-      "trimestre": "T1 2025",
-      "industrie": 44,
-      "services": 33,
+      "trimestre": "T2 2024",
+      "industrie": 41,
+      "services": 30,
       "construction": 52
+    },
+    {
+      "trimestre": "T3 2024",
+      "industrie": 40,
+      "services": 30,
+      "construction": 50
+    },
+    {
+      "trimestre": "T4 2024",
+      "industrie": 38,
+      "services": 28,
+      "construction": 48
+    },
+    {
+      "trimestre": "T1 2025",
+      "industrie": 36,
+      "services": 27,
+      "construction": 46
     },
     {
       "trimestre": "T2 2025",
@@ -1625,25 +1630,40 @@
     ]
   },
   "prix_immobilier": {
-    "indice_actuel": 127.6,
+    "indice_actuel": 128.5,
     "variation_trim": 0.7,
-    "variation_an": 1.0,
+    "variation_an": -1.8,
     "transactions_annuelles": 880000,
     "evolution": [
       {
-        "trimestre": "T1 2024",
-        "indice": 126.0,
-        "variation": -4.8
+        "trimestre": "T1 2022",
+        "indice": 124.5,
+        "variation": 7.2
       },
       {
-        "trimestre": "T2 2024",
-        "indice": 125.7,
-        "variation": -4.6
+        "trimestre": "T3 2022",
+        "indice": 126.8,
+        "variation": 6.1
+      },
+      {
+        "trimestre": "T1 2023",
+        "indice": 124.2,
+        "variation": -0.2
+      },
+      {
+        "trimestre": "T3 2023",
+        "indice": 120.5,
+        "variation": -5.0
+      },
+      {
+        "trimestre": "T1 2024",
+        "indice": 117.8,
+        "variation": -5.1
       },
       {
         "trimestre": "T3 2024",
-        "indice": 127.6,
-        "variation": -3.5
+        "indice": 115.3,
+        "variation": -4.3
       },
       {
         "trimestre": "T4 2024",
@@ -1664,11 +1684,6 @@
         "trimestre": "T3 2025",
         "indice": 128.5,
         "variation": 0.7
-      },
-      {
-        "trimestre": "T4 2025",
-        "indice": 127.6,
-        "variation": 1.0
       }
     ],
     "par_zone": [
@@ -1705,18 +1720,13 @@
     },
     "sp98": {
       "prix": 1.82,
-      "variation_an": -4.5
+      "variation_an": -5.0
     },
     "evolution": [
       {
-        "mois": "Jan 2023",
-        "gazole": 1.85,
-        "sp95": 1.82
-      },
-      {
         "mois": "Avr 2023",
-        "gazole": 1.78,
-        "sp95": 1.88
+        "gazole": 1.81,
+        "sp95": 1.95
       },
       {
         "mois": "Juil 2023",
@@ -1725,61 +1735,56 @@
       },
       {
         "mois": "Oct 2023",
-        "gazole": 1.88,
-        "sp95": 1.92
+        "gazole": 1.91,
+        "sp95": 1.89
       },
       {
         "mois": "Jan 2024",
-        "gazole": 1.72,
-        "sp95": 1.78
-      },
-      {
-        "mois": "Avr 2024",
         "gazole": 1.75,
         "sp95": 1.82
       },
       {
+        "mois": "Avr 2024",
+        "gazole": 1.79,
+        "sp95": 1.94
+      },
+      {
         "mois": "Juil 2024",
-        "gazole": 1.68,
-        "sp95": 1.75
+        "gazole": 1.73,
+        "sp95": 1.86
       },
       {
         "mois": "Oct 2024",
-        "gazole": 1.62,
-        "sp95": 1.72
+        "gazole": 1.63,
+        "sp95": 1.76
       },
       {
         "mois": "Jan 2025",
-        "gazole": 1.65,
-        "sp95": 1.78
+        "gazole": 1.71,
+        "sp95": 1.81
       },
       {
         "mois": "Avr 2025",
-        "gazole": 1.6,
-        "sp95": 1.74
+        "gazole": 1.59,
+        "sp95": 1.73
       },
       {
         "mois": "Juil 2025",
-        "gazole": 1.58,
-        "sp95": 1.7
+        "gazole": 1.65,
+        "sp95": 1.72
       },
       {
         "mois": "Oct 2025",
-        "gazole": 1.58,
+        "gazole": 1.61,
         "sp95": 1.72
       },
       {
         "mois": "Jan 2026",
-        "gazole": 1.62,
-        "sp95": 1.71
-      },
-      {
-        "mois": "Mar 2026",
         "gazole": 1.65,
         "sp95": 1.72
       }
     ],
-    "derniere_donnee": "Mar 2026"
+    "derniere_donnee": "Jan 2026"
   },
   "taux_effort": {
     "annee": 2023,
@@ -1857,7 +1862,7 @@
     "croissance_trim_actuel": 0.7,
     "croissance_annuelle": 0.9,
     "trimestre": "T4 2025",
-    "commentaire": "PIB volume trimestriel - glissement annuel",
+    "commentaire": "PIB volume trimestriel - glissement annuel - INSEE",
     "evolution": [
       {
         "trimestre": "T2 2022",
@@ -3830,7 +3835,7 @@
       "note_lecture": "Le TEC-10 mesure le rendement des emprunts d'Etat francais a 10 ans. Un taux eleve rencherit le cout de la dette publique et impacte les taux de credit immobilier."
     },
     "petrole_brent": {
-      "valeur": 99.36,
+      "valeur": 99.79,
       "date": "2026-03-23",
       "unite": "USD/baril",
       "source": "Yahoo Finance",
@@ -5344,16 +5349,16 @@
         },
         {
           "date": "2026-03-23",
-          "valeur": 99.36,
-          "ma50": 76.82,
+          "valeur": 99.79,
+          "ma50": 76.83,
           "ma200": 68.7
         }
       ],
       "variations": {
-        "jour": -11.44,
-        "semaine": -0.85,
-        "mois": 38.65,
-        "ytd": 63.56
+        "jour": -11.05,
+        "semaine": -0.42,
+        "mois": 39.25,
+        "ytd": 64.26
       },
       "min_max": {
         "min": 58.92,
@@ -8481,7 +8486,7 @@
       "note_lecture": "Le taux de change euro-dollar determine le prix de tout ce qui est importe en dollars : petrole, matieres premieres, electronique. Un euro faible rencherit les importations et alimente l'inflation."
     },
     "or": {
-      "valeur": 4411.4,
+      "valeur": 4413.8,
       "date": "2026-03-23",
       "unite": "USD/oz",
       "source": "Yahoo Finance",
@@ -9995,16 +10000,16 @@
         },
         {
           "date": "2026-03-23",
-          "valeur": 4411.4,
-          "ma50": 4951.04,
-          "ma200": 4068.5
+          "valeur": 4413.8,
+          "ma50": 4951.09,
+          "ma200": 4068.51
         }
       ],
       "variations": {
-        "jour": -3.48,
-        "semaine": -11.67,
-        "mois": -11.34,
-        "ytd": 2.25
+        "jour": -3.43,
+        "semaine": -11.62,
+        "mois": -11.3,
+        "ytd": 2.3
       },
       "min_max": {
         "min": 2951.3,
@@ -13077,7 +13082,7 @@
       "note_lecture": "Le cours du ble est un indicateur avance des prix alimentaires. La France etant le premier producteur europeen, son evolution impacte a la fois les consommateurs et le secteur agricole."
     },
     "lme_cuivre": {
-      "valeur": 5.49,
+      "valeur": 5.48,
       "date": "2026-03-23",
       "unite": "cts/lb",
       "source": "Yahoo Finance",
@@ -14591,16 +14596,16 @@
         },
         {
           "date": "2026-03-23",
-          "valeur": 5.49,
-          "ma50": 5.83,
+          "valeur": 5.48,
+          "ma50": 5.82,
           "ma200": 5.22
         }
       ],
       "variations": {
-        "jour": 2.81,
-        "semaine": -5.18,
-        "mois": -4.19,
-        "ytd": -2.66
+        "jour": 2.62,
+        "semaine": -5.35,
+        "mois": -4.36,
+        "ytd": -2.84
       },
       "min_max": {
         "min": 4.13,
@@ -21344,24 +21349,24 @@
         "nom": "Guadeloupe",
         "code": "GP",
         "emoji": "🌺",
-        "chomage": 16.6,
+        "chomage": 16.3,
         "salaire_median": 1820,
         "emploi": 55.2,
         "population": 0.385,
         "tensions": 38,
-        "evol_chomage": -0.1,
+        "evol_chomage": -0.4,
         "note": "Taux de chômage des jeunes : ~43%"
       },
       {
         "nom": "Martinique",
         "code": "MQ",
         "emoji": "🌴",
-        "chomage": 13.7,
+        "chomage": 13.4,
         "salaire_median": 1840,
         "emploi": 56.8,
         "population": 0.349,
         "tensions": 40,
-        "evol_chomage": 1.3,
+        "evol_chomage": 1.0,
         "note": "Taux de chômage des jeunes : ~40%"
       },
       {
@@ -22446,7 +22451,7 @@
     "sources": "INSEE - Enquête Emploi, DARES"
   },
   "previsions_cftc": {
-    "generated_at": "2026-03-23T19:50:01.398064",
+    "generated_at": "2026-03-23T20:03:35.339571",
     "model_version": "CFTC v4.0 (Monte Carlo)",
     "n_simulations": 1000,
     "horizon": "12 mois",
