@@ -2267,6 +2267,22 @@ def build_changelog():
     """
     
     changelog = [
+         {
+            "version": "3.1.1",
+            "date": "2026-03-23",
+            "modifications": [
+                {
+                    "type": "breaking",
+                    "titre": "Onglet favoris",
+                    "description": "Création de l'onglet favoris où vous pouvez : choisir les indicateurs qui vous intéressent le plus, les réorganiser, les annoter et créer des seuils de surveillance"
+                }, 
+                {
+                    "type": "feature",
+                    "titre": "Marchés LME",
+                    "description": "Dans l'onglet marchés financiers, de nouvelles matières, notamment métaux, issus du LME sont dispobibles"
+                },                
+            ]
+        },
         {
             "version": "2.2.2",
             "date": "2026-03-18",
