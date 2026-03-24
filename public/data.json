@@ -1,6 +1,6 @@
 {
-  "last_updated": "24/03/2026 06:07",
-  "last_updated_iso": "2026-03-24T06:07:23.438299",
+  "last_updated": "24/03/2026 07:13",
+  "last_updated_iso": "2026-03-24T07:13:55.475996",
   "contact": "hspringragain@cftc.fr",
   "alertes": [
     {
@@ -12,11 +12,11 @@
       "onglet": "inflation"
     },
     {
-      "id": "chomage_jeunes_T4_2025",
+      "id": "chomage_jeunes_T3_2025",
       "date": "2026-03-24",
       "type": "warning",
-      "titre": "🧑‍🎓 Chômage jeunes élevé : 21.5%",
-      "message": "Le taux de chômage des 15-24 ans reste préoccupant (T4 2025).",
+      "titre": "🧑‍🎓 Chômage jeunes élevé : 19.2%",
+      "message": "Le taux de chômage des 15-24 ans reste préoccupant (T3 2025).",
       "onglet": "emploi"
     },
     {
@@ -32,7 +32,7 @@
       "date": "2026-03-24",
       "type": "info",
       "titre": "🔄 Données actualisées",
-      "message": "Le tableau de bord a été mis à jour le 24/03/2026 à 06:07.",
+      "message": "Le tableau de bord a été mis à jour le 24/03/2026 à 07:13.",
       "onglet": "conjoncture"
     }
   ],
@@ -188,7 +188,7 @@
     }
   ],
   "revue_presse": {
-    "derniere_maj": "24/03/2026 06:07",
+    "derniere_maj": "24/03/2026 07:13",
     "nb_sources": 7,
     "sources_noms": [
       "Le Monde Éco",
@@ -243,6 +243,78 @@
         "couleur": "#374151",
         "emoji": "🌐",
         "tag": "Presse économique",
+        "titre": "Epargne : comment les produits structurés enrichissent d’abord ceux qui les vendent",
+        "resume": "Malgré leur complexité et le manque de transparence de leurs frais, ces placements financiers continuent d’attirer les épargnants.",
+        "lien": "https://www.lemonde.fr/argent/article/2026/03/24/epargne-comment-les-produits-structures-enrichissent-d-abord-ceux-qui-les-vendent_6674023_1657007.html",
+        "date_iso": "2026-03-24T08:00:09+01:00",
+        "date_fr": "24/03/2026",
+        "pertinence": 0
+      },
+      {
+        "source": "Le Figaro Éco",
+        "couleur": "#92400e",
+        "emoji": "📊",
+        "tag": "Presse économique",
+        "titre": "L'Australie et l'Union européenne signent un vaste accord de libre-échange",
+        "resume": "L’accord a été signé par la présidente de la Commission européenne Ursula von der Leyen et le premier ministre australien Anthony Albanese, à Canberra.",
+        "lien": "https://www.lefigaro.fr/conjoncture/l-australie-et-l-union-europeenne-signent-un-vaste-accord-de-libre-echange-20260324",
+        "date_iso": "2026-03-24T07:50:11+01:00",
+        "date_fr": "24/03/2026",
+        "pertinence": 1
+      },
+      {
+        "source": "Le Monde Éco",
+        "couleur": "#374151",
+        "emoji": "🌐",
+        "tag": "Presse économique",
+        "titre": "Climat : faut-il renoncer aux voyages en avion ?",
+        "resume": "Une minorité de Français prennent l’avion chaque année. Ces voyageurs parcourent également les plus grandes distances et sont responsables de la majeure partie des émissions de l’aérien. Mais il n’est pas facile de renoncer à ces voyages.",
+        "lien": "https://www.lemonde.fr/podcasts/article/2026/03/24/climat-faut-il-renoncer-aux-voyages-en-avion_6674020_5463015.html",
+        "date_iso": "2026-03-24T07:30:12+01:00",
+        "date_fr": "24/03/2026",
+        "pertinence": 0
+      },
+      {
+        "source": "Le Monde Éco",
+        "couleur": "#374151",
+        "emoji": "🌐",
+        "tag": "Presse économique",
+        "titre": "EN DIRECT, municipales 2026 : les dernières informations et nos réponses à vos questions",
+        "resume": "Au lendemain du second tour des municipales, Sébastien Lecornu a souligné, dans un courrier aux maires, que la « trop faible » participation à ce scrutin « nous oblige » et « impose une chose simple : agir concrètement, au plus près du terrain ».",
+        "lien": "https://www.lemonde.fr/politique/live/2026/03/24/en-direct-municipales-2026-les-dernieres-informations-et-nos-reponses-a-vos-questions_6673595_823448.html",
+        "date_iso": "2026-03-24T07:20:48+01:00",
+        "date_fr": "24/03/2026",
+        "pertinence": 1
+      },
+      {
+        "source": "Le Figaro Éco",
+        "couleur": "#92400e",
+        "emoji": "📊",
+        "tag": "Presse économique",
+        "titre": "Livret A : face à la baisse du taux d’intérêt, les Français ont continué de vider leur épargne en février",
+        "resume": "Le taux de rémunération de ce livret d’épargne a de nouveau baissé début février, passant à seulement 1,5%.",
+        "lien": "https://www.lefigaro.fr/conjoncture/livret-a-face-a-la-baisse-du-taux-d-interet-les-francais-ont-continue-de-vider-leur-epargne-en-fevrier-20260324",
+        "date_iso": "2026-03-24T07:01:41+01:00",
+        "date_fr": "24/03/2026",
+        "pertinence": 1
+      },
+      {
+        "source": "Libération Éco",
+        "couleur": "#dc2626",
+        "emoji": "📰",
+        "tag": "Presse économique",
+        "titre": "Deux tiers des employés bancaires considèrent que l’IA «menace leur poste ou leur mission», selon le premier syndicat du secteur",
+        "resume": "En début d’année, le SNB /CFE-CGC a interrogé 1 191 salariés du secteur de la banque sur leur rapport à l’intelligence artificielle générative. Les résultats que Libé a pu consulter révèlent un manque d’accompagnement pour utiliser ces nouveaux outils et de fortes craintes pour l’emploi.",
+        "lien": "https://www.liberation.fr/economie/social/deux-tiers-des-employes-bancaires-considerent-que-lia-menace-leur-poste-ou-leur-mission-selon-le-premier-syndicat-du-secteur-20260324_REJL7CONTZE7BM5WHZAHTDSTAQ/",
+        "date_iso": "2026-03-24T06:53:20+00:00",
+        "date_fr": "24/03/2026",
+        "pertinence": 1
+      },
+      {
+        "source": "Le Monde Éco",
+        "couleur": "#374151",
+        "emoji": "🌐",
+        "tag": "Presse économique",
         "titre": "« Que deviendront les intelligences artificielles si elles doivent sans cesse utiliser les mêmes données ? »",
         "resume": "Dans une tribune au « Monde », un collectif d’économistes et de spécialistes des industries créatives s’interroge sur les tensions qui se profilent entre exploitants d’IA génératives et auteurs, rappelant que « l’intelligence artificielle fonctionne comme un puits de pétrole et que ce pétrole, ce so",
         "lien": "https://www.lemonde.fr/idees/article/2026/03/24/que-deviendront-les-intelligences-artificielles-si-elles-doivent-sans-cesse-utiliser-les-memes-donnees_6674014_3232.html",
@@ -255,12 +327,24 @@
         "couleur": "#92400e",
         "emoji": "📊",
         "tag": "Presse économique",
-        "titre": "L'Australie et l'Union européenne signent un vaste accord de libre-échange",
-        "resume": "L’accord a été signé par la présidente de la Commission européenne Ursula von der Leyen et le premier ministre australien Anthony Albanese, à Canberra.",
-        "lien": "https://www.lefigaro.fr/conjoncture/l-australie-et-l-union-europeenne-signent-un-vaste-accord-de-libre-echange-20260324",
-        "date_iso": "2026-03-24T06:28:16+01:00",
+        "titre": "Audiovisuel public : « La commission d’enquête a déjà mis en lumière des dysfonctionnements et des manquements »",
+        "resume": "ENTRETIEN EXCLUSIF - Avant les auditions de Vincent Bolloré et de Xavier Niel, le président de la commission d’enquête parlementaire Jérémie Patrier-Leitus fait le bilan de ses premiers mois de travaux.",
+        "lien": "https://www.lefigaro.fr/medias/audiovisuel-public-la-commission-d-enquete-a-deja-mis-en-lumiere-des-dysfonctionnements-et-des-manquements-20260324",
+        "date_iso": "2026-03-24T06:30:00+01:00",
         "date_fr": "24/03/2026",
-        "pertinence": 1
+        "pertinence": 0
+      },
+      {
+        "source": "Le Figaro Éco",
+        "couleur": "#92400e",
+        "emoji": "📊",
+        "tag": "Presse économique",
+        "titre": "Agneau, bœuf, lithium... Que contient l'accord commercial entre l’UE et Australie ?",
+        "resume": "La présidente de la Commission européenne, Ursula von der Leyen, est arrivée lundi en Australie, pour une visite de trois jours lors de laquelle elle espère régler les derniers détails d’un projet d’accord de libre-échange, en négociations depuis 2018.",
+        "lien": "https://www.lefigaro.fr/conjoncture/agneau-boeuf-lithium-que-contient-l-accord-commercial-entre-l-ue-et-australie-sur-le-point-d-etre-signe-20260323",
+        "date_iso": "2026-03-24T06:28:12+01:00",
+        "date_fr": "24/03/2026",
+        "pertinence": 2
       },
       {
         "source": "Le Monde Éco",
@@ -318,7 +402,7 @@
         "titre": "TotalEnergies se plie à l’administration Trump et renonce à deux projets d’éolien en mer au profit d’investissements pétrogaziers",
         "resume": "Le groupe français met fin à deux programmes d’éoliennes au large de New York et de la Caroline du Nord, pour 4 gigawatts de puissance au total. Il se fait rembourser 928 millions de dollars à condition de les réinvestir dans des projets d’hydrocarbures.",
         "lien": "https://www.lemonde.fr/economie/article/2026/03/24/totalenergies-se-plie-a-l-administration-trump-et-renonce-a-deux-projets-d-eolien-en-mer-au-profit-d-investissements-petrogaziers_6673996_3234.html",
-        "date_iso": "2026-03-24T05:00:08+01:00",
+        "date_iso": "2026-03-24T05:00:04+01:00",
         "date_fr": "24/03/2026",
         "pertinence": 1
       },
@@ -340,7 +424,7 @@
         "emoji": "🌐",
         "tag": "Presse économique",
         "titre": "En Italie, le quotidien « La Repubblica » racheté par un groupe grec",
-        "resume": "Le grand titre de gauche devient la propriété du groupe Antenna. Il appartenait jusqu’ici au groupe Gedi du milliardaire John Elkann, hériter de la famille Agnelli.",
+        "resume": "Le grand titre de gauche devient la propriété du groupe Antenna. Il appartenait jusqu’ici au groupe Gedi du milliardaire John Elkann, héritier de la famille Agnelli.",
         "lien": "https://www.lemonde.fr/economie/article/2026/03/24/en-italie-le-quotidien-la-repubblica-rachete-par-un-groupe-grec_6673991_3234.html",
         "date_iso": "2026-03-24T01:52:28+01:00",
         "date_fr": "24/03/2026",
@@ -351,8 +435,8 @@
         "couleur": "#374151",
         "emoji": "🌐",
         "tag": "Presse économique",
-        "titre": "L’aéroport de LaGuardia, à New York, a rouvert lundi, au lendemain d’une collision mortelle",
-        "resume": "Des retards ou des annulations restaient à prévoir selon la direction de l’aéroport. Deux pilotes sont morts, dimanche, lorsque leur avion qui venait juste de se poser a été percuté par un camion de pompiers.",
+        "titre": "L’aéroport LaGuardia, à New York, a rouvert lundi, au lendemain d’une collision mortelle",
+        "resume": "Des retards ou des annulations restaient à prévoir, selon la direction de l’aéroport. Deux pilotes sont morts, dimanche, lorsque leur avion qui venait juste de se poser a été percuté par un camion de pompiers.",
         "lien": "https://www.lemonde.fr/international/article/2026/03/24/l-aeroport-de-laguardia-a-new-york-a-rouvert-lundi-au-lendemain-d-une-collision-mortelle_6673989_3210.html",
         "date_iso": "2026-03-24T00:47:02+01:00",
         "date_fr": "24/03/2026",
@@ -381,18 +465,6 @@
         "date_iso": "2026-03-23T22:17:32+01:00",
         "date_fr": "23/03/2026",
         "pertinence": 2
-      },
-      {
-        "source": "Le Figaro Éco",
-        "couleur": "#92400e",
-        "emoji": "📊",
-        "tag": "Presse économique",
-        "titre": "Transport : une voiture percutée par le RER D à Corbeil-Essonnes, d’importantes perturbations enregistrées",
-        "resume": "Le trafic est interrompu dans les deux sens entre Melun et Malesherbes jusqu’à 21 heures. Aucun décès n’est à déplorer.",
-        "lien": "https://www.lefigaro.fr/societes/transport-une-voiture-percutee-par-le-rer-d-a-corbeil-essonnes-d-importantes-perturbations-enregistrees-20260323",
-        "date_iso": "2026-03-23T22:10:07+01:00",
-        "date_fr": "23/03/2026",
-        "pertinence": 0
       },
       {
         "source": "Le Figaro Éco",
@@ -453,18 +525,6 @@
         "date_iso": "2026-03-23T19:40:36+01:00",
         "date_fr": "23/03/2026",
         "pertinence": 1
-      },
-      {
-        "source": "Le Figaro Éco",
-        "couleur": "#92400e",
-        "emoji": "📊",
-        "tag": "Presse économique",
-        "titre": "L’Arcom va demander le blocage d’un site pornographique sur lequel se reportent les mineurs",
-        "resume": "EXCLUSIF - Après avoir contraint les principaux sites à vérifier l’âge des utilisateurs, le régulateur s’attaque désormais à des plateformes moins connues, mais en progression chez les plus jeunes.",
-        "lien": "https://www.lefigaro.fr/secteur/high-tech/l-arcom-va-demander-le-blocage-d-un-site-pornographique-sur-lequel-se-reportent-les-mineurs-20260323",
-        "date_iso": "2026-03-23T19:40:09+01:00",
-        "date_fr": "23/03/2026",
-        "pertinence": 0
       },
       {
         "source": "Le Monde Éco",
@@ -537,66 +597,6 @@
         "date_iso": "2026-03-23T18:41:38+01:00",
         "date_fr": "23/03/2026",
         "pertinence": 1
-      },
-      {
-        "source": "Le Figaro Éco",
-        "couleur": "#92400e",
-        "emoji": "📊",
-        "tag": "Presse économique",
-        "titre": "Les prix des carburants ont encore augmenté de 8 à 9 centimes en moyenne la semaine dernière en France",
-        "resume": "Le gazole a passé la barre des 2,10 euros le litre en moyenne, soit une augmentation de plus de 40 centimes depuis le début de la guerre au Moyen-Orient.",
-        "lien": "https://www.lefigaro.fr/conjoncture/les-prix-des-carburants-ont-encore-augmente-de-8-a-9-centimes-en-moyenne-la-semaine-derniere-en-france-20260323",
-        "date_iso": "2026-03-23T18:23:55+01:00",
-        "date_fr": "23/03/2026",
-        "pertinence": 0
-      },
-      {
-        "source": "Le Figaro Éco",
-        "couleur": "#92400e",
-        "emoji": "📊",
-        "tag": "Presse économique",
-        "titre": "Le patron de TotalEnergies prédit des prix du gaz «très élevés» si le détroit d'Ormuz reste fermé",
-        "resume": "Patrick Pouyanné a dit s’attendre à «un prix très élevé pour le gaz naturel liquéfié (GNL) d’ici l’été et septembre, au moment où nous remplissons à nouveau les stockages de gaz en Europe».",
-        "lien": "https://www.lefigaro.fr/conjoncture/le-patron-de-totalenergies-predit-des-prix-du-gaz-tres-eleves-si-le-detroit-d-ormuz-reste-ferme-20260323",
-        "date_iso": "2026-03-23T18:17:53+01:00",
-        "date_fr": "23/03/2026",
-        "pertinence": 0
-      },
-      {
-        "source": "Le Monde Éco",
-        "couleur": "#374151",
-        "emoji": "🌐",
-        "tag": "Presse économique",
-        "titre": "EN DIRECT, municipales 2026 : Parité, maires issus de l’immigration… les derniers enseignements du second tour",
-        "resume": "Au lendemain du second tour des municipales, Sébastien Lecornu a souligné, dans un courrier aux maires, que la « trop faible » participation à ce scrutin « nous oblige » et « impose une chose simple – agir concrètement, au plus près du terrain ».",
-        "lien": "https://www.lemonde.fr/politique/live/2026/03/23/en-direct-municipales-2026-parite-maires-issus-de-l-immigration-les-derniers-enseignements-du-second-tour_6673595_823448.html",
-        "date_iso": "2026-03-23T18:12:44+01:00",
-        "date_fr": "23/03/2026",
-        "pertinence": 0
-      },
-      {
-        "source": "Le Figaro Éco",
-        "couleur": "#92400e",
-        "emoji": "📊",
-        "tag": "Presse économique",
-        "titre": "Guerre au Moyen-Orient : où et comment le gaz est-il stocké en France ?",
-        "resume": "Sur fond de conflit entre l’Iran, les États-Unis et Israël, l’Union européenne recommande à ses États membres de réduire le niveau de leurs stocks en vue de l’hiver prochain, afin de limiter la pression sur les prix de l’énergie.",
-        "lien": "https://www.lefigaro.fr/conjoncture/guerre-au-moyen-orient-ou-et-comment-le-gaz-est-il-stocke-en-france-20260323",
-        "date_iso": "2026-03-23T17:55:49+01:00",
-        "date_fr": "23/03/2026",
-        "pertinence": 0
-      },
-      {
-        "source": "Libération Éco",
-        "couleur": "#dc2626",
-        "emoji": "📰",
-        "tag": "Presse économique",
-        "titre": "Listériose mortelle dans de la charcuterie : information judiciaire ouverte pour homicide involontaire",
-        "resume": "Douze cas de listériose, dont deux mortels, ont été répertoriés entre septembre et janvier dernier. L’entreprise visée a annoncé l’arrêt prochain de son activité.",
-        "lien": "https://www.liberation.fr/economie/conso/listeriose-mortelle-dans-de-la-charcuterie-information-judiciaire-ouverte-pour-homicide-involontaire-20260323_JMN5M4WFMRC7LCDXY5BBOJNPC4/",
-        "date_iso": "2026-03-23T17:44:41+00:00",
-        "date_fr": "23/03/2026",
-        "pertinence": 2
       }
     ]
   },
@@ -714,63 +714,58 @@
   "chomage": [
     {
       "trimestre": "T1 2023",
-      "taux": 6.9,
-      "jeunes": 16.6
+      "taux": 7.1,
+      "jeunes": 17.5
     },
     {
       "trimestre": "T2 2023",
-      "taux": 7.0,
-      "jeunes": 17.1
+      "taux": 7.2,
+      "jeunes": 17.0
     },
     {
       "trimestre": "T3 2023",
-      "taux": 7.2,
-      "jeunes": 17.4
+      "taux": 7.4,
+      "jeunes": 17.6
     },
     {
       "trimestre": "T4 2023",
-      "taux": 7.3,
+      "taux": 7.5,
       "jeunes": 17.6
     },
     {
       "trimestre": "T1 2024",
-      "taux": 7.3,
+      "taux": 7.5,
       "jeunes": 18.1
     },
     {
       "trimestre": "T2 2024",
-      "taux": 7.1,
-      "jeunes": 18.0
+      "taux": 7.3,
+      "jeunes": 17.7
     },
     {
       "trimestre": "T3 2024",
-      "taux": 7.2,
-      "jeunes": 19.7
+      "taux": 7.4,
+      "jeunes": 18.3
     },
     {
       "trimestre": "T4 2024",
-      "taux": 7.1,
-      "jeunes": 18.7
+      "taux": 7.3,
+      "jeunes": 19.0
     },
     {
       "trimestre": "T1 2025",
-      "taux": 7.3,
-      "jeunes": 19.2
+      "taux": 7.4,
+      "jeunes": 18.5
     },
     {
       "trimestre": "T2 2025",
-      "taux": 7.4,
-      "jeunes": 19.1
+      "taux": 7.5,
+      "jeunes": 18.8
     },
     {
       "trimestre": "T3 2025",
-      "taux": 7.5,
-      "jeunes": 19.1
-    },
-    {
-      "trimestre": "T4 2025",
       "taux": 7.7,
-      "jeunes": 21.5
+      "jeunes": 19.2
     }
   ],
   "smic": {
@@ -845,14 +840,14 @@
   ],
   "indicateurs_cles": {
     "taux_chomage_actuel": 7.7,
-    "taux_chomage_jeunes": 21.5,
+    "taux_chomage_jeunes": 19.2,
     "taux_emploi_seniors": 61.7,
     "inflation_annuelle": 0.9,
     "smic_brut": 1823.03,
     "smic_net": 1443.11,
     "salaire_median": 2190,
     "salaire_moyen": 2733,
-    "ecart_hf_eqtp": 14.0,
+    "ecart_hf_eqtp": 25.8,
     "difficultes_recrutement": 61,
     "irl_glissement": 0.79,
     "prix_gazole": 1.65,
@@ -892,36 +887,36 @@
   },
   "ecart_hommes_femmes": {
     "ecart_global": 21.8,
-    "ecart_eqtp": 14.0,
+    "ecart_eqtp": 25.8,
     "ecart_poste_comparable": 4.0,
     "evolution": [
       {
-        "annee": "2015",
-        "ecart": 18.4
-      },
-      {
-        "annee": "2017",
-        "ecart": 16.6
+        "annee": "2018",
+        "ecart": 23.2
       },
       {
         "annee": "2019",
-        "ecart": 16.1
+        "ecart": 23.8
+      },
+      {
+        "annee": "2020",
+        "ecart": 24.5
       },
       {
         "annee": "2021",
-        "ecart": 15.5
+        "ecart": 24.3
       },
       {
         "annee": "2022",
-        "ecart": 14.9
+        "ecart": 25.1
       },
       {
         "annee": "2023",
-        "ecart": 14.2
+        "ecart": 25.6
       },
       {
         "annee": "2024",
-        "ecart": 14.0
+        "ecart": 25.8
       }
     ]
   },
@@ -1022,7 +1017,7 @@
     },
     {
       "trimestre": "T2 2023",
-      "taux": 5.1
+      "taux": 4.9
     },
     {
       "trimestre": "T3 2023",
@@ -1034,19 +1029,19 @@
     },
     {
       "trimestre": "T1 2024",
-      "taux": 5.0
+      "taux": 4.8
     },
     {
       "trimestre": "T2 2024",
-      "taux": 5.1
+      "taux": 4.9
     },
     {
       "trimestre": "T3 2024",
-      "taux": 5.2
+      "taux": 4.5
     },
     {
       "trimestre": "T4 2024",
-      "taux": 5.2
+      "taux": 4.6
     },
     {
       "trimestre": "T1 2025",
@@ -1165,57 +1160,57 @@
   "difficultes_recrutement": [
     {
       "trimestre": "T1 2023",
-      "industrie": 65,
-      "services": 48,
-      "construction": 78
+      "industrie": 52,
+      "services": 38,
+      "construction": 65
     },
     {
       "trimestre": "T2 2023",
-      "industrie": 64,
-      "services": 48,
-      "construction": 76
-    },
-    {
-      "trimestre": "T3 2023",
-      "industrie": 60,
-      "services": 45,
-      "construction": 72
-    },
-    {
-      "trimestre": "T4 2023",
-      "industrie": 57,
-      "services": 42,
-      "construction": 68
-    },
-    {
-      "trimestre": "T1 2024",
-      "industrie": 53,
-      "services": 39,
-      "construction": 63
-    },
-    {
-      "trimestre": "T2 2024",
-      "industrie": 52,
-      "services": 39,
+      "industrie": 50,
+      "services": 36,
       "construction": 62
     },
     {
-      "trimestre": "T3 2024",
+      "trimestre": "T3 2023",
       "industrie": 48,
-      "services": 36,
-      "construction": 57
+      "services": 35,
+      "construction": 60
     },
     {
-      "trimestre": "T4 2024",
-      "industrie": 46,
-      "services": 34,
+      "trimestre": "T4 2023",
+      "industrie": 45,
+      "services": 33,
+      "construction": 58
+    },
+    {
+      "trimestre": "T1 2024",
+      "industrie": 43,
+      "services": 32,
       "construction": 55
     },
     {
-      "trimestre": "T1 2025",
-      "industrie": 44,
-      "services": 33,
+      "trimestre": "T2 2024",
+      "industrie": 41,
+      "services": 30,
       "construction": 52
+    },
+    {
+      "trimestre": "T3 2024",
+      "industrie": 40,
+      "services": 30,
+      "construction": 50
+    },
+    {
+      "trimestre": "T4 2024",
+      "industrie": 38,
+      "services": 28,
+      "construction": 48
+    },
+    {
+      "trimestre": "T1 2025",
+      "industrie": 36,
+      "services": 27,
+      "construction": 46
     },
     {
       "trimestre": "T2 2025",
@@ -1750,13 +1745,18 @@
     },
     "sp98": {
       "prix": 1.82,
-      "variation_an": -5.0
+      "variation_an": -4.5
     },
     "evolution": [
       {
+        "mois": "Jan 2023",
+        "gazole": 1.85,
+        "sp95": 1.82
+      },
+      {
         "mois": "Avr 2023",
-        "gazole": 1.81,
-        "sp95": 1.95
+        "gazole": 1.78,
+        "sp95": 1.88
       },
       {
         "mois": "Juil 2023",
@@ -1765,56 +1765,61 @@
       },
       {
         "mois": "Oct 2023",
-        "gazole": 1.91,
-        "sp95": 1.89
+        "gazole": 1.88,
+        "sp95": 1.92
       },
       {
         "mois": "Jan 2024",
+        "gazole": 1.72,
+        "sp95": 1.78
+      },
+      {
+        "mois": "Avr 2024",
         "gazole": 1.75,
         "sp95": 1.82
       },
       {
-        "mois": "Avr 2024",
-        "gazole": 1.79,
-        "sp95": 1.94
-      },
-      {
         "mois": "Juil 2024",
-        "gazole": 1.73,
-        "sp95": 1.86
+        "gazole": 1.68,
+        "sp95": 1.75
       },
       {
         "mois": "Oct 2024",
-        "gazole": 1.63,
-        "sp95": 1.76
-      },
-      {
-        "mois": "Jan 2025",
-        "gazole": 1.71,
-        "sp95": 1.81
-      },
-      {
-        "mois": "Avr 2025",
-        "gazole": 1.59,
-        "sp95": 1.73
-      },
-      {
-        "mois": "Juil 2025",
-        "gazole": 1.65,
+        "gazole": 1.62,
         "sp95": 1.72
       },
       {
+        "mois": "Jan 2025",
+        "gazole": 1.65,
+        "sp95": 1.78
+      },
+      {
+        "mois": "Avr 2025",
+        "gazole": 1.6,
+        "sp95": 1.74
+      },
+      {
+        "mois": "Juil 2025",
+        "gazole": 1.58,
+        "sp95": 1.7
+      },
+      {
         "mois": "Oct 2025",
-        "gazole": 1.61,
+        "gazole": 1.58,
         "sp95": 1.72
       },
       {
         "mois": "Jan 2026",
+        "gazole": 1.62,
+        "sp95": 1.71
+      },
+      {
+        "mois": "Mar 2026",
         "gazole": 1.65,
         "sp95": 1.72
       }
     ],
-    "derniere_donnee": "Jan 2026"
+    "derniere_donnee": "Mar 2026"
   },
   "taux_effort": {
     "annee": 2023,
@@ -3871,7 +3876,7 @@
       "note_lecture": "Le TEC-10 mesure le rendement des emprunts d'Etat francais a 10 ans. Un taux eleve rencherit le cout de la dette publique et impacte les taux de credit immobilier."
     },
     "petrole_brent": {
-      "valeur": 103.35,
+      "valeur": 102.62,
       "date": "2026-03-24",
       "unite": "USD/baril",
       "source": "Yahoo Finance",
@@ -5391,16 +5396,16 @@
         },
         {
           "date": "2026-03-24",
-          "valeur": 103.35,
-          "ma50": 77.63,
-          "ma200": 68.89
+          "valeur": 102.62,
+          "ma50": 77.62,
+          "ma200": 68.88
         }
       ],
       "variations": {
-        "jour": 3.41,
-        "semaine": -0.07,
-        "mois": 44.02,
-        "ytd": 70.12
+        "jour": 2.68,
+        "semaine": -0.77,
+        "mois": 43.0,
+        "ytd": 68.92
       },
       "min_max": {
         "min": 58.92,
@@ -8540,7 +8545,7 @@
       "note_lecture": "Le taux de change euro-dollar determine le prix de tout ce qui est importe en dollars : petrole, matieres premieres, electronique. Un euro faible rencherit les importations et alimente l'inflation."
     },
     "or": {
-      "valeur": 4350.0,
+      "valeur": 4412.2,
       "date": "2026-03-24",
       "unite": "USD/oz",
       "source": "Yahoo Finance",
@@ -10060,16 +10065,16 @@
         },
         {
           "date": "2026-03-24",
-          "valeur": 4350.0,
-          "ma50": 4948.09,
-          "ma200": 4073.6
+          "valeur": 4412.2,
+          "ma50": 4949.33,
+          "ma200": 4073.91
         }
       ],
       "variations": {
-        "jour": -1.23,
-        "semaine": -13.02,
-        "mois": -14.02,
-        "ytd": 0.83
+        "jour": 0.18,
+        "semaine": -11.77,
+        "mois": -12.79,
+        "ytd": 2.27
       },
       "min_max": {
         "min": 2951.3,
@@ -11614,7 +11619,7 @@
       "note_lecture": "Le prix du gaz naturel (TTF europeen) impacte directement les factures de chauffage et d'electricite des menages, ainsi que les couts de production industrielle."
     },
     "ble": {
-      "valeur": 593.75,
+      "valeur": 591.0,
       "date": "2026-03-24",
       "unite": "cents/boisseau",
       "source": "Yahoo Finance",
@@ -13128,16 +13133,16 @@
         },
         {
           "date": "2026-03-24",
-          "valeur": 593.75,
-          "ma50": 555.6,
-          "ma200": 531.54
+          "valeur": 591.0,
+          "ma50": 555.54,
+          "ma200": 531.52
         }
       ],
       "variations": {
-        "jour": 1.02,
-        "semaine": 0.68,
-        "mois": 3.53,
-        "ytd": 17.23
+        "jour": 0.55,
+        "semaine": 0.21,
+        "mois": 3.05,
+        "ytd": 16.68
       },
       "min_max": {
         "min": 495.0,
@@ -13148,7 +13153,7 @@
       "note_lecture": "Le cours du ble est un indicateur avance des prix alimentaires. La France etant le premier producteur europeen, son evolution impacte a la fois les consommateurs et le secteur agricole."
     },
     "lme_cuivre": {
-      "valeur": 5.36,
+      "valeur": 5.43,
       "date": "2026-03-24",
       "unite": "cts/lb",
       "source": "Yahoo Finance",
@@ -14668,16 +14673,16 @@
         },
         {
           "date": "2026-03-24",
-          "valeur": 5.36,
-          "ma50": 5.81,
+          "valeur": 5.43,
+          "ma50": 5.82,
           "ma200": 5.22
         }
       ],
       "variations": {
-        "jour": -1.47,
-        "semaine": -6.46,
-        "mois": -8.06,
-        "ytd": -4.96
+        "jour": -0.18,
+        "semaine": -5.24,
+        "mois": -6.86,
+        "ytd": -3.72
       },
       "min_max": {
         "min": 4.13,
@@ -14688,7 +14693,7 @@
       "note_lecture": "Le cuivre est le baromètre de l'activité industrielle mondiale ('Dr Copper'). Sa hausse signale une reprise économique, sa baisse anticipe un ralentissement. Utilisé massivement dans l'électrification et les énergies renouvelables."
     },
     "lme_aluminium": {
-      "valeur": 3110.5,
+      "valeur": 3110.75,
       "date": "2026-03-24",
       "unite": "cts/lb",
       "source": "Yahoo Finance",
@@ -16202,16 +16207,16 @@
         },
         {
           "date": "2026-03-24",
-          "valeur": 3110.5,
+          "valeur": 3110.75,
           "ma50": 3110.99,
-          "ma200": 2755.35
+          "ma200": 2755.36
         }
       ],
       "variations": {
-        "jour": 1.12,
-        "semaine": -5.5,
-        "mois": 2.94,
-        "ytd": 5.87
+        "jour": 1.13,
+        "semaine": -5.49,
+        "mois": 2.95,
+        "ytd": 5.88
       },
       "min_max": {
         "min": 2166.25,
@@ -20118,7 +20123,7 @@
           "2023": 1.92,
           "2024": 1.78,
           "2025": 1.72,
-          "2026": 2.013
+          "2026": 2.014
         },
         "quantiteMensuelle": {
           "solo": 40,
@@ -21439,12 +21444,12 @@
         "nom": "Guadeloupe",
         "code": "GP",
         "emoji": "🌺",
-        "chomage": 16.6,
+        "chomage": 16.3,
         "salaire_median": 1820,
         "emploi": 55.2,
         "population": 0.385,
         "tensions": 38,
-        "evol_chomage": -0.1,
+        "evol_chomage": -0.4,
         "note": "Taux de chômage des jeunes : ~43%"
       },
       {
@@ -21463,12 +21468,12 @@
         "nom": "Guyane",
         "code": "GF",
         "emoji": "🌿",
-        "chomage": 16.7,
+        "chomage": 16.9,
         "salaire_median": 1750,
         "emploi": 48.3,
         "population": 0.3,
         "tensions": 32,
-        "evol_chomage": -0.1,
+        "evol_chomage": 0.1,
         "note": "Population en forte croissance (+3%/an)"
       },
       {
@@ -22541,7 +22546,7 @@
     "sources": "INSEE - Enquête Emploi, DARES"
   },
   "previsions_cftc": {
-    "generated_at": "2026-03-24T06:07:23.553899",
+    "generated_at": "2026-03-24T07:13:55.572395",
     "model_version": "CFTC v4.0 (Monte Carlo)",
     "n_simulations": 1000,
     "horizon": "12 mois",
