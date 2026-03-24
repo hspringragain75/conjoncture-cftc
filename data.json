@@ -1,6 +1,6 @@
 {
-  "last_updated": "24/03/2026 08:11",
-  "last_updated_iso": "2026-03-24T08:11:52.880469",
+  "last_updated": "24/03/2026 08:18",
+  "last_updated_iso": "2026-03-24T08:18:50.793494",
   "contact": "hspringragain@cftc.fr",
   "alertes": [
     {
@@ -32,7 +32,7 @@
       "date": "2026-03-24",
       "type": "info",
       "titre": "🔄 Données actualisées",
-      "message": "Le tableau de bord a été mis à jour le 24/03/2026 à 08:11.",
+      "message": "Le tableau de bord a été mis à jour le 24/03/2026 à 08:18.",
       "onglet": "conjoncture"
     }
   ],
@@ -172,7 +172,7 @@
     }
   ],
   "revue_presse": {
-    "derniere_maj": "24/03/2026 08:11",
+    "derniere_maj": "24/03/2026 08:18",
     "nb_sources": 7,
     "sources_noms": [
       "Le Monde Éco",
@@ -215,10 +215,10 @@
         "couleur": "#374151",
         "emoji": "🌐",
         "tag": "Presse économique",
-        "titre": "Alan, la start-up qui bouscule l’assurance santé",
-        "resume": "Le nouvel entrant, qui fête son dixième anniversaire avec des innovations et un partenariat avec le footballeur Kylian Mbappé, suscite des critiques chez les historiques du secteur.",
+        "titre": "Alan, la start-up qui bouscule l’assurance-santé",
+        "resume": "Le nouvel entrant, qui fête son 10ᵉ anniversaire avec des innovations et un partenariat avec le footballeur Kylian Mbappé, suscite des critiques chez les historiques du secteur.",
         "lien": "https://www.lemonde.fr/economie/article/2026/03/24/alan-la-start-up-qui-bouscule-l-assurance-sante_6674025_3234.html",
-        "date_iso": "2026-03-24T08:39:39+01:00",
+        "date_iso": "2026-03-24T08:39:31+01:00",
         "date_fr": "24/03/2026",
         "pertinence": 0
       },
@@ -824,14 +824,14 @@
     "smic_net": 1443.11,
     "salaire_median": 2190,
     "salaire_moyen": 2733,
-    "ecart_hf_eqtp": 25.8,
+    "ecart_hf_eqtp": 14.0,
     "difficultes_recrutement": 61,
     "irl_glissement": 0.79,
     "prix_gazole": 2.196,
     "taux_effort_locataires": 29.6,
     "croissance_pib": 0.7,
     "climat_affaires": 97,
-    "defaillances_12m": 68227
+    "defaillances_12m": 68961
   },
   "salaire_median": {
     "montant_2024": 2190,
@@ -864,36 +864,36 @@
   },
   "ecart_hommes_femmes": {
     "ecart_global": 21.8,
-    "ecart_eqtp": 25.8,
+    "ecart_eqtp": 14.0,
     "ecart_poste_comparable": 4.0,
     "evolution": [
       {
-        "annee": "2018",
-        "ecart": 23.2
+        "annee": "2015",
+        "ecart": 18.4
+      },
+      {
+        "annee": "2017",
+        "ecart": 16.6
       },
       {
         "annee": "2019",
-        "ecart": 23.8
-      },
-      {
-        "annee": "2020",
-        "ecart": 24.5
+        "ecart": 16.1
       },
       {
         "annee": "2021",
-        "ecart": 24.3
+        "ecart": 15.5
       },
       {
         "annee": "2022",
-        "ecart": 25.1
+        "ecart": 14.9
       },
       {
         "annee": "2023",
-        "ecart": 25.6
+        "ecart": 14.2
       },
       {
         "annee": "2024",
-        "ecart": 25.8
+        "ecart": 14.0
       }
     ]
   },
@@ -994,7 +994,7 @@
     },
     {
       "trimestre": "T2 2023",
-      "taux": 5.1
+      "taux": 4.9
     },
     {
       "trimestre": "T3 2023",
@@ -1006,19 +1006,19 @@
     },
     {
       "trimestre": "T1 2024",
-      "taux": 5.0
+      "taux": 4.8
     },
     {
       "trimestre": "T2 2024",
-      "taux": 5.1
+      "taux": 4.9
     },
     {
       "trimestre": "T3 2024",
-      "taux": 5.2
+      "taux": 4.5
     },
     {
       "trimestre": "T4 2024",
-      "taux": 5.2
+      "taux": 4.6
     },
     {
       "trimestre": "T1 2025",
@@ -1063,51 +1063,51 @@
   "types_contrats": [
     {
       "trimestre": "T1 2023",
-      "cdi": 83.2,
-      "cdd": 5.4,
-      "interim": 1.4
+      "cdi": 74.5,
+      "cdd": 8.8,
+      "interim": 2.2
     },
     {
       "trimestre": "T2 2023",
-      "cdi": 83.2,
-      "cdd": 5.4,
-      "interim": 1.4
+      "cdi": 74.3,
+      "cdd": 9.0,
+      "interim": 2.1
     },
     {
       "trimestre": "T3 2023",
-      "cdi": 83.4,
-      "cdd": 5.3,
-      "interim": 1.3
+      "cdi": 74.4,
+      "cdd": 8.9,
+      "interim": 2.0
     },
     {
       "trimestre": "T4 2023",
-      "cdi": 83.4,
-      "cdd": 5.3,
-      "interim": 1.3
+      "cdi": 74.6,
+      "cdd": 8.7,
+      "interim": 2.0
     },
     {
       "trimestre": "T1 2024",
-      "cdi": 83.4,
-      "cdd": 5.3,
-      "interim": 1.3
+      "cdi": 74.8,
+      "cdd": 8.5,
+      "interim": 1.9
     },
     {
       "trimestre": "T2 2024",
-      "cdi": 83.4,
-      "cdd": 5.3,
-      "interim": 1.3
+      "cdi": 74.7,
+      "cdd": 8.6,
+      "interim": 1.9
     },
     {
       "trimestre": "T3 2024",
-      "cdi": 83.4,
-      "cdd": 5.3,
-      "interim": 1.3
+      "cdi": 74.9,
+      "cdd": 8.4,
+      "interim": 1.8
     },
     {
       "trimestre": "T4 2024",
-      "cdi": 83.5,
-      "cdd": 5.2,
-      "interim": 1.3
+      "cdi": 75.0,
+      "cdd": 8.3,
+      "interim": 1.8
     },
     {
       "trimestre": "T1 2025",
@@ -1821,7 +1821,7 @@
     "croissance_trim_actuel": 0.7,
     "croissance_annuelle": 0.9,
     "trimestre": "T4 2025",
-    "commentaire": "PIB volume trimestriel - glissement annuel - INSEE",
+    "commentaire": "PIB volume trimestriel - glissement annuel",
     "evolution": [
       {
         "trimestre": "T2 2022",
@@ -1998,58 +1998,58 @@
     ]
   },
   "defaillances": {
-    "cumul_12_mois": 68227,
-    "variation_an": 0.8,
-    "mois": "Sep 2025",
+    "cumul_12_mois": 68961,
+    "variation_an": 3.9,
+    "mois": "Jan 2026",
     "moyenne_2010_2019": 58000,
     "evolution": [
       {
-        "mois": "Jan 2023",
-        "cumul": 42000
-      },
-      {
         "mois": "Avr 2023",
-        "cumul": 47000
+        "cumul": 46804
       },
       {
         "mois": "Juil 2023",
-        "cumul": 51000
+        "cumul": 50360
       },
       {
         "mois": "Oct 2023",
-        "cumul": 55000
+        "cumul": 53384
       },
       {
         "mois": "Jan 2024",
-        "cumul": 57500
+        "cumul": 57340
       },
       {
         "mois": "Avr 2024",
-        "cumul": 60000
+        "cumul": 60504
       },
       {
         "mois": "Juil 2024",
-        "cumul": 63500
+        "cumul": 63643
       },
       {
         "mois": "Oct 2024",
-        "cumul": 66000
+        "cumul": 65204
       },
       {
         "mois": "Jan 2025",
-        "cumul": 66500
+        "cumul": 66275
       },
       {
         "mois": "Avr 2025",
-        "cumul": 67000
+        "cumul": 67253
       },
       {
         "mois": "Juil 2025",
-        "cumul": 67600
+        "cumul": 67683
       },
       {
-        "mois": "Sep 2025",
-        "cumul": 68227
+        "mois": "Oct 2025",
+        "cumul": 68293
+      },
+      {
+        "mois": "Jan 2026",
+        "cumul": 68961
       }
     ],
     "par_secteur": [
@@ -3800,7 +3800,7 @@
       "note_lecture": "Le TEC-10 mesure le rendement des emprunts d'Etat francais a 10 ans. Un taux eleve rencherit le cout de la dette publique et impacte les taux de credit immobilier."
     },
     "petrole_brent": {
-      "valeur": 97.39,
+      "valeur": 97.56,
       "date": "2026-03-24",
       "unite": "USD/baril",
       "source": "Yahoo Finance",
@@ -5320,16 +5320,16 @@
         },
         {
           "date": "2026-03-24",
-          "valeur": 97.39,
-          "ma50": 77.51,
+          "valeur": 97.56,
+          "ma50": 77.52,
           "ma200": 68.86
         }
       ],
       "variations": {
-        "jour": -2.55,
-        "semaine": -5.83,
-        "mois": 35.72,
-        "ytd": 60.31
+        "jour": -2.38,
+        "semaine": -5.67,
+        "mois": 35.95,
+        "ytd": 60.59
       },
       "min_max": {
         "min": 58.92,
@@ -5340,12 +5340,12 @@
       "note_lecture": "Le prix du Brent influence directement les couts de transport et d'energie, donc l'inflation et le pouvoir d'achat des salaries."
     },
     "cac40": {
-      "valeur": 7726.2,
-      "date": "2026-03-23",
-      "variation_jour_pct": 0.79,
+      "valeur": 7760.99,
+      "date": "2026-03-24",
+      "variation_jour_pct": 0.45,
       "unite": "points",
       "source": "Yahoo Finance",
-      "nb_points": 255,
+      "nb_points": 256,
       "historique": [
         {
           "date": "2025-03-24",
@@ -6876,13 +6876,19 @@
           "valeur": 7726.2,
           "ma50": 8191.6,
           "ma200": 7994.49
+        },
+        {
+          "date": "2026-03-24",
+          "valeur": 7760.99,
+          "ma50": 8179.88,
+          "ma200": 7994.47
         }
       ],
       "variations": {
-        "jour": 0.79,
-        "semaine": -2.64,
-        "mois": -8.01,
-        "ytd": -5.72
+        "jour": 0.45,
+        "semaine": -2.68,
+        "mois": -8.86,
+        "ytd": -5.3
       },
       "min_max": {
         "min": 6863.02,
@@ -8463,7 +8469,7 @@
       "note_lecture": "Le taux de change euro-dollar determine le prix de tout ce qui est importe en dollars : petrole, matieres premieres, electronique. Un euro faible rencherit les importations et alimente l'inflation."
     },
     "or": {
-      "valeur": 4405.8,
+      "valeur": 4414.0,
       "date": "2026-03-24",
       "unite": "USD/oz",
       "source": "Yahoo Finance",
@@ -9983,16 +9989,16 @@
         },
         {
           "date": "2026-03-24",
-          "valeur": 4405.8,
-          "ma50": 4949.21,
-          "ma200": 4073.88
+          "valeur": 4414.0,
+          "ma50": 4949.37,
+          "ma200": 4073.92
         }
       ],
       "variations": {
-        "jour": 0.04,
-        "semaine": -11.9,
-        "mois": -12.92,
-        "ytd": 2.12
+        "jour": 0.22,
+        "semaine": -11.74,
+        "mois": -12.75,
+        "ytd": 2.31
       },
       "min_max": {
         "min": 2951.3,
@@ -11537,7 +11543,7 @@
       "note_lecture": "Le prix du gaz naturel (TTF europeen) impacte directement les factures de chauffage et d'electricite des menages, ainsi que les couts de production industrielle."
     },
     "ble": {
-      "valeur": 587.75,
+      "valeur": 587.5,
       "date": "2026-03-24",
       "unite": "cents/boisseau",
       "source": "Yahoo Finance",
@@ -13051,16 +13057,16 @@
         },
         {
           "date": "2026-03-24",
-          "valeur": 587.75,
-          "ma50": 555.48,
+          "valeur": 587.5,
+          "ma50": 555.47,
           "ma200": 531.51
         }
       ],
       "variations": {
-        "jour": 0.0,
-        "semaine": -0.34,
-        "mois": 2.48,
-        "ytd": 16.04
+        "jour": -0.04,
+        "semaine": -0.38,
+        "mois": 2.44,
+        "ytd": 15.99
       },
       "min_max": {
         "min": 495.0,
@@ -21374,12 +21380,12 @@
         "nom": "Martinique",
         "code": "MQ",
         "emoji": "🌴",
-        "chomage": 13.7,
+        "chomage": 13.4,
         "salaire_median": 1840,
         "emploi": 56.8,
         "population": 0.349,
         "tensions": 40,
-        "evol_chomage": 1.3,
+        "evol_chomage": 1.0,
         "note": "Taux de chômage des jeunes : ~40%"
       },
       {
@@ -22464,7 +22470,7 @@
     "sources": "INSEE - Enquête Emploi, DARES"
   },
   "previsions_cftc": {
-    "generated_at": "2026-03-24T08:11:53.078716",
+    "generated_at": "2026-03-24T08:18:50.909679",
     "model_version": "CFTC v4.0 (Monte Carlo)",
     "n_simulations": 1000,
     "horizon": "12 mois",
