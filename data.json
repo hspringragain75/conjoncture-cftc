@@ -1,6 +1,6 @@
 {
-  "last_updated": "24/03/2026 07:55",
-  "last_updated_iso": "2026-03-24T07:55:46.468741",
+  "last_updated": "24/03/2026 08:11",
+  "last_updated_iso": "2026-03-24T08:11:52.880469",
   "contact": "hspringragain@cftc.fr",
   "alertes": [
     {
@@ -32,32 +32,11 @@
       "date": "2026-03-24",
       "type": "info",
       "titre": "🔄 Données actualisées",
-      "message": "Le tableau de bord a été mis à jour le 24/03/2026 à 07:55.",
+      "message": "Le tableau de bord a été mis à jour le 24/03/2026 à 08:11.",
       "onglet": "conjoncture"
     }
   ],
   "changelog": [
-    {
-      "version": "3.1.1",
-      "date": "2026-03-23",
-      "modifications": [
-        {
-          "type": "breaking",
-          "titre": "Onglet favoris",
-          "description": "Création de l'onglet favoris où vous pouvez : choisir les indicateurs qui vous intéressent le plus, les réorganiser, les annoter et créer des seuils de surveillance"
-        },
-        {
-          "type": "feature",
-          "titre": "Cartes d'indicateurs mises en avant",
-          "description": "Les 6 cartes mises en avant en haut de votre tableau de bord sont modifiables, vous pouvez désormais choisir vos 6 inidcateurs préférés pour toujours les avoir sous les yeux"
-        },
-        {
-          "type": "feature",
-          "titre": "Marchés LME",
-          "description": "Dans l'onglet marchés financiers, de nouvelles matières, notamment métaux, issus du LME sont dispobibles"
-        }
-      ]
-    },
     {
       "version": "2.2.2",
       "date": "2026-03-18",
@@ -193,7 +172,7 @@
     }
   ],
   "revue_presse": {
-    "derniere_maj": "24/03/2026 07:55",
+    "derniere_maj": "24/03/2026 08:11",
     "nb_sources": 7,
     "sources_noms": [
       "Le Monde Éco",
@@ -227,18 +206,6 @@
         "lien": "https://www.lemonde.fr/emploi/article/2026/03/24/ia-et-emploi-a-quoi-servent-les-previsions_6674012_1698637.html",
         "date_iso": "2026-03-24T06:00:14+01:00",
         "date_fr": "24/03/2026",
-        "pertinence": 3
-      },
-      {
-        "source": "Le Figaro Éco",
-        "couleur": "#92400e",
-        "emoji": "📊",
-        "tag": "Presse économique",
-        "titre": "Lionel Jospin, l’homme qui a fait des 35 heures un totem politique... très controversé",
-        "resume": "DÉCRYPTAGE - La réforme phare de la gauche d’avant 2002 reste au cœur du débat en France, alors que ses effets sur l’emploi, les finances publiques et la productivité sont toujours discutés.",
-        "lien": "https://www.lefigaro.fr/social/lionel-jospin-l-homme-qui-a-fait-des-35-heures-un-totem-politique-tres-controverse-20260323",
-        "date_iso": "2026-03-23T19:23:43+01:00",
-        "date_fr": "23/03/2026",
         "pertinence": 3
       }
     ],
@@ -308,6 +275,18 @@
         "couleur": "#0369a1",
         "emoji": "🇪🇺",
         "tag": "Europe & politique",
+        "titre": "L’UE mise sur l’Indo-Pacifique avec un nouveau partenariat de sécurité et défense avec l’Australie",
+        "resume": "Von der Leyen a déclaré que cet accord visait à renforcer les liens en matière de sécurité à long terme The post L’UE mise sur l’Indo-Pacifique avec un nouveau partenariat de sécurité et défense avec l’Australie appeared first on Euractiv FR .",
+        "lien": "https://euractiv.fr/news/lue-mise-sur-lindo-pacifique-avec-un-nouveau-partenariat-de-securite-et-defense-avec-laustralie/",
+        "date_iso": "2026-03-24T07:55:20+00:00",
+        "date_fr": "24/03/2026",
+        "pertinence": 1
+      },
+      {
+        "source": "Euractiv FR",
+        "couleur": "#0369a1",
+        "emoji": "🇪🇺",
+        "tag": "Europe & politique",
         "titre": "L UE et l Australie concluent un accord commercial après huit ans de négociations",
         "resume": "Bruxelles prévoit que cet accord stimulera les échanges bilatéraux d'environ 30 % au cours de la prochaine décennie The post L&rsquo;UE et l&rsquo;Australie concluent un accord commercial après huit ans de négociations appeared first on Euractiv FR .",
         "lien": "https://euractiv.fr/news/lue-et-laustralie-concluent-un-accord-commercial-apres-huit-ans-de-negociations/",
@@ -324,6 +303,18 @@
         "resume": "Une minorité de Français prennent l’avion chaque année. Ces voyageurs parcourent également les plus grandes distances et sont responsables de la majeure partie des émissions de l’aérien. Mais il n’est pas facile de renoncer à ces voyages.",
         "lien": "https://www.lemonde.fr/podcasts/article/2026/03/24/climat-faut-il-renoncer-aux-voyages-en-avion_6674020_5463015.html",
         "date_iso": "2026-03-24T07:30:12+01:00",
+        "date_fr": "24/03/2026",
+        "pertinence": 0
+      },
+      {
+        "source": "Le Figaro Éco",
+        "couleur": "#92400e",
+        "emoji": "📊",
+        "tag": "Presse économique",
+        "titre": "Blocages, contournements, VPN… Où en est la vérification d’âge sur les sites pornographiques ?",
+        "resume": "DÉCRYPTAGE - Entre premières baisses d’audience chez les mineurs et déplacement du trafic vers des plateformes moins contrôlées, la stratégie française montre ses limites, sur fond de bras de fer avec les géants du secteur et d’attente d’une réponse européenne.",
+        "lien": "https://www.lefigaro.fr/secteur/high-tech/blocages-contournements-vpn-ou-en-est-la-verification-d-age-sur-les-sites-pornographiques-20260324",
+        "date_iso": "2026-03-24T07:30:00+01:00",
         "date_fr": "24/03/2026",
         "pertinence": 0
       },
@@ -578,30 +569,6 @@
         "date_iso": "2026-03-23T19:37:27+01:00",
         "date_fr": "23/03/2026",
         "pertinence": 1
-      },
-      {
-        "source": "Le Figaro Éco",
-        "couleur": "#92400e",
-        "emoji": "📊",
-        "tag": "Presse économique",
-        "titre": "Pourquoi la guerre au Moyen-Orient propulse le coût de la dette française à un record historique",
-        "resume": "DÉCRYPTAGE - Le rendement des obligations à dix ans a bondi à 3,87 %, son plus haut niveau depuis 2009, avant de retomber suite aux annonces du président américain sur un report de son ultimatum.",
-        "lien": "https://www.lefigaro.fr/conjoncture/pourquoi-la-guerre-au-moyen-orient-propulse-le-cout-de-la-dette-francaise-a-un-record-historique-20260323",
-        "date_iso": "2026-03-23T19:29:41+01:00",
-        "date_fr": "23/03/2026",
-        "pertinence": 1
-      },
-      {
-        "source": "Le Figaro Éco",
-        "couleur": "#92400e",
-        "emoji": "📊",
-        "tag": "Presse économique",
-        "titre": "Lionel Jospin, l’homme qui a fait des 35 heures un totem politique... très controversé",
-        "resume": "DÉCRYPTAGE - La réforme phare de la gauche d’avant 2002 reste au cœur du débat en France, alors que ses effets sur l’emploi, les finances publiques et la productivité sont toujours discutés.",
-        "lien": "https://www.lefigaro.fr/social/lionel-jospin-l-homme-qui-a-fait-des-35-heures-un-totem-politique-tres-controverse-20260323",
-        "date_iso": "2026-03-23T19:23:43+01:00",
-        "date_fr": "23/03/2026",
-        "pertinence": 3
       }
     ]
   },
@@ -857,14 +824,14 @@
     "smic_net": 1443.11,
     "salaire_median": 2190,
     "salaire_moyen": 2733,
-    "ecart_hf_eqtp": 14.0,
+    "ecart_hf_eqtp": 25.8,
     "difficultes_recrutement": 61,
     "irl_glissement": 0.79,
-    "prix_gazole": 1.65,
+    "prix_gazole": 2.196,
     "taux_effort_locataires": 29.6,
     "croissance_pib": 0.7,
     "climat_affaires": 97,
-    "defaillances_12m": 68961
+    "defaillances_12m": 68227
   },
   "salaire_median": {
     "montant_2024": 2190,
@@ -897,36 +864,36 @@
   },
   "ecart_hommes_femmes": {
     "ecart_global": 21.8,
-    "ecart_eqtp": 14.0,
+    "ecart_eqtp": 25.8,
     "ecart_poste_comparable": 4.0,
     "evolution": [
       {
-        "annee": "2015",
-        "ecart": 18.4
-      },
-      {
-        "annee": "2017",
-        "ecart": 16.6
+        "annee": "2018",
+        "ecart": 23.2
       },
       {
         "annee": "2019",
-        "ecart": 16.1
+        "ecart": 23.8
+      },
+      {
+        "annee": "2020",
+        "ecart": 24.5
       },
       {
         "annee": "2021",
-        "ecart": 15.5
+        "ecart": 24.3
       },
       {
         "annee": "2022",
-        "ecart": 14.9
+        "ecart": 25.1
       },
       {
         "annee": "2023",
-        "ecart": 14.2
+        "ecart": 25.6
       },
       {
         "annee": "2024",
-        "ecart": 14.0
+        "ecart": 25.8
       }
     ]
   },
@@ -1746,90 +1713,37 @@
   },
   "carburants": {
     "gazole": {
-      "prix": 1.65,
-      "variation_an": -3.5
+      "prix": 2.196,
+      "variation_an": 0.0,
+      "variation_sem": 0.0
     },
     "sp95": {
-      "prix": 1.72,
-      "variation_an": -5.0
+      "prix": 2.017,
+      "variation_an": 0.0,
+      "variation_sem": 0.0
     },
     "sp98": {
-      "prix": 1.82,
-      "variation_an": -4.5
+      "prix": 2.072,
+      "variation_an": 0.0,
+      "variation_sem": 0.0
+    },
+    "e10": {
+      "prix": 1.975,
+      "variation_an": 0.0,
+      "variation_sem": 0.0
     },
     "evolution": [
       {
-        "mois": "Jan 2023",
-        "gazole": 1.85,
-        "sp95": 1.82
-      },
-      {
-        "mois": "Avr 2023",
-        "gazole": 1.78,
-        "sp95": 1.88
-      },
-      {
-        "mois": "Juil 2023",
-        "gazole": 1.72,
-        "sp95": 1.85
-      },
-      {
-        "mois": "Oct 2023",
-        "gazole": 1.88,
-        "sp95": 1.92
-      },
-      {
-        "mois": "Jan 2024",
-        "gazole": 1.72,
-        "sp95": 1.78
-      },
-      {
-        "mois": "Avr 2024",
-        "gazole": 1.75,
-        "sp95": 1.82
-      },
-      {
-        "mois": "Juil 2024",
-        "gazole": 1.68,
-        "sp95": 1.75
-      },
-      {
-        "mois": "Oct 2024",
-        "gazole": 1.62,
-        "sp95": 1.72
-      },
-      {
-        "mois": "Jan 2025",
-        "gazole": 1.65,
-        "sp95": 1.78
-      },
-      {
-        "mois": "Avr 2025",
-        "gazole": 1.6,
-        "sp95": 1.74
-      },
-      {
-        "mois": "Juil 2025",
-        "gazole": 1.58,
-        "sp95": 1.7
-      },
-      {
-        "mois": "Oct 2025",
-        "gazole": 1.58,
-        "sp95": 1.72
-      },
-      {
-        "mois": "Jan 2026",
-        "gazole": 1.62,
-        "sp95": 1.71
-      },
-      {
-        "mois": "Mar 2026",
-        "gazole": 1.65,
-        "sp95": 1.72
+        "date": "2026-03-24",
+        "sp95": 2.017,
+        "gazole": 2.196,
+        "sp98": 2.072,
+        "e10": 1.975
       }
     ],
-    "derniere_donnee": "Mar 2026"
+    "derniere_donnee": "2026-03-24 08:49",
+    "source": "Indéterminée",
+    "granularite": "mensuel"
   },
   "taux_effort": {
     "annee": 2023,
@@ -2084,58 +1998,58 @@
     ]
   },
   "defaillances": {
-    "cumul_12_mois": 68961,
-    "variation_an": 3.9,
-    "mois": "Jan 2026",
+    "cumul_12_mois": 68227,
+    "variation_an": 0.8,
+    "mois": "Sep 2025",
     "moyenne_2010_2019": 58000,
     "evolution": [
       {
+        "mois": "Jan 2023",
+        "cumul": 42000
+      },
+      {
         "mois": "Avr 2023",
-        "cumul": 46804
+        "cumul": 47000
       },
       {
         "mois": "Juil 2023",
-        "cumul": 50360
+        "cumul": 51000
       },
       {
         "mois": "Oct 2023",
-        "cumul": 53384
+        "cumul": 55000
       },
       {
         "mois": "Jan 2024",
-        "cumul": 57340
+        "cumul": 57500
       },
       {
         "mois": "Avr 2024",
-        "cumul": 60504
+        "cumul": 60000
       },
       {
         "mois": "Juil 2024",
-        "cumul": 63643
+        "cumul": 63500
       },
       {
         "mois": "Oct 2024",
-        "cumul": 65204
+        "cumul": 66000
       },
       {
         "mois": "Jan 2025",
-        "cumul": 66275
+        "cumul": 66500
       },
       {
         "mois": "Avr 2025",
-        "cumul": 67253
+        "cumul": 67000
       },
       {
         "mois": "Juil 2025",
-        "cumul": 67683
+        "cumul": 67600
       },
       {
-        "mois": "Oct 2025",
-        "cumul": 68293
-      },
-      {
-        "mois": "Jan 2026",
-        "cumul": 68961
+        "mois": "Sep 2025",
+        "cumul": 68227
       }
     ],
     "par_secteur": [
@@ -3886,7 +3800,7 @@
       "note_lecture": "Le TEC-10 mesure le rendement des emprunts d'Etat francais a 10 ans. Un taux eleve rencherit le cout de la dette publique et impacte les taux de credit immobilier."
     },
     "petrole_brent": {
-      "valeur": 98.58,
+      "valeur": 97.39,
       "date": "2026-03-24",
       "unite": "USD/baril",
       "source": "Yahoo Finance",
@@ -5406,16 +5320,16 @@
         },
         {
           "date": "2026-03-24",
-          "valeur": 98.58,
-          "ma50": 77.54,
+          "valeur": 97.39,
+          "ma50": 77.51,
           "ma200": 68.86
         }
       ],
       "variations": {
-        "jour": -1.36,
-        "semaine": -4.68,
-        "mois": 37.37,
-        "ytd": 62.27
+        "jour": -2.55,
+        "semaine": -5.83,
+        "mois": 35.72,
+        "ytd": 60.31
       },
       "min_max": {
         "min": 58.92,
@@ -5428,10 +5342,10 @@
     "cac40": {
       "valeur": 7726.2,
       "date": "2026-03-23",
-      "variation_jour_pct": 0.0,
+      "variation_jour_pct": 0.79,
       "unite": "points",
       "source": "Yahoo Finance",
-      "nb_points": 256,
+      "nb_points": 255,
       "historique": [
         {
           "date": "2025-03-24",
@@ -6962,18 +6876,12 @@
           "valeur": 7726.2,
           "ma50": 8191.6,
           "ma200": 7994.49
-        },
-        {
-          "date": "2026-03-23",
-          "valeur": 7726.2,
-          "ma50": 8179.18,
-          "ma200": 7994.29
         }
       ],
       "variations": {
-        "jour": 0.0,
-        "semaine": -3.11,
-        "mois": -9.27,
+        "jour": 0.79,
+        "semaine": -2.64,
+        "mois": -8.01,
         "ytd": -5.72
       },
       "min_max": {
@@ -8555,7 +8463,7 @@
       "note_lecture": "Le taux de change euro-dollar determine le prix de tout ce qui est importe en dollars : petrole, matieres premieres, electronique. Un euro faible rencherit les importations et alimente l'inflation."
     },
     "or": {
-      "valeur": 4406.6,
+      "valeur": 4405.8,
       "date": "2026-03-24",
       "unite": "USD/oz",
       "source": "Yahoo Finance",
@@ -10075,16 +9983,16 @@
         },
         {
           "date": "2026-03-24",
-          "valeur": 4406.6,
-          "ma50": 4949.22,
+          "valeur": 4405.8,
+          "ma50": 4949.21,
           "ma200": 4073.88
         }
       ],
       "variations": {
-        "jour": 0.06,
-        "semaine": -11.89,
-        "mois": -12.9,
-        "ytd": 2.14
+        "jour": 0.04,
+        "semaine": -11.9,
+        "mois": -12.92,
+        "ytd": 2.12
       },
       "min_max": {
         "min": 2951.3,
@@ -11629,7 +11537,7 @@
       "note_lecture": "Le prix du gaz naturel (TTF europeen) impacte directement les factures de chauffage et d'electricite des menages, ainsi que les couts de production industrielle."
     },
     "ble": {
-      "valeur": 588.75,
+      "valeur": 587.75,
       "date": "2026-03-24",
       "unite": "cents/boisseau",
       "source": "Yahoo Finance",
@@ -13143,16 +13051,16 @@
         },
         {
           "date": "2026-03-24",
-          "valeur": 588.75,
-          "ma50": 555.5,
+          "valeur": 587.75,
+          "ma50": 555.48,
           "ma200": 531.51
         }
       ],
       "variations": {
-        "jour": 0.17,
-        "semaine": -0.17,
-        "mois": 2.66,
-        "ytd": 16.24
+        "jour": 0.0,
+        "semaine": -0.34,
+        "mois": 2.48,
+        "ytd": 16.04
       },
       "min_max": {
         "min": 495.0,
@@ -13163,7 +13071,7 @@
       "note_lecture": "Le cours du ble est un indicateur avance des prix alimentaires. La France etant le premier producteur europeen, son evolution impacte a la fois les consommateurs et le secteur agricole."
     },
     "lme_cuivre": {
-      "valeur": 5.41,
+      "valeur": 5.4,
       "date": "2026-03-24",
       "unite": "cts/lb",
       "source": "Yahoo Finance",
@@ -14683,16 +14591,16 @@
         },
         {
           "date": "2026-03-24",
-          "valeur": 5.41,
-          "ma50": 5.82,
+          "valeur": 5.4,
+          "ma50": 5.81,
           "ma200": 5.22
         }
       ],
       "variations": {
-        "jour": -0.55,
-        "semaine": -5.58,
-        "mois": -7.2,
-        "ytd": -4.08
+        "jour": -0.74,
+        "semaine": -5.76,
+        "mois": -7.38,
+        "ytd": -4.26
       },
       "min_max": {
         "min": 4.13,
@@ -14703,7 +14611,7 @@
       "note_lecture": "Le cuivre est le baromètre de l'activité industrielle mondiale ('Dr Copper'). Sa hausse signale une reprise économique, sa baisse anticipe un ralentissement. Utilisé massivement dans l'électrification et les énergies renouvelables."
     },
     "lme_aluminium": {
-      "valeur": 3112.0,
+      "valeur": 3108.0,
       "date": "2026-03-24",
       "unite": "cts/lb",
       "source": "Yahoo Finance",
@@ -16217,16 +16125,16 @@
         },
         {
           "date": "2026-03-24",
-          "valeur": 3112.0,
-          "ma50": 3111.01,
-          "ma200": 2755.36
+          "valeur": 3108.0,
+          "ma50": 3110.93,
+          "ma200": 2755.34
         }
       ],
       "variations": {
-        "jour": 1.17,
-        "semaine": -5.45,
-        "mois": 2.99,
-        "ytd": 5.92
+        "jour": 1.04,
+        "semaine": -5.57,
+        "mois": 2.85,
+        "ytd": 5.79
       },
       "min_max": {
         "min": 2166.25,
@@ -20133,7 +20041,7 @@
           "2023": 1.92,
           "2024": 1.78,
           "2025": 1.72,
-          "2026": 2.014
+          "2026": 2.017
         },
         "quantiteMensuelle": {
           "solo": 40,
@@ -21466,12 +21374,12 @@
         "nom": "Martinique",
         "code": "MQ",
         "emoji": "🌴",
-        "chomage": 13.4,
+        "chomage": 13.7,
         "salaire_median": 1840,
         "emploi": 56.8,
         "population": 0.349,
         "tensions": 40,
-        "evol_chomage": 1.0,
+        "evol_chomage": 1.3,
         "note": "Taux de chômage des jeunes : ~40%"
       },
       {
@@ -22556,7 +22464,7 @@
     "sources": "INSEE - Enquête Emploi, DARES"
   },
   "previsions_cftc": {
-    "generated_at": "2026-03-24T07:55:46.557555",
+    "generated_at": "2026-03-24T08:11:53.078716",
     "model_version": "CFTC v4.0 (Monte Carlo)",
     "n_simulations": 1000,
     "horizon": "12 mois",
