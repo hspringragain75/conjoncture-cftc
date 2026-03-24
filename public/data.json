@@ -1,6 +1,6 @@
 {
-  "last_updated": "24/03/2026 08:55",
-  "last_updated_iso": "2026-03-24T08:55:49.387178",
+  "last_updated": "24/03/2026 09:10",
+  "last_updated_iso": "2026-03-24T09:10:49.011200",
   "contact": "hspringragain@cftc.fr",
   "alertes": [
     {
@@ -12,11 +12,11 @@
       "onglet": "inflation"
     },
     {
-      "id": "chomage_jeunes_T4_2025",
+      "id": "chomage_jeunes_T3_2025",
       "date": "2026-03-24",
       "type": "warning",
-      "titre": "🧑‍🎓 Chômage jeunes élevé : 21.5%",
-      "message": "Le taux de chômage des 15-24 ans reste préoccupant (T4 2025).",
+      "titre": "🧑‍🎓 Chômage jeunes élevé : 19.2%",
+      "message": "Le taux de chômage des 15-24 ans reste préoccupant (T3 2025).",
       "onglet": "emploi"
     },
     {
@@ -32,7 +32,7 @@
       "date": "2026-03-24",
       "type": "info",
       "titre": "🔄 Données actualisées",
-      "message": "Le tableau de bord a été mis à jour le 24/03/2026 à 08:55.",
+      "message": "Le tableau de bord a été mis à jour le 24/03/2026 à 09:10.",
       "onglet": "conjoncture"
     }
   ],
@@ -193,7 +193,7 @@
     }
   ],
   "revue_presse": {
-    "derniere_maj": "24/03/2026 08:55",
+    "derniere_maj": "24/03/2026 09:10",
     "nb_sources": 7,
     "sources_noms": [
       "Le Monde Éco",
@@ -231,6 +231,30 @@
       }
     ],
     "tous": [
+      {
+        "source": "Le Monde Éco",
+        "couleur": "#374151",
+        "emoji": "🌐",
+        "tag": "Presse économique",
+        "titre": "Guerre au Moyen-Orient : aux Etats-Unis, les passagers aériens paieront l’addition de l’envolée du kérosène",
+        "resume": "Dénuées de systèmes financiers de couverture contre la hausse du carburant, les compagnies aériennes américaines doivent encaisser un surcoût de 400 millions de dollars depuis le début de la guerre. Elles transféreront l’essentiel de la facture à leurs clients.",
+        "lien": "https://www.lemonde.fr/economie/article/2026/03/24/guerre-au-moyen-orient-aux-etats-unis-les-passagers-aeriens-paieront-l-addition-de-l-envolee-du-kerosene_6674034_3234.html",
+        "date_iso": "2026-03-24T10:00:05+01:00",
+        "date_fr": "24/03/2026",
+        "pertinence": 0
+      },
+      {
+        "source": "Euractiv FR",
+        "couleur": "#0369a1",
+        "emoji": "🇪🇺",
+        "tag": "Europe & politique",
+        "titre": "L’OTAN « pas surprise » par les fuites hongroises vers la Russie",
+        "resume": "Budapest se distingue parmi les alliés européens par ses liens étroits avec le Kremlin The post L’OTAN « pas surprise » par les fuites hongroises vers la Russie appeared first on Euractiv FR .",
+        "lien": "https://euractiv.fr/news/lotan-pas-surprise-par-les-fuites-hongroises-vers-la-russie/",
+        "date_iso": "2026-03-24T08:56:00+00:00",
+        "date_fr": "24/03/2026",
+        "pertinence": 0
+      },
       {
         "source": "Libération Éco",
         "couleur": "#dc2626",
@@ -323,7 +347,7 @@
         "titre": "Epargne : comment les produits structurés enrichissent d’abord ceux qui les vendent",
         "resume": "Malgré leur complexité et le manque de transparence de leurs frais, ces placements financiers continuent d’attirer les épargnants.",
         "lien": "https://www.lemonde.fr/argent/article/2026/03/24/epargne-comment-les-produits-structures-enrichissent-d-abord-ceux-qui-les-vendent_6674023_1657007.html",
-        "date_iso": "2026-03-24T08:00:09+01:00",
+        "date_iso": "2026-03-24T08:00:05+01:00",
         "date_fr": "24/03/2026",
         "pertinence": 0
       },
@@ -566,30 +590,6 @@
         "date_iso": "2026-03-23T21:38:12+01:00",
         "date_fr": "23/03/2026",
         "pertinence": 1
-      },
-      {
-        "source": "Le Figaro Éco",
-        "couleur": "#92400e",
-        "emoji": "📊",
-        "tag": "Presse économique",
-        "titre": "Le chaud et le froid de Trump sur l’Iran déboussole les marchés financiers au cours d’une folle journée",
-        "resume": "DÉCRYPTAGE - La Bourse de Paris perdait 2 % à la mi-journée avant de rebondir dans le vert en réaction au revirement du président américain sur son ultimatum.",
-        "lien": "https://www.lefigaro.fr/societes/le-chaud-et-le-froid-de-trump-sur-l-iran-deboussole-les-marches-financiers-au-cours-d-une-folle-journee-20260323",
-        "date_iso": "2026-03-23T21:15:00+01:00",
-        "date_fr": "23/03/2026",
-        "pertinence": 0
-      },
-      {
-        "source": "Libération Éco",
-        "couleur": "#dc2626",
-        "emoji": "📰",
-        "tag": "Presse économique",
-        "titre": "Mort de Leo Radvinsky, propriétaire de la plateforme OnlyFans",
-        "resume": "L’homme avait racheté la maison mère du site en 2018, transformant Onlyfans en une plateforme de renommée mondiale, notamment connue pour ses contenus érotiques, valorisée à plusieurs milliards de dollars. Il est à mort à 43 ans des suites d’un cancer.",
-        "lien": "https://www.liberation.fr/economie/economie-numerique/mort-de-leo-radvinsky-proprietaire-de-la-plateforme-onlyfans-20260323_P42XMRLJFVC6ZN2FUMKXNNT7N4/",
-        "date_iso": "2026-03-23T20:15:24+00:00",
-        "date_fr": "23/03/2026",
-        "pertinence": 0
       }
     ]
   },
@@ -707,63 +707,58 @@
   "chomage": [
     {
       "trimestre": "T1 2023",
-      "taux": 6.9,
-      "jeunes": 16.6
+      "taux": 7.1,
+      "jeunes": 17.5
     },
     {
       "trimestre": "T2 2023",
-      "taux": 7.0,
-      "jeunes": 17.1
+      "taux": 7.2,
+      "jeunes": 17.0
     },
     {
       "trimestre": "T3 2023",
-      "taux": 7.2,
-      "jeunes": 17.4
+      "taux": 7.4,
+      "jeunes": 17.6
     },
     {
       "trimestre": "T4 2023",
-      "taux": 7.3,
+      "taux": 7.5,
       "jeunes": 17.6
     },
     {
       "trimestre": "T1 2024",
-      "taux": 7.3,
+      "taux": 7.5,
       "jeunes": 18.1
     },
     {
       "trimestre": "T2 2024",
-      "taux": 7.1,
-      "jeunes": 18.0
+      "taux": 7.3,
+      "jeunes": 17.7
     },
     {
       "trimestre": "T3 2024",
-      "taux": 7.2,
-      "jeunes": 19.7
+      "taux": 7.4,
+      "jeunes": 18.3
     },
     {
       "trimestre": "T4 2024",
-      "taux": 7.1,
-      "jeunes": 18.7
+      "taux": 7.3,
+      "jeunes": 19.0
     },
     {
       "trimestre": "T1 2025",
-      "taux": 7.3,
-      "jeunes": 19.2
+      "taux": 7.4,
+      "jeunes": 18.5
     },
     {
       "trimestre": "T2 2025",
-      "taux": 7.4,
-      "jeunes": 19.1
+      "taux": 7.5,
+      "jeunes": 18.8
     },
     {
       "trimestre": "T3 2025",
-      "taux": 7.5,
-      "jeunes": 19.1
-    },
-    {
-      "trimestre": "T4 2025",
       "taux": 7.7,
-      "jeunes": 21.5
+      "jeunes": 19.2
     }
   ],
   "smic": {
@@ -838,7 +833,7 @@
   ],
   "indicateurs_cles": {
     "taux_chomage_actuel": 7.7,
-    "taux_chomage_jeunes": 21.5,
+    "taux_chomage_jeunes": 19.2,
     "taux_emploi_seniors": 61.7,
     "inflation_annuelle": 0.9,
     "smic_brut": 1823.03,
@@ -1084,51 +1079,51 @@
   "types_contrats": [
     {
       "trimestre": "T1 2023",
-      "cdi": 74.5,
-      "cdd": 8.8,
-      "interim": 2.2
+      "cdi": 83.2,
+      "cdd": 5.4,
+      "interim": 1.4
     },
     {
       "trimestre": "T2 2023",
-      "cdi": 74.3,
-      "cdd": 9.0,
-      "interim": 2.1
+      "cdi": 83.2,
+      "cdd": 5.4,
+      "interim": 1.4
     },
     {
       "trimestre": "T3 2023",
-      "cdi": 74.4,
-      "cdd": 8.9,
-      "interim": 2.0
+      "cdi": 83.4,
+      "cdd": 5.3,
+      "interim": 1.3
     },
     {
       "trimestre": "T4 2023",
-      "cdi": 74.6,
-      "cdd": 8.7,
-      "interim": 2.0
+      "cdi": 83.4,
+      "cdd": 5.3,
+      "interim": 1.3
     },
     {
       "trimestre": "T1 2024",
-      "cdi": 74.8,
-      "cdd": 8.5,
-      "interim": 1.9
+      "cdi": 83.4,
+      "cdd": 5.3,
+      "interim": 1.3
     },
     {
       "trimestre": "T2 2024",
-      "cdi": 74.7,
-      "cdd": 8.6,
-      "interim": 1.9
+      "cdi": 83.4,
+      "cdd": 5.3,
+      "interim": 1.3
     },
     {
       "trimestre": "T3 2024",
-      "cdi": 74.9,
-      "cdd": 8.4,
-      "interim": 1.8
+      "cdi": 83.4,
+      "cdd": 5.3,
+      "interim": 1.3
     },
     {
       "trimestre": "T4 2024",
-      "cdi": 75.0,
-      "cdd": 8.3,
-      "interim": 1.8
+      "cdi": 83.5,
+      "cdd": 5.2,
+      "interim": 1.3
     },
     {
       "trimestre": "T1 2025",
@@ -2115,7 +2110,7 @@
     "croissance_trim_actuel": 0.7,
     "croissance_annuelle": 0.9,
     "trimestre": "T4 2025",
-    "commentaire": "PIB volume trimestriel - glissement annuel - INSEE",
+    "commentaire": "PIB volume trimestriel - glissement annuel",
     "evolution": [
       {
         "trimestre": "T2 2022",
@@ -4094,7 +4089,7 @@
       "note_lecture": "Le TEC-10 mesure le rendement des emprunts d'Etat francais a 10 ans. Un taux eleve rencherit le cout de la dette publique et impacte les taux de credit immobilier."
     },
     "petrole_brent": {
-      "valeur": 97.53,
+      "valeur": 98.26,
       "date": "2026-03-24",
       "unite": "USD/baril",
       "source": "Yahoo Finance",
@@ -5614,16 +5609,16 @@
         },
         {
           "date": "2026-03-24",
-          "valeur": 97.53,
-          "ma50": 77.52,
+          "valeur": 98.26,
+          "ma50": 77.53,
           "ma200": 68.86
         }
       ],
       "variations": {
-        "jour": -2.41,
-        "semaine": -5.7,
-        "mois": 35.91,
-        "ytd": 60.54
+        "jour": -1.68,
+        "semaine": -4.99,
+        "mois": 36.93,
+        "ytd": 61.74
       },
       "min_max": {
         "min": 58.92,
@@ -5634,9 +5629,9 @@
       "note_lecture": "Le prix du Brent influence directement les couts de transport et d'energie, donc l'inflation et le pouvoir d'achat des salaries."
     },
     "cac40": {
-      "valeur": 7739.55,
+      "valeur": 7723.0,
       "date": "2026-03-24",
-      "variation_jour_pct": 0.17,
+      "variation_jour_pct": -0.04,
       "unite": "points",
       "source": "Yahoo Finance",
       "nb_points": 256,
@@ -7173,16 +7168,16 @@
         },
         {
           "date": "2026-03-24",
-          "valeur": 7739.55,
-          "ma50": 8179.45,
-          "ma200": 7994.36
+          "valeur": 7723.0,
+          "ma50": 8179.12,
+          "ma200": 7994.28
         }
       ],
       "variations": {
-        "jour": 0.17,
-        "semaine": -2.95,
-        "mois": -9.11,
-        "ytd": -5.56
+        "jour": -0.04,
+        "semaine": -3.15,
+        "mois": -9.31,
+        "ytd": -5.76
       },
       "min_max": {
         "min": 6863.02,
@@ -8763,7 +8758,7 @@
       "note_lecture": "Le taux de change euro-dollar determine le prix de tout ce qui est importe en dollars : petrole, matieres premieres, electronique. Un euro faible rencherit les importations et alimente l'inflation."
     },
     "or": {
-      "valeur": 4401.6,
+      "valeur": 4414.2,
       "date": "2026-03-24",
       "unite": "USD/oz",
       "source": "Yahoo Finance",
@@ -10283,16 +10278,16 @@
         },
         {
           "date": "2026-03-24",
-          "valeur": 4401.6,
-          "ma50": 4949.12,
-          "ma200": 4073.86
+          "valeur": 4414.2,
+          "ma50": 4949.37,
+          "ma200": 4073.92
         }
       ],
       "variations": {
-        "jour": -0.06,
-        "semaine": -11.99,
-        "mois": -13.0,
-        "ytd": 2.02
+        "jour": 0.23,
+        "semaine": -11.73,
+        "mois": -12.75,
+        "ytd": 2.31
       },
       "min_max": {
         "min": 2951.3,
@@ -14911,7 +14906,7 @@
       "note_lecture": "Le cuivre est le baromètre de l'activité industrielle mondiale ('Dr Copper'). Sa hausse signale une reprise économique, sa baisse anticipe un ralentissement. Utilisé massivement dans l'électrification et les énergies renouvelables."
     },
     "lme_aluminium": {
-      "valeur": 3114.75,
+      "valeur": 3126.25,
       "date": "2026-03-24",
       "unite": "cts/lb",
       "source": "Yahoo Finance",
@@ -16425,16 +16420,16 @@
         },
         {
           "date": "2026-03-24",
-          "valeur": 3114.75,
-          "ma50": 3111.07,
-          "ma200": 2755.38
+          "valeur": 3126.25,
+          "ma50": 3111.3,
+          "ma200": 2755.43
         }
       ],
       "variations": {
-        "jour": 1.26,
-        "semaine": -5.37,
-        "mois": 3.08,
-        "ytd": 6.02
+        "jour": 1.63,
+        "semaine": -5.02,
+        "mois": 3.46,
+        "ytd": 6.41
       },
       "min_max": {
         "min": 2166.25,
@@ -20341,7 +20336,7 @@
           "2023": 1.92,
           "2024": 1.78,
           "2025": 1.72,
-          "2026": 2.017
+          "2026": 2.019
         },
         "quantiteMensuelle": {
           "solo": 40,
@@ -21674,12 +21669,12 @@
         "nom": "Martinique",
         "code": "MQ",
         "emoji": "🌴",
-        "chomage": 13.4,
+        "chomage": 13.7,
         "salaire_median": 1840,
         "emploi": 56.8,
         "population": 0.349,
         "tensions": 40,
-        "evol_chomage": 1.0,
+        "evol_chomage": 1.3,
         "note": "Taux de chômage des jeunes : ~40%"
       },
       {
@@ -22764,7 +22759,7 @@
     "sources": "INSEE - Enquête Emploi, DARES"
   },
   "previsions_cftc": {
-    "generated_at": "2026-03-24T08:55:49.494175",
+    "generated_at": "2026-03-24T09:10:49.109789",
     "model_version": "CFTC v4.0 (Monte Carlo)",
     "n_simulations": 1000,
     "horizon": "12 mois",
