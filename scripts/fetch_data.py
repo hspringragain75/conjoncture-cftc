@@ -2433,6 +2433,27 @@ def build_changelog():
     
     changelog = [
         {
+            "version": "3.1.1",
+            "date": "2026-03-24",
+            "modifications": [
+                {
+                    "type": "breaking",
+                    "titre": "Page de favoris",
+                    "description": "Vous avez désormais une page de favoris avec la possibilité d'annoter les cartes, de les réorganiser, etc"
+                }, 
+                {
+                    "type": "feature",
+                    "titre": "Cartes mise en avant modifiables",
+                    "description": "Les cartes de données mises en avant en haut de votre tableau de bord sont désormais modifiables afin que vous choisissiez vos données préférées"
+                },                
+                {
+                    "type": "feature",
+                    "titre": "Nouvelles données disponibles",
+                    "description": "Données des marchés financiers actualisées avec des données issues des marchés des métaux. Remontée de données journalières sur les carburants"
+                }
+            ]
+        },        
+        {
             "version": "2.2.2",
             "date": "2026-03-18",
             "modifications": [
