@@ -1,6 +1,6 @@
 {
-  "last_updated": "24/03/2026 07:57",
-  "last_updated_iso": "2026-03-24T07:57:37.476707",
+  "last_updated": "24/03/2026 08:07",
+  "last_updated_iso": "2026-03-24T08:07:37.251096",
   "contact": "hspringragain@cftc.fr",
   "alertes": [
     {
@@ -32,7 +32,7 @@
       "date": "2026-03-24",
       "type": "info",
       "titre": "🔄 Données actualisées",
-      "message": "Le tableau de bord a été mis à jour le 24/03/2026 à 07:57.",
+      "message": "Le tableau de bord a été mis à jour le 24/03/2026 à 08:07.",
       "onglet": "conjoncture"
     }
   ],
@@ -193,7 +193,7 @@
     }
   ],
   "revue_presse": {
-    "derniere_maj": "24/03/2026 07:57",
+    "derniere_maj": "24/03/2026 08:07",
     "nb_sources": 7,
     "sources_noms": [
       "Le Monde Éco",
@@ -248,6 +248,30 @@
         "couleur": "#92400e",
         "emoji": "📊",
         "tag": "Presse économique",
+        "titre": "L'Australie et l'Union européenne signent un vaste accord de libre-échange",
+        "resume": "L’accord a été signé par la présidente de la Commission européenne Ursula von der Leyen et le premier ministre australien Anthony Albanese, à Canberra.",
+        "lien": "https://www.lefigaro.fr/conjoncture/l-australie-et-l-union-europeenne-signent-un-vaste-accord-de-libre-echange-20260324",
+        "date_iso": "2026-03-24T08:25:36+01:00",
+        "date_fr": "24/03/2026",
+        "pertinence": 1
+      },
+      {
+        "source": "Le Figaro Éco",
+        "couleur": "#92400e",
+        "emoji": "📊",
+        "tag": "Presse économique",
+        "titre": "Agneau, bœuf, lithium... Que contient l'accord commercial conclu entre l’UE et Australie ?",
+        "resume": "L’Australie et l’Union européenne ont signé ce mardi, à Canberra, un vaste accord de libre-échange, conclu au terme d’années de négociations.",
+        "lien": "https://www.lefigaro.fr/conjoncture/agneau-boeuf-lithium-que-contient-l-accord-commercial-entre-l-ue-et-australie-sur-le-point-d-etre-signe-20260323",
+        "date_iso": "2026-03-24T08:25:31+01:00",
+        "date_fr": "24/03/2026",
+        "pertinence": 2
+      },
+      {
+        "source": "Le Figaro Éco",
+        "couleur": "#92400e",
+        "emoji": "📊",
+        "tag": "Presse économique",
         "titre": "Pétrole : le baril de Brent repasse au-dessus de 100 dollars, malgré la volte-face de Trump sur l’Iran",
         "resume": "Dans la matinée de mardi en Asie, le baril de Brent de la mer du Nord s’établissait à 102,84 dollars, tandis que le West Texas Intermediate (WTI), référence américaine, a atteint 91,20 dollars.",
         "lien": "https://www.lefigaro.fr/conjoncture/petrole-le-baril-de-brent-repasse-au-dessus-de-100-dollars-malgre-la-volte-face-de-trump-sur-l-iran-20260324",
@@ -276,18 +300,6 @@
         "resume": "Von der Leyen a déclaré que cet accord visait à renforcer les liens en matière de sécurité à long terme The post L’UE mise sur l’Indo-Pacifique avec un nouveau partenariat de sécurité et défense avec l’Australie appeared first on Euractiv FR .",
         "lien": "https://euractiv.fr/news/lue-mise-sur-lindo-pacifique-avec-un-nouveau-partenariat-de-securite-et-defense-avec-laustralie/",
         "date_iso": "2026-03-24T07:55:20+00:00",
-        "date_fr": "24/03/2026",
-        "pertinence": 1
-      },
-      {
-        "source": "Le Figaro Éco",
-        "couleur": "#92400e",
-        "emoji": "📊",
-        "tag": "Presse économique",
-        "titre": "L'Australie et l'Union européenne signent un vaste accord de libre-échange",
-        "resume": "L’accord a été signé par la présidente de la Commission européenne Ursula von der Leyen et le premier ministre australien Anthony Albanese, à Canberra.",
-        "lien": "https://www.lefigaro.fr/conjoncture/l-australie-et-l-union-europeenne-signent-un-vaste-accord-de-libre-echange-20260324",
-        "date_iso": "2026-03-24T07:50:11+01:00",
         "date_fr": "24/03/2026",
         "pertinence": 1
       },
@@ -386,18 +398,6 @@
         "date_iso": "2026-03-24T06:30:00+01:00",
         "date_fr": "24/03/2026",
         "pertinence": 0
-      },
-      {
-        "source": "Le Figaro Éco",
-        "couleur": "#92400e",
-        "emoji": "📊",
-        "tag": "Presse économique",
-        "titre": "Agneau, bœuf, lithium... Que contient l'accord commercial entre l’UE et Australie ?",
-        "resume": "La présidente de la Commission européenne, Ursula von der Leyen, est arrivée lundi en Australie, pour une visite de trois jours lors de laquelle elle espère régler les derniers détails d’un projet d’accord de libre-échange, en négociations depuis 2018.",
-        "lien": "https://www.lefigaro.fr/conjoncture/agneau-boeuf-lithium-que-contient-l-accord-commercial-entre-l-ue-et-australie-sur-le-point-d-etre-signe-20260323",
-        "date_iso": "2026-03-24T06:28:12+01:00",
-        "date_fr": "24/03/2026",
-        "pertinence": 2
       },
       {
         "source": "Le Monde Éco",
@@ -1153,57 +1153,57 @@
   "difficultes_recrutement": [
     {
       "trimestre": "T1 2023",
-      "industrie": 65,
-      "services": 48,
-      "construction": 78
+      "industrie": 52,
+      "services": 38,
+      "construction": 65
     },
     {
       "trimestre": "T2 2023",
-      "industrie": 64,
-      "services": 48,
-      "construction": 76
-    },
-    {
-      "trimestre": "T3 2023",
-      "industrie": 60,
-      "services": 45,
-      "construction": 72
-    },
-    {
-      "trimestre": "T4 2023",
-      "industrie": 57,
-      "services": 42,
-      "construction": 68
-    },
-    {
-      "trimestre": "T1 2024",
-      "industrie": 53,
-      "services": 39,
-      "construction": 63
-    },
-    {
-      "trimestre": "T2 2024",
-      "industrie": 52,
-      "services": 39,
+      "industrie": 50,
+      "services": 36,
       "construction": 62
     },
     {
-      "trimestre": "T3 2024",
+      "trimestre": "T3 2023",
       "industrie": 48,
-      "services": 36,
-      "construction": 57
+      "services": 35,
+      "construction": 60
     },
     {
-      "trimestre": "T4 2024",
-      "industrie": 46,
-      "services": 34,
+      "trimestre": "T4 2023",
+      "industrie": 45,
+      "services": 33,
+      "construction": 58
+    },
+    {
+      "trimestre": "T1 2024",
+      "industrie": 43,
+      "services": 32,
       "construction": 55
     },
     {
-      "trimestre": "T1 2025",
-      "industrie": 44,
-      "services": 33,
+      "trimestre": "T2 2024",
+      "industrie": 41,
+      "services": 30,
       "construction": 52
+    },
+    {
+      "trimestre": "T3 2024",
+      "industrie": 40,
+      "services": 30,
+      "construction": 50
+    },
+    {
+      "trimestre": "T4 2024",
+      "industrie": 38,
+      "services": 28,
+      "construction": 48
+    },
+    {
+      "trimestre": "T1 2025",
+      "industrie": 36,
+      "services": 27,
+      "construction": 46
     },
     {
       "trimestre": "T2 2025",
@@ -1738,13 +1738,18 @@
     },
     "sp98": {
       "prix": 1.82,
-      "variation_an": -5.0
+      "variation_an": -4.5
     },
     "evolution": [
       {
+        "mois": "Jan 2023",
+        "gazole": 1.85,
+        "sp95": 1.82
+      },
+      {
         "mois": "Avr 2023",
-        "gazole": 1.81,
-        "sp95": 1.95
+        "gazole": 1.78,
+        "sp95": 1.88
       },
       {
         "mois": "Juil 2023",
@@ -1753,56 +1758,61 @@
       },
       {
         "mois": "Oct 2023",
-        "gazole": 1.91,
-        "sp95": 1.89
+        "gazole": 1.88,
+        "sp95": 1.92
       },
       {
         "mois": "Jan 2024",
+        "gazole": 1.72,
+        "sp95": 1.78
+      },
+      {
+        "mois": "Avr 2024",
         "gazole": 1.75,
         "sp95": 1.82
       },
       {
-        "mois": "Avr 2024",
-        "gazole": 1.79,
-        "sp95": 1.94
-      },
-      {
         "mois": "Juil 2024",
-        "gazole": 1.73,
-        "sp95": 1.86
+        "gazole": 1.68,
+        "sp95": 1.75
       },
       {
         "mois": "Oct 2024",
-        "gazole": 1.63,
-        "sp95": 1.76
-      },
-      {
-        "mois": "Jan 2025",
-        "gazole": 1.71,
-        "sp95": 1.81
-      },
-      {
-        "mois": "Avr 2025",
-        "gazole": 1.59,
-        "sp95": 1.73
-      },
-      {
-        "mois": "Juil 2025",
-        "gazole": 1.65,
+        "gazole": 1.62,
         "sp95": 1.72
       },
       {
+        "mois": "Jan 2025",
+        "gazole": 1.65,
+        "sp95": 1.78
+      },
+      {
+        "mois": "Avr 2025",
+        "gazole": 1.6,
+        "sp95": 1.74
+      },
+      {
+        "mois": "Juil 2025",
+        "gazole": 1.58,
+        "sp95": 1.7
+      },
+      {
         "mois": "Oct 2025",
-        "gazole": 1.61,
+        "gazole": 1.58,
         "sp95": 1.72
       },
       {
         "mois": "Jan 2026",
+        "gazole": 1.62,
+        "sp95": 1.71
+      },
+      {
+        "mois": "Mar 2026",
         "gazole": 1.65,
         "sp95": 1.72
       }
     ],
-    "derniere_donnee": "Jan 2026"
+    "derniere_donnee": "Mar 2026"
   },
   "taux_effort": {
     "annee": 2023,
@@ -1880,7 +1890,7 @@
     "croissance_trim_actuel": 0.7,
     "croissance_annuelle": 0.9,
     "trimestre": "T4 2025",
-    "commentaire": "PIB volume trimestriel - glissement annuel",
+    "commentaire": "PIB volume trimestriel - glissement annuel - INSEE",
     "evolution": [
       {
         "trimestre": "T2 2022",
@@ -3859,7 +3869,7 @@
       "note_lecture": "Le TEC-10 mesure le rendement des emprunts d'Etat francais a 10 ans. Un taux eleve rencherit le cout de la dette publique et impacte les taux de credit immobilier."
     },
     "petrole_brent": {
-      "valeur": 98.52,
+      "valeur": 97.45,
       "date": "2026-03-24",
       "unite": "USD/baril",
       "source": "Yahoo Finance",
@@ -5379,16 +5389,16 @@
         },
         {
           "date": "2026-03-24",
-          "valeur": 98.52,
-          "ma50": 77.54,
+          "valeur": 97.45,
+          "ma50": 77.52,
           "ma200": 68.86
         }
       ],
       "variations": {
-        "jour": -1.42,
-        "semaine": -4.74,
-        "mois": 37.29,
-        "ytd": 62.17
+        "jour": -2.49,
+        "semaine": -5.77,
+        "mois": 35.8,
+        "ytd": 60.41
       },
       "min_max": {
         "min": 58.92,
@@ -5401,10 +5411,10 @@
     "cac40": {
       "valeur": 7726.2,
       "date": "2026-03-23",
-      "variation_jour_pct": 0.0,
+      "variation_jour_pct": 0.79,
       "unite": "points",
       "source": "Yahoo Finance",
-      "nb_points": 256,
+      "nb_points": 255,
       "historique": [
         {
           "date": "2025-03-24",
@@ -6935,18 +6945,12 @@
           "valeur": 7726.2,
           "ma50": 8191.6,
           "ma200": 7994.49
-        },
-        {
-          "date": "2026-03-23",
-          "valeur": 7726.2,
-          "ma50": 8179.18,
-          "ma200": 7994.29
         }
       ],
       "variations": {
-        "jour": 0.0,
-        "semaine": -3.11,
-        "mois": -9.27,
+        "jour": 0.79,
+        "semaine": -2.64,
+        "mois": -8.01,
         "ytd": -5.72
       },
       "min_max": {
@@ -8528,7 +8532,7 @@
       "note_lecture": "Le taux de change euro-dollar determine le prix de tout ce qui est importe en dollars : petrole, matieres premieres, electronique. Un euro faible rencherit les importations et alimente l'inflation."
     },
     "or": {
-      "valeur": 4408.4,
+      "valeur": 4418.2,
       "date": "2026-03-24",
       "unite": "USD/oz",
       "source": "Yahoo Finance",
@@ -10048,16 +10052,16 @@
         },
         {
           "date": "2026-03-24",
-          "valeur": 4408.4,
-          "ma50": 4949.26,
-          "ma200": 4073.89
+          "valeur": 4418.2,
+          "ma50": 4949.45,
+          "ma200": 4073.94
         }
       ],
       "variations": {
-        "jour": 0.1,
-        "semaine": -11.85,
-        "mois": -12.87,
-        "ytd": 2.18
+        "jour": 0.32,
+        "semaine": -11.65,
+        "mois": -12.67,
+        "ytd": 2.41
       },
       "min_max": {
         "min": 2951.3,
@@ -11602,7 +11606,7 @@
       "note_lecture": "Le prix du gaz naturel (TTF europeen) impacte directement les factures de chauffage et d'electricite des menages, ainsi que les couts de production industrielle."
     },
     "ble": {
-      "valeur": 588.75,
+      "valeur": 587.75,
       "date": "2026-03-24",
       "unite": "cents/boisseau",
       "source": "Yahoo Finance",
@@ -13116,16 +13120,16 @@
         },
         {
           "date": "2026-03-24",
-          "valeur": 588.75,
-          "ma50": 555.5,
+          "valeur": 587.75,
+          "ma50": 555.48,
           "ma200": 531.51
         }
       ],
       "variations": {
-        "jour": 0.17,
-        "semaine": -0.17,
-        "mois": 2.66,
-        "ytd": 16.24
+        "jour": 0.0,
+        "semaine": -0.34,
+        "mois": 2.48,
+        "ytd": 16.04
       },
       "min_max": {
         "min": 495.0,
@@ -22529,7 +22533,7 @@
     "sources": "INSEE - Enquête Emploi, DARES"
   },
   "previsions_cftc": {
-    "generated_at": "2026-03-24T07:57:37.588245",
+    "generated_at": "2026-03-24T08:07:37.373318",
     "model_version": "CFTC v4.0 (Monte Carlo)",
     "n_simulations": 1000,
     "horizon": "12 mois",
