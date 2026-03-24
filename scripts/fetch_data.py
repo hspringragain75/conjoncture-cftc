@@ -2278,6 +2278,11 @@ def build_changelog():
                 }, 
                 {
                     "type": "feature",
+                    "titre": "Cartes d'indicateurs mises en avant",
+                    "description": "Les 6 cartes mises en avant en haut de votre tableau de bord sont modifiables, vous pouvez désormais choisir vos 6 inidcateurs préférés pour toujours les avoir sous les yeux"
+                },  
+                {
+                    "type": "feature",
                     "titre": "Marchés LME",
                     "description": "Dans l'onglet marchés financiers, de nouvelles matières, notamment métaux, issus du LME sont dispobibles"
                 },                
