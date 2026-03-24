@@ -1,38 +1,38 @@
 {
-  "last_updated": "23/03/2026 20:12",
-  "last_updated_iso": "2026-03-23T20:12:58.894440",
+  "last_updated": "24/03/2026 06:07",
+  "last_updated_iso": "2026-03-24T06:07:23.438299",
   "contact": "hspringragain@cftc.fr",
   "alertes": [
     {
       "id": "inflation_maitrisee_2025",
-      "date": "2026-03-23",
+      "date": "2026-03-24",
       "type": "success",
       "titre": "📉 Inflation maîtrisée : 0.9%",
       "message": "L'inflation 2025 est sous contrôle. Le pouvoir d'achat se stabilise.",
       "onglet": "inflation"
     },
     {
-      "id": "chomage_jeunes_T3_2025",
-      "date": "2026-03-23",
+      "id": "chomage_jeunes_T4_2025",
+      "date": "2026-03-24",
       "type": "warning",
-      "titre": "🧑‍🎓 Chômage jeunes élevé : 19.2%",
-      "message": "Le taux de chômage des 15-24 ans reste préoccupant (T3 2025).",
+      "titre": "🧑‍🎓 Chômage jeunes élevé : 21.5%",
+      "message": "Le taux de chômage des 15-24 ans reste préoccupant (T4 2025).",
       "onglet": "emploi"
     },
     {
       "id": "pib_dynamique_T4_2025",
-      "date": "2026-03-23",
+      "date": "2026-03-24",
       "type": "success",
       "titre": "📈 Croissance dynamique : +0.7%",
       "message": "Le PIB progresse de 0.7% au T4 2025. Argument pour des augmentations !",
       "onglet": "conjoncture"
     },
     {
-      "id": "maj_2026-03-23",
-      "date": "2026-03-23",
+      "id": "maj_2026-03-24",
+      "date": "2026-03-24",
       "type": "info",
       "titre": "🔄 Données actualisées",
-      "message": "Le tableau de bord a été mis à jour le 23/03/2026 à 20:12.",
+      "message": "Le tableau de bord a été mis à jour le 24/03/2026 à 06:07.",
       "onglet": "conjoncture"
     }
   ],
@@ -188,7 +188,7 @@
     }
   ],
   "revue_presse": {
-    "derniere_maj": "23/03/2026 20:12",
+    "derniere_maj": "24/03/2026 06:07",
     "nb_sources": 7,
     "sources_noms": [
       "Le Monde Éco",
@@ -200,6 +200,30 @@
       "Euractiv FR"
     ],
     "a_la_une": [
+      {
+        "source": "Le Monde Éco",
+        "couleur": "#374151",
+        "emoji": "🌐",
+        "tag": "Presse économique",
+        "titre": "IA et emploi : à quoi servent les prévisions ?",
+        "resume": "Si elles sont par définition prospectives, les études sur l’impact de l’intelligence artificielle sur le monde du travail ont le mérite de mettre en évidence les défis auxquels font face les producteurs d’IA et toutes les entreprises, développe dans sa chronique le chercheur en sciences de gestion A",
+        "lien": "https://www.lemonde.fr/emploi/article/2026/03/24/ia-et-emploi-a-quoi-servent-les-previsions_6674012_1698637.html",
+        "date_iso": "2026-03-24T06:00:14+01:00",
+        "date_fr": "24/03/2026",
+        "pertinence": 3
+      },
+      {
+        "source": "Le Monde Emploi",
+        "couleur": "#1f2937",
+        "emoji": "💼",
+        "tag": "Emploi & travail",
+        "titre": "IA et emploi : à quoi servent les prévisions ?",
+        "resume": "Si elles sont par définition prospectives, les études sur l’impact de l’intelligence artificielle sur le monde du travail ont le mérite de mettre en évidence les défis auxquels font face les producteurs d’IA et toutes les entreprises, développe dans sa chronique le chercheur en sciences de gestion A",
+        "lien": "https://www.lemonde.fr/emploi/article/2026/03/24/ia-et-emploi-a-quoi-servent-les-previsions_6674012_1698637.html",
+        "date_iso": "2026-03-24T06:00:14+01:00",
+        "date_fr": "24/03/2026",
+        "pertinence": 3
+      },
       {
         "source": "Le Figaro Éco",
         "couleur": "#92400e",
@@ -214,6 +238,210 @@
       }
     ],
     "tous": [
+      {
+        "source": "Le Monde Éco",
+        "couleur": "#374151",
+        "emoji": "🌐",
+        "tag": "Presse économique",
+        "titre": "« Que deviendront les intelligences artificielles si elles doivent sans cesse utiliser les mêmes données ? »",
+        "resume": "Dans une tribune au « Monde », un collectif d’économistes et de spécialistes des industries créatives s’interroge sur les tensions qui se profilent entre exploitants d’IA génératives et auteurs, rappelant que « l’intelligence artificielle fonctionne comme un puits de pétrole et que ce pétrole, ce so",
+        "lien": "https://www.lemonde.fr/idees/article/2026/03/24/que-deviendront-les-intelligences-artificielles-si-elles-doivent-sans-cesse-utiliser-les-memes-donnees_6674014_3232.html",
+        "date_iso": "2026-03-24T06:30:16+01:00",
+        "date_fr": "24/03/2026",
+        "pertinence": 1
+      },
+      {
+        "source": "Le Figaro Éco",
+        "couleur": "#92400e",
+        "emoji": "📊",
+        "tag": "Presse économique",
+        "titre": "L'Australie et l'Union européenne signent un vaste accord de libre-échange",
+        "resume": "L’accord a été signé par la présidente de la Commission européenne Ursula von der Leyen et le premier ministre australien Anthony Albanese, à Canberra.",
+        "lien": "https://www.lefigaro.fr/conjoncture/l-australie-et-l-union-europeenne-signent-un-vaste-accord-de-libre-echange-20260324",
+        "date_iso": "2026-03-24T06:28:16+01:00",
+        "date_fr": "24/03/2026",
+        "pertinence": 1
+      },
+      {
+        "source": "Le Monde Éco",
+        "couleur": "#374151",
+        "emoji": "🌐",
+        "tag": "Presse économique",
+        "titre": "IA et emploi : à quoi servent les prévisions ?",
+        "resume": "Si elles sont par définition prospectives, les études sur l’impact de l’intelligence artificielle sur le monde du travail ont le mérite de mettre en évidence les défis auxquels font face les producteurs d’IA et toutes les entreprises, développe dans sa chronique le chercheur en sciences de gestion A",
+        "lien": "https://www.lemonde.fr/emploi/article/2026/03/24/ia-et-emploi-a-quoi-servent-les-previsions_6674012_1698637.html",
+        "date_iso": "2026-03-24T06:00:14+01:00",
+        "date_fr": "24/03/2026",
+        "pertinence": 3
+      },
+      {
+        "source": "Le Monde Emploi",
+        "couleur": "#1f2937",
+        "emoji": "💼",
+        "tag": "Emploi & travail",
+        "titre": "IA et emploi : à quoi servent les prévisions ?",
+        "resume": "Si elles sont par définition prospectives, les études sur l’impact de l’intelligence artificielle sur le monde du travail ont le mérite de mettre en évidence les défis auxquels font face les producteurs d’IA et toutes les entreprises, développe dans sa chronique le chercheur en sciences de gestion A",
+        "lien": "https://www.lemonde.fr/emploi/article/2026/03/24/ia-et-emploi-a-quoi-servent-les-previsions_6674012_1698637.html",
+        "date_iso": "2026-03-24T06:00:14+01:00",
+        "date_fr": "24/03/2026",
+        "pertinence": 3
+      },
+      {
+        "source": "Le Monde Éco",
+        "couleur": "#374151",
+        "emoji": "🌐",
+        "tag": "Presse économique",
+        "titre": "Le Livret A continue de pâtir de la baisse de sa rémunération",
+        "resume": "Les épargnants retirent de l’argent et se tournent vers des placements plus attractifs, mais la guerre au Moyen-Orient pourrait les inciter à augmenter leur épargne de précaution.",
+        "lien": "https://www.lemonde.fr/argent/article/2026/03/24/le-livret-a-continue-de-patir-de-la-baisse-de-sa-remuneration_6674011_1657007.html",
+        "date_iso": "2026-03-24T06:00:10+01:00",
+        "date_fr": "24/03/2026",
+        "pertinence": 1
+      },
+      {
+        "source": "Libération Éco",
+        "couleur": "#dc2626",
+        "emoji": "📰",
+        "tag": "Presse économique",
+        "titre": "Moyen-Orient : les data centers, nouveau nerf de la guerre ?",
+        "resume": "Depuis le début du conflit, trois centres de données d’Amazon Web Services ont été endommagés à Bahreïn et aux Emirats arabes unis à la suite d’attaques de drones iraniens, questionnant la stratégie des acteurs de la tech dans la région.",
+        "lien": "https://www.liberation.fr/economie/economie-numerique/moyen-orient-les-data-centers-nouveau-nerf-de-la-guerre-20260324_4XTIOTJWTNDUVLFHRZGQZDXWV4/",
+        "date_iso": "2026-03-24T05:40:00+00:00",
+        "date_fr": "24/03/2026",
+        "pertinence": 0
+      },
+      {
+        "source": "Le Monde Éco",
+        "couleur": "#374151",
+        "emoji": "🌐",
+        "tag": "Presse économique",
+        "titre": "TotalEnergies se plie à l’administration Trump et renonce à deux projets d’éolien en mer au profit d’investissements pétrogaziers",
+        "resume": "Le groupe français met fin à deux programmes d’éoliennes au large de New York et de la Caroline du Nord, pour 4 gigawatts de puissance au total. Il se fait rembourser 928 millions de dollars à condition de les réinvestir dans des projets d’hydrocarbures.",
+        "lien": "https://www.lemonde.fr/economie/article/2026/03/24/totalenergies-se-plie-a-l-administration-trump-et-renonce-a-deux-projets-d-eolien-en-mer-au-profit-d-investissements-petrogaziers_6673996_3234.html",
+        "date_iso": "2026-03-24T05:00:08+01:00",
+        "date_fr": "24/03/2026",
+        "pertinence": 1
+      },
+      {
+        "source": "Le Figaro Éco",
+        "couleur": "#92400e",
+        "emoji": "📊",
+        "tag": "Presse économique",
+        "titre": "Pétrole : le baril de Brent repasse au-dessus de 100 dollars, malgré la volte-face de Trump sur l’Iran",
+        "resume": "Dans la matinée de mardi en Asie, le baril de Brent de la mer du Nord s’établissait à 102,84 dollars, tandis que le West Texas Intermediate (WTI), référence américaine, a atteint 91,20 dollars.",
+        "lien": "https://www.lefigaro.fr/conjoncture/petrole-le-baril-de-brent-repasse-au-dessus-de-100-dollars-malgre-la-volte-face-de-trump-sur-l-iran-20260324",
+        "date_iso": "2026-03-24T02:38:31+01:00",
+        "date_fr": "24/03/2026",
+        "pertinence": 0
+      },
+      {
+        "source": "Le Monde Éco",
+        "couleur": "#374151",
+        "emoji": "🌐",
+        "tag": "Presse économique",
+        "titre": "En Italie, le quotidien « La Repubblica » racheté par un groupe grec",
+        "resume": "Le grand titre de gauche devient la propriété du groupe Antenna. Il appartenait jusqu’ici au groupe Gedi du milliardaire John Elkann, hériter de la famille Agnelli.",
+        "lien": "https://www.lemonde.fr/economie/article/2026/03/24/en-italie-le-quotidien-la-repubblica-rachete-par-un-groupe-grec_6673991_3234.html",
+        "date_iso": "2026-03-24T01:52:28+01:00",
+        "date_fr": "24/03/2026",
+        "pertinence": 0
+      },
+      {
+        "source": "Le Monde Éco",
+        "couleur": "#374151",
+        "emoji": "🌐",
+        "tag": "Presse économique",
+        "titre": "L’aéroport de LaGuardia, à New York, a rouvert lundi, au lendemain d’une collision mortelle",
+        "resume": "Des retards ou des annulations restaient à prévoir selon la direction de l’aéroport. Deux pilotes sont morts, dimanche, lorsque leur avion qui venait juste de se poser a été percuté par un camion de pompiers.",
+        "lien": "https://www.lemonde.fr/international/article/2026/03/24/l-aeroport-de-laguardia-a-new-york-a-rouvert-lundi-au-lendemain-d-une-collision-mortelle_6673989_3210.html",
+        "date_iso": "2026-03-24T00:47:02+01:00",
+        "date_fr": "24/03/2026",
+        "pertinence": 0
+      },
+      {
+        "source": "Le Figaro Éco",
+        "couleur": "#92400e",
+        "emoji": "📊",
+        "tag": "Presse économique",
+        "titre": "Des avions de plusieurs compagnies du Moyen-Orient mis à l'abri en Espagne",
+        "resume": "Une vingtaine d’avions de compagnies moyen-orientales sont stationnés à l’aéroport de Teruel en Espagne. Une «mesure temporaire», alors que la guerre entre les États-Unis et l’Iran rend le survol de la région très périlleux.",
+        "lien": "https://www.lefigaro.fr/conjoncture/des-avions-de-plusieurs-compagnies-du-moyen-orient-mis-a-l-abri-en-espagne-20260323",
+        "date_iso": "2026-03-23T22:21:05+01:00",
+        "date_fr": "23/03/2026",
+        "pertinence": 0
+      },
+      {
+        "source": "Le Monde Éco",
+        "couleur": "#374151",
+        "emoji": "🌐",
+        "tag": "Presse économique",
+        "titre": "Flambée des carburants : le gouvernement met la pression sur les raffineurs et annonce des mesures de soutien indirectes pour la pêche, l’agriculture et les transports",
+        "resume": "Le gouvernement Lecornu souhaite que les raffineurs augmentent temporairement leur production. Les entreprises de pêche et de transport et les exploitants agricoles pourront bénéficier d’un report de cotisations sociales, d’un « étalement des échéances fiscales » et de prêts par BPIfrance, la banque",
+        "lien": "https://www.lemonde.fr/economie/article/2026/03/23/flambee-des-carburants-le-gouvernement-met-la-pression-sur-les-raffineurs-et-annonce-des-mesures-de-soutien-indirectes-pour-la-peche-et-les-transports_6673986_3234.html",
+        "date_iso": "2026-03-23T22:17:32+01:00",
+        "date_fr": "23/03/2026",
+        "pertinence": 2
+      },
+      {
+        "source": "Le Figaro Éco",
+        "couleur": "#92400e",
+        "emoji": "📊",
+        "tag": "Presse économique",
+        "titre": "Transport : une voiture percutée par le RER D à Corbeil-Essonnes, d’importantes perturbations enregistrées",
+        "resume": "Le trafic est interrompu dans les deux sens entre Melun et Malesherbes jusqu’à 21 heures. Aucun décès n’est à déplorer.",
+        "lien": "https://www.lefigaro.fr/societes/transport-une-voiture-percutee-par-le-rer-d-a-corbeil-essonnes-d-importantes-perturbations-enregistrees-20260323",
+        "date_iso": "2026-03-23T22:10:07+01:00",
+        "date_fr": "23/03/2026",
+        "pertinence": 0
+      },
+      {
+        "source": "Le Figaro Éco",
+        "couleur": "#92400e",
+        "emoji": "📊",
+        "tag": "Presse économique",
+        "titre": "Carburants: le gouvernement français appelle les raffineurs à «augmenter rapidement» leur production",
+        "resume": "Le gouvernement, qui refuse à ce stade de baisser les taxes sur les carburants, espère que cela contribuera à «réduire les tensions sur les marchés européens» si cette situation venait à perdurer dans le temps.",
+        "lien": "https://www.lefigaro.fr/conjoncture/le-gouvernement-demande-aux-raffineurs-s-ils-peuvent-augmenter-rapidement-leur-production-20260323",
+        "date_iso": "2026-03-23T21:38:12+01:00",
+        "date_fr": "23/03/2026",
+        "pertinence": 1
+      },
+      {
+        "source": "Le Figaro Éco",
+        "couleur": "#92400e",
+        "emoji": "📊",
+        "tag": "Presse économique",
+        "titre": "Le chaud et le froid de Trump sur l’Iran déboussole les marchés financiers au cours d’une folle journée",
+        "resume": "DÉCRYPTAGE - La Bourse de Paris perdait 2 % à la mi-journée avant de rebondir dans le vert en réaction au revirement du président américain sur son ultimatum.",
+        "lien": "https://www.lefigaro.fr/societes/le-chaud-et-le-froid-de-trump-sur-l-iran-deboussole-les-marches-financiers-au-cours-d-une-folle-journee-20260323",
+        "date_iso": "2026-03-23T21:15:00+01:00",
+        "date_fr": "23/03/2026",
+        "pertinence": 0
+      },
+      {
+        "source": "Libération Éco",
+        "couleur": "#dc2626",
+        "emoji": "📰",
+        "tag": "Presse économique",
+        "titre": "Mort de Leo Radvinsky, propriétaire de la plateforme OnlyFans",
+        "resume": "L’homme avait racheté la maison mère du site en 2018, transformant Onlyfans en une plateforme de renommée mondiale, notamment connue pour ses contenus érotiques, valorisée à plusieurs milliards de dollars. Il est à mort à 43 ans des suites d’un cancer.",
+        "lien": "https://www.liberation.fr/economie/economie-numerique/mort-de-leo-radvinsky-proprietaire-de-la-plateforme-onlyfans-20260323_P42XMRLJFVC6ZN2FUMKXNNT7N4/",
+        "date_iso": "2026-03-23T20:15:24+00:00",
+        "date_fr": "23/03/2026",
+        "pertinence": 0
+      },
+      {
+        "source": "Le Figaro Éco",
+        "couleur": "#92400e",
+        "emoji": "📊",
+        "tag": "Presse économique",
+        "titre": "L’Arcom déplore « l’ampleur et la gravité » des propos masculinistes sur les réseaux sociaux",
+        "resume": "Le gendarme du numérique souhaite des avancées législatives pour renforcer la modération de ces contenus sexistes, prisés par les jeunes hommes.",
+        "lien": "https://www.lefigaro.fr/medias/l-arcom-deplore-l-ampleur-et-la-gravite-des-propos-masculinistes-sur-les-reseaux-sociaux-20260323",
+        "date_iso": "2026-03-23T19:54:44+01:00",
+        "date_fr": "23/03/2026",
+        "pertinence": 0
+      },
       {
         "source": "Le Figaro Éco",
         "couleur": "#92400e",
@@ -243,10 +471,22 @@
         "couleur": "#374151",
         "emoji": "🌐",
         "tag": "Presse économique",
-        "titre": "Avec l’annonce de l’entrée en vigueur du traité Mercosur au 1er mai et l’accord signé mardi avec l’Australie, l’UE accélère dans le libre-échange",
+        "titre": "Avec l’annonce de l’entrée en vigueur du traité Mercosur au 1ᵉʳ mai et l’accord signé mardi avec l’Australie, l’UE accélère dans le libre-échange",
         "resume": "Amérique du Sud, Inde et maintenant Australie. La présidente de la Commission, Ursula von der Leyen s’est félicitée, lundi, de la « trilogie commerciale » que Bruxelles a bâtie en quelques mois pour accélérer les échanges de l’UE avec le reste de la planète. Et ce malgré de fortes réticences, en par",
         "lien": "https://www.lemonde.fr/economie/article/2026/03/23/avec-l-annonce-de-l-entree-en-vigueur-du-traite-mercosur-au-1er-mai-et-l-accord-signe-mardi-avec-l-australie-l-union-europeenne-accelere-dans-le-libre-echange_6673973_3234.html",
         "date_iso": "2026-03-23T19:37:27+01:00",
+        "date_fr": "23/03/2026",
+        "pertinence": 1
+      },
+      {
+        "source": "Le Figaro Éco",
+        "couleur": "#92400e",
+        "emoji": "📊",
+        "tag": "Presse économique",
+        "titre": "Pourquoi la guerre au Moyen-Orient propulse le coût de la dette française à un record historique",
+        "resume": "DÉCRYPTAGE - Le rendement des obligations à dix ans a bondi à 3,87 %, son plus haut niveau depuis 2009, avant de retomber suite aux annonces du président américain sur un report de son ultimatum.",
+        "lien": "https://www.lefigaro.fr/conjoncture/pourquoi-la-guerre-au-moyen-orient-propulse-le-cout-de-la-dette-francaise-a-un-record-historique-20260323",
+        "date_iso": "2026-03-23T19:29:41+01:00",
         "date_fr": "23/03/2026",
         "pertinence": 1
       },
@@ -267,12 +507,12 @@
         "couleur": "#92400e",
         "emoji": "📊",
         "tag": "Presse économique",
-        "titre": "Carburants: le gouvernement français appelle les raffineurs à «augmenter rapidement» leur production",
-        "resume": "Le gouvernement espère que cela contribuera «à alléger la tension sur les marchés des produits raffinés en Europe» et à «réduire les tensions sur les marchés européens» si cette situation venait à perdurer dans le temps.",
-        "lien": "https://www.lefigaro.fr/conjoncture/le-gouvernement-demande-aux-raffineurs-s-ils-peuvent-augmenter-rapidement-leur-production-20260323",
-        "date_iso": "2026-03-23T19:13:23+01:00",
+        "titre": "Nouveaux porte-avions, sous-marins, frégates… Naval Group se met en ordre de marche face à l’afflux de commandes",
+        "resume": "DÉCRYPTAGE - Le leader européen du naval de défense, qui va construire notamment le successeur du « Charles de Gaulle », lance le plan Cap 2030 pour gagner en efficacité et en performance mais aussi moderniser ses chantiers.",
+        "lien": "https://www.lefigaro.fr/economie/nouveaux-porte-avions-sous-marins-fregates-naval-group-se-met-en-ordre-de-marche-face-a-l-afflux-de-commandes-20260323",
+        "date_iso": "2026-03-23T19:06:25+01:00",
         "date_fr": "23/03/2026",
-        "pertinence": 1
+        "pertinence": 0
       },
       {
         "source": "Le Figaro Éco",
@@ -283,6 +523,18 @@
         "resume": "Les déclarations du président américain sur des négociations avec Téhéran ont un temps dopé les marchés boursiers, avant que le démenti iranien ne sème le trouble.",
         "lien": "https://www.lefigaro.fr/conjoncture/les-bourses-europeennes-terminent-en-ordre-disperse-apres-les-propos-de-donald-trump-sur-l-iran-20260323",
         "date_iso": "2026-03-23T19:04:02+01:00",
+        "date_fr": "23/03/2026",
+        "pertinence": 1
+      },
+      {
+        "source": "Le Figaro Éco",
+        "couleur": "#92400e",
+        "emoji": "📊",
+        "tag": "Presse économique",
+        "titre": "Listériose : après la découverte de douze cas, dont deux morts, le parquet de Marseille ouvre une information judiciaire",
+        "resume": "Sur les 12 cas enregistrés de septembre à janvier, sept datent de janvier. L’âge médian des patients est de 81 ans. Deux personnes de plus de 75 ans et «présentant des comorbidités» sont décédées",
+        "lien": "https://www.lefigaro.fr/conso/listeriose-apres-la-decouverte-de-douze-cas-dont-deux-morts-le-parquet-de-marseille-ouvre-une-information-judiciaire-20260323",
+        "date_iso": "2026-03-23T18:41:38+01:00",
         "date_fr": "23/03/2026",
         "pertinence": 1
       },
@@ -345,234 +597,6 @@
         "date_iso": "2026-03-23T17:44:41+00:00",
         "date_fr": "23/03/2026",
         "pertinence": 2
-      },
-      {
-        "source": "Le Figaro Éco",
-        "couleur": "#92400e",
-        "emoji": "📊",
-        "tag": "Presse économique",
-        "titre": "«Certains n’ont plus rien»: à Perpignan, une escroquerie à l’or fait une soixantaine de victimes, 4,7 millions d’euros de préjudice",
-        "resume": "À Perpignan, une boutique d’achat et de revente d’or est soupçonnée d’avoir mis en place une vaste escroquerie aux pièces d’or ayant fait une soixantaine de victimes.",
-        "lien": "https://www.lefigaro.fr/conjoncture/certains-n-ont-plus-rien-a-perpignan-une-escroquerie-a-l-or-fait-une-soixantaine-de-victimes-4-7-millions-d-euros-de-prejudice-20260323",
-        "date_iso": "2026-03-23T17:31:58+01:00",
-        "date_fr": "23/03/2026",
-        "pertinence": 0
-      },
-      {
-        "source": "Le Monde Éco",
-        "couleur": "#374151",
-        "emoji": "🌐",
-        "tag": "Presse économique",
-        "titre": "TotalEnergies et l’administration Trump concluent un accord d’environ 1 milliard de dollars pour annuler des projets éoliens en mer",
-        "resume": "Le groupe français récupérera chaque dollar et investira en particulier pour accélérer des projets de gaz naturel liquéfié (GNL) aux Etats-Unis, a expliqué son patron, Patrick Pouyanné.",
-        "lien": "https://www.lemonde.fr/economie/article/2026/03/23/totalenergies-et-l-administration-trump-concluent-un-accord-d-environ-1-milliard-de-dollars-pour-annuler-des-projets-eoliens-en-mer_6673952_3234.html",
-        "date_iso": "2026-03-23T17:16:54+01:00",
-        "date_fr": "23/03/2026",
-        "pertinence": 1
-      },
-      {
-        "source": "Le Monde Éco",
-        "couleur": "#374151",
-        "emoji": "🌐",
-        "tag": "Presse économique",
-        "titre": "L’Etat italien veut prendre le contrôle total de Telecom Italia",
-        "resume": "Le lancement d’une offre publique d’achat d’un montant de 10,8 milliards d’euros de Poste Italiane sur Telecom Italia démontre la volonté de Rome de prendre seul les rênes de cet opérateur historique, dont l’activité est jugée stratégique pour la souveraineté du pays.",
-        "lien": "https://www.lemonde.fr/economie/article/2026/03/23/l-etat-italien-veut-prendre-le-controle-total-de-telecom-italia_6673951_3234.html",
-        "date_iso": "2026-03-23T17:15:08+01:00",
-        "date_fr": "23/03/2026",
-        "pertinence": 0
-      },
-      {
-        "source": "Le Figaro Éco",
-        "couleur": "#92400e",
-        "emoji": "📊",
-        "tag": "Presse économique",
-        "titre": "La guerre au Moyen-Orient inquiète les vacanciers, se replieront-ils sur la France cet été ? Tout n’est pas si simple",
-        "resume": "Les professionnels constatent un léger sursaut de réservations vers la France et l’Europe en général, perçus comme «destinations refuge». Mais la situation internationale crée surtout de l’attentisme pour les vacances d’été.",
-        "lien": "https://www.lefigaro.fr/voyages/guides/la-guerre-au-moyen-orient-inquiete-les-vacanciers-se-replieront-ils-sur-la-france-cet-ete-tout-n-est-pas-si-simple-20260323",
-        "date_iso": "2026-03-23T17:01:53+01:00",
-        "date_fr": "23/03/2026",
-        "pertinence": 0
-      },
-      {
-        "source": "Institut Montaigne",
-        "couleur": "#1d4ed8",
-        "emoji": "🏛️",
-        "tag": "Recherche économique",
-        "titre": "CDD de remplacement - Chargé(e) de projets - Communication et relations presse",
-        "resume": "Nature : CDD de remplacement, temps complet ; Lieu : Paris 8e, jusqu’à deux jours de télétravail par semaine ; Domaine : Communication / Relations presse ; Date de prise de poste : dès que possible ; Durée du contrat : durée minimale de 3 mois. Dans le cadre du remplacement d’une salariée actuelleme",
-        "lien": "https://www.institutmontaigne.org/recrutement/23-03-2026-cdd-de-remplacement-chargee-de-projets-communication-et-relations-presse",
-        "date_iso": "2026-03-23T16:28:49+01:00",
-        "date_fr": "23/03/2026",
-        "pertinence": 1
-      },
-      {
-        "source": "Libération Éco",
-        "couleur": "#dc2626",
-        "emoji": "📰",
-        "tag": "Presse économique",
-        "titre": "Prix des carburants : «carte numérique», taxe sur les «surprofits», crédit d’impôt… Les mesures prises par nos voisins européens pour le pouvoir d’achat",
-        "resume": "Alors que la France se refuse toujours à baisser les taxes sur les carburants, beaucoup de pays européens ont déjà passé le pas. Comme en Espagne, où le gouvernement socialiste met en place un «bouclier social et économique» ambitieux.",
-        "lien": "https://www.liberation.fr/economie/conso/prix-des-carburants-carte-numerique-taxe-sur-les-surprofits-credit-dimpot-les-mesures-prises-par-nos-voisins-europeens-pour-le-pouvoir-dachat-20260323_PA25OL5LDBBZVMQMIDUH6JIPPM/",
-        "date_iso": "2026-03-23T16:09:42+00:00",
-        "date_fr": "23/03/2026",
-        "pertinence": 0
-      },
-      {
-        "source": "Le Figaro Éco",
-        "couleur": "#92400e",
-        "emoji": "📊",
-        "tag": "Presse économique",
-        "titre": "Pourquoi la France n’est pas si bien partie pour héberger l’un des «méga data center» de l’IA voulu par Bruxelles",
-        "resume": "ENQUÊTE - En retard face aux États-Unis et à la Chine, la Commission veut voir sortir de terre à travers le continent des centres de données souverains à plus de 10 milliards d’euros l’unité. La compétition entre États membres, appuyés par leurs géants industriels, est féroce.",
-        "lien": "https://www.lefigaro.fr/secteur/high-tech/pourquoi-la-france-n-est-pas-si-bien-partie-pour-heberger-l-un-des-mega-data-center-de-l-ia-voulu-par-bruxelles-20260323",
-        "date_iso": "2026-03-23T16:00:00+01:00",
-        "date_fr": "23/03/2026",
-        "pertinence": 0
-      },
-      {
-        "source": "Le Figaro Éco",
-        "couleur": "#92400e",
-        "emoji": "📊",
-        "tag": "Presse économique",
-        "titre": "Agneau, bœuf, lithium... Que contient l'accord commercial entre l’UE et Australie, sur le point d’être signé ?",
-        "resume": "La présidente de la Commission européenne, Ursula von der Leyen, est arrivée ce lundi en Australie, pour une visite de trois jours lors de laquelle elle espère régler les derniers détails d’un projet d’accord de libre-échange, en négociations depuis 2018.",
-        "lien": "https://www.lefigaro.fr/conjoncture/agneau-boeuf-lithium-que-contient-l-accord-commercial-entre-l-ue-et-australie-sur-le-point-d-etre-signe-20260323",
-        "date_iso": "2026-03-23T15:51:03+01:00",
-        "date_fr": "23/03/2026",
-        "pertinence": 2
-      },
-      {
-        "source": "Euractiv FR",
-        "couleur": "#0369a1",
-        "emoji": "🇪🇺",
-        "tag": "Europe & politique",
-        "titre": "L oléoduc de Schrödinger : pourquoi le bras de fer entre l Ukraine et la Hongrie n est pas un mystère quantique",
-        "resume": "La réticence de Kiev à réparer un oléoduc essentiel reliant la ville à Budapest s'explique parfaitement : elle n'a pas besoin d'argent – pour l'instant The post L&rsquo;oléoduc de Schrödinger : pourquoi le bras de fer entre l&rsquo;Ukraine et la Hongrie n&rsquo;est pas un mystère quantique appeared ",
-        "lien": "https://euractiv.fr/news/loleoduc-de-schrodinger-pourquoi-le-bras-de-fer-entre-lukraine-et-la-hongrie-nest-pas-un-mystere-quantique/",
-        "date_iso": "2026-03-23T15:43:05+00:00",
-        "date_fr": "23/03/2026",
-        "pertinence": 0
-      },
-      {
-        "source": "Le Monde Éco",
-        "couleur": "#374151",
-        "emoji": "🌐",
-        "tag": "Presse économique",
-        "titre": "Face à la crise du petit commerce, la piste de l’encadrement des loyers",
-        "resume": "Après l’Assemblée nationale, qui a lancé, en février, une mission d’information sur l’avenir des commerces de proximité, le Sénat doit examiner, mercredi, une proposition de loi pour encadrer les loyers des baux commerciaux. Une urgence, alors que le taux de vacance commerciale en France atteint des",
-        "lien": "https://www.lemonde.fr/economie/article/2026/03/23/face-a-la-crise-du-petit-commerce-la-piste-de-l-encadrement-des-loyers_6673930_3234.html",
-        "date_iso": "2026-03-23T15:28:30+01:00",
-        "date_fr": "23/03/2026",
-        "pertinence": 2
-      },
-      {
-        "source": "Euractiv FR",
-        "couleur": "#0369a1",
-        "emoji": "🇪🇺",
-        "tag": "Europe & politique",
-        "titre": "L accord commercial entre l UE et le Mercosur entrera en vigueur à titre provisoire à compter du 1er mai",
-        "resume": "L'UE affirme que les entreprises, les consommateurs et les agriculteurs peuvent en bénéficier immédiatement The post L&rsquo;accord commercial entre l&rsquo;UE et le Mercosur entrera en vigueur à titre provisoire à compter du 1er mai appeared first on Euractiv FR .",
-        "lien": "https://euractiv.fr/news/laccord-commercial-entre-lue-et-le-mercosur-entrera-en-vigueur-a-titre-provisoire-a-compter-du-1er-mai/",
-        "date_iso": "2026-03-23T15:18:10+00:00",
-        "date_fr": "23/03/2026",
-        "pertinence": 2
-      },
-      {
-        "source": "Euractiv FR",
-        "couleur": "#0369a1",
-        "emoji": "🇪🇺",
-        "tag": "Europe & politique",
-        "titre": "L’UE exige une « réforme sérieuse » de l’OMC pour freiner l’invasion des exportations chinoises",
-        "resume": "Maroš Šefčovič va réclamer un « nouvel équilibre » dans les règles du commerce international afin de contenir Pékin The post L’UE exige une « réforme sérieuse » de l’OMC pour freiner l’invasion des exportations chinoises appeared first on Euractiv FR .",
-        "lien": "https://euractiv.fr/news/lue-exige-une-reforme-serieuse-de-lomc-pour-freiner-linvasion-des-exportations-chinoises/",
-        "date_iso": "2026-03-23T15:07:00+00:00",
-        "date_fr": "23/03/2026",
-        "pertinence": 1
-      },
-      {
-        "source": "Le Figaro Éco",
-        "couleur": "#92400e",
-        "emoji": "📊",
-        "tag": "Presse économique",
-        "titre": "OnlyFans : le très discret propriétaire milliardaire, Leonid Radvinsky, meurt d’un cancer à 43 ans",
-        "resume": "L’investisseur ukraino-américain avait acquis une participation majoritaire dans l’entreprise en 2018. À sa tête, il a fait de l’application, connue pour ses contenus pornographiques, un phénomène mondial.",
-        "lien": "https://www.lefigaro.fr/secteur/high-tech/onlyfans-le-tres-discret-proprietaire-milliardaire-leonid-radvinsky-meurt-d-un-cancer-a-43-ans-20260323",
-        "date_iso": "2026-03-23T14:57:32+01:00",
-        "date_fr": "23/03/2026",
-        "pertinence": 1
-      },
-      {
-        "source": "Euractiv FR",
-        "couleur": "#0369a1",
-        "emoji": "🇪🇺",
-        "tag": "Europe & politique",
-        "titre": "Un train tue trois bisons rares dans l’est de la Pologne",
-        "resume": "« Je ne me souviens pas d'un accident où trois bisons auraient été tués en même temps, écrasés par un train. » The post Un train tue trois bisons rares dans l’est de la Pologne appeared first on Euractiv FR .",
-        "lien": "https://euractiv.fr/news/un-train-tue-trois-bisons-rares-dans-lest-de-la-pologne/",
-        "date_iso": "2026-03-23T14:51:50+00:00",
-        "date_fr": "23/03/2026",
-        "pertinence": 0
-      },
-      {
-        "source": "Le Monde Éco",
-        "couleur": "#374151",
-        "emoji": "🌐",
-        "tag": "Presse économique",
-        "titre": "« Les pays européens devraient intégrer les droits humains à leurs politiques économiques et étrangères »",
-        "resume": "Alors que le modèle économique chinois repose sur un système répressif – interdiction des syndicats, exploitation des migrants, travail forcé… –, l’Union européenne devrait renforcer la loi sur le devoir de vigilance, affirment, dans une tribune au « Monde », Bénédicte Jeannerod et Maya Wang, de Hum",
-        "lien": "https://www.lemonde.fr/idees/article/2026/03/23/les-pays-europeens-devraient-integrer-les-droits-humains-a-leurs-politiques-economiques-et-etrangeres_6673920_3232.html",
-        "date_iso": "2026-03-23T14:30:07+01:00",
-        "date_fr": "23/03/2026",
-        "pertinence": 1
-      },
-      {
-        "source": "Euractiv FR",
-        "couleur": "#0369a1",
-        "emoji": "🇪🇺",
-        "tag": "Europe & politique",
-        "titre": "Trump suspend sa menace de « réduire en cendres » les centrales électriques iraniennes dans l attente de nouvelles négociations",
-        "resume": "Le moment choisi pour sa menace initiale laissait entendre que l'échéance était fixée à 23 h 44 GMT lundi The post Trump suspend sa menace de « réduire en cendres » les centrales électriques iraniennes dans l&rsquo;attente de nouvelles négociations appeared first on Euractiv FR .",
-        "lien": "https://euractiv.fr/news/trump-suspend-sa-menace-de-reduire-en-cendres-les-centrales-electriques-iraniennes-dans-lattente-de-nouvelles-negociations/",
-        "date_iso": "2026-03-23T14:29:00+00:00",
-        "date_fr": "23/03/2026",
-        "pertinence": 1
-      },
-      {
-        "source": "Le Monde Éco",
-        "couleur": "#374151",
-        "emoji": "🌐",
-        "tag": "Presse économique",
-        "titre": "VIDEO Les images après la collision entre un avion et un véhicule de secours à LaGuardia",
-        "resume": "Selon plusieurs médias américains, un pilote et un copilote seraient morts. La chaîne ABC a précisé que 13 personnes étaient hospitalisées, dont 11 passagers et les 2 personnes qui étaient dans le véhicule.",
-        "lien": "https://www.lemonde.fr/international/video/2026/03/23/laguardia-les-images-apres-la-collision-entre-un-avion-et-un-vehicule-de-secours_6673917_3210.html",
-        "date_iso": "2026-03-23T14:18:17+01:00",
-        "date_fr": "23/03/2026",
-        "pertinence": 0
-      },
-      {
-        "source": "Le Monde Éco",
-        "couleur": "#374151",
-        "emoji": "🌐",
-        "tag": "Presse économique",
-        "titre": "Comment le Texas, cet Etat pétrolier des Etats-Unis, attire des entreprises américaines de tous les secteurs",
-        "resume": "La CERAWeek, l’une des plus importantes conférences du secteur énergétique, se tient à partir de lundi 23 mars à Houston, dans le « Lone Star State ». Cet Etat à l’identité façonnée par la production d’hydrocarbures a su diversifier son économie grâce à des réglementations favorables aux entreprises",
-        "lien": "https://www.lemonde.fr/economie/article/2026/03/23/comment-le-texas-cet-etat-petrolier-des-etats-unis-attire-des-entreprises-americaines-de-tous-les-secteurs_6673916_3234.html",
-        "date_iso": "2026-03-23T14:00:16+01:00",
-        "date_fr": "23/03/2026",
-        "pertinence": 1
-      },
-      {
-        "source": "Euractiv FR",
-        "couleur": "#0369a1",
-        "emoji": "🇪🇺",
-        "tag": "Europe & politique",
-        "titre": "Frederiksen en passe d obtenir un troisième mandat alors que le Danemark se rend aux urnes",
-        "resume": "Le pari des élections anticipées semble sur le point de porter ses fruits, malgré le recul de la popularité des sociaux-démocrates de la Première ministre danoise The post Frederiksen en passe d&rsquo;obtenir un troisième mandat alors que le Danemark se rend aux urnes appeared first on Euractiv FR .",
-        "lien": "https://euractiv.fr/news/frederiksen-en-passe-dobtenir-un-troisieme-mandat-alors-que-le-danemark-se-rend-aux-urnes/",
-        "date_iso": "2026-03-23T14:00:06+00:00",
-        "date_fr": "23/03/2026",
-        "pertinence": 0
       }
     ]
   },
@@ -690,58 +714,63 @@
   "chomage": [
     {
       "trimestre": "T1 2023",
-      "taux": 7.1,
-      "jeunes": 17.5
+      "taux": 6.9,
+      "jeunes": 16.6
     },
     {
       "trimestre": "T2 2023",
-      "taux": 7.2,
-      "jeunes": 17.0
+      "taux": 7.0,
+      "jeunes": 17.1
     },
     {
       "trimestre": "T3 2023",
-      "taux": 7.4,
-      "jeunes": 17.6
+      "taux": 7.2,
+      "jeunes": 17.4
     },
     {
       "trimestre": "T4 2023",
-      "taux": 7.5,
+      "taux": 7.3,
       "jeunes": 17.6
     },
     {
       "trimestre": "T1 2024",
-      "taux": 7.5,
+      "taux": 7.3,
       "jeunes": 18.1
     },
     {
       "trimestre": "T2 2024",
-      "taux": 7.3,
-      "jeunes": 17.7
+      "taux": 7.1,
+      "jeunes": 18.0
     },
     {
       "trimestre": "T3 2024",
-      "taux": 7.4,
-      "jeunes": 18.3
+      "taux": 7.2,
+      "jeunes": 19.7
     },
     {
       "trimestre": "T4 2024",
-      "taux": 7.3,
-      "jeunes": 19.0
+      "taux": 7.1,
+      "jeunes": 18.7
     },
     {
       "trimestre": "T1 2025",
-      "taux": 7.4,
-      "jeunes": 18.5
+      "taux": 7.3,
+      "jeunes": 19.2
     },
     {
       "trimestre": "T2 2025",
-      "taux": 7.5,
-      "jeunes": 18.8
+      "taux": 7.4,
+      "jeunes": 19.1
     },
     {
       "trimestre": "T3 2025",
+      "taux": 7.5,
+      "jeunes": 19.1
+    },
+    {
+      "trimestre": "T4 2025",
       "taux": 7.7,
-      "jeunes": 19.2
+      "jeunes": 21.5
     }
   ],
   "smic": {
@@ -816,14 +845,14 @@
   ],
   "indicateurs_cles": {
     "taux_chomage_actuel": 7.7,
-    "taux_chomage_jeunes": 19.2,
+    "taux_chomage_jeunes": 21.5,
     "taux_emploi_seniors": 61.7,
     "inflation_annuelle": 0.9,
     "smic_brut": 1823.03,
     "smic_net": 1443.11,
     "salaire_median": 2190,
     "salaire_moyen": 2733,
-    "ecart_hf_eqtp": 25.8,
+    "ecart_hf_eqtp": 14.0,
     "difficultes_recrutement": 61,
     "irl_glissement": 0.79,
     "prix_gazole": 1.65,
@@ -863,36 +892,36 @@
   },
   "ecart_hommes_femmes": {
     "ecart_global": 21.8,
-    "ecart_eqtp": 25.8,
+    "ecart_eqtp": 14.0,
     "ecart_poste_comparable": 4.0,
     "evolution": [
       {
-        "annee": "2018",
-        "ecart": 23.2
+        "annee": "2015",
+        "ecart": 18.4
+      },
+      {
+        "annee": "2017",
+        "ecart": 16.6
       },
       {
         "annee": "2019",
-        "ecart": 23.8
-      },
-      {
-        "annee": "2020",
-        "ecart": 24.5
+        "ecart": 16.1
       },
       {
         "annee": "2021",
-        "ecart": 24.3
+        "ecart": 15.5
       },
       {
         "annee": "2022",
-        "ecart": 25.1
+        "ecart": 14.9
       },
       {
         "annee": "2023",
-        "ecart": 25.6
+        "ecart": 14.2
       },
       {
         "annee": "2024",
-        "ecart": 25.8
+        "ecart": 14.0
       }
     ]
   },
@@ -993,7 +1022,7 @@
     },
     {
       "trimestre": "T2 2023",
-      "taux": 4.9
+      "taux": 5.1
     },
     {
       "trimestre": "T3 2023",
@@ -1005,19 +1034,19 @@
     },
     {
       "trimestre": "T1 2024",
-      "taux": 4.8
+      "taux": 5.0
     },
     {
       "trimestre": "T2 2024",
-      "taux": 4.9
+      "taux": 5.1
     },
     {
       "trimestre": "T3 2024",
-      "taux": 4.5
+      "taux": 5.2
     },
     {
       "trimestre": "T4 2024",
-      "taux": 4.6
+      "taux": 5.2
     },
     {
       "trimestre": "T1 2025",
@@ -2204,406 +2233,406 @@
   },
   "marches_financiers": {
     "oat_10ans": {
-      "valeur": 3.025,
-      "date": "2026-03-20",
+      "valeur": 3.035,
+      "date": "2026-03-23",
       "unite": "%",
       "source": "Valeur statique (fallback)",
-      "nb_points": 260,
+      "nb_points": 261,
       "historique": [
         {
           "date": "2025-03-24",
-          "valeur": 3.005,
+          "valeur": 3.0,
           "ma50": null,
           "ma200": null
         },
         {
           "date": "2025-03-25",
-          "valeur": 3.011,
+          "valeur": 3.005,
           "ma50": null,
           "ma200": null
         },
         {
           "date": "2025-03-26",
-          "valeur": 3.016,
+          "valeur": 3.011,
           "ma50": null,
           "ma200": null
         },
         {
           "date": "2025-03-27",
-          "valeur": 3.021,
+          "valeur": 3.016,
           "ma50": null,
           "ma200": null
         },
         {
           "date": "2025-03-28",
-          "valeur": 3.026,
+          "valeur": 3.021,
           "ma50": null,
           "ma200": null
         },
         {
           "date": "2025-03-31",
-          "valeur": 3.042,
+          "valeur": 3.037,
           "ma50": null,
           "ma200": null
         },
         {
           "date": "2025-04-01",
-          "valeur": 3.047,
+          "valeur": 3.042,
           "ma50": null,
           "ma200": null
         },
         {
           "date": "2025-04-02",
-          "valeur": 3.053,
+          "valeur": 3.047,
           "ma50": null,
           "ma200": null
         },
         {
           "date": "2025-04-03",
-          "valeur": 3.058,
+          "valeur": 3.053,
           "ma50": null,
           "ma200": null
         },
         {
           "date": "2025-04-04",
-          "valeur": 3.063,
+          "valeur": 3.058,
           "ma50": null,
           "ma200": null
         },
         {
           "date": "2025-04-07",
-          "valeur": 3.078,
+          "valeur": 3.073,
           "ma50": null,
           "ma200": null
         },
         {
           "date": "2025-04-08",
-          "valeur": 3.083,
+          "valeur": 3.078,
           "ma50": null,
           "ma200": null
         },
         {
           "date": "2025-04-09",
-          "valeur": 3.089,
+          "valeur": 3.083,
           "ma50": null,
           "ma200": null
         },
         {
           "date": "2025-04-10",
-          "valeur": 3.094,
+          "valeur": 3.089,
           "ma50": null,
           "ma200": null
         },
         {
           "date": "2025-04-11",
-          "valeur": 3.099,
+          "valeur": 3.094,
           "ma50": null,
           "ma200": null
         },
         {
           "date": "2025-04-14",
-          "valeur": 3.114,
+          "valeur": 3.109,
           "ma50": null,
           "ma200": null
         },
         {
           "date": "2025-04-15",
-          "valeur": 3.119,
+          "valeur": 3.114,
           "ma50": null,
           "ma200": null
         },
         {
           "date": "2025-04-16",
-          "valeur": 3.123,
+          "valeur": 3.119,
           "ma50": null,
           "ma200": null
         },
         {
           "date": "2025-04-17",
-          "valeur": 3.128,
+          "valeur": 3.123,
           "ma50": null,
           "ma200": null
         },
         {
           "date": "2025-04-18",
-          "valeur": 3.133,
+          "valeur": 3.128,
           "ma50": null,
           "ma200": null
         },
         {
           "date": "2025-04-21",
-          "valeur": 3.147,
+          "valeur": 3.143,
           "ma50": null,
           "ma200": null
         },
         {
           "date": "2025-04-22",
-          "valeur": 3.152,
+          "valeur": 3.147,
           "ma50": null,
           "ma200": null
         },
         {
           "date": "2025-04-23",
-          "valeur": 3.157,
+          "valeur": 3.152,
           "ma50": null,
           "ma200": null
         },
         {
           "date": "2025-04-24",
-          "valeur": 3.161,
+          "valeur": 3.157,
           "ma50": null,
           "ma200": null
         },
         {
           "date": "2025-04-25",
-          "valeur": 3.166,
+          "valeur": 3.161,
           "ma50": null,
           "ma200": null
         },
         {
           "date": "2025-04-28",
-          "valeur": 3.179,
+          "valeur": 3.175,
           "ma50": null,
           "ma200": null
         },
         {
           "date": "2025-04-29",
-          "valeur": 3.184,
+          "valeur": 3.179,
           "ma50": null,
           "ma200": null
         },
         {
           "date": "2025-04-30",
-          "valeur": 3.188,
+          "valeur": 3.184,
           "ma50": null,
           "ma200": null
         },
         {
           "date": "2025-05-01",
-          "valeur": 3.192,
+          "valeur": 3.188,
           "ma50": null,
           "ma200": null
         },
         {
           "date": "2025-05-02",
-          "valeur": 3.196,
+          "valeur": 3.192,
           "ma50": null,
           "ma200": null
         },
         {
           "date": "2025-05-05",
-          "valeur": 3.209,
+          "valeur": 3.205,
           "ma50": null,
           "ma200": null
         },
         {
           "date": "2025-05-06",
-          "valeur": 3.213,
+          "valeur": 3.209,
           "ma50": null,
           "ma200": null
         },
         {
           "date": "2025-05-07",
-          "valeur": 3.217,
+          "valeur": 3.213,
           "ma50": null,
           "ma200": null
         },
         {
           "date": "2025-05-08",
-          "valeur": 3.221,
+          "valeur": 3.217,
           "ma50": null,
           "ma200": null
         },
         {
           "date": "2025-05-09",
-          "valeur": 3.225,
+          "valeur": 3.221,
           "ma50": null,
           "ma200": null
         },
         {
           "date": "2025-05-12",
-          "valeur": 3.236,
+          "valeur": 3.232,
           "ma50": null,
           "ma200": null
         },
         {
           "date": "2025-05-13",
-          "valeur": 3.239,
+          "valeur": 3.236,
           "ma50": null,
           "ma200": null
         },
         {
           "date": "2025-05-14",
-          "valeur": 3.243,
+          "valeur": 3.239,
           "ma50": null,
           "ma200": null
         },
         {
           "date": "2025-05-15",
-          "valeur": 3.246,
+          "valeur": 3.243,
           "ma50": null,
           "ma200": null
         },
         {
           "date": "2025-05-16",
-          "valeur": 3.25,
+          "valeur": 3.246,
           "ma50": null,
           "ma200": null
         },
         {
           "date": "2025-05-19",
-          "valeur": 3.26,
+          "valeur": 3.256,
           "ma50": null,
           "ma200": null
         },
         {
           "date": "2025-05-20",
-          "valeur": 3.263,
+          "valeur": 3.26,
           "ma50": null,
           "ma200": null
         },
         {
           "date": "2025-05-21",
-          "valeur": 3.266,
+          "valeur": 3.263,
           "ma50": null,
           "ma200": null
         },
         {
           "date": "2025-05-22",
-          "valeur": 3.269,
+          "valeur": 3.266,
           "ma50": null,
           "ma200": null
         },
         {
           "date": "2025-05-23",
-          "valeur": 3.272,
+          "valeur": 3.269,
           "ma50": null,
           "ma200": null
         },
         {
           "date": "2025-05-26",
-          "valeur": 3.28,
+          "valeur": 3.277,
           "ma50": null,
           "ma200": null
         },
         {
           "date": "2025-05-27",
-          "valeur": 3.283,
+          "valeur": 3.28,
           "ma50": null,
           "ma200": null
         },
         {
           "date": "2025-05-28",
-          "valeur": 3.285,
+          "valeur": 3.283,
           "ma50": null,
           "ma200": null
         },
         {
           "date": "2025-05-29",
-          "valeur": 3.288,
+          "valeur": 3.285,
           "ma50": null,
           "ma200": null
         },
         {
           "date": "2025-05-30",
-          "valeur": 3.29,
+          "valeur": 3.288,
           "ma50": 3.16,
           "ma200": null
         },
         {
           "date": "2025-06-02",
-          "valeur": 3.297,
+          "valeur": 3.295,
           "ma50": 3.17,
           "ma200": null
         },
         {
           "date": "2025-06-03",
+          "valeur": 3.297,
+          "ma50": 3.17,
+          "ma200": null
+        },
+        {
+          "date": "2025-06-04",
           "valeur": 3.299,
           "ma50": 3.18,
           "ma200": null
         },
         {
-          "date": "2025-06-04",
+          "date": "2025-06-05",
           "valeur": 3.301,
           "ma50": 3.18,
           "ma200": null
         },
         {
-          "date": "2025-06-05",
+          "date": "2025-06-06",
           "valeur": 3.303,
           "ma50": 3.19,
           "ma200": null
         },
         {
-          "date": "2025-06-06",
-          "valeur": 3.305,
+          "date": "2025-06-09",
+          "valeur": 3.309,
           "ma50": 3.19,
           "ma200": null
         },
         {
-          "date": "2025-06-09",
+          "date": "2025-06-10",
           "valeur": 3.31,
           "ma50": 3.2,
           "ma200": null
         },
         {
-          "date": "2025-06-10",
+          "date": "2025-06-11",
           "valeur": 3.312,
           "ma50": 3.2,
           "ma200": null
         },
         {
-          "date": "2025-06-11",
+          "date": "2025-06-12",
           "valeur": 3.313,
           "ma50": 3.21,
           "ma200": null
         },
         {
-          "date": "2025-06-12",
+          "date": "2025-06-13",
           "valeur": 3.315,
           "ma50": 3.21,
           "ma200": null
         },
         {
-          "date": "2025-06-13",
-          "valeur": 3.316,
-          "ma50": 3.22,
-          "ma200": null
-        },
-        {
           "date": "2025-06-16",
-          "valeur": 3.32,
+          "valeur": 3.319,
           "ma50": 3.22,
           "ma200": null
         },
         {
           "date": "2025-06-17",
-          "valeur": 3.321,
-          "ma50": 3.23,
+          "valeur": 3.32,
+          "ma50": 3.22,
           "ma200": null
         },
         {
           "date": "2025-06-18",
-          "valeur": 3.322,
+          "valeur": 3.321,
           "ma50": 3.23,
           "ma200": null
         },
         {
           "date": "2025-06-19",
           "valeur": 3.322,
-          "ma50": 3.24,
+          "ma50": 3.23,
           "ma200": null
         },
         {
           "date": "2025-06-20",
-          "valeur": 3.323,
+          "valeur": 3.322,
           "ma50": 3.24,
           "ma200": null
         },
         {
           "date": "2025-06-23",
-          "valeur": 3.325,
-          "ma50": 3.25,
+          "valeur": 3.324,
+          "ma50": 3.24,
           "ma200": null
         },
         {
@@ -2614,7 +2643,7 @@
         },
         {
           "date": "2025-06-25",
-          "valeur": 3.326,
+          "valeur": 3.325,
           "ma50": 3.25,
           "ma200": null
         },
@@ -2633,7 +2662,7 @@
         {
           "date": "2025-06-30",
           "valeur": 3.326,
-          "ma50": 3.27,
+          "ma50": 3.26,
           "ma200": null
         },
         {
@@ -2650,8 +2679,8 @@
         },
         {
           "date": "2025-07-03",
-          "valeur": 3.325,
-          "ma50": 3.28,
+          "valeur": 3.326,
+          "ma50": 3.27,
           "ma200": null
         },
         {
@@ -2662,7 +2691,7 @@
         },
         {
           "date": "2025-07-07",
-          "valeur": 3.323,
+          "valeur": 3.324,
           "ma50": 3.28,
           "ma200": null
         },
@@ -2674,691 +2703,691 @@
         },
         {
           "date": "2025-07-09",
-          "valeur": 3.322,
+          "valeur": 3.323,
           "ma50": 3.29,
           "ma200": null
         },
         {
           "date": "2025-07-10",
-          "valeur": 3.321,
+          "valeur": 3.322,
           "ma50": 3.29,
           "ma200": null
         },
         {
           "date": "2025-07-11",
-          "valeur": 3.32,
+          "valeur": 3.321,
           "ma50": 3.29,
           "ma200": null
         },
         {
           "date": "2025-07-14",
-          "valeur": 3.316,
+          "valeur": 3.318,
           "ma50": 3.29,
           "ma200": null
         },
         {
           "date": "2025-07-15",
+          "valeur": 3.316,
+          "ma50": 3.29,
+          "ma200": null
+        },
+        {
+          "date": "2025-07-16",
           "valeur": 3.315,
           "ma50": 3.3,
           "ma200": null
         },
         {
-          "date": "2025-07-16",
+          "date": "2025-07-17",
           "valeur": 3.314,
           "ma50": 3.3,
           "ma200": null
         },
         {
-          "date": "2025-07-17",
+          "date": "2025-07-18",
           "valeur": 3.312,
           "ma50": 3.3,
           "ma200": null
         },
         {
-          "date": "2025-07-18",
-          "valeur": 3.311,
-          "ma50": 3.3,
-          "ma200": null
-        },
-        {
           "date": "2025-07-21",
-          "valeur": 3.306,
+          "valeur": 3.307,
           "ma50": 3.3,
           "ma200": null
         },
         {
           "date": "2025-07-22",
-          "valeur": 3.304,
+          "valeur": 3.306,
           "ma50": 3.3,
           "ma200": null
         },
         {
           "date": "2025-07-23",
+          "valeur": 3.304,
+          "ma50": 3.3,
+          "ma200": null
+        },
+        {
+          "date": "2025-07-24",
           "valeur": 3.302,
           "ma50": 3.31,
           "ma200": null
         },
         {
-          "date": "2025-07-24",
+          "date": "2025-07-25",
           "valeur": 3.3,
           "ma50": 3.31,
           "ma200": null
         },
         {
-          "date": "2025-07-25",
-          "valeur": 3.298,
-          "ma50": 3.31,
-          "ma200": null
-        },
-        {
           "date": "2025-07-28",
-          "valeur": 3.291,
+          "valeur": 3.293,
           "ma50": 3.31,
           "ma200": null
         },
         {
           "date": "2025-07-29",
-          "valeur": 3.289,
+          "valeur": 3.291,
           "ma50": 3.31,
           "ma200": null
         },
         {
           "date": "2025-07-30",
-          "valeur": 3.286,
+          "valeur": 3.289,
           "ma50": 3.31,
           "ma200": null
         },
         {
           "date": "2025-07-31",
-          "valeur": 3.284,
+          "valeur": 3.286,
           "ma50": 3.31,
           "ma200": null
         },
         {
           "date": "2025-08-01",
-          "valeur": 3.281,
+          "valeur": 3.284,
           "ma50": 3.31,
           "ma200": null
         },
         {
           "date": "2025-08-04",
-          "valeur": 3.273,
+          "valeur": 3.276,
           "ma50": 3.31,
           "ma200": null
         },
         {
           "date": "2025-08-05",
-          "valeur": 3.27,
+          "valeur": 3.273,
           "ma50": 3.31,
           "ma200": null
         },
         {
           "date": "2025-08-06",
-          "valeur": 3.268,
+          "valeur": 3.27,
           "ma50": 3.31,
           "ma200": null
         },
         {
           "date": "2025-08-07",
-          "valeur": 3.265,
+          "valeur": 3.268,
           "ma50": 3.31,
           "ma200": null
         },
         {
           "date": "2025-08-08",
-          "valeur": 3.262,
+          "valeur": 3.265,
           "ma50": 3.31,
           "ma200": null
         },
         {
           "date": "2025-08-11",
-          "valeur": 3.252,
+          "valeur": 3.255,
           "ma50": 3.31,
           "ma200": null
         },
         {
           "date": "2025-08-12",
-          "valeur": 3.249,
+          "valeur": 3.252,
           "ma50": 3.31,
           "ma200": null
         },
         {
           "date": "2025-08-13",
+          "valeur": 3.249,
+          "ma50": 3.31,
+          "ma200": null
+        },
+        {
+          "date": "2025-08-14",
           "valeur": 3.245,
           "ma50": 3.3,
           "ma200": null
         },
         {
-          "date": "2025-08-14",
+          "date": "2025-08-15",
           "valeur": 3.242,
           "ma50": 3.3,
           "ma200": null
         },
         {
-          "date": "2025-08-15",
-          "valeur": 3.239,
-          "ma50": 3.3,
-          "ma200": null
-        },
-        {
           "date": "2025-08-18",
-          "valeur": 3.228,
+          "valeur": 3.232,
           "ma50": 3.3,
           "ma200": null
         },
         {
           "date": "2025-08-19",
-          "valeur": 3.224,
+          "valeur": 3.228,
           "ma50": 3.3,
           "ma200": null
         },
         {
           "date": "2025-08-20",
-          "valeur": 3.221,
+          "valeur": 3.224,
           "ma50": 3.3,
           "ma200": null
         },
         {
           "date": "2025-08-21",
-          "valeur": 3.217,
+          "valeur": 3.221,
           "ma50": 3.3,
           "ma200": null
         },
         {
           "date": "2025-08-22",
-          "valeur": 3.213,
+          "valeur": 3.217,
           "ma50": 3.29,
           "ma200": null
         },
         {
           "date": "2025-08-25",
-          "valeur": 3.201,
+          "valeur": 3.205,
           "ma50": 3.29,
           "ma200": null
         },
         {
           "date": "2025-08-26",
-          "valeur": 3.197,
+          "valeur": 3.201,
           "ma50": 3.29,
           "ma200": null
         },
         {
           "date": "2025-08-27",
-          "valeur": 3.193,
+          "valeur": 3.197,
           "ma50": 3.29,
           "ma200": null
         },
         {
           "date": "2025-08-28",
-          "valeur": 3.189,
+          "valeur": 3.193,
           "ma50": 3.28,
           "ma200": null
         },
         {
           "date": "2025-08-29",
-          "valeur": 3.185,
+          "valeur": 3.189,
           "ma50": 3.28,
           "ma200": null
         },
         {
           "date": "2025-09-01",
-          "valeur": 3.173,
+          "valeur": 3.177,
           "ma50": 3.28,
           "ma200": null
         },
         {
           "date": "2025-09-02",
+          "valeur": 3.173,
+          "ma50": 3.28,
+          "ma200": null
+        },
+        {
+          "date": "2025-09-03",
           "valeur": 3.168,
           "ma50": 3.27,
           "ma200": null
         },
         {
-          "date": "2025-09-03",
+          "date": "2025-09-04",
           "valeur": 3.164,
           "ma50": 3.27,
           "ma200": null
         },
         {
-          "date": "2025-09-04",
+          "date": "2025-09-05",
           "valeur": 3.16,
           "ma50": 3.27,
           "ma200": null
         },
         {
-          "date": "2025-09-05",
-          "valeur": 3.155,
-          "ma50": 3.26,
-          "ma200": null
-        },
-        {
           "date": "2025-09-08",
-          "valeur": 3.142,
+          "valeur": 3.147,
           "ma50": 3.26,
           "ma200": null
         },
         {
           "date": "2025-09-09",
-          "valeur": 3.138,
+          "valeur": 3.142,
           "ma50": 3.26,
           "ma200": null
         },
         {
           "date": "2025-09-10",
+          "valeur": 3.138,
+          "ma50": 3.26,
+          "ma200": null
+        },
+        {
+          "date": "2025-09-11",
           "valeur": 3.133,
           "ma50": 3.25,
           "ma200": null
         },
         {
-          "date": "2025-09-11",
+          "date": "2025-09-12",
           "valeur": 3.129,
           "ma50": 3.25,
           "ma200": null
         },
         {
-          "date": "2025-09-12",
-          "valeur": 3.124,
-          "ma50": 3.24,
-          "ma200": null
-        },
-        {
           "date": "2025-09-15",
-          "valeur": 3.11,
+          "valeur": 3.115,
           "ma50": 3.24,
           "ma200": null
         },
         {
           "date": "2025-09-16",
-          "valeur": 3.106,
+          "valeur": 3.11,
           "ma50": 3.24,
           "ma200": null
         },
         {
           "date": "2025-09-17",
-          "valeur": 3.101,
+          "valeur": 3.106,
           "ma50": 3.23,
           "ma200": null
         },
         {
           "date": "2025-09-18",
-          "valeur": 3.096,
+          "valeur": 3.101,
           "ma50": 3.23,
           "ma200": null
         },
         {
           "date": "2025-09-19",
-          "valeur": 3.092,
-          "ma50": 3.22,
+          "valeur": 3.096,
+          "ma50": 3.23,
           "ma200": null
         },
         {
           "date": "2025-09-22",
-          "valeur": 3.078,
+          "valeur": 3.082,
           "ma50": 3.22,
           "ma200": null
         },
         {
           "date": "2025-09-23",
+          "valeur": 3.078,
+          "ma50": 3.22,
+          "ma200": null
+        },
+        {
+          "date": "2025-09-24",
           "valeur": 3.073,
           "ma50": 3.21,
           "ma200": null
         },
         {
-          "date": "2025-09-24",
+          "date": "2025-09-25",
           "valeur": 3.068,
           "ma50": 3.21,
           "ma200": null
         },
         {
-          "date": "2025-09-25",
+          "date": "2025-09-26",
           "valeur": 3.063,
           "ma50": 3.2,
           "ma200": null
         },
         {
-          "date": "2025-09-26",
-          "valeur": 3.059,
+          "date": "2025-09-29",
+          "valeur": 3.049,
           "ma50": 3.2,
           "ma200": null
         },
         {
-          "date": "2025-09-29",
+          "date": "2025-09-30",
           "valeur": 3.045,
           "ma50": 3.19,
           "ma200": null
         },
         {
-          "date": "2025-09-30",
+          "date": "2025-10-01",
           "valeur": 3.04,
           "ma50": 3.19,
           "ma200": null
         },
         {
-          "date": "2025-10-01",
+          "date": "2025-10-02",
           "valeur": 3.035,
           "ma50": 3.18,
           "ma200": null
         },
         {
-          "date": "2025-10-02",
+          "date": "2025-10-03",
           "valeur": 3.03,
           "ma50": 3.18,
           "ma200": null
         },
         {
-          "date": "2025-10-03",
-          "valeur": 3.026,
-          "ma50": 3.17,
-          "ma200": null
-        },
-        {
           "date": "2025-10-06",
-          "valeur": 3.012,
+          "valeur": 3.016,
           "ma50": 3.17,
           "ma200": null
         },
         {
           "date": "2025-10-07",
-          "valeur": 3.007,
+          "valeur": 3.012,
           "ma50": 3.16,
           "ma200": null
         },
         {
           "date": "2025-10-08",
+          "valeur": 3.007,
+          "ma50": 3.16,
+          "ma200": null
+        },
+        {
+          "date": "2025-10-09",
           "valeur": 3.002,
           "ma50": 3.15,
           "ma200": null
         },
         {
-          "date": "2025-10-09",
+          "date": "2025-10-10",
           "valeur": 2.998,
           "ma50": 3.15,
           "ma200": null
         },
         {
-          "date": "2025-10-10",
-          "valeur": 2.993,
-          "ma50": 3.14,
-          "ma200": null
-        },
-        {
           "date": "2025-10-13",
-          "valeur": 2.979,
+          "valeur": 2.984,
           "ma50": 3.14,
           "ma200": null
         },
         {
           "date": "2025-10-14",
+          "valeur": 2.979,
+          "ma50": 3.14,
+          "ma200": null
+        },
+        {
+          "date": "2025-10-15",
           "valeur": 2.975,
           "ma50": 3.13,
           "ma200": null
         },
         {
-          "date": "2025-10-15",
-          "valeur": 2.97,
-          "ma50": 3.13,
-          "ma200": null
-        },
-        {
           "date": "2025-10-16",
-          "valeur": 2.966,
+          "valeur": 2.97,
           "ma50": 3.12,
           "ma200": null
         },
         {
           "date": "2025-10-17",
-          "valeur": 2.961,
-          "ma50": 3.11,
+          "valeur": 2.966,
+          "ma50": 3.12,
           "ma200": null
         },
         {
           "date": "2025-10-20",
-          "valeur": 2.948,
+          "valeur": 2.952,
           "ma50": 3.11,
           "ma200": null
         },
         {
           "date": "2025-10-21",
+          "valeur": 2.948,
+          "ma50": 3.11,
+          "ma200": null
+        },
+        {
+          "date": "2025-10-22",
           "valeur": 2.944,
           "ma50": 3.1,
           "ma200": null
         },
         {
-          "date": "2025-10-22",
-          "valeur": 2.939,
-          "ma50": 3.1,
-          "ma200": null
-        },
-        {
           "date": "2025-10-23",
-          "valeur": 2.935,
+          "valeur": 2.939,
           "ma50": 3.09,
           "ma200": null
         },
         {
           "date": "2025-10-24",
-          "valeur": 2.931,
-          "ma50": 3.08,
+          "valeur": 2.935,
+          "ma50": 3.09,
           "ma200": null
         },
         {
           "date": "2025-10-27",
-          "valeur": 2.918,
+          "valeur": 2.922,
           "ma50": 3.08,
           "ma200": null
         },
         {
           "date": "2025-10-28",
-          "valeur": 2.914,
+          "valeur": 2.918,
           "ma50": 3.07,
           "ma200": null
         },
         {
           "date": "2025-10-29",
+          "valeur": 2.914,
+          "ma50": 3.07,
+          "ma200": null
+        },
+        {
+          "date": "2025-10-30",
           "valeur": 2.91,
           "ma50": 3.06,
           "ma200": null
         },
         {
-          "date": "2025-10-30",
+          "date": "2025-10-31",
           "valeur": 2.906,
           "ma50": 3.06,
           "ma200": null
         },
         {
-          "date": "2025-10-31",
-          "valeur": 2.902,
-          "ma50": 3.05,
-          "ma200": null
-        },
-        {
           "date": "2025-11-03",
-          "valeur": 2.89,
+          "valeur": 2.894,
           "ma50": 3.05,
           "ma200": null
         },
         {
           "date": "2025-11-04",
-          "valeur": 2.886,
+          "valeur": 2.89,
           "ma50": 3.04,
           "ma200": null
         },
         {
           "date": "2025-11-05",
+          "valeur": 2.886,
+          "ma50": 3.04,
+          "ma200": null
+        },
+        {
+          "date": "2025-11-06",
           "valeur": 2.883,
           "ma50": 3.03,
           "ma200": null
         },
         {
-          "date": "2025-11-06",
+          "date": "2025-11-07",
           "valeur": 2.879,
           "ma50": 3.03,
           "ma200": null
         },
         {
-          "date": "2025-11-07",
-          "valeur": 2.875,
+          "date": "2025-11-10",
+          "valeur": 2.868,
           "ma50": 3.02,
           "ma200": null
         },
         {
-          "date": "2025-11-10",
+          "date": "2025-11-11",
           "valeur": 2.865,
           "ma50": 3.01,
           "ma200": null
         },
         {
-          "date": "2025-11-11",
+          "date": "2025-11-12",
           "valeur": 2.861,
           "ma50": 3.01,
           "ma200": null
         },
         {
-          "date": "2025-11-12",
+          "date": "2025-11-13",
           "valeur": 2.858,
           "ma50": 3.0,
           "ma200": null
         },
         {
-          "date": "2025-11-13",
-          "valeur": 2.854,
-          "ma50": 3.0,
-          "ma200": null
-        },
-        {
           "date": "2025-11-14",
-          "valeur": 2.851,
+          "valeur": 2.854,
           "ma50": 2.99,
           "ma200": null
         },
         {
           "date": "2025-11-17",
+          "valeur": 2.845,
+          "ma50": 2.99,
+          "ma200": null
+        },
+        {
+          "date": "2025-11-18",
           "valeur": 2.842,
           "ma50": 2.98,
           "ma200": null
         },
         {
-          "date": "2025-11-18",
+          "date": "2025-11-19",
           "valeur": 2.839,
           "ma50": 2.98,
           "ma200": null
         },
         {
-          "date": "2025-11-19",
+          "date": "2025-11-20",
           "valeur": 2.836,
           "ma50": 2.97,
           "ma200": null
         },
         {
-          "date": "2025-11-20",
-          "valeur": 2.833,
-          "ma50": 2.97,
-          "ma200": null
-        },
-        {
           "date": "2025-11-21",
-          "valeur": 2.83,
+          "valeur": 2.833,
           "ma50": 2.96,
           "ma200": null
         },
         {
           "date": "2025-11-24",
+          "valeur": 2.825,
+          "ma50": 2.96,
+          "ma200": null
+        },
+        {
+          "date": "2025-11-25",
           "valeur": 2.822,
           "ma50": 2.95,
           "ma200": null
         },
         {
-          "date": "2025-11-25",
+          "date": "2025-11-26",
           "valeur": 2.819,
           "ma50": 2.95,
           "ma200": null
         },
         {
-          "date": "2025-11-26",
+          "date": "2025-11-27",
           "valeur": 2.817,
           "ma50": 2.94,
           "ma200": null
         },
         {
-          "date": "2025-11-27",
+          "date": "2025-11-28",
           "valeur": 2.814,
           "ma50": 2.94,
           "ma200": null
         },
         {
-          "date": "2025-11-28",
-          "valeur": 2.812,
-          "ma50": 2.93,
-          "ma200": null
-        },
-        {
           "date": "2025-12-01",
-          "valeur": 2.805,
+          "valeur": 2.808,
           "ma50": 2.93,
           "ma200": null
         },
         {
           "date": "2025-12-02",
-          "valeur": 2.803,
+          "valeur": 2.805,
           "ma50": 2.92,
           "ma200": null
         },
         {
           "date": "2025-12-03",
-          "valeur": 2.801,
+          "valeur": 2.803,
           "ma50": 2.92,
           "ma200": null
         },
         {
           "date": "2025-12-04",
-          "valeur": 2.799,
+          "valeur": 2.801,
           "ma50": 2.91,
           "ma200": null
         },
         {
           "date": "2025-12-05",
-          "valeur": 2.798,
+          "valeur": 2.799,
           "ma50": 2.91,
           "ma200": null
         },
         {
           "date": "2025-12-08",
-          "valeur": 2.793,
+          "valeur": 2.794,
           "ma50": 2.9,
           "ma200": null
         },
         {
           "date": "2025-12-09",
-          "valeur": 2.791,
+          "valeur": 2.793,
           "ma50": 2.9,
           "ma200": null
         },
         {
           "date": "2025-12-10",
-          "valeur": 2.79,
+          "valeur": 2.791,
           "ma50": 2.89,
           "ma200": null
         },
         {
           "date": "2025-12-11",
-          "valeur": 2.788,
+          "valeur": 2.79,
           "ma50": 2.89,
           "ma200": null
         },
         {
           "date": "2025-12-12",
-          "valeur": 2.787,
+          "valeur": 2.788,
           "ma50": 2.88,
           "ma200": null
         },
         {
           "date": "2025-12-15",
-          "valeur": 2.783,
+          "valeur": 2.784,
           "ma50": 2.88,
           "ma200": null
         },
         {
           "date": "2025-12-16",
-          "valeur": 2.782,
+          "valeur": 2.783,
           "ma50": 2.87,
           "ma200": null
         },
@@ -3370,20 +3399,20 @@
         },
         {
           "date": "2025-12-18",
+          "valeur": 2.782,
+          "ma50": 2.87,
+          "ma200": null
+        },
+        {
+          "date": "2025-12-19",
           "valeur": 2.781,
           "ma50": 2.86,
           "ma200": null
         },
         {
-          "date": "2025-12-19",
-          "valeur": 2.78,
-          "ma50": 2.86,
-          "ma200": null
-        },
-        {
           "date": "2025-12-22",
-          "valeur": 2.778,
-          "ma50": 2.85,
+          "valeur": 2.779,
+          "ma50": 2.86,
           "ma200": null
         },
         {
@@ -3400,8 +3429,8 @@
         },
         {
           "date": "2025-12-25",
-          "valeur": 2.777,
-          "ma50": 2.84,
+          "valeur": 2.778,
+          "ma50": 2.85,
           "ma200": null
         },
         {
@@ -3414,7 +3443,7 @@
           "date": "2025-12-29",
           "valeur": 2.777,
           "ma50": 2.84,
-          "ma200": 3.1
+          "ma200": 3.11
         },
         {
           "date": "2025-12-30",
@@ -3424,7 +3453,7 @@
         },
         {
           "date": "2025-12-31",
-          "valeur": 2.778,
+          "valeur": 2.777,
           "ma50": 2.83,
           "ma200": 3.1
         },
@@ -3437,336 +3466,342 @@
         {
           "date": "2026-01-02",
           "valeur": 2.778,
-          "ma50": 2.82,
+          "ma50": 2.83,
           "ma200": 3.1
         },
         {
           "date": "2026-01-05",
-          "valeur": 2.78,
+          "valeur": 2.779,
           "ma50": 2.82,
           "ma200": 3.1
         },
         {
           "date": "2026-01-06",
-          "valeur": 2.781,
+          "valeur": 2.78,
           "ma50": 2.82,
           "ma200": 3.1
         },
         {
           "date": "2026-01-07",
-          "valeur": 2.782,
+          "valeur": 2.781,
           "ma50": 2.82,
           "ma200": 3.1
         },
         {
           "date": "2026-01-08",
+          "valeur": 2.782,
+          "ma50": 2.81,
+          "ma200": 3.1
+        },
+        {
+          "date": "2026-01-09",
           "valeur": 2.783,
           "ma50": 2.81,
           "ma200": 3.09
         },
         {
-          "date": "2026-01-09",
-          "valeur": 2.784,
-          "ma50": 2.81,
-          "ma200": 3.09
-        },
-        {
           "date": "2026-01-12",
-          "valeur": 2.787,
+          "valeur": 2.786,
           "ma50": 2.81,
           "ma200": 3.09
         },
         {
           "date": "2026-01-13",
-          "valeur": 2.788,
+          "valeur": 2.787,
           "ma50": 2.81,
           "ma200": 3.09
         },
         {
           "date": "2026-01-14",
+          "valeur": 2.788,
+          "ma50": 2.81,
+          "ma200": 3.09
+        },
+        {
+          "date": "2026-01-15",
           "valeur": 2.79,
           "ma50": 2.8,
           "ma200": 3.09
         },
         {
-          "date": "2026-01-15",
+          "date": "2026-01-16",
           "valeur": 2.791,
           "ma50": 2.8,
           "ma200": 3.09
         },
         {
-          "date": "2026-01-16",
-          "valeur": 2.793,
+          "date": "2026-01-19",
+          "valeur": 2.796,
           "ma50": 2.8,
           "ma200": 3.09
         },
         {
-          "date": "2026-01-19",
+          "date": "2026-01-20",
           "valeur": 2.798,
           "ma50": 2.8,
           "ma200": 3.08
         },
         {
-          "date": "2026-01-20",
+          "date": "2026-01-21",
           "valeur": 2.8,
           "ma50": 2.8,
           "ma200": 3.08
         },
         {
-          "date": "2026-01-21",
+          "date": "2026-01-22",
           "valeur": 2.802,
           "ma50": 2.8,
           "ma200": 3.08
         },
         {
-          "date": "2026-01-22",
+          "date": "2026-01-23",
           "valeur": 2.804,
           "ma50": 2.8,
           "ma200": 3.08
         },
         {
-          "date": "2026-01-23",
-          "valeur": 2.806,
+          "date": "2026-01-26",
+          "valeur": 2.811,
           "ma50": 2.8,
           "ma200": 3.08
         },
         {
-          "date": "2026-01-26",
+          "date": "2026-01-27",
           "valeur": 2.813,
           "ma50": 2.79,
           "ma200": 3.08
         },
         {
-          "date": "2026-01-27",
+          "date": "2026-01-28",
           "valeur": 2.815,
           "ma50": 2.79,
           "ma200": 3.07
         },
         {
-          "date": "2026-01-28",
+          "date": "2026-01-29",
           "valeur": 2.818,
           "ma50": 2.79,
           "ma200": 3.07
         },
         {
-          "date": "2026-01-29",
+          "date": "2026-01-30",
           "valeur": 2.82,
           "ma50": 2.79,
           "ma200": 3.07
         },
         {
-          "date": "2026-01-30",
-          "valeur": 2.823,
-          "ma50": 2.79,
-          "ma200": 3.07
-        },
-        {
           "date": "2026-02-02",
-          "valeur": 2.831,
+          "valeur": 2.829,
           "ma50": 2.79,
           "ma200": 3.07
         },
         {
           "date": "2026-02-03",
-          "valeur": 2.834,
+          "valeur": 2.831,
           "ma50": 2.79,
           "ma200": 3.07
         },
         {
           "date": "2026-02-04",
+          "valeur": 2.834,
+          "ma50": 2.79,
+          "ma200": 3.07
+        },
+        {
+          "date": "2026-02-05",
           "valeur": 2.837,
           "ma50": 2.79,
           "ma200": 3.06
         },
         {
-          "date": "2026-02-05",
+          "date": "2026-02-06",
           "valeur": 2.841,
           "ma50": 2.8,
           "ma200": 3.06
         },
         {
-          "date": "2026-02-06",
-          "valeur": 2.844,
-          "ma50": 2.8,
-          "ma200": 3.06
-        },
-        {
           "date": "2026-02-09",
-          "valeur": 2.854,
+          "valeur": 2.85,
           "ma50": 2.8,
           "ma200": 3.06
         },
         {
           "date": "2026-02-10",
-          "valeur": 2.857,
+          "valeur": 2.854,
           "ma50": 2.8,
           "ma200": 3.06
         },
         {
           "date": "2026-02-11",
-          "valeur": 2.86,
+          "valeur": 2.857,
           "ma50": 2.8,
           "ma200": 3.06
         },
         {
           "date": "2026-02-12",
-          "valeur": 2.864,
+          "valeur": 2.86,
           "ma50": 2.8,
           "ma200": 3.05
         },
         {
           "date": "2026-02-13",
-          "valeur": 2.868,
+          "valeur": 2.864,
           "ma50": 2.8,
           "ma200": 3.05
         },
         {
           "date": "2026-02-16",
-          "valeur": 2.879,
+          "valeur": 2.875,
           "ma50": 2.8,
           "ma200": 3.05
         },
         {
           "date": "2026-02-17",
+          "valeur": 2.879,
+          "ma50": 2.8,
+          "ma200": 3.05
+        },
+        {
+          "date": "2026-02-18",
           "valeur": 2.883,
           "ma50": 2.81,
           "ma200": 3.05
         },
         {
-          "date": "2026-02-18",
+          "date": "2026-02-19",
           "valeur": 2.886,
           "ma50": 2.81,
           "ma200": 3.05
         },
         {
-          "date": "2026-02-19",
+          "date": "2026-02-20",
           "valeur": 2.89,
           "ma50": 2.81,
           "ma200": 3.04
         },
         {
-          "date": "2026-02-20",
-          "valeur": 2.894,
-          "ma50": 2.81,
-          "ma200": 3.04
-        },
-        {
           "date": "2026-02-23",
-          "valeur": 2.907,
+          "valeur": 2.903,
           "ma50": 2.81,
           "ma200": 3.04
         },
         {
           "date": "2026-02-24",
+          "valeur": 2.907,
+          "ma50": 2.81,
+          "ma200": 3.04
+        },
+        {
+          "date": "2026-02-25",
           "valeur": 2.911,
           "ma50": 2.82,
           "ma200": 3.04
         },
         {
-          "date": "2026-02-25",
+          "date": "2026-02-26",
           "valeur": 2.915,
           "ma50": 2.82,
           "ma200": 3.04
         },
         {
-          "date": "2026-02-26",
+          "date": "2026-02-27",
           "valeur": 2.92,
           "ma50": 2.82,
           "ma200": 3.04
         },
         {
-          "date": "2026-02-27",
-          "valeur": 2.924,
-          "ma50": 2.82,
-          "ma200": 3.03
-        },
-        {
           "date": "2026-03-02",
-          "valeur": 2.937,
+          "valeur": 2.933,
           "ma50": 2.83,
           "ma200": 3.03
         },
         {
           "date": "2026-03-03",
-          "valeur": 2.942,
+          "valeur": 2.937,
           "ma50": 2.83,
           "ma200": 3.03
         },
         {
           "date": "2026-03-04",
-          "valeur": 2.947,
+          "valeur": 2.942,
           "ma50": 2.83,
           "ma200": 3.03
         },
         {
           "date": "2026-03-05",
-          "valeur": 2.951,
+          "valeur": 2.947,
           "ma50": 2.84,
           "ma200": 3.03
         },
         {
           "date": "2026-03-06",
-          "valeur": 2.956,
+          "valeur": 2.951,
           "ma50": 2.84,
           "ma200": 3.03
         },
         {
           "date": "2026-03-09",
+          "valeur": 2.965,
+          "ma50": 2.84,
+          "ma200": 3.03
+        },
+        {
+          "date": "2026-03-10",
           "valeur": 2.97,
           "ma50": 2.85,
           "ma200": 3.02
         },
         {
-          "date": "2026-03-10",
+          "date": "2026-03-11",
           "valeur": 2.975,
           "ma50": 2.85,
           "ma200": 3.02
         },
         {
-          "date": "2026-03-11",
+          "date": "2026-03-12",
           "valeur": 2.98,
           "ma50": 2.85,
           "ma200": 3.02
         },
         {
-          "date": "2026-03-12",
+          "date": "2026-03-13",
           "valeur": 2.985,
           "ma50": 2.86,
           "ma200": 3.02
         },
         {
-          "date": "2026-03-13",
-          "valeur": 2.99,
+          "date": "2026-03-16",
+          "valeur": 3.0,
           "ma50": 2.86,
           "ma200": 3.02
         },
         {
-          "date": "2026-03-16",
+          "date": "2026-03-17",
           "valeur": 3.005,
           "ma50": 2.87,
           "ma200": 3.02
         },
         {
-          "date": "2026-03-17",
+          "date": "2026-03-18",
           "valeur": 3.01,
           "ma50": 2.87,
           "ma200": 3.01
         },
         {
-          "date": "2026-03-18",
+          "date": "2026-03-19",
           "valeur": 3.015,
           "ma50": 2.88,
           "ma200": 3.01
         },
         {
-          "date": "2026-03-19",
+          "date": "2026-03-20",
           "valeur": 3.02,
           "ma50": 2.88,
           "ma200": 3.01
         },
         {
-          "date": "2026-03-20",
-          "valeur": 3.025,
+          "date": "2026-03-23",
+          "valeur": 3.035,
           "ma50": 2.89,
           "ma200": 3.01
         }
@@ -3822,25 +3857,25 @@
         }
       ],
       "variations": {
-        "jour": 0.17,
+        "jour": 0.5,
         "semaine": 1.17,
-        "mois": 4.82,
-        "ytd": 8.89
+        "mois": 5.16,
+        "ytd": 9.25
       },
       "min_max": {
         "min": 2.777,
-        "min_date": "2025-12-25",
+        "min_date": "2025-12-26",
         "max": 3.326,
-        "max_date": "2025-06-25"
+        "max_date": "2025-06-26"
       },
       "note_lecture": "Le TEC-10 mesure le rendement des emprunts d'Etat francais a 10 ans. Un taux eleve rencherit le cout de la dette publique et impacte les taux de credit immobilier."
     },
     "petrole_brent": {
-      "valeur": 99.94,
-      "date": "2026-03-23",
+      "valeur": 103.35,
+      "date": "2026-03-24",
       "unite": "USD/baril",
       "source": "Yahoo Finance",
-      "nb_points": 252,
+      "nb_points": 253,
       "historique": [
         {
           "date": "2025-03-24",
@@ -5353,13 +5388,19 @@
           "valeur": 99.94,
           "ma50": 76.83,
           "ma200": 68.7
+        },
+        {
+          "date": "2026-03-24",
+          "valeur": 103.35,
+          "ma50": 77.63,
+          "ma200": 68.89
         }
       ],
       "variations": {
-        "jour": -10.92,
-        "semaine": -0.27,
-        "mois": 39.46,
-        "ytd": 64.51
+        "jour": 3.41,
+        "semaine": -0.07,
+        "mois": 44.02,
+        "ytd": 70.12
       },
       "min_max": {
         "min": 58.92,
@@ -5372,10 +5413,10 @@
     "cac40": {
       "valeur": 7726.2,
       "date": "2026-03-23",
-      "variation_jour_pct": 0.79,
+      "variation_jour_pct": 0.0,
       "unite": "points",
       "source": "Yahoo Finance",
-      "nb_points": 255,
+      "nb_points": 256,
       "historique": [
         {
           "date": "2025-03-24",
@@ -6906,12 +6947,18 @@
           "valeur": 7726.2,
           "ma50": 8191.6,
           "ma200": 7994.49
+        },
+        {
+          "date": "2026-03-23",
+          "valeur": 7726.2,
+          "ma50": 8179.18,
+          "ma200": 7994.29
         }
       ],
       "variations": {
-        "jour": 0.79,
-        "semaine": -2.64,
-        "mois": -8.01,
+        "jour": 0.0,
+        "semaine": -3.11,
+        "mois": -9.27,
         "ytd": -5.72
       },
       "min_max": {
@@ -6924,10 +6971,10 @@
     },
     "eurusd": {
       "valeur": 1.16,
-      "date": "2026-03-23",
+      "date": "2026-03-24",
       "unite": "EUR/USD",
       "source": "Yahoo Finance",
-      "nb_points": 257,
+      "nb_points": 258,
       "historique": [
         {
           "date": "2025-03-24",
@@ -8470,11 +8517,17 @@
           "valeur": 1.16,
           "ma50": 1.17,
           "ma200": 1.17
+        },
+        {
+          "date": "2026-03-24",
+          "valeur": 1.16,
+          "ma50": 1.17,
+          "ma200": 1.17
         }
       ],
       "variations": {
         "jour": 0.0,
-        "semaine": 1.75,
+        "semaine": 0.87,
         "mois": -1.69,
         "ytd": -1.69
       },
@@ -8487,11 +8540,11 @@
       "note_lecture": "Le taux de change euro-dollar determine le prix de tout ce qui est importe en dollars : petrole, matieres premieres, electronique. Un euro faible rencherit les importations et alimente l'inflation."
     },
     "or": {
-      "valeur": 4391.4,
-      "date": "2026-03-23",
+      "valeur": 4350.0,
+      "date": "2026-03-24",
       "unite": "USD/oz",
       "source": "Yahoo Finance",
-      "nb_points": 252,
+      "nb_points": 253,
       "historique": [
         {
           "date": "2025-03-24",
@@ -10001,16 +10054,22 @@
         },
         {
           "date": "2026-03-23",
-          "valeur": 4391.4,
-          "ma50": 4950.64,
-          "ma200": 4068.4
+          "valeur": 4404.1,
+          "ma50": 4950.9,
+          "ma200": 4068.46
+        },
+        {
+          "date": "2026-03-24",
+          "valeur": 4350.0,
+          "ma50": 4948.09,
+          "ma200": 4073.6
         }
       ],
       "variations": {
-        "jour": -3.92,
-        "semaine": -12.07,
-        "mois": -11.75,
-        "ytd": 1.78
+        "jour": -1.23,
+        "semaine": -13.02,
+        "mois": -14.02,
+        "ytd": 0.83
       },
       "min_max": {
         "min": 2951.3,
@@ -10021,7 +10080,7 @@
       "note_lecture": "L'or est la valeur refuge par excellence. Sa hausse traduit une montee de l'incertitude economique ou geopolitique. Il sert aussi de protection contre l'inflation."
     },
     "gaz_naturel": {
-      "valeur": 61.5,
+      "valeur": 56.68,
       "date": "2026-03-23",
       "unite": "EUR/MWh",
       "source": "Yahoo Finance (TTF)",
@@ -11535,16 +11594,16 @@
         },
         {
           "date": "2026-03-23",
-          "valeur": 61.5,
-          "ma50": 40.1,
-          "ma200": 34.03
+          "valeur": 56.68,
+          "ma50": 40.0,
+          "ma200": 34.0
         }
       ],
       "variations": {
-        "jour": 3.78,
-        "semaine": 20.85,
-        "mois": 83.47,
-        "ytd": 112.07
+        "jour": -4.35,
+        "semaine": 11.38,
+        "mois": 69.09,
+        "ytd": 95.45
       },
       "min_max": {
         "min": 26.6,
@@ -11555,11 +11614,11 @@
       "note_lecture": "Le prix du gaz naturel (TTF europeen) impacte directement les factures de chauffage et d'electricite des menages, ainsi que les couts de production industrielle."
     },
     "ble": {
-      "valeur": 589.25,
-      "date": "2026-03-23",
+      "valeur": 593.75,
+      "date": "2026-03-24",
       "unite": "cents/boisseau",
       "source": "Yahoo Finance",
-      "nb_points": 251,
+      "nb_points": 252,
       "historique": [
         {
           "date": "2025-03-24",
@@ -13063,16 +13122,22 @@
         },
         {
           "date": "2026-03-23",
-          "valeur": 589.25,
-          "ma50": 554.1,
+          "valeur": 587.75,
+          "ma50": 554.07,
           "ma200": 531.3
+        },
+        {
+          "date": "2026-03-24",
+          "valeur": 593.75,
+          "ma50": 555.6,
+          "ma200": 531.54
         }
       ],
       "variations": {
-        "jour": -1.01,
-        "semaine": -1.34,
-        "mois": 5.32,
-        "ytd": 16.34
+        "jour": 1.02,
+        "semaine": 0.68,
+        "mois": 3.53,
+        "ytd": 17.23
       },
       "min_max": {
         "min": 495.0,
@@ -13083,11 +13148,11 @@
       "note_lecture": "Le cours du ble est un indicateur avance des prix alimentaires. La France etant le premier producteur europeen, son evolution impacte a la fois les consommateurs et le secteur agricole."
     },
     "lme_cuivre": {
-      "valeur": 5.48,
-      "date": "2026-03-23",
+      "valeur": 5.36,
+      "date": "2026-03-24",
       "unite": "cts/lb",
       "source": "Yahoo Finance",
-      "nb_points": 252,
+      "nb_points": 253,
       "historique": [
         {
           "date": "2025-03-24",
@@ -14597,16 +14662,22 @@
         },
         {
           "date": "2026-03-23",
-          "valeur": 5.48,
+          "valeur": 5.44,
           "ma50": 5.82,
+          "ma200": 5.21
+        },
+        {
+          "date": "2026-03-24",
+          "valeur": 5.36,
+          "ma50": 5.81,
           "ma200": 5.22
         }
       ],
       "variations": {
-        "jour": 2.62,
-        "semaine": -5.35,
-        "mois": -4.36,
-        "ytd": -2.84
+        "jour": -1.47,
+        "semaine": -6.46,
+        "mois": -8.06,
+        "ytd": -4.96
       },
       "min_max": {
         "min": 4.13,
@@ -14617,11 +14688,11 @@
       "note_lecture": "Le cuivre est le baromètre de l'activité industrielle mondiale ('Dr Copper'). Sa hausse signale une reprise économique, sa baisse anticipe un ralentissement. Utilisé massivement dans l'électrification et les énergies renouvelables."
     },
     "lme_aluminium": {
-      "valeur": 3122.25,
-      "date": "2026-03-23",
+      "valeur": 3110.5,
+      "date": "2026-03-24",
       "unite": "cts/lb",
       "source": "Yahoo Finance",
-      "nb_points": 251,
+      "nb_points": 252,
       "historique": [
         {
           "date": "2025-03-24",
@@ -16125,16 +16196,22 @@
         },
         {
           "date": "2026-03-23",
-          "valeur": 3122.25,
-          "ma50": 3110.44,
-          "ma200": 2752.05
+          "valeur": 3076.0,
+          "ma50": 3109.51,
+          "ma200": 2751.82
+        },
+        {
+          "date": "2026-03-24",
+          "valeur": 3110.5,
+          "ma50": 3110.99,
+          "ma200": 2755.35
         }
       ],
       "variations": {
-        "jour": 0.65,
-        "semaine": -5.08,
-        "mois": 4.34,
-        "ytd": 6.27
+        "jour": 1.12,
+        "semaine": -5.5,
+        "mois": 2.94,
+        "ytd": 5.87
       },
       "min_max": {
         "min": 2166.25,
@@ -16146,10 +16223,10 @@
     },
     "lme_zinc": {
       "valeur": 2297.0,
-      "date": "2026-03-20",
+      "date": "2026-03-23",
       "unite": "$/t",
       "source": "Yahoo Finance",
-      "nb_points": 250,
+      "nb_points": 251,
       "historique": [
         {
           "date": "2025-03-24",
@@ -17647,6 +17724,12 @@
         },
         {
           "date": "2026-03-20",
+          "valeur": 2297.0,
+          "ma50": 2297.0,
+          "ma200": 2297.0
+        },
+        {
+          "date": "2026-03-23",
           "valeur": 2297.0,
           "ma50": 2297.0,
           "ma200": 2297.0
@@ -17667,1584 +17750,1590 @@
       "note_lecture": "Le zinc est principalement utilisé pour la galvanisation de l'acier (anticorrosion). Son prix reflète la demande de l'industrie de la construction et de l'automobile."
     },
     "lme_nickel": {
-      "valeur": 14411.13,
-      "date": "2026-03-20",
+      "valeur": 14344.35,
+      "date": "2026-03-23",
       "unite": "$/t",
       "source": "Valeur statique (fallback)",
-      "nb_points": 260,
+      "nb_points": 261,
       "historique": [
         {
           "date": "2025-03-24",
-          "valeur": 16057.14,
+          "valeur": 16000.0,
           "ma50": null,
           "ma200": null
         },
         {
           "date": "2025-03-25",
-          "valeur": 16114.22,
+          "valeur": 16057.14,
           "ma50": null,
           "ma200": null
         },
         {
           "date": "2025-03-26",
-          "valeur": 16171.22,
+          "valeur": 16114.22,
           "ma50": null,
           "ma200": null
         },
         {
           "date": "2025-03-27",
-          "valeur": 16228.07,
+          "valeur": 16171.22,
           "ma50": null,
           "ma200": null
         },
         {
           "date": "2025-03-28",
-          "valeur": 16284.74,
+          "valeur": 16228.07,
           "ma50": null,
           "ma200": null
         },
         {
           "date": "2025-03-31",
-          "valeur": 16453.17,
+          "valeur": 16397.34,
           "ma50": null,
           "ma200": null
         },
         {
           "date": "2025-04-01",
-          "valeur": 16508.64,
+          "valeur": 16453.17,
           "ma50": null,
           "ma200": null
         },
         {
           "date": "2025-04-02",
-          "valeur": 16563.69,
+          "valeur": 16508.64,
           "ma50": null,
           "ma200": null
         },
         {
           "date": "2025-04-03",
-          "valeur": 16618.27,
+          "valeur": 16563.69,
           "ma50": null,
           "ma200": null
         },
         {
           "date": "2025-04-04",
-          "valeur": 16672.36,
+          "valeur": 16618.27,
           "ma50": null,
           "ma200": null
         },
         {
           "date": "2025-04-07",
-          "valeur": 16831.14,
+          "valeur": 16778.84,
           "ma50": null,
           "ma200": null
         },
         {
           "date": "2025-04-08",
-          "valeur": 16882.77,
+          "valeur": 16831.14,
           "ma50": null,
           "ma200": null
         },
         {
           "date": "2025-04-09",
-          "valeur": 16933.68,
+          "valeur": 16882.77,
           "ma50": null,
           "ma200": null
         },
         {
           "date": "2025-04-10",
-          "valeur": 16983.83,
+          "valeur": 16933.68,
           "ma50": null,
           "ma200": null
         },
         {
           "date": "2025-04-11",
-          "valeur": 17033.17,
+          "valeur": 16983.83,
           "ma50": null,
           "ma200": null
         },
         {
           "date": "2025-04-14",
-          "valeur": 17175.98,
+          "valeur": 17129.28,
           "ma50": null,
           "ma200": null
         },
         {
           "date": "2025-04-15",
-          "valeur": 17221.71,
+          "valeur": 17175.98,
           "ma50": null,
           "ma200": null
         },
         {
           "date": "2025-04-16",
-          "valeur": 17266.45,
+          "valeur": 17221.71,
           "ma50": null,
           "ma200": null
         },
         {
           "date": "2025-04-17",
-          "valeur": 17310.16,
+          "valeur": 17266.45,
           "ma50": null,
           "ma200": null
         },
         {
           "date": "2025-04-18",
-          "valeur": 17352.79,
+          "valeur": 17310.16,
           "ma50": null,
           "ma200": null
         },
         {
           "date": "2025-04-21",
-          "valeur": 17473.93,
+          "valeur": 17434.71,
           "ma50": null,
           "ma200": null
         },
         {
           "date": "2025-04-22",
-          "valeur": 17511.95,
+          "valeur": 17473.93,
           "ma50": null,
           "ma200": null
         },
         {
           "date": "2025-04-23",
-          "valeur": 17548.73,
+          "valeur": 17511.95,
           "ma50": null,
           "ma200": null
         },
         {
           "date": "2025-04-24",
-          "valeur": 17584.25,
+          "valeur": 17548.73,
           "ma50": null,
           "ma200": null
         },
         {
           "date": "2025-04-25",
-          "valeur": 17618.48,
+          "valeur": 17584.25,
           "ma50": null,
           "ma200": null
         },
         {
           "date": "2025-04-28",
-          "valeur": 17713.13,
+          "valeur": 17682.94,
           "ma50": null,
           "ma200": null
         },
         {
           "date": "2025-04-29",
-          "valeur": 17741.91,
+          "valeur": 17713.13,
           "ma50": null,
           "ma200": null
         },
         {
           "date": "2025-04-30",
-          "valeur": 17769.27,
+          "valeur": 17741.91,
           "ma50": null,
           "ma200": null
         },
         {
           "date": "2025-05-01",
-          "valeur": 17795.19,
+          "valeur": 17769.27,
           "ma50": null,
           "ma200": null
         },
         {
           "date": "2025-05-02",
-          "valeur": 17819.65,
+          "valeur": 17795.19,
           "ma50": null,
           "ma200": null
         },
         {
           "date": "2025-05-05",
-          "valeur": 17884.02,
+          "valeur": 17864.08,
           "ma50": null,
           "ma200": null
         },
         {
           "date": "2025-05-06",
-          "valeur": 17902.43,
+          "valeur": 17884.02,
           "ma50": null,
           "ma200": null
         },
         {
           "date": "2025-05-07",
-          "valeur": 17919.28,
+          "valeur": 17902.43,
           "ma50": null,
           "ma200": null
         },
         {
           "date": "2025-05-08",
-          "valeur": 17934.56,
+          "valeur": 17919.28,
           "ma50": null,
           "ma200": null
         },
         {
           "date": "2025-05-09",
-          "valeur": 17948.27,
+          "valeur": 17934.56,
           "ma50": null,
           "ma200": null
         },
         {
           "date": "2025-05-12",
-          "valeur": 17979.81,
+          "valeur": 17970.9,
           "ma50": null,
           "ma200": null
         },
         {
           "date": "2025-05-13",
-          "valeur": 17987.1,
+          "valeur": 17979.81,
           "ma50": null,
           "ma200": null
         },
         {
           "date": "2025-05-14",
-          "valeur": 17992.77,
+          "valeur": 17987.1,
           "ma50": null,
           "ma200": null
         },
         {
           "date": "2025-05-15",
-          "valeur": 17996.81,
+          "valeur": 17992.77,
           "ma50": null,
           "ma200": null
         },
         {
           "date": "2025-05-16",
-          "valeur": 17999.22,
+          "valeur": 17996.81,
           "ma50": null,
           "ma200": null
         },
         {
           "date": "2025-05-19",
-          "valeur": 17996.66,
+          "valeur": 17999.15,
           "ma50": null,
           "ma200": null
         },
         {
           "date": "2025-05-20",
-          "valeur": 17992.55,
+          "valeur": 17996.66,
           "ma50": null,
           "ma200": null
         },
         {
           "date": "2025-05-21",
-          "valeur": 17986.81,
+          "valeur": 17992.55,
           "ma50": null,
           "ma200": null
         },
         {
           "date": "2025-05-22",
-          "valeur": 17979.45,
+          "valeur": 17986.81,
           "ma50": null,
           "ma200": null
         },
         {
           "date": "2025-05-23",
-          "valeur": 17970.47,
+          "valeur": 17979.45,
           "ma50": null,
           "ma200": null
         },
         {
           "date": "2025-05-26",
-          "valeur": 17933.92,
+          "valeur": 17947.7,
           "ma50": null,
           "ma200": null
         },
         {
           "date": "2025-05-27",
-          "valeur": 17918.56,
+          "valeur": 17933.92,
           "ma50": null,
           "ma200": null
         },
         {
           "date": "2025-05-28",
-          "valeur": 17901.64,
+          "valeur": 17918.56,
           "ma50": null,
           "ma200": null
         },
         {
           "date": "2025-05-29",
-          "valeur": 17883.17,
+          "valeur": 17901.64,
           "ma50": null,
           "ma200": null
         },
         {
           "date": "2025-05-30",
-          "valeur": 17863.16,
-          "ma50": 17404.21,
+          "valeur": 17883.17,
+          "ma50": 17377.06,
           "ma200": null
         },
         {
           "date": "2025-06-02",
-          "valeur": 17794.08,
-          "ma50": 17438.95,
+          "valeur": 17818.59,
+          "ma50": 17413.43,
           "ma200": null
         },
         {
           "date": "2025-06-03",
-          "valeur": 17768.09,
-          "ma50": 17472.02,
+          "valeur": 17794.08,
+          "ma50": 17448.17,
           "ma200": null
         },
         {
           "date": "2025-06-04",
-          "valeur": 17740.67,
-          "ma50": 17503.41,
+          "valeur": 17768.09,
+          "ma50": 17481.25,
           "ma200": null
         },
         {
           "date": "2025-06-05",
-          "valeur": 17711.82,
-          "ma50": 17533.09,
+          "valeur": 17740.67,
+          "ma50": 17512.64,
           "ma200": null
         },
         {
           "date": "2025-06-06",
-          "valeur": 17681.57,
-          "ma50": 17561.02,
+          "valeur": 17711.82,
+          "ma50": 17542.31,
           "ma200": null
         },
         {
           "date": "2025-06-09",
-          "valeur": 17582.71,
-          "ma50": 17583.61,
+          "valeur": 17616.99,
+          "ma50": 17566.7,
           "ma200": null
         },
         {
           "date": "2025-06-10",
-          "valeur": 17547.13,
-          "ma50": 17604.38,
+          "valeur": 17582.71,
+          "ma50": 17589.3,
           "ma200": null
         },
         {
           "date": "2025-06-11",
-          "valeur": 17510.29,
-          "ma50": 17623.32,
+          "valeur": 17547.13,
+          "ma50": 17610.07,
           "ma200": null
         },
         {
           "date": "2025-06-12",
-          "valeur": 17472.22,
-          "ma50": 17640.4,
+          "valeur": 17510.29,
+          "ma50": 17629.0,
           "ma200": null
         },
         {
           "date": "2025-06-13",
-          "valeur": 17432.95,
-          "ma50": 17655.61,
+          "valeur": 17472.22,
+          "ma50": 17646.08,
           "ma200": null
         },
         {
           "date": "2025-06-16",
-          "valeur": 17308.24,
-          "ma50": 17665.15,
+          "valeur": 17350.93,
+          "ma50": 17657.52,
           "ma200": null
         },
         {
           "date": "2025-06-17",
-          "valeur": 17264.49,
-          "ma50": 17672.78,
+          "valeur": 17308.24,
+          "ma50": 17667.06,
           "ma200": null
         },
         {
           "date": "2025-06-18",
-          "valeur": 17219.71,
-          "ma50": 17678.5,
+          "valeur": 17264.49,
+          "ma50": 17674.69,
           "ma200": null
         },
         {
           "date": "2025-06-19",
-          "valeur": 17173.93,
-          "ma50": 17682.31,
+          "valeur": 17219.71,
+          "ma50": 17680.41,
           "ma200": null
         },
         {
           "date": "2025-06-20",
-          "valeur": 17127.2,
-          "ma50": 17684.19,
+          "valeur": 17173.93,
+          "ma50": 17684.22,
           "ma200": null
         },
         {
           "date": "2025-06-23",
-          "valeur": 16981.62,
-          "ma50": 17680.3,
+          "valeur": 17031.0,
+          "ma50": 17682.25,
           "ma200": null
         },
         {
           "date": "2025-06-24",
-          "valeur": 16931.44,
-          "ma50": 17674.49,
+          "valeur": 16981.62,
+          "ma50": 17678.36,
           "ma200": null
         },
         {
           "date": "2025-06-25",
-          "valeur": 16880.5,
-          "ma50": 17666.78,
+          "valeur": 16931.44,
+          "ma50": 17672.56,
           "ma200": null
         },
         {
           "date": "2025-06-26",
-          "valeur": 16828.84,
-          "ma50": 17657.15,
+          "valeur": 16880.5,
+          "ma50": 17664.84,
           "ma200": null
         },
         {
           "date": "2025-06-27",
-          "valeur": 16776.51,
-          "ma50": 17645.62,
+          "valeur": 16828.84,
+          "ma50": 17655.21,
           "ma200": null
         },
         {
           "date": "2025-06-30",
-          "valeur": 16615.87,
-          "ma50": 17628.46,
+          "valeur": 16669.98,
+          "ma50": 17639.92,
           "ma200": null
         },
         {
           "date": "2025-07-01",
-          "valeur": 16561.26,
-          "ma50": 17609.45,
+          "valeur": 16615.87,
+          "ma50": 17622.76,
           "ma200": null
         },
         {
           "date": "2025-07-02",
-          "valeur": 16506.19,
-          "ma50": 17588.6,
+          "valeur": 16561.26,
+          "ma50": 17603.74,
           "ma200": null
         },
         {
           "date": "2025-07-03",
-          "valeur": 16450.71,
-          "ma50": 17565.93,
+          "valeur": 16506.19,
+          "ma50": 17582.89,
           "ma200": null
         },
         {
           "date": "2025-07-04",
-          "valeur": 16394.86,
-          "ma50": 17541.45,
+          "valeur": 16450.71,
+          "ma50": 17560.22,
           "ma200": null
         },
         {
           "date": "2025-07-07",
-          "valeur": 16225.56,
-          "ma50": 17511.7,
+          "valeur": 16282.24,
+          "ma50": 17532.21,
           "ma200": null
         },
         {
           "date": "2025-07-08",
-          "valeur": 16168.7,
-          "ma50": 17480.24,
+          "valeur": 16225.56,
+          "ma50": 17502.46,
           "ma200": null
         },
         {
           "date": "2025-07-09",
-          "valeur": 16111.7,
-          "ma50": 17447.09,
+          "valeur": 16168.7,
+          "ma50": 17470.99,
           "ma200": null
         },
         {
           "date": "2025-07-10",
-          "valeur": 16054.61,
-          "ma50": 17412.28,
+          "valeur": 16111.7,
+          "ma50": 17437.84,
           "ma200": null
         },
         {
           "date": "2025-07-11",
-          "valeur": 15997.47,
-          "ma50": 17375.83,
+          "valeur": 16054.61,
+          "ma50": 17403.03,
           "ma200": null
         },
         {
           "date": "2025-07-14",
-          "valeur": 15826.26,
-          "ma50": 17334.68,
+          "valeur": 15883.25,
+          "ma50": 17363.41,
           "ma200": null
         },
         {
           "date": "2025-07-15",
-          "valeur": 15769.41,
-          "ma50": 17292.02,
+          "valeur": 15826.26,
+          "ma50": 17322.26,
           "ma200": null
         },
         {
           "date": "2025-07-16",
-          "valeur": 15712.75,
-          "ma50": 17247.89,
+          "valeur": 15769.41,
+          "ma50": 17279.6,
           "ma200": null
         },
         {
           "date": "2025-07-17",
-          "valeur": 15656.33,
-          "ma50": 17202.32,
+          "valeur": 15712.75,
+          "ma50": 17235.47,
           "ma200": null
         },
         {
           "date": "2025-07-18",
-          "valeur": 15600.18,
-          "ma50": 17155.36,
+          "valeur": 15656.33,
+          "ma50": 17189.9,
           "ma200": null
         },
         {
           "date": "2025-07-21",
-          "valeur": 15433.89,
-          "ma50": 17104.44,
+          "valeur": 15488.92,
+          "ma50": 17140.26,
           "ma200": null
         },
         {
           "date": "2025-07-22",
-          "valeur": 15379.32,
-          "ma50": 17052.29,
+          "valeur": 15433.89,
+          "ma50": 17089.34,
           "ma200": null
         },
         {
           "date": "2025-07-23",
-          "valeur": 15325.26,
-          "ma50": 16998.94,
+          "valeur": 15379.32,
+          "ma50": 17037.19,
           "ma200": null
         },
         {
           "date": "2025-07-24",
-          "valeur": 15271.75,
-          "ma50": 16944.43,
+          "valeur": 15325.26,
+          "ma50": 16983.84,
           "ma200": null
         },
         {
           "date": "2025-07-25",
-          "valeur": 15218.83,
-          "ma50": 16888.83,
+          "valeur": 15271.75,
+          "ma50": 16929.34,
           "ma200": null
         },
         {
           "date": "2025-07-28",
-          "valeur": 15064.08,
-          "ma50": 16830.17,
+          "valeur": 15114.96,
+          "ma50": 16871.65,
           "ma200": null
         },
         {
           "date": "2025-07-29",
-          "valeur": 15013.97,
-          "ma50": 16770.6,
+          "valeur": 15064.08,
+          "ma50": 16813.0,
           "ma200": null
         },
         {
           "date": "2025-07-30",
-          "valeur": 14964.67,
-          "ma50": 16710.16,
+          "valeur": 15013.97,
+          "ma50": 16753.43,
           "ma200": null
         },
         {
           "date": "2025-07-31",
-          "valeur": 14916.21,
-          "ma50": 16648.9,
+          "valeur": 14964.67,
+          "ma50": 16692.99,
           "ma200": null
         },
         {
           "date": "2025-08-01",
-          "valeur": 14868.63,
-          "ma50": 16586.86,
+          "valeur": 14916.21,
+          "ma50": 16631.72,
           "ma200": null
         },
         {
           "date": "2025-08-04",
-          "valeur": 14731.59,
-          "ma50": 16522.81,
+          "valeur": 14776.28,
+          "ma50": 16568.29,
           "ma200": null
         },
         {
           "date": "2025-08-05",
-          "valeur": 14687.93,
-          "ma50": 16458.2,
+          "valeur": 14731.59,
+          "ma50": 16504.25,
           "ma200": null
         },
         {
           "date": "2025-08-06",
-          "valeur": 14645.35,
-          "ma50": 16393.07,
+          "valeur": 14687.93,
+          "ma50": 16439.63,
           "ma200": null
         },
         {
           "date": "2025-08-07",
-          "valeur": 14603.87,
-          "ma50": 16327.49,
+          "valeur": 14645.35,
+          "ma50": 16374.51,
           "ma200": null
         },
         {
           "date": "2025-08-08",
-          "valeur": 14563.53,
-          "ma50": 16261.49,
+          "valeur": 14603.87,
+          "ma50": 16308.92,
           "ma200": null
         },
         {
           "date": "2025-08-11",
-          "valeur": 14449.67,
-          "ma50": 16194.61,
+          "valeur": 14486.4,
+          "ma50": 16242.28,
           "ma200": null
         },
         {
           "date": "2025-08-12",
-          "valeur": 14414.2,
-          "ma50": 16127.53,
+          "valeur": 14449.67,
+          "ma50": 16175.39,
           "ma200": null
         },
         {
           "date": "2025-08-13",
-          "valeur": 14380.04,
-          "ma50": 16060.32,
+          "valeur": 14414.2,
+          "ma50": 16108.31,
           "ma200": null
         },
         {
           "date": "2025-08-14",
-          "valeur": 14347.19,
-          "ma50": 15993.02,
+          "valeur": 14380.04,
+          "ma50": 16041.1,
           "ma200": null
         },
         {
           "date": "2025-08-15",
-          "valeur": 14315.69,
-          "ma50": 15925.71,
+          "valeur": 14347.19,
+          "ma50": 15973.81,
           "ma200": null
         },
         {
           "date": "2025-08-18",
-          "valeur": 14229.55,
-          "ma50": 15858.64,
+          "valeur": 14256.85,
+          "ma50": 15906.61,
           "ma200": null
         },
         {
           "date": "2025-08-19",
-          "valeur": 14203.69,
-          "ma50": 15791.77,
+          "valeur": 14229.55,
+          "ma50": 15839.54,
           "ma200": null
         },
         {
           "date": "2025-08-20",
-          "valeur": 14179.31,
-          "ma50": 15725.15,
+          "valeur": 14203.69,
+          "ma50": 15772.67,
           "ma200": null
         },
         {
           "date": "2025-08-21",
-          "valeur": 14156.4,
-          "ma50": 15658.84,
+          "valeur": 14179.31,
+          "ma50": 15706.05,
           "ma200": null
         },
         {
           "date": "2025-08-22",
-          "valeur": 14135.01,
-          "ma50": 15592.88,
+          "valeur": 14156.4,
+          "ma50": 15639.74,
           "ma200": null
         },
         {
           "date": "2025-08-25",
-          "valeur": 14080.01,
-          "ma50": 15528.31,
+          "valeur": 14096.8,
+          "ma50": 15574.65,
           "ma200": null
         },
         {
           "date": "2025-08-26",
-          "valeur": 14064.8,
-          "ma50": 15464.32,
+          "valeur": 14080.01,
+          "ma50": 15510.09,
           "ma200": null
         },
         {
           "date": "2025-08-27",
-          "valeur": 14051.16,
-          "ma50": 15400.95,
+          "valeur": 14064.8,
+          "ma50": 15446.1,
           "ma200": null
         },
         {
           "date": "2025-08-28",
-          "valeur": 14039.12,
-          "ma50": 15338.25,
+          "valeur": 14051.16,
+          "ma50": 15382.73,
           "ma200": null
         },
         {
           "date": "2025-08-29",
-          "valeur": 14028.67,
-          "ma50": 15276.28,
+          "valeur": 14039.12,
+          "ma50": 15320.03,
           "ma200": null
         },
         {
           "date": "2025-09-01",
-          "valeur": 14007.02,
-          "ma50": 15216.79,
+          "valeur": 14012.62,
+          "ma50": 15259.66,
           "ma200": null
         },
         {
           "date": "2025-09-02",
-          "valeur": 14003.05,
-          "ma50": 15158.22,
+          "valeur": 14007.02,
+          "ma50": 15200.17,
           "ma200": null
         },
         {
           "date": "2025-09-03",
-          "valeur": 14000.71,
-          "ma50": 15100.63,
+          "valeur": 14003.05,
+          "ma50": 15141.6,
           "ma200": null
         },
         {
           "date": "2025-09-04",
-          "valeur": 14000.0,
-          "ma50": 15044.05,
+          "valeur": 14000.71,
+          "ma50": 15084.01,
           "ma200": null
         },
         {
           "date": "2025-09-05",
-          "valeur": 14000.93,
-          "ma50": 14988.54,
+          "valeur": 14000.0,
+          "ma50": 15027.43,
           "ma200": null
         },
         {
           "date": "2025-09-08",
-          "valeur": 14013.48,
-          "ma50": 14936.49,
+          "valeur": 14007.67,
+          "ma50": 14974.18,
           "ma200": null
         },
         {
           "date": "2025-09-09",
-          "valeur": 14020.92,
-          "ma50": 14885.68,
+          "valeur": 14013.48,
+          "ma50": 14922.14,
           "ma200": null
         },
         {
           "date": "2025-09-10",
-          "valeur": 14029.97,
-          "ma50": 14836.16,
+          "valeur": 14020.92,
+          "ma50": 14871.33,
           "ma200": null
         },
         {
           "date": "2025-09-11",
-          "valeur": 14040.62,
-          "ma50": 14787.96,
+          "valeur": 14029.97,
+          "ma50": 14821.8,
           "ma200": null
         },
         {
           "date": "2025-09-12",
-          "valeur": 14052.88,
-          "ma50": 14741.12,
+          "valeur": 14040.62,
+          "ma50": 14773.6,
           "ma200": null
         },
         {
           "date": "2025-09-15",
-          "valeur": 14099.14,
-          "ma50": 14698.59,
+          "valeur": 14082.15,
+          "ma50": 14729.6,
           "ma200": null
         },
         {
           "date": "2025-09-16",
-          "valeur": 14117.68,
-          "ma50": 14657.57,
+          "valeur": 14099.14,
+          "ma50": 14687.07,
           "ma200": null
         },
         {
           "date": "2025-09-17",
-          "valeur": 14137.76,
-          "ma50": 14618.09,
+          "valeur": 14117.68,
+          "ma50": 14646.05,
           "ma200": null
         },
         {
           "date": "2025-09-18",
-          "valeur": 14159.36,
-          "ma50": 14580.19,
+          "valeur": 14137.76,
+          "ma50": 14606.57,
           "ma200": null
         },
         {
           "date": "2025-09-19",
-          "valeur": 14182.46,
-          "ma50": 14543.89,
+          "valeur": 14159.36,
+          "ma50": 14568.67,
           "ma200": null
         },
         {
           "date": "2025-09-22",
-          "valeur": 14260.58,
-          "ma50": 14512.57,
+          "valeur": 14233.09,
+          "ma50": 14535.66,
           "ma200": null
         },
         {
           "date": "2025-09-23",
-          "valeur": 14289.49,
-          "ma50": 14482.97,
+          "valeur": 14260.58,
+          "ma50": 14504.35,
           "ma200": null
         },
         {
           "date": "2025-09-24",
-          "valeur": 14319.8,
-          "ma50": 14455.11,
+          "valeur": 14289.49,
+          "ma50": 14474.75,
           "ma200": null
         },
         {
           "date": "2025-09-25",
-          "valeur": 14351.47,
-          "ma50": 14429.02,
+          "valeur": 14319.8,
+          "ma50": 14446.89,
           "ma200": null
         },
         {
           "date": "2025-09-26",
-          "valeur": 14384.5,
-          "ma50": 14404.7,
+          "valeur": 14351.47,
+          "ma50": 14420.8,
           "ma200": null
         },
         {
           "date": "2025-09-29",
-          "valeur": 14491.37,
-          "ma50": 14385.85,
+          "valeur": 14454.47,
+          "ma50": 14400.11,
           "ma200": null
         },
         {
           "date": "2025-09-30",
-          "valeur": 14529.49,
-          "ma50": 14368.86,
+          "valeur": 14491.37,
+          "ma50": 14381.26,
           "ma200": null
         },
         {
           "date": "2025-10-01",
-          "valeur": 14568.82,
-          "ma50": 14353.73,
+          "valeur": 14529.49,
+          "ma50": 14364.26,
           "ma200": null
         },
         {
           "date": "2025-10-02",
-          "valeur": 14609.31,
-          "ma50": 14340.48,
+          "valeur": 14568.82,
+          "ma50": 14349.13,
           "ma200": null
         },
         {
           "date": "2025-10-03",
-          "valeur": 14650.94,
-          "ma50": 14329.12,
+          "valeur": 14609.31,
+          "ma50": 14335.88,
           "ma200": null
         },
         {
           "date": "2025-10-06",
-          "valeur": 14782.29,
-          "ma50": 14323.49,
+          "valeur": 14737.47,
+          "ma50": 14328.33,
           "ma200": null
         },
         {
           "date": "2025-10-07",
-          "valeur": 14828.12,
-          "ma50": 14319.77,
+          "valeur": 14782.29,
+          "ma50": 14322.7,
           "ma200": null
         },
         {
           "date": "2025-10-08",
-          "valeur": 14874.89,
-          "ma50": 14317.97,
+          "valeur": 14828.12,
+          "ma50": 14318.98,
           "ma200": null
         },
         {
           "date": "2025-10-09",
-          "valeur": 14922.59,
-          "ma50": 14318.1,
+          "valeur": 14874.89,
+          "ma50": 14317.18,
           "ma200": null
         },
         {
           "date": "2025-10-10",
-          "valeur": 14971.17,
-          "ma50": 14320.15,
+          "valeur": 14922.59,
+          "ma50": 14317.31,
           "ma200": null
         },
         {
           "date": "2025-10-13",
-          "valeur": 15121.77,
-          "ma50": 14327.96,
+          "valeur": 15070.8,
+          "ma50": 14323.2,
           "ma200": null
         },
         {
           "date": "2025-10-14",
-          "valeur": 15173.46,
-          "ma50": 14337.67,
+          "valeur": 15121.77,
+          "ma50": 14331.01,
           "ma200": null
         },
         {
           "date": "2025-10-15",
-          "valeur": 15225.82,
-          "ma50": 14349.28,
+          "valeur": 15173.46,
+          "ma50": 14340.72,
           "ma200": null
         },
         {
           "date": "2025-10-16",
-          "valeur": 15278.82,
-          "ma50": 14362.77,
+          "valeur": 15225.82,
+          "ma50": 14352.33,
           "ma200": null
         },
         {
           "date": "2025-10-17",
-          "valeur": 15332.41,
-          "ma50": 14378.15,
+          "valeur": 15278.82,
+          "ma50": 14365.83,
           "ma200": null
         },
         {
           "date": "2025-10-20",
-          "valeur": 15496.26,
-          "ma50": 14399.08,
+          "valeur": 15441.17,
+          "ma50": 14384.92,
           "ma200": null
         },
         {
           "date": "2025-10-21",
-          "valeur": 15551.76,
-          "ma50": 14421.83,
+          "valeur": 15496.26,
+          "ma50": 14405.85,
           "ma200": null
         },
         {
           "date": "2025-10-22",
-          "valeur": 15607.62,
-          "ma50": 14446.39,
+          "valeur": 15551.76,
+          "ma50": 14428.6,
           "ma200": null
         },
         {
           "date": "2025-10-23",
-          "valeur": 15663.8,
-          "ma50": 14472.72,
+          "valeur": 15607.62,
+          "ma50": 14453.16,
           "ma200": null
         },
         {
           "date": "2025-10-24",
-          "valeur": 15720.26,
-          "ma50": 14500.81,
+          "valeur": 15663.8,
+          "ma50": 14479.49,
           "ma200": null
         },
         {
           "date": "2025-10-27",
-          "valeur": 15890.83,
-          "ma50": 14534.04,
+          "valeur": 15833.82,
+          "ma50": 14511.03,
           "ma200": null
         },
         {
           "date": "2025-10-28",
-          "valeur": 15947.92,
-          "ma50": 14568.92,
+          "valeur": 15890.83,
+          "ma50": 14544.25,
           "ma200": null
         },
         {
           "date": "2025-10-29",
-          "valeur": 16005.06,
-          "ma50": 14605.44,
+          "valeur": 15947.92,
+          "ma50": 14579.14,
           "ma200": null
         },
         {
           "date": "2025-10-30",
-          "valeur": 16062.19,
-          "ma50": 14643.55,
+          "valeur": 16005.06,
+          "ma50": 14615.65,
           "ma200": null
         },
         {
           "date": "2025-10-31",
-          "valeur": 16119.27,
-          "ma50": 14683.24,
+          "valeur": 16062.19,
+          "ma50": 14653.77,
           "ma200": null
         },
         {
           "date": "2025-11-03",
-          "valeur": 16289.75,
-          "ma50": 14727.43,
+          "valeur": 16233.1,
+          "ma50": 14696.49,
           "ma200": null
         },
         {
           "date": "2025-11-04",
-          "valeur": 16346.16,
-          "ma50": 14773.06,
+          "valeur": 16289.75,
+          "ma50": 14740.69,
           "ma200": null
         },
         {
           "date": "2025-11-05",
-          "valeur": 16402.29,
-          "ma50": 14820.08,
+          "valeur": 16346.16,
+          "ma50": 14786.32,
           "ma200": null
         },
         {
           "date": "2025-11-06",
-          "valeur": 16458.1,
-          "ma50": 14868.46,
+          "valeur": 16402.29,
+          "ma50": 14833.34,
           "ma200": null
         },
         {
           "date": "2025-11-07",
-          "valeur": 16513.53,
-          "ma50": 14918.16,
+          "valeur": 16458.1,
+          "ma50": 14881.72,
           "ma200": null
         },
         {
           "date": "2025-11-10",
-          "valeur": 16677.12,
-          "ma50": 14971.56,
+          "valeur": 16623.08,
+          "ma50": 14933.93,
           "ma200": null
         },
         {
           "date": "2025-11-11",
-          "valeur": 16730.6,
-          "ma50": 15026.11,
+          "valeur": 16677.12,
+          "ma50": 14987.33,
           "ma200": null
         },
         {
           "date": "2025-11-12",
-          "valeur": 16783.49,
-          "ma50": 15081.77,
+          "valeur": 16730.6,
+          "ma50": 15041.88,
           "ma200": null
         },
         {
           "date": "2025-11-13",
-          "valeur": 16835.74,
-          "ma50": 15138.48,
+          "valeur": 16783.49,
+          "ma50": 15097.54,
           "ma200": null
         },
         {
           "date": "2025-11-14",
-          "valeur": 16887.31,
-          "ma50": 15196.21,
+          "valeur": 16835.74,
+          "ma50": 15154.25,
           "ma200": null
         },
         {
           "date": "2025-11-17",
-          "valeur": 17037.5,
-          "ma50": 15256.69,
+          "valeur": 16988.23,
+          "ma50": 15213.86,
           "ma200": null
         },
         {
           "date": "2025-11-18",
-          "valeur": 17085.92,
-          "ma50": 15317.99,
+          "valeur": 17037.5,
+          "ma50": 15274.34,
           "ma200": null
         },
         {
           "date": "2025-11-19",
-          "valeur": 17133.46,
-          "ma50": 15380.06,
+          "valeur": 17085.92,
+          "ma50": 15335.64,
           "ma200": null
         },
         {
           "date": "2025-11-20",
-          "valeur": 17180.07,
-          "ma50": 15442.85,
+          "valeur": 17133.46,
+          "ma50": 15397.71,
           "ma200": null
         },
         {
           "date": "2025-11-21",
-          "valeur": 17225.72,
-          "ma50": 15506.3,
+          "valeur": 17180.07,
+          "ma50": 15460.5,
           "ma200": null
         },
         {
           "date": "2025-11-24",
-          "valeur": 17356.51,
-          "ma50": 15571.45,
+          "valeur": 17313.97,
+          "ma50": 15525.14,
           "ma200": null
         },
         {
           "date": "2025-11-25",
-          "valeur": 17397.94,
-          "ma50": 15637.06,
+          "valeur": 17356.51,
+          "ma50": 15590.28,
           "ma200": null
         },
         {
           "date": "2025-11-26",
-          "valeur": 17438.23,
-          "ma50": 15703.07,
+          "valeur": 17397.94,
+          "ma50": 15655.89,
           "ma200": null
         },
         {
           "date": "2025-11-27",
-          "valeur": 17477.35,
-          "ma50": 15769.43,
+          "valeur": 17438.23,
+          "ma50": 15721.9,
           "ma200": null
         },
         {
           "date": "2025-11-28",
-          "valeur": 17515.26,
-          "ma50": 15836.08,
+          "valeur": 17477.35,
+          "ma50": 15788.26,
           "ma200": null
         },
         {
           "date": "2025-12-01",
-          "valeur": 17621.45,
-          "ma50": 15903.3,
+          "valeur": 17587.34,
+          "ma50": 15855.34,
           "ma200": null
         },
         {
           "date": "2025-12-02",
-          "valeur": 17654.23,
-          "ma50": 15970.59,
+          "valeur": 17621.45,
+          "ma50": 15922.56,
           "ma200": null
         },
         {
           "date": "2025-12-03",
-          "valeur": 17685.67,
-          "ma50": 16037.91,
+          "valeur": 17654.23,
+          "ma50": 15989.86,
           "ma200": null
         },
         {
           "date": "2025-12-04",
-          "valeur": 17715.73,
-          "ma50": 16105.2,
+          "valeur": 17685.67,
+          "ma50": 16057.17,
           "ma200": null
         },
         {
           "date": "2025-12-05",
-          "valeur": 17744.39,
-          "ma50": 16172.4,
+          "valeur": 17715.73,
+          "ma50": 16124.46,
           "ma200": null
         },
         {
           "date": "2025-12-08",
-          "valeur": 17821.74,
-          "ma50": 16239.0,
+          "valeur": 17797.42,
+          "ma50": 16191.32,
           "ma200": null
         },
         {
           "date": "2025-12-09",
-          "valeur": 17844.57,
-          "ma50": 16305.3,
+          "valeur": 17821.74,
+          "ma50": 16257.93,
           "ma200": null
         },
         {
           "date": "2025-12-10",
-          "valeur": 17865.9,
-          "ma50": 16371.25,
+          "valeur": 17844.57,
+          "ma50": 16324.23,
           "ma200": null
         },
         {
           "date": "2025-12-11",
-          "valeur": 17885.71,
-          "ma50": 16436.77,
+          "valeur": 17865.9,
+          "ma50": 16390.17,
           "ma200": null
         },
         {
           "date": "2025-12-12",
-          "valeur": 17903.98,
-          "ma50": 16501.83,
+          "valeur": 17885.71,
+          "ma50": 16455.7,
           "ma200": null
         },
         {
           "date": "2025-12-15",
-          "valeur": 17949.41,
-          "ma50": 16565.18,
+          "valeur": 17935.84,
+          "ma50": 16519.66,
           "ma200": null
         },
         {
           "date": "2025-12-16",
-          "valeur": 17961.38,
-          "ma50": 16627.84,
+          "valeur": 17949.41,
+          "ma50": 16583.01,
           "ma200": null
         },
         {
           "date": "2025-12-17",
-          "valeur": 17971.75,
-          "ma50": 16689.78,
+          "valeur": 17961.38,
+          "ma50": 16645.67,
           "ma200": null
         },
         {
           "date": "2025-12-18",
-          "valeur": 17980.52,
-          "ma50": 16750.94,
+          "valeur": 17971.75,
+          "ma50": 16707.61,
           "ma200": null
         },
         {
           "date": "2025-12-19",
-          "valeur": 17987.66,
-          "ma50": 16811.27,
+          "valeur": 17980.52,
+          "ma50": 16768.77,
           "ma200": null
         },
         {
           "date": "2025-12-22",
-          "valeur": 17999.35,
-          "ma50": 16868.82,
+          "valeur": 17997.09,
+          "ma50": 16827.29,
           "ma200": null
         },
         {
           "date": "2025-12-23",
-          "valeur": 17999.99,
-          "ma50": 16925.35,
+          "valeur": 17999.35,
+          "ma50": 16884.84,
           "ma200": null
         },
         {
           "date": "2025-12-24",
-          "valeur": 17998.99,
-          "ma50": 16980.81,
+          "valeur": 17999.99,
+          "ma50": 16941.38,
           "ma200": null
         },
         {
           "date": "2025-12-25",
-          "valeur": 17996.36,
-          "ma50": 17035.16,
+          "valeur": 17998.99,
+          "ma50": 16996.84,
           "ma200": null
         },
         {
           "date": "2025-12-26",
-          "valeur": 17992.11,
-          "ma50": 17088.36,
-          "ma200": 16283.05
+          "valeur": 17996.36,
+          "ma50": 17051.19,
+          "ma200": 16275.75
         },
         {
           "date": "2025-12-29",
-          "valeur": 17969.6,
-          "ma50": 17137.82,
-          "ma200": 16292.62
+          "valeur": 17978.72,
+          "ma50": 17101.94,
+          "ma200": 16285.64
         },
         {
           "date": "2025-12-30",
-          "valeur": 17958.87,
-          "ma50": 17185.97,
-          "ma200": 16301.84
+          "valeur": 17969.6,
+          "ma50": 17151.41,
+          "ma200": 16295.21
         },
         {
           "date": "2025-12-31",
-          "valeur": 17946.54,
-          "ma50": 17232.75,
-          "ma200": 16310.72
+          "valeur": 17958.87,
+          "ma50": 17199.55,
+          "ma200": 16304.43
         },
         {
           "date": "2026-01-01",
-          "valeur": 17932.62,
-          "ma50": 17278.12,
-          "ma200": 16319.24
+          "valeur": 17946.54,
+          "ma50": 17246.33,
+          "ma200": 16313.31
         },
         {
           "date": "2026-01-02",
-          "valeur": 17917.13,
-          "ma50": 17322.06,
-          "ma200": 16327.4
+          "valeur": 17932.62,
+          "ma50": 17291.7,
+          "ma200": 16321.83
         },
         {
           "date": "2026-01-05",
-          "valeur": 17861.32,
-          "ma50": 17361.47,
-          "ma200": 16334.44
+          "valeur": 17881.46,
+          "ma50": 17332.66,
+          "ma200": 16329.25
         },
         {
           "date": "2026-01-06",
-          "valeur": 17839.65,
-          "ma50": 17399.3,
-          "ma200": 16341.1
+          "valeur": 17861.32,
+          "ma50": 17372.07,
+          "ma200": 16336.29
         },
         {
           "date": "2026-01-07",
-          "valeur": 17816.48,
-          "ma50": 17435.53,
-          "ma200": 16347.36
+          "valeur": 17839.65,
+          "ma50": 17409.9,
+          "ma200": 16342.94
         },
         {
           "date": "2026-01-08",
-          "valeur": 17791.83,
-          "ma50": 17470.12,
-          "ma200": 16353.23
+          "valeur": 17816.48,
+          "ma50": 17446.13,
+          "ma200": 16349.21
         },
         {
           "date": "2026-01-09",
-          "valeur": 17765.72,
-          "ma50": 17503.05,
-          "ma200": 16358.69
+          "valeur": 17791.83,
+          "ma50": 17480.72,
+          "ma200": 16355.08
         },
         {
           "date": "2026-01-12",
-          "valeur": 17678.83,
-          "ma50": 17530.84,
-          "ma200": 16362.93
+          "valeur": 17709.2,
+          "ma50": 17510.24,
+          "ma200": 16359.73
         },
         {
           "date": "2026-01-13",
-          "valeur": 17647.09,
-          "ma50": 17556.85,
-          "ma200": 16366.75
+          "valeur": 17678.83,
+          "ma50": 17538.03,
+          "ma200": 16363.97
         },
         {
           "date": "2026-01-14",
-          "valeur": 17614.01,
-          "ma50": 17581.09,
-          "ma200": 16370.16
+          "valeur": 17647.09,
+          "ma50": 17564.04,
+          "ma200": 16367.79
         },
         {
           "date": "2026-01-15",
-          "valeur": 17579.61,
-          "ma50": 17603.52,
-          "ma200": 16373.13
+          "valeur": 17614.01,
+          "ma50": 17588.28,
+          "ma200": 16371.19
         },
         {
           "date": "2026-01-16",
-          "valeur": 17543.92,
-          "ma50": 17624.13,
-          "ma200": 16375.69
+          "valeur": 17579.61,
+          "ma50": 17610.71,
+          "ma200": 16374.17
         },
         {
           "date": "2026-01-19",
-          "valeur": 17429.42,
-          "ma50": 17639.17,
-          "ma200": 16376.96
+          "valeur": 17468.79,
+          "ma50": 17627.62,
+          "ma200": 16375.87
         },
         {
           "date": "2026-01-20",
-          "valeur": 17388.87,
-          "ma50": 17652.34,
-          "ma200": 16377.79
+          "valeur": 17429.42,
+          "ma50": 17642.67,
+          "ma200": 16377.13
         },
         {
           "date": "2026-01-21",
-          "valeur": 17347.19,
-          "ma50": 17663.61,
-          "ma200": 16378.2
+          "valeur": 17388.87,
+          "ma50": 17655.84,
+          "ma200": 16377.97
         },
         {
           "date": "2026-01-22",
-          "valeur": 17304.41,
-          "ma50": 17672.99,
-          "ma200": 16378.17
+          "valeur": 17347.19,
+          "ma50": 17667.11,
+          "ma200": 16378.37
         },
         {
           "date": "2026-01-23",
-          "valeur": 17260.57,
-          "ma50": 17680.45,
-          "ma200": 16377.71
+          "valeur": 17304.41,
+          "ma50": 17676.48,
+          "ma200": 16378.34
         },
         {
           "date": "2026-01-26",
-          "valeur": 17123.02,
-          "ma50": 17682.16,
-          "ma200": 16375.95
+          "valeur": 17169.83,
+          "ma50": 17680.11,
+          "ma200": 16377.02
         },
         {
           "date": "2026-01-27",
-          "valeur": 17075.28,
-          "ma50": 17681.95,
-          "ma200": 16373.77
+          "valeur": 17123.02,
+          "ma50": 17681.82,
+          "ma200": 16375.27
         },
         {
           "date": "2026-01-28",
-          "valeur": 17026.67,
-          "ma50": 17679.81,
-          "ma200": 16371.16
+          "valeur": 17075.28,
+          "ma50": 17681.61,
+          "ma200": 16373.08
         },
         {
           "date": "2026-01-29",
-          "valeur": 16977.21,
-          "ma50": 17675.76,
-          "ma200": 16368.12
+          "valeur": 17026.67,
+          "ma50": 17679.48,
+          "ma200": 16370.47
         },
         {
           "date": "2026-01-30",
-          "valeur": 16926.96,
-          "ma50": 17669.78,
-          "ma200": 16364.66
+          "valeur": 16977.21,
+          "ma50": 17675.42,
+          "ma200": 16367.44
         },
         {
           "date": "2026-02-02",
-          "valeur": 16771.84,
-          "ma50": 17658.09,
-          "ma200": 16359.96
+          "valeur": 16824.24,
+          "ma50": 17665.62,
+          "ma200": 16363.14
         },
         {
           "date": "2026-02-03",
-          "valeur": 16718.82,
-          "ma50": 17644.5,
-          "ma200": 16354.84
+          "valeur": 16771.84,
+          "ma50": 17653.93,
+          "ma200": 16358.44
         },
         {
           "date": "2026-02-04",
-          "valeur": 16665.21,
-          "ma50": 17629.04,
-          "ma200": 16349.32
+          "valeur": 16718.82,
+          "ma50": 17640.35,
+          "ma200": 16353.32
         },
         {
           "date": "2026-02-05",
-          "valeur": 16611.05,
-          "ma50": 17611.72,
-          "ma200": 16343.4
+          "valeur": 16665.21,
+          "ma50": 17624.89,
+          "ma200": 16347.8
         },
         {
           "date": "2026-02-06",
-          "valeur": 16556.4,
-          "ma50": 17592.54,
-          "ma200": 16337.09
+          "valeur": 16611.05,
+          "ma50": 17607.56,
+          "ma200": 16341.88
         },
         {
           "date": "2026-02-09",
-          "valeur": 16389.9,
-          "ma50": 17567.91,
-          "ma200": 16329.61
+          "valeur": 16445.78,
+          "ma50": 17584.73,
+          "ma200": 16334.79
         },
         {
           "date": "2026-02-10",
-          "valeur": 16333.7,
-          "ma50": 17541.5,
-          "ma200": 16321.77
+          "valeur": 16389.9,
+          "ma50": 17560.1,
+          "ma200": 16327.32
         },
         {
           "date": "2026-02-11",
-          "valeur": 16277.23,
-          "ma50": 17513.33,
-          "ma200": 16313.56
+          "valeur": 16333.7,
+          "ma50": 17533.69,
+          "ma200": 16319.47
         },
         {
           "date": "2026-02-12",
-          "valeur": 16220.54,
-          "ma50": 17483.43,
-          "ma200": 16304.99
+          "valeur": 16277.23,
+          "ma50": 17505.52,
+          "ma200": 16311.26
         },
         {
           "date": "2026-02-13",
-          "valeur": 16163.66,
-          "ma50": 17451.81,
-          "ma200": 16296.07
+          "valeur": 16220.54,
+          "ma50": 17475.62,
+          "ma200": 16302.69
         },
         {
           "date": "2026-02-16",
-          "valeur": 15992.41,
-          "ma50": 17415.23,
-          "ma200": 16286.13
+          "valeur": 16049.55,
+          "ma50": 17440.66,
+          "ma200": 16293.09
         },
         {
           "date": "2026-02-17",
-          "valeur": 15935.28,
-          "ma50": 17377.04,
-          "ma200": 16275.87
+          "valeur": 15992.41,
+          "ma50": 17404.07,
+          "ma200": 16283.15
         },
         {
           "date": "2026-02-18",
-          "valeur": 15878.2,
-          "ma50": 17337.29,
-          "ma200": 16265.3
+          "valeur": 15935.28,
+          "ma50": 17365.89,
+          "ma200": 16272.89
         },
         {
           "date": "2026-02-19",
-          "valeur": 15821.22,
-          "ma50": 17296.0,
-          "ma200": 16254.42
+          "valeur": 15878.2,
+          "ma50": 17326.13,
+          "ma200": 16262.32
         },
         {
           "date": "2026-02-20",
-          "valeur": 15764.39,
-          "ma50": 17253.2,
-          "ma200": 16243.25
+          "valeur": 15821.22,
+          "ma50": 17284.84,
+          "ma200": 16251.44
         },
         {
           "date": "2026-02-23",
-          "valeur": 15595.23,
-          "ma50": 17206.12,
-          "ma200": 16231.24
+          "valeur": 15651.35,
+          "ma50": 17239.15,
+          "ma200": 16239.7
         },
         {
           "date": "2026-02-24",
-          "valeur": 15539.44,
-          "ma50": 17157.68,
-          "ma200": 16218.97
+          "valeur": 15595.23,
+          "ma50": 17192.07,
+          "ma200": 16227.69
         },
         {
           "date": "2026-02-25",
-          "valeur": 15484.03,
-          "ma50": 17107.93,
-          "ma200": 16206.46
+          "valeur": 15539.44,
+          "ma50": 17143.63,
+          "ma200": 16215.43
         },
         {
           "date": "2026-02-26",
-          "valeur": 15429.04,
-          "ma50": 17056.9,
-          "ma200": 16193.71
+          "valeur": 15484.03,
+          "ma50": 17093.88,
+          "ma200": 16202.91
         },
         {
           "date": "2026-02-27",
-          "valeur": 15374.51,
-          "ma50": 17004.63,
-          "ma200": 16180.73
+          "valeur": 15429.04,
+          "ma50": 17042.85,
+          "ma200": 16190.16
         },
         {
           "date": "2026-03-02",
-          "valeur": 15214.18,
-          "ma50": 16948.93,
-          "ma200": 16167.13
+          "valeur": 15267.04,
+          "ma50": 16988.25,
+          "ma200": 16176.76
         },
         {
           "date": "2026-03-03",
-          "valeur": 15161.96,
-          "ma50": 16892.17,
-          "ma200": 16153.35
+          "valeur": 15214.18,
+          "ma50": 16932.54,
+          "ma200": 16163.16
         },
         {
           "date": "2026-03-04",
-          "valeur": 15110.43,
-          "ma50": 16834.4,
-          "ma200": 16139.39
+          "valeur": 15161.96,
+          "ma50": 16875.78,
+          "ma200": 16149.38
         },
         {
           "date": "2026-03-05",
-          "valeur": 15059.62,
-          "ma50": 16775.66,
-          "ma200": 16125.27
+          "valeur": 15110.43,
+          "ma50": 16818.01,
+          "ma200": 16135.42
         },
         {
           "date": "2026-03-06",
-          "valeur": 15009.58,
-          "ma50": 16716.01,
-          "ma200": 16111.0
+          "valeur": 15059.62,
+          "ma50": 16759.28,
+          "ma200": 16121.3
         },
         {
           "date": "2026-03-09",
-          "valeur": 14864.46,
-          "ma50": 16653.91,
-          "ma200": 16096.36
+          "valeur": 14911.96,
+          "ma50": 16697.94,
+          "ma200": 16106.77
         },
         {
           "date": "2026-03-10",
-          "valeur": 14817.89,
-          "ma50": 16591.09,
-          "ma200": 16081.61
+          "valeur": 14864.46,
+          "ma50": 16635.84,
+          "ma200": 16092.12
         },
         {
           "date": "2026-03-11",
-          "valeur": 14772.29,
-          "ma50": 16527.61,
-          "ma200": 16066.76
+          "valeur": 14817.89,
+          "ma50": 16573.02,
+          "ma200": 16077.37
         },
         {
           "date": "2026-03-12",
-          "valeur": 14727.69,
-          "ma50": 16463.51,
-          "ma200": 16051.84
+          "valeur": 14772.29,
+          "ma50": 16509.53,
+          "ma200": 16062.53
         },
         {
           "date": "2026-03-13",
-          "valeur": 14684.12,
-          "ma50": 16398.85,
-          "ma200": 16036.86
+          "valeur": 14727.69,
+          "ma50": 16445.44,
+          "ma200": 16047.61
         },
         {
           "date": "2026-03-16",
-          "valeur": 14560.01,
-          "ma50": 16332.82,
-          "ma200": 16021.74
+          "valeur": 14600.25,
+          "ma50": 16379.81,
+          "ma200": 16032.53
         },
         {
           "date": "2026-03-17",
-          "valeur": 14520.95,
-          "ma50": 16266.45,
-          "ma200": 16006.61
+          "valeur": 14560.01,
+          "ma50": 16313.78,
+          "ma200": 16017.41
         },
         {
           "date": "2026-03-18",
-          "valeur": 14483.09,
-          "ma50": 16199.78,
-          "ma200": 15991.48
+          "valeur": 14520.95,
+          "ma50": 16247.41,
+          "ma200": 16002.28
         },
         {
           "date": "2026-03-19",
-          "valeur": 14446.48,
-          "ma50": 16132.87,
-          "ma200": 15976.35
+          "valeur": 14483.09,
+          "ma50": 16180.74,
+          "ma200": 15987.14
         },
         {
           "date": "2026-03-20",
-          "valeur": 14411.13,
-          "ma50": 16065.78,
-          "ma200": 15961.24
+          "valeur": 14446.48,
+          "ma50": 16113.84,
+          "ma200": 15972.02
+        },
+        {
+          "date": "2026-03-23",
+          "valeur": 14344.35,
+          "ma50": 16046.54,
+          "ma200": 15956.98
         }
       ],
       "variations": {
-        "jour": -0.24,
-        "semaine": -1.86,
-        "mois": -9.24,
-        "ytd": -19.64
+        "jour": -0.71,
+        "semaine": -1.75,
+        "mois": -9.66,
+        "ytd": -20.07
       },
       "min_max": {
         "min": 14000.0,
-        "min_date": "2025-09-04",
+        "min_date": "2025-09-05",
         "max": 17999.99,
-        "max_date": "2025-12-23"
+        "max_date": "2025-12-24"
       },
       "note_lecture": "Le nickel est essentiel pour les aciers inoxydables et les batteries de véhicules électriques. Très sensible aux politiques d'exportation indonésiennes et à la demande de la transition énergétique."
     },
@@ -19470,7 +19559,7 @@
       "note_lecture": "Le taux moyen des credits immobiliers determine la capacite d'emprunt des menages. Une hausse de 1 point reduit le montant empruntable d'environ 10% a mensualite constante."
     },
     "correlations": {
-      "oat_inflation": 0.156,
+      "oat_inflation": 0.178,
       "brent_inflation": 0.168,
       "cac_inflation": 0.041,
       "eurusd_inflation": 0.226,
@@ -19539,7 +19628,7 @@
     },
     "analyse": {
       "description": "Donnees quotidiennes sur 1 an avec moyennes mobiles 50j/200j, variations multi-horizons et correlation inflation. 12 indicateurs suivis (dont 4 métaux LME).",
-      "periode": "2025-03-24 - 2026-03-20"
+      "periode": "2025-03-24 - 2026-03-23"
     },
     "sources": "FRED (Valeur statique (fallback), Brent, EUR/USD, Or, Gaz), Yahoo Finance (CAC 40, matieres premieres, LME metaux), Banque de France (taux immo), INSEE (IPC)"
   },
@@ -20029,7 +20118,7 @@
           "2023": 1.92,
           "2024": 1.78,
           "2025": 1.72,
-          "2026": 2.01
+          "2026": 2.013
         },
         "quantiteMensuelle": {
           "solo": 40,
@@ -21362,24 +21451,24 @@
         "nom": "Martinique",
         "code": "MQ",
         "emoji": "🌴",
-        "chomage": 13.7,
+        "chomage": 13.4,
         "salaire_median": 1840,
         "emploi": 56.8,
         "population": 0.349,
         "tensions": 40,
-        "evol_chomage": 1.3,
+        "evol_chomage": 1.0,
         "note": "Taux de chômage des jeunes : ~40%"
       },
       {
         "nom": "Guyane",
         "code": "GF",
         "emoji": "🌿",
-        "chomage": 16.9,
+        "chomage": 16.7,
         "salaire_median": 1750,
         "emploi": 48.3,
         "population": 0.3,
         "tensions": 32,
-        "evol_chomage": 0.1,
+        "evol_chomage": -0.1,
         "note": "Population en forte croissance (+3%/an)"
       },
       {
@@ -22452,7 +22541,7 @@
     "sources": "INSEE - Enquête Emploi, DARES"
   },
   "previsions_cftc": {
-    "generated_at": "2026-03-23T20:12:59.015614",
+    "generated_at": "2026-03-24T06:07:23.553899",
     "model_version": "CFTC v4.0 (Monte Carlo)",
     "n_simulations": 1000,
     "horizon": "12 mois",
@@ -22482,7 +22571,7 @@
           0.8,
           0.8,
           0.9,
-          0.9,
+          1.0,
           1.1,
           1.1,
           1.1,
@@ -22496,7 +22585,7 @@
           1.3,
           1.4,
           1.5,
-          1.6,
+          1.7,
           1.8,
           1.8,
           1.8,
@@ -22511,11 +22600,11 @@
           0.9,
           1.0,
           1.1,
+          1.3,
+          1.3,
           1.2,
           1.2,
-          1.2,
-          1.1,
-          1.2,
+          1.3,
           1.3,
           1.2
         ],
@@ -22529,9 +22618,9 @@
           1.6,
           1.6,
           1.6,
-          1.6,
           1.7,
-          1.6
+          1.7,
+          1.7
         ],
         "periods": [
           "2026-04",
@@ -22550,10 +22639,10 @@
         "methodology": "Monte Carlo (1000 simulations) + saisonnalité + mean reversion"
       },
       "probabilites": {
-        "inflation_sous_2pct": 97.1,
-        "inflation_cible_bce": 97.1,
+        "inflation_sous_2pct": 96.2,
+        "inflation_cible_bce": 96.2,
         "inflation_au_dessus_3pct": 0.0,
-        "description": "97.1% de chances que l'inflation reste sous 2% à 12 mois"
+        "description": "96.2% de chances que l'inflation reste sous 2% à 12 mois"
       },
       "facteurs": {
         "cible_bdf": 1.4,
@@ -22561,7 +22650,7 @@
         "ajustement_energie": 0.0,
         "cible_ajustee": 1.37
       },
-      "insight": "Inflation médiane à 12 mois : 1.4% [IC 80% : 1.1% - 1.8%]. 97.1% de probabilité de rester sous 2%."
+      "insight": "Inflation médiane à 12 mois : 1.4% [IC 80% : 1.1% - 1.8%]. 96.2% de probabilité de rester sous 2%."
     },
     "smic": {
       "current": {
@@ -22574,25 +22663,25 @@
           "date": "2027-01-01",
           "type": "janvier",
           "probability": 1.0,
-          "estimated_increase_pct": 1.5,
-          "estimated_new_smic_brut": 1850.38,
-          "estimated_new_smic_net": 1465.5,
+          "estimated_increase_pct": 1.7,
+          "estimated_new_smic_brut": 1854.02,
+          "estimated_new_smic_net": 1468.38,
           "trigger": "Revalorisation annuelle obligatoire",
           "legal_basis": "Code du travail, art. L3231-5",
           "confidence": "haute",
           "fourchette": {
-            "min": 1.2,
-            "max": 2.0
+            "min": 1.4,
+            "max": 2.2
           }
         }
       ],
       "forecast_12m": {
-        "total_increase_pct": 1.5,
-        "final_smic_brut": 1850.38,
-        "final_smic_net": 1465.5,
+        "total_increase_pct": 1.7,
+        "final_smic_brut": 1854.02,
+        "final_smic_net": 1468.38,
         "fourchette": {
-          "min": 1.2,
-          "max": 2.0
+          "min": 1.4,
+          "max": 2.2
         }
       },
       "methodology": "Règles légales + Monte Carlo inflation"
@@ -22610,10 +22699,10 @@
           7.7
         ],
         "lower_bound": [
+          7.6,
           7.5,
           7.5,
-          7.4,
-          7.4
+          7.5
         ],
         "upper_bound": [
           7.8,
@@ -22624,8 +22713,8 @@
         "p25": [
           7.6,
           7.6,
-          7.5,
-          7.5
+          7.6,
+          7.6
         ],
         "p75": [
           7.8,
@@ -22651,27 +22740,27 @@
         "ajustement_recrutement": -0.11,
         "cible_ajustee": 7.65
       },
-      "insight": "Chômage médian à Q4 : 7.7% [IC 80% : 7.4% - 7.9%]."
+      "insight": "Chômage médian à Q4 : 7.7% [IC 80% : 7.5% - 7.9%]."
     },
     "scenarios": {
       "optimiste": {
         "inflation_12m": 1.2,
-        "chomage_q4": 7.5,
-        "smic_increase": "+1.8%",
+        "chomage_q4": 7.6,
+        "smic_increase": "+2.0%",
         "pib": "+1.5%",
         "hypotheses": "Scénario favorable (percentile 25)"
       },
       "central": {
         "inflation_12m": 1.4,
         "chomage_q4": 7.7,
-        "smic_increase": "+1.5%",
+        "smic_increase": "+1.7%",
         "pib": "+1.0%",
         "hypotheses": "Scénario médian (Banque de France)"
       },
       "pessimiste": {
-        "inflation_12m": 1.6,
+        "inflation_12m": 1.7,
         "chomage_q4": 7.8,
-        "smic_increase": "+1.3%",
+        "smic_increase": "+1.5%",
         "pib": "+0.5%",
         "hypotheses": "Scénario défavorable (percentile 75)"
       }
@@ -22754,9 +22843,9 @@
       }
     },
     "notes_lecture": [
-      "📈 Inflation médiane à 12 mois : 1.4% [1.1% - 1.8%] — 97.1% de chances de rester sous 2%",
-      "💰 SMIC janvier 2027 : 1850€ brut (+1.5%, fourchette 1.2-2.0%) — Certain",
-      "👥 Chômage Q4 : 7.7% [7.4% - 7.9%] — Tendance stable",
+      "📈 Inflation médiane à 12 mois : 1.4% [1.1% - 1.8%] — 96.2% de chances de rester sous 2%",
+      "💰 SMIC janvier 2027 : 1854€ brut (+1.7%, fourchette 1.4-2.2%) — Certain",
+      "👥 Chômage Q4 : 7.7% [7.5% - 7.9%] — Tendance stable",
       "🎲 Scénario à surveiller : 🚀 Reprise économique forte (25% de probabilité)",
       "💡 Recommandation NAO : demander au minimum +1.9% pour préserver le pouvoir d'achat"
     ],
