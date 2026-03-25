@@ -1,6 +1,6 @@
 {
-  "last_updated": "25/03/2026 09:12",
-  "last_updated_iso": "2026-03-25T09:12:22.659126",
+  "last_updated": "25/03/2026 09:15",
+  "last_updated_iso": "2026-03-25T09:15:05.685558",
   "contact": "hspringragain@cftc.fr",
   "alertes": [
     {
@@ -32,7 +32,7 @@
       "date": "2026-03-25",
       "type": "info",
       "titre": "🔄 Données actualisées",
-      "message": "Le tableau de bord a été mis à jour le 25/03/2026 à 09:12.",
+      "message": "Le tableau de bord a été mis à jour le 25/03/2026 à 09:15.",
       "onglet": "conjoncture"
     }
   ],
@@ -193,7 +193,7 @@
     }
   ],
   "revue_presse": {
-    "derniere_maj": "25/03/2026 09:12",
+    "derniere_maj": "25/03/2026 09:15",
     "nb_sources": 7,
     "sources_noms": [
       "Le Monde Éco",
@@ -4064,7 +4064,7 @@
       "note_lecture": "Le TEC-10 mesure le rendement des emprunts d'Etat francais a 10 ans. Un taux eleve rencherit le cout de la dette publique et impacte les taux de credit immobilier."
     },
     "petrole_brent": {
-      "valeur": 95.09,
+      "valeur": 94.97,
       "date": "2026-03-25",
       "unite": "USD/baril",
       "source": "Yahoo Finance",
@@ -5584,16 +5584,16 @@
         },
         {
           "date": "2026-03-25",
-          "valeur": 95.09,
+          "valeur": 94.97,
           "ma50": 78.28,
           "ma200": 69.03
         }
       ],
       "variations": {
-        "jour": -9.0,
-        "semaine": -11.45,
-        "mois": 33.01,
-        "ytd": 56.53
+        "jour": -9.11,
+        "semaine": -11.56,
+        "mois": 32.84,
+        "ytd": 56.33
       },
       "min_max": {
         "min": 58.92,
@@ -5604,9 +5604,9 @@
       "note_lecture": "Le prix du Brent influence directement les couts de transport et d'energie, donc l'inflation et le pouvoir d'achat des salaries."
     },
     "cac40": {
-      "valeur": 7850.45,
+      "valeur": 7853.3,
       "date": "2026-03-25",
-      "variation_jour_pct": 1.38,
+      "variation_jour_pct": 1.41,
       "unite": "points",
       "source": "Yahoo Finance",
       "nb_points": 256,
@@ -7143,16 +7143,16 @@
         },
         {
           "date": "2026-03-25",
-          "valeur": 7850.45,
-          "ma50": 8169.93,
-          "ma200": 7995.21
+          "valeur": 7853.3,
+          "ma50": 8169.98,
+          "ma200": 7995.22
         }
       ],
       "variations": {
-        "jour": 1.38,
-        "semaine": -1.5,
-        "mois": -7.61,
-        "ytd": -4.21
+        "jour": 1.41,
+        "semaine": -1.46,
+        "mois": -7.58,
+        "ytd": -4.17
       },
       "min_max": {
         "min": 6863.02,
@@ -8733,7 +8733,7 @@
       "note_lecture": "Le taux de change euro-dollar determine le prix de tout ce qui est importe en dollars : petrole, matieres premieres, electronique. Un euro faible rencherit les importations et alimente l'inflation."
     },
     "or": {
-      "valeur": 4562.3,
+      "valeur": 4562.1,
       "date": "2026-03-25",
       "unite": "USD/oz",
       "source": "Yahoo Finance",
@@ -10253,16 +10253,16 @@
         },
         {
           "date": "2026-03-25",
-          "valeur": 4562.3,
-          "ma50": 4948.24,
+          "valeur": 4562.1,
+          "ma50": 4948.23,
           "ma200": 4080.0
         }
       ],
       "variations": {
-        "jour": 3.71,
+        "jour": 3.7,
         "semaine": -6.7,
-        "mois": -12.34,
-        "ytd": 5.75
+        "mois": -12.35,
+        "ytd": 5.74
       },
       "min_max": {
         "min": 2951.3,
@@ -11807,7 +11807,7 @@
       "note_lecture": "Le prix du gaz naturel (TTF europeen) impacte directement les factures de chauffage et d'electricite des menages, ainsi que les couts de production industrielle."
     },
     "ble": {
-      "valeur": 583.75,
+      "valeur": 583.25,
       "date": "2026-03-25",
       "unite": "cents/boisseau",
       "source": "Yahoo Finance",
@@ -13321,16 +13321,16 @@
         },
         {
           "date": "2026-03-25",
-          "valeur": 583.75,
-          "ma50": 556.97,
+          "valeur": 583.25,
+          "ma50": 556.96,
           "ma200": 531.66
         }
       ],
       "variations": {
-        "jour": -1.06,
-        "semaine": -3.39,
-        "mois": 2.5,
-        "ytd": 15.25
+        "jour": -1.14,
+        "semaine": -3.48,
+        "mois": 2.41,
+        "ytd": 15.15
       },
       "min_max": {
         "min": 495.0,
@@ -13341,7 +13341,7 @@
       "note_lecture": "Le cours du ble est un indicateur avance des prix alimentaires. La France etant le premier producteur europeen, son evolution impacte a la fois les consommateurs et le secteur agricole."
     },
     "lme_cuivre": {
-      "valeur": 5.54,
+      "valeur": 5.53,
       "date": "2026-03-25",
       "unite": "cts/lb",
       "source": "Yahoo Finance",
@@ -14861,16 +14861,16 @@
         },
         {
           "date": "2026-03-25",
-          "valeur": 5.54,
+          "valeur": 5.53,
           "ma50": 5.81,
           "ma200": 5.22
         }
       ],
       "variations": {
-        "jour": 2.21,
-        "semaine": -0.18,
-        "mois": -3.99,
-        "ytd": -1.77
+        "jour": 2.03,
+        "semaine": -0.36,
+        "mois": -4.16,
+        "ytd": -1.95
       },
       "min_max": {
         "min": 4.13,
@@ -20311,7 +20311,7 @@
           "2023": 1.92,
           "2024": 1.78,
           "2025": 1.72,
-          "2026": 2.025
+          "2026": 2.026
         },
         "quantiteMensuelle": {
           "solo": 40,
@@ -21632,12 +21632,12 @@
         "nom": "Guadeloupe",
         "code": "GP",
         "emoji": "🌺",
-        "chomage": 16.6,
+        "chomage": 16.3,
         "salaire_median": 1820,
         "emploi": 55.2,
         "population": 0.385,
         "tensions": 38,
-        "evol_chomage": -0.1,
+        "evol_chomage": -0.4,
         "note": "Taux de chômage des jeunes : ~43%"
       },
       {
@@ -21656,12 +21656,12 @@
         "nom": "Guyane",
         "code": "GF",
         "emoji": "🌿",
-        "chomage": 16.7,
+        "chomage": 16.9,
         "salaire_median": 1750,
         "emploi": 48.3,
         "population": 0.3,
         "tensions": 32,
-        "evol_chomage": -0.1,
+        "evol_chomage": 0.1,
         "note": "Population en forte croissance (+3%/an)"
       },
       {
@@ -24928,7 +24928,7 @@
     "sources": "INSEE - Enquête Emploi, DARES"
   },
   "previsions_cftc": {
-    "generated_at": "2026-03-25T09:12:22.992116",
+    "generated_at": "2026-03-25T09:15:06.148989",
     "model_version": "CFTC v4.0 (Monte Carlo)",
     "n_simulations": 1000,
     "horizon": "12 mois",
