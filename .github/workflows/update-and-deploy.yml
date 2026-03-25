@@ -1,5 +1,4 @@
 name: Update Economic Data
-
 on:
   schedule:
     # 5h UTC = 7h Paris en été (CEST = UTC+2) à partir du 30 mars
@@ -24,7 +23,10 @@ jobs:
     runs-on: ubuntu-latest
     # Ne pas tourner en mode diagnostic_rss (job dédié ci-dessous)
     if: ${{ github.event.inputs.mode != 'diagnostic_rss' }}
-
+    # Secrets PISTE pour l'API Légifrance (mise à jour grilles conventionnelles)
+    env:
+      PISTE_CLIENT_ID: ${{ secrets.PISTE_CLIENT_ID }}
+      PISTE_CLIENT_SECRET: ${{ secrets.PISTE_CLIENT_SECRET }}
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
@@ -64,7 +66,6 @@ jobs:
   build-deploy:
     needs: update-data
     runs-on: ubuntu-latest
-
     steps:
       - name: Checkout updated repo
         uses: actions/checkout@v4
@@ -93,7 +94,6 @@ jobs:
   diagnostic-rss:
     runs-on: ubuntu-latest
     if: ${{ github.event.inputs.mode == 'diagnostic_rss' }}
-
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
