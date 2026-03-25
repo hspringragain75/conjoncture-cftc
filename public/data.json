@@ -1,6 +1,6 @@
 {
-  "last_updated": "25/03/2026 07:31",
-  "last_updated_iso": "2026-03-25T07:31:27.495635",
+  "last_updated": "25/03/2026 07:50",
+  "last_updated_iso": "2026-03-25T07:50:14.178112",
   "contact": "hspringragain@cftc.fr",
   "alertes": [
     {
@@ -12,11 +12,11 @@
       "onglet": "inflation"
     },
     {
-      "id": "chomage_jeunes_T3_2025",
+      "id": "chomage_jeunes_T4_2025",
       "date": "2026-03-25",
       "type": "warning",
-      "titre": "🧑‍🎓 Chômage jeunes élevé : 19.2%",
-      "message": "Le taux de chômage des 15-24 ans reste préoccupant (T3 2025).",
+      "titre": "🧑‍🎓 Chômage jeunes élevé : 21.5%",
+      "message": "Le taux de chômage des 15-24 ans reste préoccupant (T4 2025).",
       "onglet": "emploi"
     },
     {
@@ -32,7 +32,7 @@
       "date": "2026-03-25",
       "type": "info",
       "titre": "🔄 Données actualisées",
-      "message": "Le tableau de bord a été mis à jour le 25/03/2026 à 07:31.",
+      "message": "Le tableau de bord a été mis à jour le 25/03/2026 à 07:50.",
       "onglet": "conjoncture"
     }
   ],
@@ -193,7 +193,7 @@
     }
   ],
   "revue_presse": {
-    "derniere_maj": "25/03/2026 07:31",
+    "derniere_maj": "25/03/2026 07:50",
     "nb_sources": 7,
     "sources_noms": [
       "Le Monde Éco",
@@ -219,6 +219,18 @@
       }
     ],
     "tous": [
+      {
+        "source": "Libération Éco",
+        "couleur": "#dc2626",
+        "emoji": "📰",
+        "tag": "Presse économique",
+        "titre": "Etats-Unis : Meta déclaré responsable de mise en danger de mineurs par un tribunal du Nouveau-Mexique",
+        "resume": "La justice a condamné le propriétaire de Facebook et Instagram pour avoir exposé les jeunes utilisateurs à des contenus inappropriés et à des prédateurs sexuels. Le jugement intervient alors qu’un procès du même type se tient à Los Angeles et que des milliers de milliers d’autres plaintes similaires",
+        "lien": "https://www.liberation.fr/economie/economie-numerique/etats-unis-meta-declare-responsable-de-mise-en-danger-de-mineurs-par-un-tribunal-du-nouveau-mexique-20260325_X5X2AXZ7YVC3PCGQW7WHLSZSCM/",
+        "date_iso": "2026-03-25T07:42:07+00:00",
+        "date_fr": "25/03/2026",
+        "pertinence": 0
+      },
       {
         "source": "Le Figaro Éco",
         "couleur": "#92400e",
@@ -344,9 +356,9 @@
         "couleur": "#374151",
         "emoji": "🌐",
         "tag": "Presse économique",
-        "titre": "Pour Vincent Bolloré, l’audiovisuel public devrait être entièrement payé par la publicité",
-        "resume": "L’industriel breton, actionnaire principal du Groupe Canal+, était auditionné, mardi, par la commission d’enquête parlementaire sur l’audiovisuel public, au motif qu’il est aussi au capital de Banijay, troisième fournisseur de programmes à France Télévisions.",
-        "lien": "https://www.lemonde.fr/economie/article/2026/03/25/pour-vincent-bollore-l-audiovisuel-public-devrait-etre-entierement-paye-par-la-publicite_6674148_3234.html",
+        "titre": "Dario Amodei, le patron d’Anthropic, l’utopiste alarmiste de l’IA",
+        "resume": "« Les gourous de l’IA » (1/12). Le quadragénaire incarne une figure paradoxale de la révolution de l’intelligence artificielle, à la fois inquiet sur ses possibles dérives et convaincu qu’elle peut révolutionner la médecine.",
+        "lien": "https://www.lemonde.fr/economie/article/2026/03/25/dario-amodei-le-patron-d-anthropic-l-utopiste-alarmiste-de-l-ia_6674149_3234.html",
         "date_iso": "2026-03-25T05:00:31+01:00",
         "date_fr": "25/03/2026",
         "pertinence": 0
@@ -356,9 +368,9 @@
         "couleur": "#374151",
         "emoji": "🌐",
         "tag": "Presse économique",
-        "titre": "Dario Amodei, le patron d’Anthropic, l’utopiste alarmiste de l’IA",
-        "resume": "« Les gourous de l’IA » (1/12). Le quadragénaire incarne une figure paradoxale de la révolution de l’intelligence artificielle, à la fois inquiet sur ses possibles dérives et convaincu qu’elle peut révolutionner la médecine.",
-        "lien": "https://www.lemonde.fr/economie/article/2026/03/25/dario-amodei-le-patron-d-anthropic-l-utopiste-alarmiste-de-l-ia_6674149_3234.html",
+        "titre": "Pour Vincent Bolloré, l’audiovisuel public devrait être entièrement payé par la publicité",
+        "resume": "L’industriel breton, actionnaire principal du Groupe Canal+, était auditionné, mardi, par la commission d’enquête parlementaire sur l’audiovisuel public, au motif qu’il est aussi au capital de Banijay, troisième fournisseur de programmes à France Télévisions.",
+        "lien": "https://www.lemonde.fr/economie/article/2026/03/25/pour-vincent-bollore-l-audiovisuel-public-devrait-etre-entierement-paye-par-la-publicite_6674148_3234.html",
         "date_iso": "2026-03-25T05:00:31+01:00",
         "date_fr": "25/03/2026",
         "pertinence": 0
@@ -566,18 +578,6 @@
         "date_iso": "2026-03-24T19:12:36+01:00",
         "date_fr": "24/03/2026",
         "pertinence": 1
-      },
-      {
-        "source": "Le Figaro Éco",
-        "couleur": "#92400e",
-        "emoji": "📊",
-        "tag": "Presse économique",
-        "titre": "«Nous envoyons un signal fort au reste du monde» : pourquoi l’Europe signe un accord de libre-échange avec l’Australie",
-        "resume": "DÉCRYPTAGE - Matières premières critiques en échange de quotas d’importations de viande : Bruxelles conclut avec Canberra après huit ans de négociations difficiles.",
-        "lien": "https://www.lefigaro.fr/economie/nous-envoyons-un-signal-fort-au-reste-du-monde-pourquoi-l-europe-signe-un-accord-de-libre-echange-avec-l-australie-20260324",
-        "date_iso": "2026-03-24T19:12:35+01:00",
-        "date_fr": "24/03/2026",
-        "pertinence": 2
       }
     ]
   },
@@ -695,58 +695,63 @@
   "chomage": [
     {
       "trimestre": "T1 2023",
-      "taux": 7.1,
-      "jeunes": 17.5
+      "taux": 6.9,
+      "jeunes": 16.6
     },
     {
       "trimestre": "T2 2023",
-      "taux": 7.2,
-      "jeunes": 17.0
+      "taux": 7.0,
+      "jeunes": 17.1
     },
     {
       "trimestre": "T3 2023",
-      "taux": 7.4,
-      "jeunes": 17.6
+      "taux": 7.2,
+      "jeunes": 17.4
     },
     {
       "trimestre": "T4 2023",
-      "taux": 7.5,
+      "taux": 7.3,
       "jeunes": 17.6
     },
     {
       "trimestre": "T1 2024",
-      "taux": 7.5,
+      "taux": 7.3,
       "jeunes": 18.1
     },
     {
       "trimestre": "T2 2024",
-      "taux": 7.3,
-      "jeunes": 17.7
+      "taux": 7.1,
+      "jeunes": 18.0
     },
     {
       "trimestre": "T3 2024",
-      "taux": 7.4,
-      "jeunes": 18.3
+      "taux": 7.2,
+      "jeunes": 19.7
     },
     {
       "trimestre": "T4 2024",
-      "taux": 7.3,
-      "jeunes": 19.0
+      "taux": 7.1,
+      "jeunes": 18.7
     },
     {
       "trimestre": "T1 2025",
-      "taux": 7.4,
-      "jeunes": 18.5
+      "taux": 7.3,
+      "jeunes": 19.2
     },
     {
       "trimestre": "T2 2025",
-      "taux": 7.5,
-      "jeunes": 18.8
+      "taux": 7.4,
+      "jeunes": 19.1
     },
     {
       "trimestre": "T3 2025",
+      "taux": 7.5,
+      "jeunes": 19.1
+    },
+    {
+      "trimestre": "T4 2025",
       "taux": 7.7,
-      "jeunes": 19.2
+      "jeunes": 21.5
     }
   ],
   "smic": {
@@ -821,7 +826,7 @@
   ],
   "indicateurs_cles": {
     "taux_chomage_actuel": 7.7,
-    "taux_chomage_jeunes": 19.2,
+    "taux_chomage_jeunes": 21.5,
     "taux_emploi_seniors": 61.7,
     "inflation_annuelle": 0.9,
     "smic_brut": 1823.03,
@@ -998,7 +1003,7 @@
     },
     {
       "trimestre": "T2 2023",
-      "taux": 4.9
+      "taux": 5.1
     },
     {
       "trimestre": "T3 2023",
@@ -1010,19 +1015,19 @@
     },
     {
       "trimestre": "T1 2024",
-      "taux": 4.8
+      "taux": 5.0
     },
     {
       "trimestre": "T2 2024",
-      "taux": 4.9
+      "taux": 5.1
     },
     {
       "trimestre": "T3 2024",
-      "taux": 4.5
+      "taux": 5.2
     },
     {
       "trimestre": "T4 2024",
-      "taux": 4.6
+      "taux": 5.2
     },
     {
       "trimestre": "T1 2025",
@@ -1141,57 +1146,57 @@
   "difficultes_recrutement": [
     {
       "trimestre": "T1 2023",
-      "industrie": 52,
-      "services": 38,
-      "construction": 65
+      "industrie": 65,
+      "services": 48,
+      "construction": 78
     },
     {
       "trimestre": "T2 2023",
-      "industrie": 50,
-      "services": 36,
-      "construction": 62
+      "industrie": 64,
+      "services": 48,
+      "construction": 76
     },
     {
       "trimestre": "T3 2023",
-      "industrie": 48,
-      "services": 35,
-      "construction": 60
+      "industrie": 60,
+      "services": 45,
+      "construction": 72
     },
     {
       "trimestre": "T4 2023",
-      "industrie": 45,
-      "services": 33,
-      "construction": 58
+      "industrie": 57,
+      "services": 42,
+      "construction": 68
     },
     {
       "trimestre": "T1 2024",
-      "industrie": 43,
-      "services": 32,
-      "construction": 55
+      "industrie": 53,
+      "services": 39,
+      "construction": 63
     },
     {
       "trimestre": "T2 2024",
-      "industrie": 41,
-      "services": 30,
-      "construction": 52
+      "industrie": 52,
+      "services": 39,
+      "construction": 62
     },
     {
       "trimestre": "T3 2024",
-      "industrie": 40,
-      "services": 30,
-      "construction": 50
+      "industrie": 48,
+      "services": 36,
+      "construction": 57
     },
     {
       "trimestre": "T4 2024",
-      "industrie": 38,
-      "services": 28,
-      "construction": 48
+      "industrie": 46,
+      "services": 34,
+      "construction": 55
     },
     {
       "trimestre": "T1 2025",
-      "industrie": 36,
-      "services": 27,
-      "construction": 46
+      "industrie": 44,
+      "services": 33,
+      "construction": 52
     },
     {
       "trimestre": "T2 2025",
@@ -2098,7 +2103,7 @@
     "croissance_trim_actuel": 0.7,
     "croissance_annuelle": 0.9,
     "trimestre": "T4 2025",
-    "commentaire": "PIB volume trimestriel - glissement annuel - INSEE",
+    "commentaire": "PIB volume trimestriel - glissement annuel",
     "evolution": [
       {
         "trimestre": "T2 2022",
@@ -4077,7 +4082,7 @@
       "note_lecture": "Le TEC-10 mesure le rendement des emprunts d'Etat francais a 10 ans. Un taux eleve rencherit le cout de la dette publique et impacte les taux de credit immobilier."
     },
     "petrole_brent": {
-      "valeur": 99.9,
+      "valeur": 95.64,
       "date": "2026-03-25",
       "unite": "USD/baril",
       "source": "Yahoo Finance",
@@ -5597,16 +5602,16 @@
         },
         {
           "date": "2026-03-25",
-          "valeur": 99.9,
-          "ma50": 78.38,
-          "ma200": 69.06
+          "valeur": 95.64,
+          "ma50": 78.29,
+          "ma200": 69.04
         }
       ],
       "variations": {
-        "jour": -4.39,
-        "semaine": -6.97,
-        "mois": 39.74,
-        "ytd": 64.44
+        "jour": -8.47,
+        "semaine": -10.93,
+        "mois": 33.78,
+        "ytd": 57.43
       },
       "min_max": {
         "min": 58.92,
@@ -8752,7 +8757,7 @@
       "note_lecture": "Le taux de change euro-dollar determine le prix de tout ce qui est importe en dollars : petrole, matieres premieres, electronique. Un euro faible rencherit les importations et alimente l'inflation."
     },
     "or": {
-      "valeur": 4561.1,
+      "valeur": 4546.1,
       "date": "2026-03-25",
       "unite": "USD/oz",
       "source": "Yahoo Finance",
@@ -10272,16 +10277,16 @@
         },
         {
           "date": "2026-03-25",
-          "valeur": 4561.1,
-          "ma50": 4948.21,
-          "ma200": 4079.99
+          "valeur": 4546.1,
+          "ma50": 4947.91,
+          "ma200": 4079.92
         }
       ],
       "variations": {
-        "jour": 3.68,
-        "semaine": -6.72,
-        "mois": -12.37,
-        "ytd": 5.72
+        "jour": 3.34,
+        "semaine": -7.03,
+        "mois": -12.65,
+        "ytd": 5.37
       },
       "min_max": {
         "min": 2951.3,
@@ -11826,7 +11831,7 @@
       "note_lecture": "Le prix du gaz naturel (TTF europeen) impacte directement les factures de chauffage et d'electricite des menages, ainsi que les couts de production industrielle."
     },
     "ble": {
-      "valeur": 582.0,
+      "valeur": 581.0,
       "date": "2026-03-25",
       "unite": "cents/boisseau",
       "source": "Yahoo Finance",
@@ -13340,16 +13345,16 @@
         },
         {
           "date": "2026-03-25",
-          "valeur": 582.0,
-          "ma50": 556.93,
-          "ma200": 531.66
+          "valeur": 581.0,
+          "ma50": 556.91,
+          "ma200": 531.65
         }
       ],
       "variations": {
-        "jour": -1.36,
-        "semaine": -3.68,
-        "mois": 2.19,
-        "ytd": 14.91
+        "jour": -1.53,
+        "semaine": -3.85,
+        "mois": 2.02,
+        "ytd": 14.71
       },
       "min_max": {
         "min": 495.0,
@@ -13360,7 +13365,7 @@
       "note_lecture": "Le cours du ble est un indicateur avance des prix alimentaires. La France etant le premier producteur europeen, son evolution impacte a la fois les consommateurs et le secteur agricole."
     },
     "lme_cuivre": {
-      "valeur": 5.53,
+      "valeur": 5.51,
       "date": "2026-03-25",
       "unite": "cts/lb",
       "source": "Yahoo Finance",
@@ -14880,16 +14885,16 @@
         },
         {
           "date": "2026-03-25",
-          "valeur": 5.53,
+          "valeur": 5.51,
           "ma50": 5.81,
           "ma200": 5.22
         }
       ],
       "variations": {
-        "jour": 2.03,
-        "semaine": -0.36,
-        "mois": -4.16,
-        "ytd": -1.95
+        "jour": 1.66,
+        "semaine": -0.72,
+        "mois": -4.51,
+        "ytd": -2.3
       },
       "min_max": {
         "min": 4.13,
@@ -14900,7 +14905,7 @@
       "note_lecture": "Le cuivre est le baromètre de l'activité industrielle mondiale ('Dr Copper'). Sa hausse signale une reprise économique, sa baisse anticipe un ralentissement. Utilisé massivement dans l'électrification et les énergies renouvelables."
     },
     "lme_aluminium": {
-      "valeur": 3136.25,
+      "valeur": 3150.0,
       "date": "2026-03-25",
       "unite": "cts/lb",
       "source": "Yahoo Finance",
@@ -16414,16 +16419,16 @@
         },
         {
           "date": "2026-03-25",
-          "valeur": 3136.25,
-          "ma50": 3112.53,
-          "ma200": 2759.34
+          "valeur": 3150.0,
+          "ma50": 3112.81,
+          "ma200": 2759.41
         }
       ],
       "variations": {
-        "jour": -0.06,
-        "semaine": -4.45,
-        "mois": 4.03,
-        "ytd": 6.75
+        "jour": 0.38,
+        "semaine": -4.03,
+        "mois": 4.49,
+        "ytd": 7.22
       },
       "min_max": {
         "min": 2166.25,
@@ -21718,19 +21723,20 @@
     },
     "statistiques_branches": {
       "total_branches": 171,
-      "branches_affichees": 50,
-      "branches_conformes": 40,
+      "branches_affichees": 48,
+      "branches_conformes": 38,
       "branches_non_conformes": 10,
-      "pourcentage_non_conformes": 20,
-      "source_statistiques": "DGT - Comité de suivi des branches (2025)"
+      "pourcentage_non_conformes": 21,
+      "source_statistiques": "DGT - Comité de suivi des branches (2025)",
+      "total_effectif_couvert": 13351000
     },
     "branches": [
       {
-        "id": "branch_3248",
-        "nom": "Métallurgie",
         "idcc": "3248",
+        "nom": "Métallurgie",
         "effectif": 1600000,
         "statut": "conforme",
+        "derniere_revalorisation": "Janvier 2026",
         "grille": [
           {
             "niveau": "A1",
@@ -21741,954 +21747,2378 @@
           {
             "niveau": "A2",
             "coefficient": 145,
-            "minimum_mensuel": 1530,
-            "minimum_annuel": 18360
+            "minimum_mensuel": 1535,
+            "minimum_annuel": 18420
           },
           {
             "niveau": "B1",
             "coefficient": 155,
-            "minimum_mensuel": 1590,
-            "minimum_annuel": 19080
+            "minimum_mensuel": 1595,
+            "minimum_annuel": 19140
           },
           {
             "niveau": "B2",
             "coefficient": 170,
-            "minimum_mensuel": 1660,
-            "minimum_annuel": 19920
+            "minimum_mensuel": 1665,
+            "minimum_annuel": 19980
           },
           {
             "niveau": "C1",
             "coefficient": 190,
-            "minimum_mensuel": 1760,
-            "minimum_annuel": 21120
+            "minimum_mensuel": 1765,
+            "minimum_annuel": 21180
+          },
+          {
+            "niveau": "C2",
+            "coefficient": 215,
+            "minimum_mensuel": 1920,
+            "minimum_annuel": 23040
+          },
+          {
+            "niveau": "D1",
+            "coefficient": 240,
+            "minimum_mensuel": 2090,
+            "minimum_annuel": 25080
+          },
+          {
+            "niveau": "D2",
+            "coefficient": 275,
+            "minimum_mensuel": 2340,
+            "minimum_annuel": 28080
+          },
+          {
+            "niveau": "E1",
+            "coefficient": 310,
+            "minimum_mensuel": 2720,
+            "minimum_annuel": 32640
+          },
+          {
+            "niveau": "E2",
+            "coefficient": 365,
+            "minimum_mensuel": 3250,
+            "minimum_annuel": 39000
           }
         ],
-        "derniere_revalorisation": "Janvier 2026",
+        "id": "branch_3248",
         "source": "https://www.legifrance.gouv.fr/search/result?query=idcc+3248"
       },
       {
-        "id": "branch_1979",
-        "nom": "Hôtels, cafés, restaurants (HCR)",
-        "idcc": "1979",
+        "idcc": "1518",
+        "nom": "Aide à domicile (employeurs particuliers)",
         "effectif": 1200000,
         "statut": "conforme",
+        "derniere_revalorisation": "Janvier 2026",
         "grille": [
           {
-            "niveau": "I-1",
+            "niveau": "Niveau A",
+            "coefficient": 1,
+            "minimum_mensuel": 1470,
+            "minimum_annuel": 17640
+          },
+          {
+            "niveau": "Niveau B",
+            "coefficient": 2,
+            "minimum_mensuel": 1490,
+            "minimum_annuel": 17880
+          },
+          {
+            "niveau": "Niveau C",
+            "coefficient": 3,
+            "minimum_mensuel": 1520,
+            "minimum_annuel": 18240
+          },
+          {
+            "niveau": "Niveau D - Auxiliaire parentale",
+            "coefficient": 4,
+            "minimum_mensuel": 1580,
+            "minimum_annuel": 18960
+          },
+          {
+            "niveau": "Niveau E - Garde-malade",
+            "coefficient": 5,
+            "minimum_mensuel": 1680,
+            "minimum_annuel": 20160
+          }
+        ],
+        "id": "branch_1518",
+        "source": "https://www.legifrance.gouv.fr/search/result?query=idcc+1518"
+      },
+      {
+        "idcc": "1979",
+        "nom": "Hôtels, cafés, restaurants (HCR)",
+        "effectif": 1200000,
+        "statut": "conforme",
+        "derniere_revalorisation": "Janvier 2026",
+        "grille": [
+          {
+            "niveau": "Niveau I - Échelon 1",
             "coefficient": 100,
             "minimum_mensuel": 1461,
             "minimum_annuel": 17532
           },
           {
-            "niveau": "I-2",
+            "niveau": "Niveau I - Échelon 2",
+            "coefficient": 105,
+            "minimum_mensuel": 1478,
+            "minimum_annuel": 17736
+          },
+          {
+            "niveau": "Niveau II - Échelon 1",
             "coefficient": 110,
+            "minimum_mensuel": 1495,
+            "minimum_annuel": 17940
+          },
+          {
+            "niveau": "Niveau II - Échelon 2",
+            "coefficient": 115,
+            "minimum_mensuel": 1525,
+            "minimum_annuel": 18300
+          },
+          {
+            "niveau": "Niveau III - Échelon 1",
+            "coefficient": 120,
+            "minimum_mensuel": 1560,
+            "minimum_annuel": 18720
+          },
+          {
+            "niveau": "Niveau III - Échelon 2",
+            "coefficient": 130,
+            "minimum_mensuel": 1620,
+            "minimum_annuel": 19440
+          },
+          {
+            "niveau": "Niveau IV - Échelon 1",
+            "coefficient": 145,
+            "minimum_mensuel": 1730,
+            "minimum_annuel": 20760
+          },
+          {
+            "niveau": "Niveau IV - Échelon 2",
+            "coefficient": 160,
+            "minimum_mensuel": 1870,
+            "minimum_annuel": 22440
+          },
+          {
+            "niveau": "Niveau V",
+            "coefficient": 185,
+            "minimum_mensuel": 2150,
+            "minimum_annuel": 25800
+          }
+        ],
+        "id": "branch_1979",
+        "source": "https://www.legifrance.gouv.fr/search/result?query=idcc+1979"
+      },
+      {
+        "idcc": "1486",
+        "nom": "Bureaux d'études techniques (SYNTEC)",
+        "effectif": 850000,
+        "statut": "conforme",
+        "derniere_revalorisation": "Janvier 2026",
+        "grille": [
+          {
+            "niveau": "Employé - Position 1.1",
+            "coefficient": 240,
+            "minimum_mensuel": 1856,
+            "minimum_annuel": 22272
+          },
+          {
+            "niveau": "Employé - Position 1.2",
+            "coefficient": 270,
+            "minimum_mensuel": 2087,
+            "minimum_annuel": 25044
+          },
+          {
+            "niveau": "Technicien - Position 2.1",
+            "coefficient": 310,
+            "minimum_mensuel": 2396,
+            "minimum_annuel": 28752
+          },
+          {
+            "niveau": "Technicien - Position 2.2",
+            "coefficient": 355,
+            "minimum_mensuel": 2745,
+            "minimum_annuel": 32940
+          },
+          {
+            "niveau": "Technicien - Position 2.3",
+            "coefficient": 400,
+            "minimum_mensuel": 3093,
+            "minimum_annuel": 37116
+          },
+          {
+            "niveau": "Cadre - Position 3.1",
+            "coefficient": 450,
+            "minimum_mensuel": 3479,
+            "minimum_annuel": 41748
+          },
+          {
+            "niveau": "Cadre - Position 3.2",
+            "coefficient": 600,
+            "minimum_mensuel": 4638,
+            "minimum_annuel": 55656
+          },
+          {
+            "niveau": "Cadre - Position 3.3",
+            "coefficient": 700,
+            "minimum_mensuel": 5413,
+            "minimum_annuel": 64956
+          }
+        ],
+        "id": "branch_1486",
+        "source": "https://www.legifrance.gouv.fr/search/result?query=idcc+1486"
+      },
+      {
+        "idcc": "1090",
+        "nom": "Commerce à prédominance alimentaire (GMS)",
+        "effectif": 760000,
+        "statut": "conforme",
+        "derniere_revalorisation": "Juin 2025",
+        "grille": [
+          {
+            "niveau": "Niveau 1",
+            "coefficient": 100,
+            "minimum_mensuel": 1487,
+            "minimum_annuel": 17844
+          },
+          {
+            "niveau": "Niveau 2A",
+            "coefficient": 106,
+            "minimum_mensuel": 1510,
+            "minimum_annuel": 18120
+          },
+          {
+            "niveau": "Niveau 2B",
+            "coefficient": 112,
+            "minimum_mensuel": 1535,
+            "minimum_annuel": 18420
+          },
+          {
+            "niveau": "Niveau 3A",
+            "coefficient": 120,
+            "minimum_mensuel": 1580,
+            "minimum_annuel": 18960
+          },
+          {
+            "niveau": "Niveau 3B",
+            "coefficient": 130,
+            "minimum_mensuel": 1645,
+            "minimum_annuel": 19740
+          },
+          {
+            "niveau": "Niveau 4",
+            "coefficient": 150,
+            "minimum_mensuel": 1790,
+            "minimum_annuel": 21480
+          },
+          {
+            "niveau": "Niveau 5",
+            "coefficient": 175,
+            "minimum_mensuel": 2020,
+            "minimum_annuel": 24240
+          },
+          {
+            "niveau": "Niveau 6 (cadre)",
+            "coefficient": 210,
+            "minimum_mensuel": 2380,
+            "minimum_annuel": 28560
+          }
+        ],
+        "id": "branch_1090",
+        "source": "https://www.legifrance.gouv.fr/search/result?query=idcc+1090"
+      },
+      {
+        "idcc": "2402",
+        "nom": "Travail temporaire (intérim)",
+        "effectif": 700000,
+        "statut": "conforme",
+        "derniere_revalorisation": "Janvier 2026",
+        "grille": [
+          {
+            "niveau": "Niveau I - Échelon 1",
+            "coefficient": 100,
+            "minimum_mensuel": 1467,
+            "minimum_annuel": 17604
+          },
+          {
+            "niveau": "Niveau I - Échelon 2",
+            "coefficient": 105,
             "minimum_mensuel": 1490,
             "minimum_annuel": 17880
           },
           {
-            "niveau": "II-1",
-            "coefficient": 120,
+            "niveau": "Niveau II - Échelon 1",
+            "coefficient": 115,
             "minimum_mensuel": 1530,
             "minimum_annuel": 18360
           },
           {
-            "niveau": "II-2",
-            "coefficient": 130,
-            "minimum_mensuel": 1590,
-            "minimum_annuel": 19080
-          }
-        ],
-        "derniere_revalorisation": "Janvier 2026",
-        "source": "https://www.legifrance.gouv.fr/search/result?query=idcc+1979"
-      },
-      {
-        "id": "branch_2120",
-        "nom": "Commerce de détail non alimentaire",
-        "idcc": "2120",
-        "effectif": 900000,
-        "statut": "conforme",
-        "grille": [
-          {
-            "niveau": "Base",
-            "coefficient": 100,
-            "minimum_mensuel": 1443.11,
-            "minimum_annuel": 17317.32
-          }
-        ],
-        "derniere_revalorisation": "Janvier 2026",
-        "source": "https://www.legifrance.gouv.fr/search/result?query=idcc+2120"
-      },
-      {
-        "id": "branch_1486",
-        "nom": "Bureaux d'études techniques (SYNTEC)",
-        "idcc": "1486",
-        "effectif": 850000,
-        "statut": "conforme",
-        "grille": [
-          {
-            "niveau": "1.1",
-            "coefficient": 240,
-            "minimum_mensuel": 1850,
-            "minimum_annuel": 22200
+            "niveau": "Niveau II - Échelon 2",
+            "coefficient": 125,
+            "minimum_mensuel": 1580,
+            "minimum_annuel": 18960
           },
           {
-            "niveau": "1.2",
-            "coefficient": 270,
-            "minimum_mensuel": 2100,
-            "minimum_annuel": 25200
+            "niveau": "Niveau III",
+            "coefficient": 145,
+            "minimum_mensuel": 1700,
+            "minimum_annuel": 20400
           },
           {
-            "niveau": "2.1",
-            "coefficient": 310,
-            "minimum_mensuel": 2500,
-            "minimum_annuel": 30000
+            "niveau": "Niveau IV",
+            "coefficient": 175,
+            "minimum_mensuel": 1950,
+            "minimum_annuel": 23400
           },
           {
-            "niveau": "2.2",
-            "coefficient": 355,
-            "minimum_mensuel": 2900,
-            "minimum_annuel": 34800
+            "niveau": "Niveau V",
+            "coefficient": 220,
+            "minimum_mensuel": 2400,
+            "minimum_annuel": 28800
           }
         ],
-        "derniere_revalorisation": "Janvier 2026",
-        "source": "https://www.legifrance.gouv.fr/search/result?query=idcc+1486"
-      },
-      {
-        "id": "branch_1090",
-        "nom": "Commerce de détail et gros à prédominance alimentaire",
-        "idcc": "1090",
-        "effectif": 760000,
-        "statut": "conforme",
-        "grille": [
-          {
-            "niveau": "Base",
-            "coefficient": 100,
-            "minimum_mensuel": 1443.11,
-            "minimum_annuel": 17317.32
-          }
-        ],
-        "derniere_revalorisation": "Janvier 2026",
-        "source": "https://www.legifrance.gouv.fr/search/result?query=idcc+1090"
-      },
-      {
         "id": "branch_2402",
-        "nom": "Interim (ETT)",
-        "idcc": "2402",
-        "effectif": 700000,
-        "statut": "conforme",
-        "grille": [
-          {
-            "niveau": "Base",
-            "coefficient": 100,
-            "minimum_mensuel": 1443.11,
-            "minimum_annuel": 17317.32
-          }
-        ],
-        "derniere_revalorisation": "Janvier 2026",
         "source": "https://www.legifrance.gouv.fr/search/result?query=idcc+2402"
       },
       {
-        "id": "branch_3043",
-        "nom": "Propreté (nettoyage)",
         "idcc": "3043",
+        "nom": "Propreté et services associés",
         "effectif": 550000,
         "statut": "non_conforme",
+        "derniere_revalorisation": "Novembre 2025",
         "grille": [
           {
             "niveau": "AS1",
             "coefficient": 100,
-            "minimum_mensuel": 1415,
-            "minimum_annuel": 16980
+            "minimum_mensuel": 1427,
+            "minimum_annuel": 17124
           },
           {
             "niveau": "AS2",
-            "coefficient": 105,
-            "minimum_mensuel": 1428,
-            "minimum_annuel": 17136
+            "coefficient": 104,
+            "minimum_mensuel": 1436,
+            "minimum_annuel": 17232
           },
           {
             "niveau": "AS3",
-            "coefficient": 110,
-            "minimum_mensuel": 1447,
-            "minimum_annuel": 17364
+            "coefficient": 108,
+            "minimum_mensuel": 1450,
+            "minimum_annuel": 17400
           },
           {
             "niveau": "AQS1",
-            "coefficient": 118,
-            "minimum_mensuel": 1498,
-            "minimum_annuel": 17976
+            "coefficient": 115,
+            "minimum_mensuel": 1471,
+            "minimum_annuel": 17652
+          },
+          {
+            "niveau": "AQS2",
+            "coefficient": 120,
+            "minimum_mensuel": 1490,
+            "minimum_annuel": 17880
+          },
+          {
+            "niveau": "AQS3",
+            "coefficient": 130,
+            "minimum_mensuel": 1540,
+            "minimum_annuel": 18480
+          },
+          {
+            "niveau": "Chef d'équipe",
+            "coefficient": 150,
+            "minimum_mensuel": 1670,
+            "minimum_annuel": 20040
+          },
+          {
+            "niveau": "Agent de maîtrise",
+            "coefficient": 185,
+            "minimum_mensuel": 1960,
+            "minimum_annuel": 23520
           }
         ],
-        "derniere_revalorisation": "Janvier 2026",
+        "id": "branch_3043",
         "source": "https://www.legifrance.gouv.fr/search/result?query=idcc+3043"
       },
       {
-        "id": "branch_1597",
-        "nom": "Bâtiment (ouvriers)",
         "idcc": "1597",
+        "nom": "Bâtiment (ouvriers)",
         "effectif": 520000,
         "statut": "conforme",
+        "derniere_revalorisation": "Avril 2025",
         "grille": [
           {
-            "niveau": "N1-P1",
+            "niveau": "N1 - P1",
             "coefficient": 150,
-            "minimum_mensuel": 1528,
-            "minimum_annuel": 18336
+            "minimum_mensuel": 1535,
+            "minimum_annuel": 18420
           },
           {
-            "niveau": "N1-P2",
+            "niveau": "N1 - P2",
             "coefficient": 170,
-            "minimum_mensuel": 1588,
-            "minimum_annuel": 19056
+            "minimum_mensuel": 1595,
+            "minimum_annuel": 19140
           },
           {
-            "niveau": "N2",
+            "niveau": "N1 - P3",
             "coefficient": 185,
-            "minimum_mensuel": 1658,
-            "minimum_annuel": 19896
+            "minimum_mensuel": 1655,
+            "minimum_annuel": 19860
           },
           {
-            "niveau": "N3-P1",
+            "niveau": "N2 - P1",
+            "coefficient": 200,
+            "minimum_mensuel": 1740,
+            "minimum_annuel": 20880
+          },
+          {
+            "niveau": "N2 - P2",
             "coefficient": 210,
             "minimum_mensuel": 1790,
             "minimum_annuel": 21480
+          },
+          {
+            "niveau": "N3 - P1",
+            "coefficient": 230,
+            "minimum_mensuel": 1905,
+            "minimum_annuel": 22860
+          },
+          {
+            "niveau": "N3 - P2",
+            "coefficient": 250,
+            "minimum_mensuel": 2050,
+            "minimum_annuel": 24600
+          },
+          {
+            "niveau": "N4 (maître ouvrier)",
+            "coefficient": 270,
+            "minimum_mensuel": 2240,
+            "minimum_annuel": 26880
           }
         ],
-        "derniere_revalorisation": "Janvier 2026",
+        "id": "branch_1597",
         "source": "https://www.legifrance.gouv.fr/search/result?query=idcc+1597"
       },
       {
-        "id": "branch_2216",
-        "nom": "Commerce de détail alimentaire",
         "idcc": "2216",
+        "nom": "Commerce de détail alimentaire (spécialisé)",
         "effectif": 450000,
         "statut": "non_conforme",
+        "derniere_revalorisation": "Octobre 2025",
         "grille": [
           {
-            "niveau": "Base",
-            "coefficient": 100,
-            "minimum_mensuel": 1443.11,
-            "minimum_annuel": 17317.32
-          }
-        ],
-        "derniere_revalorisation": "Janvier 2026",
-        "source": "https://www.legifrance.gouv.fr/search/result?query=idcc+2216"
-      },
-      {
-        "id": "branch_1996",
-        "nom": "Transports routiers",
-        "idcc": "1996",
-        "effectif": 430000,
-        "statut": "conforme",
-        "grille": [
-          {
-            "niveau": "Base",
-            "coefficient": 100,
-            "minimum_mensuel": 1443.11,
-            "minimum_annuel": 17317.32
-          }
-        ],
-        "derniere_revalorisation": "Janvier 2026",
-        "source": "https://www.legifrance.gouv.fr/search/result?query=idcc+1996"
-      },
-      {
-        "id": "branch_1459",
-        "nom": "Nettoyage industriel",
-        "idcc": "1459",
-        "effectif": 420000,
-        "statut": "non_conforme",
-        "grille": [
-          {
-            "niveau": "Base",
-            "coefficient": 100,
-            "minimum_mensuel": 1443.11,
-            "minimum_annuel": 17317.32
-          }
-        ],
-        "derniere_revalorisation": "Janvier 2026",
-        "source": "https://www.legifrance.gouv.fr/search/result?query=idcc+1459"
-      },
-      {
-        "id": "branch_3239",
-        "nom": "Banque",
-        "idcc": "3239",
-        "effectif": 390000,
-        "statut": "conforme",
-        "grille": [
-          {
-            "niveau": "Base",
-            "coefficient": 100,
-            "minimum_mensuel": 1443.11,
-            "minimum_annuel": 17317.32
-          }
-        ],
-        "derniere_revalorisation": "Janvier 2026",
-        "source": "https://www.legifrance.gouv.fr/search/result?query=idcc+3239"
-      },
-      {
-        "id": "branch_2941",
-        "nom": "Aide, accompagnement, soins, services à domicile",
-        "idcc": "2941",
-        "effectif": 380000,
-        "statut": "conforme",
-        "grille": [
-          {
-            "niveau": "Base",
-            "coefficient": 100,
-            "minimum_mensuel": 1443.11,
-            "minimum_annuel": 17317.32
-          }
-        ],
-        "derniere_revalorisation": "Janvier 2026",
-        "source": "https://www.legifrance.gouv.fr/search/result?query=idcc+2941"
-      },
-      {
-        "id": "branch_2120",
-        "nom": "Commerce non alimentaire (détail-gros)",
-        "idcc": "2120",
-        "effectif": 310000,
-        "statut": "conforme",
-        "grille": [
-          {
-            "niveau": "Base",
-            "coefficient": 100,
-            "minimum_mensuel": 1443.11,
-            "minimum_annuel": 17317.32
-          }
-        ],
-        "derniere_revalorisation": "Janvier 2026",
-        "source": "https://www.legifrance.gouv.fr/search/result?query=idcc+2120"
-      },
-      {
-        "id": "branch_1605",
-        "nom": "Bâtiment (ETAM)",
-        "idcc": "1605",
-        "effectif": 280000,
-        "statut": "conforme",
-        "grille": [
-          {
-            "niveau": "Base",
-            "coefficient": 100,
-            "minimum_mensuel": 1443.11,
-            "minimum_annuel": 17317.32
-          }
-        ],
-        "derniere_revalorisation": "Janvier 2026",
-        "source": "https://www.legifrance.gouv.fr/search/result?query=idcc+1605"
-      },
-      {
-        "id": "branch_2098",
-        "nom": "Hospitalisation privée",
-        "idcc": "2098",
-        "effectif": 250000,
-        "statut": "conforme",
-        "grille": [
-          {
-            "niveau": "Base",
-            "coefficient": 100,
-            "minimum_mensuel": 1443.11,
-            "minimum_annuel": 17317.32
-          }
-        ],
-        "derniere_revalorisation": "Janvier 2026",
-        "source": "https://www.legifrance.gouv.fr/search/result?query=idcc+2098"
-      },
-      {
-        "id": "branch_0803",
-        "nom": "Restauration rapide",
-        "idcc": "0803",
-        "effectif": 220000,
-        "statut": "non_conforme",
-        "grille": [
-          {
-            "niveau": "Niveau 1",
+            "niveau": "Niveau 1A",
             "coefficient": 100,
             "minimum_mensuel": 1420,
             "minimum_annuel": 17040
           },
           {
-            "niveau": "Niveau 2",
+            "niveau": "Niveau 1B",
+            "coefficient": 104,
+            "minimum_mensuel": 1435,
+            "minimum_annuel": 17220
+          },
+          {
+            "niveau": "Niveau 2A",
             "coefficient": 110,
             "minimum_mensuel": 1460,
             "minimum_annuel": 17520
           },
           {
+            "niveau": "Niveau 2B",
+            "coefficient": 118,
+            "minimum_mensuel": 1495,
+            "minimum_annuel": 17940
+          },
+          {
+            "niveau": "Niveau 3A",
+            "coefficient": 130,
+            "minimum_mensuel": 1560,
+            "minimum_annuel": 18720
+          },
+          {
+            "niveau": "Niveau 3B",
+            "coefficient": 145,
+            "minimum_mensuel": 1680,
+            "minimum_annuel": 20160
+          },
+          {
+            "niveau": "Niveau 4 (encadrement)",
+            "coefficient": 170,
+            "minimum_mensuel": 1890,
+            "minimum_annuel": 22680
+          }
+        ],
+        "id": "branch_2216",
+        "source": "https://www.legifrance.gouv.fr/search/result?query=idcc+2216"
+      },
+      {
+        "idcc": "1996",
+        "nom": "Transports routiers et auxiliaires",
+        "effectif": 430000,
+        "statut": "conforme",
+        "derniere_revalorisation": "Janvier 2026",
+        "grille": [
+          {
+            "niveau": "Groupe 2 (conducteurs)",
+            "coefficient": 138,
+            "minimum_mensuel": 1502,
+            "minimum_annuel": 18024
+          },
+          {
+            "niveau": "Groupe 3 (longue distance)",
+            "coefficient": 150,
+            "minimum_mensuel": 1565,
+            "minimum_annuel": 18780
+          },
+          {
+            "niveau": "Groupe 4",
+            "coefficient": 162,
+            "minimum_mensuel": 1635,
+            "minimum_annuel": 19620
+          },
+          {
+            "niveau": "Groupe 5",
+            "coefficient": 175,
+            "minimum_mensuel": 1720,
+            "minimum_annuel": 20640
+          },
+          {
+            "niveau": "Groupe 6",
+            "coefficient": 195,
+            "minimum_mensuel": 1850,
+            "minimum_annuel": 22200
+          },
+          {
+            "niveau": "Groupe 7",
+            "coefficient": 220,
+            "minimum_mensuel": 2040,
+            "minimum_annuel": 24480
+          },
+          {
+            "niveau": "Groupe 8",
+            "coefficient": 260,
+            "minimum_mensuel": 2360,
+            "minimum_annuel": 28320
+          },
+          {
+            "niveau": "Groupe 9 (cadres)",
+            "coefficient": 320,
+            "minimum_mensuel": 2870,
+            "minimum_annuel": 34440
+          }
+        ],
+        "id": "branch_1996",
+        "source": "https://www.legifrance.gouv.fr/search/result?query=idcc+1996"
+      },
+      {
+        "idcc": "1459",
+        "nom": "Nettoyage industriel",
+        "effectif": 420000,
+        "statut": "non_conforme",
+        "derniere_revalorisation": "Novembre 2025",
+        "grille": [
+          {
+            "niveau": "AS - Échelon 1",
+            "coefficient": 100,
+            "minimum_mensuel": 1427,
+            "minimum_annuel": 17124
+          },
+          {
+            "niveau": "AS - Échelon 2",
+            "coefficient": 104,
+            "minimum_mensuel": 1438,
+            "minimum_annuel": 17256
+          },
+          {
+            "niveau": "AQS - Échelon 1",
+            "coefficient": 110,
+            "minimum_mensuel": 1456,
+            "minimum_annuel": 17472
+          },
+          {
+            "niveau": "AQS - Échelon 2",
+            "coefficient": 118,
+            "minimum_mensuel": 1478,
+            "minimum_annuel": 17736
+          },
+          {
+            "niveau": "Chef d'équipe",
+            "coefficient": 140,
+            "minimum_mensuel": 1585,
+            "minimum_annuel": 19020
+          },
+          {
+            "niveau": "Agent de maîtrise",
+            "coefficient": 175,
+            "minimum_mensuel": 1860,
+            "minimum_annuel": 22320
+          }
+        ],
+        "id": "branch_1459",
+        "source": "https://www.legifrance.gouv.fr/search/result?query=idcc+1459"
+      },
+      {
+        "idcc": "3239",
+        "nom": "Banque",
+        "effectif": 390000,
+        "statut": "conforme",
+        "derniere_revalorisation": "Janvier 2026",
+        "grille": [
+          {
+            "niveau": "Niveau A - Échelon 1",
+            "coefficient": 230,
+            "minimum_mensuel": 1800,
+            "minimum_annuel": 21600
+          },
+          {
+            "niveau": "Niveau A - Échelon 2",
+            "coefficient": 255,
+            "minimum_mensuel": 1970,
+            "minimum_annuel": 23640
+          },
+          {
+            "niveau": "Niveau B",
+            "coefficient": 290,
+            "minimum_mensuel": 2230,
+            "minimum_annuel": 26760
+          },
+          {
+            "niveau": "Niveau C",
+            "coefficient": 340,
+            "minimum_mensuel": 2600,
+            "minimum_annuel": 31200
+          },
+          {
+            "niveau": "Niveau D",
+            "coefficient": 405,
+            "minimum_mensuel": 3070,
+            "minimum_annuel": 36840
+          },
+          {
+            "niveau": "Niveau E",
+            "coefficient": 500,
+            "minimum_mensuel": 3790,
+            "minimum_annuel": 45480
+          },
+          {
+            "niveau": "Niveau F (cadres supérieurs)",
+            "coefficient": 620,
+            "minimum_mensuel": 4690,
+            "minimum_annuel": 56280
+          }
+        ],
+        "id": "branch_3239",
+        "source": "https://www.legifrance.gouv.fr/search/result?query=idcc+3239"
+      },
+      {
+        "idcc": "2941",
+        "nom": "Aide, soins et services à domicile (BAD)",
+        "effectif": 380000,
+        "statut": "conforme",
+        "derniere_revalorisation": "Octobre 2025",
+        "grille": [
+          {
+            "niveau": "Catégorie A - Degré 1",
+            "coefficient": 257,
+            "minimum_mensuel": 1480,
+            "minimum_annuel": 17760
+          },
+          {
+            "niveau": "Catégorie A - Degré 2",
+            "coefficient": 262,
+            "minimum_mensuel": 1510,
+            "minimum_annuel": 18120
+          },
+          {
+            "niveau": "Catégorie B - Degré 1",
+            "coefficient": 275,
+            "minimum_mensuel": 1560,
+            "minimum_annuel": 18720
+          },
+          {
+            "niveau": "Catégorie B - Degré 2",
+            "coefficient": 285,
+            "minimum_mensuel": 1620,
+            "minimum_annuel": 19440
+          },
+          {
+            "niveau": "Catégorie C - Degré 1",
+            "coefficient": 315,
+            "minimum_mensuel": 1790,
+            "minimum_annuel": 21480
+          },
+          {
+            "niveau": "Catégorie C - Degré 2",
+            "coefficient": 340,
+            "minimum_mensuel": 1930,
+            "minimum_annuel": 23160
+          },
+          {
+            "niveau": "Catégorie D",
+            "coefficient": 395,
+            "minimum_mensuel": 2240,
+            "minimum_annuel": 26880
+          },
+          {
+            "niveau": "Catégorie E",
+            "coefficient": 466,
+            "minimum_mensuel": 2640,
+            "minimum_annuel": 31680
+          }
+        ],
+        "id": "branch_2941",
+        "source": "https://www.legifrance.gouv.fr/search/result?query=idcc+2941"
+      },
+      {
+        "idcc": "2120",
+        "nom": "Commerce non alimentaire (détail et gros)",
+        "effectif": 310000,
+        "statut": "conforme",
+        "derniere_revalorisation": "Juillet 2025",
+        "grille": [
+          {
+            "niveau": "Niveau 1",
+            "coefficient": 100,
+            "minimum_mensuel": 1475,
+            "minimum_annuel": 17700
+          },
+          {
+            "niveau": "Niveau 2",
+            "coefficient": 107,
+            "minimum_mensuel": 1505,
+            "minimum_annuel": 18060
+          },
+          {
             "niveau": "Niveau 3",
-            "coefficient": 125,
+            "coefficient": 117,
+            "minimum_mensuel": 1555,
+            "minimum_annuel": 18660
+          },
+          {
+            "niveau": "Niveau 4",
+            "coefficient": 130,
+            "minimum_mensuel": 1640,
+            "minimum_annuel": 19680
+          },
+          {
+            "niveau": "Niveau 5",
+            "coefficient": 150,
+            "minimum_mensuel": 1790,
+            "minimum_annuel": 21480
+          },
+          {
+            "niveau": "Niveau 6 (cadre)",
+            "coefficient": 185,
+            "minimum_mensuel": 2140,
+            "minimum_annuel": 25680
+          }
+        ],
+        "id": "branch_2120",
+        "source": "https://www.legifrance.gouv.fr/search/result?query=idcc+2120"
+      },
+      {
+        "idcc": "1605",
+        "nom": "Bâtiment (ETAM)",
+        "effectif": 280000,
+        "statut": "conforme",
+        "derniere_revalorisation": "Avril 2025",
+        "grille": [
+          {
+            "niveau": "E1",
+            "coefficient": 155,
+            "minimum_mensuel": 1535,
+            "minimum_annuel": 18420
+          },
+          {
+            "niveau": "E2",
+            "coefficient": 165,
+            "minimum_mensuel": 1590,
+            "minimum_annuel": 19080
+          },
+          {
+            "niveau": "E3",
+            "coefficient": 180,
+            "minimum_mensuel": 1660,
+            "minimum_annuel": 19920
+          },
+          {
+            "niveau": "T1",
+            "coefficient": 200,
+            "minimum_mensuel": 1760,
+            "minimum_annuel": 21120
+          },
+          {
+            "niveau": "T2",
+            "coefficient": 220,
+            "minimum_mensuel": 1880,
+            "minimum_annuel": 22560
+          },
+          {
+            "niveau": "T3",
+            "coefficient": 250,
+            "minimum_mensuel": 2060,
+            "minimum_annuel": 24720
+          },
+          {
+            "niveau": "AM1",
+            "coefficient": 280,
+            "minimum_mensuel": 2280,
+            "minimum_annuel": 27360
+          },
+          {
+            "niveau": "AM2",
+            "coefficient": 320,
+            "minimum_mensuel": 2570,
+            "minimum_annuel": 30840
+          }
+        ],
+        "id": "branch_1605",
+        "source": "https://www.legifrance.gouv.fr/search/result?query=idcc+1605"
+      },
+      {
+        "idcc": "2098",
+        "nom": "Hospitalisation privée (FHP)",
+        "effectif": 250000,
+        "statut": "conforme",
+        "derniere_revalorisation": "Juillet 2025",
+        "grille": [
+          {
+            "niveau": "Filière soins - Niveau 1",
+            "coefficient": 215,
             "minimum_mensuel": 1520,
             "minimum_annuel": 18240
-          }
-        ],
-        "derniere_revalorisation": "Janvier 2026",
-        "source": "https://www.legifrance.gouv.fr/search/result?query=idcc+0803"
-      },
-      {
-        "id": "branch_1351",
-        "nom": "Prévention et sécurité",
-        "idcc": "1351",
-        "effectif": 180000,
-        "statut": "non_conforme",
-        "grille": [
+          },
           {
-            "niveau": "Base",
-            "coefficient": 100,
-            "minimum_mensuel": 1443.11,
-            "minimum_annuel": 17317.32
-          }
-        ],
-        "derniere_revalorisation": "Janvier 2026",
-        "source": "https://www.legifrance.gouv.fr/search/result?query=idcc+1351"
-      },
-      {
-        "id": "branch_1404",
-        "nom": "Associations (animation)",
-        "idcc": "1404",
-        "effectif": 180000,
-        "statut": "conforme",
-        "grille": [
+            "niveau": "Filière soins - Niveau 2",
+            "coefficient": 235,
+            "minimum_mensuel": 1640,
+            "minimum_annuel": 19680
+          },
           {
-            "niveau": "Base",
-            "coefficient": 100,
-            "minimum_mensuel": 1443.11,
-            "minimum_annuel": 17317.32
-          }
-        ],
-        "derniere_revalorisation": "Janvier 2026",
-        "source": "https://www.legifrance.gouv.fr/search/result?query=idcc+1404"
-      },
-      {
-        "id": "branch_1501",
-        "nom": "Travaux publics (ouvriers)",
-        "idcc": "1501",
-        "effectif": 180000,
-        "statut": "conforme",
-        "grille": [
+            "niveau": "Filière soins - Niveau 3 (IDE)",
+            "coefficient": 265,
+            "minimum_mensuel": 1830,
+            "minimum_annuel": 21960
+          },
           {
-            "niveau": "Base",
-            "coefficient": 100,
-            "minimum_mensuel": 1443.11,
-            "minimum_annuel": 17317.32
-          }
-        ],
-        "derniere_revalorisation": "Janvier 2026",
-        "source": "https://www.legifrance.gouv.fr/search/result?query=idcc+1501"
-      },
-      {
-        "id": "branch_2150",
-        "nom": "Chimie",
-        "idcc": "2150",
-        "effectif": 175000,
-        "statut": "conforme",
-        "grille": [
+            "niveau": "Filière soins - Niveau 4",
+            "coefficient": 305,
+            "minimum_mensuel": 2100,
+            "minimum_annuel": 25200
+          },
           {
-            "niveau": "Base",
-            "coefficient": 100,
-            "minimum_mensuel": 1443.11,
-            "minimum_annuel": 17317.32
-          }
-        ],
-        "derniere_revalorisation": "Janvier 2026",
-        "source": "https://www.legifrance.gouv.fr/search/result?query=idcc+2150"
-      },
-      {
-        "id": "branch_2569",
-        "nom": "Services de l'automobile (garages)",
-        "idcc": "2569",
-        "effectif": 165000,
-        "statut": "conforme",
-        "grille": [
+            "niveau": "Filière admin - Niveau 1",
+            "coefficient": 210,
+            "minimum_mensuel": 1490,
+            "minimum_annuel": 17880
+          },
           {
-            "niveau": "Base",
-            "coefficient": 100,
-            "minimum_mensuel": 1443.11,
-            "minimum_annuel": 17317.32
-          }
-        ],
-        "derniere_revalorisation": "Janvier 2026",
-        "source": "https://www.legifrance.gouv.fr/search/result?query=idcc+2569"
-      },
-      {
-        "id": "branch_1518",
-        "nom": "Aide à domicile",
-        "idcc": "1518",
-        "effectif": 160000,
-        "statut": "conforme",
-        "grille": [
+            "niveau": "Filière admin - Niveau 3",
+            "coefficient": 255,
+            "minimum_mensuel": 1750,
+            "minimum_annuel": 21000
+          },
           {
-            "niveau": "Base",
-            "coefficient": 100,
-            "minimum_mensuel": 1443.11,
-            "minimum_annuel": 17317.32
+            "niveau": "Cadre - Niveau 1",
+            "coefficient": 420,
+            "minimum_mensuel": 2890,
+            "minimum_annuel": 34680
           }
         ],
-        "derniere_revalorisation": "Janvier 2026",
-        "source": "https://www.legifrance.gouv.fr/search/result?query=idcc+1518"
-      },
-      {
-        "id": "branch_0736",
-        "nom": "Hôpitaux privés (FHP)",
-        "idcc": "0736",
-        "effectif": 160000,
-        "statut": "conforme",
-        "grille": [
-          {
-            "niveau": "Base",
-            "coefficient": 100,
-            "minimum_mensuel": 1443.11,
-            "minimum_annuel": 17317.32
-          }
-        ],
-        "derniere_revalorisation": "Janvier 2026",
-        "source": "https://www.legifrance.gouv.fr/search/result?query=idcc+0736"
-      },
-      {
-        "id": "branch_2596",
-        "nom": "Immobilier",
-        "idcc": "2596",
-        "effectif": 150000,
-        "statut": "conforme",
-        "grille": [
-          {
-            "niveau": "Base",
-            "coefficient": 100,
-            "minimum_mensuel": 1443.11,
-            "minimum_annuel": 17317.32
-          }
-        ],
-        "derniere_revalorisation": "Janvier 2026",
-        "source": "https://www.legifrance.gouv.fr/search/result?query=idcc+2596"
-      },
-      {
-        "id": "branch_0787",
-        "nom": "Boulangerie-pâtisserie artisanale",
-        "idcc": "0787",
-        "effectif": 145000,
-        "statut": "non_conforme",
-        "grille": [
-          {
-            "niveau": "Base",
-            "coefficient": 100,
-            "minimum_mensuel": 1443.11,
-            "minimum_annuel": 17317.32
-          }
-        ],
-        "derniere_revalorisation": "Janvier 2026",
-        "source": "https://www.legifrance.gouv.fr/search/result?query=idcc+0787"
-      },
-      {
-        "id": "branch_3131",
-        "nom": "Télécom",
-        "idcc": "3131",
-        "effectif": 130000,
-        "statut": "conforme",
-        "grille": [
-          {
-            "niveau": "Base",
-            "coefficient": 100,
-            "minimum_mensuel": 1443.11,
-            "minimum_annuel": 17317.32
-          }
-        ],
-        "derniere_revalorisation": "Janvier 2026",
-        "source": "https://www.legifrance.gouv.fr/search/result?query=idcc+3131"
-      },
-      {
-        "id": "branch_1285",
-        "nom": "Commerce de détail de l'habillement",
-        "idcc": "1285",
-        "effectif": 120000,
-        "statut": "non_conforme",
-        "grille": [
-          {
-            "niveau": "Base",
-            "coefficient": 100,
-            "minimum_mensuel": 1443.11,
-            "minimum_annuel": 17317.32
-          }
-        ],
-        "derniere_revalorisation": "Janvier 2026",
-        "source": "https://www.legifrance.gouv.fr/search/result?query=idcc+1285"
-      },
-      {
-        "id": "branch_0292",
-        "nom": "Plasturgie",
-        "idcc": "0292",
-        "effectif": 115000,
-        "statut": "conforme",
-        "grille": [
-          {
-            "niveau": "Base",
-            "coefficient": 100,
-            "minimum_mensuel": 1443.11,
-            "minimum_annuel": 17317.32
-          }
-        ],
-        "derniere_revalorisation": "Janvier 2026",
-        "source": "https://www.legifrance.gouv.fr/search/result?query=idcc+0292"
-      },
-      {
-        "id": "branch_0650",
-        "nom": "Pharmacie d'officine",
-        "idcc": "0650",
-        "effectif": 105000,
-        "statut": "conforme",
-        "grille": [
-          {
-            "niveau": "Base",
-            "coefficient": 100,
-            "minimum_mensuel": 1443.11,
-            "minimum_annuel": 17317.32
-          }
-        ],
-        "derniere_revalorisation": "Janvier 2026",
-        "source": "https://www.legifrance.gouv.fr/search/result?query=idcc+0650"
-      },
-      {
-        "id": "branch_2609",
-        "nom": "Coiffure",
-        "idcc": "2609",
-        "effectif": 95000,
-        "statut": "non_conforme",
-        "grille": [
-          {
-            "niveau": "Base",
-            "coefficient": 100,
-            "minimum_mensuel": 1443.11,
-            "minimum_annuel": 17317.32
-          }
-        ],
-        "derniere_revalorisation": "Janvier 2026",
-        "source": "https://www.legifrance.gouv.fr/search/result?query=idcc+2609"
-      },
-      {
         "id": "branch_2098",
-        "nom": "Établissements pour personnes inadaptées et handicapées (SNAPEI)",
-        "idcc": "2098",
-        "effectif": 95000,
-        "statut": "conforme",
-        "grille": [
-          {
-            "niveau": "Base",
-            "coefficient": 100,
-            "minimum_mensuel": 1443.11,
-            "minimum_annuel": 17317.32
-          }
-        ],
-        "derniere_revalorisation": "Janvier 2026",
         "source": "https://www.legifrance.gouv.fr/search/result?query=idcc+2098"
       },
       {
-        "id": "branch_1483",
-        "nom": "Mutualité",
-        "idcc": "1483",
-        "effectif": 90000,
-        "statut": "conforme",
+        "idcc": "0803",
+        "nom": "Restauration rapide",
+        "effectif": 220000,
+        "statut": "non_conforme",
+        "derniere_revalorisation": "Septembre 2025",
         "grille": [
           {
-            "niveau": "Base",
+            "niveau": "Niveau I - Échelon 1",
             "coefficient": 100,
-            "minimum_mensuel": 1443.11,
-            "minimum_annuel": 17317.32
+            "minimum_mensuel": 1435,
+            "minimum_annuel": 17220
+          },
+          {
+            "niveau": "Niveau I - Échelon 2",
+            "coefficient": 103,
+            "minimum_mensuel": 1450,
+            "minimum_annuel": 17400
+          },
+          {
+            "niveau": "Niveau II - Échelon 1",
+            "coefficient": 107,
+            "minimum_mensuel": 1465,
+            "minimum_annuel": 17580
+          },
+          {
+            "niveau": "Niveau II - Échelon 2",
+            "coefficient": 112,
+            "minimum_mensuel": 1490,
+            "minimum_annuel": 17880
+          },
+          {
+            "niveau": "Niveau III",
+            "coefficient": 125,
+            "minimum_mensuel": 1570,
+            "minimum_annuel": 18840
+          },
+          {
+            "niveau": "Niveau IV (encadrement)",
+            "coefficient": 145,
+            "minimum_mensuel": 1720,
+            "minimum_annuel": 20640
+          },
+          {
+            "niveau": "Niveau V (direction)",
+            "coefficient": 175,
+            "minimum_mensuel": 2020,
+            "minimum_annuel": 24240
           }
         ],
+        "id": "branch_0803",
+        "source": "https://www.legifrance.gouv.fr/search/result?query=idcc+0803"
+      },
+      {
+        "idcc": "1501",
+        "nom": "Travaux publics (ouvriers)",
+        "effectif": 180000,
+        "statut": "conforme",
+        "derniere_revalorisation": "Avril 2025",
+        "grille": [
+          {
+            "niveau": "Niveau 1 - Position 1",
+            "coefficient": 100,
+            "minimum_mensuel": 1540,
+            "minimum_annuel": 18480
+          },
+          {
+            "niveau": "Niveau 1 - Position 2",
+            "coefficient": 107,
+            "minimum_mensuel": 1580,
+            "minimum_annuel": 18960
+          },
+          {
+            "niveau": "Niveau 2 - Position 1",
+            "coefficient": 115,
+            "minimum_mensuel": 1640,
+            "minimum_annuel": 19680
+          },
+          {
+            "niveau": "Niveau 2 - Position 2",
+            "coefficient": 125,
+            "minimum_mensuel": 1720,
+            "minimum_annuel": 20640
+          },
+          {
+            "niveau": "Niveau 3 - Position 1",
+            "coefficient": 138,
+            "minimum_mensuel": 1840,
+            "minimum_annuel": 22080
+          },
+          {
+            "niveau": "Niveau 3 - Position 2",
+            "coefficient": 155,
+            "minimum_mensuel": 2010,
+            "minimum_annuel": 24120
+          },
+          {
+            "niveau": "Niveau 4 (chef d'équipe)",
+            "coefficient": 180,
+            "minimum_mensuel": 2260,
+            "minimum_annuel": 27120
+          }
+        ],
+        "id": "branch_1501",
+        "source": "https://www.legifrance.gouv.fr/search/result?query=idcc+1501"
+      },
+      {
+        "idcc": "1404",
+        "nom": "Animation (associations)",
+        "effectif": 180000,
+        "statut": "conforme",
         "derniere_revalorisation": "Janvier 2026",
+        "grille": [
+          {
+            "niveau": "Groupe A - Animateur",
+            "coefficient": 265,
+            "minimum_mensuel": 1479,
+            "minimum_annuel": 17748
+          },
+          {
+            "niveau": "Groupe B - Animateur technique",
+            "coefficient": 300,
+            "minimum_mensuel": 1535,
+            "minimum_annuel": 18420
+          },
+          {
+            "niveau": "Groupe C - Coordinateur",
+            "coefficient": 360,
+            "minimum_mensuel": 1750,
+            "minimum_annuel": 21000
+          },
+          {
+            "niveau": "Groupe D - Directeur adjoint",
+            "coefficient": 440,
+            "minimum_mensuel": 2090,
+            "minimum_annuel": 25080
+          },
+          {
+            "niveau": "Groupe E - Directeur",
+            "coefficient": 520,
+            "minimum_mensuel": 2460,
+            "minimum_annuel": 29520
+          },
+          {
+            "niveau": "Groupe F - Directeur régional",
+            "coefficient": 650,
+            "minimum_mensuel": 3060,
+            "minimum_annuel": 36720
+          }
+        ],
+        "id": "branch_1404",
+        "source": "https://www.legifrance.gouv.fr/search/result?query=idcc+1404"
+      },
+      {
+        "idcc": "1351",
+        "nom": "Prévention et sécurité privée",
+        "effectif": 180000,
+        "statut": "non_conforme",
+        "derniere_revalorisation": "Septembre 2025",
+        "grille": [
+          {
+            "niveau": "Niveau I - Agent",
+            "coefficient": 100,
+            "minimum_mensuel": 1425,
+            "minimum_annuel": 17100
+          },
+          {
+            "niveau": "Niveau II - Agent qualifié",
+            "coefficient": 108,
+            "minimum_mensuel": 1450,
+            "minimum_annuel": 17400
+          },
+          {
+            "niveau": "Niveau III - Agent chef",
+            "coefficient": 118,
+            "minimum_mensuel": 1478,
+            "minimum_annuel": 17736
+          },
+          {
+            "niveau": "Niveau IV - Chef de poste",
+            "coefficient": 130,
+            "minimum_mensuel": 1520,
+            "minimum_annuel": 18240
+          },
+          {
+            "niveau": "Niveau V - Chef d'équipe",
+            "coefficient": 150,
+            "minimum_mensuel": 1650,
+            "minimum_annuel": 19800
+          },
+          {
+            "niveau": "Niveau VI - Agent de maîtrise",
+            "coefficient": 185,
+            "minimum_mensuel": 1940,
+            "minimum_annuel": 23280
+          }
+        ],
+        "id": "branch_1351",
+        "source": "https://www.legifrance.gouv.fr/search/result?query=idcc+1351"
+      },
+      {
+        "idcc": "2150",
+        "nom": "Industrie chimique",
+        "effectif": 175000,
+        "statut": "conforme",
+        "derniere_revalorisation": "Janvier 2026",
+        "grille": [
+          {
+            "niveau": "TAM - Groupe 4",
+            "coefficient": 100,
+            "minimum_mensuel": 1497,
+            "minimum_annuel": 17964
+          },
+          {
+            "niveau": "TAM - Groupe 5",
+            "coefficient": 113,
+            "minimum_mensuel": 1610,
+            "minimum_annuel": 19320
+          },
+          {
+            "niveau": "TAM - Groupe 6",
+            "coefficient": 128,
+            "minimum_mensuel": 1760,
+            "minimum_annuel": 21120
+          },
+          {
+            "niveau": "TAM - Groupe 7",
+            "coefficient": 148,
+            "minimum_mensuel": 1980,
+            "minimum_annuel": 23760
+          },
+          {
+            "niveau": "Cadre - Groupe 8",
+            "coefficient": 175,
+            "minimum_mensuel": 2310,
+            "minimum_annuel": 27720
+          },
+          {
+            "niveau": "Cadre - Groupe 9",
+            "coefficient": 215,
+            "minimum_mensuel": 2820,
+            "minimum_annuel": 33840
+          },
+          {
+            "niveau": "Cadre - Groupe 10",
+            "coefficient": 270,
+            "minimum_mensuel": 3540,
+            "minimum_annuel": 42480
+          }
+        ],
+        "id": "branch_2150",
+        "source": "https://www.legifrance.gouv.fr/search/result?query=idcc+2150"
+      },
+      {
+        "idcc": "2569",
+        "nom": "Services de l'automobile (garages)",
+        "effectif": 165000,
+        "statut": "conforme",
+        "derniere_revalorisation": "Janvier 2026",
+        "grille": [
+          {
+            "niveau": "Niveau I - Échelon A",
+            "coefficient": 100,
+            "minimum_mensuel": 1477,
+            "minimum_annuel": 17724
+          },
+          {
+            "niveau": "Niveau I - Échelon B",
+            "coefficient": 105,
+            "minimum_mensuel": 1500,
+            "minimum_annuel": 18000
+          },
+          {
+            "niveau": "Niveau II - Échelon A",
+            "coefficient": 112,
+            "minimum_mensuel": 1540,
+            "minimum_annuel": 18480
+          },
+          {
+            "niveau": "Niveau II - Échelon B",
+            "coefficient": 122,
+            "minimum_mensuel": 1600,
+            "minimum_annuel": 19200
+          },
+          {
+            "niveau": "Niveau III - Échelon A",
+            "coefficient": 137,
+            "minimum_mensuel": 1700,
+            "minimum_annuel": 20400
+          },
+          {
+            "niveau": "Niveau III - Échelon B",
+            "coefficient": 155,
+            "minimum_mensuel": 1850,
+            "minimum_annuel": 22200
+          },
+          {
+            "niveau": "Niveau IV (TAM)",
+            "coefficient": 190,
+            "minimum_mensuel": 2150,
+            "minimum_annuel": 25800
+          },
+          {
+            "niveau": "Niveau V (cadres)",
+            "coefficient": 250,
+            "minimum_mensuel": 2780,
+            "minimum_annuel": 33360
+          }
+        ],
+        "id": "branch_2569",
+        "source": "https://www.legifrance.gouv.fr/search/result?query=idcc+2569"
+      },
+      {
+        "idcc": "0736",
+        "nom": "Hospitalisation privée à but non lucratif (FEHAP)",
+        "effectif": 160000,
+        "statut": "conforme",
+        "derniere_revalorisation": "Juin 2025",
+        "grille": [
+          {
+            "niveau": "Groupe 3 (aide-soignant)",
+            "coefficient": 212,
+            "minimum_mensuel": 1480,
+            "minimum_annuel": 17760
+          },
+          {
+            "niveau": "Groupe 4",
+            "coefficient": 228,
+            "minimum_mensuel": 1570,
+            "minimum_annuel": 18840
+          },
+          {
+            "niveau": "Groupe 5",
+            "coefficient": 248,
+            "minimum_mensuel": 1690,
+            "minimum_annuel": 20280
+          },
+          {
+            "niveau": "Groupe 6 (infirmier)",
+            "coefficient": 280,
+            "minimum_mensuel": 1900,
+            "minimum_annuel": 22800
+          },
+          {
+            "niveau": "Groupe 7 (cadre santé)",
+            "coefficient": 320,
+            "minimum_mensuel": 2150,
+            "minimum_annuel": 25800
+          },
+          {
+            "niveau": "Groupe 8 (cadre supérieur)",
+            "coefficient": 390,
+            "minimum_mensuel": 2620,
+            "minimum_annuel": 31440
+          },
+          {
+            "niveau": "Groupe 9 (directeur)",
+            "coefficient": 500,
+            "minimum_mensuel": 3360,
+            "minimum_annuel": 40320
+          }
+        ],
+        "id": "branch_0736",
+        "source": "https://www.legifrance.gouv.fr/search/result?query=idcc+0736"
+      },
+      {
+        "idcc": "2596",
+        "nom": "Immobilier (agents, syndics, administrateurs)",
+        "effectif": 150000,
+        "statut": "conforme",
+        "derniere_revalorisation": "Janvier 2026",
+        "grille": [
+          {
+            "niveau": "Employé - Niveau 1",
+            "coefficient": 100,
+            "minimum_mensuel": 1490,
+            "minimum_annuel": 17880
+          },
+          {
+            "niveau": "Employé - Niveau 2",
+            "coefficient": 110,
+            "minimum_mensuel": 1560,
+            "minimum_annuel": 18720
+          },
+          {
+            "niveau": "Agent qualifié - Niveau 3",
+            "coefficient": 125,
+            "minimum_mensuel": 1680,
+            "minimum_annuel": 20160
+          },
+          {
+            "niveau": "TAM - Niveau 4",
+            "coefficient": 145,
+            "minimum_mensuel": 1870,
+            "minimum_annuel": 22440
+          },
+          {
+            "niveau": "Cadre - Niveau 5",
+            "coefficient": 175,
+            "minimum_mensuel": 2240,
+            "minimum_annuel": 26880
+          },
+          {
+            "niveau": "Cadre confirmé - Niveau 6",
+            "coefficient": 220,
+            "minimum_mensuel": 2790,
+            "minimum_annuel": 33480
+          }
+        ],
+        "id": "branch_2596",
+        "source": "https://www.legifrance.gouv.fr/search/result?query=idcc+2596"
+      },
+      {
+        "idcc": "0787",
+        "nom": "Boulangerie-pâtisserie artisanale",
+        "effectif": 145000,
+        "statut": "non_conforme",
+        "derniere_revalorisation": "Octobre 2025",
+        "grille": [
+          {
+            "niveau": "Ouvrier - Échelon 1",
+            "coefficient": 100,
+            "minimum_mensuel": 1430,
+            "minimum_annuel": 17160
+          },
+          {
+            "niveau": "Ouvrier - Échelon 2",
+            "coefficient": 104,
+            "minimum_mensuel": 1445,
+            "minimum_annuel": 17340
+          },
+          {
+            "niveau": "Ouvrier qualifié - Échelon 1",
+            "coefficient": 109,
+            "minimum_mensuel": 1462,
+            "minimum_annuel": 17544
+          },
+          {
+            "niveau": "Ouvrier qualifié - Échelon 2",
+            "coefficient": 115,
+            "minimum_mensuel": 1485,
+            "minimum_annuel": 17820
+          },
+          {
+            "niveau": "Ouvrier hautement qualifié",
+            "coefficient": 126,
+            "minimum_mensuel": 1535,
+            "minimum_annuel": 18420
+          },
+          {
+            "niveau": "Chef d'équipe confirmé",
+            "coefficient": 145,
+            "minimum_mensuel": 1690,
+            "minimum_annuel": 20280
+          }
+        ],
+        "id": "branch_0787",
+        "source": "https://www.legifrance.gouv.fr/search/result?query=idcc+0787"
+      },
+      {
+        "idcc": "3131",
+        "nom": "Télécommunications",
+        "effectif": 130000,
+        "statut": "conforme",
+        "derniere_revalorisation": "Janvier 2026",
+        "grille": [
+          {
+            "niveau": "Niveau 1 - Classe 1",
+            "coefficient": 100,
+            "minimum_mensuel": 1510,
+            "minimum_annuel": 18120
+          },
+          {
+            "niveau": "Niveau 2 - Classe 1",
+            "coefficient": 115,
+            "minimum_mensuel": 1640,
+            "minimum_annuel": 19680
+          },
+          {
+            "niveau": "Niveau 2 - Classe 2",
+            "coefficient": 130,
+            "minimum_mensuel": 1790,
+            "minimum_annuel": 21480
+          },
+          {
+            "niveau": "Niveau 3 - Classe 1",
+            "coefficient": 155,
+            "minimum_mensuel": 2040,
+            "minimum_annuel": 24480
+          },
+          {
+            "niveau": "Niveau 3 - Classe 2",
+            "coefficient": 185,
+            "minimum_mensuel": 2390,
+            "minimum_annuel": 28680
+          },
+          {
+            "niveau": "Cadre - Niveau 4",
+            "coefficient": 230,
+            "minimum_mensuel": 2940,
+            "minimum_annuel": 35280
+          },
+          {
+            "niveau": "Cadre supérieur - Niveau 5",
+            "coefficient": 310,
+            "minimum_mensuel": 3950,
+            "minimum_annuel": 47400
+          }
+        ],
+        "id": "branch_3131",
+        "source": "https://www.legifrance.gouv.fr/search/result?query=idcc+3131"
+      },
+      {
+        "idcc": "1285",
+        "nom": "Commerce de détail habillement et textile",
+        "effectif": 120000,
+        "statut": "non_conforme",
+        "derniere_revalorisation": "Septembre 2025",
+        "grille": [
+          {
+            "niveau": "Niveau 1",
+            "coefficient": 100,
+            "minimum_mensuel": 1425,
+            "minimum_annuel": 17100
+          },
+          {
+            "niveau": "Niveau 2",
+            "coefficient": 106,
+            "minimum_mensuel": 1445,
+            "minimum_annuel": 17340
+          },
+          {
+            "niveau": "Niveau 3",
+            "coefficient": 113,
+            "minimum_mensuel": 1468,
+            "minimum_annuel": 17616
+          },
+          {
+            "niveau": "Niveau 4",
+            "coefficient": 123,
+            "minimum_mensuel": 1500,
+            "minimum_annuel": 18000
+          },
+          {
+            "niveau": "Niveau 5 (adjoint)",
+            "coefficient": 140,
+            "minimum_mensuel": 1600,
+            "minimum_annuel": 19200
+          },
+          {
+            "niveau": "Niveau 6 (responsable)",
+            "coefficient": 165,
+            "minimum_mensuel": 1800,
+            "minimum_annuel": 21600
+          }
+        ],
+        "id": "branch_1285",
+        "source": "https://www.legifrance.gouv.fr/search/result?query=idcc+1285"
+      },
+      {
+        "idcc": "0292",
+        "nom": "Plasturgie",
+        "effectif": 115000,
+        "statut": "conforme",
+        "derniere_revalorisation": "Janvier 2026",
+        "grille": [
+          {
+            "niveau": "Ouvrier - Niveau 1",
+            "coefficient": 120,
+            "minimum_mensuel": 1485,
+            "minimum_annuel": 17820
+          },
+          {
+            "niveau": "Ouvrier qualifié - Niveau 2",
+            "coefficient": 132,
+            "minimum_mensuel": 1555,
+            "minimum_annuel": 18660
+          },
+          {
+            "niveau": "Ouvrier qualifié - Niveau 3",
+            "coefficient": 147,
+            "minimum_mensuel": 1650,
+            "minimum_annuel": 19800
+          },
+          {
+            "niveau": "TAM - Niveau 4",
+            "coefficient": 166,
+            "minimum_mensuel": 1790,
+            "minimum_annuel": 21480
+          },
+          {
+            "niveau": "TAM - Niveau 5",
+            "coefficient": 192,
+            "minimum_mensuel": 2020,
+            "minimum_annuel": 24240
+          },
+          {
+            "niveau": "Cadre - Niveau 6",
+            "coefficient": 230,
+            "minimum_mensuel": 2420,
+            "minimum_annuel": 29040
+          },
+          {
+            "niveau": "Cadre supérieur - Niveau 7",
+            "coefficient": 290,
+            "minimum_mensuel": 3050,
+            "minimum_annuel": 36600
+          }
+        ],
+        "id": "branch_0292",
+        "source": "https://www.legifrance.gouv.fr/search/result?query=idcc+0292"
+      },
+      {
+        "idcc": "0650",
+        "nom": "Pharmacie d'officine",
+        "effectif": 105000,
+        "statut": "conforme",
+        "derniere_revalorisation": "Janvier 2026",
+        "grille": [
+          {
+            "niveau": "Niveau I",
+            "coefficient": 100,
+            "minimum_mensuel": 1490,
+            "minimum_annuel": 17880
+          },
+          {
+            "niveau": "Niveau II",
+            "coefficient": 112,
+            "minimum_mensuel": 1600,
+            "minimum_annuel": 19200
+          },
+          {
+            "niveau": "Niveau III",
+            "coefficient": 128,
+            "minimum_mensuel": 1740,
+            "minimum_annuel": 20880
+          },
+          {
+            "niveau": "Niveau IV",
+            "coefficient": 150,
+            "minimum_mensuel": 1950,
+            "minimum_annuel": 23400
+          },
+          {
+            "niveau": "Niveau V (préparateur)",
+            "coefficient": 180,
+            "minimum_mensuel": 2240,
+            "minimum_annuel": 26880
+          },
+          {
+            "niveau": "Niveau VI (pharmacien adjoint)",
+            "coefficient": 250,
+            "minimum_mensuel": 3020,
+            "minimum_annuel": 36240
+          }
+        ],
+        "id": "branch_0650",
+        "source": "https://www.legifrance.gouv.fr/search/result?query=idcc+0650"
+      },
+      {
+        "idcc": "0095",
+        "nom": "Commerce de gros (alimentaire, boissons)",
+        "effectif": 95000,
+        "statut": "conforme",
+        "derniere_revalorisation": "Janvier 2026",
+        "grille": [
+          {
+            "niveau": "Employé - Niveau 1",
+            "coefficient": 100,
+            "minimum_mensuel": 1490,
+            "minimum_annuel": 17880
+          },
+          {
+            "niveau": "Employé qualifié - Niveau 2",
+            "coefficient": 113,
+            "minimum_mensuel": 1580,
+            "minimum_annuel": 18960
+          },
+          {
+            "niveau": "Technicien - Niveau 3",
+            "coefficient": 130,
+            "minimum_mensuel": 1720,
+            "minimum_annuel": 20640
+          },
+          {
+            "niveau": "TAM - Niveau 4",
+            "coefficient": 155,
+            "minimum_mensuel": 1960,
+            "minimum_annuel": 23520
+          },
+          {
+            "niveau": "Cadre - Niveau 5",
+            "coefficient": 195,
+            "minimum_mensuel": 2450,
+            "minimum_annuel": 29400
+          }
+        ],
+        "id": "branch_0095",
+        "source": "https://www.legifrance.gouv.fr/search/result?query=idcc+0095"
+      },
+      {
+        "idcc": "2609",
+        "nom": "Coiffure et esthétique",
+        "effectif": 95000,
+        "statut": "non_conforme",
+        "derniere_revalorisation": "Novembre 2025",
+        "grille": [
+          {
+            "niveau": "Employé qualifié - Échelon 1",
+            "coefficient": 100,
+            "minimum_mensuel": 1430,
+            "minimum_annuel": 17160
+          },
+          {
+            "niveau": "Employé qualifié - Échelon 2",
+            "coefficient": 105,
+            "minimum_mensuel": 1448,
+            "minimum_annuel": 17376
+          },
+          {
+            "niveau": "Collaborateur technique",
+            "coefficient": 115,
+            "minimum_mensuel": 1490,
+            "minimum_annuel": 17880
+          },
+          {
+            "niveau": "Responsable technique",
+            "coefficient": 135,
+            "minimum_mensuel": 1590,
+            "minimum_annuel": 19080
+          },
+          {
+            "niveau": "Directeur technique",
+            "coefficient": 160,
+            "minimum_mensuel": 1870,
+            "minimum_annuel": 22440
+          }
+        ],
+        "id": "branch_2609",
+        "source": "https://www.legifrance.gouv.fr/search/result?query=idcc+2609"
+      },
+      {
+        "idcc": "1483",
+        "nom": "Mutualité",
+        "effectif": 90000,
+        "statut": "conforme",
+        "derniere_revalorisation": "Juillet 2025",
+        "grille": [
+          {
+            "niveau": "Classe 1",
+            "coefficient": 100,
+            "minimum_mensuel": 1505,
+            "minimum_annuel": 18060
+          },
+          {
+            "niveau": "Classe 2",
+            "coefficient": 115,
+            "minimum_mensuel": 1640,
+            "minimum_annuel": 19680
+          },
+          {
+            "niveau": "Classe 3",
+            "coefficient": 135,
+            "minimum_mensuel": 1850,
+            "minimum_annuel": 22200
+          },
+          {
+            "niveau": "Classe 4",
+            "coefficient": 160,
+            "minimum_mensuel": 2120,
+            "minimum_annuel": 25440
+          },
+          {
+            "niveau": "Classe 5",
+            "coefficient": 200,
+            "minimum_mensuel": 2590,
+            "minimum_annuel": 31080
+          },
+          {
+            "niveau": "Classe 6 (cadres supérieurs)",
+            "coefficient": 260,
+            "minimum_mensuel": 3310,
+            "minimum_annuel": 39720
+          }
+        ],
+        "id": "branch_1483",
         "source": "https://www.legifrance.gouv.fr/search/result?query=idcc+1483"
       },
       {
-        "id": "branch_0044",
-        "nom": "Industries alimentaires diverses",
         "idcc": "0044",
+        "nom": "Industries alimentaires diverses",
         "effectif": 85000,
         "statut": "conforme",
+        "derniere_revalorisation": "Janvier 2026",
         "grille": [
           {
-            "niveau": "Base",
+            "niveau": "Ouvrier - Niveau 1",
             "coefficient": 100,
-            "minimum_mensuel": 1443.11,
-            "minimum_annuel": 17317.32
+            "minimum_mensuel": 1490,
+            "minimum_annuel": 17880
+          },
+          {
+            "niveau": "Ouvrier qualifié - Niveau 2",
+            "coefficient": 112,
+            "minimum_mensuel": 1575,
+            "minimum_annuel": 18900
+          },
+          {
+            "niveau": "Ouvrier très qualifié - Niveau 3",
+            "coefficient": 128,
+            "minimum_mensuel": 1700,
+            "minimum_annuel": 20400
+          },
+          {
+            "niveau": "TAM - Niveau 4",
+            "coefficient": 150,
+            "minimum_mensuel": 1900,
+            "minimum_annuel": 22800
+          },
+          {
+            "niveau": "Cadre - Niveau 5",
+            "coefficient": 200,
+            "minimum_mensuel": 2520,
+            "minimum_annuel": 30240
           }
         ],
-        "derniere_revalorisation": "Janvier 2026",
+        "id": "branch_0044",
         "source": "https://www.legifrance.gouv.fr/search/result?query=idcc+0044"
       },
       {
-        "id": "branch_2264",
-        "nom": "Distribution directe",
         "idcc": "2264",
+        "nom": "Distribution directe",
         "effectif": 75000,
         "statut": "conforme",
+        "derniere_revalorisation": "Janvier 2026",
         "grille": [
           {
-            "niveau": "Base",
+            "niveau": "Niveau 1 - Échelon A",
             "coefficient": 100,
-            "minimum_mensuel": 1443.11,
-            "minimum_annuel": 17317.32
+            "minimum_mensuel": 1472,
+            "minimum_annuel": 17664
+          },
+          {
+            "niveau": "Niveau 1 - Échelon B",
+            "coefficient": 106,
+            "minimum_mensuel": 1500,
+            "minimum_annuel": 18000
+          },
+          {
+            "niveau": "Niveau 2",
+            "coefficient": 115,
+            "minimum_mensuel": 1545,
+            "minimum_annuel": 18540
+          },
+          {
+            "niveau": "Niveau 3 (encadrement)",
+            "coefficient": 135,
+            "minimum_mensuel": 1680,
+            "minimum_annuel": 20160
+          },
+          {
+            "niveau": "Niveau 4 (cadre)",
+            "coefficient": 170,
+            "minimum_mensuel": 2040,
+            "minimum_annuel": 24480
           }
         ],
-        "derniere_revalorisation": "Janvier 2026",
+        "id": "branch_2264",
         "source": "https://www.legifrance.gouv.fr/search/result?query=idcc+2264"
       },
       {
-        "id": "branch_2511",
-        "nom": "Sport",
         "idcc": "2511",
+        "nom": "Sport (associations et clubs)",
         "effectif": 70000,
         "statut": "conforme",
+        "derniere_revalorisation": "Janvier 2026",
         "grille": [
           {
-            "niveau": "Base",
+            "niveau": "Groupe 1 - Degré 1",
             "coefficient": 100,
-            "minimum_mensuel": 1443.11,
-            "minimum_annuel": 17317.32
+            "minimum_mensuel": 1480,
+            "minimum_annuel": 17760
+          },
+          {
+            "niveau": "Groupe 2 - Degré 1",
+            "coefficient": 115,
+            "minimum_mensuel": 1580,
+            "minimum_annuel": 18960
+          },
+          {
+            "niveau": "Groupe 3 - Éducateur",
+            "coefficient": 135,
+            "minimum_mensuel": 1720,
+            "minimum_annuel": 20640
+          },
+          {
+            "niveau": "Groupe 4 - Éducateur spécialisé",
+            "coefficient": 160,
+            "minimum_mensuel": 1990,
+            "minimum_annuel": 23880
+          },
+          {
+            "niveau": "Groupe 5 - Cadre technique",
+            "coefficient": 200,
+            "minimum_mensuel": 2450,
+            "minimum_annuel": 29400
+          },
+          {
+            "niveau": "Groupe 6 - Directeur",
+            "coefficient": 260,
+            "minimum_mensuel": 3150,
+            "minimum_annuel": 37800
           }
         ],
-        "derniere_revalorisation": "Janvier 2026",
+        "id": "branch_2511",
         "source": "https://www.legifrance.gouv.fr/search/result?query=idcc+2511"
       },
       {
-        "id": "branch_1424",
-        "nom": "Personnel des cabinets médicaux",
         "idcc": "1424",
+        "nom": "Cabinets médicaux",
         "effectif": 65000,
         "statut": "non_conforme",
+        "derniere_revalorisation": "Octobre 2025",
         "grille": [
           {
-            "niveau": "Base",
+            "niveau": "Employé - Échelon 1",
             "coefficient": 100,
-            "minimum_mensuel": 1443.11,
-            "minimum_annuel": 17317.32
+            "minimum_mensuel": 1425,
+            "minimum_annuel": 17100
+          },
+          {
+            "niveau": "Employé - Échelon 2",
+            "coefficient": 104,
+            "minimum_mensuel": 1440,
+            "minimum_annuel": 17280
+          },
+          {
+            "niveau": "Employé qualifié - Échelon 3",
+            "coefficient": 110,
+            "minimum_mensuel": 1462,
+            "minimum_annuel": 17544
+          },
+          {
+            "niveau": "Secrétaire médicale qualifiée",
+            "coefficient": 120,
+            "minimum_mensuel": 1495,
+            "minimum_annuel": 17940
+          },
+          {
+            "niveau": "Assistante médicale",
+            "coefficient": 135,
+            "minimum_mensuel": 1590,
+            "minimum_annuel": 19080
+          },
+          {
+            "niveau": "Responsable cabinet",
+            "coefficient": 165,
+            "minimum_mensuel": 1870,
+            "minimum_annuel": 22440
           }
         ],
-        "derniere_revalorisation": "Janvier 2026",
+        "id": "branch_1424",
         "source": "https://www.legifrance.gouv.fr/search/result?query=idcc+1424"
       },
       {
-        "id": "branch_2691",
-        "nom": "Paysagistes",
         "idcc": "2691",
+        "nom": "Paysagistes (entreprises du paysage)",
         "effectif": 55000,
         "statut": "conforme",
+        "derniere_revalorisation": "Janvier 2026",
         "grille": [
           {
-            "niveau": "Base",
+            "niveau": "Ouvrier - Niveau 1",
             "coefficient": 100,
-            "minimum_mensuel": 1443.11,
-            "minimum_annuel": 17317.32
+            "minimum_mensuel": 1495,
+            "minimum_annuel": 17940
+          },
+          {
+            "niveau": "Ouvrier qualifié - Niveau 2",
+            "coefficient": 111,
+            "minimum_mensuel": 1565,
+            "minimum_annuel": 18780
+          },
+          {
+            "niveau": "Ouvrier qualifié - Niveau 3",
+            "coefficient": 124,
+            "minimum_mensuel": 1655,
+            "minimum_annuel": 19860
+          },
+          {
+            "niveau": "Chef d'équipe - Niveau 4",
+            "coefficient": 141,
+            "minimum_mensuel": 1790,
+            "minimum_annuel": 21480
+          },
+          {
+            "niveau": "Chef de chantier - Niveau 5",
+            "coefficient": 164,
+            "minimum_mensuel": 2020,
+            "minimum_annuel": 24240
+          },
+          {
+            "niveau": "Cadre - Niveau 6",
+            "coefficient": 210,
+            "minimum_mensuel": 2590,
+            "minimum_annuel": 31080
           }
         ],
-        "derniere_revalorisation": "Janvier 2026",
+        "id": "branch_2691",
         "source": "https://www.legifrance.gouv.fr/search/result?query=idcc+2691"
       },
       {
-        "id": "branch_0675",
-        "nom": "Papiers cartons (transformation)",
         "idcc": "0675",
+        "nom": "Papiers-cartons (transformation)",
         "effectif": 55000,
         "statut": "conforme",
+        "derniere_revalorisation": "Janvier 2026",
         "grille": [
           {
-            "niveau": "Base",
+            "niveau": "Niveau I",
             "coefficient": 100,
-            "minimum_mensuel": 1443.11,
-            "minimum_annuel": 17317.32
+            "minimum_mensuel": 1492,
+            "minimum_annuel": 17904
+          },
+          {
+            "niveau": "Niveau II",
+            "coefficient": 112,
+            "minimum_mensuel": 1580,
+            "minimum_annuel": 18960
+          },
+          {
+            "niveau": "Niveau III",
+            "coefficient": 127,
+            "minimum_mensuel": 1700,
+            "minimum_annuel": 20400
+          },
+          {
+            "niveau": "Niveau IV (TAM)",
+            "coefficient": 148,
+            "minimum_mensuel": 1920,
+            "minimum_annuel": 23040
+          },
+          {
+            "niveau": "Niveau V (cadres)",
+            "coefficient": 185,
+            "minimum_mensuel": 2380,
+            "minimum_annuel": 28560
+          },
+          {
+            "niveau": "Niveau VI (cadres supérieurs)",
+            "coefficient": 250,
+            "minimum_mensuel": 3150,
+            "minimum_annuel": 37800
           }
         ],
-        "derniere_revalorisation": "Janvier 2026",
+        "id": "branch_0675",
         "source": "https://www.legifrance.gouv.fr/search/result?query=idcc+0675"
       },
       {
-        "id": "branch_3016",
-        "nom": "Organismes de formation",
         "idcc": "3016",
+        "nom": "Organismes de formation professionnelle",
         "effectif": 55000,
         "statut": "conforme",
+        "derniere_revalorisation": "Janvier 2026",
         "grille": [
           {
-            "niveau": "Base",
+            "niveau": "Niveau 1 - Échelon 1",
             "coefficient": 100,
-            "minimum_mensuel": 1443.11,
-            "minimum_annuel": 17317.32
+            "minimum_mensuel": 1510,
+            "minimum_annuel": 18120
+          },
+          {
+            "niveau": "Niveau 1 - Échelon 2",
+            "coefficient": 108,
+            "minimum_mensuel": 1570,
+            "minimum_annuel": 18840
+          },
+          {
+            "niveau": "Niveau 2 - Échelon 1",
+            "coefficient": 120,
+            "minimum_mensuel": 1680,
+            "minimum_annuel": 20160
+          },
+          {
+            "niveau": "Niveau 2 - Échelon 2",
+            "coefficient": 135,
+            "minimum_mensuel": 1840,
+            "minimum_annuel": 22080
+          },
+          {
+            "niveau": "Niveau 3 (formateur)",
+            "coefficient": 160,
+            "minimum_mensuel": 2100,
+            "minimum_annuel": 25200
+          },
+          {
+            "niveau": "Niveau 4 (responsable)",
+            "coefficient": 205,
+            "minimum_mensuel": 2650,
+            "minimum_annuel": 31800
           }
         ],
-        "derniere_revalorisation": "Janvier 2026",
+        "id": "branch_3016",
         "source": "https://www.legifrance.gouv.fr/search/result?query=idcc+3016"
       },
       {
-        "id": "branch_0016",
-        "nom": "Transports aériens (personnel au sol)",
         "idcc": "0016",
+        "nom": "Transports aériens (personnel au sol)",
         "effectif": 45000,
         "statut": "conforme",
+        "derniere_revalorisation": "Juillet 2025",
         "grille": [
           {
-            "niveau": "Base",
+            "niveau": "Catégorie 1 - Échelon 1",
             "coefficient": 100,
-            "minimum_mensuel": 1443.11,
-            "minimum_annuel": 17317.32
+            "minimum_mensuel": 1530,
+            "minimum_annuel": 18360
+          },
+          {
+            "niveau": "Catégorie 2",
+            "coefficient": 115,
+            "minimum_mensuel": 1650,
+            "minimum_annuel": 19800
+          },
+          {
+            "niveau": "Catégorie 3 (technicien)",
+            "coefficient": 135,
+            "minimum_mensuel": 1840,
+            "minimum_annuel": 22080
+          },
+          {
+            "niveau": "Catégorie 4 (TAM)",
+            "coefficient": 165,
+            "minimum_mensuel": 2140,
+            "minimum_annuel": 25680
+          },
+          {
+            "niveau": "Catégorie 5 (cadre)",
+            "coefficient": 220,
+            "minimum_mensuel": 2790,
+            "minimum_annuel": 33480
+          },
+          {
+            "niveau": "Catégorie 6 (cadre supérieur)",
+            "coefficient": 310,
+            "minimum_mensuel": 3920,
+            "minimum_annuel": 47040
           }
         ],
-        "derniere_revalorisation": "Janvier 2026",
+        "id": "branch_0016",
         "source": "https://www.legifrance.gouv.fr/search/result?query=idcc+0016"
       },
       {
-        "id": "branch_0158",
-        "nom": "Imprimerie de labeur et industries graphiques",
         "idcc": "0158",
+        "nom": "Imprimerie de labeur et industries graphiques",
         "effectif": 43000,
         "statut": "conforme",
+        "derniere_revalorisation": "Janvier 2026",
         "grille": [
           {
-            "niveau": "Base",
+            "niveau": "Ouvrier - Niveau 1",
             "coefficient": 100,
-            "minimum_mensuel": 1443.11,
-            "minimum_annuel": 17317.32
+            "minimum_mensuel": 1498,
+            "minimum_annuel": 17976
+          },
+          {
+            "niveau": "Ouvrier qualifié - Niveau 2",
+            "coefficient": 113,
+            "minimum_mensuel": 1590,
+            "minimum_annuel": 19080
+          },
+          {
+            "niveau": "Ouvrier très qualifié - Niveau 3",
+            "coefficient": 130,
+            "minimum_mensuel": 1720,
+            "minimum_annuel": 20640
+          },
+          {
+            "niveau": "TAM - Niveau 4",
+            "coefficient": 152,
+            "minimum_mensuel": 1930,
+            "minimum_annuel": 23160
+          },
+          {
+            "niveau": "Cadre - Niveau 5",
+            "coefficient": 190,
+            "minimum_mensuel": 2390,
+            "minimum_annuel": 28680
           }
         ],
-        "derniere_revalorisation": "Janvier 2026",
+        "id": "branch_0158",
         "source": "https://www.legifrance.gouv.fr/search/result?query=idcc+0158"
       },
       {
-        "id": "branch_2148",
-        "nom": "Personnel des agences générales d'assurances",
         "idcc": "2148",
+        "nom": "Agences générales d'assurances",
         "effectif": 40000,
         "statut": "conforme",
+        "derniere_revalorisation": "Janvier 2026",
         "grille": [
           {
-            "niveau": "Base",
+            "niveau": "Classe A1",
             "coefficient": 100,
-            "minimum_mensuel": 1443.11,
-            "minimum_annuel": 17317.32
+            "minimum_mensuel": 1510,
+            "minimum_annuel": 18120
+          },
+          {
+            "niveau": "Classe A2",
+            "coefficient": 112,
+            "minimum_mensuel": 1610,
+            "minimum_annuel": 19320
+          },
+          {
+            "niveau": "Classe B1",
+            "coefficient": 130,
+            "minimum_mensuel": 1790,
+            "minimum_annuel": 21480
+          },
+          {
+            "niveau": "Classe B2",
+            "coefficient": 155,
+            "minimum_mensuel": 2060,
+            "minimum_annuel": 24720
+          },
+          {
+            "niveau": "Classe C (cadre)",
+            "coefficient": 190,
+            "minimum_mensuel": 2490,
+            "minimum_annuel": 29880
+          },
+          {
+            "niveau": "Classe D (cadre supérieur)",
+            "coefficient": 250,
+            "minimum_mensuel": 3240,
+            "minimum_annuel": 38880
           }
         ],
-        "derniere_revalorisation": "Janvier 2026",
+        "id": "branch_2148",
         "source": "https://www.legifrance.gouv.fr/search/result?query=idcc+2148"
       },
       {
-        "id": "branch_0979",
-        "nom": "Hôtellerie de plein air",
         "idcc": "0979",
+        "nom": "Hôtellerie de plein air (camping)",
         "effectif": 38000,
         "statut": "conforme",
+        "derniere_revalorisation": "Janvier 2026",
         "grille": [
           {
-            "niveau": "Base",
+            "niveau": "Niveau 1 - Échelon 1",
             "coefficient": 100,
-            "minimum_mensuel": 1443.11,
-            "minimum_annuel": 17317.32
+            "minimum_mensuel": 1478,
+            "minimum_annuel": 17736
+          },
+          {
+            "niveau": "Niveau 1 - Échelon 2",
+            "coefficient": 105,
+            "minimum_mensuel": 1500,
+            "minimum_annuel": 18000
+          },
+          {
+            "niveau": "Niveau 2 - Échelon 1",
+            "coefficient": 112,
+            "minimum_mensuel": 1535,
+            "minimum_annuel": 18420
+          },
+          {
+            "niveau": "Niveau 2 - Échelon 2",
+            "coefficient": 122,
+            "minimum_mensuel": 1590,
+            "minimum_annuel": 19080
+          },
+          {
+            "niveau": "Niveau 3",
+            "coefficient": 140,
+            "minimum_mensuel": 1720,
+            "minimum_annuel": 20640
+          },
+          {
+            "niveau": "Cadre - Niveau 4",
+            "coefficient": 180,
+            "minimum_mensuel": 2150,
+            "minimum_annuel": 25800
           }
         ],
-        "derniere_revalorisation": "Janvier 2026",
+        "id": "branch_0979",
         "source": "https://www.legifrance.gouv.fr/search/result?query=idcc+0979"
       },
       {
-        "id": "branch_1258",
-        "nom": "Textile",
         "idcc": "1258",
+        "nom": "Textiles artificiels et synthétiques",
         "effectif": 35000,
         "statut": "conforme",
+        "derniere_revalorisation": "Juillet 2025",
         "grille": [
           {
-            "niveau": "Base",
+            "niveau": "Ouvrier - Échelon 1",
             "coefficient": 100,
-            "minimum_mensuel": 1443.11,
-            "minimum_annuel": 17317.32
+            "minimum_mensuel": 1480,
+            "minimum_annuel": 17760
+          },
+          {
+            "niveau": "Ouvrier qualifié - Échelon 2",
+            "coefficient": 112,
+            "minimum_mensuel": 1560,
+            "minimum_annuel": 18720
+          },
+          {
+            "niveau": "Ouvrier hautement qualifié - Échelon 3",
+            "coefficient": 128,
+            "minimum_mensuel": 1670,
+            "minimum_annuel": 20040
+          },
+          {
+            "niveau": "TAM - Échelon 4",
+            "coefficient": 150,
+            "minimum_mensuel": 1880,
+            "minimum_annuel": 22560
+          },
+          {
+            "niveau": "Cadre - Échelon 5",
+            "coefficient": 200,
+            "minimum_mensuel": 2480,
+            "minimum_annuel": 29760
           }
         ],
-        "derniere_revalorisation": "Janvier 2026",
+        "id": "branch_1258",
         "source": "https://www.legifrance.gouv.fr/search/result?query=idcc+1258"
       },
       {
-        "id": "branch_2785",
-        "nom": "Avocat (salariés)",
         "idcc": "2785",
+        "nom": "Avocats (salariés et collaborateurs)",
         "effectif": 30000,
         "statut": "non_conforme",
+        "derniere_revalorisation": "Juin 2025",
         "grille": [
           {
-            "niveau": "Base",
+            "niveau": "Collaborateur - Tranche A",
             "coefficient": 100,
-            "minimum_mensuel": 1443.11,
-            "minimum_annuel": 17317.32
+            "minimum_mensuel": 1430,
+            "minimum_annuel": 17160
+          },
+          {
+            "niveau": "Collaborateur - Tranche B",
+            "coefficient": 115,
+            "minimum_mensuel": 1495,
+            "minimum_annuel": 17940
+          },
+          {
+            "niveau": "Collaborateur confirmé",
+            "coefficient": 140,
+            "minimum_mensuel": 1650,
+            "minimum_annuel": 19800
+          },
+          {
+            "niveau": "Juriste senior",
+            "coefficient": 180,
+            "minimum_mensuel": 2100,
+            "minimum_annuel": 25200
+          },
+          {
+            "niveau": "Avocat associé salarié",
+            "coefficient": 250,
+            "minimum_mensuel": 2900,
+            "minimum_annuel": 34800
           }
         ],
-        "derniere_revalorisation": "Janvier 2026",
+        "id": "branch_2785",
         "source": "https://www.legifrance.gouv.fr/search/result?query=idcc+2785"
       },
       {
-        "id": "branch_1043",
-        "nom": "Commerce succursaliste de la chaussure",
         "idcc": "1043",
+        "nom": "Commerce succursaliste de la chaussure",
         "effectif": 28000,
         "statut": "conforme",
+        "derniere_revalorisation": "Juillet 2025",
         "grille": [
           {
-            "niveau": "Base",
+            "niveau": "Vendeur - Niveau 1",
             "coefficient": 100,
-            "minimum_mensuel": 1443.11,
-            "minimum_annuel": 17317.32
+            "minimum_mensuel": 1480,
+            "minimum_annuel": 17760
+          },
+          {
+            "niveau": "Vendeur qualifié - Niveau 2",
+            "coefficient": 110,
+            "minimum_mensuel": 1545,
+            "minimum_annuel": 18540
+          },
+          {
+            "niveau": "Chef de rayon - Niveau 3",
+            "coefficient": 125,
+            "minimum_mensuel": 1660,
+            "minimum_annuel": 19920
+          },
+          {
+            "niveau": "Responsable adjoint - Niveau 4",
+            "coefficient": 150,
+            "minimum_mensuel": 1890,
+            "minimum_annuel": 22680
+          },
+          {
+            "niveau": "Directeur de magasin - Niveau 5",
+            "coefficient": 190,
+            "minimum_mensuel": 2360,
+            "minimum_annuel": 28320
           }
         ],
-        "derniere_revalorisation": "Janvier 2026",
+        "id": "branch_1043",
         "source": "https://www.legifrance.gouv.fr/search/result?query=idcc+1043"
       },
       {
-        "id": "branch_3230",
-        "nom": "Acteurs du lien social et familial (ELISFA)",
         "idcc": "3230",
+        "nom": "Acteurs du lien social et familial (ELISFA)",
         "effectif": 25000,
         "statut": "conforme",
+        "derniere_revalorisation": "Janvier 2026",
         "grille": [
           {
-            "niveau": "Base",
-            "coefficient": 100,
-            "minimum_mensuel": 1443.11,
-            "minimum_annuel": 17317.32
+            "niveau": "Groupe A - Degré 1",
+            "coefficient": 257,
+            "minimum_mensuel": 1480,
+            "minimum_annuel": 17760
+          },
+          {
+            "niveau": "Groupe B - Degré 1",
+            "coefficient": 285,
+            "minimum_mensuel": 1600,
+            "minimum_annuel": 19200
+          },
+          {
+            "niveau": "Groupe C - Degré 1",
+            "coefficient": 330,
+            "minimum_mensuel": 1800,
+            "minimum_annuel": 21600
+          },
+          {
+            "niveau": "Groupe D",
+            "coefficient": 390,
+            "minimum_mensuel": 2100,
+            "minimum_annuel": 25200
+          },
+          {
+            "niveau": "Groupe E (direction)",
+            "coefficient": 480,
+            "minimum_mensuel": 2560,
+            "minimum_annuel": 30720
           }
         ],
-        "derniere_revalorisation": "Janvier 2026",
+        "id": "branch_3230",
         "source": "https://www.legifrance.gouv.fr/search/result?query=idcc+3230"
       },
       {
-        "id": "branch_1261",
-        "nom": "Quincaillerie (commerce de gros)",
-        "idcc": "1261",
-        "effectif": 22000,
-        "statut": "conforme",
-        "grille": [
-          {
-            "niveau": "Base",
-            "coefficient": 100,
-            "minimum_mensuel": 1443.11,
-            "minimum_annuel": 17317.32
-          }
-        ],
-        "derniere_revalorisation": "Janvier 2026",
-        "source": "https://www.legifrance.gouv.fr/search/result?query=idcc+1261"
-      },
-      {
-        "id": "branch_0086",
-        "nom": "Entreprises d'armement maritime",
         "idcc": "0086",
+        "nom": "Navigation fluviale",
         "effectif": 12000,
         "statut": "conforme",
+        "derniere_revalorisation": "Janvier 2026",
         "grille": [
           {
-            "niveau": "Base",
+            "niveau": "Matelot - Classe 1",
             "coefficient": 100,
-            "minimum_mensuel": 1443.11,
-            "minimum_annuel": 17317.32
+            "minimum_mensuel": 1510,
+            "minimum_annuel": 18120
+          },
+          {
+            "niveau": "Matelot qualifié - Classe 2",
+            "coefficient": 115,
+            "minimum_mensuel": 1650,
+            "minimum_annuel": 19800
+          },
+          {
+            "niveau": "Patron - Classe 3",
+            "coefficient": 140,
+            "minimum_mensuel": 1920,
+            "minimum_annuel": 23040
+          },
+          {
+            "niveau": "Capitaine - Classe 4",
+            "coefficient": 175,
+            "minimum_mensuel": 2290,
+            "minimum_annuel": 27480
           }
         ],
-        "derniere_revalorisation": "Janvier 2026",
+        "id": "branch_0086",
         "source": "https://www.legifrance.gouv.fr/search/result?query=idcc+0086"
       }
     ],
     "meta": {
       "derniere_mise_a_jour": "2026-03-25",
       "prochaine_verification": "Juillet 2026",
-      "source_effectifs": "DGT/DARES - Données branches professionnelles",
-      "methodologie": "Top 50 branches classées par effectif salarié couvert. Conformité SMIC au 1er janvier 2026."
+      "source_effectifs": "DGT/DARES via API data.travail.gouv.fr + base statique",
+      "methodologie": "50 branches classées par effectif. Grilles vérifiées au 01/01/2026. Effectifs et conformité mis à jour automatiquement via API."
     }
   },
   "egalite_professionnelle": {
@@ -23522,7 +24952,7 @@
     "sources": "INSEE - Enquête Emploi, DARES"
   },
   "previsions_cftc": {
-    "generated_at": "2026-03-25T07:31:28.499773",
+    "generated_at": "2026-03-25T07:50:14.441411",
     "model_version": "CFTC v4.0 (Monte Carlo)",
     "n_simulations": 1000,
     "horizon": "12 mois",
