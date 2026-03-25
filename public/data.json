@@ -1,6 +1,6 @@
 {
-  "last_updated": "25/03/2026 12:15",
-  "last_updated_iso": "2026-03-25T12:15:22.611383",
+  "last_updated": "25/03/2026 12:26",
+  "last_updated_iso": "2026-03-25T12:26:48.343296",
   "contact": "hspringragain@cftc.fr",
   "alertes": [
     {
@@ -32,7 +32,7 @@
       "date": "2026-03-25",
       "type": "info",
       "titre": "🔄 Données actualisées",
-      "message": "Le tableau de bord a été mis à jour le 25/03/2026 à 12:15.",
+      "message": "Le tableau de bord a été mis à jour le 25/03/2026 à 12:26.",
       "onglet": "conjoncture"
     }
   ],
@@ -193,7 +193,7 @@
     }
   ],
   "revue_presse": {
-    "derniere_maj": "25/03/2026 12:15",
+    "derniere_maj": "25/03/2026 12:26",
     "nb_sources": 7,
     "sources_noms": [
       "Le Monde Éco",
@@ -206,6 +206,18 @@
     ],
     "a_la_une": [],
     "tous": [
+      {
+        "source": "Le Figaro Éco",
+        "couleur": "#92400e",
+        "emoji": "📊",
+        "tag": "Presse économique",
+        "titre": "L’Iran imprime des billets de 10 millions de rials pour faire face à l’inflation record",
+        "resume": "Les prix explosent dans le pays depuis plusieurs mois, une tendance accrue par la guerre. Face à la demande de liquide croissante de la population, la banque centrale iranienne s’est résolue à imprimer de gros billets.",
+        "lien": "https://www.lefigaro.fr/conjoncture/l-iran-imprime-des-billets-de-10-millions-de-rials-pour-faire-face-a-l-inflation-record-20260325",
+        "date_iso": "2026-03-25T13:14:11+01:00",
+        "date_fr": "25/03/2026",
+        "pertinence": 2
+      },
       {
         "source": "Le Figaro Éco",
         "couleur": "#92400e",
@@ -253,18 +265,6 @@
         "date_iso": "2026-03-25T12:51:36+01:00",
         "date_fr": "25/03/2026",
         "pertinence": 1
-      },
-      {
-        "source": "Le Figaro Éco",
-        "couleur": "#92400e",
-        "emoji": "📊",
-        "tag": "Presse économique",
-        "titre": "L’Iran imprime des billets de 10 millions de rials pour faire face à l’inflation record",
-        "resume": "Les prix explosent dans le pays depuis plusieurs mois, une tendance accrue par la guerre. Face à la demande de liquide croissante de la population, la banque centrale iranienne s’est résolue à imprimer de gros billets.",
-        "lien": "https://www.lefigaro.fr/conjoncture/l-iran-imprime-des-billets-de-10-millions-de-rials-pour-faire-face-a-l-inflation-record-20260325",
-        "date_iso": "2026-03-25T12:47:57+01:00",
-        "date_fr": "25/03/2026",
-        "pertinence": 2
       },
       {
         "source": "Le Figaro Éco",
@@ -511,7 +511,7 @@
         "couleur": "#374151",
         "emoji": "🌐",
         "tag": "Presse économique",
-        "titre": "EN DIRECT, municipales 2026 : « Je pense que je n’ai plus rien à faire chez LR », annonce David Lisnard, maire de Cannes, en désaccord avec la stratégie du parti pour la présidentielle",
+        "titre": "Municipales 2026 : « Je pense que je n’ai plus rien à faire chez LR », annonce David Lisnard, en désaccord avec la stratégie du parti pour la présidentielle. Retrouvez notre direct",
         "resume": "Au lendemain du bureau politique de LR, David Lisnard a dénoncé un « vote truqué ». L’édile, aussi l’un des vice-présidents de LR, craint que son parti « ne disparaisse face aux nouvelles réalités (…) en croyant qu’il est encore en première division », et a dit qu’il allait « demander à voir Bruno R",
         "lien": "https://www.lemonde.fr/politique/live/2026/03/25/en-direct-municipales-2026-je-pense-que-je-n-ai-plus-rien-a-faire-chez-lr-annonce-david-lisnard-maire-de-cannes-en-desaccord-sur-la-strategie-du-parti-pour-la-presidentielle_6673595_823448.html",
         "date_iso": "2026-03-25T09:31:24+01:00",
@@ -815,14 +815,14 @@
     "smic_net": 1443.11,
     "salaire_median": 2190,
     "salaire_moyen": 2733,
-    "ecart_hf_eqtp": 25.8,
+    "ecart_hf_eqtp": 14.0,
     "difficultes_recrutement": 61,
     "irl_glissement": 0.79,
     "prix_gazole": 2.227,
     "taux_effort_locataires": 29.6,
     "croissance_pib": 0.7,
     "climat_affaires": 97,
-    "defaillances_12m": 68961
+    "defaillances_12m": 68227
   },
   "salaire_median": {
     "montant_2024": 2190,
@@ -855,36 +855,36 @@
   },
   "ecart_hommes_femmes": {
     "ecart_global": 21.8,
-    "ecart_eqtp": 25.8,
+    "ecart_eqtp": 14.0,
     "ecart_poste_comparable": 4.0,
     "evolution": [
       {
-        "annee": "2018",
-        "ecart": 23.2
+        "annee": "2015",
+        "ecart": 18.4
+      },
+      {
+        "annee": "2017",
+        "ecart": 16.6
       },
       {
         "annee": "2019",
-        "ecart": 23.8
-      },
-      {
-        "annee": "2020",
-        "ecart": 24.5
+        "ecart": 16.1
       },
       {
         "annee": "2021",
-        "ecart": 24.3
+        "ecart": 15.5
       },
       {
         "annee": "2022",
-        "ecart": 25.1
+        "ecart": 14.9
       },
       {
         "annee": "2023",
-        "ecart": 25.6
+        "ecart": 14.2
       },
       {
         "annee": "2024",
-        "ecart": 25.8
+        "ecart": 14.0
       }
     ]
   },
@@ -902,17 +902,17 @@
     {
       "secteur": "Industrie",
       "salaire": 3021,
-      "evolution": 0.9
+      "evolution": 1.1
     },
     {
       "secteur": "Tertiaire (moyenne)",
       "salaire": 2705,
-      "evolution": 0.0
+      "evolution": 0.7
     },
     {
       "secteur": "Construction",
       "salaire": 2411,
-      "evolution": 0.0
+      "evolution": 0.4
     },
     {
       "secteur": "Héberg.-restauration",
@@ -1128,57 +1128,57 @@
   "difficultes_recrutement": [
     {
       "trimestre": "T1 2023",
-      "industrie": 52,
-      "services": 38,
-      "construction": 65
+      "industrie": 65,
+      "services": 48,
+      "construction": 78
     },
     {
       "trimestre": "T2 2023",
-      "industrie": 50,
-      "services": 36,
-      "construction": 62
+      "industrie": 64,
+      "services": 48,
+      "construction": 76
     },
     {
       "trimestre": "T3 2023",
-      "industrie": 48,
-      "services": 35,
-      "construction": 60
+      "industrie": 60,
+      "services": 45,
+      "construction": 72
     },
     {
       "trimestre": "T4 2023",
-      "industrie": 45,
-      "services": 33,
-      "construction": 58
+      "industrie": 57,
+      "services": 42,
+      "construction": 68
     },
     {
       "trimestre": "T1 2024",
-      "industrie": 43,
-      "services": 32,
-      "construction": 55
+      "industrie": 53,
+      "services": 39,
+      "construction": 63
     },
     {
       "trimestre": "T2 2024",
-      "industrie": 41,
-      "services": 30,
-      "construction": 52
+      "industrie": 52,
+      "services": 39,
+      "construction": 62
     },
     {
       "trimestre": "T3 2024",
-      "industrie": 40,
-      "services": 30,
-      "construction": 50
+      "industrie": 48,
+      "services": 36,
+      "construction": 57
     },
     {
       "trimestre": "T4 2024",
-      "industrie": 38,
-      "services": 28,
-      "construction": 48
+      "industrie": 46,
+      "services": 34,
+      "construction": 55
     },
     {
       "trimestre": "T1 2025",
-      "industrie": 36,
-      "services": 27,
-      "construction": 46
+      "industrie": 44,
+      "services": 33,
+      "construction": 52
     },
     {
       "trimestre": "T2 2025",
@@ -2262,58 +2262,58 @@
     ]
   },
   "defaillances": {
-    "cumul_12_mois": 68961,
-    "variation_an": 3.9,
-    "mois": "Jan 2026",
+    "cumul_12_mois": 68227,
+    "variation_an": 0.8,
+    "mois": "Sep 2025",
     "moyenne_2010_2019": 58000,
     "evolution": [
       {
+        "mois": "Jan 2023",
+        "cumul": 42000
+      },
+      {
         "mois": "Avr 2023",
-        "cumul": 46804
+        "cumul": 47000
       },
       {
         "mois": "Juil 2023",
-        "cumul": 50360
+        "cumul": 51000
       },
       {
         "mois": "Oct 2023",
-        "cumul": 53384
+        "cumul": 55000
       },
       {
         "mois": "Jan 2024",
-        "cumul": 57340
+        "cumul": 57500
       },
       {
         "mois": "Avr 2024",
-        "cumul": 60504
+        "cumul": 60000
       },
       {
         "mois": "Juil 2024",
-        "cumul": 63643
+        "cumul": 63500
       },
       {
         "mois": "Oct 2024",
-        "cumul": 65204
+        "cumul": 66000
       },
       {
         "mois": "Jan 2025",
-        "cumul": 66275
+        "cumul": 66500
       },
       {
         "mois": "Avr 2025",
-        "cumul": 67253
+        "cumul": 67000
       },
       {
         "mois": "Juil 2025",
-        "cumul": 67683
+        "cumul": 67600
       },
       {
-        "mois": "Oct 2025",
-        "cumul": 68293
-      },
-      {
-        "mois": "Jan 2026",
-        "cumul": 68961
+        "mois": "Sep 2025",
+        "cumul": 68227
       }
     ],
     "par_secteur": [
@@ -4064,7 +4064,7 @@
       "note_lecture": "Le TEC-10 mesure le rendement des emprunts d'Etat francais a 10 ans. Un taux eleve rencherit le cout de la dette publique et impacte les taux de credit immobilier."
     },
     "petrole_brent": {
-      "valeur": 94.48,
+      "valeur": 94.73,
       "date": "2026-03-25",
       "unite": "USD/baril",
       "source": "Yahoo Finance",
@@ -5584,16 +5584,16 @@
         },
         {
           "date": "2026-03-25",
-          "valeur": 94.48,
+          "valeur": 94.73,
           "ma50": 78.27,
           "ma200": 69.03
         }
       ],
       "variations": {
-        "jour": -9.58,
-        "semaine": -12.01,
-        "mois": 32.16,
-        "ytd": 55.52
+        "jour": -9.34,
+        "semaine": -11.78,
+        "mois": 32.51,
+        "ytd": 55.93
       },
       "min_max": {
         "min": 58.92,
@@ -5604,9 +5604,9 @@
       "note_lecture": "Le prix du Brent influence directement les couts de transport et d'energie, donc l'inflation et le pouvoir d'achat des salaries."
     },
     "cac40": {
-      "valeur": 7875.0,
+      "valeur": 7879.28,
       "date": "2026-03-25",
-      "variation_jour_pct": 1.69,
+      "variation_jour_pct": 1.75,
       "unite": "points",
       "source": "Yahoo Finance",
       "nb_points": 256,
@@ -7143,16 +7143,16 @@
         },
         {
           "date": "2026-03-25",
-          "valeur": 7875.0,
-          "ma50": 8170.42,
-          "ma200": 7995.33
+          "valeur": 7879.28,
+          "ma50": 8170.5,
+          "ma200": 7995.35
         }
       ],
       "variations": {
-        "jour": 1.69,
-        "semaine": -1.19,
-        "mois": -7.32,
-        "ytd": -3.91
+        "jour": 1.75,
+        "semaine": -1.14,
+        "mois": -7.27,
+        "ytd": -3.86
       },
       "min_max": {
         "min": 6863.02,
@@ -8733,7 +8733,7 @@
       "note_lecture": "Le taux de change euro-dollar determine le prix de tout ce qui est importe en dollars : petrole, matieres premieres, electronique. Un euro faible rencherit les importations et alimente l'inflation."
     },
     "or": {
-      "valeur": 4577.0,
+      "valeur": 4568.3,
       "date": "2026-03-25",
       "unite": "USD/oz",
       "source": "Yahoo Finance",
@@ -10253,16 +10253,16 @@
         },
         {
           "date": "2026-03-25",
-          "valeur": 4577.0,
-          "ma50": 4948.53,
-          "ma200": 4080.07
+          "valeur": 4568.3,
+          "ma50": 4948.36,
+          "ma200": 4080.03
         }
       ],
       "variations": {
-        "jour": 4.04,
-        "semaine": -6.4,
-        "mois": -12.06,
-        "ytd": 6.09
+        "jour": 3.84,
+        "semaine": -6.58,
+        "mois": -12.23,
+        "ytd": 5.88
       },
       "min_max": {
         "min": 2951.3,
@@ -10273,7 +10273,7 @@
       "note_lecture": "L'or est la valeur refuge par excellence. Sa hausse traduit une montee de l'incertitude economique ou geopolitique. Il sert aussi de protection contre l'inflation."
     },
     "gaz_naturel": {
-      "valeur": 50.4,
+      "valeur": 50.15,
       "date": "2026-03-25",
       "unite": "EUR/MWh",
       "source": "Yahoo Finance (TTF)",
@@ -11793,16 +11793,16 @@
         },
         {
           "date": "2026-03-25",
-          "valeur": 50.4,
+          "valeur": 50.15,
           "ma50": 40.92,
           "ma200": 34.17
         }
       ],
       "variations": {
-        "jour": -6.74,
-        "semaine": -7.79,
-        "mois": 58.34,
-        "ytd": 73.79
+        "jour": -7.2,
+        "semaine": -8.25,
+        "mois": 57.56,
+        "ytd": 72.93
       },
       "min_max": {
         "min": 26.6,
@@ -11813,7 +11813,7 @@
       "note_lecture": "Le prix du gaz naturel (TTF europeen) impacte directement les factures de chauffage et d'electricite des menages, ainsi que les couts de production industrielle."
     },
     "ble": {
-      "valeur": 582.0,
+      "valeur": 582.25,
       "date": "2026-03-25",
       "unite": "cents/boisseau",
       "source": "Yahoo Finance",
@@ -13327,16 +13327,16 @@
         },
         {
           "date": "2026-03-25",
-          "valeur": 582.0,
-          "ma50": 556.93,
+          "valeur": 582.25,
+          "ma50": 556.94,
           "ma200": 531.66
         }
       ],
       "variations": {
-        "jour": -1.36,
-        "semaine": -3.68,
-        "mois": 2.19,
-        "ytd": 14.91
+        "jour": -1.31,
+        "semaine": -3.64,
+        "mois": 2.24,
+        "ytd": 14.96
       },
       "min_max": {
         "min": 495.0,
@@ -13347,7 +13347,7 @@
       "note_lecture": "Le cours du ble est un indicateur avance des prix alimentaires. La France etant le premier producteur europeen, son evolution impacte a la fois les consommateurs et le secteur agricole."
     },
     "lme_cuivre": {
-      "valeur": 5.55,
+      "valeur": 5.54,
       "date": "2026-03-25",
       "unite": "cts/lb",
       "source": "Yahoo Finance",
@@ -14867,16 +14867,16 @@
         },
         {
           "date": "2026-03-25",
-          "valeur": 5.55,
+          "valeur": 5.54,
           "ma50": 5.81,
           "ma200": 5.22
         }
       ],
       "variations": {
-        "jour": 2.4,
-        "semaine": 0.0,
-        "mois": -3.81,
-        "ytd": -1.6
+        "jour": 2.21,
+        "semaine": -0.18,
+        "mois": -3.99,
+        "ytd": -1.77
       },
       "min_max": {
         "min": 4.13,
@@ -20317,7 +20317,7 @@
           "2023": 1.92,
           "2024": 1.78,
           "2025": 1.72,
-          "2026": 2.026
+          "2026": 2.027
         },
         "quantiteMensuelle": {
           "solo": 40,
@@ -21638,12 +21638,12 @@
         "nom": "Guadeloupe",
         "code": "GP",
         "emoji": "🌺",
-        "chomage": 16.3,
+        "chomage": 16.6,
         "salaire_median": 1820,
         "emploi": 55.2,
         "population": 0.385,
         "tensions": 38,
-        "evol_chomage": -0.4,
+        "evol_chomage": -0.1,
         "note": "Taux de chômage des jeunes : ~43%"
       },
       {
@@ -21662,12 +21662,12 @@
         "nom": "Guyane",
         "code": "GF",
         "emoji": "🌿",
-        "chomage": 16.7,
+        "chomage": 16.9,
         "salaire_median": 1750,
         "emploi": 48.3,
         "population": 0.3,
         "tensions": 32,
-        "evol_chomage": -0.1,
+        "evol_chomage": 0.1,
         "note": "Population en forte croissance (+3%/an)"
       },
       {
@@ -24934,7 +24934,7 @@
     "sources": "INSEE - Enquête Emploi, DARES"
   },
   "previsions_cftc": {
-    "generated_at": "2026-03-25T12:15:22.929535",
+    "generated_at": "2026-03-25T12:26:48.565069",
     "model_version": "CFTC v4.0 (Monte Carlo)",
     "n_simulations": 1000,
     "horizon": "12 mois",
