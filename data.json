@@ -1,6 +1,6 @@
 {
-  "last_updated": "25/03/2026 06:06",
-  "last_updated_iso": "2026-03-25T06:06:53.620022",
+  "last_updated": "25/03/2026 07:27",
+  "last_updated_iso": "2026-03-25T07:27:45.212508",
   "contact": "hspringragain@cftc.fr",
   "alertes": [
     {
@@ -12,11 +12,11 @@
       "onglet": "inflation"
     },
     {
-      "id": "chomage_jeunes_T4_2025",
+      "id": "chomage_jeunes_T3_2025",
       "date": "2026-03-25",
       "type": "warning",
-      "titre": "🧑‍🎓 Chômage jeunes élevé : 21.5%",
-      "message": "Le taux de chômage des 15-24 ans reste préoccupant (T4 2025).",
+      "titre": "🧑‍🎓 Chômage jeunes élevé : 19.2%",
+      "message": "Le taux de chômage des 15-24 ans reste préoccupant (T3 2025).",
       "onglet": "emploi"
     },
     {
@@ -32,7 +32,7 @@
       "date": "2026-03-25",
       "type": "info",
       "titre": "🔄 Données actualisées",
-      "message": "Le tableau de bord a été mis à jour le 25/03/2026 à 06:06.",
+      "message": "Le tableau de bord a été mis à jour le 25/03/2026 à 07:27.",
       "onglet": "conjoncture"
     }
   ],
@@ -193,7 +193,7 @@
     }
   ],
   "revue_presse": {
-    "derniere_maj": "25/03/2026 06:06",
+    "derniere_maj": "25/03/2026 07:27",
     "nb_sources": 7,
     "sources_noms": [
       "Le Monde Éco",
@@ -219,6 +219,30 @@
       }
     ],
     "tous": [
+      {
+        "source": "Le Figaro Éco",
+        "couleur": "#92400e",
+        "emoji": "📊",
+        "tag": "Presse économique",
+        "titre": "Les effets pervers de la taxe anti-petits colis, contournée par Shein et Temu",
+        "resume": "DÉCRYPTAGE - En vigueur depuis le 1er mars, la taxe de 2 euros sur les petits paquets provoque une série de dommages collatéraux que le gouvernement n’avait pas anticipée.",
+        "lien": "https://www.lefigaro.fr/societes/les-effets-pervers-de-la-taxe-anti-petits-colis-contournee-par-shein-et-temu-20260324",
+        "date_iso": "2026-03-25T07:41:10+01:00",
+        "date_fr": "25/03/2026",
+        "pertinence": 0
+      },
+      {
+        "source": "Le Figaro Éco",
+        "couleur": "#92400e",
+        "emoji": "📊",
+        "tag": "Presse économique",
+        "titre": "Guerre au Moyen-Orient : le pétrole chute de 6% après les annonces de l’Iran sur le détroit d’Ormuz",
+        "resume": "La possible réouverture du détroit promise par Téhéran pour les navires «non hostiles» a également rassuré les investisseurs en Bourse.",
+        "lien": "https://www.lefigaro.fr/conjoncture/guerre-au-moyen-orient-le-petrole-chute-de-6-apres-les-annonces-de-l-iran-sur-le-detroit-d-ormuz-20260325",
+        "date_iso": "2026-03-25T06:36:51+01:00",
+        "date_fr": "25/03/2026",
+        "pertinence": 0
+      },
       {
         "source": "Le Monde Éco",
         "couleur": "#374151",
@@ -252,6 +276,18 @@
         "resume": "RÉCIT - L’homme d’affaires, président de la Compagnie de l’Odet et actionnaire de référence du groupe Canal+, était entendu dans le cadre de la commission d’enquête sur le service public.",
         "lien": "https://www.lefigaro.fr/medias/vincent-bollore-le-probleme-de-l-audiovisuel-public-c-est-son-cout-20260324",
         "date_iso": "2026-03-25T06:26:57+01:00",
+        "date_fr": "25/03/2026",
+        "pertinence": 0
+      },
+      {
+        "source": "Libération Éco",
+        "couleur": "#dc2626",
+        "emoji": "📰",
+        "tag": "Presse économique",
+        "titre": "La gigafactory de batteries ACC, symbole des efforts pour combler les retards français et européens sur l’électrification des voitures",
+        "resume": "A Billy-Berclau, près de Lens, où le ministre de l’Industrie, Sébastien Martin, s’est rendu ce mardi 24 mars, l’un des quatre producteurs de batteries en France assure sortir de ses problèmes de process industriel, inhérent à ce type de projet. La filière a profité de l’occasion pour se réunir offic",
+        "lien": "https://www.liberation.fr/economie/transports/la-gigafactory-de-batteries-acc-symbole-des-efforts-pour-combler-les-retards-francais-et-europeens-sur-lelectrification-des-voitures-20260325_JNLKLU44V5GSPKQMCIOTJ4FZ3Q/",
+        "date_iso": "2026-03-25T06:12:00+00:00",
         "date_fr": "25/03/2026",
         "pertinence": 0
       },
@@ -299,7 +335,7 @@
         "titre": "EN DIRECT, municipales 2026 : les socialistes se déchirent sur les alliances avec LFI lors d’un bureau national agité",
         "resume": "Accusé d’un « manque de clarté », le premier secrétaire du PS, Olivier Faure, est fragilisé par l’échec d’accords avec les « insoumis » au second tour. Il a refusé de soumettre au vote des membres du conseil national un texte contestant sa stratégie.",
         "lien": "https://www.lemonde.fr/politique/live/2026/03/25/en-direct-municipales-2026-les-socialistes-se-dechirent-sur-les-alliances-avec-lfi-lors-d-un-bureau-national-agite_6673595_823448.html",
-        "date_iso": "2026-03-25T05:21:34+01:00",
+        "date_iso": "2026-03-25T05:21:32+01:00",
         "date_fr": "25/03/2026",
         "pertinence": 1
       },
@@ -332,8 +368,8 @@
         "couleur": "#374151",
         "emoji": "🌐",
         "tag": "Presse économique",
-        "titre": "Un verdict « historique » juge Meta, la maison mère de Facebook et Instagram, responsable de mise en danger de mineurs au Nouveau-Mexique",
-        "resume": "Le géant de la tech a été condamné à payer 375 millions de dollars de dommages et intérêts par un jury qui a estimé que l’entreprise avait privilégié les profits à la sécurité et dissimulé ce qu’elle savait des effets néfastes de ses applications.",
+        "titre": "Un verdict « historique » condamne Meta, la maison mère de Facebook et d’Instagram, pour mise en danger de mineurs au Nouveau-Mexique",
+        "resume": "Le géant de la tech a été condamné à payer 375 millions de dollars de dommages et intérêts par un jury de Santa Fe qui a estimé que l’entreprise avait privilégié les profits à la sécurité et dissimulé ce qu’elle savait des effets néfastes de ses applications.",
         "lien": "https://www.lemonde.fr/pixels/article/2026/03/25/un-verdict-historique-contre-meta-la-maison-mere-de-facebook-et-instagram-reconnue-coupable-de-mise-en-danger-de-mineurs-au-nouveau-mexique_6674150_4408996.html",
         "date_iso": "2026-03-25T05:00:20+01:00",
         "date_fr": "25/03/2026",
@@ -345,9 +381,9 @@
         "emoji": "🌐",
         "tag": "Presse économique",
         "titre": "OpenAI ferme son application vidéo Sora pour se recentrer sur les outils professionnels face à la concurrence d’Anthropic",
-        "resume": "Cette clôture de Sora acte la fin de l’un des produits grand public d’intelligence artificielle les plus médiatisés de l’an dernier, qui signé avait un partenariat avec Disney en décembre sur l’utilisation de l’image de ses personnages animés.",
+        "resume": "Cette clôture de Sora acte la fin de l’un des produits grand public d’intelligence artificielle les plus médiatisés l’an dernier, qui avait signé un partenariat avec Disney en décembre sur l’utilisation de l’image de ses personnages animés.",
         "lien": "https://www.lemonde.fr/pixels/article/2026/03/25/openai-ferme-son-application-video-sora-pour-se-recentrer-sur-les-outils-professionnels-face-a-la-concurrence-d-anthropic_6674140_4408996.html",
-        "date_iso": "2026-03-25T04:06:23+01:00",
+        "date_iso": "2026-03-25T04:06:21+01:00",
         "date_fr": "25/03/2026",
         "pertinence": 0
       },
@@ -472,18 +508,6 @@
         "pertinence": 1
       },
       {
-        "source": "Le Figaro Éco",
-        "couleur": "#92400e",
-        "emoji": "📊",
-        "tag": "Presse économique",
-        "titre": "Les effets pervers de la taxe anti-petits colis, contournée par Shein et Temu",
-        "resume": "DÉCRYPTAGE - En vigueur depuis le 1er mars, la taxe de 2 euros sur les petits paquets provoque une série de dommages collatéraux que le gouvernement n’avait pas anticipé.",
-        "lien": "https://www.lefigaro.fr/societes/les-effets-pervers-de-la-taxe-anti-petits-colis-contournee-par-shein-et-temu-20260324",
-        "date_iso": "2026-03-24T20:43:03+01:00",
-        "date_fr": "24/03/2026",
-        "pertinence": 0
-      },
-      {
         "source": "Libération Éco",
         "couleur": "#dc2626",
         "emoji": "📰",
@@ -536,18 +560,6 @@
         "couleur": "#92400e",
         "emoji": "📊",
         "tag": "Presse économique",
-        "titre": "En force aux États-Unis, l’agriculture australienne bat des records d’exportations",
-        "resume": "DÉCRYPTAGE - Les agriculteurs australiens ont tiré bénéfice de la guerre commerciale de Donald Trump, l’Australie étant moins taxée que les autres pays. La production s’annonce record sur la saison 2025-2026.",
-        "lien": "https://www.lefigaro.fr/conjoncture/en-force-aux-etats-unis-l-agriculture-australienne-bat-des-records-d-exportations-20260324",
-        "date_iso": "2026-03-24T19:12:37+01:00",
-        "date_fr": "24/03/2026",
-        "pertinence": 0
-      },
-      {
-        "source": "Le Figaro Éco",
-        "couleur": "#92400e",
-        "emoji": "📊",
-        "tag": "Presse économique",
         "titre": "Feta, gruyère, prosecco, parmesan... Pourquoi l’Australie pourra utiliser certaines appellations géographiques européennes",
         "resume": "Alors qu’un accord de libre-échange vient d’être conclu entre la présidente de la Commission européenne Ursula von der Leyen et le premier ministre australien Anthony Albanese pour stimuler le commerce bilatéral, une clause - de par sa symbolique - paraît pour le moins étonnante.",
         "lien": "https://www.lefigaro.fr/conjoncture/feta-gruyere-prosecco-parmesan-pourquoi-l-australie-pourra-utiliser-certaines-appellations-geographiques-europeennes-20260324",
@@ -566,18 +578,6 @@
         "date_iso": "2026-03-24T19:12:35+01:00",
         "date_fr": "24/03/2026",
         "pertinence": 2
-      },
-      {
-        "source": "Libération Éco",
-        "couleur": "#dc2626",
-        "emoji": "📰",
-        "tag": "Presse économique",
-        "titre": "«Je suis l’ennemi commun» : à la commission d’enquête sur l’audiovisuel public, la comédie de Vincent Bolloré",
-        "resume": "Devant les députés, le milliardaire a fait mine d’épargner en partie le service public et s’est posé en défenseur de «l’empathie» et du «pardon»... jusqu’au ridicule.",
-        "lien": "https://www.liberation.fr/economie/medias/je-suis-lennemi-commun-a-la-commission-denquete-sur-laudiovisuel-public-la-comedie-de-vincent-bollore-20260324_JESMWIDHWNEV7KJLGG4IMT472Q/",
-        "date_iso": "2026-03-24T19:02:59+00:00",
-        "date_fr": "24/03/2026",
-        "pertinence": 0
       }
     ]
   },
@@ -695,63 +695,58 @@
   "chomage": [
     {
       "trimestre": "T1 2023",
-      "taux": 6.9,
-      "jeunes": 16.6
+      "taux": 7.1,
+      "jeunes": 17.5
     },
     {
       "trimestre": "T2 2023",
-      "taux": 7.0,
-      "jeunes": 17.1
+      "taux": 7.2,
+      "jeunes": 17.0
     },
     {
       "trimestre": "T3 2023",
-      "taux": 7.2,
-      "jeunes": 17.4
+      "taux": 7.4,
+      "jeunes": 17.6
     },
     {
       "trimestre": "T4 2023",
-      "taux": 7.3,
+      "taux": 7.5,
       "jeunes": 17.6
     },
     {
       "trimestre": "T1 2024",
-      "taux": 7.3,
+      "taux": 7.5,
       "jeunes": 18.1
     },
     {
       "trimestre": "T2 2024",
-      "taux": 7.1,
-      "jeunes": 18.0
+      "taux": 7.3,
+      "jeunes": 17.7
     },
     {
       "trimestre": "T3 2024",
-      "taux": 7.2,
-      "jeunes": 19.7
+      "taux": 7.4,
+      "jeunes": 18.3
     },
     {
       "trimestre": "T4 2024",
-      "taux": 7.1,
-      "jeunes": 18.7
+      "taux": 7.3,
+      "jeunes": 19.0
     },
     {
       "trimestre": "T1 2025",
-      "taux": 7.3,
-      "jeunes": 19.2
+      "taux": 7.4,
+      "jeunes": 18.5
     },
     {
       "trimestre": "T2 2025",
-      "taux": 7.4,
-      "jeunes": 19.1
+      "taux": 7.5,
+      "jeunes": 18.8
     },
     {
       "trimestre": "T3 2025",
-      "taux": 7.5,
-      "jeunes": 19.1
-    },
-    {
-      "trimestre": "T4 2025",
       "taux": 7.7,
-      "jeunes": 21.5
+      "jeunes": 19.2
     }
   ],
   "smic": {
@@ -826,21 +821,21 @@
   ],
   "indicateurs_cles": {
     "taux_chomage_actuel": 7.7,
-    "taux_chomage_jeunes": 21.5,
+    "taux_chomage_jeunes": 19.2,
     "taux_emploi_seniors": 61.7,
     "inflation_annuelle": 0.9,
     "smic_brut": 1823.03,
     "smic_net": 1443.11,
     "salaire_median": 2190,
     "salaire_moyen": 2733,
-    "ecart_hf_eqtp": 25.8,
+    "ecart_hf_eqtp": 14.0,
     "difficultes_recrutement": 61,
     "irl_glissement": 0.79,
     "prix_gazole": 2.222,
     "taux_effort_locataires": 29.6,
     "croissance_pib": 0.7,
     "climat_affaires": 97,
-    "defaillances_12m": 68227
+    "defaillances_12m": 68961
   },
   "salaire_median": {
     "montant_2024": 2190,
@@ -873,36 +868,36 @@
   },
   "ecart_hommes_femmes": {
     "ecart_global": 21.8,
-    "ecart_eqtp": 25.8,
+    "ecart_eqtp": 14.0,
     "ecart_poste_comparable": 4.0,
     "evolution": [
       {
-        "annee": "2018",
-        "ecart": 23.2
+        "annee": "2015",
+        "ecart": 18.4
+      },
+      {
+        "annee": "2017",
+        "ecart": 16.6
       },
       {
         "annee": "2019",
-        "ecart": 23.8
-      },
-      {
-        "annee": "2020",
-        "ecart": 24.5
+        "ecart": 16.1
       },
       {
         "annee": "2021",
-        "ecart": 24.3
+        "ecart": 15.5
       },
       {
         "annee": "2022",
-        "ecart": 25.1
+        "ecart": 14.9
       },
       {
         "annee": "2023",
-        "ecart": 25.6
+        "ecart": 14.2
       },
       {
         "annee": "2024",
-        "ecart": 25.8
+        "ecart": 14.0
       }
     ]
   },
@@ -1003,7 +998,7 @@
     },
     {
       "trimestre": "T2 2023",
-      "taux": 4.9
+      "taux": 5.1
     },
     {
       "trimestre": "T3 2023",
@@ -1015,19 +1010,19 @@
     },
     {
       "trimestre": "T1 2024",
-      "taux": 4.8
+      "taux": 5.0
     },
     {
       "trimestre": "T2 2024",
-      "taux": 4.9
+      "taux": 5.1
     },
     {
       "trimestre": "T3 2024",
-      "taux": 4.5
+      "taux": 5.2
     },
     {
       "trimestre": "T4 2024",
-      "taux": 4.6
+      "taux": 5.2
     },
     {
       "trimestre": "T1 2025",
@@ -1146,57 +1141,57 @@
   "difficultes_recrutement": [
     {
       "trimestre": "T1 2023",
-      "industrie": 65,
-      "services": 48,
-      "construction": 78
+      "industrie": 52,
+      "services": 38,
+      "construction": 65
     },
     {
       "trimestre": "T2 2023",
-      "industrie": 64,
-      "services": 48,
-      "construction": 76
-    },
-    {
-      "trimestre": "T3 2023",
-      "industrie": 60,
-      "services": 45,
-      "construction": 72
-    },
-    {
-      "trimestre": "T4 2023",
-      "industrie": 57,
-      "services": 42,
-      "construction": 68
-    },
-    {
-      "trimestre": "T1 2024",
-      "industrie": 53,
-      "services": 39,
-      "construction": 63
-    },
-    {
-      "trimestre": "T2 2024",
-      "industrie": 52,
-      "services": 39,
+      "industrie": 50,
+      "services": 36,
       "construction": 62
     },
     {
-      "trimestre": "T3 2024",
+      "trimestre": "T3 2023",
       "industrie": 48,
-      "services": 36,
-      "construction": 57
+      "services": 35,
+      "construction": 60
     },
     {
-      "trimestre": "T4 2024",
-      "industrie": 46,
-      "services": 34,
+      "trimestre": "T4 2023",
+      "industrie": 45,
+      "services": 33,
+      "construction": 58
+    },
+    {
+      "trimestre": "T1 2024",
+      "industrie": 43,
+      "services": 32,
       "construction": 55
     },
     {
-      "trimestre": "T1 2025",
-      "industrie": 44,
-      "services": 33,
+      "trimestre": "T2 2024",
+      "industrie": 41,
+      "services": 30,
       "construction": 52
+    },
+    {
+      "trimestre": "T3 2024",
+      "industrie": 40,
+      "services": 30,
+      "construction": 50
+    },
+    {
+      "trimestre": "T4 2024",
+      "industrie": 38,
+      "services": 28,
+      "construction": 48
+    },
+    {
+      "trimestre": "T1 2025",
+      "industrie": 36,
+      "services": 27,
+      "construction": 46
     },
     {
       "trimestre": "T2 2025",
@@ -1732,14 +1727,14 @@
       "variation_sem": 17.7
     },
     "sp98": {
-      "prix": 2.082,
+      "prix": 2.081,
       "variation_an": 11.3,
       "variation_sem": 17.7
     },
     "e10": {
-      "prix": 1.982,
+      "prix": 1.981,
       "variation_an": 10.7,
-      "variation_sem": 18.0
+      "variation_sem": 17.9
     },
     "evolution": [
       {
@@ -2019,11 +2014,11 @@
         "date": "2026-03-25",
         "gazole": 2.222,
         "sp95": 2.025,
-        "sp98": 2.082,
-        "e10": 1.982
+        "sp98": 2.081,
+        "e10": 1.981
       }
     ],
-    "derniere_donnee": "2026-03-25 06:48",
+    "derniere_donnee": "2026-03-25 07:59",
     "source": "data.economie.gouv.fr (flux instantané)",
     "granularite": "quotidien"
   },
@@ -2103,7 +2098,7 @@
     "croissance_trim_actuel": 0.7,
     "croissance_annuelle": 0.9,
     "trimestre": "T4 2025",
-    "commentaire": "PIB volume trimestriel - glissement annuel - INSEE",
+    "commentaire": "PIB volume trimestriel - glissement annuel",
     "evolution": [
       {
         "trimestre": "T2 2022",
@@ -2280,58 +2275,58 @@
     ]
   },
   "defaillances": {
-    "cumul_12_mois": 68227,
-    "variation_an": 0.8,
-    "mois": "Sep 2025",
+    "cumul_12_mois": 68961,
+    "variation_an": 3.9,
+    "mois": "Jan 2026",
     "moyenne_2010_2019": 58000,
     "evolution": [
       {
-        "mois": "Jan 2023",
-        "cumul": 42000
-      },
-      {
         "mois": "Avr 2023",
-        "cumul": 47000
+        "cumul": 46804
       },
       {
         "mois": "Juil 2023",
-        "cumul": 51000
+        "cumul": 50360
       },
       {
         "mois": "Oct 2023",
-        "cumul": 55000
+        "cumul": 53384
       },
       {
         "mois": "Jan 2024",
-        "cumul": 57500
+        "cumul": 57340
       },
       {
         "mois": "Avr 2024",
-        "cumul": 60000
+        "cumul": 60504
       },
       {
         "mois": "Juil 2024",
-        "cumul": 63500
+        "cumul": 63643
       },
       {
         "mois": "Oct 2024",
-        "cumul": 66000
+        "cumul": 65204
       },
       {
         "mois": "Jan 2025",
-        "cumul": 66500
+        "cumul": 66275
       },
       {
         "mois": "Avr 2025",
-        "cumul": 67000
+        "cumul": 67253
       },
       {
         "mois": "Juil 2025",
-        "cumul": 67600
+        "cumul": 67683
       },
       {
-        "mois": "Sep 2025",
-        "cumul": 68227
+        "mois": "Oct 2025",
+        "cumul": 68293
+      },
+      {
+        "mois": "Jan 2026",
+        "cumul": 68961
       }
     ],
     "par_secteur": [
@@ -4082,7 +4077,7 @@
       "note_lecture": "Le TEC-10 mesure le rendement des emprunts d'Etat francais a 10 ans. Un taux eleve rencherit le cout de la dette publique et impacte les taux de credit immobilier."
     },
     "petrole_brent": {
-      "valeur": 100.51,
+      "valeur": 99.56,
       "date": "2026-03-25",
       "unite": "USD/baril",
       "source": "Yahoo Finance",
@@ -5602,16 +5597,16 @@
         },
         {
           "date": "2026-03-25",
-          "valeur": 100.51,
-          "ma50": 78.39,
+          "valeur": 99.56,
+          "ma50": 78.37,
           "ma200": 69.06
         }
       ],
       "variations": {
-        "jour": -3.81,
-        "semaine": -6.4,
-        "mois": 40.59,
-        "ytd": 65.45
+        "jour": -4.72,
+        "semaine": -7.28,
+        "mois": 39.26,
+        "ytd": 63.88
       },
       "min_max": {
         "min": 58.92,
@@ -8757,7 +8752,7 @@
       "note_lecture": "Le taux de change euro-dollar determine le prix de tout ce qui est importe en dollars : petrole, matieres premieres, electronique. Un euro faible rencherit les importations et alimente l'inflation."
     },
     "or": {
-      "valeur": 4553.8,
+      "valeur": 4559.0,
       "date": "2026-03-25",
       "unite": "USD/oz",
       "source": "Yahoo Finance",
@@ -10277,16 +10272,16 @@
         },
         {
           "date": "2026-03-25",
-          "valeur": 4553.8,
-          "ma50": 4948.07,
-          "ma200": 4079.96
+          "valeur": 4559.0,
+          "ma50": 4948.17,
+          "ma200": 4079.98
         }
       ],
       "variations": {
-        "jour": 3.51,
-        "semaine": -6.87,
-        "mois": -12.51,
-        "ytd": 5.55
+        "jour": 3.63,
+        "semaine": -6.77,
+        "mois": -12.41,
+        "ytd": 5.67
       },
       "min_max": {
         "min": 2951.3,
@@ -11831,7 +11826,7 @@
       "note_lecture": "Le prix du gaz naturel (TTF europeen) impacte directement les factures de chauffage et d'electricite des menages, ainsi que les couts de production industrielle."
     },
     "ble": {
-      "valeur": 586.75,
+      "valeur": 582.75,
       "date": "2026-03-25",
       "unite": "cents/boisseau",
       "source": "Yahoo Finance",
@@ -13345,16 +13340,16 @@
         },
         {
           "date": "2026-03-25",
-          "valeur": 586.75,
-          "ma50": 557.03,
-          "ma200": 531.68
+          "valeur": 582.75,
+          "ma50": 556.95,
+          "ma200": 531.66
         }
       ],
       "variations": {
-        "jour": -0.55,
-        "semaine": -2.9,
-        "mois": 3.03,
-        "ytd": 15.84
+        "jour": -1.23,
+        "semaine": -3.56,
+        "mois": 2.33,
+        "ytd": 15.05
       },
       "min_max": {
         "min": 495.0,
@@ -13365,7 +13360,7 @@
       "note_lecture": "Le cours du ble est un indicateur avance des prix alimentaires. La France etant le premier producteur europeen, son evolution impacte a la fois les consommateurs et le secteur agricole."
     },
     "lme_cuivre": {
-      "valeur": 5.51,
+      "valeur": 5.53,
       "date": "2026-03-25",
       "unite": "cts/lb",
       "source": "Yahoo Finance",
@@ -14885,16 +14880,16 @@
         },
         {
           "date": "2026-03-25",
-          "valeur": 5.51,
+          "valeur": 5.53,
           "ma50": 5.81,
           "ma200": 5.22
         }
       ],
       "variations": {
-        "jour": 1.66,
-        "semaine": -0.72,
-        "mois": -4.51,
-        "ytd": -2.3
+        "jour": 2.03,
+        "semaine": -0.36,
+        "mois": -4.16,
+        "ytd": -1.95
       },
       "min_max": {
         "min": 4.13,
@@ -14905,7 +14900,7 @@
       "note_lecture": "Le cuivre est le baromètre de l'activité industrielle mondiale ('Dr Copper'). Sa hausse signale une reprise économique, sa baisse anticipe un ralentissement. Utilisé massivement dans l'électrification et les énergies renouvelables."
     },
     "lme_aluminium": {
-      "valeur": 3161.25,
+      "valeur": 3136.25,
       "date": "2026-03-25",
       "unite": "cts/lb",
       "source": "Yahoo Finance",
@@ -16419,16 +16414,16 @@
         },
         {
           "date": "2026-03-25",
-          "valeur": 3161.25,
-          "ma50": 3113.03,
-          "ma200": 2759.47
+          "valeur": 3136.25,
+          "ma50": 3112.53,
+          "ma200": 2759.34
         }
       ],
       "variations": {
-        "jour": 0.74,
-        "semaine": -3.69,
-        "mois": 4.86,
-        "ytd": 7.6
+        "jour": -0.06,
+        "semaine": -4.45,
+        "mois": 4.03,
+        "ytd": 6.75
       },
       "min_max": {
         "min": 2166.25,
@@ -20335,7 +20330,7 @@
           "2023": 1.92,
           "2024": 1.78,
           "2025": 1.72,
-          "2026": 1.75
+          "2026": 2.025
         },
         "quantiteMensuelle": {
           "solo": 40,
@@ -21717,156 +21712,183 @@
   "conventions_collectives": {
     "smic_reference": {
       "mensuel": 1443.11,
+      "mensuel_brut": 1823.03,
       "annuel": 17317,
       "date": "Janvier 2026"
     },
     "statistiques_branches": {
       "total_branches": 171,
-      "branches_conformes": 142,
-      "branches_non_conformes": 29,
-      "pourcentage_non_conformes": 17
+      "branches_affichees": 50,
+      "branches_conformes": 40,
+      "branches_non_conformes": 10,
+      "pourcentage_non_conformes": 20,
+      "source_statistiques": "DGT - Comité de suivi des branches (2025)"
     },
     "branches": [
       {
-        "id": "metallurgie",
+        "id": "branch_3248",
         "nom": "Métallurgie",
         "idcc": "3248",
-        "effectif": 1500000,
+        "effectif": 1600000,
         "statut": "conforme",
         "grille": [
           {
             "niveau": "A1",
             "coefficient": 135,
-            "minimum_mensuel": 1480,
-            "minimum_annuel": 17760
+            "minimum_mensuel": 1490,
+            "minimum_annuel": 17880
           },
           {
             "niveau": "A2",
             "coefficient": 145,
-            "minimum_mensuel": 1520,
-            "minimum_annuel": 18240
+            "minimum_mensuel": 1530,
+            "minimum_annuel": 18360
           },
           {
             "niveau": "B1",
             "coefficient": 155,
-            "minimum_mensuel": 1580,
-            "minimum_annuel": 18960
+            "minimum_mensuel": 1590,
+            "minimum_annuel": 19080
           },
           {
             "niveau": "B2",
             "coefficient": 170,
-            "minimum_mensuel": 1650,
-            "minimum_annuel": 19800
+            "minimum_mensuel": 1660,
+            "minimum_annuel": 19920
           },
           {
             "niveau": "C1",
             "coefficient": 190,
-            "minimum_mensuel": 1750,
-            "minimum_annuel": 21000
+            "minimum_mensuel": 1760,
+            "minimum_annuel": 21120
           }
-        ]
+        ],
+        "derniere_revalorisation": "Janvier 2026",
+        "source": "https://www.legifrance.gouv.fr/search/result?query=idcc+3248"
       },
       {
-        "id": "commerce_detail",
-        "nom": "Commerce de détail alimentaire",
-        "idcc": "2216",
-        "effectif": 180000,
-        "statut": "non_conforme",
-        "grille": [
-          {
-            "niveau": "1A",
-            "coefficient": 120,
-            "minimum_mensuel": 1400,
-            "minimum_annuel": 16800
-          },
-          {
-            "niveau": "1B",
-            "coefficient": 125,
-            "minimum_mensuel": 1410,
-            "minimum_annuel": 16920
-          },
-          {
-            "niveau": "2A",
-            "coefficient": 135,
-            "minimum_mensuel": 1450,
-            "minimum_annuel": 17400
-          },
-          {
-            "niveau": "2B",
-            "coefficient": 145,
-            "minimum_mensuel": 1500,
-            "minimum_annuel": 18000
-          }
-        ]
-      },
-      {
-        "id": "hotellerie",
+        "id": "branch_1979",
         "nom": "Hôtels, cafés, restaurants (HCR)",
         "idcc": "1979",
-        "effectif": 750000,
+        "effectif": 1200000,
         "statut": "conforme",
         "grille": [
           {
             "niveau": "I-1",
             "coefficient": 100,
-            "minimum_mensuel": 1450,
-            "minimum_annuel": 17400
+            "minimum_mensuel": 1461,
+            "minimum_annuel": 17532
           },
           {
             "niveau": "I-2",
             "coefficient": 110,
-            "minimum_mensuel": 1480,
-            "minimum_annuel": 17760
+            "minimum_mensuel": 1490,
+            "minimum_annuel": 17880
           },
           {
             "niveau": "II-1",
             "coefficient": 120,
-            "minimum_mensuel": 1520,
-            "minimum_annuel": 18240
+            "minimum_mensuel": 1530,
+            "minimum_annuel": 18360
           },
           {
             "niveau": "II-2",
             "coefficient": 130,
-            "minimum_mensuel": 1580,
-            "minimum_annuel": 18960
+            "minimum_mensuel": 1590,
+            "minimum_annuel": 19080
           }
-        ]
+        ],
+        "derniere_revalorisation": "Janvier 2026",
+        "source": "https://www.legifrance.gouv.fr/search/result?query=idcc+1979"
       },
       {
-        "id": "batiment",
-        "nom": "Bâtiment (ouvriers)",
-        "idcc": "1597",
-        "effectif": 520000,
+        "id": "branch_2120",
+        "nom": "Commerce de détail non alimentaire",
+        "idcc": "2120",
+        "effectif": 900000,
         "statut": "conforme",
         "grille": [
           {
-            "niveau": "N1-P1",
-            "coefficient": 150,
-            "minimum_mensuel": 1520,
-            "minimum_annuel": 18240
-          },
-          {
-            "niveau": "N1-P2",
-            "coefficient": 170,
-            "minimum_mensuel": 1580,
-            "minimum_annuel": 18960
-          },
-          {
-            "niveau": "N2",
-            "coefficient": 185,
-            "minimum_mensuel": 1650,
-            "minimum_annuel": 19800
-          },
-          {
-            "niveau": "N3-P1",
-            "coefficient": 210,
-            "minimum_mensuel": 1780,
-            "minimum_annuel": 21360
+            "niveau": "Base",
+            "coefficient": 100,
+            "minimum_mensuel": 1443.11,
+            "minimum_annuel": 17317.32
           }
-        ]
+        ],
+        "derniere_revalorisation": "Janvier 2026",
+        "source": "https://www.legifrance.gouv.fr/search/result?query=idcc+2120"
       },
       {
-        "id": "proprete",
+        "id": "branch_1486",
+        "nom": "Bureaux d'études techniques (SYNTEC)",
+        "idcc": "1486",
+        "effectif": 850000,
+        "statut": "conforme",
+        "grille": [
+          {
+            "niveau": "1.1",
+            "coefficient": 240,
+            "minimum_mensuel": 1850,
+            "minimum_annuel": 22200
+          },
+          {
+            "niveau": "1.2",
+            "coefficient": 270,
+            "minimum_mensuel": 2100,
+            "minimum_annuel": 25200
+          },
+          {
+            "niveau": "2.1",
+            "coefficient": 310,
+            "minimum_mensuel": 2500,
+            "minimum_annuel": 30000
+          },
+          {
+            "niveau": "2.2",
+            "coefficient": 355,
+            "minimum_mensuel": 2900,
+            "minimum_annuel": 34800
+          }
+        ],
+        "derniere_revalorisation": "Janvier 2026",
+        "source": "https://www.legifrance.gouv.fr/search/result?query=idcc+1486"
+      },
+      {
+        "id": "branch_1090",
+        "nom": "Commerce de détail et gros à prédominance alimentaire",
+        "idcc": "1090",
+        "effectif": 760000,
+        "statut": "conforme",
+        "grille": [
+          {
+            "niveau": "Base",
+            "coefficient": 100,
+            "minimum_mensuel": 1443.11,
+            "minimum_annuel": 17317.32
+          }
+        ],
+        "derniere_revalorisation": "Janvier 2026",
+        "source": "https://www.legifrance.gouv.fr/search/result?query=idcc+1090"
+      },
+      {
+        "id": "branch_2402",
+        "nom": "Interim (ETT)",
+        "idcc": "2402",
+        "effectif": 700000,
+        "statut": "conforme",
+        "grille": [
+          {
+            "niveau": "Base",
+            "coefficient": 100,
+            "minimum_mensuel": 1443.11,
+            "minimum_annuel": 17317.32
+          }
+        ],
+        "derniere_revalorisation": "Janvier 2026",
+        "source": "https://www.legifrance.gouv.fr/search/result?query=idcc+2402"
+      },
+      {
+        "id": "branch_3043",
         "nom": "Propreté (nettoyage)",
         "idcc": "3043",
         "effectif": 550000,
@@ -21875,57 +21897,799 @@
           {
             "niveau": "AS1",
             "coefficient": 100,
-            "minimum_mensuel": 1400,
-            "minimum_annuel": 16800
+            "minimum_mensuel": 1415,
+            "minimum_annuel": 16980
           },
           {
             "niveau": "AS2",
             "coefficient": 105,
+            "minimum_mensuel": 1428,
+            "minimum_annuel": 17136
+          },
+          {
+            "niveau": "AS3",
+            "coefficient": 110,
+            "minimum_mensuel": 1447,
+            "minimum_annuel": 17364
+          },
+          {
+            "niveau": "AQS1",
+            "coefficient": 118,
+            "minimum_mensuel": 1498,
+            "minimum_annuel": 17976
+          }
+        ],
+        "derniere_revalorisation": "Janvier 2026",
+        "source": "https://www.legifrance.gouv.fr/search/result?query=idcc+3043"
+      },
+      {
+        "id": "branch_1597",
+        "nom": "Bâtiment (ouvriers)",
+        "idcc": "1597",
+        "effectif": 520000,
+        "statut": "conforme",
+        "grille": [
+          {
+            "niveau": "N1-P1",
+            "coefficient": 150,
+            "minimum_mensuel": 1528,
+            "minimum_annuel": 18336
+          },
+          {
+            "niveau": "N1-P2",
+            "coefficient": 170,
+            "minimum_mensuel": 1588,
+            "minimum_annuel": 19056
+          },
+          {
+            "niveau": "N2",
+            "coefficient": 185,
+            "minimum_mensuel": 1658,
+            "minimum_annuel": 19896
+          },
+          {
+            "niveau": "N3-P1",
+            "coefficient": 210,
+            "minimum_mensuel": 1790,
+            "minimum_annuel": 21480
+          }
+        ],
+        "derniere_revalorisation": "Janvier 2026",
+        "source": "https://www.legifrance.gouv.fr/search/result?query=idcc+1597"
+      },
+      {
+        "id": "branch_2216",
+        "nom": "Commerce de détail alimentaire",
+        "idcc": "2216",
+        "effectif": 450000,
+        "statut": "non_conforme",
+        "grille": [
+          {
+            "niveau": "Base",
+            "coefficient": 100,
+            "minimum_mensuel": 1443.11,
+            "minimum_annuel": 17317.32
+          }
+        ],
+        "derniere_revalorisation": "Janvier 2026",
+        "source": "https://www.legifrance.gouv.fr/search/result?query=idcc+2216"
+      },
+      {
+        "id": "branch_1996",
+        "nom": "Transports routiers",
+        "idcc": "1996",
+        "effectif": 430000,
+        "statut": "conforme",
+        "grille": [
+          {
+            "niveau": "Base",
+            "coefficient": 100,
+            "minimum_mensuel": 1443.11,
+            "minimum_annuel": 17317.32
+          }
+        ],
+        "derniere_revalorisation": "Janvier 2026",
+        "source": "https://www.legifrance.gouv.fr/search/result?query=idcc+1996"
+      },
+      {
+        "id": "branch_1459",
+        "nom": "Nettoyage industriel",
+        "idcc": "1459",
+        "effectif": 420000,
+        "statut": "non_conforme",
+        "grille": [
+          {
+            "niveau": "Base",
+            "coefficient": 100,
+            "minimum_mensuel": 1443.11,
+            "minimum_annuel": 17317.32
+          }
+        ],
+        "derniere_revalorisation": "Janvier 2026",
+        "source": "https://www.legifrance.gouv.fr/search/result?query=idcc+1459"
+      },
+      {
+        "id": "branch_3239",
+        "nom": "Banque",
+        "idcc": "3239",
+        "effectif": 390000,
+        "statut": "conforme",
+        "grille": [
+          {
+            "niveau": "Base",
+            "coefficient": 100,
+            "minimum_mensuel": 1443.11,
+            "minimum_annuel": 17317.32
+          }
+        ],
+        "derniere_revalorisation": "Janvier 2026",
+        "source": "https://www.legifrance.gouv.fr/search/result?query=idcc+3239"
+      },
+      {
+        "id": "branch_2941",
+        "nom": "Aide, accompagnement, soins, services à domicile",
+        "idcc": "2941",
+        "effectif": 380000,
+        "statut": "conforme",
+        "grille": [
+          {
+            "niveau": "Base",
+            "coefficient": 100,
+            "minimum_mensuel": 1443.11,
+            "minimum_annuel": 17317.32
+          }
+        ],
+        "derniere_revalorisation": "Janvier 2026",
+        "source": "https://www.legifrance.gouv.fr/search/result?query=idcc+2941"
+      },
+      {
+        "id": "branch_2120",
+        "nom": "Commerce non alimentaire (détail-gros)",
+        "idcc": "2120",
+        "effectif": 310000,
+        "statut": "conforme",
+        "grille": [
+          {
+            "niveau": "Base",
+            "coefficient": 100,
+            "minimum_mensuel": 1443.11,
+            "minimum_annuel": 17317.32
+          }
+        ],
+        "derniere_revalorisation": "Janvier 2026",
+        "source": "https://www.legifrance.gouv.fr/search/result?query=idcc+2120"
+      },
+      {
+        "id": "branch_1605",
+        "nom": "Bâtiment (ETAM)",
+        "idcc": "1605",
+        "effectif": 280000,
+        "statut": "conforme",
+        "grille": [
+          {
+            "niveau": "Base",
+            "coefficient": 100,
+            "minimum_mensuel": 1443.11,
+            "minimum_annuel": 17317.32
+          }
+        ],
+        "derniere_revalorisation": "Janvier 2026",
+        "source": "https://www.legifrance.gouv.fr/search/result?query=idcc+1605"
+      },
+      {
+        "id": "branch_2098",
+        "nom": "Hospitalisation privée",
+        "idcc": "2098",
+        "effectif": 250000,
+        "statut": "conforme",
+        "grille": [
+          {
+            "niveau": "Base",
+            "coefficient": 100,
+            "minimum_mensuel": 1443.11,
+            "minimum_annuel": 17317.32
+          }
+        ],
+        "derniere_revalorisation": "Janvier 2026",
+        "source": "https://www.legifrance.gouv.fr/search/result?query=idcc+2098"
+      },
+      {
+        "id": "branch_0803",
+        "nom": "Restauration rapide",
+        "idcc": "0803",
+        "effectif": 220000,
+        "statut": "non_conforme",
+        "grille": [
+          {
+            "niveau": "Niveau 1",
+            "coefficient": 100,
             "minimum_mensuel": 1420,
             "minimum_annuel": 17040
           },
           {
-            "niveau": "AS3",
+            "niveau": "Niveau 2",
             "coefficient": 110,
             "minimum_mensuel": 1460,
             "minimum_annuel": 17520
           },
           {
-            "niveau": "AQS1",
-            "coefficient": 118,
-            "minimum_mensuel": 1510,
-            "minimum_annuel": 18120
+            "niveau": "Niveau 3",
+            "coefficient": 125,
+            "minimum_mensuel": 1520,
+            "minimum_annuel": 18240
           }
-        ]
+        ],
+        "derniere_revalorisation": "Janvier 2026",
+        "source": "https://www.legifrance.gouv.fr/search/result?query=idcc+0803"
       },
       {
-        "id": "securite",
+        "id": "branch_1351",
         "nom": "Prévention et sécurité",
         "idcc": "1351",
         "effectif": 180000,
         "statut": "non_conforme",
         "grille": [
           {
-            "niveau": "I",
-            "coefficient": 120,
-            "minimum_mensuel": 1405,
-            "minimum_annuel": 16860
-          },
-          {
-            "niveau": "II",
-            "coefficient": 130,
-            "minimum_mensuel": 1430,
-            "minimum_annuel": 17160
-          },
-          {
-            "niveau": "III-1",
-            "coefficient": 140,
-            "minimum_mensuel": 1470,
-            "minimum_annuel": 17640
+            "niveau": "Base",
+            "coefficient": 100,
+            "minimum_mensuel": 1443.11,
+            "minimum_annuel": 17317.32
           }
-        ]
+        ],
+        "derniere_revalorisation": "Janvier 2026",
+        "source": "https://www.legifrance.gouv.fr/search/result?query=idcc+1351"
+      },
+      {
+        "id": "branch_1404",
+        "nom": "Associations (animation)",
+        "idcc": "1404",
+        "effectif": 180000,
+        "statut": "conforme",
+        "grille": [
+          {
+            "niveau": "Base",
+            "coefficient": 100,
+            "minimum_mensuel": 1443.11,
+            "minimum_annuel": 17317.32
+          }
+        ],
+        "derniere_revalorisation": "Janvier 2026",
+        "source": "https://www.legifrance.gouv.fr/search/result?query=idcc+1404"
+      },
+      {
+        "id": "branch_1501",
+        "nom": "Travaux publics (ouvriers)",
+        "idcc": "1501",
+        "effectif": 180000,
+        "statut": "conforme",
+        "grille": [
+          {
+            "niveau": "Base",
+            "coefficient": 100,
+            "minimum_mensuel": 1443.11,
+            "minimum_annuel": 17317.32
+          }
+        ],
+        "derniere_revalorisation": "Janvier 2026",
+        "source": "https://www.legifrance.gouv.fr/search/result?query=idcc+1501"
+      },
+      {
+        "id": "branch_2150",
+        "nom": "Chimie",
+        "idcc": "2150",
+        "effectif": 175000,
+        "statut": "conforme",
+        "grille": [
+          {
+            "niveau": "Base",
+            "coefficient": 100,
+            "minimum_mensuel": 1443.11,
+            "minimum_annuel": 17317.32
+          }
+        ],
+        "derniere_revalorisation": "Janvier 2026",
+        "source": "https://www.legifrance.gouv.fr/search/result?query=idcc+2150"
+      },
+      {
+        "id": "branch_2569",
+        "nom": "Services de l'automobile (garages)",
+        "idcc": "2569",
+        "effectif": 165000,
+        "statut": "conforme",
+        "grille": [
+          {
+            "niveau": "Base",
+            "coefficient": 100,
+            "minimum_mensuel": 1443.11,
+            "minimum_annuel": 17317.32
+          }
+        ],
+        "derniere_revalorisation": "Janvier 2026",
+        "source": "https://www.legifrance.gouv.fr/search/result?query=idcc+2569"
+      },
+      {
+        "id": "branch_1518",
+        "nom": "Aide à domicile",
+        "idcc": "1518",
+        "effectif": 160000,
+        "statut": "conforme",
+        "grille": [
+          {
+            "niveau": "Base",
+            "coefficient": 100,
+            "minimum_mensuel": 1443.11,
+            "minimum_annuel": 17317.32
+          }
+        ],
+        "derniere_revalorisation": "Janvier 2026",
+        "source": "https://www.legifrance.gouv.fr/search/result?query=idcc+1518"
+      },
+      {
+        "id": "branch_0736",
+        "nom": "Hôpitaux privés (FHP)",
+        "idcc": "0736",
+        "effectif": 160000,
+        "statut": "conforme",
+        "grille": [
+          {
+            "niveau": "Base",
+            "coefficient": 100,
+            "minimum_mensuel": 1443.11,
+            "minimum_annuel": 17317.32
+          }
+        ],
+        "derniere_revalorisation": "Janvier 2026",
+        "source": "https://www.legifrance.gouv.fr/search/result?query=idcc+0736"
+      },
+      {
+        "id": "branch_2596",
+        "nom": "Immobilier",
+        "idcc": "2596",
+        "effectif": 150000,
+        "statut": "conforme",
+        "grille": [
+          {
+            "niveau": "Base",
+            "coefficient": 100,
+            "minimum_mensuel": 1443.11,
+            "minimum_annuel": 17317.32
+          }
+        ],
+        "derniere_revalorisation": "Janvier 2026",
+        "source": "https://www.legifrance.gouv.fr/search/result?query=idcc+2596"
+      },
+      {
+        "id": "branch_0787",
+        "nom": "Boulangerie-pâtisserie artisanale",
+        "idcc": "0787",
+        "effectif": 145000,
+        "statut": "non_conforme",
+        "grille": [
+          {
+            "niveau": "Base",
+            "coefficient": 100,
+            "minimum_mensuel": 1443.11,
+            "minimum_annuel": 17317.32
+          }
+        ],
+        "derniere_revalorisation": "Janvier 2026",
+        "source": "https://www.legifrance.gouv.fr/search/result?query=idcc+0787"
+      },
+      {
+        "id": "branch_3131",
+        "nom": "Télécom",
+        "idcc": "3131",
+        "effectif": 130000,
+        "statut": "conforme",
+        "grille": [
+          {
+            "niveau": "Base",
+            "coefficient": 100,
+            "minimum_mensuel": 1443.11,
+            "minimum_annuel": 17317.32
+          }
+        ],
+        "derniere_revalorisation": "Janvier 2026",
+        "source": "https://www.legifrance.gouv.fr/search/result?query=idcc+3131"
+      },
+      {
+        "id": "branch_1285",
+        "nom": "Commerce de détail de l'habillement",
+        "idcc": "1285",
+        "effectif": 120000,
+        "statut": "non_conforme",
+        "grille": [
+          {
+            "niveau": "Base",
+            "coefficient": 100,
+            "minimum_mensuel": 1443.11,
+            "minimum_annuel": 17317.32
+          }
+        ],
+        "derniere_revalorisation": "Janvier 2026",
+        "source": "https://www.legifrance.gouv.fr/search/result?query=idcc+1285"
+      },
+      {
+        "id": "branch_0292",
+        "nom": "Plasturgie",
+        "idcc": "0292",
+        "effectif": 115000,
+        "statut": "conforme",
+        "grille": [
+          {
+            "niveau": "Base",
+            "coefficient": 100,
+            "minimum_mensuel": 1443.11,
+            "minimum_annuel": 17317.32
+          }
+        ],
+        "derniere_revalorisation": "Janvier 2026",
+        "source": "https://www.legifrance.gouv.fr/search/result?query=idcc+0292"
+      },
+      {
+        "id": "branch_0650",
+        "nom": "Pharmacie d'officine",
+        "idcc": "0650",
+        "effectif": 105000,
+        "statut": "conforme",
+        "grille": [
+          {
+            "niveau": "Base",
+            "coefficient": 100,
+            "minimum_mensuel": 1443.11,
+            "minimum_annuel": 17317.32
+          }
+        ],
+        "derniere_revalorisation": "Janvier 2026",
+        "source": "https://www.legifrance.gouv.fr/search/result?query=idcc+0650"
+      },
+      {
+        "id": "branch_2609",
+        "nom": "Coiffure",
+        "idcc": "2609",
+        "effectif": 95000,
+        "statut": "non_conforme",
+        "grille": [
+          {
+            "niveau": "Base",
+            "coefficient": 100,
+            "minimum_mensuel": 1443.11,
+            "minimum_annuel": 17317.32
+          }
+        ],
+        "derniere_revalorisation": "Janvier 2026",
+        "source": "https://www.legifrance.gouv.fr/search/result?query=idcc+2609"
+      },
+      {
+        "id": "branch_2098",
+        "nom": "Établissements pour personnes inadaptées et handicapées (SNAPEI)",
+        "idcc": "2098",
+        "effectif": 95000,
+        "statut": "conforme",
+        "grille": [
+          {
+            "niveau": "Base",
+            "coefficient": 100,
+            "minimum_mensuel": 1443.11,
+            "minimum_annuel": 17317.32
+          }
+        ],
+        "derniere_revalorisation": "Janvier 2026",
+        "source": "https://www.legifrance.gouv.fr/search/result?query=idcc+2098"
+      },
+      {
+        "id": "branch_1483",
+        "nom": "Mutualité",
+        "idcc": "1483",
+        "effectif": 90000,
+        "statut": "conforme",
+        "grille": [
+          {
+            "niveau": "Base",
+            "coefficient": 100,
+            "minimum_mensuel": 1443.11,
+            "minimum_annuel": 17317.32
+          }
+        ],
+        "derniere_revalorisation": "Janvier 2026",
+        "source": "https://www.legifrance.gouv.fr/search/result?query=idcc+1483"
+      },
+      {
+        "id": "branch_0044",
+        "nom": "Industries alimentaires diverses",
+        "idcc": "0044",
+        "effectif": 85000,
+        "statut": "conforme",
+        "grille": [
+          {
+            "niveau": "Base",
+            "coefficient": 100,
+            "minimum_mensuel": 1443.11,
+            "minimum_annuel": 17317.32
+          }
+        ],
+        "derniere_revalorisation": "Janvier 2026",
+        "source": "https://www.legifrance.gouv.fr/search/result?query=idcc+0044"
+      },
+      {
+        "id": "branch_2264",
+        "nom": "Distribution directe",
+        "idcc": "2264",
+        "effectif": 75000,
+        "statut": "conforme",
+        "grille": [
+          {
+            "niveau": "Base",
+            "coefficient": 100,
+            "minimum_mensuel": 1443.11,
+            "minimum_annuel": 17317.32
+          }
+        ],
+        "derniere_revalorisation": "Janvier 2026",
+        "source": "https://www.legifrance.gouv.fr/search/result?query=idcc+2264"
+      },
+      {
+        "id": "branch_2511",
+        "nom": "Sport",
+        "idcc": "2511",
+        "effectif": 70000,
+        "statut": "conforme",
+        "grille": [
+          {
+            "niveau": "Base",
+            "coefficient": 100,
+            "minimum_mensuel": 1443.11,
+            "minimum_annuel": 17317.32
+          }
+        ],
+        "derniere_revalorisation": "Janvier 2026",
+        "source": "https://www.legifrance.gouv.fr/search/result?query=idcc+2511"
+      },
+      {
+        "id": "branch_1424",
+        "nom": "Personnel des cabinets médicaux",
+        "idcc": "1424",
+        "effectif": 65000,
+        "statut": "non_conforme",
+        "grille": [
+          {
+            "niveau": "Base",
+            "coefficient": 100,
+            "minimum_mensuel": 1443.11,
+            "minimum_annuel": 17317.32
+          }
+        ],
+        "derniere_revalorisation": "Janvier 2026",
+        "source": "https://www.legifrance.gouv.fr/search/result?query=idcc+1424"
+      },
+      {
+        "id": "branch_2691",
+        "nom": "Paysagistes",
+        "idcc": "2691",
+        "effectif": 55000,
+        "statut": "conforme",
+        "grille": [
+          {
+            "niveau": "Base",
+            "coefficient": 100,
+            "minimum_mensuel": 1443.11,
+            "minimum_annuel": 17317.32
+          }
+        ],
+        "derniere_revalorisation": "Janvier 2026",
+        "source": "https://www.legifrance.gouv.fr/search/result?query=idcc+2691"
+      },
+      {
+        "id": "branch_0675",
+        "nom": "Papiers cartons (transformation)",
+        "idcc": "0675",
+        "effectif": 55000,
+        "statut": "conforme",
+        "grille": [
+          {
+            "niveau": "Base",
+            "coefficient": 100,
+            "minimum_mensuel": 1443.11,
+            "minimum_annuel": 17317.32
+          }
+        ],
+        "derniere_revalorisation": "Janvier 2026",
+        "source": "https://www.legifrance.gouv.fr/search/result?query=idcc+0675"
+      },
+      {
+        "id": "branch_3016",
+        "nom": "Organismes de formation",
+        "idcc": "3016",
+        "effectif": 55000,
+        "statut": "conforme",
+        "grille": [
+          {
+            "niveau": "Base",
+            "coefficient": 100,
+            "minimum_mensuel": 1443.11,
+            "minimum_annuel": 17317.32
+          }
+        ],
+        "derniere_revalorisation": "Janvier 2026",
+        "source": "https://www.legifrance.gouv.fr/search/result?query=idcc+3016"
+      },
+      {
+        "id": "branch_0016",
+        "nom": "Transports aériens (personnel au sol)",
+        "idcc": "0016",
+        "effectif": 45000,
+        "statut": "conforme",
+        "grille": [
+          {
+            "niveau": "Base",
+            "coefficient": 100,
+            "minimum_mensuel": 1443.11,
+            "minimum_annuel": 17317.32
+          }
+        ],
+        "derniere_revalorisation": "Janvier 2026",
+        "source": "https://www.legifrance.gouv.fr/search/result?query=idcc+0016"
+      },
+      {
+        "id": "branch_0158",
+        "nom": "Imprimerie de labeur et industries graphiques",
+        "idcc": "0158",
+        "effectif": 43000,
+        "statut": "conforme",
+        "grille": [
+          {
+            "niveau": "Base",
+            "coefficient": 100,
+            "minimum_mensuel": 1443.11,
+            "minimum_annuel": 17317.32
+          }
+        ],
+        "derniere_revalorisation": "Janvier 2026",
+        "source": "https://www.legifrance.gouv.fr/search/result?query=idcc+0158"
+      },
+      {
+        "id": "branch_2148",
+        "nom": "Personnel des agences générales d'assurances",
+        "idcc": "2148",
+        "effectif": 40000,
+        "statut": "conforme",
+        "grille": [
+          {
+            "niveau": "Base",
+            "coefficient": 100,
+            "minimum_mensuel": 1443.11,
+            "minimum_annuel": 17317.32
+          }
+        ],
+        "derniere_revalorisation": "Janvier 2026",
+        "source": "https://www.legifrance.gouv.fr/search/result?query=idcc+2148"
+      },
+      {
+        "id": "branch_0979",
+        "nom": "Hôtellerie de plein air",
+        "idcc": "0979",
+        "effectif": 38000,
+        "statut": "conforme",
+        "grille": [
+          {
+            "niveau": "Base",
+            "coefficient": 100,
+            "minimum_mensuel": 1443.11,
+            "minimum_annuel": 17317.32
+          }
+        ],
+        "derniere_revalorisation": "Janvier 2026",
+        "source": "https://www.legifrance.gouv.fr/search/result?query=idcc+0979"
+      },
+      {
+        "id": "branch_1258",
+        "nom": "Textile",
+        "idcc": "1258",
+        "effectif": 35000,
+        "statut": "conforme",
+        "grille": [
+          {
+            "niveau": "Base",
+            "coefficient": 100,
+            "minimum_mensuel": 1443.11,
+            "minimum_annuel": 17317.32
+          }
+        ],
+        "derniere_revalorisation": "Janvier 2026",
+        "source": "https://www.legifrance.gouv.fr/search/result?query=idcc+1258"
+      },
+      {
+        "id": "branch_2785",
+        "nom": "Avocat (salariés)",
+        "idcc": "2785",
+        "effectif": 30000,
+        "statut": "non_conforme",
+        "grille": [
+          {
+            "niveau": "Base",
+            "coefficient": 100,
+            "minimum_mensuel": 1443.11,
+            "minimum_annuel": 17317.32
+          }
+        ],
+        "derniere_revalorisation": "Janvier 2026",
+        "source": "https://www.legifrance.gouv.fr/search/result?query=idcc+2785"
+      },
+      {
+        "id": "branch_1043",
+        "nom": "Commerce succursaliste de la chaussure",
+        "idcc": "1043",
+        "effectif": 28000,
+        "statut": "conforme",
+        "grille": [
+          {
+            "niveau": "Base",
+            "coefficient": 100,
+            "minimum_mensuel": 1443.11,
+            "minimum_annuel": 17317.32
+          }
+        ],
+        "derniere_revalorisation": "Janvier 2026",
+        "source": "https://www.legifrance.gouv.fr/search/result?query=idcc+1043"
+      },
+      {
+        "id": "branch_3230",
+        "nom": "Acteurs du lien social et familial (ELISFA)",
+        "idcc": "3230",
+        "effectif": 25000,
+        "statut": "conforme",
+        "grille": [
+          {
+            "niveau": "Base",
+            "coefficient": 100,
+            "minimum_mensuel": 1443.11,
+            "minimum_annuel": 17317.32
+          }
+        ],
+        "derniere_revalorisation": "Janvier 2026",
+        "source": "https://www.legifrance.gouv.fr/search/result?query=idcc+3230"
+      },
+      {
+        "id": "branch_1261",
+        "nom": "Quincaillerie (commerce de gros)",
+        "idcc": "1261",
+        "effectif": 22000,
+        "statut": "conforme",
+        "grille": [
+          {
+            "niveau": "Base",
+            "coefficient": 100,
+            "minimum_mensuel": 1443.11,
+            "minimum_annuel": 17317.32
+          }
+        ],
+        "derniere_revalorisation": "Janvier 2026",
+        "source": "https://www.legifrance.gouv.fr/search/result?query=idcc+1261"
+      },
+      {
+        "id": "branch_0086",
+        "nom": "Entreprises d'armement maritime",
+        "idcc": "0086",
+        "effectif": 12000,
+        "statut": "conforme",
+        "grille": [
+          {
+            "niveau": "Base",
+            "coefficient": 100,
+            "minimum_mensuel": 1443.11,
+            "minimum_annuel": 17317.32
+          }
+        ],
+        "derniere_revalorisation": "Janvier 2026",
+        "source": "https://www.legifrance.gouv.fr/search/result?query=idcc+0086"
       }
-    ]
+    ],
+    "meta": {
+      "derniere_mise_a_jour": "2026-03-25",
+      "prochaine_verification": "Juillet 2026",
+      "source_effectifs": "DGT/DARES - Données branches professionnelles",
+      "methodologie": "Top 50 branches classées par effectif salarié couvert. Conformité SMIC au 1er janvier 2026."
+    }
   },
   "egalite_professionnelle": {
     "index_moyen_national": 88,
@@ -22758,7 +23522,7 @@
     "sources": "INSEE - Enquête Emploi, DARES"
   },
   "previsions_cftc": {
-    "generated_at": "2026-03-25T06:06:53.741349",
+    "generated_at": "2026-03-25T07:27:46.038252",
     "model_version": "CFTC v4.0 (Monte Carlo)",
     "n_simulations": 1000,
     "horizon": "12 mois",
