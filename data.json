@@ -1,6 +1,6 @@
 {
-  "last_updated": "25/03/2026 09:47",
-  "last_updated_iso": "2026-03-25T09:47:29.696856",
+  "last_updated": "25/03/2026 10:06",
+  "last_updated_iso": "2026-03-25T10:06:00.830819",
   "contact": "hspringragain@cftc.fr",
   "alertes": [
     {
@@ -32,7 +32,7 @@
       "date": "2026-03-25",
       "type": "info",
       "titre": "🔄 Données actualisées",
-      "message": "Le tableau de bord a été mis à jour le 25/03/2026 à 09:47.",
+      "message": "Le tableau de bord a été mis à jour le 25/03/2026 à 10:05.",
       "onglet": "conjoncture"
     }
   ],
@@ -193,7 +193,7 @@
     }
   ],
   "revue_presse": {
-    "derniere_maj": "25/03/2026 09:47",
+    "derniere_maj": "25/03/2026 10:06",
     "nb_sources": 7,
     "sources_noms": [
       "Le Monde Éco",
@@ -206,6 +206,42 @@
     ],
     "a_la_une": [],
     "tous": [
+      {
+        "source": "Le Monde Éco",
+        "couleur": "#374151",
+        "emoji": "🌐",
+        "tag": "Presse économique",
+        "titre": "« Permettre aux salariés de s’échanger leurs postes pour réduire le coût écologique des transports et gagner en qualité de vie »",
+        "resume": "Pour alléger les trajets domicile-travail, le sociologue Yoann Demoli a conçu une proposition originale : mettre en place un « mercato des postes » entre personnes volontaires, détaille Jean-Baptiste Fressoz, dans sa chronique.",
+        "lien": "https://www.lemonde.fr/idees/article/2026/03/25/permettre-aux-salaries-de-s-echanger-leurs-postes-pour-reduire-le-cout-ecologique-des-transports-et-gagner-en-qualite-de-vie_6674190_3232.html",
+        "date_iso": "2026-03-25T11:00:05+01:00",
+        "date_fr": "25/03/2026",
+        "pertinence": 1
+      },
+      {
+        "source": "Le Monde Emploi",
+        "couleur": "#1f2937",
+        "emoji": "💼",
+        "tag": "Emploi & travail",
+        "titre": "« Permettre aux salariés de s’échanger leurs postes pour réduire le coût écologique des transports et gagner en qualité de vie »",
+        "resume": "Pour alléger les trajets domicile-travail, le sociologue Yoann Demoli a conçu une proposition originale : mettre en place un « mercato des postes » entre personnes volontaires, détaille Jean-Baptiste Fressoz, dans sa chronique.",
+        "lien": "https://www.lemonde.fr/idees/article/2026/03/25/permettre-aux-salaries-de-s-echanger-leurs-postes-pour-reduire-le-cout-ecologique-des-transports-et-gagner-en-qualite-de-vie_6674190_3232.html",
+        "date_iso": "2026-03-25T11:00:05+01:00",
+        "date_fr": "25/03/2026",
+        "pertinence": 1
+      },
+      {
+        "source": "Le Figaro Éco",
+        "couleur": "#92400e",
+        "emoji": "📊",
+        "tag": "Presse économique",
+        "titre": "Guerre au Moyen-Orient : le pétrole chute de 6% après les annonces de l’Iran sur le détroit d’Ormuz",
+        "resume": "La possible réouverture du détroit promise par Téhéran pour les navires «non hostiles» a également rassuré les investisseurs en Bourse.",
+        "lien": "https://www.lefigaro.fr/conjoncture/guerre-au-moyen-orient-le-petrole-chute-de-6-apres-les-annonces-de-l-iran-sur-le-detroit-d-ormuz-20260325",
+        "date_iso": "2026-03-25T10:44:33+01:00",
+        "date_fr": "25/03/2026",
+        "pertinence": 0
+      },
       {
         "source": "Le Figaro Éco",
         "couleur": "#92400e",
@@ -359,18 +395,6 @@
         "resume": "Également dans l'édition de mercredi : fuite d'un appel téléphonique de la Commission, l'ASEAN, l'enquête sur Leggeri, Costa versus la Russie The post La victoire amère de Mette Frederiksen appeared first on Euractiv FR .",
         "lien": "https://euractiv.fr/news/la-victoire-amere-de-mette-frederiksen/",
         "date_iso": "2026-03-25T07:39:05+00:00",
-        "date_fr": "25/03/2026",
-        "pertinence": 0
-      },
-      {
-        "source": "Le Figaro Éco",
-        "couleur": "#92400e",
-        "emoji": "📊",
-        "tag": "Presse économique",
-        "titre": "Guerre au Moyen-Orient : le pétrole chute de 6% après les annonces de l’Iran sur le détroit d’Ormuz",
-        "resume": "La possible réouverture du détroit promise par Téhéran pour les navires «non hostiles» a également rassuré les investisseurs en Bourse.",
-        "lien": "https://www.lefigaro.fr/conjoncture/guerre-au-moyen-orient-le-petrole-chute-de-6-apres-les-annonces-de-l-iran-sur-le-detroit-d-ormuz-20260325",
-        "date_iso": "2026-03-25T06:36:51+01:00",
         "date_fr": "25/03/2026",
         "pertinence": 0
       },
@@ -541,30 +565,6 @@
         "date_iso": "2026-03-24T23:01:00+00:00",
         "date_fr": "24/03/2026",
         "pertinence": 0
-      },
-      {
-        "source": "Le Figaro Éco",
-        "couleur": "#92400e",
-        "emoji": "📊",
-        "tag": "Presse économique",
-        "titre": "Automobile : près de 270 emplois supprimés chez l'équipementier Dumarey dans la Loire",
-        "resume": "L’équipementier belge prévoit la fermeture de son usine d’Andrézieux-Bouthéon d’ici la fin de l’année. Un projet de plan social doit être présenté aux représentants du personnel, sur fond de lourdes pertes et d’activité en recul.",
-        "lien": "https://www.lefigaro.fr/societes/automobile-pres-de-270-emplois-supprimes-chez-l-equipementier-dumarey-dans-la-loire-20260324",
-        "date_iso": "2026-03-24T22:56:25+01:00",
-        "date_fr": "24/03/2026",
-        "pertinence": 1
-      },
-      {
-        "source": "Le Figaro Éco",
-        "couleur": "#92400e",
-        "emoji": "📊",
-        "tag": "Presse économique",
-        "titre": "L’équipementier français Valeo construit aux États-Unis une usine d'unités centrales pour General Motors",
-        "resume": "Implanté à McAllen, au Texas, le nouveau site pour lequel Valeo investira 225 millions de dollars va créer 500 nouveaux emplois pour une production qui doit démarrer fin 2027.",
-        "lien": "https://www.lefigaro.fr/societes/l-equipementier-francais-valeo-construit-aux-etats-unis-une-usine-d-unites-centrales-pour-general-motors-20260324",
-        "date_iso": "2026-03-24T22:11:40+01:00",
-        "date_fr": "24/03/2026",
-        "pertinence": 1
       }
     ]
   },
@@ -2587,7 +2587,7 @@
       "note_lecture": "Le TEC-10 mesure le rendement des emprunts d'Etat francais a 10 ans. Un taux eleve rencherit le cout de la dette publique et impacte les taux de credit immobilier."
     },
     "petrole_brent": {
-      "valeur": 95.5,
+      "valeur": 95.91,
       "date": "2026-03-25",
       "unite": "USD/baril",
       "source": "Yahoo Finance",
@@ -4107,16 +4107,16 @@
         },
         {
           "date": "2026-03-25",
-          "valeur": 95.5,
-          "ma50": 78.29,
+          "valeur": 95.91,
+          "ma50": 78.3,
           "ma200": 69.04
         }
       ],
       "variations": {
-        "jour": -8.6,
-        "semaine": -11.06,
-        "mois": 33.59,
-        "ytd": 57.2
+        "jour": -8.21,
+        "semaine": -10.68,
+        "mois": 34.16,
+        "ytd": 57.88
       },
       "min_max": {
         "min": 58.92,
@@ -4127,9 +4127,9 @@
       "note_lecture": "Le prix du Brent influence directement les couts de transport et d'energie, donc l'inflation et le pouvoir d'achat des salaries."
     },
     "cac40": {
-      "valeur": 7855.68,
+      "valeur": 7838.58,
       "date": "2026-03-25",
-      "variation_jour_pct": 1.44,
+      "variation_jour_pct": 1.22,
       "unite": "points",
       "source": "Yahoo Finance",
       "nb_points": 256,
@@ -5666,16 +5666,16 @@
         },
         {
           "date": "2026-03-25",
-          "valeur": 7855.68,
-          "ma50": 8170.03,
-          "ma200": 7995.24
+          "valeur": 7838.58,
+          "ma50": 8169.69,
+          "ma200": 7995.15
         }
       ],
       "variations": {
-        "jour": 1.44,
-        "semaine": -1.43,
-        "mois": -7.55,
-        "ytd": -4.14
+        "jour": 1.22,
+        "semaine": -1.65,
+        "mois": -7.75,
+        "ytd": -4.35
       },
       "min_max": {
         "min": 6863.02,
@@ -7256,7 +7256,7 @@
       "note_lecture": "Le taux de change euro-dollar determine le prix de tout ce qui est importe en dollars : petrole, matieres premieres, electronique. Un euro faible rencherit les importations et alimente l'inflation."
     },
     "or": {
-      "valeur": 4558.0,
+      "valeur": 4549.6,
       "date": "2026-03-25",
       "unite": "USD/oz",
       "source": "Yahoo Finance",
@@ -8776,16 +8776,16 @@
         },
         {
           "date": "2026-03-25",
-          "valeur": 4558.0,
-          "ma50": 4948.15,
-          "ma200": 4079.98
+          "valeur": 4549.6,
+          "ma50": 4947.98,
+          "ma200": 4079.93
         }
       ],
       "variations": {
-        "jour": 3.61,
-        "semaine": -6.79,
-        "mois": -12.43,
-        "ytd": 5.65
+        "jour": 3.42,
+        "semaine": -6.96,
+        "mois": -12.59,
+        "ytd": 5.45
       },
       "min_max": {
         "min": 2951.3,
@@ -8796,7 +8796,7 @@
       "note_lecture": "L'or est la valeur refuge par excellence. Sa hausse traduit une montee de l'incertitude economique ou geopolitique. Il sert aussi de protection contre l'inflation."
     },
     "gaz_naturel": {
-      "valeur": 50.2,
+      "valeur": 50.6,
       "date": "2026-03-25",
       "unite": "EUR/MWh",
       "source": "Yahoo Finance (TTF)",
@@ -10316,16 +10316,16 @@
         },
         {
           "date": "2026-03-25",
-          "valeur": 50.2,
+          "valeur": 50.6,
           "ma50": 40.92,
           "ma200": 34.17
         }
       ],
       "variations": {
-        "jour": -7.11,
-        "semaine": -8.16,
-        "mois": 57.71,
-        "ytd": 73.1
+        "jour": -6.37,
+        "semaine": -7.43,
+        "mois": 58.97,
+        "ytd": 74.48
       },
       "min_max": {
         "min": 26.6,
@@ -10336,7 +10336,7 @@
       "note_lecture": "Le prix du gaz naturel (TTF europeen) impacte directement les factures de chauffage et d'electricite des menages, ainsi que les couts de production industrielle."
     },
     "ble": {
-      "valeur": 582.5,
+      "valeur": 585.0,
       "date": "2026-03-25",
       "unite": "cents/boisseau",
       "source": "Yahoo Finance",
@@ -11850,16 +11850,16 @@
         },
         {
           "date": "2026-03-25",
-          "valeur": 582.5,
-          "ma50": 556.95,
-          "ma200": 531.66
+          "valeur": 585.0,
+          "ma50": 557.0,
+          "ma200": 531.67
         }
       ],
       "variations": {
-        "jour": -1.27,
-        "semaine": -3.6,
-        "mois": 2.28,
-        "ytd": 15.0
+        "jour": -0.85,
+        "semaine": -3.19,
+        "mois": 2.72,
+        "ytd": 15.5
       },
       "min_max": {
         "min": 495.0,
@@ -23457,7 +23457,7 @@
     "sources": "INSEE - Enquête Emploi, DARES"
   },
   "previsions_cftc": {
-    "generated_at": "2026-03-25T09:47:29.957327",
+    "generated_at": "2026-03-25T10:06:01.035204",
     "model_version": "CFTC v4.0 (Monte Carlo)",
     "n_simulations": 1000,
     "horizon": "12 mois",
