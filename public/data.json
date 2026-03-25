@@ -1,6 +1,6 @@
 {
-  "last_updated": "25/03/2026 07:27",
-  "last_updated_iso": "2026-03-25T07:27:45.212508",
+  "last_updated": "25/03/2026 07:31",
+  "last_updated_iso": "2026-03-25T07:31:27.495635",
   "contact": "hspringragain@cftc.fr",
   "alertes": [
     {
@@ -32,7 +32,7 @@
       "date": "2026-03-25",
       "type": "info",
       "titre": "🔄 Données actualisées",
-      "message": "Le tableau de bord a été mis à jour le 25/03/2026 à 07:27.",
+      "message": "Le tableau de bord a été mis à jour le 25/03/2026 à 07:31.",
       "onglet": "conjoncture"
     }
   ],
@@ -193,7 +193,7 @@
     }
   ],
   "revue_presse": {
-    "derniere_maj": "25/03/2026 07:27",
+    "derniere_maj": "25/03/2026 07:31",
     "nb_sources": 7,
     "sources_noms": [
       "Le Monde Éco",
@@ -345,7 +345,7 @@
         "emoji": "🌐",
         "tag": "Presse économique",
         "titre": "Pour Vincent Bolloré, l’audiovisuel public devrait être entièrement payé par la publicité",
-        "resume": "L’industriel breton, actionnaire principal du groupe Canal+, était auditionné, mardi, par la commission d’enquête parlementaire sur l’audiovisuel public, au motif qu’il est aussi au capital de Banijay, troisième fournisseur de programmes à France Télévisions.",
+        "resume": "L’industriel breton, actionnaire principal du Groupe Canal+, était auditionné, mardi, par la commission d’enquête parlementaire sur l’audiovisuel public, au motif qu’il est aussi au capital de Banijay, troisième fournisseur de programmes à France Télévisions.",
         "lien": "https://www.lemonde.fr/economie/article/2026/03/25/pour-vincent-bollore-l-audiovisuel-public-devrait-etre-entierement-paye-par-la-publicite_6674148_3234.html",
         "date_iso": "2026-03-25T05:00:31+01:00",
         "date_fr": "25/03/2026",
@@ -998,7 +998,7 @@
     },
     {
       "trimestre": "T2 2023",
-      "taux": 5.1
+      "taux": 4.9
     },
     {
       "trimestre": "T3 2023",
@@ -1010,19 +1010,19 @@
     },
     {
       "trimestre": "T1 2024",
-      "taux": 5.0
+      "taux": 4.8
     },
     {
       "trimestre": "T2 2024",
-      "taux": 5.1
+      "taux": 4.9
     },
     {
       "trimestre": "T3 2024",
-      "taux": 5.2
+      "taux": 4.5
     },
     {
       "trimestre": "T4 2024",
-      "taux": 5.2
+      "taux": 4.6
     },
     {
       "trimestre": "T1 2025",
@@ -2098,7 +2098,7 @@
     "croissance_trim_actuel": 0.7,
     "croissance_annuelle": 0.9,
     "trimestre": "T4 2025",
-    "commentaire": "PIB volume trimestriel - glissement annuel",
+    "commentaire": "PIB volume trimestriel - glissement annuel - INSEE",
     "evolution": [
       {
         "trimestre": "T2 2022",
@@ -4077,7 +4077,7 @@
       "note_lecture": "Le TEC-10 mesure le rendement des emprunts d'Etat francais a 10 ans. Un taux eleve rencherit le cout de la dette publique et impacte les taux de credit immobilier."
     },
     "petrole_brent": {
-      "valeur": 99.56,
+      "valeur": 99.9,
       "date": "2026-03-25",
       "unite": "USD/baril",
       "source": "Yahoo Finance",
@@ -5597,16 +5597,16 @@
         },
         {
           "date": "2026-03-25",
-          "valeur": 99.56,
-          "ma50": 78.37,
+          "valeur": 99.9,
+          "ma50": 78.38,
           "ma200": 69.06
         }
       ],
       "variations": {
-        "jour": -4.72,
-        "semaine": -7.28,
-        "mois": 39.26,
-        "ytd": 63.88
+        "jour": -4.39,
+        "semaine": -6.97,
+        "mois": 39.74,
+        "ytd": 64.44
       },
       "min_max": {
         "min": 58.92,
@@ -8752,7 +8752,7 @@
       "note_lecture": "Le taux de change euro-dollar determine le prix de tout ce qui est importe en dollars : petrole, matieres premieres, electronique. Un euro faible rencherit les importations et alimente l'inflation."
     },
     "or": {
-      "valeur": 4559.0,
+      "valeur": 4561.1,
       "date": "2026-03-25",
       "unite": "USD/oz",
       "source": "Yahoo Finance",
@@ -10272,16 +10272,16 @@
         },
         {
           "date": "2026-03-25",
-          "valeur": 4559.0,
-          "ma50": 4948.17,
-          "ma200": 4079.98
+          "valeur": 4561.1,
+          "ma50": 4948.21,
+          "ma200": 4079.99
         }
       ],
       "variations": {
-        "jour": 3.63,
-        "semaine": -6.77,
-        "mois": -12.41,
-        "ytd": 5.67
+        "jour": 3.68,
+        "semaine": -6.72,
+        "mois": -12.37,
+        "ytd": 5.72
       },
       "min_max": {
         "min": 2951.3,
@@ -11826,7 +11826,7 @@
       "note_lecture": "Le prix du gaz naturel (TTF europeen) impacte directement les factures de chauffage et d'electricite des menages, ainsi que les couts de production industrielle."
     },
     "ble": {
-      "valeur": 582.75,
+      "valeur": 582.0,
       "date": "2026-03-25",
       "unite": "cents/boisseau",
       "source": "Yahoo Finance",
@@ -13340,16 +13340,16 @@
         },
         {
           "date": "2026-03-25",
-          "valeur": 582.75,
-          "ma50": 556.95,
+          "valeur": 582.0,
+          "ma50": 556.93,
           "ma200": 531.66
         }
       ],
       "variations": {
-        "jour": -1.23,
-        "semaine": -3.56,
-        "mois": 2.33,
-        "ytd": 15.05
+        "jour": -1.36,
+        "semaine": -3.68,
+        "mois": 2.19,
+        "ytd": 14.91
       },
       "min_max": {
         "min": 495.0,
@@ -23522,7 +23522,7 @@
     "sources": "INSEE - Enquête Emploi, DARES"
   },
   "previsions_cftc": {
-    "generated_at": "2026-03-25T07:27:46.038252",
+    "generated_at": "2026-03-25T07:31:28.499773",
     "model_version": "CFTC v4.0 (Monte Carlo)",
     "n_simulations": 1000,
     "horizon": "12 mois",
