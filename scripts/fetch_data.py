@@ -3547,6 +3547,307 @@ def build_revue_presse():
 
 
 # ============================================================================
+# API LÉGIFRANCE (PISTE) — MISE À JOUR AUTOMATIQUE DES GRILLES
+# Identifiants stockés dans les secrets GitHub Actions :
+#   PISTE_CLIENT_ID, PISTE_CLIENT_SECRET
+# ============================================================================
+
+def _piste_get_token():
+    """
+    Obtient un token OAuth2 (client_credentials) depuis PISTE.
+    Retourne le token string ou None si échec.
+    """
+    import os
+    client_id     = os.environ.get("PISTE_CLIENT_ID")
+    client_secret = os.environ.get("PISTE_CLIENT_SECRET")
+
+    if not client_id or not client_secret:
+        print("  ⚠️ PISTE_CLIENT_ID / PISTE_CLIENT_SECRET non définis — skip Légifrance")
+        return None
+
+    body = urllib.parse.urlencode({
+        "grant_type":    "client_credentials",
+        "client_id":     client_id,
+        "client_secret": client_secret,
+        "scope":         "openid",
+    }).encode()
+
+    try:
+        req = urllib.request.Request(
+            "https://oauth.piste.gouv.fr/api/oauth/token",
+            data=body,
+            headers={"Content-Type": "application/x-www-form-urlencoded"},
+            method="POST",
+        )
+        with urllib.request.urlopen(req, timeout=15) as r:
+            data = json.loads(r.read().decode())
+            token = data.get("access_token")
+            if token:
+                print("  ✅ Token PISTE obtenu")
+            return token
+    except Exception as e:
+        print(f"  ⚠️ Impossible d'obtenir le token PISTE : {e}")
+        return None
+
+
+def _legifrance_get_grille(idcc, nom_branche, token):
+    """
+    Interroge l'API Légifrance (KALI) pour récupérer les articles
+    de salaires minima d'une convention collective.
+    Retourne une liste de niveaux ou None.
+    """
+    BASE = "https://api.piste.gouv.fr/dila/legifrance/lf-engine-app"
+    headers = {
+        "Authorization": f"Bearer {token}",
+        "Content-Type":  "application/json",
+        "Accept":        "application/json",
+    }
+
+    # 1. Récupérer le texte de la CC par IDCC
+    try:
+        payload = json.dumps({"idcc": idcc}).encode()
+        req = urllib.request.Request(
+            f"{BASE}/consult/kali/textByIdcc",
+            data=payload, headers=headers, method="POST",
+        )
+        with urllib.request.urlopen(req, timeout=20) as r:
+            data = json.loads(r.read().decode())
+    except Exception as e:
+        print(f"    ⚠️ Légifrance textByIdcc {idcc} : {e}")
+        return None
+
+    # 2. Trouver l'article sur les salaires minima
+    articles = data.get("articles", []) or []
+    salaire_article = None
+    for art in articles:
+        titre = (art.get("titre") or art.get("title") or "").lower()
+        if any(kw in titre for kw in ["salaire", "minima", "rémunération", "grille", "coefficient"]):
+            salaire_article = art
+            break
+
+    if not salaire_article:
+        # Chercher dans les annexes
+        for section in (data.get("sections") or []):
+            titre_sec = (section.get("titre") or "").lower()
+            if any(kw in titre_sec for kw in ["salaire", "minima", "rémunération", "annexe"]):
+                for art in (section.get("articles") or []):
+                    salaire_article = art
+                    break
+            if salaire_article:
+                break
+
+    if not salaire_article:
+        print(f"    ℹ️ Pas d'article salaires trouvé pour IDCC {idcc}")
+        return None
+
+    # 3. Extraire les niveaux depuis le texte HTML de l'article via Claude
+    texte_html = salaire_article.get("content") or salaire_article.get("texte") or ""
+    if not texte_html:
+        return None
+
+    # Nettoyer le HTML pour ne garder que le texte
+    import re
+    texte = re.sub(r"<[^>]+>", " ", texte_html)
+    texte = re.sub(r"\s+", " ", texte).strip()[:3000]  # Limiter à 3000 chars
+
+    return _extraire_niveaux_depuis_texte(idcc, nom_branche, texte)
+
+
+def _extraire_niveaux_depuis_texte(idcc, nom_branche, texte_brut):
+    """
+    Appelle l'API Claude pour extraire une grille structurée
+    depuis le texte brut d'un article de convention collective.
+    """
+    prompt = f"""Voici le texte officiel de l'article salaires de la convention collective IDCC {idcc} "{nom_branche}" :
+
+---
+{texte_brut}
+---
+
+Extrais la grille des salaires minima mensuels bruts. Réponds UNIQUEMENT en JSON valide :
+[
+  {{"niveau": "Niveau I - Échelon 1", "coefficient": 100, "minimum_mensuel": 1490, "minimum_annuel": 17880}},
+  ...
+]
+
+Règles :
+- minimum_mensuel et minimum_annuel sont des entiers en euros
+- coefficient est un entier (ou null si absent)
+- Si le texte ne contient pas de grille lisible, réponds exactement : null"""
+
+    try:
+        payload = json.dumps({
+            "model": "claude-sonnet-4-20250514",
+            "max_tokens": 1500,
+            "messages": [{"role": "user", "content": prompt}],
+        }).encode()
+
+        req = urllib.request.Request(
+            "https://api.anthropic.com/v1/messages",
+            data=payload,
+            headers={"Content-Type": "application/json", "anthropic-version": "2023-06-01"},
+            method="POST",
+        )
+        with urllib.request.urlopen(req, timeout=30) as r:
+            resp = json.loads(r.read().decode())
+
+        raw = resp.get("content", [{}])[0].get("text", "").strip()
+        raw = raw.replace("```json", "").replace("```", "").strip()
+
+        if raw == "null" or not raw:
+            return None
+
+        grille = json.loads(raw)
+        if not isinstance(grille, list) or not grille:
+            return None
+
+        # Valider chaque niveau
+        result = []
+        for n in grille:
+            if not isinstance(n, dict):
+                continue
+            if "niveau" not in n or "minimum_mensuel" not in n:
+                continue
+            try:
+                entry = {
+                    "niveau":           str(n["niveau"]),
+                    "minimum_mensuel":  int(n["minimum_mensuel"]),
+                    "minimum_annuel":   int(n.get("minimum_annuel") or int(n["minimum_mensuel"]) * 12),
+                }
+                if n.get("coefficient"):
+                    entry["coefficient"] = int(n["coefficient"])
+                result.append(entry)
+            except (ValueError, TypeError):
+                continue
+
+        return result if result else None
+
+    except Exception as e:
+        print(f"    ⚠️ Extraction Claude pour {idcc} : {e}")
+        return None
+
+
+def _charger_cache_grilles(cache_path):
+    """Charge le cache JSON des grilles. Format : {idcc: {grille, date_maj, date_accord}}"""
+    if os.path.exists(cache_path):
+        try:
+            with open(cache_path, "r", encoding="utf-8") as f:
+                return json.load(f)
+        except Exception:
+            pass
+    return {}
+
+
+def _sauvegarder_cache_grilles(cache_path, cache):
+    """Sauvegarde le cache des grilles."""
+    try:
+        os.makedirs(os.path.dirname(cache_path), exist_ok=True)
+        with open(cache_path, "w", encoding="utf-8") as f:
+            json.dump(cache, f, ensure_ascii=False, indent=2)
+    except Exception as e:
+        print(f"  ⚠️ Sauvegarde cache impossible : {e}")
+
+
+def mettre_a_jour_grilles_legifrance(branches_finales, smic_net):
+    """
+    Pour chaque branche, vérifie si l'accord DARES est plus récent que le cache.
+    Si oui : récupère le texte sur Légifrance via PISTE, extrait la grille via Claude,
+    sauvegarde dans le cache.
+    Applique ensuite le cache sur toutes les branches.
+    """
+    print("\n🔄 Vérification des mises à jour Légifrance (PISTE)...")
+
+    script_dir = os.path.dirname(os.path.abspath(__file__))
+    cache_path = os.path.join(script_dir, "cache", "grilles_conventions.json")
+    cache = _charger_cache_grilles(cache_path)
+
+    # Récupérer les dates d'accord récentes depuis data.travail.gouv.fr
+    dates_accord = {}
+    try:
+        url = (
+            "https://data.travail.gouv.fr/api/explore/v2.1/catalog/datasets"
+            "/conventions-collectives-nationales/records"
+            "?select=idcc,date_revision,statut_conformite_smic"
+            "&order_by=date_revision%20desc&limit=200"
+        )
+        req = urllib.request.Request(url, headers={
+            "Accept": "application/json", "User-Agent": "CFTC-Dashboard/2.0"
+        })
+        with urllib.request.urlopen(req, timeout=15) as r:
+            data = json.loads(r.read().decode())
+            for record in data.get("results", []):
+                idcc = str(record.get("idcc", "")).zfill(4) if record.get("idcc") else None
+                if idcc and record.get("date_revision"):
+                    dates_accord[idcc] = record["date_revision"]
+        print(f"  ✅ {len(dates_accord)} dates d'accord récupérées")
+    except Exception as e:
+        print(f"  ⚠️ data.travail.gouv.fr indisponible : {e}")
+
+    # Identifier les branches à mettre à jour
+    a_mettre_a_jour = []
+    for branch in branches_finales:
+        idcc = branch.get("idcc", "")
+        date_api   = dates_accord.get(idcc, "")
+        date_cache = cache.get(idcc, {}).get("date_accord", "")
+        if date_api and date_api > date_cache:
+            a_mettre_a_jour.append(branch)
+
+    if not a_mettre_a_jour:
+        print("  ✅ Toutes les grilles sont à jour")
+    else:
+        print(f"  📋 {len(a_mettre_a_jour)} branche(s) à mettre à jour via Légifrance")
+
+        # Obtenir le token PISTE une seule fois
+        token = _piste_get_token()
+
+        for branch in a_mettre_a_jour:
+            idcc = branch["idcc"]
+            nom  = branch["nom"]
+
+            # Essai 1 : API Légifrance directe
+            nouvelle_grille = None
+            if token:
+                print(f"  🔍 Légifrance IDCC {idcc} ({nom[:40]})...")
+                nouvelle_grille = _legifrance_get_grille(idcc, nom, token)
+
+            # Essai 2 : fallback Claude seul si Légifrance n'a pas donné de grille
+            if not nouvelle_grille:
+                print(f"  🤖 Claude fallback IDCC {idcc}...")
+                nouvelle_grille = _extraire_niveaux_depuis_texte(
+                    idcc, nom,
+                    f"Convention collective nationale IDCC {idcc} : {nom}. "
+                    f"Grilles de salaires minima conventionnels en vigueur au 1er janvier 2026."
+                )
+
+            if nouvelle_grille:
+                cache[idcc] = {
+                    "grille":      nouvelle_grille,
+                    "date_maj":    datetime.now().strftime("%Y-%m-%d"),
+                    "date_accord": dates_accord.get(idcc, ""),
+                    "source":      "Légifrance PISTE" if token else "Claude",
+                }
+                print(f"    ✅ {len(nouvelle_grille)} niveaux mis à jour pour {idcc}")
+
+        _sauvegarder_cache_grilles(cache_path, cache)
+
+    # Appliquer le cache sur toutes les branches
+    maj = 0
+    for branch in branches_finales:
+        idcc = branch.get("idcc", "")
+        if idcc in cache and cache[idcc].get("grille"):
+            branch["grille"]                  = cache[idcc]["grille"]
+            branch["derniere_revalorisation"]  = cache[idcc].get("date_accord", branch.get("derniere_revalorisation", ""))
+            branch["source_grille"]            = cache[idcc].get("source", "cache")
+            maj += 1
+
+    if maj:
+        print(f"  📊 {maj} grille(s) chargées depuis le cache Légifrance")
+
+    return branches_finales
+
+
+
+# ============================================================================
 # FONCTION À AJOUTER DANS fetch_data.py
 # Remplace la section "conventions_collectives" statique dans main()
 # ============================================================================
@@ -4221,6 +4522,9 @@ def build_conventions_collectives_enrichies(smic_net, smic_brut):
         entry["id"] = f"branch_{entry['idcc']}"
         entry["source"] = f"https://www.legifrance.gouv.fr/search/result?query=idcc+{entry['idcc']}"
         branches_finales.append(entry)
+
+    # Mise à jour automatique via Légifrance PISTE + Claude
+    branches_finales = mettre_a_jour_grilles_legifrance(branches_finales, smic_net)
 
     # Trier par effectif décroissant
     branches_finales.sort(key=lambda x: x.get("effectif") or 0, reverse=True)
