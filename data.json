@@ -1,6 +1,6 @@
 {
-  "last_updated": "25/03/2026 14:59",
-  "last_updated_iso": "2026-03-25T14:59:18.386230",
+  "last_updated": "25/03/2026 15:02",
+  "last_updated_iso": "2026-03-25T15:02:32.610930",
   "contact": "hspringragain@cftc.fr",
   "alertes": [
     {
@@ -32,7 +32,7 @@
       "date": "2026-03-25",
       "type": "info",
       "titre": "🔄 Données actualisées",
-      "message": "Le tableau de bord a été mis à jour le 25/03/2026 à 14:59.",
+      "message": "Le tableau de bord a été mis à jour le 25/03/2026 à 15:02.",
       "onglet": "conjoncture"
     }
   ],
@@ -193,7 +193,7 @@
     }
   ],
   "revue_presse": {
-    "derniere_maj": "25/03/2026 14:59",
+    "derniere_maj": "25/03/2026 15:02",
     "nb_sources": 7,
     "sources_noms": [
       "Le Monde Éco",
@@ -1571,10 +1571,7 @@
         "trimestre": "T4 2006",
         "taux": 0.45
       }
-    ],
-    "source": "DARES - Enquête sur les postes vacants (ACEMO)",
-    "derniere_maj": "T4 2007",
-    "note": "Données brutes, nomenclature A21, établissements de 10 salariés et plus"
+    ]
   },
   "creations_destructions": {
     "source": "DARES - Mouvements de Main d'Oeuvre",
@@ -2740,7 +2737,7 @@
       "note_lecture": "Le TEC-10 mesure le rendement des emprunts d'Etat francais a 10 ans. Un taux eleve rencherit le cout de la dette publique et impacte les taux de credit immobilier."
     },
     "petrole_brent": {
-      "valeur": 95.94,
+      "valeur": 96.17,
       "date": "2026-03-25",
       "unite": "USD/baril",
       "source": "Yahoo Finance",
@@ -4260,16 +4257,16 @@
         },
         {
           "date": "2026-03-25",
-          "valeur": 95.94,
+          "valeur": 96.17,
           "ma50": 78.3,
           "ma200": 69.04
         }
       ],
       "variations": {
-        "jour": -8.18,
-        "semaine": -10.65,
-        "mois": 34.2,
-        "ytd": 57.93
+        "jour": -7.96,
+        "semaine": -10.44,
+        "mois": 34.52,
+        "ytd": 58.3
       },
       "min_max": {
         "min": 58.92,
@@ -4280,9 +4277,9 @@
       "note_lecture": "Le prix du Brent influence directement les couts de transport et d'energie, donc l'inflation et le pouvoir d'achat des salaries."
     },
     "cac40": {
-      "valeur": 7845.66,
+      "valeur": 7849.09,
       "date": "2026-03-25",
-      "variation_jour_pct": 1.31,
+      "variation_jour_pct": 1.36,
       "unite": "points",
       "source": "Yahoo Finance",
       "nb_points": 256,
@@ -5819,16 +5816,16 @@
         },
         {
           "date": "2026-03-25",
-          "valeur": 7845.66,
-          "ma50": 8169.83,
-          "ma200": 7995.19
+          "valeur": 7849.09,
+          "ma50": 8169.9,
+          "ma200": 7995.2
         }
       ],
       "variations": {
-        "jour": 1.31,
-        "semaine": -1.56,
-        "mois": -7.67,
-        "ytd": -4.27
+        "jour": 1.36,
+        "semaine": -1.52,
+        "mois": -7.63,
+        "ytd": -4.22
       },
       "min_max": {
         "min": 6863.02,
@@ -7409,7 +7406,7 @@
       "note_lecture": "Le taux de change euro-dollar determine le prix de tout ce qui est importe en dollars : petrole, matieres premieres, electronique. Un euro faible rencherit les importations et alimente l'inflation."
     },
     "or": {
-      "valeur": 4571.7,
+      "valeur": 4572.8,
       "date": "2026-03-25",
       "unite": "USD/oz",
       "source": "Yahoo Finance",
@@ -8929,16 +8926,16 @@
         },
         {
           "date": "2026-03-25",
-          "valeur": 4571.7,
-          "ma50": 4948.42,
-          "ma200": 4080.04
+          "valeur": 4572.8,
+          "ma50": 4948.45,
+          "ma200": 4080.05
         }
       ],
       "variations": {
-        "jour": 3.92,
-        "semaine": -6.51,
-        "mois": -12.16,
-        "ytd": 5.96
+        "jour": 3.94,
+        "semaine": -6.48,
+        "mois": -12.14,
+        "ytd": 5.99
       },
       "min_max": {
         "min": 2951.3,
@@ -22122,7 +22119,7 @@
     "sources": "INSEE - Enquête Emploi, DARES"
   },
   "previsions_cftc": {
-    "generated_at": "2026-03-25T14:59:18.675479",
+    "generated_at": "2026-03-25T15:02:32.905735",
     "model_version": "CFTC v4.0 (Monte Carlo)",
     "n_simulations": 1000,
     "horizon": "12 mois",
