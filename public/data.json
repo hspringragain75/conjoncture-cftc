@@ -1,6 +1,6 @@
 {
-  "last_updated": "25/03/2026 13:29",
-  "last_updated_iso": "2026-03-25T13:29:13.681964",
+  "last_updated": "25/03/2026 13:42",
+  "last_updated_iso": "2026-03-25T13:42:23.634767",
   "contact": "hspringragain@cftc.fr",
   "alertes": [
     {
@@ -32,7 +32,7 @@
       "date": "2026-03-25",
       "type": "info",
       "titre": "🔄 Données actualisées",
-      "message": "Le tableau de bord a été mis à jour le 25/03/2026 à 13:29.",
+      "message": "Le tableau de bord a été mis à jour le 25/03/2026 à 13:42.",
       "onglet": "conjoncture"
     }
   ],
@@ -193,7 +193,7 @@
     }
   ],
   "revue_presse": {
-    "derniere_maj": "25/03/2026 13:29",
+    "derniere_maj": "25/03/2026 13:42",
     "nb_sources": 7,
     "sources_noms": [
       "Le Monde Éco",
@@ -206,6 +206,18 @@
     ],
     "a_la_une": [],
     "tous": [
+      {
+        "source": "Le Figaro Éco",
+        "couleur": "#92400e",
+        "emoji": "📊",
+        "tag": "Presse économique",
+        "titre": "Contrairement au gaz, pourquoi les prix de l’électricité ne s’envolent pas en France",
+        "resume": "DÉCRYPTAGE - La stratégie énergétique de la France lui permet de tirer son épingle du jeu, notamment vis-à-vis d’autres pays européens.",
+        "lien": "https://www.lefigaro.fr/societes/contrairement-au-gaz-pourquoi-les-prix-de-l-electricite-ne-s-envolent-pas-en-france-20260325",
+        "date_iso": "2026-03-25T14:30:31+01:00",
+        "date_fr": "25/03/2026",
+        "pertinence": 0
+      },
       {
         "source": "Le Figaro Éco",
         "couleur": "#92400e",
@@ -227,6 +239,18 @@
         "resume": "DÉCRYPTAGE - L’Iran a annoncé mardi autoriser le passage de certains navires dans le détroit d’Ormuz, quasi paralysé depuis le début du conflit au Moyen-Orient. Derrière ce signal de bonne volonté, les incertitudes restent nombreuses. Le Figaro fait le point en cinq questions.",
         "lien": "https://www.lefigaro.fr/conjoncture/navires-autorises-impact-sur-le-petrole-tout-comprendre-a-la-reouverture-partielle-du-detroit-d-ormuz-annoncee-par-l-iran-20260325",
         "date_iso": "2026-03-25T13:57:32+01:00",
+        "date_fr": "25/03/2026",
+        "pertinence": 0
+      },
+      {
+        "source": "Euractiv FR",
+        "couleur": "#0369a1",
+        "emoji": "🇪🇺",
+        "tag": "Europe & politique",
+        "titre": "La Commission s apprête à agir contre la tarification « discriminatoire » du diesel en Slovaquie",
+        "resume": "Selon la Commission, la tentative de Bratislava de protéger les Slovaques de la flambée des prix du pétrole est « contraire au droit de l'Union européenne » The post La Commission s&rsquo;apprête à agir contre la tarification « discriminatoire » du diesel en Slovaquie appeared first on Euractiv FR .",
+        "lien": "https://euractiv.fr/news/la-commission-sapprete-a-agir-contre-la-tarification-discriminatoire-du-diesel-en-slovaquie/",
+        "date_iso": "2026-03-25T13:30:02+00:00",
         "date_fr": "25/03/2026",
         "pertinence": 0
       },
@@ -347,18 +371,6 @@
         "resume": "Avec la révolution de l’IA, les cyberattaques deviennent de plus en plus sophistiquées et coûteuses, alerte le réassureur Munich Re dans une étude publiée ce mercredi.",
         "lien": "https://www.lefigaro.fr/secteur/high-tech/si-la-cybercriminalite-etait-un-pays-elle-serait-la-troisieme-economie-mondiale-pointe-une-etude-20260325",
         "date_iso": "2026-03-25T12:26:28+01:00",
-        "date_fr": "25/03/2026",
-        "pertinence": 0
-      },
-      {
-        "source": "Le Figaro Éco",
-        "couleur": "#92400e",
-        "emoji": "📊",
-        "tag": "Presse économique",
-        "titre": "Contrairement au gaz, pourquoi les prix de l’électricité ne s’envolent pas en France",
-        "resume": "DÉCRYPTAGE - La stratégie énergétique de la France lui permet de tirer son épingle du jeu, notamment vis-à-vis d’autres pays européens.",
-        "lien": "https://www.lefigaro.fr/societes/contrairement-au-gaz-pourquoi-les-prix-de-l-electricite-ne-s-envolent-pas-en-france-20260325",
-        "date_iso": "2026-03-25T12:21:09+01:00",
         "date_fr": "25/03/2026",
         "pertinence": 0
       },
@@ -553,18 +565,6 @@
         "date_iso": "2026-03-25T09:31:24+01:00",
         "date_fr": "25/03/2026",
         "pertinence": 1
-      },
-      {
-        "source": "Euractiv FR",
-        "couleur": "#0369a1",
-        "emoji": "🇪🇺",
-        "tag": "Europe & politique",
-        "titre": "Frederiksen chancelle mais reste favorite pour un troisième mandat dans un Parlement fragmenté",
-        "resume": "Les élections anticipées ont fait chuter la popularité des sociaux-démocrates danois à son plus bas niveau depuis un siècle The post Frederiksen chancelle mais reste favorite pour un troisième mandat dans un Parlement fragmenté appeared first on Euractiv FR .",
-        "lien": "https://euractiv.fr/news/frederiksen-chancelle-mais-reste-favorite-pour-un-troisieme-mandat-dans-un-parlement-fragmente/",
-        "date_iso": "2026-03-25T09:19:15+00:00",
-        "date_fr": "25/03/2026",
-        "pertinence": 0
       }
     ]
   },
@@ -823,7 +823,7 @@
     "ecart_hf_eqtp": 25.8,
     "difficultes_recrutement": 61,
     "irl_glissement": 0.79,
-    "prix_gazole": 2.228,
+    "prix_gazole": 2.229,
     "taux_effort_locataires": 29.6,
     "croissance_pib": 0.7,
     "climat_affaires": 97,
@@ -1732,9 +1732,9 @@
   },
   "carburants": {
     "gazole": {
-      "prix": 2.228,
-      "variation_an": 20.4,
-      "variation_sem": 41.0
+      "prix": 2.229,
+      "variation_an": 20.5,
+      "variation_sem": 41.1
     },
     "sp95": {
       "prix": 2.027,
@@ -1742,7 +1742,7 @@
       "variation_sem": 17.8
     },
     "sp98": {
-      "prix": 2.082,
+      "prix": 2.083,
       "variation_an": 11.4,
       "variation_sem": 17.8
     },
@@ -2027,13 +2027,13 @@
       },
       {
         "date": "2026-03-25",
-        "gazole": 2.228,
+        "gazole": 2.229,
         "sp95": 2.027,
-        "sp98": 2.082,
+        "sp98": 2.083,
         "e10": 1.981
       }
     ],
-    "derniere_donnee": "2026-03-25 12:57",
+    "derniere_donnee": "2026-03-25 13:58",
     "source": "data.economie.gouv.fr (flux instantané)",
     "granularite": "quotidien"
   },
@@ -2610,7 +2610,7 @@
       "note_lecture": "Le TEC-10 mesure le rendement des emprunts d'Etat francais a 10 ans. Un taux eleve rencherit le cout de la dette publique et impacte les taux de credit immobilier."
     },
     "petrole_brent": {
-      "valeur": 95.04,
+      "valeur": 95.15,
       "date": "2026-03-25",
       "unite": "USD/baril",
       "source": "Yahoo Finance",
@@ -4130,16 +4130,16 @@
         },
         {
           "date": "2026-03-25",
-          "valeur": 95.04,
+          "valeur": 95.15,
           "ma50": 78.28,
           "ma200": 69.03
         }
       ],
       "variations": {
-        "jour": -9.04,
-        "semaine": -11.49,
-        "mois": 32.94,
-        "ytd": 56.44
+        "jour": -8.94,
+        "semaine": -11.39,
+        "mois": 33.1,
+        "ytd": 56.63
       },
       "min_max": {
         "min": 58.92,
@@ -4150,9 +4150,9 @@
       "note_lecture": "Le prix du Brent influence directement les couts de transport et d'energie, donc l'inflation et le pouvoir d'achat des salaries."
     },
     "cac40": {
-      "valeur": 7852.44,
+      "valeur": 7856.85,
       "date": "2026-03-25",
-      "variation_jour_pct": 1.4,
+      "variation_jour_pct": 1.46,
       "unite": "points",
       "source": "Yahoo Finance",
       "nb_points": 256,
@@ -5689,16 +5689,16 @@
         },
         {
           "date": "2026-03-25",
-          "valeur": 7852.44,
-          "ma50": 8169.97,
-          "ma200": 7995.22
+          "valeur": 7856.85,
+          "ma50": 8170.05,
+          "ma200": 7995.24
         }
       ],
       "variations": {
-        "jour": 1.4,
-        "semaine": -1.47,
-        "mois": -7.59,
-        "ytd": -4.18
+        "jour": 1.46,
+        "semaine": -1.42,
+        "mois": -7.54,
+        "ytd": -4.13
       },
       "min_max": {
         "min": 6863.02,
@@ -7279,7 +7279,7 @@
       "note_lecture": "Le taux de change euro-dollar determine le prix de tout ce qui est importe en dollars : petrole, matieres premieres, electronique. Un euro faible rencherit les importations et alimente l'inflation."
     },
     "or": {
-      "valeur": 4558.4,
+      "valeur": 4568.0,
       "date": "2026-03-25",
       "unite": "USD/oz",
       "source": "Yahoo Finance",
@@ -8799,16 +8799,16 @@
         },
         {
           "date": "2026-03-25",
-          "valeur": 4558.4,
-          "ma50": 4948.16,
-          "ma200": 4079.98
+          "valeur": 4568.0,
+          "ma50": 4948.35,
+          "ma200": 4080.03
         }
       ],
       "variations": {
-        "jour": 3.62,
-        "semaine": -6.78,
-        "mois": -12.42,
-        "ytd": 5.66
+        "jour": 3.83,
+        "semaine": -6.58,
+        "mois": -12.23,
+        "ytd": 5.88
       },
       "min_max": {
         "min": 2951.3,
@@ -10359,7 +10359,7 @@
       "note_lecture": "Le prix du gaz naturel (TTF europeen) impacte directement les factures de chauffage et d'electricite des menages, ainsi que les couts de production industrielle."
     },
     "ble": {
-      "valeur": 586.0,
+      "valeur": 588.0,
       "date": "2026-03-25",
       "unite": "cents/boisseau",
       "source": "Yahoo Finance",
@@ -11873,16 +11873,16 @@
         },
         {
           "date": "2026-03-25",
-          "valeur": 586.0,
-          "ma50": 557.01,
-          "ma200": 531.68
+          "valeur": 588.0,
+          "ma50": 557.05,
+          "ma200": 531.69
         }
       ],
       "variations": {
-        "jour": -0.68,
-        "semaine": -3.02,
-        "mois": 2.9,
-        "ytd": 15.7
+        "jour": -0.34,
+        "semaine": -2.69,
+        "mois": 3.25,
+        "ytd": 16.09
       },
       "min_max": {
         "min": 495.0,
@@ -11893,7 +11893,7 @@
       "note_lecture": "Le cours du ble est un indicateur avance des prix alimentaires. La France etant le premier producteur europeen, son evolution impacte a la fois les consommateurs et le secteur agricole."
     },
     "lme_cuivre": {
-      "valeur": 5.52,
+      "valeur": 5.53,
       "date": "2026-03-25",
       "unite": "cts/lb",
       "source": "Yahoo Finance",
@@ -13413,16 +13413,16 @@
         },
         {
           "date": "2026-03-25",
-          "valeur": 5.52,
+          "valeur": 5.53,
           "ma50": 5.81,
           "ma200": 5.22
         }
       ],
       "variations": {
-        "jour": 1.85,
-        "semaine": -0.54,
-        "mois": -4.33,
-        "ytd": -2.13
+        "jour": 2.03,
+        "semaine": -0.36,
+        "mois": -4.16,
+        "ytd": -1.95
       },
       "min_max": {
         "min": 4.13,
@@ -21992,7 +21992,7 @@
     "sources": "INSEE - Enquête Emploi, DARES"
   },
   "previsions_cftc": {
-    "generated_at": "2026-03-25T13:29:13.968559",
+    "generated_at": "2026-03-25T13:42:23.886015",
     "model_version": "CFTC v4.0 (Monte Carlo)",
     "n_simulations": 1000,
     "horizon": "12 mois",
