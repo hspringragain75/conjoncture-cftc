@@ -1,6 +1,6 @@
 {
-  "last_updated": "25/03/2026 10:17",
-  "last_updated_iso": "2026-03-25T10:17:01.579865",
+  "last_updated": "25/03/2026 10:28",
+  "last_updated_iso": "2026-03-25T10:28:37.113648",
   "contact": "hspringragain@cftc.fr",
   "alertes": [
     {
@@ -32,7 +32,7 @@
       "date": "2026-03-25",
       "type": "info",
       "titre": "🔄 Données actualisées",
-      "message": "Le tableau de bord a été mis à jour le 25/03/2026 à 10:16.",
+      "message": "Le tableau de bord a été mis à jour le 25/03/2026 à 10:28.",
       "onglet": "conjoncture"
     }
   ],
@@ -193,7 +193,7 @@
     }
   ],
   "revue_presse": {
-    "derniere_maj": "25/03/2026 10:17",
+    "derniere_maj": "25/03/2026 10:28",
     "nb_sources": 7,
     "sources_noms": [
       "Le Monde Éco",
@@ -206,6 +206,42 @@
     ],
     "a_la_une": [],
     "tous": [
+      {
+        "source": "Le Figaro Éco",
+        "couleur": "#92400e",
+        "emoji": "📊",
+        "tag": "Presse économique",
+        "titre": "SpaceX va déposer son dossier d'entrée en Bourse dans les prochains jours, selon The Information",
+        "resume": "Selon The Information, les conseillers de SpaceX sur cette opération estiment qu’elle pourrait vendre pour 75 milliards de dollars de titres, ce qui équivaudrait au triple de la plus grosse levée jamais réalisée.",
+        "lien": "https://www.lefigaro.fr/societes/spacex-va-deposer-son-dossier-d-entree-en-bourse-dans-les-prochains-jours-selon-the-information-20260325",
+        "date_iso": "2026-03-25T11:18:35+01:00",
+        "date_fr": "25/03/2026",
+        "pertinence": 1
+      },
+      {
+        "source": "Le Figaro Éco",
+        "couleur": "#92400e",
+        "emoji": "📊",
+        "tag": "Presse économique",
+        "titre": "Guerre au Moyen-Orient : le pétrole chute de 6% après les annonces de l’Iran sur le détroit d’Ormuz",
+        "resume": "La possible réouverture du détroit promise par Téhéran pour les navires «non hostiles» a également rassuré les investisseurs en Bourse.",
+        "lien": "https://www.lefigaro.fr/conjoncture/guerre-au-moyen-orient-le-petrole-chute-de-6-apres-les-annonces-de-l-iran-sur-le-detroit-d-ormuz-20260325",
+        "date_iso": "2026-03-25T11:17:25+01:00",
+        "date_fr": "25/03/2026",
+        "pertinence": 0
+      },
+      {
+        "source": "Le Figaro Éco",
+        "couleur": "#92400e",
+        "emoji": "📊",
+        "tag": "Presse économique",
+        "titre": "Les Bourses européennes ouvrent en hausse, portées par les espoirs d’une résolution de la guerre au Moyen-Orient",
+        "resume": "Les marchés semblent rassurés par les dernières déclarations américaines évoquant un plan de paix en 15 points transmis à l’Iran.",
+        "lien": "https://www.lefigaro.fr/conjoncture/les-bourses-europeennes-ouvrent-en-hausse-portees-par-les-espoirs-d-une-resolution-de-la-guerre-au-moyen-orient-20260325",
+        "date_iso": "2026-03-25T11:12:35+01:00",
+        "date_fr": "25/03/2026",
+        "pertinence": 0
+      },
       {
         "source": "Le Monde Éco",
         "couleur": "#374151",
@@ -239,18 +275,6 @@
         "resume": "Sans amélioration rapide de la situation dans le détroit d’Ormuz, «la crise pourrait se diffuser plus largement à l’économie, et être au fond d’une nature plus systémique», a alerté Roland Lescure devant les députés.",
         "lien": "https://www.lefigaro.fr/conjoncture/guerre-au-moyen-orient-le-ministre-de-l-economie-roland-lescure-evoque-un-nouveau-choc-petrolier-20260324",
         "date_iso": "2026-03-25T10:57:54+01:00",
-        "date_fr": "25/03/2026",
-        "pertinence": 0
-      },
-      {
-        "source": "Le Figaro Éco",
-        "couleur": "#92400e",
-        "emoji": "📊",
-        "tag": "Presse économique",
-        "titre": "Guerre au Moyen-Orient : le pétrole chute de 6% après les annonces de l’Iran sur le détroit d’Ormuz",
-        "resume": "La possible réouverture du détroit promise par Téhéran pour les navires «non hostiles» a également rassuré les investisseurs en Bourse.",
-        "lien": "https://www.lefigaro.fr/conjoncture/guerre-au-moyen-orient-le-petrole-chute-de-6-apres-les-annonces-de-l-iran-sur-le-detroit-d-ormuz-20260325",
-        "date_iso": "2026-03-25T10:44:33+01:00",
         "date_fr": "25/03/2026",
         "pertinence": 0
       },
@@ -325,18 +349,6 @@
         "date_iso": "2026-03-25T09:31:24+01:00",
         "date_fr": "25/03/2026",
         "pertinence": 1
-      },
-      {
-        "source": "Le Figaro Éco",
-        "couleur": "#92400e",
-        "emoji": "📊",
-        "tag": "Presse économique",
-        "titre": "Les Bourses européennes ouvrent en hausse, portées par les espoirs d’une résolution de la guerre au Moyen-Orient",
-        "resume": "Les marchés semblent rassurés par les dernières déclarations américaines évoquant un plan de paix en 15 points transmis à l’Iran.",
-        "lien": "https://www.lefigaro.fr/conjoncture/les-bourses-europeennes-ouvrent-en-hausse-portees-par-les-espoirs-d-une-resolution-de-la-guerre-au-moyen-orient-20260325",
-        "date_iso": "2026-03-25T09:24:42+01:00",
-        "date_fr": "25/03/2026",
-        "pertinence": 0
       },
       {
         "source": "Euractiv FR",
@@ -541,18 +553,6 @@
         "date_iso": "2026-03-25T04:06:21+01:00",
         "date_fr": "25/03/2026",
         "pertinence": 0
-      },
-      {
-        "source": "Le Figaro Éco",
-        "couleur": "#92400e",
-        "emoji": "📊",
-        "tag": "Presse économique",
-        "titre": "SpaceX va déposer son dossier d'entrée en Bourse dans les prochains jours, selon The Information",
-        "resume": "Selon The Information, les conseillers de SpaceX sur cette opération estiment qu’elle pourrait vendre pour 75 milliards de dollars de titres, ce qui équivaudrait au triple de la plus grosse levée jamais réalisée.",
-        "lien": "https://www.lefigaro.fr/societes/spacex-va-deposer-son-dossier-d-entree-en-bourse-dans-les-prochains-jours-selon-the-information-20260325",
-        "date_iso": "2026-03-25T03:52:07+01:00",
-        "date_fr": "25/03/2026",
-        "pertinence": 1
       },
       {
         "source": "Le Figaro Éco",
@@ -815,10 +815,10 @@
     "smic_net": 1443.11,
     "salaire_median": 2190,
     "salaire_moyen": 2733,
-    "ecart_hf_eqtp": 25.8,
+    "ecart_hf_eqtp": 14.0,
     "difficultes_recrutement": 61,
     "irl_glissement": 0.79,
-    "prix_gazole": 2.225,
+    "prix_gazole": 2.226,
     "taux_effort_locataires": 29.6,
     "croissance_pib": 0.7,
     "climat_affaires": 97,
@@ -855,36 +855,36 @@
   },
   "ecart_hommes_femmes": {
     "ecart_global": 21.8,
-    "ecart_eqtp": 25.8,
+    "ecart_eqtp": 14.0,
     "ecart_poste_comparable": 4.0,
     "evolution": [
       {
-        "annee": "2018",
-        "ecart": 23.2
+        "annee": "2015",
+        "ecart": 18.4
+      },
+      {
+        "annee": "2017",
+        "ecart": 16.6
       },
       {
         "annee": "2019",
-        "ecart": 23.8
-      },
-      {
-        "annee": "2020",
-        "ecart": 24.5
+        "ecart": 16.1
       },
       {
         "annee": "2021",
-        "ecart": 24.3
+        "ecart": 15.5
       },
       {
         "annee": "2022",
-        "ecart": 25.1
+        "ecart": 14.9
       },
       {
         "annee": "2023",
-        "ecart": 25.6
+        "ecart": 14.2
       },
       {
         "annee": "2024",
-        "ecart": 25.8
+        "ecart": 14.0
       }
     ]
   },
@@ -1054,51 +1054,51 @@
   "types_contrats": [
     {
       "trimestre": "T1 2023",
-      "cdi": 74.5,
-      "cdd": 8.8,
-      "interim": 2.2
+      "cdi": 83.2,
+      "cdd": 5.4,
+      "interim": 1.4
     },
     {
       "trimestre": "T2 2023",
-      "cdi": 74.3,
-      "cdd": 9.0,
-      "interim": 2.1
+      "cdi": 83.2,
+      "cdd": 5.4,
+      "interim": 1.4
     },
     {
       "trimestre": "T3 2023",
-      "cdi": 74.4,
-      "cdd": 8.9,
-      "interim": 2.0
+      "cdi": 83.4,
+      "cdd": 5.3,
+      "interim": 1.3
     },
     {
       "trimestre": "T4 2023",
-      "cdi": 74.6,
-      "cdd": 8.7,
-      "interim": 2.0
+      "cdi": 83.4,
+      "cdd": 5.3,
+      "interim": 1.3
     },
     {
       "trimestre": "T1 2024",
-      "cdi": 74.8,
-      "cdd": 8.5,
-      "interim": 1.9
+      "cdi": 83.4,
+      "cdd": 5.3,
+      "interim": 1.3
     },
     {
       "trimestre": "T2 2024",
-      "cdi": 74.7,
-      "cdd": 8.6,
-      "interim": 1.9
+      "cdi": 83.4,
+      "cdd": 5.3,
+      "interim": 1.3
     },
     {
       "trimestre": "T3 2024",
-      "cdi": 74.9,
-      "cdd": 8.4,
-      "interim": 1.8
+      "cdi": 83.4,
+      "cdd": 5.3,
+      "interim": 1.3
     },
     {
       "trimestre": "T4 2024",
-      "cdi": 75.0,
-      "cdd": 8.3,
-      "interim": 1.8
+      "cdi": 83.5,
+      "cdd": 5.2,
+      "interim": 1.3
     },
     {
       "trimestre": "T1 2025",
@@ -1128,57 +1128,57 @@
   "difficultes_recrutement": [
     {
       "trimestre": "T1 2023",
-      "industrie": 65,
-      "services": 48,
-      "construction": 78
+      "industrie": 52,
+      "services": 38,
+      "construction": 65
     },
     {
       "trimestre": "T2 2023",
-      "industrie": 64,
-      "services": 48,
-      "construction": 76
-    },
-    {
-      "trimestre": "T3 2023",
-      "industrie": 60,
-      "services": 45,
-      "construction": 72
-    },
-    {
-      "trimestre": "T4 2023",
-      "industrie": 57,
-      "services": 42,
-      "construction": 68
-    },
-    {
-      "trimestre": "T1 2024",
-      "industrie": 53,
-      "services": 39,
-      "construction": 63
-    },
-    {
-      "trimestre": "T2 2024",
-      "industrie": 52,
-      "services": 39,
+      "industrie": 50,
+      "services": 36,
       "construction": 62
     },
     {
-      "trimestre": "T3 2024",
+      "trimestre": "T3 2023",
       "industrie": 48,
-      "services": 36,
-      "construction": 57
+      "services": 35,
+      "construction": 60
     },
     {
-      "trimestre": "T4 2024",
-      "industrie": 46,
-      "services": 34,
+      "trimestre": "T4 2023",
+      "industrie": 45,
+      "services": 33,
+      "construction": 58
+    },
+    {
+      "trimestre": "T1 2024",
+      "industrie": 43,
+      "services": 32,
       "construction": 55
     },
     {
-      "trimestre": "T1 2025",
-      "industrie": 44,
-      "services": 33,
+      "trimestre": "T2 2024",
+      "industrie": 41,
+      "services": 30,
       "construction": 52
+    },
+    {
+      "trimestre": "T3 2024",
+      "industrie": 40,
+      "services": 30,
+      "construction": 50
+    },
+    {
+      "trimestre": "T4 2024",
+      "industrie": 38,
+      "services": 28,
+      "construction": 48
+    },
+    {
+      "trimestre": "T1 2025",
+      "industrie": 36,
+      "services": 27,
+      "construction": 46
     },
     {
       "trimestre": "T2 2025",
@@ -1633,25 +1633,40 @@
     ]
   },
   "prix_immobilier": {
-    "indice_actuel": 127.6,
+    "indice_actuel": 128.5,
     "variation_trim": 0.7,
-    "variation_an": 1.0,
+    "variation_an": -1.8,
     "transactions_annuelles": 880000,
     "evolution": [
       {
-        "trimestre": "T1 2024",
-        "indice": 126.0,
-        "variation": -4.8
+        "trimestre": "T1 2022",
+        "indice": 124.5,
+        "variation": 7.2
       },
       {
-        "trimestre": "T2 2024",
-        "indice": 125.7,
-        "variation": -4.6
+        "trimestre": "T3 2022",
+        "indice": 126.8,
+        "variation": 6.1
+      },
+      {
+        "trimestre": "T1 2023",
+        "indice": 124.2,
+        "variation": -0.2
+      },
+      {
+        "trimestre": "T3 2023",
+        "indice": 120.5,
+        "variation": -5.0
+      },
+      {
+        "trimestre": "T1 2024",
+        "indice": 117.8,
+        "variation": -5.1
       },
       {
         "trimestre": "T3 2024",
-        "indice": 127.6,
-        "variation": -3.5
+        "indice": 115.3,
+        "variation": -4.3
       },
       {
         "trimestre": "T4 2024",
@@ -1672,11 +1687,6 @@
         "trimestre": "T3 2025",
         "indice": 128.5,
         "variation": 0.7
-      },
-      {
-        "trimestre": "T4 2025",
-        "indice": 127.6,
-        "variation": 1.0
       }
     ],
     "par_zone": [
@@ -1704,24 +1714,24 @@
   },
   "carburants": {
     "gazole": {
-      "prix": 2.225,
+      "prix": 2.226,
       "variation_an": 20.3,
-      "variation_sem": 40.8
+      "variation_sem": 40.9
     },
     "sp95": {
-      "prix": 2.026,
-      "variation_an": 11.3,
-      "variation_sem": 17.8
+      "prix": 2.028,
+      "variation_an": 11.4,
+      "variation_sem": 17.9
     },
     "sp98": {
-      "prix": 2.081,
-      "variation_an": 11.3,
-      "variation_sem": 17.8
+      "prix": 2.085,
+      "variation_an": 11.4,
+      "variation_sem": 17.9
     },
     "e10": {
-      "prix": 1.981,
+      "prix": 1.982,
       "variation_an": 10.7,
-      "variation_sem": 17.9
+      "variation_sem": 18.0
     },
     "evolution": [
       {
@@ -1999,13 +2009,13 @@
       },
       {
         "date": "2026-03-25",
-        "gazole": 2.225,
-        "sp95": 2.026,
-        "sp98": 2.081,
-        "e10": 1.981
+        "gazole": 2.226,
+        "sp95": 2.028,
+        "sp98": 2.085,
+        "e10": 1.982
       }
     ],
-    "derniere_donnee": "2026-03-25 09:49",
+    "derniere_donnee": "2026-03-25 10:49",
     "source": "data.economie.gouv.fr (flux instantané)",
     "granularite": "quotidien"
   },
@@ -4064,7 +4074,7 @@
       "note_lecture": "Le TEC-10 mesure le rendement des emprunts d'Etat francais a 10 ans. Un taux eleve rencherit le cout de la dette publique et impacte les taux de credit immobilier."
     },
     "petrole_brent": {
-      "valeur": 94.86,
+      "valeur": 94.63,
       "date": "2026-03-25",
       "unite": "USD/baril",
       "source": "Yahoo Finance",
@@ -5584,16 +5594,16 @@
         },
         {
           "date": "2026-03-25",
-          "valeur": 94.86,
-          "ma50": 78.28,
+          "valeur": 94.63,
+          "ma50": 78.27,
           "ma200": 69.03
         }
       ],
       "variations": {
-        "jour": -9.22,
-        "semaine": -11.66,
-        "mois": 32.69,
-        "ytd": 56.15
+        "jour": -9.44,
+        "semaine": -11.87,
+        "mois": 32.37,
+        "ytd": 55.77
       },
       "min_max": {
         "min": 58.92,
@@ -5604,9 +5614,9 @@
       "note_lecture": "Le prix du Brent influence directement les couts de transport et d'energie, donc l'inflation et le pouvoir d'achat des salaries."
     },
     "cac40": {
-      "valeur": 7858.03,
+      "valeur": 7859.24,
       "date": "2026-03-25",
-      "variation_jour_pct": 1.47,
+      "variation_jour_pct": 1.49,
       "unite": "points",
       "source": "Yahoo Finance",
       "nb_points": 256,
@@ -7143,16 +7153,16 @@
         },
         {
           "date": "2026-03-25",
-          "valeur": 7858.03,
-          "ma50": 8170.08,
+          "valeur": 7859.24,
+          "ma50": 8170.1,
           "ma200": 7995.25
         }
       ],
       "variations": {
-        "jour": 1.47,
-        "semaine": -1.4,
-        "mois": -7.52,
-        "ytd": -4.11
+        "jour": 1.49,
+        "semaine": -1.39,
+        "mois": -7.51,
+        "ytd": -4.1
       },
       "min_max": {
         "min": 6863.02,
@@ -8733,7 +8743,7 @@
       "note_lecture": "Le taux de change euro-dollar determine le prix de tout ce qui est importe en dollars : petrole, matieres premieres, electronique. Un euro faible rencherit les importations et alimente l'inflation."
     },
     "or": {
-      "valeur": 4556.9,
+      "valeur": 4554.0,
       "date": "2026-03-25",
       "unite": "USD/oz",
       "source": "Yahoo Finance",
@@ -10253,16 +10263,16 @@
         },
         {
           "date": "2026-03-25",
-          "valeur": 4556.9,
-          "ma50": 4948.13,
-          "ma200": 4079.97
+          "valeur": 4554.0,
+          "ma50": 4948.07,
+          "ma200": 4079.96
         }
       ],
       "variations": {
-        "jour": 3.58,
-        "semaine": -6.81,
-        "mois": -12.45,
-        "ytd": 5.62
+        "jour": 3.52,
+        "semaine": -6.87,
+        "mois": -12.5,
+        "ytd": 5.55
       },
       "min_max": {
         "min": 2951.3,
@@ -10273,7 +10283,7 @@
       "note_lecture": "L'or est la valeur refuge par excellence. Sa hausse traduit une montee de l'incertitude economique ou geopolitique. Il sert aussi de protection contre l'inflation."
     },
     "gaz_naturel": {
-      "valeur": 50.6,
+      "valeur": 50.21,
       "date": "2026-03-25",
       "unite": "EUR/MWh",
       "source": "Yahoo Finance (TTF)",
@@ -11793,16 +11803,16 @@
         },
         {
           "date": "2026-03-25",
-          "valeur": 50.6,
+          "valeur": 50.21,
           "ma50": 40.92,
           "ma200": 34.17
         }
       ],
       "variations": {
-        "jour": -6.37,
-        "semaine": -7.43,
-        "mois": 58.97,
-        "ytd": 74.48
+        "jour": -7.09,
+        "semaine": -8.14,
+        "mois": 57.74,
+        "ytd": 73.14
       },
       "min_max": {
         "min": 26.6,
@@ -11813,7 +11823,7 @@
       "note_lecture": "Le prix du gaz naturel (TTF europeen) impacte directement les factures de chauffage et d'electricite des menages, ainsi que les couts de production industrielle."
     },
     "ble": {
-      "valeur": 582.0,
+      "valeur": 583.25,
       "date": "2026-03-25",
       "unite": "cents/boisseau",
       "source": "Yahoo Finance",
@@ -13327,16 +13337,16 @@
         },
         {
           "date": "2026-03-25",
-          "valeur": 582.0,
-          "ma50": 556.93,
+          "valeur": 583.25,
+          "ma50": 556.96,
           "ma200": 531.66
         }
       ],
       "variations": {
-        "jour": -1.36,
-        "semaine": -3.68,
-        "mois": 2.19,
-        "ytd": 14.91
+        "jour": -1.14,
+        "semaine": -3.48,
+        "mois": 2.41,
+        "ytd": 15.15
       },
       "min_max": {
         "min": 495.0,
@@ -13347,7 +13357,7 @@
       "note_lecture": "Le cours du ble est un indicateur avance des prix alimentaires. La France etant le premier producteur europeen, son evolution impacte a la fois les consommateurs et le secteur agricole."
     },
     "lme_cuivre": {
-      "valeur": 5.54,
+      "valeur": 5.53,
       "date": "2026-03-25",
       "unite": "cts/lb",
       "source": "Yahoo Finance",
@@ -14867,16 +14877,16 @@
         },
         {
           "date": "2026-03-25",
-          "valeur": 5.54,
+          "valeur": 5.53,
           "ma50": 5.81,
           "ma200": 5.22
         }
       ],
       "variations": {
-        "jour": 2.21,
-        "semaine": -0.18,
-        "mois": -3.99,
-        "ytd": -1.77
+        "jour": 2.03,
+        "semaine": -0.36,
+        "mois": -4.16,
+        "ytd": -1.95
       },
       "min_max": {
         "min": 4.13,
@@ -14887,7 +14897,7 @@
       "note_lecture": "Le cuivre est le baromètre de l'activité industrielle mondiale ('Dr Copper'). Sa hausse signale une reprise économique, sa baisse anticipe un ralentissement. Utilisé massivement dans l'électrification et les énergies renouvelables."
     },
     "lme_aluminium": {
-      "valeur": 3149.25,
+      "valeur": 3139.75,
       "date": "2026-03-25",
       "unite": "cts/lb",
       "source": "Yahoo Finance",
@@ -16401,16 +16411,16 @@
         },
         {
           "date": "2026-03-25",
-          "valeur": 3149.25,
-          "ma50": 3112.8,
-          "ma200": 2759.41
+          "valeur": 3139.75,
+          "ma50": 3112.61,
+          "ma200": 2759.36
         }
       ],
       "variations": {
-        "jour": 0.36,
-        "semaine": -4.05,
-        "mois": 4.46,
-        "ytd": 7.19
+        "jour": 0.06,
+        "semaine": -4.34,
+        "mois": 4.15,
+        "ytd": 6.87
       },
       "min_max": {
         "min": 2166.25,
@@ -20317,7 +20327,7 @@
           "2023": 1.92,
           "2024": 1.78,
           "2025": 1.72,
-          "2026": 2.028
+          "2026": 2.026
         },
         "quantiteMensuelle": {
           "solo": 40,
@@ -21638,12 +21648,12 @@
         "nom": "Guadeloupe",
         "code": "GP",
         "emoji": "🌺",
-        "chomage": 16.3,
+        "chomage": 16.6,
         "salaire_median": 1820,
         "emploi": 55.2,
         "population": 0.385,
         "tensions": 38,
-        "evol_chomage": -0.4,
+        "evol_chomage": -0.1,
         "note": "Taux de chômage des jeunes : ~43%"
       },
       {
@@ -24934,7 +24944,7 @@
     "sources": "INSEE - Enquête Emploi, DARES"
   },
   "previsions_cftc": {
-    "generated_at": "2026-03-25T10:17:01.746638",
+    "generated_at": "2026-03-25T10:28:37.281676",
     "model_version": "CFTC v4.0 (Monte Carlo)",
     "n_simulations": 1000,
     "horizon": "12 mois",
