@@ -978,7 +978,7 @@ def generate_predictions_v5(data: Dict) -> Dict:
 
 def main(data_path: str = "public/data.json", output_path: str = None):
     print("=" * 65)
-    print("🔮 CFTC Prévisions v5.0 — Monte Carlo + Marchés Financiers")
+    print("🔮 CFTC Prévisions v5.0 — Monte Carlo")
     print("=" * 65)
 
     with open(data_path, 'r', encoding='utf-8') as f:
