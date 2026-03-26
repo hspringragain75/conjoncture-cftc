@@ -1,6 +1,6 @@
 {
-  "last_updated": "26/03/2026 20:48",
-  "last_updated_iso": "2026-03-26T20:48:19.026449",
+  "last_updated": "26/03/2026 20:56",
+  "last_updated_iso": "2026-03-26T20:56:33.306818",
   "contact": "hspringragain@cftc.fr",
   "alertes": [
     {
@@ -32,7 +32,7 @@
       "date": "2026-03-26",
       "type": "info",
       "titre": "🔄 Données actualisées",
-      "message": "Le tableau de bord a été mis à jour le 26/03/2026 à 20:48.",
+      "message": "Le tableau de bord a été mis à jour le 26/03/2026 à 20:56.",
       "onglet": "conjoncture"
     }
   ],
@@ -193,7 +193,7 @@
     }
   ],
   "revue_presse": {
-    "derniere_maj": "26/03/2026 20:48",
+    "derniere_maj": "26/03/2026 20:56",
     "nb_sources": 7,
     "sources_noms": [
       "Le Monde Éco",
@@ -206,6 +206,18 @@
     ],
     "a_la_une": [],
     "tous": [
+      {
+        "source": "Libération Éco",
+        "couleur": "#dc2626",
+        "emoji": "📰",
+        "tag": "Presse économique",
+        "titre": "Trop risqué, trop cher : OpenAI renonce aux conversations érotiques dans ChatGPT",
+        "resume": "Le leader mondial de l’IA générative, OpenAI, a jeté l’éponge, craignant les effets potentiellement nocifs des conversations sexuelles alors que l’entreprise fait face à plusieurs poursuites judiciaires aux États-Unis concernant l’impact des nouvelles technologies sur la santé mentale.",
+        "lien": "https://www.liberation.fr/economie/economie-numerique/trop-risque-trop-cher-openai-renonce-aux-conversations-erotiques-dans-chatgpt-20260326_ISQROKUKMZFYTCMN3S6ZDVL6JU/",
+        "date_iso": "2026-03-26T20:48:09+00:00",
+        "date_fr": "26/03/2026",
+        "pertinence": 1
+      },
       {
         "source": "Le Monde Éco",
         "couleur": "#374151",
@@ -553,18 +565,6 @@
         "date_iso": "2026-03-26T14:48:28+00:00",
         "date_fr": "26/03/2026",
         "pertinence": 0
-      },
-      {
-        "source": "Le Figaro Éco",
-        "couleur": "#92400e",
-        "emoji": "📊",
-        "tag": "Presse économique",
-        "titre": "«Si quelques-uns réussissent à s’en sortir, c’est déjà une victoire»: comment France Travail accompagne les détenus vers l’emploi",
-        "resume": "REPORTAGE - Un tiers des détenus sont suivis par l’organisme. Une manière de préparer au mieux leur sortie en limitant la récidive.",
-        "lien": "https://www.lefigaro.fr/social/si-quelques-uns-reussissent-a-s-en-sortir-c-est-deja-une-victoire-comment-france-travail-accompagne-les-detenus-vers-l-emploi-20260326",
-        "date_iso": "2026-03-26T14:15:00+01:00",
-        "date_fr": "26/03/2026",
-        "pertinence": 2
       }
     ]
   },
@@ -2897,7 +2897,7 @@
       "note_lecture": "Le TEC-10 mesure le rendement des emprunts d'Etat francais a 10 ans. Un taux eleve rencherit le cout de la dette publique et impacte les taux de credit immobilier."
     },
     "petrole_brent": {
-      "valeur": 100.36,
+      "valeur": 100.9,
       "date": "2026-03-26",
       "unite": "USD/baril",
       "source": "Yahoo Finance",
@@ -4417,16 +4417,16 @@
         },
         {
           "date": "2026-03-26",
-          "valeur": 100.36,
-          "ma50": 79.12,
+          "valeur": 100.9,
+          "ma50": 79.13,
           "ma200": 69.24
         }
       ],
       "variations": {
-        "jour": -1.82,
-        "semaine": -7.63,
-        "mois": 41.81,
-        "ytd": 65.2
+        "jour": -1.29,
+        "semaine": -7.13,
+        "mois": 42.57,
+        "ytd": 66.09
       },
       "min_max": {
         "min": 58.92,
@@ -7572,7 +7572,7 @@
       "note_lecture": "Le taux de change euro-dollar determine le prix de tout ce qui est importe en dollars : petrole, matieres premieres, electronique. Un euro faible rencherit les importations et alimente l'inflation."
     },
     "or": {
-      "valeur": 4398.3,
+      "valeur": 4404.2,
       "date": "2026-03-26",
       "unite": "USD/oz",
       "source": "Yahoo Finance",
@@ -9092,16 +9092,16 @@
         },
         {
           "date": "2026-03-26",
-          "valeur": 4398.3,
-          "ma50": 4944.17,
-          "ma200": 4085.32
+          "valeur": 4404.2,
+          "ma50": 4944.29,
+          "ma200": 4085.35
         }
       ],
       "variations": {
-        "jour": -3.33,
-        "semaine": -4.4,
-        "mois": -14.69,
-        "ytd": 1.94
+        "jour": -3.2,
+        "semaine": -4.27,
+        "mois": -14.58,
+        "ytd": 2.08
       },
       "min_max": {
         "min": 2951.3,
@@ -12186,7 +12186,7 @@
       "note_lecture": "Le cours du ble est un indicateur avance des prix alimentaires. La France etant le premier producteur europeen, son evolution impacte a la fois les consommateurs et le secteur agricole."
     },
     "lme_cuivre": {
-      "valeur": 5.49,
+      "valeur": 5.48,
       "date": "2026-03-26",
       "unite": "cts/lb",
       "source": "Yahoo Finance",
@@ -13706,16 +13706,16 @@
         },
         {
           "date": "2026-03-26",
-          "valeur": 5.49,
+          "valeur": 5.48,
           "ma50": 5.8,
           "ma200": 5.22
         }
       ],
       "variations": {
-        "jour": -0.72,
-        "semaine": 1.1,
-        "mois": -7.26,
-        "ytd": -2.66
+        "jour": -0.9,
+        "semaine": 0.92,
+        "mois": -7.43,
+        "ytd": -2.84
       },
       "min_max": {
         "min": 4.13,
@@ -22285,7 +22285,7 @@
     "sources": "INSEE - Enquête Emploi, DARES"
   },
   "previsions_cftc": {
-    "generated_at": "2026-03-26T20:48:19.278059",
+    "generated_at": "2026-03-26T20:56:33.483516",
     "model_version": "CFTC v6.0 (Monte Carlo + calibrage dynamique + backtesting)",
     "n_simulations": 1000,
     "horizon": "12 mois",
@@ -22294,7 +22294,7 @@
       "niveau": "excellent",
       "issues": [],
       "warnings": [],
-      "timestamp": "2026-03-26T20:48:19.278070"
+      "timestamp": "2026-03-26T20:56:33.483535"
     },
     "calibrage": {
       "volatilites": {
@@ -22319,16 +22319,16 @@
       "mean_reversion_k": 0.3
     },
     "market_signals": {
-      "inflation_adjustment": 0.169,
+      "inflation_adjustment": 0.175,
       "chomage_adjustment": 0.175,
       "energie_outlook": "hausse"
     },
     "market_signals_details": {
       "brent": {
-        "valeur": 100.36,
+        "valeur": 100.9,
         "ref": 75.0,
-        "variation_ytd_pct": 65.2,
-        "impact_inflation_pt": 0.254
+        "variation_ytd_pct": 66.09,
+        "impact_inflation_pt": 0.259
       },
       "gaz_ttf": {
         "valeur": 55.37,
@@ -22386,7 +22386,7 @@
       "confidence": 0.85,
       "mensuel": {
         "predictions": [
-          1.0,
+          1.1,
           1.1,
           1.2,
           1.3,
@@ -22472,21 +22472,21 @@
         "methodology": "Monte Carlo (1000 sim.) + saisonnalité + marchés + mean reversion non-linéaire (v6)"
       },
       "probabilites": {
-        "inflation_sous_2pct": 92.7,
-        "inflation_cible_bce": 92.7,
+        "inflation_sous_2pct": 92.3,
+        "inflation_cible_bce": 92.3,
         "inflation_au_dessus_3pct": 0.0,
         "inflation_au_dessus_4pct": 0.0,
-        "description": "92.7% de chances que l'inflation reste sous 2% à 12 mois"
+        "description": "92.3% de chances que l'inflation reste sous 2% à 12 mois"
       },
       "facteurs": {
         "cible_bdf": 1.4,
         "ajustement_climat": -0.03,
-        "ajustement_marches": 0.169,
+        "ajustement_marches": 0.175,
         "energie_outlook": "hausse",
-        "cible_ajustee": 1.539,
+        "cible_ajustee": 1.545,
         "volatilite_utilisee": 0.5
       },
-      "insight": "Inflation médiane à 12 mois : 1.6% [IC 80% : 1.2% - 2.0%]. 92.7% de probabilité de rester sous 2%."
+      "insight": "Inflation médiane à 12 mois : 1.6% [IC 80% : 1.2% - 2.0%]. 92.3% de probabilité de rester sous 2%."
     },
     "smic": {
       "current": {
@@ -22684,7 +22684,7 @@
       }
     },
     "notes_lecture": [
-      "📈 Inflation médiane à 12 mois : 1.6% [1.2% - 2.0%] — 92.7% de chances de rester sous 2%",
+      "📈 Inflation médiane à 12 mois : 1.6% [1.2% - 2.0%] — 92.3% de chances de rester sous 2%",
       "💰 SMIC janvier 2027 : 1859€ brut (+2.0%, fourchette 1.6-2.4%)",
       "👥 Chômage Q4 : 7.8% [7.6% - 7.9%] — Tendance stable",
       "📊 Signaux marchés : ↑ inflation 0.17pt, ↑ chômage 0.17pt",
