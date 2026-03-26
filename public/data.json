@@ -1,6 +1,6 @@
 {
-  "last_updated": "26/03/2026 10:02",
-  "last_updated_iso": "2026-03-26T10:02:28.067307",
+  "last_updated": "26/03/2026 10:21",
+  "last_updated_iso": "2026-03-26T10:21:37.167919",
   "contact": "hspringragain@cftc.fr",
   "alertes": [
     {
@@ -32,7 +32,7 @@
       "date": "2026-03-26",
       "type": "info",
       "titre": "🔄 Données actualisées",
-      "message": "Le tableau de bord a été mis à jour le 26/03/2026 à 10:02.",
+      "message": "Le tableau de bord a été mis à jour le 26/03/2026 à 10:21.",
       "onglet": "conjoncture"
     }
   ],
@@ -193,7 +193,7 @@
     }
   ],
   "revue_presse": {
-    "derniere_maj": "26/03/2026 10:02",
+    "derniere_maj": "26/03/2026 10:21",
     "nb_sources": 7,
     "sources_noms": [
       "Le Monde Éco",
@@ -220,6 +220,66 @@
     ],
     "tous": [
       {
+        "source": "Le Figaro Éco",
+        "couleur": "#92400e",
+        "emoji": "📊",
+        "tag": "Presse économique",
+        "titre": "«On ne devient pas expert en finances publiques du jour au lendemain» : les nouveaux maires au défi de la gestion d’une commune",
+        "resume": "RÉCIT - Entre difficultés d’accès à la formation et contraintes budgétaire et normative toujours plus élevées, nombre d’élus se retrouvent livrés à eux-mêmes. Les petites communes sont en première ligne.",
+        "lien": "https://www.lefigaro.fr/conjoncture/on-ne-devient-pas-expert-en-finances-publiques-du-jour-au-lendemain-les-nouveaux-maires-au-defi-de-la-gestion-d-une-commune-20260326",
+        "date_iso": "2026-03-26T11:06:30+01:00",
+        "date_fr": "26/03/2026",
+        "pertinence": 1
+      },
+      {
+        "source": "Le Figaro Éco",
+        "couleur": "#92400e",
+        "emoji": "📊",
+        "tag": "Presse économique",
+        "titre": "Edenred chute en Bourse après l'ouverture d'une enquête de l'Autorité de la concurrence italienne",
+        "resume": "Le groupe, qui commercialise le Ticket Restaurant, a annoncé être visé par une enquête en Italie après la plainte d’acteurs de la grande distribution pour abus de position dominante.",
+        "lien": "https://www.lefigaro.fr/flash-eco/edenred-chute-a-la-bourse-de-paris-apres-l-ouverture-d-une-enquete-de-l-autorite-de-la-concurrence-italienne-20260326",
+        "date_iso": "2026-03-26T11:03:19+01:00",
+        "date_fr": "26/03/2026",
+        "pertinence": 0
+      },
+      {
+        "source": "Le Monde Éco",
+        "couleur": "#374151",
+        "emoji": "🌐",
+        "tag": "Presse économique",
+        "titre": "Dan Jorgensen, commissaire européen à l’énergie : « Il est envisageable de plafonner le prix du gaz »",
+        "resume": "Dan Jorgensen évoque, dans un entretien au « Monde », les réponses possibles des Etats européens face à l’envolée des prix du gaz provoquée par la guerre au Moyen-Orient.",
+        "lien": "https://www.lemonde.fr/economie/article/2026/03/26/dan-jorgensen-commissaire-europeen-a-l-energie-il-est-envisageable-de-plafonner-le-prix-du-gaz_6674340_3234.html",
+        "date_iso": "2026-03-26T11:00:04+01:00",
+        "date_fr": "26/03/2026",
+        "pertinence": 0
+      },
+      {
+        "source": "Le Figaro Éco",
+        "couleur": "#92400e",
+        "emoji": "📊",
+        "tag": "Presse économique",
+        "titre": "Greenpeace France va supprimer un quart de ses effectifs pour faire face à la baisse des dons",
+        "resume": "L’ONG lance un plan de réorganisation pour tenter de préserver «ses campagnes de protection de l’environnement en France et à l’international».",
+        "lien": "https://www.lefigaro.fr/social/greenpeace-france-va-supprimer-un-quart-de-ses-effectifs-pour-faire-face-a-la-baisse-des-dons-20260326",
+        "date_iso": "2026-03-26T10:56:18+01:00",
+        "date_fr": "26/03/2026",
+        "pertinence": 1
+      },
+      {
+        "source": "Le Figaro Éco",
+        "couleur": "#92400e",
+        "emoji": "📊",
+        "tag": "Presse économique",
+        "titre": "Vinci acquiert une concession d’autoroute en Inde pour 1,6 milliard de dollars",
+        "resume": "Le géant français des concessions renforce sa présence en Asie avec l’acquisition du réseau Safeway Concessions, qui s’étend sur près de 700 kilomètres.",
+        "lien": "https://www.lefigaro.fr/societes/vinci-acquiert-une-concession-d-autoroute-en-inde-pour-1-6-milliard-de-dollars-20260326",
+        "date_iso": "2026-03-26T10:37:26+01:00",
+        "date_fr": "26/03/2026",
+        "pertinence": 0
+      },
+      {
         "source": "Le Monde Éco",
         "couleur": "#374151",
         "emoji": "🌐",
@@ -230,6 +290,18 @@
         "date_iso": "2026-03-26T10:11:35+01:00",
         "date_fr": "26/03/2026",
         "pertinence": 2
+      },
+      {
+        "source": "Libération Éco",
+        "couleur": "#dc2626",
+        "emoji": "📰",
+        "tag": "Presse économique",
+        "titre": "Près de la moitié des stations-service indépendantes risquent de fermer dans les dix ans à venir",
+        "resume": "Dans une étude publiée jeudi 26 mars, la fédération Mobilians réclame des mesures de soutien au secteur de la part des pouvoirs publics, afin d’enrayer la «disparition progressive» des distributeurs indépendants.",
+        "lien": "https://www.liberation.fr/economie/pres-de-la-moitie-des-stations-service-independantes-risquent-de-fermer-dans-les-dix-ans-a-venir-20260326_ZVCENMB3RNG3THDYZTE2QMJ3WA/",
+        "date_iso": "2026-03-26T10:02:46+00:00",
+        "date_fr": "26/03/2026",
+        "pertinence": 0
       },
       {
         "source": "Le Monde Éco",
@@ -412,6 +484,18 @@
         "pertinence": 0
       },
       {
+        "source": "Le Figaro Éco",
+        "couleur": "#92400e",
+        "emoji": "📊",
+        "tag": "Presse économique",
+        "titre": "Venezuela : des chiens robots employés pour renforcer la sécurité de la capitale",
+        "resume": "VIDÉO - À Caracas, la sécurité urbaine fait un bond technologique avec l’intégration de chiens robots équipés d’intelligence artificielle pour des missions de surveillance et de patrouille.",
+        "lien": "https://www.lefigaro.fr/secteur/high-tech/venezuela-des-chiens-robots-employes-pour-renforcer-la-securite-de-la-capitale-20260326",
+        "date_iso": "2026-03-26T07:39:26+01:00",
+        "date_fr": "26/03/2026",
+        "pertinence": 0
+      },
+      {
         "source": "Euractiv FR",
         "couleur": "#0369a1",
         "emoji": "🇪🇺",
@@ -444,18 +528,6 @@
         "resume": "Le groupe de défense lance Expeditionary PathMaster, dont le cœur est un centre d’opérations portatif, adapté aux nouveaux besoins des marines dans le monde.",
         "lien": "https://www.lefigaro.fr/economie/thales-lance-une-nouvelle-solution-de-lutte-contre-les-mines-marines-20260326",
         "date_iso": "2026-03-26T07:00:00+01:00",
-        "date_fr": "26/03/2026",
-        "pertinence": 0
-      },
-      {
-        "source": "Le Figaro Éco",
-        "couleur": "#92400e",
-        "emoji": "📊",
-        "tag": "Presse économique",
-        "titre": "Un réseau d’arnaque au faux conseiller bancaire démantelé, onze prévenus jugés à Paris",
-        "resume": "Ils auraient arnaqué une centaine de victimes en se faisant passer pour le service des fraudes de leur banque et les convainquant de remettre leur carte bancaire à un coursier.",
-        "lien": "https://www.lefigaro.fr/conjoncture/un-reseau-d-arnaque-au-faux-conseiller-bancaire-demantele-onze-prevenus-juges-a-paris-20260326",
-        "date_iso": "2026-03-26T06:35:58+01:00",
         "date_fr": "26/03/2026",
         "pertinence": 0
       },
@@ -505,78 +577,6 @@
         "lien": "https://www.lemonde.fr/economie/article/2026/03/26/dans-l-orne-departement-champion-de-la-production-de-gaz-vert-le-biomethane-apporte-un-peu-de-souverainete-energetique-a-nos-territoires_6674295_3234.html",
         "date_iso": "2026-03-26T05:00:24+01:00",
         "date_fr": "26/03/2026",
-        "pertinence": 0
-      },
-      {
-        "source": "Le Monde Éco",
-        "couleur": "#374151",
-        "emoji": "🌐",
-        "tag": "Presse économique",
-        "titre": "« Tout n’est pas possible au nom du lithium » : dans des villages d’Alsace, des habitants inquiets de voir la terre trembler",
-        "resume": "Dans le nord du Bas-Rhin, des riverains se mobilisent contre la multiplication de projets d’exploitation de l’« or blanc », nécessaire à la fabrication des batteries électriques et présent dans l’eau chaude issue des profondeurs de la terre.",
-        "lien": "https://www.lemonde.fr/planete/article/2026/03/26/en-alsace-des-habitants-inquiets-de-voir-la-terre-trembler-a-cause-des-projets-d-extraction-de-lithium_6674294_3244.html",
-        "date_iso": "2026-03-26T05:00:01+01:00",
-        "date_fr": "26/03/2026",
-        "pertinence": 0
-      },
-      {
-        "source": "Terra Nova",
-        "couleur": "#0369a1",
-        "emoji": "🔬",
-        "tag": "Recherche politique",
-        "titre": "Pour un soutien raisonné à l’accession à la propriété",
-        "resume": "Le souhait de devenir propriétaire de son logement est largement partagé par les Français. Aussi les aides publiques en ce sens sont-elles populaires. Elles sont aussi couteuses et, en réalité, peu efficaces dans leur forme actuelle. Elles devraient être repensées, en distinguant en particulier les ",
-        "lien": "https://tnova.fr/economie-social/logement-politique-de-la-ville/pour-un-soutien-raisonne-a-laccession-a-la-propriete/",
-        "date_iso": "2026-03-26T05:00:00+01:00",
-        "date_fr": "26/03/2026",
-        "pertinence": 1
-      },
-      {
-        "source": "Le Monde Éco",
-        "couleur": "#374151",
-        "emoji": "🌐",
-        "tag": "Presse économique",
-        "titre": "Après la condamnation de Meta et Google aux Etats-Unis, les réseaux sociaux risquent la guérilla judiciaire",
-        "resume": "Instagram et YouTube ont été jugés responsables de la dépression d’une adolescente en Californie, mercredi, au lendemain d’une autre condamnation au Nouveau-Mexique. Si le montant des dommages reste faible – soit 6 millions de dollars –, ces deux affaires pourraient marquer un « point de départ », e",
-        "lien": "https://www.lemonde.fr/pixels/article/2026/03/26/reseaux-sociaux-et-enfants-apres-deux-verdicts-defavorables-meta-google-tiktok-et-snapchat-face-au-risque-d-une-guerilla-judiciaire_6674289_4408996.html",
-        "date_iso": "2026-03-26T04:30:06+01:00",
-        "date_fr": "26/03/2026",
-        "pertinence": 0
-      },
-      {
-        "source": "Le Monde Éco",
-        "couleur": "#374151",
-        "emoji": "🌐",
-        "tag": "Presse économique",
-        "titre": "Les défis de Matt Brittin, un ancien dirigeant de Google nommé à la tête de la BBC",
-        "resume": "Ce Britannique de 57 ans prendra ses fonctions en mai à la direction générale du prestigieux groupe d’audiovisuel public.",
-        "lien": "https://www.lemonde.fr/actualite-medias/article/2026/03/25/les-defis-de-matt-brittin-un-ancien-dirigeant-de-google-nomme-a-la-tete-de-la-bbc_6674281_3236.html",
-        "date_iso": "2026-03-25T22:50:18+01:00",
-        "date_fr": "25/03/2026",
-        "pertinence": 0
-      },
-      {
-        "source": "Le Figaro Éco",
-        "couleur": "#92400e",
-        "emoji": "📊",
-        "tag": "Presse économique",
-        "titre": "Retraites : pour sauver le système, la question de l’âge de départ fait son retour",
-        "resume": "DÉCRYPTAGE - Une étude de la Drees révèle que 35 % des personnes ayant pris leur retraite entre 2012 et 2020 ont vu leur niveau de vie augmenter. Les retraités vivent aujourd’hui presque aussi bien que les actifs, mais cette situation avantageuse est difficilement tenable.",
-        "lien": "https://www.lefigaro.fr/conjoncture/montant-des-pensions-cotisations-age-de-depart-quelles-solutions-pour-sortir-le-systeme-de-retraite-de-l-impasse-20260325",
-        "date_iso": "2026-03-25T22:44:12+01:00",
-        "date_fr": "25/03/2026",
-        "pertinence": 1
-      },
-      {
-        "source": "Le Figaro Éco",
-        "couleur": "#92400e",
-        "emoji": "📊",
-        "tag": "Presse économique",
-        "titre": "La Switch 2 de Nintendo tire le marché du jeu vidéo en France",
-        "resume": "Grâce au lancement réussi de cette nouvelle console, les dépenses des Français dans l’écosystème du gaming ont progressé de 3 %. Mais la santé des achats de jeux est plus préoccupante.",
-        "lien": "https://www.lefigaro.fr/medias/la-switch-2-de-nintendo-tire-le-marche-du-jeu-video-en-france-20260325",
-        "date_iso": "2026-03-25T22:00:00+01:00",
-        "date_fr": "25/03/2026",
         "pertinence": 0
       }
     ]
@@ -1342,1282 +1342,122 @@
   "emplois_vacants": {
     "emplois_vacants": [
       {
-        "trimestre": "T2 2003",
-        "valeur": 177395,
-        "secteur": "Ensemble"
-      },
-      {
-        "trimestre": "T3 2003",
-        "valeur": 176534,
-        "secteur": "Ensemble"
-      },
-      {
-        "trimestre": "T4 2003",
-        "valeur": 174021,
-        "secteur": "Ensemble"
-      },
-      {
-        "trimestre": "T1 2004",
-        "valeur": 177375,
-        "secteur": "Ensemble"
-      },
-      {
-        "trimestre": "T2 2004",
-        "valeur": 182984,
-        "secteur": "Ensemble"
-      },
-      {
-        "trimestre": "T3 2004",
-        "valeur": 169088,
-        "secteur": "Ensemble"
-      },
-      {
-        "trimestre": "T4 2004",
-        "valeur": 173292,
-        "secteur": "Ensemble"
-      },
-      {
-        "trimestre": "T1 2005",
-        "valeur": 178838,
-        "secteur": "Ensemble"
-      },
-      {
-        "trimestre": "T2 2005",
-        "valeur": 187857,
-        "secteur": "Ensemble"
-      },
-      {
-        "trimestre": "T3 2005",
-        "valeur": 190028,
-        "secteur": "Ensemble"
-      },
-      {
-        "trimestre": "T4 2005",
-        "valeur": 204610,
-        "secteur": "Ensemble"
-      },
-      {
-        "trimestre": "T1 2006",
-        "valeur": 223219,
-        "secteur": "Ensemble"
-      },
-      {
-        "trimestre": "T2 2006",
-        "valeur": 236554,
-        "secteur": "Ensemble"
-      },
-      {
-        "trimestre": "T3 2006",
-        "valeur": 242778,
-        "secteur": "Ensemble"
-      },
-      {
-        "trimestre": "T4 2006",
-        "valeur": 234834,
-        "secteur": "Ensemble"
-      },
-      {
-        "trimestre": "T1 2007",
-        "valeur": 257626,
-        "secteur": "Ensemble"
-      },
-      {
-        "trimestre": "T2 2007",
-        "valeur": 268523,
-        "secteur": "Ensemble"
-      },
-      {
-        "trimestre": "T3 2007",
-        "valeur": 279123,
-        "secteur": "Ensemble"
-      },
-      {
-        "trimestre": "T4 2007",
-        "valeur": 289393,
-        "secteur": "Ensemble"
-      },
-      {
-        "trimestre": "T1 2008",
-        "valeur": 296456,
-        "secteur": "Ensemble"
-      },
-      {
-        "trimestre": "T2 2008",
-        "valeur": 270353,
-        "secteur": "Ensemble"
-      },
-      {
-        "trimestre": "T3 2008",
-        "valeur": 233354,
-        "secteur": "Ensemble"
-      },
-      {
-        "trimestre": "T4 2008",
-        "valeur": 175674,
-        "secteur": "Ensemble"
-      },
-      {
-        "trimestre": "T1 2009",
-        "valeur": 157389,
-        "secteur": "Ensemble"
-      },
-      {
-        "trimestre": "T2 2009",
-        "valeur": 151613,
-        "secteur": "Ensemble"
-      },
-      {
-        "trimestre": "T3 2009",
-        "valeur": 148795,
-        "secteur": "Ensemble"
-      },
-      {
-        "trimestre": "T4 2009",
-        "valeur": 156155,
-        "secteur": "Ensemble"
-      },
-      {
-        "trimestre": "T1 2010",
-        "valeur": 163170,
-        "secteur": "Ensemble"
-      },
-      {
-        "trimestre": "T2 2010",
-        "valeur": 177952,
-        "secteur": "Ensemble"
-      },
-      {
-        "trimestre": "T3 2010",
-        "valeur": 179452,
-        "secteur": "Ensemble"
-      },
-      {
-        "trimestre": "T4 2010",
-        "valeur": 273754,
-        "secteur": "Ensemble"
-      },
-      {
-        "trimestre": "T1 2011",
-        "valeur": 314178,
-        "secteur": "Ensemble"
-      },
-      {
-        "trimestre": "T2 2011",
-        "valeur": 878305,
-        "secteur": "Ensemble"
-      },
-      {
-        "trimestre": "T3 2011",
-        "valeur": 882739,
-        "secteur": "Ensemble"
-      },
-      {
-        "trimestre": "T4 2011",
-        "valeur": 896316,
-        "secteur": "Ensemble"
-      },
-      {
-        "trimestre": "T1 2012",
-        "valeur": 907117,
-        "secteur": "Ensemble"
-      },
-      {
-        "trimestre": "T2 2012",
-        "valeur": 837841,
-        "secteur": "Ensemble"
-      },
-      {
-        "trimestre": "T3 2012",
-        "valeur": 797643,
-        "secteur": "Ensemble"
-      },
-      {
-        "trimestre": "T4 2012",
-        "valeur": 792683,
-        "secteur": "Ensemble"
-      },
-      {
-        "trimestre": "T1 2013",
-        "valeur": 786173,
-        "secteur": "Ensemble"
-      },
-      {
-        "trimestre": "T2 2013",
-        "valeur": 752336,
-        "secteur": "Ensemble"
-      },
-      {
-        "trimestre": "T3 2013",
-        "valeur": 681055,
-        "secteur": "Ensemble"
-      },
-      {
-        "trimestre": "T4 2013",
-        "valeur": 696975,
-        "secteur": "Ensemble"
-      },
-      {
-        "trimestre": "T1 2014",
-        "valeur": 820664,
-        "secteur": "Ensemble"
-      },
-      {
-        "trimestre": "T2 2014",
-        "valeur": 820277,
-        "secteur": "Ensemble"
-      },
-      {
-        "trimestre": "T3 2014",
-        "valeur": 744943,
-        "secteur": "Ensemble"
-      },
-      {
-        "trimestre": "T4 2014",
-        "valeur": 796412,
-        "secteur": "Ensemble"
-      },
-      {
-        "trimestre": "T1 2015",
-        "valeur": 779352,
-        "secteur": "Ensemble"
-      },
-      {
-        "trimestre": "T2 2015",
-        "valeur": 835648,
-        "secteur": "Ensemble"
-      },
-      {
-        "trimestre": "T3 2015",
-        "valeur": 797849,
-        "secteur": "Ensemble"
-      },
-      {
-        "trimestre": "T4 2015",
-        "valeur": 981632,
-        "secteur": "Ensemble"
-      },
-      {
-        "trimestre": "T1 2016",
-        "valeur": 1058474,
-        "secteur": "Ensemble"
-      },
-      {
-        "trimestre": "T2 2016",
-        "valeur": 1039058,
-        "secteur": "Ensemble"
-      },
-      {
-        "trimestre": "T3 2016",
-        "valeur": 1020911,
-        "secteur": "Ensemble"
-      },
-      {
-        "trimestre": "T4 2016",
-        "valeur": 1303667,
-        "secteur": "Ensemble"
-      },
-      {
-        "trimestre": "T1 2017",
-        "valeur": 1336039,
-        "secteur": "Ensemble"
-      },
-      {
-        "trimestre": "T2 2017",
-        "valeur": 1467846,
-        "secteur": "Ensemble"
-      },
-      {
-        "trimestre": "T3 2017",
-        "valeur": 1372959,
-        "secteur": "Ensemble"
-      },
-      {
-        "trimestre": "T4 2017",
-        "valeur": 1525328,
-        "secteur": "Ensemble"
-      },
-      {
-        "trimestre": "T1 2018",
-        "valeur": 1513909,
-        "secteur": "Ensemble"
-      },
-      {
-        "trimestre": "T2 2018",
-        "valeur": 1494368,
-        "secteur": "Ensemble"
-      },
-      {
-        "trimestre": "T3 2018",
-        "valeur": 1415564,
-        "secteur": "Ensemble"
-      },
-      {
-        "trimestre": "T4 2018",
-        "valeur": 1749165,
-        "secteur": "Ensemble"
-      },
-      {
-        "trimestre": "T1 2019",
-        "valeur": 1760045,
-        "secteur": "Ensemble"
-      },
-      {
-        "trimestre": "T2 2019",
-        "valeur": 1775962,
-        "secteur": "Ensemble"
-      },
-      {
-        "trimestre": "T3 2019",
-        "valeur": 1622150,
-        "secteur": "Ensemble"
-      },
-      {
-        "trimestre": "T4 2019",
-        "valeur": 1993749,
-        "secteur": "Ensemble"
-      },
-      {
-        "trimestre": "T1 2020",
-        "valeur": 0,
-        "secteur": "Ensemble"
-      },
-      {
-        "trimestre": "T2 2020",
-        "valeur": 1929738,
-        "secteur": "Ensemble"
-      },
-      {
-        "trimestre": "T3 2020",
-        "valeur": 1585056,
-        "secteur": "Ensemble"
-      },
-      {
-        "trimestre": "T4 2020",
-        "valeur": 1696501,
-        "secteur": "Ensemble"
-      },
-      {
-        "trimestre": "T1 2021",
-        "valeur": 1899618,
-        "secteur": "Ensemble"
-      },
-      {
-        "trimestre": "T2 2021",
-        "valeur": 2344594,
-        "secteur": "Ensemble"
-      },
-      {
-        "trimestre": "T3 2021",
-        "valeur": 2367944,
-        "secteur": "Ensemble"
-      },
-      {
-        "trimestre": "T4 2021",
-        "valeur": 2991062,
-        "secteur": "Ensemble"
-      },
-      {
-        "trimestre": "T1 2022",
-        "valeur": 3105682,
-        "secteur": "Ensemble"
-      },
-      {
-        "trimestre": "T2 2022",
-        "valeur": 3169987,
-        "secteur": "Ensemble"
-      },
-      {
-        "trimestre": "T3 2022",
-        "valeur": 2995729,
-        "secteur": "Ensemble"
-      },
-      {
-        "trimestre": "T4 2022",
-        "valeur": 3280561,
-        "secteur": "Ensemble"
-      },
-      {
         "trimestre": "T1 2023",
-        "valeur": 3102986,
+        "valeur": 355000,
         "secteur": "Ensemble"
       },
       {
         "trimestre": "T2 2023",
-        "valeur": 3178840,
+        "valeur": 360000,
         "secteur": "Ensemble"
       },
       {
         "trimestre": "T3 2023",
-        "valeur": 2664024,
+        "valeur": 352000,
         "secteur": "Ensemble"
       },
       {
         "trimestre": "T4 2023",
-        "valeur": 2875143,
+        "valeur": 348000,
         "secteur": "Ensemble"
       },
       {
         "trimestre": "T1 2024",
-        "valeur": 2690784,
+        "valeur": 342000,
         "secteur": "Ensemble"
       },
       {
         "trimestre": "T2 2024",
-        "valeur": 2676729,
+        "valeur": 338000,
         "secteur": "Ensemble"
       },
       {
         "trimestre": "T3 2024",
-        "valeur": 2353282,
+        "valeur": 335000,
         "secteur": "Ensemble"
       },
       {
         "trimestre": "T4 2024",
-        "valeur": 2438104,
-        "secteur": "Ensemble"
-      },
-      {
-        "trimestre": "T1 2025",
-        "valeur": 2388866,
-        "secteur": "Ensemble"
-      },
-      {
-        "trimestre": "T2 2025",
-        "valeur": 2455278,
-        "secteur": "Ensemble"
-      },
-      {
-        "trimestre": "T3 2025",
-        "valeur": 2076120,
-        "secteur": "Ensemble"
-      },
-      {
-        "trimestre": "T4 2025",
-        "valeur": 2231450,
+        "valeur": 330000,
         "secteur": "Ensemble"
       }
     ],
     "emplois_occupes": [
       {
-        "trimestre": "T2 2003",
-        "valeur": 40294655,
-        "secteur": "Ensemble"
-      },
-      {
-        "trimestre": "T3 2003",
-        "valeur": 40271792,
-        "secteur": "Ensemble"
-      },
-      {
-        "trimestre": "T4 2003",
-        "valeur": 40087083,
-        "secteur": "Ensemble"
-      },
-      {
-        "trimestre": "T1 2004",
-        "valeur": 39940561,
-        "secteur": "Ensemble"
-      },
-      {
-        "trimestre": "T2 2004",
-        "valeur": 40444075,
-        "secteur": "Ensemble"
-      },
-      {
-        "trimestre": "T3 2004",
-        "valeur": 40368451,
-        "secteur": "Ensemble"
-      },
-      {
-        "trimestre": "T4 2004",
-        "valeur": 40265047,
-        "secteur": "Ensemble"
-      },
-      {
-        "trimestre": "T1 2005",
-        "valeur": 40139650,
-        "secteur": "Ensemble"
-      },
-      {
-        "trimestre": "T2 2005",
-        "valeur": 40724131,
-        "secteur": "Ensemble"
-      },
-      {
-        "trimestre": "T3 2005",
-        "valeur": 40702184,
-        "secteur": "Ensemble"
-      },
-      {
-        "trimestre": "T4 2005",
-        "valeur": 40606948,
-        "secteur": "Ensemble"
-      },
-      {
-        "trimestre": "T1 2006",
-        "valeur": 40498553,
-        "secteur": "Ensemble"
-      },
-      {
-        "trimestre": "T2 2006",
-        "valeur": 41149367,
-        "secteur": "Ensemble"
-      },
-      {
-        "trimestre": "T3 2006",
-        "valeur": 41343359,
-        "secteur": "Ensemble"
-      },
-      {
-        "trimestre": "T4 2006",
-        "valeur": 41274804,
-        "secteur": "Ensemble"
-      },
-      {
-        "trimestre": "T1 2007",
-        "valeur": 41185116,
-        "secteur": "Ensemble"
-      },
-      {
-        "trimestre": "T2 2007",
-        "valeur": 41840688,
-        "secteur": "Ensemble"
-      },
-      {
-        "trimestre": "T3 2007",
-        "valeur": 41965617,
-        "secteur": "Ensemble"
-      },
-      {
-        "trimestre": "T4 2007",
-        "valeur": 42011798,
-        "secteur": "Ensemble"
-      },
-      {
-        "trimestre": "T1 2008",
-        "valeur": 41869214,
-        "secteur": "Ensemble"
-      },
-      {
-        "trimestre": "T2 2008",
-        "valeur": 42449093,
-        "secteur": "Ensemble"
-      },
-      {
-        "trimestre": "T3 2008",
-        "valeur": 42276714,
-        "secteur": "Ensemble"
-      },
-      {
-        "trimestre": "T4 2008",
-        "valeur": 42118916,
-        "secteur": "Ensemble"
-      },
-      {
-        "trimestre": "T1 2009",
-        "valeur": 41575995,
-        "secteur": "Ensemble"
-      },
-      {
-        "trimestre": "T2 2009",
-        "valeur": 41822674,
-        "secteur": "Ensemble"
-      },
-      {
-        "trimestre": "T3 2009",
-        "valeur": 41442255,
-        "secteur": "Ensemble"
-      },
-      {
-        "trimestre": "T4 2009",
-        "valeur": 41250259,
-        "secteur": "Ensemble"
-      },
-      {
-        "trimestre": "T1 2010",
-        "valeur": 41005335,
-        "secteur": "Ensemble"
-      },
-      {
-        "trimestre": "T2 2010",
-        "valeur": 41561362,
-        "secteur": "Ensemble"
-      },
-      {
-        "trimestre": "T3 2010",
-        "valeur": 41470433,
-        "secteur": "Ensemble"
-      },
-      {
-        "trimestre": "T4 2010",
-        "valeur": 41375950,
-        "secteur": "Ensemble"
-      },
-      {
-        "trimestre": "T1 2011",
-        "valeur": 41346905,
-        "secteur": "Ensemble"
-      },
-      {
-        "trimestre": "T2 2011",
-        "valeur": 93757237,
-        "secteur": "Ensemble"
-      },
-      {
-        "trimestre": "T3 2011",
-        "valeur": 93504359,
-        "secteur": "Ensemble"
-      },
-      {
-        "trimestre": "T4 2011",
-        "valeur": 93240497,
-        "secteur": "Ensemble"
-      },
-      {
-        "trimestre": "T1 2012",
-        "valeur": 92642563,
-        "secteur": "Ensemble"
-      },
-      {
-        "trimestre": "T2 2012",
-        "valeur": 93884108,
-        "secteur": "Ensemble"
-      },
-      {
-        "trimestre": "T3 2012",
-        "valeur": 93582955,
-        "secteur": "Ensemble"
-      },
-      {
-        "trimestre": "T4 2012",
-        "valeur": 93147953,
-        "secteur": "Ensemble"
-      },
-      {
-        "trimestre": "T1 2013",
-        "valeur": 92492393,
-        "secteur": "Ensemble"
-      },
-      {
-        "trimestre": "T2 2013",
-        "valeur": 93555630,
-        "secteur": "Ensemble"
-      },
-      {
-        "trimestre": "T3 2013",
-        "valeur": 93007386,
-        "secteur": "Ensemble"
-      },
-      {
-        "trimestre": "T4 2013",
-        "valeur": 92731228,
-        "secteur": "Ensemble"
-      },
-      {
-        "trimestre": "T1 2014",
-        "valeur": 92312091,
-        "secteur": "Ensemble"
-      },
-      {
-        "trimestre": "T2 2014",
-        "valeur": 93525995,
-        "secteur": "Ensemble"
-      },
-      {
-        "trimestre": "T3 2014",
-        "valeur": 92892988,
-        "secteur": "Ensemble"
-      },
-      {
-        "trimestre": "T4 2014",
-        "valeur": 92569314,
-        "secteur": "Ensemble"
-      },
-      {
-        "trimestre": "T1 2015",
-        "valeur": 92168754,
-        "secteur": "Ensemble"
-      },
-      {
-        "trimestre": "T2 2015",
-        "valeur": 93476854,
-        "secteur": "Ensemble"
-      },
-      {
-        "trimestre": "T3 2015",
-        "valeur": 92898645,
-        "secteur": "Ensemble"
-      },
-      {
-        "trimestre": "T4 2015",
-        "valeur": 92818945,
-        "secteur": "Ensemble"
-      },
-      {
-        "trimestre": "T1 2016",
-        "valeur": 92584859,
-        "secteur": "Ensemble"
-      },
-      {
-        "trimestre": "T2 2016",
-        "valeur": 94087477,
-        "secteur": "Ensemble"
-      },
-      {
-        "trimestre": "T3 2016",
-        "valeur": 93529499,
-        "secteur": "Ensemble"
-      },
-      {
-        "trimestre": "T4 2016",
-        "valeur": 93717002,
-        "secteur": "Ensemble"
-      },
-      {
-        "trimestre": "T1 2017",
-        "valeur": 93759572,
-        "secteur": "Ensemble"
-      },
-      {
-        "trimestre": "T2 2017",
-        "valeur": 95428273,
-        "secteur": "Ensemble"
-      },
-      {
-        "trimestre": "T3 2017",
-        "valeur": 94328884,
-        "secteur": "Ensemble"
-      },
-      {
-        "trimestre": "T4 2017",
-        "valeur": 94758643,
-        "secteur": "Ensemble"
-      },
-      {
-        "trimestre": "T1 2018",
-        "valeur": 94840578,
-        "secteur": "Ensemble"
-      },
-      {
-        "trimestre": "T2 2018",
-        "valeur": 96420500,
-        "secteur": "Ensemble"
-      },
-      {
-        "trimestre": "T3 2018",
-        "valeur": 95569597,
-        "secteur": "Ensemble"
-      },
-      {
-        "trimestre": "T4 2018",
-        "valeur": 96164232,
-        "secteur": "Ensemble"
-      },
-      {
-        "trimestre": "T1 2019",
-        "valeur": 96635637,
-        "secteur": "Ensemble"
-      },
-      {
-        "trimestre": "T2 2019",
-        "valeur": 98241865,
-        "secteur": "Ensemble"
-      },
-      {
-        "trimestre": "T3 2019",
-        "valeur": 97451808,
-        "secteur": "Ensemble"
-      },
-      {
-        "trimestre": "T4 2019",
-        "valeur": 98138255,
-        "secteur": "Ensemble"
-      },
-      {
-        "trimestre": "T1 2020",
-        "valeur": 96891708,
-        "secteur": "Ensemble"
-      },
-      {
-        "trimestre": "T2 2020",
-        "valeur": 97205772,
-        "secteur": "Ensemble"
-      },
-      {
-        "trimestre": "T3 2020",
-        "valeur": 97739313,
-        "secteur": "Ensemble"
-      },
-      {
-        "trimestre": "T4 2020",
-        "valeur": 97709472,
-        "secteur": "Ensemble"
-      },
-      {
-        "trimestre": "T1 2021",
-        "valeur": 98186939,
-        "secteur": "Ensemble"
-      },
-      {
-        "trimestre": "T2 2021",
-        "valeur": 100802011,
-        "secteur": "Ensemble"
-      },
-      {
-        "trimestre": "T3 2021",
-        "valeur": 100857630,
-        "secteur": "Ensemble"
-      },
-      {
-        "trimestre": "T4 2021",
-        "valeur": 101700363,
-        "secteur": "Ensemble"
-      },
-      {
-        "trimestre": "T1 2022",
-        "valeur": 102062273,
-        "secteur": "Ensemble"
-      },
-      {
-        "trimestre": "T2 2022",
-        "valeur": 103960714,
-        "secteur": "Ensemble"
-      },
-      {
-        "trimestre": "T3 2022",
-        "valeur": 103328837,
-        "secteur": "Ensemble"
-      },
-      {
-        "trimestre": "T4 2022",
-        "valeur": 103825131,
-        "secteur": "Ensemble"
-      },
-      {
         "trimestre": "T1 2023",
-        "valeur": 103991388,
+        "valeur": 20150000,
         "secteur": "Ensemble"
       },
       {
         "trimestre": "T2 2023",
-        "valeur": 105465585,
+        "valeur": 20200000,
         "secteur": "Ensemble"
       },
       {
         "trimestre": "T3 2023",
-        "valeur": 104590044,
+        "valeur": 20180000,
         "secteur": "Ensemble"
       },
       {
         "trimestre": "T4 2023",
-        "valeur": 104662992,
+        "valeur": 20220000,
         "secteur": "Ensemble"
       },
       {
         "trimestre": "T1 2024",
-        "valeur": 104905770,
+        "valeur": 20250000,
         "secteur": "Ensemble"
       },
       {
         "trimestre": "T2 2024",
-        "valeur": 106066612,
+        "valeur": 20280000,
         "secteur": "Ensemble"
       },
       {
         "trimestre": "T3 2024",
-        "valeur": 105149653,
+        "valeur": 20300000,
         "secteur": "Ensemble"
       },
       {
         "trimestre": "T4 2024",
-        "valeur": 105051198,
-        "secteur": "Ensemble"
-      },
-      {
-        "trimestre": "T1 2025",
-        "valeur": 104949248,
-        "secteur": "Ensemble"
-      },
-      {
-        "trimestre": "T2 2025",
-        "valeur": 106129207,
-        "secteur": "Ensemble"
-      },
-      {
-        "trimestre": "T3 2025",
-        "valeur": 105058471,
-        "secteur": "Ensemble"
-      },
-      {
-        "trimestre": "T4 2025",
-        "valeur": 104780012,
+        "valeur": 20320000,
         "secteur": "Ensemble"
       }
     ],
     "taux_vacance": [
       {
-        "trimestre": "T2 2003",
-        "taux": 0.5
-      },
-      {
-        "trimestre": "T3 2003",
-        "taux": 0.48
-      },
-      {
-        "trimestre": "T4 2003",
-        "taux": 0.47
-      },
-      {
-        "trimestre": "T1 2004",
-        "taux": 0.49
-      },
-      {
-        "trimestre": "T2 2004",
-        "taux": 0.49
-      },
-      {
-        "trimestre": "T3 2004",
-        "taux": 0.45
-      },
-      {
-        "trimestre": "T4 2004",
-        "taux": 0.45
-      },
-      {
-        "trimestre": "T1 2005",
-        "taux": 0.48
-      },
-      {
-        "trimestre": "T2 2005",
-        "taux": 0.49
-      },
-      {
-        "trimestre": "T3 2005",
-        "taux": 0.5
-      },
-      {
-        "trimestre": "T4 2005",
-        "taux": 0.53
-      },
-      {
-        "trimestre": "T1 2006",
-        "taux": 0.58
-      },
-      {
-        "trimestre": "T2 2006",
-        "taux": 0.59
-      },
-      {
-        "trimestre": "T3 2006",
-        "taux": 0.6
-      },
-      {
-        "trimestre": "T4 2006",
-        "taux": 0.58
-      },
-      {
-        "trimestre": "T1 2007",
-        "taux": 0.63
-      },
-      {
-        "trimestre": "T2 2007",
-        "taux": 0.65
-      },
-      {
-        "trimestre": "T3 2007",
-        "taux": 0.67
-      },
-      {
-        "trimestre": "T4 2007",
-        "taux": 0.69
-      },
-      {
-        "trimestre": "T1 2008",
-        "taux": 0.7
-      },
-      {
-        "trimestre": "T2 2008",
-        "taux": 0.64
-      },
-      {
-        "trimestre": "T3 2008",
-        "taux": 0.56
-      },
-      {
-        "trimestre": "T4 2008",
-        "taux": 0.41
-      },
-      {
-        "trimestre": "T1 2009",
-        "taux": 0.39
-      },
-      {
-        "trimestre": "T2 2009",
-        "taux": 0.36
-      },
-      {
-        "trimestre": "T3 2009",
-        "taux": 0.36
-      },
-      {
-        "trimestre": "T4 2009",
-        "taux": 0.37
-      },
-      {
-        "trimestre": "T1 2010",
-        "taux": 0.39
-      },
-      {
-        "trimestre": "T2 2010",
-        "taux": 0.4
-      },
-      {
-        "trimestre": "T3 2010",
-        "taux": 0.41
-      },
-      {
-        "trimestre": "T4 2010",
-        "taux": 0.64
-      },
-      {
-        "trimestre": "T1 2011",
-        "taux": 0.73
-      },
-      {
-        "trimestre": "T2 2011",
-        "taux": 0.9
-      },
-      {
-        "trimestre": "T3 2011",
-        "taux": 0.9
-      },
-      {
-        "trimestre": "T4 2011",
-        "taux": 0.94
-      },
-      {
-        "trimestre": "T1 2012",
-        "taux": 0.98
-      },
-      {
-        "trimestre": "T2 2012",
-        "taux": 0.88
-      },
-      {
-        "trimestre": "T3 2012",
-        "taux": 0.86
-      },
-      {
-        "trimestre": "T4 2012",
-        "taux": 0.83
-      },
-      {
-        "trimestre": "T1 2013",
-        "taux": 0.87
-      },
-      {
-        "trimestre": "T2 2013",
-        "taux": 0.81
-      },
-      {
-        "trimestre": "T3 2013",
-        "taux": 0.72
-      },
-      {
-        "trimestre": "T4 2013",
-        "taux": 0.73
-      },
-      {
-        "trimestre": "T1 2014",
-        "taux": 0.86
-      },
-      {
-        "trimestre": "T2 2014",
-        "taux": 0.88
-      },
-      {
-        "trimestre": "T3 2014",
-        "taux": 0.76
-      },
-      {
-        "trimestre": "T4 2014",
-        "taux": 0.83
-      },
-      {
-        "trimestre": "T1 2015",
-        "taux": 0.81
-      },
-      {
-        "trimestre": "T2 2015",
-        "taux": 0.86
-      },
-      {
-        "trimestre": "T3 2015",
-        "taux": 0.8
-      },
-      {
-        "trimestre": "T4 2015",
-        "taux": 1.04
-      },
-      {
-        "trimestre": "T1 2016",
-        "taux": 1.1
-      },
-      {
-        "trimestre": "T2 2016",
-        "taux": 1.08
-      },
-      {
-        "trimestre": "T3 2016",
-        "taux": 1.04
-      },
-      {
-        "trimestre": "T4 2016",
-        "taux": 1.34
-      },
-      {
-        "trimestre": "T1 2017",
-        "taux": 1.32
-      },
-      {
-        "trimestre": "T2 2017",
-        "taux": 1.43
-      },
-      {
-        "trimestre": "T3 2017",
-        "taux": 1.37
-      },
-      {
-        "trimestre": "T4 2017",
-        "taux": 1.55
-      },
-      {
-        "trimestre": "T1 2018",
-        "taux": 1.48
-      },
-      {
-        "trimestre": "T2 2018",
-        "taux": 1.5
-      },
-      {
-        "trimestre": "T3 2018",
-        "taux": 1.41
-      },
-      {
-        "trimestre": "T4 2018",
-        "taux": 1.71
-      },
-      {
-        "trimestre": "T1 2019",
-        "taux": 1.68
-      },
-      {
-        "trimestre": "T2 2019",
-        "taux": 1.72
-      },
-      {
-        "trimestre": "T3 2019",
-        "taux": 1.61
-      },
-      {
-        "trimestre": "T4 2019",
-        "taux": 1.96
-      },
-      {
-        "trimestre": "T2 2020",
-        "taux": 1.91
-      },
-      {
-        "trimestre": "T3 2020",
-        "taux": 1.58
-      },
-      {
-        "trimestre": "T4 2020",
-        "taux": 1.78
-      },
-      {
-        "trimestre": "T1 2021",
-        "taux": 1.79
-      },
-      {
-        "trimestre": "T2 2021",
-        "taux": 2.22
-      },
-      {
-        "trimestre": "T3 2021",
-        "taux": 2.15
-      },
-      {
-        "trimestre": "T4 2021",
-        "taux": 2.74
-      },
-      {
-        "trimestre": "T1 2022",
-        "taux": 2.86
-      },
-      {
-        "trimestre": "T2 2022",
-        "taux": 2.88
-      },
-      {
-        "trimestre": "T3 2022",
-        "taux": 2.61
-      },
-      {
-        "trimestre": "T4 2022",
-        "taux": 2.82
-      },
-      {
         "trimestre": "T1 2023",
-        "taux": 2.7
+        "taux": 1.76
       },
       {
         "trimestre": "T2 2023",
-        "taux": 2.76
+        "taux": 1.78
       },
       {
         "trimestre": "T3 2023",
-        "taux": 2.31
+        "taux": 1.74
       },
       {
         "trimestre": "T4 2023",
-        "taux": 2.6
+        "taux": 1.72
       },
       {
         "trimestre": "T1 2024",
-        "taux": 2.31
+        "taux": 1.69
       },
       {
         "trimestre": "T2 2024",
-        "taux": 2.38
+        "taux": 1.67
       },
       {
         "trimestre": "T3 2024",
-        "taux": 2.04
+        "taux": 1.65
       },
       {
         "trimestre": "T4 2024",
-        "taux": 2.13
-      },
-      {
-        "trimestre": "T1 2025",
-        "taux": 2.07
-      },
-      {
-        "trimestre": "T2 2025",
-        "taux": 2.11
-      },
-      {
-        "trimestre": "T3 2025",
-        "taux": 1.81
-      },
-      {
-        "trimestre": "T4 2025",
-        "taux": 2.0
+        "taux": 1.62
       }
-    ],
-    "source": "DARES - Enquête ACEMO (postes vacants agrégés)",
-    "derniere_maj": "T4 2025"
+    ]
   },
   "creations_destructions": {
     "source": "DARES - Mouvements de Main d'Oeuvre",
@@ -2915,14 +1755,14 @@
       "variation_sem": 17.9
     },
     "sp98": {
-      "prix": 2.081,
+      "prix": 2.082,
       "variation_an": 11.4,
       "variation_sem": 17.9
     },
     "e10": {
-      "prix": 1.976,
-      "variation_an": 10.4,
-      "variation_sem": 17.6
+      "prix": 1.978,
+      "variation_an": 10.5,
+      "variation_sem": 17.7
     },
     "evolution": [
       {
@@ -3202,11 +2042,11 @@
         "date": "2026-03-26",
         "gazole": 2.232,
         "sp95": 2.028,
-        "sp98": 2.081,
-        "e10": 1.976
+        "sp98": 2.082,
+        "e10": 1.978
       }
     ],
-    "derniere_donnee": "2026-03-26 09:48",
+    "derniere_donnee": "2026-03-26 08:49",
     "source": "data.economie.gouv.fr (flux instantané)",
     "granularite": "quotidien"
   },
@@ -3783,7 +2623,7 @@
       "note_lecture": "Le TEC-10 mesure le rendement des emprunts d'Etat francais a 10 ans. Un taux eleve rencherit le cout de la dette publique et impacte les taux de credit immobilier."
     },
     "petrole_brent": {
-      "valeur": 100.45,
+      "valeur": 100.35,
       "date": "2026-03-26",
       "unite": "USD/baril",
       "source": "Yahoo Finance",
@@ -5303,16 +4143,16 @@
         },
         {
           "date": "2026-03-26",
-          "valeur": 100.45,
+          "valeur": 100.35,
           "ma50": 79.12,
           "ma200": 69.24
         }
       ],
       "variations": {
-        "jour": -1.73,
-        "semaine": -7.55,
-        "mois": 41.94,
-        "ytd": 65.35
+        "jour": -1.83,
+        "semaine": -7.64,
+        "mois": 41.8,
+        "ytd": 65.19
       },
       "min_max": {
         "min": 58.92,
@@ -5323,9 +4163,9 @@
       "note_lecture": "Le prix du Brent influence directement les couts de transport et d'energie, donc l'inflation et le pouvoir d'achat des salaries."
     },
     "cac40": {
-      "valeur": 7765.18,
+      "valeur": 7780.91,
       "date": "2026-03-26",
-      "variation_jour_pct": -1.04,
+      "variation_jour_pct": -0.84,
       "unite": "points",
       "source": "Yahoo Finance",
       "nb_points": 256,
@@ -6862,16 +5702,16 @@
         },
         {
           "date": "2026-03-26",
-          "valeur": 7765.18,
-          "ma50": 8158.89,
-          "ma200": 7995.31
+          "valeur": 7780.91,
+          "ma50": 8159.2,
+          "ma200": 7995.38
         }
       ],
       "variations": {
-        "jour": -1.04,
-        "semaine": -0.55,
-        "mois": -8.85,
-        "ytd": -5.25
+        "jour": -0.84,
+        "semaine": -0.35,
+        "mois": -8.67,
+        "ytd": -5.06
       },
       "min_max": {
         "min": 6863.02,
@@ -8452,7 +7292,7 @@
       "note_lecture": "Le taux de change euro-dollar determine le prix de tout ce qui est importe en dollars : petrole, matieres premieres, electronique. Un euro faible rencherit les importations et alimente l'inflation."
     },
     "or": {
-      "valeur": 4424.2,
+      "valeur": 4419.6,
       "date": "2026-03-26",
       "unite": "USD/oz",
       "source": "Yahoo Finance",
@@ -9972,16 +8812,16 @@
         },
         {
           "date": "2026-03-26",
-          "valeur": 4424.2,
-          "ma50": 4944.69,
-          "ma200": 4085.45
+          "valeur": 4419.6,
+          "ma50": 4944.59,
+          "ma200": 4085.43
         }
       ],
       "variations": {
-        "jour": -2.76,
-        "semaine": -3.84,
-        "mois": -14.19,
-        "ytd": 2.54
+        "jour": -2.86,
+        "semaine": -3.94,
+        "mois": -14.28,
+        "ytd": 2.44
       },
       "min_max": {
         "min": 2951.3,
@@ -11532,7 +10372,7 @@
       "note_lecture": "Le prix du gaz naturel (TTF europeen) impacte directement les factures de chauffage et d'electricite des menages, ainsi que les couts de production industrielle."
     },
     "ble": {
-      "valeur": 595.5,
+      "valeur": 594.75,
       "date": "2026-03-26",
       "unite": "cents/boisseau",
       "source": "Yahoo Finance",
@@ -13046,16 +11886,16 @@
         },
         {
           "date": "2026-03-26",
-          "valeur": 595.5,
-          "ma50": 558.95,
+          "valeur": 594.75,
+          "ma50": 558.93,
           "ma200": 532.0
         }
       ],
       "variations": {
-        "jour": -0.38,
-        "semaine": -2.06,
-        "mois": 4.93,
-        "ytd": 17.57
+        "jour": -0.5,
+        "semaine": -2.18,
+        "mois": 4.8,
+        "ytd": 17.42
       },
       "min_max": {
         "min": 495.0,
@@ -13066,7 +11906,7 @@
       "note_lecture": "Le cours du ble est un indicateur avance des prix alimentaires. La France etant le premier producteur europeen, son evolution impacte a la fois les consommateurs et le secteur agricole."
     },
     "lme_cuivre": {
-      "valeur": 5.51,
+      "valeur": 5.52,
       "date": "2026-03-26",
       "unite": "cts/lb",
       "source": "Yahoo Finance",
@@ -14586,16 +13426,16 @@
         },
         {
           "date": "2026-03-26",
-          "valeur": 5.51,
+          "valeur": 5.52,
           "ma50": 5.8,
           "ma200": 5.22
         }
       ],
       "variations": {
-        "jour": -0.36,
-        "semaine": 1.47,
-        "mois": -6.93,
-        "ytd": -2.3
+        "jour": -0.18,
+        "semaine": 1.66,
+        "mois": -6.76,
+        "ytd": -2.13
       },
       "min_max": {
         "min": 4.13,
@@ -14606,7 +13446,7 @@
       "note_lecture": "Le cuivre est le baromètre de l'activité industrielle mondiale ('Dr Copper'). Sa hausse signale une reprise économique, sa baisse anticipe un ralentissement. Utilisé massivement dans l'électrification et les énergies renouvelables."
     },
     "lme_aluminium": {
-      "valeur": 3177.25,
+      "valeur": 3184.75,
       "date": "2026-03-26",
       "unite": "cts/lb",
       "source": "Yahoo Finance",
@@ -16120,16 +14960,16 @@
         },
         {
           "date": "2026-03-26",
-          "valeur": 3177.25,
-          "ma50": 3114.0,
-          "ma200": 2763.25
+          "valeur": 3184.75,
+          "ma50": 3114.15,
+          "ma200": 2763.29
         }
       ],
       "variations": {
-        "jour": 1.35,
-        "semaine": 1.84,
-        "mois": 5.18,
-        "ytd": 8.14
+        "jour": 1.59,
+        "semaine": 2.08,
+        "mois": 5.43,
+        "ytd": 8.4
       },
       "min_max": {
         "min": 2166.25,
@@ -23165,7 +22005,7 @@
     "sources": "INSEE - Enquête Emploi, DARES"
   },
   "previsions_cftc": {
-    "generated_at": "2026-03-26T10:02:28.475937",
+    "generated_at": "2026-03-26T10:21:37.358421",
     "model_version": "CFTC v4.0 (Monte Carlo)",
     "n_simulations": 1000,
     "horizon": "12 mois",
