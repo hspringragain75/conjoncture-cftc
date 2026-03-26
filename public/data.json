@@ -1,6 +1,6 @@
 {
-  "last_updated": "26/03/2026 08:04",
-  "last_updated_iso": "2026-03-26T08:04:24.984298",
+  "last_updated": "26/03/2026 08:10",
+  "last_updated_iso": "2026-03-26T08:10:51.090895",
   "contact": "hspringragain@cftc.fr",
   "alertes": [
     {
@@ -32,7 +32,7 @@
       "date": "2026-03-26",
       "type": "info",
       "titre": "🔄 Données actualisées",
-      "message": "Le tableau de bord a été mis à jour le 26/03/2026 à 08:04.",
+      "message": "Le tableau de bord a été mis à jour le 26/03/2026 à 08:10.",
       "onglet": "conjoncture"
     }
   ],
@@ -193,7 +193,7 @@
     }
   ],
   "revue_presse": {
-    "derniere_maj": "26/03/2026 08:04",
+    "derniere_maj": "26/03/2026 08:10",
     "nb_sources": 7,
     "sources_noms": [
       "Le Monde Éco",
@@ -227,7 +227,7 @@
         "titre": "TotalEnergies, Auchan, Leclerc... Quelles enseignes ont le plus augmenté leurs tarifs à la pompe ?",
         "resume": "FIG DATA - Le Figaro a analysé la dynamique des prix selon les enseignes de distribution, révélant des écarts parfois saisissants entre les différents acteurs de ce marché particulièrement sensible.",
         "lien": "https://www.lefigaro.fr/conso/totalenergies-auchan-leclerc-quelles-enseignes-ont-le-plus-augmente-leurs-tarifs-a-la-pompe-20260326",
-        "date_iso": "2026-03-26T08:43:33+01:00",
+        "date_iso": "2026-03-26T08:56:35+01:00",
         "date_fr": "26/03/2026",
         "pertinence": 0
       },
@@ -266,18 +266,6 @@
         "date_iso": "2026-03-26T08:00:00+01:00",
         "date_fr": "26/03/2026",
         "pertinence": 0
-      },
-      {
-        "source": "Euractiv FR",
-        "couleur": "#0369a1",
-        "emoji": "🇪🇺",
-        "tag": "Europe & politique",
-        "titre": "L extrême droite hésite sur l accord commercial avec Trump",
-        "resume": "Également dans l'édition de jeudi : Merz sur le cadre financier pluriannuel, implosion de Vox, vote anti-corruption The post L&rsquo;extrême droite hésite sur l&rsquo;accord commercial avec Trump appeared first on Euractiv FR .",
-        "lien": "https://euractiv.fr/news/lextreme-droite-hesite-sur-laccord-commercial-avec-trump/",
-        "date_iso": "2026-03-26T07:32:25+00:00",
-        "date_fr": "26/03/2026",
-        "pertinence": 1
       },
       {
         "source": "Le Figaro Éco",
@@ -576,6 +564,18 @@
         "resume": "La coopérative belgo-néerlandaise European Sleeper relance la liaison symbolique entre les capitales française et allemande, abandonnée en décembre 2025 par la SNCF.",
         "lien": "https://www.lemonde.fr/economie/article/2026/03/25/le-train-de-nuit-reprend-du-service-entre-paris-et-berlin_6674255_3234.html",
         "date_iso": "2026-03-25T18:30:07+01:00",
+        "date_fr": "25/03/2026",
+        "pertinence": 0
+      },
+      {
+        "source": "Le Figaro Éco",
+        "couleur": "#92400e",
+        "emoji": "📊",
+        "tag": "Presse économique",
+        "titre": "Les virements bancaires suspendus pendant le week-end de Pâques",
+        "resume": "Il ne sera pas possible d’effectuer de virement classique du vendredi 3 avril au lundi 6 avril inclus, soit pendant quatre jours.",
+        "lien": "https://www.lefigaro.fr/conjoncture/les-virements-bancaires-suspendus-pendant-le-week-end-de-paques-20260325",
+        "date_iso": "2026-03-25T17:58:04+01:00",
         "date_fr": "25/03/2026",
         "pertinence": 0
       }
@@ -2623,7 +2623,7 @@
       "note_lecture": "Le TEC-10 mesure le rendement des emprunts d'Etat francais a 10 ans. Un taux eleve rencherit le cout de la dette publique et impacte les taux de credit immobilier."
     },
     "petrole_brent": {
-      "valeur": 99.91,
+      "valeur": 99.68,
       "date": "2026-03-26",
       "unite": "USD/baril",
       "source": "Yahoo Finance",
@@ -4143,16 +4143,16 @@
         },
         {
           "date": "2026-03-26",
-          "valeur": 99.91,
+          "valeur": 99.68,
           "ma50": 79.11,
           "ma200": 69.23
         }
       ],
       "variations": {
-        "jour": -2.26,
-        "semaine": -8.04,
-        "mois": 41.18,
-        "ytd": 64.46
+        "jour": -2.48,
+        "semaine": -8.26,
+        "mois": 40.85,
+        "ytd": 64.08
       },
       "min_max": {
         "min": 58.92,
@@ -7286,7 +7286,7 @@
       "note_lecture": "Le taux de change euro-dollar determine le prix de tout ce qui est importe en dollars : petrole, matieres premieres, electronique. Un euro faible rencherit les importations et alimente l'inflation."
     },
     "or": {
-      "valeur": 4449.6,
+      "valeur": 4448.3,
       "date": "2026-03-26",
       "unite": "USD/oz",
       "source": "Yahoo Finance",
@@ -8806,16 +8806,16 @@
         },
         {
           "date": "2026-03-26",
-          "valeur": 4449.6,
-          "ma50": 4945.19,
-          "ma200": 4085.58
+          "valeur": 4448.3,
+          "ma50": 4945.17,
+          "ma200": 4085.57
         }
       ],
       "variations": {
-        "jour": -2.2,
-        "semaine": -3.28,
-        "mois": -13.7,
-        "ytd": 3.13
+        "jour": -2.23,
+        "semaine": -3.31,
+        "mois": -13.72,
+        "ytd": 3.1
       },
       "min_max": {
         "min": 2951.3,
@@ -10360,7 +10360,7 @@
       "note_lecture": "Le prix du gaz naturel (TTF europeen) impacte directement les factures de chauffage et d'electricite des menages, ainsi que les couts de production industrielle."
     },
     "ble": {
-      "valeur": 601.75,
+      "valeur": 601.25,
       "date": "2026-03-26",
       "unite": "cents/boisseau",
       "source": "Yahoo Finance",
@@ -11874,16 +11874,16 @@
         },
         {
           "date": "2026-03-26",
-          "valeur": 601.75,
-          "ma50": 559.08,
+          "valeur": 601.25,
+          "ma50": 559.07,
           "ma200": 532.03
         }
       ],
       "variations": {
-        "jour": 0.67,
-        "semaine": -1.03,
-        "mois": 6.04,
-        "ytd": 18.81
+        "jour": 0.59,
+        "semaine": -1.11,
+        "mois": 5.95,
+        "ytd": 18.71
       },
       "min_max": {
         "min": 495.0,
@@ -11894,7 +11894,7 @@
       "note_lecture": "Le cours du ble est un indicateur avance des prix alimentaires. La France etant le premier producteur europeen, son evolution impacte a la fois les consommateurs et le secteur agricole."
     },
     "lme_cuivre": {
-      "valeur": 5.49,
+      "valeur": 5.5,
       "date": "2026-03-26",
       "unite": "cts/lb",
       "source": "Yahoo Finance",
@@ -13414,16 +13414,16 @@
         },
         {
           "date": "2026-03-26",
-          "valeur": 5.49,
+          "valeur": 5.5,
           "ma50": 5.8,
           "ma200": 5.22
         }
       ],
       "variations": {
-        "jour": -0.72,
-        "semaine": 1.1,
-        "mois": -7.26,
-        "ytd": -2.66
+        "jour": -0.54,
+        "semaine": 1.29,
+        "mois": -7.09,
+        "ytd": -2.48
       },
       "min_max": {
         "min": 4.13,
@@ -21993,7 +21993,7 @@
     "sources": "INSEE - Enquête Emploi, DARES"
   },
   "previsions_cftc": {
-    "generated_at": "2026-03-26T08:04:25.301838",
+    "generated_at": "2026-03-26T08:10:51.390870",
     "model_version": "CFTC v4.0 (Monte Carlo)",
     "n_simulations": 1000,
     "horizon": "12 mois",
