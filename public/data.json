@@ -1,6 +1,6 @@
 {
-  "last_updated": "26/03/2026 20:17",
-  "last_updated_iso": "2026-03-26T20:17:21.057461",
+  "last_updated": "26/03/2026 20:26",
+  "last_updated_iso": "2026-03-26T20:26:29.911129",
   "contact": "hspringragain@cftc.fr",
   "alertes": [
     {
@@ -32,7 +32,7 @@
       "date": "2026-03-26",
       "type": "info",
       "titre": "🔄 Données actualisées",
-      "message": "Le tableau de bord a été mis à jour le 26/03/2026 à 20:17.",
+      "message": "Le tableau de bord a été mis à jour le 26/03/2026 à 20:26.",
       "onglet": "conjoncture"
     }
   ],
@@ -193,7 +193,7 @@
     }
   ],
   "revue_presse": {
-    "derniere_maj": "26/03/2026 20:17",
+    "derniere_maj": "26/03/2026 20:26",
     "nb_sources": 7,
     "sources_noms": [
       "Le Monde Éco",
@@ -531,6 +531,30 @@
         "pertinence": 0
       },
       {
+        "source": "Euractiv FR",
+        "couleur": "#0369a1",
+        "emoji": "🇪🇺",
+        "tag": "Europe & politique",
+        "titre": "Le fabricant de missiles MBDA espère que le projet de chasseur SCAF, en difficulté, sera maintenu",
+        "resume": "MBDA développe des drones autonomes destinés à accompagner les futurs avions de chasse The post Le fabricant de missiles MBDA espère que le projet de chasseur SCAF, en difficulté, sera maintenu appeared first on Euractiv FR .",
+        "lien": "https://euractiv.fr/news/le-fabricant-de-missiles-mbda-espere-que-le-projet-de-chasseur-scaf-en-difficulte-sera-maintenu/",
+        "date_iso": "2026-03-26T15:11:25+00:00",
+        "date_fr": "26/03/2026",
+        "pertinence": 0
+      },
+      {
+        "source": "Euractiv FR",
+        "couleur": "#0369a1",
+        "emoji": "🇪🇺",
+        "tag": "Europe & politique",
+        "titre": "Le Parlement donne son feu vert à une directive européenne « historique » contre la corruption",
+        "resume": "Mais la directive laisse aux États membres une grande marge d'appréciation quant à sa mise en œuvre The post Le Parlement donne son feu vert à une directive européenne « historique » contre la corruption appeared first on Euractiv FR .",
+        "lien": "https://euractiv.fr/news/le-parlement-donne-son-feu-vert-a-une-directive-europeenne-historique-contre-la-corruption/",
+        "date_iso": "2026-03-26T14:48:28+00:00",
+        "date_fr": "26/03/2026",
+        "pertinence": 0
+      },
+      {
         "source": "Le Figaro Éco",
         "couleur": "#92400e",
         "emoji": "📊",
@@ -541,30 +565,6 @@
         "date_iso": "2026-03-26T14:15:00+01:00",
         "date_fr": "26/03/2026",
         "pertinence": 2
-      },
-      {
-        "source": "Le Monde Éco",
-        "couleur": "#374151",
-        "emoji": "🌐",
-        "tag": "Presse économique",
-        "titre": "Sam Altman, le patron d’OpenAI, l’apôtre de la « superintelligence » artificielle",
-        "resume": "« Les gourous de l’IA » (2/12). Le PDG et fondateur de la start-up désormais valorisée 840 milliards de dollars estime que, avec l’IA, le travail humain sera surpassé dans tous les domaines.",
-        "lien": "https://www.lemonde.fr/economie/article/2026/03/26/sam-altman-le-patron-d-openai-l-apotre-de-la-superintelligence-artificielle_6674366_3234.html",
-        "date_iso": "2026-03-26T14:00:07+01:00",
-        "date_fr": "26/03/2026",
-        "pertinence": 1
-      },
-      {
-        "source": "Le Figaro Éco",
-        "couleur": "#92400e",
-        "emoji": "📊",
-        "tag": "Presse économique",
-        "titre": "Le pétrole monte de 5% avec les incertitudes autour de discussions entre l'Iran et les États-Unis",
-        "resume": "Donald Trump s’est exprimé ce jeudi, en qualifiant les négociateurs iraniens de «différents et bizarres», alors que l’Iran réfute des discussions avec les États-Unis.",
-        "lien": "https://www.lefigaro.fr/conjoncture/le-petrole-monte-de-5-avec-les-incertitudes-autour-de-discussions-entre-l-iran-et-les-etats-unis-20260326",
-        "date_iso": "2026-03-26T13:45:23+01:00",
-        "date_fr": "26/03/2026",
-        "pertinence": 0
       }
     ]
   },
@@ -2897,7 +2897,7 @@
       "note_lecture": "Le TEC-10 mesure le rendement des emprunts d'Etat francais a 10 ans. Un taux eleve rencherit le cout de la dette publique et impacte les taux de credit immobilier."
     },
     "petrole_brent": {
-      "valeur": 101.46,
+      "valeur": 99.35,
       "date": "2026-03-26",
       "unite": "USD/baril",
       "source": "Yahoo Finance",
@@ -4417,16 +4417,16 @@
         },
         {
           "date": "2026-03-26",
-          "valeur": 101.46,
-          "ma50": 79.14,
-          "ma200": 69.24
+          "valeur": 99.35,
+          "ma50": 79.1,
+          "ma200": 69.23
         }
       ],
       "variations": {
-        "jour": -0.74,
-        "semaine": -6.62,
-        "mois": 43.37,
-        "ytd": 67.01
+        "jour": -2.81,
+        "semaine": -8.56,
+        "mois": 40.38,
+        "ytd": 63.54
       },
       "min_max": {
         "min": 58.92,
@@ -5996,7 +5996,7 @@
       "note_lecture": "Le CAC 40 reflete la sante des 40 plus grandes entreprises francaises. Sa performance impacte l'interessement, la participation et l'epargne salariale."
     },
     "eurusd": {
-      "valeur": 1.16,
+      "valeur": 1.15,
       "date": "2026-03-26",
       "unite": "EUR/USD",
       "source": "Yahoo Finance",
@@ -7546,16 +7546,16 @@
         },
         {
           "date": "2026-03-26",
-          "valeur": 1.16,
+          "valeur": 1.15,
           "ma50": 1.17,
           "ma200": 1.17
         }
       ],
       "variations": {
-        "jour": 0.0,
-        "semaine": 0.87,
-        "mois": -1.69,
-        "ytd": -1.69
+        "jour": -0.86,
+        "semaine": 0.0,
+        "mois": -2.54,
+        "ytd": -2.54
       },
       "min_max": {
         "min": 1.07,
@@ -7566,7 +7566,7 @@
       "note_lecture": "Le taux de change euro-dollar determine le prix de tout ce qui est importe en dollars : petrole, matieres premieres, electronique. Un euro faible rencherit les importations et alimente l'inflation."
     },
     "or": {
-      "valeur": 4352.0,
+      "valeur": 4392.4,
       "date": "2026-03-26",
       "unite": "USD/oz",
       "source": "Yahoo Finance",
@@ -9086,16 +9086,16 @@
         },
         {
           "date": "2026-03-26",
-          "valeur": 4352.0,
-          "ma50": 4943.24,
-          "ma200": 4085.09
+          "valeur": 4392.4,
+          "ma50": 4944.05,
+          "ma200": 4085.29
         }
       ],
       "variations": {
-        "jour": -4.35,
-        "semaine": -5.41,
-        "mois": -15.59,
-        "ytd": 0.87
+        "jour": -3.46,
+        "semaine": -4.53,
+        "mois": -14.81,
+        "ytd": 1.81
       },
       "min_max": {
         "min": 2951.3,
@@ -12180,7 +12180,7 @@
       "note_lecture": "Le cours du ble est un indicateur avance des prix alimentaires. La France etant le premier producteur europeen, son evolution impacte a la fois les consommateurs et le secteur agricole."
     },
     "lme_cuivre": {
-      "valeur": 5.45,
+      "valeur": 5.49,
       "date": "2026-03-26",
       "unite": "cts/lb",
       "source": "Yahoo Finance",
@@ -13700,16 +13700,16 @@
         },
         {
           "date": "2026-03-26",
-          "valeur": 5.45,
+          "valeur": 5.49,
           "ma50": 5.8,
           "ma200": 5.22
         }
       ],
       "variations": {
-        "jour": -1.45,
-        "semaine": 0.37,
-        "mois": -7.94,
-        "ytd": -3.37
+        "jour": -0.72,
+        "semaine": 1.1,
+        "mois": -7.26,
+        "ytd": -2.66
       },
       "min_max": {
         "min": 4.13,
@@ -22279,7 +22279,7 @@
     "sources": "INSEE - Enquête Emploi, DARES"
   },
   "previsions_cftc": {
-    "generated_at": "2026-03-26T20:17:21.436258",
+    "generated_at": "2026-03-26T20:26:30.170196",
     "model_version": "CFTC v6.0 (Monte Carlo + calibrage dynamique + backtesting)",
     "n_simulations": 1000,
     "horizon": "12 mois",
@@ -22288,7 +22288,7 @@
       "niveau": "excellent",
       "issues": [],
       "warnings": [],
-      "timestamp": "2026-03-26T20:17:21.436271"
+      "timestamp": "2026-03-26T20:26:30.170207"
     },
     "calibrage": {
       "volatilites": {
@@ -22313,16 +22313,16 @@
       "mean_reversion_k": 0.3
     },
     "market_signals": {
-      "inflation_adjustment": 0.179,
+      "inflation_adjustment": 0.159,
       "chomage_adjustment": 0.175,
       "energie_outlook": "hausse"
     },
     "market_signals_details": {
       "brent": {
-        "valeur": 101.46,
+        "valeur": 99.35,
         "ref": 75.0,
-        "variation_ytd_pct": 67.01,
-        "impact_inflation_pt": 0.265
+        "variation_ytd_pct": 63.54,
+        "impact_inflation_pt": 0.243
       },
       "gaz_ttf": {
         "valeur": 55.37,
@@ -22330,9 +22330,9 @@
         "impact_inflation_pt": 0.102
       },
       "eurusd": {
-        "valeur": 1.16,
+        "valeur": 1.15,
         "ref": 1.08,
-        "impact_inflation_pt": -0.011
+        "impact_inflation_pt": -0.01
       },
       "defaillances": {
         "cumul_12m": 68961.0,
@@ -22380,13 +22380,13 @@
       "confidence": 0.85,
       "mensuel": {
         "predictions": [
-          1.1,
+          1.0,
           1.1,
           1.2,
           1.3,
           1.4,
           1.6,
-          1.6,
+          1.5,
           1.5,
           1.5,
           1.6,
@@ -22403,7 +22403,7 @@
           1.2,
           1.2,
           1.1,
-          1.3,
+          1.2,
           1.2,
           1.2
         ],
@@ -22416,17 +22416,17 @@
           1.9,
           1.9,
           1.9,
+          1.8,
           1.9,
           2.0,
-          2.0,
-          2.0
+          1.9
         ],
         "p25": [
           0.9,
           1.0,
           1.0,
+          1.1,
           1.2,
-          1.3,
           1.4,
           1.4,
           1.4,
@@ -22466,21 +22466,21 @@
         "methodology": "Monte Carlo (1000 sim.) + saisonnalité + marchés + mean reversion non-linéaire (v6)"
       },
       "probabilites": {
-        "inflation_sous_2pct": 92.2,
-        "inflation_cible_bce": 92.2,
+        "inflation_sous_2pct": 93.1,
+        "inflation_cible_bce": 93.1,
         "inflation_au_dessus_3pct": 0.0,
         "inflation_au_dessus_4pct": 0.0,
-        "description": "92.2% de chances que l'inflation reste sous 2% à 12 mois"
+        "description": "93.1% de chances que l'inflation reste sous 2% à 12 mois"
       },
       "facteurs": {
         "cible_bdf": 1.4,
         "ajustement_climat": -0.03,
-        "ajustement_marches": 0.179,
+        "ajustement_marches": 0.159,
         "energie_outlook": "hausse",
-        "cible_ajustee": 1.549,
+        "cible_ajustee": 1.529,
         "volatilite_utilisee": 0.5
       },
-      "insight": "Inflation médiane à 12 mois : 1.6% [IC 80% : 1.2% - 2.0%]. 92.2% de probabilité de rester sous 2%."
+      "insight": "Inflation médiane à 12 mois : 1.6% [IC 80% : 1.2% - 1.9%]. 93.1% de probabilité de rester sous 2%."
     },
     "smic": {
       "current": {
@@ -22678,10 +22678,10 @@
       }
     },
     "notes_lecture": [
-      "📈 Inflation médiane à 12 mois : 1.6% [1.2% - 2.0%] — 92.2% de chances de rester sous 2%",
+      "📈 Inflation médiane à 12 mois : 1.6% [1.2% - 1.9%] — 93.1% de chances de rester sous 2%",
       "💰 SMIC janvier 2027 : 1859€ brut (+2.0%, fourchette 1.6-2.4%)",
       "👥 Chômage Q4 : 7.8% [7.6% - 7.9%] — Tendance stable",
-      "📊 Signaux marchés : ↑ inflation 0.18pt, ↑ chômage 0.17pt",
+      "📊 Signaux marchés : ↑ inflation 0.16pt, ↑ chômage 0.17pt",
       "🎲 Scénario à surveiller : 🚀 Reprise économique forte (25%)",
       "💡 Recommandation NAO : demander au minimum +2.1% pour préserver le pouvoir d'achat"
     ],
@@ -22700,8 +22700,8 @@
             "label": "Brent, gaz, EUR/USD, SMB..."
           },
           "incertitude_bdf": {
-            "ic_pts": 0.2,
-            "part_pct": 25.0,
+            "ic_pts": 0.1,
+            "part_pct": 12.5,
             "label": "Incertitude sur la cible Banque de France"
           }
         }
