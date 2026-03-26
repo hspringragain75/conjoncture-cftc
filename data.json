@@ -1,6 +1,6 @@
 {
-  "last_updated": "26/03/2026 10:36",
-  "last_updated_iso": "2026-03-26T10:36:25.660100",
+  "last_updated": "26/03/2026 11:07",
+  "last_updated_iso": "2026-03-26T11:07:20.819701",
   "contact": "hspringragain@cftc.fr",
   "alertes": [
     {
@@ -32,7 +32,7 @@
       "date": "2026-03-26",
       "type": "info",
       "titre": "🔄 Données actualisées",
-      "message": "Le tableau de bord a été mis à jour le 26/03/2026 à 10:36.",
+      "message": "Le tableau de bord a été mis à jour le 26/03/2026 à 11:07.",
       "onglet": "conjoncture"
     }
   ],
@@ -193,7 +193,7 @@
     }
   ],
   "revue_presse": {
-    "derniere_maj": "26/03/2026 10:36",
+    "derniere_maj": "26/03/2026 11:07",
     "nb_sources": 7,
     "sources_noms": [
       "Le Monde Éco",
@@ -210,15 +210,63 @@
         "couleur": "#374151",
         "emoji": "🌐",
         "tag": "Presse économique",
-        "titre": "Un panier de pommes est-il une rémunération ?",
-        "resume": "Pour bénéficier d’une indemnisation en cas d’accident, le bénévole qui donne un coup de main ne doit toucher aucune contrepartie.",
-        "lien": "https://www.lemonde.fr/argent/article/2026/03/26/un-panier-de-pommes-est-il-une-remuneration_6674312_1657007.html",
-        "date_iso": "2026-03-26T06:00:42+01:00",
+        "titre": "La pauvreté recule au moment du départ à la retraite",
+        "resume": "Cette évolution concerne toutes les catégories de retraités, y compris les personnes qui avaient un emploi juste avant de faire valoir leurs droits à une pension, selon une note diffusée jeudi par la Direction de la recherche, des études, de l’évaluation et des statistiques.",
+        "lien": "https://www.lemonde.fr/politique/article/2026/03/26/la-pauvrete-recule-au-moment-du-depart-a-la-retraite_6674350_823448.html",
+        "date_iso": "2026-03-26T11:53:34+01:00",
+        "date_fr": "26/03/2026",
+        "pertinence": 3
+      },
+      {
+        "source": "Le Monde Emploi",
+        "couleur": "#1f2937",
+        "emoji": "💼",
+        "tag": "Emploi & travail",
+        "titre": "La pauvreté recule au moment du départ à la retraite",
+        "resume": "Cette évolution concerne toutes les catégories de retraités, y compris les personnes qui avaient un emploi juste avant de faire valoir leurs droits à une pension, selon une note diffusée jeudi par la Direction de la recherche, des études, de l’évaluation et des statistiques.",
+        "lien": "https://www.lemonde.fr/politique/article/2026/03/26/la-pauvrete-recule-au-moment-du-depart-a-la-retraite_6674350_823448.html",
+        "date_iso": "2026-03-26T11:53:34+01:00",
         "date_fr": "26/03/2026",
         "pertinence": 3
       }
     ],
     "tous": [
+      {
+        "source": "Le Monde Éco",
+        "couleur": "#374151",
+        "emoji": "🌐",
+        "tag": "Presse économique",
+        "titre": "La pauvreté recule au moment du départ à la retraite",
+        "resume": "Cette évolution concerne toutes les catégories de retraités, y compris les personnes qui avaient un emploi juste avant de faire valoir leurs droits à une pension, selon une note diffusée jeudi par la Direction de la recherche, des études, de l’évaluation et des statistiques.",
+        "lien": "https://www.lemonde.fr/politique/article/2026/03/26/la-pauvrete-recule-au-moment-du-depart-a-la-retraite_6674350_823448.html",
+        "date_iso": "2026-03-26T11:53:34+01:00",
+        "date_fr": "26/03/2026",
+        "pertinence": 3
+      },
+      {
+        "source": "Le Monde Emploi",
+        "couleur": "#1f2937",
+        "emoji": "💼",
+        "tag": "Emploi & travail",
+        "titre": "La pauvreté recule au moment du départ à la retraite",
+        "resume": "Cette évolution concerne toutes les catégories de retraités, y compris les personnes qui avaient un emploi juste avant de faire valoir leurs droits à une pension, selon une note diffusée jeudi par la Direction de la recherche, des études, de l’évaluation et des statistiques.",
+        "lien": "https://www.lemonde.fr/politique/article/2026/03/26/la-pauvrete-recule-au-moment-du-depart-a-la-retraite_6674350_823448.html",
+        "date_iso": "2026-03-26T11:53:34+01:00",
+        "date_fr": "26/03/2026",
+        "pertinence": 3
+      },
+      {
+        "source": "Le Figaro Éco",
+        "couleur": "#92400e",
+        "emoji": "📊",
+        "tag": "Presse économique",
+        "titre": "Accord commercial UE–États-Unis : le Parlement européen donne son feu vert sous conditions",
+        "resume": "Les eurodéputés ont approuvé la suppression des droits de douane sur la plupart des importations américaines au sein de l’UE, tout en l’assortissant de multiples garde-fous.",
+        "lien": "https://www.lefigaro.fr/conjoncture/accord-commercial-ue-etats-unis-le-parlement-europeen-donne-son-feu-vert-sous-conditions-20260326",
+        "date_iso": "2026-03-26T11:42:19+01:00",
+        "date_fr": "26/03/2026",
+        "pertinence": 1
+      },
       {
         "source": "Le Monde Éco",
         "couleur": "#374151",
@@ -300,6 +348,30 @@
         "resume": "L’ONG lance un plan de réorganisation pour tenter de préserver «ses campagnes de protection de l’environnement en France et à l’international».",
         "lien": "https://www.lefigaro.fr/social/greenpeace-france-va-supprimer-un-quart-de-ses-effectifs-pour-faire-face-a-la-baisse-des-dons-20260326",
         "date_iso": "2026-03-26T10:56:18+01:00",
+        "date_fr": "26/03/2026",
+        "pertinence": 1
+      },
+      {
+        "source": "Institut Montaigne",
+        "couleur": "#1d4ed8",
+        "emoji": "🏛️",
+        "tag": "Recherche économique",
+        "titre": "34 875 élections, 34 875 leçons ? Du local au national, bilan des municipales",
+        "resume": "34 875 maires ont été élus : après une campagne marquée par les tactiques politiciennes plus que par les débats de fond, peut-on dégager des tendances générales tout en veillant à la singularité d’un scrutin local ? Quel bilan faire des propositions et de l'écart entre promesses et compétences réell",
+        "lien": "https://www.institutmontaigne.org/expressions/34-875-elections-34-875-lecons-du-local-au-national-bilan-des-municipales",
+        "date_iso": "2026-03-26T10:42:41+01:00",
+        "date_fr": "26/03/2026",
+        "pertinence": 0
+      },
+      {
+        "source": "Libération Éco",
+        "couleur": "#dc2626",
+        "emoji": "📰",
+        "tag": "Presse économique",
+        "titre": "Face au ralentissement des dons, Greenpeace France va supprimer un quart de ses effectifs",
+        "resume": "Le plan social qui touche l’association a été annoncé ce jeudi 26 mars. Il est justifié par une générosité en berne, malgré ses 240 000 adhérents, dont la plupart sont donneurs réguliers.",
+        "lien": "https://www.liberation.fr/economie/social/face-au-ralentissement-des-dons-greenpeace-france-va-supprimer-un-quart-de-ses-effectifs-20260326_YBGFKH7OQZAY7D7MTEX7FNTZHI/",
+        "date_iso": "2026-03-26T10:38:02+00:00",
         "date_fr": "26/03/2026",
         "pertinence": 1
       },
@@ -518,66 +590,6 @@
         "date_iso": "2026-03-26T08:10:00+01:00",
         "date_fr": "26/03/2026",
         "pertinence": 0
-      },
-      {
-        "source": "Euractiv FR",
-        "couleur": "#0369a1",
-        "emoji": "🇪🇺",
-        "tag": "Europe & politique",
-        "titre": "L extrême droite hésite sur l accord commercial avec Trump",
-        "resume": "Également dans l'édition de jeudi : Merz sur le cadre financier pluriannuel, implosion de Vox, vote anti-corruption The post L&rsquo;extrême droite hésite sur l&rsquo;accord commercial avec Trump appeared first on Euractiv FR .",
-        "lien": "https://euractiv.fr/news/lextreme-droite-hesite-sur-laccord-commercial-avec-trump/",
-        "date_iso": "2026-03-26T07:32:25+00:00",
-        "date_fr": "26/03/2026",
-        "pertinence": 1
-      },
-      {
-        "source": "Le Figaro Éco",
-        "couleur": "#92400e",
-        "emoji": "📊",
-        "tag": "Presse économique",
-        "titre": "Levée de fonds, radio, évènementiel... Les nouveaux projets de Mieux, la chaîne télé santé de Michel Cymès",
-        "resume": "Lancée en septembre sur les box, la chaîne touche 2,7 millions de téléspectateurs par mois selon Médiamétrie. Elle entend rapidement accélérer.",
-        "lien": "https://www.lefigaro.fr/medias/levee-de-fonds-radio-evenementiel-les-nouveaux-projets-de-mieux-la-chaine-tele-sante-de-michel-cymes-20260326",
-        "date_iso": "2026-03-26T07:10:11+01:00",
-        "date_fr": "26/03/2026",
-        "pertinence": 0
-      },
-      {
-        "source": "Le Figaro Éco",
-        "couleur": "#92400e",
-        "emoji": "📊",
-        "tag": "Presse économique",
-        "titre": "Thales lance une nouvelle solution de lutte contre les mines marines",
-        "resume": "Le groupe de défense lance Expeditionary PathMaster, dont le cœur est un centre d’opérations portatif, adapté aux nouveaux besoins des marines dans le monde.",
-        "lien": "https://www.lefigaro.fr/economie/thales-lance-une-nouvelle-solution-de-lutte-contre-les-mines-marines-20260326",
-        "date_iso": "2026-03-26T07:00:00+01:00",
-        "date_fr": "26/03/2026",
-        "pertinence": 0
-      },
-      {
-        "source": "Le Monde Éco",
-        "couleur": "#374151",
-        "emoji": "🌐",
-        "tag": "Presse économique",
-        "titre": "Un panier de pommes est-il une rémunération ?",
-        "resume": "Pour bénéficier d’une indemnisation en cas d’accident, le bénévole qui donne un coup de main ne doit toucher aucune contrepartie.",
-        "lien": "https://www.lemonde.fr/argent/article/2026/03/26/un-panier-de-pommes-est-il-une-remuneration_6674312_1657007.html",
-        "date_iso": "2026-03-26T06:00:42+01:00",
-        "date_fr": "26/03/2026",
-        "pertinence": 3
-      },
-      {
-        "source": "Le Monde Éco",
-        "couleur": "#374151",
-        "emoji": "🌐",
-        "tag": "Presse économique",
-        "titre": "« Nous le valons bien » : reconnaître la valeur du travail gratuit",
-        "resume": "Dans son essai, la militante féministe danoise Emma Holten appelle à donner une valeur au travail du soin, fondé sur la relation humaine, qu’il soit effectué dans le cadre privé ou au sein des organisations.",
-        "lien": "https://www.lemonde.fr/emploi/article/2026/03/26/nous-le-valons-bien-reconnaitre-la-valeur-du-travail-gratuit_6674305_1698637.html",
-        "date_iso": "2026-03-26T06:00:12+01:00",
-        "date_fr": "26/03/2026",
-        "pertinence": 1
       }
     ]
   },
@@ -1739,7 +1751,12 @@
       }
     ],
     "source": "DARES - Enquête ACEMO / INSEE",
-    "derniere_maj": "T4 2025"
+    "derniere_maj": "T4 2025",
+    "notes_lecture": [
+      "⚠️ Périmètre : établissements de 10 salariés et plus uniquement. Le chiffre tous établissements publié par la DARES est environ 480 000 postes vacants (T4 2025).",
+      "Les emplois occupés correspondent à l'emploi salarié total France entière (source : INSEE Comptes nationaux).",
+      "Le taux de vacance est calculé comme : emplois vacants / (emplois vacants + emplois occupés) × 100."
+    ]
   },
   "creations_destructions": {
     "source": "DARES - Mouvements de Main d'Oeuvre",
@@ -2032,18 +2049,18 @@
       "variation_sem": 41.3
     },
     "sp95": {
-      "prix": 2.027,
+      "prix": 2.028,
       "variation_an": 11.4,
-      "variation_sem": 17.8
+      "variation_sem": 17.9
     },
     "sp98": {
-      "prix": 2.08,
+      "prix": 2.081,
       "variation_an": 11.4,
-      "variation_sem": 17.8
+      "variation_sem": 17.9
     },
     "e10": {
-      "prix": 1.975,
-      "variation_an": 10.3,
+      "prix": 1.976,
+      "variation_an": 10.4,
       "variation_sem": 17.6
     },
     "evolution": [
@@ -2323,12 +2340,12 @@
       {
         "date": "2026-03-26",
         "gazole": 2.232,
-        "sp95": 2.027,
-        "sp98": 2.08,
-        "e10": 1.975
+        "sp95": 2.028,
+        "sp98": 2.081,
+        "e10": 1.976
       }
     ],
-    "derniere_donnee": "2026-03-26 10:49",
+    "derniere_donnee": "2026-03-26 09:48",
     "source": "data.economie.gouv.fr (flux instantané)",
     "granularite": "quotidien"
   },
@@ -2905,7 +2922,7 @@
       "note_lecture": "Le TEC-10 mesure le rendement des emprunts d'Etat francais a 10 ans. Un taux eleve rencherit le cout de la dette publique et impacte les taux de credit immobilier."
     },
     "petrole_brent": {
-      "valeur": 100.01,
+      "valeur": 100.44,
       "date": "2026-03-26",
       "unite": "USD/baril",
       "source": "Yahoo Finance",
@@ -4425,16 +4442,16 @@
         },
         {
           "date": "2026-03-26",
-          "valeur": 100.01,
-          "ma50": 79.11,
+          "valeur": 100.44,
+          "ma50": 79.12,
           "ma200": 69.24
         }
       ],
       "variations": {
-        "jour": -2.16,
-        "semaine": -7.95,
-        "mois": 41.32,
-        "ytd": 64.63
+        "jour": -1.74,
+        "semaine": -7.56,
+        "mois": 41.92,
+        "ytd": 65.33
       },
       "min_max": {
         "min": 58.92,
@@ -4445,9 +4462,9 @@
       "note_lecture": "Le prix du Brent influence directement les couts de transport et d'energie, donc l'inflation et le pouvoir d'achat des salaries."
     },
     "cac40": {
-      "valeur": 7782.56,
+      "valeur": 7781.58,
       "date": "2026-03-26",
-      "variation_jour_pct": -0.82,
+      "variation_jour_pct": -0.83,
       "unite": "points",
       "source": "Yahoo Finance",
       "nb_points": 256,
@@ -5984,16 +6001,16 @@
         },
         {
           "date": "2026-03-26",
-          "valeur": 7782.56,
-          "ma50": 8159.24,
+          "valeur": 7781.58,
+          "ma50": 8159.22,
           "ma200": 7995.39
         }
       ],
       "variations": {
-        "jour": -0.82,
-        "semaine": -0.32,
-        "mois": -8.65,
-        "ytd": -5.04
+        "jour": -0.83,
+        "semaine": -0.34,
+        "mois": -8.66,
+        "ytd": -5.05
       },
       "min_max": {
         "min": 6863.02,
@@ -7574,7 +7591,7 @@
       "note_lecture": "Le taux de change euro-dollar determine le prix de tout ce qui est importe en dollars : petrole, matieres premieres, electronique. Un euro faible rencherit les importations et alimente l'inflation."
     },
     "or": {
-      "valeur": 4438.2,
+      "valeur": 4442.6,
       "date": "2026-03-26",
       "unite": "USD/oz",
       "source": "Yahoo Finance",
@@ -9094,16 +9111,16 @@
         },
         {
           "date": "2026-03-26",
-          "valeur": 4438.2,
-          "ma50": 4944.97,
-          "ma200": 4085.52
+          "valeur": 4442.6,
+          "ma50": 4945.05,
+          "ma200": 4085.54
         }
       ],
       "variations": {
-        "jour": -2.45,
-        "semaine": -3.53,
-        "mois": -13.92,
-        "ytd": 2.87
+        "jour": -2.36,
+        "semaine": -3.44,
+        "mois": -13.83,
+        "ytd": 2.97
       },
       "min_max": {
         "min": 2951.3,
@@ -9114,7 +9131,7 @@
       "note_lecture": "L'or est la valeur refuge par excellence. Sa hausse traduit une montee de l'incertitude economique ou geopolitique. Il sert aussi de protection contre l'inflation."
     },
     "gaz_naturel": {
-      "valeur": 54.0,
+      "valeur": 54.7,
       "date": "2026-03-26",
       "unite": "EUR/MWh",
       "source": "Yahoo Finance (TTF)",
@@ -10634,16 +10651,16 @@
         },
         {
           "date": "2026-03-26",
-          "valeur": 54.0,
-          "ma50": 41.42,
+          "valeur": 54.7,
+          "ma50": 41.43,
           "ma200": 34.28
         }
       ],
       "variations": {
-        "jour": 2.23,
-        "semaine": -12.69,
-        "mois": 74.81,
-        "ytd": 86.21
+        "jour": 3.56,
+        "semaine": -11.56,
+        "mois": 77.08,
+        "ytd": 88.62
       },
       "min_max": {
         "min": 26.6,
@@ -10654,7 +10671,7 @@
       "note_lecture": "Le prix du gaz naturel (TTF europeen) impacte directement les factures de chauffage et d'electricite des menages, ainsi que les couts de production industrielle."
     },
     "ble": {
-      "valeur": 594.5,
+      "valeur": 595.5,
       "date": "2026-03-26",
       "unite": "cents/boisseau",
       "source": "Yahoo Finance",
@@ -12168,16 +12185,16 @@
         },
         {
           "date": "2026-03-26",
-          "valeur": 594.5,
-          "ma50": 558.93,
+          "valeur": 595.5,
+          "ma50": 558.95,
           "ma200": 532.0
         }
       ],
       "variations": {
-        "jour": -0.54,
-        "semaine": -2.22,
-        "mois": 4.76,
-        "ytd": 17.37
+        "jour": -0.38,
+        "semaine": -2.06,
+        "mois": 4.93,
+        "ytd": 17.57
       },
       "min_max": {
         "min": 495.0,
@@ -12188,7 +12205,7 @@
       "note_lecture": "Le cours du ble est un indicateur avance des prix alimentaires. La France etant le premier producteur europeen, son evolution impacte a la fois les consommateurs et le secteur agricole."
     },
     "lme_cuivre": {
-      "valeur": 5.53,
+      "valeur": 5.52,
       "date": "2026-03-26",
       "unite": "cts/lb",
       "source": "Yahoo Finance",
@@ -13708,16 +13725,16 @@
         },
         {
           "date": "2026-03-26",
-          "valeur": 5.53,
+          "valeur": 5.52,
           "ma50": 5.8,
           "ma200": 5.22
         }
       ],
       "variations": {
-        "jour": 0.0,
-        "semaine": 1.84,
-        "mois": -6.59,
-        "ytd": -1.95
+        "jour": -0.18,
+        "semaine": 1.66,
+        "mois": -6.76,
+        "ytd": -2.13
       },
       "min_max": {
         "min": 4.13,
@@ -13728,7 +13745,7 @@
       "note_lecture": "Le cuivre est le baromètre de l'activité industrielle mondiale ('Dr Copper'). Sa hausse signale une reprise économique, sa baisse anticipe un ralentissement. Utilisé massivement dans l'électrification et les énergies renouvelables."
     },
     "lme_aluminium": {
-      "valeur": 3186.25,
+      "valeur": 3185.25,
       "date": "2026-03-26",
       "unite": "cts/lb",
       "source": "Yahoo Finance",
@@ -15242,16 +15259,16 @@
         },
         {
           "date": "2026-03-26",
-          "valeur": 3186.25,
-          "ma50": 3114.18,
-          "ma200": 2763.3
+          "valeur": 3185.25,
+          "ma50": 3114.16,
+          "ma200": 2763.29
         }
       ],
       "variations": {
-        "jour": 1.63,
-        "semaine": 2.13,
-        "mois": 5.48,
-        "ytd": 8.45
+        "jour": 1.6,
+        "semaine": 2.1,
+        "mois": 5.45,
+        "ytd": 8.42
       },
       "min_max": {
         "min": 2166.25,
@@ -22287,7 +22304,7 @@
     "sources": "INSEE - Enquête Emploi, DARES"
   },
   "previsions_cftc": {
-    "generated_at": "2026-03-26T10:36:25.863381",
+    "generated_at": "2026-03-26T11:07:20.977609",
     "model_version": "CFTC v4.0 (Monte Carlo)",
     "n_simulations": 1000,
     "horizon": "12 mois",
