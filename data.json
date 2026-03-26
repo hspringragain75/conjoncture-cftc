@@ -1,6 +1,6 @@
 {
-  "last_updated": "26/03/2026 09:20",
-  "last_updated_iso": "2026-03-26T09:20:40.917322",
+  "last_updated": "26/03/2026 09:46",
+  "last_updated_iso": "2026-03-26T09:46:57.019943",
   "contact": "hspringragain@cftc.fr",
   "alertes": [
     {
@@ -32,7 +32,7 @@
       "date": "2026-03-26",
       "type": "info",
       "titre": "🔄 Données actualisées",
-      "message": "Le tableau de bord a été mis à jour le 26/03/2026 à 09:20.",
+      "message": "Le tableau de bord a été mis à jour le 26/03/2026 à 09:46.",
       "onglet": "conjoncture"
     }
   ],
@@ -193,7 +193,7 @@
     }
   ],
   "revue_presse": {
-    "derniere_maj": "26/03/2026 09:20",
+    "derniere_maj": "26/03/2026 09:46",
     "nb_sources": 7,
     "sources_noms": [
       "Le Monde Éco",
@@ -1342,162 +1342,120 @@
   "emplois_vacants": {
     "emplois_vacants": [
       {
-        "trimestre": "T2 2023",
+        "trimestre": "T1 2023",
         "valeur": 355000,
         "secteur": "Ensemble"
       },
       {
+        "trimestre": "T2 2023",
+        "valeur": 360000,
+        "secteur": "Ensemble"
+      },
+      {
         "trimestre": "T3 2023",
-        "valeur": 340000,
+        "valeur": 352000,
         "secteur": "Ensemble"
       },
       {
         "trimestre": "T4 2023",
-        "valeur": 325000,
+        "valeur": 348000,
         "secteur": "Ensemble"
       },
       {
         "trimestre": "T1 2024",
-        "valeur": 315000,
+        "valeur": 342000,
         "secteur": "Ensemble"
       },
       {
         "trimestre": "T2 2024",
-        "valeur": 305000,
+        "valeur": 338000,
         "secteur": "Ensemble"
       },
       {
         "trimestre": "T3 2024",
-        "valeur": 295000,
+        "valeur": 335000,
         "secteur": "Ensemble"
       },
       {
         "trimestre": "T4 2024",
-        "valeur": 285000,
-        "secteur": "Ensemble"
-      },
-      {
-        "trimestre": "T1 2025",
-        "valeur": 278000,
-        "secteur": "Ensemble"
-      },
-      {
-        "trimestre": "T2 2025",
-        "valeur": 272000,
-        "secteur": "Ensemble"
-      },
-      {
-        "trimestre": "T3 2025",
-        "valeur": 265000,
-        "secteur": "Ensemble"
-      },
-      {
-        "trimestre": "T4 2025",
-        "valeur": 258000,
+        "valeur": 330000,
         "secteur": "Ensemble"
       }
     ],
     "emplois_occupes": [
       {
+        "trimestre": "T1 2023",
+        "valeur": 20150000,
+        "secteur": "Ensemble"
+      },
+      {
         "trimestre": "T2 2023",
-        "valeur": 20260000,
+        "valeur": 20200000,
         "secteur": "Ensemble"
       },
       {
         "trimestre": "T3 2023",
-        "valeur": 20270000,
+        "valeur": 20180000,
         "secteur": "Ensemble"
       },
       {
         "trimestre": "T4 2023",
-        "valeur": 20280000,
+        "valeur": 20220000,
         "secteur": "Ensemble"
       },
       {
         "trimestre": "T1 2024",
-        "valeur": 20290000,
+        "valeur": 20250000,
         "secteur": "Ensemble"
       },
       {
         "trimestre": "T2 2024",
-        "valeur": 20300000,
-        "secteur": "Ensemble"
-      },
-      {
-        "trimestre": "T3 2024",
-        "valeur": 20310000,
-        "secteur": "Ensemble"
-      },
-      {
-        "trimestre": "T4 2024",
-        "valeur": 20315000,
-        "secteur": "Ensemble"
-      },
-      {
-        "trimestre": "T1 2025",
-        "valeur": 20300000,
-        "secteur": "Ensemble"
-      },
-      {
-        "trimestre": "T2 2025",
-        "valeur": 20290000,
-        "secteur": "Ensemble"
-      },
-      {
-        "trimestre": "T3 2025",
         "valeur": 20280000,
         "secteur": "Ensemble"
       },
       {
-        "trimestre": "T4 2025",
-        "valeur": 20270000,
+        "trimestre": "T3 2024",
+        "valeur": 20300000,
+        "secteur": "Ensemble"
+      },
+      {
+        "trimestre": "T4 2024",
+        "valeur": 20320000,
         "secteur": "Ensemble"
       }
     ],
     "taux_vacance": [
       {
+        "trimestre": "T1 2023",
+        "taux": 1.76
+      },
+      {
         "trimestre": "T2 2023",
-        "taux": 3.99
+        "taux": 1.78
       },
       {
         "trimestre": "T3 2023",
-        "taux": 2.5
+        "taux": 1.74
       },
       {
         "trimestre": "T4 2023",
-        "taux": 3.02
+        "taux": 1.72
       },
       {
         "trimestre": "T1 2024",
-        "taux": 3.14
+        "taux": 1.69
       },
       {
         "trimestre": "T2 2024",
-        "taux": 2.67
+        "taux": 1.67
       },
       {
         "trimestre": "T3 2024",
-        "taux": 2.6
+        "taux": 1.65
       },
       {
         "trimestre": "T4 2024",
-        "taux": 2.72
-      },
-      {
-        "trimestre": "T1 2025",
-        "taux": 3.04
-      },
-      {
-        "trimestre": "T2 2025",
-        "taux": 2.18
-      },
-      {
-        "trimestre": "T3 2025",
-        "taux": 1.6
-      },
-      {
-        "trimestre": "T4 2025",
-        "taux": 2.39
+        "taux": 1.62
       }
     ]
   },
@@ -2665,7 +2623,7 @@
       "note_lecture": "Le TEC-10 mesure le rendement des emprunts d'Etat francais a 10 ans. Un taux eleve rencherit le cout de la dette publique et impacte les taux de credit immobilier."
     },
     "petrole_brent": {
-      "valeur": 100.19,
+      "valeur": 100.36,
       "date": "2026-03-26",
       "unite": "USD/baril",
       "source": "Yahoo Finance",
@@ -4185,16 +4143,16 @@
         },
         {
           "date": "2026-03-26",
-          "valeur": 100.19,
+          "valeur": 100.36,
           "ma50": 79.12,
           "ma200": 69.24
         }
       ],
       "variations": {
-        "jour": -1.99,
-        "semaine": -7.79,
-        "mois": 41.57,
-        "ytd": 64.92
+        "jour": -1.82,
+        "semaine": -7.63,
+        "mois": 41.81,
+        "ytd": 65.2
       },
       "min_max": {
         "min": 58.92,
@@ -4205,9 +4163,9 @@
       "note_lecture": "Le prix du Brent influence directement les couts de transport et d'energie, donc l'inflation et le pouvoir d'achat des salaries."
     },
     "cac40": {
-      "valeur": 7801.92,
+      "valeur": 7767.59,
       "date": "2026-03-26",
-      "variation_jour_pct": -0.57,
+      "variation_jour_pct": -1.01,
       "unite": "points",
       "source": "Yahoo Finance",
       "nb_points": 256,
@@ -5744,16 +5702,16 @@
         },
         {
           "date": "2026-03-26",
-          "valeur": 7801.92,
-          "ma50": 8159.62,
-          "ma200": 7995.49
+          "valeur": 7767.59,
+          "ma50": 8158.94,
+          "ma200": 7995.32
         }
       ],
       "variations": {
-        "jour": -0.57,
-        "semaine": -0.08,
-        "mois": -8.42,
-        "ytd": -4.8
+        "jour": -1.01,
+        "semaine": -0.52,
+        "mois": -8.82,
+        "ytd": -5.22
       },
       "min_max": {
         "min": 6863.02,
@@ -7334,7 +7292,7 @@
       "note_lecture": "Le taux de change euro-dollar determine le prix de tout ce qui est importe en dollars : petrole, matieres premieres, electronique. Un euro faible rencherit les importations et alimente l'inflation."
     },
     "or": {
-      "valeur": 4422.2,
+      "valeur": 4418.3,
       "date": "2026-03-26",
       "unite": "USD/oz",
       "source": "Yahoo Finance",
@@ -8854,16 +8812,16 @@
         },
         {
           "date": "2026-03-26",
-          "valeur": 4422.2,
-          "ma50": 4944.65,
-          "ma200": 4085.44
+          "valeur": 4418.3,
+          "ma50": 4944.57,
+          "ma200": 4085.42
         }
       ],
       "variations": {
-        "jour": -2.8,
-        "semaine": -3.88,
-        "mois": -14.23,
-        "ytd": 2.5
+        "jour": -2.89,
+        "semaine": -3.96,
+        "mois": -14.3,
+        "ytd": 2.41
       },
       "min_max": {
         "min": 2951.3,
@@ -8874,11 +8832,11 @@
       "note_lecture": "L'or est la valeur refuge par excellence. Sa hausse traduit une montee de l'incertitude economique ou geopolitique. Il sert aussi de protection contre l'inflation."
     },
     "gaz_naturel": {
-      "valeur": 52.82,
-      "date": "2026-03-25",
+      "valeur": 54.0,
+      "date": "2026-03-26",
       "unite": "EUR/MWh",
       "source": "Yahoo Finance (TTF)",
-      "nb_points": 252,
+      "nb_points": 253,
       "historique": [
         {
           "date": "2025-03-26",
@@ -10391,13 +10349,19 @@
           "valeur": 52.82,
           "ma50": 40.97,
           "ma200": 34.18
+        },
+        {
+          "date": "2026-03-26",
+          "valeur": 54.0,
+          "ma50": 41.42,
+          "ma200": 34.28
         }
       ],
       "variations": {
-        "jour": -2.26,
-        "semaine": -3.37,
-        "mois": 65.94,
-        "ytd": 82.14
+        "jour": 2.23,
+        "semaine": -12.69,
+        "mois": 74.81,
+        "ytd": 86.21
       },
       "min_max": {
         "min": 26.6,
@@ -10408,7 +10372,7 @@
       "note_lecture": "Le prix du gaz naturel (TTF europeen) impacte directement les factures de chauffage et d'electricite des menages, ainsi que les couts de production industrielle."
     },
     "ble": {
-      "valeur": 597.0,
+      "valeur": 597.5,
       "date": "2026-03-26",
       "unite": "cents/boisseau",
       "source": "Yahoo Finance",
@@ -11922,16 +11886,16 @@
         },
         {
           "date": "2026-03-26",
-          "valeur": 597.0,
-          "ma50": 558.98,
+          "valeur": 597.5,
+          "ma50": 558.99,
           "ma200": 532.01
         }
       ],
       "variations": {
-        "jour": -0.13,
-        "semaine": -1.81,
-        "mois": 5.2,
-        "ytd": 17.87
+        "jour": -0.04,
+        "semaine": -1.73,
+        "mois": 5.29,
+        "ytd": 17.97
       },
       "min_max": {
         "min": 495.0,
@@ -11942,7 +11906,7 @@
       "note_lecture": "Le cours du ble est un indicateur avance des prix alimentaires. La France etant le premier producteur europeen, son evolution impacte a la fois les consommateurs et le secteur agricole."
     },
     "lme_cuivre": {
-      "valeur": 5.52,
+      "valeur": 5.5,
       "date": "2026-03-26",
       "unite": "cts/lb",
       "source": "Yahoo Finance",
@@ -13462,16 +13426,16 @@
         },
         {
           "date": "2026-03-26",
-          "valeur": 5.52,
+          "valeur": 5.5,
           "ma50": 5.8,
           "ma200": 5.22
         }
       ],
       "variations": {
-        "jour": -0.18,
-        "semaine": 1.66,
-        "mois": -6.76,
-        "ytd": -2.13
+        "jour": -0.54,
+        "semaine": 1.29,
+        "mois": -7.09,
+        "ytd": -2.48
       },
       "min_max": {
         "min": 4.13,
@@ -13482,7 +13446,7 @@
       "note_lecture": "Le cuivre est le baromètre de l'activité industrielle mondiale ('Dr Copper'). Sa hausse signale une reprise économique, sa baisse anticipe un ralentissement. Utilisé massivement dans l'électrification et les énergies renouvelables."
     },
     "lme_aluminium": {
-      "valeur": 3155.0,
+      "valeur": 3176.75,
       "date": "2026-03-26",
       "unite": "cts/lb",
       "source": "Yahoo Finance",
@@ -14996,16 +14960,16 @@
         },
         {
           "date": "2026-03-26",
-          "valeur": 3155.0,
-          "ma50": 3113.55,
-          "ma200": 2763.14
+          "valeur": 3176.75,
+          "ma50": 3113.99,
+          "ma200": 2763.25
         }
       ],
       "variations": {
-        "jour": 0.64,
-        "semaine": 1.13,
-        "mois": 4.44,
-        "ytd": 7.39
+        "jour": 1.33,
+        "semaine": 1.83,
+        "mois": 5.16,
+        "ytd": 8.13
       },
       "min_max": {
         "min": 2166.25,
@@ -22041,7 +22005,7 @@
     "sources": "INSEE - Enquête Emploi, DARES"
   },
   "previsions_cftc": {
-    "generated_at": "2026-03-26T09:20:41.149487",
+    "generated_at": "2026-03-26T09:46:57.378591",
     "model_version": "CFTC v4.0 (Monte Carlo)",
     "n_simulations": 1000,
     "horizon": "12 mois",
