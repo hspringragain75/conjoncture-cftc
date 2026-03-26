@@ -1,6 +1,6 @@
 {
-  "last_updated": "26/03/2026 07:11",
-  "last_updated_iso": "2026-03-26T07:11:00.558921",
+  "last_updated": "26/03/2026 07:21",
+  "last_updated_iso": "2026-03-26T07:21:59.582774",
   "contact": "hspringragain@cftc.fr",
   "alertes": [
     {
@@ -32,7 +32,7 @@
       "date": "2026-03-26",
       "type": "info",
       "titre": "🔄 Données actualisées",
-      "message": "Le tableau de bord a été mis à jour le 26/03/2026 à 07:10.",
+      "message": "Le tableau de bord a été mis à jour le 26/03/2026 à 07:21.",
       "onglet": "conjoncture"
     }
   ],
@@ -193,7 +193,7 @@
     }
   ],
   "revue_presse": {
-    "derniere_maj": "26/03/2026 07:11",
+    "derniere_maj": "26/03/2026 07:21",
     "nb_sources": 7,
     "sources_noms": [
       "Le Monde Éco",
@@ -1760,9 +1760,9 @@
       "variation_sem": 17.9
     },
     "e10": {
-      "prix": 1.98,
+      "prix": 1.979,
       "variation_an": 10.6,
-      "variation_sem": 17.9
+      "variation_sem": 17.8
     },
     "evolution": [
       {
@@ -2043,10 +2043,10 @@
         "gazole": 2.232,
         "sp95": 2.028,
         "sp98": 2.082,
-        "e10": 1.98
+        "e10": 1.979
       }
     ],
-    "derniere_donnee": "2026-03-26 06:57",
+    "derniere_donnee": "2026-03-26 07:49",
     "source": "data.economie.gouv.fr (flux instantané)",
     "granularite": "quotidien"
   },
@@ -2623,7 +2623,7 @@
       "note_lecture": "Le TEC-10 mesure le rendement des emprunts d'Etat francais a 10 ans. Un taux eleve rencherit le cout de la dette publique et impacte les taux de credit immobilier."
     },
     "petrole_brent": {
-      "valeur": 99.32,
+      "valeur": 99.5,
       "date": "2026-03-26",
       "unite": "USD/baril",
       "source": "Yahoo Finance",
@@ -4143,16 +4143,16 @@
         },
         {
           "date": "2026-03-26",
-          "valeur": 99.32,
+          "valeur": 99.5,
           "ma50": 79.1,
           "ma200": 69.23
         }
       ],
       "variations": {
-        "jour": -2.84,
-        "semaine": -8.59,
-        "mois": 40.34,
-        "ytd": 63.49
+        "jour": -2.66,
+        "semaine": -8.42,
+        "mois": 40.6,
+        "ytd": 63.79
       },
       "min_max": {
         "min": 58.92,
@@ -7298,7 +7298,7 @@
       "note_lecture": "Le taux de change euro-dollar determine le prix de tout ce qui est importe en dollars : petrole, matieres premieres, electronique. Un euro faible rencherit les importations et alimente l'inflation."
     },
     "or": {
-      "valeur": 4452.2,
+      "valeur": 4439.8,
       "date": "2026-03-26",
       "unite": "USD/oz",
       "source": "Yahoo Finance",
@@ -8818,16 +8818,16 @@
         },
         {
           "date": "2026-03-26",
-          "valeur": 4452.2,
-          "ma50": 4945.25,
-          "ma200": 4085.59
+          "valeur": 4439.8,
+          "ma50": 4945.0,
+          "ma200": 4085.53
         }
       ],
       "variations": {
-        "jour": -2.15,
-        "semaine": -3.23,
-        "mois": -13.65,
-        "ytd": 3.19
+        "jour": -2.42,
+        "semaine": -3.5,
+        "mois": -13.89,
+        "ytd": 2.91
       },
       "min_max": {
         "min": 2951.3,
@@ -10372,7 +10372,7 @@
       "note_lecture": "Le prix du gaz naturel (TTF europeen) impacte directement les factures de chauffage et d'electricite des menages, ainsi que les couts de production industrielle."
     },
     "ble": {
-      "valeur": 602.0,
+      "valeur": 601.5,
       "date": "2026-03-26",
       "unite": "cents/boisseau",
       "source": "Yahoo Finance",
@@ -11886,16 +11886,16 @@
         },
         {
           "date": "2026-03-26",
-          "valeur": 602.0,
-          "ma50": 559.08,
+          "valeur": 601.5,
+          "ma50": 559.07,
           "ma200": 532.03
         }
       ],
       "variations": {
-        "jour": 0.71,
-        "semaine": -0.99,
-        "mois": 6.08,
-        "ytd": 18.85
+        "jour": 0.63,
+        "semaine": -1.07,
+        "mois": 5.99,
+        "ytd": 18.76
       },
       "min_max": {
         "min": 495.0,
@@ -11906,7 +11906,7 @@
       "note_lecture": "Le cours du ble est un indicateur avance des prix alimentaires. La France etant le premier producteur europeen, son evolution impacte a la fois les consommateurs et le secteur agricole."
     },
     "lme_cuivre": {
-      "valeur": 5.5,
+      "valeur": 5.49,
       "date": "2026-03-26",
       "unite": "cts/lb",
       "source": "Yahoo Finance",
@@ -13426,16 +13426,16 @@
         },
         {
           "date": "2026-03-26",
-          "valeur": 5.5,
+          "valeur": 5.49,
           "ma50": 5.8,
           "ma200": 5.22
         }
       ],
       "variations": {
-        "jour": -0.54,
-        "semaine": 1.29,
-        "mois": -7.09,
-        "ytd": -2.48
+        "jour": -0.72,
+        "semaine": 1.1,
+        "mois": -7.26,
+        "ytd": -2.66
       },
       "min_max": {
         "min": 4.13,
@@ -13446,7 +13446,7 @@
       "note_lecture": "Le cuivre est le baromètre de l'activité industrielle mondiale ('Dr Copper'). Sa hausse signale une reprise économique, sa baisse anticipe un ralentissement. Utilisé massivement dans l'électrification et les énergies renouvelables."
     },
     "lme_aluminium": {
-      "valeur": 3122.75,
+      "valeur": 3119.5,
       "date": "2026-03-26",
       "unite": "cts/lb",
       "source": "Yahoo Finance",
@@ -14960,16 +14960,16 @@
         },
         {
           "date": "2026-03-26",
-          "valeur": 3122.75,
-          "ma50": 3112.91,
-          "ma200": 2762.98
+          "valeur": 3119.5,
+          "ma50": 3112.84,
+          "ma200": 2762.96
         }
       ],
       "variations": {
-        "jour": -0.39,
-        "semaine": 0.1,
-        "mois": 3.38,
-        "ytd": 6.29
+        "jour": -0.49,
+        "semaine": -0.01,
+        "mois": 3.27,
+        "ytd": 6.18
       },
       "min_max": {
         "min": 2166.25,
@@ -22005,7 +22005,7 @@
     "sources": "INSEE - Enquête Emploi, DARES"
   },
   "previsions_cftc": {
-    "generated_at": "2026-03-26T07:11:00.815048",
+    "generated_at": "2026-03-26T07:21:59.809767",
     "model_version": "CFTC v4.0 (Monte Carlo)",
     "n_simulations": 1000,
     "horizon": "12 mois",
