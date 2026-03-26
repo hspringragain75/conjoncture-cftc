@@ -1,6 +1,6 @@
 {
-  "last_updated": "26/03/2026 20:09",
-  "last_updated_iso": "2026-03-26T20:09:41.656606",
+  "last_updated": "26/03/2026 20:17",
+  "last_updated_iso": "2026-03-26T20:17:21.057461",
   "contact": "hspringragain@cftc.fr",
   "alertes": [
     {
@@ -32,7 +32,7 @@
       "date": "2026-03-26",
       "type": "info",
       "titre": "🔄 Données actualisées",
-      "message": "Le tableau de bord a été mis à jour le 26/03/2026 à 20:09.",
+      "message": "Le tableau de bord a été mis à jour le 26/03/2026 à 20:17.",
       "onglet": "conjoncture"
     }
   ],
@@ -193,7 +193,7 @@
     }
   ],
   "revue_presse": {
-    "derniere_maj": "26/03/2026 20:09",
+    "derniere_maj": "26/03/2026 20:17",
     "nb_sources": 7,
     "sources_noms": [
       "Le Monde Éco",
@@ -2320,7 +2320,7 @@
         "e10": 1.974
       }
     ],
-    "derniere_donnee": "2026-03-26 19:45",
+    "derniere_donnee": "2026-03-26 20:42",
     "source": "data.economie.gouv.fr (flux instantané)",
     "granularite": "quotidien"
   },
@@ -2897,7 +2897,7 @@
       "note_lecture": "Le TEC-10 mesure le rendement des emprunts d'Etat francais a 10 ans. Un taux eleve rencherit le cout de la dette publique et impacte les taux de credit immobilier."
     },
     "petrole_brent": {
-      "valeur": 101.34,
+      "valeur": 101.46,
       "date": "2026-03-26",
       "unite": "USD/baril",
       "source": "Yahoo Finance",
@@ -4417,16 +4417,16 @@
         },
         {
           "date": "2026-03-26",
-          "valeur": 101.34,
+          "valeur": 101.46,
           "ma50": 79.14,
           "ma200": 69.24
         }
       ],
       "variations": {
-        "jour": -0.86,
-        "semaine": -6.73,
-        "mois": 43.2,
-        "ytd": 66.81
+        "jour": -0.74,
+        "semaine": -6.62,
+        "mois": 43.37,
+        "ytd": 67.01
       },
       "min_max": {
         "min": 58.92,
@@ -5996,7 +5996,7 @@
       "note_lecture": "Le CAC 40 reflete la sante des 40 plus grandes entreprises francaises. Sa performance impacte l'interessement, la participation et l'epargne salariale."
     },
     "eurusd": {
-      "valeur": 1.15,
+      "valeur": 1.16,
       "date": "2026-03-26",
       "unite": "EUR/USD",
       "source": "Yahoo Finance",
@@ -7546,16 +7546,16 @@
         },
         {
           "date": "2026-03-26",
-          "valeur": 1.15,
+          "valeur": 1.16,
           "ma50": 1.17,
           "ma200": 1.17
         }
       ],
       "variations": {
-        "jour": -0.86,
-        "semaine": 0.0,
-        "mois": -2.54,
-        "ytd": -2.54
+        "jour": 0.0,
+        "semaine": 0.87,
+        "mois": -1.69,
+        "ytd": -1.69
       },
       "min_max": {
         "min": 1.07,
@@ -7566,7 +7566,7 @@
       "note_lecture": "Le taux de change euro-dollar determine le prix de tout ce qui est importe en dollars : petrole, matieres premieres, electronique. Un euro faible rencherit les importations et alimente l'inflation."
     },
     "or": {
-      "valeur": 4360.0,
+      "valeur": 4352.0,
       "date": "2026-03-26",
       "unite": "USD/oz",
       "source": "Yahoo Finance",
@@ -9086,16 +9086,16 @@
         },
         {
           "date": "2026-03-26",
-          "valeur": 4360.0,
-          "ma50": 4943.4,
-          "ma200": 4085.13
+          "valeur": 4352.0,
+          "ma50": 4943.24,
+          "ma200": 4085.09
         }
       ],
       "variations": {
-        "jour": -4.17,
-        "semaine": -5.23,
-        "mois": -15.44,
-        "ytd": 1.06
+        "jour": -4.35,
+        "semaine": -5.41,
+        "mois": -15.59,
+        "ytd": 0.87
       },
       "min_max": {
         "min": 2951.3,
@@ -22279,7 +22279,7 @@
     "sources": "INSEE - Enquête Emploi, DARES"
   },
   "previsions_cftc": {
-    "generated_at": "2026-03-26T20:09:41.835980",
+    "generated_at": "2026-03-26T20:17:21.436258",
     "model_version": "CFTC v6.0 (Monte Carlo + calibrage dynamique + backtesting)",
     "n_simulations": 1000,
     "horizon": "12 mois",
@@ -22288,7 +22288,7 @@
       "niveau": "excellent",
       "issues": [],
       "warnings": [],
-      "timestamp": "2026-03-26T20:09:41.835995"
+      "timestamp": "2026-03-26T20:17:21.436271"
     },
     "calibrage": {
       "volatilites": {
@@ -22319,10 +22319,10 @@
     },
     "market_signals_details": {
       "brent": {
-        "valeur": 101.34,
+        "valeur": 101.46,
         "ref": 75.0,
-        "variation_ytd_pct": 66.81,
-        "impact_inflation_pt": 0.263
+        "variation_ytd_pct": 67.01,
+        "impact_inflation_pt": 0.265
       },
       "gaz_ttf": {
         "valeur": 55.37,
@@ -22330,9 +22330,9 @@
         "impact_inflation_pt": 0.102
       },
       "eurusd": {
-        "valeur": 1.15,
+        "valeur": 1.16,
         "ref": 1.08,
-        "impact_inflation_pt": -0.01
+        "impact_inflation_pt": -0.011
       },
       "defaillances": {
         "cumul_12m": 68961.0,
