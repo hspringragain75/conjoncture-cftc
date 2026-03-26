@@ -1,6 +1,6 @@
 {
-  "last_updated": "26/03/2026 09:07",
-  "last_updated_iso": "2026-03-26T09:07:36.757684",
+  "last_updated": "26/03/2026 09:20",
+  "last_updated_iso": "2026-03-26T09:20:40.917322",
   "contact": "hspringragain@cftc.fr",
   "alertes": [
     {
@@ -32,7 +32,7 @@
       "date": "2026-03-26",
       "type": "info",
       "titre": "🔄 Données actualisées",
-      "message": "Le tableau de bord a été mis à jour le 26/03/2026 à 09:07.",
+      "message": "Le tableau de bord a été mis à jour le 26/03/2026 à 09:20.",
       "onglet": "conjoncture"
     }
   ],
@@ -193,7 +193,7 @@
     }
   ],
   "revue_presse": {
-    "derniere_maj": "26/03/2026 09:07",
+    "derniere_maj": "26/03/2026 09:20",
     "nb_sources": 7,
     "sources_noms": [
       "Le Monde Éco",
@@ -219,6 +219,18 @@
       }
     ],
     "tous": [
+      {
+        "source": "Le Monde Éco",
+        "couleur": "#374151",
+        "emoji": "🌐",
+        "tag": "Presse économique",
+        "titre": "« Les retraités ne sont pas plus heureux que les actifs »",
+        "resume": "Il est réducteur d’associer bonheur et retraite, car si celle-ci attire c’est aussi pour fuir un travail devenu pénible, constate, dans sa chronique, Béatrice Madeline, journaliste au service Economie, à partir d’une étude menée par deux économistes.",
+        "lien": "https://www.lemonde.fr/idees/article/2026/03/26/les-retraites-ne-sont-pas-plus-heureux-que-les-actifs_6674333_3232.html",
+        "date_iso": "2026-03-26T10:11:35+01:00",
+        "date_fr": "26/03/2026",
+        "pertinence": 2
+      },
       {
         "source": "Le Monde Éco",
         "couleur": "#374151",
@@ -566,18 +578,6 @@
         "date_iso": "2026-03-25T20:50:00+01:00",
         "date_fr": "25/03/2026",
         "pertinence": 0
-      },
-      {
-        "source": "Libération Éco",
-        "couleur": "#dc2626",
-        "emoji": "📰",
-        "tag": "Presse économique",
-        "titre": "«L’heure de rendre des comptes est arrivée» : Instagram et YouTube condamnés dans un procès inédit sur l’addiction aux réseaux sociaux",
-        "resume": "Un jury californien a condamné les deux entreprises à verser 6 millions de dollars à une jeune femme, jugeant leurs plateformes responsables de sa dépression adolescente. Ce verdict crée un précédent pour des milliers de plaintes similaires aux Etats-Unis.",
-        "lien": "https://www.liberation.fr/economie/economie-numerique/lheure-de-rendre-des-comptes-est-arrivee-instagram-et-youtube-condamnes-dans-un-proces-inedit-sur-laddiction-aux-reseaux-sociaux-20260325_R3XPSXBDJ5DHBJ7BLIRSO7ZDB4/",
-        "date_iso": "2026-03-25T20:44:56+00:00",
-        "date_fr": "25/03/2026",
-        "pertinence": 1
       }
     ]
   },
@@ -1343,114 +1343,114 @@
     "emplois_vacants": [
       {
         "trimestre": "T2 2023",
-        "valeur": 34593,
+        "valeur": 355000,
         "secteur": "Ensemble"
       },
       {
         "trimestre": "T3 2023",
-        "valeur": 252950,
+        "valeur": 340000,
         "secteur": "Ensemble"
       },
       {
         "trimestre": "T4 2023",
-        "valeur": 139404,
+        "valeur": 325000,
         "secteur": "Ensemble"
       },
       {
         "trimestre": "T1 2024",
-        "valeur": 235755,
+        "valeur": 315000,
         "secteur": "Ensemble"
       },
       {
         "trimestre": "T2 2024",
-        "valeur": 230376,
+        "valeur": 305000,
         "secteur": "Ensemble"
       },
       {
         "trimestre": "T3 2024",
-        "valeur": 231283,
+        "valeur": 295000,
         "secteur": "Ensemble"
       },
       {
         "trimestre": "T4 2024",
-        "valeur": 158456,
+        "valeur": 285000,
         "secteur": "Ensemble"
       },
       {
         "trimestre": "T1 2025",
-        "valeur": 158452,
+        "valeur": 278000,
         "secteur": "Ensemble"
       },
       {
         "trimestre": "T2 2025",
-        "valeur": 237445,
+        "valeur": 272000,
         "secteur": "Ensemble"
       },
       {
         "trimestre": "T3 2025",
-        "valeur": 166488,
+        "valeur": 265000,
         "secteur": "Ensemble"
       },
       {
         "trimestre": "T4 2025",
-        "valeur": 153914,
+        "valeur": 258000,
         "secteur": "Ensemble"
       }
     ],
     "emplois_occupes": [
       {
         "trimestre": "T2 2023",
-        "valeur": 0,
+        "valeur": 20260000,
         "secteur": "Ensemble"
       },
       {
         "trimestre": "T3 2023",
-        "valeur": 0,
+        "valeur": 20270000,
         "secteur": "Ensemble"
       },
       {
         "trimestre": "T4 2023",
-        "valeur": 0,
+        "valeur": 20280000,
         "secteur": "Ensemble"
       },
       {
         "trimestre": "T1 2024",
-        "valeur": 0,
+        "valeur": 20290000,
         "secteur": "Ensemble"
       },
       {
         "trimestre": "T2 2024",
-        "valeur": 0,
+        "valeur": 20300000,
         "secteur": "Ensemble"
       },
       {
         "trimestre": "T3 2024",
-        "valeur": 0,
+        "valeur": 20310000,
         "secteur": "Ensemble"
       },
       {
         "trimestre": "T4 2024",
-        "valeur": 0,
+        "valeur": 20315000,
         "secteur": "Ensemble"
       },
       {
         "trimestre": "T1 2025",
-        "valeur": 0,
+        "valeur": 20300000,
         "secteur": "Ensemble"
       },
       {
         "trimestre": "T2 2025",
-        "valeur": 0,
+        "valeur": 20290000,
         "secteur": "Ensemble"
       },
       {
         "trimestre": "T3 2025",
-        "valeur": 0,
+        "valeur": 20280000,
         "secteur": "Ensemble"
       },
       {
         "trimestre": "T4 2025",
-        "valeur": 0,
+        "valeur": 20270000,
         "secteur": "Ensemble"
       }
     ],
@@ -1797,14 +1797,14 @@
       "variation_sem": 17.9
     },
     "sp98": {
-      "prix": 2.082,
+      "prix": 2.081,
       "variation_an": 11.4,
       "variation_sem": 17.9
     },
     "e10": {
-      "prix": 1.978,
-      "variation_an": 10.5,
-      "variation_sem": 17.7
+      "prix": 1.976,
+      "variation_an": 10.4,
+      "variation_sem": 17.6
     },
     "evolution": [
       {
@@ -2084,11 +2084,11 @@
         "date": "2026-03-26",
         "gazole": 2.232,
         "sp95": 2.028,
-        "sp98": 2.082,
-        "e10": 1.978
+        "sp98": 2.081,
+        "e10": 1.976
       }
     ],
-    "derniere_donnee": "2026-03-26 08:49",
+    "derniere_donnee": "2026-03-26 09:48",
     "source": "data.economie.gouv.fr (flux instantané)",
     "granularite": "quotidien"
   },
@@ -2665,7 +2665,7 @@
       "note_lecture": "Le TEC-10 mesure le rendement des emprunts d'Etat francais a 10 ans. Un taux eleve rencherit le cout de la dette publique et impacte les taux de credit immobilier."
     },
     "petrole_brent": {
-      "valeur": 100.12,
+      "valeur": 100.19,
       "date": "2026-03-26",
       "unite": "USD/baril",
       "source": "Yahoo Finance",
@@ -4185,16 +4185,16 @@
         },
         {
           "date": "2026-03-26",
-          "valeur": 100.12,
+          "valeur": 100.19,
           "ma50": 79.12,
           "ma200": 69.24
         }
       ],
       "variations": {
-        "jour": -2.05,
-        "semaine": -7.85,
-        "mois": 41.47,
-        "ytd": 64.81
+        "jour": -1.99,
+        "semaine": -7.79,
+        "mois": 41.57,
+        "ytd": 64.92
       },
       "min_max": {
         "min": 58.92,
@@ -4205,9 +4205,9 @@
       "note_lecture": "Le prix du Brent influence directement les couts de transport et d'energie, donc l'inflation et le pouvoir d'achat des salaries."
     },
     "cac40": {
-      "valeur": 7799.46,
+      "valeur": 7801.92,
       "date": "2026-03-26",
-      "variation_jour_pct": -0.6,
+      "variation_jour_pct": -0.57,
       "unite": "points",
       "source": "Yahoo Finance",
       "nb_points": 256,
@@ -5744,16 +5744,16 @@
         },
         {
           "date": "2026-03-26",
-          "valeur": 7799.46,
-          "ma50": 8159.58,
-          "ma200": 7995.48
+          "valeur": 7801.92,
+          "ma50": 8159.62,
+          "ma200": 7995.49
         }
       ],
       "variations": {
-        "jour": -0.6,
-        "semaine": -0.11,
-        "mois": -8.45,
-        "ytd": -4.83
+        "jour": -0.57,
+        "semaine": -0.08,
+        "mois": -8.42,
+        "ytd": -4.8
       },
       "min_max": {
         "min": 6863.02,
@@ -7334,7 +7334,7 @@
       "note_lecture": "Le taux de change euro-dollar determine le prix de tout ce qui est importe en dollars : petrole, matieres premieres, electronique. Un euro faible rencherit les importations et alimente l'inflation."
     },
     "or": {
-      "valeur": 4430.2,
+      "valeur": 4422.2,
       "date": "2026-03-26",
       "unite": "USD/oz",
       "source": "Yahoo Finance",
@@ -8854,16 +8854,16 @@
         },
         {
           "date": "2026-03-26",
-          "valeur": 4430.2,
-          "ma50": 4944.81,
-          "ma200": 4085.48
+          "valeur": 4422.2,
+          "ma50": 4944.65,
+          "ma200": 4085.44
         }
       ],
       "variations": {
-        "jour": -2.63,
-        "semaine": -3.71,
-        "mois": -14.07,
-        "ytd": 2.68
+        "jour": -2.8,
+        "semaine": -3.88,
+        "mois": -14.23,
+        "ytd": 2.5
       },
       "min_max": {
         "min": 2951.3,
@@ -10408,7 +10408,7 @@
       "note_lecture": "Le prix du gaz naturel (TTF europeen) impacte directement les factures de chauffage et d'electricite des menages, ainsi que les couts de production industrielle."
     },
     "ble": {
-      "valeur": 601.5,
+      "valeur": 597.0,
       "date": "2026-03-26",
       "unite": "cents/boisseau",
       "source": "Yahoo Finance",
@@ -11922,16 +11922,16 @@
         },
         {
           "date": "2026-03-26",
-          "valeur": 601.5,
-          "ma50": 559.07,
-          "ma200": 532.03
+          "valeur": 597.0,
+          "ma50": 558.98,
+          "ma200": 532.01
         }
       ],
       "variations": {
-        "jour": 0.63,
-        "semaine": -1.07,
-        "mois": 5.99,
-        "ytd": 18.76
+        "jour": -0.13,
+        "semaine": -1.81,
+        "mois": 5.2,
+        "ytd": 17.87
       },
       "min_max": {
         "min": 495.0,
@@ -22041,7 +22041,7 @@
     "sources": "INSEE - Enquête Emploi, DARES"
   },
   "previsions_cftc": {
-    "generated_at": "2026-03-26T09:07:37.038123",
+    "generated_at": "2026-03-26T09:20:41.149487",
     "model_version": "CFTC v4.0 (Monte Carlo)",
     "n_simulations": 1000,
     "horizon": "12 mois",
