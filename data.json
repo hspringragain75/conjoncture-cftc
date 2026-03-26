@@ -1,6 +1,6 @@
 {
-  "last_updated": "26/03/2026 19:58",
-  "last_updated_iso": "2026-03-26T19:58:27.263108",
+  "last_updated": "26/03/2026 20:02",
+  "last_updated_iso": "2026-03-26T20:02:21.506704",
   "contact": "hspringragain@cftc.fr",
   "alertes": [
     {
@@ -32,7 +32,7 @@
       "date": "2026-03-26",
       "type": "info",
       "titre": "🔄 Données actualisées",
-      "message": "Le tableau de bord a été mis à jour le 26/03/2026 à 19:58.",
+      "message": "Le tableau de bord a été mis à jour le 26/03/2026 à 20:02.",
       "onglet": "conjoncture"
     }
   ],
@@ -193,7 +193,7 @@
     }
   ],
   "revue_presse": {
-    "derniere_maj": "26/03/2026 19:58",
+    "derniere_maj": "26/03/2026 20:02",
     "nb_sources": 7,
     "sources_noms": [
       "Le Monde Éco",
@@ -531,30 +531,6 @@
         "pertinence": 0
       },
       {
-        "source": "Euractiv FR",
-        "couleur": "#0369a1",
-        "emoji": "🇪🇺",
-        "tag": "Europe & politique",
-        "titre": "Le fabricant de missiles MBDA espère que le projet de chasseur SCAF, en difficulté, sera maintenu",
-        "resume": "MBDA développe des drones autonomes destinés à accompagner les futurs avions de chasse The post Le fabricant de missiles MBDA espère que le projet de chasseur SCAF, en difficulté, sera maintenu appeared first on Euractiv FR .",
-        "lien": "https://euractiv.fr/news/le-fabricant-de-missiles-mbda-espere-que-le-projet-de-chasseur-scaf-en-difficulte-sera-maintenu/",
-        "date_iso": "2026-03-26T15:11:25+00:00",
-        "date_fr": "26/03/2026",
-        "pertinence": 0
-      },
-      {
-        "source": "Euractiv FR",
-        "couleur": "#0369a1",
-        "emoji": "🇪🇺",
-        "tag": "Europe & politique",
-        "titre": "Le Parlement donne son feu vert à une directive européenne « historique » contre la corruption",
-        "resume": "Mais la directive laisse aux États membres une grande marge d'appréciation quant à sa mise en œuvre The post Le Parlement donne son feu vert à une directive européenne « historique » contre la corruption appeared first on Euractiv FR .",
-        "lien": "https://euractiv.fr/news/le-parlement-donne-son-feu-vert-a-une-directive-europeenne-historique-contre-la-corruption/",
-        "date_iso": "2026-03-26T14:48:28+00:00",
-        "date_fr": "26/03/2026",
-        "pertinence": 0
-      },
-      {
         "source": "Le Figaro Éco",
         "couleur": "#92400e",
         "emoji": "📊",
@@ -565,6 +541,30 @@
         "date_iso": "2026-03-26T14:15:00+01:00",
         "date_fr": "26/03/2026",
         "pertinence": 2
+      },
+      {
+        "source": "Le Monde Éco",
+        "couleur": "#374151",
+        "emoji": "🌐",
+        "tag": "Presse économique",
+        "titre": "Sam Altman, le patron d’OpenAI, l’apôtre de la « superintelligence » artificielle",
+        "resume": "« Les gourous de l’IA » (2/12). Le PDG et fondateur de la start-up désormais valorisée 840 milliards de dollars estime que, avec l’IA, le travail humain sera surpassé dans tous les domaines.",
+        "lien": "https://www.lemonde.fr/economie/article/2026/03/26/sam-altman-le-patron-d-openai-l-apotre-de-la-superintelligence-artificielle_6674366_3234.html",
+        "date_iso": "2026-03-26T14:00:07+01:00",
+        "date_fr": "26/03/2026",
+        "pertinence": 1
+      },
+      {
+        "source": "Le Figaro Éco",
+        "couleur": "#92400e",
+        "emoji": "📊",
+        "tag": "Presse économique",
+        "titre": "Le pétrole monte de 5% avec les incertitudes autour de discussions entre l'Iran et les États-Unis",
+        "resume": "Donald Trump s’est exprimé ce jeudi, en qualifiant les négociateurs iraniens de «différents et bizarres», alors que l’Iran réfute des discussions avec les États-Unis.",
+        "lien": "https://www.lefigaro.fr/conjoncture/le-petrole-monte-de-5-avec-les-incertitudes-autour-de-discussions-entre-l-iran-et-les-etats-unis-20260326",
+        "date_iso": "2026-03-26T13:45:23+01:00",
+        "date_fr": "26/03/2026",
+        "pertinence": 0
       }
     ]
   },
@@ -2897,7 +2897,7 @@
       "note_lecture": "Le TEC-10 mesure le rendement des emprunts d'Etat francais a 10 ans. Un taux eleve rencherit le cout de la dette publique et impacte les taux de credit immobilier."
     },
     "petrole_brent": {
-      "valeur": 101.65,
+      "valeur": 101.58,
       "date": "2026-03-26",
       "unite": "USD/baril",
       "source": "Yahoo Finance",
@@ -4417,16 +4417,16 @@
         },
         {
           "date": "2026-03-26",
-          "valeur": 101.65,
+          "valeur": 101.58,
           "ma50": 79.15,
           "ma200": 69.24
         }
       ],
       "variations": {
-        "jour": -0.56,
-        "semaine": -6.44,
-        "mois": 43.63,
-        "ytd": 67.33
+        "jour": -0.63,
+        "semaine": -6.51,
+        "mois": 43.54,
+        "ytd": 67.21
       },
       "min_max": {
         "min": 58.92,
@@ -7566,7 +7566,7 @@
       "note_lecture": "Le taux de change euro-dollar determine le prix de tout ce qui est importe en dollars : petrole, matieres premieres, electronique. Un euro faible rencherit les importations et alimente l'inflation."
     },
     "or": {
-      "valeur": 4374.8,
+      "valeur": 4367.2,
       "date": "2026-03-26",
       "unite": "USD/oz",
       "source": "Yahoo Finance",
@@ -9086,16 +9086,16 @@
         },
         {
           "date": "2026-03-26",
-          "valeur": 4374.8,
-          "ma50": 4943.7,
-          "ma200": 4085.2
+          "valeur": 4367.2,
+          "ma50": 4943.55,
+          "ma200": 4085.17
         }
       ],
       "variations": {
-        "jour": -3.85,
-        "semaine": -4.91,
-        "mois": -15.15,
-        "ytd": 1.4
+        "jour": -4.01,
+        "semaine": -5.08,
+        "mois": -15.3,
+        "ytd": 1.22
       },
       "min_max": {
         "min": 2951.3,
@@ -22279,7 +22279,7 @@
     "sources": "INSEE - Enquête Emploi, DARES"
   },
   "previsions_cftc": {
-    "generated_at": "2026-03-26T19:58:27.582673",
+    "generated_at": "2026-03-26T20:02:21.757932",
     "model_version": "CFTC v6.0 (Monte Carlo + calibrage dynamique + backtesting)",
     "n_simulations": 1000,
     "horizon": "12 mois",
@@ -22288,7 +22288,7 @@
       "niveau": "excellent",
       "issues": [],
       "warnings": [],
-      "timestamp": "2026-03-26T19:58:27.582689"
+      "timestamp": "2026-03-26T20:02:21.757951"
     },
     "calibrage": {
       "volatilites": {
@@ -22319,10 +22319,10 @@
     },
     "market_signals_details": {
       "brent": {
-        "valeur": 101.65,
+        "valeur": 101.58,
         "ref": 75.0,
-        "variation_ytd_pct": 67.33,
-        "impact_inflation_pt": 0.267
+        "variation_ytd_pct": 67.21,
+        "impact_inflation_pt": 0.266
       },
       "gaz_ttf": {
         "valeur": 55.37,
