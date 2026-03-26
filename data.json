@@ -1,6 +1,6 @@
 {
-  "last_updated": "26/03/2026 20:36",
-  "last_updated_iso": "2026-03-26T20:36:49.729057",
+  "last_updated": "26/03/2026 20:41",
+  "last_updated_iso": "2026-03-26T20:41:21.146969",
   "contact": "hspringragain@cftc.fr",
   "alertes": [
     {
@@ -32,7 +32,7 @@
       "date": "2026-03-26",
       "type": "info",
       "titre": "🔄 Données actualisées",
-      "message": "Le tableau de bord a été mis à jour le 26/03/2026 à 20:36.",
+      "message": "Le tableau de bord a été mis à jour le 26/03/2026 à 20:41.",
       "onglet": "conjoncture"
     }
   ],
@@ -193,7 +193,7 @@
     }
   ],
   "revue_presse": {
-    "derniere_maj": "26/03/2026 20:36",
+    "derniere_maj": "26/03/2026 20:41",
     "nb_sources": 7,
     "sources_noms": [
       "Le Monde Éco",
@@ -2897,7 +2897,7 @@
       "note_lecture": "Le TEC-10 mesure le rendement des emprunts d'Etat francais a 10 ans. Un taux eleve rencherit le cout de la dette publique et impacte les taux de credit immobilier."
     },
     "petrole_brent": {
-      "valeur": 100.87,
+      "valeur": 100.6,
       "date": "2026-03-26",
       "unite": "USD/baril",
       "source": "Yahoo Finance",
@@ -4417,16 +4417,16 @@
         },
         {
           "date": "2026-03-26",
-          "valeur": 100.87,
+          "valeur": 100.6,
           "ma50": 79.13,
           "ma200": 69.24
         }
       ],
       "variations": {
-        "jour": -1.32,
-        "semaine": -7.16,
-        "mois": 42.53,
-        "ytd": 66.04
+        "jour": -1.58,
+        "semaine": -7.41,
+        "mois": 42.15,
+        "ytd": 65.6
       },
       "min_max": {
         "min": 58.92,
@@ -7572,7 +7572,7 @@
       "note_lecture": "Le taux de change euro-dollar determine le prix de tout ce qui est importe en dollars : petrole, matieres premieres, electronique. Un euro faible rencherit les importations et alimente l'inflation."
     },
     "or": {
-      "valeur": 4395.2,
+      "valeur": 4401.5,
       "date": "2026-03-26",
       "unite": "USD/oz",
       "source": "Yahoo Finance",
@@ -9092,16 +9092,16 @@
         },
         {
           "date": "2026-03-26",
-          "valeur": 4395.2,
-          "ma50": 4944.11,
-          "ma200": 4085.31
+          "valeur": 4401.5,
+          "ma50": 4944.23,
+          "ma200": 4085.34
         }
       ],
       "variations": {
-        "jour": -3.4,
-        "semaine": -4.47,
-        "mois": -14.75,
-        "ytd": 1.87
+        "jour": -3.26,
+        "semaine": -4.33,
+        "mois": -14.63,
+        "ytd": 2.02
       },
       "min_max": {
         "min": 2951.3,
@@ -12186,7 +12186,7 @@
       "note_lecture": "Le cours du ble est un indicateur avance des prix alimentaires. La France etant le premier producteur europeen, son evolution impacte a la fois les consommateurs et le secteur agricole."
     },
     "lme_cuivre": {
-      "valeur": 5.47,
+      "valeur": 5.48,
       "date": "2026-03-26",
       "unite": "cts/lb",
       "source": "Yahoo Finance",
@@ -13706,16 +13706,16 @@
         },
         {
           "date": "2026-03-26",
-          "valeur": 5.47,
+          "valeur": 5.48,
           "ma50": 5.8,
           "ma200": 5.22
         }
       ],
       "variations": {
-        "jour": -1.08,
-        "semaine": 0.74,
-        "mois": -7.6,
-        "ytd": -3.01
+        "jour": -0.9,
+        "semaine": 0.92,
+        "mois": -7.43,
+        "ytd": -2.84
       },
       "min_max": {
         "min": 4.13,
@@ -22285,7 +22285,7 @@
     "sources": "INSEE - Enquête Emploi, DARES"
   },
   "previsions_cftc": {
-    "generated_at": "2026-03-26T20:36:49.992467",
+    "generated_at": "2026-03-26T20:41:21.424638",
     "model_version": "CFTC v6.0 (Monte Carlo + calibrage dynamique + backtesting)",
     "n_simulations": 1000,
     "horizon": "12 mois",
@@ -22294,7 +22294,7 @@
       "niveau": "excellent",
       "issues": [],
       "warnings": [],
-      "timestamp": "2026-03-26T20:36:49.992496"
+      "timestamp": "2026-03-26T20:41:21.424668"
     },
     "calibrage": {
       "volatilites": {
@@ -22319,16 +22319,16 @@
       "mean_reversion_k": 0.3
     },
     "market_signals": {
-      "inflation_adjustment": 0.174,
+      "inflation_adjustment": 0.172,
       "chomage_adjustment": 0.175,
       "energie_outlook": "hausse"
     },
     "market_signals_details": {
       "brent": {
-        "valeur": 100.87,
+        "valeur": 100.6,
         "ref": 75.0,
-        "variation_ytd_pct": 66.04,
-        "impact_inflation_pt": 0.259
+        "variation_ytd_pct": 65.6,
+        "impact_inflation_pt": 0.256
       },
       "gaz_ttf": {
         "valeur": 55.37,
@@ -22472,21 +22472,21 @@
         "methodology": "Monte Carlo (1000 sim.) + saisonnalité + marchés + mean reversion non-linéaire (v6)"
       },
       "probabilites": {
-        "inflation_sous_2pct": 92.3,
-        "inflation_cible_bce": 92.3,
+        "inflation_sous_2pct": 92.4,
+        "inflation_cible_bce": 92.4,
         "inflation_au_dessus_3pct": 0.0,
         "inflation_au_dessus_4pct": 0.0,
-        "description": "92.3% de chances que l'inflation reste sous 2% à 12 mois"
+        "description": "92.4% de chances que l'inflation reste sous 2% à 12 mois"
       },
       "facteurs": {
         "cible_bdf": 1.4,
         "ajustement_climat": -0.03,
-        "ajustement_marches": 0.174,
+        "ajustement_marches": 0.172,
         "energie_outlook": "hausse",
-        "cible_ajustee": 1.544,
+        "cible_ajustee": 1.542,
         "volatilite_utilisee": 0.5
       },
-      "insight": "Inflation médiane à 12 mois : 1.6% [IC 80% : 1.2% - 2.0%]. 92.3% de probabilité de rester sous 2%."
+      "insight": "Inflation médiane à 12 mois : 1.6% [IC 80% : 1.2% - 2.0%]. 92.4% de probabilité de rester sous 2%."
     },
     "smic": {
       "current": {
@@ -22684,7 +22684,7 @@
       }
     },
     "notes_lecture": [
-      "📈 Inflation médiane à 12 mois : 1.6% [1.2% - 2.0%] — 92.3% de chances de rester sous 2%",
+      "📈 Inflation médiane à 12 mois : 1.6% [1.2% - 2.0%] — 92.4% de chances de rester sous 2%",
       "💰 SMIC janvier 2027 : 1859€ brut (+2.0%, fourchette 1.6-2.4%)",
       "👥 Chômage Q4 : 7.8% [7.6% - 7.9%] — Tendance stable",
       "📊 Signaux marchés : ↑ inflation 0.17pt, ↑ chômage 0.17pt",
