@@ -1,6 +1,6 @@
 {
-  "last_updated": "26/03/2026 12:56",
-  "last_updated_iso": "2026-03-26T12:56:44.139038",
+  "last_updated": "26/03/2026 13:21",
+  "last_updated_iso": "2026-03-26T13:21:08.368212",
   "contact": "hspringragain@cftc.fr",
   "alertes": [
     {
@@ -32,7 +32,7 @@
       "date": "2026-03-26",
       "type": "info",
       "titre": "🔄 Données actualisées",
-      "message": "Le tableau de bord a été mis à jour le 26/03/2026 à 12:56.",
+      "message": "Le tableau de bord a été mis à jour le 26/03/2026 à 13:21.",
       "onglet": "conjoncture"
     }
   ],
@@ -193,7 +193,7 @@
     }
   ],
   "revue_presse": {
-    "derniere_maj": "26/03/2026 12:56",
+    "derniere_maj": "26/03/2026 13:21",
     "nb_sources": 7,
     "sources_noms": [
       "Le Monde Éco",
@@ -231,6 +231,30 @@
       }
     ],
     "tous": [
+      {
+        "source": "Le Monde Éco",
+        "couleur": "#374151",
+        "emoji": "🌐",
+        "tag": "Presse économique",
+        "titre": "Sam Altman, le patron d’OpenAI, l’apôtre de la « superintelligence » artificielle",
+        "resume": "« Les gourous de l’IA » (2/12). Le PDG et fondateur de la start-up désormais valorisée 840 milliards de dollars estime que, avec l’IA, le travail humain sera surpassé dans tous les domaines.",
+        "lien": "https://www.lemonde.fr/economie/article/2026/03/26/sam-altman-le-patron-d-openai-l-apotre-de-la-superintelligence-artificielle_6674366_3234.html",
+        "date_iso": "2026-03-26T14:00:07+01:00",
+        "date_fr": "26/03/2026",
+        "pertinence": 1
+      },
+      {
+        "source": "Euractiv FR",
+        "couleur": "#0369a1",
+        "emoji": "🇪🇺",
+        "tag": "Europe & politique",
+        "titre": "Les députés européens approuvent l accord commercial UE-États-Unis après l avoir qualifié de « déséquilibré »",
+        "resume": "Les socialistes ont averti que leurs nouvelles conditions devaient être respectées dans l'accord final The post Les députés européens approuvent l&rsquo;accord commercial UE-États-Unis après l&rsquo;avoir qualifié de « déséquilibré » appeared first on Euractiv FR .",
+        "lien": "https://euractiv.fr/news/les-deputes-europeens-approuvent-laccord-commercial-ue-etats-unis-apres-lavoir-qualifie-de-desequilibre/",
+        "date_iso": "2026-03-26T13:16:34+00:00",
+        "date_fr": "26/03/2026",
+        "pertinence": 1
+      },
       {
         "source": "Le Figaro Éco",
         "couleur": "#92400e",
@@ -566,30 +590,6 @@
         "date_iso": "2026-03-26T09:05:14+00:00",
         "date_fr": "26/03/2026",
         "pertinence": 0
-      },
-      {
-        "source": "Libération Éco",
-        "couleur": "#dc2626",
-        "emoji": "📰",
-        "tag": "Presse économique",
-        "titre": "Carburants : routiers, pêcheurs, agriculteurs… Le gouvernement va débloquer des aides dans «les tout prochains jours»",
-        "resume": "Le ministre de l’Économie, Roland Lescure, a promis ce jeudi de prochaines mesures en faveur des «gros rouleurs», face aux hausses des tarifs causées par la guerre au Moyen-Orient. Rien en revanche à ce stade en faveur des particuliers.",
-        "lien": "https://www.liberation.fr/economie/carburants-routiers-pecheurs-agriculteurs-le-gouvernement-va-debloquer-des-aides-dans-les-tout-prochains-jours-20260326_3VXXD4XS6BEMJN42VITIHMESNE/",
-        "date_iso": "2026-03-26T09:04:47+00:00",
-        "date_fr": "26/03/2026",
-        "pertinence": 0
-      },
-      {
-        "source": "Libération Éco",
-        "couleur": "#dc2626",
-        "emoji": "📰",
-        "tag": "Presse économique",
-        "titre": "IA : adieu Sora, on ne te regrettera pas",
-        "resume": "Le géant californien OpenAI a décidé d’enterrer son effroyable TikTok de l’intelligence artificielle, trop cher à entretenir. La fin d’une usine à «deepfakes», à l’origine de vidéos dont le réalisme perturbant nous hante encore la nuit.",
-        "lien": "https://www.liberation.fr/economie/economie-numerique/ia-adieu-sora-on-ne-te-regrettera-pas-20260326_YVWX2JGTEJE6DJ2EHUAX4YG32A/",
-        "date_iso": "2026-03-26T08:55:13+00:00",
-        "date_fr": "26/03/2026",
-        "pertinence": 0
       }
     ]
   },
@@ -848,7 +848,7 @@
     "ecart_hf_eqtp": 25.8,
     "difficultes_recrutement": 61,
     "irl_glissement": 0.79,
-    "prix_gazole": 2.233,
+    "prix_gazole": 2.232,
     "taux_effort_locataires": 29.6,
     "croissance_pib": 0.7,
     "climat_affaires": 97,
@@ -2044,24 +2044,24 @@
   },
   "carburants": {
     "gazole": {
-      "prix": 2.233,
-      "variation_an": 20.7,
+      "prix": 2.232,
+      "variation_an": 20.6,
       "variation_sem": 41.3
     },
     "sp95": {
-      "prix": 2.028,
+      "prix": 2.027,
       "variation_an": 11.4,
-      "variation_sem": 17.9
+      "variation_sem": 17.8
     },
     "sp98": {
       "prix": 2.08,
       "variation_an": 11.4,
-      "variation_sem": 17.9
+      "variation_sem": 17.8
     },
     "e10": {
-      "prix": 1.974,
+      "prix": 1.975,
       "variation_an": 10.3,
-      "variation_sem": 17.5
+      "variation_sem": 17.6
     },
     "evolution": [
       {
@@ -2339,13 +2339,13 @@
       },
       {
         "date": "2026-03-26",
-        "gazole": 2.233,
-        "sp95": 2.028,
+        "gazole": 2.232,
+        "sp95": 2.027,
         "sp98": 2.08,
-        "e10": 1.974
+        "e10": 1.975
       }
     ],
-    "derniere_donnee": "2026-03-26 12:49",
+    "derniere_donnee": "2026-03-26 11:58",
     "source": "data.economie.gouv.fr (flux instantané)",
     "granularite": "quotidien"
   },
@@ -2922,7 +2922,7 @@
       "note_lecture": "Le TEC-10 mesure le rendement des emprunts d'Etat francais a 10 ans. Un taux eleve rencherit le cout de la dette publique et impacte les taux de credit immobilier."
     },
     "petrole_brent": {
-      "valeur": 101.89,
+      "valeur": 101.47,
       "date": "2026-03-26",
       "unite": "USD/baril",
       "source": "Yahoo Finance",
@@ -4442,16 +4442,16 @@
         },
         {
           "date": "2026-03-26",
-          "valeur": 101.89,
-          "ma50": 79.15,
+          "valeur": 101.47,
+          "ma50": 79.14,
           "ma200": 69.24
         }
       ],
       "variations": {
-        "jour": -0.32,
-        "semaine": -6.22,
-        "mois": 43.97,
-        "ytd": 67.72
+        "jour": -0.73,
+        "semaine": -6.61,
+        "mois": 43.38,
+        "ytd": 67.03
       },
       "min_max": {
         "min": 58.92,
@@ -4462,9 +4462,9 @@
       "note_lecture": "Le prix du Brent influence directement les couts de transport et d'energie, donc l'inflation et le pouvoir d'achat des salaries."
     },
     "cac40": {
-      "valeur": 7770.98,
+      "valeur": 7777.37,
       "date": "2026-03-26",
-      "variation_jour_pct": -0.96,
+      "variation_jour_pct": -0.88,
       "unite": "points",
       "source": "Yahoo Finance",
       "nb_points": 256,
@@ -6001,16 +6001,16 @@
         },
         {
           "date": "2026-03-26",
-          "valeur": 7770.98,
-          "ma50": 8159.01,
-          "ma200": 7995.33
+          "valeur": 7777.37,
+          "ma50": 8159.13,
+          "ma200": 7995.37
         }
       ],
       "variations": {
-        "jour": -0.96,
-        "semaine": -0.47,
-        "mois": -8.78,
-        "ytd": -5.18
+        "jour": -0.88,
+        "semaine": -0.39,
+        "mois": -8.71,
+        "ytd": -5.1
       },
       "min_max": {
         "min": 6863.02,
@@ -7591,7 +7591,7 @@
       "note_lecture": "Le taux de change euro-dollar determine le prix de tout ce qui est importe en dollars : petrole, matieres premieres, electronique. Un euro faible rencherit les importations et alimente l'inflation."
     },
     "or": {
-      "valeur": 4438.0,
+      "valeur": 4438.1,
       "date": "2026-03-26",
       "unite": "USD/oz",
       "source": "Yahoo Finance",
@@ -9111,16 +9111,16 @@
         },
         {
           "date": "2026-03-26",
-          "valeur": 4438.0,
+          "valeur": 4438.1,
           "ma50": 4944.96,
           "ma200": 4085.52
         }
       ],
       "variations": {
         "jour": -2.46,
-        "semaine": -3.54,
+        "semaine": -3.53,
         "mois": -13.92,
-        "ytd": 2.86
+        "ytd": 2.87
       },
       "min_max": {
         "min": 2951.3,
@@ -13745,7 +13745,7 @@
       "note_lecture": "Le cuivre est le baromètre de l'activité industrielle mondiale ('Dr Copper'). Sa hausse signale une reprise économique, sa baisse anticipe un ralentissement. Utilisé massivement dans l'électrification et les énergies renouvelables."
     },
     "lme_aluminium": {
-      "valeur": 3181.25,
+      "valeur": 3174.75,
       "date": "2026-03-26",
       "unite": "cts/lb",
       "source": "Yahoo Finance",
@@ -15259,16 +15259,16 @@
         },
         {
           "date": "2026-03-26",
-          "valeur": 3181.25,
-          "ma50": 3114.08,
-          "ma200": 2763.27
+          "valeur": 3174.75,
+          "ma50": 3113.95,
+          "ma200": 2763.24
         }
       ],
       "variations": {
-        "jour": 1.48,
-        "semaine": 1.97,
-        "mois": 5.31,
-        "ytd": 8.28
+        "jour": 1.27,
+        "semaine": 1.76,
+        "mois": 5.1,
+        "ytd": 8.06
       },
       "min_max": {
         "min": 2166.25,
@@ -22304,7 +22304,7 @@
     "sources": "INSEE - Enquête Emploi, DARES"
   },
   "previsions_cftc": {
-    "generated_at": "2026-03-26T12:56:44.373101",
+    "generated_at": "2026-03-26T13:21:08.649729",
     "model_version": "CFTC v5.0 (Monte Carlo + marchés)",
     "n_simulations": 1000,
     "horizon": "12 mois",
@@ -22313,19 +22313,19 @@
       "niveau": "excellent",
       "issues": [],
       "warnings": [],
-      "timestamp": "2026-03-26T12:56:44.373113"
+      "timestamp": "2026-03-26T13:21:08.649753"
     },
     "market_signals": {
-      "inflation_adjustment": 0.333,
+      "inflation_adjustment": 0.329,
       "chomage_adjustment": 0.359,
       "energie_outlook": "hausse"
     },
     "market_signals_details": {
       "brent": {
-        "valeur": 101.89,
+        "valeur": 101.47,
         "ref": 75.0,
-        "variation_ytd_pct": 67.72,
-        "impact_inflation_pt": 0.269
+        "variation_ytd_pct": 67.03,
+        "impact_inflation_pt": 0.265
       },
       "gaz_ttf": {
         "valeur": 55.03,
@@ -22347,7 +22347,7 @@
         "signal": "baissier"
       },
       "cac40_ytd": {
-        "variation_ytd_pct": -5.18,
+        "variation_ytd_pct": -5.1,
         "signal_chomage": "neutre"
       },
       "carburants_sp95": {
@@ -22366,7 +22366,7 @@
           1.1,
           1.1,
           1.2,
-          1.4,
+          1.3,
           1.4,
           1.6,
           1.6,
@@ -22386,7 +22386,7 @@
           1.3,
           1.3,
           1.2,
-          1.4,
+          1.3,
           1.3,
           1.3
         ],
@@ -22449,20 +22449,20 @@
         "methodology": "Monte Carlo (1000 simulations) + saisonnalité + marchés financiers (v5)"
       },
       "probabilites": {
-        "inflation_sous_2pct": 84.5,
-        "inflation_cible_bce": 84.5,
+        "inflation_sous_2pct": 85.2,
+        "inflation_cible_bce": 85.2,
         "inflation_au_dessus_3pct": 0.0,
         "inflation_au_dessus_4pct": 0.0,
-        "description": "84.5% de chances que l'inflation reste sous 2% à 12 mois"
+        "description": "85.2% de chances que l'inflation reste sous 2% à 12 mois"
       },
       "facteurs": {
         "cible_bdf": 1.4,
         "ajustement_climat": -0.03,
-        "ajustement_marches": 0.333,
+        "ajustement_marches": 0.329,
         "energie_outlook": "hausse",
-        "cible_ajustee": 1.703
+        "cible_ajustee": 1.699
       },
-      "insight": "Inflation médiane à 12 mois : 1.7% [IC 80% : 1.3% - 2.1%]. 84.5% de probabilité de rester sous 2%."
+      "insight": "Inflation médiane à 12 mois : 1.7% [IC 80% : 1.3% - 2.1%]. 85.2% de probabilité de rester sous 2%."
     },
     "smic": {
       "current": {
@@ -22659,7 +22659,7 @@
       }
     },
     "notes_lecture": [
-      "📈 Inflation médiane à 12 mois : 1.7% [1.3% - 2.1%] — 84.5% de chances de rester sous 2%",
+      "📈 Inflation médiane à 12 mois : 1.7% [1.3% - 2.1%] — 85.2% de chances de rester sous 2%",
       "💰 SMIC janvier 2027 : 1861€ brut (+2.1%, fourchette 1.7-2.5%) — Certain",
       "👥 Chômage Q4 : 7.9% [7.7% - 8.1%] — Tendance stable",
       "📊 Signaux marchés : marchés ↑ inflation de 0.33pt, ↑ chômage de 0.36pt",
