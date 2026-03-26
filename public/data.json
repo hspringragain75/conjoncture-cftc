@@ -1,6 +1,6 @@
 {
-  "last_updated": "26/03/2026 10:21",
-  "last_updated_iso": "2026-03-26T10:21:37.167919",
+  "last_updated": "26/03/2026 10:36",
+  "last_updated_iso": "2026-03-26T10:36:25.660100",
   "contact": "hspringragain@cftc.fr",
   "alertes": [
     {
@@ -32,7 +32,7 @@
       "date": "2026-03-26",
       "type": "info",
       "titre": "🔄 Données actualisées",
-      "message": "Le tableau de bord a été mis à jour le 26/03/2026 à 10:21.",
+      "message": "Le tableau de bord a été mis à jour le 26/03/2026 à 10:36.",
       "onglet": "conjoncture"
     }
   ],
@@ -193,7 +193,7 @@
     }
   ],
   "revue_presse": {
-    "derniere_maj": "26/03/2026 10:21",
+    "derniere_maj": "26/03/2026 10:36",
     "nb_sources": 7,
     "sources_noms": [
       "Le Monde Éco",
@@ -220,6 +220,30 @@
     ],
     "tous": [
       {
+        "source": "Le Monde Éco",
+        "couleur": "#374151",
+        "emoji": "🌐",
+        "tag": "Presse économique",
+        "titre": "« La France s’est exposée naïvement en instaurant une taxe sur la fast-fashion avant que le reste de l’Europe n’embraye »",
+        "resume": "Avec l’entrée en vigueur d’une ponction de 2 euros sur les petits colis, Shein et consorts passent désormais par la Belgique pour acheminer les paquets aux Français. L’initiative a cependant permis d’accélérer la fronde au sein de l’Union européenne, explique Isabelle Chaperon, chroniqueuse au servi",
+        "lien": "https://www.lemonde.fr/economie/article/2026/03/26/la-france-s-est-exposee-naivement-en-instaurant-une-taxe-sur-la-fast-fashion-avant-que-le-reste-de-l-europe-n-embraye_6674347_3234.html",
+        "date_iso": "2026-03-26T11:30:09+01:00",
+        "date_fr": "26/03/2026",
+        "pertinence": 0
+      },
+      {
+        "source": "Le Figaro Éco",
+        "couleur": "#92400e",
+        "emoji": "📊",
+        "tag": "Presse économique",
+        "titre": "Le changement d'heure permet-il vraiment des économies d'énergie ?",
+        "resume": "LA VÉRIFICATION - Deux fois par an, cette petite gymnastique exaspère de nombreux Français. Permet-elle, au moins, de réduire la consommation d électricité ?",
+        "lien": "https://www.lefigaro.fr/conjoncture/le-changement-d-heure-permet-il-vraiment-des-economies-d-energie-20221027",
+        "date_iso": "2026-03-26T11:17:34+01:00",
+        "date_fr": "26/03/2026",
+        "pertinence": 0
+      },
+      {
         "source": "Le Figaro Éco",
         "couleur": "#92400e",
         "emoji": "📊",
@@ -236,12 +260,24 @@
         "couleur": "#92400e",
         "emoji": "📊",
         "tag": "Presse économique",
-        "titre": "Edenred chute en Bourse après l'ouverture d'une enquête de l'Autorité de la concurrence italienne",
-        "resume": "Le groupe, qui commercialise le Ticket Restaurant, a annoncé être visé par une enquête en Italie après la plainte d’acteurs de la grande distribution pour abus de position dominante.",
-        "lien": "https://www.lefigaro.fr/flash-eco/edenred-chute-a-la-bourse-de-paris-apres-l-ouverture-d-une-enquete-de-l-autorite-de-la-concurrence-italienne-20260326",
-        "date_iso": "2026-03-26T11:03:19+01:00",
+        "titre": "Petits colis : 70% des articles contrôlés «non conformes» et 45% «dangereux», selon Serge Papin",
+        "resume": "La Répression des fraudes a contrôlé en un an 700 références de produits vendus en ligne, notamment par les plateformes asiatiques comme Shein et Temu.",
+        "lien": "https://www.lefigaro.fr/conso/petits-colis-70-des-articles-controles-non-conformes-et-45-dangereux-selon-serge-papin-20260326",
+        "date_iso": "2026-03-26T11:05:00+01:00",
         "date_fr": "26/03/2026",
         "pertinence": 0
+      },
+      {
+        "source": "Le Figaro Éco",
+        "couleur": "#92400e",
+        "emoji": "📊",
+        "tag": "Presse économique",
+        "titre": "La guerre au Moyen-Orient affecte en particulier la croissance en Europe",
+        "resume": "L’OCDE revoit ses révisions à la baisse en 2026 essentiellement pour la zone euro et le Royaume-Uni.",
+        "lien": "https://www.lefigaro.fr/conjoncture/la-guerre-au-moyen-orient-affecte-en-particulier-la-croissance-en-europe-20260326",
+        "date_iso": "2026-03-26T11:04:53+01:00",
+        "date_fr": "26/03/2026",
+        "pertinence": 1
       },
       {
         "source": "Le Monde Éco",
@@ -268,14 +304,14 @@
         "pertinence": 1
       },
       {
-        "source": "Le Figaro Éco",
-        "couleur": "#92400e",
-        "emoji": "📊",
-        "tag": "Presse économique",
-        "titre": "Vinci acquiert une concession d’autoroute en Inde pour 1,6 milliard de dollars",
-        "resume": "Le géant français des concessions renforce sa présence en Asie avec l’acquisition du réseau Safeway Concessions, qui s’étend sur près de 700 kilomètres.",
-        "lien": "https://www.lefigaro.fr/societes/vinci-acquiert-une-concession-d-autoroute-en-inde-pour-1-6-milliard-de-dollars-20260326",
-        "date_iso": "2026-03-26T10:37:26+01:00",
+        "source": "Euractiv FR",
+        "couleur": "#0369a1",
+        "emoji": "🇪🇺",
+        "tag": "Europe & politique",
+        "titre": "La France « confiante » que l enquête de l UE n entravera pas ses projets nucléaires",
+        "resume": "Le gouvernement s'attend à ce que la Commission européenne ouvre une enquête d'ici la fin du mois de mars The post La France « confiante » que l&rsquo;enquête de l&rsquo;UE n&rsquo;entravera pas ses projets nucléaires appeared first on Euractiv FR .",
+        "lien": "https://euractiv.fr/news/la-france-confiante-que-lenquete-de-lue-nentravera-pas-ses-projets-nucleaires/",
+        "date_iso": "2026-03-26T10:27:17+00:00",
         "date_fr": "26/03/2026",
         "pertinence": 0
       },
@@ -484,18 +520,6 @@
         "pertinence": 0
       },
       {
-        "source": "Le Figaro Éco",
-        "couleur": "#92400e",
-        "emoji": "📊",
-        "tag": "Presse économique",
-        "titre": "Venezuela : des chiens robots employés pour renforcer la sécurité de la capitale",
-        "resume": "VIDÉO - À Caracas, la sécurité urbaine fait un bond technologique avec l’intégration de chiens robots équipés d’intelligence artificielle pour des missions de surveillance et de patrouille.",
-        "lien": "https://www.lefigaro.fr/secteur/high-tech/venezuela-des-chiens-robots-employes-pour-renforcer-la-securite-de-la-capitale-20260326",
-        "date_iso": "2026-03-26T07:39:26+01:00",
-        "date_fr": "26/03/2026",
-        "pertinence": 0
-      },
-      {
         "source": "Euractiv FR",
         "couleur": "#0369a1",
         "emoji": "🇪🇺",
@@ -554,30 +578,6 @@
         "date_iso": "2026-03-26T06:00:12+01:00",
         "date_fr": "26/03/2026",
         "pertinence": 1
-      },
-      {
-        "source": "Le Monde Emploi",
-        "couleur": "#1f2937",
-        "emoji": "💼",
-        "tag": "Emploi & travail",
-        "titre": "« Nous le valons bien » : reconnaître la valeur du travail gratuit",
-        "resume": "Dans son essai, la militante féministe danoise Emma Holten appelle à donner une valeur au travail du soin, fondé sur la relation humaine, qu’il soit effectué dans le cadre privé ou au sein des organisations.",
-        "lien": "https://www.lemonde.fr/emploi/article/2026/03/26/nous-le-valons-bien-reconnaitre-la-valeur-du-travail-gratuit_6674305_1698637.html",
-        "date_iso": "2026-03-26T06:00:12+01:00",
-        "date_fr": "26/03/2026",
-        "pertinence": 1
-      },
-      {
-        "source": "Le Monde Éco",
-        "couleur": "#374151",
-        "emoji": "🌐",
-        "tag": "Presse économique",
-        "titre": "Dans l’Orne, département champion de la production de gaz vert : « Le biométhane apporte un peu de souveraineté énergétique à nos territoires »",
-        "resume": "Le département normand, très agricole, est le champion français de la méthanisation. La montée en puissance de cette activité, qui transforme les biodéchets en énergie, suscite aussi des crispations. Mais elle est soutenue par l’Etat et l’industrie gazière qui soulignent son rôle en matière de souve",
-        "lien": "https://www.lemonde.fr/economie/article/2026/03/26/dans-l-orne-departement-champion-de-la-production-de-gaz-vert-le-biomethane-apporte-un-peu-de-souverainete-energetique-a-nos-territoires_6674295_3234.html",
-        "date_iso": "2026-03-26T05:00:24+01:00",
-        "date_fr": "26/03/2026",
-        "pertinence": 0
       }
     ]
   },
@@ -1342,122 +1342,404 @@
   "emplois_vacants": {
     "emplois_vacants": [
       {
-        "trimestre": "T1 2023",
+        "trimestre": "T1 2019",
+        "valeur": 350000,
+        "secteur": "Ensemble"
+      },
+      {
+        "trimestre": "T2 2019",
         "valeur": 355000,
         "secteur": "Ensemble"
       },
       {
+        "trimestre": "T3 2019",
+        "valeur": 340000,
+        "secteur": "Ensemble"
+      },
+      {
+        "trimestre": "T4 2019",
+        "valeur": 320000,
+        "secteur": "Ensemble"
+      },
+      {
+        "trimestre": "T1 2020",
+        "valeur": 280000,
+        "secteur": "Ensemble"
+      },
+      {
+        "trimestre": "T2 2020",
+        "valeur": 180000,
+        "secteur": "Ensemble"
+      },
+      {
+        "trimestre": "T3 2020",
+        "valeur": 240000,
+        "secteur": "Ensemble"
+      },
+      {
+        "trimestre": "T4 2020",
+        "valeur": 290000,
+        "secteur": "Ensemble"
+      },
+      {
+        "trimestre": "T1 2021",
+        "valeur": 310000,
+        "secteur": "Ensemble"
+      },
+      {
+        "trimestre": "T2 2021",
+        "valeur": 370000,
+        "secteur": "Ensemble"
+      },
+      {
+        "trimestre": "T3 2021",
+        "valeur": 430000,
+        "secteur": "Ensemble"
+      },
+      {
+        "trimestre": "T4 2021",
+        "valeur": 450000,
+        "secteur": "Ensemble"
+      },
+      {
+        "trimestre": "T1 2022",
+        "valeur": 460000,
+        "secteur": "Ensemble"
+      },
+      {
+        "trimestre": "T2 2022",
+        "valeur": 480000,
+        "secteur": "Ensemble"
+      },
+      {
+        "trimestre": "T3 2022",
+        "valeur": 460000,
+        "secteur": "Ensemble"
+      },
+      {
+        "trimestre": "T4 2022",
+        "valeur": 430000,
+        "secteur": "Ensemble"
+      },
+      {
+        "trimestre": "T1 2023",
+        "valeur": 400000,
+        "secteur": "Ensemble"
+      },
+      {
         "trimestre": "T2 2023",
-        "valeur": 360000,
+        "valeur": 380000,
         "secteur": "Ensemble"
       },
       {
         "trimestre": "T3 2023",
-        "valeur": 352000,
+        "valeur": 360000,
         "secteur": "Ensemble"
       },
       {
         "trimestre": "T4 2023",
-        "valeur": 348000,
+        "valeur": 340000,
         "secteur": "Ensemble"
       },
       {
         "trimestre": "T1 2024",
-        "valeur": 342000,
+        "valeur": 325000,
         "secteur": "Ensemble"
       },
       {
         "trimestre": "T2 2024",
-        "valeur": 338000,
+        "valeur": 310000,
         "secteur": "Ensemble"
       },
       {
         "trimestre": "T3 2024",
-        "valeur": 335000,
+        "valeur": 298000,
         "secteur": "Ensemble"
       },
       {
         "trimestre": "T4 2024",
-        "valeur": 330000,
+        "valeur": 285000,
+        "secteur": "Ensemble"
+      },
+      {
+        "trimestre": "T1 2025",
+        "valeur": 278000,
+        "secteur": "Ensemble"
+      },
+      {
+        "trimestre": "T2 2025",
+        "valeur": 268000,
+        "secteur": "Ensemble"
+      },
+      {
+        "trimestre": "T3 2025",
+        "valeur": 260000,
+        "secteur": "Ensemble"
+      },
+      {
+        "trimestre": "T4 2025",
+        "valeur": 255000,
         "secteur": "Ensemble"
       }
     ],
     "emplois_occupes": [
       {
-        "trimestre": "T1 2023",
-        "valeur": 20150000,
+        "trimestre": "T1 2019",
+        "valeur": 20020000,
         "secteur": "Ensemble"
       },
       {
-        "trimestre": "T2 2023",
+        "trimestre": "T2 2019",
+        "valeur": 20070000,
+        "secteur": "Ensemble"
+      },
+      {
+        "trimestre": "T3 2019",
+        "valeur": 20100000,
+        "secteur": "Ensemble"
+      },
+      {
+        "trimestre": "T4 2019",
+        "valeur": 20130000,
+        "secteur": "Ensemble"
+      },
+      {
+        "trimestre": "T1 2020",
+        "valeur": 20000000,
+        "secteur": "Ensemble"
+      },
+      {
+        "trimestre": "T2 2020",
+        "valeur": 19600000,
+        "secteur": "Ensemble"
+      },
+      {
+        "trimestre": "T3 2020",
+        "valeur": 19850000,
+        "secteur": "Ensemble"
+      },
+      {
+        "trimestre": "T4 2020",
+        "valeur": 19920000,
+        "secteur": "Ensemble"
+      },
+      {
+        "trimestre": "T1 2021",
+        "valeur": 19980000,
+        "secteur": "Ensemble"
+      },
+      {
+        "trimestre": "T2 2021",
+        "valeur": 20100000,
+        "secteur": "Ensemble"
+      },
+      {
+        "trimestre": "T3 2021",
         "valeur": 20200000,
         "secteur": "Ensemble"
       },
       {
+        "trimestre": "T4 2021",
+        "valeur": 20270000,
+        "secteur": "Ensemble"
+      },
+      {
+        "trimestre": "T1 2022",
+        "valeur": 20310000,
+        "secteur": "Ensemble"
+      },
+      {
+        "trimestre": "T2 2022",
+        "valeur": 20360000,
+        "secteur": "Ensemble"
+      },
+      {
+        "trimestre": "T3 2022",
+        "valeur": 20390000,
+        "secteur": "Ensemble"
+      },
+      {
+        "trimestre": "T4 2022",
+        "valeur": 20420000,
+        "secteur": "Ensemble"
+      },
+      {
+        "trimestre": "T1 2023",
+        "valeur": 20430000,
+        "secteur": "Ensemble"
+      },
+      {
+        "trimestre": "T2 2023",
+        "valeur": 20440000,
+        "secteur": "Ensemble"
+      },
+      {
         "trimestre": "T3 2023",
-        "valeur": 20180000,
+        "valeur": 20450000,
         "secteur": "Ensemble"
       },
       {
         "trimestre": "T4 2023",
-        "valeur": 20220000,
+        "valeur": 20460000,
         "secteur": "Ensemble"
       },
       {
         "trimestre": "T1 2024",
-        "valeur": 20250000,
+        "valeur": 20450000,
         "secteur": "Ensemble"
       },
       {
         "trimestre": "T2 2024",
-        "valeur": 20280000,
+        "valeur": 20445000,
         "secteur": "Ensemble"
       },
       {
         "trimestre": "T3 2024",
-        "valeur": 20300000,
+        "valeur": 20440000,
         "secteur": "Ensemble"
       },
       {
         "trimestre": "T4 2024",
-        "valeur": 20320000,
+        "valeur": 20430000,
+        "secteur": "Ensemble"
+      },
+      {
+        "trimestre": "T1 2025",
+        "valeur": 20410000,
+        "secteur": "Ensemble"
+      },
+      {
+        "trimestre": "T2 2025",
+        "valeur": 20390000,
+        "secteur": "Ensemble"
+      },
+      {
+        "trimestre": "T3 2025",
+        "valeur": 20380000,
+        "secteur": "Ensemble"
+      },
+      {
+        "trimestre": "T4 2025",
+        "valeur": 20370000,
         "secteur": "Ensemble"
       }
     ],
     "taux_vacance": [
       {
-        "trimestre": "T1 2023",
-        "taux": 1.76
+        "trimestre": "T1 2019",
+        "taux": 1.68
       },
       {
-        "trimestre": "T2 2023",
-        "taux": 1.78
-      },
-      {
-        "trimestre": "T3 2023",
-        "taux": 1.74
-      },
-      {
-        "trimestre": "T4 2023",
+        "trimestre": "T2 2019",
         "taux": 1.72
       },
       {
+        "trimestre": "T3 2019",
+        "taux": 1.61
+      },
+      {
+        "trimestre": "T4 2019",
+        "taux": 1.96
+      },
+      {
+        "trimestre": "T1 2020",
+        "taux": 1.38
+      },
+      {
+        "trimestre": "T2 2020",
+        "taux": 1.91
+      },
+      {
+        "trimestre": "T3 2020",
+        "taux": 1.58
+      },
+      {
+        "trimestre": "T4 2020",
+        "taux": 1.78
+      },
+      {
+        "trimestre": "T1 2021",
+        "taux": 1.79
+      },
+      {
+        "trimestre": "T2 2021",
+        "taux": 2.22
+      },
+      {
+        "trimestre": "T3 2021",
+        "taux": 2.15
+      },
+      {
+        "trimestre": "T4 2021",
+        "taux": 2.74
+      },
+      {
+        "trimestre": "T1 2022",
+        "taux": 2.86
+      },
+      {
+        "trimestre": "T2 2022",
+        "taux": 2.88
+      },
+      {
+        "trimestre": "T3 2022",
+        "taux": 2.61
+      },
+      {
+        "trimestre": "T4 2022",
+        "taux": 2.82
+      },
+      {
+        "trimestre": "T1 2023",
+        "taux": 2.7
+      },
+      {
+        "trimestre": "T2 2023",
+        "taux": 2.76
+      },
+      {
+        "trimestre": "T3 2023",
+        "taux": 2.31
+      },
+      {
+        "trimestre": "T4 2023",
+        "taux": 2.6
+      },
+      {
         "trimestre": "T1 2024",
-        "taux": 1.69
+        "taux": 2.31
       },
       {
         "trimestre": "T2 2024",
-        "taux": 1.67
+        "taux": 2.38
       },
       {
         "trimestre": "T3 2024",
-        "taux": 1.65
+        "taux": 2.04
       },
       {
         "trimestre": "T4 2024",
-        "taux": 1.62
+        "taux": 2.13
+      },
+      {
+        "trimestre": "T1 2025",
+        "taux": 2.07
+      },
+      {
+        "trimestre": "T2 2025",
+        "taux": 2.11
+      },
+      {
+        "trimestre": "T3 2025",
+        "taux": 1.81
+      },
+      {
+        "trimestre": "T4 2025",
+        "taux": 2.0
       }
-    ]
+    ],
+    "source": "DARES - Enquête ACEMO / INSEE",
+    "derniere_maj": "T4 2025"
   },
   "creations_destructions": {
     "source": "DARES - Mouvements de Main d'Oeuvre",
@@ -1750,19 +2032,19 @@
       "variation_sem": 41.3
     },
     "sp95": {
-      "prix": 2.028,
+      "prix": 2.027,
       "variation_an": 11.4,
-      "variation_sem": 17.9
+      "variation_sem": 17.8
     },
     "sp98": {
-      "prix": 2.082,
+      "prix": 2.08,
       "variation_an": 11.4,
-      "variation_sem": 17.9
+      "variation_sem": 17.8
     },
     "e10": {
-      "prix": 1.978,
-      "variation_an": 10.5,
-      "variation_sem": 17.7
+      "prix": 1.975,
+      "variation_an": 10.3,
+      "variation_sem": 17.6
     },
     "evolution": [
       {
@@ -2041,12 +2323,12 @@
       {
         "date": "2026-03-26",
         "gazole": 2.232,
-        "sp95": 2.028,
-        "sp98": 2.082,
-        "e10": 1.978
+        "sp95": 2.027,
+        "sp98": 2.08,
+        "e10": 1.975
       }
     ],
-    "derniere_donnee": "2026-03-26 08:49",
+    "derniere_donnee": "2026-03-26 10:49",
     "source": "data.economie.gouv.fr (flux instantané)",
     "granularite": "quotidien"
   },
@@ -2623,7 +2905,7 @@
       "note_lecture": "Le TEC-10 mesure le rendement des emprunts d'Etat francais a 10 ans. Un taux eleve rencherit le cout de la dette publique et impacte les taux de credit immobilier."
     },
     "petrole_brent": {
-      "valeur": 100.35,
+      "valeur": 100.01,
       "date": "2026-03-26",
       "unite": "USD/baril",
       "source": "Yahoo Finance",
@@ -4143,16 +4425,16 @@
         },
         {
           "date": "2026-03-26",
-          "valeur": 100.35,
-          "ma50": 79.12,
+          "valeur": 100.01,
+          "ma50": 79.11,
           "ma200": 69.24
         }
       ],
       "variations": {
-        "jour": -1.83,
-        "semaine": -7.64,
-        "mois": 41.8,
-        "ytd": 65.19
+        "jour": -2.16,
+        "semaine": -7.95,
+        "mois": 41.32,
+        "ytd": 64.63
       },
       "min_max": {
         "min": 58.92,
@@ -4163,9 +4445,9 @@
       "note_lecture": "Le prix du Brent influence directement les couts de transport et d'energie, donc l'inflation et le pouvoir d'achat des salaries."
     },
     "cac40": {
-      "valeur": 7780.91,
+      "valeur": 7782.56,
       "date": "2026-03-26",
-      "variation_jour_pct": -0.84,
+      "variation_jour_pct": -0.82,
       "unite": "points",
       "source": "Yahoo Finance",
       "nb_points": 256,
@@ -5702,16 +5984,16 @@
         },
         {
           "date": "2026-03-26",
-          "valeur": 7780.91,
-          "ma50": 8159.2,
-          "ma200": 7995.38
+          "valeur": 7782.56,
+          "ma50": 8159.24,
+          "ma200": 7995.39
         }
       ],
       "variations": {
-        "jour": -0.84,
-        "semaine": -0.35,
-        "mois": -8.67,
-        "ytd": -5.06
+        "jour": -0.82,
+        "semaine": -0.32,
+        "mois": -8.65,
+        "ytd": -5.04
       },
       "min_max": {
         "min": 6863.02,
@@ -7292,7 +7574,7 @@
       "note_lecture": "Le taux de change euro-dollar determine le prix de tout ce qui est importe en dollars : petrole, matieres premieres, electronique. Un euro faible rencherit les importations et alimente l'inflation."
     },
     "or": {
-      "valeur": 4419.6,
+      "valeur": 4438.2,
       "date": "2026-03-26",
       "unite": "USD/oz",
       "source": "Yahoo Finance",
@@ -8812,16 +9094,16 @@
         },
         {
           "date": "2026-03-26",
-          "valeur": 4419.6,
-          "ma50": 4944.59,
-          "ma200": 4085.43
+          "valeur": 4438.2,
+          "ma50": 4944.97,
+          "ma200": 4085.52
         }
       ],
       "variations": {
-        "jour": -2.86,
-        "semaine": -3.94,
-        "mois": -14.28,
-        "ytd": 2.44
+        "jour": -2.45,
+        "semaine": -3.53,
+        "mois": -13.92,
+        "ytd": 2.87
       },
       "min_max": {
         "min": 2951.3,
@@ -10372,7 +10654,7 @@
       "note_lecture": "Le prix du gaz naturel (TTF europeen) impacte directement les factures de chauffage et d'electricite des menages, ainsi que les couts de production industrielle."
     },
     "ble": {
-      "valeur": 594.75,
+      "valeur": 594.5,
       "date": "2026-03-26",
       "unite": "cents/boisseau",
       "source": "Yahoo Finance",
@@ -11886,16 +12168,16 @@
         },
         {
           "date": "2026-03-26",
-          "valeur": 594.75,
+          "valeur": 594.5,
           "ma50": 558.93,
           "ma200": 532.0
         }
       ],
       "variations": {
-        "jour": -0.5,
-        "semaine": -2.18,
-        "mois": 4.8,
-        "ytd": 17.42
+        "jour": -0.54,
+        "semaine": -2.22,
+        "mois": 4.76,
+        "ytd": 17.37
       },
       "min_max": {
         "min": 495.0,
@@ -11906,7 +12188,7 @@
       "note_lecture": "Le cours du ble est un indicateur avance des prix alimentaires. La France etant le premier producteur europeen, son evolution impacte a la fois les consommateurs et le secteur agricole."
     },
     "lme_cuivre": {
-      "valeur": 5.52,
+      "valeur": 5.53,
       "date": "2026-03-26",
       "unite": "cts/lb",
       "source": "Yahoo Finance",
@@ -13426,16 +13708,16 @@
         },
         {
           "date": "2026-03-26",
-          "valeur": 5.52,
+          "valeur": 5.53,
           "ma50": 5.8,
           "ma200": 5.22
         }
       ],
       "variations": {
-        "jour": -0.18,
-        "semaine": 1.66,
-        "mois": -6.76,
-        "ytd": -2.13
+        "jour": 0.0,
+        "semaine": 1.84,
+        "mois": -6.59,
+        "ytd": -1.95
       },
       "min_max": {
         "min": 4.13,
@@ -13446,7 +13728,7 @@
       "note_lecture": "Le cuivre est le baromètre de l'activité industrielle mondiale ('Dr Copper'). Sa hausse signale une reprise économique, sa baisse anticipe un ralentissement. Utilisé massivement dans l'électrification et les énergies renouvelables."
     },
     "lme_aluminium": {
-      "valeur": 3184.75,
+      "valeur": 3186.25,
       "date": "2026-03-26",
       "unite": "cts/lb",
       "source": "Yahoo Finance",
@@ -14960,16 +15242,16 @@
         },
         {
           "date": "2026-03-26",
-          "valeur": 3184.75,
-          "ma50": 3114.15,
-          "ma200": 2763.29
+          "valeur": 3186.25,
+          "ma50": 3114.18,
+          "ma200": 2763.3
         }
       ],
       "variations": {
-        "jour": 1.59,
-        "semaine": 2.08,
-        "mois": 5.43,
-        "ytd": 8.4
+        "jour": 1.63,
+        "semaine": 2.13,
+        "mois": 5.48,
+        "ytd": 8.45
       },
       "min_max": {
         "min": 2166.25,
@@ -17388,7 +17670,7 @@
           "2023": 1.92,
           "2024": 1.78,
           "2025": 1.72,
-          "2026": 2.028
+          "2026": 2.027
         },
         "quantiteMensuelle": {
           "solo": 40,
@@ -22005,7 +22287,7 @@
     "sources": "INSEE - Enquête Emploi, DARES"
   },
   "previsions_cftc": {
-    "generated_at": "2026-03-26T10:21:37.358421",
+    "generated_at": "2026-03-26T10:36:25.863381",
     "model_version": "CFTC v4.0 (Monte Carlo)",
     "n_simulations": 1000,
     "horizon": "12 mois",
