@@ -1,6 +1,6 @@
 {
-  "last_updated": "26/03/2026 19:48",
-  "last_updated_iso": "2026-03-26T19:48:03.217285",
+  "last_updated": "26/03/2026 19:58",
+  "last_updated_iso": "2026-03-26T19:58:27.263108",
   "contact": "hspringragain@cftc.fr",
   "alertes": [
     {
@@ -32,7 +32,7 @@
       "date": "2026-03-26",
       "type": "info",
       "titre": "🔄 Données actualisées",
-      "message": "Le tableau de bord a été mis à jour le 26/03/2026 à 19:47.",
+      "message": "Le tableau de bord a été mis à jour le 26/03/2026 à 19:58.",
       "onglet": "conjoncture"
     }
   ],
@@ -193,7 +193,7 @@
     }
   ],
   "revue_presse": {
-    "derniere_maj": "26/03/2026 19:48",
+    "derniere_maj": "26/03/2026 19:58",
     "nb_sources": 7,
     "sources_noms": [
       "Le Monde Éco",
@@ -823,7 +823,7 @@
     "ecart_hf_eqtp": 25.8,
     "difficultes_recrutement": 61,
     "irl_glissement": 0.79,
-    "prix_gazole": 2.233,
+    "prix_gazole": 2.234,
     "taux_effort_locataires": 29.6,
     "croissance_pib": 0.7,
     "climat_affaires": 97,
@@ -2019,9 +2019,9 @@
   },
   "carburants": {
     "gazole": {
-      "prix": 2.233,
-      "variation_an": 20.7,
-      "variation_sem": 41.3
+      "prix": 2.234,
+      "variation_an": 20.8,
+      "variation_sem": 41.4
     },
     "sp95": {
       "prix": 2.028,
@@ -2029,7 +2029,7 @@
       "variation_sem": 17.9
     },
     "sp98": {
-      "prix": 2.08,
+      "prix": 2.081,
       "variation_an": 11.4,
       "variation_sem": 17.9
     },
@@ -2314,13 +2314,13 @@
       },
       {
         "date": "2026-03-26",
-        "gazole": 2.233,
+        "gazole": 2.234,
         "sp95": 2.028,
-        "sp98": 2.08,
+        "sp98": 2.081,
         "e10": 1.974
       }
     ],
-    "derniere_donnee": "2026-03-26 15:48",
+    "derniere_donnee": "2026-03-26 19:45",
     "source": "data.economie.gouv.fr (flux instantané)",
     "granularite": "quotidien"
   },
@@ -2897,7 +2897,7 @@
       "note_lecture": "Le TEC-10 mesure le rendement des emprunts d'Etat francais a 10 ans. Un taux eleve rencherit le cout de la dette publique et impacte les taux de credit immobilier."
     },
     "petrole_brent": {
-      "valeur": 101.49,
+      "valeur": 101.65,
       "date": "2026-03-26",
       "unite": "USD/baril",
       "source": "Yahoo Finance",
@@ -4417,16 +4417,16 @@
         },
         {
           "date": "2026-03-26",
-          "valeur": 101.49,
-          "ma50": 79.14,
+          "valeur": 101.65,
+          "ma50": 79.15,
           "ma200": 69.24
         }
       ],
       "variations": {
-        "jour": -0.71,
-        "semaine": -6.59,
-        "mois": 43.41,
-        "ytd": 67.06
+        "jour": -0.56,
+        "semaine": -6.44,
+        "mois": 43.63,
+        "ytd": 67.33
       },
       "min_max": {
         "min": 58.92,
@@ -7566,7 +7566,7 @@
       "note_lecture": "Le taux de change euro-dollar determine le prix de tout ce qui est importe en dollars : petrole, matieres premieres, electronique. Un euro faible rencherit les importations et alimente l'inflation."
     },
     "or": {
-      "valeur": 4382.7,
+      "valeur": 4374.8,
       "date": "2026-03-26",
       "unite": "USD/oz",
       "source": "Yahoo Finance",
@@ -9086,16 +9086,16 @@
         },
         {
           "date": "2026-03-26",
-          "valeur": 4382.7,
-          "ma50": 4943.86,
-          "ma200": 4085.24
+          "valeur": 4374.8,
+          "ma50": 4943.7,
+          "ma200": 4085.2
         }
       ],
       "variations": {
-        "jour": -3.67,
-        "semaine": -4.74,
-        "mois": -14.99,
-        "ytd": 1.58
+        "jour": -3.85,
+        "semaine": -4.91,
+        "mois": -15.15,
+        "ytd": 1.4
       },
       "min_max": {
         "min": 2951.3,
@@ -22279,7 +22279,7 @@
     "sources": "INSEE - Enquête Emploi, DARES"
   },
   "previsions_cftc": {
-    "generated_at": "2026-03-26T19:48:03.519128",
+    "generated_at": "2026-03-26T19:58:27.582673",
     "model_version": "CFTC v6.0 (Monte Carlo + calibrage dynamique + backtesting)",
     "n_simulations": 1000,
     "horizon": "12 mois",
@@ -22288,7 +22288,7 @@
       "niveau": "excellent",
       "issues": [],
       "warnings": [],
-      "timestamp": "2026-03-26T19:48:03.519143"
+      "timestamp": "2026-03-26T19:58:27.582689"
     },
     "calibrage": {
       "volatilites": {
@@ -22313,16 +22313,16 @@
       "mean_reversion_k": 0.3
     },
     "market_signals": {
-      "inflation_adjustment": 0.181,
+      "inflation_adjustment": 0.182,
       "chomage_adjustment": 0.175,
       "energie_outlook": "hausse"
     },
     "market_signals_details": {
       "brent": {
-        "valeur": 101.49,
+        "valeur": 101.65,
         "ref": 75.0,
-        "variation_ytd_pct": 67.06,
-        "impact_inflation_pt": 0.265
+        "variation_ytd_pct": 67.33,
+        "impact_inflation_pt": 0.267
       },
       "gaz_ttf": {
         "valeur": 55.37,
@@ -22475,9 +22475,9 @@
       "facteurs": {
         "cible_bdf": 1.4,
         "ajustement_climat": -0.03,
-        "ajustement_marches": 0.181,
+        "ajustement_marches": 0.182,
         "energie_outlook": "hausse",
-        "cible_ajustee": 1.551,
+        "cible_ajustee": 1.552,
         "volatilite_utilisee": 0.5
       },
       "insight": "Inflation médiane à 12 mois : 1.6% [IC 80% : 1.2% - 2.0%]. 92.1% de probabilité de rester sous 2%."
