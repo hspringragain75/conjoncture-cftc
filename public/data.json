@@ -1,11 +1,11 @@
 {
-  "last_updated": "25/03/2026 15:02",
-  "last_updated_iso": "2026-03-25T15:02:32.610930",
+  "last_updated": "26/03/2026 06:18",
+  "last_updated_iso": "2026-03-26T06:18:51.504178",
   "contact": "hspringragain@cftc.fr",
   "alertes": [
     {
       "id": "inflation_maitrisee_2025",
-      "date": "2026-03-25",
+      "date": "2026-03-26",
       "type": "success",
       "titre": "📉 Inflation maîtrisée : 0.9%",
       "message": "L'inflation 2025 est sous contrôle. Le pouvoir d'achat se stabilise.",
@@ -13,7 +13,7 @@
     },
     {
       "id": "chomage_jeunes_T4_2025",
-      "date": "2026-03-25",
+      "date": "2026-03-26",
       "type": "warning",
       "titre": "🧑‍🎓 Chômage jeunes élevé : 21.5%",
       "message": "Le taux de chômage des 15-24 ans reste préoccupant (T4 2025).",
@@ -21,18 +21,18 @@
     },
     {
       "id": "pib_dynamique_T4_2025",
-      "date": "2026-03-25",
+      "date": "2026-03-26",
       "type": "success",
       "titre": "📈 Croissance dynamique : +0.7%",
       "message": "Le PIB progresse de 0.7% au T4 2025. Argument pour des augmentations !",
       "onglet": "conjoncture"
     },
     {
-      "id": "maj_2026-03-25",
-      "date": "2026-03-25",
+      "id": "maj_2026-03-26",
+      "date": "2026-03-26",
       "type": "info",
       "titre": "🔄 Données actualisées",
-      "message": "Le tableau de bord a été mis à jour le 25/03/2026 à 15:02.",
+      "message": "Le tableau de bord a été mis à jour le 26/03/2026 à 06:18.",
       "onglet": "conjoncture"
     }
   ],
@@ -193,7 +193,7 @@
     }
   ],
   "revue_presse": {
-    "derniere_maj": "25/03/2026 15:02",
+    "derniere_maj": "26/03/2026 06:18",
     "nb_sources": 7,
     "sources_noms": [
       "Le Monde Éco",
@@ -204,17 +204,126 @@
       "Institut Montaigne",
       "Euractiv FR"
     ],
-    "a_la_une": [],
+    "a_la_une": [
+      {
+        "source": "Le Monde Éco",
+        "couleur": "#374151",
+        "emoji": "🌐",
+        "tag": "Presse économique",
+        "titre": "Un panier de pommes est-il une rémunération ?",
+        "resume": "Pour bénéficier d’une indemnisation en cas d’accident, le bénévole qui donne un coup de main ne doit toucher aucune contrepartie.",
+        "lien": "https://www.lemonde.fr/argent/article/2026/03/26/un-panier-de-pommes-est-il-une-remuneration_6674312_1657007.html",
+        "date_iso": "2026-03-26T06:00:42+01:00",
+        "date_fr": "26/03/2026",
+        "pertinence": 3
+      }
+    ],
     "tous": [
       {
         "source": "Le Figaro Éco",
         "couleur": "#92400e",
         "emoji": "📊",
         "tag": "Presse économique",
-        "titre": "Carburants : la grande distribution promet de répercuter «immédiatement» la baisse des cours du pétrole",
-        "resume": "L’Union des importateurs indépendants pétroliers (UIP) promet que «tous les efforts seront faits pour que chaque centime économisé à l’achat se retrouve économisé à la pompe».",
-        "lien": "https://www.lefigaro.fr/conso/carburants-la-grande-distribution-promet-de-repercuter-immediatement-la-baisse-des-cours-du-petrole-20260325",
-        "date_iso": "2026-03-25T15:49:28+01:00",
+        "titre": "Un réseau d’arnaque au faux conseiller bancaire démantelé, onze prévenus jugés à Paris",
+        "resume": "Ils auraient arnaqué une centaine de victimes en se faisant passer pour le service des fraudes de leur banque et les convainquant de remettre leur carte bancaire à un coursier.",
+        "lien": "https://www.lefigaro.fr/conjoncture/un-reseau-d-arnaque-au-faux-conseiller-bancaire-demantele-onze-prevenus-juges-a-paris-20260326",
+        "date_iso": "2026-03-26T06:35:58+01:00",
+        "date_fr": "26/03/2026",
+        "pertinence": 0
+      },
+      {
+        "source": "Le Monde Éco",
+        "couleur": "#374151",
+        "emoji": "🌐",
+        "tag": "Presse économique",
+        "titre": "Un panier de pommes est-il une rémunération ?",
+        "resume": "Pour bénéficier d’une indemnisation en cas d’accident, le bénévole qui donne un coup de main ne doit toucher aucune contrepartie.",
+        "lien": "https://www.lemonde.fr/argent/article/2026/03/26/un-panier-de-pommes-est-il-une-remuneration_6674312_1657007.html",
+        "date_iso": "2026-03-26T06:00:42+01:00",
+        "date_fr": "26/03/2026",
+        "pertinence": 3
+      },
+      {
+        "source": "Le Monde Éco",
+        "couleur": "#374151",
+        "emoji": "🌐",
+        "tag": "Presse économique",
+        "titre": "« Nous le valons bien » : reconnaître la valeur du travail gratuit",
+        "resume": "Dans son essai, la militante féministe danoise Emma Holten appelle à donner une valeur au travail du soin, fondé sur la relation humaine, qu’il soit effectué dans le cadre privé ou au sein des organisations.",
+        "lien": "https://www.lemonde.fr/emploi/article/2026/03/26/nous-le-valons-bien-reconnaitre-la-valeur-du-travail-gratuit_6674305_1698637.html",
+        "date_iso": "2026-03-26T06:00:12+01:00",
+        "date_fr": "26/03/2026",
+        "pertinence": 1
+      },
+      {
+        "source": "Le Monde Emploi",
+        "couleur": "#1f2937",
+        "emoji": "💼",
+        "tag": "Emploi & travail",
+        "titre": "« Nous le valons bien » : reconnaître la valeur du travail gratuit",
+        "resume": "Dans son essai, la militante féministe danoise Emma Holten appelle à donner une valeur au travail du soin, fondé sur la relation humaine, qu’il soit effectué dans le cadre privé ou au sein des organisations.",
+        "lien": "https://www.lemonde.fr/emploi/article/2026/03/26/nous-le-valons-bien-reconnaitre-la-valeur-du-travail-gratuit_6674305_1698637.html",
+        "date_iso": "2026-03-26T06:00:12+01:00",
+        "date_fr": "26/03/2026",
+        "pertinence": 1
+      },
+      {
+        "source": "Le Monde Éco",
+        "couleur": "#374151",
+        "emoji": "🌐",
+        "tag": "Presse économique",
+        "titre": "Dans l’Orne, département champion de la production de gaz vert : « Le biométhane apporte un peu de souveraineté énergétique à nos territoires »",
+        "resume": "Le département normand, très agricole, est le champion français de la méthanisation. La montée en puissance de cette activité, qui transforme les biodéchets en énergie, suscite aussi des crispations. Mais elle est soutenue par l’Etat et l’industrie gazière qui soulignent son rôle en matière de souve",
+        "lien": "https://www.lemonde.fr/economie/article/2026/03/26/dans-l-orne-departement-champion-de-la-production-de-gaz-vert-le-biomethane-apporte-un-peu-de-souverainete-energetique-a-nos-territoires_6674295_3234.html",
+        "date_iso": "2026-03-26T05:00:24+01:00",
+        "date_fr": "26/03/2026",
+        "pertinence": 0
+      },
+      {
+        "source": "Terra Nova",
+        "couleur": "#0369a1",
+        "emoji": "🔬",
+        "tag": "Recherche politique",
+        "titre": "Pour un soutien raisonné à l’accession à la propriété",
+        "resume": "Le souhait de devenir propriétaire de son logement est largement partagé par les Français. Aussi les aides publiques en ce sens sont-elles populaires. Elles sont aussi couteuses et, en réalité, peu efficaces dans leur forme actuelle. Elles devraient être repensées, en distinguant en particulier les ",
+        "lien": "https://tnova.fr/economie-social/logement-politique-de-la-ville/pour-un-soutien-raisonne-a-laccession-a-la-propriete/",
+        "date_iso": "2026-03-26T05:00:00+01:00",
+        "date_fr": "26/03/2026",
+        "pertinence": 1
+      },
+      {
+        "source": "Le Monde Éco",
+        "couleur": "#374151",
+        "emoji": "🌐",
+        "tag": "Presse économique",
+        "titre": "Meta, Google, TikTok et Snapchat, jugés responsables d’avoir mis en danger des mineurs aux Etats-Unis, risquent maintenant la guérilla judiciaire",
+        "resume": "Instagram et YouTube ont été jugés responsables de la dépression d’une adolescente en Californie, mercredi, au lendemain d’une autre condamnation au Nouveau-Mexique. Si le montant des dommages reste faible – soit 6 millions de dollars –, ces deux affaires pourraient marquer un « point de départ », e",
+        "lien": "https://www.lemonde.fr/pixels/article/2026/03/26/reseaux-sociaux-et-enfants-apres-deux-verdicts-defavorables-meta-google-tiktok-et-snapchat-face-au-risque-d-une-guerilla-judiciaire_6674289_4408996.html",
+        "date_iso": "2026-03-26T04:30:06+01:00",
+        "date_fr": "26/03/2026",
+        "pertinence": 0
+      },
+      {
+        "source": "Le Figaro Éco",
+        "couleur": "#92400e",
+        "emoji": "📊",
+        "tag": "Presse économique",
+        "titre": "Addiction aux réseaux sociaux : un jury californien reconnaît la responsabilité d’Instagram et YouTube, un verdict historique",
+        "resume": "RÉCIT - Les deux entreprises ont été condamnées à verser au moins 3 millions de dollars de dommages et intérêts. Après six semaines d’un procès hors norme, marqué par le témoignage sous serment de Mark Zuckerberg.",
+        "lien": "https://www.lefigaro.fr/secteur/high-tech/addiction-aux-reseaux-sociaux-un-jury-californien-reconnait-la-responsabilite-d-instagram-et-youtube-un-verdict-historique-20260325",
+        "date_iso": "2026-03-26T02:52:59+01:00",
+        "date_fr": "26/03/2026",
+        "pertinence": 1
+      },
+      {
+        "source": "Le Monde Éco",
+        "couleur": "#374151",
+        "emoji": "🌐",
+        "tag": "Presse économique",
+        "titre": "Les défis de Matt Brittin, un ancien dirigeant de Google nommé à la tête de la BBC",
+        "resume": "Ce Britannique de 57 ans prendra ses fonctions en mai à la direction générale du prestigieux groupe d’audiovisuel public.",
+        "lien": "https://www.lemonde.fr/actualite-medias/article/2026/03/25/les-defis-de-matt-brittin-un-ancien-dirigeant-de-google-nomme-a-la-tete-de-la-bbc_6674281_3236.html",
+        "date_iso": "2026-03-25T22:50:22+01:00",
         "date_fr": "25/03/2026",
         "pertinence": 0
       },
@@ -223,34 +332,10 @@
         "couleur": "#92400e",
         "emoji": "📊",
         "tag": "Presse économique",
-        "titre": "Négociations commerciales : 5,46 millions d’euros d'amende pour la centrale d'Intermarché, Auchan et Casino",
-        "resume": "Sont reprochés à la centrale d’achats alimentaires «18 manquements à son obligation de signature des conventions conclues avec ses fournisseurs au plus tard le 1er mars 2025», précise la DGCCRF.",
-        "lien": "https://www.lefigaro.fr/societes/negociations-commerciales-5-46-millions-d-euros-d-amende-pour-la-centrale-d-intermarche-auchan-et-casino-20260325",
-        "date_iso": "2026-03-25T15:48:19+01:00",
-        "date_fr": "25/03/2026",
-        "pertinence": 2
-      },
-      {
-        "source": "Le Figaro Éco",
-        "couleur": "#92400e",
-        "emoji": "📊",
-        "tag": "Presse économique",
-        "titre": "Un ancien dirigeant de Google, Matt Brittin, nommé à la tête de la BBC",
-        "resume": "Cinq mois après la démission de Tim Davie à la suite d’un montage trompeur d’un discours de Donald Trump, le groupe audiovisuel britannique se dote d’un nouveau directeur général.",
-        "lien": "https://www.lefigaro.fr/medias/un-ancien-dirigeant-de-google-matt-brittin-nomme-a-la-tete-de-la-bbc-20260325",
-        "date_iso": "2026-03-25T15:41:22+01:00",
-        "date_fr": "25/03/2026",
-        "pertinence": 0
-      },
-      {
-        "source": "Le Figaro Éco",
-        "couleur": "#92400e",
-        "emoji": "📊",
-        "tag": "Presse économique",
-        "titre": "Wall Street et les Bourses européennes rassurées par la détente des prix du pétrole",
-        "resume": "Les marchés sont entraînés par les espoirs d’une fin de conflit au Moyen-Orient, qui fait chuter les prix de l’énergie et atténue les perspectives d’inflation.",
-        "lien": "https://www.lefigaro.fr/conjoncture/les-bourses-europeennes-ouvrent-en-hausse-portees-par-les-espoirs-d-une-resolution-de-la-guerre-au-moyen-orient-20260325",
-        "date_iso": "2026-03-25T15:34:50+01:00",
+        "titre": "Retraites : pour sauver le système, la question de l’âge de départ fait son retour",
+        "resume": "DÉCRYPTAGE - Une étude de la Drees révèle que 35 % des personnes ayant pris leur retraite entre 2012 et 2020 ont vu leur niveau de vie augmenter. Les retraités vivent aujourd’hui presque aussi bien que les actifs, mais cette situation avantageuse est difficilement tenable.",
+        "lien": "https://www.lefigaro.fr/conjoncture/montant-des-pensions-cotisations-age-de-depart-quelles-solutions-pour-sortir-le-systeme-de-retraite-de-l-impasse-20260325",
+        "date_iso": "2026-03-25T22:44:12+01:00",
         "date_fr": "25/03/2026",
         "pertinence": 1
       },
@@ -259,82 +344,22 @@
         "couleur": "#92400e",
         "emoji": "📊",
         "tag": "Presse économique",
-        "titre": "Le directeur général de L’Équipe Rolf Heinz visé par une motion de défiance",
-        "resume": "Une très large majorité des 221 salariés de L’Équipe SAS et de l’agence Presse Sport ayant participé au vote ont désavoué le dirigeant, nommé à la tête du groupe de presse en juin 2024.",
-        "lien": "https://www.lefigaro.fr/medias/le-directeur-general-de-l-equipe-rolf-heinz-vise-par-une-motion-de-defiance-20260325",
-        "date_iso": "2026-03-25T15:32:51+01:00",
-        "date_fr": "25/03/2026",
-        "pertinence": 0
-      },
-      {
-        "source": "Le Figaro Éco",
-        "couleur": "#92400e",
-        "emoji": "📊",
-        "tag": "Presse économique",
-        "titre": "Roland Lescure «regrette» ses propos sur un «choc pétrolier» en France",
-        "resume": "«Il s’appliquait dans mes mots à la situation internationale et en aucun cas à la situation française», a précisé le ministre de l’Économie ce mercredi.",
-        "lien": "https://www.lefigaro.fr/conjoncture/roland-lescure-regrette-ses-propos-sur-un-choc-petrolier-en-france-20260325",
-        "date_iso": "2026-03-25T15:29:34+01:00",
-        "date_fr": "25/03/2026",
-        "pertinence": 0
-      },
-      {
-        "source": "Le Figaro Éco",
-        "couleur": "#92400e",
-        "emoji": "📊",
-        "tag": "Presse économique",
-        "titre": "Pourquoi Orange vend Globecast, sa filiale qui a retransmis les images des JO de Paris 2024 dans le monde entier",
-        "resume": "DÉCRYPTAGE - L’opérateur est entré en négociations exclusives avec le fonds Verdoso pour lui céder cette entité positionnée sur la retransmission de flux vidéos par satellites. Une opération qui fait couler de l’encre.",
-        "lien": "https://www.lefigaro.fr/secteur/high-tech/pourquoi-orange-vend-globecast-sa-filiale-qui-a-retransmis-les-images-des-jo-de-paris-2024-dans-le-monde-entier-20260325",
-        "date_iso": "2026-03-25T15:28:48+01:00",
+        "titre": "Royaume-Uni : le gouvernement lance des tests de restrictions de réseaux sociaux sur 300 adolescents",
+        "resume": "Les adolescents testés, âgés de 13 à 17 ans, vont être soumis à diverses restrictions pendant six semaines afin d’en évaluer l’impact sur leur travail scolaire, leur sommeil et leur vie familiale.",
+        "lien": "https://www.lefigaro.fr/international/royaume-uni-le-gouvernement-lance-des-tests-de-restrictions-de-reseaux-sociaux-sur-300-adolescents-20260325",
+        "date_iso": "2026-03-25T22:17:25+01:00",
         "date_fr": "25/03/2026",
         "pertinence": 1
       },
       {
-        "source": "Le Monde Éco",
-        "couleur": "#374151",
-        "emoji": "🌐",
-        "tag": "Presse économique",
-        "titre": "Les touristes délaissent l’Asie, craignant de subir les conséquences de la guerre au Moyen-Orient",
-        "resume": "La hausse du prix du kérosène et l’incertitude régnant autour des hubs aériens du Golfe freinent les projets de voyage et réorientent les flux touristiques mondiaux.",
-        "lien": "https://www.lemonde.fr/economie/article/2026/03/25/les-touristes-delaissent-l-asie-craignant-de-subir-les-consequences-de-la-guerre-au-moyen-orient_6674224_3234.html",
-        "date_iso": "2026-03-25T15:00:12+01:00",
-        "date_fr": "25/03/2026",
-        "pertinence": 0
-      },
-      {
         "source": "Le Figaro Éco",
         "couleur": "#92400e",
         "emoji": "📊",
         "tag": "Presse économique",
-        "titre": "Navires autorisés, impact sur le pétrole... Cinq questions pour tout comprendre à la réouverture partielle du détroit d’Ormuz annoncée par l’Iran",
-        "resume": "DÉCRYPTAGE - L’Iran a annoncé mardi autoriser le passage de certains navires dans le détroit d’Ormuz, quasi paralysé depuis le début du conflit au Moyen-Orient. Derrière ce signal de bonne volonté, les incertitudes restent nombreuses. Le Figaro fait le point en cinq questions.",
-        "lien": "https://www.lefigaro.fr/conjoncture/navires-autorises-impact-sur-le-petrole-tout-comprendre-a-la-reouverture-partielle-du-detroit-d-ormuz-annoncee-par-l-iran-20260325",
-        "date_iso": "2026-03-25T14:55:14+01:00",
-        "date_fr": "25/03/2026",
-        "pertinence": 0
-      },
-      {
-        "source": "Le Figaro Éco",
-        "couleur": "#92400e",
-        "emoji": "📊",
-        "tag": "Presse économique",
-        "titre": "Contrairement au gaz, pourquoi les prix de l’électricité ne s’envolent pas en France",
-        "resume": "DÉCRYPTAGE - La stratégie énergétique de la France lui permet de tirer son épingle du jeu, notamment vis-à-vis d’autres pays européens.",
-        "lien": "https://www.lefigaro.fr/societes/contrairement-au-gaz-pourquoi-les-prix-de-l-electricite-ne-s-envolent-pas-en-france-20260325",
-        "date_iso": "2026-03-25T14:30:31+01:00",
-        "date_fr": "25/03/2026",
-        "pertinence": 0
-      },
-      {
-        "source": "Euractiv FR",
-        "couleur": "#0369a1",
-        "emoji": "🇪🇺",
-        "tag": "Europe & politique",
-        "titre": "Le monde est « au bord du gouffre » énergétique, selon Christine Lagarde",
-        "resume": "Le président de la Banque centrale européenne a déclaré qu'une guerre avec l'Iran pourrait entraîner une hausse des prix de l'énergie plus rapide que l'invasion à grande échelle de l'Ukraine par la Russie The post Le monde est « au bord du gouffre » énergétique, selon Christine Lagarde appeared firs",
-        "lien": "https://euractiv.fr/news/le-monde-est-au-bord-du-gouffre-energetique-selon-christine-lagarde/",
-        "date_iso": "2026-03-25T14:19:12+00:00",
+        "titre": "La Switch 2 de Nintendo tire le marché du jeu vidéo en France",
+        "resume": "Grâce au lancement réussi de cette nouvelle console, les dépenses des Français dans l’écosystème du gaming ont progressé de 3 %. Mais la santé des achats de jeux est plus préoccupante.",
+        "lien": "https://www.lefigaro.fr/medias/la-switch-2-de-nintendo-tire-le-marche-du-jeu-video-en-france-20260325",
+        "date_iso": "2026-03-25T22:00:00+01:00",
         "date_fr": "25/03/2026",
         "pertinence": 0
       },
@@ -343,22 +368,22 @@
         "couleur": "#374151",
         "emoji": "🌐",
         "tag": "Presse économique",
-        "titre": "Après les municipales, une ville de Paris plus que jamais scindée en deux blocs",
-        "resume": "A l’issue des élections des 15 et 22 mars, jamais Paris n’avait été aussi scindé en deux blocs est-ouest et gauche-droite.",
-        "lien": "https://www.lemonde.fr/politique/article/2026/03/25/municipales-a-paris-la-reforme-electorale-et-les-reports-de-voix-dessinent-une-capitale-clivee_6674216_823448.html",
-        "date_iso": "2026-03-25T14:00:13+01:00",
+        "titre": "La Caisse des dépôts se prépare à financer les futurs réacteurs nucléaires EPR d’EDF dès 2027",
+        "resume": "Le groupe public chargé de gérer l’épargne réglementée des Français pourrait prêter 4 milliards d’euros par an pendant douze ans afin de financer les six nouveaux réacteurs nucléaires.",
+        "lien": "https://www.lemonde.fr/economie/article/2026/03/25/la-caisse-des-depots-se-prepare-a-financer-les-futurs-reacteurs-nucleaires-epr-d-edf-des-2027_6674277_3234.html",
+        "date_iso": "2026-03-25T21:00:12+01:00",
         "date_fr": "25/03/2026",
         "pertinence": 0
       },
       {
-        "source": "Euractiv FR",
-        "couleur": "#0369a1",
-        "emoji": "🇪🇺",
-        "tag": "Europe & politique",
-        "titre": "La Commission s apprête à agir contre la tarification « discriminatoire » du diesel en Slovaquie",
-        "resume": "Selon la Commission, la tentative de Bratislava de protéger les Slovaques de la flambée des prix du pétrole est « contraire au droit de l'Union européenne » The post La Commission s&rsquo;apprête à agir contre la tarification « discriminatoire » du diesel en Slovaquie appeared first on Euractiv FR .",
-        "lien": "https://euractiv.fr/news/la-commission-sapprete-a-agir-contre-la-tarification-discriminatoire-du-diesel-en-slovaquie/",
-        "date_iso": "2026-03-25T13:30:02+00:00",
+        "source": "Le Figaro Éco",
+        "couleur": "#92400e",
+        "emoji": "📊",
+        "tag": "Presse économique",
+        "titre": "Pourquoi le détroit d’Ormuz est une artère vitale du commerce mondial",
+        "resume": "DÉCRYPTAGE - Du gaz et du pétrole transitent par le détroit d’Ormuz, mais aussi de l’aluminium et de l’hélium.",
+        "lien": "https://www.lefigaro.fr/societes/pourquoi-le-detroit-d-ormuz-est-une-artere-vitale-du-commerce-mondial-20260325",
+        "date_iso": "2026-03-25T20:50:00+01:00",
         "date_fr": "25/03/2026",
         "pertinence": 0
       },
@@ -367,22 +392,34 @@
         "couleur": "#dc2626",
         "emoji": "📰",
         "tag": "Presse économique",
-        "titre": "L’interdiction des réseaux sociaux aux moins de 15 ans adoptée en commission au Sénat, le texte modifié",
-        "resume": "La nouvelle mouture du texte distingue deux types de plateformes : celles qui nuisent à «l’épanouissement physique, mental ou moral» de l’enfant et les autres. Les premières seraient interdites, pour les deuxièmes, un accord parental serait nécessaire.",
-        "lien": "https://www.liberation.fr/economie/economie-numerique/linterdiction-des-reseaux-sociaux-aux-moins-de-15-ans-adoptee-en-commission-au-senat-le-texte-modifie-20260325_CU7ETVC5JFDGXJ7X3ITADS3UXI/",
-        "date_iso": "2026-03-25T13:22:45+00:00",
+        "titre": "«L’heure de rendre des comptes est arrivée» : Instagram et YouTube condamnés dans un procès inédit sur l’addiction aux réseaux sociaux",
+        "resume": "Un jury californien a condamné les deux entreprises à verser 6 millions de dollars à une jeune femme, jugeant leurs plateformes responsables de sa dépression adolescente. Ce verdict crée un précédent pour des milliers de plaintes similaires aux Etats-Unis.",
+        "lien": "https://www.liberation.fr/economie/economie-numerique/lheure-de-rendre-des-comptes-est-arrivee-instagram-et-youtube-condamnes-dans-un-proces-inedit-sur-laddiction-aux-reseaux-sociaux-20260325_R3XPSXBDJ5DHBJ7BLIRSO7ZDB4/",
+        "date_iso": "2026-03-25T20:44:56+00:00",
         "date_fr": "25/03/2026",
         "pertinence": 1
       },
       {
-        "source": "Euractiv FR",
-        "couleur": "#0369a1",
-        "emoji": "🇪🇺",
-        "tag": "Europe & politique",
-        "titre": "EXCLUSIF : Mairead McGuinness va devenir envoyée spéciale de l UE pour la liberté religieuse",
-        "resume": "Mairead McGuinness fait son retour après s'être retirée de la course à la présidence irlandaise pour des raisons de santé The post EXCLUSIF : Mairead McGuinness va devenir envoyée spéciale de l&rsquo;UE pour la liberté religieuse appeared first on Euractiv FR .",
-        "lien": "https://euractiv.fr/news/exclusif-mairead-mcguinness-va-devenir-envoyee-speciale-de-lue-pour-la-liberte-religieuse/",
-        "date_iso": "2026-03-25T13:19:44+00:00",
+        "source": "Le Figaro Éco",
+        "couleur": "#92400e",
+        "emoji": "📊",
+        "tag": "Presse économique",
+        "titre": "Retraites : les partisans d’une dose de capitalisation de plus en plus nombreux",
+        "resume": "DÉCRYPTAGE - Alors que les prédictions de déficit de notre système de retraite par répartition sont de plus en plus alarmantes, la capitalisation trouve de plus en plus d’adeptes. La question du financement de la transition vers ce nouveau modèle se pose toujours.",
+        "lien": "https://www.lefigaro.fr/social/retraites-les-partisans-d-une-dose-de-capitalisation-de-plus-en-plus-nombreux-20260325",
+        "date_iso": "2026-03-25T20:29:23+01:00",
+        "date_fr": "25/03/2026",
+        "pertinence": 1
+      },
+      {
+        "source": "Le Figaro Éco",
+        "couleur": "#92400e",
+        "emoji": "📊",
+        "tag": "Presse économique",
+        "titre": "« Ce texte est très attendu par les éditeurs de presse » : l’Assemblée nationale se penche sur le renforcement de la loi sur les droits voisins",
+        "resume": "DÉCRYPTAGE - Examinée ce jeudi, une proposition de loi du député MoDem Erwan Balanant vise à corriger les failles de la loi votée en 2019. Actuellement, seuls Google, Qwant et Microsoft respectent ce texte.",
+        "lien": "https://www.lefigaro.fr/medias/ce-texte-est-tres-attendu-par-les-editeurs-de-presse-l-assemblee-nationale-se-penche-sur-le-renforcement-de-la-loi-sur-les-droits-voisins-20260325",
+        "date_iso": "2026-03-25T20:15:00+01:00",
         "date_fr": "25/03/2026",
         "pertinence": 0
       },
@@ -391,10 +428,34 @@
         "couleur": "#92400e",
         "emoji": "📊",
         "tag": "Presse économique",
-        "titre": "L’Iran imprime des billets de 10 millions de rials pour faire face à l’inflation record",
-        "resume": "Les prix explosent dans le pays depuis plusieurs mois, une tendance accrue par la guerre. Face à la demande de liquide croissante de la population, la banque centrale iranienne s’est résolue à imprimer de gros billets.",
-        "lien": "https://www.lefigaro.fr/conjoncture/l-iran-imprime-des-billets-de-10-millions-de-rials-pour-faire-face-a-l-inflation-record-20260325",
-        "date_iso": "2026-03-25T13:14:11+01:00",
+        "titre": "Guerre au Moyen-Orient : pourquoi le prix de l’or, traditionnelle valeur refuge, chute",
+        "resume": "DÉCRYPTAGE - La dégringolade du métal jaune, vers lequel se tournent les investisseurs en période de crise, a surpris. Explications.",
+        "lien": "https://www.lefigaro.fr/conjoncture/guerre-au-moyen-orient-pourquoi-le-prix-de-l-or-traditionnelle-valeur-refuge-chute-20260325",
+        "date_iso": "2026-03-25T20:12:04+01:00",
+        "date_fr": "25/03/2026",
+        "pertinence": 0
+      },
+      {
+        "source": "Le Figaro Éco",
+        "couleur": "#92400e",
+        "emoji": "📊",
+        "tag": "Presse économique",
+        "titre": "«Elles subissent les effets de la flambée du kérosène» : la guerre en Iran pousse les compagnies aériennes à augmenter les prix des billets",
+        "resume": "DÉCRYPTAGE - Chez Air France et KLM, un aller-retour en classe économique sur un long-courrier coûte désormais 50 euros de plus. D’autres transporteurs français, comme Air Caraïbes et Air Austral, ont aussi revu leurs tarifs à la hausse.",
+        "lien": "https://www.lefigaro.fr/economie/elles-subissent-les-effets-de-la-flambee-du-kerosene-la-guerre-en-iran-pousse-les-compagnies-aeriennes-a-augmenter-les-prix-des-billets-20260325",
+        "date_iso": "2026-03-25T20:08:00+01:00",
+        "date_fr": "25/03/2026",
+        "pertinence": 0
+      },
+      {
+        "source": "Le Monde Éco",
+        "couleur": "#374151",
+        "emoji": "🌐",
+        "tag": "Presse économique",
+        "titre": "La Banque de France exclut toute récession, même dans son scénario d’un baril de pétrole à 145 dollars",
+        "resume": "Parmi les trois hypothèses élaborées par l’institution française, la plus pessimiste table sur une inflation de 3,3 % en 2026 et une croissance de 0,3 %.",
+        "lien": "https://www.lemonde.fr/economie/article/2026/03/25/blocage-du-detroit-d-ormuz-la-banque-de-france-exclut-toute-recession-meme-dans-son-scenario-d-un-baril-de-petrole-a-145-dollars_6674272_3234.html",
+        "date_iso": "2026-03-25T20:00:05+01:00",
         "date_fr": "25/03/2026",
         "pertinence": 2
       },
@@ -403,58 +464,10 @@
         "couleur": "#92400e",
         "emoji": "📊",
         "tag": "Presse économique",
-        "titre": "La présidente de la Cour des comptes Amélie de Montchalin s'exclut des débats sur le budget 2026",
-        "resume": "Amélie de Montchalin a été ministre de l’Action et des Comptes publics de décembre 2024 jusqu’à sa nomination à la tête de la Cour des comptes en février 2026.",
-        "lien": "https://www.lefigaro.fr/conjoncture/la-presidente-de-la-cour-des-comptes-amelie-de-montchalin-s-exclut-des-debats-sur-le-budget-2026-20260325",
-        "date_iso": "2026-03-25T13:07:06+01:00",
-        "date_fr": "25/03/2026",
-        "pertinence": 1
-      },
-      {
-        "source": "Le Monde Éco",
-        "couleur": "#374151",
-        "emoji": "🌐",
-        "tag": "Presse économique",
-        "titre": "China Eastern annonce l’achat de 101 Airbus A320neo pour 15,8 milliards de dollars",
-        "resume": "Le calendrier de livraison « pourra être ajusté en fonction des circonstances réelles, sous réserve d’un accord mutuel entre les deux parties », selon le communiqué de la compagnie aérienne chinoise.",
-        "lien": "https://www.lemonde.fr/economie/article/2026/03/25/china-eastern-annonce-l-achat-de-101-airbus-a320neo-pour-15-8-milliards-de-dollars_6674210_3234.html",
-        "date_iso": "2026-03-25T12:51:36+01:00",
-        "date_fr": "25/03/2026",
-        "pertinence": 1
-      },
-      {
-        "source": "Le Figaro Éco",
-        "couleur": "#92400e",
-        "emoji": "📊",
-        "tag": "Presse économique",
-        "titre": "Grêle, sécheresse... Le coût des sinistres climatiques en France en hausse en 2025, à 5,2 milliards d'euros",
-        "resume": "Ce chiffre est dans la moyenne des cinq dernières années, mais bien au-dessus de celle de la décennie précédente (2010-2019), qui était de 3,9 milliards d’euros, en tenant compte de l’inflation.",
-        "lien": "https://www.lefigaro.fr/conjoncture/grele-secheresse-le-cout-des-sinistres-climatiques-en-france-en-hausse-en-2025-a-5-2-milliards-d-euros-20260325",
-        "date_iso": "2026-03-25T12:47:39+01:00",
-        "date_fr": "25/03/2026",
-        "pertinence": 1
-      },
-      {
-        "source": "Le Figaro Éco",
-        "couleur": "#92400e",
-        "emoji": "📊",
-        "tag": "Presse économique",
-        "titre": "Collèges, logements sociaux, sécurité... Les politiques territoriales étrillées par la Cour des comptes",
-        "resume": "DÉCRYPTAGE - Plus de 18 milliards de crédits, 15 milliards de dépenses fiscales, 16 milliards de fonds européens... L’institution souligne dans son rapport annuel que la cohésion des territoires dispose de «moyens substantiels mais peu lisibles»",
-        "lien": "https://www.lefigaro.fr/conjoncture/colleges-logements-sociaux-securite-les-politiques-territoriales-etrillees-par-la-cour-des-comptes-20260325",
-        "date_iso": "2026-03-25T12:43:07+01:00",
-        "date_fr": "25/03/2026",
-        "pertinence": 1
-      },
-      {
-        "source": "Le Figaro Éco",
-        "couleur": "#92400e",
-        "emoji": "📊",
-        "tag": "Presse économique",
-        "titre": "«Si la cybercriminalité était un pays, elle serait la troisième économie mondiale», pointe une étude",
-        "resume": "Avec la révolution de l’IA, les cyberattaques deviennent de plus en plus sophistiquées et coûteuses, alerte le réassureur Munich Re dans une étude publiée ce mercredi.",
-        "lien": "https://www.lefigaro.fr/secteur/high-tech/si-la-cybercriminalite-etait-un-pays-elle-serait-la-troisieme-economie-mondiale-pointe-une-etude-20260325",
-        "date_iso": "2026-03-25T12:26:28+01:00",
+        "titre": "Les recettes de Pom’Potes et Babybel pour convaincre les consommateurs du monde entier",
+        "resume": "DÉCRYPTAGE - Le groupe familial Bel, qui détient aussi La Vache qui rit, a vu son activité augmenter l’an passé. Une performance dans un contexte où la consommation mondiale est morose.",
+        "lien": "https://www.lefigaro.fr/societes/les-recettes-de-pom-potes-et-babybel-pour-convaincre-les-consommateurs-du-monde-entier-20260325",
+        "date_iso": "2026-03-25T19:45:00+01:00",
         "date_fr": "25/03/2026",
         "pertinence": 0
       },
@@ -463,10 +476,10 @@
         "couleur": "#92400e",
         "emoji": "📊",
         "tag": "Presse économique",
-        "titre": "«Un nouveau choc pétrolier» : la crise provoquée par la guerre au Moyen-Orient est-elle comparable à celles de 1973 et 1979 ?",
-        "resume": "Le ministre de l’Économie Roland Lescure a évoqué mardi devant les députés «un nouveau choc pétrolier». La veille, le directeur de l’AIE avait averti que le monde pourrait connaître sa pire crise de l’énergie depuis des décennies, en raison notamment de la fermeture du détroit d’Ormuz.",
-        "lien": "https://www.lefigaro.fr/conjoncture/un-nouveau-choc-petrolier-la-crise-provoquee-par-la-guerre-au-moyen-orient-est-elle-comparable-a-celles-de-1973-et-1979-20260325",
-        "date_iso": "2026-03-25T12:00:32+01:00",
+        "titre": "Guerre au Moyen-Orient : l’État s’en met-il vraiment «plein les poches» grâce à la flambée des carburants ?",
+        "resume": "DÉCRYPTAGE - Pour le Rassemblement national, les finances publiques sont les grandes gagnantes de la hausse des prix à la pompe, du fait des taxes. Un raisonnement balayé par le gouvernement.",
+        "lien": "https://www.lefigaro.fr/conjoncture/guerre-au-moyen-orient-l-etat-s-en-met-il-vraiment-plein-les-poches-grace-a-la-flambee-des-carburants-20260325",
+        "date_iso": "2026-03-25T19:34:49+01:00",
         "date_fr": "25/03/2026",
         "pertinence": 0
       },
@@ -475,22 +488,22 @@
         "couleur": "#92400e",
         "emoji": "📊",
         "tag": "Presse économique",
-        "titre": "«L’inarrêtable » coût de la dette devrait atteindre 120 milliards d’euros d’ici 2030",
-        "resume": "Dans un contexte de remontée des taux, Rexecode tire la sonnette d’alarme sur la situation des finances publiques",
-        "lien": "https://www.lefigaro.fr/economie/l-inarretable-cout-de-la-dette-devrait-atteindre-120-milliards-d-euros-d-ici-2030-20260325",
-        "date_iso": "2026-03-25T12:00:00+01:00",
+        "titre": "Subir le réchauffement climatique coûte bien plus cher que limiter les émissions de gaz à effet de serre",
+        "resume": "DÉCRYPTAGE - Les émissions passées ont déjà entraîné de nombreuses pertes économiques sur la planète, et leur coût sera encore décuplé d’ici la fin du siècle, calculent des chercheurs dans Nature.",
+        "lien": "https://www.lefigaro.fr/sciences/subir-le-rechauffement-climatique-coute-bien-plus-cher-que-limiter-les-emissions-de-gaz-a-effet-de-serre-20260325",
+        "date_iso": "2026-03-25T18:45:00+01:00",
         "date_fr": "25/03/2026",
-        "pertinence": 1
+        "pertinence": 0
       },
       {
-        "source": "Le Monde Éco",
-        "couleur": "#374151",
-        "emoji": "🌐",
+        "source": "Libération Éco",
+        "couleur": "#dc2626",
+        "emoji": "📰",
         "tag": "Presse économique",
-        "titre": "La Bourse séduit un nombre record d’investisseurs particuliers en 2025",
-        "resume": "Selon l’Autorité des marchés financiers, près de 2,5 millions de Français ont réalisé une transaction sur les marchés boursiers, le plus haut niveau enregistré depuis 2020.",
-        "lien": "https://www.lemonde.fr/argent/article/2026/03/25/la-bourse-seduit-un-nombre-record-d-investisseurs-particuliers-en-2025_6674201_1657007.html",
-        "date_iso": "2026-03-25T11:42:54+01:00",
+        "titre": "Pourquoi la Banque de France a vendu son or stocké à New York",
+        "resume": "L’institution a réalisé grâce à cette opération une plus-value de 12,8 milliards d’euros. Cette somme a été immédiatement réinvestie en lingots pour reconstituer ses réserves. Et au passage remettre ses comptes dans le vert.",
+        "lien": "https://www.liberation.fr/economie/pourquoi-la-banque-de-france-a-vendu-son-or-stocke-a-new-york-20260325_6O6UDVEVTFEWPBERUIAWCQ26UA/",
+        "date_iso": "2026-03-25T18:41:52+00:00",
         "date_fr": "25/03/2026",
         "pertinence": 0
       },
@@ -499,34 +512,10 @@
         "couleur": "#374151",
         "emoji": "🌐",
         "tag": "Presse économique",
-        "titre": "Venezuela : les grandes compagnies pétrolières américaines toujours très réticentes à s’engager",
-        "resume": "Malgré les appels à investir lancés par l’opposition vénézuélienne et l’envolée des cours du brut liée à la guerre au Moyen-Orient, les compagnies pétrolières réunies au Texas peinent à dépasser leurs réserves face à un environnement encore jugé trop incertain.",
-        "lien": "https://www.lemonde.fr/economie/article/2026/03/25/a-houston-les-geants-du-petrole-affichent-leurs-doutes-et-ambitions-pour-l-or-noir-venezuelien_6674199_3234.html",
-        "date_iso": "2026-03-25T11:30:42+01:00",
-        "date_fr": "25/03/2026",
-        "pertinence": 0
-      },
-      {
-        "source": "Le Figaro Éco",
-        "couleur": "#92400e",
-        "emoji": "📊",
-        "tag": "Presse économique",
-        "titre": "Guerre au Moyen-Orient : le pétrole chute de 6% après les annonces de l’Iran sur le détroit d’Ormuz",
-        "resume": "La possible réouverture du détroit promise par Téhéran pour les navires «non hostiles» a également rassuré les investisseurs en Bourse.",
-        "lien": "https://www.lefigaro.fr/conjoncture/guerre-au-moyen-orient-le-petrole-chute-de-6-apres-les-annonces-de-l-iran-sur-le-detroit-d-ormuz-20260325",
-        "date_iso": "2026-03-25T11:17:25+01:00",
-        "date_fr": "25/03/2026",
-        "pertinence": 0
-      },
-      {
-        "source": "Euractiv FR",
-        "couleur": "#0369a1",
-        "emoji": "🇪🇺",
-        "tag": "Europe & politique",
-        "titre": "L’interdiction des importations de pétrole russe retirée de l’agenda à court terme de Bruxelles",
-        "resume": "La Commission européenne minimise l'absence de cette proposition très attendue du calendrier d'avril-mai The post L’interdiction des importations de pétrole russe retirée de l’agenda à court terme de Bruxelles appeared first on Euractiv FR .",
-        "lien": "https://euractiv.fr/news/linterdiction-des-importations-de-petrole-russe-retiree-de-lagenda-a-court-terme-de-bruxelles/",
-        "date_iso": "2026-03-25T11:05:46+00:00",
+        "titre": "Le marché du pétrole entre volatilité record et spéculation depuis le début de la guerre au Moyen-Orient",
+        "resume": "Les cours du brent ou du gazole s’affolent depuis le début de l’intervention militaire américano-israélienne. Les grandes maisons de négoce ou des majors guettent le moindre mouvement de navire pétrolier ou la moindre attaque de drone.",
+        "lien": "https://www.lemonde.fr/economie/article/2026/03/25/nous-profitons-du-chaos-de-la-guerre-au-moyen-orient-le-marche-du-petrole-entre-volatilite-record-far-west-et-speculation_6674258_3234.html",
+        "date_iso": "2026-03-25T18:35:33+01:00",
         "date_fr": "25/03/2026",
         "pertinence": 0
       },
@@ -535,36 +524,60 @@
         "couleur": "#374151",
         "emoji": "🌐",
         "tag": "Presse économique",
-        "titre": "« Permettre aux salariés de s’échanger leurs postes pour réduire le coût écologique des transports et gagner en qualité de vie »",
-        "resume": "Pour alléger les trajets domicile-travail, le sociologue Yoann Demoli a conçu une proposition originale : mettre en place un « mercato des postes » entre personnes volontaires, détaille Jean-Baptiste Fressoz, dans sa chronique.",
-        "lien": "https://www.lemonde.fr/idees/article/2026/03/25/permettre-aux-salaries-de-s-echanger-leurs-postes-pour-reduire-le-cout-ecologique-des-transports-et-gagner-en-qualite-de-vie_6674190_3232.html",
-        "date_iso": "2026-03-25T11:00:05+01:00",
+        "titre": "Viktor Orban menace de ne plus approvisionner l’Ukraine en gaz",
+        "resume": "Entre crise au Moyen-Orient et tensions avec Budapest, la Commission de Bruxelles repousse la présentation de son projet d’interdire les importations de pétrole russe en Europe.",
+        "lien": "https://www.lemonde.fr/economie/article/2026/03/25/viktor-orban-menace-de-ne-plus-approvisionner-l-ukraine-en-gaz_6674256_3234.html",
+        "date_iso": "2026-03-25T18:33:00+01:00",
         "date_fr": "25/03/2026",
         "pertinence": 1
       },
       {
-        "source": "Le Monde Emploi",
-        "couleur": "#1f2937",
-        "emoji": "💼",
-        "tag": "Emploi & travail",
-        "titre": "« Permettre aux salariés de s’échanger leurs postes pour réduire le coût écologique des transports et gagner en qualité de vie »",
-        "resume": "Pour alléger les trajets domicile-travail, le sociologue Yoann Demoli a conçu une proposition originale : mettre en place un « mercato des postes » entre personnes volontaires, détaille Jean-Baptiste Fressoz, dans sa chronique.",
-        "lien": "https://www.lemonde.fr/idees/article/2026/03/25/permettre-aux-salaries-de-s-echanger-leurs-postes-pour-reduire-le-cout-ecologique-des-transports-et-gagner-en-qualite-de-vie_6674190_3232.html",
-        "date_iso": "2026-03-25T11:00:05+01:00",
-        "date_fr": "25/03/2026",
-        "pertinence": 1
-      },
-      {
-        "source": "Euractiv FR",
-        "couleur": "#0369a1",
-        "emoji": "🇪🇺",
-        "tag": "Europe & politique",
-        "titre": "Les attaques de Trump sur les règles numériques de l’UE servent l’agenda MAGA",
-        "resume": "Selon le démocrate Jamie Raskin, le DSA est utilisé comme arme politique aux États-Unis The post Les attaques de Trump sur les règles numériques de l’UE servent l’agenda MAGA appeared first on Euractiv FR .",
-        "lien": "https://euractiv.fr/news/les-attaques-de-trump-sur-les-regles-numeriques-de-lue-servent-lagenda-maga/",
-        "date_iso": "2026-03-25T10:05:13+00:00",
+        "source": "Le Monde Éco",
+        "couleur": "#374151",
+        "emoji": "🌐",
+        "tag": "Presse économique",
+        "titre": "Le train de nuit reprend du service entre Paris et Berlin",
+        "resume": "La coopérative belgo-néerlandaise European Sleeper relance la liaison symbolique entre les capitales française et allemande, abandonnée en décembre 2025 par la SNCF.",
+        "lien": "https://www.lemonde.fr/economie/article/2026/03/25/le-train-de-nuit-reprend-du-service-entre-paris-et-berlin_6674255_3234.html",
+        "date_iso": "2026-03-25T18:30:07+01:00",
         "date_fr": "25/03/2026",
         "pertinence": 0
+      },
+      {
+        "source": "Le Figaro Éco",
+        "couleur": "#92400e",
+        "emoji": "📊",
+        "tag": "Presse économique",
+        "titre": "IA, logiciels, web... Comment Varsovie est devenu une nouvelle capitale de la tech européenne",
+        "resume": "DÉCRYPTAGE - Les start-up autour de l’intelligence artificielle se multiplient en Pologne, mais leur transformation en licorne se heurte à la rareté des capitaux.",
+        "lien": "https://www.lefigaro.fr/conjoncture/ia-logiciels-web-comment-varsovie-est-devenu-une-nouvelle-capitale-de-la-tech-europeenne-20260325",
+        "date_iso": "2026-03-25T18:30:00+01:00",
+        "date_fr": "25/03/2026",
+        "pertinence": 1
+      },
+      {
+        "source": "Le Figaro Éco",
+        "couleur": "#92400e",
+        "emoji": "📊",
+        "tag": "Presse économique",
+        "titre": "Les virements bancaires suspendus pendant le week-end de Pâques",
+        "resume": "Il ne sera pas possible d’effectuer de virement classique du vendredi 3 avril au lundi 6 avril inclus, soit pendant quatre jours.",
+        "lien": "https://www.lefigaro.fr/conjoncture/les-virements-bancaires-suspendus-pendant-le-week-end-de-paques-20260325",
+        "date_iso": "2026-03-25T17:58:04+01:00",
+        "date_fr": "25/03/2026",
+        "pertinence": 0
+      },
+      {
+        "source": "Le Monde Éco",
+        "couleur": "#374151",
+        "emoji": "🌐",
+        "tag": "Presse économique",
+        "titre": "« L’Equipe » vote une motion de défiance, la deuxième en quatre mois",
+        "resume": "Face à une transformation numérique contestée, les salariés de « L’Equipe » expriment massivement leur défiance envers la direction, révélant une fracture profonde au sein du média sportif.",
+        "lien": "https://www.lemonde.fr/economie/article/2026/03/25/l-equipe-vote-une-motion-de-defiance-la-deuxieme-en-quatre-mois_6674246_3234.html",
+        "date_iso": "2026-03-25T17:55:07+01:00",
+        "date_fr": "25/03/2026",
+        "pertinence": 2
       }
     ]
   },
@@ -823,7 +836,7 @@
     "ecart_hf_eqtp": 25.8,
     "difficultes_recrutement": 61,
     "irl_glissement": 0.79,
-    "prix_gazole": 2.229,
+    "prix_gazole": 2.232,
     "taux_effort_locataires": 29.6,
     "croissance_pib": 0.7,
     "climat_affaires": 97,
@@ -1859,23 +1872,23 @@
   },
   "carburants": {
     "gazole": {
-      "prix": 2.229,
-      "variation_an": 20.5,
-      "variation_sem": 41.1
+      "prix": 2.232,
+      "variation_an": 20.6,
+      "variation_sem": 41.3
     },
     "sp95": {
-      "prix": 2.027,
+      "prix": 2.028,
       "variation_an": 11.4,
-      "variation_sem": 17.8
+      "variation_sem": 17.9
     },
     "sp98": {
-      "prix": 2.083,
+      "prix": 2.082,
       "variation_an": 11.4,
-      "variation_sem": 17.8
+      "variation_sem": 17.9
     },
     "e10": {
-      "prix": 1.981,
-      "variation_an": 10.7,
+      "prix": 1.98,
+      "variation_an": 10.6,
       "variation_sem": 17.9
     },
     "evolution": [
@@ -2153,14 +2166,14 @@
         "e10": 1.68
       },
       {
-        "date": "2026-03-25",
-        "gazole": 2.229,
-        "sp95": 2.027,
-        "sp98": 2.083,
-        "e10": 1.981
+        "date": "2026-03-26",
+        "gazole": 2.232,
+        "sp95": 2.028,
+        "sp98": 2.082,
+        "e10": 1.98
       }
     ],
-    "derniere_donnee": "2026-03-25 14:54",
+    "derniere_donnee": "2026-03-26 06:57",
     "source": "data.economie.gouv.fr (flux instantané)",
     "granularite": "quotidien"
   },
@@ -2737,18 +2750,12 @@
       "note_lecture": "Le TEC-10 mesure le rendement des emprunts d'Etat francais a 10 ans. Un taux eleve rencherit le cout de la dette publique et impacte les taux de credit immobilier."
     },
     "petrole_brent": {
-      "valeur": 96.17,
-      "date": "2026-03-25",
+      "valeur": 99.24,
+      "date": "2026-03-26",
       "unite": "USD/baril",
       "source": "Yahoo Finance",
       "nb_points": 253,
       "historique": [
-        {
-          "date": "2025-03-25",
-          "valeur": 73.02,
-          "ma50": null,
-          "ma200": null
-        },
         {
           "date": "2025-03-26",
           "valeur": 73.79,
@@ -3040,7 +3047,7 @@
         {
           "date": "2025-06-04",
           "valeur": 64.86,
-          "ma50": 66.07,
+          "ma50": null,
           "ma200": null
         },
         {
@@ -3941,7 +3948,7 @@
           "date": "2026-01-07",
           "valeur": 59.96,
           "ma50": 62.68,
-          "ma200": 66.03
+          "ma200": null
         },
         {
           "date": "2026-01-08",
@@ -4257,16 +4264,22 @@
         },
         {
           "date": "2026-03-25",
-          "valeur": 96.17,
-          "ma50": 78.3,
-          "ma200": 69.04
+          "valeur": 102.22,
+          "ma50": 78.42,
+          "ma200": 69.07
+        },
+        {
+          "date": "2026-03-26",
+          "valeur": 99.24,
+          "ma50": 79.1,
+          "ma200": 69.23
         }
       ],
       "variations": {
-        "jour": -7.96,
-        "semaine": -10.44,
-        "mois": 34.52,
-        "ytd": 58.3
+        "jour": -2.92,
+        "semaine": -8.66,
+        "mois": 40.23,
+        "ytd": 63.36
       },
       "min_max": {
         "min": 58.92,
@@ -4277,12 +4290,12 @@
       "note_lecture": "Le prix du Brent influence directement les couts de transport et d'energie, donc l'inflation et le pouvoir d'achat des salaries."
     },
     "cac40": {
-      "valeur": 7849.09,
+      "valeur": 7846.55,
       "date": "2026-03-25",
-      "variation_jour_pct": 1.36,
+      "variation_jour_pct": 0.0,
       "unite": "points",
       "source": "Yahoo Finance",
-      "nb_points": 256,
+      "nb_points": 257,
       "historique": [
         {
           "date": "2025-03-25",
@@ -5816,16 +5829,22 @@
         },
         {
           "date": "2026-03-25",
-          "valeur": 7849.09,
-          "ma50": 8169.9,
-          "ma200": 7995.2
+          "valeur": 7846.55,
+          "ma50": 8169.85,
+          "ma200": 7995.19
+        },
+        {
+          "date": "2026-03-25",
+          "valeur": 7846.55,
+          "ma50": 8160.52,
+          "ma200": 7995.71
         }
       ],
       "variations": {
-        "jour": 1.36,
-        "semaine": -1.52,
-        "mois": -7.63,
-        "ytd": -4.22
+        "jour": 0.0,
+        "semaine": 0.5,
+        "mois": -7.9,
+        "ytd": -4.25
       },
       "min_max": {
         "min": 6863.02,
@@ -5837,17 +5856,11 @@
     },
     "eurusd": {
       "valeur": 1.16,
-      "date": "2026-03-25",
+      "date": "2026-03-26",
       "unite": "EUR/USD",
       "source": "Yahoo Finance",
       "nb_points": 258,
       "historique": [
-        {
-          "date": "2025-03-25",
-          "valeur": 1.08,
-          "ma50": null,
-          "ma200": null
-        },
         {
           "date": "2025-03-26",
           "valeur": 1.08,
@@ -6139,7 +6152,7 @@
         {
           "date": "2025-06-03",
           "valeur": 1.14,
-          "ma50": 1.12,
+          "ma50": null,
           "ma200": null
         },
         {
@@ -7040,7 +7053,7 @@
           "date": "2026-01-02",
           "valeur": 1.18,
           "ma50": 1.16,
-          "ma200": 1.15
+          "ma200": null
         },
         {
           "date": "2026-01-05",
@@ -7389,6 +7402,12 @@
           "valeur": 1.16,
           "ma50": 1.17,
           "ma200": 1.17
+        },
+        {
+          "date": "2026-03-26",
+          "valeur": 1.16,
+          "ma50": 1.17,
+          "ma200": 1.17
         }
       ],
       "variations": {
@@ -7406,18 +7425,12 @@
       "note_lecture": "Le taux de change euro-dollar determine le prix de tout ce qui est importe en dollars : petrole, matieres premieres, electronique. Un euro faible rencherit les importations et alimente l'inflation."
     },
     "or": {
-      "valeur": 4572.8,
-      "date": "2026-03-25",
+      "valeur": 4430.7,
+      "date": "2026-03-26",
       "unite": "USD/oz",
       "source": "Yahoo Finance",
       "nb_points": 253,
       "historique": [
-        {
-          "date": "2025-03-25",
-          "valeur": 3023.7,
-          "ma50": null,
-          "ma200": null
-        },
         {
           "date": "2025-03-26",
           "valeur": 3020.9,
@@ -7709,7 +7722,7 @@
         {
           "date": "2025-06-04",
           "valeur": 3373.5,
-          "ma50": 3234.76,
+          "ma50": null,
           "ma200": null
         },
         {
@@ -8610,7 +8623,7 @@
           "date": "2026-01-07",
           "valeur": 4449.3,
           "ma50": 4200.43,
-          "ma200": 3633.94
+          "ma200": null
         },
         {
           "date": "2026-01-08",
@@ -8926,16 +8939,22 @@
         },
         {
           "date": "2026-03-25",
-          "valeur": 4572.8,
-          "ma50": 4948.45,
-          "ma200": 4080.05
+          "valeur": 4549.8,
+          "ma50": 4947.99,
+          "ma200": 4079.94
+        },
+        {
+          "date": "2026-03-26",
+          "valeur": 4430.7,
+          "ma50": 4944.82,
+          "ma200": 4085.48
         }
       ],
       "variations": {
-        "jour": 3.94,
-        "semaine": -6.48,
-        "mois": -12.14,
-        "ytd": 5.99
+        "jour": -2.62,
+        "semaine": -3.7,
+        "mois": -14.06,
+        "ytd": 2.7
       },
       "min_max": {
         "min": 2951.3,
@@ -8946,18 +8965,12 @@
       "note_lecture": "L'or est la valeur refuge par excellence. Sa hausse traduit une montee de l'incertitude economique ou geopolitique. Il sert aussi de protection contre l'inflation."
     },
     "gaz_naturel": {
-      "valeur": 52.45,
+      "valeur": 52.82,
       "date": "2026-03-25",
       "unite": "EUR/MWh",
       "source": "Yahoo Finance (TTF)",
-      "nb_points": 253,
+      "nb_points": 252,
       "historique": [
-        {
-          "date": "2025-03-25",
-          "valeur": 41.56,
-          "ma50": null,
-          "ma200": null
-        },
         {
           "date": "2025-03-26",
           "valeur": 40.87,
@@ -9249,7 +9262,7 @@
         {
           "date": "2025-06-04",
           "valeur": 35.65,
-          "ma50": 35.79,
+          "ma50": null,
           "ma200": null
         },
         {
@@ -10150,7 +10163,7 @@
           "date": "2026-01-07",
           "valeur": 28.78,
           "ma50": 29.29,
-          "ma200": 32.99
+          "ma200": null
         },
         {
           "date": "2026-01-08",
@@ -10466,16 +10479,16 @@
         },
         {
           "date": "2026-03-25",
-          "valeur": 52.45,
-          "ma50": 40.96,
+          "valeur": 52.82,
+          "ma50": 40.97,
           "ma200": 34.18
         }
       ],
       "variations": {
-        "jour": -2.94,
-        "semaine": -4.04,
-        "mois": 64.78,
-        "ytd": 80.86
+        "jour": -2.26,
+        "semaine": -3.37,
+        "mois": 65.94,
+        "ytd": 82.14
       },
       "min_max": {
         "min": 26.6,
@@ -10486,18 +10499,12 @@
       "note_lecture": "Le prix du gaz naturel (TTF europeen) impacte directement les factures de chauffage et d'electricite des menages, ainsi que les couts de production industrielle."
     },
     "ble": {
-      "valeur": 590.75,
-      "date": "2026-03-25",
+      "valeur": 600.5,
+      "date": "2026-03-26",
       "unite": "cents/boisseau",
       "source": "Yahoo Finance",
       "nb_points": 252,
       "historique": [
-        {
-          "date": "2025-03-25",
-          "valeur": 543.25,
-          "ma50": null,
-          "ma200": null
-        },
         {
           "date": "2025-03-26",
           "valeur": 535.25,
@@ -10789,7 +10796,7 @@
         {
           "date": "2025-06-04",
           "valeur": 543.25,
-          "ma50": 530.99,
+          "ma50": null,
           "ma200": null
         },
         {
@@ -11690,7 +11697,7 @@
           "date": "2026-01-08",
           "valeur": 518.0,
           "ma50": 527.47,
-          "ma200": 525.53
+          "ma200": null
         },
         {
           "date": "2026-01-09",
@@ -12000,16 +12007,22 @@
         },
         {
           "date": "2026-03-25",
-          "valeur": 590.75,
-          "ma50": 557.11,
-          "ma200": 531.7
+          "valeur": 597.75,
+          "ma50": 557.25,
+          "ma200": 531.74
+        },
+        {
+          "date": "2026-03-26",
+          "valeur": 600.5,
+          "ma50": 559.05,
+          "ma200": 532.03
         }
       ],
       "variations": {
-        "jour": 0.13,
-        "semaine": -2.23,
-        "mois": 3.73,
-        "ytd": 16.63
+        "jour": 0.46,
+        "semaine": -1.23,
+        "mois": 5.81,
+        "ytd": 18.56
       },
       "min_max": {
         "min": 495.0,
@@ -12020,18 +12033,12 @@
       "note_lecture": "Le cours du ble est un indicateur avance des prix alimentaires. La France etant le premier producteur europeen, son evolution impacte a la fois les consommateurs et le secteur agricole."
     },
     "lme_cuivre": {
-      "valeur": 5.58,
-      "date": "2026-03-25",
+      "valeur": 5.46,
+      "date": "2026-03-26",
       "unite": "cts/lb",
       "source": "Yahoo Finance",
       "nb_points": 253,
       "historique": [
-        {
-          "date": "2025-03-25",
-          "valeur": 5.18,
-          "ma50": null,
-          "ma200": null
-        },
         {
           "date": "2025-03-26",
           "valeur": 5.22,
@@ -12323,7 +12330,7 @@
         {
           "date": "2025-06-04",
           "valeur": 4.86,
-          "ma50": 4.7,
+          "ma50": null,
           "ma200": null
         },
         {
@@ -13224,7 +13231,7 @@
           "date": "2026-01-07",
           "valeur": 5.81,
           "ma50": 5.26,
-          "ma200": 4.93
+          "ma200": null
         },
         {
           "date": "2026-01-08",
@@ -13540,16 +13547,22 @@
         },
         {
           "date": "2026-03-25",
-          "valeur": 5.58,
+          "valeur": 5.53,
           "ma50": 5.81,
+          "ma200": 5.22
+        },
+        {
+          "date": "2026-03-26",
+          "valeur": 5.46,
+          "ma50": 5.8,
           "ma200": 5.22
         }
       ],
       "variations": {
-        "jour": 2.95,
-        "semaine": 0.54,
-        "mois": -3.29,
-        "ytd": -1.06
+        "jour": -1.27,
+        "semaine": 0.55,
+        "mois": -7.77,
+        "ytd": -3.19
       },
       "min_max": {
         "min": 4.13,
@@ -13560,18 +13573,12 @@
       "note_lecture": "Le cuivre est le baromètre de l'activité industrielle mondiale ('Dr Copper'). Sa hausse signale une reprise économique, sa baisse anticipe un ralentissement. Utilisé massivement dans l'électrification et les énergies renouvelables."
     },
     "lme_aluminium": {
-      "valeur": 3140.25,
-      "date": "2026-03-25",
+      "valeur": 3118.75,
+      "date": "2026-03-26",
       "unite": "cts/lb",
       "source": "Yahoo Finance",
       "nb_points": 252,
       "historique": [
-        {
-          "date": "2025-03-25",
-          "valeur": 2526.75,
-          "ma50": null,
-          "ma200": null
-        },
         {
           "date": "2025-03-26",
           "valeur": 2533.5,
@@ -13863,7 +13870,7 @@
         {
           "date": "2025-06-04",
           "valeur": 2390.75,
-          "ma50": 2345.41,
+          "ma50": null,
           "ma200": null
         },
         {
@@ -14764,7 +14771,7 @@
           "date": "2026-01-08",
           "valeur": 3001.25,
           "ma50": 2828.05,
-          "ma200": 2560.79
+          "ma200": null
         },
         {
           "date": "2026-01-09",
@@ -15074,16 +15081,22 @@
         },
         {
           "date": "2026-03-25",
-          "valeur": 3140.25,
-          "ma50": 3112.61,
-          "ma200": 2759.36
+          "valeur": 3135.0,
+          "ma50": 3112.51,
+          "ma200": 2759.34
+        },
+        {
+          "date": "2026-03-26",
+          "valeur": 3118.75,
+          "ma50": 3112.83,
+          "ma200": 2762.96
         }
       ],
       "variations": {
-        "jour": 0.07,
-        "semaine": -4.33,
-        "mois": 4.16,
-        "ytd": 6.88
+        "jour": -0.52,
+        "semaine": -0.03,
+        "mois": 3.24,
+        "ytd": 6.15
       },
       "min_max": {
         "min": 2166.25,
@@ -15095,17 +15108,11 @@
     },
     "lme_zinc": {
       "valeur": 2297.0,
-      "date": "2026-03-24",
+      "date": "2026-03-25",
       "unite": "$/t",
       "source": "Yahoo Finance",
       "nb_points": 251,
       "historique": [
-        {
-          "date": "2025-03-25",
-          "valeur": 2297.0,
-          "ma50": null,
-          "ma200": null
-        },
         {
           "date": "2025-03-26",
           "valeur": 2297.0,
@@ -15397,7 +15404,7 @@
         {
           "date": "2025-06-04",
           "valeur": 2297.0,
-          "ma50": 2297.0,
+          "ma50": null,
           "ma200": null
         },
         {
@@ -16298,7 +16305,7 @@
           "date": "2026-01-08",
           "valeur": 2297.0,
           "ma50": 2297.0,
-          "ma200": 2297.0
+          "ma200": null
         },
         {
           "date": "2026-01-09",
@@ -16605,6 +16612,12 @@
           "valeur": 2297.0,
           "ma50": 2297.0,
           "ma200": 2297.0
+        },
+        {
+          "date": "2026-03-25",
+          "valeur": 2297.0,
+          "ma50": 2297.0,
+          "ma200": 2297.0
         }
       ],
       "variations": {
@@ -16615,9 +16628,9 @@
       },
       "min_max": {
         "min": 2297.0,
-        "min_date": "2025-03-25",
+        "min_date": "2025-03-26",
         "max": 2297.0,
-        "max_date": "2025-03-25"
+        "max_date": "2025-03-26"
       },
       "note_lecture": "Le zinc est principalement utilisé pour la galvanisation de l'acier (anticorrosion). Son prix reflète la demande de l'industrie de la construction et de l'automobile."
     },
@@ -16944,12 +16957,12 @@
     },
     "correlations": {
       "oat_inflation": 0.022,
-      "brent_inflation": 0.168,
+      "brent_inflation": 0.166,
       "cac_inflation": 0.041,
       "eurusd_inflation": 0.226,
       "or_inflation": -0.14,
-      "gaz_inflation": -0.281,
-      "ble_inflation": -0.165,
+      "gaz_inflation": -0.284,
+      "ble_inflation": -0.167,
       "inflation_data": [
         {
           "date": "2025-01",
@@ -17502,7 +17515,7 @@
           "2023": 1.92,
           "2024": 1.78,
           "2025": 1.72,
-          "2026": 2.027
+          "2026": 2.028
         },
         "quantiteMensuelle": {
           "solo": 40,
@@ -21282,7 +21295,7 @@
       }
     ],
     "meta": {
-      "derniere_mise_a_jour": "2026-03-25",
+      "derniere_mise_a_jour": "2026-03-26",
       "prochaine_verification": "Juillet 2026",
       "source_effectifs": "DGT/DARES via API data.travail.gouv.fr + base statique",
       "methodologie": "50 branches classées par effectif. Grilles vérifiées au 01/01/2026. Effectifs et conformité mis à jour automatiquement via API."
@@ -22119,7 +22132,7 @@
     "sources": "INSEE - Enquête Emploi, DARES"
   },
   "previsions_cftc": {
-    "generated_at": "2026-03-25T15:02:32.905735",
+    "generated_at": "2026-03-26T06:18:51.708472",
     "model_version": "CFTC v4.0 (Monte Carlo)",
     "n_simulations": 1000,
     "horizon": "12 mois",
@@ -22140,7 +22153,7 @@
           1.4,
           1.4,
           1.4,
-          1.5,
+          1.4,
           1.4,
           1.4
         ],
@@ -22175,14 +22188,14 @@
         "p25": [
           0.9,
           0.9,
-          0.9,
           1.0,
           1.1,
-          1.3,
+          1.1,
           1.2,
           1.2,
           1.2,
-          1.3,
+          1.2,
+          1.2,
           1.3,
           1.2
         ],
@@ -22217,10 +22230,10 @@
         "methodology": "Monte Carlo (1000 simulations) + saisonnalité + mean reversion"
       },
       "probabilites": {
-        "inflation_sous_2pct": 96.9,
-        "inflation_cible_bce": 96.9,
+        "inflation_sous_2pct": 96.0,
+        "inflation_cible_bce": 96.0,
         "inflation_au_dessus_3pct": 0.0,
-        "description": "96.9% de chances que l'inflation reste sous 2% à 12 mois"
+        "description": "96.0% de chances que l'inflation reste sous 2% à 12 mois"
       },
       "facteurs": {
         "cible_bdf": 1.4,
@@ -22228,7 +22241,7 @@
         "ajustement_energie": 0.0,
         "cible_ajustee": 1.37
       },
-      "insight": "Inflation médiane à 12 mois : 1.4% [IC 80% : 1.1% - 1.8%]. 96.9% de probabilité de rester sous 2%."
+      "insight": "Inflation médiane à 12 mois : 1.4% [IC 80% : 1.1% - 1.8%]. 96.0% de probabilité de rester sous 2%."
     },
     "smic": {
       "current": {
@@ -22280,7 +22293,7 @@
           7.5,
           7.5,
           7.5,
-          7.5
+          7.4
         ],
         "upper_bound": [
           7.8,
@@ -22292,7 +22305,7 @@
           7.6,
           7.6,
           7.6,
-          7.6
+          7.5
         ],
         "p75": [
           7.8,
@@ -22318,12 +22331,12 @@
         "ajustement_recrutement": -0.11,
         "cible_ajustee": 7.65
       },
-      "insight": "Chômage médian à Q4 : 7.7% [IC 80% : 7.5% - 7.9%]."
+      "insight": "Chômage médian à Q4 : 7.7% [IC 80% : 7.4% - 7.9%]."
     },
     "scenarios": {
       "optimiste": {
         "inflation_12m": 1.2,
-        "chomage_q4": 7.6,
+        "chomage_q4": 7.5,
         "smic_increase": "+1.8%",
         "pib": "+1.5%",
         "hypotheses": "Scénario favorable (percentile 25)"
@@ -22421,9 +22434,9 @@
       }
     },
     "notes_lecture": [
-      "📈 Inflation médiane à 12 mois : 1.4% [1.1% - 1.8%] — 96.9% de chances de rester sous 2%",
+      "📈 Inflation médiane à 12 mois : 1.4% [1.1% - 1.8%] — 96.0% de chances de rester sous 2%",
       "💰 SMIC janvier 2027 : 1850€ brut (+1.5%, fourchette 1.2-2.0%) — Certain",
-      "👥 Chômage Q4 : 7.7% [7.5% - 7.9%] — Tendance stable",
+      "👥 Chômage Q4 : 7.7% [7.4% - 7.9%] — Tendance stable",
       "🎲 Scénario à surveiller : 🚀 Reprise économique forte (25% de probabilité)",
       "💡 Recommandation NAO : demander au minimum +1.9% pour préserver le pouvoir d'achat"
     ],
