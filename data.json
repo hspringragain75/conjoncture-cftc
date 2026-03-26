@@ -1,6 +1,6 @@
 {
-  "last_updated": "26/03/2026 14:26",
-  "last_updated_iso": "2026-03-26T14:26:03.264293",
+  "last_updated": "26/03/2026 14:58",
+  "last_updated_iso": "2026-03-26T14:58:15.705075",
   "contact": "hspringragain@cftc.fr",
   "alertes": [
     {
@@ -32,7 +32,7 @@
       "date": "2026-03-26",
       "type": "info",
       "titre": "🔄 Données actualisées",
-      "message": "Le tableau de bord a été mis à jour le 26/03/2026 à 14:25.",
+      "message": "Le tableau de bord a été mis à jour le 26/03/2026 à 14:58.",
       "onglet": "conjoncture"
     }
   ],
@@ -193,7 +193,7 @@
     }
   ],
   "revue_presse": {
-    "derniere_maj": "26/03/2026 14:26",
+    "derniere_maj": "26/03/2026 14:58",
     "nb_sources": 7,
     "sources_noms": [
       "Le Monde Éco",
@@ -231,6 +231,18 @@
       }
     ],
     "tous": [
+      {
+        "source": "Euractiv FR",
+        "couleur": "#0369a1",
+        "emoji": "🇪🇺",
+        "tag": "Europe & politique",
+        "titre": "Le Parlement donne son feu vert à une directive européenne « historique » contre la corruption",
+        "resume": "Mais la directive laisse aux États membres une grande marge d'appréciation quant à sa mise en œuvre The post Le Parlement donne son feu vert à une directive européenne « historique » contre la corruption appeared first on Euractiv FR .",
+        "lien": "https://euractiv.fr/news/le-parlement-donne-son-feu-vert-a-une-directive-europeenne-historique-contre-la-corruption/",
+        "date_iso": "2026-03-26T14:48:28+00:00",
+        "date_fr": "26/03/2026",
+        "pertinence": 0
+      },
       {
         "source": "Le Monde Éco",
         "couleur": "#374151",
@@ -576,18 +588,6 @@
         "resume": "EXCLUSIF - Comme chaque année, la «Marque Préférée des Français» dévoile les résultats de sa grande enquête menée auprès de 4900 consommateurs questionnés sur leur attachement à 1300 marques triées sur le volet.",
         "lien": "https://www.lefigaro.fr/conso/la-laitiere-st-michel-samsung-panzani-quelles-sont-les-marques-preferees-des-francais-en-2026-20260326",
         "date_iso": "2026-03-26T09:19:25+01:00",
-        "date_fr": "26/03/2026",
-        "pertinence": 0
-      },
-      {
-        "source": "Le Figaro Éco",
-        "couleur": "#92400e",
-        "emoji": "📊",
-        "tag": "Presse économique",
-        "titre": "Guerre au Moyen-Orient : l’État s’en met-il vraiment «plein les poches» grâce à la flambée des carburants ?",
-        "resume": "DÉCRYPTAGE - Pour le Rassemblement national, les finances publiques sont les grandes gagnantes de la hausse des prix à la pompe, du fait des taxes. Un raisonnement balayé par le gouvernement.",
-        "lien": "https://www.lefigaro.fr/conjoncture/guerre-au-moyen-orient-l-etat-s-en-met-il-vraiment-plein-les-poches-grace-a-la-flambee-des-carburants-20260325",
-        "date_iso": "2026-03-26T09:18:10+01:00",
         "date_fr": "26/03/2026",
         "pertinence": 0
       }
@@ -2049,14 +2049,14 @@
       "variation_sem": 41.3
     },
     "sp95": {
-      "prix": 2.028,
+      "prix": 2.027,
       "variation_an": 11.4,
-      "variation_sem": 17.9
+      "variation_sem": 17.8
     },
     "sp98": {
       "prix": 2.08,
       "variation_an": 11.4,
-      "variation_sem": 17.9
+      "variation_sem": 17.8
     },
     "e10": {
       "prix": 1.974,
@@ -2340,12 +2340,12 @@
       {
         "date": "2026-03-26",
         "gazole": 2.233,
-        "sp95": 2.028,
+        "sp95": 2.027,
         "sp98": 2.08,
         "e10": 1.974
       }
     ],
-    "derniere_donnee": "2026-03-26 13:55",
+    "derniere_donnee": "2026-03-26 14:46",
     "source": "data.economie.gouv.fr (flux instantané)",
     "granularite": "quotidien"
   },
@@ -2922,7 +2922,7 @@
       "note_lecture": "Le TEC-10 mesure le rendement des emprunts d'Etat francais a 10 ans. Un taux eleve rencherit le cout de la dette publique et impacte les taux de credit immobilier."
     },
     "petrole_brent": {
-      "valeur": 101.05,
+      "valeur": 101.1,
       "date": "2026-03-26",
       "unite": "USD/baril",
       "source": "Yahoo Finance",
@@ -4442,16 +4442,16 @@
         },
         {
           "date": "2026-03-26",
-          "valeur": 101.05,
-          "ma50": 79.13,
+          "valeur": 101.1,
+          "ma50": 79.14,
           "ma200": 69.24
         }
       ],
       "variations": {
-        "jour": -1.14,
-        "semaine": -6.99,
-        "mois": 42.79,
-        "ytd": 66.34
+        "jour": -1.1,
+        "semaine": -6.95,
+        "mois": 42.86,
+        "ytd": 66.42
       },
       "min_max": {
         "min": 58.92,
@@ -4462,9 +4462,9 @@
       "note_lecture": "Le prix du Brent influence directement les couts de transport et d'energie, donc l'inflation et le pouvoir d'achat des salaries."
     },
     "cac40": {
-      "valeur": 7814.43,
+      "valeur": 7823.82,
       "date": "2026-03-26",
-      "variation_jour_pct": -0.41,
+      "variation_jour_pct": -0.29,
       "unite": "points",
       "source": "Yahoo Finance",
       "nb_points": 256,
@@ -6001,16 +6001,16 @@
         },
         {
           "date": "2026-03-26",
-          "valeur": 7814.43,
-          "ma50": 8159.87,
-          "ma200": 7995.55
+          "valeur": 7823.82,
+          "ma50": 8160.06,
+          "ma200": 7995.6
         }
       ],
       "variations": {
-        "jour": -0.41,
-        "semaine": 0.08,
-        "mois": -8.27,
-        "ytd": -4.65
+        "jour": -0.29,
+        "semaine": 0.2,
+        "mois": -8.16,
+        "ytd": -4.53
       },
       "min_max": {
         "min": 6863.02,
@@ -7591,7 +7591,7 @@
       "note_lecture": "Le taux de change euro-dollar determine le prix de tout ce qui est importe en dollars : petrole, matieres premieres, electronique. Un euro faible rencherit les importations et alimente l'inflation."
     },
     "or": {
-      "valeur": 4452.5,
+      "valeur": 4461.8,
       "date": "2026-03-26",
       "unite": "USD/oz",
       "source": "Yahoo Finance",
@@ -9111,16 +9111,16 @@
         },
         {
           "date": "2026-03-26",
-          "valeur": 4452.5,
-          "ma50": 4945.25,
-          "ma200": 4085.59
+          "valeur": 4461.8,
+          "ma50": 4945.44,
+          "ma200": 4085.64
         }
       ],
       "variations": {
-        "jour": -2.14,
-        "semaine": -3.22,
-        "mois": -13.64,
-        "ytd": 3.2
+        "jour": -1.93,
+        "semaine": -3.02,
+        "mois": -13.46,
+        "ytd": 3.42
       },
       "min_max": {
         "min": 2951.3,
@@ -9131,7 +9131,7 @@
       "note_lecture": "L'or est la valeur refuge par excellence. Sa hausse traduit une montee de l'incertitude economique ou geopolitique. Il sert aussi de protection contre l'inflation."
     },
     "gaz_naturel": {
-      "valeur": 55.03,
+      "valeur": 55.29,
       "date": "2026-03-26",
       "unite": "EUR/MWh",
       "source": "Yahoo Finance (TTF)",
@@ -10651,16 +10651,16 @@
         },
         {
           "date": "2026-03-26",
-          "valeur": 55.03,
-          "ma50": 41.44,
+          "valeur": 55.29,
+          "ma50": 41.45,
           "ma200": 34.28
         }
       ],
       "variations": {
-        "jour": 4.18,
-        "semaine": -11.03,
-        "mois": 78.15,
-        "ytd": 89.76
+        "jour": 4.68,
+        "semaine": -10.61,
+        "mois": 78.99,
+        "ytd": 90.66
       },
       "min_max": {
         "min": 26.6,
@@ -10671,7 +10671,7 @@
       "note_lecture": "Le prix du gaz naturel (TTF europeen) impacte directement les factures de chauffage et d'electricite des menages, ainsi que les couts de production industrielle."
     },
     "ble": {
-      "valeur": 598.0,
+      "valeur": 598.25,
       "date": "2026-03-26",
       "unite": "cents/boisseau",
       "source": "Yahoo Finance",
@@ -12185,16 +12185,16 @@
         },
         {
           "date": "2026-03-26",
-          "valeur": 598.0,
+          "valeur": 598.25,
           "ma50": 559.0,
-          "ma200": 532.01
+          "ma200": 532.02
         }
       ],
       "variations": {
-        "jour": 0.04,
-        "semaine": -1.64,
-        "mois": 5.37,
-        "ytd": 18.07
+        "jour": 0.08,
+        "semaine": -1.6,
+        "mois": 5.42,
+        "ytd": 18.11
       },
       "min_max": {
         "min": 495.0,
@@ -12205,7 +12205,7 @@
       "note_lecture": "Le cours du ble est un indicateur avance des prix alimentaires. La France etant le premier producteur europeen, son evolution impacte a la fois les consommateurs et le secteur agricole."
     },
     "lme_cuivre": {
-      "valeur": 5.53,
+      "valeur": 5.52,
       "date": "2026-03-26",
       "unite": "cts/lb",
       "source": "Yahoo Finance",
@@ -13725,16 +13725,16 @@
         },
         {
           "date": "2026-03-26",
-          "valeur": 5.53,
+          "valeur": 5.52,
           "ma50": 5.8,
           "ma200": 5.22
         }
       ],
       "variations": {
-        "jour": 0.0,
-        "semaine": 1.84,
-        "mois": -6.59,
-        "ytd": -1.95
+        "jour": -0.18,
+        "semaine": 1.66,
+        "mois": -6.76,
+        "ytd": -2.13
       },
       "min_max": {
         "min": 4.13,
@@ -13745,7 +13745,7 @@
       "note_lecture": "Le cuivre est le baromètre de l'activité industrielle mondiale ('Dr Copper'). Sa hausse signale une reprise économique, sa baisse anticipe un ralentissement. Utilisé massivement dans l'électrification et les énergies renouvelables."
     },
     "lme_aluminium": {
-      "valeur": 3186.0,
+      "valeur": 3190.25,
       "date": "2026-03-26",
       "unite": "cts/lb",
       "source": "Yahoo Finance",
@@ -15259,16 +15259,16 @@
         },
         {
           "date": "2026-03-26",
-          "valeur": 3186.0,
-          "ma50": 3114.18,
-          "ma200": 2763.29
+          "valeur": 3190.25,
+          "ma50": 3114.26,
+          "ma200": 2763.32
         }
       ],
       "variations": {
-        "jour": 1.63,
-        "semaine": 2.12,
-        "mois": 5.47,
-        "ytd": 8.44
+        "jour": 1.76,
+        "semaine": 2.26,
+        "mois": 5.61,
+        "ytd": 8.59
       },
       "min_max": {
         "min": 2166.25,
@@ -17687,7 +17687,7 @@
           "2023": 1.92,
           "2024": 1.78,
           "2025": 1.72,
-          "2026": 2.028
+          "2026": 2.027
         },
         "quantiteMensuelle": {
           "solo": 40,
@@ -22304,7 +22304,7 @@
     "sources": "INSEE - Enquête Emploi, DARES"
   },
   "previsions_cftc": {
-    "generated_at": "2026-03-26T14:26:03.424792",
+    "generated_at": "2026-03-26T14:58:16.039732",
     "model_version": "CFTC v6.0 (Monte Carlo + calibrage dynamique + backtesting)",
     "n_simulations": 1000,
     "horizon": "12 mois",
@@ -22313,7 +22313,7 @@
       "niveau": "excellent",
       "issues": [],
       "warnings": [],
-      "timestamp": "2026-03-26T14:26:03.424808"
+      "timestamp": "2026-03-26T14:58:16.039758"
     },
     "calibrage": {
       "volatilites": {
@@ -22338,21 +22338,21 @@
       "mean_reversion_k": 0.3
     },
     "market_signals": {
-      "inflation_adjustment": 0.173,
+      "inflation_adjustment": 0.175,
       "chomage_adjustment": 0.175,
       "energie_outlook": "hausse"
     },
     "market_signals_details": {
       "brent": {
-        "valeur": 101.05,
+        "valeur": 101.1,
         "ref": 75.0,
-        "variation_ytd_pct": 66.34,
-        "impact_inflation_pt": 0.26
+        "variation_ytd_pct": 66.42,
+        "impact_inflation_pt": 0.261
       },
       "gaz_ttf": {
-        "valeur": 55.03,
+        "valeur": 55.29,
         "ref": 35.0,
-        "impact_inflation_pt": 0.1
+        "impact_inflation_pt": 0.101
       },
       "eurusd": {
         "valeur": 1.16,
@@ -22370,7 +22370,7 @@
         "signal": "baissier"
       },
       "cac40_ytd": {
-        "variation_ytd_pct": -4.65,
+        "variation_ytd_pct": -4.53,
         "signal_chomage": "neutre"
       },
       "carburants_sp95": {
@@ -22500,9 +22500,9 @@
       "facteurs": {
         "cible_bdf": 1.4,
         "ajustement_climat": -0.03,
-        "ajustement_marches": 0.173,
+        "ajustement_marches": 0.175,
         "energie_outlook": "hausse",
-        "cible_ajustee": 1.543,
+        "cible_ajustee": 1.545,
         "volatilite_utilisee": 0.5
       },
       "insight": "Inflation médiane à 12 mois : 1.6% [IC 80% : 1.2% - 2.0%]. 92.3% de probabilité de rester sous 2%."
