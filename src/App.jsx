@@ -1499,10 +1499,12 @@ export default function App() {
               : 'bg-gradient-to-r from-blue-600 to-blue-700'
           }`}>
             <div className="flex items-center gap-3">
-              <div className={`w-10 h-10 sm:w-12 sm:h-12 rounded-xl flex items-center justify-center text-lg sm:text-xl shadow-lg ${
-                darkMode ? 'bg-white/10' : 'bg-white/20'
-              }`}>
-                📊
+              <div className="w-10 h-10 sm:w-12 sm:h-12 flex items-center justify-center">
+                <img 
+                  src="/CFTC-Logo-Blanc_4x-100.jpg" 
+                  alt="Logo CFTC" 
+                  className="w-full h-full object-contain"
+                />
               </div>
               <div>
                 <h1 className="text-base sm:text-lg font-bold text-white">
