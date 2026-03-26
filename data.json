@@ -1,6 +1,6 @@
 {
-  "last_updated": "26/03/2026 13:21",
-  "last_updated_iso": "2026-03-26T13:21:08.368212",
+  "last_updated": "26/03/2026 13:24",
+  "last_updated_iso": "2026-03-26T13:24:29.709565",
   "contact": "hspringragain@cftc.fr",
   "alertes": [
     {
@@ -32,7 +32,7 @@
       "date": "2026-03-26",
       "type": "info",
       "titre": "🔄 Données actualisées",
-      "message": "Le tableau de bord a été mis à jour le 26/03/2026 à 13:21.",
+      "message": "Le tableau de bord a été mis à jour le 26/03/2026 à 13:24.",
       "onglet": "conjoncture"
     }
   ],
@@ -193,7 +193,7 @@
     }
   ],
   "revue_presse": {
-    "derniere_maj": "26/03/2026 13:21",
+    "derniere_maj": "26/03/2026 13:24",
     "nb_sources": 7,
     "sources_noms": [
       "Le Monde Éco",
@@ -848,7 +848,7 @@
     "ecart_hf_eqtp": 25.8,
     "difficultes_recrutement": 61,
     "irl_glissement": 0.79,
-    "prix_gazole": 2.232,
+    "prix_gazole": 2.233,
     "taux_effort_locataires": 29.6,
     "croissance_pib": 0.7,
     "climat_affaires": 97,
@@ -2044,24 +2044,24 @@
   },
   "carburants": {
     "gazole": {
-      "prix": 2.232,
-      "variation_an": 20.6,
+      "prix": 2.233,
+      "variation_an": 20.7,
       "variation_sem": 41.3
     },
     "sp95": {
-      "prix": 2.027,
+      "prix": 2.028,
       "variation_an": 11.4,
-      "variation_sem": 17.8
+      "variation_sem": 17.9
     },
     "sp98": {
       "prix": 2.08,
       "variation_an": 11.4,
-      "variation_sem": 17.8
+      "variation_sem": 17.9
     },
     "e10": {
-      "prix": 1.975,
+      "prix": 1.974,
       "variation_an": 10.3,
-      "variation_sem": 17.6
+      "variation_sem": 17.5
     },
     "evolution": [
       {
@@ -2339,13 +2339,13 @@
       },
       {
         "date": "2026-03-26",
-        "gazole": 2.232,
-        "sp95": 2.027,
+        "gazole": 2.233,
+        "sp95": 2.028,
         "sp98": 2.08,
-        "e10": 1.975
+        "e10": 1.974
       }
     ],
-    "derniere_donnee": "2026-03-26 11:58",
+    "derniere_donnee": "2026-03-26 13:55",
     "source": "data.economie.gouv.fr (flux instantané)",
     "granularite": "quotidien"
   },
@@ -2922,7 +2922,7 @@
       "note_lecture": "Le TEC-10 mesure le rendement des emprunts d'Etat francais a 10 ans. Un taux eleve rencherit le cout de la dette publique et impacte les taux de credit immobilier."
     },
     "petrole_brent": {
-      "valeur": 101.47,
+      "valeur": 101.08,
       "date": "2026-03-26",
       "unite": "USD/baril",
       "source": "Yahoo Finance",
@@ -4442,16 +4442,16 @@
         },
         {
           "date": "2026-03-26",
-          "valeur": 101.47,
+          "valeur": 101.08,
           "ma50": 79.14,
           "ma200": 69.24
         }
       ],
       "variations": {
-        "jour": -0.73,
-        "semaine": -6.61,
-        "mois": 43.38,
-        "ytd": 67.03
+        "jour": -1.12,
+        "semaine": -6.97,
+        "mois": 42.83,
+        "ytd": 66.39
       },
       "min_max": {
         "min": 58.92,
@@ -4462,9 +4462,9 @@
       "note_lecture": "Le prix du Brent influence directement les couts de transport et d'energie, donc l'inflation et le pouvoir d'achat des salaries."
     },
     "cac40": {
-      "valeur": 7777.37,
+      "valeur": 7771.99,
       "date": "2026-03-26",
-      "variation_jour_pct": -0.88,
+      "variation_jour_pct": -0.95,
       "unite": "points",
       "source": "Yahoo Finance",
       "nb_points": 256,
@@ -6001,16 +6001,16 @@
         },
         {
           "date": "2026-03-26",
-          "valeur": 7777.37,
-          "ma50": 8159.13,
-          "ma200": 7995.37
+          "valeur": 7771.99,
+          "ma50": 8159.03,
+          "ma200": 7995.34
         }
       ],
       "variations": {
-        "jour": -0.88,
-        "semaine": -0.39,
-        "mois": -8.71,
-        "ytd": -5.1
+        "jour": -0.95,
+        "semaine": -0.46,
+        "mois": -8.77,
+        "ytd": -5.16
       },
       "min_max": {
         "min": 6863.02,
@@ -7591,7 +7591,7 @@
       "note_lecture": "Le taux de change euro-dollar determine le prix de tout ce qui est importe en dollars : petrole, matieres premieres, electronique. Un euro faible rencherit les importations et alimente l'inflation."
     },
     "or": {
-      "valeur": 4438.1,
+      "valeur": 4440.3,
       "date": "2026-03-26",
       "unite": "USD/oz",
       "source": "Yahoo Finance",
@@ -9111,16 +9111,16 @@
         },
         {
           "date": "2026-03-26",
-          "valeur": 4438.1,
-          "ma50": 4944.96,
-          "ma200": 4085.52
+          "valeur": 4440.3,
+          "ma50": 4945.01,
+          "ma200": 4085.53
         }
       ],
       "variations": {
-        "jour": -2.46,
-        "semaine": -3.53,
-        "mois": -13.92,
-        "ytd": 2.87
+        "jour": -2.41,
+        "semaine": -3.49,
+        "mois": -13.88,
+        "ytd": 2.92
       },
       "min_max": {
         "min": 2951.3,
@@ -12205,7 +12205,7 @@
       "note_lecture": "Le cours du ble est un indicateur avance des prix alimentaires. La France etant le premier producteur europeen, son evolution impacte a la fois les consommateurs et le secteur agricole."
     },
     "lme_cuivre": {
-      "valeur": 5.5,
+      "valeur": 5.51,
       "date": "2026-03-26",
       "unite": "cts/lb",
       "source": "Yahoo Finance",
@@ -13725,16 +13725,16 @@
         },
         {
           "date": "2026-03-26",
-          "valeur": 5.5,
+          "valeur": 5.51,
           "ma50": 5.8,
           "ma200": 5.22
         }
       ],
       "variations": {
-        "jour": -0.54,
-        "semaine": 1.29,
-        "mois": -7.09,
-        "ytd": -2.48
+        "jour": -0.36,
+        "semaine": 1.47,
+        "mois": -6.93,
+        "ytd": -2.3
       },
       "min_max": {
         "min": 4.13,
@@ -22304,7 +22304,7 @@
     "sources": "INSEE - Enquête Emploi, DARES"
   },
   "previsions_cftc": {
-    "generated_at": "2026-03-26T13:21:08.649729",
+    "generated_at": "2026-03-26T13:24:29.934826",
     "model_version": "CFTC v5.0 (Monte Carlo + marchés)",
     "n_simulations": 1000,
     "horizon": "12 mois",
@@ -22313,19 +22313,19 @@
       "niveau": "excellent",
       "issues": [],
       "warnings": [],
-      "timestamp": "2026-03-26T13:21:08.649753"
+      "timestamp": "2026-03-26T13:24:29.934836"
     },
     "market_signals": {
-      "inflation_adjustment": 0.329,
+      "inflation_adjustment": 0.325,
       "chomage_adjustment": 0.359,
       "energie_outlook": "hausse"
     },
     "market_signals_details": {
       "brent": {
-        "valeur": 101.47,
+        "valeur": 101.08,
         "ref": 75.0,
-        "variation_ytd_pct": 67.03,
-        "impact_inflation_pt": 0.265
+        "variation_ytd_pct": 66.39,
+        "impact_inflation_pt": 0.261
       },
       "gaz_ttf": {
         "valeur": 55.03,
@@ -22347,7 +22347,7 @@
         "signal": "baissier"
       },
       "cac40_ytd": {
-        "variation_ytd_pct": -5.1,
+        "variation_ytd_pct": -5.16,
         "signal_chomage": "neutre"
       },
       "carburants_sp95": {
@@ -22399,7 +22399,7 @@
           1.9,
           2.0,
           2.0,
-          2.0,
+          1.9,
           2.1,
           2.1,
           2.1
@@ -22449,20 +22449,20 @@
         "methodology": "Monte Carlo (1000 simulations) + saisonnalité + marchés financiers (v5)"
       },
       "probabilites": {
-        "inflation_sous_2pct": 85.2,
-        "inflation_cible_bce": 85.2,
+        "inflation_sous_2pct": 85.5,
+        "inflation_cible_bce": 85.5,
         "inflation_au_dessus_3pct": 0.0,
         "inflation_au_dessus_4pct": 0.0,
-        "description": "85.2% de chances que l'inflation reste sous 2% à 12 mois"
+        "description": "85.5% de chances que l'inflation reste sous 2% à 12 mois"
       },
       "facteurs": {
         "cible_bdf": 1.4,
         "ajustement_climat": -0.03,
-        "ajustement_marches": 0.329,
+        "ajustement_marches": 0.325,
         "energie_outlook": "hausse",
-        "cible_ajustee": 1.699
+        "cible_ajustee": 1.695
       },
-      "insight": "Inflation médiane à 12 mois : 1.7% [IC 80% : 1.3% - 2.1%]. 85.2% de probabilité de rester sous 2%."
+      "insight": "Inflation médiane à 12 mois : 1.7% [IC 80% : 1.3% - 2.1%]. 85.5% de probabilité de rester sous 2%."
     },
     "smic": {
       "current": {
@@ -22659,7 +22659,7 @@
       }
     },
     "notes_lecture": [
-      "📈 Inflation médiane à 12 mois : 1.7% [1.3% - 2.1%] — 85.2% de chances de rester sous 2%",
+      "📈 Inflation médiane à 12 mois : 1.7% [1.3% - 2.1%] — 85.5% de chances de rester sous 2%",
       "💰 SMIC janvier 2027 : 1861€ brut (+2.1%, fourchette 1.7-2.5%) — Certain",
       "👥 Chômage Q4 : 7.9% [7.7% - 8.1%] — Tendance stable",
       "📊 Signaux marchés : marchés ↑ inflation de 0.33pt, ↑ chômage de 0.36pt",
