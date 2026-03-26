@@ -1,6 +1,6 @@
 {
-  "last_updated": "26/03/2026 15:00",
-  "last_updated_iso": "2026-03-26T15:00:12.527191",
+  "last_updated": "26/03/2026 15:26",
+  "last_updated_iso": "2026-03-26T15:26:35.765040",
   "contact": "hspringragain@cftc.fr",
   "alertes": [
     {
@@ -32,7 +32,7 @@
       "date": "2026-03-26",
       "type": "info",
       "titre": "🔄 Données actualisées",
-      "message": "Le tableau de bord a été mis à jour le 26/03/2026 à 15:00.",
+      "message": "Le tableau de bord a été mis à jour le 26/03/2026 à 15:26.",
       "onglet": "conjoncture"
     }
   ],
@@ -193,7 +193,7 @@
     }
   ],
   "revue_presse": {
-    "derniere_maj": "26/03/2026 15:00",
+    "derniere_maj": "26/03/2026 15:26",
     "nb_sources": 7,
     "sources_noms": [
       "Le Monde Éco",
@@ -231,6 +231,42 @@
       }
     ],
     "tous": [
+      {
+        "source": "Le Monde Éco",
+        "couleur": "#374151",
+        "emoji": "🌐",
+        "tag": "Presse économique",
+        "titre": "Korean Air confirme l’achat de 103 avions Boeing, le plus gros contrat de l’histoire de l’aviation sud-coréenne",
+        "resume": "La compagnie sud-coréenne prévoit d’acheter 20 Boeing 777-9, 25 Boeing 787-10, 50 Boeing 737-10 et huit Boeing 777-8 cargo au constructeur américain, pour un montant d’environ 36,2 milliards de dollars.",
+        "lien": "https://www.lemonde.fr/economie/article/2026/03/26/korean-air-confirme-l-achat-de-103-avions-boeing-le-plus-gros-contrat-de-l-histoire-de-l-aviation-sud-coreenne_6674391_3234.html",
+        "date_iso": "2026-03-26T16:14:05+01:00",
+        "date_fr": "26/03/2026",
+        "pertinence": 0
+      },
+      {
+        "source": "Le Monde Éco",
+        "couleur": "#374151",
+        "emoji": "🌐",
+        "tag": "Presse économique",
+        "titre": "La difficile lutte contre le fléau du démarchage sauvage et des arnaques par téléphone",
+        "resume": "Le durcissement de la législation et des mesures techniques n’ont pas suffi à mettre fin aux escroqueries et aux usurpations de numéros.",
+        "lien": "https://www.lemonde.fr/pixels/article/2026/03/26/la-difficile-lutte-contre-le-fleau-du-demarchage-sauvage-et-des-arnaques-par-telephone_6674389_4408996.html",
+        "date_iso": "2026-03-26T16:00:04+01:00",
+        "date_fr": "26/03/2026",
+        "pertinence": 0
+      },
+      {
+        "source": "Euractiv FR",
+        "couleur": "#0369a1",
+        "emoji": "🇪🇺",
+        "tag": "Europe & politique",
+        "titre": "Le fabricant de missiles MBDA espère que le projet de chasseur SCAF, en difficulté, sera maintenu",
+        "resume": "MBDA développe des drones autonomes destinés à accompagner les futurs avions de chasse The post Le fabricant de missiles MBDA espère que le projet de chasseur SCAF, en difficulté, sera maintenu appeared first on Euractiv FR .",
+        "lien": "https://euractiv.fr/news/le-fabricant-de-missiles-mbda-espere-que-le-projet-de-chasseur-scaf-en-difficulte-sera-maintenu/",
+        "date_iso": "2026-03-26T15:11:25+00:00",
+        "date_fr": "26/03/2026",
+        "pertinence": 0
+      },
       {
         "source": "Euractiv FR",
         "couleur": "#0369a1",
@@ -554,42 +590,6 @@
         "date_iso": "2026-03-26T09:50:27+00:00",
         "date_fr": "26/03/2026",
         "pertinence": 1
-      },
-      {
-        "source": "Le Figaro Éco",
-        "couleur": "#92400e",
-        "emoji": "📊",
-        "tag": "Presse économique",
-        "titre": "Des vaches découpées vivantes : L214 porte plainte contre un abattoir public de Martinique",
-        "resume": "L’association de défense des animaux a dénoncé de «graves dysfonctionnements» sur des bovins. D’après des images mises en lignes, certains animaux sont égorgés conscients ou encore vivants à la découpe. L214 réitère sa demande d’audit national des abattoirs français.",
-        "lien": "https://www.lefigaro.fr/conso/des-vaches-decoupees-vivantes-l214-porte-plainte-contre-un-abattoir-public-de-martinique-20260326",
-        "date_iso": "2026-03-26T09:48:26+01:00",
-        "date_fr": "26/03/2026",
-        "pertinence": 0
-      },
-      {
-        "source": "Le Figaro Éco",
-        "couleur": "#92400e",
-        "emoji": "📊",
-        "tag": "Presse économique",
-        "titre": "TotalEnergies, Auchan, Leclerc... Quelles enseignes ont le plus augmenté leurs tarifs à la pompe ?",
-        "resume": "FIG DATA - Le Figaro a analysé la dynamique des prix selon les enseignes de distribution, révélant des écarts parfois saisissants entre les différents acteurs de ce marché particulièrement sensible.",
-        "lien": "https://www.lefigaro.fr/conso/totalenergies-auchan-leclerc-quelles-enseignes-ont-le-plus-augmente-leurs-tarifs-a-la-pompe-20260326",
-        "date_iso": "2026-03-26T09:35:23+01:00",
-        "date_fr": "26/03/2026",
-        "pertinence": 0
-      },
-      {
-        "source": "Le Figaro Éco",
-        "couleur": "#92400e",
-        "emoji": "📊",
-        "tag": "Presse économique",
-        "titre": "La Laitière, St Michel, Samsung, Panzani... Quelles sont les marques préférées des Français en 2026 ?",
-        "resume": "EXCLUSIF - Comme chaque année, la «Marque Préférée des Français» dévoile les résultats de sa grande enquête menée auprès de 4900 consommateurs questionnés sur leur attachement à 1300 marques triées sur le volet.",
-        "lien": "https://www.lefigaro.fr/conso/la-laitiere-st-michel-samsung-panzani-quelles-sont-les-marques-preferees-des-francais-en-2026-20260326",
-        "date_iso": "2026-03-26T09:19:25+01:00",
-        "date_fr": "26/03/2026",
-        "pertinence": 0
       }
     ]
   },
@@ -2049,14 +2049,14 @@
       "variation_sem": 41.3
     },
     "sp95": {
-      "prix": 2.027,
+      "prix": 2.028,
       "variation_an": 11.4,
-      "variation_sem": 17.8
+      "variation_sem": 17.9
     },
     "sp98": {
       "prix": 2.08,
       "variation_an": 11.4,
-      "variation_sem": 17.8
+      "variation_sem": 17.9
     },
     "e10": {
       "prix": 1.974,
@@ -2340,12 +2340,12 @@
       {
         "date": "2026-03-26",
         "gazole": 2.233,
-        "sp95": 2.027,
+        "sp95": 2.028,
         "sp98": 2.08,
         "e10": 1.974
       }
     ],
-    "derniere_donnee": "2026-03-26 14:46",
+    "derniere_donnee": "2026-03-26 15:48",
     "source": "data.economie.gouv.fr (flux instantané)",
     "granularite": "quotidien"
   },
@@ -2922,7 +2922,7 @@
       "note_lecture": "Le TEC-10 mesure le rendement des emprunts d'Etat francais a 10 ans. Un taux eleve rencherit le cout de la dette publique et impacte les taux de credit immobilier."
     },
     "petrole_brent": {
-      "valeur": 101.35,
+      "valeur": 101.69,
       "date": "2026-03-26",
       "unite": "USD/baril",
       "source": "Yahoo Finance",
@@ -4442,16 +4442,16 @@
         },
         {
           "date": "2026-03-26",
-          "valeur": 101.35,
-          "ma50": 79.14,
+          "valeur": 101.69,
+          "ma50": 79.15,
           "ma200": 69.24
         }
       ],
       "variations": {
-        "jour": -0.85,
-        "semaine": -6.72,
-        "mois": 43.21,
-        "ytd": 66.83
+        "jour": -0.52,
+        "semaine": -6.41,
+        "mois": 43.69,
+        "ytd": 67.39
       },
       "min_max": {
         "min": 58.92,
@@ -4462,9 +4462,9 @@
       "note_lecture": "Le prix du Brent influence directement les couts de transport et d'energie, donc l'inflation et le pouvoir d'achat des salaries."
     },
     "cac40": {
-      "valeur": 7813.31,
+      "valeur": 7816.19,
       "date": "2026-03-26",
-      "variation_jour_pct": -0.42,
+      "variation_jour_pct": -0.39,
       "unite": "points",
       "source": "Yahoo Finance",
       "nb_points": 256,
@@ -6001,16 +6001,16 @@
         },
         {
           "date": "2026-03-26",
-          "valeur": 7813.31,
-          "ma50": 8159.85,
-          "ma200": 7995.55
+          "valeur": 7816.19,
+          "ma50": 8159.91,
+          "ma200": 7995.56
         }
       ],
       "variations": {
-        "jour": -0.42,
-        "semaine": 0.07,
-        "mois": -8.29,
-        "ytd": -4.66
+        "jour": -0.39,
+        "semaine": 0.11,
+        "mois": -8.25,
+        "ytd": -4.62
       },
       "min_max": {
         "min": 6863.02,
@@ -7591,7 +7591,7 @@
       "note_lecture": "Le taux de change euro-dollar determine le prix de tout ce qui est importe en dollars : petrole, matieres premieres, electronique. Un euro faible rencherit les importations et alimente l'inflation."
     },
     "or": {
-      "valeur": 4457.5,
+      "valeur": 4453.7,
       "date": "2026-03-26",
       "unite": "USD/oz",
       "source": "Yahoo Finance",
@@ -9111,16 +9111,16 @@
         },
         {
           "date": "2026-03-26",
-          "valeur": 4457.5,
-          "ma50": 4945.35,
-          "ma200": 4085.62
+          "valeur": 4453.7,
+          "ma50": 4945.28,
+          "ma200": 4085.6
         }
       ],
       "variations": {
-        "jour": -2.03,
-        "semaine": -3.11,
-        "mois": -13.54,
-        "ytd": 3.32
+        "jour": -2.11,
+        "semaine": -3.2,
+        "mois": -13.62,
+        "ytd": 3.23
       },
       "min_max": {
         "min": 2951.3,
@@ -9131,7 +9131,7 @@
       "note_lecture": "L'or est la valeur refuge par excellence. Sa hausse traduit une montee de l'incertitude economique ou geopolitique. Il sert aussi de protection contre l'inflation."
     },
     "gaz_naturel": {
-      "valeur": 55.29,
+      "valeur": 55.0,
       "date": "2026-03-26",
       "unite": "EUR/MWh",
       "source": "Yahoo Finance (TTF)",
@@ -10651,16 +10651,16 @@
         },
         {
           "date": "2026-03-26",
-          "valeur": 55.29,
-          "ma50": 41.45,
+          "valeur": 55.0,
+          "ma50": 41.44,
           "ma200": 34.28
         }
       ],
       "variations": {
-        "jour": 4.68,
-        "semaine": -10.61,
-        "mois": 78.99,
-        "ytd": 90.66
+        "jour": 4.13,
+        "semaine": -11.08,
+        "mois": 78.05,
+        "ytd": 89.66
       },
       "min_max": {
         "min": 26.6,
@@ -10671,7 +10671,7 @@
       "note_lecture": "Le prix du gaz naturel (TTF europeen) impacte directement les factures de chauffage et d'electricite des menages, ainsi que les couts de production industrielle."
     },
     "ble": {
-      "valeur": 598.5,
+      "valeur": 598.75,
       "date": "2026-03-26",
       "unite": "cents/boisseau",
       "source": "Yahoo Finance",
@@ -12185,16 +12185,16 @@
         },
         {
           "date": "2026-03-26",
-          "valeur": 598.5,
+          "valeur": 598.75,
           "ma50": 559.01,
           "ma200": 532.02
         }
       ],
       "variations": {
-        "jour": 0.13,
-        "semaine": -1.56,
-        "mois": 5.46,
-        "ytd": 18.16
+        "jour": 0.17,
+        "semaine": -1.52,
+        "mois": 5.51,
+        "ytd": 18.21
       },
       "min_max": {
         "min": 495.0,
@@ -12205,7 +12205,7 @@
       "note_lecture": "Le cours du ble est un indicateur avance des prix alimentaires. La France etant le premier producteur europeen, son evolution impacte a la fois les consommateurs et le secteur agricole."
     },
     "lme_cuivre": {
-      "valeur": 5.52,
+      "valeur": 5.53,
       "date": "2026-03-26",
       "unite": "cts/lb",
       "source": "Yahoo Finance",
@@ -13725,16 +13725,16 @@
         },
         {
           "date": "2026-03-26",
-          "valeur": 5.52,
+          "valeur": 5.53,
           "ma50": 5.8,
           "ma200": 5.22
         }
       ],
       "variations": {
-        "jour": -0.18,
-        "semaine": 1.66,
-        "mois": -6.76,
-        "ytd": -2.13
+        "jour": 0.0,
+        "semaine": 1.84,
+        "mois": -6.59,
+        "ytd": -1.95
       },
       "min_max": {
         "min": 4.13,
@@ -13745,7 +13745,7 @@
       "note_lecture": "Le cuivre est le baromètre de l'activité industrielle mondiale ('Dr Copper'). Sa hausse signale une reprise économique, sa baisse anticipe un ralentissement. Utilisé massivement dans l'électrification et les énergies renouvelables."
     },
     "lme_aluminium": {
-      "valeur": 3190.25,
+      "valeur": 3189.25,
       "date": "2026-03-26",
       "unite": "cts/lb",
       "source": "Yahoo Finance",
@@ -15259,16 +15259,16 @@
         },
         {
           "date": "2026-03-26",
-          "valeur": 3190.25,
-          "ma50": 3114.26,
-          "ma200": 2763.32
+          "valeur": 3189.25,
+          "ma50": 3114.24,
+          "ma200": 2763.31
         }
       ],
       "variations": {
-        "jour": 1.76,
-        "semaine": 2.26,
-        "mois": 5.61,
-        "ytd": 8.59
+        "jour": 1.73,
+        "semaine": 2.23,
+        "mois": 5.58,
+        "ytd": 8.55
       },
       "min_max": {
         "min": 2166.25,
@@ -17687,7 +17687,7 @@
           "2023": 1.92,
           "2024": 1.78,
           "2025": 1.72,
-          "2026": 2.028
+          "2026": 2.027
         },
         "quantiteMensuelle": {
           "solo": 40,
@@ -22304,7 +22304,7 @@
     "sources": "INSEE - Enquête Emploi, DARES"
   },
   "previsions_cftc": {
-    "generated_at": "2026-03-26T15:00:12.791801",
+    "generated_at": "2026-03-26T15:26:35.964152",
     "model_version": "CFTC v6.0 (Monte Carlo + calibrage dynamique + backtesting)",
     "n_simulations": 1000,
     "horizon": "12 mois",
@@ -22313,7 +22313,7 @@
       "niveau": "excellent",
       "issues": [],
       "warnings": [],
-      "timestamp": "2026-03-26T15:00:12.791812"
+      "timestamp": "2026-03-26T15:26:35.964163"
     },
     "calibrage": {
       "volatilites": {
@@ -22338,21 +22338,21 @@
       "mean_reversion_k": 0.3
     },
     "market_signals": {
-      "inflation_adjustment": 0.177,
+      "inflation_adjustment": 0.179,
       "chomage_adjustment": 0.175,
       "energie_outlook": "hausse"
     },
     "market_signals_details": {
       "brent": {
-        "valeur": 101.35,
+        "valeur": 101.69,
         "ref": 75.0,
-        "variation_ytd_pct": 66.83,
-        "impact_inflation_pt": 0.263
+        "variation_ytd_pct": 67.39,
+        "impact_inflation_pt": 0.267
       },
       "gaz_ttf": {
-        "valeur": 55.29,
+        "valeur": 55.0,
         "ref": 35.0,
-        "impact_inflation_pt": 0.101
+        "impact_inflation_pt": 0.1
       },
       "eurusd": {
         "valeur": 1.16,
@@ -22370,7 +22370,7 @@
         "signal": "baissier"
       },
       "cac40_ytd": {
-        "variation_ytd_pct": -4.66,
+        "variation_ytd_pct": -4.62,
         "signal_chomage": "neutre"
       },
       "carburants_sp95": {
@@ -22442,7 +22442,7 @@
           1.9,
           1.9,
           1.9,
-          1.9,
+          2.0,
           2.0,
           2.0
         ],
@@ -22500,9 +22500,9 @@
       "facteurs": {
         "cible_bdf": 1.4,
         "ajustement_climat": -0.03,
-        "ajustement_marches": 0.177,
+        "ajustement_marches": 0.179,
         "energie_outlook": "hausse",
-        "cible_ajustee": 1.547,
+        "cible_ajustee": 1.549,
         "volatilite_utilisee": 0.5
       },
       "insight": "Inflation médiane à 12 mois : 1.6% [IC 80% : 1.2% - 2.0%]. 92.2% de probabilité de rester sous 2%."
