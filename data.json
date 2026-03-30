@@ -1,6 +1,6 @@
 {
-  "last_updated": "30/03/2026 08:47",
-  "last_updated_iso": "2026-03-30T08:47:02.029064",
+  "last_updated": "30/03/2026 08:48",
+  "last_updated_iso": "2026-03-30T08:48:04.343380",
   "contact": "hspringragain@cftc.fr",
   "alertes": [
     {
@@ -32,7 +32,7 @@
       "date": "2026-03-30",
       "type": "info",
       "titre": "🔄 Données actualisées",
-      "message": "Le tableau de bord a été mis à jour le 30/03/2026 à 08:46.",
+      "message": "Le tableau de bord a été mis à jour le 30/03/2026 à 08:47.",
       "onglet": "conjoncture"
     }
   ],
@@ -193,7 +193,7 @@
     }
   ],
   "revue_presse": {
-    "derniere_maj": "30/03/2026 08:47",
+    "derniere_maj": "30/03/2026 08:48",
     "nb_sources": 7,
     "sources_noms": [
       "Le Monde Éco",
@@ -332,7 +332,7 @@
         "couleur": "#dc2626",
         "emoji": "📰",
         "tag": "Presse économique",
-        "titre": "«Le compte n’y est pas» : face à la hausse du carburant, une opération escargot des camions et autocars sur le périphérique parisien",
+        "titre": "«Le compte n’y est pas» : face à la hausse du carburant, une opération escargot de routiers sur le périphérique parisien",
         "resume": "Après une première action samedi en Isère, des chauffeurs routiers se mobilisent ce lundi matin en Ile-de-France. Les manifestations pourraient s’étendre à d’autres régions dans les prochains jours.",
         "lien": "https://www.liberation.fr/economie/transports/prix-des-carburants-operation-escargot-des-camions-et-autocars-sur-le-peripherique-parisien-ce-lundi-20260330_2TYKFERGF5EHBAM2PUC5N6X4LQ/",
         "date_iso": "2026-03-30T08:25:54+00:00",
@@ -4444,9 +4444,9 @@
       "note_lecture": "Le prix du Brent influence directement les couts de transport et d'energie, donc l'inflation et le pouvoir d'achat des salaries."
     },
     "cac40": {
-      "valeur": 7728.1,
+      "valeur": 7730.19,
       "date": "2026-03-30",
-      "variation_jour_pct": 0.34,
+      "variation_jour_pct": 0.37,
       "unite": "points",
       "source": "Yahoo Finance",
       "nb_points": 255,
@@ -5977,16 +5977,16 @@
         },
         {
           "date": "2026-03-30",
-          "valeur": 7728.1,
-          "ma50": 8140.15,
-          "ma200": 7995.78
+          "valeur": 7730.19,
+          "ma50": 8140.2,
+          "ma200": 7995.79
         }
       ],
       "variations": {
-        "jour": 0.34,
-        "semaine": 0.02,
-        "mois": -10.36,
-        "ytd": -5.7
+        "jour": 0.37,
+        "semaine": 0.05,
+        "mois": -10.33,
+        "ytd": -5.67
       },
       "min_max": {
         "min": 6863.02,
@@ -7561,7 +7561,7 @@
       "note_lecture": "Le taux de change euro-dollar determine le prix de tout ce qui est importe en dollars : petrole, matieres premieres, electronique. Un euro faible rencherit les importations et alimente l'inflation."
     },
     "or": {
-      "valeur": 4561.7,
+      "valeur": 4558.9,
       "date": "2026-03-30",
       "unite": "USD/oz",
       "source": "Yahoo Finance",
@@ -9075,16 +9075,16 @@
         },
         {
           "date": "2026-03-30",
-          "valeur": 4561.7,
-          "ma50": 4939.93,
-          "ma200": 4096.97
+          "valeur": 4558.9,
+          "ma50": 4939.88,
+          "ma200": 4096.95
         }
       ],
       "variations": {
-        "jour": 1.55,
-        "semaine": 3.58,
-        "mois": -11.88,
-        "ytd": 5.73
+        "jour": 1.49,
+        "semaine": 3.51,
+        "mois": -11.93,
+        "ytd": 5.67
       },
       "min_max": {
         "min": 2951.3,
@@ -12157,7 +12157,7 @@
       "note_lecture": "Le cours du ble est un indicateur avance des prix alimentaires. La France etant le premier producteur europeen, son evolution impacte a la fois les consommateurs et le secteur agricole."
     },
     "lme_cuivre": {
-      "valeur": 5.51,
+      "valeur": 5.52,
       "date": "2026-03-30",
       "unite": "cts/lb",
       "source": "Yahoo Finance",
@@ -13671,16 +13671,16 @@
         },
         {
           "date": "2026-03-30",
-          "valeur": 5.51,
+          "valeur": 5.52,
           "ma50": 5.78,
           "ma200": 5.23
         }
       ],
       "variations": {
-        "jour": 0.73,
-        "semaine": 1.29,
-        "mois": -7.39,
-        "ytd": -2.3
+        "jour": 0.91,
+        "semaine": 1.47,
+        "mois": -7.23,
+        "ytd": -2.13
       },
       "min_max": {
         "min": 4.13,
@@ -22238,7 +22238,7 @@
     "sources": "INSEE - Enquête Emploi, DARES"
   },
   "previsions_cftc": {
-    "generated_at": "2026-03-30T08:47:02.224394",
+    "generated_at": "2026-03-30T08:48:04.559097",
     "model_version": "CFTC v7.0 (bivarié Phillips + log-normale + pondération temporelle)",
     "n_simulations": 1000,
     "horizon": "12 mois",
@@ -22247,7 +22247,7 @@
       "niveau": "excellent",
       "issues": [],
       "warnings": [],
-      "timestamp": "2026-03-30T08:47:02.224412"
+      "timestamp": "2026-03-30T08:48:04.559112"
     },
     "calibrage": {
       "volatilites": {
@@ -22317,7 +22317,7 @@
         "signal": "baissier"
       },
       "cac40_ytd": {
-        "variation_ytd_pct": -5.7,
+        "variation_ytd_pct": -5.67,
         "signal_chomage": "neutre"
       },
       "carburants_sp95": {
