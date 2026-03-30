@@ -1,6 +1,6 @@
 {
   "last_updated": "30/03/2026 08:39",
-  "last_updated_iso": "2026-03-30T08:39:20.865736",
+  "last_updated_iso": "2026-03-30T08:39:50.286364",
   "contact": "hspringragain@cftc.fr",
   "alertes": [
     {
@@ -2910,7 +2910,7 @@
       "note_lecture": "Le TEC-10 mesure le rendement des emprunts d'Etat francais a 10 ans. Un taux eleve rencherit le cout de la dette publique et impacte les taux de credit immobilier."
     },
     "petrole_brent": {
-      "valeur": 109.07,
+      "valeur": 109.18,
       "date": "2026-03-30",
       "unite": "USD/baril",
       "source": "Yahoo Finance",
@@ -4424,16 +4424,16 @@
         },
         {
           "date": "2026-03-30",
-          "valeur": 109.07,
+          "valeur": 109.18,
           "ma50": 81.1,
           "ma200": 69.69
         }
       ],
       "variations": {
-        "jour": -3.11,
-        "semaine": 9.14,
-        "mois": 54.16,
-        "ytd": 79.54
+        "jour": -3.01,
+        "semaine": 9.25,
+        "mois": 54.32,
+        "ytd": 79.72
       },
       "min_max": {
         "min": 58.92,
@@ -4444,7 +4444,7 @@
       "note_lecture": "Le prix du Brent influence directement les couts de transport et d'energie, donc l'inflation et le pouvoir d'achat des salaries."
     },
     "cac40": {
-      "valeur": 7716.24,
+      "valeur": 7716.44,
       "date": "2026-03-30",
       "variation_jour_pct": 0.19,
       "unite": "points",
@@ -5977,7 +5977,7 @@
         },
         {
           "date": "2026-03-30",
-          "valeur": 7716.24,
+          "valeur": 7716.44,
           "ma50": 8139.92,
           "ma200": 7995.72
         }
@@ -7561,7 +7561,7 @@
       "note_lecture": "Le taux de change euro-dollar determine le prix de tout ce qui est importe en dollars : petrole, matieres premieres, electronique. Un euro faible rencherit les importations et alimente l'inflation."
     },
     "or": {
-      "valeur": 4557.0,
+      "valeur": 4556.9,
       "date": "2026-03-30",
       "unite": "USD/oz",
       "source": "Yahoo Finance",
@@ -9075,13 +9075,13 @@
         },
         {
           "date": "2026-03-30",
-          "valeur": 4557.0,
+          "valeur": 4556.9,
           "ma50": 4939.84,
           "ma200": 4096.94
         }
       ],
       "variations": {
-        "jour": 1.45,
+        "jour": 1.44,
         "semaine": 3.47,
         "mois": -11.97,
         "ytd": 5.62
@@ -22238,7 +22238,7 @@
     "sources": "INSEE - Enquête Emploi, DARES"
   },
   "previsions_cftc": {
-    "generated_at": "2026-03-30T08:39:21.045861",
+    "generated_at": "2026-03-30T08:39:50.466380",
     "model_version": "CFTC v7.0 (bivarié Phillips + log-normale + pondération temporelle)",
     "n_simulations": 1000,
     "horizon": "12 mois",
@@ -22247,7 +22247,7 @@
       "niveau": "excellent",
       "issues": [],
       "warnings": [],
-      "timestamp": "2026-03-30T08:39:21.045874"
+      "timestamp": "2026-03-30T08:39:50.466392"
     },
     "calibrage": {
       "volatilites": {
@@ -22275,7 +22275,7 @@
       "lognormal_offset": 3.0
     },
     "market_signals": {
-      "inflation_adjustment": 0.259,
+      "inflation_adjustment": 0.26,
       "chomage_adjustment": 0.175,
       "energie_outlook": "hausse",
       "ponderation_temporelle": {
@@ -22287,10 +22287,10 @@
     },
     "market_signals_details": {
       "brent": {
-        "valeur": 109.07,
+        "valeur": 109.18,
         "ref": 75.0,
-        "variation_ytd_pct": 79.54,
-        "impact_inflation_pt": 0.341,
+        "variation_ytd_pct": 79.72,
+        "impact_inflation_pt": 0.342,
         "poids_temporel": 1.0
       },
       "gaz_ttf": {
@@ -22447,9 +22447,9 @@
       "facteurs": {
         "cible_bdf": 1.4,
         "ajustement_climat": -0.03,
-        "ajustement_marches": 0.259,
+        "ajustement_marches": 0.26,
         "energie_outlook": "hausse",
-        "cible_ajustee": 1.629,
+        "cible_ajustee": 1.63,
         "volatilite_utilisee": 0.5
       },
       "asymetrie_ic": {
@@ -22692,7 +22692,7 @@
           }
         },
         "contribution_mediane": {
-          "signaux_marches_pt": 0.259,
+          "signaux_marches_pt": 0.26,
           "incertitude_bdf_sigma": 0.15,
           "label": "Déplacement de la prévision centrale"
         }
