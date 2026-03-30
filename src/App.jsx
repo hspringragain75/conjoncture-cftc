@@ -1,6 +1,6 @@
 import React, { useState, useEffect, useRef } from 'react';
 import { LineChart, Line, BarChart, Bar, XAxis, YAxis, CartesianGrid, Tooltip, Legend, ResponsiveContainer, ComposedChart, Area, Cell, ReferenceLine, PieChart, Pie } from 'recharts';
-
+import SparklineBars from './components/SparklineBars';
 // ============================================================================
 // TABLEAU DE BORD ÉCONOMIQUE CFTC - STYLE "BULLE" MODERNISÉ
 // ============================================================================
@@ -37,41 +37,6 @@ const getChartColors = (darkMode) => ({
   tooltipBg: darkMode ? '#1f2937' : '#ffffff',
   tooltipBorder: darkMode ? '#374151' : '#e5e7eb',
 });
-
-// ==================== COMPOSANT SPARKLINE ====================
-// Sparkline barres verticales — Style B
-function SparklineBars({ data, color }) {
-  if (!data || data.length < 2) return null;
-  const values = data.map(d => typeof d === 'object' ? d.value : d).filter(v => v != null && !isNaN(v));
-  if (values.length < 2) return null;
-
-  const min = Math.min(...values);
-  const max = Math.max(...values);
-  const range = max - min || 1;
-
-  // On étire les hauteurs entre 8% et 100% pour maximiser la lisibilité
-  // même quand les variations sont faibles (ex: chômage 7.1 → 7.7)
-  const toH = (v) => Math.round(8 + ((v - min) / range) * 92);
-
-  const bars = values.slice(-12);
-  return (
-    <div style={{ display: 'flex', alignItems: 'flex-end', gap: '2px', height: '32px', width: '100%' }}>
-      {bars.map((v, i) => {
-        const isLast = i === bars.length - 1;
-        return (
-          <div key={i} style={{
-            flex: 1,
-            height: `${toH(v)}%`,
-            borderRadius: '2px 2px 0 0',
-            background: color,
-            opacity: isLast ? 1 : 0.35 + (i / bars.length) * 0.45,
-            transition: 'height 0.3s ease',
-          }} />
-        );
-      })}
-    </div>
-  );
-}
 
 // ==================== COMPOSANT KPI STYLE B ====================
 function BubbleKpi({ label, value, status, darkMode, tooltip, sparklineData, invertTrend = false, alerte = false, note = '' }) {
