@@ -1,6 +1,6 @@
 {
-  "last_updated": "30/03/2026 07:12",
-  "last_updated_iso": "2026-03-30T07:12:48.879838",
+  "last_updated": "30/03/2026 07:16",
+  "last_updated_iso": "2026-03-30T07:16:42.567723",
   "contact": "hspringragain@cftc.fr",
   "alertes": [
     {
@@ -32,7 +32,7 @@
       "date": "2026-03-30",
       "type": "info",
       "titre": "🔄 Données actualisées",
-      "message": "Le tableau de bord a été mis à jour le 30/03/2026 à 07:12.",
+      "message": "Le tableau de bord a été mis à jour le 30/03/2026 à 07:16.",
       "onglet": "conjoncture"
     }
   ],
@@ -193,7 +193,7 @@
     }
   ],
   "revue_presse": {
-    "derniere_maj": "30/03/2026 07:12",
+    "derniere_maj": "30/03/2026 07:16",
     "nb_sources": 7,
     "sources_noms": [
       "Le Monde Éco",
@@ -207,6 +207,18 @@
     "a_la_une": [],
     "tous": [
       {
+        "source": "Le Figaro Éco",
+        "couleur": "#92400e",
+        "emoji": "📊",
+        "tag": "Presse économique",
+        "titre": "Guerre au Moyen-Orient : le baril de pétrole américain franchit à nouveau les 100 dollars",
+        "resume": "La référence américaine dépasse à son tour la barre symbolique, pendant que le prix du pétrole européen continue de tutoyer des sommets à 115 dollars.",
+        "lien": "https://www.lefigaro.fr/conjoncture/guerre-au-moyen-orient-le-baril-de-petrole-americain-franchit-a-nouveau-les-100-dollars-20260330",
+        "date_iso": "2026-03-30T09:14:13+02:00",
+        "date_fr": "30/03/2026",
+        "pertinence": 0
+      },
+      {
         "source": "Le Monde Éco",
         "couleur": "#374151",
         "emoji": "🌐",
@@ -215,18 +227,6 @@
         "resume": "Quelque 110 cars et 70 camions doivent prendre part à une opération escargot, susceptible de ralentir le trafic du périphérique parisien entre 10 heures et 11 heures du matin pour protester contre la réponse du gouvernement à la hausse du carburant, sur fond de guerre au Moyen-Orient.",
         "lien": "https://www.lemonde.fr/economie/article/2026/03/30/prix-des-carburants-des-transporteurs-routiers-et-des-chauffeurs-d-autocars-prevoient-une-operation-escargot-en-ile-de-france-lundi-matin_6675399_3234.html",
         "date_iso": "2026-03-30T08:10:41+02:00",
-        "date_fr": "30/03/2026",
-        "pertinence": 0
-      },
-      {
-        "source": "Le Figaro Éco",
-        "couleur": "#92400e",
-        "emoji": "📊",
-        "tag": "Presse économique",
-        "titre": "Guerre au Moyen-Orient : le baril de pétrole américain franchit à nouveau les 100 dollars",
-        "resume": "La référence américaine dépasse à son tour la barre symbolique, pendant que le prix du pétrole européen continue de tutoyer des sommets à 115 dollars.",
-        "lien": "https://www.lefigaro.fr/conjoncture/guerre-au-moyen-orient-le-baril-de-petrole-americain-franchit-a-nouveau-les-100-dollars-20260330",
-        "date_iso": "2026-03-30T07:24:48+02:00",
         "date_fr": "30/03/2026",
         "pertinence": 0
       },
@@ -322,7 +322,7 @@
         "titre": "Adrien Bilal, Prix du meilleur jeune économiste 2026 : « Le réchauffement climatique va coûter 50 % du PIB d’ici à 2100 »",
         "resume": "Le lauréat de cette 27ᵉ édition du prix créé en 2000 par « Le Monde » et Le Cercle des économistes a développé un modèle permettant de mieux capter les impacts globaux du désordre climatique.",
         "lien": "https://www.lemonde.fr/economie/article/2026/03/30/adrien-bilal-prix-du-meilleur-jeune-economiste-2026-le-rechauffement-climatique-va-couter-50-du-pib-d-ici-a-2100_6675387_3234.html",
-        "date_iso": "2026-03-30T06:00:12+02:00",
+        "date_iso": "2026-03-30T06:00:04+02:00",
         "date_fr": "30/03/2026",
         "pertinence": 1
       },
@@ -407,6 +407,18 @@
         "resume": "Planification stratégique, analyse de données, identification des cibles… Depuis quelques années, l’intelligence artificielle fait une percée dans les opérations militaires. Elle joue désormais un rôle clé dans la guerre au Moyen-Orient. Avec une marge d’erreur assumée ?",
         "lien": "https://www.liberation.fr/economie/economie-numerique/iran-ukraine-comment-lintelligence-artificielle-change-les-guerres-20260329_J56EQGOZ7REHRDKSTSM6RAJKME/",
         "date_iso": "2026-03-29T18:15:00+00:00",
+        "date_fr": "29/03/2026",
+        "pertinence": 0
+      },
+      {
+        "source": "Le Monde Éco",
+        "couleur": "#374151",
+        "emoji": "🌐",
+        "tag": "Presse économique",
+        "titre": "Lilian Thuram : « Le “Noir” est sans doute le seul être de la Terre que tout le monde croit connaître avant même qu’il ne parle »",
+        "resume": "Les attaques racistes contre Bally Bagayoko, le nouveau maire de Saint-Denis, nourrissent les stéréotypes ancestraux de la négrophobie, estime l’ancien footballeur, président de la fondation qui porte son nom, dans une tribune au « Monde ».",
+        "lien": "https://www.lemonde.fr/idees/article/2026/03/29/lilian-thuram-le-noir-est-sans-doute-le-seul-etre-de-la-terre-que-tout-le-monde-croit-connaitre-avant-meme-qu-il-ne-parle_6675255_3232.html",
+        "date_iso": "2026-03-29T18:00:02+02:00",
         "date_fr": "29/03/2026",
         "pertinence": 0
       },
@@ -551,18 +563,6 @@
         "resume": "Le locataire de Bercy refuse de bloquer les prix des carburants même s’il reconnaît qu’un «encadrement des marges reste toujours possible».",
         "lien": "https://www.lefigaro.fr/conjoncture/70-millions-d-euros-ce-ne-sont-pas-des-miettes-la-reponse-de-roland-lescure-aux-routiers-en-colere-apres-la-hausse-des-carburants-20260329",
         "date_iso": "2026-03-29T12:06:08+02:00",
-        "date_fr": "29/03/2026",
-        "pertinence": 0
-      },
-      {
-        "source": "Le Figaro Éco",
-        "couleur": "#92400e",
-        "emoji": "📊",
-        "tag": "Presse économique",
-        "titre": "Aluminium, engrais, hélium pour les puces ... Tous ces produits fabriqués dans le Golfe qui pourraient bientôt manquer",
-        "resume": "DÉCRYPTAGE - L’attaque iranienne sur deux fonderies d’aluminium samedi fragilise l’approvisionnement mondial en ce métal. La guerre et le blocage du détroit d’Ormuz pénalisent aussi d’autres industries, qui se fournissent dans le Golfe.",
-        "lien": "https://www.lefigaro.fr/societes/pourquoi-le-detroit-d-ormuz-est-une-artere-vitale-du-commerce-mondial-20260325",
-        "date_iso": "2026-03-29T11:32:04+02:00",
         "date_fr": "29/03/2026",
         "pertinence": 0
       }
@@ -2897,7 +2897,7 @@
       "note_lecture": "Le TEC-10 mesure le rendement des emprunts d'Etat francais a 10 ans. Un taux eleve rencherit le cout de la dette publique et impacte les taux de credit immobilier."
     },
     "petrole_brent": {
-      "valeur": 108.9,
+      "valeur": 108.94,
       "date": "2026-03-30",
       "unite": "USD/baril",
       "source": "Yahoo Finance",
@@ -4411,16 +4411,16 @@
         },
         {
           "date": "2026-03-30",
-          "valeur": 108.9,
+          "valeur": 108.94,
           "ma50": 81.1,
           "ma200": 69.69
         }
       ],
       "variations": {
-        "jour": -3.26,
-        "semaine": 8.97,
-        "mois": 53.92,
-        "ytd": 79.26
+        "jour": -3.22,
+        "semaine": 9.01,
+        "mois": 53.98,
+        "ytd": 79.33
       },
       "min_max": {
         "min": 58.92,
@@ -4431,12 +4431,12 @@
       "note_lecture": "Le prix du Brent influence directement les couts de transport et d'energie, donc l'inflation et le pouvoir d'achat des salaries."
     },
     "cac40": {
-      "valeur": 7701.95,
-      "date": "2026-03-27",
-      "variation_jour_pct": -0.87,
+      "valeur": 7680.42,
+      "date": "2026-03-30",
+      "variation_jour_pct": -0.28,
       "unite": "points",
       "source": "Yahoo Finance",
-      "nb_points": 254,
+      "nb_points": 255,
       "historique": [
         {
           "date": "2025-03-31",
@@ -5961,13 +5961,19 @@
           "valeur": 7701.95,
           "ma50": 8147.83,
           "ma200": 7995.42
+        },
+        {
+          "date": "2026-03-30",
+          "valeur": 7680.42,
+          "ma50": 8139.2,
+          "ma200": 7995.54
         }
       ],
       "variations": {
-        "jour": -0.87,
-        "semaine": 0.47,
-        "mois": -10.01,
-        "ytd": -6.02
+        "jour": -0.28,
+        "semaine": -0.59,
+        "mois": -10.91,
+        "ytd": -6.28
       },
       "min_max": {
         "min": 6863.02,
@@ -7542,7 +7548,7 @@
       "note_lecture": "Le taux de change euro-dollar determine le prix de tout ce qui est importe en dollars : petrole, matieres premieres, electronique. Un euro faible rencherit les importations et alimente l'inflation."
     },
     "or": {
-      "valeur": 4554.1,
+      "valeur": 4557.2,
       "date": "2026-03-30",
       "unite": "USD/oz",
       "source": "Yahoo Finance",
@@ -9056,16 +9062,16 @@
         },
         {
           "date": "2026-03-30",
-          "valeur": 4554.1,
-          "ma50": 4939.78,
-          "ma200": 4096.93
+          "valeur": 4557.2,
+          "ma50": 4939.84,
+          "ma200": 4096.94
         }
       ],
       "variations": {
-        "jour": 1.38,
-        "semaine": 3.41,
-        "mois": -12.02,
-        "ytd": 5.56
+        "jour": 1.45,
+        "semaine": 3.48,
+        "mois": -11.96,
+        "ytd": 5.63
       },
       "min_max": {
         "min": 2951.3,
@@ -10604,7 +10610,7 @@
       "note_lecture": "Le prix du gaz naturel (TTF europeen) impacte directement les factures de chauffage et d'electricite des menages, ainsi que les couts de production industrielle."
     },
     "ble": {
-      "valeur": 606.0,
+      "valeur": 605.75,
       "date": "2026-03-30",
       "unite": "cents/boisseau",
       "source": "Yahoo Finance",
@@ -12112,16 +12118,16 @@
         },
         {
           "date": "2026-03-30",
-          "valeur": 606.0,
-          "ma50": 562.9,
+          "valeur": 605.75,
+          "ma50": 562.89,
           "ma200": 532.76
         }
       ],
       "variations": {
-        "jour": 0.17,
-        "semaine": 3.11,
-        "mois": 5.99,
-        "ytd": 19.64
+        "jour": 0.12,
+        "semaine": 3.06,
+        "mois": 5.95,
+        "ytd": 19.6
       },
       "min_max": {
         "min": 495.0,
@@ -12132,7 +12138,7 @@
       "note_lecture": "Le cours du ble est un indicateur avance des prix alimentaires. La France etant le premier producteur europeen, son evolution impacte a la fois les consommateurs et le secteur agricole."
     },
     "lme_cuivre": {
-      "valeur": 5.5,
+      "valeur": 5.49,
       "date": "2026-03-30",
       "unite": "cts/lb",
       "source": "Yahoo Finance",
@@ -13646,16 +13652,16 @@
         },
         {
           "date": "2026-03-30",
-          "valeur": 5.5,
+          "valeur": 5.49,
           "ma50": 5.78,
           "ma200": 5.23
         }
       ],
       "variations": {
-        "jour": 0.55,
-        "semaine": 1.1,
-        "mois": -7.56,
-        "ytd": -2.48
+        "jour": 0.37,
+        "semaine": 0.92,
+        "mois": -7.73,
+        "ytd": -2.66
       },
       "min_max": {
         "min": 4.13,
@@ -22213,7 +22219,7 @@
     "sources": "INSEE - Enquête Emploi, DARES"
   },
   "previsions_cftc": {
-    "generated_at": "2026-03-30T07:12:49.073686",
+    "generated_at": "2026-03-30T07:16:42.772751",
     "model_version": "CFTC v7.0 (bivarié Phillips + log-normale + pondération temporelle)",
     "n_simulations": 1000,
     "horizon": "12 mois",
@@ -22222,7 +22228,7 @@
       "niveau": "excellent",
       "issues": [],
       "warnings": [],
-      "timestamp": "2026-03-30T07:12:49.073727"
+      "timestamp": "2026-03-30T07:16:42.772763"
     },
     "calibrage": {
       "volatilites": {
@@ -22250,7 +22256,7 @@
       "lognormal_offset": 3.0
     },
     "market_signals": {
-      "inflation_adjustment": 0.235,
+      "inflation_adjustment": 0.236,
       "chomage_adjustment": 0.175,
       "energie_outlook": "hausse",
       "ponderation_temporelle": {
@@ -22262,9 +22268,9 @@
     },
     "market_signals_details": {
       "brent": {
-        "valeur": 108.9,
+        "valeur": 108.94,
         "ref": 75.0,
-        "variation_ytd_pct": 79.26,
+        "variation_ytd_pct": 79.33,
         "impact_inflation_pt": 0.339,
         "poids_temporel": 1.0
       },
@@ -22292,7 +22298,7 @@
         "signal": "baissier"
       },
       "cac40_ytd": {
-        "variation_ytd_pct": -6.02,
+        "variation_ytd_pct": -6.28,
         "signal_chomage": "neutre"
       },
       "carburants_sp95": {
@@ -22422,9 +22428,9 @@
       "facteurs": {
         "cible_bdf": 1.4,
         "ajustement_climat": -0.03,
-        "ajustement_marches": 0.235,
+        "ajustement_marches": 0.236,
         "energie_outlook": "hausse",
-        "cible_ajustee": 1.605,
+        "cible_ajustee": 1.606,
         "volatilite_utilisee": 0.5
       },
       "asymetrie_ic": {
@@ -22642,7 +22648,7 @@
       "📈 Inflation médiane à 12 mois : 1.6% [1.2% - 2.1%] — 85.3% de chances de rester sous 2% (asymétrie : +0.5pt / -0.4pt)",
       "💰 SMIC janvier 2027 : 1859€ brut (+2.0%, fourchette 1.6-2.4%) — Pouvoir d'achat réel : +0.4% (+7€/mois)",
       "👥 Chômage Q4 : 7.8% [7.6% - 7.9%] — Tendance stable (corrélé Phillips ρ=-0.35)",
-      "📊 Signaux marchés : ↑ inflation 0.23pt, ↑ chômage 0.17pt, (poids temporel min : 0.86)",
+      "📊 Signaux marchés : ↑ inflation 0.24pt, ↑ chômage 0.17pt, (poids temporel min : 0.86)",
       "🎲 Scénario à surveiller : 🚀 Reprise économique forte (25%)",
       "💡 Recommandation NAO : demander au minimum +2.1% pour préserver le pouvoir d'achat"
     ],
