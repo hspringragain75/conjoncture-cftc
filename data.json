@@ -1,6 +1,6 @@
 {
   "last_updated": "30/03/2026 09:59",
-  "last_updated_iso": "2026-03-30T09:59:06.262813",
+  "last_updated_iso": "2026-03-30T09:59:40.754916",
   "contact": "hspringragain@cftc.fr",
   "alertes": [
     {
@@ -836,7 +836,7 @@
     "ecart_hf_eqtp": 25.8,
     "difficultes_recrutement": 61,
     "irl_glissement": 0.79,
-    "prix_gazole": 2.237,
+    "prix_gazole": 2.238,
     "taux_effort_locataires": 29.6,
     "croissance_pib": 0.7,
     "climat_affaires": 97,
@@ -2032,8 +2032,8 @@
   },
   "carburants": {
     "gazole": {
-      "prix": 2.237,
-      "variation_an": 20.9,
+      "prix": 2.238,
+      "variation_an": 21.0,
       "variation_sem": 41.6
     },
     "sp95": {
@@ -2327,13 +2327,13 @@
       },
       {
         "date": "2026-03-30",
-        "gazole": 2.237,
+        "gazole": 2.238,
         "sp95": 2.028,
         "sp98": 2.08,
         "e10": 1.968
       }
     ],
-    "derniere_donnee": "2026-03-30 09:58",
+    "derniere_donnee": "2026-03-30 10:49",
     "source": "data.economie.gouv.fr (flux instantané)",
     "granularite": "quotidien"
   },
@@ -4444,9 +4444,9 @@
       "note_lecture": "Le prix du Brent influence directement les couts de transport et d'energie, donc l'inflation et le pouvoir d'achat des salaries."
     },
     "cac40": {
-      "valeur": 7702.57,
+      "valeur": 7702.0,
       "date": "2026-03-30",
-      "variation_jour_pct": 0.01,
+      "variation_jour_pct": 0.0,
       "unite": "points",
       "source": "Yahoo Finance",
       "nb_points": 255,
@@ -5977,16 +5977,16 @@
         },
         {
           "date": "2026-03-30",
-          "valeur": 7702.57,
-          "ma50": 8139.64,
+          "valeur": 7702.0,
+          "ma50": 8139.63,
           "ma200": 7995.65
         }
       ],
       "variations": {
-        "jour": 0.01,
+        "jour": 0.0,
         "semaine": -0.31,
-        "mois": -10.65,
-        "ytd": -6.01
+        "mois": -10.66,
+        "ytd": -6.02
       },
       "min_max": {
         "min": 6863.02,
@@ -7561,7 +7561,7 @@
       "note_lecture": "Le taux de change euro-dollar determine le prix de tout ce qui est importe en dollars : petrole, matieres premieres, electronique. Un euro faible rencherit les importations et alimente l'inflation."
     },
     "or": {
-      "valeur": 4564.3,
+      "valeur": 4562.7,
       "date": "2026-03-30",
       "unite": "USD/oz",
       "source": "Yahoo Finance",
@@ -9075,16 +9075,16 @@
         },
         {
           "date": "2026-03-30",
-          "valeur": 4564.3,
-          "ma50": 4939.99,
-          "ma200": 4096.98
+          "valeur": 4562.7,
+          "ma50": 4939.95,
+          "ma200": 4096.97
         }
       ],
       "variations": {
-        "jour": 1.61,
-        "semaine": 3.64,
-        "mois": -11.83,
-        "ytd": 5.79
+        "jour": 1.57,
+        "semaine": 3.6,
+        "mois": -11.86,
+        "ytd": 5.76
       },
       "min_max": {
         "min": 2951.3,
@@ -22238,7 +22238,7 @@
     "sources": "INSEE - Enquête Emploi, DARES"
   },
   "previsions_cftc": {
-    "generated_at": "2026-03-30T09:59:06.428034",
+    "generated_at": "2026-03-30T09:59:40.963881",
     "model_version": "CFTC v7.0 (bivarié Phillips + log-normale + pondération temporelle)",
     "n_simulations": 1000,
     "horizon": "12 mois",
@@ -22247,7 +22247,7 @@
       "niveau": "excellent",
       "issues": [],
       "warnings": [],
-      "timestamp": "2026-03-30T09:59:06.428048"
+      "timestamp": "2026-03-30T09:59:40.963894"
     },
     "calibrage": {
       "volatilites": {
@@ -22317,7 +22317,7 @@
         "signal": "baissier"
       },
       "cac40_ytd": {
-        "variation_ytd_pct": -6.01,
+        "variation_ytd_pct": -6.02,
         "signal_chomage": "neutre"
       },
       "carburants_sp95": {
