@@ -1,6 +1,6 @@
 {
-  "last_updated": "30/03/2026 06:59",
-  "last_updated_iso": "2026-03-30T06:59:28.324966",
+  "last_updated": "30/03/2026 07:12",
+  "last_updated_iso": "2026-03-30T07:12:48.879838",
   "contact": "hspringragain@cftc.fr",
   "alertes": [
     {
@@ -32,7 +32,7 @@
       "date": "2026-03-30",
       "type": "info",
       "titre": "🔄 Données actualisées",
-      "message": "Le tableau de bord a été mis à jour le 30/03/2026 à 06:59.",
+      "message": "Le tableau de bord a été mis à jour le 30/03/2026 à 07:12.",
       "onglet": "conjoncture"
     }
   ],
@@ -193,7 +193,7 @@
     }
   ],
   "revue_presse": {
-    "derniere_maj": "30/03/2026 06:59",
+    "derniere_maj": "30/03/2026 07:12",
     "nb_sources": 7,
     "sources_noms": [
       "Le Monde Éco",
@@ -823,7 +823,7 @@
     "ecart_hf_eqtp": 25.8,
     "difficultes_recrutement": 61,
     "irl_glissement": 0.79,
-    "prix_gazole": 2.234,
+    "prix_gazole": 2.235,
     "taux_effort_locataires": 29.6,
     "croissance_pib": 0.7,
     "climat_affaires": 97,
@@ -2019,9 +2019,9 @@
   },
   "carburants": {
     "gazole": {
-      "prix": 2.234,
+      "prix": 2.235,
       "variation_an": 20.8,
-      "variation_sem": 41.4
+      "variation_sem": 41.5
     },
     "sp95": {
       "prix": 2.027,
@@ -2029,12 +2029,12 @@
       "variation_sem": 17.8
     },
     "sp98": {
-      "prix": 2.079,
+      "prix": 2.08,
       "variation_an": 11.4,
       "variation_sem": 17.8
     },
     "e10": {
-      "prix": 1.967,
+      "prix": 1.968,
       "variation_an": 9.9,
       "variation_sem": 17.1
     },
@@ -2314,13 +2314,13 @@
       },
       {
         "date": "2026-03-30",
-        "gazole": 2.234,
+        "gazole": 2.235,
         "sp95": 2.027,
-        "sp98": 2.079,
-        "e10": 1.967
+        "sp98": 2.08,
+        "e10": 1.968
       }
     ],
-    "derniere_donnee": "2026-03-30 07:49",
+    "derniere_donnee": "2026-03-30 08:49",
     "source": "data.economie.gouv.fr (flux instantané)",
     "granularite": "quotidien"
   },
@@ -2897,7 +2897,7 @@
       "note_lecture": "Le TEC-10 mesure le rendement des emprunts d'Etat francais a 10 ans. Un taux eleve rencherit le cout de la dette publique et impacte les taux de credit immobilier."
     },
     "petrole_brent": {
-      "valeur": 107.73,
+      "valeur": 108.9,
       "date": "2026-03-30",
       "unite": "USD/baril",
       "source": "Yahoo Finance",
@@ -4411,16 +4411,16 @@
         },
         {
           "date": "2026-03-30",
-          "valeur": 107.73,
-          "ma50": 81.07,
-          "ma200": 69.68
+          "valeur": 108.9,
+          "ma50": 81.1,
+          "ma200": 69.69
         }
       ],
       "variations": {
-        "jour": -4.3,
-        "semaine": 7.79,
-        "mois": 52.27,
-        "ytd": 77.33
+        "jour": -3.26,
+        "semaine": 8.97,
+        "mois": 53.92,
+        "ytd": 79.26
       },
       "min_max": {
         "min": 58.92,
@@ -4436,20 +4436,8 @@
       "variation_jour_pct": -0.87,
       "unite": "points",
       "source": "Yahoo Finance",
-      "nb_points": 256,
+      "nb_points": 254,
       "historique": [
-        {
-          "date": "2025-03-27",
-          "valeur": 7990.11,
-          "ma50": null,
-          "ma200": null
-        },
-        {
-          "date": "2025-03-28",
-          "valeur": 7916.08,
-          "ma50": null,
-          "ma200": null
-        },
         {
           "date": "2025-03-31",
           "valeur": 7790.71,
@@ -4735,13 +4723,13 @@
         {
           "date": "2025-06-09",
           "valeur": 7791.47,
-          "ma50": 7635.73,
+          "ma50": null,
           "ma200": null
         },
         {
           "date": "2025-06-10",
           "valeur": 7804.33,
-          "ma50": 7632.02,
+          "ma50": null,
           "ma200": null
         },
         {
@@ -5636,13 +5624,13 @@
           "date": "2026-01-08",
           "valeur": 8243.47,
           "ma50": 8107.18,
-          "ma200": 7849.82
+          "ma200": null
         },
         {
           "date": "2026-01-09",
           "valeur": 8362.09,
           "ma50": 8110.09,
-          "ma200": 7851.68
+          "ma200": null
         },
         {
           "date": "2026-01-12",
@@ -7554,7 +7542,7 @@
       "note_lecture": "Le taux de change euro-dollar determine le prix de tout ce qui est importe en dollars : petrole, matieres premieres, electronique. Un euro faible rencherit les importations et alimente l'inflation."
     },
     "or": {
-      "valeur": 4578.6,
+      "valeur": 4554.1,
       "date": "2026-03-30",
       "unite": "USD/oz",
       "source": "Yahoo Finance",
@@ -9068,16 +9056,16 @@
         },
         {
           "date": "2026-03-30",
-          "valeur": 4578.6,
-          "ma50": 4940.27,
-          "ma200": 4097.05
+          "valeur": 4554.1,
+          "ma50": 4939.78,
+          "ma200": 4096.93
         }
       ],
       "variations": {
-        "jour": 1.93,
-        "semaine": 3.96,
-        "mois": -11.55,
-        "ytd": 6.12
+        "jour": 1.38,
+        "semaine": 3.41,
+        "mois": -12.02,
+        "ytd": 5.56
       },
       "min_max": {
         "min": 2951.3,
@@ -10616,7 +10604,7 @@
       "note_lecture": "Le prix du gaz naturel (TTF europeen) impacte directement les factures de chauffage et d'electricite des menages, ainsi que les couts de production industrielle."
     },
     "ble": {
-      "valeur": 604.75,
+      "valeur": 606.0,
       "date": "2026-03-30",
       "unite": "cents/boisseau",
       "source": "Yahoo Finance",
@@ -12124,16 +12112,16 @@
         },
         {
           "date": "2026-03-30",
-          "valeur": 604.75,
-          "ma50": 562.88,
-          "ma200": 532.75
+          "valeur": 606.0,
+          "ma50": 562.9,
+          "ma200": 532.76
         }
       ],
       "variations": {
-        "jour": -0.04,
-        "semaine": 2.89,
-        "mois": 5.77,
-        "ytd": 19.4
+        "jour": 0.17,
+        "semaine": 3.11,
+        "mois": 5.99,
+        "ytd": 19.64
       },
       "min_max": {
         "min": 495.0,
@@ -12144,7 +12132,7 @@
       "note_lecture": "Le cours du ble est un indicateur avance des prix alimentaires. La France etant le premier producteur europeen, son evolution impacte a la fois les consommateurs et le secteur agricole."
     },
     "lme_cuivre": {
-      "valeur": 5.52,
+      "valeur": 5.5,
       "date": "2026-03-30",
       "unite": "cts/lb",
       "source": "Yahoo Finance",
@@ -13658,16 +13646,16 @@
         },
         {
           "date": "2026-03-30",
-          "valeur": 5.52,
+          "valeur": 5.5,
           "ma50": 5.78,
           "ma200": 5.23
         }
       ],
       "variations": {
-        "jour": 0.91,
-        "semaine": 1.47,
-        "mois": -7.23,
-        "ytd": -2.13
+        "jour": 0.55,
+        "semaine": 1.1,
+        "mois": -7.56,
+        "ytd": -2.48
       },
       "min_max": {
         "min": 4.13,
@@ -13678,7 +13666,7 @@
       "note_lecture": "Le cuivre est le baromètre de l'activité industrielle mondiale ('Dr Copper'). Sa hausse signale une reprise économique, sa baisse anticipe un ralentissement. Utilisé massivement dans l'électrification et les énergies renouvelables."
     },
     "lme_aluminium": {
-      "valeur": 3366.25,
+      "valeur": 3351.75,
       "date": "2026-03-30",
       "unite": "cts/lb",
       "source": "Yahoo Finance",
@@ -15186,16 +15174,16 @@
         },
         {
           "date": "2026-03-30",
-          "valeur": 3366.25,
-          "ma50": 3121.64,
-          "ma200": 2771.63
+          "valeur": 3351.75,
+          "ma50": 3121.34,
+          "ma200": 2771.56
         }
       ],
       "variations": {
-        "jour": 5.61,
-        "semaine": 9.44,
-        "mois": 9.59,
-        "ytd": 14.58
+        "jour": 5.15,
+        "semaine": 8.96,
+        "mois": 9.12,
+        "ytd": 14.08
       },
       "min_max": {
         "min": 2166.25,
@@ -17051,7 +17039,7 @@
     "correlations": {
       "oat_inflation": 0.022,
       "brent_inflation": 0.162,
-      "cac_inflation": 0.039,
+      "cac_inflation": 0.034,
       "eurusd_inflation": 0.226,
       "or_inflation": -0.14,
       "gaz_inflation": -0.287,
@@ -22225,8 +22213,8 @@
     "sources": "INSEE - Enquête Emploi, DARES"
   },
   "previsions_cftc": {
-    "generated_at": "2026-03-30T06:59:28.557184",
-    "model_version": "CFTC v6.0 (Monte Carlo + calibrage dynamique + backtesting)",
+    "generated_at": "2026-03-30T07:12:49.073686",
+    "model_version": "CFTC v7.0 (bivarié Phillips + log-normale + pondération temporelle)",
     "n_simulations": 1000,
     "horizon": "12 mois",
     "data_quality": {
@@ -22234,7 +22222,7 @@
       "niveau": "excellent",
       "issues": [],
       "warnings": [],
-      "timestamp": "2026-03-30T06:59:28.557197"
+      "timestamp": "2026-03-30T07:12:49.073727"
     },
     "calibrage": {
       "volatilites": {
@@ -22256,35 +22244,48 @@
       },
       "defaillances_ref": 61309.0,
       "defaillances_ref_label": "moyenne glissante 12 derniers mois (61,309)",
-      "mean_reversion_k": 0.3
+      "mean_reversion_k": 0.3,
+      "phillips_correlation": -0.35,
+      "signal_decay_lambda": 0.05,
+      "lognormal_offset": 3.0
     },
     "market_signals": {
-      "inflation_adjustment": 0.237,
+      "inflation_adjustment": 0.235,
       "chomage_adjustment": 0.175,
-      "energie_outlook": "hausse"
+      "energie_outlook": "hausse",
+      "ponderation_temporelle": {
+        "brent": 1.0,
+        "gaz_ttf": 0.861,
+        "eurusd": 1.0,
+        "defaillances": 1.0
+      }
     },
     "market_signals_details": {
       "brent": {
-        "valeur": 107.73,
+        "valeur": 108.9,
         "ref": 75.0,
-        "variation_ytd_pct": 77.33,
-        "impact_inflation_pt": 0.327
+        "variation_ytd_pct": 79.26,
+        "impact_inflation_pt": 0.339,
+        "poids_temporel": 1.0
       },
       "gaz_ttf": {
         "valeur": 54.18,
         "ref": 35.0,
-        "impact_inflation_pt": 0.096
+        "impact_inflation_pt": 0.083,
+        "poids_temporel": 0.861
       },
       "eurusd": {
         "valeur": 1.15,
         "ref": 1.08,
-        "impact_inflation_pt": -0.01
+        "impact_inflation_pt": -0.01,
+        "poids_temporel": 1.0
       },
       "defaillances": {
         "cumul_12m": 68961.0,
         "ref_adaptive": 61309.0,
         "variation_an_pct": 3.9,
-        "impact_chomage_pt": 0.115
+        "impact_chomage_pt": 0.115,
+        "poids_temporel": 1.0
       },
       "irl": {
         "glissement": 0.79,
@@ -22326,7 +22327,7 @@
       "confidence": 0.85,
       "mensuel": {
         "predictions": [
-          1.1,
+          1.0,
           1.1,
           1.2,
           1.3,
@@ -22334,50 +22335,50 @@
           1.6,
           1.6,
           1.6,
-          1.6,
+          1.5,
           1.6,
           1.6,
           1.6
         ],
         "lower_bound": [
           0.8,
-          0.9,
+          0.8,
           0.9,
           1.0,
           1.1,
-          1.3,
           1.2,
           1.2,
           1.2,
-          1.3,
-          1.3,
-          1.3
+          1.1,
+          1.2,
+          1.2,
+          1.2
         ],
         "upper_bound": [
           1.2,
           1.4,
           1.5,
           1.6,
-          1.7,
-          1.9,
-          1.9,
-          1.9,
+          1.8,
           1.9,
           2.0,
           2.0,
-          2.0
+          1.9,
+          2.1,
+          2.1,
+          2.1
         ],
         "p25": [
           0.9,
           1.0,
           1.0,
+          1.1,
           1.2,
+          1.4,
+          1.4,
+          1.4,
           1.3,
           1.4,
-          1.4,
-          1.4,
-          1.4,
-          1.5,
           1.4,
           1.4
         ],
@@ -22387,12 +22388,12 @@
           1.3,
           1.5,
           1.6,
-          1.7,
           1.8,
           1.8,
-          1.7,
           1.8,
           1.8,
+          1.9,
+          1.9,
           1.8
         ],
         "periods": [
@@ -22409,24 +22410,29 @@
           "2027-02",
           "2027-03"
         ],
-        "methodology": "Monte Carlo (1000 sim.) + saisonnalité + marchés + mean reversion non-linéaire (v6)"
+        "methodology": "Monte Carlo bivarié (1000 sim.) + log-normale + Phillips ρ=-0.35 (v7)"
       },
       "probabilites": {
-        "inflation_sous_2pct": 90.5,
-        "inflation_cible_bce": 90.5,
+        "inflation_sous_2pct": 85.3,
+        "inflation_cible_bce": 85.3,
         "inflation_au_dessus_3pct": 0.0,
         "inflation_au_dessus_4pct": 0.0,
-        "description": "90.5% de chances que l'inflation reste sous 2% à 12 mois"
+        "description": "85.3% de chances que l'inflation reste sous 2% à 12 mois"
       },
       "facteurs": {
         "cible_bdf": 1.4,
         "ajustement_climat": -0.03,
-        "ajustement_marches": 0.237,
+        "ajustement_marches": 0.235,
         "energie_outlook": "hausse",
-        "cible_ajustee": 1.607,
+        "cible_ajustee": 1.605,
         "volatilite_utilisee": 0.5
       },
-      "insight": "Inflation médiane à 12 mois : 1.6% [IC 80% : 1.3% - 2.0%]. 90.5% de probabilité de rester sous 2%."
+      "asymetrie_ic": {
+        "queue_haute": 0.5,
+        "queue_basse": 0.4,
+        "ratio": 1.25
+      },
+      "insight": "Inflation médiane à 12 mois : 1.6% [IC 80% : 1.2% - 2.1%]. Asymétrie : queue haute 0.5pt vs basse 0.4pt. 85.3% de probabilité de rester sous 2%."
     },
     "smic": {
       "current": {
@@ -22448,7 +22454,7 @@
           "fourchette": {
             "min": 1.6,
             "max": 2.4,
-            "source": "Percentiles p25/p75 Monte Carlo inflation (v6)"
+            "source": "Percentiles p25/p75 Monte Carlo inflation (v7)"
           }
         }
       ],
@@ -22459,10 +22465,21 @@
         "fourchette": {
           "min": 1.6,
           "max": 2.4,
-          "source": "Percentiles p25/p75 Monte Carlo inflation (v6)"
+          "source": "Percentiles p25/p75 Monte Carlo inflation (v7)"
         }
       },
-      "methodology": "Règles légales + percentiles p25/p75 Monte Carlo inflation (v6)"
+      "pouvoir_achat_reel": {
+        "hausse_reelle_p50_pct": 0.4,
+        "hausse_reelle_p10_pct": -0.5,
+        "hausse_reelle_p90_pct": 1.2,
+        "gain_mensuel_brut_p50_euros": 7.3,
+        "gain_mensuel_brut_p10_euros": -9.1,
+        "gain_mensuel_brut_p90_euros": 21.9,
+        "interpretation": "En scénario médian, le pouvoir d'achat SMIC progresse de 0.4% en 2027 (+7.3€/mois brut). Fourchette : [-0.5% ; +1.2%].",
+        "alerte_nao": false,
+        "message_nao": "✅ La revalorisation prévue (+2.0%) préserve le pouvoir d'achat."
+      },
+      "methodology": "Règles légales + percentiles p10/p25/p75/p90 MC + pouvoir d'achat réel (v7)"
     },
     "chomage": {
       "actuel": 7.7,
@@ -22506,12 +22523,12 @@
           "T4 2026",
           "T1 2027"
         ],
-        "methodology": "Monte Carlo (1000 sim.) + marchés + défaillances adaptive + mean reversion non-linéaire (v6)"
+        "methodology": "Monte Carlo bivarié (1000 sim.) + Phillips ρ=-0.35 (v7)"
       },
       "probabilites": {
         "chomage_sous_7pct": 0.0,
-        "chomage_sous_75pct": 0.6,
-        "chomage_au_dessus_8pct": 1.7
+        "chomage_sous_75pct": 0.3,
+        "chomage_au_dessus_8pct": 2.0
       },
       "facteurs": {
         "cible_bdf": 7.7,
@@ -22519,7 +22536,8 @@
         "ajustement_recrutement": -0.11,
         "ajustement_marches": 0.175,
         "cible_ajustee": 7.825,
-        "volatilite_utilisee": 0.25
+        "volatilite_utilisee": 0.25,
+        "correlation_phillips": -0.35
       },
       "insight": "Chômage médian à Q4 : 7.8% [IC 80% : 7.6% - 7.9%]. 0.0% de probabilité de rester sous 7%."
     },
@@ -22528,21 +22546,18 @@
         "inflation_12m": 1.4,
         "chomage_q4": 7.7,
         "smic_increase": "+2.3%",
-        "pib": "+1.5%",
         "hypotheses": "Scénario favorable (percentile 25)"
       },
       "central": {
         "inflation_12m": 1.6,
         "chomage_q4": 7.8,
         "smic_increase": "+2.0%",
-        "pib": "+1.0%",
-        "hypotheses": "Scénario médian (BDF + marchés v6)"
+        "hypotheses": "Scénario médian (BDF + marchés v7)"
       },
       "pessimiste": {
         "inflation_12m": 1.8,
         "chomage_q4": 7.8,
         "smic_increase": "+1.8%",
-        "pib": "+0.5%",
         "hypotheses": "Scénario défavorable (percentile 75)"
       }
     },
@@ -22624,20 +22639,20 @@
       }
     },
     "notes_lecture": [
-      "📈 Inflation médiane à 12 mois : 1.6% [1.3% - 2.0%] — 90.5% de chances de rester sous 2%",
-      "💰 SMIC janvier 2027 : 1859€ brut (+2.0%, fourchette 1.6-2.4%)",
-      "👥 Chômage Q4 : 7.8% [7.6% - 7.9%] — Tendance stable",
-      "📊 Signaux marchés : ↑ inflation 0.24pt, ↑ chômage 0.17pt",
+      "📈 Inflation médiane à 12 mois : 1.6% [1.2% - 2.1%] — 85.3% de chances de rester sous 2% (asymétrie : +0.5pt / -0.4pt)",
+      "💰 SMIC janvier 2027 : 1859€ brut (+2.0%, fourchette 1.6-2.4%) — Pouvoir d'achat réel : +0.4% (+7€/mois)",
+      "👥 Chômage Q4 : 7.8% [7.6% - 7.9%] — Tendance stable (corrélé Phillips ρ=-0.35)",
+      "📊 Signaux marchés : ↑ inflation 0.23pt, ↑ chômage 0.17pt, (poids temporel min : 0.86)",
       "🎲 Scénario à surveiller : 🚀 Reprise économique forte (25%)",
       "💡 Recommandation NAO : demander au minimum +2.1% pour préserver le pouvoir d'achat"
     ],
     "uncertainty_decomposition": {
       "inflation": {
-        "ic_total_pts": 0.8,
+        "ic_total_pts": 0.9,
         "sources": {
           "volatilite_historique": {
-            "ic_pts": 0.7,
-            "part_pct": 87.5,
+            "ic_pts": 0.9,
+            "part_pct": 100.0,
             "label": "Variabilité passée de l'inflation"
           },
           "signaux_marches": {
@@ -22646,8 +22661,8 @@
             "label": "Brent, gaz, EUR/USD, SMB..."
           },
           "incertitude_bdf": {
-            "ic_pts": 0.1,
-            "part_pct": 12.5,
+            "ic_pts": 0,
+            "part_pct": 0.0,
             "label": "Incertitude sur la cible Banque de France"
           }
         }
@@ -22672,7 +22687,8 @@
           }
         }
       },
-      "note": "IC = intervalle p90-p10 à 12 mois. Contributions estimées par 3 séries de 1000 simulations séparées."
+      "correlation_phillips": -0.35,
+      "note": "IC = intervalle p90-p10 à 12 mois. 3 × 1000 simulations bivariées (corrélation Phillips ρ=-0.35)."
     },
     "drift_analysis": {
       "disponible": false,
@@ -22680,33 +22696,28 @@
     },
     "backtesting": {
       "disponible": false,
-      "message": "Historique insuffisant (0 semaine(s) archivée(s)). Backtesting disponible dans ~4 semaine(s) (minimum 4, significatif après 26).",
+      "message": "Historique insuffisant (0 semaine(s)). Backtesting disponible dans ~4 semaine(s) (significatif après 26).",
       "semaines_archivees": 0,
       "semaines_necessaires": 26
     },
     "sources": [
       "Banque de France — Projections macroéconomiques",
-      "INSEE — IPC, emploi, salaires (volatilités dynamiques v6)",
-      "Yahoo Finance / FRED — Marchés financiers",
-      "DARES — Défaillances (référence adaptive v6)",
+      "INSEE — IPC, emploi, salaires (volatilités dynamiques)",
+      "Yahoo Finance / FRED — Marchés financiers (pondération temporelle v7)",
+      "DARES — Défaillances (référence adaptive)",
       "Code du travail — Articles L3231-4 à L3231-11",
-      "Modèle CFTC v6.0 — Monte Carlo (1000 simulations)"
+      "Modèle CFTC v7.0 — Monte Carlo bivarié (1000 simulations)"
     ],
     "methodology": {
-      "type": "Monte Carlo avec calibrage dynamique et signaux marchés",
+      "type": "Monte Carlo bivarié avec corrélation de Phillips",
       "simulations": 1000,
-      "nouveautes_v6": [
-        "Référence défaillances adaptive (moyenne glissante 12 mois)",
-        "Volatilités dynamiques calculées sur séries INSEE historiques",
-        "Mean reversion non-linéaire (force proportionnelle à l'écart)",
-        "Signal confiance ménages → inflation services",
-        "Signal taux immobilier → chômage construction",
-        "Signal SMB sectoriel → inflation salariale",
-        "Cache + analyse de dérive semaine précédente",
-        "Backtesting automatique avec archivage historique",
-        "Décomposition de l'intervalle de confiance (3 sources)"
+      "nouveautes_v7": [
+        "Simulation bivariée inflation/chômage (corrélation Phillips ρ=-0.35)",
+        "Distribution log-normale pour l'inflation (asymétrie réaliste)",
+        "Pondération temporelle des signaux (demi-vie 14j)",
+        "Pouvoir d'achat SMIC réel (p10/p50/p90 + euros/mois)"
       ]
     },
-    "disclaimer": "Prévisions probabilistes Monte Carlo enrichi par données de marché en temps réel et calibrage dynamique."
+    "disclaimer": "Prévisions probabilistes Monte Carlo bivarié enrichi par données de marché en temps réel. Corrélation de Phillips empirique France 20 ans (ρ=-0.35)."
   }
 }
