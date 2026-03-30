@@ -1,6 +1,6 @@
 {
-  "last_updated": "30/03/2026 09:59",
-  "last_updated_iso": "2026-03-30T09:59:06.262813",
+  "last_updated": "30/03/2026 10:03",
+  "last_updated_iso": "2026-03-30T10:03:20.042785",
   "contact": "hspringragain@cftc.fr",
   "alertes": [
     {
@@ -32,7 +32,7 @@
       "date": "2026-03-30",
       "type": "info",
       "titre": "🔄 Données actualisées",
-      "message": "Le tableau de bord a été mis à jour le 30/03/2026 à 09:59.",
+      "message": "Le tableau de bord a été mis à jour le 30/03/2026 à 10:03.",
       "onglet": "conjoncture"
     }
   ],
@@ -193,7 +193,7 @@
     }
   ],
   "revue_presse": {
-    "derniere_maj": "30/03/2026 09:59",
+    "derniere_maj": "30/03/2026 10:03",
     "nb_sources": 7,
     "sources_noms": [
       "Le Monde Éco",
@@ -326,6 +326,18 @@
         "date_iso": "2026-03-30T10:22:11+02:00",
         "date_fr": "30/03/2026",
         "pertinence": 3
+      },
+      {
+        "source": "Libération Éco",
+        "couleur": "#dc2626",
+        "emoji": "📰",
+        "tag": "Presse économique",
+        "titre": "Céline Dion : la star mijote une grande annonce ce lundi après une campagne d’affichage mystérieuse dans Paris",
+        "resume": "France Télé a donné rendez-vous à ses téléspectateurs ce lundi à 21 h 05 sur France 2, jour de l’anniversaire de la diva. La bande-annonce de l’évènement suggère que la star pourrait confirmer son retour sur scène à Paris après six ans d’absence liés à sa maladie.",
+        "lien": "https://www.liberation.fr/international/amerique/celine-dion-la-star-mijote-une-grande-annonce-ce-lundi-apres-une-campagne-daffichage-mysterieuse-dans-paris-20260330_RH5H4EYMC5DUZC4HK7XCOQYJMU/",
+        "date_iso": "2026-03-30T10:01:25+00:00",
+        "date_fr": "30/03/2026",
+        "pertinence": 0
       },
       {
         "source": "Le Figaro Éco",
@@ -566,18 +578,6 @@
         "date_iso": "2026-03-30T06:00:04+02:00",
         "date_fr": "30/03/2026",
         "pertinence": 1
-      },
-      {
-        "source": "Le Monde Éco",
-        "couleur": "#374151",
-        "emoji": "🌐",
-        "tag": "Presse économique",
-        "titre": "CNews sous le feu des critiques après des propos jugés racistes à l’encontre de Bally Bagayoko, une histoire qui se répète",
-        "resume": "Deux interventions, les 27 et 28 mars, sur la chaîne d’opinion visant le nouveau maire de Saint-Denis ont provoqué l’indignation à gauche. L’élu LFI a porté plainte et l’Arcom, autorité régulatrice, a été plusieurs fois saisie. La chaîne de Vincent Bolloré est l’antenne la plus sanctionnée de l’audi",
-        "lien": "https://www.lemonde.fr/economie/article/2026/03/30/cnews-sous-le-feu-des-critiques-apres-des-propos-juges-racistes-a-l-encontre-de-bally-bagayoko-une-histoire-qui-se-repete_6675383_3234.html",
-        "date_iso": "2026-03-30T05:49:18+02:00",
-        "date_fr": "30/03/2026",
-        "pertinence": 0
       }
     ]
   },
@@ -2910,7 +2910,7 @@
       "note_lecture": "Le TEC-10 mesure le rendement des emprunts d'Etat francais a 10 ans. Un taux eleve rencherit le cout de la dette publique et impacte les taux de credit immobilier."
     },
     "petrole_brent": {
-      "valeur": 107.81,
+      "valeur": 107.8,
       "date": "2026-03-30",
       "unite": "USD/baril",
       "source": "Yahoo Finance",
@@ -4424,16 +4424,16 @@
         },
         {
           "date": "2026-03-30",
-          "valeur": 107.81,
+          "valeur": 107.8,
           "ma50": 81.08,
           "ma200": 69.68
         }
       ],
       "variations": {
-        "jour": -4.23,
-        "semaine": 7.87,
-        "mois": 52.38,
-        "ytd": 77.47
+        "jour": -4.24,
+        "semaine": 7.86,
+        "mois": 52.37,
+        "ytd": 77.45
       },
       "min_max": {
         "min": 58.92,
@@ -4444,9 +4444,9 @@
       "note_lecture": "Le prix du Brent influence directement les couts de transport et d'energie, donc l'inflation et le pouvoir d'achat des salaries."
     },
     "cac40": {
-      "valeur": 7702.57,
+      "valeur": 7698.43,
       "date": "2026-03-30",
-      "variation_jour_pct": 0.01,
+      "variation_jour_pct": -0.05,
       "unite": "points",
       "source": "Yahoo Finance",
       "nb_points": 255,
@@ -5977,16 +5977,16 @@
         },
         {
           "date": "2026-03-30",
-          "valeur": 7702.57,
-          "ma50": 8139.64,
-          "ma200": 7995.65
+          "valeur": 7698.43,
+          "ma50": 8139.56,
+          "ma200": 7995.63
         }
       ],
       "variations": {
-        "jour": 0.01,
-        "semaine": -0.31,
-        "mois": -10.65,
-        "ytd": -6.01
+        "jour": -0.05,
+        "semaine": -0.36,
+        "mois": -10.7,
+        "ytd": -6.06
       },
       "min_max": {
         "min": 6863.02,
@@ -7561,7 +7561,7 @@
       "note_lecture": "Le taux de change euro-dollar determine le prix de tout ce qui est importe en dollars : petrole, matieres premieres, electronique. Un euro faible rencherit les importations et alimente l'inflation."
     },
     "or": {
-      "valeur": 4564.3,
+      "valeur": 4562.1,
       "date": "2026-03-30",
       "unite": "USD/oz",
       "source": "Yahoo Finance",
@@ -9075,16 +9075,16 @@
         },
         {
           "date": "2026-03-30",
-          "valeur": 4564.3,
-          "ma50": 4939.99,
-          "ma200": 4096.98
+          "valeur": 4562.1,
+          "ma50": 4939.94,
+          "ma200": 4096.97
         }
       ],
       "variations": {
-        "jour": 1.61,
-        "semaine": 3.64,
-        "mois": -11.83,
-        "ytd": 5.79
+        "jour": 1.56,
+        "semaine": 3.59,
+        "mois": -11.87,
+        "ytd": 5.74
       },
       "min_max": {
         "min": 2951.3,
@@ -10629,7 +10629,7 @@
       "note_lecture": "Le prix du gaz naturel (TTF europeen) impacte directement les factures de chauffage et d'electricite des menages, ainsi que les couts de production industrielle."
     },
     "ble": {
-      "valeur": 603.5,
+      "valeur": 602.75,
       "date": "2026-03-30",
       "unite": "cents/boisseau",
       "source": "Yahoo Finance",
@@ -12137,16 +12137,16 @@
         },
         {
           "date": "2026-03-30",
-          "valeur": 603.5,
-          "ma50": 562.85,
+          "valeur": 602.75,
+          "ma50": 562.84,
           "ma200": 532.75
         }
       ],
       "variations": {
-        "jour": -0.25,
-        "semaine": 2.68,
-        "mois": 5.55,
-        "ytd": 19.15
+        "jour": -0.37,
+        "semaine": 2.55,
+        "mois": 5.42,
+        "ytd": 19.0
       },
       "min_max": {
         "min": 495.0,
@@ -13691,7 +13691,7 @@
       "note_lecture": "Le cuivre est le baromètre de l'activité industrielle mondiale ('Dr Copper'). Sa hausse signale une reprise économique, sa baisse anticipe un ralentissement. Utilisé massivement dans l'électrification et les énergies renouvelables."
     },
     "lme_aluminium": {
-      "valeur": 3365.5,
+      "valeur": 3361.5,
       "date": "2026-03-30",
       "unite": "cts/lb",
       "source": "Yahoo Finance",
@@ -15199,16 +15199,16 @@
         },
         {
           "date": "2026-03-30",
-          "valeur": 3365.5,
-          "ma50": 3121.62,
-          "ma200": 2771.62
+          "valeur": 3361.5,
+          "ma50": 3121.54,
+          "ma200": 2771.61
         }
       ],
       "variations": {
-        "jour": 5.58,
-        "semaine": 9.41,
-        "mois": 9.56,
-        "ytd": 14.55
+        "jour": 5.46,
+        "semaine": 9.28,
+        "mois": 9.43,
+        "ytd": 14.41
       },
       "min_max": {
         "min": 2166.25,
@@ -22238,7 +22238,7 @@
     "sources": "INSEE - Enquête Emploi, DARES"
   },
   "previsions_cftc": {
-    "generated_at": "2026-03-30T09:59:06.428034",
+    "generated_at": "2026-03-30T10:03:20.410582",
     "model_version": "CFTC v7.0 (bivarié Phillips + log-normale + pondération temporelle)",
     "n_simulations": 1000,
     "horizon": "12 mois",
@@ -22247,7 +22247,7 @@
       "niveau": "excellent",
       "issues": [],
       "warnings": [],
-      "timestamp": "2026-03-30T09:59:06.428048"
+      "timestamp": "2026-03-30T10:03:20.410601"
     },
     "calibrage": {
       "volatilites": {
@@ -22287,9 +22287,9 @@
     },
     "market_signals_details": {
       "brent": {
-        "valeur": 107.81,
+        "valeur": 107.8,
         "ref": 75.0,
-        "variation_ytd_pct": 77.47,
+        "variation_ytd_pct": 77.45,
         "impact_inflation_pt": 0.328,
         "poids_temporel": 1.0
       },
@@ -22317,7 +22317,7 @@
         "signal": "baissier"
       },
       "cac40_ytd": {
-        "variation_ytd_pct": -6.01,
+        "variation_ytd_pct": -6.06,
         "signal_chomage": "neutre"
       },
       "carburants_sp95": {
