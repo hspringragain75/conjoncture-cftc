@@ -1,6 +1,6 @@
 {
-  "last_updated": "31/03/2026 19:46",
-  "last_updated_iso": "2026-03-31T19:46:59.266967",
+  "last_updated": "31/03/2026 19:49",
+  "last_updated_iso": "2026-03-31T19:49:30.322804",
   "contact": "hspringragain@cftc.fr",
   "alertes": [
     {
@@ -32,7 +32,7 @@
       "date": "2026-03-31",
       "type": "info",
       "titre": "🔄 Données actualisées",
-      "message": "Le tableau de bord a été mis à jour le 31/03/2026 à 19:46.",
+      "message": "Le tableau de bord a été mis à jour le 31/03/2026 à 19:49.",
       "onglet": "conjoncture"
     }
   ],
@@ -193,7 +193,7 @@
     }
   ],
   "revue_presse": {
-    "derniere_maj": "31/03/2026 19:46",
+    "derniere_maj": "31/03/2026 19:49",
     "nb_sources": 7,
     "sources_noms": [
       "Le Monde Éco",
@@ -216,18 +216,6 @@
         "date_iso": "2026-03-31T16:12:28+02:00",
         "date_fr": "31/03/2026",
         "pertinence": 4
-      },
-      {
-        "source": "Libération Éco",
-        "couleur": "#dc2626",
-        "emoji": "📰",
-        "tag": "Presse économique",
-        "titre": "Salaires bloqués depuis quatre ans : pourquoi les aides à domicile sont prises en tenaille entre l’Etat et les départements",
-        "resume": "Rémunérées près du smic horaire et touchées par la crise énergétique, près de 200 000 salariées, surtout des femmes, du secteur associatif voient leur sort suspendu à l’agrément d’un accord signé entre patronat et syndicats.",
-        "lien": "https://www.liberation.fr/economie/social/salaires-bloques-depuis-quatre-ans-pourquoi-les-aides-a-domicile-sont-prises-en-tenaille-entre-letat-et-les-departements-20260331_P2JVEQLFCJCKFCT7MZODENSYV4/",
-        "date_iso": "2026-03-31T14:18:22+00:00",
-        "date_fr": "31/03/2026",
-        "pertinence": 3
       }
     ],
     "tous": [
@@ -544,6 +532,18 @@
         "pertinence": 0
       },
       {
+        "source": "Euractiv FR",
+        "couleur": "#0369a1",
+        "emoji": "🇪🇺",
+        "tag": "Europe & politique",
+        "titre": "L’inflation bondit en zone euro, dopée par la flambée des prix de l’énergie",
+        "resume": "« Le prix à la pompe est le principal responsable », a fait remarquer un analyste The post L’inflation bondit en zone euro, dopée par la flambée des prix de l’énergie appeared first on Euractiv FR .",
+        "lien": "https://euractiv.fr/news/linflation-bondit-en-zone-euro-dopee-par-la-flambee-des-prix-de-lenergie/",
+        "date_iso": "2026-03-31T15:39:15+00:00",
+        "date_fr": "31/03/2026",
+        "pertinence": 1
+      },
+      {
         "source": "Libération Éco",
         "couleur": "#dc2626",
         "emoji": "📰",
@@ -578,18 +578,6 @@
         "date_iso": "2026-03-31T15:30:03+02:00",
         "date_fr": "31/03/2026",
         "pertinence": 1
-      },
-      {
-        "source": "Libération Éco",
-        "couleur": "#dc2626",
-        "emoji": "📰",
-        "tag": "Presse économique",
-        "titre": "Salaires bloqués depuis quatre ans : pourquoi les aides à domicile sont prises en tenaille entre l’Etat et les départements",
-        "resume": "Rémunérées près du smic horaire et touchées par la crise énergétique, près de 200 000 salariées, surtout des femmes, du secteur associatif voient leur sort suspendu à l’agrément d’un accord signé entre patronat et syndicats.",
-        "lien": "https://www.liberation.fr/economie/social/salaires-bloques-depuis-quatre-ans-pourquoi-les-aides-a-domicile-sont-prises-en-tenaille-entre-letat-et-les-departements-20260331_P2JVEQLFCJCKFCT7MZODENSYV4/",
-        "date_iso": "2026-03-31T14:18:22+00:00",
-        "date_fr": "31/03/2026",
-        "pertinence": 3
       }
     ]
   },
@@ -2922,7 +2910,7 @@
       "note_lecture": "Le TEC-10 mesure le rendement des emprunts d'Etat francais a 10 ans. Un taux eleve rencherit le cout de la dette publique et impacte les taux de credit immobilier."
     },
     "petrole_brent": {
-      "valeur": 104.54,
+      "valeur": 104.35,
       "date": "2026-03-31",
       "unite": "USD/baril",
       "source": "Yahoo Finance",
@@ -4442,16 +4430,16 @@
         },
         {
           "date": "2026-03-31",
-          "valeur": 104.54,
+          "valeur": 104.35,
           "ma50": 81.98,
           "ma200": 69.86
         }
       ],
       "variations": {
-        "jour": -7.31,
-        "semaine": 0.05,
-        "mois": 44.23,
-        "ytd": 72.08
+        "jour": -7.47,
+        "semaine": -0.13,
+        "mois": 43.97,
+        "ytd": 71.77
       },
       "min_max": {
         "min": 58.92,
@@ -7591,7 +7579,7 @@
       "note_lecture": "Le taux de change euro-dollar determine le prix de tout ce qui est importe en dollars : petrole, matieres premieres, electronique. Un euro faible rencherit les importations et alimente l'inflation."
     },
     "or": {
-      "valeur": 4709.7,
+      "valeur": 4711.1,
       "date": "2026-03-31",
       "unite": "USD/oz",
       "source": "Yahoo Finance",
@@ -9111,16 +9099,16 @@
         },
         {
           "date": "2026-03-31",
-          "valeur": 4709.7,
-          "ma50": 4941.65,
-          "ma200": 4103.18
+          "valeur": 4711.1,
+          "ma50": 4941.67,
+          "ma200": 4103.19
         }
       ],
       "variations": {
-        "jour": 4.06,
-        "semaine": 7.06,
-        "mois": -9.96,
-        "ytd": 9.16
+        "jour": 4.09,
+        "semaine": 7.09,
+        "mois": -9.93,
+        "ytd": 9.19
       },
       "min_max": {
         "min": 2951.3,
@@ -22304,7 +22292,7 @@
     "sources": "INSEE - Enquête Emploi, DARES"
   },
   "previsions_cftc": {
-    "generated_at": "2026-03-31T19:46:59.511090",
+    "generated_at": "2026-03-31T19:49:30.577406",
     "model_version": "CFTC v7.0 (bivarié Phillips + log-normale + pondération temporelle)",
     "n_simulations": 1000,
     "horizon": "12 mois",
@@ -22313,7 +22301,7 @@
       "niveau": "excellent",
       "issues": [],
       "warnings": [],
-      "timestamp": "2026-03-31T19:46:59.511101"
+      "timestamp": "2026-03-31T19:49:30.577422"
     },
     "calibrage": {
       "volatilites": {
@@ -22341,7 +22329,7 @@
       "lognormal_offset": 3.0
     },
     "market_signals": {
-      "inflation_adjustment": 0.182,
+      "inflation_adjustment": 0.18,
       "chomage_adjustment": 0.175,
       "energie_outlook": "hausse",
       "ponderation_temporelle": {
@@ -22353,10 +22341,10 @@
     },
     "market_signals_details": {
       "brent": {
-        "valeur": 104.54,
+        "valeur": 104.35,
         "ref": 75.0,
-        "variation_ytd_pct": 72.08,
-        "impact_inflation_pt": 0.295,
+        "variation_ytd_pct": 71.77,
+        "impact_inflation_pt": 0.293,
         "poids_temporel": 1.0
       },
       "gaz_ttf": {
@@ -22436,7 +22424,7 @@
           0.8,
           0.9,
           1.0,
-          1.1,
+          1.0,
           1.2,
           1.2,
           1.1,
@@ -22455,7 +22443,7 @@
           1.9,
           1.9,
           1.9,
-          2.1,
+          2.0,
           2.0,
           2.0
         ],
@@ -22513,9 +22501,9 @@
       "facteurs": {
         "cible_bdf": 1.4,
         "ajustement_climat": -0.03,
-        "ajustement_marches": 0.182,
+        "ajustement_marches": 0.18,
         "energie_outlook": "hausse",
-        "cible_ajustee": 1.552,
+        "cible_ajustee": 1.55,
         "volatilite_utilisee": 0.5
       },
       "asymetrie_ic": {
@@ -22758,7 +22746,7 @@
           }
         },
         "contribution_mediane": {
-          "signaux_marches_pt": 0.182,
+          "signaux_marches_pt": 0.18,
           "incertitude_bdf_sigma": 0.15,
           "label": "Déplacement de la prévision centrale"
         }
