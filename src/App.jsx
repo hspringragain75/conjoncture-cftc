@@ -8,7 +8,7 @@ import BubbleNavTabs from './components/BubbleNavTabs';
 import BubbleStatBlock from './components/BubbleStatBlock';
 import BubbleProgressBar from './components/BubbleProgressBar';
 import { useChartProps } from './hooks/useChartProps';
-import { useFavoris } from './hooks/useFavoris';
+import useFavoris from './hooks/useFavoris';
 import { buildCatalogue } from './utils/catalogue';
 import HeaderKpiConfigModal from './components/HeaderKpiConfigModal';
 import FavorisTab from './tabs/FavorisTab';
