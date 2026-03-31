@@ -1,6 +1,6 @@
 {
-  "last_updated": "31/03/2026 19:38",
-  "last_updated_iso": "2026-03-31T19:38:13.553919",
+  "last_updated": "31/03/2026 19:39",
+  "last_updated_iso": "2026-03-31T19:39:26.429562",
   "contact": "hspringragain@cftc.fr",
   "alertes": [
     {
@@ -32,7 +32,7 @@
       "date": "2026-03-31",
       "type": "info",
       "titre": "🔄 Données actualisées",
-      "message": "Le tableau de bord a été mis à jour le 31/03/2026 à 19:38.",
+      "message": "Le tableau de bord a été mis à jour le 31/03/2026 à 19:39.",
       "onglet": "conjoncture"
     }
   ],
@@ -193,7 +193,7 @@
     }
   ],
   "revue_presse": {
-    "derniere_maj": "31/03/2026 19:38",
+    "derniere_maj": "31/03/2026 19:39",
     "nb_sources": 7,
     "sources_noms": [
       "Le Monde Éco",
@@ -2910,7 +2910,7 @@
       "note_lecture": "Le TEC-10 mesure le rendement des emprunts d'Etat francais a 10 ans. Un taux eleve rencherit le cout de la dette publique et impacte les taux de credit immobilier."
     },
     "petrole_brent": {
-      "valeur": 104.7,
+      "valeur": 104.75,
       "date": "2026-03-31",
       "unite": "USD/baril",
       "source": "Yahoo Finance",
@@ -4430,16 +4430,16 @@
         },
         {
           "date": "2026-03-31",
-          "valeur": 104.7,
+          "valeur": 104.75,
           "ma50": 81.99,
           "ma200": 69.86
         }
       ],
       "variations": {
-        "jour": -7.16,
-        "semaine": 0.2,
-        "mois": 44.45,
-        "ytd": 72.35
+        "jour": -7.12,
+        "semaine": 0.25,
+        "mois": 44.52,
+        "ytd": 72.43
       },
       "min_max": {
         "min": 58.92,
@@ -7579,7 +7579,7 @@
       "note_lecture": "Le taux de change euro-dollar determine le prix de tout ce qui est importe en dollars : petrole, matieres premieres, electronique. Un euro faible rencherit les importations et alimente l'inflation."
     },
     "or": {
-      "valeur": 4703.6,
+      "valeur": 4702.6,
       "date": "2026-03-31",
       "unite": "USD/oz",
       "source": "Yahoo Finance",
@@ -9099,16 +9099,16 @@
         },
         {
           "date": "2026-03-31",
-          "valeur": 4703.6,
-          "ma50": 4941.52,
-          "ma200": 4103.15
+          "valeur": 4702.6,
+          "ma50": 4941.5,
+          "ma200": 4103.14
         }
       ],
       "variations": {
-        "jour": 3.92,
-        "semaine": 6.92,
-        "mois": -10.07,
-        "ytd": 9.02
+        "jour": 3.9,
+        "semaine": 6.89,
+        "mois": -10.09,
+        "ytd": 9.0
       },
       "min_max": {
         "min": 2951.3,
@@ -22292,7 +22292,7 @@
     "sources": "INSEE - Enquête Emploi, DARES"
   },
   "previsions_cftc": {
-    "generated_at": "2026-03-31T19:38:13.774207",
+    "generated_at": "2026-03-31T19:39:26.663631",
     "model_version": "CFTC v7.0 (bivarié Phillips + log-normale + pondération temporelle)",
     "n_simulations": 1000,
     "horizon": "12 mois",
@@ -22301,7 +22301,7 @@
       "niveau": "excellent",
       "issues": [],
       "warnings": [],
-      "timestamp": "2026-03-31T19:38:13.774219"
+      "timestamp": "2026-03-31T19:39:26.663642"
     },
     "calibrage": {
       "volatilites": {
@@ -22329,7 +22329,7 @@
       "lognormal_offset": 3.0
     },
     "market_signals": {
-      "inflation_adjustment": 0.183,
+      "inflation_adjustment": 0.184,
       "chomage_adjustment": 0.175,
       "energie_outlook": "hausse",
       "ponderation_temporelle": {
@@ -22341,10 +22341,10 @@
     },
     "market_signals_details": {
       "brent": {
-        "valeur": 104.7,
+        "valeur": 104.75,
         "ref": 75.0,
-        "variation_ytd_pct": 72.35,
-        "impact_inflation_pt": 0.297,
+        "variation_ytd_pct": 72.43,
+        "impact_inflation_pt": 0.298,
         "poids_temporel": 1.0
       },
       "gaz_ttf": {
@@ -22501,9 +22501,9 @@
       "facteurs": {
         "cible_bdf": 1.4,
         "ajustement_climat": -0.03,
-        "ajustement_marches": 0.183,
+        "ajustement_marches": 0.184,
         "energie_outlook": "hausse",
-        "cible_ajustee": 1.553,
+        "cible_ajustee": 1.554,
         "volatilite_utilisee": 0.5
       },
       "asymetrie_ic": {
@@ -22746,7 +22746,7 @@
           }
         },
         "contribution_mediane": {
-          "signaux_marches_pt": 0.183,
+          "signaux_marches_pt": 0.184,
           "incertitude_bdf_sigma": 0.15,
           "label": "Déplacement de la prévision centrale"
         }
