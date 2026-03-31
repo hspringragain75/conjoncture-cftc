@@ -1,6 +1,6 @@
 {
-  "last_updated": "31/03/2026 19:39",
-  "last_updated_iso": "2026-03-31T19:39:26.429562",
+  "last_updated": "31/03/2026 19:46",
+  "last_updated_iso": "2026-03-31T19:46:59.266967",
   "contact": "hspringragain@cftc.fr",
   "alertes": [
     {
@@ -32,7 +32,7 @@
       "date": "2026-03-31",
       "type": "info",
       "titre": "🔄 Données actualisées",
-      "message": "Le tableau de bord a été mis à jour le 31/03/2026 à 19:39.",
+      "message": "Le tableau de bord a été mis à jour le 31/03/2026 à 19:46.",
       "onglet": "conjoncture"
     }
   ],
@@ -193,7 +193,7 @@
     }
   ],
   "revue_presse": {
-    "derniere_maj": "31/03/2026 19:39",
+    "derniere_maj": "31/03/2026 19:46",
     "nb_sources": 7,
     "sources_noms": [
       "Le Monde Éco",
@@ -216,9 +216,33 @@
         "date_iso": "2026-03-31T16:12:28+02:00",
         "date_fr": "31/03/2026",
         "pertinence": 4
+      },
+      {
+        "source": "Libération Éco",
+        "couleur": "#dc2626",
+        "emoji": "📰",
+        "tag": "Presse économique",
+        "titre": "Salaires bloqués depuis quatre ans : pourquoi les aides à domicile sont prises en tenaille entre l’Etat et les départements",
+        "resume": "Rémunérées près du smic horaire et touchées par la crise énergétique, près de 200 000 salariées, surtout des femmes, du secteur associatif voient leur sort suspendu à l’agrément d’un accord signé entre patronat et syndicats.",
+        "lien": "https://www.liberation.fr/economie/social/salaires-bloques-depuis-quatre-ans-pourquoi-les-aides-a-domicile-sont-prises-en-tenaille-entre-letat-et-les-departements-20260331_P2JVEQLFCJCKFCT7MZODENSYV4/",
+        "date_iso": "2026-03-31T14:18:22+00:00",
+        "date_fr": "31/03/2026",
+        "pertinence": 3
       }
     ],
     "tous": [
+      {
+        "source": "Le Figaro Éco",
+        "couleur": "#92400e",
+        "emoji": "📊",
+        "tag": "Presse économique",
+        "titre": "De l’innovation sans limites à la machine à cash... À 50 ans, Apple est-il encore capable de surprendre ?",
+        "resume": "RÉCIT - Devenue la marque la plus célèbre au monde, le géant californien connaît, malgré certaines critiques sur son manque de créativité et son retard dans l’IA, des performances commerciales toujours exceptionnelles.",
+        "lien": "https://www.lefigaro.fr/secteur/high-tech/de-l-innovation-sans-limites-a-la-machine-a-cash-a-50-ans-apple-est-il-encore-capable-de-surprendre-20260331",
+        "date_iso": "2026-03-31T21:30:45+02:00",
+        "date_fr": "31/03/2026",
+        "pertinence": 0
+      },
       {
         "source": "Le Figaro Éco",
         "couleur": "#92400e",
@@ -264,18 +288,6 @@
         "resume": "L’intersyndicale du journal régional conteste les 13 millions d’euros d’économies annuelles voulues par la direction, dont la stratégie est critiquée en interne.",
         "lien": "https://www.lemonde.fr/economie/article/2026/03/31/a-ouest-france-un-plan-d-economies-d-urgence-suscite-inquietudes-et-defiance_6675695_3234.html",
         "date_iso": "2026-03-31T20:11:55+02:00",
-        "date_fr": "31/03/2026",
-        "pertinence": 0
-      },
-      {
-        "source": "Le Figaro Éco",
-        "couleur": "#92400e",
-        "emoji": "📊",
-        "tag": "Presse économique",
-        "titre": "De l’innovation sans limites à la machine à cash... À 50 ans, Apple est-il encore capable de surprendre ?",
-        "resume": "RÉCIT - Devenue la marque la plus célèbre au monde, le géant californien connaît, malgré certaines critiques sur son manque de créativité et son retard dans l’IA, des performances commerciales toujours exceptionnelles.",
-        "lien": "https://www.lefigaro.fr/secteur/high-tech/de-l-innovation-sans-limites-a-la-machine-a-cash-a-50-ans-apple-est-il-encore-capable-de-surprendre-20260331",
-        "date_iso": "2026-03-31T20:10:00+02:00",
         "date_fr": "31/03/2026",
         "pertinence": 0
       },
@@ -532,18 +544,6 @@
         "pertinence": 0
       },
       {
-        "source": "Euractiv FR",
-        "couleur": "#0369a1",
-        "emoji": "🇪🇺",
-        "tag": "Europe & politique",
-        "titre": "L’inflation bondit en zone euro, dopée par la flambée des prix de l’énergie",
-        "resume": "« Le prix à la pompe est le principal responsable », a fait remarquer un analyste The post L’inflation bondit en zone euro, dopée par la flambée des prix de l’énergie appeared first on Euractiv FR .",
-        "lien": "https://euractiv.fr/news/linflation-bondit-en-zone-euro-dopee-par-la-flambee-des-prix-de-lenergie/",
-        "date_iso": "2026-03-31T15:39:15+00:00",
-        "date_fr": "31/03/2026",
-        "pertinence": 1
-      },
-      {
         "source": "Libération Éco",
         "couleur": "#dc2626",
         "emoji": "📰",
@@ -578,6 +578,18 @@
         "date_iso": "2026-03-31T15:30:03+02:00",
         "date_fr": "31/03/2026",
         "pertinence": 1
+      },
+      {
+        "source": "Libération Éco",
+        "couleur": "#dc2626",
+        "emoji": "📰",
+        "tag": "Presse économique",
+        "titre": "Salaires bloqués depuis quatre ans : pourquoi les aides à domicile sont prises en tenaille entre l’Etat et les départements",
+        "resume": "Rémunérées près du smic horaire et touchées par la crise énergétique, près de 200 000 salariées, surtout des femmes, du secteur associatif voient leur sort suspendu à l’agrément d’un accord signé entre patronat et syndicats.",
+        "lien": "https://www.liberation.fr/economie/social/salaires-bloques-depuis-quatre-ans-pourquoi-les-aides-a-domicile-sont-prises-en-tenaille-entre-letat-et-les-departements-20260331_P2JVEQLFCJCKFCT7MZODENSYV4/",
+        "date_iso": "2026-03-31T14:18:22+00:00",
+        "date_fr": "31/03/2026",
+        "pertinence": 3
       }
     ]
   },
@@ -2910,7 +2922,7 @@
       "note_lecture": "Le TEC-10 mesure le rendement des emprunts d'Etat francais a 10 ans. Un taux eleve rencherit le cout de la dette publique et impacte les taux de credit immobilier."
     },
     "petrole_brent": {
-      "valeur": 104.75,
+      "valeur": 104.54,
       "date": "2026-03-31",
       "unite": "USD/baril",
       "source": "Yahoo Finance",
@@ -4430,16 +4442,16 @@
         },
         {
           "date": "2026-03-31",
-          "valeur": 104.75,
-          "ma50": 81.99,
+          "valeur": 104.54,
+          "ma50": 81.98,
           "ma200": 69.86
         }
       ],
       "variations": {
-        "jour": -7.12,
-        "semaine": 0.25,
-        "mois": 44.52,
-        "ytd": 72.43
+        "jour": -7.31,
+        "semaine": 0.05,
+        "mois": 44.23,
+        "ytd": 72.08
       },
       "min_max": {
         "min": 58.92,
@@ -7579,7 +7591,7 @@
       "note_lecture": "Le taux de change euro-dollar determine le prix de tout ce qui est importe en dollars : petrole, matieres premieres, electronique. Un euro faible rencherit les importations et alimente l'inflation."
     },
     "or": {
-      "valeur": 4702.6,
+      "valeur": 4709.7,
       "date": "2026-03-31",
       "unite": "USD/oz",
       "source": "Yahoo Finance",
@@ -9099,16 +9111,16 @@
         },
         {
           "date": "2026-03-31",
-          "valeur": 4702.6,
-          "ma50": 4941.5,
-          "ma200": 4103.14
+          "valeur": 4709.7,
+          "ma50": 4941.65,
+          "ma200": 4103.18
         }
       ],
       "variations": {
-        "jour": 3.9,
-        "semaine": 6.89,
-        "mois": -10.09,
-        "ytd": 9.0
+        "jour": 4.06,
+        "semaine": 7.06,
+        "mois": -9.96,
+        "ytd": 9.16
       },
       "min_max": {
         "min": 2951.3,
@@ -22292,7 +22304,7 @@
     "sources": "INSEE - Enquête Emploi, DARES"
   },
   "previsions_cftc": {
-    "generated_at": "2026-03-31T19:39:26.663631",
+    "generated_at": "2026-03-31T19:46:59.511090",
     "model_version": "CFTC v7.0 (bivarié Phillips + log-normale + pondération temporelle)",
     "n_simulations": 1000,
     "horizon": "12 mois",
@@ -22301,7 +22313,7 @@
       "niveau": "excellent",
       "issues": [],
       "warnings": [],
-      "timestamp": "2026-03-31T19:39:26.663642"
+      "timestamp": "2026-03-31T19:46:59.511101"
     },
     "calibrage": {
       "volatilites": {
@@ -22329,7 +22341,7 @@
       "lognormal_offset": 3.0
     },
     "market_signals": {
-      "inflation_adjustment": 0.184,
+      "inflation_adjustment": 0.182,
       "chomage_adjustment": 0.175,
       "energie_outlook": "hausse",
       "ponderation_temporelle": {
@@ -22341,10 +22353,10 @@
     },
     "market_signals_details": {
       "brent": {
-        "valeur": 104.75,
+        "valeur": 104.54,
         "ref": 75.0,
-        "variation_ytd_pct": 72.43,
-        "impact_inflation_pt": 0.298,
+        "variation_ytd_pct": 72.08,
+        "impact_inflation_pt": 0.295,
         "poids_temporel": 1.0
       },
       "gaz_ttf": {
@@ -22501,9 +22513,9 @@
       "facteurs": {
         "cible_bdf": 1.4,
         "ajustement_climat": -0.03,
-        "ajustement_marches": 0.184,
+        "ajustement_marches": 0.182,
         "energie_outlook": "hausse",
-        "cible_ajustee": 1.554,
+        "cible_ajustee": 1.552,
         "volatilite_utilisee": 0.5
       },
       "asymetrie_ic": {
@@ -22746,7 +22758,7 @@
           }
         },
         "contribution_mediane": {
-          "signaux_marches_pt": 0.184,
+          "signaux_marches_pt": 0.182,
           "incertitude_bdf_sigma": 0.15,
           "label": "Déplacement de la prévision centrale"
         }
