@@ -1,6 +1,6 @@
 {
-  "last_updated": "31/03/2026 19:49",
-  "last_updated_iso": "2026-03-31T19:49:30.322804",
+  "last_updated": "31/03/2026 20:00",
+  "last_updated_iso": "2026-03-31T20:00:04.780472",
   "contact": "hspringragain@cftc.fr",
   "alertes": [
     {
@@ -32,7 +32,7 @@
       "date": "2026-03-31",
       "type": "info",
       "titre": "🔄 Données actualisées",
-      "message": "Le tableau de bord a été mis à jour le 31/03/2026 à 19:49.",
+      "message": "Le tableau de bord a été mis à jour le 31/03/2026 à 19:59.",
       "onglet": "conjoncture"
     }
   ],
@@ -193,7 +193,7 @@
     }
   ],
   "revue_presse": {
-    "derniere_maj": "31/03/2026 19:49",
+    "derniere_maj": "31/03/2026 20:00",
     "nb_sources": 7,
     "sources_noms": [
       "Le Monde Éco",
@@ -2910,7 +2910,7 @@
       "note_lecture": "Le TEC-10 mesure le rendement des emprunts d'Etat francais a 10 ans. Un taux eleve rencherit le cout de la dette publique et impacte les taux de credit immobilier."
     },
     "petrole_brent": {
-      "valeur": 104.35,
+      "valeur": 104.41,
       "date": "2026-03-31",
       "unite": "USD/baril",
       "source": "Yahoo Finance",
@@ -4430,16 +4430,16 @@
         },
         {
           "date": "2026-03-31",
-          "valeur": 104.35,
+          "valeur": 104.41,
           "ma50": 81.98,
           "ma200": 69.86
         }
       ],
       "variations": {
-        "jour": -7.47,
-        "semaine": -0.13,
-        "mois": 43.97,
-        "ytd": 71.77
+        "jour": -7.42,
+        "semaine": -0.08,
+        "mois": 44.05,
+        "ytd": 71.87
       },
       "min_max": {
         "min": 58.92,
@@ -7579,7 +7579,7 @@
       "note_lecture": "Le taux de change euro-dollar determine le prix de tout ce qui est importe en dollars : petrole, matieres premieres, electronique. Un euro faible rencherit les importations et alimente l'inflation."
     },
     "or": {
-      "valeur": 4711.1,
+      "valeur": 4714.0,
       "date": "2026-03-31",
       "unite": "USD/oz",
       "source": "Yahoo Finance",
@@ -9099,16 +9099,16 @@
         },
         {
           "date": "2026-03-31",
-          "valeur": 4711.1,
-          "ma50": 4941.67,
-          "ma200": 4103.19
+          "valeur": 4714.0,
+          "ma50": 4941.73,
+          "ma200": 4103.2
         }
       ],
       "variations": {
-        "jour": 4.09,
-        "semaine": 7.09,
-        "mois": -9.93,
-        "ytd": 9.19
+        "jour": 4.15,
+        "semaine": 7.15,
+        "mois": -9.87,
+        "ytd": 9.26
       },
       "min_max": {
         "min": 2951.3,
@@ -12193,7 +12193,7 @@
       "note_lecture": "Le cours du ble est un indicateur avance des prix alimentaires. La France etant le premier producteur europeen, son evolution impacte a la fois les consommateurs et le secteur agricole."
     },
     "lme_cuivre": {
-      "valeur": 5.63,
+      "valeur": 5.64,
       "date": "2026-03-31",
       "unite": "cts/lb",
       "source": "Yahoo Finance",
@@ -13713,16 +13713,16 @@
         },
         {
           "date": "2026-03-31",
-          "valeur": 5.63,
+          "valeur": 5.64,
           "ma50": 5.77,
           "ma200": 5.23
         }
       ],
       "variations": {
-        "jour": 2.74,
-        "semaine": 3.87,
-        "mois": -6.17,
-        "ytd": -0.18
+        "jour": 2.92,
+        "semaine": 4.06,
+        "mois": -6.0,
+        "ytd": 0.0
       },
       "min_max": {
         "min": 4.13,
@@ -22292,7 +22292,7 @@
     "sources": "INSEE - Enquête Emploi, DARES"
   },
   "previsions_cftc": {
-    "generated_at": "2026-03-31T19:49:30.577406",
+    "generated_at": "2026-03-31T20:00:05.091417",
     "model_version": "CFTC v7.0 (bivarié Phillips + log-normale + pondération temporelle)",
     "n_simulations": 1000,
     "horizon": "12 mois",
@@ -22301,7 +22301,7 @@
       "niveau": "excellent",
       "issues": [],
       "warnings": [],
-      "timestamp": "2026-03-31T19:49:30.577422"
+      "timestamp": "2026-03-31T20:00:05.091428"
     },
     "calibrage": {
       "volatilites": {
@@ -22341,10 +22341,10 @@
     },
     "market_signals_details": {
       "brent": {
-        "valeur": 104.35,
+        "valeur": 104.41,
         "ref": 75.0,
-        "variation_ytd_pct": 71.77,
-        "impact_inflation_pt": 0.293,
+        "variation_ytd_pct": 71.87,
+        "impact_inflation_pt": 0.294,
         "poids_temporel": 1.0
       },
       "gaz_ttf": {
