@@ -1,6 +1,6 @@
 {
-  "last_updated": "31/03/2026 06:39",
-  "last_updated_iso": "2026-03-31T06:39:35.976316",
+  "last_updated": "31/03/2026 07:02",
+  "last_updated_iso": "2026-03-31T07:02:49.648825",
   "contact": "hspringragain@cftc.fr",
   "alertes": [
     {
@@ -32,7 +32,7 @@
       "date": "2026-03-31",
       "type": "info",
       "titre": "🔄 Données actualisées",
-      "message": "Le tableau de bord a été mis à jour le 31/03/2026 à 06:39.",
+      "message": "Le tableau de bord a été mis à jour le 31/03/2026 à 07:02.",
       "onglet": "conjoncture"
     }
   ],
@@ -193,7 +193,7 @@
     }
   ],
   "revue_presse": {
-    "derniere_maj": "31/03/2026 06:39",
+    "derniere_maj": "31/03/2026 07:02",
     "nb_sources": 7,
     "sources_noms": [
       "Le Monde Éco",
@@ -231,6 +231,30 @@
       }
     ],
     "tous": [
+      {
+        "source": "Le Monde Éco",
+        "couleur": "#374151",
+        "emoji": "🌐",
+        "tag": "Presse économique",
+        "titre": "La FNSEA veut féminiser son conseil d’administration",
+        "resume": "Le premier syndicat agricole doit, à l’occasion de son congrès annuel qui se tient jusqu’au jeudi 2 avril à Caen, adopter son rapport d’orientation. Ce document servira de base de discussion avec les prétendants à l’élection présidentielle",
+        "lien": "https://www.lemonde.fr/economie/article/2026/03/31/la-fnsea-veut-feminiser-son-conseil-d-administration_6675600_3234.html",
+        "date_iso": "2026-03-31T09:00:04+02:00",
+        "date_fr": "31/03/2026",
+        "pertinence": 0
+      },
+      {
+        "source": "Le Figaro Éco",
+        "couleur": "#92400e",
+        "emoji": "📊",
+        "tag": "Presse économique",
+        "titre": "L’inflation accélère nettement à 1,7% en mars sur un an à cause de la guerre au Moyen-Orient",
+        "resume": "L’envolée du prix du pétrole provoquée par le conflit en Moyen-Orient se répercute sur l’économie française. La consommation se replie sur un mois (-1,4%).",
+        "lien": "https://www.lefigaro.fr/conjoncture/l-inflation-accelere-nettement-a-1-7-en-mars-sur-un-an-a-cause-de-la-guerre-au-moyen-orient-20260331",
+        "date_iso": "2026-03-31T08:53:14+02:00",
+        "date_fr": "31/03/2026",
+        "pertinence": 1
+      },
       {
         "source": "Le Figaro Éco",
         "couleur": "#92400e",
@@ -352,6 +376,18 @@
         "pertinence": 0
       },
       {
+        "source": "Libération Éco",
+        "couleur": "#dc2626",
+        "emoji": "📰",
+        "tag": "Presse économique",
+        "titre": "Médecins du monde alerte sur le quotidien des livreurs à vélo : 63h par semaine pour 1 480 euros brut, discriminations et douleurs musculaires",
+        "resume": "Une vaste étude de l’ONG publiée ce mardi objective les difficiles conditions de travail des travailleurs dépendant des plateformes.",
+        "lien": "https://www.liberation.fr/economie/economie-numerique/63-heures-hebdomadaires-pour-1-480-euros-brut-en-moyenne-discriminations-et-douleurs-musculaires-medecins-du-monde-alerte-sur-le-quotidien-des-livreurs-a-velo-20260331_32CELDMCLJAA7HE2WIID5H2HBE/",
+        "date_iso": "2026-03-31T06:49:50+00:00",
+        "date_fr": "31/03/2026",
+        "pertinence": 1
+      },
+      {
         "source": "Le Figaro Éco",
         "couleur": "#92400e",
         "emoji": "📊",
@@ -372,18 +408,6 @@
         "resume": "RÉCIT - La quasi-fermeture du détroit d’Ormuz, à cause du conflit au Moyen-Orient, provoque un choc logistique global qui affecte de nombreuses filières commerciales et industrielles.",
         "lien": "https://www.lefigaro.fr/conjoncture/bateaux-bloques-ports-engorges-penuries-hausses-de-prix-comment-la-guerre-en-iran-bouscule-le-commerce-mondial-20260330",
         "date_iso": "2026-03-31T06:34:18+02:00",
-        "date_fr": "31/03/2026",
-        "pertinence": 0
-      },
-      {
-        "source": "Euractiv FR",
-        "couleur": "#0369a1",
-        "emoji": "🇪🇺",
-        "tag": "Europe & politique",
-        "titre": "Face à la Trumpflation",
-        "resume": "Également dans l'édition de mardi : l'oléoduc Druzhba, le cadre financier pluriannuel, les Syriens en Allemagne, les cyberattaques The post Face à la Trumpflation appeared first on Euractiv FR .",
-        "lien": "https://euractiv.fr/news/face-a-la-trumpflation/",
-        "date_iso": "2026-03-31T06:29:50+00:00",
         "date_fr": "31/03/2026",
         "pertinence": 0
       },
@@ -536,18 +560,6 @@
         "couleur": "#92400e",
         "emoji": "📊",
         "tag": "Presse économique",
-        "titre": "Instagram teste les abonnements payants avec des fonctions supplémentaires",
-        "resume": "Les abonnés payants pourront notamment prolonger la durée de vie d’une «story», message éphémère qui disparaît normalement au bout de 24 heures.",
-        "lien": "https://www.lefigaro.fr/secteur/high-tech/instagram-teste-les-abonnements-payants-avec-des-fonctions-supplementaires-20260330",
-        "date_iso": "2026-03-30T23:25:52+02:00",
-        "date_fr": "30/03/2026",
-        "pertinence": 0
-      },
-      {
-        "source": "Le Figaro Éco",
-        "couleur": "#92400e",
-        "emoji": "📊",
-        "tag": "Presse économique",
         "titre": "Transports : l'État et les acteurs du secteur signent une charte commune contre les violences sexistes et sexuelles",
         "resume": "«Notre responsabilité collective est claire : faire des transports (...) un espace où les femmes peuvent circuler librement, pleinement, sans peur», a déclaré Aurore Bergé.",
         "lien": "https://www.lefigaro.fr/economie/transports-l-etat-et-les-acteurs-du-secteur-signent-une-charte-commune-contre-les-violences-sexistes-et-sexuelles-20260330",
@@ -576,18 +588,6 @@
         "resume": "REPORTAGE - Le temps d’une matinée, entrepreneurs et dirigeants de grands groupes ont mis de côté leurs préoccupations liées à la guerre en Iran pour se rencontrer et « faire le pari de la France ».",
         "lien": "https://www.lefigaro.fr/conjoncture/chaque-annee-l-utilite-de-cette-reunion-se-confirme-au-top-afep-petits-et-grands-patrons-nouent-des-partenariats-en-7-minutes-20260330",
         "date_iso": "2026-03-30T20:10:00+02:00",
-        "date_fr": "30/03/2026",
-        "pertinence": 0
-      },
-      {
-        "source": "Le Figaro Éco",
-        "couleur": "#92400e",
-        "emoji": "📊",
-        "tag": "Presse économique",
-        "titre": "Service en salle, repas à emporter… Le spécialiste de la street food Taster repousse les limites",
-        "resume": "DÉCRYPTAGE - Le restaurateur, qui mise sur les réseaux sociaux pour attirer la génération Z, lance une marque avec un chef étoilé.",
-        "lien": "https://www.lefigaro.fr/societes/service-en-salle-repas-a-emporter-le-specialiste-des-dark-kitchen-taster-repousse-les-limites-20260330",
-        "date_iso": "2026-03-30T19:52:47+02:00",
         "date_fr": "30/03/2026",
         "pertinence": 0
       }
@@ -848,7 +848,7 @@
     "ecart_hf_eqtp": 25.8,
     "difficultes_recrutement": 61,
     "irl_glissement": 0.79,
-    "prix_gazole": 2.244,
+    "prix_gazole": 2.245,
     "taux_effort_locataires": 29.6,
     "croissance_pib": 0.7,
     "climat_affaires": 97,
@@ -2044,9 +2044,9 @@
   },
   "carburants": {
     "gazole": {
-      "prix": 2.244,
-      "variation_an": 21.3,
-      "variation_sem": 42.0
+      "prix": 2.245,
+      "variation_an": 21.4,
+      "variation_sem": 42.1
     },
     "sp95": {
       "prix": 2.031,
@@ -2054,14 +2054,14 @@
       "variation_sem": 18.1
     },
     "sp98": {
-      "prix": 2.084,
+      "prix": 2.085,
       "variation_an": 11.6,
       "variation_sem": 18.1
     },
     "e10": {
-      "prix": 1.971,
-      "variation_an": 10.1,
-      "variation_sem": 17.3
+      "prix": 1.972,
+      "variation_an": 10.2,
+      "variation_sem": 17.4
     },
     "evolution": [
       {
@@ -2339,13 +2339,13 @@
       },
       {
         "date": "2026-03-31",
-        "gazole": 2.244,
+        "gazole": 2.245,
         "sp95": 2.031,
-        "sp98": 2.084,
-        "e10": 1.971
+        "sp98": 2.085,
+        "e10": 1.972
       }
     ],
-    "derniere_donnee": "2026-03-31 06:44",
+    "derniere_donnee": "2026-03-31 07:48",
     "source": "data.economie.gouv.fr (flux instantané)",
     "granularite": "quotidien"
   },
@@ -2922,7 +2922,7 @@
       "note_lecture": "Le TEC-10 mesure le rendement des emprunts d'Etat francais a 10 ans. Un taux eleve rencherit le cout de la dette publique et impacte les taux de credit immobilier."
     },
     "petrole_brent": {
-      "valeur": 107.12,
+      "valeur": 107.3,
       "date": "2026-03-31",
       "unite": "USD/baril",
       "source": "Yahoo Finance",
@@ -4442,16 +4442,16 @@
         },
         {
           "date": "2026-03-31",
-          "valeur": 107.12,
+          "valeur": 107.3,
           "ma50": 82.04,
           "ma200": 69.87
         }
       ],
       "variations": {
-        "jour": -5.02,
-        "semaine": 2.52,
-        "mois": 47.79,
-        "ytd": 76.33
+        "jour": -4.86,
+        "semaine": 2.69,
+        "mois": 48.04,
+        "ytd": 76.63
       },
       "min_max": {
         "min": 58.92,
@@ -7585,7 +7585,7 @@
       "note_lecture": "Le taux de change euro-dollar determine le prix de tout ce qui est importe en dollars : petrole, matieres premieres, electronique. Un euro faible rencherit les importations et alimente l'inflation."
     },
     "or": {
-      "valeur": 4588.9,
+      "valeur": 4586.6,
       "date": "2026-03-31",
       "unite": "USD/oz",
       "source": "Yahoo Finance",
@@ -9105,16 +9105,16 @@
         },
         {
           "date": "2026-03-31",
-          "valeur": 4588.9,
-          "ma50": 4939.23,
-          "ma200": 4102.58
+          "valeur": 4586.6,
+          "ma50": 4939.18,
+          "ma200": 4102.56
         }
       ],
       "variations": {
-        "jour": 1.39,
-        "semaine": 4.31,
-        "mois": -12.27,
-        "ytd": 6.36
+        "jour": 1.34,
+        "semaine": 4.26,
+        "mois": -12.31,
+        "ytd": 6.31
       },
       "min_max": {
         "min": 2951.3,
@@ -10659,7 +10659,7 @@
       "note_lecture": "Le prix du gaz naturel (TTF europeen) impacte directement les factures de chauffage et d'electricite des menages, ainsi que les couts de production industrielle."
     },
     "ble": {
-      "valeur": 610.5,
+      "valeur": 611.75,
       "date": "2026-03-31",
       "unite": "cents/boisseau",
       "source": "Yahoo Finance",
@@ -12173,16 +12173,16 @@
         },
         {
           "date": "2026-03-31",
-          "valeur": 610.5,
-          "ma50": 564.77,
+          "valeur": 611.75,
+          "ma50": 564.79,
           "ma200": 533.19
         }
       ],
       "variations": {
-        "jour": 0.58,
-        "semaine": 3.47,
-        "mois": 3.26,
-        "ytd": 20.53
+        "jour": 0.78,
+        "semaine": 3.69,
+        "mois": 3.47,
+        "ytd": 20.78
       },
       "min_max": {
         "min": 495.0,
@@ -12193,7 +12193,7 @@
       "note_lecture": "Le cours du ble est un indicateur avance des prix alimentaires. La France etant le premier producteur europeen, son evolution impacte a la fois les consommateurs et le secteur agricole."
     },
     "lme_cuivre": {
-      "valeur": 5.51,
+      "valeur": 5.5,
       "date": "2026-03-31",
       "unite": "cts/lb",
       "source": "Yahoo Finance",
@@ -13713,16 +13713,16 @@
         },
         {
           "date": "2026-03-31",
-          "valeur": 5.51,
+          "valeur": 5.5,
           "ma50": 5.77,
           "ma200": 5.23
         }
       ],
       "variations": {
-        "jour": 0.55,
-        "semaine": 1.66,
-        "mois": -8.17,
-        "ytd": -2.3
+        "jour": 0.36,
+        "semaine": 1.48,
+        "mois": -8.33,
+        "ytd": -2.48
       },
       "min_max": {
         "min": 4.13,
@@ -13733,7 +13733,7 @@
       "note_lecture": "Le cuivre est le baromètre de l'activité industrielle mondiale ('Dr Copper'). Sa hausse signale une reprise économique, sa baisse anticipe un ralentissement. Utilisé massivement dans l'électrification et les énergies renouvelables."
     },
     "lme_aluminium": {
-      "valeur": 3383.25,
+      "valeur": 3385.75,
       "date": "2026-03-31",
       "unite": "cts/lb",
       "source": "Yahoo Finance",
@@ -15247,16 +15247,16 @@
         },
         {
           "date": "2026-03-31",
-          "valeur": 3383.25,
-          "ma50": 3128.01,
-          "ma200": 2776.2
+          "valeur": 3385.75,
+          "ma50": 3128.05,
+          "ma200": 2776.21
         }
       ],
       "variations": {
-        "jour": 1.41,
-        "semaine": 7.82,
-        "mois": 11.14,
-        "ytd": 15.15
+        "jour": 1.48,
+        "semaine": 7.9,
+        "mois": 11.22,
+        "ytd": 15.24
       },
       "min_max": {
         "min": 2166.25,
@@ -22292,7 +22292,7 @@
     "sources": "INSEE - Enquête Emploi, DARES"
   },
   "previsions_cftc": {
-    "generated_at": "2026-03-31T06:39:36.177160",
+    "generated_at": "2026-03-31T07:02:49.836508",
     "model_version": "CFTC v7.0 (bivarié Phillips + log-normale + pondération temporelle)",
     "n_simulations": 1000,
     "horizon": "12 mois",
@@ -22301,7 +22301,7 @@
       "niveau": "excellent",
       "issues": [],
       "warnings": [],
-      "timestamp": "2026-03-31T06:39:36.177172"
+      "timestamp": "2026-03-31T07:02:49.836523"
     },
     "calibrage": {
       "volatilites": {
@@ -22329,7 +22329,7 @@
       "lognormal_offset": 3.0
     },
     "market_signals": {
-      "inflation_adjustment": 0.229,
+      "inflation_adjustment": 0.231,
       "chomage_adjustment": 0.175,
       "energie_outlook": "hausse",
       "ponderation_temporelle": {
@@ -22341,10 +22341,10 @@
     },
     "market_signals_details": {
       "brent": {
-        "valeur": 107.12,
+        "valeur": 107.3,
         "ref": 75.0,
-        "variation_ytd_pct": 76.33,
-        "impact_inflation_pt": 0.321,
+        "variation_ytd_pct": 76.63,
+        "impact_inflation_pt": 0.323,
         "poids_temporel": 1.0
       },
       "gaz_ttf": {
@@ -22492,18 +22492,18 @@
         "methodology": "Monte Carlo bivarié (1000 sim.) + log-normale + Phillips ρ=-0.35 (v7)"
       },
       "probabilites": {
-        "inflation_sous_2pct": 84.5,
-        "inflation_cible_bce": 84.5,
+        "inflation_sous_2pct": 84.3,
+        "inflation_cible_bce": 84.3,
         "inflation_au_dessus_3pct": 0.0,
         "inflation_au_dessus_4pct": 0.0,
-        "description": "84.5% de chances que l'inflation reste sous 2% à 12 mois"
+        "description": "84.3% de chances que l'inflation reste sous 2% à 12 mois"
       },
       "facteurs": {
         "cible_bdf": 1.4,
         "ajustement_climat": -0.03,
-        "ajustement_marches": 0.229,
+        "ajustement_marches": 0.231,
         "energie_outlook": "hausse",
-        "cible_ajustee": 1.599,
+        "cible_ajustee": 1.601,
         "volatilite_utilisee": 0.5
       },
       "asymetrie_ic": {
@@ -22511,7 +22511,7 @@
         "queue_basse": 0.4,
         "ratio": 1.25
       },
-      "insight": "Inflation médiane à 12 mois : 1.6% [IC 80% : 1.2% - 2.1%]. Asymétrie : queue haute 0.5pt vs basse 0.4pt. 84.5% de probabilité de rester sous 2%."
+      "insight": "Inflation médiane à 12 mois : 1.6% [IC 80% : 1.2% - 2.1%]. Asymétrie : queue haute 0.5pt vs basse 0.4pt. 84.3% de probabilité de rester sous 2%."
     },
     "smic": {
       "current": {
@@ -22718,7 +22718,7 @@
       }
     },
     "notes_lecture": [
-      "📈 Inflation médiane à 12 mois : 1.6% [1.2% - 2.1%] — 84.5% de chances de rester sous 2% (asymétrie : +0.5pt / -0.4pt)",
+      "📈 Inflation médiane à 12 mois : 1.6% [1.2% - 2.1%] — 84.3% de chances de rester sous 2% (asymétrie : +0.5pt / -0.4pt)",
       "💰 SMIC janvier 2027 : 1859€ brut (+2.0%, fourchette 1.6-2.5%) — Pouvoir d'achat réel : +0.4% (+7€/mois)",
       "👥 Chômage Q4 : 7.8% [7.7% - 7.9%] — Tendance stable (corrélé Phillips ρ=-0.35)",
       "📊 Signaux marchés : ↑ inflation 0.23pt, ↑ chômage 0.17pt, (poids temporel min : 0.95)",
@@ -22746,7 +22746,7 @@
           }
         },
         "contribution_mediane": {
-          "signaux_marches_pt": 0.229,
+          "signaux_marches_pt": 0.231,
           "incertitude_bdf_sigma": 0.15,
           "label": "Déplacement de la prévision centrale"
         }
