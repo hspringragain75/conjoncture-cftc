@@ -4,7 +4,7 @@ import SparklineBars from './components/SparklineBars';
 import Card from './components/Card';
 import FavoriButton from './components/FavoriButton';
 import BubbleKpi from './components/BubbleKpi';
-import BubbleNavTabs from './components/BubbleNavTabs;
+import BubbleNavTabs from './components/BubbleNavTabs';
 import BubbleStatBlock from './components/BubbleStatBlock';
 import BubbleProgressBar from './components/BubbleProgressBar';
 import { useChartProps } from './hooks/useChartProps';
