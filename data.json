@@ -1,6 +1,6 @@
 {
-  "last_updated": "31/03/2026 07:39",
-  "last_updated_iso": "2026-03-31T07:39:54.145649",
+  "last_updated": "31/03/2026 07:48",
+  "last_updated_iso": "2026-03-31T07:48:16.728183",
   "contact": "hspringragain@cftc.fr",
   "alertes": [
     {
@@ -32,7 +32,7 @@
       "date": "2026-03-31",
       "type": "info",
       "titre": "🔄 Données actualisées",
-      "message": "Le tableau de bord a été mis à jour le 31/03/2026 à 07:39.",
+      "message": "Le tableau de bord a été mis à jour le 31/03/2026 à 07:48.",
       "onglet": "conjoncture"
     }
   ],
@@ -193,7 +193,7 @@
     }
   ],
   "revue_presse": {
-    "derniere_maj": "31/03/2026 07:39",
+    "derniere_maj": "31/03/2026 07:48",
     "nb_sources": 7,
     "sources_noms": [
       "Le Monde Éco",
@@ -237,11 +237,59 @@
         "emoji": "📊",
         "tag": "Presse économique",
         "titre": "L’inflation accélère nettement à 1,7% en mars sur un an à cause de la guerre au Moyen-Orient",
-        "resume": "L’envolée du prix du pétrole provoquée par le conflit en Moyen-Orient se répercute sur l’économie française. La consommation se replie sur un mois (-1,4%).",
+        "resume": "L’envolée du prix du pétrole provoquée par le conflit en Moyen-Orient se répercute sur l’économie française. La consommation s’est repliée en février sur un mois (-1,4%).",
         "lien": "https://www.lefigaro.fr/conjoncture/l-inflation-accelere-nettement-a-1-7-en-mars-sur-un-an-a-cause-de-la-guerre-au-moyen-orient-20260331",
-        "date_iso": "2026-03-31T09:23:47+02:00",
+        "date_iso": "2026-03-31T09:45:56+02:00",
         "date_fr": "31/03/2026",
         "pertinence": 1
+      },
+      {
+        "source": "Le Figaro Éco",
+        "couleur": "#92400e",
+        "emoji": "📊",
+        "tag": "Presse économique",
+        "titre": "De l’incroyable success-story d’une PME bretonne à la crise en cours... Ubisoft, 40 ans d’histoire d’un acteur majeur du jeu vidéo",
+        "resume": "RÉCIT - Le Figaro revient en huit étapes sur la riche histoire de ce groupe créé en 1986 dans le Morbihan et qui a su s’imposer aux côtés des plus grands. Mais la belle histoire se fissure depuis 2020.",
+        "lien": "https://www.lefigaro.fr/secteur/high-tech/de-l-incroyable-success-story-d-une-pme-bretonne-a-la-crise-en-cours-ubisoft-40-ans-d-histoire-d-un-acteur-majeur-du-jeu-video-20260331",
+        "date_iso": "2026-03-31T09:43:17+02:00",
+        "date_fr": "31/03/2026",
+        "pertinence": 0
+      },
+      {
+        "source": "Le Monde Éco",
+        "couleur": "#374151",
+        "emoji": "🌐",
+        "tag": "Presse économique",
+        "titre": "Inflation en France : forte hausse des prix en mars, portée par l’énergie et la flambée du pétrole",
+        "resume": "Alors que les prix à la consommation ont augmenté de 1,7 % en mars, la France devrait connaître « un net regain d’inflation », qui « franchirait les 2 % au cours du printemps », selon l’Insee.",
+        "lien": "https://www.lemonde.fr/economie-francaise/article/2026/03/31/inflation-en-france-forte-hausse-des-prix-en-mars-portee-par-l-energie-et-la-flambee-du-petrole_6675603_1656968.html",
+        "date_iso": "2026-03-31T09:40:15+02:00",
+        "date_fr": "31/03/2026",
+        "pertinence": 1
+      },
+      {
+        "source": "Le Figaro Éco",
+        "couleur": "#92400e",
+        "emoji": "📊",
+        "tag": "Presse économique",
+        "titre": "Le Finistère accusé de harceler des allocataires du RSA: une audience pénale en juin",
+        "resume": "Six allocataires et des membres de la CGT sont invités à comparaître dans un procès qualifié de «clairement politique» par le département.",
+        "lien": "https://www.lefigaro.fr/social/le-finistere-accuse-de-harceler-des-allocataires-du-rsa-une-audience-penale-en-juin-20260331",
+        "date_iso": "2026-03-31T09:37:04+02:00",
+        "date_fr": "31/03/2026",
+        "pertinence": 0
+      },
+      {
+        "source": "Le Figaro Éco",
+        "couleur": "#92400e",
+        "emoji": "📊",
+        "tag": "Presse économique",
+        "titre": "Un amendement RN renforce les pénalités en cas de fraude aux prestations sociales",
+        "resume": "Si la gauche s’est opposée en bloc, le texte de loi a obtenu les suffrages de quelques députés macronistes et LR.",
+        "lien": "https://www.lefigaro.fr/social/un-amendement-rn-renforce-les-penalites-en-cas-de-fraude-aux-prestations-sociales-20260331",
+        "date_iso": "2026-03-31T09:26:53+02:00",
+        "date_fr": "31/03/2026",
+        "pertinence": 0
       },
       {
         "source": "Le Figaro Éco",
@@ -376,6 +424,18 @@
         "pertinence": 0
       },
       {
+        "source": "Euractiv FR",
+        "couleur": "#0369a1",
+        "emoji": "🇪🇺",
+        "tag": "Europe & politique",
+        "titre": "L Iran maintient son ambassadeur au Liban malgré l’ordre d’expulsion",
+        "resume": "Le déclencheur de cette impasse a été la déclaration de l'ambassadeur selon laquelle toute initiative libanaise visant à désarmer le Hezbollah devait être abandonnée The post L&rsquo;Iran maintient son ambassadeur au Liban malgré l’ordre d’expulsion appeared first on Euractiv FR .",
+        "lien": "https://euractiv.fr/news/liran-maintient-son-ambassadeur-au-liban-malgre-lordre-dexpulsion/",
+        "date_iso": "2026-03-31T07:39:27+00:00",
+        "date_fr": "31/03/2026",
+        "pertinence": 0
+      },
+      {
         "source": "Le Figaro Éco",
         "couleur": "#92400e",
         "emoji": "📊",
@@ -396,18 +456,6 @@
         "resume": "La plupart des Syriens, et « en premier lieu ceux qui abusent de notre hospitalité », devraient rentrer chez eux d'ici trois ans, a déclaré le chancelier allemand The post Retour en vue : l’Allemagne prévoit le départ de 800 000 Syriens d’ici 2030 appeared first on Euractiv FR .",
         "lien": "https://euractiv.fr/news/retour-en-vue-lallemagne-prevoit-le-depart-de-800-000-syriens-dici-2030/",
         "date_iso": "2026-03-31T07:09:39+00:00",
-        "date_fr": "31/03/2026",
-        "pertinence": 0
-      },
-      {
-        "source": "Le Figaro Éco",
-        "couleur": "#92400e",
-        "emoji": "📊",
-        "tag": "Presse économique",
-        "titre": "De l’incroyable success-story d’une PME bretonne à la crise en cours... Ubisoft, 40 ans d’histoire d’un acteur majeur du jeu vidéo",
-        "resume": "RÉCIT - Le Figaro revient en huit étapes sur la riche histoire de ce groupe créé en 1986 dans le Morbihan et qui a su s’imposer aux côtés des plus grands. Mais la belle histoire se fissure depuis 2020.",
-        "lien": "https://www.lefigaro.fr/secteur/high-tech/de-l-incroyable-success-story-d-une-pme-bretonne-a-la-crise-en-cours-ubisoft-40-ans-d-histoire-d-un-acteur-majeur-du-jeu-video-20260331",
-        "date_iso": "2026-03-31T07:00:00+02:00",
         "date_fr": "31/03/2026",
         "pertinence": 0
       },
@@ -542,54 +590,6 @@
         "date_iso": "2026-03-31T06:00:00+02:00",
         "date_fr": "31/03/2026",
         "pertinence": 2
-      },
-      {
-        "source": "Le Monde Emploi",
-        "couleur": "#1f2937",
-        "emoji": "💼",
-        "tag": "Emploi & travail",
-        "titre": "Avec l’IA, moins de travail ou davantage de « bullshit jobs » ?",
-        "resume": "L’idée de profiter des gains de productivité de l’IA pour travailler moins reste un impensé culturel, budgétaire et politique, juge l’économiste Thomas Breda dans sa chronique.",
-        "lien": "https://www.lemonde.fr/emploi/article/2026/03/31/avec-l-intelligence-artificielle-moins-de-travail-ou-davantage-de-bullshit-jobs_6675578_1698637.html",
-        "date_iso": "2026-03-31T06:00:00+02:00",
-        "date_fr": "31/03/2026",
-        "pertinence": 2
-      },
-      {
-        "source": "Le Figaro Éco",
-        "couleur": "#92400e",
-        "emoji": "📊",
-        "tag": "Presse économique",
-        "titre": "Avec 15,6 milliards d’euros en 2025, les investissements dans les start-up de cybersécurité battent des records",
-        "resume": "INFO LE FIGARO - En 2025, les jeunes pousses tricolores de la cybersécurité sont parmi les mieux financées en Europe, selon le baromètre annuel des investissements du secteur de Tikehau Capital, dévoilé à l’ouverture du Forum InCyber à Lille.",
-        "lien": "https://www.lefigaro.fr/secteur/high-tech/avec-15-6-milliards-d-euros-en-2025-les-investissements-dans-les-start-up-de-cybersecurite-battent-des-records-20260331",
-        "date_iso": "2026-03-31T06:00:00+02:00",
-        "date_fr": "31/03/2026",
-        "pertinence": 1
-      },
-      {
-        "source": "Le Monde Éco",
-        "couleur": "#374151",
-        "emoji": "🌐",
-        "tag": "Presse économique",
-        "titre": "Pétrole : après un mois de conflit, une production en chute libre",
-        "resume": "Un quart du commerce mondial d’or noir par voie maritime a transité par le détroit d’Ormuz en 2025. Depuis le début de la guerre au Moyen-Orient, faute de pouvoir exporter, les pays pétroliers du Golfe ont réduit leur production de 25 % à 80 %, selon les cas.",
-        "lien": "https://www.lemonde.fr/economie/article/2026/03/31/petrole-apres-un-mois-de-conflit-une-production-en-chute-libre_6675573_3234.html",
-        "date_iso": "2026-03-31T05:35:51+02:00",
-        "date_fr": "31/03/2026",
-        "pertinence": 0
-      },
-      {
-        "source": "Le Monde Éco",
-        "couleur": "#374151",
-        "emoji": "🌐",
-        "tag": "Presse économique",
-        "titre": "Ouverture des boulangeries sept jours sur sept : une proposition de loi examinée par les députés en commission",
-        "resume": "Porté par l’élu macroniste des Deux-Sèvres Jean-Marie Fiévet, le texte, débattu en commission des affaires sociales mercredi, devrait être présenté dans l’Hémicycle le 10 avril. Il divise la profession et est dénoncé par la gauche.",
-        "lien": "https://www.lemonde.fr/politique/article/2026/03/31/ouverture-des-boulangeries-sept-jours-sur-sept-une-proposition-de-loi-examinee-par-les-deputes-en-commission_6675572_823448.html",
-        "date_iso": "2026-03-31T05:30:03+02:00",
-        "date_fr": "31/03/2026",
-        "pertinence": 0
       }
     ]
   },
@@ -2922,7 +2922,7 @@
       "note_lecture": "Le TEC-10 mesure le rendement des emprunts d'Etat francais a 10 ans. Un taux eleve rencherit le cout de la dette publique et impacte les taux de credit immobilier."
     },
     "petrole_brent": {
-      "valeur": 107.4,
+      "valeur": 107.3,
       "date": "2026-03-31",
       "unite": "USD/baril",
       "source": "Yahoo Finance",
@@ -4442,16 +4442,16 @@
         },
         {
           "date": "2026-03-31",
-          "valeur": 107.4,
+          "valeur": 107.3,
           "ma50": 82.04,
           "ma200": 69.87
         }
       ],
       "variations": {
-        "jour": -4.77,
-        "semaine": 2.78,
-        "mois": 48.18,
-        "ytd": 76.79
+        "jour": -4.86,
+        "semaine": 2.69,
+        "mois": 48.04,
+        "ytd": 76.63
       },
       "min_max": {
         "min": 58.92,
@@ -4462,9 +4462,9 @@
       "note_lecture": "Le prix du Brent influence directement les couts de transport et d'energie, donc l'inflation et le pouvoir d'achat des salaries."
     },
     "cac40": {
-      "valeur": 7758.58,
+      "valeur": 7787.25,
       "date": "2026-03-31",
-      "variation_jour_pct": -0.18,
+      "variation_jour_pct": 0.19,
       "unite": "points",
       "source": "Yahoo Finance",
       "nb_points": 256,
@@ -6001,16 +6001,16 @@
         },
         {
           "date": "2026-03-31",
-          "valeur": 7758.58,
-          "ma50": 8134.96,
-          "ma200": 7997.02
+          "valeur": 7787.25,
+          "ma50": 8135.53,
+          "ma200": 7997.17
         }
       ],
       "variations": {
-        "jour": -0.18,
-        "semaine": 0.19,
-        "mois": -9.58,
-        "ytd": -5.33
+        "jour": 0.19,
+        "semaine": 0.56,
+        "mois": -9.25,
+        "ytd": -4.98
       },
       "min_max": {
         "min": 6863.02,
@@ -7591,7 +7591,7 @@
       "note_lecture": "Le taux de change euro-dollar determine le prix de tout ce qui est importe en dollars : petrole, matieres premieres, electronique. Un euro faible rencherit les importations et alimente l'inflation."
     },
     "or": {
-      "valeur": 4582.5,
+      "valeur": 4587.9,
       "date": "2026-03-31",
       "unite": "USD/oz",
       "source": "Yahoo Finance",
@@ -9111,16 +9111,16 @@
         },
         {
           "date": "2026-03-31",
-          "valeur": 4582.5,
-          "ma50": 4939.1,
-          "ma200": 4102.54
+          "valeur": 4587.9,
+          "ma50": 4939.21,
+          "ma200": 4102.57
         }
       ],
       "variations": {
-        "jour": 1.25,
-        "semaine": 4.16,
-        "mois": -12.39,
-        "ytd": 6.21
+        "jour": 1.37,
+        "semaine": 4.29,
+        "mois": -12.29,
+        "ytd": 6.34
       },
       "min_max": {
         "min": 2951.3,
@@ -10671,7 +10671,7 @@
       "note_lecture": "Le prix du gaz naturel (TTF europeen) impacte directement les factures de chauffage et d'electricite des menages, ainsi que les couts de production industrielle."
     },
     "ble": {
-      "valeur": 612.75,
+      "valeur": 611.75,
       "date": "2026-03-31",
       "unite": "cents/boisseau",
       "source": "Yahoo Finance",
@@ -12185,16 +12185,16 @@
         },
         {
           "date": "2026-03-31",
-          "valeur": 612.75,
-          "ma50": 564.82,
-          "ma200": 533.2
+          "valeur": 611.75,
+          "ma50": 564.79,
+          "ma200": 533.19
         }
       ],
       "variations": {
-        "jour": 0.95,
-        "semaine": 3.86,
-        "mois": 3.64,
-        "ytd": 20.98
+        "jour": 0.78,
+        "semaine": 3.69,
+        "mois": 3.47,
+        "ytd": 20.78
       },
       "min_max": {
         "min": 495.0,
@@ -12205,7 +12205,7 @@
       "note_lecture": "Le cours du ble est un indicateur avance des prix alimentaires. La France etant le premier producteur europeen, son evolution impacte a la fois les consommateurs et le secteur agricole."
     },
     "lme_cuivre": {
-      "valeur": 5.52,
+      "valeur": 5.54,
       "date": "2026-03-31",
       "unite": "cts/lb",
       "source": "Yahoo Finance",
@@ -13725,16 +13725,16 @@
         },
         {
           "date": "2026-03-31",
-          "valeur": 5.52,
+          "valeur": 5.54,
           "ma50": 5.77,
           "ma200": 5.23
         }
       ],
       "variations": {
-        "jour": 0.73,
-        "semaine": 1.85,
-        "mois": -8.0,
-        "ytd": -2.13
+        "jour": 1.09,
+        "semaine": 2.21,
+        "mois": -7.67,
+        "ytd": -1.77
       },
       "min_max": {
         "min": 4.13,
@@ -13745,7 +13745,7 @@
       "note_lecture": "Le cuivre est le baromètre de l'activité industrielle mondiale ('Dr Copper'). Sa hausse signale une reprise économique, sa baisse anticipe un ralentissement. Utilisé massivement dans l'électrification et les énergies renouvelables."
     },
     "lme_aluminium": {
-      "valeur": 3384.25,
+      "valeur": 3393.5,
       "date": "2026-03-31",
       "unite": "cts/lb",
       "source": "Yahoo Finance",
@@ -15259,16 +15259,16 @@
         },
         {
           "date": "2026-03-31",
-          "valeur": 3384.25,
-          "ma50": 3128.03,
-          "ma200": 2776.2
+          "valeur": 3393.5,
+          "ma50": 3128.21,
+          "ma200": 2776.25
         }
       ],
       "variations": {
-        "jour": 1.44,
-        "semaine": 7.85,
-        "mois": 11.17,
-        "ytd": 15.19
+        "jour": 1.72,
+        "semaine": 8.14,
+        "mois": 11.47,
+        "ytd": 15.5
       },
       "min_max": {
         "min": 2166.25,
@@ -22304,7 +22304,7 @@
     "sources": "INSEE - Enquête Emploi, DARES"
   },
   "previsions_cftc": {
-    "generated_at": "2026-03-31T07:39:54.323191",
+    "generated_at": "2026-03-31T07:48:16.927987",
     "model_version": "CFTC v7.0 (bivarié Phillips + log-normale + pondération temporelle)",
     "n_simulations": 1000,
     "horizon": "12 mois",
@@ -22313,7 +22313,7 @@
       "niveau": "excellent",
       "issues": [],
       "warnings": [],
-      "timestamp": "2026-03-31T07:39:54.323204"
+      "timestamp": "2026-03-31T07:48:16.928002"
     },
     "calibrage": {
       "volatilites": {
@@ -22341,7 +22341,7 @@
       "lognormal_offset": 3.0
     },
     "market_signals": {
-      "inflation_adjustment": 0.235,
+      "inflation_adjustment": 0.234,
       "chomage_adjustment": 0.175,
       "energie_outlook": "hausse",
       "ponderation_temporelle": {
@@ -22353,10 +22353,10 @@
     },
     "market_signals_details": {
       "brent": {
-        "valeur": 107.4,
+        "valeur": 107.3,
         "ref": 75.0,
-        "variation_ytd_pct": 76.79,
-        "impact_inflation_pt": 0.324,
+        "variation_ytd_pct": 76.63,
+        "impact_inflation_pt": 0.323,
         "poids_temporel": 1.0
       },
       "gaz_ttf": {
@@ -22383,7 +22383,7 @@
         "signal": "baissier"
       },
       "cac40_ytd": {
-        "variation_ytd_pct": -5.33,
+        "variation_ytd_pct": -4.98,
         "signal_chomage": "neutre"
       },
       "carburants_sp95": {
@@ -22504,18 +22504,18 @@
         "methodology": "Monte Carlo bivarié (1000 sim.) + log-normale + Phillips ρ=-0.35 (v7)"
       },
       "probabilites": {
-        "inflation_sous_2pct": 83.9,
-        "inflation_cible_bce": 83.9,
+        "inflation_sous_2pct": 84.0,
+        "inflation_cible_bce": 84.0,
         "inflation_au_dessus_3pct": 0.0,
         "inflation_au_dessus_4pct": 0.0,
-        "description": "83.9% de chances que l'inflation reste sous 2% à 12 mois"
+        "description": "84.0% de chances que l'inflation reste sous 2% à 12 mois"
       },
       "facteurs": {
         "cible_bdf": 1.4,
         "ajustement_climat": -0.03,
-        "ajustement_marches": 0.235,
+        "ajustement_marches": 0.234,
         "energie_outlook": "hausse",
-        "cible_ajustee": 1.605,
+        "cible_ajustee": 1.604,
         "volatilite_utilisee": 0.5
       },
       "asymetrie_ic": {
@@ -22523,7 +22523,7 @@
         "queue_basse": 0.4,
         "ratio": 1.25
       },
-      "insight": "Inflation médiane à 12 mois : 1.6% [IC 80% : 1.2% - 2.1%]. Asymétrie : queue haute 0.5pt vs basse 0.4pt. 83.9% de probabilité de rester sous 2%."
+      "insight": "Inflation médiane à 12 mois : 1.6% [IC 80% : 1.2% - 2.1%]. Asymétrie : queue haute 0.5pt vs basse 0.4pt. 84.0% de probabilité de rester sous 2%."
     },
     "smic": {
       "current": {
@@ -22730,7 +22730,7 @@
       }
     },
     "notes_lecture": [
-      "📈 Inflation médiane à 12 mois : 1.6% [1.2% - 2.1%] — 83.9% de chances de rester sous 2% (asymétrie : +0.5pt / -0.4pt)",
+      "📈 Inflation médiane à 12 mois : 1.6% [1.2% - 2.1%] — 84.0% de chances de rester sous 2% (asymétrie : +0.5pt / -0.4pt)",
       "💰 SMIC janvier 2027 : 1859€ brut (+2.0%, fourchette 1.6-2.5%) — Pouvoir d'achat réel : +0.4% (+7€/mois)",
       "👥 Chômage Q4 : 7.8% [7.7% - 7.9%] — Tendance stable (corrélé Phillips ρ=-0.35)",
       "📊 Signaux marchés : ↑ inflation 0.23pt, ↑ chômage 0.17pt, (poids temporel min : 1.00)",
@@ -22758,7 +22758,7 @@
           }
         },
         "contribution_mediane": {
-          "signaux_marches_pt": 0.235,
+          "signaux_marches_pt": 0.234,
           "incertitude_bdf_sigma": 0.15,
           "label": "Déplacement de la prévision centrale"
         }
