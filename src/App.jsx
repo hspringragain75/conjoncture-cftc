@@ -14,6 +14,7 @@ import HeaderKpiConfigModal from './components/HeaderKpiConfigModal';
 import FavorisTab from './tabs/FavorisTab';
 import BubbleSubTabs from './components/BubbleSubTabs';
 import BubbleNote from './components/BubbleNote';
+import useHeaderKpis from './hooks/useHeaderKpis';
 
 // ============================================================================
 // TABLEAU DE BORD ÉCONOMIQUE CFTC - STYLE "BULLE" MODERNISÉ
