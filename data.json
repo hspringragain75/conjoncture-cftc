@@ -1,6 +1,6 @@
 {
-  "last_updated": "31/03/2026 06:00",
-  "last_updated_iso": "2026-03-31T06:00:49.525662",
+  "last_updated": "31/03/2026 06:01",
+  "last_updated_iso": "2026-03-31T06:01:11.599065",
   "contact": "hspringragain@cftc.fr",
   "alertes": [
     {
@@ -32,7 +32,7 @@
       "date": "2026-03-31",
       "type": "info",
       "titre": "🔄 Données actualisées",
-      "message": "Le tableau de bord a été mis à jour le 31/03/2026 à 06:00.",
+      "message": "Le tableau de bord a été mis à jour le 31/03/2026 à 06:01.",
       "onglet": "conjoncture"
     }
   ],
@@ -193,7 +193,7 @@
     }
   ],
   "revue_presse": {
-    "derniere_maj": "31/03/2026 06:00",
+    "derniere_maj": "31/03/2026 06:01",
     "nb_sources": 7,
     "sources_noms": [
       "Le Monde Éco",
@@ -219,18 +219,6 @@
       }
     ],
     "tous": [
-      {
-        "source": "Le Figaro Éco",
-        "couleur": "#92400e",
-        "emoji": "📊",
-        "tag": "Presse économique",
-        "titre": "Renault travaille sur des drones terrestres militaires",
-        "resume": "Le constructeur poursuit son développement dans le domaine militaire, après avoir annoncé la production de drones aériens dans son usine du Mans.",
-        "lien": "https://www.lefigaro.fr/societes/renault-travaille-sur-des-drones-terrestres-militaires-20260330",
-        "date_iso": "2026-03-31T07:34:11+02:00",
-        "date_fr": "31/03/2026",
-        "pertinence": 1
-      },
       {
         "source": "Le Figaro Éco",
         "couleur": "#92400e",
@@ -566,6 +554,18 @@
         "date_iso": "2026-03-30T18:26:34+02:00",
         "date_fr": "30/03/2026",
         "pertinence": 0
+      },
+      {
+        "source": "Le Figaro Éco",
+        "couleur": "#92400e",
+        "emoji": "📊",
+        "tag": "Presse économique",
+        "titre": "Renault travaille sur des drones terrestres militaires",
+        "resume": "Le constructeur poursuit son développement dans le domaine militaire, après avoir annoncé la production de drones aériens dans son usine du Mans.",
+        "lien": "https://www.lefigaro.fr/societes/renault-travaille-sur-des-drones-terrestres-militaires-20260330",
+        "date_iso": "2026-03-30T18:24:56+02:00",
+        "date_fr": "30/03/2026",
+        "pertinence": 1
       },
       {
         "source": "Le Monde Éco",
@@ -7573,7 +7573,7 @@
       "note_lecture": "Le taux de change euro-dollar determine le prix de tout ce qui est importe en dollars : petrole, matieres premieres, electronique. Un euro faible rencherit les importations et alimente l'inflation."
     },
     "or": {
-      "valeur": 4608.6,
+      "valeur": 4607.7,
       "date": "2026-03-31",
       "unite": "USD/oz",
       "source": "Yahoo Finance",
@@ -9093,16 +9093,16 @@
         },
         {
           "date": "2026-03-31",
-          "valeur": 4608.6,
-          "ma50": 4939.62,
+          "valeur": 4607.7,
+          "ma50": 4939.61,
           "ma200": 4102.67
         }
       ],
       "variations": {
-        "jour": 1.83,
-        "semaine": 4.76,
-        "mois": -11.89,
-        "ytd": 6.82
+        "jour": 1.81,
+        "semaine": 4.74,
+        "mois": -11.91,
+        "ytd": 6.8
       },
       "min_max": {
         "min": 2951.3,
@@ -17663,7 +17663,7 @@
           "2023": 1.92,
           "2024": 1.78,
           "2025": 1.72,
-          "2026": 1.75
+          "2026": 2.031
         },
         "quantiteMensuelle": {
           "solo": 40,
@@ -22280,7 +22280,7 @@
     "sources": "INSEE - Enquête Emploi, DARES"
   },
   "previsions_cftc": {
-    "generated_at": "2026-03-31T06:00:49.770478",
+    "generated_at": "2026-03-31T06:01:11.770822",
     "model_version": "CFTC v7.0 (bivarié Phillips + log-normale + pondération temporelle)",
     "n_simulations": 1000,
     "horizon": "12 mois",
@@ -22289,7 +22289,7 @@
       "niveau": "excellent",
       "issues": [],
       "warnings": [],
-      "timestamp": "2026-03-31T06:00:49.770491"
+      "timestamp": "2026-03-31T06:01:11.770836"
     },
     "calibrage": {
       "volatilites": {
