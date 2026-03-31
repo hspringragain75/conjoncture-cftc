@@ -1,6 +1,6 @@
 {
-  "last_updated": "31/03/2026 06:01",
-  "last_updated_iso": "2026-03-31T06:01:37.580175",
+  "last_updated": "31/03/2026 06:02",
+  "last_updated_iso": "2026-03-31T06:02:32.508934",
   "contact": "hspringragain@cftc.fr",
   "alertes": [
     {
@@ -32,7 +32,7 @@
       "date": "2026-03-31",
       "type": "info",
       "titre": "🔄 Données actualisées",
-      "message": "Le tableau de bord a été mis à jour le 31/03/2026 à 06:01.",
+      "message": "Le tableau de bord a été mis à jour le 31/03/2026 à 06:02.",
       "onglet": "conjoncture"
     }
   ],
@@ -193,7 +193,7 @@
     }
   ],
   "revue_presse": {
-    "derniere_maj": "31/03/2026 06:01",
+    "derniere_maj": "31/03/2026 06:02",
     "nb_sources": 7,
     "sources_noms": [
       "Le Monde Éco",
@@ -2910,7 +2910,7 @@
       "note_lecture": "Le TEC-10 mesure le rendement des emprunts d'Etat francais a 10 ans. Un taux eleve rencherit le cout de la dette publique et impacte les taux de credit immobilier."
     },
     "petrole_brent": {
-      "valeur": 107.03,
+      "valeur": 106.93,
       "date": "2026-03-31",
       "unite": "USD/baril",
       "source": "Yahoo Finance",
@@ -4430,16 +4430,16 @@
         },
         {
           "date": "2026-03-31",
-          "valeur": 107.03,
+          "valeur": 106.93,
           "ma50": 82.03,
           "ma200": 69.87
         }
       ],
       "variations": {
-        "jour": -5.1,
-        "semaine": 2.43,
-        "mois": 47.67,
-        "ytd": 76.18
+        "jour": -5.19,
+        "semaine": 2.34,
+        "mois": 47.53,
+        "ytd": 76.02
       },
       "min_max": {
         "min": 58.92,
@@ -7573,7 +7573,7 @@
       "note_lecture": "Le taux de change euro-dollar determine le prix de tout ce qui est importe en dollars : petrole, matieres premieres, electronique. Un euro faible rencherit les importations et alimente l'inflation."
     },
     "or": {
-      "valeur": 4607.0,
+      "valeur": 4607.9,
       "date": "2026-03-31",
       "unite": "USD/oz",
       "source": "Yahoo Finance",
@@ -9093,16 +9093,16 @@
         },
         {
           "date": "2026-03-31",
-          "valeur": 4607.0,
-          "ma50": 4939.59,
+          "valeur": 4607.9,
+          "ma50": 4939.61,
           "ma200": 4102.67
         }
       ],
       "variations": {
-        "jour": 1.79,
-        "semaine": 4.72,
-        "mois": -11.92,
-        "ytd": 6.78
+        "jour": 1.81,
+        "semaine": 4.74,
+        "mois": -11.9,
+        "ytd": 6.8
       },
       "min_max": {
         "min": 2951.3,
@@ -10647,7 +10647,7 @@
       "note_lecture": "Le prix du gaz naturel (TTF europeen) impacte directement les factures de chauffage et d'electricite des menages, ainsi que les couts de production industrielle."
     },
     "ble": {
-      "valeur": 609.25,
+      "valeur": 609.0,
       "date": "2026-03-31",
       "unite": "cents/boisseau",
       "source": "Yahoo Finance",
@@ -12161,16 +12161,16 @@
         },
         {
           "date": "2026-03-31",
-          "valeur": 609.25,
-          "ma50": 564.75,
+          "valeur": 609.0,
+          "ma50": 564.74,
           "ma200": 533.18
         }
       ],
       "variations": {
-        "jour": 0.37,
-        "semaine": 3.26,
-        "mois": 3.04,
-        "ytd": 20.29
+        "jour": 0.33,
+        "semaine": 3.22,
+        "mois": 3.0,
+        "ytd": 20.24
       },
       "min_max": {
         "min": 495.0,
@@ -13721,7 +13721,7 @@
       "note_lecture": "Le cuivre est le baromètre de l'activité industrielle mondiale ('Dr Copper'). Sa hausse signale une reprise économique, sa baisse anticipe un ralentissement. Utilisé massivement dans l'électrification et les énergies renouvelables."
     },
     "lme_aluminium": {
-      "valeur": 3376.25,
+      "valeur": 3377.5,
       "date": "2026-03-31",
       "unite": "cts/lb",
       "source": "Yahoo Finance",
@@ -15235,16 +15235,16 @@
         },
         {
           "date": "2026-03-31",
-          "valeur": 3376.25,
-          "ma50": 3127.86,
-          "ma200": 2776.16
+          "valeur": 3377.5,
+          "ma50": 3127.89,
+          "ma200": 2776.17
         }
       ],
       "variations": {
-        "jour": 1.2,
-        "semaine": 7.59,
-        "mois": 10.91,
-        "ytd": 14.92
+        "jour": 1.24,
+        "semaine": 7.63,
+        "mois": 10.95,
+        "ytd": 14.96
       },
       "min_max": {
         "min": 2166.25,
@@ -22280,7 +22280,7 @@
     "sources": "INSEE - Enquête Emploi, DARES"
   },
   "previsions_cftc": {
-    "generated_at": "2026-03-31T06:01:37.886173",
+    "generated_at": "2026-03-31T06:02:32.753723",
     "model_version": "CFTC v7.0 (bivarié Phillips + log-normale + pondération temporelle)",
     "n_simulations": 1000,
     "horizon": "12 mois",
@@ -22289,7 +22289,7 @@
       "niveau": "excellent",
       "issues": [],
       "warnings": [],
-      "timestamp": "2026-03-31T06:01:37.886185"
+      "timestamp": "2026-03-31T06:02:32.753733"
     },
     "calibrage": {
       "volatilites": {
@@ -22317,7 +22317,7 @@
       "lognormal_offset": 3.0
     },
     "market_signals": {
-      "inflation_adjustment": 0.228,
+      "inflation_adjustment": 0.227,
       "chomage_adjustment": 0.175,
       "energie_outlook": "hausse",
       "ponderation_temporelle": {
@@ -22329,10 +22329,10 @@
     },
     "market_signals_details": {
       "brent": {
-        "valeur": 107.03,
+        "valeur": 106.93,
         "ref": 75.0,
-        "variation_ytd_pct": 76.18,
-        "impact_inflation_pt": 0.32,
+        "variation_ytd_pct": 76.02,
+        "impact_inflation_pt": 0.319,
         "poids_temporel": 1.0
       },
       "gaz_ttf": {
@@ -22489,9 +22489,9 @@
       "facteurs": {
         "cible_bdf": 1.4,
         "ajustement_climat": -0.03,
-        "ajustement_marches": 0.228,
+        "ajustement_marches": 0.227,
         "energie_outlook": "hausse",
-        "cible_ajustee": 1.598,
+        "cible_ajustee": 1.597,
         "volatilite_utilisee": 0.5
       },
       "asymetrie_ic": {
@@ -22718,8 +22718,8 @@
         "ic_total_pts": 0.9,
         "sources": {
           "volatilite_historique": {
-            "ic_pts": 0.72,
-            "part_pct": 80.0,
+            "ic_pts": 0.81,
+            "part_pct": 90.0,
             "label": "Variabilité passée de l'inflation"
           },
           "signaux_marches": {
@@ -22728,13 +22728,13 @@
             "label": "Brent, gaz, EUR/USD, SMB..."
           },
           "incertitude_bdf": {
-            "ic_pts": 0.09,
-            "part_pct": 10.0,
+            "ic_pts": 0.0,
+            "part_pct": 0.0,
             "label": "Structure log-normale + résiduel"
           }
         },
         "contribution_mediane": {
-          "signaux_marches_pt": 0.228,
+          "signaux_marches_pt": 0.227,
           "incertitude_bdf_sigma": 0.15,
           "label": "Déplacement de la prévision centrale"
         }
