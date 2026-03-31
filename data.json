@@ -1,6 +1,6 @@
 {
   "last_updated": "31/03/2026 07:48",
-  "last_updated_iso": "2026-03-31T07:48:16.728183",
+  "last_updated_iso": "2026-03-31T07:48:38.263740",
   "contact": "hspringragain@cftc.fr",
   "alertes": [
     {
@@ -2922,7 +2922,7 @@
       "note_lecture": "Le TEC-10 mesure le rendement des emprunts d'Etat francais a 10 ans. Un taux eleve rencherit le cout de la dette publique et impacte les taux de credit immobilier."
     },
     "petrole_brent": {
-      "valeur": 107.3,
+      "valeur": 107.27,
       "date": "2026-03-31",
       "unite": "USD/baril",
       "source": "Yahoo Finance",
@@ -4442,16 +4442,16 @@
         },
         {
           "date": "2026-03-31",
-          "valeur": 107.3,
+          "valeur": 107.27,
           "ma50": 82.04,
           "ma200": 69.87
         }
       ],
       "variations": {
-        "jour": -4.86,
-        "semaine": 2.69,
-        "mois": 48.04,
-        "ytd": 76.63
+        "jour": -4.89,
+        "semaine": 2.66,
+        "mois": 48.0,
+        "ytd": 76.58
       },
       "min_max": {
         "min": 58.92,
@@ -4462,9 +4462,9 @@
       "note_lecture": "Le prix du Brent influence directement les couts de transport et d'energie, donc l'inflation et le pouvoir d'achat des salaries."
     },
     "cac40": {
-      "valeur": 7787.25,
+      "valeur": 7791.1,
       "date": "2026-03-31",
-      "variation_jour_pct": 0.19,
+      "variation_jour_pct": 0.24,
       "unite": "points",
       "source": "Yahoo Finance",
       "nb_points": 256,
@@ -6001,16 +6001,16 @@
         },
         {
           "date": "2026-03-31",
-          "valeur": 7787.25,
-          "ma50": 8135.53,
-          "ma200": 7997.17
+          "valeur": 7791.1,
+          "ma50": 8135.61,
+          "ma200": 7997.19
         }
       ],
       "variations": {
-        "jour": 0.19,
-        "semaine": 0.56,
-        "mois": -9.25,
-        "ytd": -4.98
+        "jour": 0.24,
+        "semaine": 0.61,
+        "mois": -9.2,
+        "ytd": -4.93
       },
       "min_max": {
         "min": 6863.02,
@@ -7591,7 +7591,7 @@
       "note_lecture": "Le taux de change euro-dollar determine le prix de tout ce qui est importe en dollars : petrole, matieres premieres, electronique. Un euro faible rencherit les importations et alimente l'inflation."
     },
     "or": {
-      "valeur": 4587.9,
+      "valeur": 4588.0,
       "date": "2026-03-31",
       "unite": "USD/oz",
       "source": "Yahoo Finance",
@@ -9111,7 +9111,7 @@
         },
         {
           "date": "2026-03-31",
-          "valeur": 4587.9,
+          "valeur": 4588.0,
           "ma50": 4939.21,
           "ma200": 4102.57
         }
@@ -9119,7 +9119,7 @@
       "variations": {
         "jour": 1.37,
         "semaine": 4.29,
-        "mois": -12.29,
+        "mois": -12.28,
         "ytd": 6.34
       },
       "min_max": {
@@ -10671,7 +10671,7 @@
       "note_lecture": "Le prix du gaz naturel (TTF europeen) impacte directement les factures de chauffage et d'electricite des menages, ainsi que les couts de production industrielle."
     },
     "ble": {
-      "valeur": 611.75,
+      "valeur": 611.0,
       "date": "2026-03-31",
       "unite": "cents/boisseau",
       "source": "Yahoo Finance",
@@ -12185,16 +12185,16 @@
         },
         {
           "date": "2026-03-31",
-          "valeur": 611.75,
-          "ma50": 564.79,
+          "valeur": 611.0,
+          "ma50": 564.78,
           "ma200": 533.19
         }
       ],
       "variations": {
-        "jour": 0.78,
-        "semaine": 3.69,
-        "mois": 3.47,
-        "ytd": 20.78
+        "jour": 0.66,
+        "semaine": 3.56,
+        "mois": 3.34,
+        "ytd": 20.63
       },
       "min_max": {
         "min": 495.0,
@@ -22304,7 +22304,7 @@
     "sources": "INSEE - Enquête Emploi, DARES"
   },
   "previsions_cftc": {
-    "generated_at": "2026-03-31T07:48:16.927987",
+    "generated_at": "2026-03-31T07:48:38.517129",
     "model_version": "CFTC v7.0 (bivarié Phillips + log-normale + pondération temporelle)",
     "n_simulations": 1000,
     "horizon": "12 mois",
@@ -22313,7 +22313,7 @@
       "niveau": "excellent",
       "issues": [],
       "warnings": [],
-      "timestamp": "2026-03-31T07:48:16.928002"
+      "timestamp": "2026-03-31T07:48:38.517142"
     },
     "calibrage": {
       "volatilites": {
@@ -22353,9 +22353,9 @@
     },
     "market_signals_details": {
       "brent": {
-        "valeur": 107.3,
+        "valeur": 107.27,
         "ref": 75.0,
-        "variation_ytd_pct": 76.63,
+        "variation_ytd_pct": 76.58,
         "impact_inflation_pt": 0.323,
         "poids_temporel": 1.0
       },
@@ -22383,7 +22383,7 @@
         "signal": "baissier"
       },
       "cac40_ytd": {
-        "variation_ytd_pct": -4.98,
+        "variation_ytd_pct": -4.93,
         "signal_chomage": "neutre"
       },
       "carburants_sp95": {
