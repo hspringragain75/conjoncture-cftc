@@ -4,7 +4,10 @@ import SparklineBars from './components/SparklineBars';
 import Card from './components/Card';
 import FavoriButton from './components/FavoriButton';
 import BubbleKpi from './components/BubbleKpi';
-import BubbleNavTabs from './components/BubbleNavTabs';
+import BubbleNavTabs from './components/BubbleNavTabs;
+import BubbleStatBlock from './components/BubbleStatBlock';
+import BubbleProgressBar from './components/BubbleProgressBar';
+import { useChartProps } from './hooks/useChartProps';
 
 // ============================================================================
 // TABLEAU DE BORD ÉCONOMIQUE CFTC - STYLE "BULLE" MODERNISÉ
@@ -33,15 +36,6 @@ const C = {
   cyan: '#06b6d4', 
   gray: '#6b7280' 
 };
-
-// Configuration des couleurs pour les graphiques selon le mode
-const getChartColors = (darkMode) => ({
-  grid: darkMode ? '#374151' : '#e5e7eb',
-  axis: darkMode ? '#9ca3af' : '#6b7280',
-  text: darkMode ? '#e5e7eb' : '#374151',
-  tooltipBg: darkMode ? '#1f2937' : '#ffffff',
-  tooltipBorder: darkMode ? '#374151' : '#e5e7eb',
-});
 
 // ==================== HOOK FAVORIS ====================
 function useFavoris() {
@@ -754,93 +748,6 @@ function BubbleNote({ type = 'info', title, children, darkMode }) {
     </div>
   );
 }
-
-// ==================== COMPOSANT STAT BLOCK STYLE BULLE ====================
-function BubbleStatBlock({ label, value, status = 'neutral', darkMode, subtitle }) {
-  const statusColors = {
-    good: darkMode ? 'bg-green-900/30 text-green-400' : 'bg-green-50 text-green-600',
-    neutral: darkMode ? 'bg-blue-900/30 text-blue-400' : 'bg-blue-50 text-[#0d4093]',
-    warning: darkMode ? 'bg-orange-900/30 text-orange-400' : 'bg-orange-50 text-orange-600',
-    bad: darkMode ? 'bg-red-900/30 text-red-400' : 'bg-red-50 text-red-600',
-  };
-
-  return (
-    <div className={`flex items-center justify-between p-4 rounded-2xl ${darkMode ? 'bg-gray-700/50' : 'bg-gray-50'}`}>
-      <div>
-        <span className={`text-sm ${darkMode ? 'text-gray-300' : 'text-gray-600'}`}>{label}</span>
-        {subtitle && <p className={`text-xs ${darkMode ? 'text-gray-500' : 'text-gray-400'}`}>{subtitle}</p>}
-      </div>
-      <span className={`text-xl font-bold px-3 py-1 rounded-xl ${statusColors[status]}`}>{value}</span>
-    </div>
-  );
-}
-
-// ==================== COMPOSANT PROGRESS BAR STYLE BULLE ====================
-function BubbleProgressBar({ label, value, max = 100, darkMode, showPercent = true, color }) {
-  const percentage = (Math.abs(value) / max) * 100;
-  const isPositive = value >= 0;
-  const barColor = color || (isPositive ? 'bg-green-500' : 'bg-red-500');
-
-  return (
-    <div className="flex items-center gap-3">
-      <span className={`text-xs w-32 sm:w-36 truncate ${darkMode ? 'text-gray-400' : 'text-gray-500'}`}>{label}</span>
-      <div className="flex-1 flex items-center gap-2">
-        <div className={`h-3 rounded-full flex-1 overflow-hidden ${darkMode ? 'bg-gray-700' : 'bg-gray-200'}`}>
-          <div 
-            className={`h-full rounded-full transition-all duration-500 ${barColor}`}
-            style={{ width: `${Math.min(percentage, 100)}%` }}
-          ></div>
-        </div>
-        {showPercent && (
-          <span className={`text-xs font-bold w-12 text-right ${
-            isPositive ? 'text-green-500' : 'text-red-500'
-          }`}>
-            {typeof value === 'number' && value >= 0 ? '+' : ''}{value}{typeof value === 'number' ? '%' : ''}
-          </span>
-        )}
-      </div>
-    </div>
-  );
-}
-
-// Props communes pour tous les graphiques - STYLE BULLE
-const useChartProps = (darkMode) => {
-  const colors = getChartColors(darkMode);
-  return {
-    cartesianGrid: { 
-      strokeDasharray: "3 3", 
-      stroke: colors.grid,
-      vertical: false  // Grille horizontale uniquement = plus clean
-    },
-    xAxis: { 
-      tick: { fill: colors.axis, fontSize: 11 }, 
-      axisLine: { stroke: colors.grid }, 
-      tickLine: false 
-    },
-    yAxis: { 
-      tick: { fill: colors.axis, fontSize: 11 }, 
-      axisLine: false, 
-      tickLine: false,
-      width: 40
-    },
-    legend: { 
-      wrapperStyle: { fontSize: 11, color: colors.text, paddingTop: '10px' } 
-    },
-    tooltip: { 
-      contentStyle: { 
-        backgroundColor: colors.tooltipBg, 
-        border: 'none',
-        borderRadius: '12px',
-        boxShadow: darkMode ? '0 10px 40px rgba(0,0,0,0.4)' : '0 10px 40px rgba(0,0,0,0.12)',
-        color: colors.text,
-        padding: '10px 14px'
-      },
-      labelStyle: { color: colors.text, fontWeight: 600, marginBottom: '4px' },
-      itemStyle: { color: colors.text, padding: '2px 0' },
-      cursor: { fill: darkMode ? 'rgba(255,255,255,0.05)' : 'rgba(0,0,0,0.05)' }
-    }
-  };
-};
 
 // ==================== COMPOSANT PRINCIPAL APP ====================
 export default function App() {
