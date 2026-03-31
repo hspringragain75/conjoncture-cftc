@@ -1,6 +1,6 @@
 {
-  "last_updated": "31/03/2026 06:03",
-  "last_updated_iso": "2026-03-31T06:03:02.479957",
+  "last_updated": "31/03/2026 06:11",
+  "last_updated_iso": "2026-03-31T06:11:09.868556",
   "contact": "hspringragain@cftc.fr",
   "alertes": [
     {
@@ -32,7 +32,7 @@
       "date": "2026-03-31",
       "type": "info",
       "titre": "🔄 Données actualisées",
-      "message": "Le tableau de bord a été mis à jour le 31/03/2026 à 06:02.",
+      "message": "Le tableau de bord a été mis à jour le 31/03/2026 à 06:11.",
       "onglet": "conjoncture"
     }
   ],
@@ -193,7 +193,7 @@
     }
   ],
   "revue_presse": {
-    "derniere_maj": "31/03/2026 06:03",
+    "derniere_maj": "31/03/2026 06:11",
     "nb_sources": 7,
     "sources_noms": [
       "Le Monde Éco",
@@ -210,36 +210,72 @@
         "couleur": "#374151",
         "emoji": "🌐",
         "tag": "Presse économique",
-        "titre": "Guerre au Moyen-Orient : le gouvernement annonce la mise en place du chômage partiel pour soutenir les entreprises",
-        "resume": "Massivement utilisé pendant la crise due au Covid-19, le dispositif toucherait les sociétés qui font face à une baisse d’activité liée au conflit en Iran et à la fermeture du détroit d’Ormuz. L’enveloppe dévolue à cette mesure dans le budget s’élève à près de 70 millions d’euros.",
-        "lien": "https://www.lemonde.fr/politique/article/2026/03/30/guerre-au-moyen-orient-le-gouvernement-annonce-la-mise-en-place-du-chomage-partiel-pour-soutenir-les-entreprises_6675477_823448.html",
-        "date_iso": "2026-03-30T18:04:32+02:00",
-        "date_fr": "30/03/2026",
+        "titre": "Avec l’incertitude économique, les salariés délaissent les projets de reconversion, les entreprises allongent les délais de recrutement",
+        "resume": "Dans une étude publiée mardi 31 mars, le cabinet LHH, qui accompagne les salariés licenciés dans leur reclassement, constate qu’ils privilégient de plus en plus le retour au salariat à la création d’entreprise ou à une formation longue.",
+        "lien": "https://www.lemonde.fr/economie/article/2026/03/31/avec-l-incertitude-economique-les-salaries-delaissent-les-projets-de-reconversion-les-entreprises-allongent-les-delais-de-recrutement_6675598_3234.html",
+        "date_iso": "2026-03-31T08:00:14+02:00",
+        "date_fr": "31/03/2026",
+        "pertinence": 3
+      },
+      {
+        "source": "Le Monde Emploi",
+        "couleur": "#1f2937",
+        "emoji": "💼",
+        "tag": "Emploi & travail",
+        "titre": "Avec l’incertitude économique, les salariés délaissent les projets de reconversion, les entreprises allongent les délais de recrutement",
+        "resume": "Dans une étude publiée mardi 31 mars, le cabinet LHH, qui accompagne les salariés licenciés dans leur reclassement, constate qu’ils privilégient de plus en plus le retour au salariat à la création d’entreprise ou à une formation longue.",
+        "lien": "https://www.lemonde.fr/economie/article/2026/03/31/avec-l-incertitude-economique-les-salaries-delaissent-les-projets-de-reconversion-les-entreprises-allongent-les-delais-de-recrutement_6675598_3234.html",
+        "date_iso": "2026-03-31T08:00:14+02:00",
+        "date_fr": "31/03/2026",
         "pertinence": 3
       }
     ],
     "tous": [
       {
-        "source": "Le Figaro Éco",
-        "couleur": "#92400e",
-        "emoji": "📊",
+        "source": "Le Monde Éco",
+        "couleur": "#374151",
+        "emoji": "🌐",
         "tag": "Presse économique",
-        "titre": "Renault travaille sur des drones terrestres militaires",
-        "resume": "Le constructeur poursuit son développement dans le domaine militaire, après avoir annoncé la production de drones aériens dans son usine du Mans.",
-        "lien": "https://www.lefigaro.fr/societes/renault-travaille-sur-des-drones-terrestres-militaires-20260330",
-        "date_iso": "2026-03-31T07:34:11+02:00",
+        "titre": "Avec l’incertitude économique, les salariés délaissent les projets de reconversion, les entreprises allongent les délais de recrutement",
+        "resume": "Dans une étude publiée mardi 31 mars, le cabinet LHH, qui accompagne les salariés licenciés dans leur reclassement, constate qu’ils privilégient de plus en plus le retour au salariat à la création d’entreprise ou à une formation longue.",
+        "lien": "https://www.lemonde.fr/economie/article/2026/03/31/avec-l-incertitude-economique-les-salaries-delaissent-les-projets-de-reconversion-les-entreprises-allongent-les-delais-de-recrutement_6675598_3234.html",
+        "date_iso": "2026-03-31T08:00:14+02:00",
         "date_fr": "31/03/2026",
-        "pertinence": 1
+        "pertinence": 3
+      },
+      {
+        "source": "Le Monde Emploi",
+        "couleur": "#1f2937",
+        "emoji": "💼",
+        "tag": "Emploi & travail",
+        "titre": "Avec l’incertitude économique, les salariés délaissent les projets de reconversion, les entreprises allongent les délais de recrutement",
+        "resume": "Dans une étude publiée mardi 31 mars, le cabinet LHH, qui accompagne les salariés licenciés dans leur reclassement, constate qu’ils privilégient de plus en plus le retour au salariat à la création d’entreprise ou à une formation longue.",
+        "lien": "https://www.lemonde.fr/economie/article/2026/03/31/avec-l-incertitude-economique-les-salaries-delaissent-les-projets-de-reconversion-les-entreprises-allongent-les-delais-de-recrutement_6675598_3234.html",
+        "date_iso": "2026-03-31T08:00:14+02:00",
+        "date_fr": "31/03/2026",
+        "pertinence": 3
+      },
+      {
+        "source": "Le Monde Éco",
+        "couleur": "#374151",
+        "emoji": "🌐",
+        "tag": "Presse économique",
+        "titre": "« Il n’est pas certain que la Chine sorte économiquement victorieuse du chaos actuel »",
+        "resume": "La déstabilisation économique planétaire qu’a engendrée la guerre au Moyen-Orient touche l’usine du monde, qui peine à écouler ses surproductions, constate le journaliste du « Monde » Harold Thibault dans sa chronique.",
+        "lien": "https://www.lemonde.fr/idees/article/2026/03/31/il-n-est-pas-certain-que-la-chine-sorte-economiquement-victorieuse-du-chaos-actuel_6675597_3232.html",
+        "date_iso": "2026-03-31T08:00:10+02:00",
+        "date_fr": "31/03/2026",
+        "pertinence": 0
       },
       {
         "source": "Le Figaro Éco",
         "couleur": "#92400e",
         "emoji": "📊",
         "tag": "Presse économique",
-        "titre": "Le PDG d’Air Canada poussé à la démission à cause de sa méconnaissance du français, «malgré un grand nombre de leçons»",
-        "resume": "Alors que le bilinguisme est la règle, le patron de la compagnie a fait une vidéo uniquement en anglais pour saluer la mémoire d’un pilote et d’un copilote maison morts dans un accident à l’aéroport La Guardia à New York.",
-        "lien": "https://www.lefigaro.fr/economie/le-pdg-d-air-canada-remercie-pour-sa-meconnaissance-du-francais-20260330",
-        "date_iso": "2026-03-31T07:32:23+02:00",
+        "titre": "L’Indonésie met en demeure Meta et Google pour «non-respect» de l’interdiction des réseaux sociaux aux enfants",
+        "resume": "Le pays d’Asie du sud-est a rendu illégal les sites pour les enfants de moins de 16 ans invoquant les menaces de la pornographie, du cyberharcèlement, de la fraude en ligne et de la dépendance à internet.",
+        "lien": "https://www.lefigaro.fr/secteur/high-tech/l-indonesie-met-en-demeure-meta-et-google-pour-non-respect-de-l-interdiction-des-reseaux-sociaux-aux-enfants-20260331",
+        "date_iso": "2026-03-31T07:26:08+02:00",
         "date_fr": "31/03/2026",
         "pertinence": 0
       },
@@ -276,6 +312,18 @@
         "resume": "Autrefois premier marché d’exportation hors Europe pour les producteurs français, le pays s’est fermé en 2023 en raison de la grippe aviaire.",
         "lien": "https://www.lefigaro.fr/societes/la-filiere-foie-gras-ne-veut-pas-etre-oubliee-par-macron-lors-de-son-voyage-au-japon-20260331",
         "date_iso": "2026-03-31T07:03:57+02:00",
+        "date_fr": "31/03/2026",
+        "pertinence": 0
+      },
+      {
+        "source": "Le Figaro Éco",
+        "couleur": "#92400e",
+        "emoji": "📊",
+        "tag": "Presse économique",
+        "titre": "De l’incroyable success-story d’une PME bretonne à la crise en cours... Ubisoft, 40 ans d’histoire d’un acteur majeur du jeu vidéo",
+        "resume": "RÉCIT - Le Figaro revient en huit étapes sur la riche histoire de ce groupe créé en 1986 dans le Morbihan et qui a su s’imposer aux côtés des plus grands. Mais la belle histoire se fissure depuis 2020.",
+        "lien": "https://www.lefigaro.fr/secteur/high-tech/de-l-incroyable-success-story-d-une-pme-bretonne-a-la-crise-en-cours-ubisoft-40-ans-d-histoire-d-un-acteur-majeur-du-jeu-video-20260331",
+        "date_iso": "2026-03-31T07:00:00+02:00",
         "date_fr": "31/03/2026",
         "pertinence": 0
       },
@@ -542,42 +590,6 @@
         "date_iso": "2026-03-30T19:04:28+02:00",
         "date_fr": "30/03/2026",
         "pertinence": 1
-      },
-      {
-        "source": "Le Figaro Éco",
-        "couleur": "#92400e",
-        "emoji": "📊",
-        "tag": "Presse économique",
-        "titre": "Australie, Indonésie et bientôt la France… L’interdiction des réseaux sociaux aux mineurs se répand à travers le monde",
-        "resume": "DÉCRYPTAGE - L’idée fait aussi son chemin à travers l’Europe, alors que Meta et YouTube ont été condamnés aux États-Unis pour leurs effets néfastes sur la santé mentale des jeunes.",
-        "lien": "https://www.lefigaro.fr/secteur/high-tech/australie-indonesie-et-bientot-france-l-interdiction-des-reseaux-sociaux-aux-mineurs-se-repand-a-travers-le-monde-20260330",
-        "date_iso": "2026-03-30T18:45:00+02:00",
-        "date_fr": "30/03/2026",
-        "pertinence": 0
-      },
-      {
-        "source": "Le Figaro Éco",
-        "couleur": "#92400e",
-        "emoji": "📊",
-        "tag": "Presse économique",
-        "titre": "Orange commence à fermer le réseau 2G en France à partir de mardi",
-        "resume": "DÉCRYPTAGE - Le vieux réseau mobile, remplacé par la 4G et la 5G, sera totalement éteint fin 2026.",
-        "lien": "https://www.lefigaro.fr/secteur/high-tech/orange-commence-a-fermer-le-reseau-2g-en-france-a-partir-de-mardi-20260330",
-        "date_iso": "2026-03-30T18:26:34+02:00",
-        "date_fr": "30/03/2026",
-        "pertinence": 0
-      },
-      {
-        "source": "Le Monde Éco",
-        "couleur": "#374151",
-        "emoji": "🌐",
-        "tag": "Presse économique",
-        "titre": "Guerre au Moyen-Orient : le gouvernement annonce la mise en place du chômage partiel pour soutenir les entreprises",
-        "resume": "Massivement utilisé pendant la crise due au Covid-19, le dispositif toucherait les sociétés qui font face à une baisse d’activité liée au conflit en Iran et à la fermeture du détroit d’Ormuz. L’enveloppe dévolue à cette mesure dans le budget s’élève à près de 70 millions d’euros.",
-        "lien": "https://www.lemonde.fr/politique/article/2026/03/30/guerre-au-moyen-orient-le-gouvernement-annonce-la-mise-en-place-du-chomage-partiel-pour-soutenir-les-entreprises_6675477_823448.html",
-        "date_iso": "2026-03-30T18:04:32+02:00",
-        "date_fr": "30/03/2026",
-        "pertinence": 3
       }
     ]
   },
@@ -2910,7 +2922,7 @@
       "note_lecture": "Le TEC-10 mesure le rendement des emprunts d'Etat francais a 10 ans. Un taux eleve rencherit le cout de la dette publique et impacte les taux de credit immobilier."
     },
     "petrole_brent": {
-      "valeur": 106.93,
+      "valeur": 107.02,
       "date": "2026-03-31",
       "unite": "USD/baril",
       "source": "Yahoo Finance",
@@ -4430,16 +4442,16 @@
         },
         {
           "date": "2026-03-31",
-          "valeur": 106.93,
+          "valeur": 107.02,
           "ma50": 82.03,
           "ma200": 69.87
         }
       ],
       "variations": {
-        "jour": -5.19,
-        "semaine": 2.34,
-        "mois": 47.53,
-        "ytd": 76.02
+        "jour": -5.11,
+        "semaine": 2.42,
+        "mois": 47.65,
+        "ytd": 76.16
       },
       "min_max": {
         "min": 58.92,
@@ -7573,7 +7585,7 @@
       "note_lecture": "Le taux de change euro-dollar determine le prix de tout ce qui est importe en dollars : petrole, matieres premieres, electronique. Un euro faible rencherit les importations et alimente l'inflation."
     },
     "or": {
-      "valeur": 4607.1,
+      "valeur": 4590.6,
       "date": "2026-03-31",
       "unite": "USD/oz",
       "source": "Yahoo Finance",
@@ -9093,16 +9105,16 @@
         },
         {
           "date": "2026-03-31",
-          "valeur": 4607.1,
-          "ma50": 4939.59,
-          "ma200": 4102.67
+          "valeur": 4590.6,
+          "ma50": 4939.26,
+          "ma200": 4102.58
         }
       ],
       "variations": {
-        "jour": 1.79,
-        "semaine": 4.72,
-        "mois": -11.92,
-        "ytd": 6.78
+        "jour": 1.43,
+        "semaine": 4.35,
+        "mois": -12.23,
+        "ytd": 6.4
       },
       "min_max": {
         "min": 2951.3,
@@ -12181,7 +12193,7 @@
       "note_lecture": "Le cours du ble est un indicateur avance des prix alimentaires. La France etant le premier producteur europeen, son evolution impacte a la fois les consommateurs et le secteur agricole."
     },
     "lme_cuivre": {
-      "valeur": 5.52,
+      "valeur": 5.51,
       "date": "2026-03-31",
       "unite": "cts/lb",
       "source": "Yahoo Finance",
@@ -13701,16 +13713,16 @@
         },
         {
           "date": "2026-03-31",
-          "valeur": 5.52,
+          "valeur": 5.51,
           "ma50": 5.77,
           "ma200": 5.23
         }
       ],
       "variations": {
-        "jour": 0.73,
-        "semaine": 1.85,
-        "mois": -8.0,
-        "ytd": -2.13
+        "jour": 0.55,
+        "semaine": 1.66,
+        "mois": -8.17,
+        "ytd": -2.3
       },
       "min_max": {
         "min": 4.13,
@@ -22280,7 +22292,7 @@
     "sources": "INSEE - Enquête Emploi, DARES"
   },
   "previsions_cftc": {
-    "generated_at": "2026-03-31T06:03:02.708543",
+    "generated_at": "2026-03-31T06:11:10.198729",
     "model_version": "CFTC v7.0 (bivarié Phillips + log-normale + pondération temporelle)",
     "n_simulations": 1000,
     "horizon": "12 mois",
@@ -22289,7 +22301,7 @@
       "niveau": "excellent",
       "issues": [],
       "warnings": [],
-      "timestamp": "2026-03-31T06:03:02.708559"
+      "timestamp": "2026-03-31T06:11:10.198752"
     },
     "calibrage": {
       "volatilites": {
@@ -22317,7 +22329,7 @@
       "lognormal_offset": 3.0
     },
     "market_signals": {
-      "inflation_adjustment": 0.227,
+      "inflation_adjustment": 0.228,
       "chomage_adjustment": 0.175,
       "energie_outlook": "hausse",
       "ponderation_temporelle": {
@@ -22329,10 +22341,10 @@
     },
     "market_signals_details": {
       "brent": {
-        "valeur": 106.93,
+        "valeur": 107.02,
         "ref": 75.0,
-        "variation_ytd_pct": 76.02,
-        "impact_inflation_pt": 0.319,
+        "variation_ytd_pct": 76.16,
+        "impact_inflation_pt": 0.32,
         "poids_temporel": 1.0
       },
       "gaz_ttf": {
@@ -22489,9 +22501,9 @@
       "facteurs": {
         "cible_bdf": 1.4,
         "ajustement_climat": -0.03,
-        "ajustement_marches": 0.227,
+        "ajustement_marches": 0.228,
         "energie_outlook": "hausse",
-        "cible_ajustee": 1.597,
+        "cible_ajustee": 1.598,
         "volatilite_utilisee": 0.5
       },
       "asymetrie_ic": {
@@ -22718,8 +22730,8 @@
         "ic_total_pts": 0.9,
         "sources": {
           "volatilite_historique": {
-            "ic_pts": 0.81,
-            "part_pct": 90.0,
+            "ic_pts": 0.72,
+            "part_pct": 80.0,
             "label": "Variabilité passée de l'inflation"
           },
           "signaux_marches": {
@@ -22728,13 +22740,13 @@
             "label": "Brent, gaz, EUR/USD, SMB..."
           },
           "incertitude_bdf": {
-            "ic_pts": 0.0,
-            "part_pct": 0.0,
+            "ic_pts": 0.09,
+            "part_pct": 10.0,
             "label": "Structure log-normale + résiduel"
           }
         },
         "contribution_mediane": {
-          "signaux_marches_pt": 0.227,
+          "signaux_marches_pt": 0.228,
           "incertitude_bdf_sigma": 0.15,
           "label": "Déplacement de la prévision centrale"
         }
