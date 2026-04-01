@@ -1,6 +1,6 @@
 {
-  "last_updated": "01/04/2026 09:08",
-  "last_updated_iso": "2026-04-01T09:08:30.534465",
+  "last_updated": "01/04/2026 09:12",
+  "last_updated_iso": "2026-04-01T09:12:34.186411",
   "contact": "hspringragain@cftc.fr",
   "alertes": [
     {
@@ -32,7 +32,7 @@
       "date": "2026-04-01",
       "type": "info",
       "titre": "🔄 Données actualisées",
-      "message": "Le tableau de bord a été mis à jour le 01/04/2026 à 09:08.",
+      "message": "Le tableau de bord a été mis à jour le 01/04/2026 à 09:12.",
       "onglet": "conjoncture"
     }
   ],
@@ -193,7 +193,7 @@
     }
   ],
   "revue_presse": {
-    "derniere_maj": "01/04/2026 09:08",
+    "derniere_maj": "01/04/2026 09:12",
     "nb_sources": 7,
     "sources_noms": [
       "Le Monde Éco",
@@ -206,6 +206,30 @@
     ],
     "a_la_une": [],
     "tous": [
+      {
+        "source": "Le Figaro Éco",
+        "couleur": "#92400e",
+        "emoji": "📊",
+        "tag": "Presse économique",
+        "titre": "Déchets radioactifs : le coût du projet d'enfouissement Cigéo évalué à 33,4 milliards d'euros par l'État",
+        "resume": "La nouvelle estimation de l’État est 11 milliards d’euros plus chère que celle qui avait été réalisée en 2016.",
+        "lien": "https://www.lefigaro.fr/societes/dechets-radioactifs-le-cout-du-projet-d-enfouissement-cigeo-evalue-a-33-4-milliards-d-euros-par-l-etat-20260401",
+        "date_iso": "2026-04-01T11:00:55+02:00",
+        "date_fr": "01/04/2026",
+        "pertinence": 0
+      },
+      {
+        "source": "Le Figaro Éco",
+        "couleur": "#92400e",
+        "emoji": "📊",
+        "tag": "Presse économique",
+        "titre": "France Musique s'ouvre au numérique et va quitter la FM dans plusieurs zones du territoire",
+        "resume": "Un mouvement «historique» selon Sibyle Veil, présidente de Radio France, qui souhaite prolonger l’implantation de France Musique sur la radio numérique.",
+        "lien": "https://www.lefigaro.fr/medias/france-musique-s-ouvre-au-numerique-et-va-quitter-la-fm-dans-plusieurs-zones-du-territoire-20260401",
+        "date_iso": "2026-04-01T11:00:27+02:00",
+        "date_fr": "01/04/2026",
+        "pertinence": 0
+      },
       {
         "source": "Le Monde Éco",
         "couleur": "#374151",
@@ -287,18 +311,6 @@
         "resume": "Une décision présentée comme une riposte à un certain nombre d’actions françaises perçues comme hostiles par les autorités israéliennes, parmi lesquelles la reconnaissance par Paris, en septembre 2025, de l’État de Palestine",
         "lien": "https://www.lefigaro.fr/international/israel-veut-mettre-un-terme-a-ses-importations-d-armement-francais-20260401",
         "date_iso": "2026-04-01T09:35:52+02:00",
-        "date_fr": "01/04/2026",
-        "pertinence": 0
-      },
-      {
-        "source": "Le Figaro Éco",
-        "couleur": "#92400e",
-        "emoji": "📊",
-        "tag": "Presse économique",
-        "titre": "De nouvelles mesures de sécurité mises en place à l’aéroport de Nantes après le passage accidentel d’un enfant dans un scanner à bagages à rayons X",
-        "resume": "L’incident, survenu le 11 août 2025, avait contraint l’Autorité de sûreté nucléaire et de radioprotection à ouvrir une enquête.",
-        "lien": "https://www.lefigaro.fr/conjoncture/de-nouvelles-mesures-de-securite-mises-en-place-a-l-aeroport-de-nantes-apres-le-passage-accidentel-d-un-enfant-dans-un-scanner-a-bagages-a-rayons-x-20260331",
-        "date_iso": "2026-04-01T09:27:22+02:00",
         "date_fr": "01/04/2026",
         "pertinence": 0
       },
@@ -551,18 +563,6 @@
         "resume": "Dans une tribune au « Monde », l’économiste Anne Stenger explique que le sommeil ne saurait être réduit à une question purement individuelle et montre qu’il s’agit, au contraire, d’une question éminemment collective, « touchant à la productivité, à l’équité sociale et à la soutenabilité des systèmes",
         "lien": "https://www.lemonde.fr/idees/article/2026/04/01/le-sommeil-a-des-effets-qui-excedent-largement-la-sphere-privee_6675836_3232.html",
         "date_iso": "2026-04-01T06:15:06+02:00",
-        "date_fr": "01/04/2026",
-        "pertinence": 1
-      },
-      {
-        "source": "Le Monde Éco",
-        "couleur": "#374151",
-        "emoji": "🌐",
-        "tag": "Presse économique",
-        "titre": "Atos : le Parquet national financier élargit ses investigations visant le géant de l’informatique",
-        "resume": "Le pôle spécialisé dans la délinquance économique a étendu la procédure pour corruption touchant le groupe français à des faits d’abus de bien social. Ses magistrats ont également lancé une autre enquête pour diffusion d’informations trompeuses.",
-        "lien": "https://www.lemonde.fr/societe/article/2026/04/01/atos-le-parquet-national-financier-elargit-ses-investigations-visant-le-geant-de-l-informatique_6675831_3224.html",
-        "date_iso": "2026-04-01T06:00:17+02:00",
         "date_fr": "01/04/2026",
         "pertinence": 1
       }
@@ -2029,14 +2029,14 @@
       "variation_sem": 18.7
     },
     "sp98": {
-      "prix": 2.095,
+      "prix": 2.096,
       "variation_an": 12.1,
       "variation_sem": 18.7
     },
     "e10": {
-      "prix": 1.985,
-      "variation_an": 10.9,
-      "variation_sem": 18.2
+      "prix": 1.987,
+      "variation_an": 11.0,
+      "variation_sem": 18.3
     },
     "evolution": [
       {
@@ -2316,11 +2316,11 @@
         "date": "2026-04-01",
         "gazole": 2.264,
         "sp95": 2.041,
-        "sp98": 2.095,
-        "e10": 1.985
+        "sp98": 2.096,
+        "e10": 1.987
       }
     ],
-    "derniere_donnee": "2026-04-01 09:49",
+    "derniere_donnee": "2026-04-01 10:49",
     "source": "data.economie.gouv.fr (flux instantané)",
     "granularite": "quotidien"
   },
@@ -2897,7 +2897,7 @@
       "note_lecture": "Le TEC-10 mesure le rendement des emprunts d'Etat francais a 10 ans. Un taux eleve rencherit le cout de la dette publique et impacte les taux de credit immobilier."
     },
     "petrole_brent": {
-      "valeur": 102.27,
+      "valeur": 102.28,
       "date": "2026-04-01",
       "unite": "USD/baril",
       "source": "Yahoo Finance",
@@ -4417,16 +4417,16 @@
         },
         {
           "date": "2026-04-01",
-          "valeur": 102.27,
+          "valeur": 102.28,
           "ma50": 83.01,
           "ma200": 70.07
         }
       ],
       "variations": {
-        "jour": -13.59,
-        "semaine": 0.05,
-        "mois": 31.55,
-        "ytd": 68.35
+        "jour": -13.58,
+        "semaine": 0.06,
+        "mois": 31.57,
+        "ytd": 68.36
       },
       "min_max": {
         "min": 58.92,
@@ -4437,9 +4437,9 @@
       "note_lecture": "Le prix du Brent influence directement les couts de transport et d'energie, donc l'inflation et le pouvoir d'achat des salaries."
     },
     "cac40": {
-      "valeur": 7971.18,
+      "valeur": 7962.36,
       "date": "2026-04-01",
-      "variation_jour_pct": 1.97,
+      "variation_jour_pct": 1.86,
       "unite": "points",
       "source": "Yahoo Finance",
       "nb_points": 256,
@@ -5976,16 +5976,16 @@
         },
         {
           "date": "2026-04-01",
-          "valeur": 7971.18,
-          "ma50": 8134.17,
-          "ma200": 7999.22
+          "valeur": 7962.36,
+          "ma50": 8133.99,
+          "ma200": 7999.18
         }
       ],
       "variations": {
-        "jour": 1.97,
-        "semaine": 1.59,
-        "mois": -5.04,
-        "ytd": -2.73
+        "jour": 1.86,
+        "semaine": 1.48,
+        "mois": -5.15,
+        "ytd": -2.84
       },
       "min_max": {
         "min": 6863.02,
@@ -7566,7 +7566,7 @@
       "note_lecture": "Le taux de change euro-dollar determine le prix de tout ce qui est importe en dollars : petrole, matieres premieres, electronique. Un euro faible rencherit les importations et alimente l'inflation."
     },
     "or": {
-      "valeur": 4758.2,
+      "valeur": 4753.2,
       "date": "2026-04-01",
       "unite": "USD/oz",
       "source": "Yahoo Finance",
@@ -9086,16 +9086,16 @@
         },
         {
           "date": "2026-04-01",
-          "valeur": 4758.2,
-          "ma50": 4940.38,
-          "ma200": 4109.68
+          "valeur": 4753.2,
+          "ma50": 4940.28,
+          "ma200": 4109.65
         }
       ],
       "variations": {
-        "jour": 2.38,
-        "semaine": 4.58,
-        "mois": -10.13,
-        "ytd": 10.29
+        "jour": 2.27,
+        "semaine": 4.47,
+        "mois": -10.22,
+        "ytd": 10.17
       },
       "min_max": {
         "min": 2951.3,
@@ -10646,7 +10646,7 @@
       "note_lecture": "Le prix du gaz naturel (TTF europeen) impacte directement les factures de chauffage et d'electricite des menages, ainsi que les couts de production industrielle."
     },
     "ble": {
-      "valeur": 606.5,
+      "valeur": 605.75,
       "date": "2026-04-01",
       "unite": "cents/boisseau",
       "source": "Yahoo Finance",
@@ -12160,16 +12160,16 @@
         },
         {
           "date": "2026-04-01",
-          "valeur": 606.5,
-          "ma50": 566.81,
-          "ma200": 533.53
+          "valeur": 605.75,
+          "ma50": 566.79,
+          "ma200": 533.52
         }
       ],
       "variations": {
-        "jour": -1.58,
-        "semaine": 1.46,
-        "mois": 5.57,
-        "ytd": 19.74
+        "jour": -1.7,
+        "semaine": 1.34,
+        "mois": 5.44,
+        "ytd": 19.6
       },
       "min_max": {
         "min": 495.0,
@@ -12180,7 +12180,7 @@
       "note_lecture": "Le cours du ble est un indicateur avance des prix alimentaires. La France etant le premier producteur europeen, son evolution impacte a la fois les consommateurs et le secteur agricole."
     },
     "lme_cuivre": {
-      "valeur": 5.65,
+      "valeur": 5.64,
       "date": "2026-04-01",
       "unite": "cts/lb",
       "source": "Yahoo Finance",
@@ -13700,16 +13700,16 @@
         },
         {
           "date": "2026-04-01",
-          "valeur": 5.65,
+          "valeur": 5.64,
           "ma50": 5.77,
           "ma200": 5.24
         }
       ],
       "variations": {
-        "jour": 1.07,
-        "semaine": 2.17,
-        "mois": -4.07,
-        "ytd": 0.18
+        "jour": 0.89,
+        "semaine": 1.99,
+        "mois": -4.24,
+        "ytd": 0.0
       },
       "min_max": {
         "min": 4.13,
@@ -13720,7 +13720,7 @@
       "note_lecture": "Le cuivre est le baromètre de l'activité industrielle mondiale ('Dr Copper'). Sa hausse signale une reprise économique, sa baisse anticipe un ralentissement. Utilisé massivement dans l'électrification et les énergies renouvelables."
     },
     "lme_aluminium": {
-      "valeur": 3371.75,
+      "valeur": 3371.5,
       "date": "2026-04-01",
       "unite": "cts/lb",
       "source": "Yahoo Finance",
@@ -15234,16 +15234,16 @@
         },
         {
           "date": "2026-04-01",
-          "valeur": 3371.75,
+          "valeur": 3371.5,
           "ma50": 3135.57,
           "ma200": 2780.99
         }
       ],
       "variations": {
-        "jour": -0.99,
-        "semaine": 7.55,
-        "mois": 8.44,
-        "ytd": 14.76
+        "jour": -1.0,
+        "semaine": 7.54,
+        "mois": 8.43,
+        "ytd": 14.75
       },
       "min_max": {
         "min": 2166.25,
@@ -22279,7 +22279,7 @@
     "sources": "INSEE - Enquête Emploi, DARES"
   },
   "previsions_cftc": {
-    "generated_at": "2026-04-01T09:08:30.781814",
+    "generated_at": "2026-04-01T09:12:34.413850",
     "model_version": "CFTC v7.0 (bivarié Phillips + log-normale + pondération temporelle)",
     "n_simulations": 1000,
     "horizon": "12 mois",
@@ -22288,7 +22288,7 @@
       "niveau": "excellent",
       "issues": [],
       "warnings": [],
-      "timestamp": "2026-04-01T09:08:30.781828"
+      "timestamp": "2026-04-01T09:12:34.413864"
     },
     "calibrage": {
       "volatilites": {
@@ -22328,9 +22328,9 @@
     },
     "market_signals_details": {
       "brent": {
-        "valeur": 102.27,
+        "valeur": 102.28,
         "ref": 75.0,
-        "variation_ytd_pct": 68.35,
+        "variation_ytd_pct": 68.36,
         "impact_inflation_pt": 0.273,
         "poids_temporel": 1.0
       },
@@ -22358,7 +22358,7 @@
         "signal": "baissier"
       },
       "cac40_ytd": {
-        "variation_ytd_pct": -2.73,
+        "variation_ytd_pct": -2.84,
         "signal_chomage": "neutre"
       },
       "carburants_sp95": {
