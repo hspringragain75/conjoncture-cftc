@@ -1,6 +1,6 @@
 {
-  "last_updated": "01/04/2026 07:48",
-  "last_updated_iso": "2026-04-01T07:48:10.462205",
+  "last_updated": "01/04/2026 07:54",
+  "last_updated_iso": "2026-04-01T07:54:41.331371",
   "contact": "hspringragain@cftc.fr",
   "alertes": [
     {
@@ -32,7 +32,7 @@
       "date": "2026-04-01",
       "type": "info",
       "titre": "🔄 Données actualisées",
-      "message": "Le tableau de bord a été mis à jour le 01/04/2026 à 07:48.",
+      "message": "Le tableau de bord a été mis à jour le 01/04/2026 à 07:54.",
       "onglet": "conjoncture"
     }
   ],
@@ -193,7 +193,7 @@
     }
   ],
   "revue_presse": {
-    "derniere_maj": "01/04/2026 07:48",
+    "derniere_maj": "01/04/2026 07:54",
     "nb_sources": 7,
     "sources_noms": [
       "Le Monde Éco",
@@ -387,6 +387,18 @@
         "pertinence": 1
       },
       {
+        "source": "Euractiv FR",
+        "couleur": "#0369a1",
+        "emoji": "🇪🇺",
+        "tag": "Europe & politique",
+        "titre": "L élite politique espagnole devant les tribunaux",
+        "resume": "Les deux grands partis traditionnels du pays sont sur le banc des accusés The post L&rsquo;élite politique espagnole devant les tribunaux appeared first on Euractiv FR .",
+        "lien": "https://euractiv.fr/news/lelite-politique-espagnole-devant-les-tribunaux/",
+        "date_iso": "2026-04-01T07:49:04+00:00",
+        "date_fr": "01/04/2026",
+        "pertinence": 0
+      },
+      {
         "source": "Libération Éco",
         "couleur": "#dc2626",
         "emoji": "📰",
@@ -553,18 +565,6 @@
         "date_iso": "2026-04-01T06:00:06+02:00",
         "date_fr": "01/04/2026",
         "pertinence": 2
-      },
-      {
-        "source": "Libération Éco",
-        "couleur": "#dc2626",
-        "emoji": "📰",
-        "tag": "Presse économique",
-        "titre": "Pour faire des économies, Radio France réarrange ses fréquences",
-        "resume": "La radio publique va engager, à la fin de l’été, une grande réorganisation des modes de distribution de ses stations, touchant notamment France Musique et France Info.",
-        "lien": "https://www.liberation.fr/economie/medias/pour-faire-des-economies-radio-france-rearrange-ses-frequences-20260401_AVX4MFL6EFAWVL5JI3E5WBDBVM/",
-        "date_iso": "2026-04-01T06:00:00+00:00",
-        "date_fr": "01/04/2026",
-        "pertinence": 0
       }
     ]
   },
@@ -2897,7 +2897,7 @@
       "note_lecture": "Le TEC-10 mesure le rendement des emprunts d'Etat francais a 10 ans. Un taux eleve rencherit le cout de la dette publique et impacte les taux de credit immobilier."
     },
     "petrole_brent": {
-      "valeur": 99.62,
+      "valeur": 99.67,
       "date": "2026-04-01",
       "unite": "USD/baril",
       "source": "Yahoo Finance",
@@ -4417,16 +4417,16 @@
         },
         {
           "date": "2026-04-01",
-          "valeur": 99.62,
+          "valeur": 99.67,
           "ma50": 82.95,
           "ma200": 70.06
         }
       ],
       "variations": {
-        "jour": -15.83,
-        "semaine": -2.54,
-        "mois": 28.15,
-        "ytd": 63.98
+        "jour": -15.78,
+        "semaine": -2.49,
+        "mois": 28.21,
+        "ytd": 64.07
       },
       "min_max": {
         "min": 58.92,
@@ -4437,9 +4437,9 @@
       "note_lecture": "Le prix du Brent influence directement les couts de transport et d'energie, donc l'inflation et le pouvoir d'achat des salaries."
     },
     "cac40": {
-      "valeur": 7987.9,
+      "valeur": 7994.81,
       "date": "2026-04-01",
-      "variation_jour_pct": 2.19,
+      "variation_jour_pct": 2.28,
       "unite": "points",
       "source": "Yahoo Finance",
       "nb_points": 256,
@@ -5976,16 +5976,16 @@
         },
         {
           "date": "2026-04-01",
-          "valeur": 7987.9,
-          "ma50": 8134.5,
-          "ma200": 7999.31
+          "valeur": 7994.81,
+          "ma50": 8134.64,
+          "ma200": 7999.34
         }
       ],
       "variations": {
-        "jour": 2.19,
-        "semaine": 1.8,
-        "mois": -4.84,
-        "ytd": -2.53
+        "jour": 2.28,
+        "semaine": 1.89,
+        "mois": -4.76,
+        "ytd": -2.45
       },
       "min_max": {
         "min": 6863.02,
@@ -7566,7 +7566,7 @@
       "note_lecture": "Le taux de change euro-dollar determine le prix de tout ce qui est importe en dollars : petrole, matieres premieres, electronique. Un euro faible rencherit les importations et alimente l'inflation."
     },
     "or": {
-      "valeur": 4769.6,
+      "valeur": 4758.2,
       "date": "2026-04-01",
       "unite": "USD/oz",
       "source": "Yahoo Finance",
@@ -9086,16 +9086,16 @@
         },
         {
           "date": "2026-04-01",
-          "valeur": 4769.6,
-          "ma50": 4940.6,
-          "ma200": 4109.74
+          "valeur": 4758.2,
+          "ma50": 4940.38,
+          "ma200": 4109.68
         }
       ],
       "variations": {
-        "jour": 2.63,
-        "semaine": 4.83,
-        "mois": -9.91,
-        "ytd": 10.55
+        "jour": 2.38,
+        "semaine": 4.58,
+        "mois": -10.13,
+        "ytd": 10.29
       },
       "min_max": {
         "min": 2951.3,
@@ -10646,7 +10646,7 @@
       "note_lecture": "Le prix du gaz naturel (TTF europeen) impacte directement les factures de chauffage et d'electricite des menages, ainsi que les couts de production industrielle."
     },
     "ble": {
-      "valeur": 607.0,
+      "valeur": 606.0,
       "date": "2026-04-01",
       "unite": "cents/boisseau",
       "source": "Yahoo Finance",
@@ -12160,16 +12160,16 @@
         },
         {
           "date": "2026-04-01",
-          "valeur": 607.0,
-          "ma50": 566.82,
+          "valeur": 606.0,
+          "ma50": 566.8,
           "ma200": 533.53
         }
       ],
       "variations": {
-        "jour": -1.5,
-        "semaine": 1.55,
-        "mois": 5.66,
-        "ytd": 19.84
+        "jour": -1.66,
+        "semaine": 1.38,
+        "mois": 5.48,
+        "ytd": 19.64
       },
       "min_max": {
         "min": 495.0,
@@ -22279,7 +22279,7 @@
     "sources": "INSEE - Enquête Emploi, DARES"
   },
   "previsions_cftc": {
-    "generated_at": "2026-04-01T07:48:10.699280",
+    "generated_at": "2026-04-01T07:54:41.505683",
     "model_version": "CFTC v7.0 (bivarié Phillips + log-normale + pondération temporelle)",
     "n_simulations": 1000,
     "horizon": "12 mois",
@@ -22288,7 +22288,7 @@
       "niveau": "excellent",
       "issues": [],
       "warnings": [],
-      "timestamp": "2026-04-01T07:48:10.699292"
+      "timestamp": "2026-04-01T07:54:41.505695"
     },
     "calibrage": {
       "volatilites": {
@@ -22316,7 +22316,7 @@
       "lognormal_offset": 3.0
     },
     "market_signals": {
-      "inflation_adjustment": 0.123,
+      "inflation_adjustment": 0.124,
       "chomage_adjustment": 0.175,
       "energie_outlook": "hausse",
       "ponderation_temporelle": {
@@ -22328,10 +22328,10 @@
     },
     "market_signals_details": {
       "brent": {
-        "valeur": 99.62,
+        "valeur": 99.67,
         "ref": 75.0,
-        "variation_ytd_pct": 63.98,
-        "impact_inflation_pt": 0.246,
+        "variation_ytd_pct": 64.07,
+        "impact_inflation_pt": 0.247,
         "poids_temporel": 1.0
       },
       "gaz_ttf": {
@@ -22358,7 +22358,7 @@
         "signal": "baissier"
       },
       "cac40_ytd": {
-        "variation_ytd_pct": -2.53,
+        "variation_ytd_pct": -2.45,
         "signal_chomage": "neutre"
       },
       "carburants_sp95": {
@@ -22452,7 +22452,7 @@
           1.1,
           1.2,
           1.3,
-          1.4,
+          1.5,
           1.6,
           1.6,
           1.6,
@@ -22488,9 +22488,9 @@
       "facteurs": {
         "cible_bdf": 1.4,
         "ajustement_climat": -0.03,
-        "ajustement_marches": 0.123,
+        "ajustement_marches": 0.124,
         "energie_outlook": "hausse",
-        "cible_ajustee": 1.493,
+        "cible_ajustee": 1.494,
         "volatilite_utilisee": 0.5
       },
       "asymetrie_ic": {
@@ -22733,7 +22733,7 @@
           }
         },
         "contribution_mediane": {
-          "signaux_marches_pt": 0.123,
+          "signaux_marches_pt": 0.124,
           "incertitude_bdf_sigma": 0.15,
           "label": "Déplacement de la prévision centrale"
         }
