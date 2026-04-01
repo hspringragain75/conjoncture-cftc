@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import { BarChart, Bar, LineChart, Line, XAxis, YAxis, CartesianGrid, Tooltip, ResponsiveContainer, Cell, ComposedChart } from 'recharts';
+import { BarChart, Bar, LineChart, Line, XAxis, YAxis, CartesianGrid, Tooltip, ResponsiveContainer, Cell, ComposedChart, Legend } from 'recharts';
 import { useChartProps } from '../hooks/useChartProps';
 import Card from '../components/Card';
 
