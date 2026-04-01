@@ -2,6 +2,7 @@ import { useState, useEffect } from 'react';
 import { BarChart, Bar, XAxis, YAxis, CartesianGrid, Tooltip, ResponsiveContainer, Cell } from 'recharts';
 import { useChartProps } from '../hooks/useChartProps';
 import Card from '../components/Card';
+import HeatmapRegionSecteur from '../components/HeatmapRegionSecteur';
 
 const C = {
   primary: '#3b82f6', secondary: '#ef4444', tertiary: '#22c55e',
