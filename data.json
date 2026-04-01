@@ -1,6 +1,6 @@
 {
-  "last_updated": "01/04/2026 12:40",
-  "last_updated_iso": "2026-04-01T12:40:58.304186",
+  "last_updated": "01/04/2026 12:49",
+  "last_updated_iso": "2026-04-01T12:49:29.545371",
   "contact": "hspringragain@cftc.fr",
   "alertes": [
     {
@@ -32,7 +32,7 @@
       "date": "2026-04-01",
       "type": "info",
       "titre": "🔄 Données actualisées",
-      "message": "Le tableau de bord a été mis à jour le 01/04/2026 à 12:40.",
+      "message": "Le tableau de bord a été mis à jour le 01/04/2026 à 12:49.",
       "onglet": "conjoncture"
     }
   ],
@@ -193,7 +193,7 @@
     }
   ],
   "revue_presse": {
-    "derniere_maj": "01/04/2026 12:40",
+    "derniere_maj": "01/04/2026 12:49",
     "nb_sources": 7,
     "sources_noms": [
       "Le Monde Éco",
@@ -214,7 +214,7 @@
         "titre": "EN DIRECT - Suivez l’audition de Nagui devant la commission d’enquête sur l’audiovisuel public",
         "resume": "Le producteur et animateur de télévision est interrogé par les députés ce mercredi à 14h30. En fin d’après-midi, ce sera au tour des patrons de TF1, M6, Canal+ et CMA Média.",
         "lien": "https://www.lefigaro.fr/medias/en-direct-suivez-l-audition-de-nagui-devant-la-commission-d-enquete-sur-l-audiovisuel-public-20260401",
-        "date_iso": "2026-04-01T14:34:33+02:00",
+        "date_iso": "2026-04-01T14:44:02+02:00",
         "date_fr": "01/04/2026",
         "pertinence": 0
       },
@@ -2897,7 +2897,7 @@
       "note_lecture": "Le TEC-10 mesure le rendement des emprunts d'Etat francais a 10 ans. Un taux eleve rencherit le cout de la dette publique et impacte les taux de credit immobilier."
     },
     "petrole_brent": {
-      "valeur": 102.05,
+      "valeur": 101.96,
       "date": "2026-04-01",
       "unite": "USD/baril",
       "source": "Yahoo Finance",
@@ -4417,16 +4417,16 @@
         },
         {
           "date": "2026-04-01",
-          "valeur": 102.05,
+          "valeur": 101.96,
           "ma50": 83.0,
           "ma200": 70.07
         }
       ],
       "variations": {
-        "jour": -13.77,
-        "semaine": -0.17,
-        "mois": 31.27,
-        "ytd": 67.98
+        "jour": -13.85,
+        "semaine": -0.25,
+        "mois": 31.16,
+        "ytd": 67.84
       },
       "min_max": {
         "min": 58.92,
@@ -4437,7 +4437,7 @@
       "note_lecture": "Le prix du Brent influence directement les couts de transport et d'energie, donc l'inflation et le pouvoir d'achat des salaries."
     },
     "cac40": {
-      "valeur": 7963.14,
+      "valeur": 7963.41,
       "date": "2026-04-01",
       "variation_jour_pct": 1.87,
       "unite": "points",
@@ -5976,7 +5976,7 @@
         },
         {
           "date": "2026-04-01",
-          "valeur": 7963.14,
+          "valeur": 7963.41,
           "ma50": 8134.01,
           "ma200": 7999.18
         }
@@ -5984,7 +5984,7 @@
       "variations": {
         "jour": 1.87,
         "semaine": 1.49,
-        "mois": -5.14,
+        "mois": -5.13,
         "ytd": -2.83
       },
       "min_max": {
@@ -7566,7 +7566,7 @@
       "note_lecture": "Le taux de change euro-dollar determine le prix de tout ce qui est importe en dollars : petrole, matieres premieres, electronique. Un euro faible rencherit les importations et alimente l'inflation."
     },
     "or": {
-      "valeur": 4767.2,
+      "valeur": 4762.2,
       "date": "2026-04-01",
       "unite": "USD/oz",
       "source": "Yahoo Finance",
@@ -9086,16 +9086,16 @@
         },
         {
           "date": "2026-04-01",
-          "valeur": 4767.2,
-          "ma50": 4940.56,
-          "ma200": 4109.72
+          "valeur": 4762.2,
+          "ma50": 4940.46,
+          "ma200": 4109.7
         }
       ],
       "variations": {
-        "jour": 2.57,
-        "semaine": 4.78,
-        "mois": -9.96,
-        "ytd": 10.5
+        "jour": 2.47,
+        "semaine": 4.67,
+        "mois": -10.05,
+        "ytd": 10.38
       },
       "min_max": {
         "min": 2951.3,
@@ -9106,7 +9106,7 @@
       "note_lecture": "L'or est la valeur refuge par excellence. Sa hausse traduit une montee de l'incertitude economique ou geopolitique. Il sert aussi de protection contre l'inflation."
     },
     "gaz_naturel": {
-      "valeur": 48.67,
+      "valeur": 48.7,
       "date": "2026-04-01",
       "unite": "EUR/MWh",
       "source": "Yahoo Finance (TTF)",
@@ -10626,16 +10626,16 @@
         },
         {
           "date": "2026-04-01",
-          "valeur": 48.67,
+          "valeur": 48.7,
           "ma50": 42.86,
           "ma200": 34.58
         }
       ],
       "variations": {
-        "jour": -4.12,
-        "semaine": -7.86,
-        "mois": 9.35,
-        "ytd": 67.83
+        "jour": -4.06,
+        "semaine": -7.8,
+        "mois": 9.41,
+        "ytd": 67.93
       },
       "min_max": {
         "min": 26.6,
@@ -12180,7 +12180,7 @@
       "note_lecture": "Le cours du ble est un indicateur avance des prix alimentaires. La France etant le premier producteur europeen, son evolution impacte a la fois les consommateurs et le secteur agricole."
     },
     "lme_cuivre": {
-      "valeur": 5.61,
+      "valeur": 5.6,
       "date": "2026-04-01",
       "unite": "cts/lb",
       "source": "Yahoo Finance",
@@ -13700,16 +13700,16 @@
         },
         {
           "date": "2026-04-01",
-          "valeur": 5.61,
+          "valeur": 5.6,
           "ma50": 5.77,
           "ma200": 5.24
         }
       ],
       "variations": {
-        "jour": 0.36,
-        "semaine": 1.45,
-        "mois": -4.75,
-        "ytd": -0.53
+        "jour": 0.18,
+        "semaine": 1.27,
+        "mois": -4.92,
+        "ytd": -0.71
       },
       "min_max": {
         "min": 4.13,
@@ -13720,7 +13720,7 @@
       "note_lecture": "Le cuivre est le baromètre de l'activité industrielle mondiale ('Dr Copper'). Sa hausse signale une reprise économique, sa baisse anticipe un ralentissement. Utilisé massivement dans l'électrification et les énergies renouvelables."
     },
     "lme_aluminium": {
-      "valeur": 3414.25,
+      "valeur": 3408.0,
       "date": "2026-04-01",
       "unite": "cts/lb",
       "source": "Yahoo Finance",
@@ -15234,16 +15234,16 @@
         },
         {
           "date": "2026-04-01",
-          "valeur": 3414.25,
-          "ma50": 3136.42,
-          "ma200": 2781.2
+          "valeur": 3408.0,
+          "ma50": 3136.3,
+          "ma200": 2781.17
         }
       ],
       "variations": {
-        "jour": 0.26,
-        "semaine": 8.91,
-        "mois": 9.81,
-        "ytd": 16.21
+        "jour": 0.07,
+        "semaine": 8.71,
+        "mois": 9.61,
+        "ytd": 16.0
       },
       "min_max": {
         "min": 2166.25,
@@ -22279,7 +22279,7 @@
     "sources": "INSEE - Enquête Emploi, DARES"
   },
   "previsions_cftc": {
-    "generated_at": "2026-04-01T12:40:58.578297",
+    "generated_at": "2026-04-01T12:49:29.762206",
     "model_version": "CFTC v7.0 (bivarié Phillips + log-normale + pondération temporelle)",
     "n_simulations": 1000,
     "horizon": "12 mois",
@@ -22288,7 +22288,7 @@
       "niveau": "excellent",
       "issues": [],
       "warnings": [],
-      "timestamp": "2026-04-01T12:40:58.578314"
+      "timestamp": "2026-04-01T12:49:29.762223"
     },
     "calibrage": {
       "volatilites": {
@@ -22316,7 +22316,7 @@
       "lognormal_offset": 3.0
     },
     "market_signals": {
-      "inflation_adjustment": 0.152,
+      "inflation_adjustment": 0.151,
       "chomage_adjustment": 0.175,
       "energie_outlook": "hausse",
       "ponderation_temporelle": {
@@ -22328,16 +22328,16 @@
     },
     "market_signals_details": {
       "brent": {
-        "valeur": 102.05,
+        "valeur": 101.96,
         "ref": 75.0,
-        "variation_ytd_pct": 67.98,
+        "variation_ytd_pct": 67.84,
         "impact_inflation_pt": 0.27,
         "poids_temporel": 1.0
       },
       "gaz_ttf": {
-        "valeur": 48.67,
+        "valeur": 48.7,
         "ref": 35.0,
-        "impact_inflation_pt": 0.068,
+        "impact_inflation_pt": 0.069,
         "poids_temporel": 1.0
       },
       "eurusd": {
@@ -22488,9 +22488,9 @@
       "facteurs": {
         "cible_bdf": 1.4,
         "ajustement_climat": -0.03,
-        "ajustement_marches": 0.152,
+        "ajustement_marches": 0.151,
         "energie_outlook": "hausse",
-        "cible_ajustee": 1.522,
+        "cible_ajustee": 1.521,
         "volatilite_utilisee": 0.5
       },
       "asymetrie_ic": {
@@ -22733,7 +22733,7 @@
           }
         },
         "contribution_mediane": {
-          "signaux_marches_pt": 0.152,
+          "signaux_marches_pt": 0.151,
           "incertitude_bdf_sigma": 0.15,
           "label": "Déplacement de la prévision centrale"
         }
