@@ -1,6 +1,6 @@
 {
-  "last_updated": "01/04/2026 13:33",
-  "last_updated_iso": "2026-04-01T13:33:09.889093",
+  "last_updated": "01/04/2026 13:39",
+  "last_updated_iso": "2026-04-01T13:39:02.504413",
   "contact": "hspringragain@cftc.fr",
   "alertes": [
     {
@@ -32,7 +32,7 @@
       "date": "2026-04-01",
       "type": "info",
       "titre": "🔄 Données actualisées",
-      "message": "Le tableau de bord a été mis à jour le 01/04/2026 à 13:33.",
+      "message": "Le tableau de bord a été mis à jour le 01/04/2026 à 13:38.",
       "onglet": "conjoncture"
     }
   ],
@@ -193,7 +193,7 @@
     }
   ],
   "revue_presse": {
-    "derniere_maj": "01/04/2026 13:33",
+    "derniere_maj": "01/04/2026 13:39",
     "nb_sources": 7,
     "sources_noms": [
       "Le Monde Éco",
@@ -211,10 +211,10 @@
         "couleur": "#92400e",
         "emoji": "📊",
         "tag": "Presse économique",
-        "titre": "Carburants : le gouvernement se dit «prêt» à des mesures pour réduire la consommation d’énergie",
-        "resume": "«Nous devons être prêts à un certain nombre de mesures qui permettent d’économiser l’énergie consommée et spécifiquement le carburant», a déclaré la porte-parole du gouvernement Maud Bregeon.",
-        "lien": "https://www.lefigaro.fr/conso/carburants-le-gouvernement-se-dit-pret-a-des-mesures-pour-reduire-la-consommation-d-energie-20260401",
-        "date_iso": "2026-04-01T15:13:59+02:00",
+        "titre": "EN DIRECT - Suivez l’audition de Nagui devant la commission d’enquête sur l’audiovisuel public",
+        "resume": "Le producteur et animateur de télévision est interrogé par les députés ce mercredi à 14h30. En fin d’après-midi, ce sera au tour des patrons de TF1, M6, Canal+ et CMA Média.",
+        "lien": "https://www.lefigaro.fr/medias/en-direct-suivez-l-audition-de-nagui-devant-la-commission-d-enquete-sur-l-audiovisuel-public-20260401",
+        "date_iso": "2026-04-01T15:29:04+02:00",
         "date_fr": "01/04/2026",
         "pertinence": 0
       },
@@ -223,10 +223,10 @@
         "couleur": "#92400e",
         "emoji": "📊",
         "tag": "Presse économique",
-        "titre": "EN DIRECT - Suivez l’audition de Nagui devant la commission d’enquête sur l’audiovisuel public",
-        "resume": "Le producteur et animateur de télévision est interrogé par les députés ce mercredi à 14h30. En fin d’après-midi, ce sera au tour des patrons de TF1, M6, Canal+ et CMA Média.",
-        "lien": "https://www.lefigaro.fr/medias/en-direct-suivez-l-audition-de-nagui-devant-la-commission-d-enquete-sur-l-audiovisuel-public-20260401",
-        "date_iso": "2026-04-01T15:12:03+02:00",
+        "titre": "Carburants : le gouvernement se dit «prêt» à des mesures pour réduire la consommation d’énergie",
+        "resume": "«Nous devons être prêts à un certain nombre de mesures qui permettent d’économiser l’énergie consommée et spécifiquement le carburant», a déclaré la porte-parole du gouvernement Maud Bregeon.",
+        "lien": "https://www.lefigaro.fr/conso/carburants-le-gouvernement-se-dit-pret-a-des-mesures-pour-reduire-la-consommation-d-energie-20260401",
+        "date_iso": "2026-04-01T15:13:59+02:00",
         "date_fr": "01/04/2026",
         "pertinence": 0
       },
@@ -823,7 +823,7 @@
     "ecart_hf_eqtp": 25.8,
     "difficultes_recrutement": 61,
     "irl_glissement": 0.79,
-    "prix_gazole": 2.267,
+    "prix_gazole": 2.268,
     "taux_effort_locataires": 29.6,
     "croissance_pib": 0.7,
     "climat_affaires": 97,
@@ -2019,8 +2019,8 @@
   },
   "carburants": {
     "gazole": {
-      "prix": 2.267,
-      "variation_an": 22.5,
+      "prix": 2.268,
+      "variation_an": 22.6,
       "variation_sem": 43.5
     },
     "sp95": {
@@ -2314,13 +2314,13 @@
       },
       {
         "date": "2026-04-01",
-        "gazole": 2.267,
+        "gazole": 2.268,
         "sp95": 2.043,
         "sp98": 2.097,
         "e10": 1.989
       }
     ],
-    "derniere_donnee": "2026-04-01 13:49",
+    "derniere_donnee": "2026-04-01 14:47",
     "source": "data.economie.gouv.fr (flux instantané)",
     "granularite": "quotidien"
   },
@@ -2897,7 +2897,7 @@
       "note_lecture": "Le TEC-10 mesure le rendement des emprunts d'Etat francais a 10 ans. Un taux eleve rencherit le cout de la dette publique et impacte les taux de credit immobilier."
     },
     "petrole_brent": {
-      "valeur": 102.18,
+      "valeur": 101.98,
       "date": "2026-04-01",
       "unite": "USD/baril",
       "source": "Yahoo Finance",
@@ -4417,16 +4417,16 @@
         },
         {
           "date": "2026-04-01",
-          "valeur": 102.18,
+          "valeur": 101.98,
           "ma50": 83.0,
           "ma200": 70.07
         }
       ],
       "variations": {
-        "jour": -13.66,
-        "semaine": -0.04,
-        "mois": 31.44,
-        "ytd": 68.2
+        "jour": -13.83,
+        "semaine": -0.23,
+        "mois": 31.18,
+        "ytd": 67.87
       },
       "min_max": {
         "min": 58.92,
@@ -4437,9 +4437,9 @@
       "note_lecture": "Le prix du Brent influence directement les couts de transport et d'energie, donc l'inflation et le pouvoir d'achat des salaries."
     },
     "cac40": {
-      "valeur": 7956.81,
+      "valeur": 7948.13,
       "date": "2026-04-01",
-      "variation_jour_pct": 1.79,
+      "variation_jour_pct": 1.68,
       "unite": "points",
       "source": "Yahoo Finance",
       "nb_points": 256,
@@ -5976,16 +5976,16 @@
         },
         {
           "date": "2026-04-01",
-          "valeur": 7956.81,
-          "ma50": 8133.88,
-          "ma200": 7999.15
+          "valeur": 7948.13,
+          "ma50": 8133.71,
+          "ma200": 7999.11
         }
       ],
       "variations": {
-        "jour": 1.79,
-        "semaine": 1.41,
-        "mois": -5.21,
-        "ytd": -2.91
+        "jour": 1.68,
+        "semaine": 1.29,
+        "mois": -5.32,
+        "ytd": -3.01
       },
       "min_max": {
         "min": 6863.02,
@@ -7566,7 +7566,7 @@
       "note_lecture": "Le taux de change euro-dollar determine le prix de tout ce qui est importe en dollars : petrole, matieres premieres, electronique. Un euro faible rencherit les importations et alimente l'inflation."
     },
     "or": {
-      "valeur": 4760.0,
+      "valeur": 4764.8,
       "date": "2026-04-01",
       "unite": "USD/oz",
       "source": "Yahoo Finance",
@@ -9086,16 +9086,16 @@
         },
         {
           "date": "2026-04-01",
-          "valeur": 4760.0,
-          "ma50": 4940.41,
-          "ma200": 4109.69
+          "valeur": 4764.8,
+          "ma50": 4940.51,
+          "ma200": 4109.71
         }
       ],
       "variations": {
-        "jour": 2.42,
-        "semaine": 4.62,
-        "mois": -10.09,
-        "ytd": 10.33
+        "jour": 2.52,
+        "semaine": 4.73,
+        "mois": -10.0,
+        "ytd": 10.44
       },
       "min_max": {
         "min": 2951.3,
@@ -9106,7 +9106,7 @@
       "note_lecture": "L'or est la valeur refuge par excellence. Sa hausse traduit une montee de l'incertitude economique ou geopolitique. Il sert aussi de protection contre l'inflation."
     },
     "gaz_naturel": {
-      "valeur": 48.45,
+      "valeur": 48.12,
       "date": "2026-04-01",
       "unite": "EUR/MWh",
       "source": "Yahoo Finance (TTF)",
@@ -10626,16 +10626,16 @@
         },
         {
           "date": "2026-04-01",
-          "valeur": 48.45,
+          "valeur": 48.12,
           "ma50": 42.85,
           "ma200": 34.58
         }
       ],
       "variations": {
-        "jour": -4.55,
-        "semaine": -8.27,
-        "mois": 8.85,
-        "ytd": 67.07
+        "jour": -5.2,
+        "semaine": -8.9,
+        "mois": 8.11,
+        "ytd": 65.93
       },
       "min_max": {
         "min": 26.6,
@@ -22279,7 +22279,7 @@
     "sources": "INSEE - Enquête Emploi, DARES"
   },
   "previsions_cftc": {
-    "generated_at": "2026-04-01T13:33:10.168867",
+    "generated_at": "2026-04-01T13:39:02.687741",
     "model_version": "CFTC v7.0 (bivarié Phillips + log-normale + pondération temporelle)",
     "n_simulations": 1000,
     "horizon": "12 mois",
@@ -22288,7 +22288,7 @@
       "niveau": "excellent",
       "issues": [],
       "warnings": [],
-      "timestamp": "2026-04-01T13:33:10.168887"
+      "timestamp": "2026-04-01T13:39:02.687752"
     },
     "calibrage": {
       "volatilites": {
@@ -22316,7 +22316,7 @@
       "lognormal_offset": 3.0
     },
     "market_signals": {
-      "inflation_adjustment": 0.152,
+      "inflation_adjustment": 0.148,
       "chomage_adjustment": 0.175,
       "energie_outlook": "hausse",
       "ponderation_temporelle": {
@@ -22328,16 +22328,16 @@
     },
     "market_signals_details": {
       "brent": {
-        "valeur": 102.18,
+        "valeur": 101.98,
         "ref": 75.0,
-        "variation_ytd_pct": 68.2,
-        "impact_inflation_pt": 0.272,
+        "variation_ytd_pct": 67.87,
+        "impact_inflation_pt": 0.27,
         "poids_temporel": 1.0
       },
       "gaz_ttf": {
-        "valeur": 48.45,
+        "valeur": 48.12,
         "ref": 35.0,
-        "impact_inflation_pt": 0.067,
+        "impact_inflation_pt": 0.066,
         "poids_temporel": 1.0
       },
       "eurusd": {
@@ -22358,7 +22358,7 @@
         "signal": "baissier"
       },
       "cac40_ytd": {
-        "variation_ytd_pct": -2.91,
+        "variation_ytd_pct": -3.01,
         "signal_chomage": "neutre"
       },
       "carburants_sp95": {
@@ -22428,10 +22428,10 @@
           1.8,
           1.9,
           1.9,
+          1.8,
+          2.0,
+          2.0,
           1.9,
-          2.0,
-          2.0,
-          2.0,
           2.0
         ],
         "p25": [
@@ -22479,18 +22479,18 @@
         "methodology": "Monte Carlo bivarié (1000 sim.) + log-normale + Phillips ρ=-0.35 (v7)"
       },
       "probabilites": {
-        "inflation_sous_2pct": 87.2,
-        "inflation_cible_bce": 87.2,
+        "inflation_sous_2pct": 87.3,
+        "inflation_cible_bce": 87.3,
         "inflation_au_dessus_3pct": 0.0,
         "inflation_au_dessus_4pct": 0.0,
-        "description": "87.2% de chances que l'inflation reste sous 2% à 12 mois"
+        "description": "87.3% de chances que l'inflation reste sous 2% à 12 mois"
       },
       "facteurs": {
         "cible_bdf": 1.4,
         "ajustement_climat": -0.03,
-        "ajustement_marches": 0.152,
+        "ajustement_marches": 0.148,
         "energie_outlook": "hausse",
-        "cible_ajustee": 1.522,
+        "cible_ajustee": 1.518,
         "volatilite_utilisee": 0.5
       },
       "asymetrie_ic": {
@@ -22498,7 +22498,7 @@
         "queue_basse": 0.4,
         "ratio": 1.0
       },
-      "insight": "Inflation médiane à 12 mois : 1.6% [IC 80% : 1.2% - 2.0%]. Asymétrie : queue haute 0.4pt vs basse 0.4pt. 87.2% de probabilité de rester sous 2%."
+      "insight": "Inflation médiane à 12 mois : 1.6% [IC 80% : 1.2% - 2.0%]. Asymétrie : queue haute 0.4pt vs basse 0.4pt. 87.3% de probabilité de rester sous 2%."
     },
     "smic": {
       "current": {
@@ -22705,7 +22705,7 @@
       }
     },
     "notes_lecture": [
-      "📈 Inflation médiane à 12 mois : 1.6% [1.2% - 2.0%] — 87.2% de chances de rester sous 2% (asymétrie : +0.4pt / -0.4pt)",
+      "📈 Inflation médiane à 12 mois : 1.6% [1.2% - 2.0%] — 87.3% de chances de rester sous 2% (asymétrie : +0.4pt / -0.4pt)",
       "💰 SMIC janvier 2027 : 1859€ brut (+2.0%, fourchette 1.5-2.4%) — Pouvoir d'achat réel : +0.4% (+7€/mois)",
       "👥 Chômage Q4 : 7.8% [7.6% - 7.9%] — Tendance stable (corrélé Phillips ρ=-0.35)",
       "📊 Signaux marchés : ↑ inflation 0.15pt, ↑ chômage 0.17pt, (poids temporel min : 1.00)",
@@ -22733,7 +22733,7 @@
           }
         },
         "contribution_mediane": {
-          "signaux_marches_pt": 0.152,
+          "signaux_marches_pt": 0.148,
           "incertitude_bdf_sigma": 0.15,
           "label": "Déplacement de la prévision centrale"
         }
