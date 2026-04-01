@@ -27,7 +27,7 @@ import ConventionsTab from './tabs/ConventionsTab';
 import TimelineEvolutions from './components/TimelineEvolutions';
 import MemoireCrises from './components/MemoireCrises';
 import EvolutionsTab from './tabs/EvolutionsTab';
-
+import TravailTab from './tabs/TravailTab';
 
 // ============================================================================
 // TABLEAU DE BORD ÉCONOMIQUE CFTC - STYLE "BULLE" MODERNISÉ
