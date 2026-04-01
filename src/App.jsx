@@ -157,7 +157,7 @@ export default function App() {
     setTab(onglet);
     setShowAlertes(false);
   };
-
+  
   const tabs = [
     ['favoris','⭐ Mon tableau de bord'],
     ['conjoncture','📈 Conjoncture'],
