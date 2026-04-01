@@ -1,6 +1,6 @@
 {
-  "last_updated": "01/04/2026 18:45",
-  "last_updated_iso": "2026-04-01T18:45:39.530360",
+  "last_updated": "01/04/2026 18:49",
+  "last_updated_iso": "2026-04-01T18:49:50.291011",
   "contact": "hspringragain@cftc.fr",
   "alertes": [
     {
@@ -32,7 +32,7 @@
       "date": "2026-04-01",
       "type": "info",
       "titre": "🔄 Données actualisées",
-      "message": "Le tableau de bord a été mis à jour le 01/04/2026 à 18:45.",
+      "message": "Le tableau de bord a été mis à jour le 01/04/2026 à 18:49.",
       "onglet": "conjoncture"
     }
   ],
@@ -193,7 +193,7 @@
     }
   ],
   "revue_presse": {
-    "derniere_maj": "01/04/2026 18:45",
+    "derniere_maj": "01/04/2026 18:49",
     "nb_sources": 7,
     "sources_noms": [
       "Le Monde Éco",
@@ -308,8 +308,8 @@
         "couleur": "#374151",
         "emoji": "🌐",
         "tag": "Presse économique",
-        "titre": "Carburants : le SP95 franchit la barre des 2 euros le litre, le débat sur les recettes fiscales s’enflamme",
-        "resume": "Le gouvernement compte utiliser des recettes fiscales supplémentaires de la hausse des prix du pétrole pour électrifier l’économie. La mesure est dénoncée par la droite et l’extrême droite, tandis que La France insoumise et le Parti communiste se prononcent plutôt pour un blocage des prix.",
+        "titre": "Carburant : le SP-95 franchit la barre des 2 euros le litre, le débat sur les recettes fiscales s’enflamme",
+        "resume": "Le gouvernement a annoncé vouloir consacrer une partie des recettes fiscales issues la hausse du prix des carburants à la décarbonation, alors que les oppositions réclament plutôt une baisse des taxes et un élargissement des aides.",
         "lien": "https://www.lemonde.fr/economie/article/2026/04/01/carburant-le-sp95-franchit-la-barre-des-2-euros-le-litre-le-debat-sur-les-recettes-fiscales-s-enflamme_6675937_3234.html",
         "date_iso": "2026-04-01T19:38:09+02:00",
         "date_fr": "01/04/2026",
@@ -2958,7 +2958,7 @@
       "note_lecture": "Le TEC-10 mesure le rendement des emprunts d'Etat francais a 10 ans. Un taux eleve rencherit le cout de la dette publique et impacte les taux de credit immobilier."
     },
     "petrole_brent": {
-      "valeur": 101.52,
+      "valeur": 101.44,
       "date": "2026-04-01",
       "unite": "USD/baril",
       "source": "Yahoo Finance",
@@ -4478,16 +4478,16 @@
         },
         {
           "date": "2026-04-01",
-          "valeur": 101.52,
+          "valeur": 101.44,
           "ma50": 82.99,
           "ma200": 70.07
         }
       ],
       "variations": {
-        "jour": -14.22,
-        "semaine": -0.68,
-        "mois": 30.59,
-        "ytd": 67.11
+        "jour": -14.29,
+        "semaine": -0.76,
+        "mois": 30.49,
+        "ytd": 66.98
       },
       "min_max": {
         "min": 58.92,
@@ -7627,7 +7627,7 @@
       "note_lecture": "Le taux de change euro-dollar determine le prix de tout ce qui est importe en dollars : petrole, matieres premieres, electronique. Un euro faible rencherit les importations et alimente l'inflation."
     },
     "or": {
-      "valeur": 4781.0,
+      "valeur": 4773.8,
       "date": "2026-04-01",
       "unite": "USD/oz",
       "source": "Yahoo Finance",
@@ -9147,16 +9147,16 @@
         },
         {
           "date": "2026-04-01",
-          "valeur": 4781.0,
-          "ma50": 4940.83,
-          "ma200": 4109.79
+          "valeur": 4773.8,
+          "ma50": 4940.69,
+          "ma200": 4109.76
         }
       ],
       "variations": {
-        "jour": 2.87,
-        "semaine": 5.08,
-        "mois": -9.7,
-        "ytd": 10.81
+        "jour": 2.72,
+        "semaine": 4.92,
+        "mois": -9.83,
+        "ytd": 10.65
       },
       "min_max": {
         "min": 2951.3,
@@ -22340,7 +22340,7 @@
     "sources": "INSEE - Enquête Emploi, DARES"
   },
   "previsions_cftc": {
-    "generated_at": "2026-04-01T18:45:39.793750",
+    "generated_at": "2026-04-01T18:49:50.704210",
     "model_version": "CFTC v7.0 (bivarié Phillips + log-normale + pondération temporelle)",
     "n_simulations": 1000,
     "horizon": "12 mois",
@@ -22349,7 +22349,7 @@
       "niveau": "excellent",
       "issues": [],
       "warnings": [],
-      "timestamp": "2026-04-01T18:45:39.793763"
+      "timestamp": "2026-04-01T18:49:50.704227"
     },
     "calibrage": {
       "volatilites": {
@@ -22377,7 +22377,7 @@
       "lognormal_offset": 3.0
     },
     "market_signals": {
-      "inflation_adjustment": 0.143,
+      "inflation_adjustment": 0.142,
       "chomage_adjustment": 0.175,
       "energie_outlook": "hausse",
       "ponderation_temporelle": {
@@ -22389,10 +22389,10 @@
     },
     "market_signals_details": {
       "brent": {
-        "valeur": 101.52,
+        "valeur": 101.44,
         "ref": 75.0,
-        "variation_ytd_pct": 67.11,
-        "impact_inflation_pt": 0.265,
+        "variation_ytd_pct": 66.98,
+        "impact_inflation_pt": 0.264,
         "poids_temporel": 1.0
       },
       "gaz_ttf": {
@@ -22549,9 +22549,9 @@
       "facteurs": {
         "cible_bdf": 1.4,
         "ajustement_climat": -0.03,
-        "ajustement_marches": 0.143,
+        "ajustement_marches": 0.142,
         "energie_outlook": "hausse",
-        "cible_ajustee": 1.513,
+        "cible_ajustee": 1.512,
         "volatilite_utilisee": 0.5
       },
       "asymetrie_ic": {
@@ -22794,7 +22794,7 @@
           }
         },
         "contribution_mediane": {
-          "signaux_marches_pt": 0.143,
+          "signaux_marches_pt": 0.142,
           "incertitude_bdf_sigma": 0.15,
           "label": "Déplacement de la prévision centrale"
         }
