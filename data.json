@@ -1,6 +1,6 @@
 {
-  "last_updated": "01/04/2026 13:39",
-  "last_updated_iso": "2026-04-01T13:39:02.504413",
+  "last_updated": "01/04/2026 13:45",
+  "last_updated_iso": "2026-04-01T13:45:26.285923",
   "contact": "hspringragain@cftc.fr",
   "alertes": [
     {
@@ -32,7 +32,7 @@
       "date": "2026-04-01",
       "type": "info",
       "titre": "🔄 Données actualisées",
-      "message": "Le tableau de bord a été mis à jour le 01/04/2026 à 13:38.",
+      "message": "Le tableau de bord a été mis à jour le 01/04/2026 à 13:45.",
       "onglet": "conjoncture"
     }
   ],
@@ -193,7 +193,7 @@
     }
   ],
   "revue_presse": {
-    "derniere_maj": "01/04/2026 13:39",
+    "derniere_maj": "01/04/2026 13:45",
     "nb_sources": 7,
     "sources_noms": [
       "Le Monde Éco",
@@ -207,6 +207,30 @@
     "a_la_une": [],
     "tous": [
       {
+        "source": "Le Monde Éco",
+        "couleur": "#374151",
+        "emoji": "🌐",
+        "tag": "Presse économique",
+        "titre": "Carburants : accusé de profiter de la hausse des prix, l’Etat assure qu’il n’y a « pas de cagnotte »",
+        "resume": "Laurent Wauquiez (Les Républicains) a évalué les surplus fiscaux perçus par l’Etat à « 2 à 3 milliards » d’euros depuis le début de la crise, souhaitant qu’ils soient « redonnés aux automobilistes sous forme de baisse de taxes ».",
+        "lien": "https://www.lemonde.fr/economie/article/2026/04/01/carburants-accuse-de-profiter-de-la-hausse-des-prix-l-etat-assure-qu-il-n-y-a-pas-de-cagnotte_6675904_3234.html",
+        "date_iso": "2026-04-01T15:41:03+02:00",
+        "date_fr": "01/04/2026",
+        "pertinence": 0
+      },
+      {
+        "source": "Le Monde Éco",
+        "couleur": "#374151",
+        "emoji": "🌐",
+        "tag": "Presse économique",
+        "titre": "La commission d’enquête sur l’audiovisuel public à l’épreuve des accusations sans preuves",
+        "resume": "Auditionné sous serment, l’ancien présentateur de « Complément d’enquête » Jacques Cardoze a prétendu que des accords confidentiels signés par France Télévisions couvraient des « déviances sexuelles ».",
+        "lien": "https://www.lemonde.fr/economie/article/2026/04/01/la-commission-d-enquete-sur-l-audiovisuel-public-a-l-epreuve-des-accusations-sans-preuves_6675903_3234.html",
+        "date_iso": "2026-04-01T15:38:10+02:00",
+        "date_fr": "01/04/2026",
+        "pertinence": 1
+      },
+      {
         "source": "Le Figaro Éco",
         "couleur": "#92400e",
         "emoji": "📊",
@@ -214,7 +238,7 @@
         "titre": "EN DIRECT - Suivez l’audition de Nagui devant la commission d’enquête sur l’audiovisuel public",
         "resume": "Le producteur et animateur de télévision est interrogé par les députés ce mercredi à 14h30. En fin d’après-midi, ce sera au tour des patrons de TF1, M6, Canal+ et CMA Média.",
         "lien": "https://www.lefigaro.fr/medias/en-direct-suivez-l-audition-de-nagui-devant-la-commission-d-enquete-sur-l-audiovisuel-public-20260401",
-        "date_iso": "2026-04-01T15:29:04+02:00",
+        "date_iso": "2026-04-01T15:33:03+02:00",
         "date_fr": "01/04/2026",
         "pertinence": 0
       },
@@ -541,30 +565,6 @@
         "date_iso": "2026-04-01T10:18:26+00:00",
         "date_fr": "01/04/2026",
         "pertinence": 1
-      },
-      {
-        "source": "Libération Éco",
-        "couleur": "#dc2626",
-        "emoji": "📰",
-        "tag": "Presse économique",
-        "titre": "Dans les Alpes-Maritimes, casque et gilet jaune vont devenir obligatoires sur les trottinettes électriques",
-        "resume": "Le préfet du département a pris un arrêté imposant ces mesures de sécurité pour tout utilisateur «d’engins de déplacement personnel motorisé» à partir de jeudi 2 avril. Tout contrevenant s’expose à une amende de 35 euros.",
-        "lien": "https://www.liberation.fr/societe/dans-les-alpes-maritimes-casque-et-gilet-jaune-vont-devenir-obligatoires-sur-les-trottinettes-electriques-20260401_4YOSAEA23BA2BL5NNGKT5G6F5U/",
-        "date_iso": "2026-04-01T10:13:13+00:00",
-        "date_fr": "01/04/2026",
-        "pertinence": 0
-      },
-      {
-        "source": "Le Figaro Éco",
-        "couleur": "#92400e",
-        "emoji": "📊",
-        "tag": "Presse économique",
-        "titre": "En Allemagne, la croissance sera divisée par deux cette année à cause de la guerre au Moyen-Orient",
-        "resume": "DÉCRYPTAGE - Face aux importantes répercussions économiques du conflit en Iran et dans les pays du golfe Persique, cinq instituts allemands ont révisé à la baisse leurs prévisions, tablant désormais sur une augmentation du PIB de 0,6% en 2026 et de 0,9% en 2027.",
-        "lien": "https://www.lefigaro.fr/conjoncture/en-allemagne-la-croissance-sera-divisee-par-deux-cette-annee-a-cause-de-la-guerre-au-moyen-orient-20260401",
-        "date_iso": "2026-04-01T10:11:36+02:00",
-        "date_fr": "01/04/2026",
-        "pertinence": 2
       }
     ]
   },
@@ -2897,7 +2897,7 @@
       "note_lecture": "Le TEC-10 mesure le rendement des emprunts d'Etat francais a 10 ans. Un taux eleve rencherit le cout de la dette publique et impacte les taux de credit immobilier."
     },
     "petrole_brent": {
-      "valeur": 101.98,
+      "valeur": 101.34,
       "date": "2026-04-01",
       "unite": "USD/baril",
       "source": "Yahoo Finance",
@@ -4417,16 +4417,16 @@
         },
         {
           "date": "2026-04-01",
-          "valeur": 101.98,
-          "ma50": 83.0,
+          "valeur": 101.34,
+          "ma50": 82.99,
           "ma200": 70.07
         }
       ],
       "variations": {
-        "jour": -13.83,
-        "semaine": -0.23,
-        "mois": 31.18,
-        "ytd": 67.87
+        "jour": -14.37,
+        "semaine": -0.86,
+        "mois": 30.36,
+        "ytd": 66.81
       },
       "min_max": {
         "min": 58.92,
@@ -4437,9 +4437,9 @@
       "note_lecture": "Le prix du Brent influence directement les couts de transport et d'energie, donc l'inflation et le pouvoir d'achat des salaries."
     },
     "cac40": {
-      "valeur": 7948.13,
+      "valeur": 7957.91,
       "date": "2026-04-01",
-      "variation_jour_pct": 1.68,
+      "variation_jour_pct": 1.8,
       "unite": "points",
       "source": "Yahoo Finance",
       "nb_points": 256,
@@ -5976,16 +5976,16 @@
         },
         {
           "date": "2026-04-01",
-          "valeur": 7948.13,
-          "ma50": 8133.71,
-          "ma200": 7999.11
+          "valeur": 7957.91,
+          "ma50": 8133.9,
+          "ma200": 7999.16
         }
       ],
       "variations": {
-        "jour": 1.68,
-        "semaine": 1.29,
-        "mois": -5.32,
-        "ytd": -3.01
+        "jour": 1.8,
+        "semaine": 1.42,
+        "mois": -5.2,
+        "ytd": -2.9
       },
       "min_max": {
         "min": 6863.02,
@@ -7566,7 +7566,7 @@
       "note_lecture": "Le taux de change euro-dollar determine le prix de tout ce qui est importe en dollars : petrole, matieres premieres, electronique. Un euro faible rencherit les importations et alimente l'inflation."
     },
     "or": {
-      "valeur": 4764.8,
+      "valeur": 4766.3,
       "date": "2026-04-01",
       "unite": "USD/oz",
       "source": "Yahoo Finance",
@@ -9086,16 +9086,16 @@
         },
         {
           "date": "2026-04-01",
-          "valeur": 4764.8,
-          "ma50": 4940.51,
-          "ma200": 4109.71
+          "valeur": 4766.3,
+          "ma50": 4940.54,
+          "ma200": 4109.72
         }
       ],
       "variations": {
-        "jour": 2.52,
-        "semaine": 4.73,
-        "mois": -10.0,
-        "ytd": 10.44
+        "jour": 2.55,
+        "semaine": 4.76,
+        "mois": -9.97,
+        "ytd": 10.47
       },
       "min_max": {
         "min": 2951.3,
@@ -9106,7 +9106,7 @@
       "note_lecture": "L'or est la valeur refuge par excellence. Sa hausse traduit une montee de l'incertitude economique ou geopolitique. Il sert aussi de protection contre l'inflation."
     },
     "gaz_naturel": {
-      "valeur": 48.12,
+      "valeur": 47.65,
       "date": "2026-04-01",
       "unite": "EUR/MWh",
       "source": "Yahoo Finance (TTF)",
@@ -10626,16 +10626,16 @@
         },
         {
           "date": "2026-04-01",
-          "valeur": 48.12,
-          "ma50": 42.85,
+          "valeur": 47.65,
+          "ma50": 42.84,
           "ma200": 34.58
         }
       ],
       "variations": {
-        "jour": -5.2,
-        "semaine": -8.9,
-        "mois": 8.11,
-        "ytd": 65.93
+        "jour": -6.13,
+        "semaine": -9.79,
+        "mois": 7.05,
+        "ytd": 64.31
       },
       "min_max": {
         "min": 26.6,
@@ -10646,7 +10646,7 @@
       "note_lecture": "Le prix du gaz naturel (TTF europeen) impacte directement les factures de chauffage et d'electricite des menages, ainsi que les couts de production industrielle."
     },
     "ble": {
-      "valeur": 604.5,
+      "valeur": 601.0,
       "date": "2026-04-01",
       "unite": "cents/boisseau",
       "source": "Yahoo Finance",
@@ -12160,16 +12160,16 @@
         },
         {
           "date": "2026-04-01",
-          "valeur": 604.5,
-          "ma50": 566.77,
-          "ma200": 533.52
+          "valeur": 601.0,
+          "ma50": 566.7,
+          "ma200": 533.5
         }
       ],
       "variations": {
-        "jour": -1.91,
-        "semaine": 1.13,
-        "mois": 5.22,
-        "ytd": 19.35
+        "jour": -2.47,
+        "semaine": 0.54,
+        "mois": 4.61,
+        "ytd": 18.66
       },
       "min_max": {
         "min": 495.0,
@@ -13720,7 +13720,7 @@
       "note_lecture": "Le cuivre est le baromètre de l'activité industrielle mondiale ('Dr Copper'). Sa hausse signale une reprise économique, sa baisse anticipe un ralentissement. Utilisé massivement dans l'électrification et les énergies renouvelables."
     },
     "lme_aluminium": {
-      "valeur": 3417.75,
+      "valeur": 3412.5,
       "date": "2026-04-01",
       "unite": "cts/lb",
       "source": "Yahoo Finance",
@@ -15234,16 +15234,16 @@
         },
         {
           "date": "2026-04-01",
-          "valeur": 3417.75,
-          "ma50": 3136.49,
-          "ma200": 2781.22
+          "valeur": 3412.5,
+          "ma50": 3136.39,
+          "ma200": 2781.19
         }
       ],
       "variations": {
-        "jour": 0.36,
-        "semaine": 9.02,
-        "mois": 9.92,
-        "ytd": 16.33
+        "jour": 0.21,
+        "semaine": 8.85,
+        "mois": 9.75,
+        "ytd": 16.15
       },
       "min_max": {
         "min": 2166.25,
@@ -22279,7 +22279,7 @@
     "sources": "INSEE - Enquête Emploi, DARES"
   },
   "previsions_cftc": {
-    "generated_at": "2026-04-01T13:39:02.687741",
+    "generated_at": "2026-04-01T13:45:26.523956",
     "model_version": "CFTC v7.0 (bivarié Phillips + log-normale + pondération temporelle)",
     "n_simulations": 1000,
     "horizon": "12 mois",
@@ -22288,7 +22288,7 @@
       "niveau": "excellent",
       "issues": [],
       "warnings": [],
-      "timestamp": "2026-04-01T13:39:02.687752"
+      "timestamp": "2026-04-01T13:45:26.523970"
     },
     "calibrage": {
       "volatilites": {
@@ -22316,7 +22316,7 @@
       "lognormal_offset": 3.0
     },
     "market_signals": {
-      "inflation_adjustment": 0.148,
+      "inflation_adjustment": 0.139,
       "chomage_adjustment": 0.175,
       "energie_outlook": "hausse",
       "ponderation_temporelle": {
@@ -22328,16 +22328,16 @@
     },
     "market_signals_details": {
       "brent": {
-        "valeur": 101.98,
+        "valeur": 101.34,
         "ref": 75.0,
-        "variation_ytd_pct": 67.87,
-        "impact_inflation_pt": 0.27,
+        "variation_ytd_pct": 66.81,
+        "impact_inflation_pt": 0.263,
         "poids_temporel": 1.0
       },
       "gaz_ttf": {
-        "valeur": 48.12,
+        "valeur": 47.65,
         "ref": 35.0,
-        "impact_inflation_pt": 0.066,
+        "impact_inflation_pt": 0.063,
         "poids_temporel": 1.0
       },
       "eurusd": {
@@ -22358,7 +22358,7 @@
         "signal": "baissier"
       },
       "cac40_ytd": {
-        "variation_ytd_pct": -3.01,
+        "variation_ytd_pct": -2.9,
         "signal_chomage": "neutre"
       },
       "carburants_sp95": {
@@ -22387,7 +22387,7 @@
     },
     "inflation": {
       "actuel": 0.9,
-      "prevision_6m": 1.5,
+      "prevision_6m": 1.4,
       "prevision_12m": 1.6,
       "tendance": "hausse",
       "confidence": 0.85,
@@ -22398,7 +22398,7 @@
           1.2,
           1.3,
           1.4,
-          1.5,
+          1.4,
           1.5,
           1.4,
           1.5,
@@ -22418,7 +22418,7 @@
           1.1,
           1.1,
           1.1,
-          1.2
+          1.1
         ],
         "upper_bound": [
           1.2,
@@ -22426,11 +22426,11 @@
           1.5,
           1.6,
           1.8,
-          1.9,
+          1.8,
           1.9,
           1.8,
-          2.0,
-          2.0,
+          1.9,
+          1.9,
           1.9,
           2.0
         ],
@@ -22440,7 +22440,7 @@
           1.0,
           1.1,
           1.2,
-          1.3,
+          1.2,
           1.3,
           1.2,
           1.3,
@@ -22479,26 +22479,26 @@
         "methodology": "Monte Carlo bivarié (1000 sim.) + log-normale + Phillips ρ=-0.35 (v7)"
       },
       "probabilites": {
-        "inflation_sous_2pct": 87.3,
-        "inflation_cible_bce": 87.3,
+        "inflation_sous_2pct": 88.0,
+        "inflation_cible_bce": 88.0,
         "inflation_au_dessus_3pct": 0.0,
         "inflation_au_dessus_4pct": 0.0,
-        "description": "87.3% de chances que l'inflation reste sous 2% à 12 mois"
+        "description": "88.0% de chances que l'inflation reste sous 2% à 12 mois"
       },
       "facteurs": {
         "cible_bdf": 1.4,
         "ajustement_climat": -0.03,
-        "ajustement_marches": 0.148,
+        "ajustement_marches": 0.139,
         "energie_outlook": "hausse",
-        "cible_ajustee": 1.518,
+        "cible_ajustee": 1.509,
         "volatilite_utilisee": 0.5
       },
       "asymetrie_ic": {
         "queue_haute": 0.4,
-        "queue_basse": 0.4,
-        "ratio": 1.0
+        "queue_basse": 0.5,
+        "ratio": 0.8
       },
-      "insight": "Inflation médiane à 12 mois : 1.6% [IC 80% : 1.2% - 2.0%]. Asymétrie : queue haute 0.4pt vs basse 0.4pt. 87.3% de probabilité de rester sous 2%."
+      "insight": "Inflation médiane à 12 mois : 1.6% [IC 80% : 1.1% - 2.0%]. Asymétrie : queue haute 0.4pt vs basse 0.5pt. 88.0% de probabilité de rester sous 2%."
     },
     "smic": {
       "current": {
@@ -22537,11 +22537,11 @@
       "pouvoir_achat_reel": {
         "hausse_reelle_p50_pct": 0.4,
         "hausse_reelle_p10_pct": -0.5,
-        "hausse_reelle_p90_pct": 1.2,
+        "hausse_reelle_p90_pct": 1.3,
         "gain_mensuel_brut_p50_euros": 7.3,
         "gain_mensuel_brut_p10_euros": -9.1,
-        "gain_mensuel_brut_p90_euros": 21.9,
-        "interpretation": "En scénario médian, le pouvoir d'achat SMIC progresse de 0.4% en 2027 (+7.3€/mois brut). Fourchette : [-0.5% ; +1.2%].",
+        "gain_mensuel_brut_p90_euros": 23.7,
+        "interpretation": "En scénario médian, le pouvoir d'achat SMIC progresse de 0.4% en 2027 (+7.3€/mois brut). Fourchette : [-0.5% ; +1.3%].",
         "alerte_nao": false,
         "message_nao": "✅ La revalorisation prévue (+2.0%) préserve le pouvoir d'achat."
       },
@@ -22705,10 +22705,10 @@
       }
     },
     "notes_lecture": [
-      "📈 Inflation médiane à 12 mois : 1.6% [1.2% - 2.0%] — 87.3% de chances de rester sous 2% (asymétrie : +0.4pt / -0.4pt)",
+      "📈 Inflation médiane à 12 mois : 1.6% [1.1% - 2.0%] — 88.0% de chances de rester sous 2% (asymétrie : +0.4pt / -0.5pt)",
       "💰 SMIC janvier 2027 : 1859€ brut (+2.0%, fourchette 1.5-2.4%) — Pouvoir d'achat réel : +0.4% (+7€/mois)",
       "👥 Chômage Q4 : 7.8% [7.6% - 7.9%] — Tendance stable (corrélé Phillips ρ=-0.35)",
-      "📊 Signaux marchés : ↑ inflation 0.15pt, ↑ chômage 0.17pt, (poids temporel min : 1.00)",
+      "📊 Signaux marchés : ↑ inflation 0.14pt, ↑ chômage 0.17pt, (poids temporel min : 1.00)",
       "🎲 Scénario à surveiller : 🚀 Reprise économique forte (25%)",
       "💡 Recommandation NAO : demander au minimum +2.1% pour préserver le pouvoir d'achat"
     ],
@@ -22733,7 +22733,7 @@
           }
         },
         "contribution_mediane": {
-          "signaux_marches_pt": 0.148,
+          "signaux_marches_pt": 0.139,
           "incertitude_bdf_sigma": 0.15,
           "label": "Déplacement de la prévision centrale"
         }
