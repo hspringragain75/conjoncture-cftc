@@ -1,6 +1,6 @@
 {
-  "last_updated": "01/04/2026 06:09",
-  "last_updated_iso": "2026-04-01T06:09:21.601571",
+  "last_updated": "01/04/2026 06:10",
+  "last_updated_iso": "2026-04-01T06:10:54.780091",
   "contact": "hspringragain@cftc.fr",
   "alertes": [
     {
@@ -32,7 +32,7 @@
       "date": "2026-04-01",
       "type": "info",
       "titre": "🔄 Données actualisées",
-      "message": "Le tableau de bord a été mis à jour le 01/04/2026 à 06:09.",
+      "message": "Le tableau de bord a été mis à jour le 01/04/2026 à 06:10.",
       "onglet": "conjoncture"
     }
   ],
@@ -193,7 +193,7 @@
     }
   ],
   "revue_presse": {
-    "derniere_maj": "01/04/2026 06:09",
+    "derniere_maj": "01/04/2026 06:10",
     "nb_sources": 7,
     "sources_noms": [
       "Le Monde Éco",
@@ -2897,7 +2897,7 @@
       "note_lecture": "Le TEC-10 mesure le rendement des emprunts d'Etat francais a 10 ans. Un taux eleve rencherit le cout de la dette publique et impacte les taux de credit immobilier."
     },
     "petrole_brent": {
-      "valeur": 103.21,
+      "valeur": 103.22,
       "date": "2026-04-01",
       "unite": "USD/baril",
       "source": "Yahoo Finance",
@@ -4417,16 +4417,16 @@
         },
         {
           "date": "2026-04-01",
-          "valeur": 103.21,
+          "valeur": 103.22,
           "ma50": 83.03,
           "ma200": 70.08
         }
       ],
       "variations": {
-        "jour": -12.79,
-        "semaine": 0.97,
-        "mois": 32.76,
-        "ytd": 69.89
+        "jour": -12.78,
+        "semaine": 0.98,
+        "mois": 32.78,
+        "ytd": 69.91
       },
       "min_max": {
         "min": 58.92,
@@ -7566,7 +7566,7 @@
       "note_lecture": "Le taux de change euro-dollar determine le prix de tout ce qui est importe en dollars : petrole, matieres premieres, electronique. Un euro faible rencherit les importations et alimente l'inflation."
     },
     "or": {
-      "valeur": 4711.1,
+      "valeur": 4710.9,
       "date": "2026-04-01",
       "unite": "USD/oz",
       "source": "Yahoo Finance",
@@ -9086,14 +9086,14 @@
         },
         {
           "date": "2026-04-01",
-          "valeur": 4711.1,
+          "valeur": 4710.9,
           "ma50": 4939.43,
           "ma200": 4109.44
         }
       ],
       "variations": {
-        "jour": 1.37,
-        "semaine": 3.55,
+        "jour": 1.36,
+        "semaine": 3.54,
         "mois": -11.02,
         "ytd": 9.19
       },
@@ -10640,7 +10640,7 @@
       "note_lecture": "Le prix du gaz naturel (TTF europeen) impacte directement les factures de chauffage et d'electricite des menages, ainsi que les couts de production industrielle."
     },
     "ble": {
-      "valeur": 613.5,
+      "valeur": 612.75,
       "date": "2026-04-01",
       "unite": "cents/boisseau",
       "source": "Yahoo Finance",
@@ -12154,16 +12154,16 @@
         },
         {
           "date": "2026-04-01",
-          "valeur": 613.5,
-          "ma50": 566.95,
+          "valeur": 612.75,
+          "ma50": 566.93,
           "ma200": 533.56
         }
       ],
       "variations": {
-        "jour": -0.45,
-        "semaine": 2.63,
-        "mois": 6.79,
-        "ytd": 21.13
+        "jour": -0.57,
+        "semaine": 2.51,
+        "mois": 6.66,
+        "ytd": 20.98
       },
       "min_max": {
         "min": 495.0,
@@ -22273,7 +22273,7 @@
     "sources": "INSEE - Enquête Emploi, DARES"
   },
   "previsions_cftc": {
-    "generated_at": "2026-04-01T06:09:22.008288",
+    "generated_at": "2026-04-01T06:10:55.137794",
     "model_version": "CFTC v7.0 (bivarié Phillips + log-normale + pondération temporelle)",
     "n_simulations": 1000,
     "horizon": "12 mois",
@@ -22282,7 +22282,7 @@
       "niveau": "excellent",
       "issues": [],
       "warnings": [],
-      "timestamp": "2026-04-01T06:09:22.008299"
+      "timestamp": "2026-04-01T06:10:55.137812"
     },
     "calibrage": {
       "volatilites": {
@@ -22322,9 +22322,9 @@
     },
     "market_signals_details": {
       "brent": {
-        "valeur": 103.21,
+        "valeur": 103.22,
         "ref": 75.0,
-        "variation_ytd_pct": 69.89,
+        "variation_ytd_pct": 69.91,
         "impact_inflation_pt": 0.282,
         "poids_temporel": 1.0
       },
