@@ -4,6 +4,7 @@ import { useChartProps } from '../hooks/useChartProps';
 import Card from '../components/Card';
 import BubbleSubTabs from '../components/BubbleSubTabs';
 import BubbleStatBlock from '../components/BubbleStatBlock';
+import BubbleNote from '../components/BubbleNote';
 
 const C = {
   primary: '#3b82f6', secondary: '#ef4444', tertiary: '#22c55e',
