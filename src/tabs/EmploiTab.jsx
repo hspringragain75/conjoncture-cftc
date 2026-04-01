@@ -2,6 +2,7 @@ import { useState } from 'react';
 import { ComposedChart, BarChart, Bar, LineChart, Line, XAxis, YAxis, CartesianGrid, Tooltip, Legend, ResponsiveContainer, Cell, ReferenceLine, Area } from 'recharts';
 import { useChartProps } from '../hooks/useChartProps';
 import Card from '../components/Card';
+import BubbleNote from '../components/BubbleNote';
 
 const C = {
   primary: '#3b82f6', secondary: '#ef4444', tertiary: '#22c55e',
