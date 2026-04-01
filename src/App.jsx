@@ -22,6 +22,7 @@ import PouvoirAchatTab from './tabs/PouvoirAchatTab';
 import SalairesTab from './tabs/SalairesTab';
 import EmploiTab from './tabs/EmploiTab';
 import ConditionsVieTab from './tabs/ConditionsVieTab';
+import InflationTab from './tabs/InflationTab';
 
 // ============================================================================
 // TABLEAU DE BORD ÉCONOMIQUE CFTC - STYLE "BULLE" MODERNISÉ
