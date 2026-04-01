@@ -197,5 +197,3 @@ export default function SearchBar({ d, darkMode, onNavigate }) {
     </div>
   );
 }
-
-}
