@@ -1,6 +1,6 @@
 {
-  "last_updated": "01/04/2026 07:29",
-  "last_updated_iso": "2026-04-01T07:29:29.998896",
+  "last_updated": "01/04/2026 07:48",
+  "last_updated_iso": "2026-04-01T07:48:10.462205",
   "contact": "hspringragain@cftc.fr",
   "alertes": [
     {
@@ -32,7 +32,7 @@
       "date": "2026-04-01",
       "type": "info",
       "titre": "🔄 Données actualisées",
-      "message": "Le tableau de bord a été mis à jour le 01/04/2026 à 07:29.",
+      "message": "Le tableau de bord a été mis à jour le 01/04/2026 à 07:48.",
       "onglet": "conjoncture"
     }
   ],
@@ -193,7 +193,7 @@
     }
   ],
   "revue_presse": {
-    "derniere_maj": "01/04/2026 07:29",
+    "derniere_maj": "01/04/2026 07:48",
     "nb_sources": 7,
     "sources_noms": [
       "Le Monde Éco",
@@ -207,6 +207,90 @@
     "a_la_une": [],
     "tous": [
       {
+        "source": "Le Monde Éco",
+        "couleur": "#374151",
+        "emoji": "🌐",
+        "tag": "Presse économique",
+        "titre": "Les Chinois qui avaient misé sur l’Iran pris dans l’incertitude de la guerre",
+        "resume": "Du pétrole à la construction, en passant par le commerce, des milliers de ressortissants chinois travaillaient en Iran, où les sanctions internationales limitaient la concurrence étrangère. Plus de 3 000 d’entre eux ont quitté l’Iran depuis le début de la guerre.",
+        "lien": "https://www.lemonde.fr/guerre-au-proche-orient/article/2026/04/01/les-chinois-qui-avaient-mise-sur-l-iran-pris-dans-l-incertitude-de-la-guerre_6675855_6325529.html",
+        "date_iso": "2026-04-01T09:41:40+02:00",
+        "date_fr": "01/04/2026",
+        "pertinence": 1
+      },
+      {
+        "source": "Le Figaro Éco",
+        "couleur": "#92400e",
+        "emoji": "📊",
+        "tag": "Presse économique",
+        "titre": "Israël veut mettre un terme à ses importations d’armement français",
+        "resume": "Une décision présentée comme une riposte à un certain nombre d’actions françaises perçues comme hostiles par les autorités israéliennes, parmi lesquelles la reconnaissance par Paris, en septembre 2025, de l’État de Palestine",
+        "lien": "https://www.lefigaro.fr/international/israel-veut-mettre-un-terme-a-ses-importations-d-armement-francais-20260401",
+        "date_iso": "2026-04-01T09:35:52+02:00",
+        "date_fr": "01/04/2026",
+        "pertinence": 0
+      },
+      {
+        "source": "Le Figaro Éco",
+        "couleur": "#92400e",
+        "emoji": "📊",
+        "tag": "Presse économique",
+        "titre": "Pétrole : le baril de Brent repasse sous les 100 dollars après les promesses de Donald Trump de «quitter» l’Iran",
+        "resume": "Le président américain a affirmé mardi que les États-Unis quitteraient l’Iran «très bientôt», dans «deux ou trois semaines», peu importe qu’un accord soit conclu.",
+        "lien": "https://www.lefigaro.fr/conjoncture/petrole-le-baril-de-brent-repasse-sous-les-100-dollars-apres-les-promesses-de-donald-trump-de-quitter-l-iran-20260401",
+        "date_iso": "2026-04-01T09:32:52+02:00",
+        "date_fr": "01/04/2026",
+        "pertinence": 1
+      },
+      {
+        "source": "Le Figaro Éco",
+        "couleur": "#92400e",
+        "emoji": "📊",
+        "tag": "Presse économique",
+        "titre": "Les Bourses européennes ouvrent en forte hausse, dopées par les propos de Donald Trump sur l’Iran",
+        "resume": "Les marchés boursiers continuent d’évoluer au gré des déclarations contradictoires du président américain sur le conflit au Moyen-Orient.",
+        "lien": "https://www.lefigaro.fr/conjoncture/les-bourses-europeennes-ouvrent-en-forte-hausse-dopees-par-les-propos-de-donald-trump-sur-l-iran-20260401",
+        "date_iso": "2026-04-01T09:32:16+02:00",
+        "date_fr": "01/04/2026",
+        "pertinence": 0
+      },
+      {
+        "source": "Le Figaro Éco",
+        "couleur": "#92400e",
+        "emoji": "📊",
+        "tag": "Presse économique",
+        "titre": "De nouvelles mesures de sécurité mises en place à l’aéroport de Nantes après le passage accidentel d’un enfant dans un scanner à bagages à rayons X",
+        "resume": "L’incident, survenu le 11 août 2025, avait contraint l’Autorité de sûreté nucléaire et de radioprotection à ouvrir une enquête.",
+        "lien": "https://www.lefigaro.fr/conjoncture/de-nouvelles-mesures-de-securite-mises-en-place-a-l-aeroport-de-nantes-apres-le-passage-accidentel-d-un-enfant-dans-un-scanner-a-bagages-a-rayons-x-20260331",
+        "date_iso": "2026-04-01T09:27:22+02:00",
+        "date_fr": "01/04/2026",
+        "pertinence": 0
+      },
+      {
+        "source": "Le Figaro Éco",
+        "couleur": "#92400e",
+        "emoji": "📊",
+        "tag": "Presse économique",
+        "titre": "Star des bonbons, Haribo crée une nouvelle usine en France",
+        "resume": "INFO LE FIGARO - Le groupe va construire une nouvelle unité sur son site d’Uzès, augmentant localement de 50 % ses capacités de fabrication. Un investissement qui dépassera les 100 millions d’euros.",
+        "lien": "https://www.lefigaro.fr/societes/star-des-bonbons-haribo-cree-une-nouvelle-usine-en-france-20260331",
+        "date_iso": "2026-04-01T09:26:24+02:00",
+        "date_fr": "01/04/2026",
+        "pertinence": 1
+      },
+      {
+        "source": "Le Figaro Éco",
+        "couleur": "#92400e",
+        "emoji": "📊",
+        "tag": "Presse économique",
+        "titre": "Taxe petits colis: la France persiste et espère avoir forcé les plateformes à «changer de modèle»",
+        "resume": "Les produits venant à 97% de Chine atterrissent dorénavant dans des aéroports européens avant d’être amenés en camions jusqu’en France.",
+        "lien": "https://www.lefigaro.fr/societes/taxe-petits-colis-la-france-persiste-et-espere-avoir-force-les-plateformes-a-changer-de-modele-20260401",
+        "date_iso": "2026-04-01T09:21:52+02:00",
+        "date_fr": "01/04/2026",
+        "pertinence": 0
+      },
+      {
         "source": "Le Figaro Éco",
         "couleur": "#92400e",
         "emoji": "📊",
@@ -215,6 +299,30 @@
         "resume": "Le sujet sera au menu de la réunion organisé par le premier ministre ce mercredi. Le gouvernement veut faire émerger des actions prioritaires pour électrifier l’économie et moins dépendre des hydrocarbures importés.",
         "lien": "https://www.lefigaro.fr/conjoncture/sebastien-lecornu-suggere-d-utiliser-les-surplus-fiscaux-sur-le-carburant-pour-financer-l-electrification-20260401",
         "date_iso": "2026-04-01T09:18:26+02:00",
+        "date_fr": "01/04/2026",
+        "pertinence": 0
+      },
+      {
+        "source": "Le Figaro Éco",
+        "couleur": "#92400e",
+        "emoji": "📊",
+        "tag": "Presse économique",
+        "titre": "Les ventes de voitures neuves en France ont bondi de 12,86% en mars, selon les professionnels",
+        "resume": "Après deux mois de baisse, le secteur automobile enregistre sa première hausse de l’année.",
+        "lien": "https://www.lefigaro.fr/conjoncture/les-ventes-de-voitures-neuves-en-france-ont-bondi-de-12-86-en-mars-selon-les-professionnels-20260401",
+        "date_iso": "2026-04-01T09:17:18+02:00",
+        "date_fr": "01/04/2026",
+        "pertinence": 0
+      },
+      {
+        "source": "Le Figaro Éco",
+        "couleur": "#92400e",
+        "emoji": "📊",
+        "tag": "Presse économique",
+        "titre": "Guerre en Iran : le Japon fait face à deux périls, les pénuries d’énergie et la hausse des cours",
+        "resume": "DÉCRYPTAGE - Le pétrole vient quasi exclusivement de cette région du monde. Le choc vient aussi des produits dérivés comme le soufre, le naphta et l’hélium.",
+        "lien": "https://www.lefigaro.fr/conjoncture/guerre-en-iran-le-japon-fait-face-a-deux-perils-les-penuries-d-energie-et-la-hausse-des-cours-20260401",
+        "date_iso": "2026-04-01T09:15:00+02:00",
         "date_fr": "01/04/2026",
         "pertinence": 0
       },
@@ -319,10 +427,10 @@
         "couleur": "#92400e",
         "emoji": "📊",
         "tag": "Presse économique",
-        "titre": "Taxe petits colis: la France persiste et espère avoir forcé les plateformes à «changer de modèle»",
-        "resume": "Les produits venant à 97% de Chine atterrissent dorénavant dans des aéroports européens avant d’être amenés en camions jusqu’en France.",
-        "lien": "https://www.lefigaro.fr/societes/taxe-petits-colis-la-france-persiste-et-espere-avoir-force-les-plateformes-a-changer-de-modele-20260401",
-        "date_iso": "2026-04-01T06:59:21+02:00",
+        "titre": "Sur le marché de l’occasion, le véhicule électrique attire de plus en plus",
+        "resume": "DÉCRYPTAGE - Le nombre de voitures à batterie de seconde main disponibles sur La Centrale a augmenté de 38 % sur un an. La crise au Moyen-Orient a renforcé l’intérêt pour cette motorisation.",
+        "lien": "https://www.lefigaro.fr/societes/sur-le-marche-de-l-occasion-le-vehicule-electrique-attire-de-plus-en-plus-20260401",
+        "date_iso": "2026-04-01T07:00:00+02:00",
         "date_fr": "01/04/2026",
         "pertinence": 0
       },
@@ -456,114 +564,6 @@
         "lien": "https://www.liberation.fr/economie/medias/pour-faire-des-economies-radio-france-rearrange-ses-frequences-20260401_AVX4MFL6EFAWVL5JI3E5WBDBVM/",
         "date_iso": "2026-04-01T06:00:00+00:00",
         "date_fr": "01/04/2026",
-        "pertinence": 0
-      },
-      {
-        "source": "Le Monde Éco",
-        "couleur": "#374151",
-        "emoji": "🌐",
-        "tag": "Presse économique",
-        "titre": "Pétrole, histoire d’une dépendance mondiale",
-        "resume": "L’envolée des cours des hydrocarbures observée depuis le début de la guerre au Moyen-Orient rappelle les chocs pétroliers passés, ceux de 1973, de 1979 et de 2008. A trois reprises, les prix mondiaux du pétrole ont flambé, provoquant récession et promesses de sobriété énergétique. Une fois la crise ",
-        "lien": "https://www.lemonde.fr/economie/article/2026/04/01/petrole-histoire-d-une-dependance-mondiale_6675820_3234.html",
-        "date_iso": "2026-04-01T05:15:00+02:00",
-        "date_fr": "01/04/2026",
-        "pertinence": 0
-      },
-      {
-        "source": "Le Monde Éco",
-        "couleur": "#374151",
-        "emoji": "🌐",
-        "tag": "Presse économique",
-        "titre": "Leasing automobile : derrière des loyers attractifs, des « contrats piégeux »",
-        "resume": "L’UFC-Que choisir réclame un droit à la résiliation sans frais en cas d’accident de la vie.",
-        "lien": "https://www.lemonde.fr/argent/article/2026/04/01/leasing-automobile-derriere-des-loyers-attractifs-des-contrats-piegeux_6675816_1657007.html",
-        "date_iso": "2026-04-01T05:00:18+02:00",
-        "date_fr": "01/04/2026",
-        "pertinence": 1
-      },
-      {
-        "source": "Libération Éco",
-        "couleur": "#dc2626",
-        "emoji": "📰",
-        "tag": "Presse économique",
-        "titre": "Prime d’activité, allocations familiales, chèque énergie… Ce qui change au 1er avril",
-        "resume": "Quelques évolutions notables vont avoir lieu à partir de ce mercredi, avec un impact sur votre pouvoir d’achat. «Libération» fait le point.",
-        "lien": "https://www.liberation.fr/economie/prime-dactivite-allocations-familiales-cheque-energie-ce-qui-change-au-1er-avril-20260330_CAHZ5LTLMZB3ZLYH3KJICTY24Y/",
-        "date_iso": "2026-04-01T03:00:00+00:00",
-        "date_fr": "01/04/2026",
-        "pertinence": 2
-      },
-      {
-        "source": "Le Monde Éco",
-        "couleur": "#374151",
-        "emoji": "🌐",
-        "tag": "Presse économique",
-        "titre": "« C’est un gâchis absolu », « je suis écœuré » : la liquidation du transporteur Ziegler France laisse près de 1 500 salariés sur le carreau",
-        "resume": "En redressement judiciaire depuis mars, l’entreprise n’a pas retrouvé de repreneur viable. Les salariés et leurs représentants disent leur colère.",
-        "lien": "https://www.lemonde.fr/economie/article/2026/03/31/c-est-un-gachis-absolu-je-suis-ec-ure-la-liquidation-du-transporteur-ziegler-france-laisse-pres-de-1-500-salaries-sur-le-carreau_6675707_3234.html",
-        "date_iso": "2026-03-31T21:59:28+02:00",
-        "date_fr": "31/03/2026",
-        "pertinence": 1
-      },
-      {
-        "source": "Le Figaro Éco",
-        "couleur": "#92400e",
-        "emoji": "📊",
-        "tag": "Presse économique",
-        "titre": "La TVA a augmenté en 2025 comme en 2024, mais moins que la croissance",
-        "resume": "212 milliards d’euros ont été collectés en 2025, contre 209 milliards en 2024. Sa progression annuelle est donc inférieure à la croissance du PIB.",
-        "lien": "https://www.lefigaro.fr/conjoncture/la-tva-a-augmente-en-2025-comme-en-2024-mais-moins-que-la-croissance-20260331",
-        "date_iso": "2026-03-31T21:57:55+02:00",
-        "date_fr": "31/03/2026",
-        "pertinence": 2
-      },
-      {
-        "source": "Le Figaro Éco",
-        "couleur": "#92400e",
-        "emoji": "📊",
-        "tag": "Presse économique",
-        "titre": "«Maître Claude», «rêve nocturne», Tamagotchi : le code source de l’IA d’Anthropic aurait fuité, révélant les projets secrets du géant américain",
-        "resume": "RÉCIT - Les futures évolutions de Claude Code, l’assistant IA prisé des développeurs du monde entier, auraient été publiées par erreur sur le Web.",
-        "lien": "https://www.lefigaro.fr/secteur/high-tech/maitre-claude-reve-nocturne-tamagotchi-le-code-source-de-l-ia-d-anthropic-aurait-fuite-revelant-les-projets-secrets-du-geant-americain-20260331",
-        "date_iso": "2026-03-31T21:33:06+02:00",
-        "date_fr": "31/03/2026",
-        "pertinence": 0
-      },
-      {
-        "source": "Le Figaro Éco",
-        "couleur": "#92400e",
-        "emoji": "📊",
-        "tag": "Presse économique",
-        "titre": "De l’innovation sans limites à la machine à cash... À 50 ans, Apple est-il encore capable de surprendre ?",
-        "resume": "RÉCIT - Devenue la marque la plus célèbre au monde, le géant californien connaît, malgré certaines critiques sur son manque de créativité et son retard dans l’IA, des performances commerciales toujours exceptionnelles.",
-        "lien": "https://www.lefigaro.fr/secteur/high-tech/de-l-innovation-sans-limites-a-la-machine-a-cash-a-50-ans-apple-est-il-encore-capable-de-surprendre-20260331",
-        "date_iso": "2026-03-31T21:30:45+02:00",
-        "date_fr": "31/03/2026",
-        "pertinence": 0
-      },
-      {
-        "source": "Le Figaro Éco",
-        "couleur": "#92400e",
-        "emoji": "📊",
-        "tag": "Presse économique",
-        "titre": "YouTube, premier «réflexe» TV pour un jeune Français sur trois",
-        "resume": "DÉCRYPTAGE - Si les chaînes de télés linéaires gratuites restent le premier service vidéo des Français, la percée de la plateforme auprès des moins de 25 ans se confirme.",
-        "lien": "https://www.lefigaro.fr/medias/youtube-premier-reflexe-tv-pour-un-jeune-francais-sur-trois-20260331",
-        "date_iso": "2026-03-31T20:30:00+02:00",
-        "date_fr": "31/03/2026",
-        "pertinence": 0
-      },
-      {
-        "source": "Le Figaro Éco",
-        "couleur": "#92400e",
-        "emoji": "📊",
-        "tag": "Presse économique",
-        "titre": "Unilever & McCormick : les secrets de la recette pour créer un nouveau géant de l’agroalimentaire",
-        "resume": "DÉCRYPTAGE - La fusion entre les propriétaires de Knorr, Maille, Amora, Ducros et Vahiné va créer le leader mondial des saveurs, valorisé 65 milliards de dollars.",
-        "lien": "https://www.lefigaro.fr/societes/unilever-mccormick-les-secrets-de-la-recette-pour-creer-un-nouveau-geant-de-l-agroalimentaire-20260331",
-        "date_iso": "2026-03-31T20:25:00+02:00",
-        "date_fr": "31/03/2026",
         "pertinence": 0
       }
     ]
@@ -2897,7 +2897,7 @@
       "note_lecture": "Le TEC-10 mesure le rendement des emprunts d'Etat francais a 10 ans. Un taux eleve rencherit le cout de la dette publique et impacte les taux de credit immobilier."
     },
     "petrole_brent": {
-      "valeur": 99.87,
+      "valeur": 99.62,
       "date": "2026-04-01",
       "unite": "USD/baril",
       "source": "Yahoo Finance",
@@ -4417,16 +4417,16 @@
         },
         {
           "date": "2026-04-01",
-          "valeur": 99.87,
-          "ma50": 82.96,
+          "valeur": 99.62,
+          "ma50": 82.95,
           "ma200": 70.06
         }
       ],
       "variations": {
-        "jour": -15.61,
-        "semaine": -2.3,
-        "mois": 28.47,
-        "ytd": 64.4
+        "jour": -15.83,
+        "semaine": -2.54,
+        "mois": 28.15,
+        "ytd": 63.98
       },
       "min_max": {
         "min": 58.92,
@@ -4437,9 +4437,9 @@
       "note_lecture": "Le prix du Brent influence directement les couts de transport et d'energie, donc l'inflation et le pouvoir d'achat des salaries."
     },
     "cac40": {
-      "valeur": 7988.73,
+      "valeur": 7987.9,
       "date": "2026-04-01",
-      "variation_jour_pct": 2.2,
+      "variation_jour_pct": 2.19,
       "unite": "points",
       "source": "Yahoo Finance",
       "nb_points": 256,
@@ -5976,16 +5976,16 @@
         },
         {
           "date": "2026-04-01",
-          "valeur": 7988.73,
-          "ma50": 8134.52,
+          "valeur": 7987.9,
+          "ma50": 8134.5,
           "ma200": 7999.31
         }
       ],
       "variations": {
-        "jour": 2.2,
-        "semaine": 1.81,
-        "mois": -4.83,
-        "ytd": -2.52
+        "jour": 2.19,
+        "semaine": 1.8,
+        "mois": -4.84,
+        "ytd": -2.53
       },
       "min_max": {
         "min": 6863.02,
@@ -7566,7 +7566,7 @@
       "note_lecture": "Le taux de change euro-dollar determine le prix de tout ce qui est importe en dollars : petrole, matieres premieres, electronique. Un euro faible rencherit les importations et alimente l'inflation."
     },
     "or": {
-      "valeur": 4742.2,
+      "valeur": 4769.6,
       "date": "2026-04-01",
       "unite": "USD/oz",
       "source": "Yahoo Finance",
@@ -9086,16 +9086,16 @@
         },
         {
           "date": "2026-04-01",
-          "valeur": 4742.2,
-          "ma50": 4940.06,
-          "ma200": 4109.6
+          "valeur": 4769.6,
+          "ma50": 4940.6,
+          "ma200": 4109.74
         }
       ],
       "variations": {
-        "jour": 2.04,
-        "semaine": 4.23,
-        "mois": -10.43,
-        "ytd": 9.92
+        "jour": 2.63,
+        "semaine": 4.83,
+        "mois": -9.91,
+        "ytd": 10.55
       },
       "min_max": {
         "min": 2951.3,
@@ -10646,7 +10646,7 @@
       "note_lecture": "Le prix du gaz naturel (TTF europeen) impacte directement les factures de chauffage et d'electricite des menages, ainsi que les couts de production industrielle."
     },
     "ble": {
-      "valeur": 609.25,
+      "valeur": 607.0,
       "date": "2026-04-01",
       "unite": "cents/boisseau",
       "source": "Yahoo Finance",
@@ -12160,16 +12160,16 @@
         },
         {
           "date": "2026-04-01",
-          "valeur": 609.25,
-          "ma50": 566.87,
-          "ma200": 533.54
+          "valeur": 607.0,
+          "ma50": 566.82,
+          "ma200": 533.53
         }
       ],
       "variations": {
-        "jour": -1.14,
-        "semaine": 1.92,
-        "mois": 6.05,
-        "ytd": 20.29
+        "jour": -1.5,
+        "semaine": 1.55,
+        "mois": 5.66,
+        "ytd": 19.84
       },
       "min_max": {
         "min": 495.0,
@@ -12180,7 +12180,7 @@
       "note_lecture": "Le cours du ble est un indicateur avance des prix alimentaires. La France etant le premier producteur europeen, son evolution impacte a la fois les consommateurs et le secteur agricole."
     },
     "lme_cuivre": {
-      "valeur": 5.65,
+      "valeur": 5.66,
       "date": "2026-04-01",
       "unite": "cts/lb",
       "source": "Yahoo Finance",
@@ -13700,16 +13700,16 @@
         },
         {
           "date": "2026-04-01",
-          "valeur": 5.65,
+          "valeur": 5.66,
           "ma50": 5.77,
           "ma200": 5.24
         }
       ],
       "variations": {
-        "jour": 1.07,
-        "semaine": 2.17,
-        "mois": -4.07,
-        "ytd": 0.18
+        "jour": 1.25,
+        "semaine": 2.35,
+        "mois": -3.9,
+        "ytd": 0.35
       },
       "min_max": {
         "min": 4.13,
@@ -13720,7 +13720,7 @@
       "note_lecture": "Le cuivre est le baromètre de l'activité industrielle mondiale ('Dr Copper'). Sa hausse signale une reprise économique, sa baisse anticipe un ralentissement. Utilisé massivement dans l'électrification et les énergies renouvelables."
     },
     "lme_aluminium": {
-      "valeur": 3345.5,
+      "valeur": 3345.75,
       "date": "2026-04-01",
       "unite": "cts/lb",
       "source": "Yahoo Finance",
@@ -15234,16 +15234,16 @@
         },
         {
           "date": "2026-04-01",
-          "valeur": 3345.5,
+          "valeur": 3345.75,
           "ma50": 3135.05,
           "ma200": 2780.86
         }
       ],
       "variations": {
-        "jour": -1.76,
-        "semaine": 6.71,
-        "mois": 7.6,
-        "ytd": 13.87
+        "jour": -1.75,
+        "semaine": 6.72,
+        "mois": 7.61,
+        "ytd": 13.88
       },
       "min_max": {
         "min": 2166.25,
@@ -22279,7 +22279,7 @@
     "sources": "INSEE - Enquête Emploi, DARES"
   },
   "previsions_cftc": {
-    "generated_at": "2026-04-01T07:29:30.160170",
+    "generated_at": "2026-04-01T07:48:10.699280",
     "model_version": "CFTC v7.0 (bivarié Phillips + log-normale + pondération temporelle)",
     "n_simulations": 1000,
     "horizon": "12 mois",
@@ -22288,7 +22288,7 @@
       "niveau": "excellent",
       "issues": [],
       "warnings": [],
-      "timestamp": "2026-04-01T07:29:30.160181"
+      "timestamp": "2026-04-01T07:48:10.699292"
     },
     "calibrage": {
       "volatilites": {
@@ -22316,7 +22316,7 @@
       "lognormal_offset": 3.0
     },
     "market_signals": {
-      "inflation_adjustment": 0.126,
+      "inflation_adjustment": 0.123,
       "chomage_adjustment": 0.175,
       "energie_outlook": "hausse",
       "ponderation_temporelle": {
@@ -22328,10 +22328,10 @@
     },
     "market_signals_details": {
       "brent": {
-        "valeur": 99.87,
+        "valeur": 99.62,
         "ref": 75.0,
-        "variation_ytd_pct": 64.4,
-        "impact_inflation_pt": 0.249,
+        "variation_ytd_pct": 63.98,
+        "impact_inflation_pt": 0.246,
         "poids_temporel": 1.0
       },
       "gaz_ttf": {
@@ -22358,7 +22358,7 @@
         "signal": "baissier"
       },
       "cac40_ytd": {
-        "variation_ytd_pct": -2.52,
+        "variation_ytd_pct": -2.53,
         "signal_chomage": "neutre"
       },
       "carburants_sp95": {
@@ -22452,7 +22452,7 @@
           1.1,
           1.2,
           1.3,
-          1.5,
+          1.4,
           1.6,
           1.6,
           1.6,
@@ -22488,9 +22488,9 @@
       "facteurs": {
         "cible_bdf": 1.4,
         "ajustement_climat": -0.03,
-        "ajustement_marches": 0.126,
+        "ajustement_marches": 0.123,
         "energie_outlook": "hausse",
-        "cible_ajustee": 1.496,
+        "cible_ajustee": 1.493,
         "volatilite_utilisee": 0.5
       },
       "asymetrie_ic": {
@@ -22708,7 +22708,7 @@
       "📈 Inflation médiane à 12 mois : 1.6% [1.1% - 2.0%] — 88.1% de chances de rester sous 2% (asymétrie : +0.4pt / -0.5pt)",
       "💰 SMIC janvier 2027 : 1859€ brut (+2.0%, fourchette 1.5-2.4%) — Pouvoir d'achat réel : +0.4% (+7€/mois)",
       "👥 Chômage Q4 : 7.8% [7.6% - 7.9%] — Tendance stable (corrélé Phillips ρ=-0.35)",
-      "📊 Signaux marchés : ↑ inflation 0.13pt, ↑ chômage 0.17pt, (poids temporel min : 1.00)",
+      "📊 Signaux marchés : ↑ inflation 0.12pt, ↑ chômage 0.17pt, (poids temporel min : 1.00)",
       "🎲 Scénario à surveiller : 🚀 Reprise économique forte (25%)",
       "💡 Recommandation NAO : demander au minimum +2.1% pour préserver le pouvoir d'achat"
     ],
@@ -22733,7 +22733,7 @@
           }
         },
         "contribution_mediane": {
-          "signaux_marches_pt": 0.126,
+          "signaux_marches_pt": 0.123,
           "incertitude_bdf_sigma": 0.15,
           "label": "Déplacement de la prévision centrale"
         }
