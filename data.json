@@ -1,6 +1,6 @@
 {
-  "last_updated": "01/04/2026 06:18",
-  "last_updated_iso": "2026-04-01T06:18:34.511551",
+  "last_updated": "01/04/2026 06:20",
+  "last_updated_iso": "2026-04-01T06:20:19.762338",
   "contact": "hspringragain@cftc.fr",
   "alertes": [
     {
@@ -32,7 +32,7 @@
       "date": "2026-04-01",
       "type": "info",
       "titre": "🔄 Données actualisées",
-      "message": "Le tableau de bord a été mis à jour le 01/04/2026 à 06:18.",
+      "message": "Le tableau de bord a été mis à jour le 01/04/2026 à 06:20.",
       "onglet": "conjoncture"
     }
   ],
@@ -193,7 +193,7 @@
     }
   ],
   "revue_presse": {
-    "derniere_maj": "01/04/2026 06:18",
+    "derniere_maj": "01/04/2026 06:20",
     "nb_sources": 7,
     "sources_noms": [
       "Le Monde Éco",
@@ -2897,7 +2897,7 @@
       "note_lecture": "Le TEC-10 mesure le rendement des emprunts d'Etat francais a 10 ans. Un taux eleve rencherit le cout de la dette publique et impacte les taux de credit immobilier."
     },
     "petrole_brent": {
-      "valeur": 103.0,
+      "valeur": 103.02,
       "date": "2026-04-01",
       "unite": "USD/baril",
       "source": "Yahoo Finance",
@@ -4417,16 +4417,16 @@
         },
         {
           "date": "2026-04-01",
-          "valeur": 103.0,
+          "valeur": 103.02,
           "ma50": 83.02,
           "ma200": 70.08
         }
       ],
       "variations": {
-        "jour": -12.97,
-        "semaine": 0.76,
-        "mois": 32.49,
-        "ytd": 69.55
+        "jour": -12.95,
+        "semaine": 0.78,
+        "mois": 32.52,
+        "ytd": 69.58
       },
       "min_max": {
         "min": 58.92,
@@ -7566,7 +7566,7 @@
       "note_lecture": "Le taux de change euro-dollar determine le prix de tout ce qui est importe en dollars : petrole, matieres premieres, electronique. Un euro faible rencherit les importations et alimente l'inflation."
     },
     "or": {
-      "valeur": 4711.5,
+      "valeur": 4714.0,
       "date": "2026-04-01",
       "unite": "USD/oz",
       "source": "Yahoo Finance",
@@ -9086,16 +9086,16 @@
         },
         {
           "date": "2026-04-01",
-          "valeur": 4711.5,
-          "ma50": 4939.44,
-          "ma200": 4109.44
+          "valeur": 4714.0,
+          "ma50": 4939.49,
+          "ma200": 4109.46
         }
       ],
       "variations": {
-        "jour": 1.37,
-        "semaine": 3.55,
-        "mois": -11.01,
-        "ytd": 9.2
+        "jour": 1.43,
+        "semaine": 3.61,
+        "mois": -10.96,
+        "ytd": 9.26
       },
       "min_max": {
         "min": 2951.3,
@@ -10646,7 +10646,7 @@
       "note_lecture": "Le prix du gaz naturel (TTF europeen) impacte directement les factures de chauffage et d'electricite des menages, ainsi que les couts de production industrielle."
     },
     "ble": {
-      "valeur": 612.25,
+      "valeur": 611.75,
       "date": "2026-04-01",
       "unite": "cents/boisseau",
       "source": "Yahoo Finance",
@@ -12160,16 +12160,16 @@
         },
         {
           "date": "2026-04-01",
-          "valeur": 612.25,
-          "ma50": 566.92,
-          "ma200": 533.56
+          "valeur": 611.75,
+          "ma50": 566.91,
+          "ma200": 533.55
         }
       ],
       "variations": {
-        "jour": -0.65,
-        "semaine": 2.43,
-        "mois": 6.57,
-        "ytd": 20.88
+        "jour": -0.73,
+        "semaine": 2.34,
+        "mois": 6.48,
+        "ytd": 20.78
       },
       "min_max": {
         "min": 495.0,
@@ -12180,7 +12180,7 @@
       "note_lecture": "Le cours du ble est un indicateur avance des prix alimentaires. La France etant le premier producteur europeen, son evolution impacte a la fois les consommateurs et le secteur agricole."
     },
     "lme_cuivre": {
-      "valeur": 5.64,
+      "valeur": 5.63,
       "date": "2026-04-01",
       "unite": "cts/lb",
       "source": "Yahoo Finance",
@@ -13700,16 +13700,16 @@
         },
         {
           "date": "2026-04-01",
-          "valeur": 5.64,
+          "valeur": 5.63,
           "ma50": 5.77,
           "ma200": 5.24
         }
       ],
       "variations": {
-        "jour": 0.89,
-        "semaine": 1.99,
-        "mois": -4.24,
-        "ytd": 0.0
+        "jour": 0.72,
+        "semaine": 1.81,
+        "mois": -4.41,
+        "ytd": -0.18
       },
       "min_max": {
         "min": 4.13,
@@ -22279,7 +22279,7 @@
     "sources": "INSEE - Enquête Emploi, DARES"
   },
   "previsions_cftc": {
-    "generated_at": "2026-04-01T06:18:34.848378",
+    "generated_at": "2026-04-01T06:20:20.045825",
     "model_version": "CFTC v7.0 (bivarié Phillips + log-normale + pondération temporelle)",
     "n_simulations": 1000,
     "horizon": "12 mois",
@@ -22288,7 +22288,7 @@
       "niveau": "excellent",
       "issues": [],
       "warnings": [],
-      "timestamp": "2026-04-01T06:18:34.848393"
+      "timestamp": "2026-04-01T06:20:20.045839"
     },
     "calibrage": {
       "volatilites": {
@@ -22328,9 +22328,9 @@
     },
     "market_signals_details": {
       "brent": {
-        "valeur": 103.0,
+        "valeur": 103.02,
         "ref": 75.0,
-        "variation_ytd_pct": 69.55,
+        "variation_ytd_pct": 69.58,
         "impact_inflation_pt": 0.28,
         "poids_temporel": 1.0
       },
