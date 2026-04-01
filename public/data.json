@@ -1,6 +1,6 @@
 {
-  "last_updated": "01/04/2026 07:44",
-  "last_updated_iso": "2026-04-01T07:44:23.611484",
+  "last_updated": "01/04/2026 07:48",
+  "last_updated_iso": "2026-04-01T07:48:10.462205",
   "contact": "hspringragain@cftc.fr",
   "alertes": [
     {
@@ -32,7 +32,7 @@
       "date": "2026-04-01",
       "type": "info",
       "titre": "🔄 Données actualisées",
-      "message": "Le tableau de bord a été mis à jour le 01/04/2026 à 07:44.",
+      "message": "Le tableau de bord a été mis à jour le 01/04/2026 à 07:48.",
       "onglet": "conjoncture"
     }
   ],
@@ -193,7 +193,7 @@
     }
   ],
   "revue_presse": {
-    "derniere_maj": "01/04/2026 07:44",
+    "derniere_maj": "01/04/2026 07:48",
     "nb_sources": 7,
     "sources_noms": [
       "Le Monde Éco",
@@ -206,6 +206,30 @@
     ],
     "a_la_une": [],
     "tous": [
+      {
+        "source": "Le Monde Éco",
+        "couleur": "#374151",
+        "emoji": "🌐",
+        "tag": "Presse économique",
+        "titre": "Les Chinois qui avaient misé sur l’Iran pris dans l’incertitude de la guerre",
+        "resume": "Du pétrole à la construction, en passant par le commerce, des milliers de ressortissants chinois travaillaient en Iran, où les sanctions internationales limitaient la concurrence étrangère. Plus de 3 000 d’entre eux ont quitté l’Iran depuis le début de la guerre.",
+        "lien": "https://www.lemonde.fr/guerre-au-proche-orient/article/2026/04/01/les-chinois-qui-avaient-mise-sur-l-iran-pris-dans-l-incertitude-de-la-guerre_6675855_6325529.html",
+        "date_iso": "2026-04-01T09:41:40+02:00",
+        "date_fr": "01/04/2026",
+        "pertinence": 1
+      },
+      {
+        "source": "Le Figaro Éco",
+        "couleur": "#92400e",
+        "emoji": "📊",
+        "tag": "Presse économique",
+        "titre": "Israël veut mettre un terme à ses importations d’armement français",
+        "resume": "Une décision présentée comme une riposte à un certain nombre d’actions françaises perçues comme hostiles par les autorités israéliennes, parmi lesquelles la reconnaissance par Paris, en septembre 2025, de l’État de Palestine",
+        "lien": "https://www.lefigaro.fr/international/israel-veut-mettre-un-terme-a-ses-importations-d-armement-francais-20260401",
+        "date_iso": "2026-04-01T09:35:52+02:00",
+        "date_fr": "01/04/2026",
+        "pertinence": 0
+      },
       {
         "source": "Le Figaro Éco",
         "couleur": "#92400e",
@@ -287,18 +311,6 @@
         "resume": "Après deux mois de baisse, le secteur automobile enregistre sa première hausse de l’année.",
         "lien": "https://www.lefigaro.fr/conjoncture/les-ventes-de-voitures-neuves-en-france-ont-bondi-de-12-86-en-mars-selon-les-professionnels-20260401",
         "date_iso": "2026-04-01T09:17:18+02:00",
-        "date_fr": "01/04/2026",
-        "pertinence": 0
-      },
-      {
-        "source": "Le Figaro Éco",
-        "couleur": "#92400e",
-        "emoji": "📊",
-        "tag": "Presse économique",
-        "titre": "Israël veut mettre un terme à ses importations d’armement français",
-        "resume": "Une décision présentée comme une riposte à un certain nombre d’actions françaises perçues comme hostiles par les autorités israéliennes, parmi lesquelles la reconnaissance par Paris, en septembre 2025, de l’État de Palestine",
-        "lien": "https://www.lefigaro.fr/international/israel-veut-mettre-un-terme-a-ses-importations-d-armement-francais-20260401",
-        "date_iso": "2026-04-01T09:16:07+02:00",
         "date_fr": "01/04/2026",
         "pertinence": 0
       },
@@ -551,18 +563,6 @@
         "resume": "La radio publique va engager, à la fin de l’été, une grande réorganisation des modes de distribution de ses stations, touchant notamment France Musique et France Info.",
         "lien": "https://www.liberation.fr/economie/medias/pour-faire-des-economies-radio-france-rearrange-ses-frequences-20260401_AVX4MFL6EFAWVL5JI3E5WBDBVM/",
         "date_iso": "2026-04-01T06:00:00+00:00",
-        "date_fr": "01/04/2026",
-        "pertinence": 0
-      },
-      {
-        "source": "Le Monde Éco",
-        "couleur": "#374151",
-        "emoji": "🌐",
-        "tag": "Presse économique",
-        "titre": "Pétrole, histoire d’une dépendance mondiale",
-        "resume": "L’envolée des cours des hydrocarbures observée depuis le début de la guerre au Moyen-Orient rappelle les chocs pétroliers passés, ceux de 1973, de 1979 et de 2008. A trois reprises, les prix mondiaux du pétrole ont flambé, provoquant récession et promesses de sobriété énergétique. Une fois la crise ",
-        "lien": "https://www.lemonde.fr/economie/article/2026/04/01/petrole-histoire-d-une-dependance-mondiale_6675820_3234.html",
-        "date_iso": "2026-04-01T05:15:00+02:00",
         "date_fr": "01/04/2026",
         "pertinence": 0
       }
@@ -2897,7 +2897,7 @@
       "note_lecture": "Le TEC-10 mesure le rendement des emprunts d'Etat francais a 10 ans. Un taux eleve rencherit le cout de la dette publique et impacte les taux de credit immobilier."
     },
     "petrole_brent": {
-      "valeur": 99.82,
+      "valeur": 99.62,
       "date": "2026-04-01",
       "unite": "USD/baril",
       "source": "Yahoo Finance",
@@ -4417,16 +4417,16 @@
         },
         {
           "date": "2026-04-01",
-          "valeur": 99.82,
-          "ma50": 82.96,
+          "valeur": 99.62,
+          "ma50": 82.95,
           "ma200": 70.06
         }
       ],
       "variations": {
-        "jour": -15.66,
-        "semaine": -2.35,
-        "mois": 28.4,
-        "ytd": 64.31
+        "jour": -15.83,
+        "semaine": -2.54,
+        "mois": 28.15,
+        "ytd": 63.98
       },
       "min_max": {
         "min": 58.92,
@@ -4437,7 +4437,7 @@
       "note_lecture": "Le prix du Brent influence directement les couts de transport et d'energie, donc l'inflation et le pouvoir d'achat des salaries."
     },
     "cac40": {
-      "valeur": 7987.82,
+      "valeur": 7987.9,
       "date": "2026-04-01",
       "variation_jour_pct": 2.19,
       "unite": "points",
@@ -5976,7 +5976,7 @@
         },
         {
           "date": "2026-04-01",
-          "valeur": 7987.82,
+          "valeur": 7987.9,
           "ma50": 8134.5,
           "ma200": 7999.31
         }
@@ -7566,7 +7566,7 @@
       "note_lecture": "Le taux de change euro-dollar determine le prix de tout ce qui est importe en dollars : petrole, matieres premieres, electronique. Un euro faible rencherit les importations et alimente l'inflation."
     },
     "or": {
-      "valeur": 4760.2,
+      "valeur": 4769.6,
       "date": "2026-04-01",
       "unite": "USD/oz",
       "source": "Yahoo Finance",
@@ -9086,16 +9086,16 @@
         },
         {
           "date": "2026-04-01",
-          "valeur": 4760.2,
-          "ma50": 4940.42,
-          "ma200": 4109.69
+          "valeur": 4769.6,
+          "ma50": 4940.6,
+          "ma200": 4109.74
         }
       ],
       "variations": {
-        "jour": 2.42,
-        "semaine": 4.62,
-        "mois": -10.09,
-        "ytd": 10.33
+        "jour": 2.63,
+        "semaine": 4.83,
+        "mois": -9.91,
+        "ytd": 10.55
       },
       "min_max": {
         "min": 2951.3,
@@ -10646,7 +10646,7 @@
       "note_lecture": "Le prix du gaz naturel (TTF europeen) impacte directement les factures de chauffage et d'electricite des menages, ainsi que les couts de production industrielle."
     },
     "ble": {
-      "valeur": 606.0,
+      "valeur": 607.0,
       "date": "2026-04-01",
       "unite": "cents/boisseau",
       "source": "Yahoo Finance",
@@ -12160,16 +12160,16 @@
         },
         {
           "date": "2026-04-01",
-          "valeur": 606.0,
-          "ma50": 566.8,
+          "valeur": 607.0,
+          "ma50": 566.82,
           "ma200": 533.53
         }
       ],
       "variations": {
-        "jour": -1.66,
-        "semaine": 1.38,
-        "mois": 5.48,
-        "ytd": 19.64
+        "jour": -1.5,
+        "semaine": 1.55,
+        "mois": 5.66,
+        "ytd": 19.84
       },
       "min_max": {
         "min": 495.0,
@@ -12180,7 +12180,7 @@
       "note_lecture": "Le cours du ble est un indicateur avance des prix alimentaires. La France etant le premier producteur europeen, son evolution impacte a la fois les consommateurs et le secteur agricole."
     },
     "lme_cuivre": {
-      "valeur": 5.65,
+      "valeur": 5.66,
       "date": "2026-04-01",
       "unite": "cts/lb",
       "source": "Yahoo Finance",
@@ -13700,16 +13700,16 @@
         },
         {
           "date": "2026-04-01",
-          "valeur": 5.65,
+          "valeur": 5.66,
           "ma50": 5.77,
           "ma200": 5.24
         }
       ],
       "variations": {
-        "jour": 1.07,
-        "semaine": 2.17,
-        "mois": -4.07,
-        "ytd": 0.18
+        "jour": 1.25,
+        "semaine": 2.35,
+        "mois": -3.9,
+        "ytd": 0.35
       },
       "min_max": {
         "min": 4.13,
@@ -22279,7 +22279,7 @@
     "sources": "INSEE - Enquête Emploi, DARES"
   },
   "previsions_cftc": {
-    "generated_at": "2026-04-01T07:44:23.783273",
+    "generated_at": "2026-04-01T07:48:10.699280",
     "model_version": "CFTC v7.0 (bivarié Phillips + log-normale + pondération temporelle)",
     "n_simulations": 1000,
     "horizon": "12 mois",
@@ -22288,7 +22288,7 @@
       "niveau": "excellent",
       "issues": [],
       "warnings": [],
-      "timestamp": "2026-04-01T07:44:23.783293"
+      "timestamp": "2026-04-01T07:48:10.699292"
     },
     "calibrage": {
       "volatilites": {
@@ -22316,7 +22316,7 @@
       "lognormal_offset": 3.0
     },
     "market_signals": {
-      "inflation_adjustment": 0.125,
+      "inflation_adjustment": 0.123,
       "chomage_adjustment": 0.175,
       "energie_outlook": "hausse",
       "ponderation_temporelle": {
@@ -22328,10 +22328,10 @@
     },
     "market_signals_details": {
       "brent": {
-        "valeur": 99.82,
+        "valeur": 99.62,
         "ref": 75.0,
-        "variation_ytd_pct": 64.31,
-        "impact_inflation_pt": 0.248,
+        "variation_ytd_pct": 63.98,
+        "impact_inflation_pt": 0.246,
         "poids_temporel": 1.0
       },
       "gaz_ttf": {
@@ -22452,7 +22452,7 @@
           1.1,
           1.2,
           1.3,
-          1.5,
+          1.4,
           1.6,
           1.6,
           1.6,
@@ -22488,9 +22488,9 @@
       "facteurs": {
         "cible_bdf": 1.4,
         "ajustement_climat": -0.03,
-        "ajustement_marches": 0.125,
+        "ajustement_marches": 0.123,
         "energie_outlook": "hausse",
-        "cible_ajustee": 1.495,
+        "cible_ajustee": 1.493,
         "volatilite_utilisee": 0.5
       },
       "asymetrie_ic": {
@@ -22733,7 +22733,7 @@
           }
         },
         "contribution_mediane": {
-          "signaux_marches_pt": 0.125,
+          "signaux_marches_pt": 0.123,
           "incertitude_bdf_sigma": 0.15,
           "label": "Déplacement de la prévision centrale"
         }
