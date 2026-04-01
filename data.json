@@ -1,6 +1,6 @@
 {
-  "last_updated": "01/04/2026 12:21",
-  "last_updated_iso": "2026-04-01T12:21:43.146262",
+  "last_updated": "01/04/2026 12:25",
+  "last_updated_iso": "2026-04-01T12:25:57.379298",
   "contact": "hspringragain@cftc.fr",
   "alertes": [
     {
@@ -32,7 +32,7 @@
       "date": "2026-04-01",
       "type": "info",
       "titre": "🔄 Données actualisées",
-      "message": "Le tableau de bord a été mis à jour le 01/04/2026 à 12:21.",
+      "message": "Le tableau de bord a été mis à jour le 01/04/2026 à 12:25.",
       "onglet": "conjoncture"
     }
   ],
@@ -193,7 +193,7 @@
     }
   ],
   "revue_presse": {
-    "derniere_maj": "01/04/2026 12:21",
+    "derniere_maj": "01/04/2026 12:25",
     "nb_sources": 7,
     "sources_noms": [
       "Le Monde Éco",
@@ -263,6 +263,18 @@
         "resume": "Le rappel vise notamment des voitures de marques Peugeot, Citroën, Fiat, Alfa Romeo et Jeep. En France, le rappel concerne 212 000 véhicules fabriqués de 2023 à 2026, dont plus de la moitié de marque Peugeot.",
         "lien": "https://www.lemonde.fr/economie/article/2026/04/01/stellantis-rappelle-700-000-vehicules-dans-le-monde-pour-un-risque-d-incendie_6675889_3234.html",
         "date_iso": "2026-04-01T12:35:33+02:00",
+        "date_fr": "01/04/2026",
+        "pertinence": 0
+      },
+      {
+        "source": "Euractiv FR",
+        "couleur": "#0369a1",
+        "emoji": "🇪🇺",
+        "tag": "Europe & politique",
+        "titre": "Szijjártó accusé de « trahison » par l’opposition hongroise à cause de ses liens étroits avec la Russie",
+        "resume": "« Cela relève de la trahison – et cela est passible d'une peine d'emprisonnement à perpétuité », a déclaré Magyar The post Szijjártó accusé de « trahison » par l’opposition hongroise à cause de ses liens étroits avec la Russie appeared first on Euractiv FR .",
+        "lien": "https://euractiv.fr/news/szijjarto-accuse-de-trahison-par-lopposition-hongroise-a-cause-de-ses-liens-etroits-avec-la-russie/",
+        "date_iso": "2026-04-01T12:21:33+00:00",
         "date_fr": "01/04/2026",
         "pertinence": 0
       },
@@ -553,18 +565,6 @@
         "date_iso": "2026-04-01T09:13:47+02:00",
         "date_fr": "01/04/2026",
         "pertinence": 0
-      },
-      {
-        "source": "Le Monde Éco",
-        "couleur": "#374151",
-        "emoji": "🌐",
-        "tag": "Presse économique",
-        "titre": "Apple, qui fête ses 50 ans, aspire à devenir la « porte d’entrée » de l’IA pour les utilisateurs d’iPhone",
-        "resume": "Un demi-siècle après sa création, la firme à la pomme n’est plus l’entreprise révolutionnaire des débuts, et elle a raté la première phase de la révolution de l’intelligence artificielle. Mais son modèle phare domine toujours le marché des smartphones.",
-        "lien": "https://www.lemonde.fr/economie/article/2026/04/01/apple-qui-fete-ses-50-ans-aspire-a-devenir-la-porte-d-entree-de-l-ia-pour-les-utilisateurs-d-iphone_6675847_3234.html",
-        "date_iso": "2026-04-01T08:30:38+02:00",
-        "date_fr": "01/04/2026",
-        "pertinence": 1
       }
     ]
   },
@@ -2897,7 +2897,7 @@
       "note_lecture": "Le TEC-10 mesure le rendement des emprunts d'Etat francais a 10 ans. Un taux eleve rencherit le cout de la dette publique et impacte les taux de credit immobilier."
     },
     "petrole_brent": {
-      "valeur": 101.58,
+      "valeur": 101.77,
       "date": "2026-04-01",
       "unite": "USD/baril",
       "source": "Yahoo Finance",
@@ -4417,16 +4417,16 @@
         },
         {
           "date": "2026-04-01",
-          "valeur": 101.58,
-          "ma50": 82.99,
+          "valeur": 101.77,
+          "ma50": 83.0,
           "ma200": 70.07
         }
       ],
       "variations": {
-        "jour": -14.17,
-        "semaine": -0.63,
-        "mois": 30.67,
-        "ytd": 67.21
+        "jour": -14.01,
+        "semaine": -0.44,
+        "mois": 30.91,
+        "ytd": 67.52
       },
       "min_max": {
         "min": 58.92,
@@ -4437,9 +4437,9 @@
       "note_lecture": "Le prix du Brent influence directement les couts de transport et d'energie, donc l'inflation et le pouvoir d'achat des salaries."
     },
     "cac40": {
-      "valeur": 7974.79,
+      "valeur": 7969.25,
       "date": "2026-04-01",
-      "variation_jour_pct": 2.02,
+      "variation_jour_pct": 1.95,
       "unite": "points",
       "source": "Yahoo Finance",
       "nb_points": 256,
@@ -5976,16 +5976,16 @@
         },
         {
           "date": "2026-04-01",
-          "valeur": 7974.79,
-          "ma50": 8134.24,
-          "ma200": 7999.24
+          "valeur": 7969.25,
+          "ma50": 8134.13,
+          "ma200": 7999.21
         }
       ],
       "variations": {
-        "jour": 2.02,
-        "semaine": 1.63,
-        "mois": -5.0,
-        "ytd": -2.69
+        "jour": 1.95,
+        "semaine": 1.56,
+        "mois": -5.06,
+        "ytd": -2.76
       },
       "min_max": {
         "min": 6863.02,
@@ -7566,7 +7566,7 @@
       "note_lecture": "Le taux de change euro-dollar determine le prix de tout ce qui est importe en dollars : petrole, matieres premieres, electronique. Un euro faible rencherit les importations et alimente l'inflation."
     },
     "or": {
-      "valeur": 4770.9,
+      "valeur": 4770.1,
       "date": "2026-04-01",
       "unite": "USD/oz",
       "source": "Yahoo Finance",
@@ -9086,16 +9086,16 @@
         },
         {
           "date": "2026-04-01",
-          "valeur": 4770.9,
-          "ma50": 4940.63,
+          "valeur": 4770.1,
+          "ma50": 4940.61,
           "ma200": 4109.74
         }
       ],
       "variations": {
-        "jour": 2.65,
-        "semaine": 4.86,
-        "mois": -9.89,
-        "ytd": 10.58
+        "jour": 2.64,
+        "semaine": 4.84,
+        "mois": -9.9,
+        "ytd": 10.56
       },
       "min_max": {
         "min": 2951.3,
@@ -9106,7 +9106,7 @@
       "note_lecture": "L'or est la valeur refuge par excellence. Sa hausse traduit une montee de l'incertitude economique ou geopolitique. Il sert aussi de protection contre l'inflation."
     },
     "gaz_naturel": {
-      "valeur": 48.39,
+      "valeur": 48.37,
       "date": "2026-04-01",
       "unite": "EUR/MWh",
       "source": "Yahoo Finance (TTF)",
@@ -10626,16 +10626,16 @@
         },
         {
           "date": "2026-04-01",
-          "valeur": 48.39,
+          "valeur": 48.37,
           "ma50": 42.85,
           "ma200": 34.58
         }
       ],
       "variations": {
-        "jour": -4.67,
-        "semaine": -8.39,
-        "mois": 8.72,
-        "ytd": 66.86
+        "jour": -4.71,
+        "semaine": -8.42,
+        "mois": 8.67,
+        "ytd": 66.79
       },
       "min_max": {
         "min": 26.6,
@@ -10646,7 +10646,7 @@
       "note_lecture": "Le prix du gaz naturel (TTF europeen) impacte directement les factures de chauffage et d'electricite des menages, ainsi que les couts de production industrielle."
     },
     "ble": {
-      "valeur": 603.75,
+      "valeur": 603.0,
       "date": "2026-04-01",
       "unite": "cents/boisseau",
       "source": "Yahoo Finance",
@@ -12160,16 +12160,16 @@
         },
         {
           "date": "2026-04-01",
-          "valeur": 603.75,
-          "ma50": 566.75,
+          "valeur": 603.0,
+          "ma50": 566.74,
           "ma200": 533.51
         }
       ],
       "variations": {
-        "jour": -2.03,
-        "semaine": 1.0,
-        "mois": 5.09,
-        "ytd": 19.2
+        "jour": -2.15,
+        "semaine": 0.88,
+        "mois": 4.96,
+        "ytd": 19.05
       },
       "min_max": {
         "min": 495.0,
@@ -13720,7 +13720,7 @@
       "note_lecture": "Le cuivre est le baromètre de l'activité industrielle mondiale ('Dr Copper'). Sa hausse signale une reprise économique, sa baisse anticipe un ralentissement. Utilisé massivement dans l'électrification et les énergies renouvelables."
     },
     "lme_aluminium": {
-      "valeur": 3434.75,
+      "valeur": 3427.5,
       "date": "2026-04-01",
       "unite": "cts/lb",
       "source": "Yahoo Finance",
@@ -15234,16 +15234,16 @@
         },
         {
           "date": "2026-04-01",
-          "valeur": 3434.75,
-          "ma50": 3136.83,
-          "ma200": 2781.3
+          "valeur": 3427.5,
+          "ma50": 3136.68,
+          "ma200": 2781.26
         }
       ],
       "variations": {
-        "jour": 0.86,
-        "semaine": 9.56,
-        "mois": 10.47,
-        "ytd": 16.91
+        "jour": 0.65,
+        "semaine": 9.33,
+        "mois": 10.24,
+        "ytd": 16.66
       },
       "min_max": {
         "min": 2166.25,
@@ -22279,7 +22279,7 @@
     "sources": "INSEE - Enquête Emploi, DARES"
   },
   "previsions_cftc": {
-    "generated_at": "2026-04-01T12:21:43.324696",
+    "generated_at": "2026-04-01T12:25:57.614285",
     "model_version": "CFTC v7.0 (bivarié Phillips + log-normale + pondération temporelle)",
     "n_simulations": 1000,
     "horizon": "12 mois",
@@ -22288,7 +22288,7 @@
       "niveau": "excellent",
       "issues": [],
       "warnings": [],
-      "timestamp": "2026-04-01T12:21:43.324707"
+      "timestamp": "2026-04-01T12:25:57.614300"
     },
     "calibrage": {
       "volatilites": {
@@ -22316,7 +22316,7 @@
       "lognormal_offset": 3.0
     },
     "market_signals": {
-      "inflation_adjustment": 0.146,
+      "inflation_adjustment": 0.147,
       "chomage_adjustment": 0.175,
       "energie_outlook": "hausse",
       "ponderation_temporelle": {
@@ -22328,14 +22328,14 @@
     },
     "market_signals_details": {
       "brent": {
-        "valeur": 101.58,
+        "valeur": 101.77,
         "ref": 75.0,
-        "variation_ytd_pct": 67.21,
-        "impact_inflation_pt": 0.266,
+        "variation_ytd_pct": 67.52,
+        "impact_inflation_pt": 0.268,
         "poids_temporel": 1.0
       },
       "gaz_ttf": {
-        "valeur": 48.39,
+        "valeur": 48.37,
         "ref": 35.0,
         "impact_inflation_pt": 0.067,
         "poids_temporel": 1.0
@@ -22358,7 +22358,7 @@
         "signal": "baissier"
       },
       "cac40_ytd": {
-        "variation_ytd_pct": -2.69,
+        "variation_ytd_pct": -2.76,
         "signal_chomage": "neutre"
       },
       "carburants_sp95": {
@@ -22426,11 +22426,11 @@
           1.5,
           1.6,
           1.8,
+          1.9,
+          1.9,
           1.8,
-          1.9,
-          1.8,
-          1.9,
-          1.9,
+          2.0,
+          2.0,
           1.9,
           2.0
         ],
@@ -22488,9 +22488,9 @@
       "facteurs": {
         "cible_bdf": 1.4,
         "ajustement_climat": -0.03,
-        "ajustement_marches": 0.146,
+        "ajustement_marches": 0.147,
         "energie_outlook": "hausse",
-        "cible_ajustee": 1.516,
+        "cible_ajustee": 1.517,
         "volatilite_utilisee": 0.5
       },
       "asymetrie_ic": {
@@ -22733,7 +22733,7 @@
           }
         },
         "contribution_mediane": {
-          "signaux_marches_pt": 0.146,
+          "signaux_marches_pt": 0.147,
           "incertitude_bdf_sigma": 0.15,
           "label": "Déplacement de la prévision centrale"
         }
