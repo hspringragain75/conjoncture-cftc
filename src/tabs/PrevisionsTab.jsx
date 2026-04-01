@@ -2,6 +2,8 @@ import { useState } from 'react';
 import { ComposedChart, BarChart, Bar, LineChart, Line, AreaChart, XAxis, YAxis, CartesianGrid, Tooltip, Legend, ResponsiveContainer, Cell, ReferenceLine, Area } from 'recharts';
 import { useChartProps } from '../hooks/useChartProps';
 import Card from '../components/Card';
+import BubbleSubTabs from '../components/BubbleSubTabs';
+import BubbleStatBlock from '../components/BubbleStatBlock';
 
 const C = {
   primary: '#3b82f6', secondary: '#ef4444', tertiary: '#22c55e',
