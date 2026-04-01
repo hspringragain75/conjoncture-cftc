@@ -1,6 +1,6 @@
 {
-  "last_updated": "01/04/2026 06:10",
-  "last_updated_iso": "2026-04-01T06:10:54.780091",
+  "last_updated": "01/04/2026 06:20",
+  "last_updated_iso": "2026-04-01T06:20:19.762338",
   "contact": "hspringragain@cftc.fr",
   "alertes": [
     {
@@ -32,7 +32,7 @@
       "date": "2026-04-01",
       "type": "info",
       "titre": "🔄 Données actualisées",
-      "message": "Le tableau de bord a été mis à jour le 01/04/2026 à 06:10.",
+      "message": "Le tableau de bord a été mis à jour le 01/04/2026 à 06:20.",
       "onglet": "conjoncture"
     }
   ],
@@ -193,7 +193,7 @@
     }
   ],
   "revue_presse": {
-    "derniere_maj": "01/04/2026 06:10",
+    "derniere_maj": "01/04/2026 06:20",
     "nb_sources": 7,
     "sources_noms": [
       "Le Monde Éco",
@@ -2897,7 +2897,7 @@
       "note_lecture": "Le TEC-10 mesure le rendement des emprunts d'Etat francais a 10 ans. Un taux eleve rencherit le cout de la dette publique et impacte les taux de credit immobilier."
     },
     "petrole_brent": {
-      "valeur": 103.22,
+      "valeur": 103.02,
       "date": "2026-04-01",
       "unite": "USD/baril",
       "source": "Yahoo Finance",
@@ -4417,16 +4417,16 @@
         },
         {
           "date": "2026-04-01",
-          "valeur": 103.22,
-          "ma50": 83.03,
+          "valeur": 103.02,
+          "ma50": 83.02,
           "ma200": 70.08
         }
       ],
       "variations": {
-        "jour": -12.78,
-        "semaine": 0.98,
-        "mois": 32.78,
-        "ytd": 69.91
+        "jour": -12.95,
+        "semaine": 0.78,
+        "mois": 32.52,
+        "ytd": 69.58
       },
       "min_max": {
         "min": 58.92,
@@ -7566,7 +7566,7 @@
       "note_lecture": "Le taux de change euro-dollar determine le prix de tout ce qui est importe en dollars : petrole, matieres premieres, electronique. Un euro faible rencherit les importations et alimente l'inflation."
     },
     "or": {
-      "valeur": 4710.9,
+      "valeur": 4714.0,
       "date": "2026-04-01",
       "unite": "USD/oz",
       "source": "Yahoo Finance",
@@ -9086,16 +9086,16 @@
         },
         {
           "date": "2026-04-01",
-          "valeur": 4710.9,
-          "ma50": 4939.43,
-          "ma200": 4109.44
+          "valeur": 4714.0,
+          "ma50": 4939.49,
+          "ma200": 4109.46
         }
       ],
       "variations": {
-        "jour": 1.36,
-        "semaine": 3.54,
-        "mois": -11.02,
-        "ytd": 9.19
+        "jour": 1.43,
+        "semaine": 3.61,
+        "mois": -10.96,
+        "ytd": 9.26
       },
       "min_max": {
         "min": 2951.3,
@@ -9106,11 +9106,11 @@
       "note_lecture": "L'or est la valeur refuge par excellence. Sa hausse traduit une montee de l'incertitude economique ou geopolitique. Il sert aussi de protection contre l'inflation."
     },
     "gaz_naturel": {
-      "valeur": 50.76,
-      "date": "2026-03-31",
+      "valeur": 48.6,
+      "date": "2026-04-01",
       "unite": "EUR/MWh",
       "source": "Yahoo Finance (TTF)",
-      "nb_points": 252,
+      "nb_points": 253,
       "historique": [
         {
           "date": "2025-04-01",
@@ -10623,13 +10623,19 @@
           "valeur": 50.76,
           "ma50": 42.6,
           "ma200": 34.53
+        },
+        {
+          "date": "2026-04-01",
+          "valeur": 48.6,
+          "ma50": 42.86,
+          "ma200": 34.58
         }
       ],
       "variations": {
-        "jour": -7.39,
-        "semaine": -6.07,
-        "mois": 58.82,
-        "ytd": 75.03
+        "jour": -4.26,
+        "semaine": -7.99,
+        "mois": 9.19,
+        "ytd": 67.59
       },
       "min_max": {
         "min": 26.6,
@@ -10640,7 +10646,7 @@
       "note_lecture": "Le prix du gaz naturel (TTF europeen) impacte directement les factures de chauffage et d'electricite des menages, ainsi que les couts de production industrielle."
     },
     "ble": {
-      "valeur": 612.75,
+      "valeur": 611.75,
       "date": "2026-04-01",
       "unite": "cents/boisseau",
       "source": "Yahoo Finance",
@@ -12154,16 +12160,16 @@
         },
         {
           "date": "2026-04-01",
-          "valeur": 612.75,
-          "ma50": 566.93,
-          "ma200": 533.56
+          "valeur": 611.75,
+          "ma50": 566.91,
+          "ma200": 533.55
         }
       ],
       "variations": {
-        "jour": -0.57,
-        "semaine": 2.51,
-        "mois": 6.66,
-        "ytd": 20.98
+        "jour": -0.73,
+        "semaine": 2.34,
+        "mois": 6.48,
+        "ytd": 20.78
       },
       "min_max": {
         "min": 495.0,
@@ -22273,7 +22279,7 @@
     "sources": "INSEE - Enquête Emploi, DARES"
   },
   "previsions_cftc": {
-    "generated_at": "2026-04-01T06:10:55.137794",
+    "generated_at": "2026-04-01T06:20:20.045825",
     "model_version": "CFTC v7.0 (bivarié Phillips + log-normale + pondération temporelle)",
     "n_simulations": 1000,
     "horizon": "12 mois",
@@ -22282,7 +22288,7 @@
       "niveau": "excellent",
       "issues": [],
       "warnings": [],
-      "timestamp": "2026-04-01T06:10:55.137812"
+      "timestamp": "2026-04-01T06:20:20.045839"
     },
     "calibrage": {
       "volatilites": {
@@ -22310,29 +22316,29 @@
       "lognormal_offset": 3.0
     },
     "market_signals": {
-      "inflation_adjustment": 0.17,
+      "inflation_adjustment": 0.161,
       "chomage_adjustment": 0.175,
       "energie_outlook": "hausse",
       "ponderation_temporelle": {
         "brent": 1.0,
-        "gaz_ttf": 0.951,
+        "gaz_ttf": 1.0,
         "eurusd": 1.0,
         "defaillances": 1.0
       }
     },
     "market_signals_details": {
       "brent": {
-        "valeur": 103.22,
+        "valeur": 103.02,
         "ref": 75.0,
-        "variation_ytd_pct": 69.91,
-        "impact_inflation_pt": 0.282,
+        "variation_ytd_pct": 69.58,
+        "impact_inflation_pt": 0.28,
         "poids_temporel": 1.0
       },
       "gaz_ttf": {
-        "valeur": 50.76,
+        "valeur": 48.6,
         "ref": 35.0,
-        "impact_inflation_pt": 0.075,
-        "poids_temporel": 0.951
+        "impact_inflation_pt": 0.068,
+        "poids_temporel": 1.0
       },
       "eurusd": {
         "valeur": 1.16,
@@ -22426,7 +22432,7 @@
           2.0,
           2.0,
           2.0,
-          2.1
+          2.0
         ],
         "p25": [
           0.9,
@@ -22448,10 +22454,10 @@
           1.3,
           1.5,
           1.6,
-          1.7,
+          1.6,
           1.7,
           1.6,
-          1.8,
+          1.7,
           1.8,
           1.8,
           1.8
@@ -22473,26 +22479,26 @@
         "methodology": "Monte Carlo bivarié (1000 sim.) + log-normale + Phillips ρ=-0.35 (v7)"
       },
       "probabilites": {
-        "inflation_sous_2pct": 86.4,
-        "inflation_cible_bce": 86.4,
+        "inflation_sous_2pct": 86.8,
+        "inflation_cible_bce": 86.8,
         "inflation_au_dessus_3pct": 0.0,
         "inflation_au_dessus_4pct": 0.0,
-        "description": "86.4% de chances que l'inflation reste sous 2% à 12 mois"
+        "description": "86.8% de chances que l'inflation reste sous 2% à 12 mois"
       },
       "facteurs": {
         "cible_bdf": 1.4,
         "ajustement_climat": -0.03,
-        "ajustement_marches": 0.17,
+        "ajustement_marches": 0.161,
         "energie_outlook": "hausse",
-        "cible_ajustee": 1.54,
+        "cible_ajustee": 1.531,
         "volatilite_utilisee": 0.5
       },
       "asymetrie_ic": {
-        "queue_haute": 0.5,
+        "queue_haute": 0.4,
         "queue_basse": 0.4,
-        "ratio": 1.25
+        "ratio": 1.0
       },
-      "insight": "Inflation médiane à 12 mois : 1.6% [IC 80% : 1.2% - 2.1%]. Asymétrie : queue haute 0.5pt vs basse 0.4pt. 86.4% de probabilité de rester sous 2%."
+      "insight": "Inflation médiane à 12 mois : 1.6% [IC 80% : 1.2% - 2.0%]. Asymétrie : queue haute 0.4pt vs basse 0.4pt. 86.8% de probabilité de rester sous 2%."
     },
     "smic": {
       "current": {
@@ -22530,12 +22536,12 @@
       },
       "pouvoir_achat_reel": {
         "hausse_reelle_p50_pct": 0.4,
-        "hausse_reelle_p10_pct": -0.5,
+        "hausse_reelle_p10_pct": -0.4,
         "hausse_reelle_p90_pct": 1.2,
         "gain_mensuel_brut_p50_euros": 7.3,
-        "gain_mensuel_brut_p10_euros": -9.1,
+        "gain_mensuel_brut_p10_euros": -7.3,
         "gain_mensuel_brut_p90_euros": 21.9,
-        "interpretation": "En scénario médian, le pouvoir d'achat SMIC progresse de 0.4% en 2027 (+7.3€/mois brut). Fourchette : [-0.5% ; +1.2%].",
+        "interpretation": "En scénario médian, le pouvoir d'achat SMIC progresse de 0.4% en 2027 (+7.3€/mois brut). Fourchette : [-0.4% ; +1.2%].",
         "alerte_nao": false,
         "message_nao": "✅ La revalorisation prévue (+2.0%) préserve le pouvoir d'achat."
       },
@@ -22699,25 +22705,25 @@
       }
     },
     "notes_lecture": [
-      "📈 Inflation médiane à 12 mois : 1.6% [1.2% - 2.1%] — 86.4% de chances de rester sous 2% (asymétrie : +0.5pt / -0.4pt)",
+      "📈 Inflation médiane à 12 mois : 1.6% [1.2% - 2.0%] — 86.8% de chances de rester sous 2% (asymétrie : +0.4pt / -0.4pt)",
       "💰 SMIC janvier 2027 : 1859€ brut (+2.0%, fourchette 1.6-2.4%) — Pouvoir d'achat réel : +0.4% (+7€/mois)",
       "👥 Chômage Q4 : 7.8% [7.6% - 7.9%] — Tendance stable (corrélé Phillips ρ=-0.35)",
-      "📊 Signaux marchés : ↑ inflation 0.17pt, ↑ chômage 0.17pt, (poids temporel min : 0.95)",
+      "📊 Signaux marchés : ↑ inflation 0.16pt, ↑ chômage 0.17pt, (poids temporel min : 1.00)",
       "🎲 Scénario à surveiller : 🚀 Reprise économique forte (25%)",
       "💡 Recommandation NAO : demander au minimum +2.1% pour préserver le pouvoir d'achat"
     ],
     "uncertainty_decomposition": {
       "inflation": {
-        "ic_total_pts": 0.9,
+        "ic_total_pts": 0.8,
         "sources": {
           "volatilite_historique": {
-            "ic_pts": 0.81,
-            "part_pct": 90.0,
+            "ic_pts": 0.8,
+            "part_pct": 100.0,
             "label": "Variabilité passée de l'inflation"
           },
           "signaux_marches": {
-            "ic_pts": 0.09,
-            "part_pct": 10.0,
+            "ic_pts": 0.0,
+            "part_pct": 0.0,
             "label": "Brent, gaz, EUR/USD, SMB..."
           },
           "incertitude_bdf": {
@@ -22727,7 +22733,7 @@
           }
         },
         "contribution_mediane": {
-          "signaux_marches_pt": 0.17,
+          "signaux_marches_pt": 0.161,
           "incertitude_bdf_sigma": 0.15,
           "label": "Déplacement de la prévision centrale"
         }
