@@ -609,4 +609,3 @@ export default function AideTab({darkMode}) {
     </div>
   );
 }
-}
