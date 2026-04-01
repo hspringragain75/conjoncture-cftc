@@ -1,6 +1,6 @@
 {
-  "last_updated": "01/04/2026 11:26",
-  "last_updated_iso": "2026-04-01T11:26:17.682716",
+  "last_updated": "01/04/2026 11:34",
+  "last_updated_iso": "2026-04-01T11:34:02.364993",
   "contact": "hspringragain@cftc.fr",
   "alertes": [
     {
@@ -32,7 +32,7 @@
       "date": "2026-04-01",
       "type": "info",
       "titre": "🔄 Données actualisées",
-      "message": "Le tableau de bord a été mis à jour le 01/04/2026 à 11:26.",
+      "message": "Le tableau de bord a été mis à jour le 01/04/2026 à 11:33.",
       "onglet": "conjoncture"
     }
   ],
@@ -193,7 +193,7 @@
     }
   ],
   "revue_presse": {
-    "derniere_maj": "01/04/2026 11:26",
+    "derniere_maj": "01/04/2026 11:34",
     "nb_sources": 7,
     "sources_noms": [
       "Le Monde Éco",
@@ -212,9 +212,9 @@
         "emoji": "🌐",
         "tag": "Presse économique",
         "titre": "La compagnie ferroviaire espagnole Renfe suspend son projet de liaison à grande vitesse entre l’Espagne et Paris",
-        "resume": "Le liaison ferroviaire, qui devait initialement voir le jour en 2024 pour les Jeux olympiques de Paris, accuse beaucoup de retard et la compagnie a encore déploré des « obstacles » qui l’empêchent d’avoir une « date opérationnelle claire ».",
+        "resume": "La liaison ferroviaire, qui devait initialement voir le jour en 2024 pour les Jeux olympiques de Paris, accuse beaucoup de retard et la compagnie a encore déploré des « obstacles » qui l’empêchent d’avoir une « date opérationnelle claire ».",
         "lien": "https://www.lemonde.fr/economie/article/2026/04/01/la-compagnie-ferroviaire-espagnole-renfe-suspend-son-projet-de-liaison-a-grande-vitesse-entre-l-espagne-et-paris_6675893_3234.html",
-        "date_iso": "2026-04-01T13:19:20+02:00",
+        "date_iso": "2026-04-01T13:19:18+02:00",
         "date_fr": "01/04/2026",
         "pertinence": 0
       },
@@ -2897,7 +2897,7 @@
       "note_lecture": "Le TEC-10 mesure le rendement des emprunts d'Etat francais a 10 ans. Un taux eleve rencherit le cout de la dette publique et impacte les taux de credit immobilier."
     },
     "petrole_brent": {
-      "valeur": 102.77,
+      "valeur": 102.85,
       "date": "2026-04-01",
       "unite": "USD/baril",
       "source": "Yahoo Finance",
@@ -4417,16 +4417,16 @@
         },
         {
           "date": "2026-04-01",
-          "valeur": 102.77,
+          "valeur": 102.85,
           "ma50": 83.02,
-          "ma200": 70.07
+          "ma200": 70.08
         }
       ],
       "variations": {
-        "jour": -13.16,
-        "semaine": 0.54,
-        "mois": 32.2,
-        "ytd": 69.17
+        "jour": -13.1,
+        "semaine": 0.62,
+        "mois": 32.3,
+        "ytd": 69.3
       },
       "min_max": {
         "min": 58.92,
@@ -4437,9 +4437,9 @@
       "note_lecture": "Le prix du Brent influence directement les couts de transport et d'energie, donc l'inflation et le pouvoir d'achat des salaries."
     },
     "cac40": {
-      "valeur": 7967.93,
+      "valeur": 7972.34,
       "date": "2026-04-01",
-      "variation_jour_pct": 1.93,
+      "variation_jour_pct": 1.99,
       "unite": "points",
       "source": "Yahoo Finance",
       "nb_points": 256,
@@ -5976,16 +5976,16 @@
         },
         {
           "date": "2026-04-01",
-          "valeur": 7967.93,
-          "ma50": 8134.1,
-          "ma200": 7999.21
+          "valeur": 7972.34,
+          "ma50": 8134.19,
+          "ma200": 7999.23
         }
       ],
       "variations": {
-        "jour": 1.93,
-        "semaine": 1.55,
-        "mois": -5.08,
-        "ytd": -2.77
+        "jour": 1.99,
+        "semaine": 1.6,
+        "mois": -5.03,
+        "ytd": -2.72
       },
       "min_max": {
         "min": 6863.02,
@@ -7566,7 +7566,7 @@
       "note_lecture": "Le taux de change euro-dollar determine le prix de tout ce qui est importe en dollars : petrole, matieres premieres, electronique. Un euro faible rencherit les importations et alimente l'inflation."
     },
     "or": {
-      "valeur": 4764.8,
+      "valeur": 4765.1,
       "date": "2026-04-01",
       "unite": "USD/oz",
       "source": "Yahoo Finance",
@@ -9086,16 +9086,16 @@
         },
         {
           "date": "2026-04-01",
-          "valeur": 4764.8,
+          "valeur": 4765.1,
           "ma50": 4940.51,
           "ma200": 4109.71
         }
       ],
       "variations": {
-        "jour": 2.52,
+        "jour": 2.53,
         "semaine": 4.73,
         "mois": -10.0,
-        "ytd": 10.44
+        "ytd": 10.45
       },
       "min_max": {
         "min": 2951.3,
@@ -10646,7 +10646,7 @@
       "note_lecture": "Le prix du gaz naturel (TTF europeen) impacte directement les factures de chauffage et d'electricite des menages, ainsi que les couts de production industrielle."
     },
     "ble": {
-      "valeur": 601.5,
+      "valeur": 602.75,
       "date": "2026-04-01",
       "unite": "cents/boisseau",
       "source": "Yahoo Finance",
@@ -12160,16 +12160,16 @@
         },
         {
           "date": "2026-04-01",
-          "valeur": 601.5,
-          "ma50": 566.71,
-          "ma200": 533.5
+          "valeur": 602.75,
+          "ma50": 566.74,
+          "ma200": 533.51
         }
       ],
       "variations": {
-        "jour": -2.39,
-        "semaine": 0.63,
-        "mois": 4.7,
-        "ytd": 18.76
+        "jour": -2.19,
+        "semaine": 0.84,
+        "mois": 4.92,
+        "ytd": 19.0
       },
       "min_max": {
         "min": 495.0,
@@ -12180,7 +12180,7 @@
       "note_lecture": "Le cours du ble est un indicateur avance des prix alimentaires. La France etant le premier producteur europeen, son evolution impacte a la fois les consommateurs et le secteur agricole."
     },
     "lme_cuivre": {
-      "valeur": 5.63,
+      "valeur": 5.62,
       "date": "2026-04-01",
       "unite": "cts/lb",
       "source": "Yahoo Finance",
@@ -13700,16 +13700,16 @@
         },
         {
           "date": "2026-04-01",
-          "valeur": 5.63,
+          "valeur": 5.62,
           "ma50": 5.77,
           "ma200": 5.24
         }
       ],
       "variations": {
-        "jour": 0.72,
-        "semaine": 1.81,
-        "mois": -4.41,
-        "ytd": -0.18
+        "jour": 0.54,
+        "semaine": 1.63,
+        "mois": -4.58,
+        "ytd": -0.35
       },
       "min_max": {
         "min": 4.13,
@@ -13720,7 +13720,7 @@
       "note_lecture": "Le cuivre est le baromètre de l'activité industrielle mondiale ('Dr Copper'). Sa hausse signale une reprise économique, sa baisse anticipe un ralentissement. Utilisé massivement dans l'électrification et les énergies renouvelables."
     },
     "lme_aluminium": {
-      "valeur": 3432.5,
+      "valeur": 3440.0,
       "date": "2026-04-01",
       "unite": "cts/lb",
       "source": "Yahoo Finance",
@@ -15234,16 +15234,16 @@
         },
         {
           "date": "2026-04-01",
-          "valeur": 3432.5,
-          "ma50": 3136.78,
-          "ma200": 2781.29
+          "valeur": 3440.0,
+          "ma50": 3136.93,
+          "ma200": 2781.33
         }
       ],
       "variations": {
-        "jour": 0.79,
-        "semaine": 9.49,
-        "mois": 10.4,
-        "ytd": 16.83
+        "jour": 1.01,
+        "semaine": 9.73,
+        "mois": 10.64,
+        "ytd": 17.09
       },
       "min_max": {
         "min": 2166.25,
@@ -17662,7 +17662,7 @@
           "2023": 1.92,
           "2024": 1.78,
           "2025": 1.72,
-          "2026": 2.041
+          "2026": 2.043
         },
         "quantiteMensuelle": {
           "solo": 40,
@@ -22279,7 +22279,7 @@
     "sources": "INSEE - Enquête Emploi, DARES"
   },
   "previsions_cftc": {
-    "generated_at": "2026-04-01T11:26:17.977773",
+    "generated_at": "2026-04-01T11:34:02.639749",
     "model_version": "CFTC v7.0 (bivarié Phillips + log-normale + pondération temporelle)",
     "n_simulations": 1000,
     "horizon": "12 mois",
@@ -22288,7 +22288,7 @@
       "niveau": "excellent",
       "issues": [],
       "warnings": [],
-      "timestamp": "2026-04-01T11:26:17.977788"
+      "timestamp": "2026-04-01T11:34:02.639765"
     },
     "calibrage": {
       "volatilites": {
@@ -22316,7 +22316,7 @@
       "lognormal_offset": 3.0
     },
     "market_signals": {
-      "inflation_adjustment": 0.159,
+      "inflation_adjustment": 0.16,
       "chomage_adjustment": 0.175,
       "energie_outlook": "hausse",
       "ponderation_temporelle": {
@@ -22328,9 +22328,9 @@
     },
     "market_signals_details": {
       "brent": {
-        "valeur": 102.77,
+        "valeur": 102.85,
         "ref": 75.0,
-        "variation_ytd_pct": 69.17,
+        "variation_ytd_pct": 69.3,
         "impact_inflation_pt": 0.278,
         "poids_temporel": 1.0
       },
@@ -22358,7 +22358,7 @@
         "signal": "baissier"
       },
       "cac40_ytd": {
-        "variation_ytd_pct": -2.77,
+        "variation_ytd_pct": -2.72,
         "signal_chomage": "neutre"
       },
       "carburants_sp95": {
@@ -22488,9 +22488,9 @@
       "facteurs": {
         "cible_bdf": 1.4,
         "ajustement_climat": -0.03,
-        "ajustement_marches": 0.159,
+        "ajustement_marches": 0.16,
         "energie_outlook": "hausse",
-        "cible_ajustee": 1.529,
+        "cible_ajustee": 1.53,
         "volatilite_utilisee": 0.5
       },
       "asymetrie_ic": {
@@ -22733,7 +22733,7 @@
           }
         },
         "contribution_mediane": {
-          "signaux_marches_pt": 0.159,
+          "signaux_marches_pt": 0.16,
           "incertitude_bdf_sigma": 0.15,
           "label": "Déplacement de la prévision centrale"
         }
