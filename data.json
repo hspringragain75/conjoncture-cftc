@@ -1,6 +1,6 @@
 {
-  "last_updated": "01/04/2026 06:41",
-  "last_updated_iso": "2026-04-01T06:41:13.862412",
+  "last_updated": "01/04/2026 06:53",
+  "last_updated_iso": "2026-04-01T06:53:12.932780",
   "contact": "hspringragain@cftc.fr",
   "alertes": [
     {
@@ -32,7 +32,7 @@
       "date": "2026-04-01",
       "type": "info",
       "titre": "🔄 Données actualisées",
-      "message": "Le tableau de bord a été mis à jour le 01/04/2026 à 06:41.",
+      "message": "Le tableau de bord a été mis à jour le 01/04/2026 à 06:53.",
       "onglet": "conjoncture"
     }
   ],
@@ -193,7 +193,7 @@
     }
   ],
   "revue_presse": {
-    "derniere_maj": "01/04/2026 06:41",
+    "derniere_maj": "01/04/2026 06:53",
     "nb_sources": 7,
     "sources_noms": [
       "Le Monde Éco",
@@ -265,6 +265,18 @@
         "date_iso": "2026-04-01T07:05:08+02:00",
         "date_fr": "01/04/2026",
         "pertinence": 0
+      },
+      {
+        "source": "Le Figaro Éco",
+        "couleur": "#92400e",
+        "emoji": "📊",
+        "tag": "Presse économique",
+        "titre": "MaPrimeRénov, bonus réparation, CPF... Les aides financières accordées par l’État font-elles grimper les prix ?",
+        "resume": "DÉCRYPTAGE - La mise en place de soutiens financiers sur certains produits ou services peut entraîner une hausse des prix, ce qui rend indispensable un encadrement rigoureux de ces dispositifs.",
+        "lien": "https://www.lefigaro.fr/conjoncture/maprimerenov-bonus-reparation-cpf-les-aides-financieres-accordees-par-l-etat-font-elles-grimper-les-prix-20260401",
+        "date_iso": "2026-04-01T07:00:00+02:00",
+        "date_fr": "01/04/2026",
+        "pertinence": 2
       },
       {
         "source": "Le Figaro Éco",
@@ -553,18 +565,6 @@
         "date_iso": "2026-03-31T20:02:29+02:00",
         "date_fr": "31/03/2026",
         "pertinence": 0
-      },
-      {
-        "source": "Le Figaro Éco",
-        "couleur": "#92400e",
-        "emoji": "📊",
-        "tag": "Presse économique",
-        "titre": "« On est foutus, on est foutus ! On est en train de se déconnecter ! » : la mégapanne électrique n’en finit pas de mettre l’Espagne sous tension",
-        "resume": "RÉCIT - Près d’un an après le black-out, la diffusion d’échanges entre le gestionnaire du réseau et les compagnies d’électricité alimente une crise politique.",
-        "lien": "https://www.lefigaro.fr/conjoncture/on-est-foutus-on-est-foutus-on-est-en-train-de-se-deconnecter-la-megapanne-electrique-n-en-finit-pas-de-mettre-l-espagne-sous-tension-20260331",
-        "date_iso": "2026-03-31T19:50:00+02:00",
-        "date_fr": "31/03/2026",
-        "pertinence": 1
       }
     ]
   },
@@ -2897,7 +2897,7 @@
       "note_lecture": "Le TEC-10 mesure le rendement des emprunts d'Etat francais a 10 ans. Un taux eleve rencherit le cout de la dette publique et impacte les taux de credit immobilier."
     },
     "petrole_brent": {
-      "valeur": 100.92,
+      "valeur": 100.23,
       "date": "2026-04-01",
       "unite": "USD/baril",
       "source": "Yahoo Finance",
@@ -4417,16 +4417,16 @@
         },
         {
           "date": "2026-04-01",
-          "valeur": 100.92,
-          "ma50": 82.98,
-          "ma200": 70.07
+          "valeur": 100.23,
+          "ma50": 82.97,
+          "ma200": 70.06
         }
       ],
       "variations": {
-        "jour": -14.73,
-        "semaine": -1.27,
-        "mois": 29.82,
-        "ytd": 66.12
+        "jour": -15.31,
+        "semaine": -1.95,
+        "mois": 28.93,
+        "ytd": 64.99
       },
       "min_max": {
         "min": 58.92,
@@ -7566,7 +7566,7 @@
       "note_lecture": "Le taux de change euro-dollar determine le prix de tout ce qui est importe en dollars : petrole, matieres premieres, electronique. Un euro faible rencherit les importations et alimente l'inflation."
     },
     "or": {
-      "valeur": 4736.4,
+      "valeur": 4733.4,
       "date": "2026-04-01",
       "unite": "USD/oz",
       "source": "Yahoo Finance",
@@ -9086,16 +9086,16 @@
         },
         {
           "date": "2026-04-01",
-          "valeur": 4736.4,
-          "ma50": 4939.94,
-          "ma200": 4109.57
+          "valeur": 4733.4,
+          "ma50": 4939.88,
+          "ma200": 4109.55
         }
       ],
       "variations": {
-        "jour": 1.91,
-        "semaine": 4.1,
-        "mois": -10.54,
-        "ytd": 9.78
+        "jour": 1.85,
+        "semaine": 4.04,
+        "mois": -10.6,
+        "ytd": 9.71
       },
       "min_max": {
         "min": 2951.3,
@@ -10646,7 +10646,7 @@
       "note_lecture": "Le prix du gaz naturel (TTF europeen) impacte directement les factures de chauffage et d'electricite des menages, ainsi que les couts de production industrielle."
     },
     "ble": {
-      "valeur": 608.5,
+      "valeur": 608.0,
       "date": "2026-04-01",
       "unite": "cents/boisseau",
       "source": "Yahoo Finance",
@@ -12160,16 +12160,16 @@
         },
         {
           "date": "2026-04-01",
-          "valeur": 608.5,
-          "ma50": 566.85,
+          "valeur": 608.0,
+          "ma50": 566.84,
           "ma200": 533.54
         }
       ],
       "variations": {
-        "jour": -1.26,
-        "semaine": 1.8,
-        "mois": 5.92,
-        "ytd": 20.14
+        "jour": -1.34,
+        "semaine": 1.71,
+        "mois": 5.83,
+        "ytd": 20.04
       },
       "min_max": {
         "min": 495.0,
@@ -12180,7 +12180,7 @@
       "note_lecture": "Le cours du ble est un indicateur avance des prix alimentaires. La France etant le premier producteur europeen, son evolution impacte a la fois les consommateurs et le secteur agricole."
     },
     "lme_cuivre": {
-      "valeur": 5.65,
+      "valeur": 5.64,
       "date": "2026-04-01",
       "unite": "cts/lb",
       "source": "Yahoo Finance",
@@ -13700,16 +13700,16 @@
         },
         {
           "date": "2026-04-01",
-          "valeur": 5.65,
+          "valeur": 5.64,
           "ma50": 5.77,
           "ma200": 5.24
         }
       ],
       "variations": {
-        "jour": 1.07,
-        "semaine": 2.17,
-        "mois": -4.07,
-        "ytd": 0.18
+        "jour": 0.89,
+        "semaine": 1.99,
+        "mois": -4.24,
+        "ytd": 0.0
       },
       "min_max": {
         "min": 4.13,
@@ -13720,7 +13720,7 @@
       "note_lecture": "Le cuivre est le baromètre de l'activité industrielle mondiale ('Dr Copper'). Sa hausse signale une reprise économique, sa baisse anticipe un ralentissement. Utilisé massivement dans l'électrification et les énergies renouvelables."
     },
     "lme_aluminium": {
-      "valeur": 3350.25,
+      "valeur": 3354.75,
       "date": "2026-04-01",
       "unite": "cts/lb",
       "source": "Yahoo Finance",
@@ -15234,16 +15234,16 @@
         },
         {
           "date": "2026-04-01",
-          "valeur": 3350.25,
-          "ma50": 3135.14,
-          "ma200": 2780.88
+          "valeur": 3354.75,
+          "ma50": 3135.23,
+          "ma200": 2780.9
         }
       ],
       "variations": {
-        "jour": -1.62,
-        "semaine": 6.87,
-        "mois": 7.75,
-        "ytd": 14.03
+        "jour": -1.49,
+        "semaine": 7.01,
+        "mois": 7.9,
+        "ytd": 14.18
       },
       "min_max": {
         "min": 2166.25,
@@ -22279,7 +22279,7 @@
     "sources": "INSEE - Enquête Emploi, DARES"
   },
   "previsions_cftc": {
-    "generated_at": "2026-04-01T06:41:14.086595",
+    "generated_at": "2026-04-01T06:53:13.211441",
     "model_version": "CFTC v7.0 (bivarié Phillips + log-normale + pondération temporelle)",
     "n_simulations": 1000,
     "horizon": "12 mois",
@@ -22288,7 +22288,7 @@
       "niveau": "excellent",
       "issues": [],
       "warnings": [],
-      "timestamp": "2026-04-01T06:41:14.086609"
+      "timestamp": "2026-04-01T06:53:13.211455"
     },
     "calibrage": {
       "volatilites": {
@@ -22316,7 +22316,7 @@
       "lognormal_offset": 3.0
     },
     "market_signals": {
-      "inflation_adjustment": 0.14,
+      "inflation_adjustment": 0.133,
       "chomage_adjustment": 0.175,
       "energie_outlook": "hausse",
       "ponderation_temporelle": {
@@ -22328,10 +22328,10 @@
     },
     "market_signals_details": {
       "brent": {
-        "valeur": 100.92,
+        "valeur": 100.23,
         "ref": 75.0,
-        "variation_ytd_pct": 66.12,
-        "impact_inflation_pt": 0.259,
+        "variation_ytd_pct": 64.99,
+        "impact_inflation_pt": 0.252,
         "poids_temporel": 1.0
       },
       "gaz_ttf": {
@@ -22395,11 +22395,11 @@
         "predictions": [
           1.0,
           1.0,
-          1.2,
+          1.1,
           1.3,
           1.4,
           1.4,
-          1.5,
+          1.4,
           1.4,
           1.5,
           1.5,
@@ -22427,7 +22427,7 @@
           1.6,
           1.8,
           1.8,
-          1.9,
+          1.8,
           1.8,
           1.9,
           1.9,
@@ -22458,7 +22458,7 @@
           1.7,
           1.6,
           1.7,
-          1.8,
+          1.7,
           1.8,
           1.8
         ],
@@ -22479,18 +22479,18 @@
         "methodology": "Monte Carlo bivarié (1000 sim.) + log-normale + Phillips ρ=-0.35 (v7)"
       },
       "probabilites": {
-        "inflation_sous_2pct": 88.0,
-        "inflation_cible_bce": 88.0,
+        "inflation_sous_2pct": 88.1,
+        "inflation_cible_bce": 88.1,
         "inflation_au_dessus_3pct": 0.0,
         "inflation_au_dessus_4pct": 0.0,
-        "description": "88.0% de chances que l'inflation reste sous 2% à 12 mois"
+        "description": "88.1% de chances que l'inflation reste sous 2% à 12 mois"
       },
       "facteurs": {
         "cible_bdf": 1.4,
         "ajustement_climat": -0.03,
-        "ajustement_marches": 0.14,
+        "ajustement_marches": 0.133,
         "energie_outlook": "hausse",
-        "cible_ajustee": 1.51,
+        "cible_ajustee": 1.503,
         "volatilite_utilisee": 0.5
       },
       "asymetrie_ic": {
@@ -22498,7 +22498,7 @@
         "queue_basse": 0.5,
         "ratio": 0.8
       },
-      "insight": "Inflation médiane à 12 mois : 1.6% [IC 80% : 1.1% - 2.0%]. Asymétrie : queue haute 0.4pt vs basse 0.5pt. 88.0% de probabilité de rester sous 2%."
+      "insight": "Inflation médiane à 12 mois : 1.6% [IC 80% : 1.1% - 2.0%]. Asymétrie : queue haute 0.4pt vs basse 0.5pt. 88.1% de probabilité de rester sous 2%."
     },
     "smic": {
       "current": {
@@ -22705,35 +22705,35 @@
       }
     },
     "notes_lecture": [
-      "📈 Inflation médiane à 12 mois : 1.6% [1.1% - 2.0%] — 88.0% de chances de rester sous 2% (asymétrie : +0.4pt / -0.5pt)",
+      "📈 Inflation médiane à 12 mois : 1.6% [1.1% - 2.0%] — 88.1% de chances de rester sous 2% (asymétrie : +0.4pt / -0.5pt)",
       "💰 SMIC janvier 2027 : 1859€ brut (+2.0%, fourchette 1.5-2.4%) — Pouvoir d'achat réel : +0.4% (+7€/mois)",
       "👥 Chômage Q4 : 7.8% [7.6% - 7.9%] — Tendance stable (corrélé Phillips ρ=-0.35)",
-      "📊 Signaux marchés : ↑ inflation 0.14pt, ↑ chômage 0.17pt, (poids temporel min : 1.00)",
+      "📊 Signaux marchés : ↑ inflation 0.13pt, ↑ chômage 0.17pt, (poids temporel min : 1.00)",
       "🎲 Scénario à surveiller : 🚀 Reprise économique forte (25%)",
       "💡 Recommandation NAO : demander au minimum +2.1% pour préserver le pouvoir d'achat"
     ],
     "uncertainty_decomposition": {
       "inflation": {
-        "ic_total_pts": 0.8,
+        "ic_total_pts": 0.9,
         "sources": {
           "volatilite_historique": {
-            "ic_pts": 0.7,
-            "part_pct": 87.5,
+            "ic_pts": 0.72,
+            "part_pct": 80.0,
             "label": "Variabilité passée de l'inflation"
           },
           "signaux_marches": {
-            "ic_pts": 0.0,
-            "part_pct": 0.0,
+            "ic_pts": 0.09,
+            "part_pct": 10.0,
             "label": "Brent, gaz, EUR/USD, SMB..."
           },
           "incertitude_bdf": {
-            "ic_pts": 0.1,
-            "part_pct": 12.5,
+            "ic_pts": 0.09,
+            "part_pct": 10.0,
             "label": "Structure log-normale + résiduel"
           }
         },
         "contribution_mediane": {
-          "signaux_marches_pt": 0.14,
+          "signaux_marches_pt": 0.133,
           "incertitude_bdf_sigma": 0.15,
           "label": "Déplacement de la prévision centrale"
         }
