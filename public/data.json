@@ -1,6 +1,6 @@
 {
-  "last_updated": "01/04/2026 06:53",
-  "last_updated_iso": "2026-04-01T06:53:12.932780",
+  "last_updated": "01/04/2026 07:09",
+  "last_updated_iso": "2026-04-01T07:09:28.639865",
   "contact": "hspringragain@cftc.fr",
   "alertes": [
     {
@@ -32,7 +32,7 @@
       "date": "2026-04-01",
       "type": "info",
       "titre": "🔄 Données actualisées",
-      "message": "Le tableau de bord a été mis à jour le 01/04/2026 à 06:53.",
+      "message": "Le tableau de bord a été mis à jour le 01/04/2026 à 07:09.",
       "onglet": "conjoncture"
     }
   ],
@@ -193,7 +193,7 @@
     }
   ],
   "revue_presse": {
-    "derniere_maj": "01/04/2026 06:53",
+    "derniere_maj": "01/04/2026 07:09",
     "nb_sources": 7,
     "sources_noms": [
       "Le Monde Éco",
@@ -206,6 +206,18 @@
     ],
     "a_la_une": [],
     "tous": [
+      {
+        "source": "Le Figaro Éco",
+        "couleur": "#92400e",
+        "emoji": "📊",
+        "tag": "Presse économique",
+        "titre": "Leasing automobile : UFC-Que Choisir dénonce des contrats «piégeux» pour les consommateurs",
+        "resume": "Frais de restitutions contestés, poursuite des paiements après un décès ou une panne... les abus sont fréquents, selon l’association de consommateurs, qui demande un meilleur encadrement des pratiques.",
+        "lien": "https://www.lefigaro.fr/societes/leasing-automobile-ufc-que-choisir-denonce-des-contrats-piegeux-pour-les-consommateurs-20260401",
+        "date_iso": "2026-04-01T08:56:39+02:00",
+        "date_fr": "01/04/2026",
+        "pertinence": 0
+      },
       {
         "source": "Le Figaro Éco",
         "couleur": "#92400e",
@@ -291,14 +303,14 @@
         "pertinence": 0
       },
       {
-        "source": "Le Figaro Éco",
-        "couleur": "#92400e",
-        "emoji": "📊",
-        "tag": "Presse économique",
-        "titre": "Leasing automobile : UFC-Que Choisir dénonce des contrats «piégeux» pour les consommateurs",
-        "resume": "Frais de restitutions contestés, poursuite des paiements après un décès ou une panne... les abus sont fréquents, selon l’association de consommateurs, qui demande un meilleur encadrement des pratiques.",
-        "lien": "https://www.lefigaro.fr/societes/leasing-automobile-ufc-que-choisir-denonce-des-contrats-piegeux-pour-les-consommateurs-20260401",
-        "date_iso": "2026-04-01T06:52:23+02:00",
+        "source": "Euractiv FR",
+        "couleur": "#0369a1",
+        "emoji": "🇪🇺",
+        "tag": "Europe & politique",
+        "titre": "Détroit d’Ormuz : « Pas notre problème », claque Washington",
+        "resume": "« Apparemment, aux yeux de Trump, ce n’est plus : “Si je casse quelque chose, je le répare”, mais “Je casse quelque chose, et c’est l’UE qui le réparera” », a déclaré un diplomate The post Détroit d’Ormuz : « Pas notre problème », claque Washington appeared first on Euractiv FR .",
+        "lien": "https://euractiv.fr/news/detroit-dormuz-pas-notre-probleme-claque-washington/",
+        "date_iso": "2026-04-01T06:57:05+00:00",
         "date_fr": "01/04/2026",
         "pertinence": 0
       },
@@ -551,18 +563,6 @@
         "resume": "L’intersyndicale du journal régional conteste les 13 millions d’euros d’économies annuelles voulues par la direction, dont la stratégie est critiquée en interne.",
         "lien": "https://www.lemonde.fr/economie/article/2026/03/31/a-ouest-france-un-plan-d-economies-d-urgence-suscite-inquietudes-et-defiance_6675695_3234.html",
         "date_iso": "2026-03-31T20:11:55+02:00",
-        "date_fr": "31/03/2026",
-        "pertinence": 0
-      },
-      {
-        "source": "Le Monde Éco",
-        "couleur": "#374151",
-        "emoji": "🌐",
-        "tag": "Presse économique",
-        "titre": "Atos cède ses activités stratégiques à l’Etat, qui revendique une « étape » pour la « souveraineté technologique » française",
-        "resume": "L’Etat, qui avait fait une offre ferme en juin 2025, devient l’unique actionnaire de Bull, entité qui regroupe les activités stratégiques d’Atos, ainsi que des supercalculateurs utilisés pour la dissuasion nucléaire.",
-        "lien": "https://www.lemonde.fr/economie/article/2026/03/31/atos-cede-ses-activites-strategiques-a-l-etat-qui-revendique-une-etape-pour-la-souverainete-technologique-francaise_6675694_3234.html",
-        "date_iso": "2026-03-31T20:02:29+02:00",
         "date_fr": "31/03/2026",
         "pertinence": 0
       }
@@ -2897,7 +2897,7 @@
       "note_lecture": "Le TEC-10 mesure le rendement des emprunts d'Etat francais a 10 ans. Un taux eleve rencherit le cout de la dette publique et impacte les taux de credit immobilier."
     },
     "petrole_brent": {
-      "valeur": 100.23,
+      "valeur": 98.78,
       "date": "2026-04-01",
       "unite": "USD/baril",
       "source": "Yahoo Finance",
@@ -4417,16 +4417,16 @@
         },
         {
           "date": "2026-04-01",
-          "valeur": 100.23,
-          "ma50": 82.97,
-          "ma200": 70.06
+          "valeur": 98.78,
+          "ma50": 82.94,
+          "ma200": 70.05
         }
       ],
       "variations": {
-        "jour": -15.31,
-        "semaine": -1.95,
-        "mois": 28.93,
-        "ytd": 64.99
+        "jour": -16.54,
+        "semaine": -3.37,
+        "mois": 27.06,
+        "ytd": 62.6
       },
       "min_max": {
         "min": 58.92,
@@ -4442,14 +4442,8 @@
       "variation_jour_pct": 0.57,
       "unite": "points",
       "source": "Yahoo Finance",
-      "nb_points": 256,
+      "nb_points": 255,
       "historique": [
-        {
-          "date": "2025-03-31",
-          "valeur": 7790.71,
-          "ma50": null,
-          "ma200": null
-        },
         {
           "date": "2025-04-01",
           "valeur": 7876.36,
@@ -4741,7 +4735,7 @@
         {
           "date": "2025-06-11",
           "valeur": 7775.9,
-          "ma50": 7629.21,
+          "ma50": null,
           "ma200": null
         },
         {
@@ -5642,7 +5636,7 @@
           "date": "2026-01-12",
           "valeur": 8358.76,
           "ma50": 8113.25,
-          "ma200": 7853.89
+          "ma200": null
         },
         {
           "date": "2026-01-13",
@@ -7566,7 +7560,7 @@
       "note_lecture": "Le taux de change euro-dollar determine le prix de tout ce qui est importe en dollars : petrole, matieres premieres, electronique. Un euro faible rencherit les importations et alimente l'inflation."
     },
     "or": {
-      "valeur": 4733.4,
+      "valeur": 4758.8,
       "date": "2026-04-01",
       "unite": "USD/oz",
       "source": "Yahoo Finance",
@@ -9086,16 +9080,16 @@
         },
         {
           "date": "2026-04-01",
-          "valeur": 4733.4,
-          "ma50": 4939.88,
-          "ma200": 4109.55
+          "valeur": 4758.8,
+          "ma50": 4940.39,
+          "ma200": 4109.68
         }
       ],
       "variations": {
-        "jour": 1.85,
-        "semaine": 4.04,
-        "mois": -10.6,
-        "ytd": 9.71
+        "jour": 2.39,
+        "semaine": 4.59,
+        "mois": -10.12,
+        "ytd": 10.3
       },
       "min_max": {
         "min": 2951.3,
@@ -9106,7 +9100,7 @@
       "note_lecture": "L'or est la valeur refuge par excellence. Sa hausse traduit une montee de l'incertitude economique ou geopolitique. Il sert aussi de protection contre l'inflation."
     },
     "gaz_naturel": {
-      "valeur": 48.6,
+      "valeur": 47.79,
       "date": "2026-04-01",
       "unite": "EUR/MWh",
       "source": "Yahoo Finance (TTF)",
@@ -10626,16 +10620,16 @@
         },
         {
           "date": "2026-04-01",
-          "valeur": 48.6,
-          "ma50": 42.86,
+          "valeur": 47.79,
+          "ma50": 42.84,
           "ma200": 34.58
         }
       ],
       "variations": {
-        "jour": -4.26,
-        "semaine": -7.99,
-        "mois": 9.19,
-        "ytd": 67.59
+        "jour": -5.85,
+        "semaine": -9.52,
+        "mois": 7.37,
+        "ytd": 64.79
       },
       "min_max": {
         "min": 26.6,
@@ -10646,7 +10640,7 @@
       "note_lecture": "Le prix du gaz naturel (TTF europeen) impacte directement les factures de chauffage et d'electricite des menages, ainsi que les couts de production industrielle."
     },
     "ble": {
-      "valeur": 608.0,
+      "valeur": 607.75,
       "date": "2026-04-01",
       "unite": "cents/boisseau",
       "source": "Yahoo Finance",
@@ -12160,16 +12154,16 @@
         },
         {
           "date": "2026-04-01",
-          "valeur": 608.0,
+          "valeur": 607.75,
           "ma50": 566.84,
-          "ma200": 533.54
+          "ma200": 533.53
         }
       ],
       "variations": {
-        "jour": -1.34,
-        "semaine": 1.71,
-        "mois": 5.83,
-        "ytd": 20.04
+        "jour": -1.38,
+        "semaine": 1.67,
+        "mois": 5.79,
+        "ytd": 19.99
       },
       "min_max": {
         "min": 495.0,
@@ -12180,7 +12174,7 @@
       "note_lecture": "Le cours du ble est un indicateur avance des prix alimentaires. La France etant le premier producteur europeen, son evolution impacte a la fois les consommateurs et le secteur agricole."
     },
     "lme_cuivre": {
-      "valeur": 5.64,
+      "valeur": 5.66,
       "date": "2026-04-01",
       "unite": "cts/lb",
       "source": "Yahoo Finance",
@@ -13700,16 +13694,16 @@
         },
         {
           "date": "2026-04-01",
-          "valeur": 5.64,
+          "valeur": 5.66,
           "ma50": 5.77,
           "ma200": 5.24
         }
       ],
       "variations": {
-        "jour": 0.89,
-        "semaine": 1.99,
-        "mois": -4.24,
-        "ytd": 0.0
+        "jour": 1.25,
+        "semaine": 2.35,
+        "mois": -3.9,
+        "ytd": 0.35
       },
       "min_max": {
         "min": 4.13,
@@ -13720,7 +13714,7 @@
       "note_lecture": "Le cuivre est le baromètre de l'activité industrielle mondiale ('Dr Copper'). Sa hausse signale une reprise économique, sa baisse anticipe un ralentissement. Utilisé massivement dans l'électrification et les énergies renouvelables."
     },
     "lme_aluminium": {
-      "valeur": 3354.75,
+      "valeur": 3359.25,
       "date": "2026-04-01",
       "unite": "cts/lb",
       "source": "Yahoo Finance",
@@ -15234,16 +15228,16 @@
         },
         {
           "date": "2026-04-01",
-          "valeur": 3354.75,
-          "ma50": 3135.23,
-          "ma200": 2780.9
+          "valeur": 3359.25,
+          "ma50": 3135.32,
+          "ma200": 2780.92
         }
       ],
       "variations": {
-        "jour": -1.49,
-        "semaine": 7.01,
-        "mois": 7.9,
-        "ytd": 14.18
+        "jour": -1.36,
+        "semaine": 7.15,
+        "mois": 8.04,
+        "ytd": 14.34
       },
       "min_max": {
         "min": 2166.25,
@@ -17105,7 +17099,7 @@
     "correlations": {
       "oat_inflation": 0.022,
       "brent_inflation": 0.192,
-      "cac_inflation": 0.034,
+      "cac_inflation": 0.039,
       "eurusd_inflation": 0.226,
       "or_inflation": -0.136,
       "gaz_inflation": -0.431,
@@ -22279,7 +22273,7 @@
     "sources": "INSEE - Enquête Emploi, DARES"
   },
   "previsions_cftc": {
-    "generated_at": "2026-04-01T06:53:13.211441",
+    "generated_at": "2026-04-01T07:09:29.076060",
     "model_version": "CFTC v7.0 (bivarié Phillips + log-normale + pondération temporelle)",
     "n_simulations": 1000,
     "horizon": "12 mois",
@@ -22288,7 +22282,7 @@
       "niveau": "excellent",
       "issues": [],
       "warnings": [],
-      "timestamp": "2026-04-01T06:53:13.211455"
+      "timestamp": "2026-04-01T07:09:29.076075"
     },
     "calibrage": {
       "volatilites": {
@@ -22316,7 +22310,7 @@
       "lognormal_offset": 3.0
     },
     "market_signals": {
-      "inflation_adjustment": 0.133,
+      "inflation_adjustment": 0.114,
       "chomage_adjustment": 0.175,
       "energie_outlook": "hausse",
       "ponderation_temporelle": {
@@ -22328,16 +22322,16 @@
     },
     "market_signals_details": {
       "brent": {
-        "valeur": 100.23,
+        "valeur": 98.78,
         "ref": 75.0,
-        "variation_ytd_pct": 64.99,
-        "impact_inflation_pt": 0.252,
+        "variation_ytd_pct": 62.6,
+        "impact_inflation_pt": 0.238,
         "poids_temporel": 1.0
       },
       "gaz_ttf": {
-        "valeur": 48.6,
+        "valeur": 47.79,
         "ref": 35.0,
-        "impact_inflation_pt": 0.068,
+        "impact_inflation_pt": 0.064,
         "poids_temporel": 1.0
       },
       "eurusd": {
@@ -22441,7 +22435,7 @@
           1.1,
           1.2,
           1.2,
-          1.3,
+          1.2,
           1.2,
           1.3,
           1.3,
@@ -22452,14 +22446,14 @@
           1.1,
           1.2,
           1.3,
-          1.5,
+          1.4,
+          1.6,
+          1.6,
           1.6,
           1.6,
           1.7,
-          1.6,
           1.7,
           1.7,
-          1.8,
           1.8
         ],
         "periods": [
@@ -22479,18 +22473,18 @@
         "methodology": "Monte Carlo bivarié (1000 sim.) + log-normale + Phillips ρ=-0.35 (v7)"
       },
       "probabilites": {
-        "inflation_sous_2pct": 88.1,
-        "inflation_cible_bce": 88.1,
+        "inflation_sous_2pct": 88.6,
+        "inflation_cible_bce": 88.6,
         "inflation_au_dessus_3pct": 0.0,
         "inflation_au_dessus_4pct": 0.0,
-        "description": "88.1% de chances que l'inflation reste sous 2% à 12 mois"
+        "description": "88.6% de chances que l'inflation reste sous 2% à 12 mois"
       },
       "facteurs": {
         "cible_bdf": 1.4,
         "ajustement_climat": -0.03,
-        "ajustement_marches": 0.133,
+        "ajustement_marches": 0.114,
         "energie_outlook": "hausse",
-        "cible_ajustee": 1.503,
+        "cible_ajustee": 1.484,
         "volatilite_utilisee": 0.5
       },
       "asymetrie_ic": {
@@ -22498,7 +22492,7 @@
         "queue_basse": 0.5,
         "ratio": 0.8
       },
-      "insight": "Inflation médiane à 12 mois : 1.6% [IC 80% : 1.1% - 2.0%]. Asymétrie : queue haute 0.4pt vs basse 0.5pt. 88.1% de probabilité de rester sous 2%."
+      "insight": "Inflation médiane à 12 mois : 1.6% [IC 80% : 1.1% - 2.0%]. Asymétrie : queue haute 0.4pt vs basse 0.5pt. 88.6% de probabilité de rester sous 2%."
     },
     "smic": {
       "current": {
@@ -22705,10 +22699,10 @@
       }
     },
     "notes_lecture": [
-      "📈 Inflation médiane à 12 mois : 1.6% [1.1% - 2.0%] — 88.1% de chances de rester sous 2% (asymétrie : +0.4pt / -0.5pt)",
+      "📈 Inflation médiane à 12 mois : 1.6% [1.1% - 2.0%] — 88.6% de chances de rester sous 2% (asymétrie : +0.4pt / -0.5pt)",
       "💰 SMIC janvier 2027 : 1859€ brut (+2.0%, fourchette 1.5-2.4%) — Pouvoir d'achat réel : +0.4% (+7€/mois)",
       "👥 Chômage Q4 : 7.8% [7.6% - 7.9%] — Tendance stable (corrélé Phillips ρ=-0.35)",
-      "📊 Signaux marchés : ↑ inflation 0.13pt, ↑ chômage 0.17pt, (poids temporel min : 1.00)",
+      "📊 Signaux marchés : ↑ inflation 0.11pt, ↑ chômage 0.17pt, (poids temporel min : 1.00)",
       "🎲 Scénario à surveiller : 🚀 Reprise économique forte (25%)",
       "💡 Recommandation NAO : demander au minimum +2.1% pour préserver le pouvoir d'achat"
     ],
@@ -22733,7 +22727,7 @@
           }
         },
         "contribution_mediane": {
-          "signaux_marches_pt": 0.133,
+          "signaux_marches_pt": 0.114,
           "incertitude_bdf_sigma": 0.15,
           "label": "Déplacement de la prévision centrale"
         }
