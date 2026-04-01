@@ -1,6 +1,6 @@
 {
-  "last_updated": "01/04/2026 12:49",
-  "last_updated_iso": "2026-04-01T12:49:29.545371",
+  "last_updated": "01/04/2026 13:00",
+  "last_updated_iso": "2026-04-01T13:00:01.491094",
   "contact": "hspringragain@cftc.fr",
   "alertes": [
     {
@@ -32,7 +32,7 @@
       "date": "2026-04-01",
       "type": "info",
       "titre": "🔄 Données actualisées",
-      "message": "Le tableau de bord a été mis à jour le 01/04/2026 à 12:49.",
+      "message": "Le tableau de bord a été mis à jour le 01/04/2026 à 12:59.",
       "onglet": "conjoncture"
     }
   ],
@@ -193,7 +193,7 @@
     }
   ],
   "revue_presse": {
-    "derniere_maj": "01/04/2026 12:49",
+    "derniere_maj": "01/04/2026 13:00",
     "nb_sources": 7,
     "sources_noms": [
       "Le Monde Éco",
@@ -211,10 +211,10 @@
         "couleur": "#92400e",
         "emoji": "📊",
         "tag": "Presse économique",
-        "titre": "EN DIRECT - Suivez l’audition de Nagui devant la commission d’enquête sur l’audiovisuel public",
-        "resume": "Le producteur et animateur de télévision est interrogé par les députés ce mercredi à 14h30. En fin d’après-midi, ce sera au tour des patrons de TF1, M6, Canal+ et CMA Média.",
-        "lien": "https://www.lefigaro.fr/medias/en-direct-suivez-l-audition-de-nagui-devant-la-commission-d-enquete-sur-l-audiovisuel-public-20260401",
-        "date_iso": "2026-04-01T14:44:02+02:00",
+        "titre": "Carburants : le surplus de taxes «ne se compte pas en milliards» d’euros pour l’État, martèle le gouvernement",
+        "resume": "Laurent Wauquiez, avait assuré un peu plus tôt qu’il évaluait ce surplus «entre deux et trois milliards» d’euros depuis le début de la crise.",
+        "lien": "https://www.lefigaro.fr/conjoncture/carburants-le-surplus-de-taxes-ne-se-compte-pas-en-milliards-d-euros-pour-l-etat-martele-le-gouvernement-20260401",
+        "date_iso": "2026-04-01T14:55:46+02:00",
         "date_fr": "01/04/2026",
         "pertinence": 0
       },
@@ -223,10 +223,22 @@
         "couleur": "#92400e",
         "emoji": "📊",
         "tag": "Presse économique",
-        "titre": "Carburants : le surplus de taxes «ne se compte pas en milliards» d’euros pour l’État, martèle le gouvernement",
-        "resume": "Laurent Wauquiez, avait assuré un peu plus tôt qu’il évaluait ce surplus «entre deux et trois milliards» d’euros depuis le début de la crise.",
-        "lien": "https://www.lefigaro.fr/conjoncture/carburants-le-surplus-de-taxes-ne-se-compte-pas-en-milliards-d-euros-pour-l-etat-martele-le-gouvernement-20260401",
-        "date_iso": "2026-04-01T14:31:18+02:00",
+        "titre": "EN DIRECT - Suivez l’audition de Nagui devant la commission d’enquête sur l’audiovisuel public",
+        "resume": "Le producteur et animateur de télévision est interrogé par les députés ce mercredi à 14h30. En fin d’après-midi, ce sera au tour des patrons de TF1, M6, Canal+ et CMA Média.",
+        "lien": "https://www.lefigaro.fr/medias/en-direct-suivez-l-audition-de-nagui-devant-la-commission-d-enquete-sur-l-audiovisuel-public-20260401",
+        "date_iso": "2026-04-01T14:53:03+02:00",
+        "date_fr": "01/04/2026",
+        "pertinence": 0
+      },
+      {
+        "source": "Le Figaro Éco",
+        "couleur": "#92400e",
+        "emoji": "📊",
+        "tag": "Presse économique",
+        "titre": "Carburants : Marine Le Pen dénonce les «mensonges» du gouvernement sur le surplus fiscal",
+        "resume": "«Quand on a dit qu’il ne fallait pas que l’État profite de la crise, le premier ministre et l’ensemble des ministres nous ont expliqué qu’il n’y avait pas de recettes fiscales supplémentaires. C’étaient déjà des mensonges», a déclaré l’élue.",
+        "lien": "https://www.lefigaro.fr/conjoncture/carburants-marine-le-pen-denonce-les-mensonges-du-gouvernement-sur-le-surplus-fiscal-20260401",
+        "date_iso": "2026-04-01T14:51:39+02:00",
         "date_fr": "01/04/2026",
         "pertinence": 0
       },
@@ -275,6 +287,18 @@
         "resume": "La liaison ferroviaire, qui devait initialement voir le jour en 2024 pour les Jeux olympiques de Paris, accuse beaucoup de retard et la compagnie a encore déploré des « obstacles » qui l’empêchent d’avoir une « date opérationnelle claire ».",
         "lien": "https://www.lemonde.fr/economie/article/2026/04/01/la-compagnie-ferroviaire-espagnole-renfe-suspend-son-projet-de-liaison-a-grande-vitesse-entre-l-espagne-et-paris_6675893_3234.html",
         "date_iso": "2026-04-01T13:19:18+02:00",
+        "date_fr": "01/04/2026",
+        "pertinence": 0
+      },
+      {
+        "source": "Libération Éco",
+        "couleur": "#dc2626",
+        "emoji": "📰",
+        "tag": "Presse économique",
+        "titre": "Automobile : les ventes de voitures électriques neuves en France égalent leur record en mars, celles d’occasion bondissent de 47 %",
+        "resume": "Selon les données compilées par AAA Data publiées ce mercredi 1er avril, le 100 % électrique continue de convaincre, dans un marché qui repart pourtant à la hausse. Près de 40 % des flottes professionnelles sont électriques.",
+        "lien": "https://www.liberation.fr/economie/transports/automobile-les-ventes-de-voitures-electriques-neuves-en-france-egalent-leur-record-en-mars-celles-doccasion-bondissent-de-47-20260401_CDMG47L4SVAPLHESVITMDSJ4G4/",
+        "date_iso": "2026-04-01T12:49:54+00:00",
         "date_fr": "01/04/2026",
         "pertinence": 0
       },
@@ -539,30 +563,6 @@
         "resume": "Fondée en 2006 et inspirée d’un site suédois, la plateforme au design volontairement rétro est devenue un succès d’Internet en France porté par l’essor de la seconde main, après la crise de 2008 et le Covid.",
         "lien": "https://www.liberation.fr/economie/economie-numerique/leboncoin-fete-ses-20-ans-comment-le-site-a-conquis-les-petites-et-grandes-occasions-des-francais-20260401_NJWBQYSVHBF4TDQLLBWRV7Y3OU/",
         "date_iso": "2026-04-01T09:24:00+00:00",
-        "date_fr": "01/04/2026",
-        "pertinence": 0
-      },
-      {
-        "source": "Euractiv FR",
-        "couleur": "#0369a1",
-        "emoji": "🇪🇺",
-        "tag": "Europe & politique",
-        "titre": "Fraude aux fonds agricoles : la procureure générale de l’UE sollicite la levée d’immunité de 11 députés grecs",
-        "resume": "Le Parquet européen avait ouvert une enquête pour la première fois en 2025 The post Fraude aux fonds agricoles : la procureure générale de l’UE sollicite la levée d’immunité de 11 députés grecs appeared first on Euractiv FR .",
-        "lien": "https://euractiv.fr/news/fraude-aux-fonds-agricoles-la-procureure-generale-de-lue-sollicite-la-levee-dimmunite-de-11-deputes-grecs/",
-        "date_iso": "2026-04-01T09:22:52+00:00",
-        "date_fr": "01/04/2026",
-        "pertinence": 0
-      },
-      {
-        "source": "Le Figaro Éco",
-        "couleur": "#92400e",
-        "emoji": "📊",
-        "tag": "Presse économique",
-        "titre": "Prix des carburants : Lecornu veut utiliser les «surplus» fiscaux pour financer l’électrification",
-        "resume": "Le sujet sera au menu de la réunion organisé par le premier ministre ce mercredi. Le gouvernement veut faire émerger des actions prioritaires pour électrifier l’économie et moins dépendre des hydrocarbures importés.",
-        "lien": "https://www.lefigaro.fr/conjoncture/sebastien-lecornu-suggere-d-utiliser-les-surplus-fiscaux-sur-le-carburant-pour-financer-l-electrification-20260401",
-        "date_iso": "2026-04-01T09:18:26+02:00",
         "date_fr": "01/04/2026",
         "pertinence": 0
       }
@@ -2897,7 +2897,7 @@
       "note_lecture": "Le TEC-10 mesure le rendement des emprunts d'Etat francais a 10 ans. Un taux eleve rencherit le cout de la dette publique et impacte les taux de credit immobilier."
     },
     "petrole_brent": {
-      "valeur": 101.96,
+      "valeur": 101.99,
       "date": "2026-04-01",
       "unite": "USD/baril",
       "source": "Yahoo Finance",
@@ -4417,16 +4417,16 @@
         },
         {
           "date": "2026-04-01",
-          "valeur": 101.96,
+          "valeur": 101.99,
           "ma50": 83.0,
           "ma200": 70.07
         }
       ],
       "variations": {
-        "jour": -13.85,
-        "semaine": -0.25,
-        "mois": 31.16,
-        "ytd": 67.84
+        "jour": -13.82,
+        "semaine": -0.23,
+        "mois": 31.19,
+        "ytd": 67.88
       },
       "min_max": {
         "min": 58.92,
@@ -4437,9 +4437,9 @@
       "note_lecture": "Le prix du Brent influence directement les couts de transport et d'energie, donc l'inflation et le pouvoir d'achat des salaries."
     },
     "cac40": {
-      "valeur": 7963.41,
+      "valeur": 7965.16,
       "date": "2026-04-01",
-      "variation_jour_pct": 1.87,
+      "variation_jour_pct": 1.9,
       "unite": "points",
       "source": "Yahoo Finance",
       "nb_points": 256,
@@ -5976,16 +5976,16 @@
         },
         {
           "date": "2026-04-01",
-          "valeur": 7963.41,
-          "ma50": 8134.01,
-          "ma200": 7999.18
+          "valeur": 7965.16,
+          "ma50": 8134.05,
+          "ma200": 7999.19
         }
       ],
       "variations": {
-        "jour": 1.87,
-        "semaine": 1.49,
-        "mois": -5.13,
-        "ytd": -2.83
+        "jour": 1.9,
+        "semaine": 1.51,
+        "mois": -5.11,
+        "ytd": -2.81
       },
       "min_max": {
         "min": 6863.02,
@@ -7566,7 +7566,7 @@
       "note_lecture": "Le taux de change euro-dollar determine le prix de tout ce qui est importe en dollars : petrole, matieres premieres, electronique. Un euro faible rencherit les importations et alimente l'inflation."
     },
     "or": {
-      "valeur": 4762.2,
+      "valeur": 4760.3,
       "date": "2026-04-01",
       "unite": "USD/oz",
       "source": "Yahoo Finance",
@@ -9086,16 +9086,16 @@
         },
         {
           "date": "2026-04-01",
-          "valeur": 4762.2,
-          "ma50": 4940.46,
-          "ma200": 4109.7
+          "valeur": 4760.3,
+          "ma50": 4940.42,
+          "ma200": 4109.69
         }
       ],
       "variations": {
-        "jour": 2.47,
-        "semaine": 4.67,
-        "mois": -10.05,
-        "ytd": 10.38
+        "jour": 2.42,
+        "semaine": 4.63,
+        "mois": -10.09,
+        "ytd": 10.34
       },
       "min_max": {
         "min": 2951.3,
@@ -9106,7 +9106,7 @@
       "note_lecture": "L'or est la valeur refuge par excellence. Sa hausse traduit une montee de l'incertitude economique ou geopolitique. Il sert aussi de protection contre l'inflation."
     },
     "gaz_naturel": {
-      "valeur": 48.7,
+      "valeur": 47.83,
       "date": "2026-04-01",
       "unite": "EUR/MWh",
       "source": "Yahoo Finance (TTF)",
@@ -10626,16 +10626,16 @@
         },
         {
           "date": "2026-04-01",
-          "valeur": 48.7,
-          "ma50": 42.86,
+          "valeur": 47.83,
+          "ma50": 42.84,
           "ma200": 34.58
         }
       ],
       "variations": {
-        "jour": -4.06,
-        "semaine": -7.8,
-        "mois": 9.41,
-        "ytd": 67.93
+        "jour": -5.77,
+        "semaine": -9.45,
+        "mois": 7.46,
+        "ytd": 64.93
       },
       "min_max": {
         "min": 26.6,
@@ -10646,7 +10646,7 @@
       "note_lecture": "Le prix du gaz naturel (TTF europeen) impacte directement les factures de chauffage et d'electricite des menages, ainsi que les couts de production industrielle."
     },
     "ble": {
-      "valeur": 604.0,
+      "valeur": 604.5,
       "date": "2026-04-01",
       "unite": "cents/boisseau",
       "source": "Yahoo Finance",
@@ -12160,16 +12160,16 @@
         },
         {
           "date": "2026-04-01",
-          "valeur": 604.0,
-          "ma50": 566.76,
+          "valeur": 604.5,
+          "ma50": 566.77,
           "ma200": 533.52
         }
       ],
       "variations": {
-        "jour": -1.99,
-        "semaine": 1.05,
-        "mois": 5.13,
-        "ytd": 19.25
+        "jour": -1.91,
+        "semaine": 1.13,
+        "mois": 5.22,
+        "ytd": 19.35
       },
       "min_max": {
         "min": 495.0,
@@ -12180,7 +12180,7 @@
       "note_lecture": "Le cours du ble est un indicateur avance des prix alimentaires. La France etant le premier producteur europeen, son evolution impacte a la fois les consommateurs et le secteur agricole."
     },
     "lme_cuivre": {
-      "valeur": 5.6,
+      "valeur": 5.59,
       "date": "2026-04-01",
       "unite": "cts/lb",
       "source": "Yahoo Finance",
@@ -13700,16 +13700,16 @@
         },
         {
           "date": "2026-04-01",
-          "valeur": 5.6,
+          "valeur": 5.59,
           "ma50": 5.77,
           "ma200": 5.24
         }
       ],
       "variations": {
-        "jour": 0.18,
-        "semaine": 1.27,
-        "mois": -4.92,
-        "ytd": -0.71
+        "jour": 0.0,
+        "semaine": 1.08,
+        "mois": -5.09,
+        "ytd": -0.89
       },
       "min_max": {
         "min": 4.13,
@@ -13720,7 +13720,7 @@
       "note_lecture": "Le cuivre est le baromètre de l'activité industrielle mondiale ('Dr Copper'). Sa hausse signale une reprise économique, sa baisse anticipe un ralentissement. Utilisé massivement dans l'électrification et les énergies renouvelables."
     },
     "lme_aluminium": {
-      "valeur": 3408.0,
+      "valeur": 3416.0,
       "date": "2026-04-01",
       "unite": "cts/lb",
       "source": "Yahoo Finance",
@@ -15234,16 +15234,16 @@
         },
         {
           "date": "2026-04-01",
-          "valeur": 3408.0,
-          "ma50": 3136.3,
-          "ma200": 2781.17
+          "valeur": 3416.0,
+          "ma50": 3136.45,
+          "ma200": 2781.21
         }
       ],
       "variations": {
-        "jour": 0.07,
-        "semaine": 8.71,
-        "mois": 9.61,
-        "ytd": 16.0
+        "jour": 0.31,
+        "semaine": 8.96,
+        "mois": 9.87,
+        "ytd": 16.27
       },
       "min_max": {
         "min": 2166.25,
@@ -22279,7 +22279,7 @@
     "sources": "INSEE - Enquête Emploi, DARES"
   },
   "previsions_cftc": {
-    "generated_at": "2026-04-01T12:49:29.762206",
+    "generated_at": "2026-04-01T13:00:01.749572",
     "model_version": "CFTC v7.0 (bivarié Phillips + log-normale + pondération temporelle)",
     "n_simulations": 1000,
     "horizon": "12 mois",
@@ -22288,7 +22288,7 @@
       "niveau": "excellent",
       "issues": [],
       "warnings": [],
-      "timestamp": "2026-04-01T12:49:29.762223"
+      "timestamp": "2026-04-01T13:00:01.749591"
     },
     "calibrage": {
       "volatilites": {
@@ -22316,7 +22316,7 @@
       "lognormal_offset": 3.0
     },
     "market_signals": {
-      "inflation_adjustment": 0.151,
+      "inflation_adjustment": 0.147,
       "chomage_adjustment": 0.175,
       "energie_outlook": "hausse",
       "ponderation_temporelle": {
@@ -22328,16 +22328,16 @@
     },
     "market_signals_details": {
       "brent": {
-        "valeur": 101.96,
+        "valeur": 101.99,
         "ref": 75.0,
-        "variation_ytd_pct": 67.84,
+        "variation_ytd_pct": 67.88,
         "impact_inflation_pt": 0.27,
         "poids_temporel": 1.0
       },
       "gaz_ttf": {
-        "valeur": 48.7,
+        "valeur": 47.83,
         "ref": 35.0,
-        "impact_inflation_pt": 0.069,
+        "impact_inflation_pt": 0.064,
         "poids_temporel": 1.0
       },
       "eurusd": {
@@ -22358,7 +22358,7 @@
         "signal": "baissier"
       },
       "cac40_ytd": {
-        "variation_ytd_pct": -2.83,
+        "variation_ytd_pct": -2.81,
         "signal_chomage": "neutre"
       },
       "carburants_sp95": {
@@ -22428,10 +22428,10 @@
           1.8,
           1.9,
           1.9,
+          1.8,
+          2.0,
+          2.0,
           1.9,
-          2.0,
-          2.0,
-          2.0,
           2.0
         ],
         "p25": [
@@ -22479,18 +22479,18 @@
         "methodology": "Monte Carlo bivarié (1000 sim.) + log-normale + Phillips ρ=-0.35 (v7)"
       },
       "probabilites": {
-        "inflation_sous_2pct": 87.2,
-        "inflation_cible_bce": 87.2,
+        "inflation_sous_2pct": 87.3,
+        "inflation_cible_bce": 87.3,
         "inflation_au_dessus_3pct": 0.0,
         "inflation_au_dessus_4pct": 0.0,
-        "description": "87.2% de chances que l'inflation reste sous 2% à 12 mois"
+        "description": "87.3% de chances que l'inflation reste sous 2% à 12 mois"
       },
       "facteurs": {
         "cible_bdf": 1.4,
         "ajustement_climat": -0.03,
-        "ajustement_marches": 0.151,
+        "ajustement_marches": 0.147,
         "energie_outlook": "hausse",
-        "cible_ajustee": 1.521,
+        "cible_ajustee": 1.517,
         "volatilite_utilisee": 0.5
       },
       "asymetrie_ic": {
@@ -22498,7 +22498,7 @@
         "queue_basse": 0.4,
         "ratio": 1.0
       },
-      "insight": "Inflation médiane à 12 mois : 1.6% [IC 80% : 1.2% - 2.0%]. Asymétrie : queue haute 0.4pt vs basse 0.4pt. 87.2% de probabilité de rester sous 2%."
+      "insight": "Inflation médiane à 12 mois : 1.6% [IC 80% : 1.2% - 2.0%]. Asymétrie : queue haute 0.4pt vs basse 0.4pt. 87.3% de probabilité de rester sous 2%."
     },
     "smic": {
       "current": {
@@ -22705,7 +22705,7 @@
       }
     },
     "notes_lecture": [
-      "📈 Inflation médiane à 12 mois : 1.6% [1.2% - 2.0%] — 87.2% de chances de rester sous 2% (asymétrie : +0.4pt / -0.4pt)",
+      "📈 Inflation médiane à 12 mois : 1.6% [1.2% - 2.0%] — 87.3% de chances de rester sous 2% (asymétrie : +0.4pt / -0.4pt)",
       "💰 SMIC janvier 2027 : 1859€ brut (+2.0%, fourchette 1.5-2.4%) — Pouvoir d'achat réel : +0.4% (+7€/mois)",
       "👥 Chômage Q4 : 7.8% [7.6% - 7.9%] — Tendance stable (corrélé Phillips ρ=-0.35)",
       "📊 Signaux marchés : ↑ inflation 0.15pt, ↑ chômage 0.17pt, (poids temporel min : 1.00)",
@@ -22733,7 +22733,7 @@
           }
         },
         "contribution_mediane": {
-          "signaux_marches_pt": 0.151,
+          "signaux_marches_pt": 0.147,
           "incertitude_bdf_sigma": 0.15,
           "label": "Déplacement de la prévision centrale"
         }
