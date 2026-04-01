@@ -1,6 +1,6 @@
 {
-  "last_updated": "01/04/2026 13:45",
-  "last_updated_iso": "2026-04-01T13:45:26.285923",
+  "last_updated": "01/04/2026 13:53",
+  "last_updated_iso": "2026-04-01T13:53:44.222163",
   "contact": "hspringragain@cftc.fr",
   "alertes": [
     {
@@ -32,7 +32,7 @@
       "date": "2026-04-01",
       "type": "info",
       "titre": "🔄 Données actualisées",
-      "message": "Le tableau de bord a été mis à jour le 01/04/2026 à 13:45.",
+      "message": "Le tableau de bord a été mis à jour le 01/04/2026 à 13:53.",
       "onglet": "conjoncture"
     }
   ],
@@ -193,7 +193,7 @@
     }
   ],
   "revue_presse": {
-    "derniere_maj": "01/04/2026 13:45",
+    "derniere_maj": "01/04/2026 13:53",
     "nb_sources": 7,
     "sources_noms": [
       "Le Monde Éco",
@@ -323,6 +323,18 @@
         "resume": "« Les gourous de l’IA » (8/12). S’il s’inquiète d’éventuels mésusages par des acteurs malveillants ou du risque d’un emballement incontrôlé des systèmes, le Prix Nobel de chimie 2024 considère l’IA comme révolutionnaire et ambitionne de s’en servir pour accélérer les découvertes scientifiques.",
         "lien": "https://www.lemonde.fr/economie/article/2026/04/01/demis-hassabis-pdg-de-google-deepmind-l-optimiste-prudent_6675894_3234.html",
         "date_iso": "2026-04-01T14:00:09+02:00",
+        "date_fr": "01/04/2026",
+        "pertinence": 0
+      },
+      {
+        "source": "Euractiv FR",
+        "couleur": "#0369a1",
+        "emoji": "🇪🇺",
+        "tag": "Europe & politique",
+        "titre": "Les répercussions de la guerre en Iran pourraient signer « la fin de l’OTAN »",
+        "resume": "« Je n'ai jamais été influencé par l'OTAN. J'ai toujours su qu'il s'agissait d'un tigre de papier, et Poutine le sait aussi, d'ailleurs », a déclaré Trump The post Les répercussions de la guerre en Iran pourraient signer « la fin de l’OTAN » appeared first on Euractiv FR .",
+        "lien": "https://euractiv.fr/news/les-repercussions-de-la-guerre-en-iran-pourraient-signer-la-fin-de-lotan/",
+        "date_iso": "2026-04-01T13:49:10+00:00",
         "date_fr": "01/04/2026",
         "pertinence": 0
       },
@@ -553,18 +565,6 @@
         "date_iso": "2026-04-01T10:44:42+02:00",
         "date_fr": "01/04/2026",
         "pertinence": 0
-      },
-      {
-        "source": "Euractiv FR",
-        "couleur": "#0369a1",
-        "emoji": "🇪🇺",
-        "tag": "Europe & politique",
-        "titre": "Babiš s’en prend aux médias indépendants : la Tchéquie sur les traces de la Slovaquie ?",
-        "resume": "Les organisations de défense de la liberté de la presse mettent en garde contre des similitudes avec la Slovaquie et la Hongrie, alors que les tensions avec les médias indépendants s'intensifient The post Babiš s’en prend aux médias indépendants : la Tchéquie sur les traces de la Slovaquie ? appeare",
-        "lien": "https://euractiv.fr/news/babis-sen-prend-aux-medias-independants-la-tchequie-sur-les-traces-de-la-slovaquie/",
-        "date_iso": "2026-04-01T10:18:26+00:00",
-        "date_fr": "01/04/2026",
-        "pertinence": 1
       }
     ]
   },
@@ -2897,7 +2897,7 @@
       "note_lecture": "Le TEC-10 mesure le rendement des emprunts d'Etat francais a 10 ans. Un taux eleve rencherit le cout de la dette publique et impacte les taux de credit immobilier."
     },
     "petrole_brent": {
-      "valeur": 101.34,
+      "valeur": 101.5,
       "date": "2026-04-01",
       "unite": "USD/baril",
       "source": "Yahoo Finance",
@@ -4417,16 +4417,16 @@
         },
         {
           "date": "2026-04-01",
-          "valeur": 101.34,
+          "valeur": 101.5,
           "ma50": 82.99,
           "ma200": 70.07
         }
       ],
       "variations": {
-        "jour": -14.37,
-        "semaine": -0.86,
-        "mois": 30.36,
-        "ytd": 66.81
+        "jour": -14.24,
+        "semaine": -0.7,
+        "mois": 30.56,
+        "ytd": 67.08
       },
       "min_max": {
         "min": 58.92,
@@ -4437,9 +4437,9 @@
       "note_lecture": "Le prix du Brent influence directement les couts de transport et d'energie, donc l'inflation et le pouvoir d'achat des salaries."
     },
     "cac40": {
-      "valeur": 7957.91,
+      "valeur": 7965.47,
       "date": "2026-04-01",
-      "variation_jour_pct": 1.8,
+      "variation_jour_pct": 1.9,
       "unite": "points",
       "source": "Yahoo Finance",
       "nb_points": 256,
@@ -5976,16 +5976,16 @@
         },
         {
           "date": "2026-04-01",
-          "valeur": 7957.91,
-          "ma50": 8133.9,
-          "ma200": 7999.16
+          "valeur": 7965.47,
+          "ma50": 8134.05,
+          "ma200": 7999.19
         }
       ],
       "variations": {
-        "jour": 1.8,
-        "semaine": 1.42,
-        "mois": -5.2,
-        "ytd": -2.9
+        "jour": 1.9,
+        "semaine": 1.52,
+        "mois": -5.11,
+        "ytd": -2.8
       },
       "min_max": {
         "min": 6863.02,
@@ -7566,7 +7566,7 @@
       "note_lecture": "Le taux de change euro-dollar determine le prix de tout ce qui est importe en dollars : petrole, matieres premieres, electronique. Un euro faible rencherit les importations et alimente l'inflation."
     },
     "or": {
-      "valeur": 4766.3,
+      "valeur": 4766.8,
       "date": "2026-04-01",
       "unite": "USD/oz",
       "source": "Yahoo Finance",
@@ -9086,16 +9086,16 @@
         },
         {
           "date": "2026-04-01",
-          "valeur": 4766.3,
-          "ma50": 4940.54,
+          "valeur": 4766.8,
+          "ma50": 4940.55,
           "ma200": 4109.72
         }
       ],
       "variations": {
-        "jour": 2.55,
-        "semaine": 4.76,
+        "jour": 2.56,
+        "semaine": 4.77,
         "mois": -9.97,
-        "ytd": 10.47
+        "ytd": 10.49
       },
       "min_max": {
         "min": 2951.3,
@@ -9106,7 +9106,7 @@
       "note_lecture": "L'or est la valeur refuge par excellence. Sa hausse traduit une montee de l'incertitude economique ou geopolitique. Il sert aussi de protection contre l'inflation."
     },
     "gaz_naturel": {
-      "valeur": 47.65,
+      "valeur": 48.05,
       "date": "2026-04-01",
       "unite": "EUR/MWh",
       "source": "Yahoo Finance (TTF)",
@@ -10626,16 +10626,16 @@
         },
         {
           "date": "2026-04-01",
-          "valeur": 47.65,
-          "ma50": 42.84,
+          "valeur": 48.05,
+          "ma50": 42.85,
           "ma200": 34.58
         }
       ],
       "variations": {
-        "jour": -6.13,
-        "semaine": -9.79,
-        "mois": 7.05,
-        "ytd": 64.31
+        "jour": -5.34,
+        "semaine": -9.03,
+        "mois": 7.95,
+        "ytd": 65.69
       },
       "min_max": {
         "min": 26.6,
@@ -10646,7 +10646,7 @@
       "note_lecture": "Le prix du gaz naturel (TTF europeen) impacte directement les factures de chauffage et d'electricite des menages, ainsi que les couts de production industrielle."
     },
     "ble": {
-      "valeur": 601.0,
+      "valeur": 601.75,
       "date": "2026-04-01",
       "unite": "cents/boisseau",
       "source": "Yahoo Finance",
@@ -12160,16 +12160,16 @@
         },
         {
           "date": "2026-04-01",
-          "valeur": 601.0,
-          "ma50": 566.7,
+          "valeur": 601.75,
+          "ma50": 566.72,
           "ma200": 533.5
         }
       ],
       "variations": {
-        "jour": -2.47,
-        "semaine": 0.54,
-        "mois": 4.61,
-        "ytd": 18.66
+        "jour": -2.35,
+        "semaine": 0.67,
+        "mois": 4.74,
+        "ytd": 18.81
       },
       "min_max": {
         "min": 495.0,
@@ -13720,7 +13720,7 @@
       "note_lecture": "Le cuivre est le baromètre de l'activité industrielle mondiale ('Dr Copper'). Sa hausse signale une reprise économique, sa baisse anticipe un ralentissement. Utilisé massivement dans l'électrification et les énergies renouvelables."
     },
     "lme_aluminium": {
-      "valeur": 3412.5,
+      "valeur": 3405.75,
       "date": "2026-04-01",
       "unite": "cts/lb",
       "source": "Yahoo Finance",
@@ -15234,16 +15234,16 @@
         },
         {
           "date": "2026-04-01",
-          "valeur": 3412.5,
-          "ma50": 3136.39,
-          "ma200": 2781.19
+          "valeur": 3405.75,
+          "ma50": 3136.25,
+          "ma200": 2781.16
         }
       ],
       "variations": {
-        "jour": 0.21,
-        "semaine": 8.85,
-        "mois": 9.75,
-        "ytd": 16.15
+        "jour": 0.01,
+        "semaine": 8.64,
+        "mois": 9.54,
+        "ytd": 15.92
       },
       "min_max": {
         "min": 2166.25,
@@ -22279,7 +22279,7 @@
     "sources": "INSEE - Enquête Emploi, DARES"
   },
   "previsions_cftc": {
-    "generated_at": "2026-04-01T13:45:26.523956",
+    "generated_at": "2026-04-01T13:53:44.385323",
     "model_version": "CFTC v7.0 (bivarié Phillips + log-normale + pondération temporelle)",
     "n_simulations": 1000,
     "horizon": "12 mois",
@@ -22288,7 +22288,7 @@
       "niveau": "excellent",
       "issues": [],
       "warnings": [],
-      "timestamp": "2026-04-01T13:45:26.523970"
+      "timestamp": "2026-04-01T13:53:44.385335"
     },
     "calibrage": {
       "volatilites": {
@@ -22316,7 +22316,7 @@
       "lognormal_offset": 3.0
     },
     "market_signals": {
-      "inflation_adjustment": 0.139,
+      "inflation_adjustment": 0.143,
       "chomage_adjustment": 0.175,
       "energie_outlook": "hausse",
       "ponderation_temporelle": {
@@ -22328,16 +22328,16 @@
     },
     "market_signals_details": {
       "brent": {
-        "valeur": 101.34,
+        "valeur": 101.5,
         "ref": 75.0,
-        "variation_ytd_pct": 66.81,
-        "impact_inflation_pt": 0.263,
+        "variation_ytd_pct": 67.08,
+        "impact_inflation_pt": 0.265,
         "poids_temporel": 1.0
       },
       "gaz_ttf": {
-        "valeur": 47.65,
+        "valeur": 48.05,
         "ref": 35.0,
-        "impact_inflation_pt": 0.063,
+        "impact_inflation_pt": 0.065,
         "poids_temporel": 1.0
       },
       "eurusd": {
@@ -22358,7 +22358,7 @@
         "signal": "baissier"
       },
       "cac40_ytd": {
-        "variation_ytd_pct": -2.9,
+        "variation_ytd_pct": -2.8,
         "signal_chomage": "neutre"
       },
       "carburants_sp95": {
@@ -22418,7 +22418,7 @@
           1.1,
           1.1,
           1.1,
-          1.1
+          1.2
         ],
         "upper_bound": [
           1.2,
@@ -22479,26 +22479,26 @@
         "methodology": "Monte Carlo bivarié (1000 sim.) + log-normale + Phillips ρ=-0.35 (v7)"
       },
       "probabilites": {
-        "inflation_sous_2pct": 88.0,
-        "inflation_cible_bce": 88.0,
+        "inflation_sous_2pct": 87.7,
+        "inflation_cible_bce": 87.7,
         "inflation_au_dessus_3pct": 0.0,
         "inflation_au_dessus_4pct": 0.0,
-        "description": "88.0% de chances que l'inflation reste sous 2% à 12 mois"
+        "description": "87.7% de chances que l'inflation reste sous 2% à 12 mois"
       },
       "facteurs": {
         "cible_bdf": 1.4,
         "ajustement_climat": -0.03,
-        "ajustement_marches": 0.139,
+        "ajustement_marches": 0.143,
         "energie_outlook": "hausse",
-        "cible_ajustee": 1.509,
+        "cible_ajustee": 1.513,
         "volatilite_utilisee": 0.5
       },
       "asymetrie_ic": {
         "queue_haute": 0.4,
-        "queue_basse": 0.5,
-        "ratio": 0.8
+        "queue_basse": 0.4,
+        "ratio": 1.0
       },
-      "insight": "Inflation médiane à 12 mois : 1.6% [IC 80% : 1.1% - 2.0%]. Asymétrie : queue haute 0.4pt vs basse 0.5pt. 88.0% de probabilité de rester sous 2%."
+      "insight": "Inflation médiane à 12 mois : 1.6% [IC 80% : 1.2% - 2.0%]. Asymétrie : queue haute 0.4pt vs basse 0.4pt. 87.7% de probabilité de rester sous 2%."
     },
     "smic": {
       "current": {
@@ -22537,11 +22537,11 @@
       "pouvoir_achat_reel": {
         "hausse_reelle_p50_pct": 0.4,
         "hausse_reelle_p10_pct": -0.5,
-        "hausse_reelle_p90_pct": 1.3,
+        "hausse_reelle_p90_pct": 1.2,
         "gain_mensuel_brut_p50_euros": 7.3,
         "gain_mensuel_brut_p10_euros": -9.1,
-        "gain_mensuel_brut_p90_euros": 23.7,
-        "interpretation": "En scénario médian, le pouvoir d'achat SMIC progresse de 0.4% en 2027 (+7.3€/mois brut). Fourchette : [-0.5% ; +1.3%].",
+        "gain_mensuel_brut_p90_euros": 21.9,
+        "interpretation": "En scénario médian, le pouvoir d'achat SMIC progresse de 0.4% en 2027 (+7.3€/mois brut). Fourchette : [-0.5% ; +1.2%].",
         "alerte_nao": false,
         "message_nao": "✅ La revalorisation prévue (+2.0%) préserve le pouvoir d'achat."
       },
@@ -22705,7 +22705,7 @@
       }
     },
     "notes_lecture": [
-      "📈 Inflation médiane à 12 mois : 1.6% [1.1% - 2.0%] — 88.0% de chances de rester sous 2% (asymétrie : +0.4pt / -0.5pt)",
+      "📈 Inflation médiane à 12 mois : 1.6% [1.2% - 2.0%] — 87.7% de chances de rester sous 2% (asymétrie : +0.4pt / -0.4pt)",
       "💰 SMIC janvier 2027 : 1859€ brut (+2.0%, fourchette 1.5-2.4%) — Pouvoir d'achat réel : +0.4% (+7€/mois)",
       "👥 Chômage Q4 : 7.8% [7.6% - 7.9%] — Tendance stable (corrélé Phillips ρ=-0.35)",
       "📊 Signaux marchés : ↑ inflation 0.14pt, ↑ chômage 0.17pt, (poids temporel min : 1.00)",
@@ -22733,7 +22733,7 @@
           }
         },
         "contribution_mediane": {
-          "signaux_marches_pt": 0.139,
+          "signaux_marches_pt": 0.143,
           "incertitude_bdf_sigma": 0.15,
           "label": "Déplacement de la prévision centrale"
         }
