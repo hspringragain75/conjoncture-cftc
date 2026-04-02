@@ -1,6 +1,6 @@
 {
-  "last_updated": "02/04/2026 06:20",
-  "last_updated_iso": "2026-04-02T06:20:22.398139",
+  "last_updated": "02/04/2026 06:29",
+  "last_updated_iso": "2026-04-02T06:29:02.958247",
   "contact": "hspringragain@cftc.fr",
   "alertes": [
     {
@@ -32,7 +32,7 @@
       "date": "2026-04-02",
       "type": "info",
       "titre": "🔄 Données actualisées",
-      "message": "Le tableau de bord a été mis à jour le 02/04/2026 à 06:20.",
+      "message": "Le tableau de bord a été mis à jour le 02/04/2026 à 06:28.",
       "onglet": "conjoncture"
     }
   ],
@@ -193,7 +193,7 @@
     }
   ],
   "revue_presse": {
-    "derniere_maj": "02/04/2026 06:20",
+    "derniere_maj": "02/04/2026 06:29",
     "nb_sources": 7,
     "sources_noms": [
       "Le Monde Éco",
@@ -278,6 +278,18 @@
         "date_iso": "2026-04-02T06:52:44+02:00",
         "date_fr": "02/04/2026",
         "pertinence": 1
+      },
+      {
+        "source": "Euractiv FR",
+        "couleur": "#0369a1",
+        "emoji": "🇪🇺",
+        "tag": "Europe & politique",
+        "titre": "Le Golfe penche pour Kiev",
+        "resume": "Également dans l'édition de jeudi : le CFP, Jörgen Warborn, Euronews, Pfizer, l'économiste en chef de la FAO, la réglementation européenne en matière de technologie The post Le Golfe penche pour Kiev appeared first on Euractiv FR .",
+        "lien": "https://euractiv.fr/news/le-golfe-penche-pour-kiev/",
+        "date_iso": "2026-04-02T06:25:31+00:00",
+        "date_fr": "02/04/2026",
+        "pertinence": 0
       },
       {
         "source": "Le Monde Éco",
@@ -566,18 +578,6 @@
         "date_iso": "2026-04-01T18:35:31+02:00",
         "date_fr": "01/04/2026",
         "pertinence": 0
-      },
-      {
-        "source": "Libération Éco",
-        "couleur": "#dc2626",
-        "emoji": "📰",
-        "tag": "Presse économique",
-        "titre": "Aux prud’hommes, la journaliste Giulia Foïs réclame 300 000 euros à Radio France",
-        "resume": "L’ancienne présentatrice d’«En marge» dénonce un «licenciement sans cause réelle et sérieuse» après l’arrêt de son émission en avril 2025. Elle demande la requalification de ses multiples contrats temporaires en CDI.",
-        "lien": "https://www.liberation.fr/economie/medias/aux-prudhommes-la-journaliste-giulia-fois-reclame-300-000-euros-a-radio-france-20260401_73FO4KVGRJD4ZKNJJUIOUBRIZM/",
-        "date_iso": "2026-04-01T18:20:39+00:00",
-        "date_fr": "01/04/2026",
-        "pertinence": 1
       }
     ]
   },
@@ -2910,7 +2910,7 @@
       "note_lecture": "Le TEC-10 mesure le rendement des emprunts d'Etat francais a 10 ans. Un taux eleve rencherit le cout de la dette publique et impacte les taux de credit immobilier."
     },
     "petrole_brent": {
-      "valeur": 108.0,
+      "valeur": 107.81,
       "date": "2026-04-02",
       "unite": "USD/baril",
       "source": "Yahoo Finance",
@@ -4430,16 +4430,16 @@
         },
         {
           "date": "2026-04-02",
-          "valeur": 108.0,
+          "valeur": 107.81,
           "ma50": 83.84,
           "ma200": 70.22
         }
       ],
       "variations": {
-        "jour": 6.76,
-        "semaine": -0.01,
-        "mois": 32.68,
-        "ytd": 77.78
+        "jour": 6.57,
+        "semaine": -0.19,
+        "mois": 32.44,
+        "ytd": 77.47
       },
       "min_max": {
         "min": 58.92,
@@ -7579,7 +7579,7 @@
       "note_lecture": "Le taux de change euro-dollar determine le prix de tout ce qui est importe en dollars : petrole, matieres premieres, electronique. Un euro faible rencherit les importations et alimente l'inflation."
     },
     "or": {
-      "valeur": 4594.4,
+      "valeur": 4614.5,
       "date": "2026-04-02",
       "unite": "USD/oz",
       "source": "Yahoo Finance",
@@ -9099,16 +9099,16 @@
         },
         {
           "date": "2026-04-02",
-          "valeur": 4594.4,
-          "ma50": 4936.13,
-          "ma200": 4115.84
+          "valeur": 4614.5,
+          "ma50": 4936.53,
+          "ma200": 4115.94
         }
       ],
       "variations": {
-        "jour": -3.95,
-        "semaine": 5.0,
-        "mois": -10.04,
-        "ytd": 6.49
+        "jour": -3.53,
+        "semaine": 5.46,
+        "mois": -9.65,
+        "ytd": 6.96
       },
       "min_max": {
         "min": 2951.3,
@@ -10653,7 +10653,7 @@
       "note_lecture": "Le prix du gaz naturel (TTF europeen) impacte directement les factures de chauffage et d'electricite des menages, ainsi que les couts de production industrielle."
     },
     "ble": {
-      "valeur": 605.0,
+      "valeur": 605.25,
       "date": "2026-04-02",
       "unite": "cents/boisseau",
       "source": "Yahoo Finance",
@@ -12167,16 +12167,16 @@
         },
         {
           "date": "2026-04-02",
-          "valeur": 605.0,
+          "valeur": 605.25,
           "ma50": 568.58,
           "ma200": 533.83
         }
       ],
       "variations": {
-        "jour": 1.26,
-        "semaine": 0.0,
-        "mois": 5.72,
-        "ytd": 19.45
+        "jour": 1.3,
+        "semaine": 0.04,
+        "mois": 5.77,
+        "ytd": 19.5
       },
       "min_max": {
         "min": 495.0,
@@ -13727,7 +13727,7 @@
       "note_lecture": "Le cuivre est le baromètre de l'activité industrielle mondiale ('Dr Copper'). Sa hausse signale une reprise économique, sa baisse anticipe un ralentissement. Utilisé massivement dans l'électrification et les énergies renouvelables."
     },
     "lme_aluminium": {
-      "valeur": 3418.0,
+      "valeur": 3427.25,
       "date": "2026-04-02",
       "unite": "cts/lb",
       "source": "Yahoo Finance",
@@ -15241,16 +15241,16 @@
         },
         {
           "date": "2026-04-02",
-          "valeur": 3418.0,
-          "ma50": 3144.89,
-          "ma200": 2786.27
+          "valeur": 3427.25,
+          "ma50": 3145.08,
+          "ma200": 2786.32
         }
       ],
       "variations": {
-        "jour": -0.99,
-        "semaine": 8.11,
-        "mois": 7.97,
-        "ytd": 16.34
+        "jour": -0.72,
+        "semaine": 8.41,
+        "mois": 8.26,
+        "ytd": 16.65
       },
       "min_max": {
         "min": 2166.25,
@@ -22287,7 +22287,7 @@
     "sources": "INSEE - Enquête Emploi, DARES"
   },
   "previsions_cftc": {
-    "generated_at": "2026-04-02T06:20:39.662973",
+    "generated_at": "2026-04-02T06:29:31.417676",
     "model_version": "CFTC v7.0 (bivarié Phillips + log-normale + pondération temporelle)",
     "n_simulations": 1000,
     "horizon": "12 mois",
@@ -22296,7 +22296,7 @@
       "niveau": "excellent",
       "issues": [],
       "warnings": [],
-      "timestamp": "2026-04-02T06:20:39.662988"
+      "timestamp": "2026-04-02T06:29:31.417691"
     },
     "calibrage": {
       "volatilites": {
@@ -22324,7 +22324,7 @@
       "lognormal_offset": 3.0
     },
     "market_signals": {
-      "inflation_adjustment": 0.204,
+      "inflation_adjustment": 0.202,
       "chomage_adjustment": 0.175,
       "energie_outlook": "hausse",
       "ponderation_temporelle": {
@@ -22336,10 +22336,10 @@
     },
     "market_signals_details": {
       "brent": {
-        "valeur": 108.0,
+        "valeur": 107.81,
         "ref": 75.0,
-        "variation_ytd_pct": 77.78,
-        "impact_inflation_pt": 0.33,
+        "variation_ytd_pct": 77.47,
+        "impact_inflation_pt": 0.328,
         "poids_temporel": 1.0
       },
       "gaz_ttf": {
@@ -22487,18 +22487,18 @@
         "methodology": "Monte Carlo bivarié (1000 sim.) + log-normale + Phillips ρ=-0.35 (v7)"
       },
       "probabilites": {
-        "inflation_sous_2pct": 85.4,
-        "inflation_cible_bce": 85.4,
+        "inflation_sous_2pct": 85.5,
+        "inflation_cible_bce": 85.5,
         "inflation_au_dessus_3pct": 0.0,
         "inflation_au_dessus_4pct": 0.0,
-        "description": "85.4% de chances que l'inflation reste sous 2% à 12 mois"
+        "description": "85.5% de chances que l'inflation reste sous 2% à 12 mois"
       },
       "facteurs": {
         "cible_bdf": 1.4,
         "ajustement_climat": -0.03,
-        "ajustement_marches": 0.204,
+        "ajustement_marches": 0.202,
         "energie_outlook": "hausse",
-        "cible_ajustee": 1.574,
+        "cible_ajustee": 1.572,
         "volatilite_utilisee": 0.5
       },
       "asymetrie_ic": {
@@ -22506,7 +22506,7 @@
         "queue_basse": 0.4,
         "ratio": 1.25
       },
-      "insight": "Inflation médiane à 12 mois : 1.6% [IC 80% : 1.2% - 2.1%]. Asymétrie : queue haute 0.5pt vs basse 0.4pt. 85.4% de probabilité de rester sous 2%."
+      "insight": "Inflation médiane à 12 mois : 1.6% [IC 80% : 1.2% - 2.1%]. Asymétrie : queue haute 0.5pt vs basse 0.4pt. 85.5% de probabilité de rester sous 2%."
     },
     "smic": {
       "current": {
@@ -22713,7 +22713,7 @@
       }
     },
     "notes_lecture": [
-      "📈 Inflation médiane à 12 mois : 1.6% [1.2% - 2.1%] — 85.4% de chances de rester sous 2% (asymétrie : +0.5pt / -0.4pt)",
+      "📈 Inflation médiane à 12 mois : 1.6% [1.2% - 2.1%] — 85.5% de chances de rester sous 2% (asymétrie : +0.5pt / -0.4pt)",
       "💰 SMIC janvier 2027 : 1859€ brut (+2.0%, fourchette 1.6-2.5%) — Pouvoir d'achat réel : +0.4% (+7€/mois)",
       "👥 Chômage Q4 : 7.8% [7.6% - 7.9%] — Tendance stable (corrélé Phillips ρ=-0.35)",
       "📊 Signaux marchés : ↑ inflation 0.20pt, ↑ chômage 0.17pt, (poids temporel min : 0.95)",
@@ -22741,7 +22741,7 @@
           }
         },
         "contribution_mediane": {
-          "signaux_marches_pt": 0.204,
+          "signaux_marches_pt": 0.202,
           "incertitude_bdf_sigma": 0.15,
           "label": "Déplacement de la prévision centrale"
         }
