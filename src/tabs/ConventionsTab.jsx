@@ -1,38 +1,34 @@
-import { useState } from 'react';
-import { BarChart, Bar, XAxis, YAxis, CartesianGrid, Tooltip, ResponsiveContainer, Cell } from 'recharts';
-import { useChartProps } from '../hooks/useChartProps';
+import { useMemo, useState } from 'react';
 import Card from '../components/Card';
 
-const C = {
-  primary: '#3b82f6', secondary: '#ef4444', tertiary: '#22c55e',
-  quaternary: '#f59e0b', purple: '#8b5cf6', gray: '#6b7280'
-};
-
-export default function ConventionsTab({d, darkMode}) {
+export default function ConventionsTab({ d, darkMode }) {
   const [selectedBranche, setSelectedBranche] = useState(null);
-  const [filter, setFilter] = useState('all');
-  const [sortBy, setSortBy] = useState('effectif'); // 'effectif' | 'idcc' | 'nom' | 'statut'
+  const [filter, setFilter] = useState('all'); // all | conforme | non_conforme | a_verifier
+  const [sortBy, setSortBy] = useState('effectif'); // effectif | idcc | nom | statut
   const [sortDir, setSortDir] = useState('desc');
   const [searchQuery, setSearchQuery] = useState('');
   const [showTop, setShowTop] = useState(50); // 30 | 50 | 'all'
-  
-  const cc = d.conventions_collectives;
-  
+
+  const cc = d?.conventions_collectives;
+
   if (!cc || !cc.branches || !cc.smic_reference) {
     return (
       <div className={`${darkMode ? 'bg-yellow-900/30' : 'bg-yellow-50'} border border-yellow-200 rounded-xl p-6 text-center`}>
         <p className="text-yellow-800 text-lg">⚠️ Données des conventions collectives non disponibles</p>
-        <p className="text-sm text-yellow-600 mt-2">Vérifiez que data.json contient la section "conventions_collectives"</p>
+        <p className="text-sm text-yellow-600 mt-2">Vérifie que data.json contient la section "conventions_collectives"</p>
       </div>
     );
   }
-  
-  const SMIC = cc.smic_reference.mensuel;
-  
-  // ── Tri ──────────────────────────────────────────────────────────────────
+
+  const SMIC = Number(cc.smic_reference?.mensuel || 0);
+
+  const countConformes = cc.branches.filter((b) => b.statut === 'conforme').length;
+  const countNonConformes = cc.branches.filter((b) => b.statut === 'non_conforme').length;
+  const countAVerifier = cc.branches.filter((b) => b.statut === 'a_verifier').length;
+
   const handleSort = (col) => {
     if (sortBy === col) {
-      setSortDir(d => d === 'asc' ? 'desc' : 'asc');
+      setSortDir((d) => (d === 'asc' ? 'desc' : 'asc'));
     } else {
       setSortBy(col);
       setSortDir(col === 'idcc' || col === 'nom' ? 'asc' : 'desc');
@@ -45,75 +41,125 @@ export default function ConventionsTab({d, darkMode}) {
     return <span className="ml-1">{sortDir === 'asc' ? '↑' : '↓'}</span>;
   };
 
-  // ── Filtrage + tri ────────────────────────────────────────────────────────
-  const branchesFiltrees = cc.branches
-    .filter(b => {
-      if (filter === 'conforme') return b.statut === 'conforme';
-      if (filter === 'non_conforme') return b.statut !== 'conforme';
-      return true;
-    })
-    .filter(b => {
-      if (!searchQuery.trim()) return true;
-      const q = searchQuery.toLowerCase();
-      return (
-        b.nom.toLowerCase().includes(q) ||
-        b.idcc.includes(q) ||
-        String(b.effectif || '').includes(q)
-      );
-    })
-    .sort((a, b) => {
-      let va, vb;
-      switch (sortBy) {
-        case 'idcc':
-          va = parseInt(a.idcc || '0');
-          vb = parseInt(b.idcc || '0');
-          break;
-        case 'nom':
-          va = a.nom.toLowerCase();
-          vb = b.nom.toLowerCase();
-          return sortDir === 'asc'
-            ? va.localeCompare(vb, 'fr')
-            : vb.localeCompare(va, 'fr');
-        case 'effectif':
-          va = a.effectif || 0;
-          vb = b.effectif || 0;
-          break;
-        case 'statut':
-          va = a.statut === 'conforme' ? 1 : 0;
-          vb = b.statut === 'conforme' ? 1 : 0;
-          break;
-        default:
-          va = a.effectif || 0;
-          vb = b.effectif || 0;
-      }
-      return sortDir === 'asc' ? va - vb : vb - va;
-    });
+  const statutRank = (statut) => {
+    if (statut === 'conforme') return 3;
+    if (statut === 'a_verifier') return 2;
+    if (statut === 'non_conforme') return 1;
+    return 0;
+  };
 
-  const branchesAffichees = showTop === 'all'
-    ? branchesFiltrees
-    : branchesFiltrees.slice(0, showTop);
-
-  const countNonConformes = cc.branches.filter(b => b.statut !== 'conforme').length;
-  
   const getNiveauxSousSmic = (branche) =>
-    (branche.grille || []).filter(n => n.minimum_mensuel < SMIC).length;
-  
-  const getEcartSmic = (minimum) =>
-    ((minimum - SMIC) / SMIC * 100).toFixed(1);
+    (branche.grille || []).filter((n) => Number(n.minimum_mensuel || 0) < SMIC).length;
+
+  const getEcartSmic = (minimum) => {
+    if (!minimum || !SMIC) return null;
+    return ((minimum - SMIC) / SMIC * 100).toFixed(1);
+  };
 
   const formatEffectif = (n) => {
     if (!n) return '—';
     if (n >= 1000000) return `${(n / 1000000).toFixed(1)}M`;
     if (n >= 1000) return `${Math.round(n / 1000)}k`;
-    return n.toLocaleString('fr-FR');
+    return Number(n).toLocaleString('fr-FR');
   };
 
-  const totalEffectifFiltre = branchesFiltrees
-    .reduce((s, b) => s + (b.effectif || 0), 0);
+  const formatMoney = (n) => {
+    if (n == null || Number.isNaN(Number(n))) return '—';
+    return Number(n).toLocaleString('fr-FR');
+  };
+
+  const formatConfidence = (v) => {
+    if (v == null || Number.isNaN(Number(v))) return null;
+    return `${Math.round(Number(v) * 100)}%`;
+  };
+
+  const branchesTriees = useMemo(() => {
+    return [...cc.branches]
+      .filter((b) => {
+        if (filter === 'conforme') return b.statut === 'conforme';
+        if (filter === 'non_conforme') return b.statut === 'non_conforme';
+        if (filter === 'a_verifier') return b.statut === 'a_verifier';
+        return true;
+      })
+      .filter((b) => {
+        if (!searchQuery.trim()) return true;
+        const q = searchQuery.toLowerCase();
+        return (
+          (b.nom || '').toLowerCase().includes(q) ||
+          String(b.idcc || '').includes(q) ||
+          String(b.effectif || '').includes(q)
+        );
+      })
+      .sort((a, b) => {
+        let va;
+        let vb;
+
+        switch (sortBy) {
+          case 'idcc':
+            va = parseInt(a.idcc || '0', 10);
+            vb = parseInt(b.idcc || '0', 10);
+            break;
+          case 'nom':
+            va = (a.nom || '').toLowerCase();
+            vb = (b.nom || '').toLowerCase();
+            return sortDir === 'asc'
+              ? va.localeCompare(vb, 'fr')
+              : vb.localeCompare(va, 'fr');
+          case 'statut':
+            va = statutRank(a.statut);
+            vb = statutRank(b.statut);
+            break;
+          case 'effectif':
+          default:
+            va = Number(a.effectif || 0);
+            vb = Number(b.effectif || 0);
+            break;
+        }
+
+        return sortDir === 'asc' ? va - vb : vb - va;
+      });
+  }, [cc.branches, filter, searchQuery, sortBy, sortDir]);
+
+  const branchesAffichees = showTop === 'all'
+    ? branchesTriees
+    : branchesTriees.slice(0, showTop);
+
+  const totalEffectifFiltre = branchesTriees.reduce((s, b) => s + Number(b.effectif || 0), 0);
+
+  const rangsParIdcc = useMemo(() => {
+    const sorted = [...cc.branches].sort((a, b) => Number(b.effectif || 0) - Number(a.effectif || 0));
+    const map = new Map();
+    sorted.forEach((b, i) => map.set(b.idcc, i + 1));
+    return map;
+  }, [cc.branches]);
+
+  const getStatutBadge = (branche) => {
+    const isConforme = branche.statut === 'conforme';
+    const isAVerifier = branche.statut === 'a_verifier';
+    const niveauxSousSmic = getNiveauxSousSmic(branche);
+
+    if (isConforme) {
+      return {
+        label: '✅ OK',
+        className: darkMode ? 'bg-green-900/50 text-green-300' : 'bg-green-100 text-green-700',
+      };
+    }
+
+    if (isAVerifier) {
+      return {
+        label: '🟠 À vérifier',
+        className: darkMode ? 'bg-amber-900/50 text-amber-300' : 'bg-amber-100 text-amber-700',
+      };
+    }
+
+    return {
+      label: `❌ ${niveauxSousSmic} niv.`,
+      className: darkMode ? 'bg-red-900/50 text-red-300' : 'bg-red-100 text-red-700',
+    };
+  };
 
   return (
     <div className="space-y-4">
-      {/* ── Header ── */}
       <div className="bg-gradient-to-r from-amber-600 to-orange-600 text-white p-4 rounded-2xl">
         <div className="flex items-start justify-between gap-4 flex-wrap">
           <div>
@@ -125,117 +171,182 @@ export default function ConventionsTab({d, darkMode}) {
               )}
             </p>
           </div>
-          <div className={`text-right text-sm ${darkMode ? 'opacity-90' : 'opacity-90'}`}>
-            <div className="font-semibold">SMIC référence : {SMIC.toLocaleString('fr-FR')}€ net</div>
-            <div className="opacity-75 text-xs">Brut : {cc.smic_reference.mensuel_brut?.toLocaleString('fr-FR') || '1 823'}€ · {cc.smic_reference.date}</div>
+          <div className="text-right text-sm opacity-90">
+            <div className="font-semibold">
+              SMIC référence : {formatMoney(SMIC)}€ net
+            </div>
+            <div className="opacity-75 text-xs">
+              Brut : {formatMoney(cc.smic_reference?.mensuel_brut || 1823)}€ · {cc.smic_reference?.date || '—'}
+            </div>
           </div>
         </div>
       </div>
 
-      {/* ── KPIs ── */}
       <div className="grid grid-cols-2 md:grid-cols-4 gap-3">
         {[
-          { label: 'Branches suivies', val: cc.statistiques_branches?.total_branches || cc.branches.length, color: 'blue' },
-          { label: 'Affichées ici', val: cc.statistiques_branches?.branches_affichees || cc.branches.length, color: 'indigo' },
-          { label: '✅ Conformes SMIC', val: cc.statistiques_branches?.branches_conformes, color: 'green' },
-          { label: '❌ Non conformes', val: countNonConformes, color: 'red' },
+          {
+            label: 'Branches suivies',
+            val: cc.statistiques_branches?.total_branches || cc.branches.length,
+            color: 'blue',
+          },
+          {
+            label: '✅ Conformes',
+            val: cc.statistiques_branches?.branches_conformes ?? countConformes,
+            color: 'green',
+          },
+          {
+            label: '❌ Sous SMIC',
+            val: cc.statistiques_branches?.branches_non_conformes ?? countNonConformes,
+            color: 'red',
+          },
+          {
+            label: '🟠 À vérifier',
+            val: cc.statistiques_branches?.branches_a_verifier ?? countAVerifier,
+            color: 'amber',
+          },
         ].map((kpi, i) => (
-          <div key={i} className={`p-4 rounded-xl text-center ${darkMode ? `bg-${kpi.color}-900/30` : `bg-${kpi.color}-50`}`}>
-            <p className={`text-3xl font-bold text-${kpi.color}-${darkMode ? '300' : '600'}`}>{kpi.val ?? '—'}</p>
-            <p className={`text-xs mt-1 ${darkMode ? 'text-gray-400' : 'text-gray-500'}`}>{kpi.label}</p>
+          <div
+            key={i}
+            className={`p-4 rounded-xl text-center ${darkMode ? `bg-${kpi.color}-900/30` : `bg-${kpi.color}-50`}`}
+          >
+            <p className={`text-3xl font-bold text-${kpi.color}-${darkMode ? '300' : '600'}`}>
+              {kpi.val ?? '—'}
+            </p>
+            <p className={`text-xs mt-1 ${darkMode ? 'text-gray-400' : 'text-gray-500'}`}>
+              {kpi.label}
+            </p>
           </div>
         ))}
       </div>
 
-      {/* ── Alerte non conformes ── */}
       {countNonConformes > 0 && (
         <div className={`${darkMode ? 'bg-red-900/30' : 'bg-red-50'} border-l-4 border-red-500 p-4 rounded`}>
           <h3 className="font-semibold text-red-800">
-            ⚠️ {countNonConformes} branche(s) avec minima &lt; SMIC ({SMIC.toLocaleString('fr-FR')}€)
+            ⚠️ {countNonConformes} branche(s) avec minima &lt; SMIC ({formatMoney(SMIC)}€)
           </h3>
           <p className="text-sm text-red-700 mt-1">
-            Loi du 16 août 2022 : les branches ont <b>45 jours</b> après une revalorisation du SMIC pour ouvrir des négociations.
-            Risque de <b>fusion administrative</b> en cas de carence persistante.
+            Loi du 16 août 2022 : les branches ont <b>45 jours</b> après une revalorisation du SMIC
+            pour ouvrir des négociations. Risque de <b>fusion administrative</b> en cas de carence persistante.
           </p>
         </div>
       )}
 
-      {/* ── Barre de recherche + filtres + tri ── */}
+      {countAVerifier > 0 && (
+        <div className={`${darkMode ? 'bg-amber-900/30' : 'bg-amber-50'} border-l-4 border-amber-500 p-4 rounded`}>
+          <h3 className="font-semibold text-amber-800">
+            🟠 {countAVerifier} branche(s) à vérifier
+          </h3>
+          <p className="text-sm text-amber-700 mt-1">
+            La grille salariale n’a pas été extraite avec une fiabilité suffisante. Ces branches ne sont ni
+            considérées conformes, ni classées sous SMIC tant qu’une vérification complémentaire n’a pas été faite.
+          </p>
+        </div>
+      )}
+
       <div className={`p-3 rounded-2xl space-y-3 ${darkMode ? 'bg-gray-800' : 'bg-white shadow-sm'}`}>
-        {/* Recherche */}
         <div className="flex gap-2 flex-wrap">
           <input
             type="text"
             placeholder="🔍 Rechercher par nom, IDCC ou effectif..."
             value={searchQuery}
-            onChange={e => { setSearchQuery(e.target.value); setSelectedBranche(null); }}
+            onChange={(e) => {
+              setSearchQuery(e.target.value);
+              setSelectedBranche(null);
+            }}
             className={`flex-1 min-w-[220px] px-3 py-2 rounded-xl border text-sm ${
-              darkMode ? 'bg-gray-700 border-gray-600 text-white placeholder-gray-400' : 'border-gray-200'
+              darkMode
+                ? 'bg-gray-700 border-gray-600 text-white placeholder-gray-400'
+                : 'border-gray-200'
             }`}
           />
           {searchQuery && (
             <button
               onClick={() => setSearchQuery('')}
-              className={`px-3 py-2 rounded-xl text-sm ${darkMode ? 'bg-gray-700 text-gray-300 hover:bg-gray-600' : 'bg-gray-100 text-gray-500 hover:bg-gray-200'}`}
+              className={`px-3 py-2 rounded-xl text-sm ${
+                darkMode
+                  ? 'bg-gray-700 text-gray-300 hover:bg-gray-600'
+                  : 'bg-gray-100 text-gray-500 hover:bg-gray-200'
+              }`}
             >
               ✕ Effacer
             </button>
           )}
         </div>
 
-        {/* Filtres statut + nombre affiché */}
         <div className="flex flex-wrap gap-2 items-center justify-between">
           <div className="flex gap-2 flex-wrap">
-            <span className={`text-xs font-medium self-center ${darkMode ? 'text-gray-400' : 'text-gray-500'}`}>Statut :</span>
+            <span className={`text-xs font-medium self-center ${darkMode ? 'text-gray-400' : 'text-gray-500'}`}>
+              Statut :
+            </span>
             {[
               ['all', `Toutes (${cc.branches.length})`],
-              ['conforme', `✅ Conformes (${cc.branches.length - countNonConformes})`],
-              ['non_conforme', `❌ Non conformes (${countNonConformes})`],
+              ['conforme', `✅ Conformes (${countConformes})`],
+              ['non_conforme', `❌ Sous SMIC (${countNonConformes})`],
+              ['a_verifier', `🟠 À vérifier (${countAVerifier})`],
             ].map(([id, label]) => (
-              <button key={id} onClick={() => { setFilter(id); setSelectedBranche(null); }}
+              <button
+                key={id}
+                onClick={() => {
+                  setFilter(id);
+                  setSelectedBranche(null);
+                }}
                 className={`px-3 py-1.5 rounded-xl text-xs font-medium transition-all ${
                   filter === id
-                    ? id === 'non_conforme' ? 'bg-red-600 text-white' : id === 'conforme' ? 'bg-green-600 text-white' : 'bg-amber-600 text-white shadow'
-                    : darkMode ? 'bg-gray-700 text-gray-300 hover:bg-gray-600' : 'bg-gray-100 text-gray-600 hover:bg-gray-200'
-                }`}>
+                    ? id === 'non_conforme'
+                      ? 'bg-red-600 text-white'
+                      : id === 'a_verifier'
+                        ? 'bg-amber-600 text-white'
+                        : id === 'conforme'
+                          ? 'bg-green-600 text-white'
+                          : 'bg-indigo-600 text-white shadow'
+                    : darkMode
+                      ? 'bg-gray-700 text-gray-300 hover:bg-gray-600'
+                      : 'bg-gray-100 text-gray-600 hover:bg-gray-200'
+                }`}
+              >
                 {label}
               </button>
             ))}
           </div>
+
           <div className="flex gap-2 items-center">
             <span className={`text-xs ${darkMode ? 'text-gray-400' : 'text-gray-500'}`}>Afficher :</span>
-            {[30, 50, 'all'].map(n => (
-              <button key={n} onClick={() => setShowTop(n)}
+            {[30, 50, 'all'].map((n) => (
+              <button
+                key={n}
+                onClick={() => setShowTop(n)}
                 className={`px-2.5 py-1 rounded-lg text-xs font-medium transition-all ${
                   showTop === n
                     ? 'bg-indigo-600 text-white'
-                    : darkMode ? 'bg-gray-700 text-gray-300 hover:bg-gray-600' : 'bg-gray-100 text-gray-600 hover:bg-gray-200'
-                }`}>
+                    : darkMode
+                      ? 'bg-gray-700 text-gray-300 hover:bg-gray-600'
+                      : 'bg-gray-100 text-gray-600 hover:bg-gray-200'
+                }`}
+              >
                 {n === 'all' ? 'Tout' : `Top ${n}`}
               </button>
             ))}
           </div>
         </div>
 
-        {/* Info résultats */}
         <div className={`text-xs ${darkMode ? 'text-gray-500' : 'text-gray-400'}`}>
           {branchesAffichees.length} branche{branchesAffichees.length > 1 ? 's' : ''} affichée{branchesAffichees.length > 1 ? 's' : ''}
-          {branchesFiltrees.length !== branchesAffichees.length && ` (sur ${branchesFiltrees.length} filtrées)`}
+          {branchesTriees.length !== branchesAffichees.length && ` (sur ${branchesTriees.length} filtrées)`}
           {totalEffectifFiltre > 0 && ` · ~${formatEffectif(totalEffectifFiltre)} salariés couverts`}
         </div>
       </div>
 
-      {/* ── En-têtes de colonnes cliquables pour le tri ── */}
       <div className={`rounded-2xl overflow-hidden shadow-lg ${darkMode ? 'bg-gray-800' : 'bg-white'}`}>
-        {/* Header du tableau */}
-        <div className={`grid grid-cols-12 gap-0 text-xs font-bold uppercase tracking-wide px-3 py-2 border-b ${
-          darkMode ? 'bg-gray-900 border-gray-700 text-gray-400' : 'bg-gray-50 border-gray-200 text-gray-500'
-        }`}>
+        <div
+          className={`grid grid-cols-12 gap-0 text-xs font-bold uppercase tracking-wide px-3 py-2 border-b ${
+            darkMode ? 'bg-gray-900 border-gray-700 text-gray-400' : 'bg-gray-50 border-gray-200 text-gray-500'
+          }`}
+        >
           {[
             { col: 'idcc', label: 'IDCC', span: 1 },
             { col: 'nom', label: 'Branche', span: 5 },
             { col: 'effectif', label: 'Salariés', span: 2 },
-            { col: 'statut', label: 'Conformité', span: 2 },
+            { col: 'statut', label: 'Statut', span: 2 },
             { col: null, label: 'Minima', span: 2 },
           ].map(({ col, label, span }) => (
             <div
@@ -251,26 +362,22 @@ export default function ConventionsTab({d, darkMode}) {
           ))}
         </div>
 
-        {/* Lignes */}
         <div className="divide-y divide-gray-100 dark:divide-gray-700 max-h-[600px] overflow-y-auto">
           {branchesAffichees.length === 0 && (
             <div className={`text-center py-8 text-sm ${darkMode ? 'text-gray-400' : 'text-gray-500'}`}>
               Aucune branche trouvée
             </div>
           )}
+
           {branchesAffichees.map((branche, idx) => {
-            const niveauxSousSmic = getNiveauxSousSmic(branche);
+            const badge = getStatutBadge(branche);
             const isSelected = selectedBranche === idx;
-            const isConforme = branche.statut === 'conforme';
-            
-            // Rang par effectif dans la liste non filtrée
-            const rang = cc.branches
-              .sort((a, b) => (b.effectif || 0) - (a.effectif || 0))
-              .findIndex(b => b.idcc === branche.idcc) + 1;
+            const rang = rangsParIdcc.get(branche.idcc) || null;
+            const firstMin = branche.grille?.[0]?.minimum_mensuel;
+            const lastMin = branche.grille?.[branche.grille.length - 1]?.minimum_mensuel;
 
             return (
               <div key={branche.idcc || idx}>
-                {/* Ligne principale */}
                 <div
                   className={`grid grid-cols-12 gap-0 px-3 py-2.5 cursor-pointer transition-colors text-sm ${
                     isSelected
@@ -281,19 +388,19 @@ export default function ConventionsTab({d, darkMode}) {
                   }`}
                   onClick={() => setSelectedBranche(isSelected ? null : idx)}
                 >
-                  {/* IDCC */}
                   <div className="col-span-1 flex items-center">
                     <span className={`font-mono text-xs font-bold ${darkMode ? 'text-amber-400' : 'text-amber-700'}`}>
                       {branche.idcc}
                     </span>
                   </div>
 
-                  {/* Nom */}
                   <div className="col-span-5 flex items-center gap-2 min-w-0 pr-2">
-                    {rang <= 10 && (
-                      <span className={`shrink-0 text-[10px] font-bold px-1.5 py-0.5 rounded ${
-                        darkMode ? 'bg-amber-800/60 text-amber-300' : 'bg-amber-100 text-amber-700'
-                      }`}>
+                    {rang && rang <= 10 && (
+                      <span
+                        className={`shrink-0 text-[10px] font-bold px-1.5 py-0.5 rounded ${
+                          darkMode ? 'bg-amber-800/60 text-amber-300' : 'bg-amber-100 text-amber-700'
+                        }`}
+                      >
                         #{rang}
                       </span>
                     )}
@@ -302,35 +409,32 @@ export default function ConventionsTab({d, darkMode}) {
                     </span>
                   </div>
 
-                  {/* Effectif */}
                   <div className="col-span-2 flex items-center">
                     <span className={`font-semibold ${darkMode ? 'text-gray-300' : 'text-gray-700'}`}>
                       {formatEffectif(branche.effectif)}
                     </span>
                   </div>
 
-                  {/* Statut */}
                   <div className="col-span-2 flex items-center">
-                    <span className={`text-xs px-2 py-0.5 rounded-full font-medium ${
-                      isConforme
-                        ? darkMode ? 'bg-green-900/50 text-green-300' : 'bg-green-100 text-green-700'
-                        : darkMode ? 'bg-red-900/50 text-red-300' : 'bg-red-100 text-red-700'
-                    }`}>
-                      {isConforme ? '✅ OK' : `❌ ${niveauxSousSmic}niv.`}
+                    <span className={`text-xs px-2 py-0.5 rounded-full font-medium ${badge.className}`}>
+                      {badge.label}
                     </span>
                   </div>
 
-                  {/* Minima (premier niveau de grille) */}
                   <div className="col-span-2 flex items-center">
                     {branche.grille && branche.grille.length > 0 ? (
-                      <span className={`text-xs ${
-                        branche.grille[0].minimum_mensuel < SMIC
-                          ? 'text-red-500 font-bold'
-                          : darkMode ? 'text-gray-400' : 'text-gray-500'
-                      }`}>
-                        {branche.grille[0].minimum_mensuel.toLocaleString('fr-FR')}€
+                      <span
+                        className={`text-xs ${
+                          branche.statut === 'non_conforme'
+                            ? 'text-red-500 font-bold'
+                            : branche.statut === 'a_verifier'
+                              ? 'text-amber-500 font-bold'
+                              : darkMode ? 'text-gray-400' : 'text-gray-500'
+                        }`}
+                      >
+                        {formatMoney(firstMin)}€
                         {branche.grille.length > 1 && (
-                          <span className="opacity-60"> → {branche.grille[branche.grille.length-1].minimum_mensuel.toLocaleString('fr-FR')}€</span>
+                          <span className="opacity-60"> → {formatMoney(lastMin)}€</span>
                         )}
                       </span>
                     ) : (
@@ -339,98 +443,224 @@ export default function ConventionsTab({d, darkMode}) {
                   </div>
                 </div>
 
-                {/* Détail déplié */}
                 {isSelected && (
                   <div className={`px-4 py-4 border-t ${
                     darkMode ? 'bg-gray-900/60 border-gray-700' : 'bg-amber-50/50 border-amber-100'
                   }`}>
-                    <div className="flex flex-wrap gap-3 mb-3">
-                      {/* Info branche */}
-                      <div className="flex gap-4 text-sm flex-wrap">
-                        <span className={darkMode ? 'text-gray-300' : 'text-gray-600'}>
-                          <b>IDCC :</b> <span className="font-mono">{branche.idcc}</span>
-                        </span>
-                        {branche.effectif && (
-                          <span className={darkMode ? 'text-gray-300' : 'text-gray-600'}>
-                            <b>Effectif :</b> {branche.effectif.toLocaleString('fr-FR')} salariés
-                          </span>
+                    <div className="grid grid-cols-1 lg:grid-cols-3 gap-4">
+                      <Card darkMode={darkMode}>
+                        <h3 className={`font-semibold mb-3 ${darkMode ? 'text-white' : 'text-gray-800'}`}>
+                          Informations branche
+                        </h3>
+                        <div className="space-y-2 text-sm">
+                          <div className="flex justify-between gap-3">
+                            <span className={darkMode ? 'text-gray-400' : 'text-gray-500'}>IDCC</span>
+                            <span className={darkMode ? 'text-gray-200' : 'text-gray-800'}>{branche.idcc}</span>
+                          </div>
+                          <div className="flex justify-between gap-3">
+                            <span className={darkMode ? 'text-gray-400' : 'text-gray-500'}>Nom</span>
+                            <span className={`text-right ${darkMode ? 'text-gray-200' : 'text-gray-800'}`}>{branche.nom}</span>
+                          </div>
+                          <div className="flex justify-between gap-3">
+                            <span className={darkMode ? 'text-gray-400' : 'text-gray-500'}>Effectif</span>
+                            <span className={darkMode ? 'text-gray-200' : 'text-gray-800'}>
+                              {formatEffectif(branche.effectif)}
+                            </span>
+                          </div>
+                          <div className="flex justify-between gap-3">
+                            <span className={darkMode ? 'text-gray-400' : 'text-gray-500'}>Statut</span>
+                            <span className={darkMode ? 'text-gray-200' : 'text-gray-800'}>
+                              {branche.statut}
+                            </span>
+                          </div>
+                          {branche.derniere_revalorisation && (
+                            <div className="flex justify-between gap-3">
+                              <span className={darkMode ? 'text-gray-400' : 'text-gray-500'}>Dernière revalo</span>
+                              <span className={darkMode ? 'text-gray-200' : 'text-gray-800'}>
+                                {branche.derniere_revalorisation}
+                              </span>
+                            </div>
+                          )}
+                          {branche.source && (
+                            <div className="pt-2">
+                              <a
+                                href={branche.source}
+                                target="_blank"
+                                rel="noreferrer"
+                                className="text-sm text-blue-500 hover:underline"
+                              >
+                                Ouvrir la source ↗
+                              </a>
+                            </div>
+                          )}
+                        </div>
+                      </Card>
+
+                      <Card darkMode={darkMode}>
+                        <h3 className={`font-semibold mb-3 ${darkMode ? 'text-white' : 'text-gray-800'}`}>
+                          Qualité de l’extraction
+                        </h3>
+                        <div className="space-y-2 text-sm">
+                          <div className="flex justify-between gap-3">
+                            <span className={darkMode ? 'text-gray-400' : 'text-gray-500'}>Statut extraction</span>
+                            <span className={darkMode ? 'text-gray-200' : 'text-gray-800'}>
+                              {branche.meta?.extraction_status || '—'}
+                            </span>
+                          </div>
+                          <div className="flex justify-between gap-3">
+                            <span className={darkMode ? 'text-gray-400' : 'text-gray-500'}>Confiance</span>
+                            <span className={darkMode ? 'text-gray-200' : 'text-gray-800'}>
+                              {formatConfidence(branche.meta?.confidence) || '—'}
+                            </span>
+                          </div>
+                          <div className="flex justify-between gap-3">
+                            <span className={darkMode ? 'text-gray-400' : 'text-gray-500'}>Qualité</span>
+                            <span className={darkMode ? 'text-gray-200' : 'text-gray-800'}>
+                              {branche.meta?.quality || '—'}
+                            </span>
+                          </div>
+                          {branche.meta?.source_donnees && (
+                            <div className="flex justify-between gap-3">
+                              <span className={darkMode ? 'text-gray-400' : 'text-gray-500'}>Source données</span>
+                              <span className={darkMode ? 'text-gray-200' : 'text-gray-800'}>
+                                {branche.meta.source_donnees}
+                              </span>
+                            </div>
+                          )}
+                          {branche.meta?.source_path && (
+                            <div className="pt-2">
+                              <div className={`text-xs mb-1 ${darkMode ? 'text-gray-400' : 'text-gray-500'}`}>
+                                Bloc détecté
+                              </div>
+                              <div className={`text-xs rounded-lg p-2 ${darkMode ? 'bg-gray-800 text-gray-300' : 'bg-white text-gray-700 border'}`}>
+                                {branche.meta.source_path}
+                              </div>
+                            </div>
+                          )}
+                          {branche.meta?.reason && (
+                            <div className={`text-xs rounded-lg p-2 ${darkMode ? 'bg-red-900/20 text-red-300' : 'bg-red-50 text-red-700 border border-red-200'}`}>
+                              {branche.meta.reason}
+                            </div>
+                          )}
+                        </div>
+                      </Card>
+
+                      <Card darkMode={darkMode}>
+                        <h3 className={`font-semibold mb-3 ${darkMode ? 'text-white' : 'text-gray-800'}`}>
+                          Lecture SMIC
+                        </h3>
+                        {branche.grille && branche.grille.length > 0 ? (
+                          <div className="space-y-2 text-sm">
+                            <div className="flex justify-between gap-3">
+                              <span className={darkMode ? 'text-gray-400' : 'text-gray-500'}>SMIC net</span>
+                              <span className={darkMode ? 'text-gray-200' : 'text-gray-800'}>{formatMoney(SMIC)}€</span>
+                            </div>
+                            <div className="flex justify-between gap-3">
+                              <span className={darkMode ? 'text-gray-400' : 'text-gray-500'}>Niveaux détectés</span>
+                              <span className={darkMode ? 'text-gray-200' : 'text-gray-800'}>
+                                {branche.grille.length}
+                              </span>
+                            </div>
+                            <div className="flex justify-between gap-3">
+                              <span className={darkMode ? 'text-gray-400' : 'text-gray-500'}>Sous SMIC</span>
+                              <span className={darkMode ? 'text-gray-200' : 'text-gray-800'}>
+                                {getNiveauxSousSmic(branche)}
+                              </span>
+                            </div>
+                            {firstMin != null && (
+                              <div className="flex justify-between gap-3">
+                                <span className={darkMode ? 'text-gray-400' : 'text-gray-500'}>Écart 1er niveau</span>
+                                <span className={
+                                  Number(firstMin) < SMIC
+                                    ? 'text-red-500 font-semibold'
+                                    : Number(firstMin) === SMIC
+                                      ? 'text-amber-500 font-semibold'
+                                      : 'text-green-500 font-semibold'
+                                }>
+                                  {getEcartSmic(Number(firstMin)) > 0 ? '+' : ''}
+                                  {getEcartSmic(Number(firstMin))}%
+                                </span>
+                              </div>
+                            )}
+                          </div>
+                        ) : (
+                          <div className={`text-sm ${darkMode ? 'text-gray-400' : 'text-gray-500'}`}>
+                            Aucune grille exploitable détectée.
+                          </div>
                         )}
-                        {branche.derniere_revalorisation && (
-                          <span className={darkMode ? 'text-gray-300' : 'text-gray-600'}>
-                            <b>Dernière reva :</b> {branche.derniere_revalorisation}
-                          </span>
-                        )}
-                      </div>
+                      </Card>
                     </div>
 
-                    {/* Grille de salaires */}
-                    {branche.grille && branche.grille.length > 1 ? (
-                      <div className="overflow-x-auto">
-                        <table className={`w-full text-xs rounded-xl overflow-hidden`}>
-                          <thead>
-                            <tr className={darkMode ? 'bg-gray-700 text-gray-300' : 'bg-gray-100 text-gray-600'}>
-                              <th className="text-left py-2 px-3">Niveau</th>
-                              <th className="text-right py-2 px-3">Coef.</th>
-                              <th className="text-right py-2 px-3">Mensuel net</th>
-                              <th className="text-right py-2 px-3">vs SMIC</th>
-                              <th className="text-right py-2 px-3">Annuel</th>
-                            </tr>
-                          </thead>
-                          <tbody>
-                            {branche.grille.map((niveau, i) => {
-                              const sousSmic = niveau.minimum_mensuel < SMIC;
-                              const ecart = getEcartSmic(niveau.minimum_mensuel);
-                              return (
-                                <tr key={i} className={`border-t ${
-                                  sousSmic
-                                    ? darkMode ? 'bg-red-900/30 border-red-800' : 'bg-red-50 border-red-100'
-                                    : darkMode ? 'border-gray-700' : 'border-gray-100'
-                                }`}>
-                                  <td className={`py-1.5 px-3 font-mono font-semibold ${darkMode ? 'text-gray-200' : 'text-gray-800'}`}>
-                                    {niveau.niveau}
-                                    {sousSmic && <span className="ml-1 text-red-500">⚠</span>}
-                                  </td>
-                                  <td className={`py-1.5 px-3 text-right ${darkMode ? 'text-gray-400' : 'text-gray-500'}`}>
-                                    {niveau.coefficient || '—'}
-                                  </td>
-                                  <td className={`py-1.5 px-3 text-right font-semibold ${
-                                    sousSmic ? 'text-red-500' : darkMode ? 'text-gray-200' : 'text-gray-800'
-                                  }`}>
-                                    {niveau.minimum_mensuel.toLocaleString('fr-FR')}€
-                                  </td>
-                                  <td className={`py-1.5 px-3 text-right font-medium ${
-                                    parseFloat(ecart) >= 0 ? 'text-green-500' : 'text-red-500'
-                                  }`}>
-                                    {parseFloat(ecart) >= 0 ? '+' : ''}{ecart}%
-                                  </td>
-                                  <td className={`py-1.5 px-3 text-right ${darkMode ? 'text-gray-400' : 'text-gray-500'}`}>
-                                    {(niveau.minimum_annuel || niveau.minimum_mensuel * 12).toLocaleString('fr-FR')}€
-                                  </td>
-                                </tr>
-                              );
-                            })}
-                          </tbody>
-                        </table>
-                      </div>
-                    ) : (
-                      <p className={`text-xs italic ${darkMode ? 'text-gray-500' : 'text-gray-400'}`}>
-                        Grille détaillée non disponible pour cette convention.
-                        {branche.source && (
-                          <> <a href={branche.source} target="_blank" rel="noopener noreferrer" className="text-[#0d4093] underline ml-1">
-                            Consulter sur Légifrance ↗
-                          </a></>
-                        )}
-                      </p>
-                    )}
+                    <div className="mt-4">
+                      <Card darkMode={darkMode}>
+                        <div className="flex items-center justify-between gap-3 mb-3 flex-wrap">
+                          <h3 className={`font-semibold ${darkMode ? 'text-white' : 'text-gray-800'}`}>
+                            Grille salariale détectée
+                          </h3>
+                          <span className={`text-xs ${darkMode ? 'text-gray-400' : 'text-gray-500'}`}>
+                            {branche.grille?.length || 0} ligne(s)
+                          </span>
+                        </div>
 
-                    {branche.source && branche.grille && branche.grille.length > 1 && (
-                      <div className="mt-2 text-right">
-                        <a href={branche.source} target="_blank" rel="noopener noreferrer"
-                          className="text-xs text-[#0d4093] hover:underline">
-                          🔗 Voir sur Légifrance
-                        </a>
-                      </div>
-                    )}
+                        {branche.grille && branche.grille.length > 0 ? (
+                          <div className="overflow-x-auto">
+                            <table className="w-full text-sm">
+                              <thead>
+                                <tr className={darkMode ? 'text-gray-400 border-b border-gray-700' : 'text-gray-500 border-b'}>
+                                  <th className="text-left py-2 pr-3">Niveau</th>
+                                  <th className="text-left py-2 pr-3">Coefficient</th>
+                                  <th className="text-right py-2 pr-3">Mensuel</th>
+                                  <th className="text-right py-2">Annuel</th>
+                                </tr>
+                              </thead>
+                              <tbody>
+                                {branche.grille.map((row, i) => {
+                                  const below = Number(row.minimum_mensuel || 0) < SMIC;
+                                  return (
+                                    <tr
+                                      key={`${row.niveau || 'niveau'}-${i}`}
+                                      className={darkMode ? 'border-b border-gray-800' : 'border-b border-gray-100'}
+                                    >
+                                      <td className={`py-2 pr-3 ${darkMode ? 'text-gray-200' : 'text-gray-800'}`}>
+                                        {row.niveau || '—'}
+                                      </td>
+                                      <td className={`py-2 pr-3 ${darkMode ? 'text-gray-300' : 'text-gray-700'}`}>
+                                        {row.coefficient || '—'}
+                                      </td>
+                                      <td className={`py-2 pr-3 text-right font-medium ${
+                                        below ? 'text-red-500' : darkMode ? 'text-gray-200' : 'text-gray-800'
+                                      }`}>
+                                        {formatMoney(row.minimum_mensuel)}€
+                                      </td>
+                                      <td className={`py-2 text-right ${darkMode ? 'text-gray-300' : 'text-gray-700'}`}>
+                                        {row.minimum_annuel != null ? `${formatMoney(row.minimum_annuel)}€` : '—'}
+                                      </td>
+                                    </tr>
+                                  );
+                                })}
+                              </tbody>
+                            </table>
+                          </div>
+                        ) : (
+                          <div className={`text-sm ${darkMode ? 'text-gray-400' : 'text-gray-500'}`}>
+                            Pas de grille structurée disponible pour cette branche.
+                          </div>
+                        )}
+
+                        {branche.meta?.source_excerpt && (
+                          <div className="mt-4">
+                            <div className={`text-xs mb-1 ${darkMode ? 'text-gray-400' : 'text-gray-500'}`}>
+                              Extrait source
+                            </div>
+                            <div className={`text-xs rounded-lg p-3 whitespace-pre-wrap ${
+                              darkMode ? 'bg-gray-800 text-gray-300' : 'bg-gray-50 text-gray-700 border'
+                            }`}>
+                              {branche.meta.source_excerpt}
+                            </div>
+                          </div>
+                        )}
+                      </Card>
+                    </div>
                   </div>
                 )}
               </div>
@@ -438,45 +668,6 @@ export default function ConventionsTab({d, darkMode}) {
           })}
         </div>
       </div>
-
-      {/* ── Note pédagogique ── */}
-      <div className={`${darkMode ? 'bg-blue-900/30' : 'bg-blue-50'} border border-blue-200 rounded-xl p-4`}>
-        <h3 className="font-semibold text-blue-800 mb-2">📚 Comment utiliser ce comparateur ?</h3>
-        <div className="text-sm text-blue-700 space-y-1">
-          <p>• <b>Cliquez sur l'en-tête IDCC</b> pour trier par numéro de convention (ordre croissant ou décroissant)</p>
-          <p>• <b>Cliquez sur Salariés</b> pour voir les branches les plus importantes en premier</p>
-          <p>• <b>Cherchez votre branche</b> par nom ou numéro IDCC dans la barre de recherche</p>
-          <p>• <b>Dépliez une branche</b> pour comparer sa grille de salaires avec le SMIC</p>
-        </div>
-      </div>
-
-      {/* ── Métadonnées ── */}
-      {cc.meta && (
-        <div className={`${darkMode ? 'bg-gray-800 border-gray-700' : 'bg-gray-50 border-gray-200'} rounded-xl p-4 border`}>
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-3 text-xs">
-            <div>
-              <span className={`font-semibold ${darkMode ? 'text-gray-300' : 'text-gray-700'}`}>Mise à jour :</span>
-              <span className={`ml-1 ${darkMode ? 'text-gray-400' : 'text-gray-500'}`}>{cc.meta.derniere_mise_a_jour}</span>
-            </div>
-            <div>
-              <span className={`font-semibold ${darkMode ? 'text-gray-300' : 'text-gray-700'}`}>Source effectifs :</span>
-              <span className={`ml-1 ${darkMode ? 'text-gray-400' : 'text-gray-500'}`}>{cc.meta.source_effectifs}</span>
-            </div>
-            <div className="flex gap-2">
-              <a href="https://www.legifrance.gouv.fr/liste/idcc" target="_blank" rel="noopener noreferrer"
-                className="text-[#0d4093] hover:underline">Légifrance</a>
-              <span className={darkMode ? 'text-gray-600' : 'text-gray-300'}>·</span>
-              <a href="https://code.travail.gouv.fr/outils/convention-collective" target="_blank" rel="noopener noreferrer"
-                className="text-[#0d4093] hover:underline">Code du Travail Numérique</a>
-            </div>
-          </div>
-        </div>
-      )}
-
-      <p className="text-xs text-gray-400 text-center">
-        SMIC référence : {SMIC.toLocaleString('fr-FR')}€ net mensuel · {cc.smic_reference.date}
-        {cc.statistiques_branches?.source_statistiques && ` · ${cc.statistiques_branches.source_statistiques}`}
-      </p>
     </div>
   );
 }
