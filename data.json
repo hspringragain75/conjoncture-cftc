@@ -1,6 +1,6 @@
 {
-  "last_updated": "02/04/2026 07:57",
-  "last_updated_iso": "2026-04-02T07:57:10.778313",
+  "last_updated": "02/04/2026 08:04",
+  "last_updated_iso": "2026-04-02T08:04:46.557251",
   "contact": "hspringragain@cftc.fr",
   "alertes": [
     {
@@ -32,7 +32,7 @@
       "date": "2026-04-02",
       "type": "info",
       "titre": "🔄 Données actualisées",
-      "message": "Le tableau de bord a été mis à jour le 02/04/2026 à 07:57.",
+      "message": "Le tableau de bord a été mis à jour le 02/04/2026 à 08:04.",
       "onglet": "conjoncture"
     }
   ],
@@ -193,7 +193,7 @@
     }
   ],
   "revue_presse": {
-    "derniere_maj": "02/04/2026 07:57",
+    "derniere_maj": "02/04/2026 08:04",
     "nb_sources": 7,
     "sources_noms": [
       "Le Monde Éco",
@@ -206,6 +206,42 @@
     ],
     "a_la_une": [],
     "tous": [
+      {
+        "source": "Le Figaro Éco",
+        "couleur": "#92400e",
+        "emoji": "📊",
+        "tag": "Presse économique",
+        "titre": "Neoen va construire la plus grosse installation de stockage d’électricité en France",
+        "resume": "L’assemblage des batteries, produites par le japonais Nidec, sera réalisé dans l’usine de ce dernier, à La Fouillouse, près de Saint-Étienne.",
+        "lien": "https://www.lefigaro.fr/societes/neoen-va-construire-la-plus-grosse-installation-de-stockage-d-electricite-en-france-20260402",
+        "date_iso": "2026-04-02T10:02:50+02:00",
+        "date_fr": "02/04/2026",
+        "pertinence": 0
+      },
+      {
+        "source": "Le Figaro Éco",
+        "couleur": "#92400e",
+        "emoji": "📊",
+        "tag": "Presse économique",
+        "titre": "Guerre au Moyen-Orient : les compagnies aériennes chinoises vont augmenter leur prix sur les vols intérieurs",
+        "resume": "Plusieurs compagnies aériennes chinoises, dont la compagnie nationale Air China, ont annoncé qu’elles augmenteraient leurs surcharges carburant sur les vols intérieurs à compter de dimanche.",
+        "lien": "https://www.lefigaro.fr/conjoncture/guerre-au-moyen-orient-les-compagnies-aeriennes-chinoises-vont-augmenter-leur-prix-sur-les-vols-interieurs-20260402",
+        "date_iso": "2026-04-02T10:02:15+02:00",
+        "date_fr": "02/04/2026",
+        "pertinence": 0
+      },
+      {
+        "source": "Le Figaro Éco",
+        "couleur": "#92400e",
+        "emoji": "📊",
+        "tag": "Presse économique",
+        "titre": "Jeux d’argent : l'Australie sévit contre la publicité",
+        "resume": "Les paris sportifs sont particulièrement populaires dans le pays. Le gouvernement veut en particulier protéger les enfants.",
+        "lien": "https://www.lefigaro.fr/conjoncture/jeux-d-argent-l-australie-sevit-contre-la-publicite-20260402",
+        "date_iso": "2026-04-02T09:55:39+02:00",
+        "date_fr": "02/04/2026",
+        "pertinence": 0
+      },
       {
         "source": "Le Figaro Éco",
         "couleur": "#92400e",
@@ -315,28 +351,16 @@
         "pertinence": 0
       },
       {
-        "source": "Le Figaro Éco",
-        "couleur": "#92400e",
-        "emoji": "📊",
-        "tag": "Presse économique",
-        "titre": "Neoen va construire la plus grosse installation de stockage d’électricité en France",
-        "resume": "L’assemblage des batteries, produites par le japonais Nidec, sera réalisé dans l’usine de ce dernier, à La Fouillouse, près de Saint-Étienne.",
-        "lien": "https://www.lefigaro.fr/societes/neoen-va-construire-la-plus-grosse-installation-de-stockage-d-electricite-en-france-20260402",
-        "date_iso": "2026-04-02T08:30:27+02:00",
+        "source": "Euractiv FR",
+        "couleur": "#0369a1",
+        "emoji": "🇪🇺",
+        "tag": "Europe & politique",
+        "titre": "La réforme du budget de l UE : une bataille façon « Hunger Games »",
+        "resume": "Les politiques de l'agriculture, de la cohésion, des affaires sociales et des migrations se livrent une concurrence directe pour l'obtention des ressources allouées au méga-fonds proposé par la Commission The post La réforme du budget de l&rsquo;UE : une bataille façon « Hunger Games » appeared firs",
+        "lien": "https://euractiv.fr/news/la-reforme-du-budget-de-lue-une-bataille-facon-hunger-games/",
+        "date_iso": "2026-04-02T07:55:55+00:00",
         "date_fr": "02/04/2026",
-        "pertinence": 0
-      },
-      {
-        "source": "Le Figaro Éco",
-        "couleur": "#92400e",
-        "emoji": "📊",
-        "tag": "Presse économique",
-        "titre": "Guerre au Moyen-Orient : les compagnies aériennes chinoises vont augmenter leur prix sur les vols intérieurs",
-        "resume": "Plusieurs compagnies aériennes chinoises, dont la compagnie nationale Air China, ont annoncé qu’elles augmenteraient leurs surcharges carburant sur les vols intérieurs à compter de dimanche.",
-        "lien": "https://www.lefigaro.fr/conjoncture/guerre-au-moyen-orient-les-compagnies-aeriennes-chinoises-vont-augmenter-leur-prix-sur-les-vols-interieurs-20260402",
-        "date_iso": "2026-04-02T07:56:14+02:00",
-        "date_fr": "02/04/2026",
-        "pertinence": 0
+        "pertinence": 2
       },
       {
         "source": "Libération Éco",
@@ -361,18 +385,6 @@
         "date_iso": "2026-04-02T07:40:21+02:00",
         "date_fr": "02/04/2026",
         "pertinence": 1
-      },
-      {
-        "source": "Le Figaro Éco",
-        "couleur": "#92400e",
-        "emoji": "📊",
-        "tag": "Presse économique",
-        "titre": "Jeux d’argent : l'Australie sévit contre la publicité",
-        "resume": "Les paris sportifs sont particulièrement populaires dans le pays. Le gouvernement veut en particulier protéger les enfants.",
-        "lien": "https://www.lefigaro.fr/conjoncture/jeux-d-argent-l-australie-sevit-contre-la-publicite-20260402",
-        "date_iso": "2026-04-02T07:23:16+02:00",
-        "date_fr": "02/04/2026",
-        "pertinence": 0
       },
       {
         "source": "Euractiv FR",
@@ -553,18 +565,6 @@
         "date_iso": "2026-04-01T23:58:29+02:00",
         "date_fr": "01/04/2026",
         "pertinence": 2
-      },
-      {
-        "source": "Le Monde Éco",
-        "couleur": "#374151",
-        "emoji": "🌐",
-        "tag": "Presse économique",
-        "titre": "Nagui se défend de s’enrichir aux dépens de France Télévisions devant la commission d’enquête parlementaire sur l’audiovisuel public",
-        "resume": "Lors d’une audition tendue, l’animateur-producteur de « N’oubliez pas les paroles », de « Taratata » ou encore de « La Bande originale » a dénoncé, trois heures durant, mercredi 1ᵉʳ avril, les accusations dont il avait fait l’objet par le rapporteur de la commission, Charles Alloncle.",
-        "lien": "https://www.lemonde.fr/economie/article/2026/04/01/commission-d-enquete-parlementaire-sur-l-audiovisuel-public-nagui-se-defend-de-s-enrichir-aux-depens-de-france-televisions_6675947_3234.html",
-        "date_iso": "2026-04-01T21:36:12+02:00",
-        "date_fr": "01/04/2026",
-        "pertinence": 0
       }
     ]
   },
@@ -2897,7 +2897,7 @@
       "note_lecture": "Le TEC-10 mesure le rendement des emprunts d'Etat francais a 10 ans. Un taux eleve rencherit le cout de la dette publique et impacte les taux de credit immobilier."
     },
     "petrole_brent": {
-      "valeur": 107.75,
+      "valeur": 107.95,
       "date": "2026-04-02",
       "unite": "USD/baril",
       "source": "Yahoo Finance",
@@ -4417,16 +4417,16 @@
         },
         {
           "date": "2026-04-02",
-          "valeur": 107.75,
-          "ma50": 83.83,
+          "valeur": 107.95,
+          "ma50": 83.84,
           "ma200": 70.22
         }
       ],
       "variations": {
-        "jour": 6.51,
-        "semaine": -0.24,
-        "mois": 32.37,
-        "ytd": 77.37
+        "jour": 6.71,
+        "semaine": -0.06,
+        "mois": 32.62,
+        "ytd": 77.7
       },
       "min_max": {
         "min": 58.92,
@@ -4437,9 +4437,9 @@
       "note_lecture": "Le prix du Brent influence directement les couts de transport et d'energie, donc l'inflation et le pouvoir d'achat des salaries."
     },
     "cac40": {
-      "valeur": 7899.59,
+      "valeur": 7905.2,
       "date": "2026-04-02",
-      "variation_jour_pct": -1.02,
+      "variation_jour_pct": -0.95,
       "unite": "points",
       "source": "Yahoo Finance",
       "nb_points": 256,
@@ -5976,16 +5976,16 @@
         },
         {
           "date": "2026-04-02",
-          "valeur": 7899.59,
-          "ma50": 8129.38,
-          "ma200": 8001.08
+          "valeur": 7905.2,
+          "ma50": 8129.5,
+          "ma200": 8001.11
         }
       ],
       "variations": {
-        "jour": -1.02,
-        "semaine": 1.68,
-        "mois": -2.52,
-        "ytd": -3.61
+        "jour": -0.95,
+        "semaine": 1.75,
+        "mois": -2.45,
+        "ytd": -3.54
       },
       "min_max": {
         "min": 6863.02,
@@ -7566,7 +7566,7 @@
       "note_lecture": "Le taux de change euro-dollar determine le prix de tout ce qui est importe en dollars : petrole, matieres premieres, electronique. Un euro faible rencherit les importations et alimente l'inflation."
     },
     "or": {
-      "valeur": 4663.1,
+      "valeur": 4670.4,
       "date": "2026-04-02",
       "unite": "USD/oz",
       "source": "Yahoo Finance",
@@ -9086,16 +9086,16 @@
         },
         {
           "date": "2026-04-02",
-          "valeur": 4663.1,
-          "ma50": 4937.5,
-          "ma200": 4116.19
+          "valeur": 4670.4,
+          "ma50": 4937.65,
+          "ma200": 4116.22
         }
       ],
       "variations": {
-        "jour": -2.51,
-        "semaine": 6.57,
-        "mois": -8.7,
-        "ytd": 8.08
+        "jour": -2.36,
+        "semaine": 6.74,
+        "mois": -8.56,
+        "ytd": 8.25
       },
       "min_max": {
         "min": 2951.3,
@@ -10646,7 +10646,7 @@
       "note_lecture": "Le prix du gaz naturel (TTF europeen) impacte directement les factures de chauffage et d'electricite des menages, ainsi que les couts de production industrielle."
     },
     "ble": {
-      "valeur": 605.5,
+      "valeur": 605.25,
       "date": "2026-04-02",
       "unite": "cents/boisseau",
       "source": "Yahoo Finance",
@@ -12160,16 +12160,16 @@
         },
         {
           "date": "2026-04-02",
-          "valeur": 605.5,
-          "ma50": 568.59,
+          "valeur": 605.25,
+          "ma50": 568.58,
           "ma200": 533.83
         }
       ],
       "variations": {
-        "jour": 1.34,
-        "semaine": 0.08,
-        "mois": 5.81,
-        "ytd": 19.55
+        "jour": 1.3,
+        "semaine": 0.04,
+        "mois": 5.77,
+        "ytd": 19.5
       },
       "min_max": {
         "min": 495.0,
@@ -12180,7 +12180,7 @@
       "note_lecture": "Le cours du ble est un indicateur avance des prix alimentaires. La France etant le premier producteur europeen, son evolution impacte a la fois les consommateurs et le secteur agricole."
     },
     "lme_cuivre": {
-      "valeur": 5.56,
+      "valeur": 5.57,
       "date": "2026-04-02",
       "unite": "cts/lb",
       "source": "Yahoo Finance",
@@ -13700,16 +13700,16 @@
         },
         {
           "date": "2026-04-02",
-          "valeur": 5.56,
-          "ma50": 5.76,
+          "valeur": 5.57,
+          "ma50": 5.77,
           "ma200": 5.24
         }
       ],
       "variations": {
-        "jour": -1.07,
-        "semaine": 2.02,
-        "mois": -3.64,
-        "ytd": -1.42
+        "jour": -0.89,
+        "semaine": 2.2,
+        "mois": -3.47,
+        "ytd": -1.24
       },
       "min_max": {
         "min": 4.13,
@@ -13720,7 +13720,7 @@
       "note_lecture": "Le cuivre est le baromètre de l'activité industrielle mondiale ('Dr Copper'). Sa hausse signale une reprise économique, sa baisse anticipe un ralentissement. Utilisé massivement dans l'électrification et les énergies renouvelables."
     },
     "lme_aluminium": {
-      "valeur": 3434.0,
+      "valeur": 3436.75,
       "date": "2026-04-02",
       "unite": "cts/lb",
       "source": "Yahoo Finance",
@@ -15234,16 +15234,16 @@
         },
         {
           "date": "2026-04-02",
-          "valeur": 3434.0,
-          "ma50": 3145.22,
-          "ma200": 2786.35
+          "valeur": 3436.75,
+          "ma50": 3145.27,
+          "ma200": 2786.37
         }
       ],
       "variations": {
-        "jour": -0.53,
-        "semaine": 8.62,
-        "mois": 8.47,
-        "ytd": 16.88
+        "jour": -0.45,
+        "semaine": 8.71,
+        "mois": 8.56,
+        "ytd": 16.98
       },
       "min_max": {
         "min": 2166.25,
@@ -17662,7 +17662,7 @@
           "2023": 1.92,
           "2024": 1.78,
           "2025": 1.72,
-          "2026": 2.045
+          "2026": 2.046
         },
         "quantiteMensuelle": {
           "solo": 40,
@@ -22280,7 +22280,7 @@
     "sources": "INSEE - Enquête Emploi, DARES"
   },
   "previsions_cftc": {
-    "generated_at": "2026-04-02T07:57:14.516769",
+    "generated_at": "2026-04-02T08:04:51.094754",
     "model_version": "CFTC v7.0 (bivarié Phillips + log-normale + pondération temporelle)",
     "n_simulations": 1000,
     "horizon": "12 mois",
@@ -22289,7 +22289,7 @@
       "niveau": "excellent",
       "issues": [],
       "warnings": [],
-      "timestamp": "2026-04-02T07:57:14.516781"
+      "timestamp": "2026-04-02T08:04:51.094766"
     },
     "calibrage": {
       "volatilites": {
@@ -22317,7 +22317,7 @@
       "lognormal_offset": 3.0
     },
     "market_signals": {
-      "inflation_adjustment": 0.213,
+      "inflation_adjustment": 0.215,
       "chomage_adjustment": 0.175,
       "energie_outlook": "hausse",
       "ponderation_temporelle": {
@@ -22329,10 +22329,10 @@
     },
     "market_signals_details": {
       "brent": {
-        "valeur": 107.75,
+        "valeur": 107.95,
         "ref": 75.0,
-        "variation_ytd_pct": 77.37,
-        "impact_inflation_pt": 0.328,
+        "variation_ytd_pct": 77.7,
+        "impact_inflation_pt": 0.33,
         "poids_temporel": 1.0
       },
       "gaz_ttf": {
@@ -22359,7 +22359,7 @@
         "signal": "baissier"
       },
       "cac40_ytd": {
-        "variation_ytd_pct": -3.61,
+        "variation_ytd_pct": -3.54,
         "signal_chomage": "neutre"
       },
       "carburants_sp95": {
@@ -22489,9 +22489,9 @@
       "facteurs": {
         "cible_bdf": 1.4,
         "ajustement_climat": -0.03,
-        "ajustement_marches": 0.213,
+        "ajustement_marches": 0.215,
         "energie_outlook": "hausse",
-        "cible_ajustee": 1.583,
+        "cible_ajustee": 1.585,
         "volatilite_utilisee": 0.5
       },
       "asymetrie_ic": {
@@ -22734,7 +22734,7 @@
           }
         },
         "contribution_mediane": {
-          "signaux_marches_pt": 0.213,
+          "signaux_marches_pt": 0.215,
           "incertitude_bdf_sigma": 0.15,
           "label": "Déplacement de la prévision centrale"
         }
