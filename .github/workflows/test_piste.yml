@@ -7,7 +7,7 @@ jobs:
   test-piste:
     runs-on: ubuntu-latest
     steps:
-      - name: Test liste CCN KALI
+      - name: Test filtres KALI
         env:
           PISTE_CLIENT_ID: ${{ secrets.PISTE_CLIENT_ID }}
           PISTE_CLIENT_SECRET: ${{ secrets.PISTE_CLIENT_SECRET }}
@@ -32,68 +32,86 @@ jobs:
           print("✅ Token OK")
 
           BASE = "https://api.piste.gouv.fr/dila/legifrance/lf-engine-app"
+          headers = {
+              "Authorization": f"Bearer {token}",
+              "Content-Type": "application/json",
+              "Accept": "application/json",
+          }
 
-          # Test 1 : recherche KALI sans filtre
-          for label, payload in [
-              ("KALI sans filtre", {
-                  "fond": "KALI",
-                  "recherche": {
-                      "champs": [],
-                      "operateur": "ET",
-                      "pageNumber": 1,
-                      "pageSize": 5,
-                      "sort": "PERTINENCE",
-                      "typePagination": "DEFAUT",
-                      "fromAdvancedRecherche": False
-                  }
-              }),
-              ("KALI_CONT sans filtre", {
-                  "fond": "KALI_CONT",
-                  "recherche": {
-                      "champs": [],
-                      "operateur": "ET",
-                      "pageNumber": 1,
-                      "pageSize": 5,
-                      "sort": "PERTINENCE",
-                      "typePagination": "DEFAUT",
-                      "fromAdvancedRecherche": False
-                  }
-              }),
-              ("KALI avec NATURE=IDCC", {
-                  "fond": "KALI",
-                  "recherche": {
-                      "champs": [],
-                      "filtres": [{"facette": "NATURE", "valeur": "IDCC"}],
-                      "operateur": "ET",
-                      "pageNumber": 1,
-                      "pageSize": 5,
-                      "sort": "PERTINENCE",
-                      "typePagination": "DEFAUT",
-                      "fromAdvancedRecherche": False
-                  }
-              }),
-          ]:
+          def post(endpoint, payload):
+              req = urllib.request.Request(
+                  f"{BASE}{endpoint}",
+                  data=json.dumps(payload).encode(),
+                  headers=headers
+              )
               try:
-                  req = urllib.request.Request(
-                      f"{BASE}/search",
-                      data=json.dumps(payload).encode(),
-                      headers={
-                          "Authorization": f"Bearer {token}",
-                          "Content-Type": "application/json",
-                          "Accept": "application/json",
-                      }
-                  )
                   with urllib.request.urlopen(req, timeout=20) as r:
-                      result = json.loads(r.read())
-                  total = result.get("totalResultNumber", "?")
-                  keys = list(result.keys())
-                  print(f"\n✅ {label}: total={total} clés={keys}")
-                  if result.get("results"):
-                      first = result["results"][0]
-                      print(f"   Premier: {json.dumps(first, ensure_ascii=False)[:300]}")
+                      return json.loads(r.read()), None
               except urllib.error.HTTPError as e:
-                  body = e.read().decode("utf-8", errors="replace")[:200]
-                  print(f"\n❌ {label}: HTTP {e.code} — {body}")
+                  return None, f"HTTP {e.code}: {e.read().decode()[:150]}"
               except Exception as e:
-                  print(f"\n❌ {label}: {e}")
+                  return None, str(e)
+
+          # 1. Regarder les facettes disponibles sur KALI sans filtre
+          # pour savoir quels filtres sont valides
+          result, err = post("/search", {
+              "fond": "KALI",
+              "recherche": {
+                  "champs": [],
+                  "operateur": "ET",
+                  "pageNumber": 1,
+                  "pageSize": 1,
+                  "sort": "PERTINENCE",
+                  "typePagination": "DEFAUT",
+                  "fromAdvancedRecherche": False
+              }
+          })
+          if result:
+              print(f"\n📊 Facettes disponibles dans KALI:")
+              for facet in result.get("facets", []):
+                  print(f"  {facet.get('name')}: {[v.get('value') for v in (facet.get('values') or [])[:5]]}")
+          else:
+              print(f"❌ facettes: {err}")
+
+          # 2. Tester différentes valeurs de nature
+          for nature_val in ["IDCC", "CCN", "CONVENTION_COLLECTIVE", "KALICONT"]:
+              result, err = post("/search", {
+                  "fond": "KALI",
+                  "recherche": {
+                      "champs": [],
+                      "filtres": [{"facette": "NATURE", "valeur": nature_val}],
+                      "operateur": "ET",
+                      "pageNumber": 1,
+                      "pageSize": 3,
+                      "sort": "PERTINENCE",
+                      "typePagination": "DEFAUT",
+                      "fromAdvancedRecherche": False
+                  }
+              })
+              if result:
+                  print(f"\n✅ NATURE={nature_val}: total={result.get('totalResultNumber')}")
+                  if result.get("results"):
+                      t = result["results"][0].get("titles", [{}])[0]
+                      print(f"   ex: {t.get('id')} — {t.get('title','')[:60]}")
+              else:
+                  print(f"❌ NATURE={nature_val}: {err[:80]}")
+
+          # 3. Essayer /list/kali
+          result, err = post("/list/kali", {"pageNumber": 1, "pageSize": 5})
+          if result:
+              print(f"\n✅ /list/kali: {list(result.keys())} total={result.get('totalResultNumber')}")
+          else:
+              print(f"❌ /list/kali: {err[:100]}")
+
+          # 4. Essayer /consult/kali avec un KALICONT connu (SYNTEC)
+          result, err = post("/consult/kali", {"id": "KALICONT000005635173"})
+          if result:
+              print(f"\n✅ /consult/kali SYNTEC: clés={list(result.keys())[:8]}")
+              # Chercher le num IDCC dans la réponse
+              txt = json.dumps(result)
+              import re
+              idcc = re.findall(r'"num"\s*:\s*"?(\d{4})"?', txt)
+              print(f"   IDCC trouvé: {idcc[:3]}")
+          else:
+              print(f"❌ /consult/kali: {err[:100]}")
           EOF
