@@ -1,6 +1,6 @@
 {
-  "last_updated": "02/04/2026 08:32",
-  "last_updated_iso": "2026-04-02T08:32:19.084055",
+  "last_updated": "02/04/2026 09:00",
+  "last_updated_iso": "2026-04-02T09:00:20.826385",
   "contact": "hspringragain@cftc.fr",
   "alertes": [
     {
@@ -32,7 +32,7 @@
       "date": "2026-04-02",
       "type": "info",
       "titre": "🔄 Données actualisées",
-      "message": "Le tableau de bord a été mis à jour le 02/04/2026 à 08:32.",
+      "message": "Le tableau de bord a été mis à jour le 02/04/2026 à 09:00.",
       "onglet": "conjoncture"
     }
   ],
@@ -193,7 +193,7 @@
     }
   ],
   "revue_presse": {
-    "derniere_maj": "02/04/2026 08:32",
+    "derniere_maj": "02/04/2026 09:00",
     "nb_sources": 7,
     "sources_noms": [
       "Le Monde Éco",
@@ -211,10 +211,22 @@
         "couleur": "#92400e",
         "emoji": "📊",
         "tag": "Presse économique",
-        "titre": "Air France-KLM annonce avoir déposé une offre pour prendre une part dans TAP Air Portugal",
-        "resume": "Outre Air France-KLM, les groupes Lufthansa et IAG (British Airways, Iberia, Aer Lingus...) ont aussi exprimé leur intérêt pour TAP et ont jusqu’à ce jeudi pour déposer une offre.",
-        "lien": "https://www.lefigaro.fr/societes/air-france-klm-annonce-avoir-depose-une-offre-pour-prendre-une-part-dans-tap-air-portugal-20260402",
-        "date_iso": "2026-04-02T10:05:02+02:00",
+        "titre": "La Bourse de Paris repart dans le rouge après le discours de Donald Trump",
+        "resume": "L’allocution de Donald Trump mercredi soir a douché les espoirs des marchés, qui espéraient des signes de fin rapide du conflit au Moyen-Orient.",
+        "lien": "https://www.lefigaro.fr/conjoncture/la-bourse-de-paris-repart-dans-le-rouge-apres-le-discours-de-donald-trump-20260402",
+        "date_iso": "2026-04-02T10:40:06+02:00",
+        "date_fr": "02/04/2026",
+        "pertinence": 0
+      },
+      {
+        "source": "Le Monde Éco",
+        "couleur": "#374151",
+        "emoji": "🌐",
+        "tag": "Presse économique",
+        "titre": "Dix ans après les « Panama Papers », Oxfam dénonce les ultrariches qui « exploitent toujours les systèmes offshore pour échapper à l’impôt »",
+        "resume": "« La fortune non imposée dissimulée dans les paradis fiscaux par les 0,1 % les plus riches est supérieure à la richesse totale de la moitié la plus pauvre de l’humanité (4,1 milliards de personnes) », écrit Oxfam, réclamant une lutte plus efficace contre l’évasion fiscale.",
+        "lien": "https://www.lemonde.fr/economie/article/2026/04/02/dix-ans-apres-les-panama-papers-oxfam-denonce-les-ultrariches-qui-exploitent-toujours-les-systemes-offshore-pour-echapper-a-l-impot_6676101_3234.html",
+        "date_iso": "2026-04-02T10:37:47+02:00",
         "date_fr": "02/04/2026",
         "pertinence": 0
       },
@@ -223,10 +235,34 @@
         "couleur": "#92400e",
         "emoji": "📊",
         "tag": "Presse économique",
-        "titre": "Neoen va construire la plus grosse installation de stockage d’électricité en France",
-        "resume": "L’assemblage des batteries, produites par le japonais Nidec, sera réalisé dans l’usine de ce dernier, à La Fouillouse, près de Saint-Étienne.",
-        "lien": "https://www.lefigaro.fr/societes/neoen-va-construire-la-plus-grosse-installation-de-stockage-d-electricite-en-france-20260402",
-        "date_iso": "2026-04-02T10:02:50+02:00",
+        "titre": "Carburant : l'organisation des routiers suspend ses actions après des «avancées» dans les négociations",
+        "resume": "Ces «avancées, certes imparfaites, mais néanmoins significatives» permettent «d’engager une suspension provisoire des mouvements dans les territoires», a annoncé l’OTRE mercredi soir dans un communiqué.",
+        "lien": "https://www.lefigaro.fr/conjoncture/carburant-l-organisation-des-routiers-suspend-ses-actions-apres-des-avancees-dans-les-negociations-20260402",
+        "date_iso": "2026-04-02T10:34:46+02:00",
+        "date_fr": "02/04/2026",
+        "pertinence": 1
+      },
+      {
+        "source": "Le Figaro Éco",
+        "couleur": "#92400e",
+        "emoji": "📊",
+        "tag": "Presse économique",
+        "titre": "Marc Schwartz : « La Monnaie de Paris est la start-up la plus ancienne de France »",
+        "resume": "ENTRETIEN - Son président-directeur général, nous dévoile les missions et les projets de cette institution plus que millénaire.",
+        "lien": "https://www.lefigaro.fr/conjoncture/marc-schwartz-la-monnaie-de-paris-est-la-start-up-la-plus-ancienne-de-france-20260402",
+        "date_iso": "2026-04-02T10:30:00+02:00",
+        "date_fr": "02/04/2026",
+        "pertinence": 0
+      },
+      {
+        "source": "Le Figaro Éco",
+        "couleur": "#92400e",
+        "emoji": "📊",
+        "tag": "Presse économique",
+        "titre": "Air France-KLM annonce avoir déposé une offre pour prendre une part dans TAP Air Portugal",
+        "resume": "Outre Air France-KLM, les groupes Lufthansa et IAG (British Airways, Iberia, Aer Lingus...) ont aussi exprimé leur intérêt pour TAP et ont jusqu’à ce jeudi pour déposer une offre.",
+        "lien": "https://www.lefigaro.fr/societes/air-france-klm-annonce-avoir-depose-une-offre-pour-prendre-une-part-dans-tap-air-portugal-20260402",
+        "date_iso": "2026-04-02T10:28:31+02:00",
         "date_fr": "02/04/2026",
         "pertinence": 0
       },
@@ -271,6 +307,18 @@
         "couleur": "#92400e",
         "emoji": "📊",
         "tag": "Presse économique",
+        "titre": "Un an après les droits de douane de Donald Trump, les marchés financiers s’en sont-ils vraiment remis ?",
+        "resume": "INFOGRAPHIES – Le 2 avril 2025, le président américain imposait ses tariffs aux pays du monde entier, provoquant alors un séisme sur les marchés. Qu’en est-il un an plus tard ?",
+        "lien": "https://www.lefigaro.fr/conjoncture/un-an-apres-les-droits-de-douane-de-donald-trump-les-marches-financiers-s-en-sont-ils-vraiment-remis-20260402",
+        "date_iso": "2026-04-02T09:50:53+02:00",
+        "date_fr": "02/04/2026",
+        "pertinence": 0
+      },
+      {
+        "source": "Le Figaro Éco",
+        "couleur": "#92400e",
+        "emoji": "📊",
+        "tag": "Presse économique",
         "titre": "« Ça va être de plus en plus difficile»: le patron des magasins U alerte sur le prix et la disponibilité du pétrole",
         "resume": "Quelques heures après l’allocution de Donald Trump, Dominique Schelcher s’est inquiété des conséquences de la poursuite de la guerre entre l’Iran et les États-Unis.",
         "lien": "https://www.lefigaro.fr/conjoncture/le-probleme-est-a-leur-niveau-dominique-schelcher-appelle-les-petroliers-a-prendre-sur-leurs-marges-20260402",
@@ -283,22 +331,10 @@
         "couleur": "#92400e",
         "emoji": "📊",
         "tag": "Presse économique",
-        "titre": "Environ 2000 foyers fortunés redressés sur les plus de 13.000 ne payant pas d’impôt sur le revenu",
-        "resume": "«Entre un quart et un tiers de ces foyers fiscaux ont fait l’objet d’un contrôle ces trois dernières années», et «58% de ces foyers» contrôlés «ont fait l’objet d’un redressement», a détaillé une responsable de la DGFiP à l’Assemblée.",
-        "lien": "https://www.lefigaro.fr/conjoncture/environ-2000-foyers-fortunes-redresses-sur-les-plus-de-13-000-ne-payant-pas-d-impot-sur-le-revenu-20260401",
-        "date_iso": "2026-04-02T09:36:00+02:00",
-        "date_fr": "02/04/2026",
-        "pertinence": 1
-      },
-      {
-        "source": "Le Figaro Éco",
-        "couleur": "#92400e",
-        "emoji": "📊",
-        "tag": "Presse économique",
-        "titre": "Billetterie «opaque», costumes sur mesure... La Cour des comptes épingle les dépenses «somptuaires» de la Métropole du Grand Paris lors des JO",
-        "resume": "Dans son rapport, l’institution pointe que le coût des actions engagées par la métropole dans le cadre des JO de Paris 2024 s’élève à 241,8 millions d’euros, «soit un montant équivalent à plus de deux ans et demi de sa capacité d’autofinancement».",
-        "lien": "https://www.lefigaro.fr/conjoncture/billetterie-opaque-costumes-sur-mesure-la-cour-des-comptes-epingle-les-depenses-somptuaires-de-la-metropole-du-grand-paris-lors-des-jo-20260401",
-        "date_iso": "2026-04-02T09:34:42+02:00",
+        "titre": "Action, Leroy Merlin, Shein... Quelles sont les enseignes préférées des Français en 2026 ?",
+        "resume": "Le classement, réalisé chaque année par EY-Parthenon, change très peu par rapport à 2025. «Les membres du top 10 sont identiques à l’an dernier, confirmant leur très fort ancrage dans le cœur des Français», souligne le cabinet.",
+        "lien": "https://www.lefigaro.fr/conso/action-leroy-merlin-shein-quelles-sont-les-enseignes-preferees-des-francais-en-2026-20260401",
+        "date_iso": "2026-04-02T09:39:53+02:00",
         "date_fr": "02/04/2026",
         "pertinence": 0
       },
@@ -331,10 +367,22 @@
         "couleur": "#92400e",
         "emoji": "📊",
         "tag": "Presse économique",
-        "titre": "La Cour des comptes préconise de recentrer les primes à l’achat de véhicules électriques sur les ménages modestes",
-        "resume": "S’élevant à 18 milliards d’euros entre 2018 et 2024, les aides d’État n’ont pas permis d’enrayer le déclin de la filière automobile, souligne la Cour des comptes.",
-        "lien": "https://www.lefigaro.fr/flash-eco/les-aides-a-l-automobile-doivent-etre-recentrees-sur-les-menages-modestes-demande-la-cour-des-comptes-20260401",
-        "date_iso": "2026-04-02T09:23:31+02:00",
+        "titre": "«Que le meilleur gagne !» : ils sont père et fille, tous deux entrepreneurs... et concurrents",
+        "resume": "Comme son père Marc, Emma Capron a monté une société d’intérim, dans la même région, en Vendée. L’entreprise du père et celle de sa fille se retrouvent régulièrement en concurrence auprès de certains clients. Et ils sont peu enclins à se faire des cadeaux.",
+        "lien": "https://www.lefigaro.fr/entrepreneur/que-le-meilleur-gagne-ils-sont-pere-et-fille-tous-deux-entrepreneurs-et-concurrents-20260402",
+        "date_iso": "2026-04-02T09:05:05+02:00",
+        "date_fr": "02/04/2026",
+        "pertinence": 1
+      },
+      {
+        "source": "Le Figaro Éco",
+        "couleur": "#92400e",
+        "emoji": "📊",
+        "tag": "Presse économique",
+        "titre": "«Âge d’or» industriel, réduction du déficit, pouvoir d’achat : un an après le «Jour de la Libération», quel bilan économique pour Donald Trump?",
+        "resume": "ENTRETIEN - La salve douanière lancée par le président américain était censée apporter la prospérité aux États-Unis. Les résultats sont pourtant loin des ambitions affichées, constate Antoine Bouët, économiste et directeur du Centre d’études prospectives et d’informations internationales (CEPII).",
+        "lien": "https://www.lefigaro.fr/conjoncture/age-d-or-industriel-reduction-du-deficit-pouvoir-d-achat-un-an-apres-le-jour-de-la-liberation-quel-bilan-economique-pour-donald-trump-20260402",
+        "date_iso": "2026-04-02T08:59:40+02:00",
         "date_fr": "02/04/2026",
         "pertinence": 1
       },
@@ -347,6 +395,18 @@
         "resume": "Dix parcs éoliens, représentant 10 gigawatts, vont être mis en concurrence. Trois projets sont prévus au large de Fécamp, en Seine-Maritime. Deux projets se situent en Bretagne, quatre en Méditerranée. Et un autre au large de l’île d’Oléron, en Charente-Maritime.",
         "lien": "https://www.lemonde.fr/economie/article/2026/04/02/eolien-en-mer-l-etat-relance-des-appels-d-offres-geants_6676089_3234.html",
         "date_iso": "2026-04-02T08:51:56+02:00",
+        "date_fr": "02/04/2026",
+        "pertinence": 0
+      },
+      {
+        "source": "Euractiv FR",
+        "couleur": "#0369a1",
+        "emoji": "🇪🇺",
+        "tag": "Europe & politique",
+        "titre": "Vers une taille unique pour les bagages cabine ? Bruxelles réfléchit à une harmonisation européenne",
+        "resume": "Comme si la polémique politique acharnée sur la gratuité des bagages à main ne suffisait pas, l'UE envisage désormais d'imposer des dimensions maximales The post Vers une taille unique pour les bagages cabine ? Bruxelles réfléchit à une harmonisation européenne appeared first on Euractiv FR .",
+        "lien": "https://euractiv.fr/news/vers-une-taille-unique-pour-les-bagages-cabine-bruxelles-reflechit-a-une-harmonisation-europeenne/",
+        "date_iso": "2026-04-02T08:42:57+00:00",
         "date_fr": "02/04/2026",
         "pertinence": 0
       },
@@ -505,66 +565,6 @@
         "date_iso": "2026-04-02T05:00:00+00:00",
         "date_fr": "02/04/2026",
         "pertinence": 0
-      },
-      {
-        "source": "Libération Éco",
-        "couleur": "#dc2626",
-        "emoji": "📰",
-        "tag": "Presse économique",
-        "titre": "«J’aspire à vivre en société» : à Lyon, une appli recense les lieux adaptés à la sensibilité des personnes autistes",
-        "resume": "Imaginé par le pôle psychiatrique universitaire du Vinatier de la métropole lyonnaise, avec l’aide de patients, cet outil numérique, pionnier en France, permet aux personnes autistes de surmonter leurs difficultés sensorielles pour accomplir les tâches du quotidien et favoriser leur vie sociale.",
-        "lien": "https://www.liberation.fr/societe/sante/jaspire-a-vivre-en-societe-a-lyon-une-appli-recense-les-lieux-adaptes-a-la-sensibilite-des-personnes-autistes-20260402_MPCLZVHLBRALHCMIVMOLDL2M7A/",
-        "date_iso": "2026-04-02T04:36:00+00:00",
-        "date_fr": "02/04/2026",
-        "pertinence": 0
-      },
-      {
-        "source": "Libération Éco",
-        "couleur": "#dc2626",
-        "emoji": "📰",
-        "tag": "Presse économique",
-        "titre": "Baisse de la fiscalité, blocage des prix, bonus ferroviaire… Face à la flambée des prix de l’essence, l’Europe carbure aux mesures",
-        "resume": "Face au choc énergétique engendré par la guerre en Iran, les gouvernements européens apportent des réponses dispersées à leurs populations, en misant pour la plupart sur le levier fiscal.",
-        "lien": "https://www.liberation.fr/economie/baisse-de-la-fiscalite-blocage-des-prix-bonus-ferroviaire-face-a-la-flambee-des-prix-de-lessence-leurope-carbure-aux-mesures-20260402_WF374J7JGJEANJM3UHJMDVEBPY/",
-        "date_iso": "2026-04-02T03:15:00+00:00",
-        "date_fr": "02/04/2026",
-        "pertinence": 1
-      },
-      {
-        "source": "Le Monde Éco",
-        "couleur": "#374151",
-        "emoji": "🌐",
-        "tag": "Presse économique",
-        "titre": "Avec sa nouvelle gamme électrique, BMW fait une leçon de « made in Europe »",
-        "resume": "Le constructeur a transformé son usine de Munich pour y produire la nouvelle Série 3, emblématique de sa gamme Neue Klasse, au fort contenu local. Ce qui ne l’empêche pas de refuser les nouvelles règles proposées par la Commission européenne.",
-        "lien": "https://www.lemonde.fr/economie/article/2026/04/02/avec-sa-nouvelle-gamme-electrique-bmw-fait-une-lecon-de-made-in-europe_6675954_3234.html",
-        "date_iso": "2026-04-02T00:00:07+02:00",
-        "date_fr": "02/04/2026",
-        "pertinence": 0
-      },
-      {
-        "source": "Terra Nova",
-        "couleur": "#0369a1",
-        "emoji": "🔬",
-        "tag": "Recherche politique",
-        "titre": "Quelle politique de transition énergétique dans les bâtiments résidentiels ?",
-        "resume": "Les objectifs de réduction des émissions de GES apparaissent particulièrement ambitieux dans le secteur du logement. Les rénovations des bâtiments impliquent des opérations massives et coûteuses, difficiles à industrialiser, à faire accepter et à financer. Il y a pourtant beaucoup à gagner, en terme",
-        "lien": "https://tnova.fr/economie-social/logement-politique-de-la-ville/quelle-politique-de-transition-energetique-dans-les-batiments-residentiels/",
-        "date_iso": "2026-04-02T00:00:00+02:00",
-        "date_fr": "02/04/2026",
-        "pertinence": 1
-      },
-      {
-        "source": "Le Monde Éco",
-        "couleur": "#374151",
-        "emoji": "🌐",
-        "tag": "Presse économique",
-        "titre": "La grève des anciens « Cora » repris par Carrefour : « On doit mettre leur tenue, s’adapter à toutes leurs méthodes de travail et au final on n’a aucune reconnaissance ! »",
-        "resume": "La CFTC avait appelé à la grève, mercredi, dans les magasins repris par le groupe Carrefour en 2024, pour dénoncer des écarts de rémunération persistants entre les anciens salariés de la chaîne et ceux de leur nouveau propriétaire.",
-        "lien": "https://www.lemonde.fr/economie/article/2026/04/01/la-greve-des-anciens-cora-repris-par-carrefour-on-doit-mettre-leur-tenue-s-adapter-a-toutes-leurs-methodes-de-travail-et-au-final-on-n-a-aucune-reconnaissance_6675953_3234.html",
-        "date_iso": "2026-04-01T23:58:29+02:00",
-        "date_fr": "01/04/2026",
-        "pertinence": 2
       }
     ]
   },
@@ -2897,7 +2897,7 @@
       "note_lecture": "Le TEC-10 mesure le rendement des emprunts d'Etat francais a 10 ans. Un taux eleve rencherit le cout de la dette publique et impacte les taux de credit immobilier."
     },
     "petrole_brent": {
-      "valeur": 108.54,
+      "valeur": 108.72,
       "date": "2026-04-02",
       "unite": "USD/baril",
       "source": "Yahoo Finance",
@@ -4417,16 +4417,16 @@
         },
         {
           "date": "2026-04-02",
-          "valeur": 108.54,
+          "valeur": 108.72,
           "ma50": 83.85,
           "ma200": 70.23
         }
       ],
       "variations": {
-        "jour": 7.3,
-        "semaine": 0.49,
-        "mois": 33.34,
-        "ytd": 78.67
+        "jour": 7.47,
+        "semaine": 0.66,
+        "mois": 33.56,
+        "ytd": 78.96
       },
       "min_max": {
         "min": 58.92,
@@ -4437,9 +4437,9 @@
       "note_lecture": "Le prix du Brent influence directement les couts de transport et d'energie, donc l'inflation et le pouvoir d'achat des salaries."
     },
     "cac40": {
-      "valeur": 7908.7,
+      "valeur": 7916.06,
       "date": "2026-04-02",
-      "variation_jour_pct": -0.91,
+      "variation_jour_pct": -0.82,
       "unite": "points",
       "source": "Yahoo Finance",
       "nb_points": 256,
@@ -5976,16 +5976,16 @@
         },
         {
           "date": "2026-04-02",
-          "valeur": 7908.7,
-          "ma50": 8129.57,
-          "ma200": 8001.13
+          "valeur": 7916.06,
+          "ma50": 8129.71,
+          "ma200": 8001.17
         }
       ],
       "variations": {
-        "jour": -0.91,
-        "semaine": 1.79,
-        "mois": -2.41,
-        "ytd": -3.5
+        "jour": -0.82,
+        "semaine": 1.89,
+        "mois": -2.32,
+        "ytd": -3.41
       },
       "min_max": {
         "min": 6863.02,
@@ -7566,7 +7566,7 @@
       "note_lecture": "Le taux de change euro-dollar determine le prix de tout ce qui est importe en dollars : petrole, matieres premieres, electronique. Un euro faible rencherit les importations et alimente l'inflation."
     },
     "or": {
-      "valeur": 4659.7,
+      "valeur": 4654.4,
       "date": "2026-04-02",
       "unite": "USD/oz",
       "source": "Yahoo Finance",
@@ -9086,16 +9086,16 @@
         },
         {
           "date": "2026-04-02",
-          "valeur": 4659.7,
-          "ma50": 4937.43,
-          "ma200": 4116.17
+          "valeur": 4654.4,
+          "ma50": 4937.33,
+          "ma200": 4116.14
         }
       ],
       "variations": {
-        "jour": -2.58,
-        "semaine": 6.5,
-        "mois": -8.77,
-        "ytd": 8.0
+        "jour": -2.69,
+        "semaine": 6.37,
+        "mois": -8.87,
+        "ytd": 7.88
       },
       "min_max": {
         "min": 2951.3,
@@ -13720,7 +13720,7 @@
       "note_lecture": "Le cuivre est le baromètre de l'activité industrielle mondiale ('Dr Copper'). Sa hausse signale une reprise économique, sa baisse anticipe un ralentissement. Utilisé massivement dans l'électrification et les énergies renouvelables."
     },
     "lme_aluminium": {
-      "valeur": 3429.25,
+      "valeur": 3418.75,
       "date": "2026-04-02",
       "unite": "cts/lb",
       "source": "Yahoo Finance",
@@ -15234,16 +15234,16 @@
         },
         {
           "date": "2026-04-02",
-          "valeur": 3429.25,
-          "ma50": 3145.12,
-          "ma200": 2786.33
+          "valeur": 3418.75,
+          "ma50": 3144.91,
+          "ma200": 2786.28
         }
       ],
       "variations": {
-        "jour": -0.67,
-        "semaine": 8.47,
-        "mois": 8.32,
-        "ytd": 16.72
+        "jour": -0.97,
+        "semaine": 8.14,
+        "mois": 7.99,
+        "ytd": 16.36
       },
       "min_max": {
         "min": 2166.25,
@@ -16782,1590 +16782,102 @@
       "note_lecture": "Le zinc est principalement utilisé pour la galvanisation de l'acier (anticorrosion). Son prix reflète la demande de l'industrie de la construction et de l'automobile."
     },
     "lme_nickel": {
-      "valeur": 15755.28,
-      "date": "2026-04-01",
+      "valeur": 17173.1,
+      "date": "2026-02-01",
       "unite": "$/t",
-      "source": "Valeur statique (fallback)",
-      "nb_points": 261,
+      "source": "FRED PNICKUSDM (mensuel)",
+      "nb_points": 13,
       "historique": [
         {
-          "date": "2025-04-02",
-          "valeur": 15500.0,
+          "date": "2025-02-01",
+          "valeur": 15287.03,
           "ma50": null,
           "ma200": null
         },
         {
-          "date": "2025-04-03",
-          "valeur": 15520.0,
+          "date": "2025-03-01",
+          "valeur": 16048.2,
           "ma50": null,
           "ma200": null
         },
         {
-          "date": "2025-04-04",
-          "valeur": 15539.98,
-          "ma50": null,
-          "ma200": null
-        },
-        {
-          "date": "2025-04-07",
-          "valeur": 15599.74,
-          "ma50": null,
-          "ma200": null
-        },
-        {
-          "date": "2025-04-08",
-          "valeur": 15619.55,
-          "ma50": null,
-          "ma200": null
-        },
-        {
-          "date": "2025-04-09",
-          "valeur": 15639.29,
-          "ma50": null,
-          "ma200": null
-        },
-        {
-          "date": "2025-04-10",
-          "valeur": 15658.94,
-          "ma50": null,
-          "ma200": null
-        },
-        {
-          "date": "2025-04-11",
-          "valeur": 15678.49,
-          "ma50": null,
-          "ma200": null
-        },
-        {
-          "date": "2025-04-14",
-          "valeur": 15736.42,
-          "ma50": null,
-          "ma200": null
-        },
-        {
-          "date": "2025-04-15",
-          "valeur": 15755.45,
-          "ma50": null,
-          "ma200": null
-        },
-        {
-          "date": "2025-04-16",
-          "valeur": 15774.32,
-          "ma50": null,
-          "ma200": null
-        },
-        {
-          "date": "2025-04-17",
-          "valeur": 15793.02,
-          "ma50": null,
-          "ma200": null
-        },
-        {
-          "date": "2025-04-18",
-          "valeur": 15811.53,
-          "ma50": null,
-          "ma200": null
-        },
-        {
-          "date": "2025-04-21",
-          "valeur": 15865.87,
-          "ma50": null,
-          "ma200": null
-        },
-        {
-          "date": "2025-04-22",
-          "valeur": 15883.54,
-          "ma50": null,
-          "ma200": null
-        },
-        {
-          "date": "2025-04-23",
-          "valeur": 15900.97,
-          "ma50": null,
-          "ma200": null
-        },
-        {
-          "date": "2025-04-24",
-          "valeur": 15918.15,
-          "ma50": null,
-          "ma200": null
-        },
-        {
-          "date": "2025-04-25",
-          "valeur": 15935.07,
-          "ma50": null,
-          "ma200": null
-        },
-        {
-          "date": "2025-04-28",
-          "valeur": 15984.15,
-          "ma50": null,
-          "ma200": null
-        },
-        {
-          "date": "2025-04-29",
-          "valeur": 15999.92,
-          "ma50": null,
-          "ma200": null
-        },
-        {
-          "date": "2025-04-30",
-          "valeur": 16015.37,
+          "date": "2025-04-01",
+          "valeur": 15146.0,
           "ma50": null,
           "ma200": null
         },
         {
           "date": "2025-05-01",
-          "valeur": 16030.51,
+          "valeur": 15350.4,
           "ma50": null,
           "ma200": null
         },
         {
-          "date": "2025-05-02",
-          "valeur": 16045.31,
+          "date": "2025-06-01",
+          "valeur": 15003.11,
           "ma50": null,
-          "ma200": null
-        },
-        {
-          "date": "2025-05-05",
-          "valeur": 16087.64,
-          "ma50": null,
-          "ma200": null
-        },
-        {
-          "date": "2025-05-06",
-          "valeur": 16101.02,
-          "ma50": null,
-          "ma200": null
-        },
-        {
-          "date": "2025-05-07",
-          "valeur": 16114.03,
-          "ma50": null,
-          "ma200": null
-        },
-        {
-          "date": "2025-05-08",
-          "valeur": 16126.66,
-          "ma50": null,
-          "ma200": null
-        },
-        {
-          "date": "2025-05-09",
-          "valeur": 16138.9,
-          "ma50": null,
-          "ma200": null
-        },
-        {
-          "date": "2025-05-12",
-          "valeur": 16173.18,
-          "ma50": null,
-          "ma200": null
-        },
-        {
-          "date": "2025-05-13",
-          "valeur": 16183.77,
-          "ma50": null,
-          "ma200": null
-        },
-        {
-          "date": "2025-05-14",
-          "valeur": 16193.94,
-          "ma50": null,
-          "ma200": null
-        },
-        {
-          "date": "2025-05-15",
-          "valeur": 16203.67,
-          "ma50": null,
-          "ma200": null
-        },
-        {
-          "date": "2025-05-16",
-          "valeur": 16212.97,
-          "ma50": null,
-          "ma200": null
-        },
-        {
-          "date": "2025-05-19",
-          "valeur": 16238.15,
-          "ma50": null,
-          "ma200": null
-        },
-        {
-          "date": "2025-05-20",
-          "valeur": 16245.63,
-          "ma50": null,
-          "ma200": null
-        },
-        {
-          "date": "2025-05-21",
-          "valeur": 16252.64,
-          "ma50": null,
-          "ma200": null
-        },
-        {
-          "date": "2025-05-22",
-          "valeur": 16259.19,
-          "ma50": null,
-          "ma200": null
-        },
-        {
-          "date": "2025-05-23",
-          "valeur": 16265.26,
-          "ma50": null,
-          "ma200": null
-        },
-        {
-          "date": "2025-05-26",
-          "valeur": 16280.58,
-          "ma50": null,
-          "ma200": null
-        },
-        {
-          "date": "2025-05-27",
-          "valeur": 16284.71,
-          "ma50": null,
-          "ma200": null
-        },
-        {
-          "date": "2025-05-28",
-          "valeur": 16288.36,
-          "ma50": null,
-          "ma200": null
-        },
-        {
-          "date": "2025-05-29",
-          "valeur": 16291.51,
-          "ma50": null,
-          "ma200": null
-        },
-        {
-          "date": "2025-05-30",
-          "valeur": 16294.17,
-          "ma50": null,
-          "ma200": null
-        },
-        {
-          "date": "2025-06-02",
-          "valeur": 16299.16,
-          "ma50": null,
-          "ma200": null
-        },
-        {
-          "date": "2025-06-03",
-          "valeur": 16299.83,
-          "ma50": null,
-          "ma200": null
-        },
-        {
-          "date": "2025-06-04",
-          "valeur": 16299.99,
-          "ma50": null,
-          "ma200": null
-        },
-        {
-          "date": "2025-06-05",
-          "valeur": 16299.66,
-          "ma50": null,
-          "ma200": null
-        },
-        {
-          "date": "2025-06-06",
-          "valeur": 16298.83,
-          "ma50": null,
-          "ma200": null
-        },
-        {
-          "date": "2025-06-09",
-          "valeur": 16293.33,
-          "ma50": null,
-          "ma200": null
-        },
-        {
-          "date": "2025-06-10",
-          "valeur": 16290.51,
-          "ma50": 16030.46,
-          "ma200": null
-        },
-        {
-          "date": "2025-06-11",
-          "valeur": 16287.19,
-          "ma50": 16046.2,
-          "ma200": null
-        },
-        {
-          "date": "2025-06-12",
-          "valeur": 16283.38,
-          "ma50": 16061.47,
-          "ma200": null
-        },
-        {
-          "date": "2025-06-13",
-          "valeur": 16279.08,
-          "ma50": 16076.25,
-          "ma200": null
-        },
-        {
-          "date": "2025-06-16",
-          "valeur": 16263.27,
-          "ma50": 16089.52,
-          "ma200": null
-        },
-        {
-          "date": "2025-06-17",
-          "valeur": 16257.04,
-          "ma50": 16102.27,
-          "ma200": null
-        },
-        {
-          "date": "2025-06-18",
-          "valeur": 16250.34,
-          "ma50": 16114.49,
-          "ma200": null
-        },
-        {
-          "date": "2025-06-19",
-          "valeur": 16243.17,
-          "ma50": 16126.18,
-          "ma200": null
-        },
-        {
-          "date": "2025-06-20",
-          "valeur": 16235.53,
-          "ma50": 16137.32,
-          "ma200": null
-        },
-        {
-          "date": "2025-06-23",
-          "valeur": 16209.89,
-          "ma50": 16146.79,
-          "ma200": null
-        },
-        {
-          "date": "2025-06-24",
-          "valeur": 16200.45,
-          "ma50": 16155.69,
-          "ma200": null
-        },
-        {
-          "date": "2025-06-25",
-          "valeur": 16190.57,
-          "ma50": 16164.01,
-          "ma200": null
-        },
-        {
-          "date": "2025-06-26",
-          "valeur": 16180.26,
-          "ma50": 16171.76,
-          "ma200": null
-        },
-        {
-          "date": "2025-06-27",
-          "valeur": 16169.52,
-          "ma50": 16178.92,
-          "ma200": null
-        },
-        {
-          "date": "2025-06-30",
-          "valeur": 16134.83,
-          "ma50": 16184.3,
           "ma200": null
         },
         {
           "date": "2025-07-01",
-          "valeur": 16122.46,
-          "ma50": 16189.07,
-          "ma200": null
-        },
-        {
-          "date": "2025-07-02",
-          "valeur": 16109.7,
-          "ma50": 16193.25,
-          "ma200": null
-        },
-        {
-          "date": "2025-07-03",
-          "valeur": 16096.56,
-          "ma50": 16196.82,
-          "ma200": null
-        },
-        {
-          "date": "2025-07-04",
-          "valeur": 16083.05,
-          "ma50": 16199.78,
-          "ma200": null
-        },
-        {
-          "date": "2025-07-07",
-          "valeur": 16040.37,
-          "ma50": 16200.9,
-          "ma200": null
-        },
-        {
-          "date": "2025-07-08",
-          "valeur": 16025.46,
-          "ma50": 16201.41,
-          "ma200": null
-        },
-        {
-          "date": "2025-07-09",
-          "valeur": 16010.21,
-          "ma50": 16201.31,
-          "ma200": null
-        },
-        {
-          "date": "2025-07-10",
-          "valeur": 15994.65,
-          "ma50": 16200.59,
-          "ma200": null
-        },
-        {
-          "date": "2025-07-11",
-          "valeur": 15978.78,
-          "ma50": 16199.26,
-          "ma200": null
-        },
-        {
-          "date": "2025-07-14",
-          "valeur": 15929.41,
-          "ma50": 16196.1,
-          "ma200": null
-        },
-        {
-          "date": "2025-07-15",
-          "valeur": 15912.4,
-          "ma50": 16192.32,
-          "ma200": null
-        },
-        {
-          "date": "2025-07-16",
-          "valeur": 15895.14,
-          "ma50": 16187.95,
-          "ma200": null
-        },
-        {
-          "date": "2025-07-17",
-          "valeur": 15877.62,
-          "ma50": 16182.97,
-          "ma200": null
-        },
-        {
-          "date": "2025-07-18",
-          "valeur": 15859.88,
-          "ma50": 16177.39,
-          "ma200": null
-        },
-        {
-          "date": "2025-07-21",
-          "valeur": 15805.33,
-          "ma50": 16170.03,
-          "ma200": null
-        },
-        {
-          "date": "2025-07-22",
-          "valeur": 15786.75,
-          "ma50": 16162.09,
-          "ma200": null
-        },
-        {
-          "date": "2025-07-23",
-          "valeur": 15767.99,
-          "ma50": 16153.57,
-          "ma200": null
-        },
-        {
-          "date": "2025-07-24",
-          "valeur": 15749.06,
-          "ma50": 16144.48,
-          "ma200": null
-        },
-        {
-          "date": "2025-07-25",
-          "valeur": 15729.98,
-          "ma50": 16134.82,
-          "ma200": null
-        },
-        {
-          "date": "2025-07-28",
-          "valeur": 15671.92,
-          "ma50": 16123.49,
-          "ma200": null
-        },
-        {
-          "date": "2025-07-29",
-          "valeur": 15652.34,
-          "ma50": 16111.63,
-          "ma200": null
-        },
-        {
-          "date": "2025-07-30",
-          "valeur": 15632.66,
-          "ma50": 16099.23,
-          "ma200": null
-        },
-        {
-          "date": "2025-07-31",
-          "valeur": 15612.9,
-          "ma50": 16086.3,
+          "valeur": 15034.02,
+          "ma50": null,
           "ma200": null
         },
         {
           "date": "2025-08-01",
-          "valeur": 15593.06,
-          "ma50": 16072.86,
-          "ma200": null
-        },
-        {
-          "date": "2025-08-04",
-          "valeur": 15533.26,
-          "ma50": 16057.91,
-          "ma200": null
-        },
-        {
-          "date": "2025-08-05",
-          "valeur": 15513.27,
-          "ma50": 16042.48,
-          "ma200": null
-        },
-        {
-          "date": "2025-08-06",
-          "valeur": 15493.27,
-          "ma50": 16026.58,
-          "ma200": null
-        },
-        {
-          "date": "2025-08-07",
-          "valeur": 15473.28,
-          "ma50": 16010.22,
-          "ma200": null
-        },
-        {
-          "date": "2025-08-08",
-          "valeur": 15453.3,
-          "ma50": 15993.4,
-          "ma200": null
-        },
-        {
-          "date": "2025-08-11",
-          "valeur": 15393.59,
-          "ma50": 15975.29,
-          "ma200": null
-        },
-        {
-          "date": "2025-08-12",
-          "valeur": 15373.8,
-          "ma50": 15956.77,
-          "ma200": null
-        },
-        {
-          "date": "2025-08-13",
-          "valeur": 15354.1,
-          "ma50": 15937.85,
-          "ma200": null
-        },
-        {
-          "date": "2025-08-14",
-          "valeur": 15334.48,
-          "ma50": 15918.54,
-          "ma200": null
-        },
-        {
-          "date": "2025-08-15",
-          "valeur": 15314.96,
-          "ma50": 15898.87,
-          "ma200": null
-        },
-        {
-          "date": "2025-08-18",
-          "valeur": 15257.17,
-          "ma50": 15878.14,
-          "ma200": null
-        },
-        {
-          "date": "2025-08-19",
-          "valeur": 15238.19,
-          "ma50": 15857.1,
-          "ma200": null
-        },
-        {
-          "date": "2025-08-20",
-          "valeur": 15219.37,
-          "ma50": 15835.74,
-          "ma200": null
-        },
-        {
-          "date": "2025-08-21",
-          "valeur": 15200.73,
-          "ma50": 15814.09,
-          "ma200": null
-        },
-        {
-          "date": "2025-08-22",
-          "valeur": 15182.28,
-          "ma50": 15792.15,
-          "ma200": null
-        },
-        {
-          "date": "2025-08-25",
-          "valeur": 15128.16,
-          "ma50": 15769.45,
-          "ma200": null
-        },
-        {
-          "date": "2025-08-26",
-          "valeur": 15110.57,
-          "ma50": 15746.52,
-          "ma200": null
-        },
-        {
-          "date": "2025-08-27",
-          "valeur": 15093.22,
-          "ma50": 15723.38,
-          "ma200": null
-        },
-        {
-          "date": "2025-08-28",
-          "valeur": 15076.13,
-          "ma50": 15700.04,
-          "ma200": null
-        },
-        {
-          "date": "2025-08-29",
-          "valeur": 15059.3,
-          "ma50": 15676.51,
+          "valeur": 14948.06,
+          "ma50": null,
           "ma200": null
         },
         {
           "date": "2025-09-01",
-          "valeur": 15010.51,
-          "ma50": 15652.52,
-          "ma200": null
-        },
-        {
-          "date": "2025-09-02",
-          "valeur": 14994.85,
-          "ma50": 15628.41,
-          "ma200": null
-        },
-        {
-          "date": "2025-09-03",
-          "valeur": 14979.5,
-          "ma50": 15604.19,
-          "ma200": null
-        },
-        {
-          "date": "2025-09-04",
-          "valeur": 14964.48,
-          "ma50": 15579.88,
-          "ma200": null
-        },
-        {
-          "date": "2025-09-05",
-          "valeur": 14949.79,
-          "ma50": 15555.48,
-          "ma200": null
-        },
-        {
-          "date": "2025-09-08",
-          "valeur": 14907.82,
-          "ma50": 15530.94,
-          "ma200": null
-        },
-        {
-          "date": "2025-09-09",
-          "valeur": 14894.56,
-          "ma50": 15506.38,
-          "ma200": null
-        },
-        {
-          "date": "2025-09-10",
-          "valeur": 14881.68,
-          "ma50": 15481.82,
-          "ma200": null
-        },
-        {
-          "date": "2025-09-11",
-          "valeur": 14869.18,
-          "ma50": 15457.28,
-          "ma200": null
-        },
-        {
-          "date": "2025-09-12",
-          "valeur": 14857.08,
-          "ma50": 15432.76,
-          "ma200": null
-        },
-        {
-          "date": "2025-09-15",
-          "valeur": 14823.21,
-          "ma50": 15408.41,
-          "ma200": null
-        },
-        {
-          "date": "2025-09-16",
-          "valeur": 14812.76,
-          "ma50": 15384.16,
-          "ma200": null
-        },
-        {
-          "date": "2025-09-17",
-          "valeur": 14802.74,
-          "ma50": 15360.01,
-          "ma200": null
-        },
-        {
-          "date": "2025-09-18",
-          "valeur": 14793.15,
-          "ma50": 15335.98,
-          "ma200": null
-        },
-        {
-          "date": "2025-09-19",
-          "valeur": 14784.01,
-          "ma50": 15312.08,
-          "ma200": null
-        },
-        {
-          "date": "2025-09-22",
-          "valeur": 14759.28,
-          "ma50": 15288.68,
-          "ma200": null
-        },
-        {
-          "date": "2025-09-23",
-          "valeur": 14751.96,
-          "ma50": 15265.47,
-          "ma200": null
-        },
-        {
-          "date": "2025-09-24",
-          "valeur": 14745.1,
-          "ma50": 15242.47,
-          "ma200": null
-        },
-        {
-          "date": "2025-09-25",
-          "valeur": 14738.72,
-          "ma50": 15219.69,
-          "ma200": null
-        },
-        {
-          "date": "2025-09-26",
-          "valeur": 14732.81,
-          "ma50": 15197.15,
-          "ma200": null
-        },
-        {
-          "date": "2025-09-29",
-          "valeur": 14717.98,
-          "ma50": 15175.41,
-          "ma200": null
-        },
-        {
-          "date": "2025-09-30",
-          "valeur": 14714.0,
-          "ma50": 15153.95,
+          "valeur": 15103.18,
+          "ma50": null,
           "ma200": null
         },
         {
           "date": "2025-10-01",
-          "valeur": 14710.52,
-          "ma50": 15132.8,
+          "valeur": 15092.11,
+          "ma50": null,
           "ma200": null
         },
         {
-          "date": "2025-10-02",
-          "valeur": 14707.54,
-          "ma50": 15111.97,
-          "ma200": null
-        },
-        {
-          "date": "2025-10-03",
-          "valeur": 14705.05,
-          "ma50": 15091.47,
-          "ma200": null
-        },
-        {
-          "date": "2025-10-06",
-          "valeur": 14700.56,
-          "ma50": 15072.04,
-          "ma200": null
-        },
-        {
-          "date": "2025-10-07",
-          "valeur": 14700.06,
-          "ma50": 15053.0,
-          "ma200": null
-        },
-        {
-          "date": "2025-10-08",
-          "valeur": 14700.06,
-          "ma50": 15034.35,
-          "ma200": null
-        },
-        {
-          "date": "2025-10-09",
-          "valeur": 14700.57,
-          "ma50": 15016.1,
-          "ma200": null
-        },
-        {
-          "date": "2025-10-10",
-          "valeur": 14701.57,
-          "ma50": 14998.27,
-          "ma200": null
-        },
-        {
-          "date": "2025-10-13",
-          "valeur": 14707.56,
-          "ma50": 14981.76,
-          "ma200": null
-        },
-        {
-          "date": "2025-10-14",
-          "valeur": 14710.55,
-          "ma50": 14965.7,
-          "ma200": null
-        },
-        {
-          "date": "2025-10-15",
-          "valeur": 14714.04,
-          "ma50": 14950.12,
-          "ma200": null
-        },
-        {
-          "date": "2025-10-16",
-          "valeur": 14718.01,
-          "ma50": 14935.01,
-          "ma200": null
-        },
-        {
-          "date": "2025-10-17",
-          "valeur": 14722.48,
-          "ma50": 14920.4,
-          "ma200": null
-        },
-        {
-          "date": "2025-10-20",
-          "valeur": 14738.77,
-          "ma50": 14907.3,
-          "ma200": null
-        },
-        {
-          "date": "2025-10-21",
-          "valeur": 14745.16,
-          "ma50": 14894.73,
-          "ma200": null
-        },
-        {
-          "date": "2025-10-22",
-          "valeur": 14752.02,
-          "ma50": 14882.69,
-          "ma200": null
-        },
-        {
-          "date": "2025-10-23",
-          "valeur": 14759.35,
-          "ma50": 14871.18,
-          "ma200": null
-        },
-        {
-          "date": "2025-10-24",
-          "valeur": 14767.14,
-          "ma50": 14860.23,
-          "ma200": null
-        },
-        {
-          "date": "2025-10-27",
-          "valeur": 14793.24,
-          "ma50": 14850.95,
-          "ma200": null
-        },
-        {
-          "date": "2025-10-28",
-          "valeur": 14802.83,
-          "ma50": 14842.24,
-          "ma200": null
-        },
-        {
-          "date": "2025-10-29",
-          "valeur": 14812.85,
-          "ma50": 14834.11,
-          "ma200": null
-        },
-        {
-          "date": "2025-10-30",
-          "valeur": 14823.31,
-          "ma50": 14826.56,
-          "ma200": null
-        },
-        {
-          "date": "2025-10-31",
-          "valeur": 14834.19,
-          "ma50": 14819.6,
-          "ma200": null
-        },
-        {
-          "date": "2025-11-03",
-          "valeur": 14869.29,
-          "ma50": 14814.42,
-          "ma200": null
-        },
-        {
-          "date": "2025-11-04",
-          "valeur": 14881.79,
-          "ma50": 14809.85,
-          "ma200": null
-        },
-        {
-          "date": "2025-11-05",
-          "valeur": 14894.67,
-          "ma50": 14805.88,
-          "ma200": null
-        },
-        {
-          "date": "2025-11-06",
-          "valeur": 14907.94,
-          "ma50": 14802.51,
-          "ma200": null
-        },
-        {
-          "date": "2025-11-07",
-          "valeur": 14921.57,
-          "ma50": 14799.76,
-          "ma200": null
-        },
-        {
-          "date": "2025-11-10",
-          "valeur": 14964.61,
-          "ma50": 14798.84,
-          "ma200": null
-        },
-        {
-          "date": "2025-11-11",
-          "valeur": 14979.63,
-          "ma50": 14798.53,
-          "ma200": null
-        },
-        {
-          "date": "2025-11-12",
-          "valeur": 14994.99,
-          "ma50": 14798.84,
-          "ma200": null
-        },
-        {
-          "date": "2025-11-13",
-          "valeur": 15010.65,
-          "ma50": 14799.77,
-          "ma200": null
-        },
-        {
-          "date": "2025-11-14",
-          "valeur": 15026.63,
-          "ma50": 14801.3,
-          "ma200": null
-        },
-        {
-          "date": "2025-11-17",
-          "valeur": 15076.28,
-          "ma50": 14804.67,
-          "ma200": null
-        },
-        {
-          "date": "2025-11-18",
-          "valeur": 15093.38,
-          "ma50": 14808.65,
-          "ma200": null
-        },
-        {
-          "date": "2025-11-19",
-          "valeur": 15110.73,
-          "ma50": 14813.23,
-          "ma200": null
-        },
-        {
-          "date": "2025-11-20",
-          "valeur": 15128.32,
-          "ma50": 14818.41,
-          "ma200": null
-        },
-        {
-          "date": "2025-11-21",
-          "valeur": 15146.14,
-          "ma50": 14824.2,
-          "ma200": null
-        },
-        {
-          "date": "2025-11-24",
-          "valeur": 15200.9,
-          "ma50": 14831.75,
-          "ma200": null
-        },
-        {
-          "date": "2025-11-25",
-          "valeur": 15219.54,
-          "ma50": 14839.88,
-          "ma200": null
-        },
-        {
-          "date": "2025-11-26",
-          "valeur": 15238.36,
-          "ma50": 14848.6,
-          "ma200": null
-        },
-        {
-          "date": "2025-11-27",
-          "valeur": 15257.34,
-          "ma50": 14857.88,
-          "ma200": null
-        },
-        {
-          "date": "2025-11-28",
-          "valeur": 15276.47,
-          "ma50": 14867.73,
+          "date": "2025-11-01",
+          "valeur": 14670.77,
+          "ma50": null,
           "ma200": null
         },
         {
           "date": "2025-12-01",
-          "valeur": 15334.65,
-          "ma50": 14879.24,
-          "ma200": null
-        },
-        {
-          "date": "2025-12-02",
-          "valeur": 15354.27,
-          "ma50": 14891.28,
-          "ma200": null
-        },
-        {
-          "date": "2025-12-03",
-          "valeur": 15373.98,
-          "ma50": 14903.86,
-          "ma200": null
-        },
-        {
-          "date": "2025-12-04",
-          "valeur": 15393.77,
-          "ma50": 14916.96,
-          "ma200": null
-        },
-        {
-          "date": "2025-12-05",
-          "valeur": 15413.62,
-          "ma50": 14930.58,
-          "ma200": null
-        },
-        {
-          "date": "2025-12-08",
-          "valeur": 15473.46,
-          "ma50": 14945.69,
-          "ma200": null
-        },
-        {
-          "date": "2025-12-09",
-          "valeur": 15493.45,
-          "ma50": 14961.28,
-          "ma200": null
-        },
-        {
-          "date": "2025-12-10",
-          "valeur": 15513.45,
-          "ma50": 14977.34,
-          "ma200": null
-        },
-        {
-          "date": "2025-12-11",
-          "valeur": 15533.44,
-          "ma50": 14993.85,
-          "ma200": null
-        },
-        {
-          "date": "2025-12-12",
-          "valeur": 15553.41,
-          "ma50": 15010.82,
-          "ma200": null
-        },
-        {
-          "date": "2025-12-15",
-          "valeur": 15613.07,
-          "ma50": 15029.07,
-          "ma200": null
-        },
-        {
-          "date": "2025-12-16",
-          "valeur": 15632.83,
-          "ma50": 15047.73,
-          "ma200": null
-        },
-        {
-          "date": "2025-12-17",
-          "valeur": 15652.51,
-          "ma50": 15066.78,
-          "ma200": null
-        },
-        {
-          "date": "2025-12-18",
-          "valeur": 15672.1,
-          "ma50": 15086.21,
-          "ma200": null
-        },
-        {
-          "date": "2025-12-19",
-          "valeur": 15691.57,
-          "ma50": 15106.01,
-          "ma200": null
-        },
-        {
-          "date": "2025-12-22",
-          "valeur": 15749.23,
-          "ma50": 15126.84,
-          "ma200": null
-        },
-        {
-          "date": "2025-12-23",
-          "valeur": 15768.16,
-          "ma50": 15147.99,
-          "ma200": null
-        },
-        {
-          "date": "2025-12-24",
-          "valeur": 15786.92,
-          "ma50": 15169.45,
-          "ma200": null
-        },
-        {
-          "date": "2025-12-25",
-          "valeur": 15805.49,
-          "ma50": 15191.2,
-          "ma200": null
-        },
-        {
-          "date": "2025-12-26",
-          "valeur": 15823.88,
-          "ma50": 15213.23,
-          "ma200": null
-        },
-        {
-          "date": "2025-12-29",
-          "valeur": 15877.78,
-          "ma50": 15236.01,
-          "ma200": null
-        },
-        {
-          "date": "2025-12-30",
-          "valeur": 15895.29,
-          "ma50": 15259.01,
-          "ma200": null
-        },
-        {
-          "date": "2025-12-31",
-          "valeur": 15912.55,
-          "ma50": 15282.22,
+          "valeur": 14879.03,
+          "ma50": null,
           "ma200": null
         },
         {
           "date": "2026-01-01",
-          "valeur": 15929.56,
-          "ma50": 15305.62,
+          "valeur": 17710.86,
+          "ma50": null,
           "ma200": null
         },
         {
-          "date": "2026-01-02",
-          "valeur": 15946.29,
-          "ma50": 15329.21,
+          "date": "2026-02-01",
+          "valeur": 17173.1,
+          "ma50": null,
           "ma200": null
-        },
-        {
-          "date": "2026-01-05",
-          "valeur": 15994.79,
-          "ma50": 15353.24,
-          "ma200": null
-        },
-        {
-          "date": "2026-01-06",
-          "valeur": 16010.35,
-          "ma50": 15377.39,
-          "ma200": 15526.8
-        },
-        {
-          "date": "2026-01-07",
-          "valeur": 16025.59,
-          "ma50": 15401.64,
-          "ma200": 15529.42
-        },
-        {
-          "date": "2026-01-08",
-          "valeur": 16040.5,
-          "ma50": 15425.99,
-          "ma200": 15532.03
-        },
-        {
-          "date": "2026-01-09",
-          "valeur": 16055.08,
-          "ma50": 15450.41,
-          "ma200": 15534.6
-        },
-        {
-          "date": "2026-01-12",
-          "valeur": 16096.68,
-          "ma50": 15474.95,
-          "ma200": 15537.09
-        },
-        {
-          "date": "2026-01-13",
-          "valeur": 16109.82,
-          "ma50": 15499.51,
-          "ma200": 15539.54
-        },
-        {
-          "date": "2026-01-14",
-          "valeur": 16122.57,
-          "ma50": 15524.07,
-          "ma200": 15541.95
-        },
-        {
-          "date": "2026-01-15",
-          "valeur": 16134.93,
-          "ma50": 15548.61,
-          "ma200": 15544.33
-        },
-        {
-          "date": "2026-01-16",
-          "valeur": 16146.9,
-          "ma50": 15573.12,
-          "ma200": 15546.68
-        },
-        {
-          "date": "2026-01-19",
-          "valeur": 16180.35,
-          "ma50": 15597.43,
-          "ma200": 15548.9
-        },
-        {
-          "date": "2026-01-20",
-          "valeur": 16190.66,
-          "ma50": 15621.65,
-          "ma200": 15551.07
-        },
-        {
-          "date": "2026-01-21",
-          "valeur": 16200.53,
-          "ma50": 15645.76,
-          "ma200": 15553.2
-        },
-        {
-          "date": "2026-01-22",
-          "valeur": 16209.97,
-          "ma50": 15669.75,
-          "ma200": 15555.29
-        },
-        {
-          "date": "2026-01-23",
-          "valeur": 16218.97,
-          "ma50": 15693.6,
-          "ma200": 15557.33
-        },
-        {
-          "date": "2026-01-26",
-          "valeur": 16243.23,
-          "ma50": 15716.94,
-          "ma200": 15559.21
-        },
-        {
-          "date": "2026-01-27",
-          "valeur": 16250.4,
-          "ma50": 15740.08,
-          "ma200": 15561.05
-        },
-        {
-          "date": "2026-01-28",
-          "valeur": 16257.1,
-          "ma50": 15763.0,
-          "ma200": 15562.83
-        },
-        {
-          "date": "2026-01-29",
-          "valeur": 16263.32,
-          "ma50": 15785.7,
-          "ma200": 15564.55
-        },
-        {
-          "date": "2026-01-30",
-          "valeur": 16269.07,
-          "ma50": 15808.16,
-          "ma200": 15566.22
-        },
-        {
-          "date": "2026-02-02",
-          "valeur": 16283.41,
-          "ma50": 15829.81,
-          "ma200": 15567.72
-        },
-        {
-          "date": "2026-02-03",
-          "valeur": 16287.22,
-          "ma50": 15851.17,
-          "ma200": 15569.16
-        },
-        {
-          "date": "2026-02-04",
-          "valeur": 16290.53,
-          "ma50": 15872.21,
-          "ma200": 15570.53
-        },
-        {
-          "date": "2026-02-05",
-          "valeur": 16293.35,
-          "ma50": 15892.93,
-          "ma200": 15571.85
-        },
-        {
-          "date": "2026-02-06",
-          "valeur": 16295.68,
-          "ma50": 15913.31,
-          "ma200": 15573.1
-        },
-        {
-          "date": "2026-02-09",
-          "valeur": 16299.66,
-          "ma50": 15932.61,
-          "ma200": 15574.16
-        },
-        {
-          "date": "2026-02-10",
-          "valeur": 16299.99,
-          "ma50": 15951.53,
-          "ma200": 15575.15
-        },
-        {
-          "date": "2026-02-11",
-          "valeur": 16299.82,
-          "ma50": 15970.05,
-          "ma200": 15576.08
-        },
-        {
-          "date": "2026-02-12",
-          "valeur": 16299.15,
-          "ma50": 15988.15,
-          "ma200": 15576.94
-        },
-        {
-          "date": "2026-02-13",
-          "valeur": 16297.98,
-          "ma50": 16005.84,
-          "ma200": 15577.74
-        },
-        {
-          "date": "2026-02-16",
-          "valeur": 16291.49,
-          "ma50": 16022.2,
-          "ma200": 15578.33
-        },
-        {
-          "date": "2026-02-17",
-          "valeur": 16288.33,
-          "ma50": 16038.1,
-          "ma200": 15578.85
-        },
-        {
-          "date": "2026-02-18",
-          "valeur": 16284.68,
-          "ma50": 16053.52,
-          "ma200": 15579.31
-        },
-        {
-          "date": "2026-02-19",
-          "valeur": 16280.54,
-          "ma50": 16068.47,
-          "ma200": 15579.69
-        },
-        {
-          "date": "2026-02-20",
-          "valeur": 16275.91,
-          "ma50": 16082.92,
-          "ma200": 15580.01
-        },
-        {
-          "date": "2026-02-23",
-          "valeur": 16259.13,
-          "ma50": 16095.84,
-          "ma200": 15580.11
-        },
-        {
-          "date": "2026-02-24",
-          "valeur": 16252.58,
-          "ma50": 16108.23,
-          "ma200": 15580.15
-        },
-        {
-          "date": "2026-02-25",
-          "valeur": 16245.57,
-          "ma50": 16120.09,
-          "ma200": 15580.11
-        },
-        {
-          "date": "2026-02-26",
-          "valeur": 16238.08,
-          "ma50": 16131.41,
-          "ma200": 15580.01
-        },
-        {
-          "date": "2026-02-27",
-          "valeur": 16230.14,
-          "ma50": 16142.18,
-          "ma200": 15579.83
-        },
-        {
-          "date": "2026-03-02",
-          "valeur": 16203.59,
-          "ma50": 16151.27,
-          "ma200": 15579.44
-        },
-        {
-          "date": "2026-03-03",
-          "valeur": 16193.85,
-          "ma50": 16159.78,
-          "ma200": 15578.99
-        },
-        {
-          "date": "2026-03-04",
-          "valeur": 16183.68,
-          "ma50": 16167.72,
-          "ma200": 15578.47
-        },
-        {
-          "date": "2026-03-05",
-          "valeur": 16173.08,
-          "ma50": 16175.07,
-          "ma200": 15577.87
-        },
-        {
-          "date": "2026-03-06",
-          "valeur": 16162.06,
-          "ma50": 16181.84,
-          "ma200": 15577.21
-        },
-        {
-          "date": "2026-03-09",
-          "valeur": 16126.55,
-          "ma50": 16186.81,
-          "ma200": 15576.35
-        },
-        {
-          "date": "2026-03-10",
-          "valeur": 16113.92,
-          "ma50": 16191.18,
-          "ma200": 15575.42
-        },
-        {
-          "date": "2026-03-11",
-          "valeur": 16100.91,
-          "ma50": 16194.95,
-          "ma200": 15574.43
-        },
-        {
-          "date": "2026-03-12",
-          "valeur": 16087.52,
-          "ma50": 16198.11,
-          "ma200": 15573.37
-        },
-        {
-          "date": "2026-03-13",
-          "valeur": 16073.76,
-          "ma50": 16200.66,
-          "ma200": 15572.24
-        },
-        {
-          "date": "2026-03-16",
-          "valeur": 16030.38,
-          "ma50": 16201.37,
-          "ma200": 15570.93
-        },
-        {
-          "date": "2026-03-17",
-          "valeur": 16015.24,
-          "ma50": 16201.47,
-          "ma200": 15569.55
-        },
-        {
-          "date": "2026-03-18",
-          "valeur": 15999.78,
-          "ma50": 16200.95,
-          "ma200": 15568.11
-        },
-        {
-          "date": "2026-03-19",
-          "valeur": 15984.01,
-          "ma50": 16199.82,
-          "ma200": 15566.62
-        },
-        {
-          "date": "2026-03-20",
-          "valeur": 15967.93,
-          "ma50": 16198.08,
-          "ma200": 15565.06
-        },
-        {
-          "date": "2026-03-23",
-          "valeur": 15918.0,
-          "ma50": 16194.51,
-          "ma200": 15563.33
-        },
-        {
-          "date": "2026-03-24",
-          "valeur": 15900.82,
-          "ma50": 16190.33,
-          "ma200": 15561.55
-        },
-        {
-          "date": "2026-03-25",
-          "valeur": 15883.38,
-          "ma50": 16185.54,
-          "ma200": 15559.72
-        },
-        {
-          "date": "2026-03-26",
-          "valeur": 15865.71,
-          "ma50": 16180.16,
-          "ma200": 15557.83
-        },
-        {
-          "date": "2026-03-27",
-          "valeur": 15847.81,
-          "ma50": 16174.18,
-          "ma200": 15555.89
-        },
-        {
-          "date": "2026-03-30",
-          "valeur": 15792.85,
-          "ma50": 16166.43,
-          "ma200": 15553.81
-        },
-        {
-          "date": "2026-03-31",
-          "valeur": 15774.15,
-          "ma50": 16158.1,
-          "ma200": 15551.67
-        },
-        {
-          "date": "2026-04-01",
-          "valeur": 15755.28,
-          "ma50": 16149.19,
-          "ma200": 15549.5
         }
       ],
       "variations": {
-        "jour": -0.12,
-        "semaine": -0.81,
-        "mois": -2.77,
-        "ytd": -1.09
+        "jour": -3.04,
+        "semaine": 13.71,
+        "mois": 12.34,
+        "ytd": -3.04
       },
       "min_max": {
-        "min": 14700.06,
-        "min_date": "2025-10-07",
-        "max": 16299.99,
-        "max_date": "2025-06-04"
+        "min": 14670.77,
+        "min_date": "2025-11-01",
+        "max": 17710.86,
+        "max_date": "2026-01-01"
       },
       "note_lecture": "Le nickel est essentiel pour les aciers inoxydables et les batteries de véhicules électriques. Très sensible aux politiques d'exportation indonésiennes et à la demande de la transition énergétique."
     },
@@ -20544,7 +19056,7 @@
       "pourcentage_non_conformes": 21,
       "source_statistiques": "DGT - Comité de suivi des branches (2025)",
       "total_effectif_couvert": 10160642,
-      "branches_alerte_avenant": 0
+      "branches_alerte_avenant": 28
     },
     "branches": [
       {
@@ -20603,6 +19115,11 @@
             "minimum_annuel": 64956
           }
         ],
+        "alerte_avenant": {
+          "avenant_detecte": "Mars 2026",
+          "grille_codee": "Janvier 2026",
+          "message": "⚠️ CCN mise à jour (Mars 2026) — grille à vérifier sur Légifrance"
+        },
         "id": "branch_1486",
         "source": "https://www.legifrance.gouv.fr/search/result?query=idcc+1486"
       },
@@ -20674,6 +19191,11 @@
             "minimum_annuel": 39000
           }
         ],
+        "alerte_avenant": {
+          "avenant_detecte": "Mars 2026",
+          "grille_codee": "Janvier 2026",
+          "message": "⚠️ CCN mise à jour (Mars 2026) — grille à vérifier sur Légifrance"
+        },
         "id": "branch_3248",
         "source": "https://www.legifrance.gouv.fr/search/result?query=idcc+3248"
       },
@@ -20780,6 +19302,11 @@
             "minimum_annuel": 22680
           }
         ],
+        "alerte_avenant": {
+          "avenant_detecte": "Février 2026",
+          "grille_codee": "Octobre 2025",
+          "message": "⚠️ CCN mise à jour (Février 2026) — grille à vérifier sur Légifrance"
+        },
         "id": "branch_2216",
         "source": "https://www.legifrance.gouv.fr/search/result?query=idcc+2216"
       },
@@ -20827,6 +19354,11 @@
             "minimum_annuel": 47040
           }
         ],
+        "alerte_avenant": {
+          "avenant_detecte": "Mars 2026",
+          "grille_codee": "Juillet 2025",
+          "message": "⚠️ CCN mise à jour (Mars 2026) — grille à vérifier sur Légifrance"
+        },
         "id": "branch_0016",
         "source": "https://www.legifrance.gouv.fr/search/result?query=idcc+0016"
       },
@@ -20892,6 +19424,11 @@
             "minimum_annuel": 25800
           }
         ],
+        "alerte_avenant": {
+          "avenant_detecte": "Février 2026",
+          "grille_codee": "Janvier 2026",
+          "message": "⚠️ CCN mise à jour (Février 2026) — grille à vérifier sur Légifrance"
+        },
         "id": "branch_1979",
         "source": "https://www.legifrance.gouv.fr/search/result?query=idcc+1979"
       },
@@ -20951,6 +19488,11 @@
             "minimum_annuel": 28560
           }
         ],
+        "alerte_avenant": {
+          "avenant_detecte": "Février 2026",
+          "grille_codee": "Juin 2025",
+          "message": "⚠️ CCN mise à jour (Février 2026) — grille à vérifier sur Légifrance"
+        },
         "id": "branch_1090",
         "source": "https://www.legifrance.gouv.fr/search/result?query=idcc+1090"
       },
@@ -21057,6 +19599,11 @@
             "minimum_annuel": 23520
           }
         ],
+        "alerte_avenant": {
+          "avenant_detecte": "Février 2026",
+          "grille_codee": "Novembre 2025",
+          "message": "⚠️ CCN mise à jour (Février 2026) — grille à vérifier sur Légifrance"
+        },
         "id": "branch_3043",
         "source": "https://www.legifrance.gouv.fr/search/result?query=idcc+3043"
       },
@@ -21157,6 +19704,11 @@
             "minimum_annuel": 24480
           }
         ],
+        "alerte_avenant": {
+          "avenant_detecte": "Février 2026",
+          "grille_codee": "Janvier 2026",
+          "message": "⚠️ CCN mise à jour (Février 2026) — grille à vérifier sur Légifrance"
+        },
         "id": "branch_2264",
         "source": "https://www.legifrance.gouv.fr/search/result?query=idcc+2264"
       },
@@ -21216,6 +19768,11 @@
             "minimum_annuel": 26880
           }
         ],
+        "alerte_avenant": {
+          "avenant_detecte": "Mars 2026",
+          "grille_codee": "Avril 2025",
+          "message": "⚠️ CCN mise à jour (Mars 2026) — grille à vérifier sur Légifrance"
+        },
         "id": "branch_1597",
         "source": "https://www.legifrance.gouv.fr/search/result?query=idcc+1597"
       },
@@ -21310,6 +19867,11 @@
             "minimum_annuel": 30240
           }
         ],
+        "alerte_avenant": {
+          "avenant_detecte": "Avril 2026",
+          "grille_codee": "Janvier 2026",
+          "message": "⚠️ CCN mise à jour (Avril 2026) — grille à vérifier sur Légifrance"
+        },
         "id": "branch_0044",
         "source": "https://www.legifrance.gouv.fr/search/result?query=idcc+0044"
       },
@@ -21357,6 +19919,11 @@
             "minimum_annuel": 25680
           }
         ],
+        "alerte_avenant": {
+          "avenant_detecte": "Février 2026",
+          "grille_codee": "Juillet 2025",
+          "message": "⚠️ CCN mise à jour (Février 2026) — grille à vérifier sur Légifrance"
+        },
         "id": "branch_2120",
         "source": "https://www.legifrance.gouv.fr/search/result?query=idcc+2120"
       },
@@ -21522,6 +20089,11 @@
             "minimum_annuel": 27120
           }
         ],
+        "alerte_avenant": {
+          "avenant_detecte": "Février 2026",
+          "grille_codee": "Avril 2025",
+          "message": "⚠️ CCN mise à jour (Février 2026) — grille à vérifier sur Légifrance"
+        },
         "id": "branch_1501",
         "source": "https://www.legifrance.gouv.fr/search/result?query=idcc+1501"
       },
@@ -21628,6 +20200,11 @@
             "minimum_annuel": 23280
           }
         ],
+        "alerte_avenant": {
+          "avenant_detecte": "Avril 2026",
+          "grille_codee": "Septembre 2025",
+          "message": "⚠️ CCN mise à jour (Avril 2026) — grille à vérifier sur Légifrance"
+        },
         "id": "branch_1351",
         "source": "https://www.legifrance.gouv.fr/search/result?query=idcc+1351"
       },
@@ -21722,6 +20299,11 @@
             "minimum_annuel": 22440
           }
         ],
+        "alerte_avenant": {
+          "avenant_detecte": "Mars 2026",
+          "grille_codee": "Novembre 2025",
+          "message": "⚠️ CCN mise à jour (Mars 2026) — grille à vérifier sur Légifrance"
+        },
         "id": "branch_2609",
         "source": "https://www.legifrance.gouv.fr/search/result?query=idcc+2609"
       },
@@ -21769,6 +20351,11 @@
             "minimum_annuel": 20280
           }
         ],
+        "alerte_avenant": {
+          "avenant_detecte": "Février 2026",
+          "grille_codee": "Octobre 2025",
+          "message": "⚠️ CCN mise à jour (Février 2026) — grille à vérifier sur Légifrance"
+        },
         "id": "branch_0787",
         "source": "https://www.legifrance.gouv.fr/search/result?query=idcc+0787"
       },
@@ -21875,6 +20462,11 @@
             "minimum_annuel": 34680
           }
         ],
+        "alerte_avenant": {
+          "avenant_detecte": "Mars 2026",
+          "grille_codee": "Juillet 2025",
+          "message": "⚠️ CCN mise à jour (Mars 2026) — grille à vérifier sur Légifrance"
+        },
         "id": "branch_2098",
         "source": "https://www.legifrance.gouv.fr/search/result?query=idcc+2098"
       },
@@ -21969,6 +20561,11 @@
             "minimum_annuel": 37800
           }
         ],
+        "alerte_avenant": {
+          "avenant_detecte": "Février 2026",
+          "grille_codee": "Janvier 2026",
+          "message": "⚠️ CCN mise à jour (Février 2026) — grille à vérifier sur Légifrance"
+        },
         "id": "branch_0675",
         "source": "https://www.legifrance.gouv.fr/search/result?query=idcc+0675"
       },
@@ -22028,6 +20625,11 @@
             "minimum_annuel": 34440
           }
         ],
+        "alerte_avenant": {
+          "avenant_detecte": "Février 2026",
+          "grille_codee": "Janvier 2026",
+          "message": "⚠️ CCN mise à jour (Février 2026) — grille à vérifier sur Légifrance"
+        },
         "id": "branch_1996",
         "source": "https://www.legifrance.gouv.fr/search/result?query=idcc+1996"
       },
@@ -22081,6 +20683,11 @@
             "minimum_annuel": 36600
           }
         ],
+        "alerte_avenant": {
+          "avenant_detecte": "Février 2026",
+          "grille_codee": "Janvier 2026",
+          "message": "⚠️ CCN mise à jour (Février 2026) — grille à vérifier sur Légifrance"
+        },
         "id": "branch_0292",
         "source": "https://www.legifrance.gouv.fr/search/result?query=idcc+0292"
       },
@@ -22122,6 +20729,11 @@
             "minimum_annuel": 20160
           }
         ],
+        "alerte_avenant": {
+          "avenant_detecte": "Février 2026",
+          "grille_codee": "Janvier 2026",
+          "message": "⚠️ CCN mise à jour (Février 2026) — grille à vérifier sur Légifrance"
+        },
         "id": "branch_1518",
         "source": "https://www.legifrance.gouv.fr/search/result?query=idcc+1518"
       },
@@ -22216,6 +20828,11 @@
             "minimum_annuel": 33480
           }
         ],
+        "alerte_avenant": {
+          "avenant_detecte": "Avril 2026",
+          "grille_codee": "Janvier 2026",
+          "message": "⚠️ CCN mise à jour (Avril 2026) — grille à vérifier sur Légifrance"
+        },
         "id": "branch_2596",
         "source": "https://www.legifrance.gouv.fr/search/result?query=idcc+2596"
       },
@@ -22304,6 +20921,11 @@
             "minimum_annuel": 38880
           }
         ],
+        "alerte_avenant": {
+          "avenant_detecte": "Février 2026",
+          "grille_codee": "Janvier 2026",
+          "message": "⚠️ CCN mise à jour (Février 2026) — grille à vérifier sur Légifrance"
+        },
         "id": "branch_2148",
         "source": "https://www.legifrance.gouv.fr/search/result?query=idcc+2148"
       },
@@ -22351,6 +20973,11 @@
             "minimum_annuel": 37800
           }
         ],
+        "alerte_avenant": {
+          "avenant_detecte": "Février 2026",
+          "grille_codee": "Janvier 2026",
+          "message": "⚠️ CCN mise à jour (Février 2026) — grille à vérifier sur Légifrance"
+        },
         "id": "branch_2511",
         "source": "https://www.legifrance.gouv.fr/search/result?query=idcc+2511"
       },
@@ -22398,6 +21025,11 @@
             "minimum_annuel": 36720
           }
         ],
+        "alerte_avenant": {
+          "avenant_detecte": "Février 2026",
+          "grille_codee": "Janvier 2026",
+          "message": "⚠️ CCN mise à jour (Février 2026) — grille à vérifier sur Légifrance"
+        },
         "id": "branch_1404",
         "source": "https://www.legifrance.gouv.fr/search/result?query=idcc+1404"
       },
@@ -22433,6 +21065,11 @@
             "minimum_annuel": 27480
           }
         ],
+        "alerte_avenant": {
+          "avenant_detecte": "Février 2026",
+          "grille_codee": "Janvier 2026",
+          "message": "⚠️ CCN mise à jour (Février 2026) — grille à vérifier sur Légifrance"
+        },
         "id": "branch_0086",
         "source": "https://www.legifrance.gouv.fr/search/result?query=idcc+0086"
       },
@@ -22527,6 +21164,11 @@
             "minimum_annuel": 39720
           }
         ],
+        "alerte_avenant": {
+          "avenant_detecte": "Février 2026",
+          "grille_codee": "Juillet 2025",
+          "message": "⚠️ CCN mise à jour (Février 2026) — grille à vérifier sur Légifrance"
+        },
         "id": "branch_1483",
         "source": "https://www.legifrance.gouv.fr/search/result?query=idcc+1483"
       },
@@ -22568,6 +21210,11 @@
             "minimum_annuel": 28320
           }
         ],
+        "alerte_avenant": {
+          "avenant_detecte": "Février 2026",
+          "grille_codee": "Juillet 2025",
+          "message": "⚠️ CCN mise à jour (Février 2026) — grille à vérifier sur Légifrance"
+        },
         "id": "branch_1043",
         "source": "https://www.legifrance.gouv.fr/search/result?query=idcc+1043"
       },
@@ -22926,6 +21573,11 @@
             "minimum_annuel": 56280
           }
         ],
+        "alerte_avenant": {
+          "avenant_detecte": "Février 2026",
+          "grille_codee": "Janvier 2026",
+          "message": "⚠️ CCN mise à jour (Février 2026) — grille à vérifier sur Légifrance"
+        },
         "id": "branch_3239",
         "source": "https://www.legifrance.gouv.fr/search/result?query=idcc+3239"
       }
@@ -23768,7 +22420,7 @@
     "sources": "INSEE - Enquête Emploi, DARES"
   },
   "previsions_cftc": {
-    "generated_at": "2026-04-02T08:32:27.455098",
+    "generated_at": "2026-04-02T09:00:42.886137",
     "model_version": "CFTC v7.0 (bivarié Phillips + log-normale + pondération temporelle)",
     "n_simulations": 1000,
     "horizon": "12 mois",
@@ -23777,7 +22429,7 @@
       "niveau": "excellent",
       "issues": [],
       "warnings": [],
-      "timestamp": "2026-04-02T08:32:27.455117"
+      "timestamp": "2026-04-02T09:00:42.886153"
     },
     "calibrage": {
       "volatilites": {
@@ -23805,7 +22457,7 @@
       "lognormal_offset": 3.0
     },
     "market_signals": {
-      "inflation_adjustment": 0.221,
+      "inflation_adjustment": 0.223,
       "chomage_adjustment": 0.175,
       "energie_outlook": "hausse",
       "ponderation_temporelle": {
@@ -23817,10 +22469,10 @@
     },
     "market_signals_details": {
       "brent": {
-        "valeur": 108.54,
+        "valeur": 108.72,
         "ref": 75.0,
-        "variation_ytd_pct": 78.67,
-        "impact_inflation_pt": 0.335,
+        "variation_ytd_pct": 78.96,
+        "impact_inflation_pt": 0.337,
         "poids_temporel": 1.0
       },
       "gaz_ttf": {
@@ -23847,7 +22499,7 @@
         "signal": "baissier"
       },
       "cac40_ytd": {
-        "variation_ytd_pct": -3.5,
+        "variation_ytd_pct": -3.41,
         "signal_chomage": "neutre"
       },
       "carburants_sp95": {
@@ -23913,7 +22565,7 @@
           1.2,
           1.3,
           1.5,
-          1.6,
+          1.7,
           1.9,
           1.9,
           1.9,
@@ -23977,9 +22629,9 @@
       "facteurs": {
         "cible_bdf": 1.4,
         "ajustement_climat": -0.03,
-        "ajustement_marches": 0.221,
+        "ajustement_marches": 0.223,
         "energie_outlook": "hausse",
-        "cible_ajustee": 1.591,
+        "cible_ajustee": 1.593,
         "volatilite_utilisee": 0.5
       },
       "asymetrie_ic": {
@@ -24222,7 +22874,7 @@
           }
         },
         "contribution_mediane": {
-          "signaux_marches_pt": 0.221,
+          "signaux_marches_pt": 0.223,
           "incertitude_bdf_sigma": 0.15,
           "label": "Déplacement de la prévision centrale"
         }
