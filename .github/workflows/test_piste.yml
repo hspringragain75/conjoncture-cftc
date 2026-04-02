@@ -1,0 +1,69 @@
+name: Test PISTE API
+
+on:
+  workflow_dispatch:  # déclenchement manuel uniquement
+
+jobs:
+  test-piste:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Test liste CCN KALI
+        env:
+          PISTE_CLIENT_ID: ${{ secrets.PISTE_CLIENT_ID }}
+          PISTE_CLIENT_SECRET: ${{ secrets.PISTE_CLIENT_SECRET }}
+        run: |
+          python3 - << 'EOF'
+          import urllib.request, urllib.parse, json, os
+
+          # Token
+          data = urllib.parse.urlencode({
+              "grant_type": "client_credentials",
+              "client_id": os.environ["PISTE_CLIENT_ID"],
+              "client_secret": os.environ["PISTE_CLIENT_SECRET"],
+              "scope": "openid",
+          }).encode()
+          with urllib.request.urlopen(
+              urllib.request.Request(
+                  "https://oauth.piste.gouv.fr/api/oauth/token",
+                  data=data,
+                  headers={"Content-Type": "application/x-www-form-urlencoded"}
+              ), timeout=15
+          ) as r:
+              token = json.loads(r.read())["access_token"]
+          print(f"✅ Token OK")
+
+          # Liste CCN
+          payload = json.dumps({
+              "fond": "KALI",
+              "recherche": {
+                  "champs": [],
+                  "filtres": [{"facette": "ETAT", "valeur": "VIGUEUR_ETEN"}],
+                  "operateur": "ET",
+                  "pageNumber": 1,
+                  "pageSize": 10,
+                  "sort": "PERTINENCE",
+                  "typePagination": "DEFAUT",
+                  "fromAdvancedRecherche": False
+              }
+          }).encode()
+          with urllib.request.urlopen(
+              urllib.request.Request(
+                  "https://api.piste.gouv.fr/dila/legifrance/lf-engine-app/search",
+                  data=payload,
+                  headers={
+                      "Authorization": f"Bearer {token}",
+                      "Content-Type": "application/json",
+                      "Accept": "application/json",
+                  }
+              ), timeout=20
+          ) as r:
+              result = json.loads(r.read())
+
+          print(f"Total CCN: {result.get('totalResultNumber', '?')}")
+          print(f"Clés réponse: {list(result.keys())}")
+          if result.get("results"):
+              print(f"\nPremier résultat:")
+              print(json.dumps(result["results"][0], indent=2, ensure_ascii=False))
+          else:
+              print(f"Réponse complète: {json.dumps(result, indent=2, ensure_ascii=False)[:2000]}")
+          EOF
