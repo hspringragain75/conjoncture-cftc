@@ -7,13 +7,13 @@ jobs:
   test-piste:
     runs-on: ubuntu-latest
     steps:
-      - name: Test stratégie via kaliText
+      - name: Test stratégie finale
         env:
           PISTE_CLIENT_ID: ${{ secrets.PISTE_CLIENT_ID }}
           PISTE_CLIENT_SECRET: ${{ secrets.PISTE_CLIENT_SECRET }}
         run: |
           python3 - << 'EOF'
-          import urllib.request, urllib.parse, json, os
+          import urllib.request, urllib.parse, json, os, re
 
           data = urllib.parse.urlencode({
               "grant_type": "client_credentials",
@@ -46,40 +46,71 @@ jobs:
               with urllib.request.urlopen(req, timeout=20) as r:
                   return json.loads(r.read())
 
-          # 1. Voir la réponse complète de /consult/kaliCont sur SYNTEC
-          cont = post("/consult/kaliCont", {"id": "KALICONT000005635173"})
-          print("✅ /consult/kaliCont SYNTEC complet:")
-          print(json.dumps(cont, indent=2, ensure_ascii=False))
-
-          # 2. Voir ce que donne /consult/kaliText sur un KALITEXT
-          # KALITEXT000005679895 = texte de base SYNTEC
+          # 1. kaliText SYNTEC : voir le champ conteneurs
           txt = post("/consult/kaliText", {"id": "KALITEXT000005679895"})
-          print("\n✅ /consult/kaliText SYNTEC:")
-          print(f"  idConteneur={txt.get('idConteneur')}")
-          print(f"  clés complètes: {list(txt.keys())}")
+          print(f"conteneurs dans kaliText: {txt.get('conteneurs')}")
 
-          # 3. Paginer 2 pages de /search et voir si on peut extraire idConteneur
-          # depuis les résultats (sans appel supplémentaire)
+          # 2. kaliCont SYNTEC complet : voir num, titre, sections de premier niveau
+          cont = post("/consult/kaliCont", {"id": "KALICONT000005635173"})
+          print(f"\n/consult/kaliCont SYNTEC:")
+          print(f"  num={cont.get('num')} titre={cont.get('titre','')[:60]}")
+          print(f"  clés: {list(cont.keys())}")
+          # Sections de premier niveau = structure de la CCN
+          sections = cont.get('sections') or []
+          print(f"  nb sections: {len(sections)}")
+          if sections:
+              print(f"  1ère section: {sections[0].get('title','')[:60]}")
+
+          # 3. Stratégie : /search retourne les KALITEXT avec idcc dans certains cas ?
+          # Tester en cherchant un IDCC connu dans le champ num
           search = post("/search", {
               "fond": "KALI",
               "recherche": {
-                  "champs": [],
+                  "champs": [{
+                      "typeChamp": "NUM_AFFAIRE",
+                      "criteres": [{
+                          "typeRecherche": "TOUS_LES_MOTS_DANS_UN_CHAMP",
+                          "valeur": "1486",
+                          "operateur": "ET"
+                      }],
+                      "operateur": "ET"
+                  }],
                   "operateur": "ET",
                   "pageNumber": 1,
-                  "pageSize": 20,
+                  "pageSize": 5,
                   "sort": "PERTINENCE",
                   "typePagination": "DEFAUT",
                   "fromAdvancedRecherche": False
               }
           })
-          print(f"\n📋 Champs dans results[0]: {list(search['results'][0].keys())}")
-          print(f"   idConteneur dans result? {'idConteneur' in search['results'][0]}")
-          # Chercher idConteneur dans la structure entière du premier résultat
-          txt_result = json.dumps(search['results'][0], ensure_ascii=False)
-          if 'idConteneur' in txt_result or 'KALICONT' in txt_result:
-              import re
-              kaliconts = re.findall(r'KALICONT\d+', txt_result)
-              print(f"   KALICONT trouvés: {list(set(kaliconts))[:5]}")
-          else:
-              print("   Pas de KALICONT dans le résultat search")
+          print(f"\nRecherche NUM_AFFAIRE=1486: total={search.get('totalResultNumber')}")
+          for item in (search.get("results") or [])[:3]:
+              t = (item.get("titles") or [{}])[0]
+              print(f"  idcc={item.get('idcc')} id={t.get('id','')[:25]} titre={t.get('title','')[:50]}")
+
+          # 4. Tester champ NOR
+          for champ in ["NOR", "IDCC", "NUM_CONVENTION"]:
+              try:
+                  s = post("/search", {
+                      "fond": "KALI",
+                      "recherche": {
+                          "champs": [{
+                              "typeChamp": champ,
+                              "criteres": [{
+                                  "typeRecherche": "TOUS_LES_MOTS_DANS_UN_CHAMP",
+                                  "valeur": "1486",
+                                  "operateur": "ET"
+                              }],
+                              "operateur": "ET"
+                          }],
+                          "operateur": "ET",
+                          "pageNumber": 1, "pageSize": 3,
+                          "sort": "PERTINENCE",
+                          "typePagination": "DEFAUT",
+                          "fromAdvancedRecherche": False
+                      }
+                  })
+                  print(f"  {champ}=1486: total={s.get('totalResultNumber')} idcc_ex={[(r.get('idcc')) for r in s.get('results',[])[:2]]}")
+              except Exception as e:
+                  print(f"  {champ}: erreur {e}")
           EOF
