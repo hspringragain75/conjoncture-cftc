@@ -1,6 +1,6 @@
 {
-  "last_updated": "02/04/2026 06:47",
-  "last_updated_iso": "2026-04-02T06:47:12.927864",
+  "last_updated": "02/04/2026 06:55",
+  "last_updated_iso": "2026-04-02T06:55:34.828110",
   "contact": "hspringragain@cftc.fr",
   "alertes": [
     {
@@ -32,7 +32,7 @@
       "date": "2026-04-02",
       "type": "info",
       "titre": "🔄 Données actualisées",
-      "message": "Le tableau de bord a été mis à jour le 02/04/2026 à 06:47.",
+      "message": "Le tableau de bord a été mis à jour le 02/04/2026 à 06:55.",
       "onglet": "conjoncture"
     }
   ],
@@ -193,7 +193,7 @@
     }
   ],
   "revue_presse": {
-    "derniere_maj": "02/04/2026 06:47",
+    "derniere_maj": "02/04/2026 06:55",
     "nb_sources": 7,
     "sources_noms": [
       "Le Monde Éco",
@@ -219,6 +219,30 @@
       }
     ],
     "tous": [
+      {
+        "source": "Le Monde Éco",
+        "couleur": "#374151",
+        "emoji": "🌐",
+        "tag": "Presse économique",
+        "titre": "Eolien en mer : l’Etat relance des appels d’offres géants",
+        "resume": "Dix parcs éoliens, réprésentant 10 gigawatts, vont être mis en concurrence. Trois projets sont prévus au large de Fécamp, en Seine-Maritime. Deux projets se situent en Bretagne, quatre en Méditerranée. Et un autre au large de l’île d’Oléron, en Charente-Maritime.",
+        "lien": "https://www.lemonde.fr/economie/article/2026/04/02/eolien-en-mer-l-etat-relance-des-appels-d-offres-geants_6676089_3234.html",
+        "date_iso": "2026-04-02T08:51:59+02:00",
+        "date_fr": "02/04/2026",
+        "pertinence": 0
+      },
+      {
+        "source": "Le Figaro Éco",
+        "couleur": "#92400e",
+        "emoji": "📊",
+        "tag": "Presse économique",
+        "titre": "«Le problème est à leur niveau» : Dominique Schelcher appelle les pétroliers à «prendre sur leurs marges»",
+        "resume": "Quelques heures après l’allocution de Donald Trump, Dominique Schelcher s’est inquiété des conséquences de la poursuite de la guerre entre l’Iran et les États-Unis.",
+        "lien": "https://www.lefigaro.fr/conjoncture/le-probleme-est-a-leur-niveau-dominique-schelcher-appelle-les-petroliers-a-prendre-sur-leurs-marges-20260402",
+        "date_iso": "2026-04-02T08:42:31+02:00",
+        "date_fr": "02/04/2026",
+        "pertinence": 0
+      },
       {
         "source": "Le Figaro Éco",
         "couleur": "#92400e",
@@ -288,6 +312,18 @@
         "resume": "Le président américain a déclaré vouloir frapper «extrêmement durement» l’Iran pendant encore plusieurs semaines s’il n’obtenait pas un accord.",
         "lien": "https://www.lefigaro.fr/conjoncture/guerre-au-moyen-orient-le-petrole-en-hausse-et-les-bourses-en-asie-en-baisse-apres-les-declarations-de-trump-20260402",
         "date_iso": "2026-04-02T06:52:44+02:00",
+        "date_fr": "02/04/2026",
+        "pertinence": 1
+      },
+      {
+        "source": "Euractiv FR",
+        "couleur": "#0369a1",
+        "emoji": "🇪🇺",
+        "tag": "Europe & politique",
+        "titre": "Les accords de défense Ukraine-Golfe ravivent l’optimisme européen",
+        "resume": "De nouveaux partenariats de défense entre l'Ukraine et les pays du Golfe pourraient renforcer le soutien aux efforts de guerre de Kiev The post Les accords de défense Ukraine-Golfe ravivent l’optimisme européen appeared first on Euractiv FR .",
+        "lien": "https://euractiv.fr/news/les-accords-de-defense-ukraine-golfe-ravivent-loptimisme-europeen/",
+        "date_iso": "2026-04-02T06:47:37+00:00",
         "date_fr": "02/04/2026",
         "pertinence": 1
       },
@@ -542,42 +578,6 @@
         "date_iso": "2026-04-01T19:07:22+02:00",
         "date_fr": "01/04/2026",
         "pertinence": 1
-      },
-      {
-        "source": "Le Figaro Éco",
-        "couleur": "#92400e",
-        "emoji": "📊",
-        "tag": "Presse économique",
-        "titre": "Billetterie «opaque», costumes sur mesure... La Cour des comptes épingle les dépenses «somptuaires» de la Métropole du Grand Paris lors des JO",
-        "resume": "Dans son rapport, l’institution pointe que le coût des actions engagées par la métropole dans le cadre des JO de Paris 2024 s’élève à 241,8 millions d’euros, «soit un montant équivalent à plus de deux ans et demi de sa capacité d’autofinancement».",
-        "lien": "https://www.lefigaro.fr/conjoncture/billetterie-opaque-costumes-sur-mesure-la-cour-des-comptes-epingle-les-depenses-somptuaires-de-la-metropole-du-grand-paris-lors-des-jo-20260401",
-        "date_iso": "2026-04-01T19:02:08+02:00",
-        "date_fr": "01/04/2026",
-        "pertinence": 0
-      },
-      {
-        "source": "Le Figaro Éco",
-        "couleur": "#92400e",
-        "emoji": "📊",
-        "tag": "Presse économique",
-        "titre": "Électrification, contraintes budgétaires... Les États européens en ordre dispersé face au choc de la guerre en Iran",
-        "resume": "DECRYPTAGE - Pour l’instant, seule l’Espagne a vraiment ouvert le chéquier mais la crise pourrait durer.",
-        "lien": "https://www.lefigaro.fr/conjoncture/electrification-contraintes-budgetaires-les-etats-europeens-en-ordre-disperse-face-au-choc-de-la-guerre-en-iran-20260401",
-        "date_iso": "2026-04-01T18:45:00+02:00",
-        "date_fr": "01/04/2026",
-        "pertinence": 0
-      },
-      {
-        "source": "Le Figaro Éco",
-        "couleur": "#92400e",
-        "emoji": "📊",
-        "tag": "Presse économique",
-        "titre": "SpaceX a déposé son dossier d’introduction en Bourse, selon les médias américains",
-        "resume": "Plusieurs médias américains rapportent que SpaceX a déposé, de manière confidentielle, son dossier d’introduction en Bourse auprès du régulateur américain, la SEC.",
-        "lien": "https://www.lefigaro.fr/conjoncture/spacex-a-depose-son-dossier-d-introduction-en-bourse-selon-les-medias-americains-20260401",
-        "date_iso": "2026-04-01T18:36:12+02:00",
-        "date_fr": "01/04/2026",
-        "pertinence": 0
       }
     ]
   },
@@ -2910,7 +2910,7 @@
       "note_lecture": "Le TEC-10 mesure le rendement des emprunts d'Etat francais a 10 ans. Un taux eleve rencherit le cout de la dette publique et impacte les taux de credit immobilier."
     },
     "petrole_brent": {
-      "valeur": 108.18,
+      "valeur": 107.98,
       "date": "2026-04-02",
       "unite": "USD/baril",
       "source": "Yahoo Finance",
@@ -4430,16 +4430,16 @@
         },
         {
           "date": "2026-04-02",
-          "valeur": 108.18,
+          "valeur": 107.98,
           "ma50": 83.84,
-          "ma200": 70.23
+          "ma200": 70.22
         }
       ],
       "variations": {
-        "jour": 6.94,
-        "semaine": 0.16,
-        "mois": 32.9,
-        "ytd": 78.07
+        "jour": 6.74,
+        "semaine": -0.03,
+        "mois": 32.65,
+        "ytd": 77.74
       },
       "min_max": {
         "min": 58.92,
@@ -7579,7 +7579,7 @@
       "note_lecture": "Le taux de change euro-dollar determine le prix de tout ce qui est importe en dollars : petrole, matieres premieres, electronique. Un euro faible rencherit les importations et alimente l'inflation."
     },
     "or": {
-      "valeur": 4612.7,
+      "valeur": 4613.0,
       "date": "2026-04-02",
       "unite": "USD/oz",
       "source": "Yahoo Finance",
@@ -9099,16 +9099,16 @@
         },
         {
           "date": "2026-04-02",
-          "valeur": 4612.7,
-          "ma50": 4936.49,
-          "ma200": 4115.93
+          "valeur": 4613.0,
+          "ma50": 4936.5,
+          "ma200": 4115.94
         }
       ],
       "variations": {
         "jour": -3.56,
-        "semaine": 5.42,
-        "mois": -9.69,
-        "ytd": 6.91
+        "semaine": 5.43,
+        "mois": -9.68,
+        "ytd": 6.92
       },
       "min_max": {
         "min": 2951.3,
@@ -10653,7 +10653,7 @@
       "note_lecture": "Le prix du gaz naturel (TTF europeen) impacte directement les factures de chauffage et d'electricite des menages, ainsi que les couts de production industrielle."
     },
     "ble": {
-      "valeur": 605.0,
+      "valeur": 606.0,
       "date": "2026-04-02",
       "unite": "cents/boisseau",
       "source": "Yahoo Finance",
@@ -12167,16 +12167,16 @@
         },
         {
           "date": "2026-04-02",
-          "valeur": 605.0,
-          "ma50": 568.58,
+          "valeur": 606.0,
+          "ma50": 568.6,
           "ma200": 533.83
         }
       ],
       "variations": {
-        "jour": 1.26,
-        "semaine": 0.0,
-        "mois": 5.72,
-        "ytd": 19.45
+        "jour": 1.42,
+        "semaine": 0.17,
+        "mois": 5.9,
+        "ytd": 19.64
       },
       "min_max": {
         "min": 495.0,
@@ -12187,7 +12187,7 @@
       "note_lecture": "Le cours du ble est un indicateur avance des prix alimentaires. La France etant le premier producteur europeen, son evolution impacte a la fois les consommateurs et le secteur agricole."
     },
     "lme_cuivre": {
-      "valeur": 5.54,
+      "valeur": 5.53,
       "date": "2026-04-02",
       "unite": "cts/lb",
       "source": "Yahoo Finance",
@@ -13707,16 +13707,16 @@
         },
         {
           "date": "2026-04-02",
-          "valeur": 5.54,
+          "valeur": 5.53,
           "ma50": 5.76,
           "ma200": 5.24
         }
       ],
       "variations": {
-        "jour": -1.42,
-        "semaine": 1.65,
-        "mois": -3.99,
-        "ytd": -1.77
+        "jour": -1.6,
+        "semaine": 1.47,
+        "mois": -4.16,
+        "ytd": -1.95
       },
       "min_max": {
         "min": 4.13,
@@ -22287,7 +22287,7 @@
     "sources": "INSEE - Enquête Emploi, DARES"
   },
   "previsions_cftc": {
-    "generated_at": "2026-04-02T06:47:13.284539",
+    "generated_at": "2026-04-02T06:55:35.070020",
     "model_version": "CFTC v7.0 (bivarié Phillips + log-normale + pondération temporelle)",
     "n_simulations": 1000,
     "horizon": "12 mois",
@@ -22296,7 +22296,7 @@
       "niveau": "excellent",
       "issues": [],
       "warnings": [],
-      "timestamp": "2026-04-02T06:47:13.284550"
+      "timestamp": "2026-04-02T06:55:35.070036"
     },
     "calibrage": {
       "volatilites": {
@@ -22324,7 +22324,7 @@
       "lognormal_offset": 3.0
     },
     "market_signals": {
-      "inflation_adjustment": 0.206,
+      "inflation_adjustment": 0.204,
       "chomage_adjustment": 0.175,
       "energie_outlook": "hausse",
       "ponderation_temporelle": {
@@ -22336,10 +22336,10 @@
     },
     "market_signals_details": {
       "brent": {
-        "valeur": 108.18,
+        "valeur": 107.98,
         "ref": 75.0,
-        "variation_ytd_pct": 78.07,
-        "impact_inflation_pt": 0.332,
+        "variation_ytd_pct": 77.74,
+        "impact_inflation_pt": 0.33,
         "poids_temporel": 1.0
       },
       "gaz_ttf": {
@@ -22452,7 +22452,7 @@
           1.3,
           1.2,
           1.3,
-          1.4,
+          1.3,
           1.4,
           1.4
         ],
@@ -22487,18 +22487,18 @@
         "methodology": "Monte Carlo bivarié (1000 sim.) + log-normale + Phillips ρ=-0.35 (v7)"
       },
       "probabilites": {
-        "inflation_sous_2pct": 85.2,
-        "inflation_cible_bce": 85.2,
+        "inflation_sous_2pct": 85.4,
+        "inflation_cible_bce": 85.4,
         "inflation_au_dessus_3pct": 0.0,
         "inflation_au_dessus_4pct": 0.0,
-        "description": "85.2% de chances que l'inflation reste sous 2% à 12 mois"
+        "description": "85.4% de chances que l'inflation reste sous 2% à 12 mois"
       },
       "facteurs": {
         "cible_bdf": 1.4,
         "ajustement_climat": -0.03,
-        "ajustement_marches": 0.206,
+        "ajustement_marches": 0.204,
         "energie_outlook": "hausse",
-        "cible_ajustee": 1.576,
+        "cible_ajustee": 1.574,
         "volatilite_utilisee": 0.5
       },
       "asymetrie_ic": {
@@ -22506,7 +22506,7 @@
         "queue_basse": 0.4,
         "ratio": 1.25
       },
-      "insight": "Inflation médiane à 12 mois : 1.6% [IC 80% : 1.2% - 2.1%]. Asymétrie : queue haute 0.5pt vs basse 0.4pt. 85.2% de probabilité de rester sous 2%."
+      "insight": "Inflation médiane à 12 mois : 1.6% [IC 80% : 1.2% - 2.1%]. Asymétrie : queue haute 0.5pt vs basse 0.4pt. 85.4% de probabilité de rester sous 2%."
     },
     "smic": {
       "current": {
@@ -22713,10 +22713,10 @@
       }
     },
     "notes_lecture": [
-      "📈 Inflation médiane à 12 mois : 1.6% [1.2% - 2.1%] — 85.2% de chances de rester sous 2% (asymétrie : +0.5pt / -0.4pt)",
+      "📈 Inflation médiane à 12 mois : 1.6% [1.2% - 2.1%] — 85.4% de chances de rester sous 2% (asymétrie : +0.5pt / -0.4pt)",
       "💰 SMIC janvier 2027 : 1859€ brut (+2.0%, fourchette 1.6-2.5%) — Pouvoir d'achat réel : +0.4% (+7€/mois)",
       "👥 Chômage Q4 : 7.8% [7.6% - 7.9%] — Tendance stable (corrélé Phillips ρ=-0.35)",
-      "📊 Signaux marchés : ↑ inflation 0.21pt, ↑ chômage 0.17pt, (poids temporel min : 0.95)",
+      "📊 Signaux marchés : ↑ inflation 0.20pt, ↑ chômage 0.17pt, (poids temporel min : 0.95)",
       "🎲 Scénario à surveiller : 🚀 Reprise économique forte (25%)",
       "💡 Recommandation NAO : demander au minimum +2.1% pour préserver le pouvoir d'achat"
     ],
@@ -22741,7 +22741,7 @@
           }
         },
         "contribution_mediane": {
-          "signaux_marches_pt": 0.206,
+          "signaux_marches_pt": 0.204,
           "incertitude_bdf_sigma": 0.15,
           "label": "Déplacement de la prévision centrale"
         }
