@@ -7,13 +7,13 @@ jobs:
   test-piste:
     runs-on: ubuntu-latest
     steps:
-      - name: Test stratégie IDCC pagination
+      - name: Test collecte KALICONT via search
         env:
           PISTE_CLIENT_ID: ${{ secrets.PISTE_CLIENT_ID }}
           PISTE_CLIENT_SECRET: ${{ secrets.PISTE_CLIENT_SECRET }}
         run: |
           python3 - << 'EOF'
-          import urllib.request, urllib.parse, json, os, re
+          import urllib.request, urllib.parse, json, os, time
 
           data = urllib.parse.urlencode({
               "grant_type": "client_credentials",
@@ -46,74 +46,53 @@ jobs:
               with urllib.request.urlopen(req, timeout=20) as r:
                   return json.loads(r.read())
 
-          # 1. Chercher avec IDCC sans valeur — combien de résultats ?
-          # et est-ce que les résultats ont idcc rempli ?
-          for valeur in ["", "*", "0", "convention"]:
-              try:
-                  s = post("/search", {
-                      "fond": "KALI",
-                      "recherche": {
-                          "champs": [{
-                              "typeChamp": "IDCC",
-                              "criteres": [{
-                                  "typeRecherche": "TOUS_LES_MOTS_DANS_UN_CHAMP",
-                                  "valeur": valeur,
-                                  "operateur": "ET"
-                              }],
-                              "operateur": "ET"
-                          }],
-                          "operateur": "ET",
-                          "pageNumber": 1, "pageSize": 5,
-                          "sort": "PERTINENCE",
-                          "typePagination": "DEFAUT",
-                          "fromAdvancedRecherche": False
-                      }
-                  })
-                  total = s.get("totalResultNumber")
-                  results = s.get("results") or []
-                  idccs = [r.get("idcc") for r in results]
-                  print(f"IDCC valeur={valeur!r}: total={total} idccs={idccs[:3]}")
-                  if results:
-                      # Chercher conteneurs dans le premier résultat via kaliText
-                      first_id = (results[0].get("titles") or [{}])[0].get("id")
-                      if first_id:
-                          try:
-                              kt = post("/consult/kaliText", {"id": first_id})
-                              conteneurs = kt.get("conteneurs") or []
-                              print(f"  → conteneurs du 1er: {conteneurs[:2]}")
-                          except:
-                              pass
-              except Exception as e:
-                  print(f"IDCC valeur={valeur!r}: erreur {e}")
+          # Paginer /search et appeler /consult/kaliText sur chaque résultat
+          # pour extraire les KALICONT uniques
+          kalicont_uniques = {}  # cid -> {num, titre}
+          total_appels = 0
+          NB_PAGES = 5  # test sur 5 pages = 500 textes
 
-          # 2. Test avec pageSize=100 sur IDCC=1 (tous les IDCCs commençant par 1)
-          # pour voir si on peut paginer efficacement
-          s = post("/search", {
-              "fond": "KALI",
-              "recherche": {
-                  "champs": [{
-                      "typeChamp": "IDCC",
-                      "criteres": [{
-                          "typeRecherche": "TOUS_LES_MOTS_DANS_UN_CHAMP",
-                          "valeur": "1",
-                          "operateur": "ET"
-                      }],
-                      "operateur": "ET"
-                  }],
-                  "operateur": "ET",
-                  "pageNumber": 1, "pageSize": 100,
-                  "sort": "PERTINENCE",
-                  "typePagination": "DEFAUT",
-                  "fromAdvancedRecherche": False
-              }
-          })
-          total = s.get("totalResultNumber", 0)
-          results = s.get("results") or []
-          # Extraire les IDCC uniques depuis idcc field
-          idccs_uniques = set()
-          for r in results:
-              v = r.get("idcc")
-              if v:
-                  idccs_uniques.add(str(v))
-          print(f"\nIDCC=1: total={total} nb_résultats={len(results)} idccs_uniques={sorted(idccs_uniques)[:10]}")
+          for page in range(1, NB_PAGES + 1):
+              search = post("/search", {
+                  "fond": "KALI",
+                  "recherche": {
+                      "champs": [],
+                      "operateur": "ET",
+                      "pageNumber": page,
+                      "pageSize": 100,
+                      "sort": "PERTINENCE",
+                      "typePagination": "DEFAUT",
+                      "fromAdvancedRecherche": False
+                  }
+              })
+              results = search.get("results") or []
+              print(f"Page {page}: {len(results)} résultats")
+
+              for item in results:
+                  kalitext_id = (item.get("titles") or [{}])[0].get("id")
+                  if not kalitext_id:
+                      continue
+                  etat = item.get("etat", "")
+                  if etat not in ("VIGUEUR_ETEN", "VIGUEUR", "VIGUEUR_NON_ETEN"):
+                      continue
+                  try:
+                      kt = post("/consult/kaliText", {"id": kalitext_id})
+                      total_appels += 1
+                      for cont in (kt.get("conteneurs") or []):
+                          cid = cont.get("cid")
+                          num = cont.get("num") or cont.get("numero", "")
+                          titre = cont.get("titre") or ""
+                          if cid and cid not in kalicont_uniques:
+                              kalicont_uniques[cid] = {
+                                  "cid": cid,
+                                  "num": str(num).lstrip("0") or num,
+                                  "titre": titre[:80]
+                              }
+                  except Exception as e:
+                      pass
+              time.sleep(0.2)
+
+          print(f"\n✅ {len(kalicont_uniques)} KALICONT uniques trouvés en {NB_PAGES} pages ({total_appels} appels kaliText)")
+          for k in list(kalicont_uniques.values())[:10]:
+              print(f"  IDCC {k['num']:>6} — {k['titre'][:70]}")
           EOF
