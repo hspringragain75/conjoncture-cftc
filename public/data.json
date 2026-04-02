@@ -1,6 +1,6 @@
 {
-  "last_updated": "02/04/2026 08:10",
-  "last_updated_iso": "2026-04-02T08:10:20.782392",
+  "last_updated": "02/04/2026 08:18",
+  "last_updated_iso": "2026-04-02T08:18:04.831524",
   "contact": "hspringragain@cftc.fr",
   "alertes": [
     {
@@ -32,7 +32,7 @@
       "date": "2026-04-02",
       "type": "info",
       "titre": "🔄 Données actualisées",
-      "message": "Le tableau de bord a été mis à jour le 02/04/2026 à 08:10.",
+      "message": "Le tableau de bord a été mis à jour le 02/04/2026 à 08:17.",
       "onglet": "conjoncture"
     }
   ],
@@ -193,7 +193,7 @@
     }
   ],
   "revue_presse": {
-    "derniere_maj": "02/04/2026 08:10",
+    "derniere_maj": "02/04/2026 08:18",
     "nb_sources": 7,
     "sources_noms": [
       "Le Monde Éco",
@@ -206,6 +206,18 @@
     ],
     "a_la_une": [],
     "tous": [
+      {
+        "source": "Le Figaro Éco",
+        "couleur": "#92400e",
+        "emoji": "📊",
+        "tag": "Presse économique",
+        "titre": "Air France-KLM annonce avoir déposé une offre pour prendre une part dans TAP Air Portugal",
+        "resume": "Outre Air France-KLM, les groupes Lufthansa et IAG (British Airways, Iberia, Aer Lingus...) ont aussi exprimé leur intérêt pour TAP et ont jusqu’à ce jeudi pour déposer une offre.",
+        "lien": "https://www.lefigaro.fr/societes/air-france-klm-annonce-avoir-depose-une-offre-pour-prendre-une-part-dans-tap-air-portugal-20260402",
+        "date_iso": "2026-04-02T10:05:02+02:00",
+        "date_fr": "02/04/2026",
+        "pertinence": 0
+      },
       {
         "source": "Le Figaro Éco",
         "couleur": "#92400e",
@@ -327,18 +339,6 @@
         "pertinence": 1
       },
       {
-        "source": "Le Figaro Éco",
-        "couleur": "#92400e",
-        "emoji": "📊",
-        "tag": "Presse économique",
-        "titre": "Le maire de Saint-Denis appelle à fermer CNews après des propos polémiques le visant",
-        "resume": "La polémique a débuté quelques jours après les élections municipales.",
-        "lien": "https://www.lefigaro.fr/medias/le-maire-de-saint-denis-appelle-a-fermer-cnews-apres-des-propos-polemiques-le-visant-20260401",
-        "date_iso": "2026-04-02T09:21:20+02:00",
-        "date_fr": "02/04/2026",
-        "pertinence": 0
-      },
-      {
         "source": "Le Monde Éco",
         "couleur": "#374151",
         "emoji": "🌐",
@@ -349,18 +349,6 @@
         "date_iso": "2026-04-02T08:51:56+02:00",
         "date_fr": "02/04/2026",
         "pertinence": 0
-      },
-      {
-        "source": "Euractiv FR",
-        "couleur": "#0369a1",
-        "emoji": "🇪🇺",
-        "tag": "Europe & politique",
-        "titre": "La réforme du budget de l UE : une bataille façon « Hunger Games »",
-        "resume": "Les politiques de l'agriculture, de la cohésion, des affaires sociales et des migrations se livrent une concurrence directe pour l'obtention des ressources allouées au méga-fonds proposé par la Commission The post La réforme du budget de l&rsquo;UE : une bataille façon « Hunger Games » appeared firs",
-        "lien": "https://euractiv.fr/news/la-reforme-du-budget-de-lue-une-bataille-facon-hunger-games/",
-        "date_iso": "2026-04-02T07:55:55+00:00",
-        "date_fr": "02/04/2026",
-        "pertinence": 2
       },
       {
         "source": "Libération Éco",
@@ -387,18 +375,6 @@
         "pertinence": 1
       },
       {
-        "source": "Euractiv FR",
-        "couleur": "#0369a1",
-        "emoji": "🇪🇺",
-        "tag": "Europe & politique",
-        "titre": "La France et la Grande-Bretagne convoquent une réunion d urgence sur la crise du détroit d Ormuz",
-        "resume": "Une coalition de pays menée par la France et la Grande-Bretagne tiendra jeudi une réunion d urgence des ministres des Affaires étrangères afin de discuter de la réouverture du détroit d Ormuz. Ces discussions interviennent alors que l on craint de plus en plus que les États-Unis ne se retirent des e",
-        "lien": "https://euractiv.fr/news/la-france-et-la-grande-bretagne-convoquent-une-reunion-durgence-sur-la-crise-du-detroit-dormuz/",
-        "date_iso": "2026-04-02T07:16:40+00:00",
-        "date_fr": "02/04/2026",
-        "pertinence": 0
-      },
-      {
         "source": "Le Figaro Éco",
         "couleur": "#92400e",
         "emoji": "📊",
@@ -409,30 +385,6 @@
         "date_iso": "2026-04-02T06:52:44+02:00",
         "date_fr": "02/04/2026",
         "pertinence": 1
-      },
-      {
-        "source": "Euractiv FR",
-        "couleur": "#0369a1",
-        "emoji": "🇪🇺",
-        "tag": "Europe & politique",
-        "titre": "Les accords de défense Ukraine-Golfe ravivent l’optimisme européen",
-        "resume": "De nouveaux partenariats de défense entre l'Ukraine et les pays du Golfe pourraient renforcer le soutien aux efforts de guerre de Kiev The post Les accords de défense Ukraine-Golfe ravivent l’optimisme européen appeared first on Euractiv FR .",
-        "lien": "https://euractiv.fr/news/les-accords-de-defense-ukraine-golfe-ravivent-loptimisme-europeen/",
-        "date_iso": "2026-04-02T06:47:37+00:00",
-        "date_fr": "02/04/2026",
-        "pertinence": 1
-      },
-      {
-        "source": "Euractiv FR",
-        "couleur": "#0369a1",
-        "emoji": "🇪🇺",
-        "tag": "Europe & politique",
-        "titre": "Le Golfe penche pour Kiev",
-        "resume": "Également dans l'édition de jeudi : le CFP, Jörgen Warborn, Euronews, Pfizer, l'économiste en chef de la FAO, la réglementation européenne en matière de technologie The post Le Golfe penche pour Kiev appeared first on Euractiv FR .",
-        "lien": "https://euractiv.fr/news/le-golfe-penche-pour-kiev/",
-        "date_iso": "2026-04-02T06:25:31+00:00",
-        "date_fr": "02/04/2026",
-        "pertinence": 0
       },
       {
         "source": "Le Monde Éco",
@@ -565,6 +517,54 @@
         "date_iso": "2026-04-01T23:58:29+02:00",
         "date_fr": "01/04/2026",
         "pertinence": 2
+      },
+      {
+        "source": "Le Monde Éco",
+        "couleur": "#374151",
+        "emoji": "🌐",
+        "tag": "Presse économique",
+        "titre": "Nagui se défend de s’enrichir aux dépens de France Télévisions devant la commission d’enquête parlementaire sur l’audiovisuel public",
+        "resume": "Lors d’une audition tendue, l’animateur-producteur de « N’oubliez pas les paroles », de « Taratata » ou encore de « La Bande originale » a dénoncé, trois heures durant, mercredi 1ᵉʳ avril, les accusations dont il avait fait l’objet par le rapporteur de la commission, Charles Alloncle.",
+        "lien": "https://www.lemonde.fr/economie/article/2026/04/01/commission-d-enquete-parlementaire-sur-l-audiovisuel-public-nagui-se-defend-de-s-enrichir-aux-depens-de-france-televisions_6675947_3234.html",
+        "date_iso": "2026-04-01T21:36:12+02:00",
+        "date_fr": "01/04/2026",
+        "pertinence": 0
+      },
+      {
+        "source": "Le Figaro Éco",
+        "couleur": "#92400e",
+        "emoji": "📊",
+        "tag": "Presse économique",
+        "titre": "Commission d’enquête sur l’audiovisuel public : «Faut-il des réformes ? Certainement», estime le PDG de TF1",
+        "resume": "Le producteur et animateur de télévision est interrogé par les députés, avant les patrons de TF1, M6, Canal+ et CMA Média en fin d’après-midi.",
+        "lien": "https://www.lefigaro.fr/medias/en-direct-suivez-l-audition-de-nagui-devant-la-commission-d-enquete-sur-l-audiovisuel-public-20260401",
+        "date_iso": "2026-04-01T20:30:57+02:00",
+        "date_fr": "01/04/2026",
+        "pertinence": 1
+      },
+      {
+        "source": "Libération Éco",
+        "couleur": "#dc2626",
+        "emoji": "📰",
+        "tag": "Presse économique",
+        "titre": "Environ 10 % des stations-service en France touchées par des difficultés d’approvisionnement en carburant",
+        "resume": "Le nombre de stations concernées a fortement augmenté depuis le début de la guerre au Moyen-Orient, notamment à cause de la fermeture du détroit d’Ormuz. Près de 3 % ne vendent actuellement ni de gazole ni d’essence.",
+        "lien": "https://www.liberation.fr/economie/transports/environ-10-des-stations-service-en-france-touchees-par-des-difficultes-dapprovisionnement-en-carburant-20260401_S45QBFOOVZF67GQ3ZUMGWJIXY4/",
+        "date_iso": "2026-04-01T20:18:21+00:00",
+        "date_fr": "01/04/2026",
+        "pertinence": 0
+      },
+      {
+        "source": "Le Monde Éco",
+        "couleur": "#374151",
+        "emoji": "🌐",
+        "tag": "Presse économique",
+        "titre": "Guerre au Moyen-Orient : comment le plastique et la chimie, ingrédients-clés de l’économie, alimentent l’inflation",
+        "resume": "Depuis un mois et le déclenchement de la guerre américano-israélienne contre l’Iran, c’est toute l’industrie dépendant de la chimie qui subit de plein fouet un choc des prix avec la flambée des cours des hydrocarbures et le quasi-blocage du détroit d’Ormuz.",
+        "lien": "https://www.lemonde.fr/economie/article/2026/04/01/guerre-au-moyen-orient-comment-le-plastique-et-la-chimie-ingredients-cles-de-l-economie-alimentent-l-inflation_6675943_3234.html",
+        "date_iso": "2026-04-01T20:00:02+02:00",
+        "date_fr": "01/04/2026",
+        "pertinence": 1
       }
     ]
   },
@@ -823,7 +823,7 @@
     "ecart_hf_eqtp": 25.8,
     "difficultes_recrutement": 61,
     "irl_glissement": 0.79,
-    "prix_gazole": 2.271,
+    "prix_gazole": 2.27,
     "taux_effort_locataires": 29.6,
     "croissance_pib": 0.7,
     "climat_affaires": 97,
@@ -2019,24 +2019,24 @@
   },
   "carburants": {
     "gazole": {
-      "prix": 2.271,
-      "variation_an": 22.8,
+      "prix": 2.27,
+      "variation_an": 22.7,
       "variation_sem": 43.7
     },
     "sp95": {
-      "prix": 2.046,
+      "prix": 2.045,
       "variation_an": 12.4,
-      "variation_sem": 19.0
+      "variation_sem": 18.9
     },
     "sp98": {
-      "prix": 2.101,
+      "prix": 2.099,
       "variation_an": 12.4,
-      "variation_sem": 19.0
+      "variation_sem": 18.9
     },
     "e10": {
-      "prix": 1.992,
-      "variation_an": 11.3,
-      "variation_sem": 18.6
+      "prix": 1.991,
+      "variation_an": 11.2,
+      "variation_sem": 18.5
     },
     "evolution": [
       {
@@ -2314,13 +2314,13 @@
       },
       {
         "date": "2026-04-02",
-        "gazole": 2.271,
-        "sp95": 2.046,
-        "sp98": 2.101,
-        "e10": 1.992
+        "gazole": 2.27,
+        "sp95": 2.045,
+        "sp98": 2.099,
+        "e10": 1.991
       }
     ],
-    "derniere_donnee": "2026-04-02 08:49",
+    "derniere_donnee": "2026-04-02 07:49",
     "source": "data.economie.gouv.fr (flux instantané)",
     "granularite": "quotidien"
   },
@@ -2897,7 +2897,7 @@
       "note_lecture": "Le TEC-10 mesure le rendement des emprunts d'Etat francais a 10 ans. Un taux eleve rencherit le cout de la dette publique et impacte les taux de credit immobilier."
     },
     "petrole_brent": {
-      "valeur": 107.64,
+      "valeur": 108.12,
       "date": "2026-04-02",
       "unite": "USD/baril",
       "source": "Yahoo Finance",
@@ -4417,16 +4417,16 @@
         },
         {
           "date": "2026-04-02",
-          "valeur": 107.64,
-          "ma50": 83.83,
-          "ma200": 70.22
+          "valeur": 108.12,
+          "ma50": 83.84,
+          "ma200": 70.23
         }
       ],
       "variations": {
-        "jour": 6.41,
-        "semaine": -0.34,
-        "mois": 32.24,
-        "ytd": 77.19
+        "jour": 6.88,
+        "semaine": 0.1,
+        "mois": 32.83,
+        "ytd": 77.98
       },
       "min_max": {
         "min": 58.92,
@@ -4437,9 +4437,9 @@
       "note_lecture": "Le prix du Brent influence directement les couts de transport et d'energie, donc l'inflation et le pouvoir d'achat des salaries."
     },
     "cac40": {
-      "valeur": 7900.5,
+      "valeur": 7904.12,
       "date": "2026-04-02",
-      "variation_jour_pct": -1.01,
+      "variation_jour_pct": -0.97,
       "unite": "points",
       "source": "Yahoo Finance",
       "nb_points": 256,
@@ -5976,16 +5976,16 @@
         },
         {
           "date": "2026-04-02",
-          "valeur": 7900.5,
-          "ma50": 8129.4,
-          "ma200": 8001.09
+          "valeur": 7904.12,
+          "ma50": 8129.47,
+          "ma200": 8001.11
         }
       ],
       "variations": {
-        "jour": -1.01,
-        "semaine": 1.69,
-        "mois": -2.51,
-        "ytd": -3.6
+        "jour": -0.97,
+        "semaine": 1.74,
+        "mois": -2.46,
+        "ytd": -3.55
       },
       "min_max": {
         "min": 6863.02,
@@ -7566,7 +7566,7 @@
       "note_lecture": "Le taux de change euro-dollar determine le prix de tout ce qui est importe en dollars : petrole, matieres premieres, electronique. Un euro faible rencherit les importations et alimente l'inflation."
     },
     "or": {
-      "valeur": 4670.3,
+      "valeur": 4659.4,
       "date": "2026-04-02",
       "unite": "USD/oz",
       "source": "Yahoo Finance",
@@ -9086,16 +9086,16 @@
         },
         {
           "date": "2026-04-02",
-          "valeur": 4670.3,
-          "ma50": 4937.65,
-          "ma200": 4116.22
+          "valeur": 4659.4,
+          "ma50": 4937.43,
+          "ma200": 4116.17
         }
       ],
       "variations": {
-        "jour": -2.36,
-        "semaine": 6.74,
-        "mois": -8.56,
-        "ytd": 8.25
+        "jour": -2.59,
+        "semaine": 6.49,
+        "mois": -8.77,
+        "ytd": 8.0
       },
       "min_max": {
         "min": 2951.3,
@@ -10646,7 +10646,7 @@
       "note_lecture": "Le prix du gaz naturel (TTF europeen) impacte directement les factures de chauffage et d'electricite des menages, ainsi que les couts de production industrielle."
     },
     "ble": {
-      "valeur": 605.25,
+      "valeur": 606.0,
       "date": "2026-04-02",
       "unite": "cents/boisseau",
       "source": "Yahoo Finance",
@@ -12160,16 +12160,16 @@
         },
         {
           "date": "2026-04-02",
-          "valeur": 605.25,
-          "ma50": 568.58,
+          "valeur": 606.0,
+          "ma50": 568.6,
           "ma200": 533.83
         }
       ],
       "variations": {
-        "jour": 1.3,
-        "semaine": 0.04,
-        "mois": 5.77,
-        "ytd": 19.5
+        "jour": 1.42,
+        "semaine": 0.17,
+        "mois": 5.9,
+        "ytd": 19.64
       },
       "min_max": {
         "min": 495.0,
@@ -12180,7 +12180,7 @@
       "note_lecture": "Le cours du ble est un indicateur avance des prix alimentaires. La France etant le premier producteur europeen, son evolution impacte a la fois les consommateurs et le secteur agricole."
     },
     "lme_cuivre": {
-      "valeur": 5.57,
+      "valeur": 5.56,
       "date": "2026-04-02",
       "unite": "cts/lb",
       "source": "Yahoo Finance",
@@ -13700,16 +13700,16 @@
         },
         {
           "date": "2026-04-02",
-          "valeur": 5.57,
-          "ma50": 5.77,
+          "valeur": 5.56,
+          "ma50": 5.76,
           "ma200": 5.24
         }
       ],
       "variations": {
-        "jour": -0.89,
-        "semaine": 2.2,
-        "mois": -3.47,
-        "ytd": -1.24
+        "jour": -1.07,
+        "semaine": 2.02,
+        "mois": -3.64,
+        "ytd": -1.42
       },
       "min_max": {
         "min": 4.13,
@@ -13720,7 +13720,7 @@
       "note_lecture": "Le cuivre est le baromètre de l'activité industrielle mondiale ('Dr Copper'). Sa hausse signale une reprise économique, sa baisse anticipe un ralentissement. Utilisé massivement dans l'électrification et les énergies renouvelables."
     },
     "lme_aluminium": {
-      "valeur": 3439.0,
+      "valeur": 3428.5,
       "date": "2026-04-02",
       "unite": "cts/lb",
       "source": "Yahoo Finance",
@@ -15234,16 +15234,16 @@
         },
         {
           "date": "2026-04-02",
-          "valeur": 3439.0,
-          "ma50": 3145.32,
-          "ma200": 2786.38
+          "valeur": 3428.5,
+          "ma50": 3145.11,
+          "ma200": 2786.33
         }
       ],
       "variations": {
-        "jour": -0.38,
-        "semaine": 8.78,
-        "mois": 8.63,
-        "ytd": 17.05
+        "jour": -0.69,
+        "semaine": 8.45,
+        "mois": 8.3,
+        "ytd": 16.7
       },
       "min_max": {
         "min": 2166.25,
@@ -22280,7 +22280,7 @@
     "sources": "INSEE - Enquête Emploi, DARES"
   },
   "previsions_cftc": {
-    "generated_at": "2026-04-02T08:10:28.179752",
+    "generated_at": "2026-04-02T08:18:10.390684",
     "model_version": "CFTC v7.0 (bivarié Phillips + log-normale + pondération temporelle)",
     "n_simulations": 1000,
     "horizon": "12 mois",
@@ -22289,7 +22289,7 @@
       "niveau": "excellent",
       "issues": [],
       "warnings": [],
-      "timestamp": "2026-04-02T08:10:28.179764"
+      "timestamp": "2026-04-02T08:18:10.390705"
     },
     "calibrage": {
       "volatilites": {
@@ -22317,7 +22317,7 @@
       "lognormal_offset": 3.0
     },
     "market_signals": {
-      "inflation_adjustment": 0.212,
+      "inflation_adjustment": 0.217,
       "chomage_adjustment": 0.175,
       "energie_outlook": "hausse",
       "ponderation_temporelle": {
@@ -22329,10 +22329,10 @@
     },
     "market_signals_details": {
       "brent": {
-        "valeur": 107.64,
+        "valeur": 108.12,
         "ref": 75.0,
-        "variation_ytd_pct": 77.19,
-        "impact_inflation_pt": 0.326,
+        "variation_ytd_pct": 77.98,
+        "impact_inflation_pt": 0.331,
         "poids_temporel": 1.0
       },
       "gaz_ttf": {
@@ -22359,7 +22359,7 @@
         "signal": "baissier"
       },
       "cac40_ytd": {
-        "variation_ytd_pct": -3.6,
+        "variation_ytd_pct": -3.55,
         "signal_chomage": "neutre"
       },
       "carburants_sp95": {
@@ -22401,7 +22401,7 @@
           1.5,
           1.5,
           1.5,
-          1.4,
+          1.5,
           1.6,
           1.6,
           1.6,
@@ -22415,10 +22415,10 @@
           1.1,
           1.1,
           1.1,
-          1.0,
-          1.2,
-          1.2,
           1.1,
+          1.2,
+          1.2,
+          1.2,
           1.2
         ],
         "upper_bound": [
@@ -22439,7 +22439,7 @@
           0.9,
           0.9,
           1.0,
-          1.1,
+          1.2,
           1.3,
           1.3,
           1.3,
@@ -22480,18 +22480,18 @@
         "methodology": "Monte Carlo bivarié (1000 sim.) + log-normale + Phillips ρ=-0.35 (v7)"
       },
       "probabilites": {
-        "inflation_sous_2pct": 84.7,
-        "inflation_cible_bce": 84.7,
+        "inflation_sous_2pct": 84.5,
+        "inflation_cible_bce": 84.5,
         "inflation_au_dessus_3pct": 0.0,
         "inflation_au_dessus_4pct": 0.0,
-        "description": "84.7% de chances que l'inflation reste sous 2% à 12 mois"
+        "description": "84.5% de chances que l'inflation reste sous 2% à 12 mois"
       },
       "facteurs": {
         "cible_bdf": 1.4,
         "ajustement_climat": -0.03,
-        "ajustement_marches": 0.212,
+        "ajustement_marches": 0.217,
         "energie_outlook": "hausse",
-        "cible_ajustee": 1.582,
+        "cible_ajustee": 1.587,
         "volatilite_utilisee": 0.5
       },
       "asymetrie_ic": {
@@ -22499,7 +22499,7 @@
         "queue_basse": 0.4,
         "ratio": 1.25
       },
-      "insight": "Inflation médiane à 12 mois : 1.6% [IC 80% : 1.2% - 2.1%]. Asymétrie : queue haute 0.5pt vs basse 0.4pt. 84.7% de probabilité de rester sous 2%."
+      "insight": "Inflation médiane à 12 mois : 1.6% [IC 80% : 1.2% - 2.1%]. Asymétrie : queue haute 0.5pt vs basse 0.4pt. 84.5% de probabilité de rester sous 2%."
     },
     "smic": {
       "current": {
@@ -22706,10 +22706,10 @@
       }
     },
     "notes_lecture": [
-      "📈 Inflation médiane à 12 mois : 1.6% [1.2% - 2.1%] — 84.7% de chances de rester sous 2% (asymétrie : +0.5pt / -0.4pt)",
+      "📈 Inflation médiane à 12 mois : 1.6% [1.2% - 2.1%] — 84.5% de chances de rester sous 2% (asymétrie : +0.5pt / -0.4pt)",
       "💰 SMIC janvier 2027 : 1859€ brut (+2.0%, fourchette 1.6-2.5%) — Pouvoir d'achat réel : +0.4% (+7€/mois)",
       "👥 Chômage Q4 : 7.8% [7.6% - 7.9%] — Tendance stable (corrélé Phillips ρ=-0.35)",
-      "📊 Signaux marchés : ↑ inflation 0.21pt, ↑ chômage 0.17pt, (poids temporel min : 1.00)",
+      "📊 Signaux marchés : ↑ inflation 0.22pt, ↑ chômage 0.17pt, (poids temporel min : 1.00)",
       "🎲 Scénario à surveiller : 🚀 Reprise économique forte (25%)",
       "💡 Recommandation NAO : demander au minimum +2.1% pour préserver le pouvoir d'achat"
     ],
@@ -22734,7 +22734,7 @@
           }
         },
         "contribution_mediane": {
-          "signaux_marches_pt": 0.212,
+          "signaux_marches_pt": 0.217,
           "incertitude_bdf_sigma": 0.15,
           "label": "Déplacement de la prévision centrale"
         }
