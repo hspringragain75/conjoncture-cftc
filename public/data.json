@@ -1,6 +1,6 @@
 {
-  "last_updated": "02/04/2026 11:52",
-  "last_updated_iso": "2026-04-02T11:52:29.930077",
+  "last_updated": "02/04/2026 12:05",
+  "last_updated_iso": "2026-04-02T12:05:50.942149",
   "contact": "hspringragain@cftc.fr",
   "alertes": [
     {
@@ -32,7 +32,7 @@
       "date": "2026-04-02",
       "type": "info",
       "titre": "🔄 Données actualisées",
-      "message": "Le tableau de bord a été mis à jour le 02/04/2026 à 11:52.",
+      "message": "Le tableau de bord a été mis à jour le 02/04/2026 à 12:05.",
       "onglet": "conjoncture"
     }
   ],
@@ -193,7 +193,7 @@
     }
   ],
   "revue_presse": {
-    "derniere_maj": "02/04/2026 11:52",
+    "derniere_maj": "02/04/2026 12:05",
     "nb_sources": 7,
     "sources_noms": [
       "Le Monde Éco",
@@ -211,12 +211,24 @@
         "couleur": "#374151",
         "emoji": "🌐",
         "tag": "Presse économique",
-        "titre": "Ouverture des boulangeries sept jours sur sept : la proposition de loi n’est plus à l’ordre du jour",
-        "resume": "Face à la polémique suscitée au sein de la profession, le député macroniste des Deux-Sèvres Jean-Marie Fiévet s’est résolu à renoncer à son texte.",
-        "lien": "https://www.lemonde.fr/politique/article/2026/04/02/ouverture-des-boulangeries-sept-jours-sur-sept-la-proposition-de-loi-n-est-plus-a-l-ordre-du-jour_6676118_823448.html",
-        "date_iso": "2026-04-02T13:30:13+02:00",
+        "titre": "Yoshua Bengio, Prix Turing 2018, lanceur d’alerte sur l’intelligence artificielle",
+        "resume": "« Les gourous de l’IA » (9/12). Le Canadien d’origine franco-marocaine a fondé, dès 1993, l’un des plus importants instituts de recherche sur l’IA. Il appelle tout d’abord à identifier et à réduire les risques avant de développer tous azimuts la technologie.",
+        "lien": "https://www.lemonde.fr/economie/article/2026/04/02/yoshua-bengio-prix-turing-2018-lanceur-d-alerte-sur-l-intelligence-artificielle_6676123_3234.html",
+        "date_iso": "2026-04-02T14:00:17+02:00",
         "date_fr": "02/04/2026",
         "pertinence": 0
+      },
+      {
+        "source": "Le Figaro Éco",
+        "couleur": "#92400e",
+        "emoji": "📊",
+        "tag": "Presse économique",
+        "titre": "Menaces sur des banques américaines : Citi met ses salariés en télétravail à Paris et Francfort par «précaution»",
+        "resume": "«La sécurité de nos employés est notre priorité absolue, et nous prenons les mesures nécessaires pour garantir leur protection», a expliqué la porte-parole du groupe Citi.",
+        "lien": "https://www.lefigaro.fr/actualite-france/menaces-sur-des-banques-americaines-citi-met-ses-salaries-en-teletravail-a-paris-et-francfort-par-precaution-20260402",
+        "date_iso": "2026-04-02T13:59:25+02:00",
+        "date_fr": "02/04/2026",
+        "pertinence": 1
       },
       {
         "source": "Le Monde Éco",
@@ -241,6 +253,18 @@
         "date_iso": "2026-04-02T13:30:13+02:00",
         "date_fr": "02/04/2026",
         "pertinence": 2
+      },
+      {
+        "source": "Le Monde Éco",
+        "couleur": "#374151",
+        "emoji": "🌐",
+        "tag": "Presse économique",
+        "titre": "Ouverture des boulangeries sept jours sur sept : la proposition de loi n’est plus à l’ordre du jour",
+        "resume": "Face à la polémique suscitée au sein de la profession, le député macroniste des Deux-Sèvres Jean-Marie Fiévet s’est résolu à renoncer à son texte.",
+        "lien": "https://www.lemonde.fr/politique/article/2026/04/02/ouverture-des-boulangeries-sept-jours-sur-sept-la-proposition-de-loi-n-est-plus-a-l-ordre-du-jour_6676118_823448.html",
+        "date_iso": "2026-04-02T13:30:07+02:00",
+        "date_fr": "02/04/2026",
+        "pertinence": 0
       },
       {
         "source": "Le Figaro Éco",
@@ -403,18 +427,6 @@
         "couleur": "#92400e",
         "emoji": "📊",
         "tag": "Presse économique",
-        "titre": "États-Unis : les républicains concluent un accord pour mettre fin à la paralysie budgétaire partielle",
-        "resume": "La paralysie budgétaire partielle actuelle oblige des milliers d’agents de sécurité des aéroports à travailler sans être payés depuis mi-février.",
-        "lien": "https://www.lefigaro.fr/conjoncture/etats-unis-les-republicains-concluent-un-accord-pour-mettre-fin-a-la-paralysie-budgetaire-partielle-20260402",
-        "date_iso": "2026-04-02T09:54:45+02:00",
-        "date_fr": "02/04/2026",
-        "pertinence": 2
-      },
-      {
-        "source": "Le Figaro Éco",
-        "couleur": "#92400e",
-        "emoji": "📊",
-        "tag": "Presse économique",
         "titre": "Un an après les droits de douane de Donald Trump, les marchés financiers s’en sont-ils vraiment remis ?",
         "resume": "INFOGRAPHIES – Le 2 avril 2025, le président américain imposait ses tariffs aux pays du monde entier, provoquant alors un séisme sur les marchés. Qu’en est-il un an plus tard ?",
         "lien": "https://www.lefigaro.fr/conjoncture/un-an-apres-les-droits-de-douane-de-donald-trump-les-marches-financiers-s-en-sont-ils-vraiment-remis-20260402",
@@ -454,7 +466,7 @@
         "titre": "Guerre au Moyen-Orient : l’industrie française touchée de plein fouet par la crise énergétique",
         "resume": "Après plus d’un mois de guerre dans le golfe Arabo-Persique, les effets de la hausse des prix des carburants commencent à se faire sentir dans plusieurs secteurs industriels tricolores consommateurs d’énergies fossiles ou de matières premières dérivées du pétrole et du gaz.",
         "lien": "https://www.lemonde.fr/economie/article/2026/04/02/guerre-au-moyen-orient-l-industrie-francaise-touchee-de-plein-fouet-par-la-crise-energetique_6676095_3234.html",
-        "date_iso": "2026-04-02T09:30:09+02:00",
+        "date_iso": "2026-04-02T09:30:07+02:00",
         "date_fr": "02/04/2026",
         "pertinence": 0
       },
@@ -553,18 +565,6 @@
         "date_iso": "2026-04-02T07:16:40+00:00",
         "date_fr": "02/04/2026",
         "pertinence": 0
-      },
-      {
-        "source": "Le Figaro Éco",
-        "couleur": "#92400e",
-        "emoji": "📊",
-        "tag": "Presse économique",
-        "titre": "Guerre au Moyen-Orient : le pétrole en hausse et les bourses en Asie en baisse après les déclarations de Trump",
-        "resume": "Le président américain a déclaré vouloir frapper «extrêmement durement» l’Iran pendant encore plusieurs semaines s’il n’obtenait pas un accord.",
-        "lien": "https://www.lefigaro.fr/conjoncture/guerre-au-moyen-orient-le-petrole-en-hausse-et-les-bourses-en-asie-en-baisse-apres-les-declarations-de-trump-20260402",
-        "date_iso": "2026-04-02T06:52:44+02:00",
-        "date_fr": "02/04/2026",
-        "pertinence": 1
       }
     ]
   },
@@ -823,7 +823,7 @@
     "ecart_hf_eqtp": 25.8,
     "difficultes_recrutement": 61,
     "irl_glissement": 0.79,
-    "prix_gazole": 2.272,
+    "prix_gazole": 2.271,
     "taux_effort_locataires": 29.6,
     "croissance_pib": 0.7,
     "climat_affaires": 97,
@@ -2019,24 +2019,24 @@
   },
   "carburants": {
     "gazole": {
-      "prix": 2.272,
+      "prix": 2.271,
       "variation_an": 22.8,
-      "variation_sem": 43.8
+      "variation_sem": 43.7
     },
     "sp95": {
-      "prix": 2.047,
-      "variation_an": 12.5,
+      "prix": 2.046,
+      "variation_an": 12.4,
       "variation_sem": 19.0
     },
     "sp98": {
-      "prix": 2.103,
-      "variation_an": 12.5,
+      "prix": 2.102,
+      "variation_an": 12.4,
       "variation_sem": 19.0
     },
     "e10": {
-      "prix": 1.994,
-      "variation_an": 11.4,
-      "variation_sem": 18.7
+      "prix": 1.993,
+      "variation_an": 11.3,
+      "variation_sem": 18.6
     },
     "evolution": [
       {
@@ -2314,13 +2314,13 @@
       },
       {
         "date": "2026-04-02",
-        "gazole": 2.272,
-        "sp95": 2.047,
-        "sp98": 2.103,
-        "e10": 1.994
+        "gazole": 2.271,
+        "sp95": 2.046,
+        "sp98": 2.102,
+        "e10": 1.993
       }
     ],
-    "derniere_donnee": "2026-04-02 12:49",
+    "derniere_donnee": "2026-04-02 10:48",
     "source": "data.economie.gouv.fr (flux instantané)",
     "granularite": "quotidien"
   },
@@ -2891,7 +2891,7 @@
       "note_lecture": "Le TEC-10 mesure le rendement des emprunts d'Etat francais a 10 ans. Un taux eleve rencherit le cout de la dette publique et impacte les taux de credit immobilier."
     },
     "petrole_brent": {
-      "valeur": 109.55,
+      "valeur": 109.23,
       "date": "2026-04-02",
       "unite": "USD/baril",
       "source": "Yahoo Finance",
@@ -4411,16 +4411,16 @@
         },
         {
           "date": "2026-04-02",
-          "valeur": 109.55,
-          "ma50": 83.87,
+          "valeur": 109.23,
+          "ma50": 83.86,
           "ma200": 70.23
         }
       ],
       "variations": {
-        "jour": 8.29,
-        "semaine": 1.43,
-        "mois": 34.58,
-        "ytd": 80.33
+        "jour": 7.98,
+        "semaine": 1.13,
+        "mois": 34.19,
+        "ytd": 79.8
       },
       "min_max": {
         "min": 58.92,
@@ -4431,9 +4431,9 @@
       "note_lecture": "Le prix du Brent influence directement les couts de transport et d'energie, donc l'inflation et le pouvoir d'achat des salaries."
     },
     "cac40": {
-      "valeur": 7881.52,
+      "valeur": 7875.93,
       "date": "2026-04-02",
-      "variation_jour_pct": -1.25,
+      "variation_jour_pct": -1.32,
       "unite": "points",
       "source": "Yahoo Finance",
       "nb_points": 256,
@@ -5970,16 +5970,16 @@
         },
         {
           "date": "2026-04-02",
-          "valeur": 7881.52,
-          "ma50": 8129.02,
-          "ma200": 8000.99
+          "valeur": 7875.93,
+          "ma50": 8128.91,
+          "ma200": 8000.97
         }
       ],
       "variations": {
-        "jour": -1.25,
-        "semaine": 1.44,
-        "mois": -2.74,
-        "ytd": -3.83
+        "jour": -1.32,
+        "semaine": 1.37,
+        "mois": -2.81,
+        "ytd": -3.9
       },
       "min_max": {
         "min": 6863.02,
@@ -7560,7 +7560,7 @@
       "note_lecture": "Le taux de change euro-dollar determine le prix de tout ce qui est importe en dollars : petrole, matieres premieres, electronique. Un euro faible rencherit les importations et alimente l'inflation."
     },
     "or": {
-      "valeur": 4623.6,
+      "valeur": 4628.9,
       "date": "2026-04-02",
       "unite": "USD/oz",
       "source": "Yahoo Finance",
@@ -9080,16 +9080,16 @@
         },
         {
           "date": "2026-04-02",
-          "valeur": 4623.6,
-          "ma50": 4936.71,
-          "ma200": 4115.99
+          "valeur": 4628.9,
+          "ma50": 4936.82,
+          "ma200": 4116.01
         }
       ],
       "variations": {
-        "jour": -3.34,
-        "semaine": 5.67,
-        "mois": -9.47,
-        "ytd": 7.17
+        "jour": -3.23,
+        "semaine": 5.79,
+        "mois": -9.37,
+        "ytd": 7.29
       },
       "min_max": {
         "min": 2951.3,
@@ -9100,7 +9100,7 @@
       "note_lecture": "L'or est la valeur refuge par excellence. Sa hausse traduit une montee de l'incertitude economique ou geopolitique. Il sert aussi de protection contre l'inflation."
     },
     "gaz_naturel": {
-      "valeur": 50.63,
+      "valeur": 50.97,
       "date": "2026-04-02",
       "unite": "EUR/MWh",
       "source": "Yahoo Finance (TTF)",
@@ -10620,16 +10620,16 @@
         },
         {
           "date": "2026-04-02",
-          "valeur": 50.63,
-          "ma50": 43.06,
-          "ma200": 34.63
+          "valeur": 50.97,
+          "ma50": 43.07,
+          "ma200": 34.64
         }
       ],
       "variations": {
-        "jour": 6.57,
-        "semaine": -8.31,
-        "mois": -6.74,
-        "ytd": 74.59
+        "jour": 7.28,
+        "semaine": -7.7,
+        "mois": -6.12,
+        "ytd": 75.76
       },
       "min_max": {
         "min": 26.6,
@@ -10640,7 +10640,7 @@
       "note_lecture": "Le prix du gaz naturel (TTF europeen) impacte directement les factures de chauffage et d'electricite des menages, ainsi que les couts de production industrielle."
     },
     "ble": {
-      "valeur": 608.25,
+      "valeur": 607.75,
       "date": "2026-04-02",
       "unite": "cents/boisseau",
       "source": "Yahoo Finance",
@@ -12154,16 +12154,16 @@
         },
         {
           "date": "2026-04-02",
-          "valeur": 608.25,
-          "ma50": 568.64,
+          "valeur": 607.75,
+          "ma50": 568.63,
           "ma200": 533.84
         }
       ],
       "variations": {
-        "jour": 1.8,
-        "semaine": 0.54,
-        "mois": 6.29,
-        "ytd": 20.09
+        "jour": 1.72,
+        "semaine": 0.45,
+        "mois": 6.2,
+        "ytd": 19.99
       },
       "min_max": {
         "min": 495.0,
@@ -13714,7 +13714,7 @@
       "note_lecture": "Le cuivre est le baromètre de l'activité industrielle mondiale ('Dr Copper'). Sa hausse signale une reprise économique, sa baisse anticipe un ralentissement. Utilisé massivement dans l'électrification et les énergies renouvelables."
     },
     "lme_aluminium": {
-      "valeur": 3379.5,
+      "valeur": 3357.0,
       "date": "2026-04-02",
       "unite": "cts/lb",
       "source": "Yahoo Finance",
@@ -15228,16 +15228,16 @@
         },
         {
           "date": "2026-04-02",
-          "valeur": 3379.5,
-          "ma50": 3144.12,
-          "ma200": 2786.08
+          "valeur": 3357.0,
+          "ma50": 3143.68,
+          "ma200": 2785.97
         }
       ],
       "variations": {
-        "jour": -2.11,
-        "semaine": 6.9,
-        "mois": 6.75,
-        "ytd": 15.03
+        "jour": -2.76,
+        "semaine": 6.18,
+        "mois": 6.04,
+        "ytd": 14.26
       },
       "min_max": {
         "min": 2166.25,
@@ -19045,17 +19045,17 @@
     "statistiques_branches": {
       "total_branches": 49,
       "branches_affichees": 49,
-      "branches_conformes": 5,
-      "branches_non_conformes": 0,
-      "branches_a_verifier": 44,
-      "pourcentage_non_conformes": 0,
+      "branches_conformes": 18,
+      "branches_non_conformes": 10,
+      "branches_a_verifier": 21,
+      "pourcentage_non_conformes": 20,
       "total_effectif_couvert": 9860473,
       "source_statistiques": "kali-data (SocialGouv / Fabrique numérique des ministères sociaux)"
     },
     "meta": {
       "source_effectifs": "DSN via kali-data",
       "source_grilles": "SocialGouv kali-data (extraction automatique)",
-      "date_generation": "2026-04-02T11:52:51.070358",
+      "date_generation": "2026-04-02T12:06:12.524529",
       "mode": "100pct_automatique",
       "note": "Extraction heuristique depuis textes juridiques KALI. Statut a_verifier si grille non extraite ou confidence < 55%."
     },
@@ -19072,8 +19072,8 @@
           "source_donnees": "kali-data",
           "kali_id": "KALICONT000005635173",
           "extraction_status": "ok",
-          "confidence": 0.5,
-          "quality": "fragile",
+          "confidence": 0.65,
+          "quality": "partielle",
           "source_path": "",
           "source_excerpt": "<p align=\"left\"><br/>À compter de la date prévue au titre III du présent avenant, les salaires minimaux conventionnels des ETAM sont déterminés selon la formule suivante :<br/>Salaire minimum conventionnel = base fixe + (valeur du point ETAM × coefficient de la position).<br/>Pou"
         },
@@ -19085,7 +19085,7 @@
             "minimum_annuel": 10122.0
           }
         ],
-        "statut": "a_verifier"
+        "statut": "non_conforme"
       },
       {
         "idcc": "3248",
@@ -19099,8 +19099,8 @@
           "source_donnees": "kali-data",
           "kali_id": "KALICONT000046993250",
           "extraction_status": "ok",
-          "confidence": 0.35,
-          "quality": "fragile",
+          "confidence": 0.55,
+          "quality": "partielle",
           "source_path": "",
           "source_excerpt": "<p align=\"center\">Annexe A<br/>\nBarème des salaires minima hiérarchiques<br/>\nAdministratifs et techniciens – Agents de maîtrise (sauf agent de maîtrise d'atelier)</p><p>Base 35 heures.<br/>\nDate d'application : 1er septembre 2022.<br/>\nValeur du point 5,400 €.</p><p></p><center>"
         },
@@ -19112,7 +19112,7 @@
             "minimum_annuel": 10044.0
           }
         ],
-        "statut": "a_verifier"
+        "statut": "non_conforme"
       },
       {
         "idcc": "2216",
@@ -19126,8 +19126,8 @@
           "source_donnees": "kali-data",
           "kali_id": "KALICONT000005635085",
           "extraction_status": "ok",
-          "confidence": 0.5,
-          "quality": "fragile",
+          "confidence": 0.65,
+          "quality": "partielle",
           "source_path": "",
           "source_excerpt": "<p align=\"left\">Le salaire minimum conventionnel hiérarchique, obéissant aux règles de calcul fixées par la CCN et notamment ses articles 3.6 et 5.2.1, est ainsi fixé :</p><p align=\"center\">Grille des salaires minima conventionnels hiérarchiques – salariés en décompte horaire</p>"
         },
@@ -19139,7 +19139,7 @@
             "minimum_annuel": 23849.0
           }
         ],
-        "statut": "a_verifier"
+        "statut": "non_conforme"
       },
       {
         "idcc": "0016",
@@ -19153,7 +19153,7 @@
           "source_donnees": "kali-data",
           "kali_id": "KALICONT000005635624",
           "extraction_status": "empty",
-          "confidence": 0.5,
+          "confidence": 0.35,
           "quality": "indisponible",
           "source_path": "",
           "source_excerpt": "<p>Annexe</p><p><em>Personnels ouvriers roulants et sédentaires. Taux horaires à compter du 1er avril</em><em>2018</em><a shape=\"rect\" href=\"#RENVOI_KALIARTI000037412157_1\"> (1)</a></p><p align=\"right\">(En euros.)</p><center><table border=\"1\"><tbody><tr><th>Coefficient</th><th>À "
@@ -19173,7 +19173,7 @@
           "source_donnees": "kali-data",
           "kali_id": "KALICONT000005635534",
           "extraction_status": "empty",
-          "confidence": 0.15,
+          "confidence": 0.1,
           "quality": "indisponible",
           "source_path": "",
           "source_excerpt": "<p align=\"left\">Les rémunérations horaires brutes applicables sur le territoire métropolitain et les DROM sont déterminées dans le respect des salaires minima conventionnels suivants :</p><p align=\"left\"></p><center><table border=\"1\"><tbody><tr><th></th><th>Niveau I</th><th>Nivea"
@@ -19253,10 +19253,10 @@
           "source_donnees": "kali-data",
           "kali_id": "KALICONT000005635373",
           "extraction_status": "empty",
-          "confidence": 0.0,
+          "confidence": 0.1,
           "quality": "indisponible",
-          "source_path": null,
-          "source_excerpt": null
+          "source_path": "",
+          "source_excerpt": "<p align=\"left\">Le premier paragraphe de l'article 2.2 « Montant » de l'accord du 23 juin 2020 est ainsi modifié :<br/>\n« Le montant annuel de la contribution patronale pour le développement du dialogue social de branche est fixé à 190 euros par entreprise.<br/>\nCe montant évolue"
         },
         "grille": [],
         "statut": "a_verifier"
@@ -19299,14 +19299,21 @@
         "meta": {
           "source_donnees": "kali-data",
           "kali_id": "KALICONT000005635813",
-          "extraction_status": "empty",
-          "confidence": 0.5,
-          "quality": "indisponible",
+          "extraction_status": "ok",
+          "confidence": 0.65,
+          "quality": "partielle",
           "source_path": "",
-          "source_excerpt": "<p align=\"left\">Les parties au présent accord rappellent leur attachement au système de formation en apprentissage.</p><p align=\"left\">L'apprentissage, à l'instar des autres dispositifs de formation doit contribuer à l'élaboration de parcours professionnels diversifiés. Il partic"
+          "source_excerpt": "<p align=\"left\">Les parties au présent accord rappellent leur attachement au système de formation en apprentissage.</p><p align=\"left\">À ce titre, la branche a pour ambition de multiplier par 2 le nombre de contrats d'apprentissage réalisés par la branche dans un délai de 2 ans e"
         },
-        "grille": [],
-        "statut": "a_verifier"
+        "grille": [
+          {
+            "niveau": "du contrat</th><th colspan=\"4\">Âge de l'apprenti</th></tr><tr><th>De 16 ans à 17 ans</th><th>De 18 ans à 20 ans</th><th>",
+            "coefficient": null,
+            "minimum_mensuel": 4000.0,
+            "minimum_annuel": 48000.0
+          }
+        ],
+        "statut": "conforme"
       },
       {
         "idcc": "1597",
@@ -19347,8 +19354,8 @@
           "source_donnees": "kali-data",
           "kali_id": "KALICONT000005635613",
           "extraction_status": "ok",
-          "confidence": 0.35,
-          "quality": "fragile",
+          "confidence": 0.55,
+          "quality": "partielle",
           "source_path": "",
           "source_excerpt": "<p><br/>Annexe</p><p><br/>Barème des salaires minima au 1er février 2013</p><p><br/>Base : 38 heures par semaine.<br/>Valeur du point : 7,85 €.</p><p><br/>(En euros.)</p><p><div align=\"center\"><center><table border=\"1\"><tr><th>Coefficient</th><th>Salaire minimum<br/>(VP × coeffic"
         },
@@ -19360,7 +19367,7 @@
             "minimum_annuel": 10740.0
           }
         ],
-        "statut": "a_verifier"
+        "statut": "non_conforme"
       },
       {
         "idcc": "2120",
@@ -19394,8 +19401,8 @@
           "source_donnees": "kali-data",
           "kali_id": "KALICONT000025805800",
           "extraction_status": "ok",
-          "confidence": 0.5,
-          "quality": "fragile",
+          "confidence": 0.65,
+          "quality": "partielle",
           "source_path": "",
           "source_excerpt": "<p align=\"left\">Le présent avenant remplace l'intégralité des dispositions du titre VI de la convention collective de la branche de l'aide, de l'accompagnement, des soins et des services à domicile :</p><p align=\"center\">« Titre VI. Formation tout au long de la vie et politique d"
         },
@@ -19407,7 +19414,7 @@
             "minimum_annuel": 9600.0
           }
         ],
-        "statut": "a_verifier"
+        "statut": "non_conforme"
       },
       {
         "idcc": "1501",
@@ -19441,8 +19448,8 @@
           "source_donnees": "kali-data",
           "kali_id": "KALICONT000005635467",
           "extraction_status": "ok",
-          "confidence": 0.5,
-          "quality": "fragile",
+          "confidence": 0.65,
+          "quality": "partielle",
           "source_path": "",
           "source_excerpt": "<p></p>   Entre les organisations signataires du présent accord, pour l'application notamment de l'article 4.7 \" Salaires minimaux \" et du titre XII \" Classification des ouvriers des entreprises de travaux publics \" de la convention collective nationale du 15 décembre 1992, il a "
         },
@@ -19454,7 +19461,7 @@
             "minimum_annuel": 13519.2
           }
         ],
-        "statut": "a_verifier"
+        "statut": "non_conforme"
       },
       {
         "idcc": "1351",
@@ -19468,8 +19475,8 @@
           "source_donnees": "kali-data",
           "kali_id": "KALICONT000005635405",
           "extraction_status": "ok",
-          "confidence": 0.5,
-          "quality": "fragile",
+          "confidence": 0.65,
+          "quality": "partielle",
           "source_path": "",
           "source_excerpt": "<p align=\"left\">Afin de poursuivre l'objectif tel que décrit en préambule, les parties conviennent de revaloriser le salaire minimum conventionnel du coefficient 120 à 1 482,51 € brut pour 151,67 heures ­ mensuelles. </p><p align=\"left\">Le tableau correspondant à ce nouveau minim"
         },
@@ -19481,7 +19488,7 @@
             "minimum_annuel": 17790.12
           }
         ],
-        "statut": "a_verifier"
+        "statut": "conforme"
       },
       {
         "idcc": "1527",
@@ -19495,7 +19502,7 @@
           "source_donnees": "kali-data",
           "kali_id": "KALICONT000005635413",
           "extraction_status": "ok",
-          "confidence": 0.85,
+          "confidence": 0.9,
           "quality": "bonne",
           "source_path": "",
           "source_excerpt": "<p></p><p align=\"left\">Dans ce contexte, la convention collective est actualisée et remplacée par les dispositions du présent avenant. Seul l'article 26, relatif à la prévoyance et au remboursement des frais de santé, reste inchangé.</p><p align=\"left\">Les annexes sont également "
@@ -19522,10 +19529,10 @@
           "source_donnees": "kali-data",
           "kali_id": "KALICONT000005635918",
           "extraction_status": "empty",
-          "confidence": 0.0,
+          "confidence": 0.1,
           "quality": "indisponible",
-          "source_path": null,
-          "source_excerpt": null
+          "source_path": "",
+          "source_excerpt": "<p align=\"center\">21.1. Rémunération</p><p align=\"left\">La rémunération des salariés régulièrement mandatés est maintenue par leur employeur tant pour les commissions paritaires que pour le temps de préparation de celles-ci (visé à l'article 20-A dernier alinéa).</p><p align=\"lef"
         },
         "grille": [],
         "statut": "a_verifier"
@@ -19542,8 +19549,8 @@
           "source_donnees": "kali-data",
           "kali_id": "KALICONT000018773893",
           "extraction_status": "ok",
-          "confidence": 0.35,
-          "quality": "fragile",
+          "confidence": 0.55,
+          "quality": "partielle",
           "source_path": "",
           "source_excerpt": "<p align=\"left\">En application du titre III de la convention collective nationale des employés, techniciens et agents de maîtrise du bâtiment du 12 juillet 2006, étendue par arrêté ministériel du 5 juin 2007, et de l'<a href=\"/affichIDCC.do?cidTexte=KALITEXT000018613461&categorie"
         },
@@ -19555,7 +19562,7 @@
             "minimum_annuel": 18282.0
           }
         ],
-        "statut": "a_verifier"
+        "statut": "conforme"
       },
       {
         "idcc": "0787",
@@ -19589,7 +19596,7 @@
           "source_donnees": "kali-data",
           "kali_id": "KALICONT000005635886",
           "extraction_status": "empty",
-          "confidence": 0.15,
+          "confidence": 0.1,
           "quality": "indisponible",
           "source_path": "",
           "source_excerpt": "<p></p>   Entre :<p></p><p></p>   La confédération nationale de la boulangerie et boulangerie-pâtisserie française,<p></p><p></p>   La fédération nationale agroalimenaire et forestière CGT,<p></p> D'autre part,<p></p><p></p>   il a été convenu ce qui suit :<p></p><p></p>   Les di"
@@ -19609,8 +19616,8 @@
           "source_donnees": "kali-data",
           "kali_id": "KALICONT000005635184",
           "extraction_status": "ok",
-          "confidence": 0.35,
-          "quality": "fragile",
+          "confidence": 0.65,
+          "quality": "partielle",
           "source_path": "",
           "source_excerpt": "<p align=\"left\">Le <a href=\"/affichIDCCArticle.do?cidTexte=KALITEXT000005682494&idArticle=KALIARTI000005857821&categorieLien=cid\">paragraphe II « Salaires minima professionnels » de l'avenant n° 1</a> de la convention collective nationale de l'industrie pharmaceutique modifiée, e"
         },
@@ -19628,7 +19635,7 @@
             "minimum_annuel": 65496.0
           }
         ],
-        "statut": "a_verifier"
+        "statut": "conforme"
       },
       {
         "idcc": "2098",
@@ -19642,7 +19649,7 @@
           "source_donnees": "kali-data",
           "kali_id": "KALICONT000005635550",
           "extraction_status": "empty",
-          "confidence": 0.15,
+          "confidence": 0.1,
           "quality": "indisponible",
           "source_path": "",
           "source_excerpt": "<p>Article 1er Les grilles des rémunérations mensuelles et annuelles garanties sont fixées sur la base d'une durée mensuelle de travail de 151,67 heures. La valeur du point est fixée à 3,03 . Les indices de rémunération des qualifications suivantes sont modifiés : Statut employés"
@@ -19662,20 +19669,26 @@
           "source_donnees": "kali-data",
           "kali_id": "KALICONT000005635617",
           "extraction_status": "ok",
-          "confidence": 0.35,
-          "quality": "fragile",
+          "confidence": 0.65,
+          "quality": "partielle",
           "source_path": "",
           "source_excerpt": "<p align=\"left\">Conformément à l'accord relatif aux classifications professionnelles du 20 juin 2016, le barème des salaires mensuels minima garantis, applicable en France métropolitaine, pour les salariés visés par les avenants et annexes de la convention collective nationale de"
         },
         "grille": [
           {
-            "niveau": "<p align=\"left\">Conformément à l'accord relatif aux classifications professionnelles du 20 juin 2016, le barème des sala",
+            "niveau": "pour un temps complet</th></tr><tr><td rowspan=\"4\" align=\"center\">Employés</td><td align=\"center\">1</td><td align=\"cente",
             "coefficient": null,
-            "minimum_mensuel": 1603.12,
-            "minimum_annuel": 19237.44
+            "minimum_mensuel": 1747.2,
+            "minimum_annuel": 20966.4
+          },
+          {
+            "niveau": "pour un temps complet</th></tr><tr><td rowspan=\"3\" align=\"center\">Cadres</td><td align=\"center\">1</td><td align=\"center\"",
+            "coefficient": null,
+            "minimum_mensuel": 2253.0,
+            "minimum_annuel": 27036.0
           }
         ],
-        "statut": "a_verifier"
+        "statut": "conforme"
       },
       {
         "idcc": "1996",
@@ -19689,8 +19702,8 @@
           "source_donnees": "kali-data",
           "kali_id": "KALICONT000005635528",
           "extraction_status": "ok",
-          "confidence": 0.5,
-          "quality": "fragile",
+          "confidence": 0.65,
+          "quality": "partielle",
           "source_path": "",
           "source_excerpt": "<p>Vu l'article 8 de la convention collective nationale étendue de la pharmacie d'officine du 3 décembre 1997 ;</p><p>Vu l'article 5-2 de l'accord collectif national étendu du 23 mars 2000 sur la réduction du temps de travail dans la branche professionnelle de la pharmacie d'offi"
         },
@@ -19702,7 +19715,7 @@
             "minimum_annuel": 13908.0
           }
         ],
-        "statut": "a_verifier"
+        "statut": "non_conforme"
       },
       {
         "idcc": "0292",
@@ -19716,8 +19729,8 @@
           "source_donnees": "kali-data",
           "kali_id": "KALICONT000005635856",
           "extraction_status": "ok",
-          "confidence": 0.5,
-          "quality": "fragile",
+          "confidence": 0.65,
+          "quality": "partielle",
           "source_path": "",
           "source_excerpt": "<p>Article 1er</p><p>Revalorisation des salaires minima</p><p>La grille de salaires issue de l'accord signé le 16 décembre 2004 est revalorisée comme suit :</p><p>Article 2</p><p>Valeur à compter du 1er février 2006</p><p>A compter du 1er février 2006, la valeur du coefficient 70"
         },
@@ -19729,7 +19742,7 @@
             "minimum_annuel": 14820.0
           }
         ],
-        "statut": "a_verifier"
+        "statut": "non_conforme"
       },
       {
         "idcc": "1518",
@@ -19743,20 +19756,20 @@
           "source_donnees": "kali-data",
           "kali_id": "KALICONT000005635177",
           "extraction_status": "ok",
-          "confidence": 0.35,
-          "quality": "fragile",
+          "confidence": 0.65,
+          "quality": "partielle",
           "source_path": "",
-          "source_excerpt": "<p>Préambule</p><p>Dans le cadre du passage à l'euro, la valeur de point fixée à 31,90 F ainsi que les salaires prévus à l'article 1.4.3 de la convention collective de l'animation devront être convertis.</p><p>Article 1er</p><p>La valeur du point prévue à l'article 1.7 de l'annex"
+          "source_excerpt": "<p align=\"left\">Le présent article annule et remplace le titre VIII de la convention collective nationale ÉCLAT comme suit :</p><p align=\"center\">« Titre VIII   Régime de prévoyance obligatoire</p><p align=\"left\">Les garanties instituées en application du présent accord revêtent "
         },
         "grille": [
           {
-            "niveau": "<p>Préambule</p><p>Dans le cadre du passage à l'euro, la valeur de point fixée à 31,90 F ainsi que les salaires prévus à",
+            "niveau": "– pour les salariés cadres, 300 % du salaire annuel de référence sur la tranche 1 et 100 % du salaire annuel de référenc",
             "coefficient": null,
-            "minimum_mensuel": 1067.15,
-            "minimum_annuel": 12805.8
+            "minimum_mensuel": 2000.0,
+            "minimum_annuel": 24000.0
           }
         ],
-        "statut": "a_verifier"
+        "statut": "conforme"
       },
       {
         "idcc": "2596",
@@ -19770,7 +19783,7 @@
           "source_donnees": "kali-data",
           "kali_id": "KALICONT000018563755",
           "extraction_status": "empty",
-          "confidence": 0.15,
+          "confidence": 0.1,
           "quality": "indisponible",
           "source_path": "",
           "source_excerpt": "<p align=\"center\">Employés techniques de la coiffure</p><p align=\"left\">(En euros.) </p><p align=\"left\"></p><div align=\"center\"><center><table border=\"1\"><tbody><tr><th>CLASSIFICATION<br/>Coefficient</th><th>DÉFINITION DE L'EMPLOI<br/>(activités effectuées)</th><th>QUALIFICATION<"
@@ -19790,8 +19803,8 @@
           "source_donnees": "kali-data",
           "kali_id": "KALICONT000005635870",
           "extraction_status": "ok",
-          "confidence": 0.5,
-          "quality": "fragile",
+          "confidence": 0.65,
+          "quality": "partielle",
           "source_path": "",
           "source_excerpt": "<p align=\"left\">Dans le cadre de la convention collective nationale des commerces de détail non-alimentaires IDCC 1517, les parties signataires conviennent de fixer la grille des salaires minima mensuels pour 151,67 heures à compter du premier jour du mois qui suit la publication"
         },
@@ -19803,7 +19816,7 @@
             "minimum_annuel": 18600.0
           }
         ],
-        "statut": "a_verifier"
+        "statut": "conforme"
       },
       {
         "idcc": "1266",
@@ -19817,8 +19830,8 @@
           "source_donnees": "kali-data",
           "kali_id": "KALICONT000005635418",
           "extraction_status": "ok",
-          "confidence": 0.35,
-          "quality": "fragile",
+          "confidence": 0.55,
+          "quality": "partielle",
           "source_path": "",
           "source_excerpt": "<p align=\"left\">Dans une volonté de cohérence du travail de modernisation des classifications, les parties signataires conviennent d'associer aux emplois repères une grille des minima conventionnels.<br/>\nLes dispositions de l'<a href=\"/affichIDCCArticle.do?cidTexte=KALITEXT00000"
         },
@@ -19830,7 +19843,7 @@
             "minimum_annuel": 30000.0
           }
         ],
-        "statut": "a_verifier"
+        "statut": "conforme"
       },
       {
         "idcc": "2148",
@@ -19864,7 +19877,7 @@
           "source_donnees": "kali-data",
           "kali_id": "KALICONT000005635872",
           "extraction_status": "empty",
-          "confidence": 0.15,
+          "confidence": 0.1,
           "quality": "indisponible",
           "source_path": "",
           "source_excerpt": "<p></p>Les parties signataires du présent avenant se sont fixées pour objectif de faire évoluer la convention collective nationale du transport aérien, personnel au sol dans un contexte économique particulièrement difficile et incertain, et d'apporter des réponses qui permettent "
@@ -19884,8 +19897,8 @@
           "source_donnees": "kali-data",
           "kali_id": "KALICONT000005635409",
           "extraction_status": "ok",
-          "confidence": 0.5,
-          "quality": "fragile",
+          "confidence": 0.65,
+          "quality": "partielle",
           "source_path": "",
           "source_excerpt": "<p>1. Modification des coefficients suivants de la grille des salaires :<br/>― le coefficient 208 passe à 209, soit 1 377,31 € ;<br/>― le coefficient 212 passe à 213, soit 1 403,67 € ;<br/>― le coefficient 213 passe à 214, soit 1 410,26 € ;<br/>― le coefficient 216 passe à 217, s"
         },
@@ -19897,7 +19910,7 @@
             "minimum_annuel": 16527.72
           }
         ],
-        "statut": "a_verifier"
+        "statut": "non_conforme"
       },
       {
         "idcc": "2614",
@@ -19931,7 +19944,7 @@
           "source_donnees": "kali-data",
           "kali_id": "KALICONT000017577652",
           "extraction_status": "ok",
-          "confidence": 0.85,
+          "confidence": 0.9,
           "quality": "bonne",
           "source_path": "",
           "source_excerpt": "<p align=\"left\">À compter du 1er septembre 2022, les deux tableaux contenus dans l'article 12.6.2.2 de la CCNS sont modifiés de la manière suivante :</p><center><table border=\"1\"><tbody><tr><th>Classe</th><th>Majorations appliquées pour calculer<br/>\n\t\t\tle salaire minimum convent"
@@ -19990,8 +20003,8 @@
           "source_donnees": "kali-data",
           "kali_id": "KALICONT000005635653",
           "extraction_status": "ok",
-          "confidence": 0.5,
-          "quality": "fragile",
+          "confidence": 0.65,
+          "quality": "partielle",
           "source_path": "",
           "source_excerpt": "<p></p><p align=\"center\">14.1. Salariés visés </p><p>Le forfait annuel en heures peut être conclu avec : </p><p>1° Les salariés cadres remplissant les conditions définies à l'<a href=\"/affichCodeArticle.do?cidTexte=LEGITEXT000006072050&idArticle=LEGIARTI000006647314&dateTexte=&ca"
         },
@@ -20003,7 +20016,7 @@
             "minimum_annuel": 23051.24
           }
         ],
-        "statut": "a_verifier"
+        "statut": "conforme"
       },
       {
         "idcc": "1606",
@@ -20017,8 +20030,8 @@
           "source_donnees": "kali-data",
           "kali_id": "KALICONT000005635871",
           "extraction_status": "ok",
-          "confidence": 0.35,
-          "quality": "fragile",
+          "confidence": 0.55,
+          "quality": "partielle",
           "source_path": "",
           "source_excerpt": "<p align=\"left\">L'article 3 de l'accord du 7 décembre 2021 relatif aux salaires minima conventionnels est remplacé par les dispositions ci-après et est désormais rédigé comme suit : </p><p align=\"center\">« Article 3 <br/>Grille des salaires minimaux </p><p align=\"left\">Les salair"
         },
@@ -20030,7 +20043,7 @@
             "minimum_annuel": 31296.0
           }
         ],
-        "statut": "a_verifier"
+        "statut": "conforme"
       },
       {
         "idcc": "0086",
@@ -20124,8 +20137,8 @@
           "source_donnees": "kali-data",
           "kali_id": "KALICONT000005635594",
           "extraction_status": "ok",
-          "confidence": 0.35,
-          "quality": "fragile",
+          "confidence": 0.55,
+          "quality": "partielle",
           "source_path": "",
           "source_excerpt": "<p align=\"left\">Le barème des rémunérations minima garanties des employés et du personnel d'encadrement (agents de maîtrise et cadres), objet de l'annexe II de la convention collective nationale du commerce de détail de l'habillement et des articles textiles du 25 novembre 1987, "
         },
@@ -20137,7 +20150,7 @@
             "minimum_annuel": 19248.0
           }
         ],
-        "statut": "a_verifier"
+        "statut": "conforme"
       },
       {
         "idcc": "1043",
@@ -20151,8 +20164,8 @@
           "source_donnees": "kali-data",
           "kali_id": "KALICONT000005635953",
           "extraction_status": "ok",
-          "confidence": 0.5,
-          "quality": "fragile",
+          "confidence": 0.65,
+          "quality": "partielle",
           "source_path": "",
           "source_excerpt": "<p>À partir du 1er juillet 2006, et pour tenir compte de la revalorisation du salaire minimum interprofessionnel de croissance, il a été convenu de geler le salaire complémentaire.</p><p>L'augmentation du salaire minimum interprofessionnel de croissance est répercutée sur le sala"
         },
@@ -20164,7 +20177,7 @@
             "minimum_annuel": 10687.8
           }
         ],
-        "statut": "a_verifier"
+        "statut": "non_conforme"
       },
       {
         "idcc": "1480",
@@ -20205,8 +20218,8 @@
           "source_donnees": "kali-data",
           "kali_id": "KALICONT000044594539",
           "extraction_status": "ok",
-          "confidence": 0.35,
-          "quality": "fragile",
+          "confidence": 0.65,
+          "quality": "partielle",
           "source_path": "",
           "source_excerpt": "<p align=\"left\">À l'article 1er « Salaires minima conventionnels bruts », dans la dernière colonne du tableau, intitulée « Salaire mensuel brut incluant la majoration pour certification professionnelle de branche (174 heures) » :<br/>\n– la ligne niveau III : 2   115,84 € est remp"
         },
@@ -20224,7 +20237,7 @@
             "minimum_annuel": 26371.44
           }
         ],
-        "statut": "a_verifier"
+        "statut": "conforme"
       },
       {
         "idcc": "0029",
@@ -20238,8 +20251,8 @@
           "source_donnees": "kali-data",
           "kali_id": "KALICONT000005635234",
           "extraction_status": "ok",
-          "confidence": 0.35,
-          "quality": "fragile",
+          "confidence": 0.55,
+          "quality": "partielle",
           "source_path": "",
           "source_excerpt": "<p align=\"left\"><br/>Le salaire minimum conventionnel mensuel brut, visé à l'<a href=\"/affichIDCCArticle.do?cidTexte=KALITEXT000029432803&idArticle=KALIARTI000029432830&categorieLien=cid\" title=\"Reconstitution du socle conventionnel - art. 7 bis (VNE)\">article 7 bis de l'avenant "
         },
@@ -20251,7 +20264,7 @@
             "minimum_annuel": 17556.0
           }
         ],
-        "statut": "a_verifier"
+        "statut": "conforme"
       }
     ]
   },
@@ -21086,7 +21099,7 @@
     "sources": "INSEE - Enquête Emploi, DARES"
   },
   "previsions_cftc": {
-    "generated_at": "2026-04-02T11:52:51.201790",
+    "generated_at": "2026-04-02T12:06:12.632509",
     "model_version": "CFTC v7.0 (bivarié Phillips + log-normale + pondération temporelle)",
     "n_simulations": 1000,
     "horizon": "12 mois",
@@ -21095,7 +21108,7 @@
       "niveau": "excellent",
       "issues": [],
       "warnings": [],
-      "timestamp": "2026-04-02T11:52:51.201808"
+      "timestamp": "2026-04-02T12:06:12.632529"
     },
     "calibrage": {
       "volatilites": {
@@ -21123,7 +21136,7 @@
       "lognormal_offset": 3.0
     },
     "market_signals": {
-      "inflation_adjustment": 0.238,
+      "inflation_adjustment": 0.236,
       "chomage_adjustment": 0.175,
       "energie_outlook": "hausse",
       "ponderation_temporelle": {
@@ -21135,16 +21148,16 @@
     },
     "market_signals_details": {
       "brent": {
-        "valeur": 109.55,
+        "valeur": 109.23,
         "ref": 75.0,
-        "variation_ytd_pct": 80.33,
-        "impact_inflation_pt": 0.345,
+        "variation_ytd_pct": 79.8,
+        "impact_inflation_pt": 0.342,
         "poids_temporel": 1.0
       },
       "gaz_ttf": {
-        "valeur": 50.63,
+        "valeur": 50.97,
         "ref": 35.0,
-        "impact_inflation_pt": 0.078,
+        "impact_inflation_pt": 0.08,
         "poids_temporel": 1.0
       },
       "eurusd": {
@@ -21165,11 +21178,11 @@
         "signal": "baissier"
       },
       "cac40_ytd": {
-        "variation_ytd_pct": -3.83,
+        "variation_ytd_pct": -3.9,
         "signal_chomage": "neutre"
       },
       "carburants_sp95": {
-        "variation_annuelle_pct": 12.5,
+        "variation_annuelle_pct": 12.4,
         "impact_inflation_pt": 0.004
       },
       "confiance_menages": {
@@ -21295,9 +21308,9 @@
       "facteurs": {
         "cible_bdf": 1.4,
         "ajustement_climat": -0.03,
-        "ajustement_marches": 0.238,
+        "ajustement_marches": 0.236,
         "energie_outlook": "hausse",
-        "cible_ajustee": 1.608,
+        "cible_ajustee": 1.606,
         "volatilite_utilisee": 0.5
       },
       "asymetrie_ic": {
@@ -21540,7 +21553,7 @@
           }
         },
         "contribution_mediane": {
-          "signaux_marches_pt": 0.238,
+          "signaux_marches_pt": 0.236,
           "incertitude_bdf_sigma": 0.15,
           "label": "Déplacement de la prévision centrale"
         }
