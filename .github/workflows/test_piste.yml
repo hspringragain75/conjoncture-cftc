@@ -7,7 +7,7 @@ jobs:
   test-piste:
     runs-on: ubuntu-latest
     steps:
-      - name: Test filtres corrects
+      - name: Inspecter champs idcc etat conforme
         env:
           PISTE_CLIENT_ID: ${{ secrets.PISTE_CLIENT_ID }}
           PISTE_CLIENT_SECRET: ${{ secrets.PISTE_CLIENT_SECRET }}
@@ -29,7 +29,6 @@ jobs:
               ), timeout=15
           ) as r:
               token = json.loads(r.read())["access_token"]
-          print("✅ Token OK")
 
           BASE = "https://api.piste.gouv.fr/dila/legifrance/lf-engine-app"
           headers = {
@@ -38,61 +37,41 @@ jobs:
               "Accept": "application/json",
           }
 
-          def post(endpoint, payload):
-              req = urllib.request.Request(
-                  f"{BASE}{endpoint}",
-                  data=json.dumps(payload).encode(),
-                  headers=headers
-              )
-              try:
-                  with urllib.request.urlopen(req, timeout=20) as r:
-                      return json.loads(r.read()), None
-              except urllib.error.HTTPError as e:
-                  return None, f"HTTP {e.code}: {e.read().decode()[:200]}"
-              except Exception as e:
-                  return None, str(e)
+          # Chercher "convention collective nationale" dans le titre
+          # pour cibler uniquement les CCN et pas les avenants
+          payload = {
+              "fond": "KALI",
+              "recherche": {
+                  "champs": [{
+                      "typeChamp": "TITRE",
+                      "criteres": [{
+                          "typeRecherche": "EXACTE",
+                          "valeur": "convention collective nationale",
+                          "operateur": "ET"
+                      }],
+                      "operateur": "ET"
+                  }],
+                  "operateur": "ET",
+                  "pageNumber": 1,
+                  "pageSize": 10,
+                  "sort": "PERTINENCE",
+                  "typePagination": "DEFAUT",
+                  "fromAdvancedRecherche": False
+              }
+          }
 
-          # Les facetElem corrects sont TEXTE_BASE et LEGAL_STATUS
-          tests = [
-              # Textes de base uniquement (1495 attendus)
-              ("TEXTE_BASE seul", [
-                  {"facette": "TEXTE_BASE", "valeur": "TEXTE_BASE"}
-              ]),
-              # Textes de base EN VIGUEUR
-              ("TEXTE_BASE + VIGUEUR_ETEN", [
-                  {"facette": "TEXTE_BASE", "valeur": "TEXTE_BASE"},
-                  {"facette": "LEGAL_STATUS", "valeur": "VIGUEUR_ETEN"},
-              ]),
-              # Textes de base EN VIGUEUR ou VIGUEUR_NON_ETEN
-              ("TEXTE_BASE + VIGUEUR", [
-                  {"facette": "TEXTE_BASE", "valeur": "TEXTE_BASE"},
-                  {"facette": "LEGAL_STATUS", "valeur": "VIGUEUR"},
-              ]),
-          ]
+          req = urllib.request.Request(
+              f"{BASE}/search",
+              data=json.dumps(payload).encode(),
+              headers=headers
+          )
+          with urllib.request.urlopen(req, timeout=20) as r:
+              result = json.loads(r.read())
 
-          for label, filtres in tests:
-              result, err = post("/search", {
-                  "fond": "KALI",
-                  "recherche": {
-                      "champs": [],
-                      "filtres": filtres,
-                      "operateur": "ET",
-                      "pageNumber": 1,
-                      "pageSize": 3,
-                      "sort": "PERTINENCE",
-                      "typePagination": "DEFAUT",
-                      "fromAdvancedRecherche": False
-                  }
-              })
-              if result:
-                  total = result.get("totalResultNumber")
-                  print(f"\n✅ {label}: total={total}")
-                  for r in (result.get("results") or [])[:2]:
-                      t = (r.get("titles") or [{}])[0]
-                      print(f"   {t.get('id')} — {t.get('title','')[:70]}")
-                  # Afficher tous les champs du premier résultat
-                  if result.get("results"):
-                      print(f"   Champs dispo: {list(result['results'][0].keys())}")
-              else:
-                  print(f"❌ {label}: {err[:120]}")
+          print(f"Total 'convention collective nationale' dans titre: {result.get('totalResultNumber')}")
+          print()
+          for item in (result.get("results") or []):
+              t = (item.get("titles") or [{}])[0]
+              print(f"id={t.get('id')} etat={item.get('etat')} idcc={item.get('idcc')} conforme={item.get('conforme')}")
+              print(f"  titre: {t.get('title','')[:80]}")
           EOF
