@@ -13,7 +13,7 @@ jobs:
           PISTE_CLIENT_SECRET: ${{ secrets.PISTE_CLIENT_SECRET }}
         run: |
           python3 - << 'EOF'
-          import urllib.request, urllib.parse, json, os
+          import urllib.request, urllib.parse, json, os, re
 
           data = urllib.parse.urlencode({
               "grant_type": "client_credentials",
@@ -52,8 +52,7 @@ jobs:
               except Exception as e:
                   return None, str(e)
 
-          # 1. Regarder les facettes disponibles sur KALI sans filtre
-          # pour savoir quels filtres sont valides
+          # 1. Facettes disponibles
           result, err = post("/search", {
               "fond": "KALI",
               "recherche": {
@@ -67,13 +66,19 @@ jobs:
               }
           })
           if result:
-              print(f"\n📊 Facettes disponibles dans KALI:")
-              for facet in result.get("facets", []):
-                  print(f"  {facet.get('name')}: {[v.get('value') for v in (facet.get('values') or [])[:5]]}")
+              print(f"\n📊 Facettes KALI:")
+              for facet in (result.get("facets") or []):
+                  name = facet.get("name", "?")
+                  values = facet.get("values") or []
+                  if isinstance(values, list):
+                      vals = [v.get("value") for v in values[:5]]
+                  else:
+                      vals = str(values)[:100]
+                  print(f"  {name}: {vals}")
           else:
               print(f"❌ facettes: {err}")
 
-          # 2. Tester différentes valeurs de nature
+          # 2. Tester différentes natures
           for nature_val in ["IDCC", "CCN", "CONVENTION_COLLECTIVE", "KALICONT"]:
               result, err = post("/search", {
                   "fond": "KALI",
@@ -91,27 +96,24 @@ jobs:
               if result:
                   print(f"\n✅ NATURE={nature_val}: total={result.get('totalResultNumber')}")
                   if result.get("results"):
-                      t = result["results"][0].get("titles", [{}])[0]
+                      t = (result["results"][0].get("titles") or [{}])[0]
                       print(f"   ex: {t.get('id')} — {t.get('title','')[:60]}")
               else:
                   print(f"❌ NATURE={nature_val}: {err[:80]}")
 
-          # 3. Essayer /list/kali
+          # 3. /list/kali
           result, err = post("/list/kali", {"pageNumber": 1, "pageSize": 5})
           if result:
-              print(f"\n✅ /list/kali: {list(result.keys())} total={result.get('totalResultNumber')}")
+              print(f"\n✅ /list/kali: clés={list(result.keys())} total={result.get('totalResultNumber')}")
           else:
-              print(f"❌ /list/kali: {err[:100]}")
+              print(f"❌ /list/kali: {err[:120]}")
 
-          # 4. Essayer /consult/kali avec un KALICONT connu (SYNTEC)
+          # 4. /consult/kali avec SYNTEC
           result, err = post("/consult/kali", {"id": "KALICONT000005635173"})
           if result:
               print(f"\n✅ /consult/kali SYNTEC: clés={list(result.keys())[:8]}")
-              # Chercher le num IDCC dans la réponse
-              txt = json.dumps(result)
-              import re
-              idcc = re.findall(r'"num"\s*:\s*"?(\d{4})"?', txt)
+              idcc = re.findall(r'"num"\s*:\s*"?(\d{3,4})"?', json.dumps(result))
               print(f"   IDCC trouvé: {idcc[:3]}")
           else:
-              print(f"❌ /consult/kali: {err[:100]}")
+              print(f"❌ /consult/kali: {err[:120]}")
           EOF
