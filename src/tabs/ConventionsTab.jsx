@@ -147,8 +147,8 @@ export default function ConventionsTab({ d, darkMode }) {
 
     if (isAVerifier) {
       return {
-        label: '🟠 À vérifier',
-        className: darkMode ? 'bg-amber-900/50 text-amber-300' : 'bg-amber-100 text-amber-700',
+        label: '⚪ Données indisponibles',
+        className: darkMode ? 'bg-gray-700 text-gray-300' : 'bg-gray-100 text-gray-500',
       };
     }
 
@@ -200,9 +200,9 @@ export default function ConventionsTab({ d, darkMode }) {
             color: 'red',
           },
           {
-            label: '🟠 À vérifier',
+            label: '⚪ Données indisponibles',
             val: cc.statistiques_branches?.branches_a_verifier ?? countAVerifier,
-            color: 'amber',
+            color: 'gray',
           },
         ].map((kpi, i) => (
           <div
@@ -232,7 +232,7 @@ export default function ConventionsTab({ d, darkMode }) {
       )}
 
       {countAVerifier > 0 && (
-        <div className={`${darkMode ? 'bg-amber-900/30' : 'bg-amber-50'} border-l-4 border-amber-500 p-4 rounded`}>
+        <div className={`${darkMode ? 'bg-gray-800/50' : 'bg-gray-50'} border-l-4 border-gray-400 p-4 rounded`}>
           <h3 className="font-semibold text-amber-800">
             🟠 {countAVerifier} branche(s) à vérifier
           </h3>
@@ -282,7 +282,7 @@ export default function ConventionsTab({ d, darkMode }) {
               ['all', `Toutes (${cc.branches.length})`],
               ['conforme', `✅ Conformes (${countConformes})`],
               ['non_conforme', `❌ Sous SMIC (${countNonConformes})`],
-              ['a_verifier', `🟠 À vérifier (${countAVerifier})`],
+              ['a_verifier', `⚪ Données indisponibles (${countAVerifier})`],
             ].map(([id, label]) => (
               <button
                 key={id}
@@ -295,7 +295,7 @@ export default function ConventionsTab({ d, darkMode }) {
                     ? id === 'non_conforme'
                       ? 'bg-red-600 text-white'
                       : id === 'a_verifier'
-                        ? 'bg-amber-600 text-white'
+                        ? 'bg-gray-500 text-white'
                         : id === 'conforme'
                           ? 'bg-green-600 text-white'
                           : 'bg-indigo-600 text-white shadow'
@@ -381,7 +381,7 @@ export default function ConventionsTab({ d, darkMode }) {
                 <div
                   className={`grid grid-cols-12 gap-0 px-3 py-2.5 cursor-pointer transition-colors text-sm ${
                     isSelected
-                      ? darkMode ? 'bg-amber-900/30' : 'bg-amber-50'
+                      ? darkMode ? 'bg-gray-800/30' : 'bg-gray-50'
                       : darkMode
                         ? idx % 2 === 0 ? 'bg-gray-800 hover:bg-gray-700' : 'bg-gray-800/60 hover:bg-gray-700'
                         : idx % 2 === 0 ? 'bg-white hover:bg-gray-50' : 'bg-gray-50/50 hover:bg-gray-100'
@@ -389,7 +389,7 @@ export default function ConventionsTab({ d, darkMode }) {
                   onClick={() => setSelectedBranche(isSelected ? null : idx)}
                 >
                   <div className="col-span-1 flex items-center">
-                    <span className={`font-mono text-xs font-bold ${darkMode ? 'text-amber-400' : 'text-amber-700'}`}>
+                    <span className={`font-mono text-xs font-bold ${darkMode ? 'text-gray-400' : 'text-gray-500'}`}>
                       {branche.idcc}
                     </span>
                   </div>
@@ -398,7 +398,7 @@ export default function ConventionsTab({ d, darkMode }) {
                     {rang && rang <= 10 && (
                       <span
                         className={`shrink-0 text-[10px] font-bold px-1.5 py-0.5 rounded ${
-                          darkMode ? 'bg-amber-800/60 text-amber-300' : 'bg-amber-100 text-amber-700'
+                          darkMode ? 'bg-gray-700 text-gray-300' : 'bg-gray-100 text-gray-500'
                         }`}
                       >
                         #{rang}
@@ -428,7 +428,7 @@ export default function ConventionsTab({ d, darkMode }) {
                           branche.statut === 'non_conforme'
                             ? 'text-red-500 font-bold'
                             : branche.statut === 'a_verifier'
-                              ? 'text-amber-500 font-bold'
+                              ? 'text-gray-400'
                               : darkMode ? 'text-gray-400' : 'text-gray-500'
                         }`}
                       >
