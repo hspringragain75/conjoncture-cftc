@@ -1,6 +1,6 @@
 {
-  "last_updated": "02/04/2026 07:52",
-  "last_updated_iso": "2026-04-02T07:52:01.486044",
+  "last_updated": "02/04/2026 07:57",
+  "last_updated_iso": "2026-04-02T07:57:10.778313",
   "contact": "hspringragain@cftc.fr",
   "alertes": [
     {
@@ -32,7 +32,7 @@
       "date": "2026-04-02",
       "type": "info",
       "titre": "🔄 Données actualisées",
-      "message": "Le tableau de bord a été mis à jour le 02/04/2026 à 07:51.",
+      "message": "Le tableau de bord a été mis à jour le 02/04/2026 à 07:57.",
       "onglet": "conjoncture"
     }
   ],
@@ -193,7 +193,7 @@
     }
   ],
   "revue_presse": {
-    "derniere_maj": "02/04/2026 07:52",
+    "derniere_maj": "02/04/2026 07:57",
     "nb_sources": 7,
     "sources_noms": [
       "Le Monde Éco",
@@ -206,6 +206,30 @@
     ],
     "a_la_une": [],
     "tous": [
+      {
+        "source": "Le Figaro Éco",
+        "couleur": "#92400e",
+        "emoji": "📊",
+        "tag": "Presse économique",
+        "titre": "États-Unis : les républicains concluent un accord pour mettre fin à la paralysie budgétaire partielle",
+        "resume": "La paralysie budgétaire partielle actuelle oblige des milliers d’agents de sécurité des aéroports à travailler sans être payés depuis mi-février.",
+        "lien": "https://www.lefigaro.fr/conjoncture/etats-unis-les-republicains-concluent-un-accord-pour-mettre-fin-a-la-paralysie-budgetaire-partielle-20260402",
+        "date_iso": "2026-04-02T09:54:45+02:00",
+        "date_fr": "02/04/2026",
+        "pertinence": 2
+      },
+      {
+        "source": "Le Figaro Éco",
+        "couleur": "#92400e",
+        "emoji": "📊",
+        "tag": "Presse économique",
+        "titre": "« Ça va être de plus en plus difficile»: le patron des magasins U alerte sur le prix et la disponibilité du pétrole",
+        "resume": "Quelques heures après l’allocution de Donald Trump, Dominique Schelcher s’est inquiété des conséquences de la poursuite de la guerre entre l’Iran et les États-Unis.",
+        "lien": "https://www.lefigaro.fr/conjoncture/le-probleme-est-a-leur-niveau-dominique-schelcher-appelle-les-petroliers-a-prendre-sur-leurs-marges-20260402",
+        "date_iso": "2026-04-02T09:44:03+02:00",
+        "date_fr": "02/04/2026",
+        "pertinence": 0
+      },
       {
         "source": "Le Figaro Éco",
         "couleur": "#92400e",
@@ -275,18 +299,6 @@
         "resume": "La polémique a débuté quelques jours après les élections municipales.",
         "lien": "https://www.lefigaro.fr/medias/le-maire-de-saint-denis-appelle-a-fermer-cnews-apres-des-propos-polemiques-le-visant-20260401",
         "date_iso": "2026-04-02T09:21:20+02:00",
-        "date_fr": "02/04/2026",
-        "pertinence": 0
-      },
-      {
-        "source": "Le Figaro Éco",
-        "couleur": "#92400e",
-        "emoji": "📊",
-        "tag": "Presse économique",
-        "titre": "« Ça va être de plus en plus difficile»: le patron des magasins U alerte sur le prix et la disponibilité du pétrole",
-        "resume": "Quelques heures après l’allocution de Donald Trump, Dominique Schelcher s’est inquiété des conséquences de la poursuite de la guerre entre l’Iran et les États-Unis.",
-        "lien": "https://www.lefigaro.fr/conjoncture/le-probleme-est-a-leur-niveau-dominique-schelcher-appelle-les-petroliers-a-prendre-sur-leurs-marges-20260402",
-        "date_iso": "2026-04-02T08:53:14+02:00",
         "date_fr": "02/04/2026",
         "pertinence": 0
       },
@@ -373,18 +385,6 @@
         "date_iso": "2026-04-02T07:16:40+00:00",
         "date_fr": "02/04/2026",
         "pertinence": 0
-      },
-      {
-        "source": "Le Figaro Éco",
-        "couleur": "#92400e",
-        "emoji": "📊",
-        "tag": "Presse économique",
-        "titre": "États-Unis : les républicains concluent un accord pour mettre fin à la paralysie budgétaire partielle",
-        "resume": "La paralysie budgétaire partielle actuelle oblige des milliers d’agents de sécurité des aéroports à travailler sans être payés depuis mi-février.",
-        "lien": "https://www.lefigaro.fr/conjoncture/etats-unis-les-republicains-concluent-un-accord-pour-mettre-fin-a-la-paralysie-budgetaire-partielle-20260402",
-        "date_iso": "2026-04-02T06:55:16+02:00",
-        "date_fr": "02/04/2026",
-        "pertinence": 2
       },
       {
         "source": "Le Figaro Éco",
@@ -2897,7 +2897,7 @@
       "note_lecture": "Le TEC-10 mesure le rendement des emprunts d'Etat francais a 10 ans. Un taux eleve rencherit le cout de la dette publique et impacte les taux de credit immobilier."
     },
     "petrole_brent": {
-      "valeur": 107.72,
+      "valeur": 107.75,
       "date": "2026-04-02",
       "unite": "USD/baril",
       "source": "Yahoo Finance",
@@ -4417,16 +4417,16 @@
         },
         {
           "date": "2026-04-02",
-          "valeur": 107.72,
+          "valeur": 107.75,
           "ma50": 83.83,
           "ma200": 70.22
         }
       ],
       "variations": {
-        "jour": 6.48,
-        "semaine": -0.27,
-        "mois": 32.33,
-        "ytd": 77.32
+        "jour": 6.51,
+        "semaine": -0.24,
+        "mois": 32.37,
+        "ytd": 77.37
       },
       "min_max": {
         "min": 58.92,
@@ -4437,9 +4437,9 @@
       "note_lecture": "Le prix du Brent influence directement les couts de transport et d'energie, donc l'inflation et le pouvoir d'achat des salaries."
     },
     "cac40": {
-      "valeur": 7890.21,
+      "valeur": 7899.59,
       "date": "2026-04-02",
-      "variation_jour_pct": -1.14,
+      "variation_jour_pct": -1.02,
       "unite": "points",
       "source": "Yahoo Finance",
       "nb_points": 256,
@@ -5976,16 +5976,16 @@
         },
         {
           "date": "2026-04-02",
-          "valeur": 7890.21,
-          "ma50": 8129.2,
-          "ma200": 8001.04
+          "valeur": 7899.59,
+          "ma50": 8129.38,
+          "ma200": 8001.08
         }
       ],
       "variations": {
-        "jour": -1.14,
-        "semaine": 1.56,
-        "mois": -2.64,
-        "ytd": -3.72
+        "jour": -1.02,
+        "semaine": 1.68,
+        "mois": -2.52,
+        "ytd": -3.61
       },
       "min_max": {
         "min": 6863.02,
@@ -7566,7 +7566,7 @@
       "note_lecture": "Le taux de change euro-dollar determine le prix de tout ce qui est importe en dollars : petrole, matieres premieres, electronique. Un euro faible rencherit les importations et alimente l'inflation."
     },
     "or": {
-      "valeur": 4666.0,
+      "valeur": 4663.1,
       "date": "2026-04-02",
       "unite": "USD/oz",
       "source": "Yahoo Finance",
@@ -9086,16 +9086,16 @@
         },
         {
           "date": "2026-04-02",
-          "valeur": 4666.0,
-          "ma50": 4937.56,
-          "ma200": 4116.2
+          "valeur": 4663.1,
+          "ma50": 4937.5,
+          "ma200": 4116.19
         }
       ],
       "variations": {
-        "jour": -2.45,
-        "semaine": 6.64,
-        "mois": -8.64,
-        "ytd": 8.15
+        "jour": -2.51,
+        "semaine": 6.57,
+        "mois": -8.7,
+        "ytd": 8.08
       },
       "min_max": {
         "min": 2951.3,
@@ -10646,7 +10646,7 @@
       "note_lecture": "Le prix du gaz naturel (TTF europeen) impacte directement les factures de chauffage et d'electricite des menages, ainsi que les couts de production industrielle."
     },
     "ble": {
-      "valeur": 605.25,
+      "valeur": 605.5,
       "date": "2026-04-02",
       "unite": "cents/boisseau",
       "source": "Yahoo Finance",
@@ -12160,16 +12160,16 @@
         },
         {
           "date": "2026-04-02",
-          "valeur": 605.25,
-          "ma50": 568.58,
+          "valeur": 605.5,
+          "ma50": 568.59,
           "ma200": 533.83
         }
       ],
       "variations": {
-        "jour": 1.3,
-        "semaine": 0.04,
-        "mois": 5.77,
-        "ytd": 19.5
+        "jour": 1.34,
+        "semaine": 0.08,
+        "mois": 5.81,
+        "ytd": 19.55
       },
       "min_max": {
         "min": 495.0,
@@ -13720,7 +13720,7 @@
       "note_lecture": "Le cuivre est le baromètre de l'activité industrielle mondiale ('Dr Copper'). Sa hausse signale une reprise économique, sa baisse anticipe un ralentissement. Utilisé massivement dans l'électrification et les énergies renouvelables."
     },
     "lme_aluminium": {
-      "valeur": 3427.75,
+      "valeur": 3434.0,
       "date": "2026-04-02",
       "unite": "cts/lb",
       "source": "Yahoo Finance",
@@ -15234,16 +15234,16 @@
         },
         {
           "date": "2026-04-02",
-          "valeur": 3427.75,
-          "ma50": 3145.09,
-          "ma200": 2786.32
+          "valeur": 3434.0,
+          "ma50": 3145.22,
+          "ma200": 2786.35
         }
       ],
       "variations": {
-        "jour": -0.71,
-        "semaine": 8.42,
-        "mois": 8.28,
-        "ytd": 16.67
+        "jour": -0.53,
+        "semaine": 8.62,
+        "mois": 8.47,
+        "ytd": 16.88
       },
       "min_max": {
         "min": 2166.25,
@@ -17662,7 +17662,7 @@
           "2023": 1.92,
           "2024": 1.78,
           "2025": 1.72,
-          "2026": 2.046
+          "2026": 2.045
         },
         "quantiteMensuelle": {
           "solo": 40,
@@ -22280,7 +22280,7 @@
     "sources": "INSEE - Enquête Emploi, DARES"
   },
   "previsions_cftc": {
-    "generated_at": "2026-04-02T07:52:09.883783",
+    "generated_at": "2026-04-02T07:57:14.516769",
     "model_version": "CFTC v7.0 (bivarié Phillips + log-normale + pondération temporelle)",
     "n_simulations": 1000,
     "horizon": "12 mois",
@@ -22289,7 +22289,7 @@
       "niveau": "excellent",
       "issues": [],
       "warnings": [],
-      "timestamp": "2026-04-02T07:52:09.883799"
+      "timestamp": "2026-04-02T07:57:14.516781"
     },
     "calibrage": {
       "volatilites": {
@@ -22329,10 +22329,10 @@
     },
     "market_signals_details": {
       "brent": {
-        "valeur": 107.72,
+        "valeur": 107.75,
         "ref": 75.0,
-        "variation_ytd_pct": 77.32,
-        "impact_inflation_pt": 0.327,
+        "variation_ytd_pct": 77.37,
+        "impact_inflation_pt": 0.328,
         "poids_temporel": 1.0
       },
       "gaz_ttf": {
@@ -22359,7 +22359,7 @@
         "signal": "baissier"
       },
       "cac40_ytd": {
-        "variation_ytd_pct": -3.72,
+        "variation_ytd_pct": -3.61,
         "signal_chomage": "neutre"
       },
       "carburants_sp95": {
