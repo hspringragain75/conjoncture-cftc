@@ -7,7 +7,7 @@ jobs:
   test-piste:
     runs-on: ubuntu-latest
     steps:
-      - name: Test endpoints conteneurs KALI
+      - name: Test stratégie via kaliText
         env:
           PISTE_CLIENT_ID: ${{ secrets.PISTE_CLIENT_ID }}
           PISTE_CLIENT_SECRET: ${{ secrets.PISTE_CLIENT_SECRET }}
@@ -43,35 +43,43 @@ jobs:
                   data=json.dumps(payload).encode(),
                   headers=H
               )
-              try:
-                  with urllib.request.urlopen(req, timeout=20) as r:
-                      return json.loads(r.read()), None
-              except urllib.error.HTTPError as e:
-                  return None, f"HTTP {e.code}: {e.read().decode()[:150]}"
-              except Exception as e:
-                  return None, str(e)
+              with urllib.request.urlopen(req, timeout=20) as r:
+                  return json.loads(r.read())
 
-          # Endpoints à tester pour les conteneurs KALI
-          tests = [
-              ("/consult/kaliCont",       {"id": "KALICONT000005635173"}),
-              ("/consult/kaliContByNum",  {"num": "1486"}),
-              ("/consult/getConventionCollective", {"id": "KALICONT000005635173"}),
-              ("/list/kaliCont",          {"pageNumber": 1, "pageSize": 5}),
-              ("/list/kaliContByActivite",{"pageNumber": 1, "pageSize": 5}),
-              ("/consult/kali",           {"id": "KALICONT000005635173", "nature": "IDCC"}),
-              ("/consult/kaliText",       {"id": "KALITEXT000005679895"}),
-          ]
+          # 1. Voir la réponse complète de /consult/kaliCont sur SYNTEC
+          cont = post("/consult/kaliCont", {"id": "KALICONT000005635173"})
+          print("✅ /consult/kaliCont SYNTEC complet:")
+          print(json.dumps(cont, indent=2, ensure_ascii=False))
 
-          for endpoint, payload in tests:
-              result, err = post(endpoint, payload)
-              if result:
-                  print(f"✅ {endpoint}: clés={list(result.keys())[:6]}")
-                  # Chercher idcc/num dans la réponse
-                  txt = json.dumps(result, ensure_ascii=False)
-                  import re
-                  nums = re.findall(r'"num"\s*:\s*"?(\d{3,4})"?', txt)
-                  if nums:
-                      print(f"   num/idcc trouvé: {nums[:3]}")
-              else:
-                  print(f"❌ {endpoint}: {err[:100]}")
+          # 2. Voir ce que donne /consult/kaliText sur un KALITEXT
+          # KALITEXT000005679895 = texte de base SYNTEC
+          txt = post("/consult/kaliText", {"id": "KALITEXT000005679895"})
+          print("\n✅ /consult/kaliText SYNTEC:")
+          print(f"  idConteneur={txt.get('idConteneur')}")
+          print(f"  clés complètes: {list(txt.keys())}")
+
+          # 3. Paginer 2 pages de /search et voir si on peut extraire idConteneur
+          # depuis les résultats (sans appel supplémentaire)
+          search = post("/search", {
+              "fond": "KALI",
+              "recherche": {
+                  "champs": [],
+                  "operateur": "ET",
+                  "pageNumber": 1,
+                  "pageSize": 20,
+                  "sort": "PERTINENCE",
+                  "typePagination": "DEFAUT",
+                  "fromAdvancedRecherche": False
+              }
+          })
+          print(f"\n📋 Champs dans results[0]: {list(search['results'][0].keys())}")
+          print(f"   idConteneur dans result? {'idConteneur' in search['results'][0]}")
+          # Chercher idConteneur dans la structure entière du premier résultat
+          txt_result = json.dumps(search['results'][0], ensure_ascii=False)
+          if 'idConteneur' in txt_result or 'KALICONT' in txt_result:
+              import re
+              kaliconts = re.findall(r'KALICONT\d+', txt_result)
+              print(f"   KALICONT trouvés: {list(set(kaliconts))[:5]}")
+          else:
+              print("   Pas de KALICONT dans le résultat search")
           EOF
