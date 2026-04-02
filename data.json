@@ -1,6 +1,6 @@
 {
-  "last_updated": "02/04/2026 07:04",
-  "last_updated_iso": "2026-04-02T07:04:00.297848",
+  "last_updated": "02/04/2026 07:14",
+  "last_updated_iso": "2026-04-02T07:14:22.171094",
   "contact": "hspringragain@cftc.fr",
   "alertes": [
     {
@@ -32,7 +32,7 @@
       "date": "2026-04-02",
       "type": "info",
       "titre": "🔄 Données actualisées",
-      "message": "Le tableau de bord a été mis à jour le 02/04/2026 à 07:03.",
+      "message": "Le tableau de bord a été mis à jour le 02/04/2026 à 07:14.",
       "onglet": "conjoncture"
     }
   ],
@@ -193,7 +193,7 @@
     }
   ],
   "revue_presse": {
-    "derniere_maj": "02/04/2026 07:04",
+    "derniere_maj": "02/04/2026 07:14",
     "nb_sources": 7,
     "sources_noms": [
       "Le Monde Éco",
@@ -220,6 +220,18 @@
     ],
     "tous": [
       {
+        "source": "Le Figaro Éco",
+        "couleur": "#92400e",
+        "emoji": "📊",
+        "tag": "Presse économique",
+        "titre": "« Ça va être de plus en plus difficile»: le patron des magasins U alerte sur le prix et la disponibilité du pétrole",
+        "resume": "Quelques heures après l’allocution de Donald Trump, Dominique Schelcher s’est inquiété des conséquences de la poursuite de la guerre entre l’Iran et les États-Unis.",
+        "lien": "https://www.lefigaro.fr/conjoncture/le-probleme-est-a-leur-niveau-dominique-schelcher-appelle-les-petroliers-a-prendre-sur-leurs-marges-20260402",
+        "date_iso": "2026-04-02T08:53:14+02:00",
+        "date_fr": "02/04/2026",
+        "pertinence": 0
+      },
+      {
         "source": "Le Monde Éco",
         "couleur": "#374151",
         "emoji": "🌐",
@@ -228,18 +240,6 @@
         "resume": "Dix parcs éoliens, réprésentant 10 gigawatts, vont être mis en concurrence. Trois projets sont prévus au large de Fécamp, en Seine-Maritime. Deux projets se situent en Bretagne, quatre en Méditerranée. Et un autre au large de l’île d’Oléron, en Charente-Maritime.",
         "lien": "https://www.lemonde.fr/economie/article/2026/04/02/eolien-en-mer-l-etat-relance-des-appels-d-offres-geants_6676089_3234.html",
         "date_iso": "2026-04-02T08:51:59+02:00",
-        "date_fr": "02/04/2026",
-        "pertinence": 0
-      },
-      {
-        "source": "Le Figaro Éco",
-        "couleur": "#92400e",
-        "emoji": "📊",
-        "tag": "Presse économique",
-        "titre": "«Le problème est à leur niveau» : Dominique Schelcher appelle les pétroliers à «prendre sur leurs marges»",
-        "resume": "Quelques heures après l’allocution de Donald Trump, Dominique Schelcher s’est inquiété des conséquences de la poursuite de la guerre entre l’Iran et les États-Unis.",
-        "lien": "https://www.lefigaro.fr/conjoncture/le-probleme-est-a-leur-niveau-dominique-schelcher-appelle-les-petroliers-a-prendre-sur-leurs-marges-20260402",
-        "date_iso": "2026-04-02T08:42:31+02:00",
         "date_fr": "02/04/2026",
         "pertinence": 0
       },
@@ -2910,7 +2910,7 @@
       "note_lecture": "Le TEC-10 mesure le rendement des emprunts d'Etat francais a 10 ans. Un taux eleve rencherit le cout de la dette publique et impacte les taux de credit immobilier."
     },
     "petrole_brent": {
-      "valeur": 107.78,
+      "valeur": 107.82,
       "date": "2026-04-02",
       "unite": "USD/baril",
       "source": "Yahoo Finance",
@@ -4430,16 +4430,16 @@
         },
         {
           "date": "2026-04-02",
-          "valeur": 107.78,
+          "valeur": 107.82,
           "ma50": 83.84,
           "ma200": 70.22
         }
       ],
       "variations": {
-        "jour": 6.54,
-        "semaine": -0.21,
-        "mois": 32.41,
-        "ytd": 77.42
+        "jour": 6.58,
+        "semaine": -0.18,
+        "mois": 32.46,
+        "ytd": 77.48
       },
       "min_max": {
         "min": 58.92,
@@ -7573,7 +7573,7 @@
       "note_lecture": "Le taux de change euro-dollar determine le prix de tout ce qui est importe en dollars : petrole, matieres premieres, electronique. Un euro faible rencherit les importations et alimente l'inflation."
     },
     "or": {
-      "valeur": 4632.7,
+      "valeur": 4631.5,
       "date": "2026-04-02",
       "unite": "USD/oz",
       "source": "Yahoo Finance",
@@ -9093,16 +9093,16 @@
         },
         {
           "date": "2026-04-02",
-          "valeur": 4632.7,
-          "ma50": 4936.89,
+          "valeur": 4631.5,
+          "ma50": 4936.87,
           "ma200": 4116.03
         }
       ],
       "variations": {
-        "jour": -3.15,
-        "semaine": 5.88,
-        "mois": -9.29,
-        "ytd": 7.38
+        "jour": -3.17,
+        "semaine": 5.85,
+        "mois": -9.32,
+        "ytd": 7.35
       },
       "min_max": {
         "min": 2951.3,
@@ -9113,7 +9113,7 @@
       "note_lecture": "L'or est la valeur refuge par excellence. Sa hausse traduit une montee de l'incertitude economique ou geopolitique. Il sert aussi de protection contre l'inflation."
     },
     "gaz_naturel": {
-      "valeur": 50.28,
+      "valeur": 49.83,
       "date": "2026-04-02",
       "unite": "EUR/MWh",
       "source": "Yahoo Finance (TTF)",
@@ -10633,16 +10633,16 @@
         },
         {
           "date": "2026-04-02",
-          "valeur": 50.28,
-          "ma50": 43.06,
+          "valeur": 49.83,
+          "ma50": 43.05,
           "ma200": 34.63
         }
       ],
       "variations": {
-        "jour": 5.83,
-        "semaine": -8.95,
-        "mois": -7.39,
-        "ytd": 73.38
+        "jour": 4.88,
+        "semaine": -9.76,
+        "mois": -8.22,
+        "ytd": 71.83
       },
       "min_max": {
         "min": 26.6,
@@ -10653,7 +10653,7 @@
       "note_lecture": "Le prix du gaz naturel (TTF europeen) impacte directement les factures de chauffage et d'electricite des menages, ainsi que les couts de production industrielle."
     },
     "ble": {
-      "valeur": 605.75,
+      "valeur": 605.25,
       "date": "2026-04-02",
       "unite": "cents/boisseau",
       "source": "Yahoo Finance",
@@ -12167,16 +12167,16 @@
         },
         {
           "date": "2026-04-02",
-          "valeur": 605.75,
-          "ma50": 568.59,
+          "valeur": 605.25,
+          "ma50": 568.58,
           "ma200": 533.83
         }
       ],
       "variations": {
-        "jour": 1.38,
-        "semaine": 0.12,
-        "mois": 5.85,
-        "ytd": 19.6
+        "jour": 1.3,
+        "semaine": 0.04,
+        "mois": 5.77,
+        "ytd": 19.5
       },
       "min_max": {
         "min": 495.0,
@@ -12187,7 +12187,7 @@
       "note_lecture": "Le cours du ble est un indicateur avance des prix alimentaires. La France etant le premier producteur europeen, son evolution impacte a la fois les consommateurs et le secteur agricole."
     },
     "lme_cuivre": {
-      "valeur": 5.55,
+      "valeur": 5.56,
       "date": "2026-04-02",
       "unite": "cts/lb",
       "source": "Yahoo Finance",
@@ -13707,16 +13707,16 @@
         },
         {
           "date": "2026-04-02",
-          "valeur": 5.55,
+          "valeur": 5.56,
           "ma50": 5.76,
           "ma200": 5.24
         }
       ],
       "variations": {
-        "jour": -1.25,
-        "semaine": 1.83,
-        "mois": -3.81,
-        "ytd": -1.6
+        "jour": -1.07,
+        "semaine": 2.02,
+        "mois": -3.64,
+        "ytd": -1.42
       },
       "min_max": {
         "min": 4.13,
@@ -13727,7 +13727,7 @@
       "note_lecture": "Le cuivre est le baromètre de l'activité industrielle mondiale ('Dr Copper'). Sa hausse signale une reprise économique, sa baisse anticipe un ralentissement. Utilisé massivement dans l'électrification et les énergies renouvelables."
     },
     "lme_aluminium": {
-      "valeur": 3425.0,
+      "valeur": 3417.25,
       "date": "2026-04-02",
       "unite": "cts/lb",
       "source": "Yahoo Finance",
@@ -15241,16 +15241,16 @@
         },
         {
           "date": "2026-04-02",
-          "valeur": 3425.0,
-          "ma50": 3145.03,
-          "ma200": 2786.31
+          "valeur": 3417.25,
+          "ma50": 3144.88,
+          "ma200": 2786.27
         }
       ],
       "variations": {
-        "jour": -0.79,
-        "semaine": 8.33,
-        "mois": 8.19,
-        "ytd": 16.58
+        "jour": -1.01,
+        "semaine": 8.09,
+        "mois": 7.94,
+        "ytd": 16.31
       },
       "min_max": {
         "min": 2166.25,
@@ -22287,7 +22287,7 @@
     "sources": "INSEE - Enquête Emploi, DARES"
   },
   "previsions_cftc": {
-    "generated_at": "2026-04-02T07:04:00.627208",
+    "generated_at": "2026-04-02T07:14:30.520605",
     "model_version": "CFTC v7.0 (bivarié Phillips + log-normale + pondération temporelle)",
     "n_simulations": 1000,
     "horizon": "12 mois",
@@ -22296,7 +22296,7 @@
       "niveau": "excellent",
       "issues": [],
       "warnings": [],
-      "timestamp": "2026-04-02T07:04:00.627222"
+      "timestamp": "2026-04-02T07:14:30.520620"
     },
     "calibrage": {
       "volatilites": {
@@ -22324,7 +22324,7 @@
       "lognormal_offset": 3.0
     },
     "market_signals": {
-      "inflation_adjustment": 0.218,
+      "inflation_adjustment": 0.217,
       "chomage_adjustment": 0.175,
       "energie_outlook": "hausse",
       "ponderation_temporelle": {
@@ -22336,16 +22336,16 @@
     },
     "market_signals_details": {
       "brent": {
-        "valeur": 107.78,
+        "valeur": 107.82,
         "ref": 75.0,
-        "variation_ytd_pct": 77.42,
+        "variation_ytd_pct": 77.48,
         "impact_inflation_pt": 0.328,
         "poids_temporel": 1.0
       },
       "gaz_ttf": {
-        "valeur": 50.28,
+        "valeur": 49.83,
         "ref": 35.0,
-        "impact_inflation_pt": 0.076,
+        "impact_inflation_pt": 0.074,
         "poids_temporel": 1.0
       },
       "eurusd": {
@@ -22496,9 +22496,9 @@
       "facteurs": {
         "cible_bdf": 1.4,
         "ajustement_climat": -0.03,
-        "ajustement_marches": 0.218,
+        "ajustement_marches": 0.217,
         "energie_outlook": "hausse",
-        "cible_ajustee": 1.588,
+        "cible_ajustee": 1.587,
         "volatilite_utilisee": 0.5
       },
       "asymetrie_ic": {
@@ -22741,7 +22741,7 @@
           }
         },
         "contribution_mediane": {
-          "signaux_marches_pt": 0.218,
+          "signaux_marches_pt": 0.217,
           "incertitude_bdf_sigma": 0.15,
           "label": "Déplacement de la prévision centrale"
         }
