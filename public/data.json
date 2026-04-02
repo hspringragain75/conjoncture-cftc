@@ -1,6 +1,6 @@
 {
-  "last_updated": "02/04/2026 12:13",
-  "last_updated_iso": "2026-04-02T12:13:58.323501",
+  "last_updated": "02/04/2026 12:28",
+  "last_updated_iso": "2026-04-02T12:28:02.972773",
   "contact": "hspringragain@cftc.fr",
   "alertes": [
     {
@@ -32,7 +32,7 @@
       "date": "2026-04-02",
       "type": "info",
       "titre": "🔄 Données actualisées",
-      "message": "Le tableau de bord a été mis à jour le 02/04/2026 à 12:13.",
+      "message": "Le tableau de bord a été mis à jour le 02/04/2026 à 12:27.",
       "onglet": "conjoncture"
     }
   ],
@@ -193,7 +193,7 @@
     }
   ],
   "revue_presse": {
-    "derniere_maj": "02/04/2026 12:13",
+    "derniere_maj": "02/04/2026 12:28",
     "nb_sources": 7,
     "sources_noms": [
       "Le Monde Éco",
@@ -214,9 +214,21 @@
         "titre": "EN DIRECT - Commission d’enquête sur l’audiovisuel public : suivez l’audition de Xavier Niel et Matthieu Pigasse",
         "resume": "Après avoir été annulée à la dernière minute fin février en raison de l’absence de dernière minute du patron de Free, l’audition des actionnaires de Mediawan Xavier Niel, Matthieu Pigasse et Jérôme Nommé a été remise à l’agenda ce jeudi.",
         "lien": "https://www.lefigaro.fr/medias/en-direct-commission-d-enquete-sur-l-audiovisuel-public-suivez-l-audition-de-xavier-niel-et-matthieu-pigasse-20260402",
-        "date_iso": "2026-04-02T14:12:03+02:00",
+        "date_iso": "2026-04-02T14:26:03+02:00",
         "date_fr": "02/04/2026",
         "pertinence": 0
+      },
+      {
+        "source": "Le Figaro Éco",
+        "couleur": "#92400e",
+        "emoji": "📊",
+        "tag": "Presse économique",
+        "titre": "Carburants : «Il n’y a pas de pénurie» en France, assure le gouvernement",
+        "resume": "Des «tensions logistiques ponctuelles» existent mais l’approvisionnement du pays n’est pas en danger, assure la porte-parole de l’exécutif Maud Bregeon.",
+        "lien": "https://www.lefigaro.fr/conjoncture/carburants-il-n-y-a-pas-de-penurie-en-france-assure-le-gouvernement-20260402",
+        "date_iso": "2026-04-02T14:17:35+02:00",
+        "date_fr": "02/04/2026",
+        "pertinence": 1
       },
       {
         "source": "Le Monde Éco",
@@ -235,6 +247,18 @@
         "couleur": "#92400e",
         "emoji": "📊",
         "tag": "Presse économique",
+        "titre": "Un an après les droits de douane, pourquoi le protectionnisme de Donald Trump laissera des traces",
+        "resume": "DÉCRYPTAGE - Réduction du déficit, relance de l’industrie, recettes miraculeuses, les objectifs du président américain n’ont globalement pas été atteints.",
+        "lien": "https://www.lefigaro.fr/conjoncture/un-an-apres-les-droits-de-douane-pourquoi-le-protectionnisme-de-donald-trump-laissera-des-traces-20260402",
+        "date_iso": "2026-04-02T13:59:29+02:00",
+        "date_fr": "02/04/2026",
+        "pertinence": 0
+      },
+      {
+        "source": "Le Figaro Éco",
+        "couleur": "#92400e",
+        "emoji": "📊",
+        "tag": "Presse économique",
         "titre": "Menaces sur des banques américaines : Citi met ses salariés en télétravail à Paris et Francfort par «précaution»",
         "resume": "«La sécurité de nos employés est notre priorité absolue, et nous prenons les mesures nécessaires pour garantir leur protection», a expliqué la porte-parole du groupe Citi.",
         "lien": "https://www.lefigaro.fr/actualite-france/menaces-sur-des-banques-americaines-citi-met-ses-salaries-en-teletravail-a-paris-et-francfort-par-precaution-20260402",
@@ -243,26 +267,26 @@
         "pertinence": 1
       },
       {
+        "source": "Le Figaro Éco",
+        "couleur": "#92400e",
+        "emoji": "📊",
+        "tag": "Presse économique",
+        "titre": "«Nous voulons parler à tous les publics»: les musiques de jeux vidéo mises à l’honneur à la Philharmonie de Paris",
+        "resume": "COMPTE RENDU - Après le disco et le métal, la Cité de la musique se penche sur l’histoire des bandes-son de jeux vidéo via une exposition qui ouvre ses portes ce jeudi jusqu’au 1er novembre.",
+        "lien": "https://www.lefigaro.fr/secteur/high-tech/nous-voulons-parler-a-tous-les-publics-les-musiques-de-jeux-video-mises-a-l-honneur-a-la-philharmonie-de-paris-20260402",
+        "date_iso": "2026-04-02T13:58:54+02:00",
+        "date_fr": "02/04/2026",
+        "pertinence": 0
+      },
+      {
         "source": "Le Monde Éco",
         "couleur": "#374151",
         "emoji": "🌐",
         "tag": "Presse économique",
-        "titre": "Après deux années de recul, l’emploi cadre pourrait légèrement redémarrer en 2026",
+        "titre": "Après deux années de recul, l’emploi des cadres pourrait légèrement redémarrer en 2026",
         "resume": "La baisse des recrutements de cadres a ralenti en 2025 et l’année 2026 s’annonce en hausse, en attendant de connaître l’impact de la crise au Moyen-Orient.",
         "lien": "https://www.lemonde.fr/economie/article/2026/04/02/apres-deux-annees-de-recul-l-emploi-cadre-pourrait-legerement-redemarrer-en-2026_6676117_3234.html",
-        "date_iso": "2026-04-02T13:30:13+02:00",
-        "date_fr": "02/04/2026",
-        "pertinence": 2
-      },
-      {
-        "source": "Le Monde Emploi",
-        "couleur": "#1f2937",
-        "emoji": "💼",
-        "tag": "Emploi & travail",
-        "titre": "Après deux années de recul, l’emploi cadre pourrait légèrement redémarrer en 2026",
-        "resume": "La baisse des recrutements de cadres a ralenti en 2025 et l’année 2026 s’annonce en hausse, en attendant de connaître l’impact de la crise au Moyen-Orient.",
-        "lien": "https://www.lemonde.fr/economie/article/2026/04/02/apres-deux-annees-de-recul-l-emploi-cadre-pourrait-legerement-redemarrer-en-2026_6676117_3234.html",
-        "date_iso": "2026-04-02T13:30:13+02:00",
+        "date_iso": "2026-04-02T13:30:07+02:00",
         "date_fr": "02/04/2026",
         "pertinence": 2
       },
@@ -277,6 +301,18 @@
         "date_iso": "2026-04-02T13:30:07+02:00",
         "date_fr": "02/04/2026",
         "pertinence": 0
+      },
+      {
+        "source": "Le Monde Emploi",
+        "couleur": "#1f2937",
+        "emoji": "💼",
+        "tag": "Emploi & travail",
+        "titre": "Après deux années de recul, l’emploi des cadres pourrait légèrement redémarrer en 2026",
+        "resume": "La baisse des recrutements de cadres a ralenti en 2025 et l’année 2026 s’annonce en hausse, en attendant de connaître l’impact de la crise au Moyen-Orient.",
+        "lien": "https://www.lemonde.fr/economie/article/2026/04/02/apres-deux-annees-de-recul-l-emploi-cadre-pourrait-legerement-redemarrer-en-2026_6676117_3234.html",
+        "date_iso": "2026-04-02T13:30:07+02:00",
+        "date_fr": "02/04/2026",
+        "pertinence": 2
       },
       {
         "source": "Le Figaro Éco",
@@ -295,10 +331,10 @@
         "couleur": "#92400e",
         "emoji": "📊",
         "tag": "Presse économique",
-        "titre": "Carburants : «il n’y a pas de pénurie» en France, assure le gouvernement",
-        "resume": "Des «tensions logistiques ponctuelles» existent mais l’approvisionnement du pays n’est pas en danger, assure la porte-parole de l’exécutif Maud Bregeon.",
-        "lien": "https://www.lefigaro.fr/conjoncture/carburants-il-n-y-a-pas-de-penurie-en-france-assure-le-gouvernement-20260402",
-        "date_iso": "2026-04-02T12:56:52+02:00",
+        "titre": "Cadres : les embauches prévues à la hausse en 2026 après deux années moroses",
+        "resume": "Selon les prévisions de l’Association pour l’emploi des cadres, les embauches de cols blancs devraient repartir à la hausse. Mais la guerre au Moyen-Orient fait peser des incertitudes.",
+        "lien": "https://www.lefigaro.fr/social/cadres-les-embauches-prevues-a-la-hausse-en-2026-apres-deux-annees-moroses-20260402",
+        "date_iso": "2026-04-02T13:05:50+02:00",
         "date_fr": "02/04/2026",
         "pertinence": 1
       },
@@ -356,9 +392,9 @@
         "emoji": "🌐",
         "tag": "Presse économique",
         "titre": "« Nike a perdu son côté cool »",
-        "resume": "Le leader mondial des chaussures de sport s’effondre en Bourse. Alors qu’il a perdu de sa superbe en Occident, la marque américaine est aussi doublé par de nouveaux concurrents en Chine, où ses ventes reculent fortement, observe Eric Albert, journaliste au service Economie du « Monde ».",
+        "resume": "Le leader mondial des chaussures de sport s’effondre en Bourse. Alors qu’il a perdu de sa superbe en Occident, la marque américaine est aussi doublée par de nouveaux concurrents en Chine, où ses ventes reculent fortement, observe Eric Albert, journaliste au service Economie du « Monde ».",
         "lien": "https://www.lemonde.fr/economie/article/2026/04/02/nike-a-perdu-son-cote-cool_6676102_3234.html",
-        "date_iso": "2026-04-02T11:00:07+02:00",
+        "date_iso": "2026-04-02T11:00:02+02:00",
         "date_fr": "02/04/2026",
         "pertinence": 0
       },
@@ -423,18 +459,6 @@
         "pertinence": 0
       },
       {
-        "source": "Euractiv FR",
-        "couleur": "#0369a1",
-        "emoji": "🇪🇺",
-        "tag": "Europe & politique",
-        "titre": "La Pologne et la Roumanie doivent verser près de 2 milliards d euros à Pfizer et BioNTech",
-        "resume": "Ce conflit juridique inhabituel pourrait avoir des répercussions plus larges sur d'autres pays de l'UE The post La Pologne et la Roumanie doivent verser près de 2 milliards d&rsquo;euros à Pfizer et BioNTech appeared first on Euractiv FR .",
-        "lien": "https://euractiv.fr/news/la-pologne-et-la-roumanie-doivent-verser-pres-de-2-milliards-deuros-a-pfizer-et-biontech/",
-        "date_iso": "2026-04-02T10:01:03+00:00",
-        "date_fr": "02/04/2026",
-        "pertinence": 0
-      },
-      {
         "source": "Le Figaro Éco",
         "couleur": "#92400e",
         "emoji": "📊",
@@ -483,18 +507,6 @@
         "pertinence": 0
       },
       {
-        "source": "Euractiv FR",
-        "couleur": "#0369a1",
-        "emoji": "🇪🇺",
-        "tag": "Europe & politique",
-        "titre": "Le président d’Indra, géant espagnol de la défense, démissionne après un différend avec le gouvernement",
-        "resume": "Une fusion controversée avec une société liée au fondateur a soulevé des inquiétudes quant à un conflit d'intérêts The post Le président d’Indra, géant espagnol de la défense, démissionne après un différend avec le gouvernement appeared first on Euractiv FR .",
-        "lien": "https://euractiv.fr/news/le-president-dindra-geant-espagnol-de-la-defense-demissionne-apres-un-differend-avec-le-gouvernement/",
-        "date_iso": "2026-04-02T09:24:27+00:00",
-        "date_fr": "02/04/2026",
-        "pertinence": 0
-      },
-      {
         "source": "Le Figaro Éco",
         "couleur": "#92400e",
         "emoji": "📊",
@@ -519,30 +531,6 @@
         "pertinence": 0
       },
       {
-        "source": "Euractiv FR",
-        "couleur": "#0369a1",
-        "emoji": "🇪🇺",
-        "tag": "Europe & politique",
-        "titre": "Vers une taille unique pour les bagages cabine ? Bruxelles réfléchit à une harmonisation européenne",
-        "resume": "Comme si la polémique politique acharnée sur la gratuité des bagages à main ne suffisait pas, l'UE envisage désormais d'imposer des dimensions maximales The post Vers une taille unique pour les bagages cabine ? Bruxelles réfléchit à une harmonisation européenne appeared first on Euractiv FR .",
-        "lien": "https://euractiv.fr/news/vers-une-taille-unique-pour-les-bagages-cabine-bruxelles-reflechit-a-une-harmonisation-europeenne/",
-        "date_iso": "2026-04-02T08:42:57+00:00",
-        "date_fr": "02/04/2026",
-        "pertinence": 0
-      },
-      {
-        "source": "Euractiv FR",
-        "couleur": "#0369a1",
-        "emoji": "🇪🇺",
-        "tag": "Europe & politique",
-        "titre": "La réforme du budget de l UE : une bataille façon « Hunger Games »",
-        "resume": "Les politiques de l'agriculture, de la cohésion, des affaires sociales et des migrations se livrent une concurrence directe pour l'obtention des ressources allouées au méga-fonds proposé par la Commission The post La réforme du budget de l&rsquo;UE : une bataille façon « Hunger Games » appeared firs",
-        "lien": "https://euractiv.fr/news/la-reforme-du-budget-de-lue-une-bataille-facon-hunger-games/",
-        "date_iso": "2026-04-02T07:55:55+00:00",
-        "date_fr": "02/04/2026",
-        "pertinence": 2
-      },
-      {
         "source": "Libération Éco",
         "couleur": "#dc2626",
         "emoji": "📰",
@@ -565,6 +553,18 @@
         "date_iso": "2026-04-02T07:40:21+02:00",
         "date_fr": "02/04/2026",
         "pertinence": 1
+      },
+      {
+        "source": "Le Monde Éco",
+        "couleur": "#374151",
+        "emoji": "🌐",
+        "tag": "Presse économique",
+        "titre": "Fraude bancaire : le client doit la signaler « sans tarder » et dans la limite de treize mois",
+        "resume": "Il est recommandé de procéder au signalement des opérations frauduleuses dès qu’on les a constatées.",
+        "lien": "https://www.lemonde.fr/argent/article/2026/04/02/fraude-bancaire-le-client-doit-la-signaler-sans-tarder-et-dans-la-limite-de-treize-mois_6676075_1657007.html",
+        "date_iso": "2026-04-02T06:00:36+02:00",
+        "date_fr": "02/04/2026",
+        "pertinence": 0
       }
     ]
   },
@@ -823,7 +823,7 @@
     "ecart_hf_eqtp": 25.8,
     "difficultes_recrutement": 61,
     "irl_glissement": 0.79,
-    "prix_gazole": 2.273,
+    "prix_gazole": 2.272,
     "taux_effort_locataires": 29.6,
     "croissance_pib": 0.7,
     "climat_affaires": 97,
@@ -2019,19 +2019,19 @@
   },
   "carburants": {
     "gazole": {
-      "prix": 2.273,
-      "variation_an": 22.9,
-      "variation_sem": 43.9
+      "prix": 2.272,
+      "variation_an": 22.8,
+      "variation_sem": 43.8
     },
     "sp95": {
-      "prix": 2.049,
-      "variation_an": 12.6,
-      "variation_sem": 19.1
+      "prix": 2.047,
+      "variation_an": 12.5,
+      "variation_sem": 19.0
     },
     "sp98": {
-      "prix": 2.106,
-      "variation_an": 12.6,
-      "variation_sem": 19.1
+      "prix": 2.103,
+      "variation_an": 12.5,
+      "variation_sem": 19.0
     },
     "e10": {
       "prix": 1.994,
@@ -2314,13 +2314,13 @@
       },
       {
         "date": "2026-04-02",
-        "gazole": 2.273,
-        "sp95": 2.049,
-        "sp98": 2.106,
+        "gazole": 2.272,
+        "sp95": 2.047,
+        "sp98": 2.103,
         "e10": 1.994
       }
     ],
-    "derniere_donnee": "2026-04-02 13:49",
+    "derniere_donnee": "2026-04-02 12:49",
     "source": "data.economie.gouv.fr (flux instantané)",
     "granularite": "quotidien"
   },
@@ -2891,7 +2891,7 @@
       "note_lecture": "Le TEC-10 mesure le rendement des emprunts d'Etat francais a 10 ans. Un taux eleve rencherit le cout de la dette publique et impacte les taux de credit immobilier."
     },
     "petrole_brent": {
-      "valeur": 108.85,
+      "valeur": 109.46,
       "date": "2026-04-02",
       "unite": "USD/baril",
       "source": "Yahoo Finance",
@@ -4411,16 +4411,16 @@
         },
         {
           "date": "2026-04-02",
-          "valeur": 108.85,
-          "ma50": 83.86,
+          "valeur": 109.46,
+          "ma50": 83.87,
           "ma200": 70.23
         }
       ],
       "variations": {
-        "jour": 7.6,
-        "semaine": 0.78,
-        "mois": 33.72,
-        "ytd": 79.18
+        "jour": 8.2,
+        "semaine": 1.34,
+        "mois": 34.47,
+        "ytd": 80.18
       },
       "min_max": {
         "min": 58.92,
@@ -4431,9 +4431,9 @@
       "note_lecture": "Le prix du Brent influence directement les couts de transport et d'energie, donc l'inflation et le pouvoir d'achat des salaries."
     },
     "cac40": {
-      "valeur": 7873.51,
+      "valeur": 7857.89,
       "date": "2026-04-02",
-      "variation_jour_pct": -1.35,
+      "variation_jour_pct": -1.55,
       "unite": "points",
       "source": "Yahoo Finance",
       "nb_points": 256,
@@ -5970,16 +5970,16 @@
         },
         {
           "date": "2026-04-02",
-          "valeur": 7873.51,
-          "ma50": 8128.86,
-          "ma200": 8000.95
+          "valeur": 7857.89,
+          "ma50": 8128.55,
+          "ma200": 8000.88
         }
       ],
       "variations": {
-        "jour": -1.35,
-        "semaine": 1.34,
-        "mois": -2.84,
-        "ytd": -3.93
+        "jour": -1.55,
+        "semaine": 1.14,
+        "mois": -3.03,
+        "ytd": -4.12
       },
       "min_max": {
         "min": 6863.02,
@@ -7560,7 +7560,7 @@
       "note_lecture": "Le taux de change euro-dollar determine le prix de tout ce qui est importe en dollars : petrole, matieres premieres, electronique. Un euro faible rencherit les importations et alimente l'inflation."
     },
     "or": {
-      "valeur": 4627.6,
+      "valeur": 4638.8,
       "date": "2026-04-02",
       "unite": "USD/oz",
       "source": "Yahoo Finance",
@@ -9080,16 +9080,16 @@
         },
         {
           "date": "2026-04-02",
-          "valeur": 4627.6,
-          "ma50": 4936.79,
-          "ma200": 4116.01
+          "valeur": 4638.8,
+          "ma50": 4937.02,
+          "ma200": 4116.06
         }
       ],
       "variations": {
-        "jour": -3.25,
-        "semaine": 5.76,
-        "mois": -9.39,
-        "ytd": 7.26
+        "jour": -3.02,
+        "semaine": 6.02,
+        "mois": -9.17,
+        "ytd": 7.52
       },
       "min_max": {
         "min": 2951.3,
@@ -9100,7 +9100,7 @@
       "note_lecture": "L'or est la valeur refuge par excellence. Sa hausse traduit une montee de l'incertitude economique ou geopolitique. Il sert aussi de protection contre l'inflation."
     },
     "gaz_naturel": {
-      "valeur": 51.11,
+      "valeur": 51.12,
       "date": "2026-04-02",
       "unite": "EUR/MWh",
       "source": "Yahoo Finance (TTF)",
@@ -10620,16 +10620,16 @@
         },
         {
           "date": "2026-04-02",
-          "valeur": 51.11,
+          "valeur": 51.12,
           "ma50": 43.07,
           "ma200": 34.64
         }
       ],
       "variations": {
-        "jour": 7.58,
-        "semaine": -7.44,
-        "mois": -5.86,
-        "ytd": 76.24
+        "jour": 7.6,
+        "semaine": -7.42,
+        "mois": -5.84,
+        "ytd": 76.28
       },
       "min_max": {
         "min": 26.6,
@@ -10640,7 +10640,7 @@
       "note_lecture": "Le prix du gaz naturel (TTF europeen) impacte directement les factures de chauffage et d'electricite des menages, ainsi que les couts de production industrielle."
     },
     "ble": {
-      "valeur": 607.75,
+      "valeur": 608.0,
       "date": "2026-04-02",
       "unite": "cents/boisseau",
       "source": "Yahoo Finance",
@@ -12154,16 +12154,16 @@
         },
         {
           "date": "2026-04-02",
-          "valeur": 607.75,
+          "valeur": 608.0,
           "ma50": 568.63,
           "ma200": 533.84
         }
       ],
       "variations": {
-        "jour": 1.72,
-        "semaine": 0.45,
-        "mois": 6.2,
-        "ytd": 19.99
+        "jour": 1.76,
+        "semaine": 0.5,
+        "mois": 6.25,
+        "ytd": 20.04
       },
       "min_max": {
         "min": 495.0,
@@ -12174,7 +12174,7 @@
       "note_lecture": "Le cours du ble est un indicateur avance des prix alimentaires. La France etant le premier producteur europeen, son evolution impacte a la fois les consommateurs et le secteur agricole."
     },
     "lme_cuivre": {
-      "valeur": 5.52,
+      "valeur": 5.53,
       "date": "2026-04-02",
       "unite": "cts/lb",
       "source": "Yahoo Finance",
@@ -13694,16 +13694,16 @@
         },
         {
           "date": "2026-04-02",
-          "valeur": 5.52,
+          "valeur": 5.53,
           "ma50": 5.76,
           "ma200": 5.24
         }
       ],
       "variations": {
-        "jour": -1.78,
-        "semaine": 1.28,
-        "mois": -4.33,
-        "ytd": -2.13
+        "jour": -1.6,
+        "semaine": 1.47,
+        "mois": -4.16,
+        "ytd": -1.95
       },
       "min_max": {
         "min": 4.13,
@@ -13714,7 +13714,7 @@
       "note_lecture": "Le cuivre est le baromètre de l'activité industrielle mondiale ('Dr Copper'). Sa hausse signale une reprise économique, sa baisse anticipe un ralentissement. Utilisé massivement dans l'électrification et les énergies renouvelables."
     },
     "lme_aluminium": {
-      "valeur": 3365.75,
+      "valeur": 3382.5,
       "date": "2026-04-02",
       "unite": "cts/lb",
       "source": "Yahoo Finance",
@@ -15228,16 +15228,16 @@
         },
         {
           "date": "2026-04-02",
-          "valeur": 3365.75,
-          "ma50": 3143.85,
-          "ma200": 2786.01
+          "valeur": 3382.5,
+          "ma50": 3144.18,
+          "ma200": 2786.1
         }
       ],
       "variations": {
-        "jour": -2.51,
-        "semaine": 6.46,
-        "mois": 6.32,
-        "ytd": 14.56
+        "jour": -2.02,
+        "semaine": 6.99,
+        "mois": 6.85,
+        "ytd": 15.13
       },
       "min_max": {
         "min": 2166.25,
@@ -17656,7 +17656,7 @@
           "2023": 1.92,
           "2024": 1.78,
           "2025": 1.72,
-          "2026": 2.046
+          "2026": 2.047
         },
         "quantiteMensuelle": {
           "solo": 40,
@@ -19045,17 +19045,17 @@
     "statistiques_branches": {
       "total_branches": 49,
       "branches_affichees": 49,
-      "branches_conformes": 18,
-      "branches_non_conformes": 10,
+      "branches_conformes": 21,
+      "branches_non_conformes": 7,
       "branches_a_verifier": 21,
-      "pourcentage_non_conformes": 20,
+      "pourcentage_non_conformes": 14,
       "total_effectif_couvert": 9860473,
       "source_statistiques": "kali-data (SocialGouv / Fabrique numérique des ministères sociaux)"
     },
     "meta": {
       "source_effectifs": "DSN via kali-data",
       "source_grilles": "SocialGouv kali-data (extraction automatique)",
-      "date_generation": "2026-04-02T12:14:39.084826",
+      "date_generation": "2026-04-02T12:28:32.784751",
       "mode": "100pct_automatique",
       "note": "Extraction heuristique depuis textes juridiques KALI. Statut a_verifier si grille non extraite ou confidence < 55%."
     },
@@ -19195,8 +19195,8 @@
           "extraction_status": "empty",
           "confidence": 0.0,
           "quality": "indisponible",
-          "source_path": null,
-          "source_excerpt": null
+          "source_path": "",
+          "source_excerpt": "<p align=\"left\">Les salaires minima hiérarchiques au sens de l'article L. 2253-1 du code du travail sont constitués des éléments ci-après :<br/>\n– le salaire indiciaire : coefficient conventionnel multiplié par la valeur du point ;<br/>\n– l'indemnité de sujétion spéciale de 9,21 "
         },
         "grille": [],
         "statut": "a_verifier"
@@ -19235,8 +19235,8 @@
           "extraction_status": "empty",
           "confidence": 0.0,
           "quality": "indisponible",
-          "source_path": null,
-          "source_excerpt": null
+          "source_path": "",
+          "source_excerpt": "<p align=\"left\">Considérant l'<a href=\"/affichIDCC.do?cidTexte=KALITEXT000031099921&categorieLien=cid\">accord du 3 mars 2015</a>, et ses avenants, qui institue une prime annuelle dans le secteur de la propreté ;</p><p align=\"left\">Considérant que le montant de la prime annuelle, "
         },
         "grille": [],
         "statut": "a_verifier"
@@ -19280,10 +19280,16 @@
         },
         "grille": [
           {
-            "niveau": "(pour 151,67 heures)</th></tr><tr><td align=\"center\"><strong>Niveau I</strong></td><td></td><td></td></tr><tr><td align=",
+            "niveau": "<p align=\"left\">Pour la région Auvergne-Rhône-Alpes, les parties signataires du présent accord prenant en compte l'objec",
             "coefficient": "1",
-            "minimum_mensuel": 1536.61,
-            "minimum_annuel": 18439.32
+            "minimum_mensuel": 1680.0,
+            "minimum_annuel": 20160.0
+          },
+          {
+            "niveau": "• Niveau II, coefficient 185, et pour cette seule position, est de",
+            "coefficient": "185",
+            "minimum_mensuel": 1680.0,
+            "minimum_annuel": 20160.0
           }
         ],
         "statut": "conforme"
@@ -19334,10 +19340,16 @@
         },
         "grille": [
           {
-            "niveau": "(pour 151,67 heures)</th></tr><tr><td align=\"center\">Niveau I</td><td></td><td></td></tr><tr><td align=\"center\">Ouvriers",
+            "niveau": "<p align=\"left\">Pour la région Auvergne-Rhône-Alpes, les parties signataires du présent accord prenant en compte l'objec",
             "coefficient": "1",
-            "minimum_mensuel": 1536.61,
-            "minimum_annuel": 18439.32
+            "minimum_mensuel": 1680.0,
+            "minimum_annuel": 20160.0
+          },
+          {
+            "niveau": "• Niveau II, coefficient 185, et pour cette seule position, est de",
+            "coefficient": "185",
+            "minimum_mensuel": 1680.0,
+            "minimum_annuel": 20160.0
           }
         ],
         "statut": "conforme"
@@ -19383,8 +19395,8 @@
           "extraction_status": "empty",
           "confidence": 0.0,
           "quality": "indisponible",
-          "source_path": null,
-          "source_excerpt": null
+          "source_path": "",
+          "source_excerpt": "<p></p>   A chacun des 11 niveaux de la classification, sont associés :<p></p><p></p>   - un salaire annuel minimum conventionnel garanti hors ancienneté ;<p></p><p></p>   - des salaires annuels minima conventionnels garantis à l'ancienneté, définis selon des paliers de 5 ans.<p>"
         },
         "grille": [],
         "statut": "a_verifier"
@@ -19430,8 +19442,8 @@
           "extraction_status": "empty",
           "confidence": 0.0,
           "quality": "indisponible",
-          "source_path": null,
-          "source_excerpt": null
+          "source_path": "",
+          "source_excerpt": "<p></p><p>Définition</p><p>La convention collective définit pour chaque échelon de chacun des niveaux un taux horaire minima brut. Pour les cadres classés au niveau V, elle définit une rémunération minimale annuelle brute tous éléments de salaire confondus (notamment 13e mois, pr"
         },
         "grille": [],
         "statut": "a_verifier"
@@ -19502,17 +19514,17 @@
           "source_donnees": "kali-data",
           "kali_id": "KALICONT000005635413",
           "extraction_status": "ok",
-          "confidence": 0.9,
-          "quality": "bonne",
+          "confidence": 0.55,
+          "quality": "partielle",
           "source_path": "",
-          "source_excerpt": "<p></p><p align=\"left\">Dans ce contexte, la convention collective est actualisée et remplacée par les dispositions du présent avenant. Seul l'article 26, relatif à la prévoyance et au remboursement des frais de santé, reste inchangé.</p><p align=\"left\">Les annexes sont également "
+          "source_excerpt": "<p align=\"center\">4.1.   Classification</p><p align=\"left\">Les négociateurs immobiliers ne sont pas classés à l'un des niveaux de la grille conventionnelle mais bénéficient du statut résultant de la présente annexe. Néanmoins les négociateurs ayant un rôle d'encadrement, bénéfici"
         },
         "grille": [
           {
             "niveau": "– la compensation financière en contrepartie d'une astreinte.</p><p align=\"left\">Et d'une façon générale toute somme que",
             "coefficient": null,
-            "minimum_mensuel": 1450.0,
-            "minimum_annuel": 17400.0
+            "minimum_mensuel": 1500.0,
+            "minimum_annuel": 18000.0
           }
         ],
         "statut": "conforme"
@@ -19678,14 +19690,14 @@
           {
             "niveau": "pour un temps complet</th></tr><tr><td rowspan=\"4\" align=\"center\">Employés</td><td align=\"center\">1</td><td align=\"cente",
             "coefficient": null,
-            "minimum_mensuel": 1747.2,
-            "minimum_annuel": 20966.4
+            "minimum_mensuel": 1767.0,
+            "minimum_annuel": 21204.0
           },
           {
             "niveau": "pour un temps complet</th></tr><tr><td rowspan=\"3\" align=\"center\">Cadres</td><td align=\"center\">1</td><td align=\"center\"",
             "coefficient": null,
-            "minimum_mensuel": 2253.0,
-            "minimum_annuel": 27036.0
+            "minimum_mensuel": 2276.0,
+            "minimum_annuel": 27312.0
           }
         ],
         "statut": "conforme"
@@ -19729,20 +19741,20 @@
           "source_donnees": "kali-data",
           "kali_id": "KALICONT000005635856",
           "extraction_status": "ok",
-          "confidence": 0.65,
+          "confidence": 0.55,
           "quality": "partielle",
           "source_path": "",
-          "source_excerpt": "<p>Article 1er</p><p>Revalorisation des salaires minima</p><p>La grille de salaires issue de l'accord signé le 16 décembre 2004 est revalorisée comme suit :</p><p>Article 2</p><p>Valeur à compter du 1er février 2006</p><p>A compter du 1er février 2006, la valeur du coefficient 70"
+          "source_excerpt": "<p align=\"center\">3.1. Barèmes des salaires minima mensuels</p><p align=\"left\"><em>3.1.1. Le barème des salaires minima mensuels qui entrera en vigueur à compter du lendemain du dépôt du présent accord ou, si le dépôt est effectué après le 15 du mois, à compter du 1er jour du moi"
         },
         "grille": [
           {
-            "niveau": "<p>Article 1er</p><p>Revalorisation des salaires minima</p><p>La grille de salaires issue de l'accord signé le 16 décemb",
-            "coefficient": "700",
-            "minimum_mensuel": 1235.0,
-            "minimum_annuel": 14820.0
+            "niveau": "<p align=\"center\">3.1. Barèmes des salaires minima mensuels</p><p align=\"left\"><em>3.1.1. Le barème des salaires minima ",
+            "coefficient": null,
+            "minimum_mensuel": 1539.0,
+            "minimum_annuel": 18468.0
           }
         ],
-        "statut": "non_conforme"
+        "statut": "conforme"
       },
       {
         "idcc": "1518",
@@ -19806,14 +19818,14 @@
           "confidence": 0.65,
           "quality": "partielle",
           "source_path": "",
-          "source_excerpt": "<p align=\"left\">Dans le cadre de la convention collective nationale des commerces de détail non-alimentaires IDCC 1517, les parties signataires conviennent de fixer la grille des salaires minima mensuels pour 151,67 heures à compter du premier jour du mois qui suit la publication"
+          "source_excerpt": "<p align=\"left\">Dans le cadre de la convention collective nationale des commerces de détail non-alimentaires IDCC n° 1517, les parties signataires conviennent de fixer la grille des salaires minima mensuels pour 151,67 heures à compter du premier jour du mois qui suit la publicat"
         },
         "grille": [
           {
-            "niveau": "<p align=\"left\">Dans le cadre de la convention collective nationale des commerces de détail non-alimentaires IDCC 1517, ",
+            "niveau": "<p align=\"left\">Dans le cadre de la convention collective nationale des commerces de détail non-alimentaires IDCC n° 151",
             "coefficient": "1",
-            "minimum_mensuel": 1550.0,
-            "minimum_annuel": 18600.0
+            "minimum_mensuel": 1646.0,
+            "minimum_annuel": 19752.0
           }
         ],
         "statut": "conforme"
@@ -19897,20 +19909,20 @@
           "source_donnees": "kali-data",
           "kali_id": "KALICONT000005635409",
           "extraction_status": "ok",
-          "confidence": 0.65,
+          "confidence": 0.55,
           "quality": "partielle",
           "source_path": "",
-          "source_excerpt": "<p>1. Modification des coefficients suivants de la grille des salaires :<br/>― le coefficient 208 passe à 209, soit 1 377,31 € ;<br/>― le coefficient 212 passe à 213, soit 1 403,67 € ;<br/>― le coefficient 213 passe à 214, soit 1 410,26 € ;<br/>― le coefficient 216 passe à 217, s"
+          "source_excerpt": "<p><br/>\nGrille de correspondance entre les niveaux de positionnement et les salaires minimaux pour 151,67 heures mensuelles au 1er janvier 2024</p><p></p><center><table border=\"1\"><tbody><tr><th>Positionnement</th><th>Salaires minimaux mensuels<br/>\n\t\t\tpour 151,67 heures travail"
         },
         "grille": [
           {
-            "niveau": "<p>1. Modification des coefficients suivants de la grille des salaires :<br/>― le coefficient 208 passe à 209, soit",
-            "coefficient": "208",
-            "minimum_mensuel": 1377.31,
-            "minimum_annuel": 16527.72
+            "niveau": "pour 151,67 heures travaillées par mois</th></tr><tr><td align=\"center\">4</td><td align=\"center\">",
+            "coefficient": null,
+            "minimum_mensuel": 1782.14,
+            "minimum_annuel": 21385.68
           }
         ],
-        "statut": "non_conforme"
+        "statut": "conforme"
       },
       {
         "idcc": "2614",
@@ -20079,8 +20091,8 @@
           "extraction_status": "empty",
           "confidence": 0.0,
           "quality": "indisponible",
-          "source_path": null,
-          "source_excerpt": null
+          "source_path": "",
+          "source_excerpt": "<p>Dès l'entrée en vigueur de l'accord, la valeur du point permettant de calculer les salaires minima conventionnels sera majorée de 2,5 %. La valeur du point sera donc fixée à 94,587 € au 1er janvier 2007.</p><p>En outre les binômes A1, A2, B1 (partie fixe) bénéficieront respect"
         },
         "grille": [],
         "statut": "a_verifier"
@@ -20146,8 +20158,8 @@
           {
             "niveau": "<p align=\"left\">Le barème des rémunérations minima garanties des employés et du personnel d'encadrement (agents de maîtr",
             "coefficient": null,
-            "minimum_mensuel": 1604.0,
-            "minimum_annuel": 19248.0
+            "minimum_mensuel": 1762.0,
+            "minimum_annuel": 21144.0
           }
         ],
         "statut": "conforme"
@@ -20164,20 +20176,20 @@
           "source_donnees": "kali-data",
           "kali_id": "KALICONT000005635953",
           "extraction_status": "ok",
-          "confidence": 0.65,
+          "confidence": 0.55,
           "quality": "partielle",
           "source_path": "",
-          "source_excerpt": "<p>À partir du 1er juillet 2006, et pour tenir compte de la revalorisation du salaire minimum interprofessionnel de croissance, il a été convenu de geler le salaire complémentaire.</p><p>L'augmentation du salaire minimum interprofessionnel de croissance est répercutée sur le sala"
+          "source_excerpt": "<p align=\"left\"><br/>Exemples de calculs :<br/>Un salarié de catégorie A ayant un coefficient, selon la nouvelle classification, de 586 avec un contrat à temps complet aura un salaire minimum conventionnel de :</p><p align=\"center\"><br/>[(586 × 1,265) + 735] × 151,67 / 151,67 = 1"
         },
         "grille": [
           {
-            "niveau": "<p>À partir du 1er juillet 2006, et pour tenir compte de la revalorisation du salaire minimum interprofessionnel de croi",
-            "coefficient": "235",
-            "minimum_mensuel": 890.65,
-            "minimum_annuel": 10687.8
+            "niveau": "<p align=\"left\"><br/>Exemples de calculs :<br/>Un salarié de catégorie A ayant un coefficient, selon la nouvelle classif",
+            "coefficient": null,
+            "minimum_mensuel": 1476.29,
+            "minimum_annuel": 17715.48
           }
         ],
-        "statut": "non_conforme"
+        "statut": "conforme"
       },
       {
         "idcc": "1480",
@@ -21099,7 +21111,7 @@
     "sources": "INSEE - Enquête Emploi, DARES"
   },
   "previsions_cftc": {
-    "generated_at": "2026-04-02T12:14:39.218066",
+    "generated_at": "2026-04-02T12:28:32.908327",
     "model_version": "CFTC v7.0 (bivarié Phillips + log-normale + pondération temporelle)",
     "n_simulations": 1000,
     "horizon": "12 mois",
@@ -21108,7 +21120,7 @@
       "niveau": "excellent",
       "issues": [],
       "warnings": [],
-      "timestamp": "2026-04-02T12:14:39.218080"
+      "timestamp": "2026-04-02T12:28:32.908339"
     },
     "calibrage": {
       "volatilites": {
@@ -21136,7 +21148,7 @@
       "lognormal_offset": 3.0
     },
     "market_signals": {
-      "inflation_adjustment": 0.233,
+      "inflation_adjustment": 0.239,
       "chomage_adjustment": 0.175,
       "energie_outlook": "hausse",
       "ponderation_temporelle": {
@@ -21148,14 +21160,14 @@
     },
     "market_signals_details": {
       "brent": {
-        "valeur": 108.85,
+        "valeur": 109.46,
         "ref": 75.0,
-        "variation_ytd_pct": 79.18,
-        "impact_inflation_pt": 0.338,
+        "variation_ytd_pct": 80.18,
+        "impact_inflation_pt": 0.345,
         "poids_temporel": 1.0
       },
       "gaz_ttf": {
-        "valeur": 51.11,
+        "valeur": 51.12,
         "ref": 35.0,
         "impact_inflation_pt": 0.081,
         "poids_temporel": 1.0
@@ -21178,11 +21190,11 @@
         "signal": "baissier"
       },
       "cac40_ytd": {
-        "variation_ytd_pct": -3.93,
+        "variation_ytd_pct": -4.12,
         "signal_chomage": "neutre"
       },
       "carburants_sp95": {
-        "variation_annuelle_pct": 12.6,
+        "variation_annuelle_pct": 12.5,
         "impact_inflation_pt": 0.004
       },
       "confiance_menages": {
@@ -21299,18 +21311,18 @@
         "methodology": "Monte Carlo bivarié (1000 sim.) + log-normale + Phillips ρ=-0.35 (v7)"
       },
       "probabilites": {
-        "inflation_sous_2pct": 83.9,
-        "inflation_cible_bce": 83.9,
+        "inflation_sous_2pct": 83.4,
+        "inflation_cible_bce": 83.4,
         "inflation_au_dessus_3pct": 0.0,
         "inflation_au_dessus_4pct": 0.0,
-        "description": "83.9% de chances que l'inflation reste sous 2% à 12 mois"
+        "description": "83.4% de chances que l'inflation reste sous 2% à 12 mois"
       },
       "facteurs": {
         "cible_bdf": 1.4,
         "ajustement_climat": -0.03,
-        "ajustement_marches": 0.233,
+        "ajustement_marches": 0.239,
         "energie_outlook": "hausse",
-        "cible_ajustee": 1.603,
+        "cible_ajustee": 1.609,
         "volatilite_utilisee": 0.5
       },
       "asymetrie_ic": {
@@ -21318,7 +21330,7 @@
         "queue_basse": 0.4,
         "ratio": 1.25
       },
-      "insight": "Inflation médiane à 12 mois : 1.6% [IC 80% : 1.2% - 2.1%]. Asymétrie : queue haute 0.5pt vs basse 0.4pt. 83.9% de probabilité de rester sous 2%."
+      "insight": "Inflation médiane à 12 mois : 1.6% [IC 80% : 1.2% - 2.1%]. Asymétrie : queue haute 0.5pt vs basse 0.4pt. 83.4% de probabilité de rester sous 2%."
     },
     "smic": {
       "current": {
@@ -21525,35 +21537,35 @@
       }
     },
     "notes_lecture": [
-      "📈 Inflation médiane à 12 mois : 1.6% [1.2% - 2.1%] — 83.9% de chances de rester sous 2% (asymétrie : +0.5pt / -0.4pt)",
+      "📈 Inflation médiane à 12 mois : 1.6% [1.2% - 2.1%] — 83.4% de chances de rester sous 2% (asymétrie : +0.5pt / -0.4pt)",
       "💰 SMIC janvier 2027 : 1859€ brut (+2.0%, fourchette 1.6-2.5%) — Pouvoir d'achat réel : +0.4% (+7€/mois)",
       "👥 Chômage Q4 : 7.8% [7.6% - 7.9%] — Tendance stable (corrélé Phillips ρ=-0.35)",
-      "📊 Signaux marchés : ↑ inflation 0.23pt, ↑ chômage 0.17pt, (poids temporel min : 1.00)",
+      "📊 Signaux marchés : ↑ inflation 0.24pt, ↑ chômage 0.17pt, (poids temporel min : 1.00)",
       "🎲 Scénario à surveiller : 🚀 Reprise économique forte (25%)",
       "💡 Recommandation NAO : demander au minimum +2.1% pour préserver le pouvoir d'achat"
     ],
     "uncertainty_decomposition": {
       "inflation": {
-        "ic_total_pts": 0.9,
+        "ic_total_pts": 0.8,
         "sources": {
           "volatilite_historique": {
-            "ic_pts": 0.72,
-            "part_pct": 80.0,
+            "ic_pts": 0.7,
+            "part_pct": 87.5,
             "label": "Variabilité passée de l'inflation"
           },
           "signaux_marches": {
-            "ic_pts": 0.09,
-            "part_pct": 10.0,
+            "ic_pts": 0.0,
+            "part_pct": 0.0,
             "label": "Brent, gaz, EUR/USD, SMB..."
           },
           "incertitude_bdf": {
-            "ic_pts": 0.09,
-            "part_pct": 10.0,
+            "ic_pts": 0.1,
+            "part_pct": 12.5,
             "label": "Structure log-normale + résiduel"
           }
         },
         "contribution_mediane": {
-          "signaux_marches_pt": 0.233,
+          "signaux_marches_pt": 0.239,
           "incertitude_bdf_sigma": 0.15,
           "label": "Déplacement de la prévision centrale"
         }
