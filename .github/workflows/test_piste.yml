@@ -7,13 +7,13 @@ jobs:
   test-piste:
     runs-on: ubuntu-latest
     steps:
-      - name: Test TEXTE_BASE
+      - name: Test filtres corrects
         env:
           PISTE_CLIENT_ID: ${{ secrets.PISTE_CLIENT_ID }}
           PISTE_CLIENT_SECRET: ${{ secrets.PISTE_CLIENT_SECRET }}
         run: |
           python3 - << 'EOF'
-          import urllib.request, urllib.parse, json, os, re
+          import urllib.request, urllib.parse, json, os
 
           data = urllib.parse.urlencode({
               "grant_type": "client_credentials",
@@ -52,45 +52,47 @@ jobs:
               except Exception as e:
                   return None, str(e)
 
-          # Afficher les noms réels des facettes
-          result, err = post("/search", {
-              "fond": "KALI",
-              "recherche": {
-                  "champs": [], "operateur": "ET",
-                  "pageNumber": 1, "pageSize": 1,
-                  "sort": "PERTINENCE", "typePagination": "DEFAUT",
-                  "fromAdvancedRecherche": False
-              }
-          })
-          if result:
-              print("\n📊 Facettes (noms complets):")
-              for facet in (result.get("facets") or []):
-                  print(f"  facette complète: {json.dumps(facet, ensure_ascii=False)[:200]}")
+          # Les facetElem corrects sont TEXTE_BASE et LEGAL_STATUS
+          tests = [
+              # Textes de base uniquement (1495 attendus)
+              ("TEXTE_BASE seul", [
+                  {"facette": "TEXTE_BASE", "valeur": "TEXTE_BASE"}
+              ]),
+              # Textes de base EN VIGUEUR
+              ("TEXTE_BASE + VIGUEUR_ETEN", [
+                  {"facette": "TEXTE_BASE", "valeur": "TEXTE_BASE"},
+                  {"facette": "LEGAL_STATUS", "valeur": "VIGUEUR_ETEN"},
+              ]),
+              # Textes de base EN VIGUEUR ou VIGUEUR_NON_ETEN
+              ("TEXTE_BASE + VIGUEUR", [
+                  {"facette": "TEXTE_BASE", "valeur": "TEXTE_BASE"},
+                  {"facette": "LEGAL_STATUS", "valeur": "VIGUEUR"},
+              ]),
+          ]
 
-          # Tester le filtre TYPE_TEXTE=TEXTE_BASE (textes de base des CCN)
-          for facette, valeur in [
-              ("TYPE_TEXTE", "TEXTE_BASE"),
-              ("NOR", "TEXTE_BASE"),
-              ("TEXTE_BASE", "true"),
-              ("TEXTE_BASE", "TEXTE_BASE"),
-          ]:
+          for label, filtres in tests:
               result, err = post("/search", {
                   "fond": "KALI",
                   "recherche": {
                       "champs": [],
-                      "filtres": [{"facette": facette, "valeur": valeur}],
+                      "filtres": filtres,
                       "operateur": "ET",
-                      "pageNumber": 1, "pageSize": 3,
-                      "sort": "PERTINENCE", "typePagination": "DEFAUT",
+                      "pageNumber": 1,
+                      "pageSize": 3,
+                      "sort": "PERTINENCE",
+                      "typePagination": "DEFAUT",
                       "fromAdvancedRecherche": False
                   }
               })
               if result:
                   total = result.get("totalResultNumber")
-                  print(f"\n✅ {facette}={valeur}: total={total}")
+                  print(f"\n✅ {label}: total={total}")
+                  for r in (result.get("results") or [])[:2]:
+                      t = (r.get("titles") or [{}])[0]
+                      print(f"   {t.get('id')} — {t.get('title','')[:70]}")
+                  # Afficher tous les champs du premier résultat
                   if result.get("results"):
-                      t = (result["results"][0].get("titles") or [{}])[0]
-                      print(f"   ex id={t.get('id')} title={t.get('title','')[:70]}")
+                      print(f"   Champs dispo: {list(result['results'][0].keys())}")
               else:
-                  print(f"❌ {facette}={valeur}: {err[:100]}")
+                  print(f"❌ {label}: {err[:120]}")
           EOF
