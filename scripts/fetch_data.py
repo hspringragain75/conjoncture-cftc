@@ -3723,851 +3723,436 @@ def build_revue_presse():
     }
 
 
+import math
+import unicodedata
+from copy import deepcopy
 
-# ============================================================================
-# FONCTION À AJOUTER DANS fetch_data.py
-# Remplace la section "conventions_collectives" statique dans main()
-# ============================================================================
+KALI_INDEX_URL = "https://raw.githubusercontent.com/SocialGouv/kali-data/master/data/index.json"
+KALI_DATA_RAW_BASE = "https://raw.githubusercontent.com/SocialGouv/kali-data/master/data"
 
+SALAIRE_ARTICLE_HINTS = [
+    "salaire minimum",
+    "salaires minima",
+    "minimum conventionnel",
+    "minima conventionnels",
+    "rémunération minimale",
+    "remuneration minimale",
+    "appointements minima",
+    "barème des salaires",
+    "bareme des salaires",
+    "grille salariale",
+    "valeur du point",
+]
 
+MONEY_RE = re.compile(
+    r"(?<!\d)(\d{1,3}(?:[ .]\d{3})*(?:,\d{2})?|\d{4,5}(?:,\d{2})?)\s*(?:€|euros?)",
+    re.IGNORECASE,
+)
+
+COEFF_RE = re.compile(r"\b(?:coef(?:ficient)?|position|niveau|échelon|echelon|classe)\s*[:\-]?\s*([A-Z]?\d+(?:[./-]\d+)?)\b", re.IGNORECASE)
+
+def strip_accents(text):
+    if text is None:
+        return ""
+    return "".join(
+        c for c in unicodedata.normalize("NFD", str(text))
+        if unicodedata.category(c) != "Mn"
+    )
+
+def normalize_text(text):
+    text = strip_accents(text).lower()
+    text = re.sub(r"\s+", " ", text).strip()
+    return text
+
+def safe_get_json(url, timeout=30, headers=None):
+    req = urllib.request.Request(
+        url,
+        headers=headers or {
+            "Accept": "application/json",
+            "User-Agent": "CFTC-Dashboard/3.0",
+        },
+    )
+    with urllib.request.urlopen(req, timeout=timeout) as response:
+        return json.loads(response.read().decode("utf-8"))
+
+def safe_get_text(url, timeout=30, headers=None):
+    req = urllib.request.Request(
+        url,
+        headers=headers or {
+            "Accept": "application/json",
+            "User-Agent": "CFTC-Dashboard/3.0",
+        },
+    )
+    with urllib.request.urlopen(req, timeout=timeout) as response:
+        return response.read().decode("utf-8")
+
+def to_number(value):
+    if value is None:
+        return None
+    if isinstance(value, (int, float)):
+        return float(value)
+    s = str(value).strip().replace("\xa0", " ").replace("€", "").replace("euros", "")
+    s = s.replace(" ", "").replace(".", "").replace(",", ".")
+    try:
+        return float(s)
+    except ValueError:
+        return None
+
+def flatten_text_nodes(node):
+    """
+    Parcourt récursivement un JSON unist kali-data et renvoie une liste de blocs texte.
+    Très tolérant pour ne pas dépendre d'un schéma exact.
+    """
+    blocks = []
+
+    def walk(obj, path_titles=None):
+        path_titles = path_titles or []
+
+        if isinstance(obj, dict):
+            title = obj.get("title") or obj.get("titre") or obj.get("name")
+            new_path = path_titles + ([title] if isinstance(title, str) and title.strip() else [])
+
+            value_keys = ["content", "text", "value", "html", "body"]
+            for key in value_keys:
+                val = obj.get(key)
+                if isinstance(val, str) and len(val.strip()) > 20:
+                    blocks.append({
+                        "path": " > ".join(new_path),
+                        "text": val.strip(),
+                    })
+
+            # certains nœuds ont children / sections / articles
+            for v in obj.values():
+                walk(v, new_path)
+
+        elif isinstance(obj, list):
+            for item in obj:
+                walk(item, path_titles)
+
+    walk(node, [])
+    return blocks
+
+def score_salary_block(block_text, block_path=""):
+    text = normalize_text((block_path or "") + " " + (block_text or ""))
+    score = 0
+    for hint in SALAIRE_ARTICLE_HINTS:
+        if hint in text:
+            score += 3
+    if "salaire" in text or "minimum" in text or "minima" in text:
+        score += 1
+    if "€" in (block_text or "") or "euro" in text:
+        score += 1
+    if "coefficient" in text or "niveau" in text or "echelon" in text or "classe" in text:
+        score += 1
+    return score
+
+def pick_salary_blocks(blocks, min_score=4):
+    scored = []
+    for b in blocks:
+        score = score_salary_block(b["text"], b.get("path", ""))
+        if score >= min_score:
+            scored.append({**b, "score": score})
+    scored.sort(key=lambda x: x["score"], reverse=True)
+    return scored[:12]
+
+def extract_rows_from_salary_text(text):
+    """
+    Heuristique simple :
+    - split par lignes
+    - garde les lignes contenant au moins un montant €
+    - essaie d'en déduire niveau / coefficient / minimum mensuel
+    """
+    rows = []
+    for raw_line in re.split(r"[\r\n]+", text):
+        line = raw_line.strip(" -\t")
+        if len(line) < 6:
+            continue
+
+        money_matches = MONEY_RE.findall(line)
+        if not money_matches:
+            continue
+
+        amounts = [to_number(m) for m in money_matches]
+        amounts = [a for a in amounts if a is not None]
+        if not amounts:
+            continue
+
+        coeff_match = COEFF_RE.search(line)
+        coeff = coeff_match.group(1) if coeff_match else None
+
+        # On prend le plus petit montant plausible comme minimum mensuel
+        monthly_candidates = [a for a in amounts if 800 <= a <= 6000]
+        annual_candidates = [a for a in amounts if 10000 <= a <= 90000]
+
+        minimum_mensuel = min(monthly_candidates) if monthly_candidates else None
+        minimum_annuel = min(annual_candidates) if annual_candidates else None
+
+        # Niveau = texte avant le premier montant si possible
+        niveau = re.split(r"\d{1,3}(?:[ .]\d{3})*(?:,\d{2})?\s*(?:€|euros?)", line, maxsplit=1)[0].strip(" :-")
+        if not niveau:
+            niveau = line[:80]
+
+        rows.append({
+            "niveau": niveau[:120],
+            "coefficient": coeff,
+            "minimum_mensuel": round(minimum_mensuel, 2) if minimum_mensuel else None,
+            "minimum_annuel": round(minimum_annuel, 2) if minimum_annuel else (
+                round(minimum_mensuel * 12, 2) if minimum_mensuel else None
+            ),
+            "_source_line": line,
+        })
+
+    # dédoublonnage léger
+    dedup = []
+    seen = set()
+    for r in rows:
+        key = (r["niveau"], r["coefficient"], r["minimum_mensuel"], r["minimum_annuel"])
+        if key in seen:
+            continue
+        seen.add(key)
+        dedup.append(r)
+
+    return dedup
+
+def score_grille_rows(rows):
+    if not rows:
+        return 0.0
+    score = 0.0
+    if len(rows) >= 3:
+        score += 0.35
+    if any(r.get("minimum_mensuel") for r in rows):
+        score += 0.35
+    if any(r.get("coefficient") for r in rows):
+        score += 0.15
+    if len({r.get("niveau") for r in rows if r.get("niveau")}) >= 3:
+        score += 0.15
+    return min(score, 1.0)
+
+def extract_grille_from_kali_agreement(agreement_json):
+    blocks = flatten_text_nodes(agreement_json)
+    candidates = pick_salary_blocks(blocks)
+
+    best_rows = []
+    best_meta = {"confidence": 0.0, "source_path": None, "source_excerpt": None}
+
+    for block in candidates:
+        rows = extract_rows_from_salary_text(block["text"])
+        confidence = score_grille_rows(rows)
+        if confidence > best_meta["confidence"]:
+            best_rows = rows
+            best_meta = {
+                "confidence": round(confidence, 2),
+                "source_path": block.get("path"),
+                "source_excerpt": (block.get("text") or "")[:280],
+            }
+
+    # normalisation finale
+    cleaned = []
+    for row in best_rows:
+        if not row.get("minimum_mensuel"):
+            continue
+        cleaned.append({
+            "niveau": row["niveau"],
+            "coefficient": row["coefficient"],
+            "minimum_mensuel": row["minimum_mensuel"],
+            "minimum_annuel": row["minimum_annuel"],
+        })
+
+    return cleaned, best_meta
+
+def compute_branche_statut(grille, smic_net, confidence=0.0):
+    if not grille:
+        return "a_verifier"
+    if confidence < 0.55:
+        return "a_verifier"
+    if any((row.get("minimum_mensuel") or 0) < smic_net for row in grille):
+        return "non_conforme"
+    return "conforme"
+
+def compute_branche_quality(grille, confidence):
+    if not grille:
+        return "indisponible"
+    if confidence < 0.55:
+        return "fragile"
+    if confidence < 0.8:
+        return "moyenne"
+    return "bonne"
+
+def fetch_kali_index():
+    idx = safe_get_json(KALI_INDEX_URL)
+    by_idcc = {}
+    for entry in idx:
+        num = str(entry.get("num") or "").strip().zfill(4)
+        if not num:
+            continue
+        by_idcc[num] = entry
+    return by_idcc
+
+def fetch_kali_agreement_json(kali_id):
+    return safe_get_json(f"{KALI_DATA_RAW_BASE}/{kali_id}.json")
+
+def enrich_branch_from_kali(branch, kali_entry, smic_net):
+    kali_id = kali_entry.get("id")
+    if not kali_id:
+        return {
+            **branch,
+            "statut": "a_verifier",
+            "grille": [],
+            "meta": {
+                **branch.get("meta", {}),
+                "extraction_status": "error",
+                "confidence": 0.0,
+                "reason": "id kali manquant",
+            },
+        }
+
+    try:
+        agreement_json = fetch_kali_agreement_json(kali_id)
+        grille, extraction_meta = extract_grille_from_kali_agreement(agreement_json)
+        confidence = extraction_meta["confidence"]
+        statut = compute_branche_statut(grille, smic_net, confidence)
+        quality = compute_branche_quality(grille, confidence)
+
+        return {
+            **branch,
+            "grille": grille,
+            "statut": statut,
+            "source": f"https://www.legifrance.gouv.fr/search/result?query=idcc+{branch['idcc']}",
+            "meta": {
+                **branch.get("meta", {}),
+                "source_donnees": "kali-data",
+                "kali_id": kali_id,
+                "extraction_status": "ok" if grille else "empty",
+                "confidence": confidence,
+                "quality": quality,
+                "source_path": extraction_meta.get("source_path"),
+                "source_excerpt": extraction_meta.get("source_excerpt"),
+            },
+        }
+    except Exception as e:
+        return {
+            **branch,
+            "grille": [],
+            "statut": "a_verifier",
+            "source": f"https://www.legifrance.gouv.fr/search/result?query=idcc+{branch['idcc']}",
+            "meta": {
+                **branch.get("meta", {}),
+                "source_donnees": "kali-data",
+                "kali_id": kali_id,
+                "extraction_status": "error",
+                "confidence": 0.0,
+                "quality": "indisponible",
+                "reason": f"{type(e).__name__}: {e}",
+            },
+        }
+
+def summarize_conventions(branches):
+    total = len(branches)
+    conformes = sum(1 for b in branches if b.get("statut") == "conforme")
+    non_conformes = sum(1 for b in branches if b.get("statut") == "non_conforme")
+    a_verifier = sum(1 for b in branches if b.get("statut") == "a_verifier")
+    total_effectif = sum(int(b.get("effectif") or 0) for b in branches)
+
+    return {
+        "total_branches": total,
+        "branches_affichees": total,
+        "branches_conformes": conformes,
+        "branches_non_conformes": non_conformes,
+        "branches_a_verifier": a_verifier,
+        "pourcentage_non_conformes": round((non_conformes / total) * 100) if total else 0,
+        "total_effectif_couvert": total_effectif,
+    }
+    
 def build_conventions_collectives_enrichies(smic_net, smic_brut):
     """
-    Construit la section conventions_collectives avec les 48 branches
-    les plus importantes par effectif.
-
-    Stratégie à 3 étapes :
-    1. kali-data (SocialGouv / GitHub raw) → effectifs temps réel
-       Remplace data.travail.gouv.fr (domaine DNS mort depuis 2025)
-    2. kali-data (GitHub raw) → détection des CCN modifiées depuis la grille codée
-       via le champ mtime de l'index. Sans token, sans API instable.
-       → champ "alerte_avenant" injecté si modification plus récente détectée.
-    3. Fallback complet si APIs indisponibles : base statique conservée.
-
-    ⚠️  Les montants des grilles restent à saisir manuellement après chaque
-    avenant détecté. L'API extrait la date, pas les montants (texte juridique brut).
+    Version option B :
+    - effetifs/top branches conservés depuis BRANCHES_BASE
+    - grille salariale tentée automatiquement depuis kali-data
+    - si extraction douteuse : statut = a_verifier, jamais de faux "conforme"
     """
-    print("📋 Construction des conventions collectives enrichies...")
+    print("📋 Construction des conventions collectives (option B)...")
 
-    # ─────────────────────────────────────────────────────────────
-    # BASE COMPLÈTE : 50 branches avec grilles de salaires
-    # Sources : Légifrance, DGT - Vérifiées au 01/01/2026
-    # SMIC net référence : 1 443.11€ | SMIC brut : 1 823.03€
-    # ─────────────────────────────────────────────────────────────
+    # IMPORTANT :
+    # garde ici ton BRANCHES_BASE actuel, MAIS en le réduisant au socle catalogue.
+    # Tu peux conserver effectif / idcc / nom / derniere_revalorisation / éventuels ids.
+    # En revanche, la grille codée en dur ne doit plus être la source de vérité.
     BRANCHES_BASE = [
-        {
-            "idcc": "3248", "nom": "Métallurgie", "effectif": 1600000, "statut": "conforme",
-            "derniere_revalorisation": "Janvier 2026",
-            "grille": [
-                {"niveau": "A1", "coefficient": 135, "minimum_mensuel": 1490, "minimum_annuel": 17880},
-                {"niveau": "A2", "coefficient": 145, "minimum_mensuel": 1535, "minimum_annuel": 18420},
-                {"niveau": "B1", "coefficient": 155, "minimum_mensuel": 1595, "minimum_annuel": 19140},
-                {"niveau": "B2", "coefficient": 170, "minimum_mensuel": 1665, "minimum_annuel": 19980},
-                {"niveau": "C1", "coefficient": 190, "minimum_mensuel": 1765, "minimum_annuel": 21180},
-                {"niveau": "C2", "coefficient": 215, "minimum_mensuel": 1920, "minimum_annuel": 23040},
-                {"niveau": "D1", "coefficient": 240, "minimum_mensuel": 2090, "minimum_annuel": 25080},
-                {"niveau": "D2", "coefficient": 275, "minimum_mensuel": 2340, "minimum_annuel": 28080},
-                {"niveau": "E1", "coefficient": 310, "minimum_mensuel": 2720, "minimum_annuel": 32640},
-                {"niveau": "E2", "coefficient": 365, "minimum_mensuel": 3250, "minimum_annuel": 39000},
-            ]
-        },
-        {
-            "idcc": "1518", "nom": "Aide à domicile (employeurs particuliers)", "effectif": 1200000, "statut": "conforme",
-            "derniere_revalorisation": "Janvier 2026",
-            "grille": [
-                {"niveau": "Niveau A", "coefficient": 1, "minimum_mensuel": 1470, "minimum_annuel": 17640},
-                {"niveau": "Niveau B", "coefficient": 2, "minimum_mensuel": 1490, "minimum_annuel": 17880},
-                {"niveau": "Niveau C", "coefficient": 3, "minimum_mensuel": 1520, "minimum_annuel": 18240},
-                {"niveau": "Niveau D - Auxiliaire parentale", "coefficient": 4, "minimum_mensuel": 1580, "minimum_annuel": 18960},
-                {"niveau": "Niveau E - Garde-malade", "coefficient": 5, "minimum_mensuel": 1680, "minimum_annuel": 20160},
-            ]
-        },
-        {
-            "idcc": "1979", "nom": "Hôtels, cafés, restaurants (HCR)", "effectif": 1200000, "statut": "conforme",
-            "derniere_revalorisation": "Janvier 2026",
-            "grille": [
-                {"niveau": "Niveau I - Échelon 1", "coefficient": 100, "minimum_mensuel": 1461, "minimum_annuel": 17532},
-                {"niveau": "Niveau I - Échelon 2", "coefficient": 105, "minimum_mensuel": 1478, "minimum_annuel": 17736},
-                {"niveau": "Niveau II - Échelon 1", "coefficient": 110, "minimum_mensuel": 1495, "minimum_annuel": 17940},
-                {"niveau": "Niveau II - Échelon 2", "coefficient": 115, "minimum_mensuel": 1525, "minimum_annuel": 18300},
-                {"niveau": "Niveau III - Échelon 1", "coefficient": 120, "minimum_mensuel": 1560, "minimum_annuel": 18720},
-                {"niveau": "Niveau III - Échelon 2", "coefficient": 130, "minimum_mensuel": 1620, "minimum_annuel": 19440},
-                {"niveau": "Niveau IV - Échelon 1", "coefficient": 145, "minimum_mensuel": 1730, "minimum_annuel": 20760},
-                {"niveau": "Niveau IV - Échelon 2", "coefficient": 160, "minimum_mensuel": 1870, "minimum_annuel": 22440},
-                {"niveau": "Niveau V", "coefficient": 185, "minimum_mensuel": 2150, "minimum_annuel": 25800},
-            ]
-        },
-        {
-            "idcc": "1486", "nom": "Bureaux d'études techniques (SYNTEC)", "effectif": 850000, "statut": "conforme",
-            "derniere_revalorisation": "Janvier 2026",
-            "grille": [
-                {"niveau": "Employé - Position 1.1", "coefficient": 240, "minimum_mensuel": 1856, "minimum_annuel": 22272},
-                {"niveau": "Employé - Position 1.2", "coefficient": 270, "minimum_mensuel": 2087, "minimum_annuel": 25044},
-                {"niveau": "Technicien - Position 2.1", "coefficient": 310, "minimum_mensuel": 2396, "minimum_annuel": 28752},
-                {"niveau": "Technicien - Position 2.2", "coefficient": 355, "minimum_mensuel": 2745, "minimum_annuel": 32940},
-                {"niveau": "Technicien - Position 2.3", "coefficient": 400, "minimum_mensuel": 3093, "minimum_annuel": 37116},
-                {"niveau": "Cadre - Position 3.1", "coefficient": 450, "minimum_mensuel": 3479, "minimum_annuel": 41748},
-                {"niveau": "Cadre - Position 3.2", "coefficient": 600, "minimum_mensuel": 4638, "minimum_annuel": 55656},
-                {"niveau": "Cadre - Position 3.3", "coefficient": 700, "minimum_mensuel": 5413, "minimum_annuel": 64956},
-            ]
-        },
-        {
-            "idcc": "2402", "nom": "Travail temporaire (intérim)", "effectif": 700000, "statut": "conforme",
-            "derniere_revalorisation": "Janvier 2026",
-            "grille": [
-                {"niveau": "Niveau I - Échelon 1", "coefficient": 100, "minimum_mensuel": 1467, "minimum_annuel": 17604},
-                {"niveau": "Niveau I - Échelon 2", "coefficient": 105, "minimum_mensuel": 1490, "minimum_annuel": 17880},
-                {"niveau": "Niveau II - Échelon 1", "coefficient": 115, "minimum_mensuel": 1530, "minimum_annuel": 18360},
-                {"niveau": "Niveau II - Échelon 2", "coefficient": 125, "minimum_mensuel": 1580, "minimum_annuel": 18960},
-                {"niveau": "Niveau III", "coefficient": 145, "minimum_mensuel": 1700, "minimum_annuel": 20400},
-                {"niveau": "Niveau IV", "coefficient": 175, "minimum_mensuel": 1950, "minimum_annuel": 23400},
-                {"niveau": "Niveau V", "coefficient": 220, "minimum_mensuel": 2400, "minimum_annuel": 28800},
-            ]
-        },
-        {
-            "idcc": "1090", "nom": "Commerce à prédominance alimentaire (GMS)", "effectif": 760000, "statut": "conforme",
-            "derniere_revalorisation": "Juin 2025",
-            "grille": [
-                {"niveau": "Niveau 1", "coefficient": 100, "minimum_mensuel": 1487, "minimum_annuel": 17844},
-                {"niveau": "Niveau 2A", "coefficient": 106, "minimum_mensuel": 1510, "minimum_annuel": 18120},
-                {"niveau": "Niveau 2B", "coefficient": 112, "minimum_mensuel": 1535, "minimum_annuel": 18420},
-                {"niveau": "Niveau 3A", "coefficient": 120, "minimum_mensuel": 1580, "minimum_annuel": 18960},
-                {"niveau": "Niveau 3B", "coefficient": 130, "minimum_mensuel": 1645, "minimum_annuel": 19740},
-                {"niveau": "Niveau 4", "coefficient": 150, "minimum_mensuel": 1790, "minimum_annuel": 21480},
-                {"niveau": "Niveau 5", "coefficient": 175, "minimum_mensuel": 2020, "minimum_annuel": 24240},
-                {"niveau": "Niveau 6 (cadre)", "coefficient": 210, "minimum_mensuel": 2380, "minimum_annuel": 28560},
-            ]
-        },
-        {
-            "idcc": "3043", "nom": "Propreté et services associés", "effectif": 550000, "statut": "non_conforme",
-            "derniere_revalorisation": "Novembre 2025",
-            "grille": [
-                {"niveau": "AS1", "coefficient": 100, "minimum_mensuel": 1427, "minimum_annuel": 17124},
-                {"niveau": "AS2", "coefficient": 104, "minimum_mensuel": 1436, "minimum_annuel": 17232},
-                {"niveau": "AS3", "coefficient": 108, "minimum_mensuel": 1450, "minimum_annuel": 17400},
-                {"niveau": "AQS1", "coefficient": 115, "minimum_mensuel": 1471, "minimum_annuel": 17652},
-                {"niveau": "AQS2", "coefficient": 120, "minimum_mensuel": 1490, "minimum_annuel": 17880},
-                {"niveau": "AQS3", "coefficient": 130, "minimum_mensuel": 1540, "minimum_annuel": 18480},
-                {"niveau": "Chef d'équipe", "coefficient": 150, "minimum_mensuel": 1670, "minimum_annuel": 20040},
-                {"niveau": "Agent de maîtrise", "coefficient": 185, "minimum_mensuel": 1960, "minimum_annuel": 23520},
-            ]
-        },
-        {
-            "idcc": "1459", "nom": "Nettoyage industriel", "effectif": 420000, "statut": "non_conforme",
-            "derniere_revalorisation": "Novembre 2025",
-            "grille": [
-                {"niveau": "AS - Échelon 1", "coefficient": 100, "minimum_mensuel": 1427, "minimum_annuel": 17124},
-                {"niveau": "AS - Échelon 2", "coefficient": 104, "minimum_mensuel": 1438, "minimum_annuel": 17256},
-                {"niveau": "AQS - Échelon 1", "coefficient": 110, "minimum_mensuel": 1456, "minimum_annuel": 17472},
-                {"niveau": "AQS - Échelon 2", "coefficient": 118, "minimum_mensuel": 1478, "minimum_annuel": 17736},
-                {"niveau": "Chef d'équipe", "coefficient": 140, "minimum_mensuel": 1585, "minimum_annuel": 19020},
-                {"niveau": "Agent de maîtrise", "coefficient": 175, "minimum_mensuel": 1860, "minimum_annuel": 22320},
-            ]
-        },
-        {
-            "idcc": "1996", "nom": "Transports routiers et auxiliaires", "effectif": 430000, "statut": "conforme",
-            "derniere_revalorisation": "Janvier 2026",
-            "grille": [
-                {"niveau": "Groupe 2 (conducteurs)", "coefficient": 138, "minimum_mensuel": 1502, "minimum_annuel": 18024},
-                {"niveau": "Groupe 3 (longue distance)", "coefficient": 150, "minimum_mensuel": 1565, "minimum_annuel": 18780},
-                {"niveau": "Groupe 4", "coefficient": 162, "minimum_mensuel": 1635, "minimum_annuel": 19620},
-                {"niveau": "Groupe 5", "coefficient": 175, "minimum_mensuel": 1720, "minimum_annuel": 20640},
-                {"niveau": "Groupe 6", "coefficient": 195, "minimum_mensuel": 1850, "minimum_annuel": 22200},
-                {"niveau": "Groupe 7", "coefficient": 220, "minimum_mensuel": 2040, "minimum_annuel": 24480},
-                {"niveau": "Groupe 8", "coefficient": 260, "minimum_mensuel": 2360, "minimum_annuel": 28320},
-                {"niveau": "Groupe 9 (cadres)", "coefficient": 320, "minimum_mensuel": 2870, "minimum_annuel": 34440},
-            ]
-        },
-        {
-            "idcc": "2941", "nom": "Aide, soins et services à domicile (BAD)", "effectif": 380000, "statut": "conforme",
-            "derniere_revalorisation": "Octobre 2025",
-            "grille": [
-                {"niveau": "Catégorie A - Degré 1", "coefficient": 257, "minimum_mensuel": 1480, "minimum_annuel": 17760},
-                {"niveau": "Catégorie A - Degré 2", "coefficient": 262, "minimum_mensuel": 1510, "minimum_annuel": 18120},
-                {"niveau": "Catégorie B - Degré 1", "coefficient": 275, "minimum_mensuel": 1560, "minimum_annuel": 18720},
-                {"niveau": "Catégorie B - Degré 2", "coefficient": 285, "minimum_mensuel": 1620, "minimum_annuel": 19440},
-                {"niveau": "Catégorie C - Degré 1", "coefficient": 315, "minimum_mensuel": 1790, "minimum_annuel": 21480},
-                {"niveau": "Catégorie C - Degré 2", "coefficient": 340, "minimum_mensuel": 1930, "minimum_annuel": 23160},
-                {"niveau": "Catégorie D", "coefficient": 395, "minimum_mensuel": 2240, "minimum_annuel": 26880},
-                {"niveau": "Catégorie E", "coefficient": 466, "minimum_mensuel": 2640, "minimum_annuel": 31680},
-            ]
-        },
-        {
-            "idcc": "3239", "nom": "Banque", "effectif": 390000, "statut": "conforme",
-            "derniere_revalorisation": "Janvier 2026",
-            "grille": [
-                {"niveau": "Niveau A - Échelon 1", "coefficient": 230, "minimum_mensuel": 1800, "minimum_annuel": 21600},
-                {"niveau": "Niveau A - Échelon 2", "coefficient": 255, "minimum_mensuel": 1970, "minimum_annuel": 23640},
-                {"niveau": "Niveau B", "coefficient": 290, "minimum_mensuel": 2230, "minimum_annuel": 26760},
-                {"niveau": "Niveau C", "coefficient": 340, "minimum_mensuel": 2600, "minimum_annuel": 31200},
-                {"niveau": "Niveau D", "coefficient": 405, "minimum_mensuel": 3070, "minimum_annuel": 36840},
-                {"niveau": "Niveau E", "coefficient": 500, "minimum_mensuel": 3790, "minimum_annuel": 45480},
-                {"niveau": "Niveau F (cadres supérieurs)", "coefficient": 620, "minimum_mensuel": 4690, "minimum_annuel": 56280},
-            ]
-        },
-        {
-            "idcc": "2120", "nom": "Commerce non alimentaire (détail et gros)", "effectif": 310000, "statut": "conforme",
-            "derniere_revalorisation": "Juillet 2025",
-            "grille": [
-                {"niveau": "Niveau 1", "coefficient": 100, "minimum_mensuel": 1475, "minimum_annuel": 17700},
-                {"niveau": "Niveau 2", "coefficient": 107, "minimum_mensuel": 1505, "minimum_annuel": 18060},
-                {"niveau": "Niveau 3", "coefficient": 117, "minimum_mensuel": 1555, "minimum_annuel": 18660},
-                {"niveau": "Niveau 4", "coefficient": 130, "minimum_mensuel": 1640, "minimum_annuel": 19680},
-                {"niveau": "Niveau 5", "coefficient": 150, "minimum_mensuel": 1790, "minimum_annuel": 21480},
-                {"niveau": "Niveau 6 (cadre)", "coefficient": 185, "minimum_mensuel": 2140, "minimum_annuel": 25680},
-            ]
-        },
-        {
-            "idcc": "1597", "nom": "Bâtiment (ouvriers)", "effectif": 520000, "statut": "conforme",
-            "derniere_revalorisation": "Avril 2025",
-            "grille": [
-                {"niveau": "N1 - P1", "coefficient": 150, "minimum_mensuel": 1535, "minimum_annuel": 18420},
-                {"niveau": "N1 - P2", "coefficient": 170, "minimum_mensuel": 1595, "minimum_annuel": 19140},
-                {"niveau": "N1 - P3", "coefficient": 185, "minimum_mensuel": 1655, "minimum_annuel": 19860},
-                {"niveau": "N2 - P1", "coefficient": 200, "minimum_mensuel": 1740, "minimum_annuel": 20880},
-                {"niveau": "N2 - P2", "coefficient": 210, "minimum_mensuel": 1790, "minimum_annuel": 21480},
-                {"niveau": "N3 - P1", "coefficient": 230, "minimum_mensuel": 1905, "minimum_annuel": 22860},
-                {"niveau": "N3 - P2", "coefficient": 250, "minimum_mensuel": 2050, "minimum_annuel": 24600},
-                {"niveau": "N4 (maître ouvrier)", "coefficient": 270, "minimum_mensuel": 2240, "minimum_annuel": 26880},
-            ]
-        },
-        {
-            "idcc": "1605", "nom": "Bâtiment (ETAM)", "effectif": 280000, "statut": "conforme",
-            "derniere_revalorisation": "Avril 2025",
-            "grille": [
-                {"niveau": "E1", "coefficient": 155, "minimum_mensuel": 1535, "minimum_annuel": 18420},
-                {"niveau": "E2", "coefficient": 165, "minimum_mensuel": 1590, "minimum_annuel": 19080},
-                {"niveau": "E3", "coefficient": 180, "minimum_mensuel": 1660, "minimum_annuel": 19920},
-                {"niveau": "T1", "coefficient": 200, "minimum_mensuel": 1760, "minimum_annuel": 21120},
-                {"niveau": "T2", "coefficient": 220, "minimum_mensuel": 1880, "minimum_annuel": 22560},
-                {"niveau": "T3", "coefficient": 250, "minimum_mensuel": 2060, "minimum_annuel": 24720},
-                {"niveau": "AM1", "coefficient": 280, "minimum_mensuel": 2280, "minimum_annuel": 27360},
-                {"niveau": "AM2", "coefficient": 320, "minimum_mensuel": 2570, "minimum_annuel": 30840},
-            ]
-        },
-        {
-            "idcc": "2216", "nom": "Commerce de détail alimentaire (spécialisé)", "effectif": 450000, "statut": "non_conforme",
-            "derniere_revalorisation": "Octobre 2025",
-            "grille": [
-                {"niveau": "Niveau 1A", "coefficient": 100, "minimum_mensuel": 1420, "minimum_annuel": 17040},
-                {"niveau": "Niveau 1B", "coefficient": 104, "minimum_mensuel": 1435, "minimum_annuel": 17220},
-                {"niveau": "Niveau 2A", "coefficient": 110, "minimum_mensuel": 1460, "minimum_annuel": 17520},
-                {"niveau": "Niveau 2B", "coefficient": 118, "minimum_mensuel": 1495, "minimum_annuel": 17940},
-                {"niveau": "Niveau 3A", "coefficient": 130, "minimum_mensuel": 1560, "minimum_annuel": 18720},
-                {"niveau": "Niveau 3B", "coefficient": 145, "minimum_mensuel": 1680, "minimum_annuel": 20160},
-                {"niveau": "Niveau 4 (encadrement)", "coefficient": 170, "minimum_mensuel": 1890, "minimum_annuel": 22680},
-            ]
-        },
-        {
-            "idcc": "0803", "nom": "Restauration rapide", "effectif": 220000, "statut": "non_conforme",
-            "derniere_revalorisation": "Septembre 2025",
-            "grille": [
-                {"niveau": "Niveau I - Échelon 1", "coefficient": 100, "minimum_mensuel": 1435, "minimum_annuel": 17220},
-                {"niveau": "Niveau I - Échelon 2", "coefficient": 103, "minimum_mensuel": 1450, "minimum_annuel": 17400},
-                {"niveau": "Niveau II - Échelon 1", "coefficient": 107, "minimum_mensuel": 1465, "minimum_annuel": 17580},
-                {"niveau": "Niveau II - Échelon 2", "coefficient": 112, "minimum_mensuel": 1490, "minimum_annuel": 17880},
-                {"niveau": "Niveau III", "coefficient": 125, "minimum_mensuel": 1570, "minimum_annuel": 18840},
-                {"niveau": "Niveau IV (encadrement)", "coefficient": 145, "minimum_mensuel": 1720, "minimum_annuel": 20640},
-                {"niveau": "Niveau V (direction)", "coefficient": 175, "minimum_mensuel": 2020, "minimum_annuel": 24240},
-            ]
-        },
-        {
-            "idcc": "2098", "nom": "Hospitalisation privée (FHP)", "effectif": 250000, "statut": "conforme",
-            "derniere_revalorisation": "Juillet 2025",
-            "grille": [
-                {"niveau": "Filière soins - Niveau 1", "coefficient": 215, "minimum_mensuel": 1520, "minimum_annuel": 18240},
-                {"niveau": "Filière soins - Niveau 2", "coefficient": 235, "minimum_mensuel": 1640, "minimum_annuel": 19680},
-                {"niveau": "Filière soins - Niveau 3 (IDE)", "coefficient": 265, "minimum_mensuel": 1830, "minimum_annuel": 21960},
-                {"niveau": "Filière soins - Niveau 4", "coefficient": 305, "minimum_mensuel": 2100, "minimum_annuel": 25200},
-                {"niveau": "Filière admin - Niveau 1", "coefficient": 210, "minimum_mensuel": 1490, "minimum_annuel": 17880},
-                {"niveau": "Filière admin - Niveau 3", "coefficient": 255, "minimum_mensuel": 1750, "minimum_annuel": 21000},
-                {"niveau": "Cadre - Niveau 1", "coefficient": 420, "minimum_mensuel": 2890, "minimum_annuel": 34680},
-            ]
-        },
-        {
-            "idcc": "1501", "nom": "Travaux publics (ouvriers)", "effectif": 180000, "statut": "conforme",
-            "derniere_revalorisation": "Avril 2025",
-            "grille": [
-                {"niveau": "Niveau 1 - Position 1", "coefficient": 100, "minimum_mensuel": 1540, "minimum_annuel": 18480},
-                {"niveau": "Niveau 1 - Position 2", "coefficient": 107, "minimum_mensuel": 1580, "minimum_annuel": 18960},
-                {"niveau": "Niveau 2 - Position 1", "coefficient": 115, "minimum_mensuel": 1640, "minimum_annuel": 19680},
-                {"niveau": "Niveau 2 - Position 2", "coefficient": 125, "minimum_mensuel": 1720, "minimum_annuel": 20640},
-                {"niveau": "Niveau 3 - Position 1", "coefficient": 138, "minimum_mensuel": 1840, "minimum_annuel": 22080},
-                {"niveau": "Niveau 3 - Position 2", "coefficient": 155, "minimum_mensuel": 2010, "minimum_annuel": 24120},
-                {"niveau": "Niveau 4 (chef d'équipe)", "coefficient": 180, "minimum_mensuel": 2260, "minimum_annuel": 27120},
-            ]
-        },
-        {
-            "idcc": "1404", "nom": "Animation (associations)", "effectif": 180000, "statut": "conforme",
-            "derniere_revalorisation": "Janvier 2026",
-            "grille": [
-                {"niveau": "Groupe A - Animateur", "coefficient": 265, "minimum_mensuel": 1479, "minimum_annuel": 17748},
-                {"niveau": "Groupe B - Animateur technique", "coefficient": 300, "minimum_mensuel": 1535, "minimum_annuel": 18420},
-                {"niveau": "Groupe C - Coordinateur", "coefficient": 360, "minimum_mensuel": 1750, "minimum_annuel": 21000},
-                {"niveau": "Groupe D - Directeur adjoint", "coefficient": 440, "minimum_mensuel": 2090, "minimum_annuel": 25080},
-                {"niveau": "Groupe E - Directeur", "coefficient": 520, "minimum_mensuel": 2460, "minimum_annuel": 29520},
-                {"niveau": "Groupe F - Directeur régional", "coefficient": 650, "minimum_mensuel": 3060, "minimum_annuel": 36720},
-            ]
-        },
-        {
-            "idcc": "1351", "nom": "Prévention et sécurité privée", "effectif": 180000, "statut": "non_conforme",
-            "derniere_revalorisation": "Septembre 2025",
-            "grille": [
-                {"niveau": "Niveau I - Agent", "coefficient": 100, "minimum_mensuel": 1425, "minimum_annuel": 17100},
-                {"niveau": "Niveau II - Agent qualifié", "coefficient": 108, "minimum_mensuel": 1450, "minimum_annuel": 17400},
-                {"niveau": "Niveau III - Agent chef", "coefficient": 118, "minimum_mensuel": 1478, "minimum_annuel": 17736},
-                {"niveau": "Niveau IV - Chef de poste", "coefficient": 130, "minimum_mensuel": 1520, "minimum_annuel": 18240},
-                {"niveau": "Niveau V - Chef d'équipe", "coefficient": 150, "minimum_mensuel": 1650, "minimum_annuel": 19800},
-                {"niveau": "Niveau VI - Agent de maîtrise", "coefficient": 185, "minimum_mensuel": 1940, "minimum_annuel": 23280},
-            ]
-        },
-        {
-            "idcc": "2569", "nom": "Services de l'automobile (garages)", "effectif": 165000, "statut": "conforme",
-            "derniere_revalorisation": "Janvier 2026",
-            "grille": [
-                {"niveau": "Niveau I - Échelon A", "coefficient": 100, "minimum_mensuel": 1477, "minimum_annuel": 17724},
-                {"niveau": "Niveau I - Échelon B", "coefficient": 105, "minimum_mensuel": 1500, "minimum_annuel": 18000},
-                {"niveau": "Niveau II - Échelon A", "coefficient": 112, "minimum_mensuel": 1540, "minimum_annuel": 18480},
-                {"niveau": "Niveau II - Échelon B", "coefficient": 122, "minimum_mensuel": 1600, "minimum_annuel": 19200},
-                {"niveau": "Niveau III - Échelon A", "coefficient": 137, "minimum_mensuel": 1700, "minimum_annuel": 20400},
-                {"niveau": "Niveau III - Échelon B", "coefficient": 155, "minimum_mensuel": 1850, "minimum_annuel": 22200},
-                {"niveau": "Niveau IV (TAM)", "coefficient": 190, "minimum_mensuel": 2150, "minimum_annuel": 25800},
-                {"niveau": "Niveau V (cadres)", "coefficient": 250, "minimum_mensuel": 2780, "minimum_annuel": 33360},
-            ]
-        },
-        {
-            "idcc": "0736", "nom": "Hospitalisation privée à but non lucratif (FEHAP)", "effectif": 160000, "statut": "conforme",
-            "derniere_revalorisation": "Juin 2025",
-            "grille": [
-                {"niveau": "Groupe 3 (aide-soignant)", "coefficient": 212, "minimum_mensuel": 1480, "minimum_annuel": 17760},
-                {"niveau": "Groupe 4", "coefficient": 228, "minimum_mensuel": 1570, "minimum_annuel": 18840},
-                {"niveau": "Groupe 5", "coefficient": 248, "minimum_mensuel": 1690, "minimum_annuel": 20280},
-                {"niveau": "Groupe 6 (infirmier)", "coefficient": 280, "minimum_mensuel": 1900, "minimum_annuel": 22800},
-                {"niveau": "Groupe 7 (cadre santé)", "coefficient": 320, "minimum_mensuel": 2150, "minimum_annuel": 25800},
-                {"niveau": "Groupe 8 (cadre supérieur)", "coefficient": 390, "minimum_mensuel": 2620, "minimum_annuel": 31440},
-                {"niveau": "Groupe 9 (directeur)", "coefficient": 500, "minimum_mensuel": 3360, "minimum_annuel": 40320},
-            ]
-        },
-        {
-            "idcc": "2596", "nom": "Immobilier (agents, syndics, administrateurs)", "effectif": 150000, "statut": "conforme",
-            "derniere_revalorisation": "Janvier 2026",
-            "grille": [
-                {"niveau": "Employé - Niveau 1", "coefficient": 100, "minimum_mensuel": 1490, "minimum_annuel": 17880},
-                {"niveau": "Employé - Niveau 2", "coefficient": 110, "minimum_mensuel": 1560, "minimum_annuel": 18720},
-                {"niveau": "Agent qualifié - Niveau 3", "coefficient": 125, "minimum_mensuel": 1680, "minimum_annuel": 20160},
-                {"niveau": "TAM - Niveau 4", "coefficient": 145, "minimum_mensuel": 1870, "minimum_annuel": 22440},
-                {"niveau": "Cadre - Niveau 5", "coefficient": 175, "minimum_mensuel": 2240, "minimum_annuel": 26880},
-                {"niveau": "Cadre confirmé - Niveau 6", "coefficient": 220, "minimum_mensuel": 2790, "minimum_annuel": 33480},
-            ]
-        },
-        {
-            "idcc": "2150", "nom": "Industrie chimique", "effectif": 175000, "statut": "conforme",
-            "derniere_revalorisation": "Janvier 2026",
-            "grille": [
-                {"niveau": "TAM - Groupe 4", "coefficient": 100, "minimum_mensuel": 1497, "minimum_annuel": 17964},
-                {"niveau": "TAM - Groupe 5", "coefficient": 113, "minimum_mensuel": 1610, "minimum_annuel": 19320},
-                {"niveau": "TAM - Groupe 6", "coefficient": 128, "minimum_mensuel": 1760, "minimum_annuel": 21120},
-                {"niveau": "TAM - Groupe 7", "coefficient": 148, "minimum_mensuel": 1980, "minimum_annuel": 23760},
-                {"niveau": "Cadre - Groupe 8", "coefficient": 175, "minimum_mensuel": 2310, "minimum_annuel": 27720},
-                {"niveau": "Cadre - Groupe 9", "coefficient": 215, "minimum_mensuel": 2820, "minimum_annuel": 33840},
-                {"niveau": "Cadre - Groupe 10", "coefficient": 270, "minimum_mensuel": 3540, "minimum_annuel": 42480},
-            ]
-        },
-        {
-            "idcc": "0787", "nom": "Boulangerie-pâtisserie artisanale", "effectif": 145000, "statut": "non_conforme",
-            "derniere_revalorisation": "Octobre 2025",
-            "grille": [
-                {"niveau": "Ouvrier - Échelon 1", "coefficient": 100, "minimum_mensuel": 1430, "minimum_annuel": 17160},
-                {"niveau": "Ouvrier - Échelon 2", "coefficient": 104, "minimum_mensuel": 1445, "minimum_annuel": 17340},
-                {"niveau": "Ouvrier qualifié - Échelon 1", "coefficient": 109, "minimum_mensuel": 1462, "minimum_annuel": 17544},
-                {"niveau": "Ouvrier qualifié - Échelon 2", "coefficient": 115, "minimum_mensuel": 1485, "minimum_annuel": 17820},
-                {"niveau": "Ouvrier hautement qualifié", "coefficient": 126, "minimum_mensuel": 1535, "minimum_annuel": 18420},
-                {"niveau": "Chef d'équipe confirmé", "coefficient": 145, "minimum_mensuel": 1690, "minimum_annuel": 20280},
-            ]
-        },
-        {
-            "idcc": "3131", "nom": "Télécommunications", "effectif": 130000, "statut": "conforme",
-            "derniere_revalorisation": "Janvier 2026",
-            "grille": [
-                {"niveau": "Niveau 1 - Classe 1", "coefficient": 100, "minimum_mensuel": 1510, "minimum_annuel": 18120},
-                {"niveau": "Niveau 2 - Classe 1", "coefficient": 115, "minimum_mensuel": 1640, "minimum_annuel": 19680},
-                {"niveau": "Niveau 2 - Classe 2", "coefficient": 130, "minimum_mensuel": 1790, "minimum_annuel": 21480},
-                {"niveau": "Niveau 3 - Classe 1", "coefficient": 155, "minimum_mensuel": 2040, "minimum_annuel": 24480},
-                {"niveau": "Niveau 3 - Classe 2", "coefficient": 185, "minimum_mensuel": 2390, "minimum_annuel": 28680},
-                {"niveau": "Cadre - Niveau 4", "coefficient": 230, "minimum_mensuel": 2940, "minimum_annuel": 35280},
-                {"niveau": "Cadre supérieur - Niveau 5", "coefficient": 310, "minimum_mensuel": 3950, "minimum_annuel": 47400},
-            ]
-        },
-        {
-            "idcc": "1285", "nom": "Commerce de détail habillement et textile", "effectif": 120000, "statut": "non_conforme",
-            "derniere_revalorisation": "Septembre 2025",
-            "grille": [
-                {"niveau": "Niveau 1", "coefficient": 100, "minimum_mensuel": 1425, "minimum_annuel": 17100},
-                {"niveau": "Niveau 2", "coefficient": 106, "minimum_mensuel": 1445, "minimum_annuel": 17340},
-                {"niveau": "Niveau 3", "coefficient": 113, "minimum_mensuel": 1468, "minimum_annuel": 17616},
-                {"niveau": "Niveau 4", "coefficient": 123, "minimum_mensuel": 1500, "minimum_annuel": 18000},
-                {"niveau": "Niveau 5 (adjoint)", "coefficient": 140, "minimum_mensuel": 1600, "minimum_annuel": 19200},
-                {"niveau": "Niveau 6 (responsable)", "coefficient": 165, "minimum_mensuel": 1800, "minimum_annuel": 21600},
-            ]
-        },
-        {
-            "idcc": "0650", "nom": "Pharmacie d'officine", "effectif": 105000, "statut": "conforme",
-            "derniere_revalorisation": "Janvier 2026",
-            "grille": [
-                {"niveau": "Niveau I", "coefficient": 100, "minimum_mensuel": 1490, "minimum_annuel": 17880},
-                {"niveau": "Niveau II", "coefficient": 112, "minimum_mensuel": 1600, "minimum_annuel": 19200},
-                {"niveau": "Niveau III", "coefficient": 128, "minimum_mensuel": 1740, "minimum_annuel": 20880},
-                {"niveau": "Niveau IV", "coefficient": 150, "minimum_mensuel": 1950, "minimum_annuel": 23400},
-                {"niveau": "Niveau V (préparateur)", "coefficient": 180, "minimum_mensuel": 2240, "minimum_annuel": 26880},
-                {"niveau": "Niveau VI (pharmacien adjoint)", "coefficient": 250, "minimum_mensuel": 3020, "minimum_annuel": 36240},
-            ]
-        },
-        {
-            "idcc": "0095", "nom": "Commerce de gros (alimentaire, boissons)", "effectif": 95000, "statut": "conforme",
-            "derniere_revalorisation": "Janvier 2026",
-            "grille": [
-                {"niveau": "Employé - Niveau 1", "coefficient": 100, "minimum_mensuel": 1490, "minimum_annuel": 17880},
-                {"niveau": "Employé qualifié - Niveau 2", "coefficient": 113, "minimum_mensuel": 1580, "minimum_annuel": 18960},
-                {"niveau": "Technicien - Niveau 3", "coefficient": 130, "minimum_mensuel": 1720, "minimum_annuel": 20640},
-                {"niveau": "TAM - Niveau 4", "coefficient": 155, "minimum_mensuel": 1960, "minimum_annuel": 23520},
-                {"niveau": "Cadre - Niveau 5", "coefficient": 195, "minimum_mensuel": 2450, "minimum_annuel": 29400},
-            ]
-        },
-        {
-            "idcc": "2609", "nom": "Coiffure et esthétique", "effectif": 95000, "statut": "non_conforme",
-            "derniere_revalorisation": "Novembre 2025",
-            "grille": [
-                {"niveau": "Employé qualifié - Échelon 1", "coefficient": 100, "minimum_mensuel": 1430, "minimum_annuel": 17160},
-                {"niveau": "Employé qualifié - Échelon 2", "coefficient": 105, "minimum_mensuel": 1448, "minimum_annuel": 17376},
-                {"niveau": "Collaborateur technique", "coefficient": 115, "minimum_mensuel": 1490, "minimum_annuel": 17880},
-                {"niveau": "Responsable technique", "coefficient": 135, "minimum_mensuel": 1590, "minimum_annuel": 19080},
-                {"niveau": "Directeur technique", "coefficient": 160, "minimum_mensuel": 1870, "minimum_annuel": 22440},
-            ]
-        },
-        {
-            "idcc": "1483", "nom": "Mutualité", "effectif": 90000, "statut": "conforme",
-            "derniere_revalorisation": "Juillet 2025",
-            "grille": [
-                {"niveau": "Classe 1", "coefficient": 100, "minimum_mensuel": 1505, "minimum_annuel": 18060},
-                {"niveau": "Classe 2", "coefficient": 115, "minimum_mensuel": 1640, "minimum_annuel": 19680},
-                {"niveau": "Classe 3", "coefficient": 135, "minimum_mensuel": 1850, "minimum_annuel": 22200},
-                {"niveau": "Classe 4", "coefficient": 160, "minimum_mensuel": 2120, "minimum_annuel": 25440},
-                {"niveau": "Classe 5", "coefficient": 200, "minimum_mensuel": 2590, "minimum_annuel": 31080},
-                {"niveau": "Classe 6 (cadres supérieurs)", "coefficient": 260, "minimum_mensuel": 3310, "minimum_annuel": 39720},
-            ]
-        },
-        {
-            "idcc": "2511", "nom": "Sport (associations et clubs)", "effectif": 70000, "statut": "conforme",
-            "derniere_revalorisation": "Janvier 2026",
-            "grille": [
-                {"niveau": "Groupe 1 - Degré 1", "coefficient": 100, "minimum_mensuel": 1480, "minimum_annuel": 17760},
-                {"niveau": "Groupe 2 - Degré 1", "coefficient": 115, "minimum_mensuel": 1580, "minimum_annuel": 18960},
-                {"niveau": "Groupe 3 - Éducateur", "coefficient": 135, "minimum_mensuel": 1720, "minimum_annuel": 20640},
-                {"niveau": "Groupe 4 - Éducateur spécialisé", "coefficient": 160, "minimum_mensuel": 1990, "minimum_annuel": 23880},
-                {"niveau": "Groupe 5 - Cadre technique", "coefficient": 200, "minimum_mensuel": 2450, "minimum_annuel": 29400},
-                {"niveau": "Groupe 6 - Directeur", "coefficient": 260, "minimum_mensuel": 3150, "minimum_annuel": 37800},
-            ]
-        },
-        {
-            "idcc": "2264", "nom": "Distribution directe", "effectif": 75000, "statut": "conforme",
-            "derniere_revalorisation": "Janvier 2026",
-            "grille": [
-                {"niveau": "Niveau 1 - Échelon A", "coefficient": 100, "minimum_mensuel": 1472, "minimum_annuel": 17664},
-                {"niveau": "Niveau 1 - Échelon B", "coefficient": 106, "minimum_mensuel": 1500, "minimum_annuel": 18000},
-                {"niveau": "Niveau 2", "coefficient": 115, "minimum_mensuel": 1545, "minimum_annuel": 18540},
-                {"niveau": "Niveau 3 (encadrement)", "coefficient": 135, "minimum_mensuel": 1680, "minimum_annuel": 20160},
-                {"niveau": "Niveau 4 (cadre)", "coefficient": 170, "minimum_mensuel": 2040, "minimum_annuel": 24480},
-            ]
-        },
-        {
-            "idcc": "1424", "nom": "Cabinets médicaux", "effectif": 65000, "statut": "non_conforme",
-            "derniere_revalorisation": "Octobre 2025",
-            "grille": [
-                {"niveau": "Employé - Échelon 1", "coefficient": 100, "minimum_mensuel": 1425, "minimum_annuel": 17100},
-                {"niveau": "Employé - Échelon 2", "coefficient": 104, "minimum_mensuel": 1440, "minimum_annuel": 17280},
-                {"niveau": "Employé qualifié - Échelon 3", "coefficient": 110, "minimum_mensuel": 1462, "minimum_annuel": 17544},
-                {"niveau": "Secrétaire médicale qualifiée", "coefficient": 120, "minimum_mensuel": 1495, "minimum_annuel": 17940},
-                {"niveau": "Assistante médicale", "coefficient": 135, "minimum_mensuel": 1590, "minimum_annuel": 19080},
-                {"niveau": "Responsable cabinet", "coefficient": 165, "minimum_mensuel": 1870, "minimum_annuel": 22440},
-            ]
-        },
-        {
-            "idcc": "0292", "nom": "Plasturgie", "effectif": 115000, "statut": "conforme",
-            "derniere_revalorisation": "Janvier 2026",
-            "grille": [
-                {"niveau": "Ouvrier - Niveau 1", "coefficient": 120, "minimum_mensuel": 1485, "minimum_annuel": 17820},
-                {"niveau": "Ouvrier qualifié - Niveau 2", "coefficient": 132, "minimum_mensuel": 1555, "minimum_annuel": 18660},
-                {"niveau": "Ouvrier qualifié - Niveau 3", "coefficient": 147, "minimum_mensuel": 1650, "minimum_annuel": 19800},
-                {"niveau": "TAM - Niveau 4", "coefficient": 166, "minimum_mensuel": 1790, "minimum_annuel": 21480},
-                {"niveau": "TAM - Niveau 5", "coefficient": 192, "minimum_mensuel": 2020, "minimum_annuel": 24240},
-                {"niveau": "Cadre - Niveau 6", "coefficient": 230, "minimum_mensuel": 2420, "minimum_annuel": 29040},
-                {"niveau": "Cadre supérieur - Niveau 7", "coefficient": 290, "minimum_mensuel": 3050, "minimum_annuel": 36600},
-            ]
-        },
-        {
-            "idcc": "0044", "nom": "Industries alimentaires diverses", "effectif": 85000, "statut": "conforme",
-            "derniere_revalorisation": "Janvier 2026",
-            "grille": [
-                {"niveau": "Ouvrier - Niveau 1", "coefficient": 100, "minimum_mensuel": 1490, "minimum_annuel": 17880},
-                {"niveau": "Ouvrier qualifié - Niveau 2", "coefficient": 112, "minimum_mensuel": 1575, "minimum_annuel": 18900},
-                {"niveau": "Ouvrier très qualifié - Niveau 3", "coefficient": 128, "minimum_mensuel": 1700, "minimum_annuel": 20400},
-                {"niveau": "TAM - Niveau 4", "coefficient": 150, "minimum_mensuel": 1900, "minimum_annuel": 22800},
-                {"niveau": "Cadre - Niveau 5", "coefficient": 200, "minimum_mensuel": 2520, "minimum_annuel": 30240},
-            ]
-        },
-        {
-            "idcc": "2691", "nom": "Paysagistes (entreprises du paysage)", "effectif": 55000, "statut": "conforme",
-            "derniere_revalorisation": "Janvier 2026",
-            "grille": [
-                {"niveau": "Ouvrier - Niveau 1", "coefficient": 100, "minimum_mensuel": 1495, "minimum_annuel": 17940},
-                {"niveau": "Ouvrier qualifié - Niveau 2", "coefficient": 111, "minimum_mensuel": 1565, "minimum_annuel": 18780},
-                {"niveau": "Ouvrier qualifié - Niveau 3", "coefficient": 124, "minimum_mensuel": 1655, "minimum_annuel": 19860},
-                {"niveau": "Chef d'équipe - Niveau 4", "coefficient": 141, "minimum_mensuel": 1790, "minimum_annuel": 21480},
-                {"niveau": "Chef de chantier - Niveau 5", "coefficient": 164, "minimum_mensuel": 2020, "minimum_annuel": 24240},
-                {"niveau": "Cadre - Niveau 6", "coefficient": 210, "minimum_mensuel": 2590, "minimum_annuel": 31080},
-            ]
-        },
-        {
-            "idcc": "0675", "nom": "Papiers-cartons (transformation)", "effectif": 55000, "statut": "conforme",
-            "derniere_revalorisation": "Janvier 2026",
-            "grille": [
-                {"niveau": "Niveau I", "coefficient": 100, "minimum_mensuel": 1492, "minimum_annuel": 17904},
-                {"niveau": "Niveau II", "coefficient": 112, "minimum_mensuel": 1580, "minimum_annuel": 18960},
-                {"niveau": "Niveau III", "coefficient": 127, "minimum_mensuel": 1700, "minimum_annuel": 20400},
-                {"niveau": "Niveau IV (TAM)", "coefficient": 148, "minimum_mensuel": 1920, "minimum_annuel": 23040},
-                {"niveau": "Niveau V (cadres)", "coefficient": 185, "minimum_mensuel": 2380, "minimum_annuel": 28560},
-                {"niveau": "Niveau VI (cadres supérieurs)", "coefficient": 250, "minimum_mensuel": 3150, "minimum_annuel": 37800},
-            ]
-        },
-        {
-            "idcc": "3016", "nom": "Organismes de formation professionnelle", "effectif": 55000, "statut": "conforme",
-            "derniere_revalorisation": "Janvier 2026",
-            "grille": [
-                {"niveau": "Niveau 1 - Échelon 1", "coefficient": 100, "minimum_mensuel": 1510, "minimum_annuel": 18120},
-                {"niveau": "Niveau 1 - Échelon 2", "coefficient": 108, "minimum_mensuel": 1570, "minimum_annuel": 18840},
-                {"niveau": "Niveau 2 - Échelon 1", "coefficient": 120, "minimum_mensuel": 1680, "minimum_annuel": 20160},
-                {"niveau": "Niveau 2 - Échelon 2", "coefficient": 135, "minimum_mensuel": 1840, "minimum_annuel": 22080},
-                {"niveau": "Niveau 3 (formateur)", "coefficient": 160, "minimum_mensuel": 2100, "minimum_annuel": 25200},
-                {"niveau": "Niveau 4 (responsable)", "coefficient": 205, "minimum_mensuel": 2650, "minimum_annuel": 31800},
-            ]
-        },
-        {
-            "idcc": "2148", "nom": "Agences générales d'assurances", "effectif": 40000, "statut": "conforme",
-            "derniere_revalorisation": "Janvier 2026",
-            "grille": [
-                {"niveau": "Classe A1", "coefficient": 100, "minimum_mensuel": 1510, "minimum_annuel": 18120},
-                {"niveau": "Classe A2", "coefficient": 112, "minimum_mensuel": 1610, "minimum_annuel": 19320},
-                {"niveau": "Classe B1", "coefficient": 130, "minimum_mensuel": 1790, "minimum_annuel": 21480},
-                {"niveau": "Classe B2", "coefficient": 155, "minimum_mensuel": 2060, "minimum_annuel": 24720},
-                {"niveau": "Classe C (cadre)", "coefficient": 190, "minimum_mensuel": 2490, "minimum_annuel": 29880},
-                {"niveau": "Classe D (cadre supérieur)", "coefficient": 250, "minimum_mensuel": 3240, "minimum_annuel": 38880},
-            ]
-        },
-        {
-            "idcc": "0016", "nom": "Transports aériens (personnel au sol)", "effectif": 45000, "statut": "conforme",
-            "derniere_revalorisation": "Juillet 2025",
-            "grille": [
-                {"niveau": "Catégorie 1 - Échelon 1", "coefficient": 100, "minimum_mensuel": 1530, "minimum_annuel": 18360},
-                {"niveau": "Catégorie 2", "coefficient": 115, "minimum_mensuel": 1650, "minimum_annuel": 19800},
-                {"niveau": "Catégorie 3 (technicien)", "coefficient": 135, "minimum_mensuel": 1840, "minimum_annuel": 22080},
-                {"niveau": "Catégorie 4 (TAM)", "coefficient": 165, "minimum_mensuel": 2140, "minimum_annuel": 25680},
-                {"niveau": "Catégorie 5 (cadre)", "coefficient": 220, "minimum_mensuel": 2790, "minimum_annuel": 33480},
-                {"niveau": "Catégorie 6 (cadre supérieur)", "coefficient": 310, "minimum_mensuel": 3920, "minimum_annuel": 47040},
-            ]
-        },
-        {
-            "idcc": "0158", "nom": "Imprimerie de labeur et industries graphiques", "effectif": 43000, "statut": "conforme",
-            "derniere_revalorisation": "Janvier 2026",
-            "grille": [
-                {"niveau": "Ouvrier - Niveau 1", "coefficient": 100, "minimum_mensuel": 1498, "minimum_annuel": 17976},
-                {"niveau": "Ouvrier qualifié - Niveau 2", "coefficient": 113, "minimum_mensuel": 1590, "minimum_annuel": 19080},
-                {"niveau": "Ouvrier très qualifié - Niveau 3", "coefficient": 130, "minimum_mensuel": 1720, "minimum_annuel": 20640},
-                {"niveau": "TAM - Niveau 4", "coefficient": 152, "minimum_mensuel": 1930, "minimum_annuel": 23160},
-                {"niveau": "Cadre - Niveau 5", "coefficient": 190, "minimum_mensuel": 2390, "minimum_annuel": 28680},
-            ]
-        },
-        {
-            "idcc": "0979", "nom": "Hôtellerie de plein air (camping)", "effectif": 38000, "statut": "conforme",
-            "derniere_revalorisation": "Janvier 2026",
-            "grille": [
-                {"niveau": "Niveau 1 - Échelon 1", "coefficient": 100, "minimum_mensuel": 1478, "minimum_annuel": 17736},
-                {"niveau": "Niveau 1 - Échelon 2", "coefficient": 105, "minimum_mensuel": 1500, "minimum_annuel": 18000},
-                {"niveau": "Niveau 2 - Échelon 1", "coefficient": 112, "minimum_mensuel": 1535, "minimum_annuel": 18420},
-                {"niveau": "Niveau 2 - Échelon 2", "coefficient": 122, "minimum_mensuel": 1590, "minimum_annuel": 19080},
-                {"niveau": "Niveau 3", "coefficient": 140, "minimum_mensuel": 1720, "minimum_annuel": 20640},
-                {"niveau": "Cadre - Niveau 4", "coefficient": 180, "minimum_mensuel": 2150, "minimum_annuel": 25800},
-            ]
-        },
-        {
-            "idcc": "3230", "nom": "Acteurs du lien social et familial (ELISFA)", "effectif": 25000, "statut": "conforme",
-            "derniere_revalorisation": "Janvier 2026",
-            "grille": [
-                {"niveau": "Groupe A - Degré 1", "coefficient": 257, "minimum_mensuel": 1480, "minimum_annuel": 17760},
-                {"niveau": "Groupe B - Degré 1", "coefficient": 285, "minimum_mensuel": 1600, "minimum_annuel": 19200},
-                {"niveau": "Groupe C - Degré 1", "coefficient": 330, "minimum_mensuel": 1800, "minimum_annuel": 21600},
-                {"niveau": "Groupe D", "coefficient": 390, "minimum_mensuel": 2100, "minimum_annuel": 25200},
-                {"niveau": "Groupe E (direction)", "coefficient": 480, "minimum_mensuel": 2560, "minimum_annuel": 30720},
-            ]
-        },
-        {
-            "idcc": "1258", "nom": "Textiles artificiels et synthétiques", "effectif": 35000, "statut": "conforme",
-            "derniere_revalorisation": "Juillet 2025",
-            "grille": [
-                {"niveau": "Ouvrier - Échelon 1", "coefficient": 100, "minimum_mensuel": 1480, "minimum_annuel": 17760},
-                {"niveau": "Ouvrier qualifié - Échelon 2", "coefficient": 112, "minimum_mensuel": 1560, "minimum_annuel": 18720},
-                {"niveau": "Ouvrier hautement qualifié - Échelon 3", "coefficient": 128, "minimum_mensuel": 1670, "minimum_annuel": 20040},
-                {"niveau": "TAM - Échelon 4", "coefficient": 150, "minimum_mensuel": 1880, "minimum_annuel": 22560},
-                {"niveau": "Cadre - Échelon 5", "coefficient": 200, "minimum_mensuel": 2480, "minimum_annuel": 29760},
-            ]
-        },
-        {
-            "idcc": "1043", "nom": "Commerce succursaliste de la chaussure", "effectif": 28000, "statut": "conforme",
-            "derniere_revalorisation": "Juillet 2025",
-            "grille": [
-                {"niveau": "Vendeur - Niveau 1", "coefficient": 100, "minimum_mensuel": 1480, "minimum_annuel": 17760},
-                {"niveau": "Vendeur qualifié - Niveau 2", "coefficient": 110, "minimum_mensuel": 1545, "minimum_annuel": 18540},
-                {"niveau": "Chef de rayon - Niveau 3", "coefficient": 125, "minimum_mensuel": 1660, "minimum_annuel": 19920},
-                {"niveau": "Responsable adjoint - Niveau 4", "coefficient": 150, "minimum_mensuel": 1890, "minimum_annuel": 22680},
-                {"niveau": "Directeur de magasin - Niveau 5", "coefficient": 190, "minimum_mensuel": 2360, "minimum_annuel": 28320},
-            ]
-        },
-        {
-            "idcc": "2785", "nom": "Avocats (salariés et collaborateurs)", "effectif": 30000, "statut": "non_conforme",
-            "derniere_revalorisation": "Juin 2025",
-            "grille": [
-                {"niveau": "Collaborateur - Tranche A", "coefficient": 100, "minimum_mensuel": 1430, "minimum_annuel": 17160},
-                {"niveau": "Collaborateur - Tranche B", "coefficient": 115, "minimum_mensuel": 1495, "minimum_annuel": 17940},
-                {"niveau": "Collaborateur confirmé", "coefficient": 140, "minimum_mensuel": 1650, "minimum_annuel": 19800},
-                {"niveau": "Juriste senior", "coefficient": 180, "minimum_mensuel": 2100, "minimum_annuel": 25200},
-                {"niveau": "Avocat associé salarié", "coefficient": 250, "minimum_mensuel": 2900, "minimum_annuel": 34800},
-            ]
-        },
-        {
-            "idcc": "0086", "nom": "Navigation fluviale", "effectif": 12000, "statut": "conforme",
-            "derniere_revalorisation": "Janvier 2026",
-            "grille": [
-                {"niveau": "Matelot - Classe 1", "coefficient": 100, "minimum_mensuel": 1510, "minimum_annuel": 18120},
-                {"niveau": "Matelot qualifié - Classe 2", "coefficient": 115, "minimum_mensuel": 1650, "minimum_annuel": 19800},
-                {"niveau": "Patron - Classe 3", "coefficient": 140, "minimum_mensuel": 1920, "minimum_annuel": 23040},
-                {"niveau": "Capitaine - Classe 4", "coefficient": 175, "minimum_mensuel": 2290, "minimum_annuel": 27480},
-            ]
-        },
+        {"idcc": "1486", "nom": "Bureaux d'études techniques (SYNTEC)", "effectif": 857061, "derniere_revalorisation": "Janvier 2026", "id": "branch_1486"},
+        {"idcc": "1518", "nom": "Aide à domicile (employeurs particuliers)", "effectif": 113828, "derniere_revalorisation": "Janvier 2026", "id": "branch_1518"},
+        {"idcc": "0650", "nom": "Pharmacie d'officine", "effectif": 105000, "derniere_revalorisation": "Janvier 2026", "id": "branch_0650"},
+        # ... reprends ici les 48 branches que tu affiches aujourd'hui
     ]
 
-    # ─────────────────────────────────────────────────────────────
-    # ÉTAPE 1 — Effectifs via kali-data (SocialGouv / Fabrique numérique)
-    # Remplace data.travail.gouv.fr (domaine DNS mort depuis 2025)
-    # Source : https://github.com/SocialGouv/kali-data (données DSN + KALI DILA)
-    # Mise à jour : continue par la Fabrique numérique des ministères sociaux
-    # ─────────────────────────────────────────────────────────────
-    effectifs_api = {}
     try:
-        url_kali = "https://raw.githubusercontent.com/SocialGouv/kali-data/master/data/index.json"
-        req = urllib.request.Request(url_kali, headers={
-            "Accept": "application/json",
-            "User-Agent": "CFTC-Dashboard/2.0",
-        })
-        with urllib.request.urlopen(req, timeout=30) as response:
-            kali_index = json.loads(response.read().decode("utf-8"))
-        for r in kali_index:
-            raw_idcc = r.get("num") or r.get("idcc")
-            if not raw_idcc:
-                continue
-            idcc = str(raw_idcc).zfill(4)
-            effectif = r.get("effectif")
-            if effectif:
-                try:
-                    effectif = int(effectif)
-                except Exception:
-                    effectif = None
-            effectifs_api[idcc] = effectif
-        print(f"  ✅ kali-data (SocialGouv) : {len(effectifs_api)} CCN chargées, "
-              f"{sum(1 for v in effectifs_api.values() if v)} avec effectif")
+        kali_index = fetch_kali_index()
+        print(f"  ✅ Index kali-data chargé : {len(kali_index)} conventions")
     except Exception as e:
-        print(f"  ⚠️ kali-data indisponible ({e}) — effectifs statiques conservés")
+        print(f"  ⚠️ Index kali-data indisponible : {e}")
+        kali_index = {}
 
-    # ─────────────────────────────────────────────────────────────
-    # ÉTAPE 2 — Détection des avenants salaires via kali-data (GitHub raw)
-    # ─────────────────────────────────────────────────────────────
-    # kali-data publie un fichier JSON par CCN (identifié par KALITEXT).
-    # L'index (déjà chargé en étape 1) contient le champ "id" (KALITEXT...)
-    # et "mtime" (timestamp Unix de la dernière modification de la CCN).
-    # On compare ce mtime avec la derniere_revalorisation codée en dur.
-    #
-    # Source : https://github.com/SocialGouv/kali-data/tree/master/data
-    # Sans token, sans API instable — GitHub raw est public et fiable.
-    # ─────────────────────────────────────────────────────────────
+    branches = []
+    nb_ok = 0
+    nb_verify = 0
+    nb_err = 0
 
-    # Table IDCC → identifiant KALITEXT (texte de base de chaque CCN dans kali-data)
-    # Récupéré depuis l'index kali-data (champ "texte_de_base" ou "id" dans index.json)
+    for base in BRANCHES_BASE:
+        branch = deepcopy(base)
+        branch.setdefault("source", f"https://www.legifrance.gouv.fr/search/result?query=idcc+{branch['idcc']}")
+        branch.setdefault("meta", {})
 
-    # Mois → numéro pour comparaison de dates
-    MOIS_FR = {
-        "janvier": 1, "février": 2, "mars": 3, "avril": 4,
-        "mai": 5, "juin": 6, "juillet": 7, "août": 8,
-        "septembre": 9, "octobre": 10, "novembre": 11, "décembre": 12,
-    }
+        kali_entry = kali_index.get(str(branch["idcc"]).zfill(4))
+        if not kali_entry:
+            branch["grille"] = []
+            branch["statut"] = "a_verifier"
+            branch["meta"].update({
+                "source_donnees": "catalogue_interne",
+                "extraction_status": "missing_index",
+                "confidence": 0.0,
+                "quality": "indisponible",
+            })
+            branches.append(branch)
+            nb_err += 1
+            continue
 
-    def parse_date_fr(date_str):
-        """Convertit 'Janvier 2026' → (2026, 1). Retourne (0, 0) si invalide."""
-        parts = date_str.lower().strip().split()
-        if len(parts) == 2:
-            mois = MOIS_FR.get(parts[0], 0)
-            try:
-                annee = int(parts[1])
-                return (annee, mois)
-            except ValueError:
-                pass
-        return (0, 0)
+        enriched = enrich_branch_from_kali(branch, kali_entry, smic_net)
+        branches.append(enriched)
 
-    # Construire un index IDCC → texte_de_base (KALITEXT) depuis l'index kali-data
-    # pour pouvoir interroger l'API GitHub commits sur chaque fichier individuel.
-    # Structure d'une entrée : { "num": "1486", "texte_de_base": "KALITEXT...", ... }
-    idcc_kalitext = {}
-    try:
-        url_idx = "https://raw.githubusercontent.com/SocialGouv/kali-data/master/data/index.json"
-        req_idx = urllib.request.Request(url_idx, headers={
-            "Accept": "application/json", "User-Agent": "CFTC-Dashboard/2.0"
-        })
-        with urllib.request.urlopen(req_idx, timeout=30) as r_idx:
-            kali_idx = json.loads(r_idx.read().decode("utf-8"))
-        for entry in kali_idx:
-            num = str(entry.get("num") or "").strip().zfill(4)
-            # Le nom du fichier dans data/ est KALICONT (champ "id"), pas KALITEXT
-            kalicont = entry.get("id") or ""
-            if num and kalicont:
-                idcc_kalitext[num] = kalicont
-        print(f"  📅 kali-data index : {len(idcc_kalitext)} CCN avec KALITEXT ({sum(1 for b in BRANCHES_BASE if b['idcc'] in idcc_kalitext)}/48 branches matchées)")
-    except Exception as e:
-        print(f"  ⚠️  kali-data index indisponible ({e}) — détection avenants désactivée")
-        idcc_kalitext = {}
+        if enriched["statut"] == "conforme":
+            nb_ok += 1
+        elif enriched["statut"] == "a_verifier":
+            nb_verify += 1
+        else:
+            nb_err += 1
 
-    # Détecter les avenants via l'API GitHub commits sur les fichiers KALITEXT individuels.
-    # GitHub API publique : 60 req/h sans token, largement suffisant pour 48 branches.
-    # Si GITHUB_TOKEN est disponible (secret GitHub Actions standard) : 5000 req/h.
-    from datetime import datetime as _dt, timezone as _tz
-    alertes_avenants = {}
-    if idcc_kalitext:
-        gh_token = os.environ.get("GITHUB_TOKEN", "")
-        gh_headers = {
-            "Accept": "application/vnd.github+json",
-            "User-Agent": "CFTC-Dashboard/2.0",
-        }
-        if gh_token:
-            gh_headers["Authorization"] = f"Bearer {gh_token}"
+    # tri stable par effectif décroissant
+    branches.sort(key=lambda b: int(b.get("effectif") or 0), reverse=True)
 
-        nb_alertes = 0
-        nb_ok = 0
-        nb_err = 0
-        print(f"  🔍 Vérification dates commits kali-data sur {len(BRANCHES_BASE)} branches...")
-        for branch in BRANCHES_BASE:
-            idcc = branch["idcc"]
-            ktext = idcc_kalitext.get(idcc)
-            if not ktext:
-                nb_err += 1
-                continue  # pas de log pour les absents, déjà connu (29/48)
-            date_codee = branch.get("derniere_revalorisation", "")
-            annee_codee, mois_codee = parse_date_fr(date_codee)
-            if annee_codee == 0:
-                nb_err += 1
-                continue
-            try:
-                # API GitHub : dernier commit touchant ce fichier
-                gh_url = (
-                    f"https://api.github.com/repos/SocialGouv/kali-data/commits"
-                    f"?path=data/{ktext}.json&per_page=1"
-                )
-                req_gh = urllib.request.Request(gh_url, headers=gh_headers)
-                with urllib.request.urlopen(req_gh, timeout=15) as r_gh:
-                    commits = json.loads(r_gh.read().decode("utf-8"))
-                if not commits:
-                    nb_err += 1
+    stats = summarize_conventions(branches)
 
-                    continue
-                # Date du dernier commit : "2025-06-12T14:23:01Z"
-                commit_date = commits[0]["commit"]["committer"]["date"]  # ISO 8601
-                annee_gh = int(commit_date[:4])
-                mois_gh  = int(commit_date[5:7])
-                if (annee_gh, mois_gh) > (annee_codee, mois_codee):
-                    mois_nom = [k for k, v in MOIS_FR.items() if v == mois_gh]
-                    label = f"{mois_nom[0].capitalize()} {annee_gh}" if mois_nom else f"{annee_gh}-{mois_gh:02d}"
-                    alertes_avenants[idcc] = {
-                        "avenant_detecte": label,
-                        "grille_codee":    date_codee,
-                        "message":         f"⚠️ CCN mise à jour ({label}) — grille à vérifier sur Légifrance",
-                    }
-                    nb_alertes += 1
-                else:
-                    nb_ok += 1
-            except Exception as _gh_err:
-                nb_err += 1
-                if nb_err <= 2:
-                    print(f"  ⚠️  GitHub API IDCC {idcc} ktext={ktext}: {type(_gh_err).__name__}: {_gh_err}")
-
-        print(f"  📊 Avenants : {nb_alertes} alerte(s) · {nb_ok} à jour · {nb_err} erreur(s)")
-        if nb_alertes:
-            print(f"  ⚠️  Branches dont le fichier kali-data est plus récent que la grille :")
-            for idcc, alerte in alertes_avenants.items():
-                nom = next((b["nom"] for b in BRANCHES_BASE if b["idcc"] == idcc), idcc)
-                print(f"      IDCC {idcc} {nom} — {alerte['avenant_detecte']} > {alerte['grille_codee']}")
-    else:
-        print("  ℹ️  Détection avenants désactivée (index kali-data indisponible)")
-
-    # ─────────────────────────────────────────────────────────────
-    # ÉTAPE 3 — Assembler les branches finales
-    # ─────────────────────────────────────────────────────────────
-    branches_finales = []
-    for branch in BRANCHES_BASE:
-        entry = dict(branch)
-        idcc  = entry["idcc"]
-        # Mise à jour effectif depuis kali-data
-        if idcc in effectifs_api and effectifs_api[idcc]:
-            entry["effectif"] = effectifs_api[idcc]
-        # Injection alerte avenant si détectée
-        if idcc in alertes_avenants:
-            entry["alerte_avenant"] = alertes_avenants[idcc]
-        entry["id"]     = f"branch_{idcc}"
-        entry["source"] = f"https://www.legifrance.gouv.fr/search/result?query=idcc+{idcc}"
-        branches_finales.append(entry)
-
-    # Trier par effectif décroissant
-    branches_finales.sort(key=lambda x: x.get("effectif") or 0, reverse=True)
-
-    nb_non_conformes = sum(1 for b in branches_finales if b.get("statut") == "non_conforme")
-    nb_alertes_total = sum(1 for b in branches_finales if b.get("alerte_avenant"))
-    total_effectif   = sum(b.get("effectif") or 0 for b in branches_finales)
-
-    print(f"  ✅ {len(branches_finales)} branches prêtes · {nb_non_conformes} non conformes "
-          f"· {total_effectif/1e6:.1f}M salariés · {nb_alertes_total} alerte(s) avenant")
+    print(f"  📊 Conventions : {stats['total_branches']} branches")
+    print(f"     ✅ conformes : {stats['branches_conformes']}")
+    print(f"     ❌ non conformes : {stats['branches_non_conformes']}")
+    print(f"     🟠 à vérifier : {stats['branches_a_verifier']}")
 
     return {
         "smic_reference": {
-            "mensuel":      smic_net,
+            "mensuel": smic_net,
             "mensuel_brut": smic_brut,
-            "annuel":       round(smic_net * 12),
-            "date":         "Janvier 2026",
+            "annuel": round(smic_net * 12),
+            "date": "Janvier 2026",
         },
         "statistiques_branches": {
-            "total_branches":            171,
-            "branches_affichees":        len(branches_finales),
-            "branches_conformes":        len(branches_finales) - nb_non_conformes,
-            "branches_non_conformes":    nb_non_conformes,
-            "pourcentage_non_conformes": round(nb_non_conformes / max(len(branches_finales), 1) * 100),
-            "source_statistiques":       "DGT - Comité de suivi des branches (2025)",
-            "total_effectif_couvert":    total_effectif,
-            "branches_alerte_avenant":   nb_alertes_total,
+            **stats,
+            "source_statistiques": "Catalogue interne + extraction automatique kali-data",
         },
-        "branches": branches_finales,
         "meta": {
-            "derniere_mise_a_jour":   datetime.now().strftime("%Y-%m-%d"),
-            "source_effectifs":       "kali-data (SocialGouv / Fabrique numérique des ministères sociaux)",
-            "source_avenants":        "kali-data (SocialGouv / GitHub raw — mtime CCN)",
-            "methodologie":           (
-                "48 branches classées par effectif. Grilles vérifiées manuellement sur Légifrance. "
-                "Effectifs mis à jour automatiquement via kali-data. "
-                "Avenants salaires détectés automatiquement via API PISTE — "
-                "les montants restent à valider manuellement sur Légifrance."
-            ),
+            "source_effectifs": "Catalogue interne / CFTC",
+            "source_grilles": "SocialGouv kali-data",
+            "date_generation": datetime.now().isoformat(),
+            "mode": "option_b_auto_plus_verification",
+            "note": "Les branches sans grille fiable sont marquées a_verifier, pas conformes.",
         },
+        "branches": branches,
     }
 
 
