@@ -1,6 +1,6 @@
 {
-  "last_updated": "02/04/2026 07:14",
-  "last_updated_iso": "2026-04-02T07:14:22.171094",
+  "last_updated": "02/04/2026 07:52",
+  "last_updated_iso": "2026-04-02T07:52:01.486044",
   "contact": "hspringragain@cftc.fr",
   "alertes": [
     {
@@ -32,7 +32,7 @@
       "date": "2026-04-02",
       "type": "info",
       "titre": "🔄 Données actualisées",
-      "message": "Le tableau de bord a été mis à jour le 02/04/2026 à 07:14.",
+      "message": "Le tableau de bord a été mis à jour le 02/04/2026 à 07:51.",
       "onglet": "conjoncture"
     }
   ],
@@ -193,7 +193,7 @@
     }
   ],
   "revue_presse": {
-    "derniere_maj": "02/04/2026 07:14",
+    "derniere_maj": "02/04/2026 07:52",
     "nb_sources": 7,
     "sources_noms": [
       "Le Monde Éco",
@@ -204,21 +204,80 @@
       "Institut Montaigne",
       "Euractiv FR"
     ],
-    "a_la_une": [
-      {
-        "source": "Libération Éco",
-        "couleur": "#dc2626",
-        "emoji": "📰",
-        "tag": "Presse économique",
-        "titre": "Soixante-seize branches professionnelles sous le smic : l’alerte de la CGT sur les salaires",
-        "resume": "Le syndicat dénonce un tassement général des salaires, ce qui provoque un «sentiment légitime de déclassement». Il réclame une nouvelle fois l’indexation automatique des salaires sur l’inflation, alors que l’Insee a révélé mardi 31 mars que la hausse des prix en France devrait être de 1,70 % à la fi",
-        "lien": "https://www.liberation.fr/economie/social/soixante-seize-branches-professionnelles-sous-le-smic-lalerte-de-la-cgt-sur-les-salaires-20260401_3DSPK4JPCND2LB5L45L5PAUL7U/",
-        "date_iso": "2026-04-01T19:40:28+00:00",
-        "date_fr": "01/04/2026",
-        "pertinence": 4
-      }
-    ],
+    "a_la_une": [],
     "tous": [
+      {
+        "source": "Le Figaro Éco",
+        "couleur": "#92400e",
+        "emoji": "📊",
+        "tag": "Presse économique",
+        "titre": "Environ 2000 foyers fortunés redressés sur les plus de 13.000 ne payant pas d’impôt sur le revenu",
+        "resume": "«Entre un quart et un tiers de ces foyers fiscaux ont fait l’objet d’un contrôle ces trois dernières années», et «58% de ces foyers» contrôlés «ont fait l’objet d’un redressement», a détaillé une responsable de la DGFiP à l’Assemblée.",
+        "lien": "https://www.lefigaro.fr/conjoncture/environ-2000-foyers-fortunes-redresses-sur-les-plus-de-13-000-ne-payant-pas-d-impot-sur-le-revenu-20260401",
+        "date_iso": "2026-04-02T09:36:00+02:00",
+        "date_fr": "02/04/2026",
+        "pertinence": 1
+      },
+      {
+        "source": "Le Figaro Éco",
+        "couleur": "#92400e",
+        "emoji": "📊",
+        "tag": "Presse économique",
+        "titre": "Billetterie «opaque», costumes sur mesure... La Cour des comptes épingle les dépenses «somptuaires» de la Métropole du Grand Paris lors des JO",
+        "resume": "Dans son rapport, l’institution pointe que le coût des actions engagées par la métropole dans le cadre des JO de Paris 2024 s’élève à 241,8 millions d’euros, «soit un montant équivalent à plus de deux ans et demi de sa capacité d’autofinancement».",
+        "lien": "https://www.lefigaro.fr/conjoncture/billetterie-opaque-costumes-sur-mesure-la-cour-des-comptes-epingle-les-depenses-somptuaires-de-la-metropole-du-grand-paris-lors-des-jo-20260401",
+        "date_iso": "2026-04-02T09:34:42+02:00",
+        "date_fr": "02/04/2026",
+        "pertinence": 0
+      },
+      {
+        "source": "Le Monde Éco",
+        "couleur": "#374151",
+        "emoji": "🌐",
+        "tag": "Presse économique",
+        "titre": "Guerre au Moyen-Orient : l’industrie française touchée de plein fouet par la crise énergétique",
+        "resume": "Après plus d’un mois de guerre dans le golfe Arabo-Persique, les effets de la hausse des prix des carburants commencent à se faire sentir dans plusieurs secteurs industriels tricolores consommateurs d’énergies fossiles ou de matières premières dérivées du pétrole et du gaz.",
+        "lien": "https://www.lemonde.fr/economie/article/2026/04/02/guerre-au-moyen-orient-l-industrie-francaise-touchee-de-plein-fouet-par-la-crise-energetique_6676095_3234.html",
+        "date_iso": "2026-04-02T09:30:09+02:00",
+        "date_fr": "02/04/2026",
+        "pertinence": 0
+      },
+      {
+        "source": "Le Figaro Éco",
+        "couleur": "#92400e",
+        "emoji": "📊",
+        "tag": "Presse économique",
+        "titre": "SpaceX a déposé son dossier d’introduction en Bourse, selon les médias américains",
+        "resume": "Plusieurs médias américains rapportent que SpaceX a déposé, de manière confidentielle, son dossier d’introduction en Bourse auprès du régulateur américain, la SEC.",
+        "lien": "https://www.lefigaro.fr/conjoncture/spacex-a-depose-son-dossier-d-introduction-en-bourse-selon-les-medias-americains-20260401",
+        "date_iso": "2026-04-02T09:25:46+02:00",
+        "date_fr": "02/04/2026",
+        "pertinence": 0
+      },
+      {
+        "source": "Le Figaro Éco",
+        "couleur": "#92400e",
+        "emoji": "📊",
+        "tag": "Presse économique",
+        "titre": "La Cour des comptes préconise de recentrer les primes à l’achat de véhicules électriques sur les ménages modestes",
+        "resume": "S’élevant à 18 milliards d’euros entre 2018 et 2024, les aides d’État n’ont pas permis d’enrayer le déclin de la filière automobile, souligne la Cour des comptes.",
+        "lien": "https://www.lefigaro.fr/flash-eco/les-aides-a-l-automobile-doivent-etre-recentrees-sur-les-menages-modestes-demande-la-cour-des-comptes-20260401",
+        "date_iso": "2026-04-02T09:23:31+02:00",
+        "date_fr": "02/04/2026",
+        "pertinence": 1
+      },
+      {
+        "source": "Le Figaro Éco",
+        "couleur": "#92400e",
+        "emoji": "📊",
+        "tag": "Presse économique",
+        "titre": "Le maire de Saint-Denis appelle à fermer CNews après des propos polémiques le visant",
+        "resume": "La polémique a débuté quelques jours après les élections municipales.",
+        "lien": "https://www.lefigaro.fr/medias/le-maire-de-saint-denis-appelle-a-fermer-cnews-apres-des-propos-polemiques-le-visant-20260401",
+        "date_iso": "2026-04-02T09:21:20+02:00",
+        "date_fr": "02/04/2026",
+        "pertinence": 0
+      },
       {
         "source": "Le Figaro Éco",
         "couleur": "#92400e",
@@ -237,9 +296,9 @@
         "emoji": "🌐",
         "tag": "Presse économique",
         "titre": "Eolien en mer : l’Etat relance des appels d’offres géants",
-        "resume": "Dix parcs éoliens, réprésentant 10 gigawatts, vont être mis en concurrence. Trois projets sont prévus au large de Fécamp, en Seine-Maritime. Deux projets se situent en Bretagne, quatre en Méditerranée. Et un autre au large de l’île d’Oléron, en Charente-Maritime.",
+        "resume": "Dix parcs éoliens, représentant 10 gigawatts, vont être mis en concurrence. Trois projets sont prévus au large de Fécamp, en Seine-Maritime. Deux projets se situent en Bretagne, quatre en Méditerranée. Et un autre au large de l’île d’Oléron, en Charente-Maritime.",
         "lien": "https://www.lemonde.fr/economie/article/2026/04/02/eolien-en-mer-l-etat-relance-des-appels-d-offres-geants_6676089_3234.html",
-        "date_iso": "2026-04-02T08:51:59+02:00",
+        "date_iso": "2026-04-02T08:51:56+02:00",
         "date_fr": "02/04/2026",
         "pertinence": 0
       },
@@ -268,6 +327,18 @@
         "pertinence": 0
       },
       {
+        "source": "Libération Éco",
+        "couleur": "#dc2626",
+        "emoji": "📰",
+        "tag": "Presse économique",
+        "titre": "Hausse des prix du carburant : les routiers suspendent leurs actions après des «avancées» dans les négociations",
+        "resume": "L’Organisation des transporteurs routiers européens annonce la suspension de ses opérations escargot commencée le 28 mars à travers la France. Le syndicat affirme avoir obtenu des «avancées» sur les mesures d’aide gouvernementales face à la flambée des prix des carburants.",
+        "lien": "https://www.liberation.fr/economie/hausse-des-prix-du-carburant-les-routiers-suspendent-leurs-actions-apres-des-avancees-dans-les-negociations-20260402_2WQYHH77EVAF3CXMI5ARFLAXRE/",
+        "date_iso": "2026-04-02T07:46:59+00:00",
+        "date_fr": "02/04/2026",
+        "pertinence": 1
+      },
+      {
         "source": "Le Monde Éco",
         "couleur": "#374151",
         "emoji": "🌐",
@@ -288,6 +359,18 @@
         "resume": "Les paris sportifs sont particulièrement populaires dans le pays. Le gouvernement veut en particulier protéger les enfants.",
         "lien": "https://www.lefigaro.fr/conjoncture/jeux-d-argent-l-australie-sevit-contre-la-publicite-20260402",
         "date_iso": "2026-04-02T07:23:16+02:00",
+        "date_fr": "02/04/2026",
+        "pertinence": 0
+      },
+      {
+        "source": "Euractiv FR",
+        "couleur": "#0369a1",
+        "emoji": "🇪🇺",
+        "tag": "Europe & politique",
+        "titre": "La France et la Grande-Bretagne convoquent une réunion d urgence sur la crise du détroit d Ormuz",
+        "resume": "Une coalition de pays menée par la France et la Grande-Bretagne tiendra jeudi une réunion d urgence des ministres des Affaires étrangères afin de discuter de la réouverture du détroit d Ormuz. Ces discussions interviennent alors que l on craint de plus en plus que les États-Unis ne se retirent des e",
+        "lien": "https://euractiv.fr/news/la-france-et-la-grande-bretagne-convoquent-une-reunion-durgence-sur-la-crise-du-detroit-dormuz/",
+        "date_iso": "2026-04-02T07:16:40+00:00",
         "date_fr": "02/04/2026",
         "pertinence": 0
       },
@@ -482,102 +565,6 @@
         "date_iso": "2026-04-01T21:36:12+02:00",
         "date_fr": "01/04/2026",
         "pertinence": 0
-      },
-      {
-        "source": "Le Figaro Éco",
-        "couleur": "#92400e",
-        "emoji": "📊",
-        "tag": "Presse économique",
-        "titre": "Commission d’enquête sur l’audiovisuel public : «Faut-il des réformes ? Certainement», estime le PDG de TF1",
-        "resume": "Le producteur et animateur de télévision est interrogé par les députés, avant les patrons de TF1, M6, Canal+ et CMA Média en fin d’après-midi.",
-        "lien": "https://www.lefigaro.fr/medias/en-direct-suivez-l-audition-de-nagui-devant-la-commission-d-enquete-sur-l-audiovisuel-public-20260401",
-        "date_iso": "2026-04-01T20:30:57+02:00",
-        "date_fr": "01/04/2026",
-        "pertinence": 1
-      },
-      {
-        "source": "Libération Éco",
-        "couleur": "#dc2626",
-        "emoji": "📰",
-        "tag": "Presse économique",
-        "titre": "Environ 10 % des stations-service en France touchées par des difficultés d’approvisionnement en carburant",
-        "resume": "Le nombre de stations concernées a fortement augmenté depuis le début de la guerre au Moyen-Orient, notamment à cause de la fermeture du détroit d’Ormuz. Près de 3 % ne vendent actuellement ni de gazole ni d’essence.",
-        "lien": "https://www.liberation.fr/economie/transports/environ-10-des-stations-service-en-france-touchees-par-des-difficultes-dapprovisionnement-en-carburant-20260401_S45QBFOOVZF67GQ3ZUMGWJIXY4/",
-        "date_iso": "2026-04-01T20:18:21+00:00",
-        "date_fr": "01/04/2026",
-        "pertinence": 0
-      },
-      {
-        "source": "Le Monde Éco",
-        "couleur": "#374151",
-        "emoji": "🌐",
-        "tag": "Presse économique",
-        "titre": "Guerre au Moyen-Orient : comment le plastique et la chimie, ingrédients-clés de l’économie, alimentent l’inflation",
-        "resume": "Depuis un mois et le déclenchement de la guerre américano-israélienne contre l’Iran, c’est toute l’industrie dépendant de la chimie qui subit de plein fouet un choc des prix avec la flambée des cours des hydrocarbures et le quasi-blocage du détroit d’Ormuz.",
-        "lien": "https://www.lemonde.fr/economie/article/2026/04/01/guerre-au-moyen-orient-comment-le-plastique-et-la-chimie-ingredients-cles-de-l-economie-alimentent-l-inflation_6675943_3234.html",
-        "date_iso": "2026-04-01T20:00:02+02:00",
-        "date_fr": "01/04/2026",
-        "pertinence": 1
-      },
-      {
-        "source": "Le Figaro Éco",
-        "couleur": "#92400e",
-        "emoji": "📊",
-        "tag": "Presse économique",
-        "titre": "Les dessous de l’accord à 1 milliard de dollars entre TotalEnergies et Washington",
-        "resume": "DÉCRYPTAGE - Patrick Pouyanné, le PDG de la compagnie française, avait tenu à l’annoncer lui-même. Aux termes d’un accord financier avec les États-Unis, son groupe a renoncé à y implanter des éoliennes en mer.",
-        "lien": "https://www.lefigaro.fr/societes/les-dessous-de-l-accord-a-1-milliard-de-dollars-entre-totalenergies-et-washington-20260401",
-        "date_iso": "2026-04-01T19:47:33+02:00",
-        "date_fr": "01/04/2026",
-        "pertinence": 1
-      },
-      {
-        "source": "Libération Éco",
-        "couleur": "#dc2626",
-        "emoji": "📰",
-        "tag": "Presse économique",
-        "titre": "Soixante-seize branches professionnelles sous le smic : l’alerte de la CGT sur les salaires",
-        "resume": "Le syndicat dénonce un tassement général des salaires, ce qui provoque un «sentiment légitime de déclassement». Il réclame une nouvelle fois l’indexation automatique des salaires sur l’inflation, alors que l’Insee a révélé mardi 31 mars que la hausse des prix en France devrait être de 1,70 % à la fi",
-        "lien": "https://www.liberation.fr/economie/social/soixante-seize-branches-professionnelles-sous-le-smic-lalerte-de-la-cgt-sur-les-salaires-20260401_3DSPK4JPCND2LB5L45L5PAUL7U/",
-        "date_iso": "2026-04-01T19:40:28+00:00",
-        "date_fr": "01/04/2026",
-        "pertinence": 4
-      },
-      {
-        "source": "Le Monde Éco",
-        "couleur": "#374151",
-        "emoji": "🌐",
-        "tag": "Presse économique",
-        "titre": "Carburant : le SP95 franchit la barre des 2 euros le litre, le débat sur les recettes fiscales s’enflamme",
-        "resume": "Le gouvernement a annoncé vouloir consacrer une partie des recettes fiscales issues de la hausse du prix des carburants à la décarbonation, alors que les oppositions réclament plutôt une baisse des taxes et un élargissement des aides.",
-        "lien": "https://www.lemonde.fr/economie/article/2026/04/01/carburant-le-sp95-franchit-la-barre-des-2-euros-le-litre-le-debat-sur-les-recettes-fiscales-s-enflamme_6675937_3234.html",
-        "date_iso": "2026-04-01T19:38:09+02:00",
-        "date_fr": "01/04/2026",
-        "pertinence": 0
-      },
-      {
-        "source": "Le Figaro Éco",
-        "couleur": "#92400e",
-        "emoji": "📊",
-        "tag": "Presse économique",
-        "titre": "Jean-Dominique Senard va quitter la présidence de Renault en 2027",
-        "resume": "Le dirigeant de 73 ans ne demandera pas le renouvellement de son mandat d’administrateur lors de l’assemblée générale des actionnaires du constructeur l’année prochaine.",
-        "lien": "https://www.lefigaro.fr/societes/jean-dominique-senard-va-quitter-la-presidence-de-renault-en-2027-20260401",
-        "date_iso": "2026-04-01T19:32:47+02:00",
-        "date_fr": "01/04/2026",
-        "pertinence": 0
-      },
-      {
-        "source": "Le Figaro Éco",
-        "couleur": "#92400e",
-        "emoji": "📊",
-        "tag": "Presse économique",
-        "titre": "Environ 2000 foyers fortunés redressés sur les plus de 13.000 ne payant pas d’impôt sur le revenu",
-        "resume": "«Entre un quart et un tiers de ces foyers fiscaux ont fait l’objet d’un contrôle ces trois dernières années», et «58% de ces foyers» contrôlés «ont fait l’objet d’un redressement», a détaillé une responsable de la DGFiP à l’Assemblée.",
-        "lien": "https://www.lefigaro.fr/conjoncture/environ-2000-foyers-fortunes-redresses-sur-les-plus-de-13-000-ne-payant-pas-d-impot-sur-le-revenu-20260401",
-        "date_iso": "2026-04-01T19:07:22+02:00",
-        "date_fr": "01/04/2026",
-        "pertinence": 1
       }
     ]
   },
@@ -836,7 +823,7 @@
     "ecart_hf_eqtp": 25.8,
     "difficultes_recrutement": 61,
     "irl_glissement": 0.79,
-    "prix_gazole": 2.27,
+    "prix_gazole": 2.271,
     "taux_effort_locataires": 29.6,
     "croissance_pib": 0.7,
     "climat_affaires": 97,
@@ -2032,24 +2019,24 @@
   },
   "carburants": {
     "gazole": {
-      "prix": 2.27,
-      "variation_an": 22.7,
+      "prix": 2.271,
+      "variation_an": 22.8,
       "variation_sem": 43.7
     },
     "sp95": {
-      "prix": 2.045,
+      "prix": 2.046,
       "variation_an": 12.4,
-      "variation_sem": 18.9
+      "variation_sem": 19.0
     },
     "sp98": {
-      "prix": 2.099,
+      "prix": 2.101,
       "variation_an": 12.4,
-      "variation_sem": 18.9
+      "variation_sem": 19.0
     },
     "e10": {
-      "prix": 1.991,
-      "variation_an": 11.2,
-      "variation_sem": 18.5
+      "prix": 1.992,
+      "variation_an": 11.3,
+      "variation_sem": 18.6
     },
     "evolution": [
       {
@@ -2327,13 +2314,13 @@
       },
       {
         "date": "2026-04-02",
-        "gazole": 2.27,
-        "sp95": 2.045,
-        "sp98": 2.099,
-        "e10": 1.991
+        "gazole": 2.271,
+        "sp95": 2.046,
+        "sp98": 2.101,
+        "e10": 1.992
       }
     ],
-    "derniere_donnee": "2026-04-02 07:49",
+    "derniere_donnee": "2026-04-02 08:49",
     "source": "data.economie.gouv.fr (flux instantané)",
     "granularite": "quotidien"
   },
@@ -2910,7 +2897,7 @@
       "note_lecture": "Le TEC-10 mesure le rendement des emprunts d'Etat francais a 10 ans. Un taux eleve rencherit le cout de la dette publique et impacte les taux de credit immobilier."
     },
     "petrole_brent": {
-      "valeur": 107.82,
+      "valeur": 107.72,
       "date": "2026-04-02",
       "unite": "USD/baril",
       "source": "Yahoo Finance",
@@ -4430,16 +4417,16 @@
         },
         {
           "date": "2026-04-02",
-          "valeur": 107.82,
-          "ma50": 83.84,
+          "valeur": 107.72,
+          "ma50": 83.83,
           "ma200": 70.22
         }
       ],
       "variations": {
-        "jour": 6.58,
-        "semaine": -0.18,
-        "mois": 32.46,
-        "ytd": 77.48
+        "jour": 6.48,
+        "semaine": -0.27,
+        "mois": 32.33,
+        "ytd": 77.32
       },
       "min_max": {
         "min": 58.92,
@@ -4450,12 +4437,12 @@
       "note_lecture": "Le prix du Brent influence directement les couts de transport et d'energie, donc l'inflation et le pouvoir d'achat des salaries."
     },
     "cac40": {
-      "valeur": 7981.27,
-      "date": "2026-04-01",
-      "variation_jour_pct": 2.1,
+      "valeur": 7890.21,
+      "date": "2026-04-02",
+      "variation_jour_pct": -1.14,
       "unite": "points",
       "source": "Yahoo Finance",
-      "nb_points": 255,
+      "nb_points": 256,
       "historique": [
         {
           "date": "2025-04-02",
@@ -5986,13 +5973,19 @@
           "valeur": 7981.27,
           "ma50": 8134.37,
           "ma200": 7999.27
+        },
+        {
+          "date": "2026-04-02",
+          "valeur": 7890.21,
+          "ma50": 8129.2,
+          "ma200": 8001.04
         }
       ],
       "variations": {
-        "jour": 2.1,
-        "semaine": 1.72,
-        "mois": -4.92,
-        "ytd": -2.61
+        "jour": -1.14,
+        "semaine": 1.56,
+        "mois": -2.64,
+        "ytd": -3.72
       },
       "min_max": {
         "min": 6863.02,
@@ -7573,7 +7566,7 @@
       "note_lecture": "Le taux de change euro-dollar determine le prix de tout ce qui est importe en dollars : petrole, matieres premieres, electronique. Un euro faible rencherit les importations et alimente l'inflation."
     },
     "or": {
-      "valeur": 4631.5,
+      "valeur": 4666.0,
       "date": "2026-04-02",
       "unite": "USD/oz",
       "source": "Yahoo Finance",
@@ -9093,16 +9086,16 @@
         },
         {
           "date": "2026-04-02",
-          "valeur": 4631.5,
-          "ma50": 4936.87,
-          "ma200": 4116.03
+          "valeur": 4666.0,
+          "ma50": 4937.56,
+          "ma200": 4116.2
         }
       ],
       "variations": {
-        "jour": -3.17,
-        "semaine": 5.85,
-        "mois": -9.32,
-        "ytd": 7.35
+        "jour": -2.45,
+        "semaine": 6.64,
+        "mois": -8.64,
+        "ytd": 8.15
       },
       "min_max": {
         "min": 2951.3,
@@ -9113,7 +9106,7 @@
       "note_lecture": "L'or est la valeur refuge par excellence. Sa hausse traduit une montee de l'incertitude economique ou geopolitique. Il sert aussi de protection contre l'inflation."
     },
     "gaz_naturel": {
-      "valeur": 49.83,
+      "valeur": 49.35,
       "date": "2026-04-02",
       "unite": "EUR/MWh",
       "source": "Yahoo Finance (TTF)",
@@ -10633,16 +10626,16 @@
         },
         {
           "date": "2026-04-02",
-          "valeur": 49.83,
-          "ma50": 43.05,
+          "valeur": 49.35,
+          "ma50": 43.04,
           "ma200": 34.63
         }
       ],
       "variations": {
-        "jour": 4.88,
-        "semaine": -9.76,
-        "mois": -8.22,
-        "ytd": 71.83
+        "jour": 3.87,
+        "semaine": -10.63,
+        "mois": -9.1,
+        "ytd": 70.17
       },
       "min_max": {
         "min": 26.6,
@@ -13727,7 +13720,7 @@
       "note_lecture": "Le cuivre est le baromètre de l'activité industrielle mondiale ('Dr Copper'). Sa hausse signale une reprise économique, sa baisse anticipe un ralentissement. Utilisé massivement dans l'électrification et les énergies renouvelables."
     },
     "lme_aluminium": {
-      "valeur": 3417.25,
+      "valeur": 3427.75,
       "date": "2026-04-02",
       "unite": "cts/lb",
       "source": "Yahoo Finance",
@@ -15241,16 +15234,16 @@
         },
         {
           "date": "2026-04-02",
-          "valeur": 3417.25,
-          "ma50": 3144.88,
-          "ma200": 2786.27
+          "valeur": 3427.75,
+          "ma50": 3145.09,
+          "ma200": 2786.32
         }
       ],
       "variations": {
-        "jour": -1.01,
-        "semaine": 8.09,
-        "mois": 7.94,
-        "ytd": 16.31
+        "jour": -0.71,
+        "semaine": 8.42,
+        "mois": 8.28,
+        "ytd": 16.67
       },
       "min_max": {
         "min": 2166.25,
@@ -17669,7 +17662,7 @@
           "2023": 1.92,
           "2024": 1.78,
           "2025": 1.72,
-          "2026": 2.045
+          "2026": 2.046
         },
         "quantiteMensuelle": {
           "solo": 40,
@@ -22287,7 +22280,7 @@
     "sources": "INSEE - Enquête Emploi, DARES"
   },
   "previsions_cftc": {
-    "generated_at": "2026-04-02T07:14:30.520605",
+    "generated_at": "2026-04-02T07:52:09.883783",
     "model_version": "CFTC v7.0 (bivarié Phillips + log-normale + pondération temporelle)",
     "n_simulations": 1000,
     "horizon": "12 mois",
@@ -22296,7 +22289,7 @@
       "niveau": "excellent",
       "issues": [],
       "warnings": [],
-      "timestamp": "2026-04-02T07:14:30.520620"
+      "timestamp": "2026-04-02T07:52:09.883799"
     },
     "calibrage": {
       "volatilites": {
@@ -22324,7 +22317,7 @@
       "lognormal_offset": 3.0
     },
     "market_signals": {
-      "inflation_adjustment": 0.217,
+      "inflation_adjustment": 0.213,
       "chomage_adjustment": 0.175,
       "energie_outlook": "hausse",
       "ponderation_temporelle": {
@@ -22336,16 +22329,16 @@
     },
     "market_signals_details": {
       "brent": {
-        "valeur": 107.82,
+        "valeur": 107.72,
         "ref": 75.0,
-        "variation_ytd_pct": 77.48,
-        "impact_inflation_pt": 0.328,
+        "variation_ytd_pct": 77.32,
+        "impact_inflation_pt": 0.327,
         "poids_temporel": 1.0
       },
       "gaz_ttf": {
-        "valeur": 49.83,
+        "valeur": 49.35,
         "ref": 35.0,
-        "impact_inflation_pt": 0.074,
+        "impact_inflation_pt": 0.072,
         "poids_temporel": 1.0
       },
       "eurusd": {
@@ -22366,7 +22359,7 @@
         "signal": "baissier"
       },
       "cac40_ytd": {
-        "variation_ytd_pct": -2.61,
+        "variation_ytd_pct": -3.72,
         "signal_chomage": "neutre"
       },
       "carburants_sp95": {
@@ -22408,7 +22401,7 @@
           1.5,
           1.5,
           1.5,
-          1.5,
+          1.4,
           1.6,
           1.6,
           1.6,
@@ -22422,7 +22415,7 @@
           1.1,
           1.1,
           1.1,
-          1.1,
+          1.0,
           1.2,
           1.2,
           1.2,
@@ -22446,7 +22439,7 @@
           0.9,
           0.9,
           1.0,
-          1.2,
+          1.1,
           1.3,
           1.3,
           1.3,
@@ -22487,18 +22480,18 @@
         "methodology": "Monte Carlo bivarié (1000 sim.) + log-normale + Phillips ρ=-0.35 (v7)"
       },
       "probabilites": {
-        "inflation_sous_2pct": 84.5,
-        "inflation_cible_bce": 84.5,
+        "inflation_sous_2pct": 84.6,
+        "inflation_cible_bce": 84.6,
         "inflation_au_dessus_3pct": 0.0,
         "inflation_au_dessus_4pct": 0.0,
-        "description": "84.5% de chances que l'inflation reste sous 2% à 12 mois"
+        "description": "84.6% de chances que l'inflation reste sous 2% à 12 mois"
       },
       "facteurs": {
         "cible_bdf": 1.4,
         "ajustement_climat": -0.03,
-        "ajustement_marches": 0.217,
+        "ajustement_marches": 0.213,
         "energie_outlook": "hausse",
-        "cible_ajustee": 1.587,
+        "cible_ajustee": 1.583,
         "volatilite_utilisee": 0.5
       },
       "asymetrie_ic": {
@@ -22506,7 +22499,7 @@
         "queue_basse": 0.4,
         "ratio": 1.25
       },
-      "insight": "Inflation médiane à 12 mois : 1.6% [IC 80% : 1.2% - 2.1%]. Asymétrie : queue haute 0.5pt vs basse 0.4pt. 84.5% de probabilité de rester sous 2%."
+      "insight": "Inflation médiane à 12 mois : 1.6% [IC 80% : 1.2% - 2.1%]. Asymétrie : queue haute 0.5pt vs basse 0.4pt. 84.6% de probabilité de rester sous 2%."
     },
     "smic": {
       "current": {
@@ -22713,10 +22706,10 @@
       }
     },
     "notes_lecture": [
-      "📈 Inflation médiane à 12 mois : 1.6% [1.2% - 2.1%] — 84.5% de chances de rester sous 2% (asymétrie : +0.5pt / -0.4pt)",
+      "📈 Inflation médiane à 12 mois : 1.6% [1.2% - 2.1%] — 84.6% de chances de rester sous 2% (asymétrie : +0.5pt / -0.4pt)",
       "💰 SMIC janvier 2027 : 1859€ brut (+2.0%, fourchette 1.6-2.5%) — Pouvoir d'achat réel : +0.4% (+7€/mois)",
       "👥 Chômage Q4 : 7.8% [7.6% - 7.9%] — Tendance stable (corrélé Phillips ρ=-0.35)",
-      "📊 Signaux marchés : ↑ inflation 0.22pt, ↑ chômage 0.17pt, (poids temporel min : 1.00)",
+      "📊 Signaux marchés : ↑ inflation 0.21pt, ↑ chômage 0.17pt, (poids temporel min : 1.00)",
       "🎲 Scénario à surveiller : 🚀 Reprise économique forte (25%)",
       "💡 Recommandation NAO : demander au minimum +2.1% pour préserver le pouvoir d'achat"
     ],
@@ -22741,7 +22734,7 @@
           }
         },
         "contribution_mediane": {
-          "signaux_marches_pt": 0.217,
+          "signaux_marches_pt": 0.213,
           "incertitude_bdf_sigma": 0.15,
           "label": "Déplacement de la prévision centrale"
         }
