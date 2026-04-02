@@ -1,6 +1,6 @@
 {
-  "last_updated": "02/04/2026 10:00",
-  "last_updated_iso": "2026-04-02T10:00:36.271013",
+  "last_updated": "02/04/2026 11:45",
+  "last_updated_iso": "2026-04-02T11:45:11.556800",
   "contact": "hspringragain@cftc.fr",
   "alertes": [
     {
@@ -32,7 +32,7 @@
       "date": "2026-04-02",
       "type": "info",
       "titre": "🔄 Données actualisées",
-      "message": "Le tableau de bord a été mis à jour le 02/04/2026 à 10:00.",
+      "message": "Le tableau de bord a été mis à jour le 02/04/2026 à 11:45.",
       "onglet": "conjoncture"
     }
   ],
@@ -193,7 +193,7 @@
     }
   ],
   "revue_presse": {
-    "derniere_maj": "02/04/2026 10:00",
+    "derniere_maj": "02/04/2026 11:45",
     "nb_sources": 7,
     "sources_noms": [
       "Le Monde Éco",
@@ -206,6 +206,102 @@
     ],
     "a_la_une": [],
     "tous": [
+      {
+        "source": "Le Monde Éco",
+        "couleur": "#374151",
+        "emoji": "🌐",
+        "tag": "Presse économique",
+        "titre": "Ouverture des boulangeries sept jours sur sept : la proposition de loi n’est plus à l’ordre du jour",
+        "resume": "Face à la polémique suscitée au sein de la profession, le député macroniste des Deux-Sèvres Jean-Marie Fiévet s’est résolu à renoncer à son texte.",
+        "lien": "https://www.lemonde.fr/politique/article/2026/04/02/ouverture-des-boulangeries-sept-jours-sur-sept-la-proposition-de-loi-n-est-plus-a-l-ordre-du-jour_6676118_823448.html",
+        "date_iso": "2026-04-02T13:30:13+02:00",
+        "date_fr": "02/04/2026",
+        "pertinence": 0
+      },
+      {
+        "source": "Le Monde Éco",
+        "couleur": "#374151",
+        "emoji": "🌐",
+        "tag": "Presse économique",
+        "titre": "Après deux années de recul, l’emploi cadre pourrait légèrement redémarrer en 2026",
+        "resume": "La baisse des recrutements de cadres a ralenti en 2025 et l’année 2026 s’annonce en hausse, en attendant de connaître l’impact de la crise au Moyen-Orient.",
+        "lien": "https://www.lemonde.fr/economie/article/2026/04/02/apres-deux-annees-de-recul-l-emploi-cadre-pourrait-legerement-redemarrer-en-2026_6676117_3234.html",
+        "date_iso": "2026-04-02T13:30:13+02:00",
+        "date_fr": "02/04/2026",
+        "pertinence": 2
+      },
+      {
+        "source": "Le Monde Emploi",
+        "couleur": "#1f2937",
+        "emoji": "💼",
+        "tag": "Emploi & travail",
+        "titre": "Après deux années de recul, l’emploi cadre pourrait légèrement redémarrer en 2026",
+        "resume": "La baisse des recrutements de cadres a ralenti en 2025 et l’année 2026 s’annonce en hausse, en attendant de connaître l’impact de la crise au Moyen-Orient.",
+        "lien": "https://www.lemonde.fr/economie/article/2026/04/02/apres-deux-annees-de-recul-l-emploi-cadre-pourrait-legerement-redemarrer-en-2026_6676117_3234.html",
+        "date_iso": "2026-04-02T13:30:13+02:00",
+        "date_fr": "02/04/2026",
+        "pertinence": 2
+      },
+      {
+        "source": "Le Figaro Éco",
+        "couleur": "#92400e",
+        "emoji": "📊",
+        "tag": "Presse économique",
+        "titre": "Gaz : l’État peut-il créer des réserves stratégiques comme pour le pétrole ?",
+        "resume": "La France songe à sanctuariser des stocks de gaz en cas de coup dur. Si l’idée est séduisante, la mise en place s’annonce compliquée et le timing mal choisi.",
+        "lien": "https://www.lefigaro.fr/conjoncture/gaz-l-etat-peut-il-creer-des-reserves-strategiques-comme-pour-le-petrole-20260402",
+        "date_iso": "2026-04-02T13:10:18+02:00",
+        "date_fr": "02/04/2026",
+        "pertinence": 0
+      },
+      {
+        "source": "Le Figaro Éco",
+        "couleur": "#92400e",
+        "emoji": "📊",
+        "tag": "Presse économique",
+        "titre": "Carburants : «il n’y a pas de pénurie» en France, assure le gouvernement",
+        "resume": "Des «tensions logistiques ponctuelles» existent mais l’approvisionnement du pays n’est pas en danger, assure la porte-parole de l’exécutif Maud Bregeon.",
+        "lien": "https://www.lefigaro.fr/conjoncture/carburants-il-n-y-a-pas-de-penurie-en-france-assure-le-gouvernement-20260402",
+        "date_iso": "2026-04-02T12:56:52+02:00",
+        "date_fr": "02/04/2026",
+        "pertinence": 1
+      },
+      {
+        "source": "Le Figaro Éco",
+        "couleur": "#92400e",
+        "emoji": "📊",
+        "tag": "Presse économique",
+        "titre": "Pourquoi les fontaines à eau pétillante gratuites fleurissent à Paris",
+        "resume": "Installées dans la capitale depuis 2010, les fontaines à eau pétillante restent peu nombreuses. Elles offrent aux usagers une alternative gratuite aux bouteilles en plastique mais nécessitent un entretien et un équipement plus coûteux.",
+        "lien": "https://www.lefigaro.fr/conso/pourquoi-les-fontaines-a-eau-petillante-gratuites-fleurissent-a-paris-20260402",
+        "date_iso": "2026-04-02T12:55:20+02:00",
+        "date_fr": "02/04/2026",
+        "pertinence": 0
+      },
+      {
+        "source": "Le Monde Éco",
+        "couleur": "#374151",
+        "emoji": "🌐",
+        "tag": "Presse économique",
+        "titre": "« La fonction de manageur est souvent perçue comme un rôle pas forcément épanouissant sur le plan personnel »",
+        "resume": "Dans un entretien au « Monde », Elodie Gentina, chercheuse en sciences de gestion, revient sur la notion de « conscious unbossing », soit le choix de ne pas accéder à des fonctions managériales, et rappelle que les jeunes ne sont pas moins engagés au travail.",
+        "lien": "https://www.lemonde.fr/campus/article/2026/04/02/la-fonction-de-manageur-est-souvent-percue-comme-un-role-pas-forcement-epanouissant-sur-le-plan-personnel_6676109_4401467.html",
+        "date_iso": "2026-04-02T12:00:11+02:00",
+        "date_fr": "02/04/2026",
+        "pertinence": 1
+      },
+      {
+        "source": "Le Monde Éco",
+        "couleur": "#374151",
+        "emoji": "🌐",
+        "tag": "Presse économique",
+        "titre": "Guerre au Moyen-Orient : les profits exceptionnels des tradeurs de TotalEnergies",
+        "resume": "La filiale de négoce pétrolier de la major française a réalisé une opération particulièrement lucrative en spéculant sur la fermeture du détroit d’Ormuz.",
+        "lien": "https://www.lemonde.fr/economie/article/2026/04/02/guerre-au-moyen-orient-les-profits-exceptionnels-des-tradeurs-de-totalenergies_6676110_3234.html",
+        "date_iso": "2026-04-02T12:00:09+02:00",
+        "date_fr": "02/04/2026",
+        "pertinence": 0
+      },
       {
         "source": "Le Figaro Éco",
         "couleur": "#92400e",
@@ -291,14 +387,14 @@
         "pertinence": 0
       },
       {
-        "source": "Le Figaro Éco",
-        "couleur": "#92400e",
-        "emoji": "📊",
-        "tag": "Presse économique",
-        "titre": "Jeux d’argent : l'Australie sévit contre la publicité",
-        "resume": "Les paris sportifs sont particulièrement populaires dans le pays. Le gouvernement veut en particulier protéger les enfants.",
-        "lien": "https://www.lefigaro.fr/conjoncture/jeux-d-argent-l-australie-sevit-contre-la-publicite-20260402",
-        "date_iso": "2026-04-02T09:55:39+02:00",
+        "source": "Euractiv FR",
+        "couleur": "#0369a1",
+        "emoji": "🇪🇺",
+        "tag": "Europe & politique",
+        "titre": "La Pologne et la Roumanie doivent verser près de 2 milliards d euros à Pfizer et BioNTech",
+        "resume": "Ce conflit juridique inhabituel pourrait avoir des répercussions plus larges sur d'autres pays de l'UE The post La Pologne et la Roumanie doivent verser près de 2 milliards d&rsquo;euros à Pfizer et BioNTech appeared first on Euractiv FR .",
+        "lien": "https://euractiv.fr/news/la-pologne-et-la-roumanie-doivent-verser-pres-de-2-milliards-deuros-a-pfizer-et-biontech/",
+        "date_iso": "2026-04-02T10:01:03+00:00",
         "date_fr": "02/04/2026",
         "pertinence": 0
       },
@@ -363,18 +459,6 @@
         "pertinence": 0
       },
       {
-        "source": "Le Figaro Éco",
-        "couleur": "#92400e",
-        "emoji": "📊",
-        "tag": "Presse économique",
-        "titre": "SpaceX a déposé son dossier d’introduction en Bourse, selon les médias américains",
-        "resume": "Plusieurs médias américains rapportent que SpaceX a déposé, de manière confidentielle, son dossier d’introduction en Bourse auprès du régulateur américain, la SEC.",
-        "lien": "https://www.lefigaro.fr/conjoncture/spacex-a-depose-son-dossier-d-introduction-en-bourse-selon-les-medias-americains-20260401",
-        "date_iso": "2026-04-02T09:25:46+02:00",
-        "date_fr": "02/04/2026",
-        "pertinence": 0
-      },
-      {
         "source": "Euractiv FR",
         "couleur": "#0369a1",
         "emoji": "🇪🇺",
@@ -385,18 +469,6 @@
         "date_iso": "2026-04-02T09:24:27+00:00",
         "date_fr": "02/04/2026",
         "pertinence": 0
-      },
-      {
-        "source": "Le Figaro Éco",
-        "couleur": "#92400e",
-        "emoji": "📊",
-        "tag": "Presse économique",
-        "titre": "«Que le meilleur gagne !» : ils sont père et fille, tous deux entrepreneurs... et concurrents",
-        "resume": "Comme son père Marc, Emma Capron a monté une société d’intérim, dans la même région, en Vendée. L’entreprise du père et celle de sa fille se retrouvent régulièrement en concurrence auprès de certains clients. Et ils sont peu enclins à se faire des cadeaux.",
-        "lien": "https://www.lefigaro.fr/entrepreneur/que-le-meilleur-gagne-ils-sont-pere-et-fille-tous-deux-entrepreneurs-et-concurrents-20260402",
-        "date_iso": "2026-04-02T09:05:05+02:00",
-        "date_fr": "02/04/2026",
-        "pertinence": 1
       },
       {
         "source": "Le Figaro Éco",
@@ -493,78 +565,6 @@
         "date_iso": "2026-04-02T06:52:44+02:00",
         "date_fr": "02/04/2026",
         "pertinence": 1
-      },
-      {
-        "source": "Euractiv FR",
-        "couleur": "#0369a1",
-        "emoji": "🇪🇺",
-        "tag": "Europe & politique",
-        "titre": "Les accords de défense Ukraine-Golfe ravivent l’optimisme européen",
-        "resume": "De nouveaux partenariats de défense entre l'Ukraine et les pays du Golfe pourraient renforcer le soutien aux efforts de guerre de Kiev The post Les accords de défense Ukraine-Golfe ravivent l’optimisme européen appeared first on Euractiv FR .",
-        "lien": "https://euractiv.fr/news/les-accords-de-defense-ukraine-golfe-ravivent-loptimisme-europeen/",
-        "date_iso": "2026-04-02T06:47:37+00:00",
-        "date_fr": "02/04/2026",
-        "pertinence": 1
-      },
-      {
-        "source": "Euractiv FR",
-        "couleur": "#0369a1",
-        "emoji": "🇪🇺",
-        "tag": "Europe & politique",
-        "titre": "Le Golfe penche pour Kiev",
-        "resume": "Également dans l'édition de jeudi : le CFP, Jörgen Warborn, Euronews, Pfizer, l'économiste en chef de la FAO, la réglementation européenne en matière de technologie The post Le Golfe penche pour Kiev appeared first on Euractiv FR .",
-        "lien": "https://euractiv.fr/news/le-golfe-penche-pour-kiev/",
-        "date_iso": "2026-04-02T06:25:31+00:00",
-        "date_fr": "02/04/2026",
-        "pertinence": 0
-      },
-      {
-        "source": "Le Monde Éco",
-        "couleur": "#374151",
-        "emoji": "🌐",
-        "tag": "Presse économique",
-        "titre": "Fraude bancaire : le client doit la signaler « sans tarder » et dans la limite de treize mois",
-        "resume": "Il est recommandé de procéder au signalement des opérations frauduleuses dès qu’on les a constatées.",
-        "lien": "https://www.lemonde.fr/argent/article/2026/04/02/fraude-bancaire-le-client-doit-la-signaler-sans-tarder-et-dans-la-limite-de-treize-mois_6676075_1657007.html",
-        "date_iso": "2026-04-02T06:00:36+02:00",
-        "date_fr": "02/04/2026",
-        "pertinence": 0
-      },
-      {
-        "source": "Le Monde Éco",
-        "couleur": "#374151",
-        "emoji": "🌐",
-        "tag": "Presse économique",
-        "titre": "« L’IA, un outil pour le travail social ? » : « Ne pas confondre justesse statistique et pertinence sociale »",
-        "resume": "Dans son ouvrage, l’assistant de service social Adrien Guionie analyse l’impact de l’intelligence artificielle sur le quotidien professionnel des travailleurs sociaux. Il rappelle l’importance d’adopter une « posture critique » face aux contenus générés par la machine, soulignant que « l’humain doit",
-        "lien": "https://www.lemonde.fr/emploi/article/2026/04/02/l-ia-un-outil-pour-le-travail-social-ne-pas-confondre-justesse-statistique-et-pertinence-sociale_6676071_1698637.html",
-        "date_iso": "2026-04-02T06:00:16+02:00",
-        "date_fr": "02/04/2026",
-        "pertinence": 1
-      },
-      {
-        "source": "Le Monde Emploi",
-        "couleur": "#1f2937",
-        "emoji": "💼",
-        "tag": "Emploi & travail",
-        "titre": "« L’IA, un outil pour le travail social ? » : « Ne pas confondre justesse statistique et pertinence sociale »",
-        "resume": "Dans son ouvrage, l’assistant de service social Adrien Guionie analyse l’impact de l’intelligence artificielle sur le quotidien professionnel des travailleurs sociaux. Il rappelle l’importance d’adopter une « posture critique » face aux contenus générés par la machine, soulignant que « l’humain doit",
-        "lien": "https://www.lemonde.fr/emploi/article/2026/04/02/l-ia-un-outil-pour-le-travail-social-ne-pas-confondre-justesse-statistique-et-pertinence-sociale_6676071_1698637.html",
-        "date_iso": "2026-04-02T06:00:16+02:00",
-        "date_fr": "02/04/2026",
-        "pertinence": 1
-      },
-      {
-        "source": "Le Monde Éco",
-        "couleur": "#374151",
-        "emoji": "🌐",
-        "tag": "Presse économique",
-        "titre": "Rémy Knafou, géographe : « Avec la venue de Céline Dion à Paris, la ville devient un produit dérivé de ces mégaconcerts »",
-        "resume": "Dans une tribune au « Monde », le professeur émérite à l’université Panthéon-Sorbonne considère la série de concerts de Céline Dion à Paris comme un cas d’école de l’hypertourisme où se mêlent intérêts économiques, enjeux écologiques, rôle ambigu du service public et pure communication commerciale.",
-        "lien": "https://www.lemonde.fr/idees/article/2026/04/02/remy-knafou-geographe-avec-la-venue-de-celine-dion-a-paris-la-ville-devient-un-produit-derive-de-ces-megaconcerts_6676062_3232.html",
-        "date_iso": "2026-04-02T05:30:07+02:00",
-        "date_fr": "02/04/2026",
-        "pertinence": 0
       }
     ]
   },
@@ -2029,12 +2029,12 @@
       "variation_sem": 19.0
     },
     "sp98": {
-      "prix": 2.101,
+      "prix": 2.102,
       "variation_an": 12.4,
       "variation_sem": 19.0
     },
     "e10": {
-      "prix": 1.992,
+      "prix": 1.993,
       "variation_an": 11.3,
       "variation_sem": 18.6
     },
@@ -2316,11 +2316,11 @@
         "date": "2026-04-02",
         "gazole": 2.271,
         "sp95": 2.046,
-        "sp98": 2.101,
-        "e10": 1.992
+        "sp98": 2.102,
+        "e10": 1.993
       }
     ],
-    "derniere_donnee": "2026-04-02 09:49",
+    "derniere_donnee": "2026-04-02 10:48",
     "source": "data.economie.gouv.fr (flux instantané)",
     "granularite": "quotidien"
   },
@@ -2897,7 +2897,7 @@
       "note_lecture": "Le TEC-10 mesure le rendement des emprunts d'Etat francais a 10 ans. Un taux eleve rencherit le cout de la dette publique et impacte les taux de credit immobilier."
     },
     "petrole_brent": {
-      "valeur": 108.65,
+      "valeur": 109.56,
       "date": "2026-04-02",
       "unite": "USD/baril",
       "source": "Yahoo Finance",
@@ -4417,16 +4417,16 @@
         },
         {
           "date": "2026-04-02",
-          "valeur": 108.65,
-          "ma50": 83.85,
+          "valeur": 109.56,
+          "ma50": 83.87,
           "ma200": 70.23
         }
       ],
       "variations": {
-        "jour": 7.4,
-        "semaine": 0.59,
-        "mois": 33.48,
-        "ytd": 78.85
+        "jour": 8.3,
+        "semaine": 1.44,
+        "mois": 34.59,
+        "ytd": 80.35
       },
       "min_max": {
         "min": 58.92,
@@ -4437,9 +4437,9 @@
       "note_lecture": "Le prix du Brent influence directement les couts de transport et d'energie, donc l'inflation et le pouvoir d'achat des salaries."
     },
     "cac40": {
-      "valeur": 7903.15,
+      "valeur": 7880.15,
       "date": "2026-04-02",
-      "variation_jour_pct": -0.98,
+      "variation_jour_pct": -1.27,
       "unite": "points",
       "source": "Yahoo Finance",
       "nb_points": 256,
@@ -5976,16 +5976,16 @@
         },
         {
           "date": "2026-04-02",
-          "valeur": 7903.15,
-          "ma50": 8129.46,
-          "ma200": 8001.1
+          "valeur": 7880.15,
+          "ma50": 8129.0,
+          "ma200": 8000.99
         }
       ],
       "variations": {
-        "jour": -0.98,
-        "semaine": 1.72,
-        "mois": -2.48,
-        "ytd": -3.56
+        "jour": -1.27,
+        "semaine": 1.43,
+        "mois": -2.76,
+        "ytd": -3.84
       },
       "min_max": {
         "min": 6863.02,
@@ -7566,7 +7566,7 @@
       "note_lecture": "Le taux de change euro-dollar determine le prix de tout ce qui est importe en dollars : petrole, matieres premieres, electronique. Un euro faible rencherit les importations et alimente l'inflation."
     },
     "or": {
-      "valeur": 4646.8,
+      "valeur": 4640.0,
       "date": "2026-04-02",
       "unite": "USD/oz",
       "source": "Yahoo Finance",
@@ -9086,16 +9086,16 @@
         },
         {
           "date": "2026-04-02",
-          "valeur": 4646.8,
-          "ma50": 4937.18,
-          "ma200": 4116.1
+          "valeur": 4640.0,
+          "ma50": 4937.04,
+          "ma200": 4116.07
         }
       ],
       "variations": {
-        "jour": -2.85,
-        "semaine": 6.2,
-        "mois": -9.02,
-        "ytd": 7.7
+        "jour": -2.99,
+        "semaine": 6.05,
+        "mois": -9.15,
+        "ytd": 7.55
       },
       "min_max": {
         "min": 2951.3,
@@ -9106,7 +9106,7 @@
       "note_lecture": "L'or est la valeur refuge par excellence. Sa hausse traduit une montee de l'incertitude economique ou geopolitique. Il sert aussi de protection contre l'inflation."
     },
     "gaz_naturel": {
-      "valeur": 48.9,
+      "valeur": 50.76,
       "date": "2026-04-02",
       "unite": "EUR/MWh",
       "source": "Yahoo Finance (TTF)",
@@ -10626,16 +10626,16 @@
         },
         {
           "date": "2026-04-02",
-          "valeur": 48.9,
-          "ma50": 43.03,
-          "ma200": 34.63
+          "valeur": 50.76,
+          "ma50": 43.07,
+          "ma200": 34.64
         }
       ],
       "variations": {
-        "jour": 2.93,
-        "semaine": -11.45,
-        "mois": -9.93,
-        "ytd": 68.62
+        "jour": 6.84,
+        "semaine": -8.08,
+        "mois": -6.5,
+        "ytd": 75.03
       },
       "min_max": {
         "min": 26.6,
@@ -10646,7 +10646,7 @@
       "note_lecture": "Le prix du gaz naturel (TTF europeen) impacte directement les factures de chauffage et d'electricite des menages, ainsi que les couts de production industrielle."
     },
     "ble": {
-      "valeur": 606.25,
+      "valeur": 608.0,
       "date": "2026-04-02",
       "unite": "cents/boisseau",
       "source": "Yahoo Finance",
@@ -12160,16 +12160,16 @@
         },
         {
           "date": "2026-04-02",
-          "valeur": 606.25,
-          "ma50": 568.6,
-          "ma200": 533.83
+          "valeur": 608.0,
+          "ma50": 568.63,
+          "ma200": 533.84
         }
       ],
       "variations": {
-        "jour": 1.46,
-        "semaine": 0.21,
-        "mois": 5.94,
-        "ytd": 19.69
+        "jour": 1.76,
+        "semaine": 0.5,
+        "mois": 6.25,
+        "ytd": 20.04
       },
       "min_max": {
         "min": 495.0,
@@ -12180,7 +12180,7 @@
       "note_lecture": "Le cours du ble est un indicateur avance des prix alimentaires. La France etant le premier producteur europeen, son evolution impacte a la fois les consommateurs et le secteur agricole."
     },
     "lme_cuivre": {
-      "valeur": 5.55,
+      "valeur": 5.53,
       "date": "2026-04-02",
       "unite": "cts/lb",
       "source": "Yahoo Finance",
@@ -13700,16 +13700,16 @@
         },
         {
           "date": "2026-04-02",
-          "valeur": 5.55,
+          "valeur": 5.53,
           "ma50": 5.76,
           "ma200": 5.24
         }
       ],
       "variations": {
-        "jour": -1.25,
-        "semaine": 1.83,
-        "mois": -3.81,
-        "ytd": -1.6
+        "jour": -1.6,
+        "semaine": 1.47,
+        "mois": -4.16,
+        "ytd": -1.95
       },
       "min_max": {
         "min": 4.13,
@@ -13720,7 +13720,7 @@
       "note_lecture": "Le cuivre est le baromètre de l'activité industrielle mondiale ('Dr Copper'). Sa hausse signale une reprise économique, sa baisse anticipe un ralentissement. Utilisé massivement dans l'électrification et les énergies renouvelables."
     },
     "lme_aluminium": {
-      "valeur": 3425.0,
+      "valeur": 3385.25,
       "date": "2026-04-02",
       "unite": "cts/lb",
       "source": "Yahoo Finance",
@@ -15234,16 +15234,16 @@
         },
         {
           "date": "2026-04-02",
-          "valeur": 3425.0,
-          "ma50": 3145.03,
-          "ma200": 2786.31
+          "valeur": 3385.25,
+          "ma50": 3144.24,
+          "ma200": 2786.11
         }
       ],
       "variations": {
-        "jour": -0.79,
-        "semaine": 8.33,
-        "mois": 8.19,
-        "ytd": 16.58
+        "jour": -1.94,
+        "semaine": 7.08,
+        "mois": 6.93,
+        "ytd": 15.22
       },
       "min_max": {
         "min": 2166.25,
@@ -16782,1590 +16782,102 @@
       "note_lecture": "Le zinc est principalement utilisé pour la galvanisation de l'acier (anticorrosion). Son prix reflète la demande de l'industrie de la construction et de l'automobile."
     },
     "lme_nickel": {
-      "valeur": 15755.28,
-      "date": "2026-04-01",
+      "valeur": 17173.1,
+      "date": "2026-02-01",
       "unite": "$/t",
-      "source": "Valeur statique (fallback)",
-      "nb_points": 261,
+      "source": "FRED PNICKUSDM (mensuel)",
+      "nb_points": 13,
       "historique": [
         {
-          "date": "2025-04-02",
-          "valeur": 15500.0,
+          "date": "2025-02-01",
+          "valeur": 15287.03,
           "ma50": null,
           "ma200": null
         },
         {
-          "date": "2025-04-03",
-          "valeur": 15520.0,
+          "date": "2025-03-01",
+          "valeur": 16048.2,
           "ma50": null,
           "ma200": null
         },
         {
-          "date": "2025-04-04",
-          "valeur": 15539.98,
-          "ma50": null,
-          "ma200": null
-        },
-        {
-          "date": "2025-04-07",
-          "valeur": 15599.74,
-          "ma50": null,
-          "ma200": null
-        },
-        {
-          "date": "2025-04-08",
-          "valeur": 15619.55,
-          "ma50": null,
-          "ma200": null
-        },
-        {
-          "date": "2025-04-09",
-          "valeur": 15639.29,
-          "ma50": null,
-          "ma200": null
-        },
-        {
-          "date": "2025-04-10",
-          "valeur": 15658.94,
-          "ma50": null,
-          "ma200": null
-        },
-        {
-          "date": "2025-04-11",
-          "valeur": 15678.49,
-          "ma50": null,
-          "ma200": null
-        },
-        {
-          "date": "2025-04-14",
-          "valeur": 15736.42,
-          "ma50": null,
-          "ma200": null
-        },
-        {
-          "date": "2025-04-15",
-          "valeur": 15755.45,
-          "ma50": null,
-          "ma200": null
-        },
-        {
-          "date": "2025-04-16",
-          "valeur": 15774.32,
-          "ma50": null,
-          "ma200": null
-        },
-        {
-          "date": "2025-04-17",
-          "valeur": 15793.02,
-          "ma50": null,
-          "ma200": null
-        },
-        {
-          "date": "2025-04-18",
-          "valeur": 15811.53,
-          "ma50": null,
-          "ma200": null
-        },
-        {
-          "date": "2025-04-21",
-          "valeur": 15865.87,
-          "ma50": null,
-          "ma200": null
-        },
-        {
-          "date": "2025-04-22",
-          "valeur": 15883.54,
-          "ma50": null,
-          "ma200": null
-        },
-        {
-          "date": "2025-04-23",
-          "valeur": 15900.97,
-          "ma50": null,
-          "ma200": null
-        },
-        {
-          "date": "2025-04-24",
-          "valeur": 15918.15,
-          "ma50": null,
-          "ma200": null
-        },
-        {
-          "date": "2025-04-25",
-          "valeur": 15935.07,
-          "ma50": null,
-          "ma200": null
-        },
-        {
-          "date": "2025-04-28",
-          "valeur": 15984.15,
-          "ma50": null,
-          "ma200": null
-        },
-        {
-          "date": "2025-04-29",
-          "valeur": 15999.92,
-          "ma50": null,
-          "ma200": null
-        },
-        {
-          "date": "2025-04-30",
-          "valeur": 16015.37,
+          "date": "2025-04-01",
+          "valeur": 15146.0,
           "ma50": null,
           "ma200": null
         },
         {
           "date": "2025-05-01",
-          "valeur": 16030.51,
+          "valeur": 15350.4,
           "ma50": null,
           "ma200": null
         },
         {
-          "date": "2025-05-02",
-          "valeur": 16045.31,
+          "date": "2025-06-01",
+          "valeur": 15003.11,
           "ma50": null,
-          "ma200": null
-        },
-        {
-          "date": "2025-05-05",
-          "valeur": 16087.64,
-          "ma50": null,
-          "ma200": null
-        },
-        {
-          "date": "2025-05-06",
-          "valeur": 16101.02,
-          "ma50": null,
-          "ma200": null
-        },
-        {
-          "date": "2025-05-07",
-          "valeur": 16114.03,
-          "ma50": null,
-          "ma200": null
-        },
-        {
-          "date": "2025-05-08",
-          "valeur": 16126.66,
-          "ma50": null,
-          "ma200": null
-        },
-        {
-          "date": "2025-05-09",
-          "valeur": 16138.9,
-          "ma50": null,
-          "ma200": null
-        },
-        {
-          "date": "2025-05-12",
-          "valeur": 16173.18,
-          "ma50": null,
-          "ma200": null
-        },
-        {
-          "date": "2025-05-13",
-          "valeur": 16183.77,
-          "ma50": null,
-          "ma200": null
-        },
-        {
-          "date": "2025-05-14",
-          "valeur": 16193.94,
-          "ma50": null,
-          "ma200": null
-        },
-        {
-          "date": "2025-05-15",
-          "valeur": 16203.67,
-          "ma50": null,
-          "ma200": null
-        },
-        {
-          "date": "2025-05-16",
-          "valeur": 16212.97,
-          "ma50": null,
-          "ma200": null
-        },
-        {
-          "date": "2025-05-19",
-          "valeur": 16238.15,
-          "ma50": null,
-          "ma200": null
-        },
-        {
-          "date": "2025-05-20",
-          "valeur": 16245.63,
-          "ma50": null,
-          "ma200": null
-        },
-        {
-          "date": "2025-05-21",
-          "valeur": 16252.64,
-          "ma50": null,
-          "ma200": null
-        },
-        {
-          "date": "2025-05-22",
-          "valeur": 16259.19,
-          "ma50": null,
-          "ma200": null
-        },
-        {
-          "date": "2025-05-23",
-          "valeur": 16265.26,
-          "ma50": null,
-          "ma200": null
-        },
-        {
-          "date": "2025-05-26",
-          "valeur": 16280.58,
-          "ma50": null,
-          "ma200": null
-        },
-        {
-          "date": "2025-05-27",
-          "valeur": 16284.71,
-          "ma50": null,
-          "ma200": null
-        },
-        {
-          "date": "2025-05-28",
-          "valeur": 16288.36,
-          "ma50": null,
-          "ma200": null
-        },
-        {
-          "date": "2025-05-29",
-          "valeur": 16291.51,
-          "ma50": null,
-          "ma200": null
-        },
-        {
-          "date": "2025-05-30",
-          "valeur": 16294.17,
-          "ma50": null,
-          "ma200": null
-        },
-        {
-          "date": "2025-06-02",
-          "valeur": 16299.16,
-          "ma50": null,
-          "ma200": null
-        },
-        {
-          "date": "2025-06-03",
-          "valeur": 16299.83,
-          "ma50": null,
-          "ma200": null
-        },
-        {
-          "date": "2025-06-04",
-          "valeur": 16299.99,
-          "ma50": null,
-          "ma200": null
-        },
-        {
-          "date": "2025-06-05",
-          "valeur": 16299.66,
-          "ma50": null,
-          "ma200": null
-        },
-        {
-          "date": "2025-06-06",
-          "valeur": 16298.83,
-          "ma50": null,
-          "ma200": null
-        },
-        {
-          "date": "2025-06-09",
-          "valeur": 16293.33,
-          "ma50": null,
-          "ma200": null
-        },
-        {
-          "date": "2025-06-10",
-          "valeur": 16290.51,
-          "ma50": 16030.46,
-          "ma200": null
-        },
-        {
-          "date": "2025-06-11",
-          "valeur": 16287.19,
-          "ma50": 16046.2,
-          "ma200": null
-        },
-        {
-          "date": "2025-06-12",
-          "valeur": 16283.38,
-          "ma50": 16061.47,
-          "ma200": null
-        },
-        {
-          "date": "2025-06-13",
-          "valeur": 16279.08,
-          "ma50": 16076.25,
-          "ma200": null
-        },
-        {
-          "date": "2025-06-16",
-          "valeur": 16263.27,
-          "ma50": 16089.52,
-          "ma200": null
-        },
-        {
-          "date": "2025-06-17",
-          "valeur": 16257.04,
-          "ma50": 16102.27,
-          "ma200": null
-        },
-        {
-          "date": "2025-06-18",
-          "valeur": 16250.34,
-          "ma50": 16114.49,
-          "ma200": null
-        },
-        {
-          "date": "2025-06-19",
-          "valeur": 16243.17,
-          "ma50": 16126.18,
-          "ma200": null
-        },
-        {
-          "date": "2025-06-20",
-          "valeur": 16235.53,
-          "ma50": 16137.32,
-          "ma200": null
-        },
-        {
-          "date": "2025-06-23",
-          "valeur": 16209.89,
-          "ma50": 16146.79,
-          "ma200": null
-        },
-        {
-          "date": "2025-06-24",
-          "valeur": 16200.45,
-          "ma50": 16155.69,
-          "ma200": null
-        },
-        {
-          "date": "2025-06-25",
-          "valeur": 16190.57,
-          "ma50": 16164.01,
-          "ma200": null
-        },
-        {
-          "date": "2025-06-26",
-          "valeur": 16180.26,
-          "ma50": 16171.76,
-          "ma200": null
-        },
-        {
-          "date": "2025-06-27",
-          "valeur": 16169.52,
-          "ma50": 16178.92,
-          "ma200": null
-        },
-        {
-          "date": "2025-06-30",
-          "valeur": 16134.83,
-          "ma50": 16184.3,
           "ma200": null
         },
         {
           "date": "2025-07-01",
-          "valeur": 16122.46,
-          "ma50": 16189.07,
-          "ma200": null
-        },
-        {
-          "date": "2025-07-02",
-          "valeur": 16109.7,
-          "ma50": 16193.25,
-          "ma200": null
-        },
-        {
-          "date": "2025-07-03",
-          "valeur": 16096.56,
-          "ma50": 16196.82,
-          "ma200": null
-        },
-        {
-          "date": "2025-07-04",
-          "valeur": 16083.05,
-          "ma50": 16199.78,
-          "ma200": null
-        },
-        {
-          "date": "2025-07-07",
-          "valeur": 16040.37,
-          "ma50": 16200.9,
-          "ma200": null
-        },
-        {
-          "date": "2025-07-08",
-          "valeur": 16025.46,
-          "ma50": 16201.41,
-          "ma200": null
-        },
-        {
-          "date": "2025-07-09",
-          "valeur": 16010.21,
-          "ma50": 16201.31,
-          "ma200": null
-        },
-        {
-          "date": "2025-07-10",
-          "valeur": 15994.65,
-          "ma50": 16200.59,
-          "ma200": null
-        },
-        {
-          "date": "2025-07-11",
-          "valeur": 15978.78,
-          "ma50": 16199.26,
-          "ma200": null
-        },
-        {
-          "date": "2025-07-14",
-          "valeur": 15929.41,
-          "ma50": 16196.1,
-          "ma200": null
-        },
-        {
-          "date": "2025-07-15",
-          "valeur": 15912.4,
-          "ma50": 16192.32,
-          "ma200": null
-        },
-        {
-          "date": "2025-07-16",
-          "valeur": 15895.14,
-          "ma50": 16187.95,
-          "ma200": null
-        },
-        {
-          "date": "2025-07-17",
-          "valeur": 15877.62,
-          "ma50": 16182.97,
-          "ma200": null
-        },
-        {
-          "date": "2025-07-18",
-          "valeur": 15859.88,
-          "ma50": 16177.39,
-          "ma200": null
-        },
-        {
-          "date": "2025-07-21",
-          "valeur": 15805.33,
-          "ma50": 16170.03,
-          "ma200": null
-        },
-        {
-          "date": "2025-07-22",
-          "valeur": 15786.75,
-          "ma50": 16162.09,
-          "ma200": null
-        },
-        {
-          "date": "2025-07-23",
-          "valeur": 15767.99,
-          "ma50": 16153.57,
-          "ma200": null
-        },
-        {
-          "date": "2025-07-24",
-          "valeur": 15749.06,
-          "ma50": 16144.48,
-          "ma200": null
-        },
-        {
-          "date": "2025-07-25",
-          "valeur": 15729.98,
-          "ma50": 16134.82,
-          "ma200": null
-        },
-        {
-          "date": "2025-07-28",
-          "valeur": 15671.92,
-          "ma50": 16123.49,
-          "ma200": null
-        },
-        {
-          "date": "2025-07-29",
-          "valeur": 15652.34,
-          "ma50": 16111.63,
-          "ma200": null
-        },
-        {
-          "date": "2025-07-30",
-          "valeur": 15632.66,
-          "ma50": 16099.23,
-          "ma200": null
-        },
-        {
-          "date": "2025-07-31",
-          "valeur": 15612.9,
-          "ma50": 16086.3,
+          "valeur": 15034.02,
+          "ma50": null,
           "ma200": null
         },
         {
           "date": "2025-08-01",
-          "valeur": 15593.06,
-          "ma50": 16072.86,
-          "ma200": null
-        },
-        {
-          "date": "2025-08-04",
-          "valeur": 15533.26,
-          "ma50": 16057.91,
-          "ma200": null
-        },
-        {
-          "date": "2025-08-05",
-          "valeur": 15513.27,
-          "ma50": 16042.48,
-          "ma200": null
-        },
-        {
-          "date": "2025-08-06",
-          "valeur": 15493.27,
-          "ma50": 16026.58,
-          "ma200": null
-        },
-        {
-          "date": "2025-08-07",
-          "valeur": 15473.28,
-          "ma50": 16010.22,
-          "ma200": null
-        },
-        {
-          "date": "2025-08-08",
-          "valeur": 15453.3,
-          "ma50": 15993.4,
-          "ma200": null
-        },
-        {
-          "date": "2025-08-11",
-          "valeur": 15393.59,
-          "ma50": 15975.29,
-          "ma200": null
-        },
-        {
-          "date": "2025-08-12",
-          "valeur": 15373.8,
-          "ma50": 15956.77,
-          "ma200": null
-        },
-        {
-          "date": "2025-08-13",
-          "valeur": 15354.1,
-          "ma50": 15937.85,
-          "ma200": null
-        },
-        {
-          "date": "2025-08-14",
-          "valeur": 15334.48,
-          "ma50": 15918.54,
-          "ma200": null
-        },
-        {
-          "date": "2025-08-15",
-          "valeur": 15314.96,
-          "ma50": 15898.87,
-          "ma200": null
-        },
-        {
-          "date": "2025-08-18",
-          "valeur": 15257.17,
-          "ma50": 15878.14,
-          "ma200": null
-        },
-        {
-          "date": "2025-08-19",
-          "valeur": 15238.19,
-          "ma50": 15857.1,
-          "ma200": null
-        },
-        {
-          "date": "2025-08-20",
-          "valeur": 15219.37,
-          "ma50": 15835.74,
-          "ma200": null
-        },
-        {
-          "date": "2025-08-21",
-          "valeur": 15200.73,
-          "ma50": 15814.09,
-          "ma200": null
-        },
-        {
-          "date": "2025-08-22",
-          "valeur": 15182.28,
-          "ma50": 15792.15,
-          "ma200": null
-        },
-        {
-          "date": "2025-08-25",
-          "valeur": 15128.16,
-          "ma50": 15769.45,
-          "ma200": null
-        },
-        {
-          "date": "2025-08-26",
-          "valeur": 15110.57,
-          "ma50": 15746.52,
-          "ma200": null
-        },
-        {
-          "date": "2025-08-27",
-          "valeur": 15093.22,
-          "ma50": 15723.38,
-          "ma200": null
-        },
-        {
-          "date": "2025-08-28",
-          "valeur": 15076.13,
-          "ma50": 15700.04,
-          "ma200": null
-        },
-        {
-          "date": "2025-08-29",
-          "valeur": 15059.3,
-          "ma50": 15676.51,
+          "valeur": 14948.06,
+          "ma50": null,
           "ma200": null
         },
         {
           "date": "2025-09-01",
-          "valeur": 15010.51,
-          "ma50": 15652.52,
-          "ma200": null
-        },
-        {
-          "date": "2025-09-02",
-          "valeur": 14994.85,
-          "ma50": 15628.41,
-          "ma200": null
-        },
-        {
-          "date": "2025-09-03",
-          "valeur": 14979.5,
-          "ma50": 15604.19,
-          "ma200": null
-        },
-        {
-          "date": "2025-09-04",
-          "valeur": 14964.48,
-          "ma50": 15579.88,
-          "ma200": null
-        },
-        {
-          "date": "2025-09-05",
-          "valeur": 14949.79,
-          "ma50": 15555.48,
-          "ma200": null
-        },
-        {
-          "date": "2025-09-08",
-          "valeur": 14907.82,
-          "ma50": 15530.94,
-          "ma200": null
-        },
-        {
-          "date": "2025-09-09",
-          "valeur": 14894.56,
-          "ma50": 15506.38,
-          "ma200": null
-        },
-        {
-          "date": "2025-09-10",
-          "valeur": 14881.68,
-          "ma50": 15481.82,
-          "ma200": null
-        },
-        {
-          "date": "2025-09-11",
-          "valeur": 14869.18,
-          "ma50": 15457.28,
-          "ma200": null
-        },
-        {
-          "date": "2025-09-12",
-          "valeur": 14857.08,
-          "ma50": 15432.76,
-          "ma200": null
-        },
-        {
-          "date": "2025-09-15",
-          "valeur": 14823.21,
-          "ma50": 15408.41,
-          "ma200": null
-        },
-        {
-          "date": "2025-09-16",
-          "valeur": 14812.76,
-          "ma50": 15384.16,
-          "ma200": null
-        },
-        {
-          "date": "2025-09-17",
-          "valeur": 14802.74,
-          "ma50": 15360.01,
-          "ma200": null
-        },
-        {
-          "date": "2025-09-18",
-          "valeur": 14793.15,
-          "ma50": 15335.98,
-          "ma200": null
-        },
-        {
-          "date": "2025-09-19",
-          "valeur": 14784.01,
-          "ma50": 15312.08,
-          "ma200": null
-        },
-        {
-          "date": "2025-09-22",
-          "valeur": 14759.28,
-          "ma50": 15288.68,
-          "ma200": null
-        },
-        {
-          "date": "2025-09-23",
-          "valeur": 14751.96,
-          "ma50": 15265.47,
-          "ma200": null
-        },
-        {
-          "date": "2025-09-24",
-          "valeur": 14745.1,
-          "ma50": 15242.47,
-          "ma200": null
-        },
-        {
-          "date": "2025-09-25",
-          "valeur": 14738.72,
-          "ma50": 15219.69,
-          "ma200": null
-        },
-        {
-          "date": "2025-09-26",
-          "valeur": 14732.81,
-          "ma50": 15197.15,
-          "ma200": null
-        },
-        {
-          "date": "2025-09-29",
-          "valeur": 14717.98,
-          "ma50": 15175.41,
-          "ma200": null
-        },
-        {
-          "date": "2025-09-30",
-          "valeur": 14714.0,
-          "ma50": 15153.95,
+          "valeur": 15103.18,
+          "ma50": null,
           "ma200": null
         },
         {
           "date": "2025-10-01",
-          "valeur": 14710.52,
-          "ma50": 15132.8,
+          "valeur": 15092.11,
+          "ma50": null,
           "ma200": null
         },
         {
-          "date": "2025-10-02",
-          "valeur": 14707.54,
-          "ma50": 15111.97,
-          "ma200": null
-        },
-        {
-          "date": "2025-10-03",
-          "valeur": 14705.05,
-          "ma50": 15091.47,
-          "ma200": null
-        },
-        {
-          "date": "2025-10-06",
-          "valeur": 14700.56,
-          "ma50": 15072.04,
-          "ma200": null
-        },
-        {
-          "date": "2025-10-07",
-          "valeur": 14700.06,
-          "ma50": 15053.0,
-          "ma200": null
-        },
-        {
-          "date": "2025-10-08",
-          "valeur": 14700.06,
-          "ma50": 15034.35,
-          "ma200": null
-        },
-        {
-          "date": "2025-10-09",
-          "valeur": 14700.57,
-          "ma50": 15016.1,
-          "ma200": null
-        },
-        {
-          "date": "2025-10-10",
-          "valeur": 14701.57,
-          "ma50": 14998.27,
-          "ma200": null
-        },
-        {
-          "date": "2025-10-13",
-          "valeur": 14707.56,
-          "ma50": 14981.76,
-          "ma200": null
-        },
-        {
-          "date": "2025-10-14",
-          "valeur": 14710.55,
-          "ma50": 14965.7,
-          "ma200": null
-        },
-        {
-          "date": "2025-10-15",
-          "valeur": 14714.04,
-          "ma50": 14950.12,
-          "ma200": null
-        },
-        {
-          "date": "2025-10-16",
-          "valeur": 14718.01,
-          "ma50": 14935.01,
-          "ma200": null
-        },
-        {
-          "date": "2025-10-17",
-          "valeur": 14722.48,
-          "ma50": 14920.4,
-          "ma200": null
-        },
-        {
-          "date": "2025-10-20",
-          "valeur": 14738.77,
-          "ma50": 14907.3,
-          "ma200": null
-        },
-        {
-          "date": "2025-10-21",
-          "valeur": 14745.16,
-          "ma50": 14894.73,
-          "ma200": null
-        },
-        {
-          "date": "2025-10-22",
-          "valeur": 14752.02,
-          "ma50": 14882.69,
-          "ma200": null
-        },
-        {
-          "date": "2025-10-23",
-          "valeur": 14759.35,
-          "ma50": 14871.18,
-          "ma200": null
-        },
-        {
-          "date": "2025-10-24",
-          "valeur": 14767.14,
-          "ma50": 14860.23,
-          "ma200": null
-        },
-        {
-          "date": "2025-10-27",
-          "valeur": 14793.24,
-          "ma50": 14850.95,
-          "ma200": null
-        },
-        {
-          "date": "2025-10-28",
-          "valeur": 14802.83,
-          "ma50": 14842.24,
-          "ma200": null
-        },
-        {
-          "date": "2025-10-29",
-          "valeur": 14812.85,
-          "ma50": 14834.11,
-          "ma200": null
-        },
-        {
-          "date": "2025-10-30",
-          "valeur": 14823.31,
-          "ma50": 14826.56,
-          "ma200": null
-        },
-        {
-          "date": "2025-10-31",
-          "valeur": 14834.19,
-          "ma50": 14819.6,
-          "ma200": null
-        },
-        {
-          "date": "2025-11-03",
-          "valeur": 14869.29,
-          "ma50": 14814.42,
-          "ma200": null
-        },
-        {
-          "date": "2025-11-04",
-          "valeur": 14881.79,
-          "ma50": 14809.85,
-          "ma200": null
-        },
-        {
-          "date": "2025-11-05",
-          "valeur": 14894.67,
-          "ma50": 14805.88,
-          "ma200": null
-        },
-        {
-          "date": "2025-11-06",
-          "valeur": 14907.94,
-          "ma50": 14802.51,
-          "ma200": null
-        },
-        {
-          "date": "2025-11-07",
-          "valeur": 14921.57,
-          "ma50": 14799.76,
-          "ma200": null
-        },
-        {
-          "date": "2025-11-10",
-          "valeur": 14964.61,
-          "ma50": 14798.84,
-          "ma200": null
-        },
-        {
-          "date": "2025-11-11",
-          "valeur": 14979.63,
-          "ma50": 14798.53,
-          "ma200": null
-        },
-        {
-          "date": "2025-11-12",
-          "valeur": 14994.99,
-          "ma50": 14798.84,
-          "ma200": null
-        },
-        {
-          "date": "2025-11-13",
-          "valeur": 15010.65,
-          "ma50": 14799.77,
-          "ma200": null
-        },
-        {
-          "date": "2025-11-14",
-          "valeur": 15026.63,
-          "ma50": 14801.3,
-          "ma200": null
-        },
-        {
-          "date": "2025-11-17",
-          "valeur": 15076.28,
-          "ma50": 14804.67,
-          "ma200": null
-        },
-        {
-          "date": "2025-11-18",
-          "valeur": 15093.38,
-          "ma50": 14808.65,
-          "ma200": null
-        },
-        {
-          "date": "2025-11-19",
-          "valeur": 15110.73,
-          "ma50": 14813.23,
-          "ma200": null
-        },
-        {
-          "date": "2025-11-20",
-          "valeur": 15128.32,
-          "ma50": 14818.41,
-          "ma200": null
-        },
-        {
-          "date": "2025-11-21",
-          "valeur": 15146.14,
-          "ma50": 14824.2,
-          "ma200": null
-        },
-        {
-          "date": "2025-11-24",
-          "valeur": 15200.9,
-          "ma50": 14831.75,
-          "ma200": null
-        },
-        {
-          "date": "2025-11-25",
-          "valeur": 15219.54,
-          "ma50": 14839.88,
-          "ma200": null
-        },
-        {
-          "date": "2025-11-26",
-          "valeur": 15238.36,
-          "ma50": 14848.6,
-          "ma200": null
-        },
-        {
-          "date": "2025-11-27",
-          "valeur": 15257.34,
-          "ma50": 14857.88,
-          "ma200": null
-        },
-        {
-          "date": "2025-11-28",
-          "valeur": 15276.47,
-          "ma50": 14867.73,
+          "date": "2025-11-01",
+          "valeur": 14670.77,
+          "ma50": null,
           "ma200": null
         },
         {
           "date": "2025-12-01",
-          "valeur": 15334.65,
-          "ma50": 14879.24,
-          "ma200": null
-        },
-        {
-          "date": "2025-12-02",
-          "valeur": 15354.27,
-          "ma50": 14891.28,
-          "ma200": null
-        },
-        {
-          "date": "2025-12-03",
-          "valeur": 15373.98,
-          "ma50": 14903.86,
-          "ma200": null
-        },
-        {
-          "date": "2025-12-04",
-          "valeur": 15393.77,
-          "ma50": 14916.96,
-          "ma200": null
-        },
-        {
-          "date": "2025-12-05",
-          "valeur": 15413.62,
-          "ma50": 14930.58,
-          "ma200": null
-        },
-        {
-          "date": "2025-12-08",
-          "valeur": 15473.46,
-          "ma50": 14945.69,
-          "ma200": null
-        },
-        {
-          "date": "2025-12-09",
-          "valeur": 15493.45,
-          "ma50": 14961.28,
-          "ma200": null
-        },
-        {
-          "date": "2025-12-10",
-          "valeur": 15513.45,
-          "ma50": 14977.34,
-          "ma200": null
-        },
-        {
-          "date": "2025-12-11",
-          "valeur": 15533.44,
-          "ma50": 14993.85,
-          "ma200": null
-        },
-        {
-          "date": "2025-12-12",
-          "valeur": 15553.41,
-          "ma50": 15010.82,
-          "ma200": null
-        },
-        {
-          "date": "2025-12-15",
-          "valeur": 15613.07,
-          "ma50": 15029.07,
-          "ma200": null
-        },
-        {
-          "date": "2025-12-16",
-          "valeur": 15632.83,
-          "ma50": 15047.73,
-          "ma200": null
-        },
-        {
-          "date": "2025-12-17",
-          "valeur": 15652.51,
-          "ma50": 15066.78,
-          "ma200": null
-        },
-        {
-          "date": "2025-12-18",
-          "valeur": 15672.1,
-          "ma50": 15086.21,
-          "ma200": null
-        },
-        {
-          "date": "2025-12-19",
-          "valeur": 15691.57,
-          "ma50": 15106.01,
-          "ma200": null
-        },
-        {
-          "date": "2025-12-22",
-          "valeur": 15749.23,
-          "ma50": 15126.84,
-          "ma200": null
-        },
-        {
-          "date": "2025-12-23",
-          "valeur": 15768.16,
-          "ma50": 15147.99,
-          "ma200": null
-        },
-        {
-          "date": "2025-12-24",
-          "valeur": 15786.92,
-          "ma50": 15169.45,
-          "ma200": null
-        },
-        {
-          "date": "2025-12-25",
-          "valeur": 15805.49,
-          "ma50": 15191.2,
-          "ma200": null
-        },
-        {
-          "date": "2025-12-26",
-          "valeur": 15823.88,
-          "ma50": 15213.23,
-          "ma200": null
-        },
-        {
-          "date": "2025-12-29",
-          "valeur": 15877.78,
-          "ma50": 15236.01,
-          "ma200": null
-        },
-        {
-          "date": "2025-12-30",
-          "valeur": 15895.29,
-          "ma50": 15259.01,
-          "ma200": null
-        },
-        {
-          "date": "2025-12-31",
-          "valeur": 15912.55,
-          "ma50": 15282.22,
+          "valeur": 14879.03,
+          "ma50": null,
           "ma200": null
         },
         {
           "date": "2026-01-01",
-          "valeur": 15929.56,
-          "ma50": 15305.62,
+          "valeur": 17710.86,
+          "ma50": null,
           "ma200": null
         },
         {
-          "date": "2026-01-02",
-          "valeur": 15946.29,
-          "ma50": 15329.21,
+          "date": "2026-02-01",
+          "valeur": 17173.1,
+          "ma50": null,
           "ma200": null
-        },
-        {
-          "date": "2026-01-05",
-          "valeur": 15994.79,
-          "ma50": 15353.24,
-          "ma200": null
-        },
-        {
-          "date": "2026-01-06",
-          "valeur": 16010.35,
-          "ma50": 15377.39,
-          "ma200": 15526.8
-        },
-        {
-          "date": "2026-01-07",
-          "valeur": 16025.59,
-          "ma50": 15401.64,
-          "ma200": 15529.42
-        },
-        {
-          "date": "2026-01-08",
-          "valeur": 16040.5,
-          "ma50": 15425.99,
-          "ma200": 15532.03
-        },
-        {
-          "date": "2026-01-09",
-          "valeur": 16055.08,
-          "ma50": 15450.41,
-          "ma200": 15534.6
-        },
-        {
-          "date": "2026-01-12",
-          "valeur": 16096.68,
-          "ma50": 15474.95,
-          "ma200": 15537.09
-        },
-        {
-          "date": "2026-01-13",
-          "valeur": 16109.82,
-          "ma50": 15499.51,
-          "ma200": 15539.54
-        },
-        {
-          "date": "2026-01-14",
-          "valeur": 16122.57,
-          "ma50": 15524.07,
-          "ma200": 15541.95
-        },
-        {
-          "date": "2026-01-15",
-          "valeur": 16134.93,
-          "ma50": 15548.61,
-          "ma200": 15544.33
-        },
-        {
-          "date": "2026-01-16",
-          "valeur": 16146.9,
-          "ma50": 15573.12,
-          "ma200": 15546.68
-        },
-        {
-          "date": "2026-01-19",
-          "valeur": 16180.35,
-          "ma50": 15597.43,
-          "ma200": 15548.9
-        },
-        {
-          "date": "2026-01-20",
-          "valeur": 16190.66,
-          "ma50": 15621.65,
-          "ma200": 15551.07
-        },
-        {
-          "date": "2026-01-21",
-          "valeur": 16200.53,
-          "ma50": 15645.76,
-          "ma200": 15553.2
-        },
-        {
-          "date": "2026-01-22",
-          "valeur": 16209.97,
-          "ma50": 15669.75,
-          "ma200": 15555.29
-        },
-        {
-          "date": "2026-01-23",
-          "valeur": 16218.97,
-          "ma50": 15693.6,
-          "ma200": 15557.33
-        },
-        {
-          "date": "2026-01-26",
-          "valeur": 16243.23,
-          "ma50": 15716.94,
-          "ma200": 15559.21
-        },
-        {
-          "date": "2026-01-27",
-          "valeur": 16250.4,
-          "ma50": 15740.08,
-          "ma200": 15561.05
-        },
-        {
-          "date": "2026-01-28",
-          "valeur": 16257.1,
-          "ma50": 15763.0,
-          "ma200": 15562.83
-        },
-        {
-          "date": "2026-01-29",
-          "valeur": 16263.32,
-          "ma50": 15785.7,
-          "ma200": 15564.55
-        },
-        {
-          "date": "2026-01-30",
-          "valeur": 16269.07,
-          "ma50": 15808.16,
-          "ma200": 15566.22
-        },
-        {
-          "date": "2026-02-02",
-          "valeur": 16283.41,
-          "ma50": 15829.81,
-          "ma200": 15567.72
-        },
-        {
-          "date": "2026-02-03",
-          "valeur": 16287.22,
-          "ma50": 15851.17,
-          "ma200": 15569.16
-        },
-        {
-          "date": "2026-02-04",
-          "valeur": 16290.53,
-          "ma50": 15872.21,
-          "ma200": 15570.53
-        },
-        {
-          "date": "2026-02-05",
-          "valeur": 16293.35,
-          "ma50": 15892.93,
-          "ma200": 15571.85
-        },
-        {
-          "date": "2026-02-06",
-          "valeur": 16295.68,
-          "ma50": 15913.31,
-          "ma200": 15573.1
-        },
-        {
-          "date": "2026-02-09",
-          "valeur": 16299.66,
-          "ma50": 15932.61,
-          "ma200": 15574.16
-        },
-        {
-          "date": "2026-02-10",
-          "valeur": 16299.99,
-          "ma50": 15951.53,
-          "ma200": 15575.15
-        },
-        {
-          "date": "2026-02-11",
-          "valeur": 16299.82,
-          "ma50": 15970.05,
-          "ma200": 15576.08
-        },
-        {
-          "date": "2026-02-12",
-          "valeur": 16299.15,
-          "ma50": 15988.15,
-          "ma200": 15576.94
-        },
-        {
-          "date": "2026-02-13",
-          "valeur": 16297.98,
-          "ma50": 16005.84,
-          "ma200": 15577.74
-        },
-        {
-          "date": "2026-02-16",
-          "valeur": 16291.49,
-          "ma50": 16022.2,
-          "ma200": 15578.33
-        },
-        {
-          "date": "2026-02-17",
-          "valeur": 16288.33,
-          "ma50": 16038.1,
-          "ma200": 15578.85
-        },
-        {
-          "date": "2026-02-18",
-          "valeur": 16284.68,
-          "ma50": 16053.52,
-          "ma200": 15579.31
-        },
-        {
-          "date": "2026-02-19",
-          "valeur": 16280.54,
-          "ma50": 16068.47,
-          "ma200": 15579.69
-        },
-        {
-          "date": "2026-02-20",
-          "valeur": 16275.91,
-          "ma50": 16082.92,
-          "ma200": 15580.01
-        },
-        {
-          "date": "2026-02-23",
-          "valeur": 16259.13,
-          "ma50": 16095.84,
-          "ma200": 15580.11
-        },
-        {
-          "date": "2026-02-24",
-          "valeur": 16252.58,
-          "ma50": 16108.23,
-          "ma200": 15580.15
-        },
-        {
-          "date": "2026-02-25",
-          "valeur": 16245.57,
-          "ma50": 16120.09,
-          "ma200": 15580.11
-        },
-        {
-          "date": "2026-02-26",
-          "valeur": 16238.08,
-          "ma50": 16131.41,
-          "ma200": 15580.01
-        },
-        {
-          "date": "2026-02-27",
-          "valeur": 16230.14,
-          "ma50": 16142.18,
-          "ma200": 15579.83
-        },
-        {
-          "date": "2026-03-02",
-          "valeur": 16203.59,
-          "ma50": 16151.27,
-          "ma200": 15579.44
-        },
-        {
-          "date": "2026-03-03",
-          "valeur": 16193.85,
-          "ma50": 16159.78,
-          "ma200": 15578.99
-        },
-        {
-          "date": "2026-03-04",
-          "valeur": 16183.68,
-          "ma50": 16167.72,
-          "ma200": 15578.47
-        },
-        {
-          "date": "2026-03-05",
-          "valeur": 16173.08,
-          "ma50": 16175.07,
-          "ma200": 15577.87
-        },
-        {
-          "date": "2026-03-06",
-          "valeur": 16162.06,
-          "ma50": 16181.84,
-          "ma200": 15577.21
-        },
-        {
-          "date": "2026-03-09",
-          "valeur": 16126.55,
-          "ma50": 16186.81,
-          "ma200": 15576.35
-        },
-        {
-          "date": "2026-03-10",
-          "valeur": 16113.92,
-          "ma50": 16191.18,
-          "ma200": 15575.42
-        },
-        {
-          "date": "2026-03-11",
-          "valeur": 16100.91,
-          "ma50": 16194.95,
-          "ma200": 15574.43
-        },
-        {
-          "date": "2026-03-12",
-          "valeur": 16087.52,
-          "ma50": 16198.11,
-          "ma200": 15573.37
-        },
-        {
-          "date": "2026-03-13",
-          "valeur": 16073.76,
-          "ma50": 16200.66,
-          "ma200": 15572.24
-        },
-        {
-          "date": "2026-03-16",
-          "valeur": 16030.38,
-          "ma50": 16201.37,
-          "ma200": 15570.93
-        },
-        {
-          "date": "2026-03-17",
-          "valeur": 16015.24,
-          "ma50": 16201.47,
-          "ma200": 15569.55
-        },
-        {
-          "date": "2026-03-18",
-          "valeur": 15999.78,
-          "ma50": 16200.95,
-          "ma200": 15568.11
-        },
-        {
-          "date": "2026-03-19",
-          "valeur": 15984.01,
-          "ma50": 16199.82,
-          "ma200": 15566.62
-        },
-        {
-          "date": "2026-03-20",
-          "valeur": 15967.93,
-          "ma50": 16198.08,
-          "ma200": 15565.06
-        },
-        {
-          "date": "2026-03-23",
-          "valeur": 15918.0,
-          "ma50": 16194.51,
-          "ma200": 15563.33
-        },
-        {
-          "date": "2026-03-24",
-          "valeur": 15900.82,
-          "ma50": 16190.33,
-          "ma200": 15561.55
-        },
-        {
-          "date": "2026-03-25",
-          "valeur": 15883.38,
-          "ma50": 16185.54,
-          "ma200": 15559.72
-        },
-        {
-          "date": "2026-03-26",
-          "valeur": 15865.71,
-          "ma50": 16180.16,
-          "ma200": 15557.83
-        },
-        {
-          "date": "2026-03-27",
-          "valeur": 15847.81,
-          "ma50": 16174.18,
-          "ma200": 15555.89
-        },
-        {
-          "date": "2026-03-30",
-          "valeur": 15792.85,
-          "ma50": 16166.43,
-          "ma200": 15553.81
-        },
-        {
-          "date": "2026-03-31",
-          "valeur": 15774.15,
-          "ma50": 16158.1,
-          "ma200": 15551.67
-        },
-        {
-          "date": "2026-04-01",
-          "valeur": 15755.28,
-          "ma50": 16149.19,
-          "ma200": 15549.5
         }
       ],
       "variations": {
-        "jour": -0.12,
-        "semaine": -0.81,
-        "mois": -2.77,
-        "ytd": -1.09
+        "jour": -3.04,
+        "semaine": 13.71,
+        "mois": 12.34,
+        "ytd": -3.04
       },
       "min_max": {
-        "min": 14700.06,
-        "min_date": "2025-10-07",
-        "max": 16299.99,
-        "max_date": "2025-06-04"
+        "min": 14670.77,
+        "min_date": "2025-11-01",
+        "max": 17710.86,
+        "max_date": "2026-01-01"
       },
       "note_lecture": "Le nickel est essentiel pour les aciers inoxydables et les batteries de véhicules électriques. Très sensible aux politiques d'exportation indonésiennes et à la demande de la transition énergétique."
     },
@@ -20537,29 +19049,30 @@
       "date": "Janvier 2026"
     },
     "statistiques_branches": {
-      "total_branches": 3,
-      "branches_affichees": 3,
-      "branches_conformes": 0,
+      "total_branches": 49,
+      "branches_affichees": 49,
+      "branches_conformes": 5,
       "branches_non_conformes": 0,
-      "branches_a_verifier": 3,
+      "branches_a_verifier": 44,
       "pourcentage_non_conformes": 0,
-      "total_effectif_couvert": 1075889,
-      "source_statistiques": "Catalogue interne + extraction automatique kali-data"
+      "total_effectif_couvert": 9860473,
+      "source_statistiques": "kali-data (SocialGouv / Fabrique numérique des ministères sociaux)"
     },
     "meta": {
-      "source_effectifs": "Catalogue interne / CFTC",
-      "source_grilles": "SocialGouv kali-data",
-      "date_generation": "2026-04-02T10:00:37.248335",
-      "mode": "option_b_auto_plus_verification",
-      "note": "Les branches sans grille fiable sont marquées a_verifier, pas conformes."
+      "source_effectifs": "DSN via kali-data",
+      "source_grilles": "SocialGouv kali-data (extraction automatique)",
+      "date_generation": "2026-04-02T11:45:46.907429",
+      "mode": "100pct_automatique",
+      "note": "Extraction heuristique depuis textes juridiques KALI. Statut a_verifier si grille non extraite ou confidence < 55%."
     },
     "branches": [
       {
         "idcc": "1486",
-        "nom": "Bureaux d'études techniques (SYNTEC)",
-        "effectif": 857061,
-        "derniere_revalorisation": "Janvier 2026",
         "id": "branch_1486",
+        "nom": "Bureaux d'études techniques, cabinets d'ingénieurs-conseils et sociétés de conseils",
+        "titre_complet": "Convention collective nationale applicable au personnel des bureaux d'études techniques, des cabinets d'ingénieurs-conseils et des sociétés de conseils(BET, SYNTEC)",
+        "effectif": 857061,
+        "date_publi": "1988-01-01",
         "source": "https://www.legifrance.gouv.fr/search/result?query=idcc+1486",
         "meta": {
           "source_donnees": "kali-data",
@@ -20581,11 +19094,656 @@
         "statut": "a_verifier"
       },
       {
+        "idcc": "3248",
+        "id": "branch_3248",
+        "nom": "Métallurgie",
+        "titre_complet": "Convention collective nationale de la métallurgie",
+        "effectif": 722667,
+        "date_publi": "2024-01-01",
+        "source": "https://www.legifrance.gouv.fr/search/result?query=idcc+3248",
+        "meta": {
+          "source_donnees": "kali-data",
+          "kali_id": "KALICONT000046993250",
+          "extraction_status": "ok",
+          "confidence": 0.35,
+          "quality": "fragile",
+          "source_path": "",
+          "source_excerpt": "<p align=\"center\">Annexe A<br/>\nBarème des salaires minima hiérarchiques<br/>\nAdministratifs et techniciens – Agents de maîtrise (sauf agent de maîtrise d'atelier)</p><p>Base 35 heures.<br/>\nDate d'application : 1er septembre 2022.<br/>\nValeur du point 5,400 €.</p><p></p><center>"
+        },
+        "grille": [
+          {
+            "niveau": "Valeur du point 5,",
+            "coefficient": null,
+            "minimum_mensuel": 837.0,
+            "minimum_annuel": 10044.0
+          }
+        ],
+        "statut": "a_verifier"
+      },
+      {
+        "idcc": "2216",
+        "id": "branch_2216",
+        "nom": "Commerce de détail et de gros à prédominance alimentaire",
+        "titre_complet": "Convention collective nationale du commerce de détail et de gros à prédominance alimentaire ",
+        "effectif": 689830,
+        "date_publi": "2001-07-12",
+        "source": "https://www.legifrance.gouv.fr/search/result?query=idcc+2216",
+        "meta": {
+          "source_donnees": "kali-data",
+          "kali_id": "KALICONT000005635085",
+          "extraction_status": "ok",
+          "confidence": 0.5,
+          "quality": "fragile",
+          "source_path": "",
+          "source_excerpt": "<p align=\"left\">Le salaire minimum conventionnel hiérarchique, obéissant aux règles de calcul fixées par la CCN et notamment ses articles 3.6 et 5.2.1, est ainsi fixé :</p><p align=\"center\">Grille des salaires minima conventionnels hiérarchiques – salariés en décompte horaire</p>"
+        },
+        "grille": [
+          {
+            "niveau": "minimum garanti 12 mois[1] [2] [3]</th></tr><tr><td rowspan=\"2\">Niveau 1</td><td>(1 B – après 6 mois)</td><td align=\"cen",
+            "coefficient": "1",
+            "minimum_mensuel": 851.0,
+            "minimum_annuel": 23849.0
+          }
+        ],
+        "statut": "a_verifier"
+      },
+      {
+        "idcc": "0016",
+        "id": "branch_0016",
+        "nom": "Transports routiers et activités auxiliaires du transport",
+        "titre_complet": "Convention collective nationale des transports routiers et activités auxiliaires du transport",
+        "effectif": 679524,
+        "date_publi": "1950-12-21",
+        "source": "https://www.legifrance.gouv.fr/search/result?query=idcc+0016",
+        "meta": {
+          "source_donnees": "kali-data",
+          "kali_id": "KALICONT000005635624",
+          "extraction_status": "empty",
+          "confidence": 0.5,
+          "quality": "indisponible",
+          "source_path": "",
+          "source_excerpt": "<p>Annexe</p><p><em>Personnels ouvriers roulants et sédentaires. Taux horaires à compter du 1er avril</em><em>2018</em><a shape=\"rect\" href=\"#RENVOI_KALIARTI000037412157_1\"> (1)</a></p><p align=\"right\">(En euros.)</p><center><table border=\"1\"><tbody><tr><th>Coefficient</th><th>À "
+        },
+        "grille": [],
+        "statut": "a_verifier"
+      },
+      {
+        "idcc": "1979",
+        "id": "branch_1979",
+        "nom": "Hôtels, cafés, restaurants",
+        "titre_complet": "Convention collective nationale des hôtels, cafés, restaurants (HCR)",
+        "effectif": 580085,
+        "date_publi": "1997-12-07",
+        "source": "https://www.legifrance.gouv.fr/search/result?query=idcc+1979",
+        "meta": {
+          "source_donnees": "kali-data",
+          "kali_id": "KALICONT000005635534",
+          "extraction_status": "empty",
+          "confidence": 0.15,
+          "quality": "indisponible",
+          "source_path": "",
+          "source_excerpt": "<p align=\"left\">Les rémunérations horaires brutes applicables sur le territoire métropolitain et les DROM sont déterminées dans le respect des salaires minima conventionnels suivants :</p><p align=\"left\"></p><center><table border=\"1\"><tbody><tr><th></th><th>Niveau I</th><th>Nivea"
+        },
+        "grille": [],
+        "statut": "a_verifier"
+      },
+      {
+        "idcc": "0413",
+        "id": "branch_0413",
+        "nom": "Handicapés : établissements et services pour les personnes inadaptées et handicapées",
+        "titre_complet": "Convention collective nationale de travail des établissements et services pour personnes inadaptées et handicapées (convention de 1966, SNAPEI)",
+        "effectif": 430195,
+        "date_publi": "1976-09-15",
+        "source": "https://www.legifrance.gouv.fr/search/result?query=idcc+0413",
+        "meta": {
+          "source_donnees": "kali-data",
+          "kali_id": "KALICONT000005635407",
+          "extraction_status": "empty",
+          "confidence": 0.0,
+          "quality": "indisponible",
+          "source_path": null,
+          "source_excerpt": null
+        },
+        "grille": [],
+        "statut": "a_verifier"
+      },
+      {
+        "idcc": "1090",
+        "id": "branch_1090",
+        "nom": "Services de l'automobile (Commerce et réparation de l'automobile, du cycle et du motocycle, activités connexes, contrôle technique automobile, formation des conducteurs)",
+        "titre_complet": "Convention collective nationale des services de l'automobile (commerce et réparation de l'automobile, du cycle et du motocycle, activités connexes, contrôle technique automobile, formation des conducteurs auto-écoles CNPA)",
+        "effectif": 422715,
+        "date_publi": "1981-04-01",
+        "source": "https://www.legifrance.gouv.fr/search/result?query=idcc+1090",
+        "meta": {
+          "source_donnees": "kali-data",
+          "kali_id": "KALICONT000005635191",
+          "extraction_status": "empty",
+          "confidence": 0.0,
+          "quality": "indisponible",
+          "source_path": null,
+          "source_excerpt": null
+        },
+        "grille": [],
+        "statut": "a_verifier"
+      },
+      {
+        "idcc": "3043",
+        "id": "branch_3043",
+        "nom": "Entreprises de propreté et services associés",
+        "titre_complet": "Convention collective nationale des entreprises de propreté et services associés du 26 juillet 2011.",
+        "effectif": 367142,
+        "date_publi": "2012-08-01",
+        "source": "https://www.legifrance.gouv.fr/search/result?query=idcc+3043",
+        "meta": {
+          "source_donnees": "kali-data",
+          "kali_id": "KALICONT000027172335",
+          "extraction_status": "empty",
+          "confidence": 0.0,
+          "quality": "indisponible",
+          "source_path": null,
+          "source_excerpt": null
+        },
+        "grille": [],
+        "statut": "a_verifier"
+      },
+      {
+        "idcc": "0573",
+        "id": "branch_0573",
+        "nom": "Commerces de gros",
+        "titre_complet": "Convention collective nationale des commerces de gros",
+        "effectif": 341572,
+        "date_publi": "1984-09-27",
+        "source": "https://www.legifrance.gouv.fr/search/result?query=idcc+0573",
+        "meta": {
+          "source_donnees": "kali-data",
+          "kali_id": "KALICONT000005635373",
+          "extraction_status": "empty",
+          "confidence": 0.0,
+          "quality": "indisponible",
+          "source_path": null,
+          "source_excerpt": null
+        },
+        "grille": [],
+        "statut": "a_verifier"
+      },
+      {
+        "idcc": "1596",
+        "id": "branch_1596",
+        "nom": "Bâtiment Ouvriers (entreprises occupant jusqu'à 10 salariés)",
+        "titre_complet": "Convention collective nationale concernant les ouvriers employés par les entreprises du bâtiment visées par le décret du 1er mars 1962 - c'est-à-dire occupant jusqu'à 10 salariés",
+        "effectif": 282254,
+        "date_publi": "2018-07-01",
+        "source": "https://www.legifrance.gouv.fr/search/result?query=idcc+1596",
+        "meta": {
+          "source_donnees": "kali-data",
+          "kali_id": "KALICONT000005635221",
+          "extraction_status": "ok",
+          "confidence": 1.0,
+          "quality": "bonne",
+          "source_path": "",
+          "source_excerpt": "<p align=\"left\">Pour la région Auvergne-Rhône-Alpes, les parties signataires du présent accord prenant en compte l'objectif d'égalité professionnelle entre les femmes et les hommes, ont fixé le barème des salaires minimaux des ouvriers du bâtiment comme indiqué dans les tableaux "
+        },
+        "grille": [
+          {
+            "niveau": "(pour 151,67 heures)</th></tr><tr><td align=\"center\"><strong>Niveau I</strong></td><td></td><td></td></tr><tr><td align=",
+            "coefficient": "1",
+            "minimum_mensuel": 1536.61,
+            "minimum_annuel": 18439.32
+          }
+        ],
+        "statut": "conforme"
+      },
+      {
+        "idcc": "2264",
+        "id": "branch_2264",
+        "nom": "Hospitalisation privée",
+        "titre_complet": "Convention collective nationale de l'hospitalisation privée",
+        "effectif": 272286,
+        "date_publi": "2002-04-18",
+        "source": "https://www.legifrance.gouv.fr/search/result?query=idcc+2264",
+        "meta": {
+          "source_donnees": "kali-data",
+          "kali_id": "KALICONT000005635813",
+          "extraction_status": "empty",
+          "confidence": 0.5,
+          "quality": "indisponible",
+          "source_path": "",
+          "source_excerpt": "<p align=\"left\">Les parties au présent accord rappellent leur attachement au système de formation en apprentissage.</p><p align=\"left\">L'apprentissage, à l'instar des autres dispositifs de formation doit contribuer à l'élaboration de parcours professionnels diversifiés. Il partic"
+        },
+        "grille": [],
+        "statut": "a_verifier"
+      },
+      {
+        "idcc": "1597",
+        "id": "branch_1597",
+        "nom": "Bâtiment Ouvriers (entreprises occupant plus de 10 salariés)",
+        "titre_complet": "Convention collective nationale concernant les ouvriers employés par les entreprises du bâtiment non visées par le décret 1er mars 1962 -c'est-à-dire occupant plus de 10 salariés",
+        "effectif": 257290,
+        "date_publi": "2018-07-01",
+        "source": "https://www.legifrance.gouv.fr/search/result?query=idcc+1597",
+        "meta": {
+          "source_donnees": "kali-data",
+          "kali_id": "KALICONT000005635220",
+          "extraction_status": "ok",
+          "confidence": 1.0,
+          "quality": "bonne",
+          "source_path": "",
+          "source_excerpt": "<p align=\"left\">Pour la région Auvergne-Rhône-Alpes, les parties signataires du présent accord prenant en compte l'objectif d'égalité professionnelle entre les femmes et les hommes, ont fixé le barème des salaires minimaux des ouvriers du bâtiment comme indiqué dans les tableaux "
+        },
+        "grille": [
+          {
+            "niveau": "(pour 151,67 heures)</th></tr><tr><td align=\"center\">Niveau I</td><td></td><td></td></tr><tr><td align=\"center\">Ouvriers",
+            "coefficient": "1",
+            "minimum_mensuel": 1536.61,
+            "minimum_annuel": 18439.32
+          }
+        ],
+        "statut": "conforme"
+      },
+      {
+        "idcc": "0044",
+        "id": "branch_0044",
+        "nom": "Industries chimiques et connexes",
+        "titre_complet": "Convention collective nationale des industries chimiques et connexes",
+        "effectif": 218310,
+        "date_publi": "1952-12-30",
+        "source": "https://www.legifrance.gouv.fr/search/result?query=idcc+0044",
+        "meta": {
+          "source_donnees": "kali-data",
+          "kali_id": "KALICONT000005635613",
+          "extraction_status": "ok",
+          "confidence": 0.35,
+          "quality": "fragile",
+          "source_path": "",
+          "source_excerpt": "<p><br/>Annexe</p><p><br/>Barème des salaires minima au 1er février 2013</p><p><br/>Base : 38 heures par semaine.<br/>Valeur du point : 7,85 €.</p><p><br/>(En euros.)</p><p><div align=\"center\"><center><table border=\"1\"><tr><th>Coefficient</th><th>Salaire minimum<br/>(VP × coeffic"
+        },
+        "grille": [
+          {
+            "niveau": "<p><br/>Annexe</p><p><br/>Barème des salaires minima au 1er février 2013</p><p><br/>Base : 38 heures par semaine.<br/>Va",
+            "coefficient": null,
+            "minimum_mensuel": 895.0,
+            "minimum_annuel": 10740.0
+          }
+        ],
+        "statut": "a_verifier"
+      },
+      {
+        "idcc": "2120",
+        "id": "branch_2120",
+        "nom": "Banque",
+        "titre_complet": "Convention collective nationale de la banque",
+        "effectif": 216431,
+        "date_publi": "2000-01-10",
+        "source": "https://www.legifrance.gouv.fr/search/result?query=idcc+2120",
+        "meta": {
+          "source_donnees": "kali-data",
+          "kali_id": "KALICONT000005635780",
+          "extraction_status": "empty",
+          "confidence": 0.0,
+          "quality": "indisponible",
+          "source_path": null,
+          "source_excerpt": null
+        },
+        "grille": [],
+        "statut": "a_verifier"
+      },
+      {
+        "idcc": "2941",
+        "id": "branch_2941",
+        "nom": "Aide, accompagnement, soins et services à domicile (BAD)",
+        "titre_complet": "Convention collective nationale de la branche de l'aide, de l'accompagnement, des soins et des services à domicile",
+        "effectif": 203690,
+        "date_publi": "2010-05-21",
+        "source": "https://www.legifrance.gouv.fr/search/result?query=idcc+2941",
+        "meta": {
+          "source_donnees": "kali-data",
+          "kali_id": "KALICONT000025805800",
+          "extraction_status": "ok",
+          "confidence": 0.5,
+          "quality": "fragile",
+          "source_path": "",
+          "source_excerpt": "<p align=\"left\">Le présent avenant remplace l'intégralité des dispositions du titre VI de la convention collective de la branche de l'aide, de l'accompagnement, des soins et des services à domicile :</p><p align=\"center\">« Titre VI. Formation tout au long de la vie et politique d"
+        },
+        "grille": [
+          {
+            "niveau": "Définition</p><p align=\"left\">Le compte personnel de formation est une modalité d'accès à la formation créée par la loi ",
+            "coefficient": "3",
+            "minimum_mensuel": 800.0,
+            "minimum_annuel": 9600.0
+          }
+        ],
+        "statut": "a_verifier"
+      },
+      {
+        "idcc": "1501",
+        "id": "branch_1501",
+        "nom": "Restauration rapide",
+        "titre_complet": "Convention collective nationale de la restauration rapide (restauration livrée)",
+        "effectif": 171010,
+        "date_publi": "1988-05-18",
+        "source": "https://www.legifrance.gouv.fr/search/result?query=idcc+1501",
+        "meta": {
+          "source_donnees": "kali-data",
+          "kali_id": "KALICONT000005635596",
+          "extraction_status": "empty",
+          "confidence": 0.0,
+          "quality": "indisponible",
+          "source_path": null,
+          "source_excerpt": null
+        },
+        "grille": [],
+        "statut": "a_verifier"
+      },
+      {
+        "idcc": "1702",
+        "id": "branch_1702",
+        "nom": "Travaux publics (Tome II : Ouvriers)",
+        "titre_complet": "Convention collective nationale des ouvriers de travaux publics",
+        "effectif": 164919,
+        "date_publi": "1993-06-01",
+        "source": "https://www.legifrance.gouv.fr/search/result?query=idcc+1702",
+        "meta": {
+          "source_donnees": "kali-data",
+          "kali_id": "KALICONT000005635467",
+          "extraction_status": "ok",
+          "confidence": 0.5,
+          "quality": "fragile",
+          "source_path": "",
+          "source_excerpt": "<p></p>   Entre les organisations signataires du présent accord, pour l'application notamment de l'article 4.7 \" Salaires minimaux \" et du titre XII \" Classification des ouvriers des entreprises de travaux publics \" de la convention collective nationale du 15 décembre 1992, il a "
+        },
+        "grille": [
+          {
+            "niveau": "<p></p>   Entre les organisations signataires du présent accord, pour l'application notamment de l'article 4.7 \" Salaire",
+            "coefficient": "100",
+            "minimum_mensuel": 1126.6,
+            "minimum_annuel": 13519.2
+          }
+        ],
+        "statut": "a_verifier"
+      },
+      {
+        "idcc": "1351",
+        "id": "branch_1351",
+        "nom": "Entreprises de prévention et de sécurité",
+        "titre_complet": "Convention collective nationale des entreprises de prévention et de sécurité",
+        "effectif": 160768,
+        "date_publi": "1985-08-01",
+        "source": "https://www.legifrance.gouv.fr/search/result?query=idcc+1351",
+        "meta": {
+          "source_donnees": "kali-data",
+          "kali_id": "KALICONT000005635405",
+          "extraction_status": "ok",
+          "confidence": 0.5,
+          "quality": "fragile",
+          "source_path": "",
+          "source_excerpt": "<p align=\"left\">Afin de poursuivre l'objectif tel que décrit en préambule, les parties conviennent de revaloriser le salaire minimum conventionnel du coefficient 120 à 1 482,51 € brut pour 151,67 heures ­ mensuelles. </p><p align=\"left\">Le tableau correspondant à ce nouveau minim"
+        },
+        "grille": [
+          {
+            "niveau": "<p align=\"left\">Afin de poursuivre l'objectif tel que décrit en préambule, les parties conviennent de revaloriser le sal",
+            "coefficient": "120",
+            "minimum_mensuel": 1482.51,
+            "minimum_annuel": 17790.12
+          }
+        ],
+        "statut": "a_verifier"
+      },
+      {
+        "idcc": "1527",
+        "id": "branch_1527",
+        "nom": "Immobilier : administrateurs de biens, sociétés immobilières, agents immobiliers",
+        "titre_complet": "Convention collective nationale de l'immobilier",
+        "effectif": 141326,
+        "date_publi": "2010-11-23",
+        "source": "https://www.legifrance.gouv.fr/search/result?query=idcc+1527",
+        "meta": {
+          "source_donnees": "kali-data",
+          "kali_id": "KALICONT000005635413",
+          "extraction_status": "ok",
+          "confidence": 0.85,
+          "quality": "bonne",
+          "source_path": "",
+          "source_excerpt": "<p></p><p align=\"left\">Dans ce contexte, la convention collective est actualisée et remplacée par les dispositions du présent avenant. Seul l'article 26, relatif à la prévoyance et au remboursement des frais de santé, reste inchangé.</p><p align=\"left\">Les annexes sont également "
+        },
+        "grille": [
+          {
+            "niveau": "– la compensation financière en contrepartie d'une astreinte.</p><p align=\"left\">Et d'une façon générale toute somme que",
+            "coefficient": null,
+            "minimum_mensuel": 1450.0,
+            "minimum_annuel": 17400.0
+          }
+        ],
+        "statut": "conforme"
+      },
+      {
+        "idcc": "1672",
+        "id": "branch_1672",
+        "nom": "Sociétés d'assurances",
+        "titre_complet": "Convention collective nationale des sociétés d'assurances",
+        "effectif": 140739,
+        "date_publi": "1992-05-27",
+        "source": "https://www.legifrance.gouv.fr/search/result?query=idcc+1672",
+        "meta": {
+          "source_donnees": "kali-data",
+          "kali_id": "KALICONT000005635918",
+          "extraction_status": "empty",
+          "confidence": 0.0,
+          "quality": "indisponible",
+          "source_path": null,
+          "source_excerpt": null
+        },
+        "grille": [],
+        "statut": "a_verifier"
+      },
+      {
+        "idcc": "2609",
+        "id": "branch_2609",
+        "nom": "Bâtiment ETAM",
+        "titre_complet": "Convention collective nationale des employés, techniciens et agents de maîtrise du bâtiment",
+        "effectif": 140105,
+        "date_publi": "2007-06-29",
+        "source": "https://www.legifrance.gouv.fr/search/result?query=idcc+2609",
+        "meta": {
+          "source_donnees": "kali-data",
+          "kali_id": "KALICONT000018773893",
+          "extraction_status": "ok",
+          "confidence": 0.35,
+          "quality": "fragile",
+          "source_path": "",
+          "source_excerpt": "<p align=\"left\">En application du titre III de la convention collective nationale des employés, techniciens et agents de maîtrise du bâtiment du 12 juillet 2006, étendue par arrêté ministériel du 5 juin 2007, et de l'<a href=\"/affichIDCC.do?cidTexte=KALITEXT000018613461&categorie"
+        },
+        "grille": [
+          {
+            "niveau": "<p align=\"left\">En application du titre III de la convention collective nationale des employés, techniciens et agents de",
+            "coefficient": null,
+            "minimum_mensuel": 1523.5,
+            "minimum_annuel": 18282.0
+          }
+        ],
+        "statut": "a_verifier"
+      },
+      {
+        "idcc": "0787",
+        "id": "branch_0787",
+        "nom": "Personnel des cabinets d'experts-comptables et de commissaires aux comptes",
+        "titre_complet": "Convention collective nationale des cabinets d'experts-comptables et de commissaires aux comptes",
+        "effectif": 138440,
+        "date_publi": "1975-01-01",
+        "source": "https://www.legifrance.gouv.fr/search/result?query=idcc+0787",
+        "meta": {
+          "source_donnees": "kali-data",
+          "kali_id": "KALICONT000005635826",
+          "extraction_status": "empty",
+          "confidence": 0.0,
+          "quality": "indisponible",
+          "source_path": null,
+          "source_excerpt": null
+        },
+        "grille": [],
+        "statut": "a_verifier"
+      },
+      {
+        "idcc": "0843",
+        "id": "branch_0843",
+        "nom": "Boulangerie-pâtisserie (entreprises artisanales)",
+        "titre_complet": "Convention collective nationale de la boulangerie-pâtisserie -entreprises artisanales",
+        "effectif": 134889,
+        "date_publi": "1976-04-01",
+        "source": "https://www.legifrance.gouv.fr/search/result?query=idcc+0843",
+        "meta": {
+          "source_donnees": "kali-data",
+          "kali_id": "KALICONT000005635886",
+          "extraction_status": "empty",
+          "confidence": 0.15,
+          "quality": "indisponible",
+          "source_path": "",
+          "source_excerpt": "<p></p>   Entre :<p></p><p></p>   La confédération nationale de la boulangerie et boulangerie-pâtisserie française,<p></p><p></p>   La fédération nationale agroalimenaire et forestière CGT,<p></p> D'autre part,<p></p><p></p>   il a été convenu ce qui suit :<p></p><p></p>   Les di"
+        },
+        "grille": [],
+        "statut": "a_verifier"
+      },
+      {
+        "idcc": "0176",
+        "id": "branch_0176",
+        "nom": "Industrie pharmaceutique",
+        "titre_complet": "Convention collective nationale de l'industrie pharmaceutique",
+        "effectif": 129135,
+        "date_publi": "1956-04-06",
+        "source": "https://www.legifrance.gouv.fr/search/result?query=idcc+0176",
+        "meta": {
+          "source_donnees": "kali-data",
+          "kali_id": "KALICONT000005635184",
+          "extraction_status": "ok",
+          "confidence": 0.35,
+          "quality": "fragile",
+          "source_path": "",
+          "source_excerpt": "<p align=\"left\">Le <a href=\"/affichIDCCArticle.do?cidTexte=KALITEXT000005682494&idArticle=KALIARTI000005857821&categorieLien=cid\">paragraphe II « Salaires minima professionnels » de l'avenant n° 1</a> de la convention collective nationale de l'industrie pharmaceutique modifiée, e"
+        },
+        "grille": [
+          {
+            "niveau": "a : valeur constante, soit",
+            "coefficient": null,
+            "minimum_mensuel": 1553.38,
+            "minimum_annuel": 18640.56
+          },
+          {
+            "niveau": "x : valeur du point, soit 8,5",
+            "coefficient": null,
+            "minimum_mensuel": 5458.0,
+            "minimum_annuel": 65496.0
+          }
+        ],
+        "statut": "a_verifier"
+      },
+      {
+        "idcc": "2098",
+        "id": "branch_2098",
+        "nom": "Prestataires de services dans le domaine du secteur tertiaire",
+        "titre_complet": "Convention collective nationale du personnel des prestataires de services dans le domaine du secteur tertiaire",
+        "effectif": 127011,
+        "date_publi": "2000-03-01",
+        "source": "https://www.legifrance.gouv.fr/search/result?query=idcc+2098",
+        "meta": {
+          "source_donnees": "kali-data",
+          "kali_id": "KALICONT000005635550",
+          "extraction_status": "empty",
+          "confidence": 0.15,
+          "quality": "indisponible",
+          "source_path": "",
+          "source_excerpt": "<p>Article 1er Les grilles des rémunérations mensuelles et annuelles garanties sont fixées sur la base d'une durée mensuelle de travail de 151,67 heures. La valeur du point est fixée à 3,03 . Les indices de rémunération des qualifications suivantes sont modifiés : Statut employés"
+        },
+        "grille": [],
+        "statut": "a_verifier"
+      },
+      {
+        "idcc": "0675",
+        "id": "branch_0675",
+        "nom": "Maisons à succursales de vente au détail d'habillement",
+        "titre_complet": "Convention collective nationale des maisons à succursales de vente au détail d'habillement",
+        "effectif": 119795,
+        "date_publi": "1972-06-30",
+        "source": "https://www.legifrance.gouv.fr/search/result?query=idcc+0675",
+        "meta": {
+          "source_donnees": "kali-data",
+          "kali_id": "KALICONT000005635617",
+          "extraction_status": "ok",
+          "confidence": 0.35,
+          "quality": "fragile",
+          "source_path": "",
+          "source_excerpt": "<p align=\"left\">Conformément à l'accord relatif aux classifications professionnelles du 20 juin 2016, le barème des salaires mensuels minima garantis, applicable en France métropolitaine, pour les salariés visés par les avenants et annexes de la convention collective nationale de"
+        },
+        "grille": [
+          {
+            "niveau": "<p align=\"left\">Conformément à l'accord relatif aux classifications professionnelles du 20 juin 2016, le barème des sala",
+            "coefficient": null,
+            "minimum_mensuel": 1603.12,
+            "minimum_annuel": 19237.44
+          }
+        ],
+        "statut": "a_verifier"
+      },
+      {
+        "idcc": "1996",
+        "id": "branch_1996",
+        "nom": "Pharmacie d'officine",
+        "titre_complet": "Convention collective nationale de la pharmacie d'officine",
+        "effectif": 119196,
+        "date_publi": "1998-09-08",
+        "source": "https://www.legifrance.gouv.fr/search/result?query=idcc+1996",
+        "meta": {
+          "source_donnees": "kali-data",
+          "kali_id": "KALICONT000005635528",
+          "extraction_status": "ok",
+          "confidence": 0.5,
+          "quality": "fragile",
+          "source_path": "",
+          "source_excerpt": "<p>Vu l'article 8 de la convention collective nationale étendue de la pharmacie d'officine du 3 décembre 1997 ;</p><p>Vu l'article 5-2 de l'accord collectif national étendu du 23 mars 2000 sur la réduction du temps de travail dans la branche professionnelle de la pharmacie d'offi"
+        },
+        "grille": [
+          {
+            "niveau": "<p>Vu l'article 8 de la convention collective nationale étendue de la pharmacie d'officine du 3 décembre 1997 ;</p><p>Vu",
+            "coefficient": "100",
+            "minimum_mensuel": 1159.0,
+            "minimum_annuel": 13908.0
+          }
+        ],
+        "statut": "a_verifier"
+      },
+      {
+        "idcc": "0292",
+        "id": "branch_0292",
+        "nom": "Plasturgie",
+        "titre_complet": "Convention collective nationale de la plasturgie (transformation des matières plastiques)",
+        "effectif": 118314,
+        "date_publi": "1960-07-01",
+        "source": "https://www.legifrance.gouv.fr/search/result?query=idcc+0292",
+        "meta": {
+          "source_donnees": "kali-data",
+          "kali_id": "KALICONT000005635856",
+          "extraction_status": "ok",
+          "confidence": 0.5,
+          "quality": "fragile",
+          "source_path": "",
+          "source_excerpt": "<p>Article 1er</p><p>Revalorisation des salaires minima</p><p>La grille de salaires issue de l'accord signé le 16 décembre 2004 est revalorisée comme suit :</p><p>Article 2</p><p>Valeur à compter du 1er février 2006</p><p>A compter du 1er février 2006, la valeur du coefficient 70"
+        },
+        "grille": [
+          {
+            "niveau": "<p>Article 1er</p><p>Revalorisation des salaires minima</p><p>La grille de salaires issue de l'accord signé le 16 décemb",
+            "coefficient": "700",
+            "minimum_mensuel": 1235.0,
+            "minimum_annuel": 14820.0
+          }
+        ],
+        "statut": "a_verifier"
+      },
+      {
         "idcc": "1518",
-        "nom": "Aide à domicile (employeurs particuliers)",
-        "effectif": 113828,
-        "derniere_revalorisation": "Janvier 2026",
         "id": "branch_1518",
+        "nom": "Éducation, culture, loisirs et animation au service des territoires (ÉCLAT)",
+        "titre_complet": "Convention collective nationale des métiers de l'éducation, de la culture, des loisirs et de l'animation agissant pour l'utilité sociale et environnementale, au service des territoires (ÉCLAT)",
+        "effectif": 113828,
+        "date_publi": "1989-01-13",
         "source": "https://www.legifrance.gouv.fr/search/result?query=idcc+1518",
         "meta": {
           "source_donnees": "kali-data",
@@ -20607,19 +19765,498 @@
         "statut": "a_verifier"
       },
       {
-        "idcc": "0650",
-        "nom": "Pharmacie d'officine",
-        "effectif": 105000,
-        "derniere_revalorisation": "Janvier 2026",
-        "id": "branch_0650",
-        "source": "https://www.legifrance.gouv.fr/search/result?query=idcc+0650",
+        "idcc": "2596",
+        "id": "branch_2596",
+        "nom": "Coiffure et professions connexes",
+        "titre_complet": "Convention collective nationale de la coiffure et des professions connexes",
+        "effectif": 98152,
+        "date_publi": "2007-04-18",
+        "source": "https://www.legifrance.gouv.fr/search/result?query=idcc+2596",
         "meta": {
-          "source_donnees": "catalogue_interne",
-          "extraction_status": "missing_index",
-          "confidence": 0.0,
-          "quality": "indisponible"
+          "source_donnees": "kali-data",
+          "kali_id": "KALICONT000018563755",
+          "extraction_status": "empty",
+          "confidence": 0.15,
+          "quality": "indisponible",
+          "source_path": "",
+          "source_excerpt": "<p align=\"center\">Employés techniques de la coiffure</p><p align=\"left\">(En euros.) </p><p align=\"left\"></p><div align=\"center\"><center><table border=\"1\"><tbody><tr><th>CLASSIFICATION<br/>Coefficient</th><th>DÉFINITION DE L'EMPLOI<br/>(activités effectuées)</th><th>QUALIFICATION<"
         },
         "grille": [],
+        "statut": "a_verifier"
+      },
+      {
+        "idcc": "1517",
+        "id": "branch_1517",
+        "nom": "Commerces de détail non alimentaires : antiquités, brocante, galeries d'art (œuvres d'art), arts de la table, coutellerie, droguerie, équipement du foyer, bazars, commerces ménagers, modélisme, jeux, jouets, puérinatalité, maroquinerie, presse et jeux de hasard ou pronostics, produits de la vape",
+        "titre_complet": "Convention collective nationale des commerces de détail non alimentaires : antiquités, brocante, galeries d'art, arts de la table, coutellerie, droguerie, équipement du foyer, bazars, commerces ménagers, modélisme, jeux, jouets, périnatalité et maroquinerie(œuvres d'art)",
+        "effectif": 97292,
+        "date_publi": "2012-05-09",
+        "source": "https://www.legifrance.gouv.fr/search/result?query=idcc+1517",
+        "meta": {
+          "source_donnees": "kali-data",
+          "kali_id": "KALICONT000005635870",
+          "extraction_status": "ok",
+          "confidence": 0.5,
+          "quality": "fragile",
+          "source_path": "",
+          "source_excerpt": "<p align=\"left\">Dans le cadre de la convention collective nationale des commerces de détail non-alimentaires IDCC 1517, les parties signataires conviennent de fixer la grille des salaires minima mensuels pour 151,67 heures à compter du premier jour du mois qui suit la publication"
+        },
+        "grille": [
+          {
+            "niveau": "<p align=\"left\">Dans le cadre de la convention collective nationale des commerces de détail non-alimentaires IDCC 1517, ",
+            "coefficient": "1",
+            "minimum_mensuel": 1550.0,
+            "minimum_annuel": 18600.0
+          }
+        ],
+        "statut": "a_verifier"
+      },
+      {
+        "idcc": "1266",
+        "id": "branch_1266",
+        "nom": "Restauration de collectivités",
+        "titre_complet": "Convention collective nationale du personnel des entreprises de restauration de collectivités",
+        "effectif": 93662,
+        "date_publi": "1984-02-17",
+        "source": "https://www.legifrance.gouv.fr/search/result?query=idcc+1266",
+        "meta": {
+          "source_donnees": "kali-data",
+          "kali_id": "KALICONT000005635418",
+          "extraction_status": "ok",
+          "confidence": 0.35,
+          "quality": "fragile",
+          "source_path": "",
+          "source_excerpt": "<p align=\"left\">Dans une volonté de cohérence du travail de modernisation des classifications, les parties signataires conviennent d'associer aux emplois repères une grille des minima conventionnels.<br/>\nLes dispositions de l'<a href=\"/affichIDCCArticle.do?cidTexte=KALITEXT00000"
+        },
+        "grille": [
+          {
+            "niveau": "Salaire minimum mensuel (SMM)</p><p align=\"left\">Le salaire minimum mensuel (SMM) se définit comme le produit du taux ho",
+            "coefficient": null,
+            "minimum_mensuel": 2500.0,
+            "minimum_annuel": 30000.0
+          }
+        ],
+        "statut": "a_verifier"
+      },
+      {
+        "idcc": "2148",
+        "id": "branch_2148",
+        "nom": "Télécommunications",
+        "titre_complet": "Convention collective nationale des télécommunications",
+        "effectif": 88278,
+        "date_publi": "2000-11-01",
+        "source": "https://www.legifrance.gouv.fr/search/result?query=idcc+2148",
+        "meta": {
+          "source_donnees": "kali-data",
+          "kali_id": "KALICONT000005635557",
+          "extraction_status": "empty",
+          "confidence": 0.0,
+          "quality": "indisponible",
+          "source_path": null,
+          "source_excerpt": null
+        },
+        "grille": [],
+        "statut": "a_verifier"
+      },
+      {
+        "idcc": "0275",
+        "id": "branch_0275",
+        "nom": "Transport aérien : personnel au sol",
+        "titre_complet": "Convention collective nationale du personnel au sol des entreprises de transport aérien",
+        "effectif": 85188,
+        "date_publi": "1959-06-01",
+        "source": "https://www.legifrance.gouv.fr/search/result?query=idcc+0275",
+        "meta": {
+          "source_donnees": "kali-data",
+          "kali_id": "KALICONT000005635872",
+          "extraction_status": "empty",
+          "confidence": 0.15,
+          "quality": "indisponible",
+          "source_path": "",
+          "source_excerpt": "<p></p>Les parties signataires du présent avenant se sont fixées pour objectif de faire évoluer la convention collective nationale du transport aérien, personnel au sol dans un contexte économique particulièrement difficile et incertain, et d'apporter des réponses qui permettent "
+        },
+        "grille": [],
+        "statut": "a_verifier"
+      },
+      {
+        "idcc": "1147",
+        "id": "branch_1147",
+        "nom": "Personnel des cabinets médicaux",
+        "titre_complet": "Convention collective nationale du personnel des cabinets médicaux (médecin)",
+        "effectif": 83776,
+        "date_publi": "1982-02-12",
+        "source": "https://www.legifrance.gouv.fr/search/result?query=idcc+1147",
+        "meta": {
+          "source_donnees": "kali-data",
+          "kali_id": "KALICONT000005635409",
+          "extraction_status": "ok",
+          "confidence": 0.5,
+          "quality": "fragile",
+          "source_path": "",
+          "source_excerpt": "<p>1. Modification des coefficients suivants de la grille des salaires :<br/>― le coefficient 208 passe à 209, soit 1 377,31 € ;<br/>― le coefficient 212 passe à 213, soit 1 403,67 € ;<br/>― le coefficient 213 passe à 214, soit 1 410,26 € ;<br/>― le coefficient 216 passe à 217, s"
+        },
+        "grille": [
+          {
+            "niveau": "<p>1. Modification des coefficients suivants de la grille des salaires :<br/>― le coefficient 208 passe à 209, soit",
+            "coefficient": "208",
+            "minimum_mensuel": 1377.31,
+            "minimum_annuel": 16527.72
+          }
+        ],
+        "statut": "a_verifier"
+      },
+      {
+        "idcc": "2614",
+        "id": "branch_2614",
+        "nom": "Travaux publics (Tome III : ETAM)",
+        "titre_complet": "Convention collective nationale des employés, techniciens et agents de maîtrise des travaux publics",
+        "effectif": 83576,
+        "date_publi": "2006-07-12",
+        "source": "https://www.legifrance.gouv.fr/search/result?query=idcc+2614",
+        "meta": {
+          "source_donnees": "kali-data",
+          "kali_id": "KALICONT000018926209",
+          "extraction_status": "empty",
+          "confidence": 0.0,
+          "quality": "indisponible",
+          "source_path": null,
+          "source_excerpt": null
+        },
+        "grille": [],
+        "statut": "a_verifier"
+      },
+      {
+        "idcc": "2511",
+        "id": "branch_2511",
+        "nom": "Sport",
+        "titre_complet": "Convention collective nationale du sport",
+        "effectif": 80901,
+        "date_publi": "2005-07-07",
+        "source": "https://www.legifrance.gouv.fr/search/result?query=idcc+2511",
+        "meta": {
+          "source_donnees": "kali-data",
+          "kali_id": "KALICONT000017577652",
+          "extraction_status": "ok",
+          "confidence": 0.85,
+          "quality": "bonne",
+          "source_path": "",
+          "source_excerpt": "<p align=\"left\">À compter du 1er septembre 2022, les deux tableaux contenus dans l'article 12.6.2.2 de la CCNS sont modifiés de la manière suivante :</p><center><table border=\"1\"><tbody><tr><th>Classe</th><th>Majorations appliquées pour calculer<br/>\n\t\t\tle salaire minimum convent"
+        },
+        "grille": [
+          {
+            "niveau": "Technicien</td><td align=\"center\">(SMC majoré de 18,23 %) +",
+            "coefficient": null,
+            "minimum_mensuel": 1823.14,
+            "minimum_annuel": 21877.68
+          },
+          {
+            "niveau": "Technicien</td><td align=\"center\">(SMC majoré de 33,01 %) +",
+            "coefficient": null,
+            "minimum_mensuel": 2043.55,
+            "minimum_annuel": 24522.6
+          },
+          {
+            "niveau": "Agent de maîtrise</td><td align=\"center\">(SMC majoré de 37,94 %) +",
+            "coefficient": null,
+            "minimum_mensuel": 2117.07,
+            "minimum_annuel": 25404.84
+          }
+        ],
+        "statut": "conforme"
+      },
+      {
+        "idcc": "1505",
+        "id": "branch_1505",
+        "nom": "Commerce de détail alimentaire non spécialisé",
+        "titre_complet": "Convention collective nationale du commerce de détail de fruits et légumes, épicerie et produits laitiers",
+        "effectif": 80514,
+        "date_publi": "1988-04-15",
+        "source": "https://www.legifrance.gouv.fr/search/result?query=idcc+1505",
+        "meta": {
+          "source_donnees": "kali-data",
+          "kali_id": "KALICONT000005635421",
+          "extraction_status": "empty",
+          "confidence": 0.0,
+          "quality": "indisponible",
+          "source_path": null,
+          "source_excerpt": null
+        },
+        "grille": [],
+        "statut": "a_verifier"
+      },
+      {
+        "idcc": "1404",
+        "id": "branch_1404",
+        "nom": "Entreprises de la maintenance, distribution et location de matériels agricoles, de travaux publics, de bâtiment, de manutention, de motoculture de plaisance et activités connexes, dite SDLM",
+        "titre_complet": "Convention collective nationale des entreprises de commerce, de location et de réparation de tracteurs, machines et matériels agricoles, de matériels de travaux publics, de bâtiment et de manutention, de matériels de motoculture de plaisance, de jardins et d'espaces verts (SEDIMA)",
+        "effectif": 79387,
+        "date_publi": "2013-11-03",
+        "source": "https://www.legifrance.gouv.fr/search/result?query=idcc+1404",
+        "meta": {
+          "source_donnees": "kali-data",
+          "kali_id": "KALICONT000005635653",
+          "extraction_status": "ok",
+          "confidence": 0.5,
+          "quality": "fragile",
+          "source_path": "",
+          "source_excerpt": "<p></p><p align=\"center\">14.1. Salariés visés </p><p>Le forfait annuel en heures peut être conclu avec : </p><p>1° Les salariés cadres remplissant les conditions définies à l'<a href=\"/affichCodeArticle.do?cidTexte=LEGITEXT000006072050&idArticle=LEGIARTI000006647314&dateTexte=&ca"
+        },
+        "grille": [
+          {
+            "niveau": "<p></p><p align=\"center\">14.1. Salariés visés </p><p>Le forfait annuel en heures peut être conclu avec : </p><p>1° Les s",
+            "coefficient": "B70",
+            "minimum_mensuel": 1670.38,
+            "minimum_annuel": 23051.24
+          }
+        ],
+        "statut": "a_verifier"
+      },
+      {
+        "idcc": "1606",
+        "id": "branch_1606",
+        "nom": "Bricolage (vente au détail en libre-service)",
+        "titre_complet": "Convention collective nationale du bricolage",
+        "effectif": 75861,
+        "date_publi": "1988-06-15",
+        "source": "https://www.legifrance.gouv.fr/search/result?query=idcc+1606",
+        "meta": {
+          "source_donnees": "kali-data",
+          "kali_id": "KALICONT000005635871",
+          "extraction_status": "ok",
+          "confidence": 0.35,
+          "quality": "fragile",
+          "source_path": "",
+          "source_excerpt": "<p align=\"left\">L'article 3 de l'accord du 7 décembre 2021 relatif aux salaires minima conventionnels est remplacé par les dispositions ci-après et est désormais rédigé comme suit : </p><p align=\"center\">« Article 3 <br/>Grille des salaires minimaux </p><p align=\"left\">Les salair"
+        },
+        "grille": [
+          {
+            "niveau": "<p align=\"left\">L'article 3 de l'accord du 7 décembre 2021 relatif aux salaires minima conventionnels est remplacé par l",
+            "coefficient": null,
+            "minimum_mensuel": 1605.0,
+            "minimum_annuel": 31296.0
+          }
+        ],
+        "statut": "a_verifier"
+      },
+      {
+        "idcc": "0086",
+        "id": "branch_0086",
+        "nom": "Entreprises de la publicité et assimilées",
+        "titre_complet": "Convention collective nationale des entreprises de publicité et assimilées",
+        "effectif": 75306,
+        "date_publi": "1955-04-01",
+        "source": "https://www.legifrance.gouv.fr/search/result?query=idcc+0086",
+        "meta": {
+          "source_donnees": "kali-data",
+          "kali_id": "KALICONT000005635630",
+          "extraction_status": "empty",
+          "confidence": 0.0,
+          "quality": "indisponible",
+          "source_path": null,
+          "source_excerpt": null
+        },
+        "grille": [],
+        "statut": "a_verifier"
+      },
+      {
+        "idcc": "1516",
+        "id": "branch_1516",
+        "nom": "Organismes de formation",
+        "titre_complet": "Convention collective nationale des organismes de formation",
+        "effectif": 72823,
+        "date_publi": "1989-07-01",
+        "source": "https://www.legifrance.gouv.fr/search/result?query=idcc+1516",
+        "meta": {
+          "source_donnees": "kali-data",
+          "kali_id": "KALICONT000005635435",
+          "extraction_status": "empty",
+          "confidence": 0.0,
+          "quality": "indisponible",
+          "source_path": null,
+          "source_excerpt": null
+        },
+        "grille": [],
+        "statut": "a_verifier"
+      },
+      {
+        "idcc": "3127",
+        "id": "branch_3127",
+        "nom": "Entreprises de services à la personne",
+        "titre_complet": "Convention collective nationale des services à la personne du 20 septembre 2012",
+        "effectif": 70878,
+        "date_publi": "2014-11-01",
+        "source": "https://www.legifrance.gouv.fr/search/result?query=idcc+3127",
+        "meta": {
+          "source_donnees": "kali-data",
+          "kali_id": "KALICONT000027084096",
+          "extraction_status": "empty",
+          "confidence": 0.0,
+          "quality": "indisponible",
+          "source_path": null,
+          "source_excerpt": null
+        },
+        "grille": [],
+        "statut": "a_verifier"
+      },
+      {
+        "idcc": "2420",
+        "id": "branch_2420",
+        "nom": "Bâtiment Cadres",
+        "titre_complet": "Convention collective nationale des cadres du bâtiment du 1er juin 2004",
+        "effectif": 69213,
+        "date_publi": "2005-01-01",
+        "source": "https://www.legifrance.gouv.fr/search/result?query=idcc+2420",
+        "meta": {
+          "source_donnees": "kali-data",
+          "kali_id": "KALICONT000017941839",
+          "extraction_status": "empty",
+          "confidence": 0.0,
+          "quality": "indisponible",
+          "source_path": null,
+          "source_excerpt": null
+        },
+        "grille": [],
+        "statut": "a_verifier"
+      },
+      {
+        "idcc": "1483",
+        "id": "branch_1483",
+        "nom": "Commerce de détail de l'habillement et des articles textiles",
+        "titre_complet": "Convention collective nationale du commerce de détail de l'habillement et des articles textiles",
+        "effectif": 63554,
+        "date_publi": "2005-01-01",
+        "source": "https://www.legifrance.gouv.fr/search/result?query=idcc+1483",
+        "meta": {
+          "source_donnees": "kali-data",
+          "kali_id": "KALICONT000005635594",
+          "extraction_status": "ok",
+          "confidence": 0.35,
+          "quality": "fragile",
+          "source_path": "",
+          "source_excerpt": "<p align=\"left\">Le barème des rémunérations minima garanties des employés et du personnel d'encadrement (agents de maîtrise et cadres), objet de l'annexe II de la convention collective nationale du commerce de détail de l'habillement et des articles textiles du 25 novembre 1987, "
+        },
+        "grille": [
+          {
+            "niveau": "<p align=\"left\">Le barème des rémunérations minima garanties des employés et du personnel d'encadrement (agents de maîtr",
+            "coefficient": null,
+            "minimum_mensuel": 1604.0,
+            "minimum_annuel": 19248.0
+          }
+        ],
+        "statut": "a_verifier"
+      },
+      {
+        "idcc": "1043",
+        "id": "branch_1043",
+        "nom": "Gardiens, concierges et employés d'immeubles",
+        "titre_complet": "Convention collective nationale des gardiens, concierges et employés d'immeubles",
+        "effectif": 62393,
+        "date_publi": "2009-04-27",
+        "source": "https://www.legifrance.gouv.fr/search/result?query=idcc+1043",
+        "meta": {
+          "source_donnees": "kali-data",
+          "kali_id": "KALICONT000005635953",
+          "extraction_status": "ok",
+          "confidence": 0.5,
+          "quality": "fragile",
+          "source_path": "",
+          "source_excerpt": "<p>À partir du 1er juillet 2006, et pour tenir compte de la revalorisation du salaire minimum interprofessionnel de croissance, il a été convenu de geler le salaire complémentaire.</p><p>L'augmentation du salaire minimum interprofessionnel de croissance est répercutée sur le sala"
+        },
+        "grille": [
+          {
+            "niveau": "<p>À partir du 1er juillet 2006, et pour tenir compte de la revalorisation du salaire minimum interprofessionnel de croi",
+            "coefficient": "235",
+            "minimum_mensuel": 890.65,
+            "minimum_annuel": 10687.8
+          }
+        ],
+        "statut": "a_verifier"
+      },
+      {
+        "idcc": "1480",
+        "id": "branch_1480",
+        "nom": "Journalistes",
+        "titre_complet": "Convention collective nationale des journalistes",
+        "effectif": 38019,
+        "date_publi": "1987-10-27",
+        "source": "https://www.legifrance.gouv.fr/search/result?query=idcc+1480",
+        "meta": {
+          "source_donnees": "kali-data",
+          "kali_id": "KALICONT000005635444",
+          "extraction_status": "ok",
+          "confidence": 1.0,
+          "quality": "bonne",
+          "source_path": "",
+          "source_excerpt": "<p></p><p align=\"center\">Annexe<br/>\nBarème des salaires des journalistes</p><p>Augmentation applicable au 1er juillet 2022 sur le salaire réel des journalistes (base + complément personnel).</p><p>Valeur du point : + 1,8 % soit 4,127 €.</p><center><table border=\"1\"><tbody><tr><t"
+        },
+        "grille": [
+          {
+            "niveau": "(base 35 heures hebdo)</th></tr><tr><th>Grille</th><th>Minima</th></tr><tr><td>Journaliste stagiaire (1er-12e mois)</td>",
+            "coefficient": "413",
+            "minimum_mensuel": 1704.45,
+            "minimum_annuel": 20453.4
+          }
+        ],
+        "statut": "conforme"
+      },
+      {
+        "idcc": "3239",
+        "id": "branch_3239",
+        "nom": "Particuliers employeurs et emploi à domicile",
+        "titre_complet": "Convention collective de la branche du secteur des particuliers employeurs et de l’emploi à domicile",
+        "effectif": 1173,
+        "date_publi": "2022-01-01",
+        "source": "https://www.legifrance.gouv.fr/search/result?query=idcc+3239",
+        "meta": {
+          "source_donnees": "kali-data",
+          "kali_id": "KALICONT000044594539",
+          "extraction_status": "ok",
+          "confidence": 0.35,
+          "quality": "fragile",
+          "source_path": "",
+          "source_excerpt": "<p align=\"left\">À l'article 1er « Salaires minima conventionnels bruts », dans la dernière colonne du tableau, intitulée « Salaire mensuel brut incluant la majoration pour certification professionnelle de branche (174 heures) » :<br/>\n– la ligne niveau III : 2   115,84 € est remp"
+        },
+        "grille": [
+          {
+            "niveau": "– la ligne niveau III : 2  ",
+            "coefficient": null,
+            "minimum_mensuel": 2162.82,
+            "minimum_annuel": 25953.84
+          },
+          {
+            "niveau": "– la ligne niveau IV : 2  ",
+            "coefficient": null,
+            "minimum_mensuel": 2197.62,
+            "minimum_annuel": 26371.44
+          }
+        ],
+        "statut": "a_verifier"
+      },
+      {
+        "idcc": "0029",
+        "id": "branch_0029",
+        "nom": "Hospitalisation privée : établissements privés d'hospitalisation, de soins, de cure et de garde à but non lucratif (FEHAP)",
+        "titre_complet": "Convention collective nationale des établissements privés d'hospitalisation, de soins, de cure et de garde à but non lucratif (FEHAP, convention de 1951)",
+        "effectif": null,
+        "date_publi": "",
+        "source": "https://www.legifrance.gouv.fr/search/result?query=idcc+0029",
+        "meta": {
+          "source_donnees": "kali-data",
+          "kali_id": "KALICONT000005635234",
+          "extraction_status": "ok",
+          "confidence": 0.35,
+          "quality": "fragile",
+          "source_path": "",
+          "source_excerpt": "<p align=\"left\"><br/>Le salaire minimum conventionnel mensuel brut, visé à l'<a href=\"/affichIDCCArticle.do?cidTexte=KALITEXT000029432803&idArticle=KALIARTI000029432830&categorieLien=cid\" title=\"Reconstitution du socle conventionnel - art. 7 bis (VNE)\">article 7 bis de l'avenant "
+        },
+        "grille": [
+          {
+            "niveau": "<p align=\"left\"><br/>Le salaire minimum conventionnel mensuel brut, visé à l'<a href=\"/affichIDCCArticle.do?cidTexte=KAL",
+            "coefficient": null,
+            "minimum_mensuel": 1463.0,
+            "minimum_annuel": 17556.0
+          }
+        ],
         "statut": "a_verifier"
       }
     ]
@@ -21455,7 +21092,7 @@
     "sources": "INSEE - Enquête Emploi, DARES"
   },
   "previsions_cftc": {
-    "generated_at": "2026-04-02T10:00:37.411803",
+    "generated_at": "2026-04-02T11:45:47.104628",
     "model_version": "CFTC v7.0 (bivarié Phillips + log-normale + pondération temporelle)",
     "n_simulations": 1000,
     "horizon": "12 mois",
@@ -21464,7 +21101,7 @@
       "niveau": "excellent",
       "issues": [],
       "warnings": [],
-      "timestamp": "2026-04-02T10:00:37.411819"
+      "timestamp": "2026-04-02T11:45:47.104641"
     },
     "calibrage": {
       "volatilites": {
@@ -21492,7 +21129,7 @@
       "lognormal_offset": 3.0
     },
     "market_signals": {
-      "inflation_adjustment": 0.22,
+      "inflation_adjustment": 0.239,
       "chomage_adjustment": 0.175,
       "energie_outlook": "hausse",
       "ponderation_temporelle": {
@@ -21504,16 +21141,16 @@
     },
     "market_signals_details": {
       "brent": {
-        "valeur": 108.65,
+        "valeur": 109.56,
         "ref": 75.0,
-        "variation_ytd_pct": 78.85,
-        "impact_inflation_pt": 0.337,
+        "variation_ytd_pct": 80.35,
+        "impact_inflation_pt": 0.346,
         "poids_temporel": 1.0
       },
       "gaz_ttf": {
-        "valeur": 48.9,
+        "valeur": 50.76,
         "ref": 35.0,
-        "impact_inflation_pt": 0.069,
+        "impact_inflation_pt": 0.079,
         "poids_temporel": 1.0
       },
       "eurusd": {
@@ -21534,7 +21171,7 @@
         "signal": "baissier"
       },
       "cac40_ytd": {
-        "variation_ytd_pct": -3.56,
+        "variation_ytd_pct": -3.84,
         "signal_chomage": "neutre"
       },
       "carburants_sp95": {
@@ -21600,7 +21237,7 @@
           1.2,
           1.3,
           1.5,
-          1.6,
+          1.7,
           1.9,
           1.9,
           1.9,
@@ -21618,8 +21255,8 @@
           1.3,
           1.3,
           1.3,
-          1.2,
           1.3,
+          1.4,
           1.4,
           1.4,
           1.4
@@ -21655,18 +21292,18 @@
         "methodology": "Monte Carlo bivarié (1000 sim.) + log-normale + Phillips ρ=-0.35 (v7)"
       },
       "probabilites": {
-        "inflation_sous_2pct": 84.4,
-        "inflation_cible_bce": 84.4,
+        "inflation_sous_2pct": 83.4,
+        "inflation_cible_bce": 83.4,
         "inflation_au_dessus_3pct": 0.0,
         "inflation_au_dessus_4pct": 0.0,
-        "description": "84.4% de chances que l'inflation reste sous 2% à 12 mois"
+        "description": "83.4% de chances que l'inflation reste sous 2% à 12 mois"
       },
       "facteurs": {
         "cible_bdf": 1.4,
         "ajustement_climat": -0.03,
-        "ajustement_marches": 0.22,
+        "ajustement_marches": 0.239,
         "energie_outlook": "hausse",
-        "cible_ajustee": 1.59,
+        "cible_ajustee": 1.609,
         "volatilite_utilisee": 0.5
       },
       "asymetrie_ic": {
@@ -21674,7 +21311,7 @@
         "queue_basse": 0.4,
         "ratio": 1.25
       },
-      "insight": "Inflation médiane à 12 mois : 1.6% [IC 80% : 1.2% - 2.1%]. Asymétrie : queue haute 0.5pt vs basse 0.4pt. 84.4% de probabilité de rester sous 2%."
+      "insight": "Inflation médiane à 12 mois : 1.6% [IC 80% : 1.2% - 2.1%]. Asymétrie : queue haute 0.5pt vs basse 0.4pt. 83.4% de probabilité de rester sous 2%."
     },
     "smic": {
       "current": {
@@ -21881,35 +21518,35 @@
       }
     },
     "notes_lecture": [
-      "📈 Inflation médiane à 12 mois : 1.6% [1.2% - 2.1%] — 84.4% de chances de rester sous 2% (asymétrie : +0.5pt / -0.4pt)",
+      "📈 Inflation médiane à 12 mois : 1.6% [1.2% - 2.1%] — 83.4% de chances de rester sous 2% (asymétrie : +0.5pt / -0.4pt)",
       "💰 SMIC janvier 2027 : 1859€ brut (+2.0%, fourchette 1.6-2.5%) — Pouvoir d'achat réel : +0.4% (+7€/mois)",
       "👥 Chômage Q4 : 7.8% [7.6% - 7.9%] — Tendance stable (corrélé Phillips ρ=-0.35)",
-      "📊 Signaux marchés : ↑ inflation 0.22pt, ↑ chômage 0.17pt, (poids temporel min : 1.00)",
+      "📊 Signaux marchés : ↑ inflation 0.24pt, ↑ chômage 0.17pt, (poids temporel min : 1.00)",
       "🎲 Scénario à surveiller : 🚀 Reprise économique forte (25%)",
       "💡 Recommandation NAO : demander au minimum +2.1% pour préserver le pouvoir d'achat"
     ],
     "uncertainty_decomposition": {
       "inflation": {
-        "ic_total_pts": 0.9,
+        "ic_total_pts": 0.8,
         "sources": {
           "volatilite_historique": {
-            "ic_pts": 0.72,
-            "part_pct": 80.0,
+            "ic_pts": 0.7,
+            "part_pct": 87.5,
             "label": "Variabilité passée de l'inflation"
           },
           "signaux_marches": {
-            "ic_pts": 0.09,
-            "part_pct": 10.0,
+            "ic_pts": 0.0,
+            "part_pct": 0.0,
             "label": "Brent, gaz, EUR/USD, SMB..."
           },
           "incertitude_bdf": {
-            "ic_pts": 0.09,
-            "part_pct": 10.0,
+            "ic_pts": 0.1,
+            "part_pct": 12.5,
             "label": "Structure log-normale + résiduel"
           }
         },
         "contribution_mediane": {
-          "signaux_marches_pt": 0.22,
+          "signaux_marches_pt": 0.239,
           "incertitude_bdf_sigma": 0.15,
           "label": "Déplacement de la prévision centrale"
         }
