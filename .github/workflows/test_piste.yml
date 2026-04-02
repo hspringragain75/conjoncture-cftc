@@ -31,26 +31,60 @@ jobs:
               token = json.loads(r.read())["access_token"]
 
           BASE = "https://api.piste.gouv.fr/dila/legifrance/lf-engine-app"
-          headers = {
+          H = {
               "Authorization": f"Bearer {token}",
               "Content-Type": "application/json",
               "Accept": "application/json",
           }
 
-          # Chercher "convention collective nationale" dans le titre
-          # pour cibler uniquement les CCN et pas les avenants
-          payload = {
-              "fond": "KALI",
-              "recherche": {
-                  "champs": [{
-                      "typeChamp": "TITRE",
-                      "criteres": [{
-                          "typeRecherche": "EXACTE",
-                          "valeur": "convention collective nationale",
+          def post(payload):
+              req = urllib.request.Request(
+                  f"{BASE}/search",
+                  data=json.dumps(payload).encode(),
+                  headers=H
+              )
+              try:
+                  with urllib.request.urlopen(req, timeout=20) as r:
+                      return json.loads(r.read()), None
+              except urllib.error.HTTPError as e:
+                  return None, f"HTTP {e.code}: {e.read().decode()[:200]}"
+
+          # Test 1 : recherche titre avec TOUS_LES_MOTS
+          for type_recherche in ["TOUS_LES_MOTS_DANS_UN_CHAMP", "UN_DES_MOTS_DANS_UN_CHAMP"]:
+              result, err = post({
+                  "fond": "KALI",
+                  "recherche": {
+                      "champs": [{
+                          "typeChamp": "TITRE",
+                          "criteres": [{
+                              "typeRecherche": type_recherche,
+                              "valeur": "convention collective nationale",
+                              "operateur": "ET"
+                          }],
                           "operateur": "ET"
                       }],
-                      "operateur": "ET"
-                  }],
+                      "operateur": "ET",
+                      "pageNumber": 1,
+                      "pageSize": 5,
+                      "sort": "PERTINENCE",
+                      "typePagination": "DEFAUT",
+                      "fromAdvancedRecherche": False
+                  }
+              })
+              if result:
+                  print(f"\n✅ {type_recherche}: total={result.get('totalResultNumber')}")
+                  for item in (result.get("results") or [])[:3]:
+                      t = (item.get("titles") or [{}])[0]
+                      print(f"  etat={item.get('etat')} idcc={item.get('idcc')} conforme={item.get('conforme')}")
+                      print(f"  titre: {t.get('title','')[:80]}")
+              else:
+                  print(f"❌ {type_recherche}: {err[:150]}")
+
+          # Test 2 : sans filtre, juste regarder etat/idcc sur les 10 premiers
+          result, err = post({
+              "fond": "KALI",
+              "recherche": {
+                  "champs": [],
                   "operateur": "ET",
                   "pageNumber": 1,
                   "pageSize": 10,
@@ -58,20 +92,10 @@ jobs:
                   "typePagination": "DEFAUT",
                   "fromAdvancedRecherche": False
               }
-          }
-
-          req = urllib.request.Request(
-              f"{BASE}/search",
-              data=json.dumps(payload).encode(),
-              headers=headers
-          )
-          with urllib.request.urlopen(req, timeout=20) as r:
-              result = json.loads(r.read())
-
-          print(f"Total 'convention collective nationale' dans titre: {result.get('totalResultNumber')}")
-          print()
-          for item in (result.get("results") or []):
-              t = (item.get("titles") or [{}])[0]
-              print(f"id={t.get('id')} etat={item.get('etat')} idcc={item.get('idcc')} conforme={item.get('conforme')}")
-              print(f"  titre: {t.get('title','')[:80]}")
+          })
+          if result:
+              print(f"\n📋 10 premiers résultats KALI bruts :")
+              for item in (result.get("results") or []):
+                  t = (item.get("titles") or [{}])[0]
+                  print(f"  etat={item.get('etat')!r:20} idcc={str(item.get('idcc'))!r:8} type={item.get('type')!r:15} titre={t.get('title','')[:50]}")
           EOF
