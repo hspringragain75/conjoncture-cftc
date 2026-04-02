@@ -15,7 +15,6 @@ jobs:
           python3 - << 'EOF'
           import urllib.request, urllib.parse, json, os
 
-          # Token
           data = urllib.parse.urlencode({
               "grant_type": "client_credentials",
               "client_id": os.environ["PISTE_CLIENT_ID"],
@@ -30,40 +29,71 @@ jobs:
               ), timeout=15
           ) as r:
               token = json.loads(r.read())["access_token"]
-          print(f"✅ Token OK")
+          print("✅ Token OK")
 
-          # Liste CCN
-          payload = json.dumps({
-              "fond": "KALI",
-              "recherche": {
-                  "champs": [],
-                  "filtres": [{"facette": "ETAT", "valeur": "VIGUEUR_ETEN"}],
-                  "operateur": "ET",
-                  "pageNumber": 1,
-                  "pageSize": 10,
-                  "sort": "PERTINENCE",
-                  "typePagination": "DEFAUT",
-                  "fromAdvancedRecherche": False
-              }
-          }).encode()
-          with urllib.request.urlopen(
-              urllib.request.Request(
-                  "https://api.piste.gouv.fr/dila/legifrance/lf-engine-app/search",
-                  data=payload,
-                  headers={
-                      "Authorization": f"Bearer {token}",
-                      "Content-Type": "application/json",
-                      "Accept": "application/json",
+          BASE = "https://api.piste.gouv.fr/dila/legifrance/lf-engine-app"
+
+          # Test 1 : recherche KALI sans filtre
+          for label, payload in [
+              ("KALI sans filtre", {
+                  "fond": "KALI",
+                  "recherche": {
+                      "champs": [],
+                      "operateur": "ET",
+                      "pageNumber": 1,
+                      "pageSize": 5,
+                      "sort": "PERTINENCE",
+                      "typePagination": "DEFAUT",
+                      "fromAdvancedRecherche": False
                   }
-              ), timeout=20
-          ) as r:
-              result = json.loads(r.read())
-
-          print(f"Total CCN: {result.get('totalResultNumber', '?')}")
-          print(f"Clés réponse: {list(result.keys())}")
-          if result.get("results"):
-              print(f"\nPremier résultat:")
-              print(json.dumps(result["results"][0], indent=2, ensure_ascii=False))
-          else:
-              print(f"Réponse complète: {json.dumps(result, indent=2, ensure_ascii=False)[:2000]}")
+              }),
+              ("KALI_CONT sans filtre", {
+                  "fond": "KALI_CONT",
+                  "recherche": {
+                      "champs": [],
+                      "operateur": "ET",
+                      "pageNumber": 1,
+                      "pageSize": 5,
+                      "sort": "PERTINENCE",
+                      "typePagination": "DEFAUT",
+                      "fromAdvancedRecherche": False
+                  }
+              }),
+              ("KALI avec NATURE=IDCC", {
+                  "fond": "KALI",
+                  "recherche": {
+                      "champs": [],
+                      "filtres": [{"facette": "NATURE", "valeur": "IDCC"}],
+                      "operateur": "ET",
+                      "pageNumber": 1,
+                      "pageSize": 5,
+                      "sort": "PERTINENCE",
+                      "typePagination": "DEFAUT",
+                      "fromAdvancedRecherche": False
+                  }
+              }),
+          ]:
+              try:
+                  req = urllib.request.Request(
+                      f"{BASE}/search",
+                      data=json.dumps(payload).encode(),
+                      headers={
+                          "Authorization": f"Bearer {token}",
+                          "Content-Type": "application/json",
+                          "Accept": "application/json",
+                      }
+                  )
+                  with urllib.request.urlopen(req, timeout=20) as r:
+                      result = json.loads(r.read())
+                  total = result.get("totalResultNumber", "?")
+                  keys = list(result.keys())
+                  print(f"\n✅ {label}: total={total} clés={keys}")
+                  if result.get("results"):
+                      first = result["results"][0]
+                      print(f"   Premier: {json.dumps(first, ensure_ascii=False)[:300]}")
+              except urllib.error.HTTPError as e:
+                  body = e.read().decode("utf-8", errors="replace")[:200]
+                  print(f"\n❌ {label}: HTTP {e.code} — {body}")
+              except Exception as e:
+                  print(f"\n❌ {label}: {e}")
           EOF
