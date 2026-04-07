@@ -1,6 +1,6 @@
 {
-  "last_updated": "07/04/2026 13:52",
-  "last_updated_iso": "2026-04-07T13:52:07.907477",
+  "last_updated": "07/04/2026 14:00",
+  "last_updated_iso": "2026-04-07T14:00:02.477693",
   "contact": "hspringragain@cftc.fr",
   "alertes": [
     {
@@ -32,7 +32,7 @@
       "date": "2026-04-07",
       "type": "info",
       "titre": "🔄 Données actualisées",
-      "message": "Le tableau de bord a été mis à jour le 07/04/2026 à 13:52.",
+      "message": "Le tableau de bord a été mis à jour le 07/04/2026 à 13:59.",
       "onglet": "conjoncture"
     }
   ],
@@ -204,7 +204,7 @@
     }
   ],
   "revue_presse": {
-    "derniere_maj": "07/04/2026 13:52",
+    "derniere_maj": "07/04/2026 14:00",
     "nb_sources": 7,
     "sources_noms": [
       "Le Monde Éco",
@@ -251,6 +251,18 @@
         "resume": "L’accident a eu lieu vers 7 heures à un passage à niveau de Mazingarbe, entre Béthune et Lens, impliquant un camion d’un convoi exceptionnel de l’armée. Deux cent quarante-six passagers étaient présents à bord du train, ainsi que deux personnels de bord.",
         "lien": "https://www.lemonde.fr/economie/article/2026/04/07/accident-entre-un-tgv-et-un-poids-lourd-dans-le-pas-de-calais-le-conducteur-du-train-est-mort-deux-personnes-en-urgence-absolue_6677861_3235.html",
         "date_iso": "2026-04-07T15:17:30+02:00",
+        "date_fr": "07/04/2026",
+        "pertinence": 0
+      },
+      {
+        "source": "Le Figaro Éco",
+        "couleur": "#92400e",
+        "emoji": "📊",
+        "tag": "Presse économique",
+        "titre": "Guerre au Moyen-Orient : les réparations des installations énergétiques vont «prendre longtemps», prévient l'Opep+",
+        "resume": "Certains membres de l’Organisation des pays exportateurs de pétrole ont également décidé d’augmenter les quotas de production de pétrole à partir de mai.",
+        "lien": "https://www.lefigaro.fr/conjoncture/guerre-au-moyen-orient-les-reparations-des-installations-energetiques-vont-prendre-longtemps-previent-l-opep-20260405",
+        "date_iso": "2026-04-07T15:09:03+02:00",
         "date_fr": "07/04/2026",
         "pertinence": 0
       },
@@ -589,18 +601,6 @@
         "date_iso": "2026-04-07T07:22:05+00:00",
         "date_fr": "07/04/2026",
         "pertinence": 1
-      },
-      {
-        "source": "Euractiv FR",
-        "couleur": "#0369a1",
-        "emoji": "🇪🇺",
-        "tag": "Europe & politique",
-        "titre": "L’affaire Rima Hassan interroge l’immunité des députés européens et leur liberté d’expression",
-        "resume": "Cette affaire relance le débat sur les limites du contrôle des discours en France au nom de la lutte antiterroriste The post L’affaire Rima Hassan interroge l’immunité des députés européens et leur liberté d’expression appeared first on Euractiv FR .",
-        "lien": "https://euractiv.fr/news/laffaire-rima-hassan-interroge-limmunite-des-deputes-europeens-et-leur-liberte-dexpression/",
-        "date_iso": "2026-04-07T07:06:57+00:00",
-        "date_fr": "07/04/2026",
-        "pertinence": 0
       }
     ]
   },
@@ -2933,7 +2933,7 @@
       "note_lecture": "Le TEC-10 mesure le rendement des emprunts d'Etat francais a 10 ans. Un taux eleve rencherit le cout de la dette publique et impacte les taux de credit immobilier."
     },
     "petrole_brent": {
-      "valeur": 110.58,
+      "valeur": 110.48,
       "date": "2026-04-07",
       "unite": "USD/baril",
       "source": "Yahoo Finance",
@@ -4447,16 +4447,16 @@
         },
         {
           "date": "2026-04-07",
-          "valeur": 110.58,
+          "valeur": 110.48,
           "ma50": 85.67,
           "ma200": 70.56
         }
       ],
       "variations": {
-        "jour": 0.74,
-        "semaine": -1.95,
-        "mois": 29.47,
-        "ytd": 82.02
+        "jour": 0.65,
+        "semaine": -2.04,
+        "mois": 29.35,
+        "ytd": 81.86
       },
       "min_max": {
         "min": 58.92,
@@ -4467,9 +4467,9 @@
       "note_lecture": "Le prix du Brent influence directement les couts de transport et d'energie, donc l'inflation et le pouvoir d'achat des salaries."
     },
     "cac40": {
-      "valeur": 7959.0,
+      "valeur": 7948.79,
       "date": "2026-04-07",
-      "variation_jour_pct": -0.04,
+      "variation_jour_pct": -0.17,
       "unite": "points",
       "source": "Yahoo Finance",
       "nb_points": 254,
@@ -5994,16 +5994,16 @@
         },
         {
           "date": "2026-04-07",
-          "valeur": 7959.0,
-          "ma50": 8126.96,
-          "ma200": 8003.11
+          "valeur": 7948.79,
+          "ma50": 8126.76,
+          "ma200": 8003.06
         }
       ],
       "variations": {
-        "jour": -0.04,
-        "semaine": 3.34,
-        "mois": -2.56,
-        "ytd": -2.88
+        "jour": -0.17,
+        "semaine": 3.2,
+        "mois": -2.68,
+        "ytd": -3.01
       },
       "min_max": {
         "min": 6863.02,
@@ -7584,7 +7584,7 @@
       "note_lecture": "Le taux de change euro-dollar determine le prix de tout ce qui est importe en dollars : petrole, matieres premieres, electronique. Un euro faible rencherit les importations et alimente l'inflation."
     },
     "or": {
-      "valeur": 4663.5,
+      "valeur": 4671.5,
       "date": "2026-04-07",
       "unite": "USD/oz",
       "source": "Yahoo Finance",
@@ -9098,16 +9098,16 @@
         },
         {
           "date": "2026-04-07",
-          "valeur": 4663.5,
-          "ma50": 4925.98,
-          "ma200": 4128.94
+          "valeur": 4671.5,
+          "ma50": 4926.14,
+          "ma200": 4128.98
         }
       ],
       "variations": {
-        "jour": 0.14,
-        "semaine": 3.04,
-        "mois": -7.93,
-        "ytd": 8.09
+        "jour": 0.32,
+        "semaine": 3.21,
+        "mois": -7.77,
+        "ytd": 8.28
       },
       "min_max": {
         "min": 2951.3,
@@ -10646,7 +10646,7 @@
       "note_lecture": "Le prix du gaz naturel (TTF europeen) impacte directement les factures de chauffage et d'electricite des menages, ainsi que les couts de production industrielle."
     },
     "ble": {
-      "valeur": 596.75,
+      "valeur": 598.75,
       "date": "2026-04-07",
       "unite": "cents/boisseau",
       "source": "Yahoo Finance",
@@ -12154,16 +12154,16 @@
         },
         {
           "date": "2026-04-07",
-          "valeur": 596.75,
-          "ma50": 571.38,
-          "ma200": 534.14
+          "valeur": 598.75,
+          "ma50": 571.42,
+          "ma200": 534.15
         }
       ],
       "variations": {
-        "jour": 0.25,
-        "semaine": -1.69,
-        "mois": 2.4,
-        "ytd": 17.82
+        "jour": 0.59,
+        "semaine": -1.36,
+        "mois": 2.75,
+        "ytd": 18.21
       },
       "min_max": {
         "min": 495.0,
@@ -12174,7 +12174,7 @@
       "note_lecture": "Le cours du ble est un indicateur avance des prix alimentaires. La France etant le premier producteur europeen, son evolution impacte a la fois les consommateurs et le secteur agricole."
     },
     "lme_cuivre": {
-      "valeur": 5.58,
+      "valeur": 5.59,
       "date": "2026-04-07",
       "unite": "cts/lb",
       "source": "Yahoo Finance",
@@ -13688,16 +13688,16 @@
         },
         {
           "date": "2026-04-07",
-          "valeur": 5.58,
+          "valeur": 5.59,
           "ma50": 5.76,
           "ma200": 5.25
         }
       ],
       "variations": {
-        "jour": 0.0,
-        "semaine": 1.82,
-        "mois": -2.96,
-        "ytd": -1.06
+        "jour": 0.18,
+        "semaine": 2.01,
+        "mois": -2.78,
+        "ytd": -0.89
       },
       "min_max": {
         "min": 4.13,
@@ -13708,7 +13708,7 @@
       "note_lecture": "Le cuivre est le baromètre de l'activité industrielle mondiale ('Dr Copper'). Sa hausse signale une reprise économique, sa baisse anticipe un ralentissement. Utilisé massivement dans l'électrification et les énergies renouvelables."
     },
     "lme_aluminium": {
-      "valeur": 3424.25,
+      "valeur": 3420.75,
       "date": "2026-04-07",
       "unite": "cts/lb",
       "source": "Yahoo Finance",
@@ -15216,16 +15216,16 @@
         },
         {
           "date": "2026-04-07",
-          "valeur": 3424.25,
-          "ma50": 3158.51,
-          "ma200": 2795.55
+          "valeur": 3420.75,
+          "ma50": 3158.45,
+          "ma200": 2795.54
         }
       ],
       "variations": {
-        "jour": 0.07,
-        "semaine": 2.64,
-        "mois": 6.48,
-        "ytd": 16.55
+        "jour": -0.04,
+        "semaine": 2.53,
+        "mois": 6.37,
+        "ytd": 16.43
       },
       "min_max": {
         "min": 2166.25,
@@ -19031,7 +19031,7 @@
     "meta": {
       "source_effectifs": "DSN via kali-data",
       "source_grilles": "SocialGouv kali-data (extraction automatique)",
-      "date_generation": "2026-04-07T13:52:28.810243",
+      "date_generation": "2026-04-07T14:00:40.013365",
       "mode": "100pct_automatique",
       "note": "Extraction heuristique depuis textes juridiques KALI. Statut a_verifier si grille non extraite ou confidence < 55%."
     },
@@ -21087,7 +21087,7 @@
     "sources": "INSEE - Enquête Emploi, DARES"
   },
   "previsions_cftc": {
-    "generated_at": "2026-04-07T13:52:28.926504",
+    "generated_at": "2026-04-07T14:00:40.149449",
     "model_version": "CFTC v7.0 (bivarié Phillips + log-normale + pondération temporelle)",
     "n_simulations": 1000,
     "horizon": "12 mois",
@@ -21096,7 +21096,7 @@
       "niveau": "excellent",
       "issues": [],
       "warnings": [],
-      "timestamp": "2026-04-07T13:52:28.926536"
+      "timestamp": "2026-04-07T14:00:40.149482"
     },
     "calibrage": {
       "volatilites": {
@@ -21124,7 +21124,7 @@
       "lognormal_offset": 3.0
     },
     "market_signals": {
-      "inflation_adjustment": 0.24,
+      "inflation_adjustment": 0.239,
       "chomage_adjustment": 0.175,
       "energie_outlook": "hausse",
       "ponderation_temporelle": {
@@ -21136,10 +21136,10 @@
     },
     "market_signals_details": {
       "brent": {
-        "valeur": 110.58,
+        "valeur": 110.48,
         "ref": 75.0,
-        "variation_ytd_pct": 82.02,
-        "impact_inflation_pt": 0.356,
+        "variation_ytd_pct": 81.86,
+        "impact_inflation_pt": 0.355,
         "poids_temporel": 1.0
       },
       "gaz_ttf": {
@@ -21166,7 +21166,7 @@
         "signal": "baissier"
       },
       "cac40_ytd": {
-        "variation_ytd_pct": -2.88,
+        "variation_ytd_pct": -3.01,
         "signal_chomage": "neutre"
       },
       "carburants_sp95": {
@@ -21287,18 +21287,18 @@
         "methodology": "Monte Carlo bivarié (1000 sim.) + log-normale + Phillips ρ=-0.35 (v7)"
       },
       "probabilites": {
-        "inflation_sous_2pct": 83.9,
-        "inflation_cible_bce": 83.9,
+        "inflation_sous_2pct": 84.0,
+        "inflation_cible_bce": 84.0,
         "inflation_au_dessus_3pct": 0.1,
         "inflation_au_dessus_4pct": 0.0,
-        "description": "83.9% de chances que l'inflation reste sous 2% à 12 mois"
+        "description": "84.0% de chances que l'inflation reste sous 2% à 12 mois"
       },
       "facteurs": {
         "cible_bdf": 1.4,
         "ajustement_climat": -0.03,
-        "ajustement_marches": 0.24,
+        "ajustement_marches": 0.239,
         "energie_outlook": "hausse",
-        "cible_ajustee": 1.61,
+        "cible_ajustee": 1.609,
         "volatilite_utilisee": 0.5
       },
       "asymetrie_ic": {
@@ -21306,7 +21306,7 @@
         "queue_basse": 0.5,
         "ratio": 0.8
       },
-      "insight": "Inflation médiane à 12 mois : 1.7% [IC 80% : 1.2% - 2.1%]. Asymétrie : queue haute 0.4pt vs basse 0.5pt. 83.9% de probabilité de rester sous 2%."
+      "insight": "Inflation médiane à 12 mois : 1.7% [IC 80% : 1.2% - 2.1%]. Asymétrie : queue haute 0.4pt vs basse 0.5pt. 84.0% de probabilité de rester sous 2%."
     },
     "smic": {
       "current": {
@@ -21513,7 +21513,7 @@
       }
     },
     "notes_lecture": [
-      "📈 Inflation médiane à 12 mois : 1.7% [1.2% - 2.1%] — 83.9% de chances de rester sous 2% (asymétrie : +0.4pt / -0.5pt)",
+      "📈 Inflation médiane à 12 mois : 1.7% [1.2% - 2.1%] — 84.0% de chances de rester sous 2% (asymétrie : +0.4pt / -0.5pt)",
       "💰 SMIC janvier 2027 : 1861€ brut (+2.1%, fourchette 1.6-2.5%) — Pouvoir d'achat réel : +0.4% (+7€/mois)",
       "👥 Chômage Q4 : 7.8% [7.6% - 7.9%] — Tendance stable (corrélé Phillips ρ=-0.35)",
       "📊 Signaux marchés : ↑ inflation 0.24pt, ↑ chômage 0.17pt, (poids temporel min : 0.95)",
@@ -21541,7 +21541,7 @@
           }
         },
         "contribution_mediane": {
-          "signaux_marches_pt": 0.24,
+          "signaux_marches_pt": 0.239,
           "incertitude_bdf_sigma": 0.15,
           "label": "Déplacement de la prévision centrale"
         }
