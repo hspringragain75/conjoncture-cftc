@@ -2575,6 +2575,17 @@ def build_changelog():
     
     changelog = [
         {
+            "version": "3.1.2",
+            "date": "2026-04-07",
+            "modifications": [
+                {
+                    "type": "breaking",
+                    "titre": "bug de l'onglet favoris",
+                    "description": "Le bug de l'onglet favoris est désormais corrigé !"
+                }, 
+            ]
+        },        
+        {
             "version": "3.1.1",
             "date": "2026-03-24",
             "modifications": [
