@@ -1,6 +1,6 @@
 {
-  "last_updated": "07/04/2026 18:20",
-  "last_updated_iso": "2026-04-07T18:20:21.994712",
+  "last_updated": "07/04/2026 18:27",
+  "last_updated_iso": "2026-04-07T18:27:56.061446",
   "contact": "hspringragain@cftc.fr",
   "alertes": [
     {
@@ -32,7 +32,7 @@
       "date": "2026-04-07",
       "type": "info",
       "titre": "🔄 Données actualisées",
-      "message": "Le tableau de bord a été mis à jour le 07/04/2026 à 18:20.",
+      "message": "Le tableau de bord a été mis à jour le 07/04/2026 à 18:27.",
       "onglet": "conjoncture"
     }
   ],
@@ -204,7 +204,7 @@
     }
   ],
   "revue_presse": {
-    "derniere_maj": "07/04/2026 18:20",
+    "derniere_maj": "07/04/2026 18:27",
     "nb_sources": 7,
     "sources_noms": [
       "Le Monde Éco",
@@ -2908,7 +2908,7 @@
       "note_lecture": "Le TEC-10 mesure le rendement des emprunts d'Etat francais a 10 ans. Un taux eleve rencherit le cout de la dette publique et impacte les taux de credit immobilier."
     },
     "petrole_brent": {
-      "valeur": 109.6,
+      "valeur": 109.61,
       "date": "2026-04-07",
       "unite": "USD/baril",
       "source": "Yahoo Finance",
@@ -4422,16 +4422,16 @@
         },
         {
           "date": "2026-04-07",
-          "valeur": 109.6,
+          "valeur": 109.61,
           "ma50": 85.65,
           "ma200": 70.56
         }
       ],
       "variations": {
         "jour": -0.15,
-        "semaine": -2.82,
-        "mois": 28.32,
-        "ytd": 80.41
+        "semaine": -2.81,
+        "mois": 28.33,
+        "ytd": 80.43
       },
       "min_max": {
         "min": 58.92,
@@ -7559,7 +7559,7 @@
       "note_lecture": "Le taux de change euro-dollar determine le prix de tout ce qui est importe en dollars : petrole, matieres premieres, electronique. Un euro faible rencherit les importations et alimente l'inflation."
     },
     "or": {
-      "valeur": 4705.0,
+      "valeur": 4706.5,
       "date": "2026-04-07",
       "unite": "USD/oz",
       "source": "Yahoo Finance",
@@ -9073,16 +9073,16 @@
         },
         {
           "date": "2026-04-07",
-          "valeur": 4705.0,
-          "ma50": 4926.81,
+          "valeur": 4706.5,
+          "ma50": 4926.84,
           "ma200": 4129.15
         }
       ],
       "variations": {
-        "jour": 1.04,
-        "semaine": 3.95,
-        "mois": -7.11,
-        "ytd": 9.05
+        "jour": 1.07,
+        "semaine": 3.99,
+        "mois": -7.08,
+        "ytd": 9.09
       },
       "min_max": {
         "min": 2951.3,
@@ -10621,7 +10621,7 @@
       "note_lecture": "Le prix du gaz naturel (TTF europeen) impacte directement les factures de chauffage et d'electricite des menages, ainsi que les couts de production industrielle."
     },
     "ble": {
-      "valeur": 599.0,
+      "valeur": 598.25,
       "date": "2026-04-07",
       "unite": "cents/boisseau",
       "source": "Yahoo Finance",
@@ -12129,16 +12129,16 @@
         },
         {
           "date": "2026-04-07",
-          "valeur": 599.0,
-          "ma50": 571.42,
-          "ma200": 534.15
+          "valeur": 598.25,
+          "ma50": 571.41,
+          "ma200": 534.14
         }
       ],
       "variations": {
-        "jour": 0.63,
-        "semaine": -1.32,
-        "mois": 2.79,
-        "ytd": 18.26
+        "jour": 0.5,
+        "semaine": -1.44,
+        "mois": 2.66,
+        "ytd": 18.11
       },
       "min_max": {
         "min": 495.0,
@@ -19006,7 +19006,7 @@
     "meta": {
       "source_effectifs": "DSN via kali-data",
       "source_grilles": "SocialGouv kali-data (extraction automatique)",
-      "date_generation": "2026-04-07T18:20:50.680713",
+      "date_generation": "2026-04-07T18:28:26.559405",
       "mode": "100pct_automatique",
       "note": "Extraction heuristique depuis textes juridiques KALI. Statut a_verifier si grille non extraite ou confidence < 55%."
     },
@@ -21062,7 +21062,7 @@
     "sources": "INSEE - Enquête Emploi, DARES"
   },
   "previsions_cftc": {
-    "generated_at": "2026-04-07T18:20:50.851598",
+    "generated_at": "2026-04-07T18:28:26.804485",
     "model_version": "CFTC v7.0 (bivarié Phillips + log-normale + pondération temporelle)",
     "n_simulations": 1000,
     "horizon": "12 mois",
@@ -21071,7 +21071,7 @@
       "niveau": "excellent",
       "issues": [],
       "warnings": [],
-      "timestamp": "2026-04-07T18:20:50.851616"
+      "timestamp": "2026-04-07T18:28:26.804503"
     },
     "calibrage": {
       "volatilites": {
@@ -21111,9 +21111,9 @@
     },
     "market_signals_details": {
       "brent": {
-        "valeur": 109.6,
+        "valeur": 109.61,
         "ref": 75.0,
-        "variation_ytd_pct": 80.41,
+        "variation_ytd_pct": 80.43,
         "impact_inflation_pt": 0.346,
         "poids_temporel": 1.0
       },
