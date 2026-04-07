@@ -2582,7 +2582,7 @@ def build_changelog():
                     "type": "breaking",
                     "titre": "bug de l'onglet favoris",
                     "description": "Le bug de l'onglet favoris est désormais corrigé !"
-                }, 
+                }
             ]
         },        
         {
