@@ -41,5 +41,13 @@ export default function useFavoris() {
   const getSeuil  = (id) => seuils[id] || null;
   const getNote   = (id) => notes[id]  || '';
 
-  return { favoris, toggleFavori, isFavori, setSeuil, getSeuil, setNote, getNote };
+  const isEnAlerte = (id, valeur) => {
+    const seuil = seuils[id];
+    if (!seuil || valeur == null || valeur === '—') return false;
+    const num = parseFloat(String(valeur).replace(',', '.').replace('%', '').replace('€', '').replace('$', '').trim());
+    if (isNaN(num)) return false;
+    return seuil.direction === 'sup' ? num > seuil.valeur : num < seuil.valeur;
+  };
+
+  return { favoris, toggleFavori, isFavori, setSeuil, getSeuil, setNote, getNote, isEnAlerte };
 }
