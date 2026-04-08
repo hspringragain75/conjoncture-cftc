@@ -1,6 +1,6 @@
 {
-  "last_updated": "08/04/2026 09:53",
-  "last_updated_iso": "2026-04-08T09:53:03.827851",
+  "last_updated": "08/04/2026 10:10",
+  "last_updated_iso": "2026-04-08T10:10:10.606607",
   "contact": "hspringragain@cftc.fr",
   "alertes": [
     {
@@ -32,7 +32,7 @@
       "date": "2026-04-08",
       "type": "info",
       "titre": "🔄 Données actualisées",
-      "message": "Le tableau de bord a été mis à jour le 08/04/2026 à 09:52.",
+      "message": "Le tableau de bord a été mis à jour le 08/04/2026 à 10:10.",
       "onglet": "conjoncture"
     }
   ],
@@ -204,7 +204,7 @@
     }
   ],
   "revue_presse": {
-    "derniere_maj": "08/04/2026 09:53",
+    "derniere_maj": "08/04/2026 10:10",
     "nb_sources": 7,
     "sources_noms": [
       "Le Monde Éco",
@@ -319,8 +319,8 @@
         "couleur": "#374151",
         "emoji": "🌐",
         "tag": "Presse économique",
-        "titre": "Contrôles fiscaux : Bercy laisse échapper près de 6 milliards d’euros",
-        "resume": "Sur les 17,1 milliards d’euros réclamés par l’administration fiscale en 2025 aux contribuables particuliers et entreprises, seuls 11,4 milliards ont été réellement encaissés par l’Etat.",
+        "titre": "Les contrôles fiscaux menés par Bercy ont laissé échapper près de 6 milliards d’euros en 2025",
+        "resume": "Sur les 17,1 milliards d’euros réclamés par l’administration fiscale aux contribuables particuliers et entreprises en 2025, seuls 11,4 milliards ont été encaissés par l’Etat.",
         "lien": "https://www.lemonde.fr/argent/article/2026/04/08/controles-fiscaux-bercy-laisse-echapper-pres-de-6-milliards-d-euros_6678229_1657007.html",
         "date_iso": "2026-04-08T11:15:08+02:00",
         "date_fr": "08/04/2026",
@@ -855,68 +855,108 @@
   },
   "finances_publiques": {
     "annee_reference": "2024",
-    "dette_publique_pib": 112.9,
-    "deficit_public_pib": -5.5,
-    "depenses_apu_pib": 57.3,
-    "recettes_apu_pib": 51.8,
-    "prelevements_obligatoires_pib": 43.5,
+    "dette_publique_pib": 113.2,
+    "deficit_public_pib": -5.8,
+    "depenses_apu_pib": 57.1,
+    "recettes_apu_pib": 51.0,
+    "prelevements_obligatoires_pib": 43.2,
     "charge_dette_pib": 2.4,
-    "fbcf_apu_pib": 4.0,
+    "fbcf_apu_pib": 4.3,
     "evolution": {
       "dette": [
         {
+          "annee": "2010",
+          "valeur": 86.3
+        },
+        {
+          "annee": "2011",
+          "valeur": 88.7
+        },
+        {
+          "annee": "2012",
+          "valeur": 91.7
+        },
+        {
+          "annee": "2013",
+          "valeur": 94.6
+        },
+        {
+          "annee": "2014",
+          "valeur": 96.2
+        },
+        {
           "annee": "2015",
-          "valeur": 95.6
+          "valeur": 97.0
         },
         {
           "annee": "2016",
-          "valeur": 98.0
-        },
-        {
-          "annee": "2017",
-          "valeur": 98.3
-        },
-        {
-          "annee": "2018",
           "valeur": 98.1
         },
         {
+          "annee": "2017",
+          "valeur": 98.8
+        },
+        {
+          "annee": "2018",
+          "valeur": 98.5
+        },
+        {
           "annee": "2019",
-          "valeur": 97.4
+          "valeur": 98.2
         },
         {
           "annee": "2020",
-          "valeur": 114.6
+          "valeur": 114.9
         },
         {
           "annee": "2021",
-          "valeur": 112.9
+          "valeur": 112.8
         },
         {
           "annee": "2022",
-          "valeur": 111.8
+          "valeur": 111.4
         },
         {
           "annee": "2023",
-          "valeur": 110.6
+          "valeur": 109.8
         },
         {
           "annee": "2024",
-          "valeur": 112.9
+          "valeur": 113.2
         }
       ],
       "deficit": [
         {
+          "annee": "2010",
+          "valeur": -7.2
+        },
+        {
+          "annee": "2011",
+          "valeur": -5.3
+        },
+        {
+          "annee": "2012",
+          "valeur": -5.2
+        },
+        {
+          "annee": "2013",
+          "valeur": -4.9
+        },
+        {
+          "annee": "2014",
+          "valeur": -4.6
+        },
+        {
           "annee": "2015",
-          "valeur": -3.6
+          "valeur": -3.9
         },
         {
           "annee": "2016",
-          "valeur": -3.6
+          "valeur": -3.8
         },
         {
           "annee": "2017",
-          "valeur": -2.9
+          "valeur": -3.4
         },
         {
           "annee": "2018",
@@ -924,23 +964,27 @@
         },
         {
           "annee": "2019",
-          "valeur": -3.1
+          "valeur": -2.4
         },
         {
           "annee": "2020",
-          "valeur": -9.0
+          "valeur": -8.9
         },
         {
           "annee": "2021",
-          "valeur": -6.5
+          "valeur": -6.6
         },
         {
           "annee": "2022",
-          "valeur": -4.8
+          "valeur": -4.7
         },
         {
           "annee": "2023",
-          "valeur": -5.5
+          "valeur": -5.4
+        },
+        {
+          "annee": "2024",
+          "valeur": -5.8
         }
       ],
       "depenses": [
@@ -979,6 +1023,10 @@
         {
           "annee": "2023",
           "valeur": 57.3
+        },
+        {
+          "annee": "2024",
+          "valeur": 57.1
         }
       ],
       "recettes": [
@@ -1017,6 +1065,10 @@
         {
           "annee": "2023",
           "valeur": 51.8
+        },
+        {
+          "annee": "2024",
+          "valeur": 51.0
         }
       ],
       "prelevements_obligatoires": [
@@ -1055,6 +1107,10 @@
         {
           "annee": "2023",
           "valeur": 43.5
+        },
+        {
+          "annee": "2024",
+          "valeur": 43.2
         }
       ],
       "depenses_protection_sociale": [
@@ -1093,6 +1149,10 @@
         {
           "annee": "2023",
           "valeur": 24.5
+        },
+        {
+          "annee": "2024",
+          "valeur": 24.3
         }
       ],
       "depenses_sante": [
@@ -1131,6 +1191,10 @@
         {
           "annee": "2023",
           "valeur": 9.5
+        },
+        {
+          "annee": "2024",
+          "valeur": 9.4
         }
       ],
       "depenses_education": [
@@ -1169,6 +1233,10 @@
         {
           "annee": "2023",
           "valeur": 5.5
+        },
+        {
+          "annee": "2024",
+          "valeur": 5.4
         }
       ],
       "charge_dette": [
@@ -1215,53 +1283,77 @@
       ],
       "investissement_public": [
         {
+          "annee": "2010",
+          "valeur": 4.8
+        },
+        {
+          "annee": "2011",
+          "valeur": 4.5
+        },
+        {
+          "annee": "2012",
+          "valeur": 4.6
+        },
+        {
+          "annee": "2013",
+          "valeur": 4.6
+        },
+        {
+          "annee": "2014",
+          "valeur": 4.3
+        },
+        {
           "annee": "2015",
-          "valeur": 3.4
-        },
-        {
-          "annee": "2016",
-          "valeur": 3.4
-        },
-        {
-          "annee": "2017",
-          "valeur": 3.5
-        },
-        {
-          "annee": "2018",
-          "valeur": 3.5
-        },
-        {
-          "annee": "2019",
-          "valeur": 3.7
-        },
-        {
-          "annee": "2020",
-          "valeur": 3.8
-        },
-        {
-          "annee": "2021",
           "valeur": 3.9
         },
         {
+          "annee": "2016",
+          "valeur": 3.9
+        },
+        {
+          "annee": "2017",
+          "valeur": 3.8
+        },
+        {
+          "annee": "2018",
+          "valeur": 3.9
+        },
+        {
+          "annee": "2019",
+          "valeur": 4.2
+        },
+        {
+          "annee": "2020",
+          "valeur": 4.2
+        },
+        {
+          "annee": "2021",
+          "valeur": 4.1
+        },
+        {
           "annee": "2022",
-          "valeur": 4.0
+          "valeur": 4.2
         },
         {
           "annee": "2023",
-          "valeur": 4.0
+          "valeur": 4.2
+        },
+        {
+          "annee": "2024",
+          "valeur": 4.3
         }
       ]
     },
     "notes_lecture": [
-      "🇫🇷 Dette publique : 112.9% du PIB (2024)",
-      "⚠️ Déficit public : -5.5% du PIB — règle UE : -3% max",
-      "💸 Dépenses publiques APU : 57.3% du PIB",
-      "💰 Recettes publiques APU : 51.8% du PIB"
+      "🇫🇷 Dette publique : 113.2% du PIB (2024) — notification Eurostat",
+      "⚠️ Déficit public : -5.8% du PIB — règle UE : -3% max",
+      "💸 Dépenses publiques APU : 57.1% du PIB",
+      "💰 Recettes publiques APU : 51.0% du PIB"
     ],
-    "source": "INSEE Comptes APU • PLF 2025 • Eurostat (données documentées)"
+    "source": "Eurostat gov_10dd_edpt1 & gov_10a_exp — Eurostat gov_10dd_edpt1"
   },
-  "dette_publique_pib": 112.9,
-  "deficit_public_pib": -5.5,
+  "dette_publique_pib": 113.2,
+  "deficit_public_pib": -5.8,
   "salaire_median": {
     "montant_2024": 2190,
     "evolution": [
@@ -3330,7 +3422,7 @@
       "note_lecture": "Le TEC-10 mesure le rendement des emprunts d'Etat francais a 10 ans. Un taux eleve rencherit le cout de la dette publique et impacte les taux de credit immobilier."
     },
     "petrole_brent": {
-      "valeur": 93.67,
+      "valeur": 94.3,
       "date": "2026-04-08",
       "unite": "USD/baril",
       "source": "Yahoo Finance",
@@ -4844,16 +4936,16 @@
         },
         {
           "date": "2026-04-08",
-          "valeur": 93.67,
-          "ma50": 86.2,
+          "valeur": 94.3,
+          "ma50": 86.22,
           "ma200": 70.67
         }
       ],
       "variations": {
-        "jour": -14.28,
-        "semaine": -20.85,
-        "mois": 1.06,
-        "ytd": 54.19
+        "jour": -13.7,
+        "semaine": -20.32,
+        "mois": 1.74,
+        "ytd": 55.23
       },
       "min_max": {
         "min": 58.92,
@@ -4864,9 +4956,9 @@
       "note_lecture": "Le prix du Brent influence directement les couts de transport et d'energie, donc l'inflation et le pouvoir d'achat des salaries."
     },
     "cac40": {
-      "valeur": 8246.07,
+      "valeur": 8244.11,
       "date": "2026-04-08",
-      "variation_jour_pct": 4.27,
+      "variation_jour_pct": 4.24,
       "unite": "points",
       "source": "Yahoo Finance",
       "nb_points": 254,
@@ -6391,16 +6483,16 @@
         },
         {
           "date": "2026-04-08",
-          "valeur": 8246.07,
-          "ma50": 8128.25,
-          "ma200": 8006.3
+          "valeur": 8244.11,
+          "ma50": 8128.21,
+          "ma200": 8006.29
         }
       ],
       "variations": {
-        "jour": 4.27,
-        "semaine": 6.09,
-        "mois": 2.49,
-        "ytd": 0.62
+        "jour": 4.24,
+        "semaine": 6.07,
+        "mois": 2.46,
+        "ytd": 0.6
       },
       "min_max": {
         "min": 6863.02,
@@ -7981,7 +8073,7 @@
       "note_lecture": "Le taux de change euro-dollar determine le prix de tout ce qui est importe en dollars : petrole, matieres premieres, electronique. Un euro faible rencherit les importations et alimente l'inflation."
     },
     "or": {
-      "valeur": 4819.0,
+      "valeur": 4810.2,
       "date": "2026-04-08",
       "unite": "USD/oz",
       "source": "Yahoo Finance",
@@ -9495,16 +9587,16 @@
         },
         {
           "date": "2026-04-08",
-          "valeur": 4819.0,
-          "ma50": 4920.63,
-          "ma200": 4136.11
+          "valeur": 4810.2,
+          "ma50": 4920.46,
+          "ma200": 4136.07
         }
       ],
       "variations": {
-        "jour": 3.48,
-        "semaine": 3.69,
-        "mois": -6.36,
-        "ytd": 11.7
+        "jour": 3.29,
+        "semaine": 3.5,
+        "mois": -6.53,
+        "ytd": 11.49
       },
       "min_max": {
         "min": 2968.4,
@@ -11043,7 +11135,7 @@
       "note_lecture": "Le prix du gaz naturel (TTF europeen) impacte directement les factures de chauffage et d'electricite des menages, ainsi que les couts de production industrielle."
     },
     "ble": {
-      "valeur": 580.0,
+      "valeur": 580.25,
       "date": "2026-04-08",
       "unite": "cents/boisseau",
       "source": "Yahoo Finance",
@@ -12551,16 +12643,16 @@
         },
         {
           "date": "2026-04-08",
-          "valeur": 580.0,
-          "ma50": 572.55,
-          "ma200": 534.2
+          "valeur": 580.25,
+          "ma50": 572.56,
+          "ma200": 534.21
         }
       ],
       "variations": {
-        "jour": -3.01,
-        "semaine": -5.88,
-        "mois": -5.11,
-        "ytd": 14.51
+        "jour": -2.97,
+        "semaine": -5.84,
+        "mois": -5.07,
+        "ytd": 14.56
       },
       "min_max": {
         "min": 495.0,
@@ -12571,7 +12663,7 @@
       "note_lecture": "Le cours du ble est un indicateur avance des prix alimentaires. La France etant le premier producteur europeen, son evolution impacte a la fois les consommateurs et le secteur agricole."
     },
     "lme_cuivre": {
-      "valeur": 5.75,
+      "valeur": 5.74,
       "date": "2026-04-08",
       "unite": "cts/lb",
       "source": "Yahoo Finance",
@@ -14085,16 +14177,16 @@
         },
         {
           "date": "2026-04-08",
-          "valeur": 5.75,
+          "valeur": 5.74,
           "ma50": 5.75,
           "ma200": 5.25
         }
       ],
       "variations": {
-        "jour": 3.79,
-        "semaine": 2.86,
-        "mois": -0.17,
-        "ytd": 1.95
+        "jour": 3.61,
+        "semaine": 2.68,
+        "mois": -0.35,
+        "ytd": 1.77
       },
       "min_max": {
         "min": 4.13,
@@ -19428,7 +19520,7 @@
     "meta": {
       "source_effectifs": "DSN via kali-data",
       "source_grilles": "SocialGouv kali-data (extraction automatique)",
-      "date_generation": "2026-04-08T09:53:30.426769",
+      "date_generation": "2026-04-08T10:10:41.934415",
       "mode": "100pct_automatique",
       "note": "Extraction heuristique depuis textes juridiques KALI. Statut a_verifier si grille non extraite ou confidence < 55%."
     },
@@ -21484,7 +21576,7 @@
     "sources": "INSEE - Enquête Emploi, DARES"
   },
   "previsions_cftc": {
-    "generated_at": "2026-04-08T09:53:30.552590",
+    "generated_at": "2026-04-08T10:10:42.048203",
     "model_version": "CFTC v7.0 (bivarié Phillips + log-normale + pondération temporelle)",
     "n_simulations": 1000,
     "horizon": "12 mois",
@@ -21493,7 +21585,7 @@
       "niveau": "excellent",
       "issues": [],
       "warnings": [],
-      "timestamp": "2026-04-08T09:53:30.552610"
+      "timestamp": "2026-04-08T10:10:42.048215"
     },
     "calibrage": {
       "volatilites": {
@@ -21521,7 +21613,7 @@
       "lognormal_offset": 3.0
     },
     "market_signals": {
-      "inflation_adjustment": 0.085,
+      "inflation_adjustment": 0.092,
       "chomage_adjustment": 0.175,
       "energie_outlook": "hausse",
       "ponderation_temporelle": {
@@ -21533,10 +21625,10 @@
     },
     "market_signals_details": {
       "brent": {
-        "valeur": 93.67,
+        "valeur": 94.3,
         "ref": 75.0,
-        "variation_ytd_pct": 54.19,
-        "impact_inflation_pt": 0.187,
+        "variation_ytd_pct": 55.23,
+        "impact_inflation_pt": 0.193,
         "poids_temporel": 1.0
       },
       "gaz_ttf": {
@@ -21563,7 +21655,7 @@
         "signal": "baissier"
       },
       "cac40_ytd": {
-        "variation_ytd_pct": 0.62,
+        "variation_ytd_pct": 0.6,
         "signal_chomage": "neutre"
       },
       "carburants_sp95": {
@@ -21649,8 +21741,8 @@
           1.2,
           1.2,
           1.3,
-          1.2,
-          1.2,
+          1.3,
+          1.3,
           1.3
         ],
         "p75": [
@@ -21684,18 +21776,18 @@
         "methodology": "Monte Carlo bivarié (1000 sim.) + log-normale + Phillips ρ=-0.35 (v7)"
       },
       "probabilites": {
-        "inflation_sous_2pct": 90.0,
-        "inflation_cible_bce": 90.0,
+        "inflation_sous_2pct": 89.9,
+        "inflation_cible_bce": 89.9,
         "inflation_au_dessus_3pct": 0.0,
         "inflation_au_dessus_4pct": 0.0,
-        "description": "90.0% de chances que l'inflation reste sous 2% à 12 mois"
+        "description": "89.9% de chances que l'inflation reste sous 2% à 12 mois"
       },
       "facteurs": {
         "cible_bdf": 1.4,
         "ajustement_climat": -0.03,
-        "ajustement_marches": 0.085,
+        "ajustement_marches": 0.092,
         "energie_outlook": "hausse",
-        "cible_ajustee": 1.455,
+        "cible_ajustee": 1.462,
         "volatilite_utilisee": 0.5
       },
       "asymetrie_ic": {
@@ -21703,7 +21795,7 @@
         "queue_basse": 0.4,
         "ratio": 1.25
       },
-      "insight": "Inflation médiane à 12 mois : 1.5% [IC 80% : 1.1% - 2.0%]. Asymétrie : queue haute 0.5pt vs basse 0.4pt. 90.0% de probabilité de rester sous 2%."
+      "insight": "Inflation médiane à 12 mois : 1.5% [IC 80% : 1.1% - 2.0%]. Asymétrie : queue haute 0.5pt vs basse 0.4pt. 89.9% de probabilité de rester sous 2%."
     },
     "smic": {
       "current": {
@@ -21910,7 +22002,7 @@
       }
     },
     "notes_lecture": [
-      "📈 Inflation médiane à 12 mois : 1.5% [1.1% - 2.0%] — 90.0% de chances de rester sous 2% (asymétrie : +0.5pt / -0.4pt)",
+      "📈 Inflation médiane à 12 mois : 1.5% [1.1% - 2.0%] — 89.9% de chances de rester sous 2% (asymétrie : +0.5pt / -0.4pt)",
       "💰 SMIC janvier 2027 : 1858€ brut (+1.9%, fourchette 1.5-2.4%) — Pouvoir d'achat réel : +0.4% (+7€/mois)",
       "👥 Chômage Q4 : 7.8% [7.6% - 7.9%] — Tendance stable (corrélé Phillips ρ=-0.35)",
       "📊 Signaux marchés : ↑ inflation 0.09pt, ↑ chômage 0.17pt, (poids temporel min : 0.95)",
@@ -21938,7 +22030,7 @@
           }
         },
         "contribution_mediane": {
-          "signaux_marches_pt": 0.085,
+          "signaux_marches_pt": 0.092,
           "incertitude_bdf_sigma": 0.15,
           "label": "Déplacement de la prévision centrale"
         }
