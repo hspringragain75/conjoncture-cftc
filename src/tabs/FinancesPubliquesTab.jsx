@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import {
   LineChart, Line, BarChart, Bar, AreaChart, Area,
   XAxis, YAxis, CartesianGrid, Tooltip, Legend,
-  ResponsiveContainer, ReferenceLine, Cell, PieChart, Pie
+  ReferenceLine, Cell, PieChart, Pie
 } from 'recharts';
 import Card from '../components/Card';
 import BubbleKpi from '../components/BubbleKpi';
@@ -161,8 +161,8 @@ function VueEnsemble({ fp, darkMode }) {
           {consolidee.length === 0 ? (
             <p className={`text-sm text-center py-8 ${dmSub}`}>Données en cours de chargement…</p>
           ) : (
-          <ResponsiveContainer width="100%" height={200}>
-            <AreaChart data={consolidee} margin={{ top: 5, right: 10, left: -10, bottom: 0 }}>
+          <div style={{width:"100%",overflowX:"hidden"}}>
+            <AreaChart width={800} height={200} data={consolidee} margin={{ top: 5, right: 10, left: -10, bottom: 0 }}>
               <defs>
                 <linearGradient id="gradDette" x1="0" y1="0" x2="0" y2="1">
                   <stop offset="5%"  stopColor={C.secondary} stopOpacity={0.25} />
@@ -177,7 +177,7 @@ function VueEnsemble({ fp, darkMode }) {
               <ReferenceLine y={100} stroke="#f59e0b" strokeDasharray="4 2" label={{ value: "100%", fontSize: 9, fill: '#f59e0b' }} />
               <Area type="monotone" dataKey="dette" name="Dette" stroke={C.secondary} fill="url(#gradDette)" strokeWidth={2} dot={false} connectNulls />
             </AreaChart>
-          </ResponsiveContainer>
+          </div>
           )}
         </Card>
 
@@ -188,8 +188,8 @@ function VueEnsemble({ fp, darkMode }) {
           {consolidee.length === 0 ? (
             <p className={`text-sm text-center py-8 ${dmSub}`}>Données en cours de chargement…</p>
           ) : (
-          <ResponsiveContainer width="100%" height={200}>
-            <BarChart data={consolidee.slice(-8)} margin={{ top: 5, right: 10, left: -10, bottom: 0 }}>
+          <div style={{width:"100%",overflowX:"hidden"}}>
+            <BarChart width={800} height={200} data={consolidee.slice(-8)} margin={{ top: 5, right: 10, left: -10, bottom: 0 }}>
               <CartesianGrid strokeDasharray="3 3" stroke={darkMode ? '#374151' : '#f0f0f0'} />
               <XAxis dataKey="annee" tick={{ fontSize: 10, fill: darkMode ? '#9ca3af' : '#6b7280' }} />
               <YAxis domain={['auto', 'auto']} tick={{ fontSize: 10, fill: darkMode ? '#9ca3af' : '#6b7280' }} unit="%" />
@@ -201,7 +201,7 @@ function VueEnsemble({ fp, darkMode }) {
                 ))}
               </Bar>
             </BarChart>
-          </ResponsiveContainer>
+          </div>
           )}
         </Card>
       </div>
@@ -214,8 +214,8 @@ function VueEnsemble({ fp, darkMode }) {
         {consolidee.length === 0 ? (
           <p className={`text-sm text-center py-8 ${dmSub}`}>Données en cours de chargement…</p>
         ) : (
-        <ResponsiveContainer width="100%" height={220}>
-          <LineChart data={consolidee} margin={{ top: 5, right: 10, left: -10, bottom: 0 }}>
+        <div style={{width:"100%",overflowX:"hidden"}}>
+          <LineChart width={800} height={220} data={consolidee} margin={{ top: 5, right: 10, left: -10, bottom: 0 }}>
             <CartesianGrid strokeDasharray="3 3" stroke={darkMode ? '#374151' : '#f0f0f0'} />
             <XAxis dataKey="annee" tick={{ fontSize: 10, fill: darkMode ? '#9ca3af' : '#6b7280' }} />
             <YAxis domain={['auto', 'auto']} tick={{ fontSize: 10, fill: darkMode ? '#9ca3af' : '#6b7280' }} unit="%" />
@@ -225,7 +225,7 @@ function VueEnsemble({ fp, darkMode }) {
             <Line type="monotone" dataKey="recettes" name="Recettes APU" stroke={C.tertiary} strokeWidth={2} dot={false} connectNulls />
             <Line type="monotone" dataKey="po" name="Prél. obligatoires" stroke={C.primary} strokeWidth={2} dot={false} strokeDasharray="5 3" connectNulls />
           </LineChart>
-        </ResponsiveContainer>
+        </div>
         )}
         <p className={`text-[10px] mt-1 ${dmSub}`}>Source : INSEE — Comptes des APU (API BDM)</p>
       </Card>
@@ -272,8 +272,8 @@ function DetteCharge({ fp, darkMode }) {
           {chartData.length === 0 ? (
             <p className={`text-sm text-center py-8 ${dmSub}`}>Données en cours de chargement…</p>
           ) : (
-          <ResponsiveContainer width="100%" height={220}>
-            <AreaChart data={chartData} margin={{ top: 5, right: 10, left: -10, bottom: 0 }}>
+          <div style={{width:"100%",overflowX:"hidden"}}>
+            <AreaChart width={800} height={220} data={chartData} margin={{ top: 5, right: 10, left: -10, bottom: 0 }}>
               <defs>
                 <linearGradient id="gradDette2" x1="0" y1="0" x2="0" y2="1">
                   <stop offset="5%"  stopColor={C.purple} stopOpacity={0.3} />
@@ -290,7 +290,7 @@ function DetteCharge({ fp, darkMode }) {
                 label={{ value: "100%", position: 'right', fontSize: 9, fill: '#f59e0b' }} />
               <Area type="monotone" dataKey="dette" name="Dette" stroke={C.purple} fill="url(#gradDette2)" strokeWidth={2.5} dot={false} connectNulls />
             </AreaChart>
-          </ResponsiveContainer>
+          </div>
           )}
         </Card>
 
@@ -302,8 +302,8 @@ function DetteCharge({ fp, darkMode }) {
           {chartData.length === 0 ? (
             <p className={`text-sm text-center py-8 ${dmSub}`}>Données en cours de chargement…</p>
           ) : (
-          <ResponsiveContainer width="100%" height={220}>
-            <LineChart data={chartData} margin={{ top: 5, right: 10, left: -10, bottom: 0 }}>
+          <div style={{width:"100%",overflowX:"hidden"}}>
+            <LineChart width={800} height={220} data={chartData} margin={{ top: 5, right: 10, left: -10, bottom: 0 }}>
               <CartesianGrid strokeDasharray="3 3" stroke={darkMode ? '#374151' : '#f0f0f0'} />
               <XAxis dataKey="annee" tick={{ fontSize: 10, fill: darkMode ? '#9ca3af' : '#6b7280' }} />
               <YAxis domain={['auto', 'auto']} tick={{ fontSize: 10, fill: darkMode ? '#9ca3af' : '#6b7280' }} unit="%" />
@@ -312,7 +312,7 @@ function DetteCharge({ fp, darkMode }) {
               <Line type="monotone" dataKey="charge" name="Charge intérêts" stroke={C.secondary} strokeWidth={2.5} dot={false} connectNulls />
               <Line type="monotone" dataKey="investissement" name="Invest. public (FBCF APU)" stroke={C.cyan} strokeWidth={2} dot={false} strokeDasharray="5 3" connectNulls />
             </LineChart>
-          </ResponsiveContainer>
+          </div>
           )}
           <p className={`text-[10px] mt-1 ${dmSub}`}>Source : INSEE API BDM</p>
         </Card>
@@ -337,8 +337,8 @@ function DetteCharge({ fp, darkMode }) {
             { pays: 'Pays-Bas',  code: 'NL', taux: 43.8 },
           ];
           return (
-            <ResponsiveContainer width="100%" height={220}>
-              <BarChart data={pays} layout="vertical" margin={{ top: 0, right: 50, left: 60, bottom: 0 }}>
+            <div style={{width:"100%",overflowX:"hidden"}}>
+              <BarChart width={800} height={220} data={pays} layout="vertical" margin={{ top: 0, right: 50, left: 60, bottom: 0 }}>
                 <CartesianGrid strokeDasharray="3 3" stroke={darkMode ? '#374151' : '#f0f0f0'} horizontal={false} />
                 <XAxis type="number" unit="%" tick={{ fontSize: 10, fill: darkMode ? '#9ca3af' : '#6b7280' }} />
                 <YAxis type="category" dataKey="pays" tick={{ fontSize: 10, fill: darkMode ? '#9ca3af' : '#6b7280' }} width={58} />
@@ -354,7 +354,7 @@ function DetteCharge({ fp, darkMode }) {
                   ))}
                 </Bar>
               </BarChart>
-            </ResponsiveContainer>
+            </div>
           );
         })()}
         <p className={`text-[10px] mt-1 ${dmSub}`}>Source : Eurostat 2024 provisoires • France en bleu</p>
@@ -414,8 +414,8 @@ function DepensesEtat({ fp, darkMode }) {
             Total 492 Mds€
           </span>
         </div>
-        <ResponsiveContainer width="100%" height={260}>
-          <BarChart data={[...missions].sort((a, b) => b.mds - a.mds)} layout="vertical"
+        <div style={{width:"100%",overflowX:"hidden"}}>
+          <BarChart width={800} height={260} data={[...missions].sort((a, b) => b.mds - a.mds)} layout="vertical"
             margin={{ top: 0, right: 80, left: 140, bottom: 0 }}>
             <CartesianGrid strokeDasharray="3 3" stroke={darkMode ? '#374151' : '#f0f0f0'} horizontal={false} />
             <XAxis type="number" unit=" Mds" tick={{ fontSize: 10, fill: darkMode ? '#9ca3af' : '#6b7280' }} />
@@ -432,7 +432,7 @@ function DepensesEtat({ fp, darkMode }) {
               ))}
             </Bar>
           </BarChart>
-        </ResponsiveContainer>
+        </div>
         <p className={`text-[10px] mt-1 ${dmSub}`}>Source : PLF 2025 — budget.gouv.fr • Données statiques (màj oct.)</p>
       </Card>
 
@@ -444,8 +444,8 @@ function DepensesEtat({ fp, darkMode }) {
         {chartFonc.length === 0 ? (
           <p className={`text-sm text-center py-8 ${dmSub}`}>Données en cours de chargement…</p>
         ) : (
-        <ResponsiveContainer width="100%" height={200}>
-          <LineChart data={chartFonc} margin={{ top: 5, right: 10, left: -10, bottom: 0 }}>
+        <div style={{width:"100%",overflowX:"hidden"}}>
+          <LineChart width={800} height={200} data={chartFonc} margin={{ top: 5, right: 10, left: -10, bottom: 0 }}>
             <CartesianGrid strokeDasharray="3 3" stroke={darkMode ? '#374151' : '#f0f0f0'} />
             <XAxis dataKey="annee" tick={{ fontSize: 10, fill: darkMode ? '#9ca3af' : '#6b7280' }} />
             <YAxis domain={['auto', 'auto']} tick={{ fontSize: 10, fill: darkMode ? '#9ca3af' : '#6b7280' }} unit="%" />
@@ -455,7 +455,7 @@ function DepensesEtat({ fp, darkMode }) {
             <Line type="monotone" dataKey="sante" name="Santé" stroke={C.tertiary} strokeWidth={2} dot={false} connectNulls />
             <Line type="monotone" dataKey="education" name="Éducation" stroke={C.primary} strokeWidth={2} dot={false} connectNulls />
           </LineChart>
-        </ResponsiveContainer>
+        </div>
         )}
 
         {/* Tableau récap évolution missions */}
@@ -522,15 +522,15 @@ function RecettesPrelevements({ fp, darkMode }) {
             🧾 Recettes fiscales de l'État <span className={dmSub}>(PLF 2025 — 387 Mds€ total)</span>
           </h3>
           <div className="flex items-center gap-4">
-            <ResponsiveContainer width="55%" height={180}>
-              <PieChart>
+            <div style={{width:"100%",overflowX:"hidden"}}>
+              <PieChart width={500} height={180}>
                 <Pie data={impots} dataKey="mds" nameKey="impot" cx="50%" cy="50%"
                   outerRadius={75} innerRadius={40} paddingAngle={2}>
                   {impots.map((im, i) => <Cell key={i} fill={im.color} fillOpacity={0.85} />)}
                 </Pie>
                 <Tooltip formatter={(v) => [`${v} Mds€`]} />
               </PieChart>
-            </ResponsiveContainer>
+            </div>
             <div className="flex-1 space-y-1">
               {impots.map((im, i) => (
                 <div key={i} className="flex items-center justify-between">
@@ -556,8 +556,8 @@ function RecettesPrelevements({ fp, darkMode }) {
           <h3 className={`text-sm font-semibold mb-3 ${dmClass}`}>
             🇪🇺 Prélèvements obligatoires en Europe <span className={dmSub}>(% PIB — Eurostat 2024)</span>
           </h3>
-          <ResponsiveContainer width="100%" height={200}>
-            <BarChart data={poUE} layout="vertical" margin={{ top: 0, right: 60, left: 65, bottom: 0 }}>
+          <div style={{width:"100%",overflowX:"hidden"}}>
+            <BarChart width={800} height={200} data={poUE} layout="vertical" margin={{ top: 0, right: 60, left: 65, bottom: 0 }}>
               <CartesianGrid strokeDasharray="3 3" stroke={darkMode ? '#374151' : '#f0f0f0'} horizontal={false} />
               <XAxis type="number" unit="%" domain={[35, 50]} tick={{ fontSize: 10, fill: darkMode ? '#9ca3af' : '#6b7280' }} />
               <YAxis type="category" dataKey="pays" tick={{ fontSize: 10, fill: darkMode ? '#9ca3af' : '#6b7280' }} width={63} />
@@ -568,7 +568,7 @@ function RecettesPrelevements({ fp, darkMode }) {
                 ))}
               </Bar>
             </BarChart>
-          </ResponsiveContainer>
+          </div>
         </Card>
       </div>
 
@@ -578,8 +578,8 @@ function RecettesPrelevements({ fp, darkMode }) {
           <h3 className={`text-sm font-semibold mb-3 ${dmClass}`}>
             📈 Évolution des prélèvements obligatoires <span className={dmSub}>(% PIB — API INSEE)</span>
           </h3>
-          <ResponsiveContainer width="100%" height={180}>
-            <AreaChart data={po} margin={{ top: 5, right: 10, left: -10, bottom: 0 }}>
+          <div style={{width:"100%",overflowX:"hidden"}}>
+            <AreaChart width={800} height={180} data={po} margin={{ top: 5, right: 10, left: -10, bottom: 0 }}>
               <defs>
                 <linearGradient id="gradPO" x1="0" y1="0" x2="0" y2="1">
                   <stop offset="5%"  stopColor={C.primary} stopOpacity={0.25} />
@@ -592,7 +592,7 @@ function RecettesPrelevements({ fp, darkMode }) {
               <Tooltip content={<TooltipBulle suffix="%" darkMode={darkMode} />} />
               <Area type="monotone" dataKey="valeur" name="PO % PIB" stroke={C.primary} fill="url(#gradPO)" strokeWidth={2} dot={false} connectNulls />
             </AreaChart>
-          </ResponsiveContainer>
+          </div>
         </Card>
       )}
 
@@ -668,8 +668,8 @@ function ProtectionSociale({ fp, darkMode }) {
             </div>
           ))}
         </div>
-        <ResponsiveContainer width="100%" height={160}>
-          <BarChart data={soldesTotalHistorique} margin={{ top: 5, right: 10, left: -5, bottom: 0 }}>
+        <div style={{width:"100%",overflowX:"hidden"}}>
+          <BarChart width={800} height={160} data={soldesTotalHistorique} margin={{ top: 5, right: 10, left: -5, bottom: 0 }}>
             <CartesianGrid strokeDasharray="3 3" stroke={darkMode ? '#374151' : '#f0f0f0'} />
             <XAxis dataKey="annee" tick={{ fontSize: 10, fill: darkMode ? '#9ca3af' : '#6b7280' }} />
             <YAxis tick={{ fontSize: 10, fill: darkMode ? '#9ca3af' : '#6b7280' }} unit=" Mds" />
@@ -681,7 +681,7 @@ function ProtectionSociale({ fp, darkMode }) {
               ))}
             </Bar>
           </BarChart>
-        </ResponsiveContainer>
+        </div>
         <p className={`text-[10px] mt-1 ${dmSub}`}>Source : PLFSS 2025 — CCSS • Données statiques (màj oct.)</p>
       </Card>
 
@@ -691,15 +691,15 @@ function ProtectionSociale({ fp, darkMode }) {
           🛡️ Dépenses de protection sociale par risque <span className={dmSub}>(DREES 2023 — 939 Mds€ total)</span>
         </h3>
         <div className="flex gap-4">
-          <ResponsiveContainer width="40%" height={200}>
-            <PieChart>
+          <div style={{width:"100%",overflowX:"hidden"}}>
+            <PieChart width={500} height={200}>
               <Pie data={risques} dataKey="mds" nameKey="risque" cx="50%" cy="50%"
                 outerRadius={80} innerRadius={45} paddingAngle={2}>
                 {risques.map((r, i) => <Cell key={i} fill={r.color} fillOpacity={0.85} />)}
               </Pie>
               <Tooltip formatter={(v) => [`${v} Mds€`]} />
             </PieChart>
-          </ResponsiveContainer>
+          </div>
           <div className="flex-1 space-y-1.5">
             {risques.map((r, i) => (
               <div key={i} className="flex items-center justify-between">
