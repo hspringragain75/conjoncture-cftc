@@ -156,6 +156,9 @@ function VueEnsemble({ fp, darkMode }) {
           <h3 className={`text-sm font-semibold mb-3 ${dmClass}`}>
             🏛️ Dette publique <span className={dmSub}>(% PIB)</span>
           </h3>
+          {consolidee.length === 0 ? (
+            <p className={`text-sm text-center py-8 ${dmSub}`}>Données en cours de chargement…</p>
+          ) : (
           <ResponsiveContainer width="100%" height={200}>
             <AreaChart data={consolidee} margin={{ top: 5, right: 10, left: -10, bottom: 0 }}>
               <defs>
@@ -173,12 +176,16 @@ function VueEnsemble({ fp, darkMode }) {
               <Area type="monotone" dataKey="dette" name="Dette" stroke={C.secondary} fill="url(#gradDette)" strokeWidth={2} dot={false} />
             </AreaChart>
           </ResponsiveContainer>
+          )}
         </Card>
 
         <Card darkMode={darkMode} className="p-4">
           <h3 className={`text-sm font-semibold mb-3 ${dmClass}`}>
             📉 Déficit public <span className={dmSub}>(capacité de financement APU, % PIB)</span>
           </h3>
+          {consolidee.length === 0 ? (
+            <p className={`text-sm text-center py-8 ${dmSub}`}>Données en cours de chargement…</p>
+          ) : (
           <ResponsiveContainer width="100%" height={200}>
             <BarChart data={consolidee.slice(-8)} margin={{ top: 5, right: 10, left: -10, bottom: 0 }}>
               <CartesianGrid strokeDasharray="3 3" stroke={darkMode ? '#374151' : '#f0f0f0'} />
@@ -194,6 +201,7 @@ function VueEnsemble({ fp, darkMode }) {
               </Bar>
             </BarChart>
           </ResponsiveContainer>
+          )}
         </Card>
       </div>
 
@@ -202,6 +210,9 @@ function VueEnsemble({ fp, darkMode }) {
         <h3 className={`text-sm font-semibold mb-3 ${dmClass}`}>
           ⚖️ Recettes vs Dépenses des APU <span className={dmSub}>(% PIB)</span>
         </h3>
+        {consolidee.length === 0 ? (
+          <p className={`text-sm text-center py-8 ${dmSub}`}>Données en cours de chargement…</p>
+        ) : (
         <ResponsiveContainer width="100%" height={220}>
           <LineChart data={consolidee} margin={{ top: 5, right: 10, left: -10, bottom: 0 }}>
             <CartesianGrid strokeDasharray="3 3" stroke={darkMode ? '#374151' : '#f0f0f0'} />
@@ -214,6 +225,7 @@ function VueEnsemble({ fp, darkMode }) {
             <Line type="monotone" dataKey="po" name="Prél. obligatoires" stroke={C.primary} strokeWidth={2} dot={false} strokeDasharray="5 3" />
           </LineChart>
         </ResponsiveContainer>
+        )}
         <p className={`text-[10px] mt-1 ${dmSub}`}>Source : INSEE — Comptes des APU (API BDM)</p>
       </Card>
 
@@ -256,6 +268,9 @@ function DetteCharge({ fp, darkMode }) {
           <h3 className={`text-sm font-semibold mb-3 ${dmClass}`}>
             🏛️ Trajectoire de la dette <span className={dmSub}>(% PIB depuis 2015)</span>
           </h3>
+          {chartData.length === 0 ? (
+            <p className={`text-sm text-center py-8 ${dmSub}`}>Données en cours de chargement…</p>
+          ) : (
           <ResponsiveContainer width="100%" height={220}>
             <AreaChart data={chartData} margin={{ top: 5, right: 10, left: -10, bottom: 0 }}>
               <defs>
@@ -275,6 +290,7 @@ function DetteCharge({ fp, darkMode }) {
               <Area type="monotone" dataKey="dette" name="Dette" stroke={C.purple} fill="url(#gradDette2)" strokeWidth={2.5} dot={false} />
             </AreaChart>
           </ResponsiveContainer>
+          )}
         </Card>
 
         {/* Charge de la dette vs Investissement public */}
@@ -282,6 +298,9 @@ function DetteCharge({ fp, darkMode }) {
           <h3 className={`text-sm font-semibold mb-3 ${dmClass}`}>
             ⚡ Charge dette vs Investissement public <span className={dmSub}>(% PIB)</span>
           </h3>
+          {chartData.length === 0 ? (
+            <p className={`text-sm text-center py-8 ${dmSub}`}>Données en cours de chargement…</p>
+          ) : (
           <ResponsiveContainer width="100%" height={220}>
             <LineChart data={chartData} margin={{ top: 5, right: 10, left: -10, bottom: 0 }}>
               <CartesianGrid strokeDasharray="3 3" stroke={darkMode ? '#374151' : '#f0f0f0'} />
@@ -293,6 +312,7 @@ function DetteCharge({ fp, darkMode }) {
               <Line type="monotone" dataKey="investissement" name="Invest. public (FBCF APU)" stroke={C.cyan} strokeWidth={2} dot={false} strokeDasharray="5 3" />
             </LineChart>
           </ResponsiveContainer>
+          )}
           <p className={`text-[10px] mt-1 ${dmSub}`}>Source : INSEE API BDM</p>
         </Card>
       </div>
@@ -420,6 +440,9 @@ function DepensesEtat({ fp, darkMode }) {
         <h3 className={`text-sm font-semibold mb-3 ${dmClass}`}>
           📊 Dépenses publiques par fonction <span className={dmSub}>(% PIB — API INSEE)</span>
         </h3>
+        {chartFonc.length === 0 ? (
+          <p className={`text-sm text-center py-8 ${dmSub}`}>Données en cours de chargement…</p>
+        ) : (
         <ResponsiveContainer width="100%" height={200}>
           <LineChart data={chartFonc} margin={{ top: 5, right: 10, left: -10, bottom: 0 }}>
             <CartesianGrid strokeDasharray="3 3" stroke={darkMode ? '#374151' : '#f0f0f0'} />
@@ -432,6 +455,7 @@ function DepensesEtat({ fp, darkMode }) {
             <Line type="monotone" dataKey="education" name="Éducation" stroke={C.primary} strokeWidth={2} dot={false} />
           </LineChart>
         </ResponsiveContainer>
+        )}
 
         {/* Tableau récap évolution missions */}
         <div className="mt-4 grid grid-cols-2 sm:grid-cols-4 gap-2">
