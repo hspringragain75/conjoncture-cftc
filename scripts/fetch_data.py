@@ -4625,6 +4625,86 @@ def _static_comparaison_ue_finances():
             "🇩🇪 Allemagne : modèle d'orthodoxie budgétaire (dette 62,4% — déficit -2,8%)",
         ],
     }
+    
+# ============================================================================
+# CONSTRUCTION DES DONNÉES - FINANCES PUBLIQUES
+# ============================================================================
+
+def build_finances_publiques_data():
+    """Construit les données de finances publiques à partir des séries INSEE annuelles."""
+    print("📊 Récupération des finances publiques...")
+
+    dette = get_annual_values(SERIES_IDS["dette_publique_pib"], 2015)
+    deficit = get_annual_values(SERIES_IDS["deficit_public_pib"], 2015)
+    depenses = get_annual_values(SERIES_IDS["depenses_apu_pib"], 2015)
+    recettes = get_annual_values(SERIES_IDS["recettes_apu_pib"], 2015)
+    prelevements = get_annual_values(SERIES_IDS["prelevements_obligatoires"], 2015)
+    protection_sociale = get_annual_values(SERIES_IDS["depenses_protection_sociale"], 2015)
+    sante = get_annual_values(SERIES_IDS["depenses_sante"], 2015)
+    education = get_annual_values(SERIES_IDS["depenses_education"], 2015)
+    charge_dette = get_annual_values(SERIES_IDS["charge_dette_pib"], 2015)
+    investissement = get_annual_values(SERIES_IDS["fbcf_apu_pib"], 2015)
+
+    if dette and deficit and depenses and recettes:
+        annee_ref = dette[-1]["annee"]
+
+        return {
+            "annee_reference": annee_ref,
+            "dette_publique_pib": dette[-1]["valeur"],
+            "deficit_public_pib": deficit[-1]["valeur"],
+            "depenses_apu_pib": depenses[-1]["valeur"],
+            "recettes_apu_pib": recettes[-1]["valeur"],
+            "prelevements_obligatoires_pib": prelevements[-1]["valeur"] if prelevements else None,
+            "charge_dette_pib": charge_dette[-1]["valeur"] if charge_dette else None,
+            "fbcf_apu_pib": investissement[-1]["valeur"] if investissement else None,
+
+            "evolution": {
+                "dette": dette,
+                "deficit": deficit,
+                "depenses": depenses,
+                "recettes": recettes,
+                "prelevements_obligatoires": prelevements,
+                "depenses_protection_sociale": protection_sociale,
+                "depenses_sante": sante,
+                "depenses_education": education,
+                "charge_dette": charge_dette,
+                "investissement_public": investissement,
+            },
+
+            "notes_lecture": [
+                f"🇫🇷 Dette publique : {dette[-1]['valeur']}% du PIB",
+                f"⚠️ Déficit public : {deficit[-1]['valeur']}% du PIB",
+                f"💸 Dépenses publiques : {depenses[-1]['valeur']}% du PIB",
+                f"💰 Recettes publiques : {recettes[-1]['valeur']}% du PIB",
+            ],
+            "source": "INSEE API"
+        }
+
+    print("  ⚠️ Utilisation des données par défaut")
+    return {
+        "annee_reference": None,
+        "dette_publique_pib": None,
+        "deficit_public_pib": None,
+        "depenses_apu_pib": None,
+        "recettes_apu_pib": None,
+        "prelevements_obligatoires_pib": None,
+        "charge_dette_pib": None,
+        "fbcf_apu_pib": None,
+        "evolution": {
+            "dette": [],
+            "deficit": [],
+            "depenses": [],
+            "recettes": [],
+            "prelevements_obligatoires": [],
+            "depenses_protection_sociale": [],
+            "depenses_sante": [],
+            "depenses_education": [],
+            "charge_dette": [],
+            "investissement_public": [],
+        },
+        "notes_lecture": [],
+        "source": "INSEE API"
+    }
 
 def main():
     print("=" * 70)
@@ -4826,6 +4906,9 @@ def main():
         "smic": smic,
         "inflation_detail": inflation_detail,
         "indicateurs_cles": indicateurs_cles,
+        "finances_publiques": finances_publiques,
+        "dette_publique_pib": finances_publiques.get("dette_publique_pib"),
+        "deficit_public_pib": finances_publiques.get("deficit_public_pib"),
         
         # Données salaires
         "salaire_median": salaire_median,
