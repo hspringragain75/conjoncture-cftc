@@ -103,6 +103,22 @@ SERIES_IDS = {
     "chomage_reunion":    "010751340",        # Taux de chômage localisé - La Réunion (974)
     # Mayotte : données annuelles uniquement (enquête Emploi démarrée jan. 2024)
     # → mise à jour manuelle recommandée
+
+    # Série finances publiques
+    # Dette & déficit
+    "dette_publique_pib":         "010565692",
+    "deficit_public_pib":         "010565695",
+    # Recettes & dépenses APU
+    "depenses_apu_pib":           "010565688",
+    "recettes_apu_pib":           "010565685",
+    "prelevements_obligatoires":  "010565691",
+    # Dépenses par fonction
+    "depenses_protection_sociale": "010565704",
+    "depenses_sante":             "010565701",
+    "depenses_education":         "010565698",
+    # Charge de la dette & investissement public
+    "charge_dette_pib":           "010565697",
+    "fbcf_apu_pib":               "010565693",
 }
 
 
@@ -4213,6 +4229,402 @@ def build_conventions_collectives_enrichies(smic_net, smic_brut):
         "branches": branches,
     }
 
+def _static_depenses_etat():
+    """
+    Dépenses de l'État par grande mission (PLF 2025 — en milliards d'euros)
+    Source : PLF 2025 - Projet de loi de finances
+    URL    : https://www.budget.gouv.fr/budget-de-letat/le-budget-en-chiffres
+    Màj    : Annuelle (octobre — vote du PLF)
+    """
+    return {
+        "annee": 2025,
+        "total_mds": 492.0,
+        "commentaire": "STATIQUE - PLF 2025 - màj annuelle (octobre)",
+        "source": "budget.gouv.fr - PLF 2025",
+        "missions": [
+            {"mission": "Enseignement scolaire",      "mds": 63.7,  "pct": 12.9, "evolution_pct": 3.2},
+            {"mission": "Défense",                    "mds": 50.5,  "pct": 10.3, "evolution_pct": 6.0},
+            {"mission": "Recherche & ensup.",          "mds": 32.5,  "pct": 6.6,  "evolution_pct": 2.1},
+            {"mission": "Solidarité & lutte pauvreté","mds": 30.2,  "pct": 6.1,  "evolution_pct": 4.5},
+            {"mission": "Sécurités",                  "mds": 25.8,  "pct": 5.2,  "evolution_pct": 2.8},
+            {"mission": "Travail & emploi",           "mds": 22.1,  "pct": 4.5,  "evolution_pct": -2.0},
+            {"mission": "Agric. & souv. alim.",       "mds": 5.8,   "pct": 1.2,  "evolution_pct": 1.5},
+            {"mission": "Écologie & énergie",         "mds": 18.3,  "pct": 3.7,  "evolution_pct": 8.2},
+            {"mission": "Transports",                 "mds": 9.6,   "pct": 2.0,  "evolution_pct": 1.8},
+            {"mission": "Santé",                      "mds": 3.2,   "pct": 0.7,  "evolution_pct": 0.5},
+            {"mission": "Justice",                    "mds": 12.2,  "pct": 2.5,  "evolution_pct": 5.5},
+            {"mission": "Remboursement dette",        "mds": 61.8,  "pct": 12.6, "evolution_pct": 18.0},
+            {"mission": "Autres missions",            "mds": 156.3, "pct": 31.8, "evolution_pct": 1.0},
+        ],
+        "notes_lecture": [
+            "🏫 Enseignement scolaire : 1er budget de l'État (63,7 Mds€)",
+            "🛡️ Défense : en hausse de +6% — objectif 2% PIB OTAN en 2025",
+            "💸 Charge de la dette : 2e poste budgétaire (61,8 Mds€ — +18%)",
+            "📉 Travail & emploi en baisse : réduction des aides à l'alternance",
+        ],
+    }
+ 
+ 
+def _static_recettes_fiscales():
+    """
+    Recettes fiscales nettes de l'État ventilées (PLF 2025 — en milliards d'euros)
+    Source : DGFiP — Rapport sur les recettes fiscales PLF 2025
+    URL    : https://www.budget.gouv.fr/budget-de-letat/le-budget-en-chiffres
+    Màj    : Annuelle (octobre)
+    """
+    return {
+        "annee": 2025,
+        "total_mds": 387.0,
+        "commentaire": "STATIQUE - DGFiP PLF 2025 - màj annuelle (octobre)",
+        "source": "DGFiP - PLF 2025",
+        "par_impot": [
+            {"impot": "TVA",                   "mds": 176.5, "pct": 45.6, "evolution_pct": 2.5},
+            {"impot": "IR (Impôt sur le revenu)","mds": 100.3, "pct": 25.9, "evolution_pct": 4.1},
+            {"impot": "IS (Impôt sur sociétés)", "mds": 67.2, "pct": 17.4, "evolution_pct": -5.2},
+            {"impot": "TICPE (carburants)",     "mds": 16.8,  "pct": 4.3,  "evolution_pct": -1.0},
+            {"impot": "ISF / IFI",              "mds": 2.2,   "pct": 0.6,  "evolution_pct": 8.0},
+            {"impot": "Droits d'enregistrement","mds": 10.1,  "pct": 2.6,  "evolution_pct": -3.5},
+            {"impot": "Autres recettes fiscales","mds": 13.9,  "pct": 3.6,  "evolution_pct": 1.0},
+        ],
+        "evolution_historique": [
+            {"annee": 2020, "total": 290.0, "tva": 149.0, "ir": 77.5,  "is": 33.5},
+            {"annee": 2021, "total": 324.0, "tva": 161.5, "ir": 84.0,  "is": 52.0},
+            {"annee": 2022, "total": 360.0, "tva": 168.0, "ir": 89.0,  "is": 68.0},
+            {"annee": 2023, "total": 373.0, "tva": 171.0, "ir": 95.0,  "is": 62.0},
+            {"annee": 2024, "total": 379.0, "tva": 172.5, "ir": 96.4,  "is": 64.5},
+            {"annee": 2025, "total": 387.0, "tva": 176.5, "ir": 100.3, "is": 67.2},
+        ],
+        "notes_lecture": [
+            "📊 TVA : 1ère recette fiscale (45,6% du total — 176,5 Mds€)",
+            "📉 IS en baisse (-5,2%) : reflux après les superprofits de 2022-2023",
+            "📈 IR en hausse (+4,1%) : progression des revenus imposables",
+        ],
+    }
+ 
+ 
+def _static_solde_secu():
+    """
+    Solde des branches de la Sécurité Sociale (PLFSS 2025 — en milliards d'euros)
+    Source : PLFSS 2025 — Annexe B (prévisions CCSS)
+    URL    : https://www.securite-sociale.fr/home/actualites/detail.html/plfss-2025.html
+    Màj    : Annuelle (octobre — vote PLFSS)
+    """
+    return {
+        "annee_prevision": 2025,
+        "commentaire": "STATIQUE - PLFSS 2025 - màj annuelle (octobre)",
+        "source": "PLFSS 2025 — CCSS",
+        "url": "https://www.securite-sociale.fr/home/actualites/detail.html/plfss-2025.html",
+        "solde_global_mds": -18.5,
+        "branches": [
+            {
+                "branche": "Maladie",
+                "solde_2023": -10.8,
+                "solde_2024": -13.3,
+                "solde_2025": -15.0,
+                "commentaire": "Déficit structurel lié aux revalorisations et à l'ONDAM",
+                "emoji": "🏥",
+            },
+            {
+                "branche": "Retraites (vieillesse)",
+                "solde_2023": -3.5,
+                "solde_2024": -4.2,
+                "solde_2025": -5.5,
+                "commentaire": "Déficit malgré la réforme des retraites 2023 (décalage de l'effet)",
+                "emoji": "👴",
+            },
+            {
+                "branche": "Famille",
+                "solde_2023": 1.8,
+                "solde_2024": 1.0,
+                "solde_2025": 0.5,
+                "commentaire": "Excédent réduit, transferts vers l'assurance maladie",
+                "emoji": "👨‍👩‍👧",
+            },
+            {
+                "branche": "AT-MP (accidents du travail)",
+                "solde_2023": 1.7,
+                "solde_2024": 1.5,
+                "solde_2025": 1.5,
+                "commentaire": "Branche excédentaire — finance partiellement le FCAATA",
+                "emoji": "⚠️",
+            },
+        ],
+        "ondam": {
+            "objectif_mds": 264.3,
+            "evolution_pct": 3.3,
+            "commentaire": "Objectif National des Dépenses d'Assurance Maladie 2025",
+        },
+        "evolution_solde_global": [
+            {"annee": 2019, "solde": -1.5},
+            {"annee": 2020, "solde": -38.7},
+            {"annee": 2021, "solde": -24.3},
+            {"annee": 2022, "solde": -19.6},
+            {"annee": 2023, "solde": -10.8},
+            {"annee": 2024, "solde": -15.0},
+            {"annee": 2025, "solde": -18.5},
+        ],
+        "notes_lecture": [
+            "💊 Maladie : déficit record attendu à -15 Mds€ en 2025",
+            "👴 Retraites : le bénéfice budgétaire de la réforme 2023 montera en charge d'ici 2030",
+            "👨‍👩‍👧 Famille : l'excédent s'érode — transferts croissants vers la branche maladie",
+            "📈 ONDAM 2025 : +3,3% — entre maîtrise des dépenses et besoins en hausse",
+        ],
+    }
+ 
+ 
+def _static_cotisations():
+    """
+    Taux de cotisations sociales (URSSAF 2025 — salariés du secteur privé)
+    Source : URSSAF (https://www.urssaf.fr/accueil/taux-baremes.html)
+    Màj    : Annuelle (janvier)
+    """
+    return {
+        "annee": 2025,
+        "commentaire": "STATIQUE - URSSAF 2025 - màj annuelle (janvier)",
+        "source": "URSSAF - Taux et barèmes 2025",
+        "url": "https://www.urssaf.fr/accueil/taux-baremes.html",
+        "smic_brut_ref": 1823.03,
+        "taux_global": {
+            "part_employeur": 42.0,
+            "part_salariale": 22.0,
+            "total": 64.0,
+            "commentaire": "Taux approximatifs — varient selon salaire et statut cadre/non-cadre",
+        },
+        "non_cadre": {
+            "employeur": [
+                {"cotisation": "Maladie-maternité",           "taux": 13.0,  "assiette": "totalité"},
+                {"cotisation": "Vieillesse plafonnée",        "taux": 8.55,  "assiette": "tranche A (≤1 PMSS)"},
+                {"cotisation": "Vieillesse déplafonnée",      "taux": 1.9,   "assiette": "totalité"},
+                {"cotisation": "Allocations familiales",      "taux": 5.25,  "assiette": "totalité"},
+                {"cotisation": "AT-MP (variable secteur)",    "taux": 2.22,  "assiette": "totalité"},
+                {"cotisation": "FNAL",                        "taux": 0.5,   "assiette": "totalité"},
+                {"cotisation": "Chômage (patronal)",          "taux": 4.05,  "assiette": "tranche A+B"},
+                {"cotisation": "Retraite complémentaire T1",  "taux": 4.72,  "assiette": "tranche A"},
+                {"cotisation": "Retraite complémentaire T2",  "taux": 12.95, "assiette": "tranche B"},
+                {"cotisation": "CEG (AGIRC-ARRCO)",           "taux": 1.29,  "assiette": "tranche A+B"},
+                {"cotisation": "CET (AGIRC-ARRCO)",           "taux": 0.21,  "assiette": "tranche A+B"},
+                {"cotisation": "Versement mobilité (Paris)",  "taux": 3.2,   "assiette": "totalité"},
+            ],
+            "salarial": [
+                {"cotisation": "Vieillesse plafonnée",        "taux": 6.9,   "assiette": "tranche A"},
+                {"cotisation": "Vieillesse déplafonnée",      "taux": 0.4,   "assiette": "totalité"},
+                {"cotisation": "Chômage (salarial)",          "taux": 0.0,   "assiette": "supprimé depuis 2018"},
+                {"cotisation": "Retraite complémentaire T1",  "taux": 3.15,  "assiette": "tranche A"},
+                {"cotisation": "Retraite complémentaire T2",  "taux": 8.64,  "assiette": "tranche B"},
+                {"cotisation": "CEG (AGIRC-ARRCO)",           "taux": 0.86,  "assiette": "tranche A+B"},
+                {"cotisation": "CET (AGIRC-ARRCO)",           "taux": 0.14,  "assiette": "tranche A+B"},
+                {"cotisation": "CSG déductible",              "taux": 6.8,   "assiette": "98,25% salaire brut"},
+                {"cotisation": "CSG non déductible",          "taux": 2.4,   "assiette": "98,25% salaire brut"},
+                {"cotisation": "CRDS",                        "taux": 0.5,   "assiette": "98,25% salaire brut"},
+            ],
+        },
+        "parametres_cles": {
+            "pmss_mensuel": 3925,
+            "pmss_annuel": 47100,
+            "smic_horaire": 12.02,
+            "taux_csg_total": 9.7,
+            "taux_crds": 0.5,
+        },
+        "evolution_prelevements": [
+            {"annee": 2019, "taux_po_pib": 44.1, "taux_cotisations": 16.8},
+            {"annee": 2020, "taux_po_pib": 44.5, "taux_cotisations": 17.2},
+            {"annee": 2021, "taux_po_pib": 44.1, "taux_cotisations": 16.9},
+            {"annee": 2022, "taux_po_pib": 45.2, "taux_cotisations": 17.1},
+            {"annee": 2023, "taux_po_pib": 43.9, "taux_cotisations": 16.8},
+            {"annee": 2024, "taux_po_pib": 43.5, "taux_cotisations": 16.5},
+        ],
+        "notes_lecture": [
+            "📊 Taux global charges : ~64% du brut (employeur + salarié) pour un non-cadre",
+            "💡 CSG : 9,7% — 1er prélèvement social en volume",
+            "🏦 PMSS 2025 : 3 925€/mois (base calcul retraite complémentaire)",
+            "⚠️ AT-MP : taux variable selon secteur (min ~0,7% — max ~10%+)",
+        ],
+    }
+ 
+ 
+def _static_protection_sociale():
+    """
+    Dépenses de protection sociale par risque (DREES 2024 — données 2023)
+    Source : DREES — Les dépenses de protection sociale en 2023
+    URL    : https://drees.solidarites-sante.gouv.fr/sources-outils-et-enquetes/comptes-de-la-protection-sociale
+    Màj    : Annuelle (automne N+1)
+    """
+    return {
+        "annee_donnees": 2023,
+        "commentaire": "STATIQUE - DREES Comptes de la protection sociale 2023 - màj annuelle",
+        "source": "DREES - Comptes de la protection sociale 2023",
+        "url": "https://drees.solidarites-sante.gouv.fr/sources-outils-et-enquetes/comptes-de-la-protection-sociale",
+        "total_mds": 939.0,
+        "total_pct_pib": 33.0,
+        "par_risque": [
+            {
+                "risque": "Vieillesse-survie",
+                "mds": 388.0,
+                "pct_total": 41.3,
+                "pct_pib": 13.7,
+                "evolution_an": 4.8,
+                "emoji": "👴",
+                "detail": "Pensions de retraite, réversion, minimum vieillesse (ASPA)",
+            },
+            {
+                "risque": "Maladie-invalidité-accidents",
+                "mds": 285.0,
+                "pct_total": 30.4,
+                "pct_pib": 10.0,
+                "evolution_an": 3.2,
+                "emoji": "🏥",
+                "detail": "Soins de ville, hôpital, médicaments, IJ maladie, invalidité",
+            },
+            {
+                "risque": "Famille-maternité",
+                "mds": 70.0,
+                "pct_total": 7.5,
+                "pct_pib": 2.5,
+                "evolution_an": 1.8,
+                "emoji": "👨‍👩‍👧",
+                "detail": "Allocations familiales, APE, aides à la garde, congé parental",
+            },
+            {
+                "risque": "Chômage",
+                "mds": 50.0,
+                "pct_total": 5.3,
+                "pct_pib": 1.8,
+                "evolution_an": -3.5,
+                "emoji": "💼",
+                "detail": "Allocations chômage ARE, ASS, formation chômeurs",
+            },
+            {
+                "risque": "Logement",
+                "mds": 18.5,
+                "pct_total": 2.0,
+                "pct_pib": 0.7,
+                "evolution_an": 0.5,
+                "emoji": "🏠",
+                "detail": "APL, ALF, ALS",
+            },
+            {
+                "risque": "Pauvreté-exclusion",
+                "mds": 32.0,
+                "pct_total": 3.4,
+                "pct_pib": 1.1,
+                "evolution_an": 5.0,
+                "emoji": "🤝",
+                "detail": "RSA, prime d'activité, AAH",
+            },
+            {
+                "risque": "Dépendance",
+                "mds": 43.0,
+                "pct_total": 4.6,
+                "pct_pib": 1.5,
+                "evolution_an": 6.2,
+                "emoji": "🧓",
+                "detail": "APA, financement EHPAD, aide à domicile",
+            },
+            {
+                "risque": "Accidents du travail",
+                "mds": 17.5,
+                "pct_total": 1.9,
+                "pct_pib": 0.6,
+                "evolution_an": 2.0,
+                "emoji": "⚠️",
+                "detail": "Rentes AT/MP, IJ accident travail, réadaptation",
+            },
+            {
+                "risque": "Formation professionnelle",
+                "mds": 35.0,
+                "pct_total": 3.6,
+                "pct_pib": 1.2,
+                "evolution_an": 2.8,
+                "emoji": "📚",
+                "detail": "CPF, apprentissage, Pro-A, formation demandeurs d'emploi",
+            },
+        ],
+        "financement": {
+            "cotisations_sociales_pct": 55.0,
+            "impots_taxes_pct": 28.0,
+            "contributions_publiques_pct": 14.0,
+            "autres_pct": 3.0,
+        },
+        "evolution_historique": [
+            {"annee": 2019, "total_pct_pib": 31.0, "total_mds": 838.0},
+            {"annee": 2020, "total_pct_pib": 34.0, "total_mds": 886.0},
+            {"annee": 2021, "total_pct_pib": 33.5, "total_mds": 903.0},
+            {"annee": 2022, "total_pct_pib": 32.8, "total_mds": 918.0},
+            {"annee": 2023, "total_pct_pib": 33.0, "total_mds": 939.0},
+        ],
+        "notes_lecture": [
+            "👴 Vieillesse : 41% des dépenses — 1er poste de la protection sociale",
+            "🏥 Santé : 2e poste (30%) — hausse portée par l'ONDAM et vieillissement",
+            "🧓 Dépendance : +6,2% — besoin croissant, réforme attendue",
+            "💼 Chômage en baisse (-3,5%) : reflux du nombre d'allocataires en 2023",
+        ],
+    }
+ 
+ 
+def _static_comparaison_ue_finances():
+    """
+    Comparaison européenne des finances publiques (Eurostat — données 2024 provisoires)
+    Source : Eurostat — Statistiques des finances publiques
+    URL    : https://ec.europa.eu/eurostat/databrowser/view/gov_10dd_edpt1/default/table
+    Màj    : Semestrielle (printemps + automne)
+    """
+    return {
+        "annee_donnees": 2024,
+        "commentaire": "STATIQUE - Eurostat données 2024 provisoires - màj semestrielle",
+        "source": "Eurostat - Statistiques finances publiques 2024",
+        "url": "https://ec.europa.eu/eurostat/databrowser/view/gov_10dd_edpt1",
+        "dette_pib": [
+            {"pays": "Grèce",      "code": "GR", "taux": 161.9},
+            {"pays": "Italie",     "code": "IT", "taux": 137.3},
+            {"pays": "Portugal",   "code": "PT", "taux": 100.0},
+            {"pays": "Espagne",    "code": "ES", "taux": 101.9},
+            {"pays": "France",     "code": "FR", "taux": 112.9},
+            {"pays": "Belgique",   "code": "BE", "taux": 104.3},
+            {"pays": "Allemagne",  "code": "DE", "taux": 62.4},
+            {"pays": "Pays-Bas",   "code": "NL", "taux": 43.8},
+            {"pays": "Zone euro",  "code": "EA", "taux": 89.4},
+            {"pays": "UE-27",      "code": "EU", "taux": 82.3},
+        ],
+        "deficit_pib": [
+            {"pays": "Roumanie",   "code": "RO", "taux": -8.6},
+            {"pays": "Italie",     "code": "IT", "taux": -7.2},
+            {"pays": "Hongrie",    "code": "HU", "taux": -4.8},
+            {"pays": "France",     "code": "FR", "taux": -6.1},
+            {"pays": "Espagne",    "code": "ES", "taux": -3.0},
+            {"pays": "Belgique",   "code": "BE", "taux": -4.2},
+            {"pays": "Allemagne",  "code": "DE", "taux": -2.8},
+            {"pays": "Pays-Bas",   "code": "NL", "taux": -0.4},
+            {"pays": "Suède",      "code": "SE", "taux": -1.1},
+            {"pays": "Zone euro",  "code": "EA", "taux": -3.0},
+        ],
+        "depenses_publiques_pib": [
+            {"pays": "France",     "code": "FR", "taux": 57.1},
+            {"pays": "Finlande",   "code": "FI", "taux": 57.5},
+            {"pays": "Belgique",   "code": "BE", "taux": 56.3},
+            {"pays": "Italie",     "code": "IT", "taux": 54.8},
+            {"pays": "Autriche",   "code": "AT", "taux": 54.0},
+            {"pays": "Allemagne",  "code": "DE", "taux": 49.3},
+            {"pays": "Espagne",    "code": "ES", "taux": 47.2},
+            {"pays": "Pays-Bas",   "code": "NL", "taux": 46.2},
+            {"pays": "Zone euro",  "code": "EA", "taux": 50.1},
+        ],
+        "prelevements_obligatoires_pib": [
+            {"pays": "France",     "code": "FR", "taux": 43.5},
+            {"pays": "Belgique",   "code": "BE", "taux": 44.0},
+            {"pays": "Danemark",   "code": "DK", "taux": 46.5},
+            {"pays": "Italie",     "code": "IT", "taux": 42.3},
+            {"pays": "Allemagne",  "code": "DE", "taux": 40.8},
+            {"pays": "Espagne",    "code": "ES", "taux": 38.5},
+            {"pays": "Pays-Bas",   "code": "NL", "taux": 39.2},
+            {"pays": "Zone euro",  "code": "EA", "taux": 40.6},
+        ],
+        "notes_lecture": [
+            "🇫🇷 France : 2e pays de l'UE pour les dépenses publiques (57,1% PIB)",
+            "📈 Dette France : 112,9% PIB — au-dessus de la moyenne zone euro (89,4%)",
+            "⚠️ Déficit France : -6,1% PIB — très au-delà des 3% du Pacte de stabilité",
+            "🇩🇪 Allemagne : modèle d'orthodoxie budgétaire (dette 62,4% — déficit -2,8%)",
+        ],
+    }
 
 def main():
     print("=" * 70)
@@ -4226,7 +4638,8 @@ def main():
     print("━" * 70)
     print("📡 DONNÉES AUTOMATIQUES (API INSEE)")
     print("━" * 70)
-    
+
+    finances_publiques = build_finances_publiques_data()
     inflation_salaires = build_inflation_data()
     chomage = build_chomage_data()
     chomage_seniors = build_chomage_seniors_data()  # Nouvelle série 001688530
@@ -4401,7 +4814,7 @@ def main():
             "INSEE - Base Tous salariés",
             "INSEE - Indices trimestriels de salaire (ACEMO)",
             "INSEE - Enquête de conjoncture industrie",
-            "DARES - Mouvements de Main d'Oeuvre",
+            "DARES - Mouvements de  d'Oeuvre",
             "France Travail - Enquête BMO",
             "Urssaf - Prime de partage de la valeur"
         ],
