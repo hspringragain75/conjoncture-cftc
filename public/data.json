@@ -1,6 +1,6 @@
 {
-  "last_updated": "08/04/2026 12:00",
-  "last_updated_iso": "2026-04-08T12:00:53.202703",
+  "last_updated": "08/04/2026 12:06",
+  "last_updated_iso": "2026-04-08T12:06:15.622686",
   "contact": "hspringragain@cftc.fr",
   "alertes": [
     {
@@ -32,7 +32,7 @@
       "date": "2026-04-08",
       "type": "info",
       "titre": "🔄 Données actualisées",
-      "message": "Le tableau de bord a été mis à jour le 08/04/2026 à 12:00.",
+      "message": "Le tableau de bord a été mis à jour le 08/04/2026 à 12:06.",
       "onglet": "conjoncture"
     }
   ],
@@ -204,7 +204,7 @@
     }
   ],
   "revue_presse": {
-    "derniere_maj": "08/04/2026 12:00",
+    "derniere_maj": "08/04/2026 12:06",
     "nb_sources": 7,
     "sources_noms": [
       "Le Monde Éco",
@@ -230,6 +230,18 @@
       }
     ],
     "tous": [
+      {
+        "source": "Le Monde Éco",
+        "couleur": "#374151",
+        "emoji": "🌐",
+        "tag": "Presse économique",
+        "titre": "La reprise de l’immobilier contrariée par la guerre au Moyen-Orient",
+        "resume": "Les agences constatent que les acheteurs sont plus hésitants et les délais de vente s’allongent depuis le début de la crise en Iran et dans les pays voisins.",
+        "lien": "https://www.lemonde.fr/argent/article/2026/04/08/la-reprise-de-l-immobilier-contrariee-par-la-guerre-au-moyen-orient_6678258_1657007.html",
+        "date_iso": "2026-04-08T14:00:13+02:00",
+        "date_fr": "08/04/2026",
+        "pertinence": 0
+      },
       {
         "source": "Le Monde Éco",
         "couleur": "#374151",
@@ -577,18 +589,6 @@
         "date_iso": "2026-04-08T09:13:10+00:00",
         "date_fr": "08/04/2026",
         "pertinence": 1
-      },
-      {
-        "source": "Le Monde Éco",
-        "couleur": "#374151",
-        "emoji": "🌐",
-        "tag": "Presse économique",
-        "titre": "« C’est le travail de la jeunesse modeste qui paie les retraites des riches et vieux Parisiens »",
-        "resume": "Les maires de Paris et de Saint-Denis gagneraient à s’inspirer du dernier ouvrage des historiens Gilles Postel-Vinay et Jean-Laurent Rosenthal, qui met en lumière l’accumulation de la richesse privée dans la capitale, souligne Pierre-Cyrille Hautcœur, dans sa chronique au « Monde ».",
-        "lien": "https://www.lemonde.fr/idees/article/2026/04/08/c-est-le-travail-de-la-jeunesse-modeste-qui-paie-les-retraites-des-riches-et-vieux-parisiens_6678209_3232.html",
-        "date_iso": "2026-04-08T09:00:05+02:00",
-        "date_fr": "08/04/2026",
-        "pertinence": 2
       }
     ]
   },
@@ -847,7 +847,7 @@
     "ecart_hf_eqtp": 25.8,
     "difficultes_recrutement": 61,
     "irl_glissement": 0.79,
-    "prix_gazole": 2.389,
+    "prix_gazole": 2.388,
     "taux_effort_locataires": 29.6,
     "croissance_pib": 0.7,
     "climat_affaires": 97,
@@ -2604,18 +2604,18 @@
   },
   "carburants": {
     "gazole": {
-      "prix": 2.389,
+      "prix": 2.388,
       "variation_an": 29.1,
-      "variation_sem": 51.2
+      "variation_sem": 51.1
     },
     "sp95": {
-      "prix": 2.073,
-      "variation_an": 13.9,
+      "prix": 2.072,
+      "variation_an": 13.8,
       "variation_sem": 20.5
     },
     "sp98": {
-      "prix": 2.129,
-      "variation_an": 13.9,
+      "prix": 2.128,
+      "variation_an": 13.8,
       "variation_sem": 20.5
     },
     "e10": {
@@ -2899,13 +2899,13 @@
       },
       {
         "date": "2026-04-08",
-        "gazole": 2.389,
-        "sp95": 2.073,
-        "sp98": 2.129,
+        "gazole": 2.388,
+        "sp95": 2.072,
+        "sp98": 2.128,
         "e10": 2.014
       }
     ],
-    "derniere_donnee": "2026-04-08 12:49",
+    "derniere_donnee": "2026-04-08 11:57",
     "source": "data.economie.gouv.fr (flux instantané)",
     "granularite": "quotidien"
   },
@@ -3482,7 +3482,7 @@
       "note_lecture": "Le TEC-10 mesure le rendement des emprunts d'Etat francais a 10 ans. Un taux eleve rencherit le cout de la dette publique et impacte les taux de credit immobilier."
     },
     "petrole_brent": {
-      "valeur": 92.39,
+      "valeur": 92.69,
       "date": "2026-04-08",
       "unite": "USD/baril",
       "source": "Yahoo Finance",
@@ -4996,16 +4996,16 @@
         },
         {
           "date": "2026-04-08",
-          "valeur": 92.39,
+          "valeur": 92.69,
           "ma50": 86.18,
           "ma200": 70.66
         }
       ],
       "variations": {
-        "jour": -15.45,
-        "semaine": -21.93,
-        "mois": -0.32,
-        "ytd": 52.08
+        "jour": -15.17,
+        "semaine": -21.68,
+        "mois": 0.0,
+        "ytd": 52.58
       },
       "min_max": {
         "min": 58.92,
@@ -5016,9 +5016,9 @@
       "note_lecture": "Le prix du Brent influence directement les couts de transport et d'energie, donc l'inflation et le pouvoir d'achat des salaries."
     },
     "cac40": {
-      "valeur": 8289.51,
+      "valeur": 8298.36,
       "date": "2026-04-08",
-      "variation_jour_pct": 4.81,
+      "variation_jour_pct": 4.93,
       "unite": "points",
       "source": "Yahoo Finance",
       "nb_points": 254,
@@ -6543,16 +6543,16 @@
         },
         {
           "date": "2026-04-08",
-          "valeur": 8289.51,
-          "ma50": 8129.12,
-          "ma200": 8006.52
+          "valeur": 8298.36,
+          "ma50": 8129.3,
+          "ma200": 8006.56
         }
       ],
       "variations": {
-        "jour": 4.81,
-        "semaine": 6.65,
-        "mois": 3.03,
-        "ytd": 1.15
+        "jour": 4.93,
+        "semaine": 6.77,
+        "mois": 3.14,
+        "ytd": 1.26
       },
       "min_max": {
         "min": 6863.02,
@@ -8133,7 +8133,7 @@
       "note_lecture": "Le taux de change euro-dollar determine le prix de tout ce qui est importe en dollars : petrole, matieres premieres, electronique. Un euro faible rencherit les importations et alimente l'inflation."
     },
     "or": {
-      "valeur": 4825.0,
+      "valeur": 4825.5,
       "date": "2026-04-08",
       "unite": "USD/oz",
       "source": "Yahoo Finance",
@@ -9647,16 +9647,16 @@
         },
         {
           "date": "2026-04-08",
-          "valeur": 4825.0,
-          "ma50": 4920.75,
-          "ma200": 4136.14
+          "valeur": 4825.5,
+          "ma50": 4920.76,
+          "ma200": 4136.15
         }
       ],
       "variations": {
-        "jour": 3.61,
-        "semaine": 3.82,
-        "mois": -6.24,
-        "ytd": 11.83
+        "jour": 3.62,
+        "semaine": 3.83,
+        "mois": -6.23,
+        "ytd": 11.85
       },
       "min_max": {
         "min": 2968.4,
@@ -11195,7 +11195,7 @@
       "note_lecture": "Le prix du gaz naturel (TTF europeen) impacte directement les factures de chauffage et d'electricite des menages, ainsi que les couts de production industrielle."
     },
     "ble": {
-      "valeur": 578.75,
+      "valeur": 579.5,
       "date": "2026-04-08",
       "unite": "cents/boisseau",
       "source": "Yahoo Finance",
@@ -12703,16 +12703,16 @@
         },
         {
           "date": "2026-04-08",
-          "valeur": 578.75,
-          "ma50": 572.53,
+          "valeur": 579.5,
+          "ma50": 572.54,
           "ma200": 534.2
         }
       ],
       "variations": {
-        "jour": -3.22,
-        "semaine": -6.09,
-        "mois": -5.32,
-        "ytd": 14.26
+        "jour": -3.09,
+        "semaine": -5.96,
+        "mois": -5.19,
+        "ytd": 14.41
       },
       "min_max": {
         "min": 495.0,
@@ -18181,7 +18181,7 @@
           "2023": 1.92,
           "2024": 1.78,
           "2025": 1.72,
-          "2026": 2.073
+          "2026": 2.072
         },
         "quantiteMensuelle": {
           "solo": 40,
@@ -19580,7 +19580,7 @@
     "meta": {
       "source_effectifs": "DSN via kali-data",
       "source_grilles": "SocialGouv kali-data (extraction automatique)",
-      "date_generation": "2026-04-08T12:01:23.333832",
+      "date_generation": "2026-04-08T12:06:46.346475",
       "mode": "100pct_automatique",
       "note": "Extraction heuristique depuis textes juridiques KALI. Statut a_verifier si grille non extraite ou confidence < 55%."
     },
@@ -21636,7 +21636,7 @@
     "sources": "INSEE - Enquête Emploi, DARES"
   },
   "previsions_cftc": {
-    "generated_at": "2026-04-08T12:01:23.463059",
+    "generated_at": "2026-04-08T12:06:46.457002",
     "model_version": "CFTC v7.0 (bivarié Phillips + log-normale + pondération temporelle)",
     "n_simulations": 1000,
     "horizon": "12 mois",
@@ -21645,7 +21645,7 @@
       "niveau": "excellent",
       "issues": [],
       "warnings": [],
-      "timestamp": "2026-04-08T12:01:23.463107"
+      "timestamp": "2026-04-08T12:06:46.457033"
     },
     "calibrage": {
       "volatilites": {
@@ -21673,7 +21673,7 @@
       "lognormal_offset": 3.0
     },
     "market_signals": {
-      "inflation_adjustment": 0.073,
+      "inflation_adjustment": 0.076,
       "chomage_adjustment": 0.175,
       "energie_outlook": "hausse",
       "ponderation_temporelle": {
@@ -21685,10 +21685,10 @@
     },
     "market_signals_details": {
       "brent": {
-        "valeur": 92.39,
+        "valeur": 92.69,
         "ref": 75.0,
-        "variation_ytd_pct": 52.08,
-        "impact_inflation_pt": 0.174,
+        "variation_ytd_pct": 52.58,
+        "impact_inflation_pt": 0.177,
         "poids_temporel": 1.0
       },
       "gaz_ttf": {
@@ -21715,11 +21715,11 @@
         "signal": "baissier"
       },
       "cac40_ytd": {
-        "variation_ytd_pct": 1.15,
+        "variation_ytd_pct": 1.26,
         "signal_chomage": "neutre"
       },
       "carburants_sp95": {
-        "variation_annuelle_pct": 13.9,
+        "variation_annuelle_pct": 13.8,
         "impact_inflation_pt": 0.004
       },
       "confiance_menages": {
@@ -21836,18 +21836,18 @@
         "methodology": "Monte Carlo bivarié (1000 sim.) + log-normale + Phillips ρ=-0.35 (v7)"
       },
       "probabilites": {
-        "inflation_sous_2pct": 90.9,
-        "inflation_cible_bce": 90.9,
+        "inflation_sous_2pct": 90.6,
+        "inflation_cible_bce": 90.6,
         "inflation_au_dessus_3pct": 0.0,
         "inflation_au_dessus_4pct": 0.0,
-        "description": "90.9% de chances que l'inflation reste sous 2% à 12 mois"
+        "description": "90.6% de chances que l'inflation reste sous 2% à 12 mois"
       },
       "facteurs": {
         "cible_bdf": 1.4,
         "ajustement_climat": -0.03,
-        "ajustement_marches": 0.073,
+        "ajustement_marches": 0.076,
         "energie_outlook": "hausse",
-        "cible_ajustee": 1.443,
+        "cible_ajustee": 1.446,
         "volatilite_utilisee": 0.5
       },
       "asymetrie_ic": {
@@ -21855,7 +21855,7 @@
         "queue_basse": 0.4,
         "ratio": 1.25
       },
-      "insight": "Inflation médiane à 12 mois : 1.5% [IC 80% : 1.1% - 2.0%]. Asymétrie : queue haute 0.5pt vs basse 0.4pt. 90.9% de probabilité de rester sous 2%."
+      "insight": "Inflation médiane à 12 mois : 1.5% [IC 80% : 1.1% - 2.0%]. Asymétrie : queue haute 0.5pt vs basse 0.4pt. 90.6% de probabilité de rester sous 2%."
     },
     "smic": {
       "current": {
@@ -22062,10 +22062,10 @@
       }
     },
     "notes_lecture": [
-      "📈 Inflation médiane à 12 mois : 1.5% [1.1% - 2.0%] — 90.9% de chances de rester sous 2% (asymétrie : +0.5pt / -0.4pt)",
+      "📈 Inflation médiane à 12 mois : 1.5% [1.1% - 2.0%] — 90.6% de chances de rester sous 2% (asymétrie : +0.5pt / -0.4pt)",
       "💰 SMIC janvier 2027 : 1858€ brut (+1.9%, fourchette 1.5-2.4%) — Pouvoir d'achat réel : +0.4% (+7€/mois)",
       "👥 Chômage Q4 : 7.8% [7.6% - 7.9%] — Tendance stable (corrélé Phillips ρ=-0.35)",
-      "📊 Signaux marchés : ↑ inflation 0.07pt, ↑ chômage 0.17pt, (poids temporel min : 0.95)",
+      "📊 Signaux marchés : ↑ inflation 0.08pt, ↑ chômage 0.17pt, (poids temporel min : 0.95)",
       "🎲 Scénario à surveiller : 🚀 Reprise économique forte (25%)",
       "💡 Recommandation NAO : demander au minimum +2.0% pour préserver le pouvoir d'achat"
     ],
@@ -22090,7 +22090,7 @@
           }
         },
         "contribution_mediane": {
-          "signaux_marches_pt": 0.073,
+          "signaux_marches_pt": 0.076,
           "incertitude_bdf_sigma": 0.15,
           "label": "Déplacement de la prévision centrale"
         }
