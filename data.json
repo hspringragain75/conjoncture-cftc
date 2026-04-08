@@ -1,6 +1,6 @@
 {
-  "last_updated": "08/04/2026 08:50",
-  "last_updated_iso": "2026-04-08T08:50:56.962068",
+  "last_updated": "08/04/2026 09:05",
+  "last_updated_iso": "2026-04-08T09:05:18.582028",
   "contact": "hspringragain@cftc.fr",
   "alertes": [
     {
@@ -32,7 +32,7 @@
       "date": "2026-04-08",
       "type": "info",
       "titre": "🔄 Données actualisées",
-      "message": "Le tableau de bord a été mis à jour le 08/04/2026 à 08:50.",
+      "message": "Le tableau de bord a été mis à jour le 08/04/2026 à 09:05.",
       "onglet": "conjoncture"
     }
   ],
@@ -204,7 +204,7 @@
     }
   ],
   "revue_presse": {
-    "derniere_maj": "08/04/2026 08:50",
+    "derniere_maj": "08/04/2026 09:05",
     "nb_sources": 7,
     "sources_noms": [
       "Le Monde Éco",
@@ -218,14 +218,38 @@
     "a_la_une": [],
     "tous": [
       {
+        "source": "Le Monde Éco",
+        "couleur": "#374151",
+        "emoji": "🌐",
+        "tag": "Presse économique",
+        "titre": "PFAS : « Les projets de dérégulation portés par les pouvoirs publics servent avant tout les intérêts des industriels »",
+        "resume": "La déréglementation croissante de l’industrie chimique européenne mue par une recherche frénétique de compétitivité freine l’encadrement des polluants éternels et la protection des populations, alerte un collectif d’associations et de citoyens dans une tribune au « Monde ».",
+        "lien": "https://www.lemonde.fr/idees/article/2026/04/08/pfas-les-projets-de-deregulation-portes-par-les-pouvoirs-publics-servent-avant-tout-les-interets-des-industriels_6678227_3232.html",
+        "date_iso": "2026-04-08T11:00:09+02:00",
+        "date_fr": "08/04/2026",
+        "pertinence": 1
+      },
+      {
         "source": "Le Figaro Éco",
         "couleur": "#92400e",
         "emoji": "📊",
         "tag": "Presse économique",
-        "titre": "Ménages, transporteurs... EDF annonce un fonds de 240 millions d’euros pour aider ses clients à passer à l’électrique",
-        "resume": "Le groupe, qui fête ses 80 ans ce mercredi, dévoile une première série de mesures. Elles devraient s’appuyer sur celles que le gouvernement devrait annoncer dans les prochains jours.",
-        "lien": "https://www.lefigaro.fr/societes/menages-transporteurs-edf-annonce-un-fonds-de-240-millions-d-euros-pour-aider-ses-clients-a-passer-a-l-electrique-20260408",
-        "date_iso": "2026-04-08T10:43:01+02:00",
+        "titre": "Cessez-le-feu en Iran : les prix à la pompe «doivent baisser, le gouvernement y veillera», affirme Lecornu",
+        "resume": "«Un plan de contrôle» des prix en stations va être déclenché, a annoncé le premier ministre. «Personne en France ne doit profiter de cette crise, ni hier, ni demain», a-t-il estimé.",
+        "lien": "https://www.lefigaro.fr/conjoncture/cessez-le-feu-en-iran-les-prix-a-la-pompe-doivent-baisser-le-gouvernement-y-veillera-affirme-lecornu-20260408",
+        "date_iso": "2026-04-08T10:54:37+02:00",
+        "date_fr": "08/04/2026",
+        "pertinence": 0
+      },
+      {
+        "source": "Le Figaro Éco",
+        "couleur": "#92400e",
+        "emoji": "📊",
+        "tag": "Presse économique",
+        "titre": "Cessez-le-feu en Iran : une baisse des prix des carburants de «5 à 10 centimes» pourrait intervenir «sous 48 heures»",
+        "resume": "Selon l’Union française des industries pétrolières, les prix des carburants pourraient baisser de «5 à 10 centimes très rapidement». L’annonce de la trêve dans la guerre menée par les États-Unis contre l’Iran est un «soulagement» pour le PDG de Coopérative U Dominique Schelcher.",
+        "lien": "https://www.lefigaro.fr/conso/cessez-le-feu-en-iran-la-baisse-des-prix-a-la-pompe-pourrait-intervenir-sous-48-heures-20260408",
+        "date_iso": "2026-04-08T10:54:32+02:00",
         "date_fr": "08/04/2026",
         "pertinence": 0
       },
@@ -237,7 +261,7 @@
         "titre": "Pétrole, gaz, or, taux d’intérêt... Les marchés s’emballent après l’annonce d’un cessez-le-feu en Iran",
         "resume": "Les prix du pétrole et du gaz se détendent, après que les États-Unis et l’Iran ont convenu d’un cessez-le-feu de deux semaines en échange d’une réouverture du détroit d’Ormuz.",
         "lien": "https://www.lefigaro.fr/conjoncture/ultimatum-repousse-en-iran-le-petrole-plonge-sous-100-dollars-les-bourses-d-asie-s-envolent-20260408",
-        "date_iso": "2026-04-08T10:37:58+02:00",
+        "date_iso": "2026-04-08T10:47:37+02:00",
         "date_fr": "08/04/2026",
         "pertinence": 0
       },
@@ -246,10 +270,10 @@
         "couleur": "#92400e",
         "emoji": "📊",
         "tag": "Presse économique",
-        "titre": "Les Bourses européennes exultent après le cessez-le-feu en Iran",
-        "resume": "Les marchés d’actions sont à la fête après que les États-Unis et l’Iran sont convenus d’une trêve de deux semaines. Le pétrole chute, les taux souverains reculent.",
+        "titre": "Les Bourses européennes s’envolent après le cessez-le-feu en Iran",
+        "resume": "Les marchés d’actions sont à la fête après que les États-Unis et l’Iran ont convenu d’une trêve de deux semaines. Le pétrole chute, les taux souverains reculent.",
         "lien": "https://www.lefigaro.fr/conjoncture/cessez-le-feu-en-iran-les-bourses-europeennes-s-envolent-le-cac-40-bondit-de-1-53-20260408",
-        "date_iso": "2026-04-08T10:37:53+02:00",
+        "date_iso": "2026-04-08T10:47:32+02:00",
         "date_fr": "08/04/2026",
         "pertinence": 0
       },
@@ -258,10 +282,10 @@
         "couleur": "#92400e",
         "emoji": "📊",
         "tag": "Presse économique",
-        "titre": "Cessez-le-feu en Iran : les prix à la pompe «doivent baisser, le gouvernement y veillera», affirme Lecornu",
-        "resume": "«Un plan de contrôle» des prix en stations va être déclenché, a annoncé le premier ministre. «Personne en France ne doit profiter de cette crise, ni hier, ni demain», a-t-il estimé.",
-        "lien": "https://www.lefigaro.fr/conjoncture/cessez-le-feu-en-iran-les-prix-a-la-pompe-doivent-baisser-le-gouvernement-y-veillera-affirme-lecornu-20260408",
-        "date_iso": "2026-04-08T10:36:26+02:00",
+        "titre": "Ménages, transporteurs... EDF annonce un fonds de 240 millions d’euros pour aider ses clients à passer à l’électrique",
+        "resume": "Le groupe, qui fête ses 80 ans ce mercredi, dévoile une première série de mesures. Elles devraient s’appuyer sur celles que le gouvernement devrait annoncer dans les prochains jours.",
+        "lien": "https://www.lefigaro.fr/societes/menages-transporteurs-edf-annonce-un-fonds-de-240-millions-d-euros-pour-aider-ses-clients-a-passer-a-l-electrique-20260408",
+        "date_iso": "2026-04-08T10:43:01+02:00",
         "date_fr": "08/04/2026",
         "pertinence": 0
       },
@@ -322,18 +346,6 @@
         "resume": "Malgré l’annonce d’un cessez-le-feu entre les États-Unis et l’Iran, la situation de l’approvisionnement en kérosène reste fragile, estime le directeur général de l’IATA.",
         "lien": "https://www.lefigaro.fr/conjoncture/cessez-le-feu-en-iran-l-approvisionnement-en-kerosene-ne-reviendra-pas-a-la-normale-avant-plusieurs-mois-20260408",
         "date_iso": "2026-04-08T09:50:48+02:00",
-        "date_fr": "08/04/2026",
-        "pertinence": 0
-      },
-      {
-        "source": "Le Figaro Éco",
-        "couleur": "#92400e",
-        "emoji": "📊",
-        "tag": "Presse économique",
-        "titre": "Cessez-le-feu en Iran : une baisse des prix des carburants de « 5 à 10 centimes » pourrait intervenir « sous 48 heures »",
-        "resume": "Selon l’Ufip, les prix des carburants pourraient baisser de « 5 à 10 centimes très rapidement ». L’annonce de la trêve dans la guerre menée par les États-Unis contre l’Iran est un « soulagement » pour le PDG de Coopérative U Dominique Schelcher.",
-        "lien": "https://www.lefigaro.fr/conso/cessez-le-feu-en-iran-la-baisse-des-prix-a-la-pompe-pourrait-intervenir-sous-48-heures-20260408",
-        "date_iso": "2026-04-08T09:35:45+02:00",
         "date_fr": "08/04/2026",
         "pertinence": 0
       },
@@ -562,18 +574,6 @@
         "resume": "L’accident entre le train et le poids lourd a eu lieu vers 7 heures à un passage à niveau de Mazingarbe, entre Béthune et Lens. Certains débris ont volé dans le jardin des habitants.",
         "lien": "https://www.lemonde.fr/economie/video/2026/04/07/accident-entre-un-tgv-et-un-poids-lourd-dans-le-pas-de-calais-les-images-et-temoignages-a-bully-les-mines_6677937_3234.html",
         "date_iso": "2026-04-07T21:36:03+02:00",
-        "date_fr": "07/04/2026",
-        "pertinence": 0
-      },
-      {
-        "source": "Le Monde Éco",
-        "couleur": "#374151",
-        "emoji": "🌐",
-        "tag": "Presse économique",
-        "titre": "Les grands magasins du Printemps coupent à nouveau dans les effectifs, 229 postes vont être supprimés",
-        "resume": "Le groupe a annoncé un plan de restructuration qui va conduire à la fermeture du magasin de Rennes.",
-        "lien": "https://www.lemonde.fr/economie/article/2026/04/07/les-grands-magasins-du-printemps-coupent-a-nouveau-dans-les-effectifs-229-postes-vont-etre-supprimes_6677936_3234.html",
-        "date_iso": "2026-04-07T21:17:34+02:00",
         "date_fr": "07/04/2026",
         "pertinence": 0
       }
@@ -834,7 +834,7 @@
     "ecart_hf_eqtp": 25.8,
     "difficultes_recrutement": 61,
     "irl_glissement": 0.79,
-    "prix_gazole": 2.375,
+    "prix_gazole": 2.382,
     "taux_effort_locataires": 29.6,
     "croissance_pib": 0.7,
     "climat_affaires": 97,
@@ -2455,23 +2455,23 @@
   },
   "carburants": {
     "gazole": {
-      "prix": 2.375,
-      "variation_an": 28.4,
-      "variation_sem": 50.3
+      "prix": 2.382,
+      "variation_an": 28.8,
+      "variation_sem": 50.8
     },
     "sp95": {
-      "prix": 2.07,
-      "variation_an": 13.7,
-      "variation_sem": 20.3
+      "prix": 2.072,
+      "variation_an": 13.8,
+      "variation_sem": 20.5
     },
     "sp98": {
-      "prix": 2.127,
-      "variation_an": 13.7,
-      "variation_sem": 20.3
+      "prix": 2.128,
+      "variation_an": 13.8,
+      "variation_sem": 20.5
     },
     "e10": {
-      "prix": 2.012,
-      "variation_an": 12.4,
+      "prix": 2.013,
+      "variation_an": 12.5,
       "variation_sem": 19.8
     },
     "evolution": [
@@ -2750,13 +2750,13 @@
       },
       {
         "date": "2026-04-08",
-        "gazole": 2.375,
-        "sp95": 2.07,
-        "sp98": 2.127,
-        "e10": 2.012
+        "gazole": 2.382,
+        "sp95": 2.072,
+        "sp98": 2.128,
+        "e10": 2.013
       }
     ],
-    "derniere_donnee": "2026-04-08 08:49",
+    "derniere_donnee": "2026-04-08 09:49",
     "source": "data.economie.gouv.fr (flux instantané)",
     "granularite": "quotidien"
   },
@@ -3333,7 +3333,7 @@
       "note_lecture": "Le TEC-10 mesure le rendement des emprunts d'Etat francais a 10 ans. Un taux eleve rencherit le cout de la dette publique et impacte les taux de credit immobilier."
     },
     "petrole_brent": {
-      "valeur": 94.28,
+      "valeur": 94.4,
       "date": "2026-04-08",
       "unite": "USD/baril",
       "source": "Yahoo Finance",
@@ -4847,16 +4847,16 @@
         },
         {
           "date": "2026-04-08",
-          "valeur": 94.28,
+          "valeur": 94.4,
           "ma50": 86.22,
           "ma200": 70.67
         }
       ],
       "variations": {
-        "jour": -13.72,
-        "semaine": -20.34,
-        "mois": 1.72,
-        "ytd": 55.19
+        "jour": -13.61,
+        "semaine": -20.24,
+        "mois": 1.84,
+        "ytd": 55.39
       },
       "min_max": {
         "min": 58.92,
@@ -4867,9 +4867,9 @@
       "note_lecture": "Le prix du Brent influence directement les couts de transport et d'energie, donc l'inflation et le pouvoir d'achat des salaries."
     },
     "cac40": {
-      "valeur": 8229.48,
+      "valeur": 8218.64,
       "date": "2026-04-08",
-      "variation_jour_pct": 4.06,
+      "variation_jour_pct": 3.92,
       "unite": "points",
       "source": "Yahoo Finance",
       "nb_points": 254,
@@ -6394,16 +6394,16 @@
         },
         {
           "date": "2026-04-08",
-          "valeur": 8229.48,
-          "ma50": 8127.92,
-          "ma200": 8006.22
+          "valeur": 8218.64,
+          "ma50": 8127.7,
+          "ma200": 8006.16
         }
       ],
       "variations": {
-        "jour": 4.06,
-        "semaine": 5.88,
-        "mois": 2.28,
-        "ytd": 0.42
+        "jour": 3.92,
+        "semaine": 5.74,
+        "mois": 2.15,
+        "ytd": 0.29
       },
       "min_max": {
         "min": 6863.02,
@@ -7984,7 +7984,7 @@
       "note_lecture": "Le taux de change euro-dollar determine le prix de tout ce qui est importe en dollars : petrole, matieres premieres, electronique. Un euro faible rencherit les importations et alimente l'inflation."
     },
     "or": {
-      "valeur": 4830.4,
+      "valeur": 4825.4,
       "date": "2026-04-08",
       "unite": "USD/oz",
       "source": "Yahoo Finance",
@@ -9498,16 +9498,16 @@
         },
         {
           "date": "2026-04-08",
-          "valeur": 4830.4,
-          "ma50": 4920.86,
-          "ma200": 4136.17
+          "valeur": 4825.4,
+          "ma50": 4920.76,
+          "ma200": 4136.15
         }
       ],
       "variations": {
-        "jour": 3.72,
-        "semaine": 3.93,
-        "mois": -6.13,
-        "ytd": 11.96
+        "jour": 3.61,
+        "semaine": 3.83,
+        "mois": -6.23,
+        "ytd": 11.84
       },
       "min_max": {
         "min": 2968.4,
@@ -11046,7 +11046,7 @@
       "note_lecture": "Le prix du gaz naturel (TTF europeen) impacte directement les factures de chauffage et d'electricite des menages, ainsi que les couts de production industrielle."
     },
     "ble": {
-      "valeur": 578.25,
+      "valeur": 579.75,
       "date": "2026-04-08",
       "unite": "cents/boisseau",
       "source": "Yahoo Finance",
@@ -12554,16 +12554,16 @@
         },
         {
           "date": "2026-04-08",
-          "valeur": 578.25,
-          "ma50": 572.52,
+          "valeur": 579.75,
+          "ma50": 572.55,
           "ma200": 534.2
         }
       ],
       "variations": {
-        "jour": -3.3,
-        "semaine": -6.17,
-        "mois": -5.4,
-        "ytd": 14.17
+        "jour": -3.05,
+        "semaine": -5.92,
+        "mois": -5.15,
+        "ytd": 14.46
       },
       "min_max": {
         "min": 495.0,
@@ -14108,7 +14108,7 @@
       "note_lecture": "Le cuivre est le baromètre de l'activité industrielle mondiale ('Dr Copper'). Sa hausse signale une reprise économique, sa baisse anticipe un ralentissement. Utilisé massivement dans l'électrification et les énergies renouvelables."
     },
     "lme_aluminium": {
-      "valeur": 3384.5,
+      "valeur": 3377.5,
       "date": "2026-04-08",
       "unite": "cts/lb",
       "source": "Yahoo Finance",
@@ -15616,16 +15616,16 @@
         },
         {
           "date": "2026-04-08",
-          "valeur": 3384.5,
-          "ma50": 3162.91,
-          "ma200": 2799.99
+          "valeur": 3377.5,
+          "ma50": 3162.78,
+          "ma200": 2799.95
         }
       ],
       "variations": {
-        "jour": -0.36,
-        "semaine": -0.62,
-        "mois": 1.71,
-        "ytd": 15.2
+        "jour": -0.57,
+        "semaine": -0.82,
+        "mois": 1.5,
+        "ytd": 14.96
       },
       "min_max": {
         "min": 2166.25,
@@ -19431,7 +19431,7 @@
     "meta": {
       "source_effectifs": "DSN via kali-data",
       "source_grilles": "SocialGouv kali-data (extraction automatique)",
-      "date_generation": "2026-04-08T08:51:23.965219",
+      "date_generation": "2026-04-08T09:05:38.757231",
       "mode": "100pct_automatique",
       "note": "Extraction heuristique depuis textes juridiques KALI. Statut a_verifier si grille non extraite ou confidence < 55%."
     },
@@ -21487,7 +21487,7 @@
     "sources": "INSEE - Enquête Emploi, DARES"
   },
   "previsions_cftc": {
-    "generated_at": "2026-04-08T08:51:24.180982",
+    "generated_at": "2026-04-08T09:05:38.863364",
     "model_version": "CFTC v7.0 (bivarié Phillips + log-normale + pondération temporelle)",
     "n_simulations": 1000,
     "horizon": "12 mois",
@@ -21496,7 +21496,7 @@
       "niveau": "excellent",
       "issues": [],
       "warnings": [],
-      "timestamp": "2026-04-08T08:51:24.180996"
+      "timestamp": "2026-04-08T09:05:38.863378"
     },
     "calibrage": {
       "volatilites": {
@@ -21524,7 +21524,7 @@
       "lognormal_offset": 3.0
     },
     "market_signals": {
-      "inflation_adjustment": 0.091,
+      "inflation_adjustment": 0.093,
       "chomage_adjustment": 0.175,
       "energie_outlook": "hausse",
       "ponderation_temporelle": {
@@ -21536,10 +21536,10 @@
     },
     "market_signals_details": {
       "brent": {
-        "valeur": 94.28,
+        "valeur": 94.4,
         "ref": 75.0,
-        "variation_ytd_pct": 55.19,
-        "impact_inflation_pt": 0.193,
+        "variation_ytd_pct": 55.39,
+        "impact_inflation_pt": 0.194,
         "poids_temporel": 1.0
       },
       "gaz_ttf": {
@@ -21566,11 +21566,11 @@
         "signal": "baissier"
       },
       "cac40_ytd": {
-        "variation_ytd_pct": 0.42,
+        "variation_ytd_pct": 0.29,
         "signal_chomage": "neutre"
       },
       "carburants_sp95": {
-        "variation_annuelle_pct": 13.7,
+        "variation_annuelle_pct": 13.8,
         "impact_inflation_pt": 0.004
       },
       "confiance_menages": {
@@ -21696,9 +21696,9 @@
       "facteurs": {
         "cible_bdf": 1.4,
         "ajustement_climat": -0.03,
-        "ajustement_marches": 0.091,
+        "ajustement_marches": 0.093,
         "energie_outlook": "hausse",
-        "cible_ajustee": 1.461,
+        "cible_ajustee": 1.463,
         "volatilite_utilisee": 0.5
       },
       "asymetrie_ic": {
@@ -21941,7 +21941,7 @@
           }
         },
         "contribution_mediane": {
-          "signaux_marches_pt": 0.091,
+          "signaux_marches_pt": 0.093,
           "incertitude_bdf_sigma": 0.15,
           "label": "Déplacement de la prévision centrale"
         }
