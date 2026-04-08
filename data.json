@@ -1,6 +1,6 @@
 {
-  "last_updated": "08/04/2026 08:05",
-  "last_updated_iso": "2026-04-08T08:05:03.841105",
+  "last_updated": "08/04/2026 08:16",
+  "last_updated_iso": "2026-04-08T08:16:16.812431",
   "contact": "hspringragain@cftc.fr",
   "alertes": [
     {
@@ -32,7 +32,7 @@
       "date": "2026-04-08",
       "type": "info",
       "titre": "🔄 Données actualisées",
-      "message": "Le tableau de bord a été mis à jour le 08/04/2026 à 08:04.",
+      "message": "Le tableau de bord a été mis à jour le 08/04/2026 à 08:16.",
       "onglet": "conjoncture"
     }
   ],
@@ -204,7 +204,7 @@
     }
   ],
   "revue_presse": {
-    "derniere_maj": "08/04/2026 08:05",
+    "derniere_maj": "08/04/2026 08:16",
     "nb_sources": 7,
     "sources_noms": [
       "Le Monde Éco",
@@ -217,6 +217,18 @@
     ],
     "a_la_une": [],
     "tous": [
+      {
+        "source": "Le Monde Éco",
+        "couleur": "#374151",
+        "emoji": "🌐",
+        "tag": "Presse économique",
+        "titre": "Cessez-le-feu en Iran : soulagement général sur les marchés financiers",
+        "resume": "L’annonce d’une trêve dans le conflit en Iran a fait chuter le prix du baril de pétrole et fait bondir les principales places boursières européennes mercredi",
+        "lien": "https://www.lemonde.fr/economie/article/2026/04/08/cessez-le-feu-en-iran-soulagement-general-sur-les-marches-financiers_6678220_3234.html",
+        "date_iso": "2026-04-08T10:07:11+02:00",
+        "date_fr": "08/04/2026",
+        "pertinence": 0
+      },
       {
         "source": "Le Figaro Éco",
         "couleur": "#92400e",
@@ -564,18 +576,6 @@
         "date_iso": "2026-04-07T19:49:06+02:00",
         "date_fr": "07/04/2026",
         "pertinence": 1
-      },
-      {
-        "source": "Le Monde Emploi",
-        "couleur": "#1f2937",
-        "emoji": "💼",
-        "tag": "Emploi & travail",
-        "titre": "Plan social à « La Tribune » : les journalistes votent un préavis de grève reconductible",
-        "resume": "Sur les 56 journalistes du titre économique, seuls 32 postes seront recréés dans le nouveau pôle d’information économique commun composé à la suite d’un rapprochement avec la rédaction de la chaîne BFM Business, dénoncent les journalistes. La grève est prévue pour le 13 avril.",
-        "lien": "https://www.lemonde.fr/economie/article/2026/04/07/plan-social-a-la-tribune-les-journalistes-votent-un-preavis-de-greve-reconductible_6677929_3234.html",
-        "date_iso": "2026-04-07T19:49:06+02:00",
-        "date_fr": "07/04/2026",
-        "pertinence": 1
       }
     ]
   },
@@ -834,7 +834,7 @@
     "ecart_hf_eqtp": 25.8,
     "difficultes_recrutement": 61,
     "irl_glissement": 0.79,
-    "prix_gazole": 2.375,
+    "prix_gazole": 2.382,
     "taux_effort_locataires": 29.6,
     "croissance_pib": 0.7,
     "climat_affaires": 97,
@@ -2455,23 +2455,23 @@
   },
   "carburants": {
     "gazole": {
-      "prix": 2.375,
-      "variation_an": 28.4,
-      "variation_sem": 50.3
+      "prix": 2.382,
+      "variation_an": 28.8,
+      "variation_sem": 50.8
     },
     "sp95": {
-      "prix": 2.07,
-      "variation_an": 13.7,
-      "variation_sem": 20.3
+      "prix": 2.072,
+      "variation_an": 13.8,
+      "variation_sem": 20.5
     },
     "sp98": {
-      "prix": 2.127,
-      "variation_an": 13.7,
-      "variation_sem": 20.3
+      "prix": 2.128,
+      "variation_an": 13.8,
+      "variation_sem": 20.5
     },
     "e10": {
-      "prix": 2.012,
-      "variation_an": 12.4,
+      "prix": 2.013,
+      "variation_an": 12.5,
       "variation_sem": 19.8
     },
     "evolution": [
@@ -2750,13 +2750,13 @@
       },
       {
         "date": "2026-04-08",
-        "gazole": 2.375,
-        "sp95": 2.07,
-        "sp98": 2.127,
-        "e10": 2.012
+        "gazole": 2.382,
+        "sp95": 2.072,
+        "sp98": 2.128,
+        "e10": 2.013
       }
     ],
-    "derniere_donnee": "2026-04-08 08:49",
+    "derniere_donnee": "2026-04-08 09:49",
     "source": "data.economie.gouv.fr (flux instantané)",
     "granularite": "quotidien"
   },
@@ -3333,7 +3333,7 @@
       "note_lecture": "Le TEC-10 mesure le rendement des emprunts d'Etat francais a 10 ans. Un taux eleve rencherit le cout de la dette publique et impacte les taux de credit immobilier."
     },
     "petrole_brent": {
-      "valeur": 94.55,
+      "valeur": 94.51,
       "date": "2026-04-08",
       "unite": "USD/baril",
       "source": "Yahoo Finance",
@@ -4847,16 +4847,16 @@
         },
         {
           "date": "2026-04-08",
-          "valeur": 94.55,
+          "valeur": 94.51,
           "ma50": 86.22,
           "ma200": 70.67
         }
       ],
       "variations": {
-        "jour": -13.47,
-        "semaine": -20.11,
-        "mois": 2.01,
-        "ytd": 55.64
+        "jour": -13.51,
+        "semaine": -20.14,
+        "mois": 1.96,
+        "ytd": 55.57
       },
       "min_max": {
         "min": 58.92,
@@ -4867,9 +4867,9 @@
       "note_lecture": "Le prix du Brent influence directement les couts de transport et d'energie, donc l'inflation et le pouvoir d'achat des salaries."
     },
     "cac40": {
-      "valeur": 8218.37,
+      "valeur": 8214.55,
       "date": "2026-04-08",
-      "variation_jour_pct": 3.92,
+      "variation_jour_pct": 3.87,
       "unite": "points",
       "source": "Yahoo Finance",
       "nb_points": 254,
@@ -6394,16 +6394,16 @@
         },
         {
           "date": "2026-04-08",
-          "valeur": 8218.37,
-          "ma50": 8127.7,
-          "ma200": 8006.16
+          "valeur": 8214.55,
+          "ma50": 8127.62,
+          "ma200": 8006.14
         }
       ],
       "variations": {
-        "jour": 3.92,
-        "semaine": 5.74,
-        "mois": 2.14,
-        "ytd": 0.28
+        "jour": 3.87,
+        "semaine": 5.69,
+        "mois": 2.1,
+        "ytd": 0.24
       },
       "min_max": {
         "min": 6863.02,
@@ -7984,7 +7984,7 @@
       "note_lecture": "Le taux de change euro-dollar determine le prix de tout ce qui est importe en dollars : petrole, matieres premieres, electronique. Un euro faible rencherit les importations et alimente l'inflation."
     },
     "or": {
-      "valeur": 4843.6,
+      "valeur": 4843.0,
       "date": "2026-04-08",
       "unite": "USD/oz",
       "source": "Yahoo Finance",
@@ -9498,16 +9498,16 @@
         },
         {
           "date": "2026-04-08",
-          "valeur": 4843.6,
-          "ma50": 4921.13,
-          "ma200": 4136.24
+          "valeur": 4843.0,
+          "ma50": 4921.11,
+          "ma200": 4136.23
         }
       ],
       "variations": {
-        "jour": 4.0,
-        "semaine": 4.22,
-        "mois": -5.88,
-        "ytd": 12.27
+        "jour": 3.99,
+        "semaine": 4.2,
+        "mois": -5.89,
+        "ytd": 12.25
       },
       "min_max": {
         "min": 2968.4,
@@ -11046,7 +11046,7 @@
       "note_lecture": "Le prix du gaz naturel (TTF europeen) impacte directement les factures de chauffage et d'electricite des menages, ainsi que les couts de production industrielle."
     },
     "ble": {
-      "valeur": 579.5,
+      "valeur": 579.75,
       "date": "2026-04-08",
       "unite": "cents/boisseau",
       "source": "Yahoo Finance",
@@ -12554,16 +12554,16 @@
         },
         {
           "date": "2026-04-08",
-          "valeur": 579.5,
-          "ma50": 572.54,
+          "valeur": 579.75,
+          "ma50": 572.55,
           "ma200": 534.2
         }
       ],
       "variations": {
-        "jour": -3.09,
-        "semaine": -5.96,
-        "mois": -5.19,
-        "ytd": 14.41
+        "jour": -3.05,
+        "semaine": -5.92,
+        "mois": -5.15,
+        "ytd": 14.46
       },
       "min_max": {
         "min": 495.0,
@@ -12574,7 +12574,7 @@
       "note_lecture": "Le cours du ble est un indicateur avance des prix alimentaires. La France etant le premier producteur europeen, son evolution impacte a la fois les consommateurs et le secteur agricole."
     },
     "lme_cuivre": {
-      "valeur": 5.73,
+      "valeur": 5.74,
       "date": "2026-04-08",
       "unite": "cts/lb",
       "source": "Yahoo Finance",
@@ -14088,16 +14088,16 @@
         },
         {
           "date": "2026-04-08",
-          "valeur": 5.73,
+          "valeur": 5.74,
           "ma50": 5.75,
           "ma200": 5.25
         }
       ],
       "variations": {
-        "jour": 3.43,
-        "semaine": 2.5,
-        "mois": -0.52,
-        "ytd": 1.6
+        "jour": 3.61,
+        "semaine": 2.68,
+        "mois": -0.35,
+        "ytd": 1.77
       },
       "min_max": {
         "min": 4.13,
@@ -14108,7 +14108,7 @@
       "note_lecture": "Le cuivre est le baromètre de l'activité industrielle mondiale ('Dr Copper'). Sa hausse signale une reprise économique, sa baisse anticipe un ralentissement. Utilisé massivement dans l'électrification et les énergies renouvelables."
     },
     "lme_aluminium": {
-      "valeur": 3393.0,
+      "valeur": 3375.0,
       "date": "2026-04-08",
       "unite": "cts/lb",
       "source": "Yahoo Finance",
@@ -15616,16 +15616,16 @@
         },
         {
           "date": "2026-04-08",
-          "valeur": 3393.0,
-          "ma50": 3163.09,
-          "ma200": 2800.03
+          "valeur": 3375.0,
+          "ma50": 3162.72,
+          "ma200": 2799.94
         }
       ],
       "variations": {
-        "jour": -0.11,
-        "semaine": -0.37,
-        "mois": 1.97,
-        "ytd": 15.49
+        "jour": -0.64,
+        "semaine": -0.9,
+        "mois": 1.43,
+        "ytd": 14.87
       },
       "min_max": {
         "min": 2166.25,
@@ -19431,7 +19431,7 @@
     "meta": {
       "source_effectifs": "DSN via kali-data",
       "source_grilles": "SocialGouv kali-data (extraction automatique)",
-      "date_generation": "2026-04-08T08:05:35.818263",
+      "date_generation": "2026-04-08T08:16:44.417853",
       "mode": "100pct_automatique",
       "note": "Extraction heuristique depuis textes juridiques KALI. Statut a_verifier si grille non extraite ou confidence < 55%."
     },
@@ -21487,7 +21487,7 @@
     "sources": "INSEE - Enquête Emploi, DARES"
   },
   "previsions_cftc": {
-    "generated_at": "2026-04-08T08:05:35.936001",
+    "generated_at": "2026-04-08T08:16:44.582956",
     "model_version": "CFTC v7.0 (bivarié Phillips + log-normale + pondération temporelle)",
     "n_simulations": 1000,
     "horizon": "12 mois",
@@ -21496,7 +21496,7 @@
       "niveau": "excellent",
       "issues": [],
       "warnings": [],
-      "timestamp": "2026-04-08T08:05:35.936013"
+      "timestamp": "2026-04-08T08:16:44.582970"
     },
     "calibrage": {
       "volatilites": {
@@ -21536,9 +21536,9 @@
     },
     "market_signals_details": {
       "brent": {
-        "valeur": 94.55,
+        "valeur": 94.51,
         "ref": 75.0,
-        "variation_ytd_pct": 55.64,
+        "variation_ytd_pct": 55.57,
         "impact_inflation_pt": 0.195,
         "poids_temporel": 1.0
       },
@@ -21566,11 +21566,11 @@
         "signal": "baissier"
       },
       "cac40_ytd": {
-        "variation_ytd_pct": 0.28,
+        "variation_ytd_pct": 0.24,
         "signal_chomage": "neutre"
       },
       "carburants_sp95": {
-        "variation_annuelle_pct": 13.7,
+        "variation_annuelle_pct": 13.8,
         "impact_inflation_pt": 0.004
       },
       "confiance_menages": {
