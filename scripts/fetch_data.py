@@ -4631,80 +4631,175 @@ def _static_comparaison_ue_finances():
 # ============================================================================
 
 def build_finances_publiques_data():
-    """Construit les données de finances publiques à partir des séries INSEE annuelles."""
-    print("📊 Récupération des finances publiques...")
+    """Construit les données de finances publiques.
+    
+    Les séries INSEE SDMX retournent des valeurs incorrectes (taux de variation
+    ou valeurs nominales au lieu de % PIB). On utilise donc des données
+    documentées issues des publications officielles (INSEE, DGFiP, Eurostat).
+    
+    Sources: INSEE Comptes Nationaux 2024, PLF 2025, Eurostat.
+    À mettre à jour annuellement après publication des comptes definitifs.
+    """
+    print("📊 Construction des données finances publiques (données documentées)...")
 
-    dette = get_annual_values(SERIES_IDS["dette_publique_pib"], 2015)
-    deficit = get_annual_values(SERIES_IDS["deficit_public_pib"], 2015)
-    depenses = get_annual_values(SERIES_IDS["depenses_apu_pib"], 2015)
-    recettes = get_annual_values(SERIES_IDS["recettes_apu_pib"], 2015)
-    prelevements = get_annual_values(SERIES_IDS["prelevements_obligatoires"], 2015)
-    protection_sociale = get_annual_values(SERIES_IDS["depenses_protection_sociale"], 2015)
-    sante = get_annual_values(SERIES_IDS["depenses_sante"], 2015)
-    education = get_annual_values(SERIES_IDS["depenses_education"], 2015)
-    charge_dette = get_annual_values(SERIES_IDS["charge_dette_pib"], 2015)
-    investissement = get_annual_values(SERIES_IDS["fbcf_apu_pib"], 2015)
+    # ── Données documentées % PIB ────────────────────────────────────────────
+    # Source: INSEE Comptes des administrations publiques, Eurostat, PLF 2025
+    dette_serie = [
+        {"annee": "2015", "valeur": 95.6},
+        {"annee": "2016", "valeur": 98.0},
+        {"annee": "2017", "valeur": 98.3},
+        {"annee": "2018", "valeur": 98.1},
+        {"annee": "2019", "valeur": 97.4},
+        {"annee": "2020", "valeur": 114.6},
+        {"annee": "2021", "valeur": 112.9},
+        {"annee": "2022", "valeur": 111.8},
+        {"annee": "2023", "valeur": 110.6},
+        {"annee": "2024", "valeur": 112.9},
+    ]
+    deficit_serie = [
+        {"annee": "2015", "valeur": -3.6},
+        {"annee": "2016", "valeur": -3.6},
+        {"annee": "2017", "valeur": -2.9},
+        {"annee": "2018", "valeur": -2.3},
+        {"annee": "2019", "valeur": -3.1},
+        {"annee": "2020", "valeur": -9.0},
+        {"annee": "2021", "valeur": -6.5},
+        {"annee": "2022", "valeur": -4.8},
+        {"annee": "2023", "valeur": -5.5},
+    ]
+    depenses_serie = [
+        {"annee": "2015", "valeur": 56.8},
+        {"annee": "2016", "valeur": 56.7},
+        {"annee": "2017", "valeur": 56.5},
+        {"annee": "2018", "valeur": 55.6},
+        {"annee": "2019", "valeur": 55.4},
+        {"annee": "2020", "valeur": 61.3},
+        {"annee": "2021", "valeur": 59.2},
+        {"annee": "2022", "valeur": 57.3},
+        {"annee": "2023", "valeur": 57.3},
+    ]
+    recettes_serie = [
+        {"annee": "2015", "valeur": 53.2},
+        {"annee": "2016", "valeur": 53.1},
+        {"annee": "2017", "valeur": 53.6},
+        {"annee": "2018", "valeur": 53.3},
+        {"annee": "2019", "valeur": 52.3},
+        {"annee": "2020", "valeur": 52.3},
+        {"annee": "2021", "valeur": 52.7},
+        {"annee": "2022", "valeur": 52.5},
+        {"annee": "2023", "valeur": 51.8},
+    ]
+    prelevements_serie = [
+        {"annee": "2015", "valeur": 44.5},
+        {"annee": "2016", "valeur": 44.4},
+        {"annee": "2017", "valeur": 44.7},
+        {"annee": "2018", "valeur": 44.4},
+        {"annee": "2019", "valeur": 43.5},
+        {"annee": "2020", "valeur": 43.3},
+        {"annee": "2021", "valeur": 44.0},
+        {"annee": "2022", "valeur": 44.3},
+        {"annee": "2023", "valeur": 43.5},
+    ]
+    charge_dette_serie = [
+        {"annee": "2015", "valeur": 1.8},
+        {"annee": "2016", "valeur": 1.7},
+        {"annee": "2017", "valeur": 1.7},
+        {"annee": "2018", "valeur": 1.7},
+        {"annee": "2019", "valeur": 1.5},
+        {"annee": "2020", "valeur": 1.2},
+        {"annee": "2021", "valeur": 1.1},
+        {"annee": "2022", "valeur": 1.5},
+        {"annee": "2023", "valeur": 2.0},
+        {"annee": "2024", "valeur": 2.4},
+    ]
+    investissement_serie = [
+        {"annee": "2015", "valeur": 3.4},
+        {"annee": "2016", "valeur": 3.4},
+        {"annee": "2017", "valeur": 3.5},
+        {"annee": "2018", "valeur": 3.5},
+        {"annee": "2019", "valeur": 3.7},
+        {"annee": "2020", "valeur": 3.8},
+        {"annee": "2021", "valeur": 3.9},
+        {"annee": "2022", "valeur": 4.0},
+        {"annee": "2023", "valeur": 4.0},
+    ]
+    # Dépenses fonctionnelles % PIB (Eurostat COFOG)
+    protection_sociale_serie = [
+        {"annee": "2015", "valeur": 23.8},
+        {"annee": "2016", "valeur": 23.9},
+        {"annee": "2017", "valeur": 23.6},
+        {"annee": "2018", "valeur": 23.3},
+        {"annee": "2019", "valeur": 23.2},
+        {"annee": "2020", "valeur": 26.4},
+        {"annee": "2021", "valeur": 25.2},
+        {"annee": "2022", "valeur": 24.2},
+        {"annee": "2023", "valeur": 24.5},
+    ]
+    sante_serie = [
+        {"annee": "2015", "valeur": 8.5},
+        {"annee": "2016", "valeur": 8.6},
+        {"annee": "2017", "valeur": 8.6},
+        {"annee": "2018", "valeur": 8.5},
+        {"annee": "2019", "valeur": 8.7},
+        {"annee": "2020", "valeur": 10.0},
+        {"annee": "2021", "valeur": 9.7},
+        {"annee": "2022", "valeur": 9.3},
+        {"annee": "2023", "valeur": 9.5},
+    ]
+    education_serie = [
+        {"annee": "2015", "valeur": 5.4},
+        {"annee": "2016", "valeur": 5.4},
+        {"annee": "2017", "valeur": 5.3},
+        {"annee": "2018", "valeur": 5.2},
+        {"annee": "2019", "valeur": 5.3},
+        {"annee": "2020", "valeur": 5.9},
+        {"annee": "2021", "valeur": 5.7},
+        {"annee": "2022", "valeur": 5.4},
+        {"annee": "2023", "valeur": 5.5},
+    ]
 
-    if dette and deficit and depenses and recettes:
-        annee_ref = dette[-1]["annee"]
+    annee_ref = dette_serie[-1]["annee"]
+    dette_val = dette_serie[-1]["valeur"]
+    deficit_val = deficit_serie[-1]["valeur"]
+    depenses_val = depenses_serie[-1]["valeur"]
+    recettes_val = recettes_serie[-1]["valeur"]
 
-        return {
-            "annee_reference": annee_ref,
-            "dette_publique_pib": dette[-1]["valeur"],
-            "deficit_public_pib": deficit[-1]["valeur"],
-            "depenses_apu_pib": depenses[-1]["valeur"],
-            "recettes_apu_pib": recettes[-1]["valeur"],
-            "prelevements_obligatoires_pib": prelevements[-1]["valeur"] if prelevements else None,
-            "charge_dette_pib": charge_dette[-1]["valeur"] if charge_dette else None,
-            "fbcf_apu_pib": investissement[-1]["valeur"] if investissement else None,
+    print(f"  ✓ Données documentées — année de référence {annee_ref}")
+    print(f"  ✓ Dette: {dette_val}% PIB | Déficit: {deficit_val}% PIB")
+    print(f"  ✓ Dépenses: {depenses_val}% PIB | Recettes: {recettes_val}% PIB")
 
-            "evolution": {
-                "dette": dette,
-                "deficit": deficit,
-                "depenses": depenses,
-                "recettes": recettes,
-                "prelevements_obligatoires": prelevements,
-                "depenses_protection_sociale": protection_sociale,
-                "depenses_sante": sante,
-                "depenses_education": education,
-                "charge_dette": charge_dette,
-                "investissement_public": investissement,
-            },
-
-            "notes_lecture": [
-                f"🇫🇷 Dette publique : {dette[-1]['valeur']}% du PIB",
-                f"⚠️ Déficit public : {deficit[-1]['valeur']}% du PIB",
-                f"💸 Dépenses publiques : {depenses[-1]['valeur']}% du PIB",
-                f"💰 Recettes publiques : {recettes[-1]['valeur']}% du PIB",
-            ],
-            "source": "INSEE API"
-        }
-
-    print("  ⚠️ Utilisation des données par défaut")
     return {
-        "annee_reference": None,
-        "dette_publique_pib": None,
-        "deficit_public_pib": None,
-        "depenses_apu_pib": None,
-        "recettes_apu_pib": None,
-        "prelevements_obligatoires_pib": None,
-        "charge_dette_pib": None,
-        "fbcf_apu_pib": None,
+        "annee_reference": annee_ref,
+        "dette_publique_pib": dette_val,
+        "deficit_public_pib": deficit_val,
+        "depenses_apu_pib": depenses_val,
+        "recettes_apu_pib": recettes_val,
+        "prelevements_obligatoires_pib": prelevements_serie[-1]["valeur"],
+        "charge_dette_pib": charge_dette_serie[-1]["valeur"],
+        "fbcf_apu_pib": investissement_serie[-1]["valeur"],
+
         "evolution": {
-            "dette": [],
-            "deficit": [],
-            "depenses": [],
-            "recettes": [],
-            "prelevements_obligatoires": [],
-            "depenses_protection_sociale": [],
-            "depenses_sante": [],
-            "depenses_education": [],
-            "charge_dette": [],
-            "investissement_public": [],
+            "dette": dette_serie,
+            "deficit": deficit_serie,
+            "depenses": depenses_serie,
+            "recettes": recettes_serie,
+            "prelevements_obligatoires": prelevements_serie,
+            "depenses_protection_sociale": protection_sociale_serie,
+            "depenses_sante": sante_serie,
+            "depenses_education": education_serie,
+            "charge_dette": charge_dette_serie,
+            "investissement_public": investissement_serie,
         },
-        "notes_lecture": [],
-        "source": "INSEE API"
+
+        "notes_lecture": [
+            f"🇫🇷 Dette publique : {dette_val}% du PIB ({annee_ref})",
+            f"⚠️ Déficit public : {deficit_val}% du PIB — règle UE : -3% max",
+            f"💸 Dépenses publiques APU : {depenses_val}% du PIB",
+            f"💰 Recettes publiques APU : {recettes_val}% du PIB",
+        ],
+        "source": "INSEE Comptes APU • PLF 2025 • Eurostat (données documentées)"
     }
+
 
 def main():
     print("=" * 70)
