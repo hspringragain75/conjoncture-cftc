@@ -75,6 +75,7 @@ export default function App() {
   const [subTab, setSubTab] = useState('chomage');
   const [subTabVie, setSubTabVie] = useState('loyers');
   const [subTabConj, setSubTabConj] = useState('pib');
+  const [subTabFP, setSubTabFP] = useState('ensemble');
   const [showAlertes, setShowAlertes] = useState(false);
   const [showPresse, setShowPresse] = useState(false);
   const [alertesNonLues, setAlertesNonLues] = useState([]);
@@ -578,7 +579,7 @@ export default function App() {
               {tab === 'favoris' && <FavorisTab d={d} darkMode={darkMode} favoris={favoris} toggleFavori={toggleFavori} isFavori={isFavori} setSeuil={setSeuil} getSeuil={getSeuil} setNote={setNote} getNote={getNote} isEnAlerte={isEnAlerte} />}
               {tab === 'conjoncture' && <ConjonctureTab d={d} subTab={subTabConj} setSubTab={setSubTabConj} darkMode={darkMode} fp={fp} />}
               {tab === 'previsions' && <PrevisionsTab d={d} darkMode={darkMode} fp={fp} />}
-              {tab === 'finances_publiques' && <FinancesPubliquesTab d={d} darkMode={darkMode} fp={fp} />}
+              {tab === 'finances_publiques' && <FinancesPubliquesTab d={d} darkMode={darkMode} fp={fp} subTab={subTabFP} setSubTab={setSubTabFP} />}
               {tab === 'evolutions' && <EvolutionsTab d={d} darkMode={darkMode} fp={fp} />}
               {tab === 'comparaison_ue' && <ComparaisonUETab d={d} darkMode={darkMode} fp={fp} />}
               {tab === 'simulateur' && <SimulateurNAOTab d={d} darkMode={darkMode} fp={fp} />}
