@@ -30,15 +30,17 @@ const safeArr = (v) => (Array.isArray(v) ? v : []);
 
 // Tooltip personnalisé réutilisable (même style que les autres tabs)
 const TooltipBulle = ({ active, payload, label, suffix = '%', darkMode }) => {
-  if (!active || !payload?.length) return null;
+  if (!active) return null;
+  const safePayload = Array.isArray(payload) ? payload : [];
+  if (safePayload.length === 0) return null;
   return (
     <div className={`px-3 py-2 rounded-xl shadow-lg text-xs border ${
       darkMode ? 'bg-gray-800 border-gray-700 text-gray-100' : 'bg-white border-gray-200 text-gray-800'
     }`}>
       <p className="font-semibold mb-1">{label}</p>
-      {payload.map((p, i) => (
-        <p key={i} style={{ color: p.color }}>
-          {p.name} : <strong>{typeof p.value === 'number' ? p.value.toFixed(1) : p.value}{suffix}</strong>
+      {safePayload.map((p, i) => (
+        <p key={i} style={{ color: p?.color }}>
+          {p?.name} : <strong>{typeof p?.value === 'number' ? p.value.toFixed(1) : p?.value}{suffix}</strong>
         </p>
       ))}
     </div>
@@ -83,11 +85,11 @@ function VueEnsemble({ fp, darkMode }) {
 
   const consolidee = annees.map(a => ({
     annee:    a,
-    dette:    detteDict[a],
-    deficit:  deficitDict[a],
-    depenses: depDict[a],
-    recettes: recDict[a],
-    po:       poDict[a],
+    dette:    detteDict[a]   ?? null,
+    deficit:  deficitDict[a] ?? null,
+    depenses: depDict[a]     ?? null,
+    recettes: recDict[a]     ?? null,
+    po:       poDict[a]      ?? null,
   }));
 
   // KPIs courants
@@ -173,7 +175,7 @@ function VueEnsemble({ fp, darkMode }) {
               <Tooltip content={<TooltipBulle suffix="%" darkMode={darkMode} />} />
               <ReferenceLine y={60}  stroke="#ef4444" strokeDasharray="4 2" label={{ value: "60% Maastricht", fontSize: 9, fill: '#ef4444' }} />
               <ReferenceLine y={100} stroke="#f59e0b" strokeDasharray="4 2" label={{ value: "100%", fontSize: 9, fill: '#f59e0b' }} />
-              <Area type="monotone" dataKey="dette" name="Dette" stroke={C.secondary} fill="url(#gradDette)" strokeWidth={2} dot={false} />
+              <Area type="monotone" dataKey="dette" name="Dette" stroke={C.secondary} fill="url(#gradDette)" strokeWidth={2} dot={false} connectNulls />
             </AreaChart>
           </ResponsiveContainer>
           )}
@@ -190,9 +192,7 @@ function VueEnsemble({ fp, darkMode }) {
             <BarChart data={consolidee.slice(-8)} margin={{ top: 5, right: 10, left: -10, bottom: 0 }}>
               <CartesianGrid strokeDasharray="3 3" stroke={darkMode ? '#374151' : '#f0f0f0'} />
               <XAxis dataKey="annee" tick={{ fontSize: 10, fill: darkMode ? '#9ca3af' : '#6b7280' }} />
-              <YAxis tick={{ fontSize: 10, fill: darkMode ? '#9ca3af' : '#6b7280' }} unit="%" />
-              <Tooltip content={<TooltipBulle suffix="%" darkMode={darkMode} />} />
-              <ReferenceLine y={-3} stroke="#ef4444" strokeDasharray="4 2" label={{ value: "-3% règle UE", fontSize: 9, fill: '#ef4444' }} />
+              <YAxis domain={['auto', 'auto']} tick={{ fontSize: 10, fill: darkMode ? '#9ca3af' : '#6b7280' }} unit="%" /> stroke="#ef4444" strokeDasharray="4 2" label={{ value: "-3% règle UE", fontSize: 9, fill: '#ef4444' }} />
               <ReferenceLine y={0} stroke={darkMode ? '#4b5563' : '#d1d5db'} />
               <Bar dataKey="deficit" name="Déficit" radius={[4, 4, 0, 0]}>
                 {consolidee.slice(-8).map((e, i) => (
@@ -220,9 +220,9 @@ function VueEnsemble({ fp, darkMode }) {
             <YAxis domain={[48, 66]} tick={{ fontSize: 10, fill: darkMode ? '#9ca3af' : '#6b7280' }} unit="%" />
             <Tooltip content={<TooltipBulle suffix="%" darkMode={darkMode} />} />
             <Legend wrapperStyle={{ fontSize: 11 }} />
-            <Line type="monotone" dataKey="depenses" name="Dépenses APU" stroke={C.secondary} strokeWidth={2} dot={false} />
-            <Line type="monotone" dataKey="recettes" name="Recettes APU" stroke={C.tertiary} strokeWidth={2} dot={false} />
-            <Line type="monotone" dataKey="po" name="Prél. obligatoires" stroke={C.primary} strokeWidth={2} dot={false} strokeDasharray="5 3" />
+            <Line type="monotone" dataKey="depenses" name="Dépenses APU" stroke={C.secondary} strokeWidth={2} dot={false} connectNulls />
+            <Line type="monotone" dataKey="recettes" name="Recettes APU" stroke={C.tertiary} strokeWidth={2} dot={false} connectNulls />
+            <Line type="monotone" dataKey="po" name="Prél. obligatoires" stroke={C.primary} strokeWidth={2} dot={false} strokeDasharray="5 3" connectNulls />
           </LineChart>
         </ResponsiveContainer>
         )}
@@ -253,7 +253,7 @@ function DetteCharge({ fp, darkMode }) {
   const invD    = Object.fromEntries(invPub.map(d => [d.annee, d.valeur]));
 
   const chartData = annees.map(a => ({
-    annee: a, dette: detteD[a], charge: chargeD[a], investissement: invD[a],
+    annee: a, dette: detteD[a] ?? null, charge: chargeD[a] ?? null, investissement: invD[a] ?? null,
   }));
 
   const dmClass = darkMode ? 'text-gray-100' : 'text-gray-800';
@@ -287,7 +287,7 @@ function DetteCharge({ fp, darkMode }) {
                 label={{ value: "60% Maastricht", position: 'right', fontSize: 9, fill: '#ef4444' }} />
               <ReferenceLine y={100} stroke="#f59e0b" strokeDasharray="4 2"
                 label={{ value: "100%", position: 'right', fontSize: 9, fill: '#f59e0b' }} />
-              <Area type="monotone" dataKey="dette" name="Dette" stroke={C.purple} fill="url(#gradDette2)" strokeWidth={2.5} dot={false} />
+              <Area type="monotone" dataKey="dette" name="Dette" stroke={C.purple} fill="url(#gradDette2)" strokeWidth={2.5} dot={false} connectNulls />
             </AreaChart>
           </ResponsiveContainer>
           )}
@@ -305,11 +305,11 @@ function DetteCharge({ fp, darkMode }) {
             <LineChart data={chartData} margin={{ top: 5, right: 10, left: -10, bottom: 0 }}>
               <CartesianGrid strokeDasharray="3 3" stroke={darkMode ? '#374151' : '#f0f0f0'} />
               <XAxis dataKey="annee" tick={{ fontSize: 10, fill: darkMode ? '#9ca3af' : '#6b7280' }} />
-              <YAxis tick={{ fontSize: 10, fill: darkMode ? '#9ca3af' : '#6b7280' }} unit="%" />
+              <YAxis domain={['auto', 'auto']} tick={{ fontSize: 10, fill: darkMode ? '#9ca3af' : '#6b7280' }} unit="%" />
               <Tooltip content={<TooltipBulle suffix="%" darkMode={darkMode} />} />
               <Legend wrapperStyle={{ fontSize: 11 }} />
-              <Line type="monotone" dataKey="charge" name="Charge intérêts" stroke={C.secondary} strokeWidth={2.5} dot={false} />
-              <Line type="monotone" dataKey="investissement" name="Invest. public (FBCF APU)" stroke={C.cyan} strokeWidth={2} dot={false} strokeDasharray="5 3" />
+              <Line type="monotone" dataKey="charge" name="Charge intérêts" stroke={C.secondary} strokeWidth={2.5} dot={false} connectNulls />
+              <Line type="monotone" dataKey="investissement" name="Invest. public (FBCF APU)" stroke={C.cyan} strokeWidth={2} dot={false} strokeDasharray="5 3" connectNulls />
             </LineChart>
           </ResponsiveContainer>
           )}
@@ -398,7 +398,7 @@ function DepensesEtat({ fp, darkMode }) {
   const psD     = Object.fromEntries(protSoc.map(d => [d.annee, d.valeur]));
 
   const chartFonc = annees.map(a => ({
-    annee: a, sante: santeD[a], education: eduD[a], prot_soc: psD[a],
+    annee: a, sante: santeD[a] ?? null, education: eduD[a] ?? null, prot_soc: psD[a] ?? null,
   }));
 
   return (
@@ -447,12 +447,12 @@ function DepensesEtat({ fp, darkMode }) {
           <LineChart data={chartFonc} margin={{ top: 5, right: 10, left: -10, bottom: 0 }}>
             <CartesianGrid strokeDasharray="3 3" stroke={darkMode ? '#374151' : '#f0f0f0'} />
             <XAxis dataKey="annee" tick={{ fontSize: 10, fill: darkMode ? '#9ca3af' : '#6b7280' }} />
-            <YAxis tick={{ fontSize: 10, fill: darkMode ? '#9ca3af' : '#6b7280' }} unit="%" />
+            <YAxis domain={['auto', 'auto']} tick={{ fontSize: 10, fill: darkMode ? '#9ca3af' : '#6b7280' }} unit="%" />
             <Tooltip content={<TooltipBulle suffix="%" darkMode={darkMode} />} />
             <Legend wrapperStyle={{ fontSize: 11 }} />
-            <Line type="monotone" dataKey="prot_soc" name="Protection sociale" stroke={C.secondary} strokeWidth={2} dot={false} />
-            <Line type="monotone" dataKey="sante" name="Santé" stroke={C.tertiary} strokeWidth={2} dot={false} />
-            <Line type="monotone" dataKey="education" name="Éducation" stroke={C.primary} strokeWidth={2} dot={false} />
+            <Line type="monotone" dataKey="prot_soc" name="Protection sociale" stroke={C.secondary} strokeWidth={2} dot={false} connectNulls />
+            <Line type="monotone" dataKey="sante" name="Santé" stroke={C.tertiary} strokeWidth={2} dot={false} connectNulls />
+            <Line type="monotone" dataKey="education" name="Éducation" stroke={C.primary} strokeWidth={2} dot={false} connectNulls />
           </LineChart>
         </ResponsiveContainer>
         )}
@@ -589,7 +589,7 @@ function RecettesPrelevements({ fp, darkMode }) {
               <XAxis dataKey="annee" tick={{ fontSize: 10, fill: darkMode ? '#9ca3af' : '#6b7280' }} />
               <YAxis domain={[40, 48]} unit="%" tick={{ fontSize: 10, fill: darkMode ? '#9ca3af' : '#6b7280' }} />
               <Tooltip content={<TooltipBulle suffix="%" darkMode={darkMode} />} />
-              <Area type="monotone" dataKey="valeur" name="PO % PIB" stroke={C.primary} fill="url(#gradPO)" strokeWidth={2} dot={false} />
+              <Area type="monotone" dataKey="valeur" name="PO % PIB" stroke={C.primary} fill="url(#gradPO)" strokeWidth={2} dot={false} connectNulls />
             </AreaChart>
           </ResponsiveContainer>
         </Card>
