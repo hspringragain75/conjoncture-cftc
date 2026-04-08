@@ -1,6 +1,6 @@
 {
-  "last_updated": "08/04/2026 08:16",
-  "last_updated_iso": "2026-04-08T08:16:16.812431",
+  "last_updated": "08/04/2026 08:29",
+  "last_updated_iso": "2026-04-08T08:29:58.912717",
   "contact": "hspringragain@cftc.fr",
   "alertes": [
     {
@@ -32,7 +32,7 @@
       "date": "2026-04-08",
       "type": "info",
       "titre": "🔄 Données actualisées",
-      "message": "Le tableau de bord a été mis à jour le 08/04/2026 à 08:16.",
+      "message": "Le tableau de bord a été mis à jour le 08/04/2026 à 08:29.",
       "onglet": "conjoncture"
     }
   ],
@@ -204,7 +204,7 @@
     }
   ],
   "revue_presse": {
-    "derniere_maj": "08/04/2026 08:16",
+    "derniere_maj": "08/04/2026 08:29",
     "nb_sources": 7,
     "sources_noms": [
       "Le Monde Éco",
@@ -218,14 +218,38 @@
     "a_la_une": [],
     "tous": [
       {
+        "source": "Le Figaro Éco",
+        "couleur": "#92400e",
+        "emoji": "📊",
+        "tag": "Presse économique",
+        "titre": "L’Irak rouvre son espace aérien, fermé depuis le début de la guerre au Moyen-Orient",
+        "resume": "L’Irak a fait cette annonce peu après que Washington et Téhéran ont annoncé un cessez-le-feu de deux semaines.",
+        "lien": "https://www.lefigaro.fr/conjoncture/l-irak-rouvre-son-espace-aerien-ferme-depuis-le-debut-de-la-guerre-au-moyen-orient-20260408",
+        "date_iso": "2026-04-08T10:22:08+02:00",
+        "date_fr": "08/04/2026",
+        "pertinence": 0
+      },
+      {
+        "source": "Le Monde Éco",
+        "couleur": "#374151",
+        "emoji": "🌐",
+        "tag": "Presse économique",
+        "titre": "Intelligence artificielle : tensions autour de la proposition de loi sur le droit d’auteur",
+        "resume": "La start-up d’intelligence artificielle Mistral AI est « très inquiète » du texte de la sénatrice Laure Darcos. Le gouvernement rend un avis de « sagesse », ni favorable ni défavorable.",
+        "lien": "https://www.lemonde.fr/economie/article/2026/04/08/intelligence-artificielle-tensions-autour-de-la-proposition-de-loi-sur-le-droit-d-auteur_6678221_3234.html",
+        "date_iso": "2026-04-08T10:21:43+02:00",
+        "date_fr": "08/04/2026",
+        "pertinence": 1
+      },
+      {
         "source": "Le Monde Éco",
         "couleur": "#374151",
         "emoji": "🌐",
         "tag": "Presse économique",
         "titre": "Cessez-le-feu en Iran : soulagement général sur les marchés financiers",
-        "resume": "L’annonce d’une trêve dans le conflit en Iran a fait chuter le prix du baril de pétrole et fait bondir les principales places boursières européennes mercredi",
+        "resume": "L’annonce d’une trêve dans le conflit en Iran a fait chuter le prix du baril de pétrole et bondir les principales places boursières européennes mercredi",
         "lien": "https://www.lemonde.fr/economie/article/2026/04/08/cessez-le-feu-en-iran-soulagement-general-sur-les-marches-financiers_6678220_3234.html",
-        "date_iso": "2026-04-08T10:07:11+02:00",
+        "date_iso": "2026-04-08T10:07:08+02:00",
         "date_fr": "08/04/2026",
         "pertinence": 0
       },
@@ -486,18 +510,6 @@
         "couleur": "#92400e",
         "emoji": "📊",
         "tag": "Presse économique",
-        "titre": "Accès à l’IA pour tous, semaine de 32 heures, redistribution de la richesse... Le premier plan politique d’OpenAI pour transformer nos sociétés",
-        "resume": "DÉCRYPTAGE - Se disant lucide quant aux «risques» que l’IA va générer dans les prochains mois, l’entreprise créatrice de ChatGPT a partagé ses recommandations pour entrer plus ou moins sereinement dans «l’ère de la superintelligence».",
-        "lien": "https://www.lefigaro.fr/secteur/high-tech/acces-a-l-ia-pour-tous-semaine-de-32-heures-redistribution-de-la-richesse-le-premier-plan-politique-d-openai-pour-transformer-nos-societes-20260407",
-        "date_iso": "2026-04-07T22:52:36+02:00",
-        "date_fr": "07/04/2026",
-        "pertinence": 1
-      },
-      {
-        "source": "Le Figaro Éco",
-        "couleur": "#92400e",
-        "emoji": "📊",
-        "tag": "Presse économique",
         "titre": "Garde à vue de Rima Hassan : La France Insoumise saisit l'Arcom et dénonce des «fausses informations»",
         "resume": "Les Insoumis accusent BFMTV de «manquements graves aux obligations légales en matière de pluralisme, d’honnêteté et d’indépendance de l’information».",
         "lien": "https://www.lefigaro.fr/politique/garde-a-vue-de-rima-hassan-lfi-saisit-l-arcom-denonce-des-fausses-informations-20260407",
@@ -562,18 +574,6 @@
         "resume": "Une cinquantaine d’entreprises auront accès à Mythos, modèle avancé de l’entreprise d’intelligence artificielle, particulièrement performant pour identifier les failles logicielles. Les progrès fulgurants réalisés en la matière amplifient les risques de cyberattaque.",
         "lien": "https://www.lemonde.fr/pixels/article/2026/04/07/cybersecurite-anthropic-restreint-le-lancement-de-son-dernier-modele-d-ia-pour-prevenir-les-risques_6677931_4408996.html",
         "date_iso": "2026-04-07T20:00:03+02:00",
-        "date_fr": "07/04/2026",
-        "pertinence": 1
-      },
-      {
-        "source": "Le Monde Éco",
-        "couleur": "#374151",
-        "emoji": "🌐",
-        "tag": "Presse économique",
-        "titre": "Plan social à « La Tribune » : les journalistes votent un préavis de grève reconductible",
-        "resume": "Sur les 56 journalistes du titre économique, seuls 32 postes seront recréés dans le nouveau pôle d’information économique commun composé à la suite d’un rapprochement avec la rédaction de la chaîne BFM Business, dénoncent les journalistes. La grève est prévue pour le 13 avril.",
-        "lien": "https://www.lemonde.fr/economie/article/2026/04/07/plan-social-a-la-tribune-les-journalistes-votent-un-preavis-de-greve-reconductible_6677929_3234.html",
-        "date_iso": "2026-04-07T19:49:06+02:00",
         "date_fr": "07/04/2026",
         "pertinence": 1
       }
@@ -3333,7 +3333,7 @@
       "note_lecture": "Le TEC-10 mesure le rendement des emprunts d'Etat francais a 10 ans. Un taux eleve rencherit le cout de la dette publique et impacte les taux de credit immobilier."
     },
     "petrole_brent": {
-      "valeur": 94.51,
+      "valeur": 94.49,
       "date": "2026-04-08",
       "unite": "USD/baril",
       "source": "Yahoo Finance",
@@ -4847,16 +4847,16 @@
         },
         {
           "date": "2026-04-08",
-          "valeur": 94.51,
+          "valeur": 94.49,
           "ma50": 86.22,
           "ma200": 70.67
         }
       ],
       "variations": {
-        "jour": -13.51,
-        "semaine": -20.14,
-        "mois": 1.96,
-        "ytd": 55.57
+        "jour": -13.53,
+        "semaine": -20.16,
+        "mois": 1.94,
+        "ytd": 55.54
       },
       "min_max": {
         "min": 58.92,
@@ -4867,9 +4867,9 @@
       "note_lecture": "Le prix du Brent influence directement les couts de transport et d'energie, donc l'inflation et le pouvoir d'achat des salaries."
     },
     "cac40": {
-      "valeur": 8214.55,
+      "valeur": 8220.78,
       "date": "2026-04-08",
-      "variation_jour_pct": 3.87,
+      "variation_jour_pct": 3.95,
       "unite": "points",
       "source": "Yahoo Finance",
       "nb_points": 254,
@@ -6394,16 +6394,16 @@
         },
         {
           "date": "2026-04-08",
-          "valeur": 8214.55,
-          "ma50": 8127.62,
-          "ma200": 8006.14
+          "valeur": 8220.78,
+          "ma50": 8127.75,
+          "ma200": 8006.17
         }
       ],
       "variations": {
-        "jour": 3.87,
-        "semaine": 5.69,
-        "mois": 2.1,
-        "ytd": 0.24
+        "jour": 3.95,
+        "semaine": 5.77,
+        "mois": 2.17,
+        "ytd": 0.31
       },
       "min_max": {
         "min": 6863.02,
@@ -7984,7 +7984,7 @@
       "note_lecture": "Le taux de change euro-dollar determine le prix de tout ce qui est importe en dollars : petrole, matieres premieres, electronique. Un euro faible rencherit les importations et alimente l'inflation."
     },
     "or": {
-      "valeur": 4843.0,
+      "valeur": 4845.8,
       "date": "2026-04-08",
       "unite": "USD/oz",
       "source": "Yahoo Finance",
@@ -9498,16 +9498,16 @@
         },
         {
           "date": "2026-04-08",
-          "valeur": 4843.0,
-          "ma50": 4921.11,
-          "ma200": 4136.23
+          "valeur": 4845.8,
+          "ma50": 4921.17,
+          "ma200": 4136.25
         }
       ],
       "variations": {
-        "jour": 3.99,
-        "semaine": 4.2,
-        "mois": -5.89,
-        "ytd": 12.25
+        "jour": 4.05,
+        "semaine": 4.26,
+        "mois": -5.84,
+        "ytd": 12.32
       },
       "min_max": {
         "min": 2968.4,
@@ -11046,7 +11046,7 @@
       "note_lecture": "Le prix du gaz naturel (TTF europeen) impacte directement les factures de chauffage et d'electricite des menages, ainsi que les couts de production industrielle."
     },
     "ble": {
-      "valeur": 579.75,
+      "valeur": 579.5,
       "date": "2026-04-08",
       "unite": "cents/boisseau",
       "source": "Yahoo Finance",
@@ -12554,16 +12554,16 @@
         },
         {
           "date": "2026-04-08",
-          "valeur": 579.75,
-          "ma50": 572.55,
+          "valeur": 579.5,
+          "ma50": 572.54,
           "ma200": 534.2
         }
       ],
       "variations": {
-        "jour": -3.05,
-        "semaine": -5.92,
-        "mois": -5.15,
-        "ytd": 14.46
+        "jour": -3.09,
+        "semaine": -5.96,
+        "mois": -5.19,
+        "ytd": 14.41
       },
       "min_max": {
         "min": 495.0,
@@ -12574,7 +12574,7 @@
       "note_lecture": "Le cours du ble est un indicateur avance des prix alimentaires. La France etant le premier producteur europeen, son evolution impacte a la fois les consommateurs et le secteur agricole."
     },
     "lme_cuivre": {
-      "valeur": 5.74,
+      "valeur": 5.75,
       "date": "2026-04-08",
       "unite": "cts/lb",
       "source": "Yahoo Finance",
@@ -14088,16 +14088,16 @@
         },
         {
           "date": "2026-04-08",
-          "valeur": 5.74,
+          "valeur": 5.75,
           "ma50": 5.75,
           "ma200": 5.25
         }
       ],
       "variations": {
-        "jour": 3.61,
-        "semaine": 2.68,
-        "mois": -0.35,
-        "ytd": 1.77
+        "jour": 3.79,
+        "semaine": 2.86,
+        "mois": -0.17,
+        "ytd": 1.95
       },
       "min_max": {
         "min": 4.13,
@@ -18032,7 +18032,7 @@
           "2023": 1.92,
           "2024": 1.78,
           "2025": 1.72,
-          "2026": 2.07
+          "2026": 2.072
         },
         "quantiteMensuelle": {
           "solo": 40,
@@ -19431,7 +19431,7 @@
     "meta": {
       "source_effectifs": "DSN via kali-data",
       "source_grilles": "SocialGouv kali-data (extraction automatique)",
-      "date_generation": "2026-04-08T08:16:44.417853",
+      "date_generation": "2026-04-08T08:30:30.775035",
       "mode": "100pct_automatique",
       "note": "Extraction heuristique depuis textes juridiques KALI. Statut a_verifier si grille non extraite ou confidence < 55%."
     },
@@ -21487,7 +21487,7 @@
     "sources": "INSEE - Enquête Emploi, DARES"
   },
   "previsions_cftc": {
-    "generated_at": "2026-04-08T08:16:44.582956",
+    "generated_at": "2026-04-08T08:30:30.887011",
     "model_version": "CFTC v7.0 (bivarié Phillips + log-normale + pondération temporelle)",
     "n_simulations": 1000,
     "horizon": "12 mois",
@@ -21496,7 +21496,7 @@
       "niveau": "excellent",
       "issues": [],
       "warnings": [],
-      "timestamp": "2026-04-08T08:16:44.582970"
+      "timestamp": "2026-04-08T08:30:30.887022"
     },
     "calibrage": {
       "volatilites": {
@@ -21536,9 +21536,9 @@
     },
     "market_signals_details": {
       "brent": {
-        "valeur": 94.51,
+        "valeur": 94.49,
         "ref": 75.0,
-        "variation_ytd_pct": 55.57,
+        "variation_ytd_pct": 55.54,
         "impact_inflation_pt": 0.195,
         "poids_temporel": 1.0
       },
@@ -21566,7 +21566,7 @@
         "signal": "baissier"
       },
       "cac40_ytd": {
-        "variation_ytd_pct": 0.24,
+        "variation_ytd_pct": 0.31,
         "signal_chomage": "neutre"
       },
       "carburants_sp95": {
