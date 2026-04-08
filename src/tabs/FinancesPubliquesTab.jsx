@@ -8,7 +8,6 @@ import Card from '../components/Card';
 import BubbleKpi from '../components/BubbleKpi';
 import BubbleSubTabs from '../components/BubbleSubTabs';
 import BubbleNote from '../components/BubbleNote';
-import FavoriButton from '../components/FavoriButton';
 
 // ============================================================================
 // ONGLET FINANCES PUBLIQUES & SOCIALES — CFTC Dashboard
@@ -25,6 +24,9 @@ const C = {
   orange:     '#f97316',
   gray:       '#6b7280',
 };
+
+// Helper défensif — garantit toujours un vrai tableau, quoi que retourne l'API
+const safeArr = (v) => (Array.isArray(v) ? v : []);
 
 // Tooltip personnalisé réutilisable (même style que les autres tabs)
 const TooltipBulle = ({ active, payload, label, suffix = '%', darkMode }) => {
@@ -57,13 +59,13 @@ function Badge({ val, seuil, suffixe = '%', invertColor = false }) {
 }
 
 // ─── SOUS-ONGLET : VUE D'ENSEMBLE ────────────────────────────────────────────
-function VueEnsemble({ fp, darkMode, fp: favoriProps }) {
-  const evo = fp?.evolution || {};
-  const dette   = evo.dette   || [];
-  const deficit = evo.deficit || [];
-  const depenses = evo.depenses || [];
-  const recettes = evo.recettes || [];
-  const po      = evo.prelevements_obligatoires || [];
+function VueEnsemble({ fp, darkMode }) {
+  const evo = (fp?.evolution && typeof fp.evolution === 'object') ? fp.evolution : {};
+  const dette    = safeArr(evo.dette);
+  const deficit  = safeArr(evo.deficit);
+  const depenses = safeArr(evo.depenses);
+  const recettes = safeArr(evo.recettes);
+  const po       = safeArr(evo.prelevements_obligatoires);
 
   // Fusion en une seule série pour le graphique consolidé
   const annees = [...new Set([
@@ -216,7 +218,7 @@ function VueEnsemble({ fp, darkMode, fp: favoriProps }) {
       </Card>
 
       {/* Notes de lecture */}
-      {fp?.notes_lecture?.length > 0 && (
+      {Array.isArray(fp?.notes_lecture) && fp.notes_lecture.length > 0 && (
         <BubbleNote darkMode={darkMode}>
           {fp.notes_lecture.map((n, i) => <p key={i}>{n}</p>)}
         </BubbleNote>
@@ -227,10 +229,10 @@ function VueEnsemble({ fp, darkMode, fp: favoriProps }) {
 
 // ─── SOUS-ONGLET : DETTE & CHARGE ────────────────────────────────────────────
 function DetteCharge({ fp, darkMode }) {
-  const evo = fp?.evolution || {};
-  const dette       = evo.dette || [];
-  const chargeDette = evo.charge_dette || [];
-  const invPub      = evo.investissement_public || [];
+  const evo = (fp?.evolution && typeof fp.evolution === 'object') ? fp.evolution : {};
+  const dette       = safeArr(evo.dette);
+  const chargeDette = safeArr(evo.charge_dette);
+  const invPub      = safeArr(evo.investissement_public);
 
   // Fusion dette + charge
   const annees = [...new Set([...dette.map(d => d.annee), ...chargeDette.map(d => d.annee)])].sort();
@@ -347,10 +349,10 @@ function DetteCharge({ fp, darkMode }) {
 
 // ─── SOUS-ONGLET : DÉPENSES DE L'ÉTAT ────────────────────────────────────────
 function DepensesEtat({ fp, darkMode }) {
-  const evo = fp?.evolution || {};
-  const sante     = evo.depenses_sante || [];
-  const education = evo.depenses_education || [];
-  const protSoc   = evo.depenses_protection_sociale || [];
+  const evo = (fp?.evolution && typeof fp.evolution === 'object') ? fp.evolution : {};
+  const sante     = safeArr(evo.depenses_sante);
+  const education = safeArr(evo.depenses_education);
+  const protSoc   = safeArr(evo.depenses_protection_sociale);
 
   const dmClass = darkMode ? 'text-gray-100' : 'text-gray-800';
   const dmSub   = darkMode ? 'text-gray-400' : 'text-gray-500';
@@ -457,9 +459,8 @@ function DepensesEtat({ fp, darkMode }) {
 
 // ─── SOUS-ONGLET : RECETTES & PRÉLÈVEMENTS ───────────────────────────────────
 function RecettesPrelevements({ fp, darkMode }) {
-  const evo = fp?.evolution || {};
-  const po = evo.prelevements_obligatoires || [];
-  const recettes = evo.recettes || [];
+  const evo = (fp?.evolution && typeof fp.evolution === 'object') ? fp.evolution : {};
+  const po = safeArr(evo.prelevements_obligatoires);
 
   const dmClass = darkMode ? 'text-gray-100' : 'text-gray-800';
   const dmSub   = darkMode ? 'text-gray-400' : 'text-gray-500';
@@ -801,10 +802,16 @@ function Cotisations({ darkMode }) {
 // COMPOSANT PRINCIPAL EXPORT
 // ============================================================================
 
-export default function FinancesPubliquesTab({ d, darkMode, fp: favoriProps }) {
-  const [subTab, setSubTab] = useState('ensemble');
+export default function FinancesPubliquesTab({ d, darkMode, fp: favoriProps, subTab: subTabProp, setSubTab: setSubTabProp }) {
+  const [subTabLocal, setSubTabLocal] = useState('ensemble');
 
-  const fp = d?.finances_publiques || {};
+  // Compatibilité : sous-onglet géré en prop (App.jsx) ou en local
+  const subTab    = subTabProp    ?? subTabLocal;
+  const setSubTab = setSubTabProp ?? setSubTabLocal;
+
+  const fp = d?.finances_publiques && typeof d.finances_publiques === 'object'
+    ? d.finances_publiques
+    : {};
 
   const sousOnglets = [
     { id: 'ensemble',    label: '🏛️ Vue d\'ensemble' },
