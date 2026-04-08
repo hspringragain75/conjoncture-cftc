@@ -4630,242 +4630,301 @@ def _static_comparaison_ue_finances():
 # CONSTRUCTION DES DONNÉES - FINANCES PUBLIQUES
 # ============================================================================
 
-def fetch_eurostat_finances(na_item, start_year=2010):
+def fetch_eurostat_pct_pib(na_item, start_year=2010):
     """
-    Récupère une série de finances publiques % PIB depuis l'API Eurostat.
-    Dataflow : gov_10dd_edpt1 (Government deficit/surplus, debt and associated data)
-    
-    na_item codes :
-      GD      = dette publique (Maastricht) % PIB
-      B9      = capacité/besoin de financement (déficit) % PIB
-      TE      = dépenses totales APU % PIB
-      TR      = recettes totales APU % PIB
-      D41_PAY = charges d'intérêts % PIB
-      P51G    = FBCF des APU % PIB
+    Récupère une série finances publiques % PIB depuis Eurostat.
+    Dataflow gov_10dd_edpt1 — données annuelles officielles (notification PDE).
+    Dernières données disponibles : ~6 mois de décalage (ex: 2024 dispo juin 2025).
+
+    na_item : GD=dette, B9=déficit, TE=dépenses, TR=recettes,
+              D41_PAY=charge intérêts, P51G=FBCF APU
     """
     import time as _time
-    EUROSTAT_BASE = "https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data"
     url = (
-        f"{EUROSTAT_BASE}/gov_10dd_edpt1"
+        "https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/gov_10dd_edpt1"
         f"?geo=FR&na_item={na_item}&unit=PC_GDP&sector=S13"
         f"&sinceTimePeriod={start_year}&format=JSON&lang=EN"
     )
-    headers = {
-        "Accept": "application/json",
-        "User-Agent": "CFTC-Dashboard/2.0",
-    }
-    _time.sleep(1)  # anti rate-limit Eurostat
+    _time.sleep(0.5)
     try:
-        req = urllib.request.Request(url, headers=headers)
-        with urllib.request.urlopen(req, timeout=30) as response:
-            data = json.loads(response.read())
-        
-        # Parse format SDMX-JSON Eurostat
-        dim_time = data.get("dimension", {}).get("time", {})
-        time_index = dim_time.get("category", {}).get("index", {})
-        values = data.get("value", {})
-        
-        if not time_index or not values:
-            return []
-        
-        result = []
-        for annee, idx in sorted(time_index.items(), key=lambda x: x[0]):
+        req = urllib.request.Request(url, headers={
+            "Accept": "application/json", "User-Agent": "CFTC-Dashboard/2.0"
+        })
+        with urllib.request.urlopen(req, timeout=20) as r:
+            data = json.loads(r.read())
+        time_idx = data.get("dimension",{}).get("time",{}).get("category",{}).get("index",{})
+        values   = data.get("value", {})
+        result   = []
+        for annee, idx in sorted(time_idx.items(), key=lambda x: x[0]):
             v = values.get(str(idx))
             if v is not None:
                 result.append({"annee": annee, "valeur": round(float(v), 2)})
-        
         if result:
-            print(f"  ✓ Eurostat {na_item}: {len(result)} années, dernière={result[-1]}")
+            print(f"  ✓ Eurostat {na_item}: {len(result)} pts, dernière={result[-1]}")
         return result
-        
-    except urllib.error.HTTPError as e:
-        print(f"  ⚠️ Eurostat {na_item} HTTP {e.code}")
     except Exception as e:
         print(f"  ⚠️ Eurostat {na_item}: {e}")
-    return []
+        return []
 
 
-def fetch_eurostat_depenses_fonctionnelles(cofog_code, start_year=2010):
+def fetch_eurostat_cofog(cofog_code, start_year=2010):
     """
-    Dépenses publiques par fonction % PIB (Eurostat COFOG — gov_10a_exp).
-    
-    cofog_code :
-      GF01 = Services généraux
-      GF04 = Affaires économiques
-      GF07 = Santé
-      GF09 = Éducation
-      GF10 = Protection sociale
-      TOT  = Total
+    Dépenses publiques par fonction % PIB (Eurostat gov_10a_exp — COFOG).
+    GF07=Santé, GF09=Éducation, GF10=Protection sociale
     """
     import time as _time
-    EUROSTAT_BASE = "https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data"
     url = (
-        f"{EUROSTAT_BASE}/gov_10a_exp"
+        "https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/gov_10a_exp"
         f"?geo=FR&cofog99={cofog_code}&unit=PC_GDP&sector=S13&na_item=TE"
         f"&sinceTimePeriod={start_year}&format=JSON&lang=EN"
     )
-    headers = {"Accept": "application/json", "User-Agent": "CFTC-Dashboard/2.0"}
-    _time.sleep(1)
+    _time.sleep(0.5)
     try:
-        req = urllib.request.Request(url, headers=headers)
-        with urllib.request.urlopen(req, timeout=30) as response:
-            data = json.loads(response.read())
-        dim_time = data.get("dimension", {}).get("time", {})
-        time_index = dim_time.get("category", {}).get("index", {})
-        values = data.get("value", {})
-        if not time_index or not values:
-            return []
-        result = []
-        for annee, idx in sorted(time_index.items(), key=lambda x: x[0]):
+        req = urllib.request.Request(url, headers={
+            "Accept": "application/json", "User-Agent": "CFTC-Dashboard/2.0"
+        })
+        with urllib.request.urlopen(req, timeout=20) as r:
+            data = json.loads(r.read())
+        time_idx = data.get("dimension",{}).get("time",{}).get("category",{}).get("index",{})
+        values   = data.get("value", {})
+        result   = []
+        for annee, idx in sorted(time_idx.items(), key=lambda x: x[0]):
             v = values.get(str(idx))
             if v is not None:
                 result.append({"annee": annee, "valeur": round(float(v), 2)})
         if result:
-            print(f"  ✓ Eurostat COFOG {cofog_code}: {len(result)} années, dernière={result[-1]}")
+            print(f"  ✓ Eurostat COFOG {cofog_code}: {len(result)} pts, dernière={result[-1]}")
         return result
     except Exception as e:
         print(f"  ⚠️ Eurostat COFOG {cofog_code}: {e}")
-    return []
+        return []
+
+
+def fetch_fred_series(series_id, label, start_date="2010-01-01"):
+    """
+    Récupère une série FRED (St. Louis Fed) en CSV.
+    Données souvent trimestrielles ou annuelles, mises à jour rapidement.
+    Déjà utilisé dans fetch_data.py pour CAC40, Brent, EUR/USD, etc.
+    """
+    import time as _time
+    url = f"https://fred.stlouisfed.org/graph/fredgraph.csv?id={series_id}&cosd={start_date}"
+    _time.sleep(0.3)
+    try:
+        req = urllib.request.Request(url, headers={"User-Agent": "CFTC-Dashboard/2.0"})
+        with urllib.request.urlopen(req, timeout=15) as r:
+            lines = r.read().decode("utf-8").strip().split("\n")
+        result = []
+        for line in lines[1:]:  # skip header
+            parts = line.strip().split(",")
+            if len(parts) == 2 and parts[1] != ".":
+                annee = parts[0][:4]  # YYYY from YYYY-MM-DD
+                try:
+                    result.append({"annee": annee, "date": parts[0], "valeur": float(parts[1])})
+                except ValueError:
+                    continue
+        # Dédoublonner par année (garder dernière valeur)
+        by_year = {}
+        for e in result:
+            by_year[e["annee"]] = e["valeur"]
+        annual = [{"annee": k, "valeur": round(v, 2)} for k, v in sorted(by_year.items())]
+        if annual:
+            print(f"  ✓ FRED {series_id} ({label}): {len(annual)} pts, dernière={annual[-1]}")
+        return annual
+    except Exception as e:
+        print(f"  ⚠️ FRED {series_id} ({label}): {e}")
+        return []
 
 
 def build_finances_publiques_data():
     """
-    Construit les données de finances publiques % PIB.
-    Source principale : API Eurostat (gov_10dd_edpt1, gov_10a_exp).
-    Fallback : données documentées si API indisponible.
-    
-    Eurostat publie les données avec ~6 mois de décalage (ex: données 2024
-    disponibles vers juin 2025 après notification officielle).
+    Construit les données finances publiques % PIB.
+
+    Stratégie multi-sources (par ordre de priorité) :
+    1. Eurostat gov_10dd_edpt1 — données officielles annuelles % PIB
+       (notification PDE, ~6 mois de décalage, mais données 2024 dispo mi-2025)
+    2. FRED St. Louis — séries trimestrielles pour dette et déficit France
+       (GGGDTAFRA188N = dette % PIB, FRGGGDTP = déficit % PIB)
+       Mise à jour rapide, données ~1 an de décalage
+    3. Fallback statique — données documentées si toutes APIs indisponibles
+
+    En production (GitHub Actions), Eurostat et FRED sont accessibles.
     """
-    print("📊 Récupération des finances publiques (Eurostat API)...")
+    print("📊 Récupération des finances publiques (Eurostat + FRED)...")
 
-    # ── Séries principales (% PIB) ───────────────────────────────────────────
-    dette      = fetch_eurostat_finances("GD",      start_year=2010)
-    deficit    = fetch_eurostat_finances("B9",       start_year=2010)
-    depenses   = fetch_eurostat_finances("TE",       start_year=2010)
-    recettes   = fetch_eurostat_finances("TR",       start_year=2010)
-    charge     = fetch_eurostat_finances("D41_PAY",  start_year=2010)
-    investisse = fetch_eurostat_finances("P51G",     start_year=2010)
+    # ── 1. Eurostat — données annuelles officielles % PIB ────────────────────
+    print("  → Eurostat gov_10dd_edpt1...")
+    dette_eur    = fetch_eurostat_pct_pib("GD",      start_year=2010)
+    deficit_eur  = fetch_eurostat_pct_pib("B9",      start_year=2010)
+    depenses_eur = fetch_eurostat_pct_pib("TE",      start_year=2010)
+    recettes_eur = fetch_eurostat_pct_pib("TR",      start_year=2010)
+    charge_eur   = fetch_eurostat_pct_pib("D41_PAY", start_year=2010)
+    invest_eur   = fetch_eurostat_pct_pib("P51G",    start_year=2010)
 
-    # Prélèvements obligatoires — via nasa_10_ki (ratio PO/PIB)
-    # Fallback: calculé comme recettes fiscales + cotisations sociales
-    po = fetch_eurostat_finances("OTR_S13", start_year=2010)
-    if not po:
-        # Alternative: dataflow nasa_10_ki indicateur TAX_S13
-        po = []
+    print("  → Eurostat COFOG dépenses fonctionnelles...")
+    prot_soc  = fetch_eurostat_cofog("GF10", start_year=2010)
+    sante     = fetch_eurostat_cofog("GF07", start_year=2010)
+    education = fetch_eurostat_cofog("GF09", start_year=2010)
 
-    # ── Dépenses fonctionnelles COFOG (% PIB) ────────────────────────────────
-    prot_soc  = fetch_eurostat_depenses_fonctionnelles("GF10", start_year=2010)
-    sante     = fetch_eurostat_depenses_fonctionnelles("GF07", start_year=2010)
-    education = fetch_eurostat_depenses_fonctionnelles("GF09", start_year=2010)
+    # ── 2. FRED — complément ou fallback trimestriel ─────────────────────────
+    # GGGDTAFRA188N = General government gross debt % GDP France (FMI/OCDE via FRED)
+    # FRGGGDTP      = General government net lending % GDP France
+    # Ces séries sont mises à jour ~annuellement mais plus rapidement qu'Eurostat
+    print("  → FRED séries France...")
+    dette_fred  = fetch_fred_series("GGGDTAFRA188N", "Dette % PIB France", "2010-01-01")
+    deficit_fred = fetch_fred_series("FRGGGDTP",     "Déficit % PIB France", "2010-01-01")
 
-    # ── Fallback si Eurostat indisponible ────────────────────────────────────
-    # Données documentées à jour (INSEE mars 2025 + Eurostat notification 2025)
+    # ── 3. Fusionner : Eurostat en base, FRED pour compléter les années récentes ──
+    def merge_series(eurostat_data, fred_data):
+        """
+        Fusionne Eurostat (référence) et FRED (données récentes).
+        Eurostat prime quand les deux ont la même année.
+        FRED complète les années plus récentes non encore dans Eurostat.
+        """
+        if not eurostat_data and not fred_data:
+            return []
+        merged = {e["annee"]: e["valeur"] for e in eurostat_data}
+        # Ajouter les années FRED non encore dans Eurostat
+        if fred_data and eurostat_data:
+            last_eurostat_year = eurostat_data[-1]["annee"]
+            for e in fred_data:
+                if e["annee"] > last_eurostat_year:
+                    merged[e["annee"]] = e["valeur"]
+        elif fred_data:
+            merged = {e["annee"]: e["valeur"] for e in fred_data}
+        return [{"annee": k, "valeur": v} for k, v in sorted(merged.items())]
+
+    dette   = merge_series(dette_eur,   dette_fred)
+    deficit = merge_series(deficit_eur, deficit_fred)
+
+    # ── 4. Fallback statique complet ─────────────────────────────────────────
     FALLBACK = {
         "dette": [
-            {"annee": "2015", "valeur": 95.6}, {"annee": "2016", "valeur": 98.0},
-            {"annee": "2017", "valeur": 98.3}, {"annee": "2018", "valeur": 98.1},
-            {"annee": "2019", "valeur": 97.4}, {"annee": "2020", "valeur": 114.6},
-            {"annee": "2021", "valeur": 112.9}, {"annee": "2022", "valeur": 111.8},
-            {"annee": "2023", "valeur": 110.6}, {"annee": "2024", "valeur": 113.7},
+            {"annee": "2010", "valeur": 85.3}, {"annee": "2011", "valeur": 88.1},
+            {"annee": "2012", "valeur": 91.5}, {"annee": "2013", "valeur": 93.4},
+            {"annee": "2014", "valeur": 94.9}, {"annee": "2015", "valeur": 95.6},
+            {"annee": "2016", "valeur": 98.0}, {"annee": "2017", "valeur": 98.3},
+            {"annee": "2018", "valeur": 98.1}, {"annee": "2019", "valeur": 97.4},
+            {"annee": "2020", "valeur": 114.6}, {"annee": "2021", "valeur": 112.9},
+            {"annee": "2022", "valeur": 111.8}, {"annee": "2023", "valeur": 110.6},
+            {"annee": "2024", "valeur": 113.7},
         ],
         "deficit": [
-            {"annee": "2015", "valeur": -3.6}, {"annee": "2016", "valeur": -3.6},
-            {"annee": "2017", "valeur": -2.9}, {"annee": "2018", "valeur": -2.3},
-            {"annee": "2019", "valeur": -3.1}, {"annee": "2020", "valeur": -9.0},
-            {"annee": "2021", "valeur": -6.5}, {"annee": "2022", "valeur": -4.8},
-            {"annee": "2023", "valeur": -5.5}, {"annee": "2024", "valeur": -6.1},
+            {"annee": "2010", "valeur": -6.9}, {"annee": "2011", "valeur": -5.2},
+            {"annee": "2012", "valeur": -5.0}, {"annee": "2013", "valeur": -4.1},
+            {"annee": "2014", "valeur": -3.9}, {"annee": "2015", "valeur": -3.6},
+            {"annee": "2016", "valeur": -3.6}, {"annee": "2017", "valeur": -2.9},
+            {"annee": "2018", "valeur": -2.3}, {"annee": "2019", "valeur": -3.1},
+            {"annee": "2020", "valeur": -9.0}, {"annee": "2021", "valeur": -6.5},
+            {"annee": "2022", "valeur": -4.8}, {"annee": "2023", "valeur": -5.5},
+            {"annee": "2024", "valeur": -6.1},
         ],
         "depenses": [
-            {"annee": "2015", "valeur": 56.8}, {"annee": "2016", "valeur": 56.7},
-            {"annee": "2017", "valeur": 56.5}, {"annee": "2018", "valeur": 55.6},
-            {"annee": "2019", "valeur": 55.4}, {"annee": "2020", "valeur": 61.3},
-            {"annee": "2021", "valeur": 59.2}, {"annee": "2022", "valeur": 57.3},
-            {"annee": "2023", "valeur": 57.3}, {"annee": "2024", "valeur": 57.1},
+            {"annee": "2010", "valeur": 56.9}, {"annee": "2011", "valeur": 55.9},
+            {"annee": "2012", "valeur": 56.8}, {"annee": "2013", "valeur": 57.0},
+            {"annee": "2014", "valeur": 57.3}, {"annee": "2015", "valeur": 56.8},
+            {"annee": "2016", "valeur": 56.7}, {"annee": "2017", "valeur": 56.5},
+            {"annee": "2018", "valeur": 55.6}, {"annee": "2019", "valeur": 55.4},
+            {"annee": "2020", "valeur": 61.3}, {"annee": "2021", "valeur": 59.2},
+            {"annee": "2022", "valeur": 57.3}, {"annee": "2023", "valeur": 57.3},
+            {"annee": "2024", "valeur": 57.1},
         ],
         "recettes": [
-            {"annee": "2015", "valeur": 53.2}, {"annee": "2016", "valeur": 53.1},
-            {"annee": "2017", "valeur": 53.6}, {"annee": "2018", "valeur": 53.3},
-            {"annee": "2019", "valeur": 52.3}, {"annee": "2020", "valeur": 52.3},
-            {"annee": "2021", "valeur": 52.7}, {"annee": "2022", "valeur": 52.5},
-            {"annee": "2023", "valeur": 51.8}, {"annee": "2024", "valeur": 51.0},
+            {"annee": "2010", "valeur": 50.0}, {"annee": "2011", "valeur": 50.7},
+            {"annee": "2012", "valeur": 51.8}, {"annee": "2013", "valeur": 52.9},
+            {"annee": "2014", "valeur": 53.4}, {"annee": "2015", "valeur": 53.2},
+            {"annee": "2016", "valeur": 53.1}, {"annee": "2017", "valeur": 53.6},
+            {"annee": "2018", "valeur": 53.3}, {"annee": "2019", "valeur": 52.3},
+            {"annee": "2020", "valeur": 52.3}, {"annee": "2021", "valeur": 52.7},
+            {"annee": "2022", "valeur": 52.5}, {"annee": "2023", "valeur": 51.8},
+            {"annee": "2024", "valeur": 51.0},
         ],
         "prelevements_obligatoires": [
-            {"annee": "2015", "valeur": 44.5}, {"annee": "2016", "valeur": 44.4},
-            {"annee": "2017", "valeur": 44.7}, {"annee": "2018", "valeur": 44.4},
-            {"annee": "2019", "valeur": 43.5}, {"annee": "2020", "valeur": 43.3},
-            {"annee": "2021", "valeur": 44.0}, {"annee": "2022", "valeur": 44.3},
-            {"annee": "2023", "valeur": 43.5}, {"annee": "2024", "valeur": 43.2},
+            {"annee": "2010", "valeur": 41.8}, {"annee": "2015", "valeur": 44.5},
+            {"annee": "2016", "valeur": 44.4}, {"annee": "2017", "valeur": 44.7},
+            {"annee": "2018", "valeur": 44.4}, {"annee": "2019", "valeur": 43.5},
+            {"annee": "2020", "valeur": 43.3}, {"annee": "2021", "valeur": 44.0},
+            {"annee": "2022", "valeur": 44.3}, {"annee": "2023", "valeur": 43.5},
+            {"annee": "2024", "valeur": 43.2},
         ],
         "charge_dette": [
-            {"annee": "2015", "valeur": 1.8}, {"annee": "2016", "valeur": 1.7},
-            {"annee": "2017", "valeur": 1.7}, {"annee": "2018", "valeur": 1.7},
-            {"annee": "2019", "valeur": 1.5}, {"annee": "2020", "valeur": 1.2},
-            {"annee": "2021", "valeur": 1.1}, {"annee": "2022", "valeur": 1.5},
-            {"annee": "2023", "valeur": 2.0}, {"annee": "2024", "valeur": 2.4},
+            {"annee": "2010", "valeur": 2.6}, {"annee": "2015", "valeur": 1.8},
+            {"annee": "2016", "valeur": 1.7}, {"annee": "2017", "valeur": 1.7},
+            {"annee": "2018", "valeur": 1.7}, {"annee": "2019", "valeur": 1.5},
+            {"annee": "2020", "valeur": 1.2}, {"annee": "2021", "valeur": 1.1},
+            {"annee": "2022", "valeur": 1.5}, {"annee": "2023", "valeur": 2.0},
+            {"annee": "2024", "valeur": 2.4},
         ],
         "investissement_public": [
-            {"annee": "2015", "valeur": 3.4}, {"annee": "2016", "valeur": 3.4},
-            {"annee": "2017", "valeur": 3.5}, {"annee": "2018", "valeur": 3.5},
-            {"annee": "2019", "valeur": 3.7}, {"annee": "2020", "valeur": 3.8},
-            {"annee": "2021", "valeur": 3.9}, {"annee": "2022", "valeur": 4.0},
-            {"annee": "2023", "valeur": 4.0}, {"annee": "2024", "valeur": 3.9},
+            {"annee": "2010", "valeur": 3.6}, {"annee": "2015", "valeur": 3.4},
+            {"annee": "2016", "valeur": 3.4}, {"annee": "2017", "valeur": 3.5},
+            {"annee": "2018", "valeur": 3.5}, {"annee": "2019", "valeur": 3.7},
+            {"annee": "2020", "valeur": 3.8}, {"annee": "2021", "valeur": 3.9},
+            {"annee": "2022", "valeur": 4.0}, {"annee": "2023", "valeur": 4.0},
+            {"annee": "2024", "valeur": 3.9},
         ],
         "depenses_protection_sociale": [
-            {"annee": "2015", "valeur": 23.8}, {"annee": "2016", "valeur": 23.9},
-            {"annee": "2017", "valeur": 23.6}, {"annee": "2018", "valeur": 23.3},
-            {"annee": "2019", "valeur": 23.2}, {"annee": "2020", "valeur": 26.4},
-            {"annee": "2021", "valeur": 25.2}, {"annee": "2022", "valeur": 24.2},
-            {"annee": "2023", "valeur": 24.5}, {"annee": "2024", "valeur": 24.3},
+            {"annee": "2010", "valeur": 22.9}, {"annee": "2015", "valeur": 23.8},
+            {"annee": "2016", "valeur": 23.9}, {"annee": "2017", "valeur": 23.6},
+            {"annee": "2018", "valeur": 23.3}, {"annee": "2019", "valeur": 23.2},
+            {"annee": "2020", "valeur": 26.4}, {"annee": "2021", "valeur": 25.2},
+            {"annee": "2022", "valeur": 24.2}, {"annee": "2023", "valeur": 24.5},
+            {"annee": "2024", "valeur": 24.3},
         ],
         "depenses_sante": [
-            {"annee": "2015", "valeur": 8.5}, {"annee": "2016", "valeur": 8.6},
-            {"annee": "2017", "valeur": 8.6}, {"annee": "2018", "valeur": 8.5},
-            {"annee": "2019", "valeur": 8.7}, {"annee": "2020", "valeur": 10.0},
-            {"annee": "2021", "valeur": 9.7}, {"annee": "2022", "valeur": 9.3},
-            {"annee": "2023", "valeur": 9.5}, {"annee": "2024", "valeur": 9.4},
+            {"annee": "2010", "valeur": 8.1}, {"annee": "2015", "valeur": 8.5},
+            {"annee": "2016", "valeur": 8.6}, {"annee": "2017", "valeur": 8.6},
+            {"annee": "2018", "valeur": 8.5}, {"annee": "2019", "valeur": 8.7},
+            {"annee": "2020", "valeur": 10.0}, {"annee": "2021", "valeur": 9.7},
+            {"annee": "2022", "valeur": 9.3}, {"annee": "2023", "valeur": 9.5},
+            {"annee": "2024", "valeur": 9.4},
         ],
         "depenses_education": [
-            {"annee": "2015", "valeur": 5.4}, {"annee": "2016", "valeur": 5.4},
-            {"annee": "2017", "valeur": 5.3}, {"annee": "2018", "valeur": 5.2},
-            {"annee": "2019", "valeur": 5.3}, {"annee": "2020", "valeur": 5.9},
-            {"annee": "2021", "valeur": 5.7}, {"annee": "2022", "valeur": 5.4},
-            {"annee": "2023", "valeur": 5.5}, {"annee": "2024", "valeur": 5.4},
+            {"annee": "2010", "valeur": 5.7}, {"annee": "2015", "valeur": 5.4},
+            {"annee": "2016", "valeur": 5.4}, {"annee": "2017", "valeur": 5.3},
+            {"annee": "2018", "valeur": 5.2}, {"annee": "2019", "valeur": 5.3},
+            {"annee": "2020", "valeur": 5.9}, {"annee": "2021", "valeur": 5.7},
+            {"annee": "2022", "valeur": 5.4}, {"annee": "2023", "valeur": 5.5},
+            {"annee": "2024", "valeur": 5.4},
         ],
     }
 
-    # Appliquer fallback sur les séries vides
-    dette      = dette      or FALLBACK["dette"]
-    deficit    = deficit    or FALLBACK["deficit"]
-    depenses   = depenses   or FALLBACK["depenses"]
-    recettes   = recettes   or FALLBACK["recettes"]
-    po         = po         or FALLBACK["prelevements_obligatoires"]
-    charge     = charge     or FALLBACK["charge_dette"]
-    investisse = investisse or FALLBACK["investissement_public"]
-    prot_soc   = prot_soc   or FALLBACK["depenses_protection_sociale"]
-    sante      = sante      or FALLBACK["depenses_sante"]
-    education  = education  or FALLBACK["depenses_education"]
+    # Appliquer fallback sur chaque série vide
+    dette    = dette    or FALLBACK["dette"]
+    deficit  = deficit  or FALLBACK["deficit"]
+    depenses = depenses_eur or FALLBACK["depenses"]
+    recettes = recettes_eur or FALLBACK["recettes"]
+    po       = FALLBACK["prelevements_obligatoires"]   # pas de série FRED/Eurostat simple
+    charge   = charge_eur   or FALLBACK["charge_dette"]
+    invest   = invest_eur   or FALLBACK["investissement_public"]
+    prot_soc = prot_soc     or FALLBACK["depenses_protection_sociale"]
+    sante    = sante        or FALLBACK["depenses_sante"]
+    education = education   or FALLBACK["depenses_education"]
 
-    # Valeurs scalaires (dernière année disponible)
+    # Scalaires (dernière année disponible)
     annee_ref   = dette[-1]["annee"]
     dette_val   = dette[-1]["valeur"]
     deficit_val = deficit[-1]["valeur"]
     dep_val     = depenses[-1]["valeur"]
     rec_val     = recettes[-1]["valeur"]
 
-    source_label = "Eurostat gov_10dd_edpt1" if len(dette) > len(FALLBACK["dette"]) or dette[-1]["annee"] > FALLBACK["dette"][-1]["annee"] else "Données documentées (fallback)"
-    print(f"  ✓ Source: {source_label} — année ref: {annee_ref}")
-    print(f"  ✓ Dette: {dette_val}% | Déficit: {deficit_val}% | Dépenses: {dep_val}% | Recettes: {rec_val}%")
+    sources = []
+    if dette_eur:   sources.append(f"Eurostat (dette jusqu'à {dette_eur[-1]['annee']})")
+    if dette_fred:  sources.append(f"FRED (dette jusqu'à {dette_fred[-1]['annee']})")
+    if not sources: sources.append("fallback statique")
+    source_str = " + ".join(sources)
+
+    print(f"  ✓ Données consolidées — année ref: {annee_ref} ({source_str})")
+    print(f"  ✓ Dette: {dette_val}% | Déficit: {deficit_val}% | Dép: {dep_val}% | Rec: {rec_val}%")
 
     return {
-        "annee_reference":              annee_ref,
-        "dette_publique_pib":           dette_val,
-        "deficit_public_pib":           deficit_val,
-        "depenses_apu_pib":             dep_val,
-        "recettes_apu_pib":             rec_val,
+        "annee_reference":               annee_ref,
+        "dette_publique_pib":            dette_val,
+        "deficit_public_pib":            deficit_val,
+        "depenses_apu_pib":              dep_val,
+        "recettes_apu_pib":              rec_val,
         "prelevements_obligatoires_pib": po[-1]["valeur"] if po else None,
-        "charge_dette_pib":             charge[-1]["valeur"] if charge else None,
-        "fbcf_apu_pib":                 investisse[-1]["valeur"] if investisse else None,
+        "charge_dette_pib":              charge[-1]["valeur"] if charge else None,
+        "fbcf_apu_pib":                  invest[-1]["valeur"] if invest else None,
         "evolution": {
             "dette":                       dette,
             "deficit":                     deficit,
@@ -4876,15 +4935,15 @@ def build_finances_publiques_data():
             "depenses_sante":              sante,
             "depenses_education":          education,
             "charge_dette":                charge,
-            "investissement_public":       investisse,
+            "investissement_public":       invest,
         },
         "notes_lecture": [
-            f"🇫🇷 Dette publique : {dette_val}% du PIB ({annee_ref}) — notification Eurostat",
+            f"🇫🇷 Dette publique : {dette_val}% du PIB ({annee_ref})",
             f"⚠️ Déficit public : {deficit_val}% du PIB — règle UE : -3% max",
             f"💸 Dépenses publiques APU : {dep_val}% du PIB",
             f"💰 Recettes publiques APU : {rec_val}% du PIB",
         ],
-        "source": f"Eurostat gov_10dd_edpt1 & gov_10a_exp — {source_label}"
+        "source": f"Eurostat gov_10dd_edpt1 • FRED GGGDTAFRA188N — {source_str}"
     }
 
 def main():
