@@ -2591,6 +2591,17 @@ def build_changelog():
     
     changelog = [
         {
+            "version": "3.1.3",
+            "date": "2026-04-08",
+            "modifications": [
+                {
+                    "type": "feature",
+                    "titre": "Onglet finances publiques",
+                    "description": "Vous trouverez un nouvel onglet finances publiques regroupant les indicateurs essentiels de cette thématique"
+                }
+            ]
+        },        
+        {
             "version": "3.1.2",
             "date": "2026-04-07",
             "modifications": [
