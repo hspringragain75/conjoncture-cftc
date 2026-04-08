@@ -1,6 +1,6 @@
 {
-  "last_updated": "08/04/2026 09:15",
-  "last_updated_iso": "2026-04-08T09:15:44.873038",
+  "last_updated": "08/04/2026 09:24",
+  "last_updated_iso": "2026-04-08T09:24:06.259767",
   "contact": "hspringragain@cftc.fr",
   "alertes": [
     {
@@ -32,7 +32,7 @@
       "date": "2026-04-08",
       "type": "info",
       "titre": "🔄 Données actualisées",
-      "message": "Le tableau de bord a été mis à jour le 08/04/2026 à 09:15.",
+      "message": "Le tableau de bord a été mis à jour le 08/04/2026 à 09:23.",
       "onglet": "conjoncture"
     }
   ],
@@ -204,7 +204,7 @@
     }
   ],
   "revue_presse": {
-    "derniere_maj": "08/04/2026 09:15",
+    "derniere_maj": "08/04/2026 09:24",
     "nb_sources": 7,
     "sources_noms": [
       "Le Monde Éco",
@@ -230,6 +230,54 @@
       }
     ],
     "tous": [
+      {
+        "source": "Le Figaro Éco",
+        "couleur": "#92400e",
+        "emoji": "📊",
+        "tag": "Presse économique",
+        "titre": "Pétrole, gaz, or, taux d’intérêt... Les marchés s’emballent après l’annonce d’un cessez-le-feu en Iran",
+        "resume": "Les prix du pétrole et du gaz se détendent, après que les États-Unis et l’Iran ont convenu d’un cessez-le-feu de deux semaines en échange d’une réouverture du détroit d’Ormuz.",
+        "lien": "https://www.lefigaro.fr/conjoncture/ultimatum-repousse-en-iran-le-petrole-plonge-sous-100-dollars-les-bourses-d-asie-s-envolent-20260408",
+        "date_iso": "2026-04-08T11:18:01+02:00",
+        "date_fr": "08/04/2026",
+        "pertinence": 0
+      },
+      {
+        "source": "Le Figaro Éco",
+        "couleur": "#92400e",
+        "emoji": "📊",
+        "tag": "Presse économique",
+        "titre": "Les Bourses européennes s’envolent après le cessez-le-feu en Iran, le CAC 40 bondit de 4%",
+        "resume": "Les marchés d’actions sont à la fête après que les États-Unis et l’Iran ont convenu d’une trêve de deux semaines.",
+        "lien": "https://www.lefigaro.fr/conjoncture/cessez-le-feu-en-iran-les-bourses-europeennes-s-envolent-le-cac-40-bondit-de-1-53-20260408",
+        "date_iso": "2026-04-08T11:17:57+02:00",
+        "date_fr": "08/04/2026",
+        "pertinence": 0
+      },
+      {
+        "source": "Le Monde Éco",
+        "couleur": "#374151",
+        "emoji": "🌐",
+        "tag": "Presse économique",
+        "titre": "Contrôles fiscaux : Bercy laisse échapper près de 6 milliards d’euros",
+        "resume": "Sur les 17,1 milliards d’euros réclamés par l’administration fiscale en 2025 aux contribuables particuliers et entreprises, seuls 11,4 milliards ont été réellement encaissés par l’Etat.",
+        "lien": "https://www.lemonde.fr/argent/article/2026/04/08/controles-fiscaux-bercy-laisse-echapper-pres-de-6-milliards-d-euros_6678229_1657007.html",
+        "date_iso": "2026-04-08T11:15:10+02:00",
+        "date_fr": "08/04/2026",
+        "pertinence": 1
+      },
+      {
+        "source": "Le Figaro Éco",
+        "couleur": "#92400e",
+        "emoji": "📊",
+        "tag": "Presse économique",
+        "titre": "Cessez-le-feu en Iran : les prix à la pompe «doivent baisser, le gouvernement y veillera», affirme Lecornu",
+        "resume": "«Un plan de contrôle» des prix en stations va être déclenché, a annoncé le premier ministre. «Personne en France ne doit profiter de cette crise, ni hier, ni demain», a-t-il estimé.",
+        "lien": "https://www.lefigaro.fr/conjoncture/cessez-le-feu-en-iran-les-prix-a-la-pompe-doivent-baisser-le-gouvernement-y-veillera-affirme-lecornu-20260408",
+        "date_iso": "2026-04-08T11:11:55+02:00",
+        "date_fr": "08/04/2026",
+        "pertinence": 0
+      },
       {
         "source": "Le Monde Éco",
         "couleur": "#374151",
@@ -259,46 +307,10 @@
         "couleur": "#92400e",
         "emoji": "📊",
         "tag": "Presse économique",
-        "titre": "Cessez-le-feu en Iran : les prix à la pompe «doivent baisser, le gouvernement y veillera», affirme Lecornu",
-        "resume": "«Un plan de contrôle» des prix en stations va être déclenché, a annoncé le premier ministre. «Personne en France ne doit profiter de cette crise, ni hier, ni demain», a-t-il estimé.",
-        "lien": "https://www.lefigaro.fr/conjoncture/cessez-le-feu-en-iran-les-prix-a-la-pompe-doivent-baisser-le-gouvernement-y-veillera-affirme-lecornu-20260408",
-        "date_iso": "2026-04-08T10:54:37+02:00",
-        "date_fr": "08/04/2026",
-        "pertinence": 0
-      },
-      {
-        "source": "Le Figaro Éco",
-        "couleur": "#92400e",
-        "emoji": "📊",
-        "tag": "Presse économique",
         "titre": "Cessez-le-feu en Iran : une baisse des prix des carburants de «5 à 10 centimes» pourrait intervenir «sous 48 heures»",
         "resume": "Selon l’Union française des industries pétrolières, les prix des carburants pourraient baisser de «5 à 10 centimes très rapidement». L’annonce de la trêve dans la guerre menée par les États-Unis contre l’Iran est un «soulagement» pour le PDG de Coopérative U Dominique Schelcher.",
         "lien": "https://www.lefigaro.fr/conso/cessez-le-feu-en-iran-la-baisse-des-prix-a-la-pompe-pourrait-intervenir-sous-48-heures-20260408",
         "date_iso": "2026-04-08T10:54:32+02:00",
-        "date_fr": "08/04/2026",
-        "pertinence": 0
-      },
-      {
-        "source": "Le Figaro Éco",
-        "couleur": "#92400e",
-        "emoji": "📊",
-        "tag": "Presse économique",
-        "titre": "Pétrole, gaz, or, taux d’intérêt... Les marchés s’emballent après l’annonce d’un cessez-le-feu en Iran",
-        "resume": "Les prix du pétrole et du gaz se détendent, après que les États-Unis et l’Iran ont convenu d’un cessez-le-feu de deux semaines en échange d’une réouverture du détroit d’Ormuz.",
-        "lien": "https://www.lefigaro.fr/conjoncture/ultimatum-repousse-en-iran-le-petrole-plonge-sous-100-dollars-les-bourses-d-asie-s-envolent-20260408",
-        "date_iso": "2026-04-08T10:47:37+02:00",
-        "date_fr": "08/04/2026",
-        "pertinence": 0
-      },
-      {
-        "source": "Le Figaro Éco",
-        "couleur": "#92400e",
-        "emoji": "📊",
-        "tag": "Presse économique",
-        "titre": "Les Bourses européennes s’envolent après le cessez-le-feu en Iran",
-        "resume": "Les marchés d’actions sont à la fête après que les États-Unis et l’Iran ont convenu d’une trêve de deux semaines. Le pétrole chute, les taux souverains reculent.",
-        "lien": "https://www.lefigaro.fr/conjoncture/cessez-le-feu-en-iran-les-bourses-europeennes-s-envolent-le-cac-40-bondit-de-1-53-20260408",
-        "date_iso": "2026-04-08T10:47:32+02:00",
         "date_fr": "08/04/2026",
         "pertinence": 0
       },
@@ -385,6 +397,30 @@
         "date_iso": "2026-04-08T09:50:48+02:00",
         "date_fr": "08/04/2026",
         "pertinence": 0
+      },
+      {
+        "source": "Euractiv FR",
+        "couleur": "#0369a1",
+        "emoji": "🇪🇺",
+        "tag": "Europe & politique",
+        "titre": "Les ménages confrontés à des factures d’énergie « dévastatrices » à cause de la guerre en Iran",
+        "resume": "La CES presse l’UE de prendre des mesures d’urgence pour préserver les moyens de subsistance et l’industrie The post Les ménages confrontés à des factures d’énergie « dévastatrices » à cause de la guerre en Iran appeared first on Euractiv FR .",
+        "lien": "https://euractiv.fr/news/les-menages-confrontes-a-des-factures-denergie-devastatrices-a-cause-de-la-guerre-en-iran/",
+        "date_iso": "2026-04-08T09:14:18+00:00",
+        "date_fr": "08/04/2026",
+        "pertinence": 0
+      },
+      {
+        "source": "Libération Éco",
+        "couleur": "#dc2626",
+        "emoji": "📰",
+        "tag": "Presse économique",
+        "titre": "Fin des auditions de la commission sur l’audiovisuel public ce mercredi, le rapport de Charles Alloncle attendu fin avril",
+        "resume": "Après quatre mois de débats sous haute tension, les 31 parlementaires qui siègent dans l’instance devront voter le 27 avril pour ou contre la publication du rapport. En cas de rejet - situation rare - les travaux ne seront pas rendus publics.",
+        "lien": "https://www.liberation.fr/economie/medias/fin-des-auditions-de-la-commission-sur-laudiovisuel-public-ce-mercredi-le-rapport-de-charles-alloncle-attendu-fin-avril-20260408_GGC5I6NSSJBXVOQPUNGFN3DSBA/",
+        "date_iso": "2026-04-08T09:13:10+00:00",
+        "date_fr": "08/04/2026",
+        "pertinence": 1
       },
       {
         "source": "Le Figaro Éco",
@@ -552,42 +588,6 @@
         "lien": "https://www.lemonde.fr/argent/article/2026/04/08/marche-du-timbre-une-paire-unique-du-3-centimes-gris-preoblitere-francais-de-1893-mise-a-prix-a-100-000-euros_6678190_1657007.html",
         "date_iso": "2026-04-08T06:00:08+02:00",
         "date_fr": "08/04/2026",
-        "pertinence": 0
-      },
-      {
-        "source": "Libération Éco",
-        "couleur": "#dc2626",
-        "emoji": "📰",
-        "tag": "Presse économique",
-        "titre": "Pour les 80 ans d’EDF, un «chantier du siècle» nucléaire en forme de cadeau d’anniversaire",
-        "resume": "L’électricien fête ce mercredi 8 avril sa création au lendemain de la Libération. Une histoire de service public dont l’entreprise renationalisée peut s’inspirer pour réussir le défi de la construction des nouveaux réacteurs.",
-        "lien": "https://www.liberation.fr/economie/pour-ses-80-ans-edf-face-a-lambitieuse-relance-du-nucleaire-francais-20260408_JJCJL43MGRDKNID3ST5TGB4C6U/",
-        "date_iso": "2026-04-08T06:00:00+00:00",
-        "date_fr": "08/04/2026",
-        "pertinence": 1
-      },
-      {
-        "source": "Le Figaro Éco",
-        "couleur": "#92400e",
-        "emoji": "📊",
-        "tag": "Presse économique",
-        "titre": "Anthropic reporte le lancement de Mythos, sa nouvelle IA, après la découverte de «milliers de failles»",
-        "resume": "Avant de mettre en ligne son modèle, la société créée par des anciens d’OpenAI a décidé de le partager avec les spécialistes de cybersécurité de plusieurs géants américains de la tech.",
-        "lien": "https://www.lefigaro.fr/societes/anthropic-identifie-des-milliers-de-failles-informatiques-dans-son-nouveau-modele-d-ia-et-promet-d-y-remedier-20260407",
-        "date_iso": "2026-04-07T23:50:49+02:00",
-        "date_fr": "07/04/2026",
-        "pertinence": 0
-      },
-      {
-        "source": "Le Monde Éco",
-        "couleur": "#374151",
-        "emoji": "🌐",
-        "tag": "Presse économique",
-        "titre": "VIDEO Accident entre un TGV et un poids lourd dans le Pas-de-Calais : les images et témoignages à Bully-les-Mines",
-        "resume": "L’accident entre le train et le poids lourd a eu lieu vers 7 heures à un passage à niveau de Mazingarbe, entre Béthune et Lens. Certains débris ont volé dans le jardin des habitants.",
-        "lien": "https://www.lemonde.fr/economie/video/2026/04/07/accident-entre-un-tgv-et-un-poids-lourd-dans-le-pas-de-calais-les-images-et-temoignages-a-bully-les-mines_6677937_3234.html",
-        "date_iso": "2026-04-07T21:36:03+02:00",
-        "date_fr": "07/04/2026",
         "pertinence": 0
       }
     ]
@@ -847,7 +847,7 @@
     "ecart_hf_eqtp": 25.8,
     "difficultes_recrutement": 61,
     "irl_glissement": 0.79,
-    "prix_gazole": 2.382,
+    "prix_gazole": 2.385,
     "taux_effort_locataires": 29.6,
     "croissance_pib": 0.7,
     "climat_affaires": 97,
@@ -855,429 +855,413 @@
   },
   "finances_publiques": {
     "annee_reference": "2024",
-    "dette_publique_pib": 0.2,
-    "deficit_public_pib": 16344.0,
-    "depenses_apu_pib": -0.21,
-    "recettes_apu_pib": 0.33,
-    "prelevements_obligatoires_pib": 0.02,
-    "charge_dette_pib": 20592.0,
-    "fbcf_apu_pib": 278589.0,
+    "dette_publique_pib": 112.9,
+    "deficit_public_pib": -5.5,
+    "depenses_apu_pib": 57.3,
+    "recettes_apu_pib": 51.8,
+    "prelevements_obligatoires_pib": 43.5,
+    "charge_dette_pib": 2.4,
+    "fbcf_apu_pib": 4.0,
     "evolution": {
       "dette": [
         {
           "annee": "2015",
-          "valeur": 0.2
+          "valeur": 95.6
         },
         {
           "annee": "2016",
-          "valeur": 0.6
+          "valeur": 98.0
         },
         {
           "annee": "2017",
-          "valeur": 0.6
+          "valeur": 98.3
         },
         {
           "annee": "2018",
-          "valeur": 0.5
+          "valeur": 98.1
         },
         {
           "annee": "2019",
-          "valeur": -0.4
+          "valeur": 97.4
         },
         {
           "annee": "2020",
-          "valeur": -0.6
+          "valeur": 114.6
         },
         {
           "annee": "2021",
-          "valeur": 0.6
+          "valeur": 112.9
         },
         {
           "annee": "2022",
-          "valeur": 0.0
+          "valeur": 111.8
         },
         {
           "annee": "2023",
-          "valeur": 0.1
+          "valeur": 110.6
         },
         {
           "annee": "2024",
-          "valeur": 0.2
+          "valeur": 112.9
         }
       ],
       "deficit": [
         {
           "annee": "2015",
-          "valeur": 14037.0
+          "valeur": -3.6
         },
         {
           "annee": "2016",
-          "valeur": 14151.0
+          "valeur": -3.6
         },
         {
           "annee": "2017",
-          "valeur": 14278.0
+          "valeur": -2.9
         },
         {
           "annee": "2018",
-          "valeur": 14524.0
+          "valeur": -2.3
         },
         {
           "annee": "2019",
-          "valeur": 14686.0
+          "valeur": -3.1
         },
         {
           "annee": "2020",
-          "valeur": 14726.0
+          "valeur": -9.0
         },
         {
           "annee": "2021",
-          "valeur": 15083.0
+          "valeur": -6.5
         },
         {
           "annee": "2022",
-          "valeur": 15922.0
+          "valeur": -4.8
         },
         {
           "annee": "2023",
-          "valeur": 16344.0
+          "valeur": -5.5
         }
       ],
       "depenses": [
         {
           "annee": "2015",
-          "valeur": 0.27
+          "valeur": 56.8
         },
         {
           "annee": "2016",
-          "valeur": -0.46
+          "valeur": 56.7
         },
         {
           "annee": "2017",
-          "valeur": -0.1
+          "valeur": 56.5
         },
         {
           "annee": "2018",
-          "valeur": -0.38
+          "valeur": 55.6
         },
         {
           "annee": "2019",
-          "valeur": -0.61
+          "valeur": 55.4
         },
         {
           "annee": "2020",
-          "valeur": 0.46
+          "valeur": 61.3
         },
         {
           "annee": "2021",
-          "valeur": 0.64
+          "valeur": 59.2
         },
         {
           "annee": "2022",
-          "valeur": -0.37
+          "valeur": 57.3
         },
         {
           "annee": "2023",
-          "valeur": -0.85
-        },
-        {
-          "annee": "2024",
-          "valeur": -0.21
+          "valeur": 57.3
         }
       ],
       "recettes": [
         {
           "annee": "2015",
-          "valeur": 0.03
+          "valeur": 53.2
         },
         {
           "annee": "2016",
-          "valeur": 0.5
+          "valeur": 53.1
         },
         {
           "annee": "2017",
-          "valeur": 0.03
+          "valeur": 53.6
         },
         {
           "annee": "2018",
-          "valeur": 0.19
+          "valeur": 53.3
         },
         {
           "annee": "2019",
-          "valeur": 0.03
+          "valeur": 52.3
         },
         {
           "annee": "2020",
-          "valeur": -2.99
+          "valeur": 52.3
         },
         {
           "annee": "2021",
-          "valeur": 0.35
+          "valeur": 52.7
         },
         {
           "annee": "2022",
-          "valeur": -0.02
+          "valeur": 52.5
         },
         {
           "annee": "2023",
-          "valeur": 0.2
-        },
-        {
-          "annee": "2024",
-          "valeur": 0.33
+          "valeur": 51.8
         }
       ],
       "prelevements_obligatoires": [
         {
           "annee": "2015",
-          "valeur": -0.36
+          "valeur": 44.5
         },
         {
           "annee": "2016",
-          "valeur": 0.35
+          "valeur": 44.4
         },
         {
           "annee": "2017",
-          "valeur": 0.42
+          "valeur": 44.7
         },
         {
           "annee": "2018",
-          "valeur": 0.48
+          "valeur": 44.4
         },
         {
           "annee": "2019",
-          "valeur": 0.1
+          "valeur": 43.5
         },
         {
           "annee": "2020",
-          "valeur": 0.99
+          "valeur": 43.3
         },
         {
           "annee": "2021",
-          "valeur": -0.41
+          "valeur": 44.0
         },
         {
           "annee": "2022",
-          "valeur": 0.28
+          "valeur": 44.3
         },
         {
           "annee": "2023",
-          "valeur": 1.0
-        },
-        {
-          "annee": "2024",
-          "valeur": 0.02
+          "valeur": 43.5
         }
       ],
       "depenses_protection_sociale": [
         {
           "annee": "2015",
-          "valeur": 670.0
+          "valeur": 23.8
         },
         {
           "annee": "2016",
-          "valeur": 644.0
+          "valeur": 23.9
         },
         {
           "annee": "2017",
-          "valeur": 687.0
+          "valeur": 23.6
         },
         {
           "annee": "2018",
-          "valeur": 710.0
+          "valeur": 23.3
         },
         {
           "annee": "2019",
-          "valeur": 742.0
+          "valeur": 23.2
         },
         {
           "annee": "2020",
-          "valeur": 753.0
+          "valeur": 26.4
         },
         {
           "annee": "2021",
-          "valeur": 848.0
+          "valeur": 25.2
         },
         {
           "annee": "2022",
-          "valeur": 1043.0
+          "valeur": 24.2
         },
         {
           "annee": "2023",
-          "valeur": 905.0
-        },
-        {
-          "annee": "2024",
-          "valeur": 905.0
+          "valeur": 24.5
         }
       ],
       "depenses_sante": [
         {
           "annee": "2015",
-          "valeur": 548987.0
+          "valeur": 8.5
         },
         {
           "annee": "2016",
-          "valeur": 562510.0
+          "valeur": 8.6
         },
         {
           "annee": "2017",
-          "valeur": 581817.0
+          "valeur": 8.6
         },
         {
           "annee": "2018",
-          "valeur": 597177.0
+          "valeur": 8.5
         },
         {
           "annee": "2019",
-          "valeur": 615739.0
+          "valeur": 8.7
         },
         {
           "annee": "2020",
-          "valeur": 607353.0
+          "valeur": 10.0
         },
         {
           "annee": "2021",
-          "valeur": 651959.0
+          "valeur": 9.7
         },
         {
           "annee": "2022",
-          "valeur": 694763.0
+          "valeur": 9.3
         },
         {
           "annee": "2023",
-          "valeur": 721933.0
-        },
-        {
-          "annee": "2024",
-          "valeur": 727326.0
+          "valeur": 9.5
         }
       ],
       "depenses_education": [
         {
           "annee": "2015",
-          "valeur": -11194.0
+          "valeur": 5.4
         },
         {
           "annee": "2016",
-          "valeur": -11210.0
+          "valeur": 5.4
         },
         {
           "annee": "2017",
-          "valeur": -11398.0
+          "valeur": 5.3
         },
         {
           "annee": "2018",
-          "valeur": -12273.0
+          "valeur": 5.2
         },
         {
           "annee": "2019",
-          "valeur": -13305.0
+          "valeur": 5.3
         },
         {
           "annee": "2020",
-          "valeur": -21401.0
+          "valeur": 5.9
         },
         {
           "annee": "2021",
-          "valeur": -10620.0
+          "valeur": 5.7
         },
         {
           "annee": "2022",
-          "valeur": -11152.0
+          "valeur": 5.4
         },
         {
           "annee": "2023",
-          "valeur": -10184.0
+          "valeur": 5.5
         }
       ],
       "charge_dette": [
         {
           "annee": "2015",
-          "valeur": 16692.0
+          "valeur": 1.8
         },
         {
           "annee": "2016",
-          "valeur": 17483.0
+          "valeur": 1.7
         },
         {
           "annee": "2017",
-          "valeur": 17652.0
+          "valeur": 1.7
         },
         {
           "annee": "2018",
-          "valeur": 18274.0
+          "valeur": 1.7
         },
         {
           "annee": "2019",
-          "valeur": 19369.0
+          "valeur": 1.5
         },
         {
           "annee": "2020",
-          "valeur": 19001.0
+          "valeur": 1.2
         },
         {
           "annee": "2021",
-          "valeur": 16094.0
+          "valeur": 1.1
         },
         {
           "annee": "2022",
-          "valeur": 19145.0
+          "valeur": 1.5
         },
         {
           "annee": "2023",
-          "valeur": 20592.0
+          "valeur": 2.0
+        },
+        {
+          "annee": "2024",
+          "valeur": 2.4
         }
       ],
       "investissement_public": [
         {
           "annee": "2015",
-          "valeur": 209754.0
+          "valeur": 3.4
         },
         {
           "annee": "2016",
-          "valeur": 214875.0
+          "valeur": 3.4
         },
         {
           "annee": "2017",
-          "valeur": 222261.0
+          "valeur": 3.5
         },
         {
           "annee": "2018",
-          "valeur": 228129.0
+          "valeur": 3.5
         },
         {
           "annee": "2019",
-          "valeur": 234721.0
+          "valeur": 3.7
         },
         {
           "annee": "2020",
-          "valeur": 230429.0
+          "valeur": 3.8
         },
         {
           "annee": "2021",
-          "valeur": 249732.0
+          "valeur": 3.9
         },
         {
           "annee": "2022",
-          "valeur": 267861.0
+          "valeur": 4.0
         },
         {
           "annee": "2023",
-          "valeur": 278589.0
+          "valeur": 4.0
         }
       ]
     },
     "notes_lecture": [
-      "🇫🇷 Dette publique : 0.2% du PIB",
-      "⚠️ Déficit public : 16344.0% du PIB",
-      "💸 Dépenses publiques : -0.21% du PIB",
-      "💰 Recettes publiques : 0.33% du PIB"
+      "🇫🇷 Dette publique : 112.9% du PIB (2024)",
+      "⚠️ Déficit public : -5.5% du PIB — règle UE : -3% max",
+      "💸 Dépenses publiques APU : 57.3% du PIB",
+      "💰 Recettes publiques APU : 51.8% du PIB"
     ],
-    "source": "INSEE API"
+    "source": "INSEE Comptes APU • PLF 2025 • Eurostat (données documentées)"
   },
-  "dette_publique_pib": 0.2,
-  "deficit_public_pib": 16344.0,
+  "dette_publique_pib": 112.9,
+  "deficit_public_pib": -5.5,
   "salaire_median": {
     "montant_2024": 2190,
     "evolution": [
@@ -2468,9 +2452,9 @@
   },
   "carburants": {
     "gazole": {
-      "prix": 2.382,
-      "variation_an": 28.8,
-      "variation_sem": 50.8
+      "prix": 2.385,
+      "variation_an": 28.9,
+      "variation_sem": 50.9
     },
     "sp95": {
       "prix": 2.072,
@@ -2478,14 +2462,14 @@
       "variation_sem": 20.5
     },
     "sp98": {
-      "prix": 2.128,
+      "prix": 2.129,
       "variation_an": 13.8,
       "variation_sem": 20.5
     },
     "e10": {
-      "prix": 2.013,
+      "prix": 2.014,
       "variation_an": 12.5,
-      "variation_sem": 19.8
+      "variation_sem": 19.9
     },
     "evolution": [
       {
@@ -2763,13 +2747,13 @@
       },
       {
         "date": "2026-04-08",
-        "gazole": 2.382,
+        "gazole": 2.385,
         "sp95": 2.072,
-        "sp98": 2.128,
-        "e10": 2.013
+        "sp98": 2.129,
+        "e10": 2.014
       }
     ],
-    "derniere_donnee": "2026-04-08 09:49",
+    "derniere_donnee": "2026-04-08 10:49",
     "source": "data.economie.gouv.fr (flux instantané)",
     "granularite": "quotidien"
   },
@@ -3346,7 +3330,7 @@
       "note_lecture": "Le TEC-10 mesure le rendement des emprunts d'Etat francais a 10 ans. Un taux eleve rencherit le cout de la dette publique et impacte les taux de credit immobilier."
     },
     "petrole_brent": {
-      "valeur": 94.64,
+      "valeur": 94.3,
       "date": "2026-04-08",
       "unite": "USD/baril",
       "source": "Yahoo Finance",
@@ -4860,16 +4844,16 @@
         },
         {
           "date": "2026-04-08",
-          "valeur": 94.64,
+          "valeur": 94.3,
           "ma50": 86.22,
           "ma200": 70.67
         }
       ],
       "variations": {
-        "jour": -13.39,
-        "semaine": -20.03,
-        "mois": 2.1,
-        "ytd": 55.79
+        "jour": -13.7,
+        "semaine": -20.32,
+        "mois": 1.74,
+        "ytd": 55.23
       },
       "min_max": {
         "min": 58.92,
@@ -4880,9 +4864,9 @@
       "note_lecture": "Le prix du Brent influence directement les couts de transport et d'energie, donc l'inflation et le pouvoir d'achat des salaries."
     },
     "cac40": {
-      "valeur": 8220.5,
+      "valeur": 8222.66,
       "date": "2026-04-08",
-      "variation_jour_pct": 3.94,
+      "variation_jour_pct": 3.97,
       "unite": "points",
       "source": "Yahoo Finance",
       "nb_points": 254,
@@ -6407,16 +6391,16 @@
         },
         {
           "date": "2026-04-08",
-          "valeur": 8220.5,
-          "ma50": 8127.74,
-          "ma200": 8006.17
+          "valeur": 8222.66,
+          "ma50": 8127.78,
+          "ma200": 8006.18
         }
       ],
       "variations": {
-        "jour": 3.94,
-        "semaine": 5.76,
-        "mois": 2.17,
-        "ytd": 0.31
+        "jour": 3.97,
+        "semaine": 5.79,
+        "mois": 2.2,
+        "ytd": 0.33
       },
       "min_max": {
         "min": 6863.02,
@@ -7997,7 +7981,7 @@
       "note_lecture": "Le taux de change euro-dollar determine le prix de tout ce qui est importe en dollars : petrole, matieres premieres, electronique. Un euro faible rencherit les importations et alimente l'inflation."
     },
     "or": {
-      "valeur": 4823.9,
+      "valeur": 4826.1,
       "date": "2026-04-08",
       "unite": "USD/oz",
       "source": "Yahoo Finance",
@@ -9511,16 +9495,16 @@
         },
         {
           "date": "2026-04-08",
-          "valeur": 4823.9,
-          "ma50": 4920.73,
-          "ma200": 4136.14
+          "valeur": 4826.1,
+          "ma50": 4920.78,
+          "ma200": 4136.15
         }
       ],
       "variations": {
-        "jour": 3.58,
-        "semaine": 3.79,
-        "mois": -6.26,
-        "ytd": 11.81
+        "jour": 3.63,
+        "semaine": 3.84,
+        "mois": -6.22,
+        "ytd": 11.86
       },
       "min_max": {
         "min": 2968.4,
@@ -11059,7 +11043,7 @@
       "note_lecture": "Le prix du gaz naturel (TTF europeen) impacte directement les factures de chauffage et d'electricite des menages, ainsi que les couts de production industrielle."
     },
     "ble": {
-      "valeur": 580.75,
+      "valeur": 579.0,
       "date": "2026-04-08",
       "unite": "cents/boisseau",
       "source": "Yahoo Finance",
@@ -12567,16 +12551,16 @@
         },
         {
           "date": "2026-04-08",
-          "valeur": 580.75,
-          "ma50": 572.57,
-          "ma200": 534.21
+          "valeur": 579.0,
+          "ma50": 572.53,
+          "ma200": 534.2
         }
       ],
       "variations": {
-        "jour": -2.88,
-        "semaine": -5.76,
-        "mois": -4.99,
-        "ytd": 14.66
+        "jour": -3.18,
+        "semaine": -6.04,
+        "mois": -5.28,
+        "ytd": 14.31
       },
       "min_max": {
         "min": 495.0,
@@ -19444,7 +19428,7 @@
     "meta": {
       "source_effectifs": "DSN via kali-data",
       "source_grilles": "SocialGouv kali-data (extraction automatique)",
-      "date_generation": "2026-04-08T09:16:18.848357",
+      "date_generation": "2026-04-08T09:24:32.436375",
       "mode": "100pct_automatique",
       "note": "Extraction heuristique depuis textes juridiques KALI. Statut a_verifier si grille non extraite ou confidence < 55%."
     },
@@ -21500,7 +21484,7 @@
     "sources": "INSEE - Enquête Emploi, DARES"
   },
   "previsions_cftc": {
-    "generated_at": "2026-04-08T09:16:18.968167",
+    "generated_at": "2026-04-08T09:24:32.554630",
     "model_version": "CFTC v7.0 (bivarié Phillips + log-normale + pondération temporelle)",
     "n_simulations": 1000,
     "horizon": "12 mois",
@@ -21509,7 +21493,7 @@
       "niveau": "excellent",
       "issues": [],
       "warnings": [],
-      "timestamp": "2026-04-08T09:16:18.968181"
+      "timestamp": "2026-04-08T09:24:32.554646"
     },
     "calibrage": {
       "volatilites": {
@@ -21537,7 +21521,7 @@
       "lognormal_offset": 3.0
     },
     "market_signals": {
-      "inflation_adjustment": 0.095,
+      "inflation_adjustment": 0.092,
       "chomage_adjustment": 0.175,
       "energie_outlook": "hausse",
       "ponderation_temporelle": {
@@ -21549,10 +21533,10 @@
     },
     "market_signals_details": {
       "brent": {
-        "valeur": 94.64,
+        "valeur": 94.3,
         "ref": 75.0,
-        "variation_ytd_pct": 55.79,
-        "impact_inflation_pt": 0.196,
+        "variation_ytd_pct": 55.23,
+        "impact_inflation_pt": 0.193,
         "poids_temporel": 1.0
       },
       "gaz_ttf": {
@@ -21579,7 +21563,7 @@
         "signal": "baissier"
       },
       "cac40_ytd": {
-        "variation_ytd_pct": 0.31,
+        "variation_ytd_pct": 0.33,
         "signal_chomage": "neutre"
       },
       "carburants_sp95": {
@@ -21709,9 +21693,9 @@
       "facteurs": {
         "cible_bdf": 1.4,
         "ajustement_climat": -0.03,
-        "ajustement_marches": 0.095,
+        "ajustement_marches": 0.092,
         "energie_outlook": "hausse",
-        "cible_ajustee": 1.465,
+        "cible_ajustee": 1.462,
         "volatilite_utilisee": 0.5
       },
       "asymetrie_ic": {
@@ -21929,7 +21913,7 @@
       "📈 Inflation médiane à 12 mois : 1.5% [1.1% - 2.0%] — 89.9% de chances de rester sous 2% (asymétrie : +0.5pt / -0.4pt)",
       "💰 SMIC janvier 2027 : 1858€ brut (+1.9%, fourchette 1.5-2.4%) — Pouvoir d'achat réel : +0.4% (+7€/mois)",
       "👥 Chômage Q4 : 7.8% [7.6% - 7.9%] — Tendance stable (corrélé Phillips ρ=-0.35)",
-      "📊 Signaux marchés : ↑ inflation 0.10pt, ↑ chômage 0.17pt, (poids temporel min : 0.95)",
+      "📊 Signaux marchés : ↑ inflation 0.09pt, ↑ chômage 0.17pt, (poids temporel min : 0.95)",
       "🎲 Scénario à surveiller : 🚀 Reprise économique forte (25%)",
       "💡 Recommandation NAO : demander au minimum +2.0% pour préserver le pouvoir d'achat"
     ],
@@ -21954,7 +21938,7 @@
           }
         },
         "contribution_mediane": {
-          "signaux_marches_pt": 0.095,
+          "signaux_marches_pt": 0.092,
           "incertitude_bdf_sigma": 0.15,
           "label": "Déplacement de la prévision centrale"
         }
