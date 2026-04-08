@@ -35,6 +35,7 @@ import HeatmapRegionSecteur from './components/HeatmapRegionSecteur';
 import SearchBar from './components/SearchBar';
 import PanneauPresseContenu from './components/PanneauPresseContenu';
 import AideTab from './tabs/AideTab';
+import FinancesPubliquesTab from './tabs/FinancesPubliquesTab';
 
 // ============================================================================
 // TABLEAU DE BORD ÉCONOMIQUE CFTC - STYLE "BULLE" MODERNISÉ
@@ -166,6 +167,7 @@ export default function App() {
     ['favoris','⭐ Mon tableau de bord'],
     ['conjoncture','📈 Conjoncture'],
     ['previsions','🔮 Prévisions'],
+    ['finances_publiques','🏛️ Finances pub.'],
     ['evolutions','📉 Évolutions'],
     ['pouvoir_achat','💰 Pouvoir d\'achat'],
     ['salaires','💵 Salaires'],
@@ -576,6 +578,7 @@ export default function App() {
               {tab === 'favoris' && <FavorisTab d={d} darkMode={darkMode} favoris={favoris} toggleFavori={toggleFavori} isFavori={isFavori} setSeuil={setSeuil} getSeuil={getSeuil} setNote={setNote} getNote={getNote} isEnAlerte={isEnAlerte} />}
               {tab === 'conjoncture' && <ConjonctureTab d={d} subTab={subTabConj} setSubTab={setSubTabConj} darkMode={darkMode} fp={fp} />}
               {tab === 'previsions' && <PrevisionsTab d={d} darkMode={darkMode} fp={fp} />}
+              {tab === 'finances_publiques' && <FinancesPubliquesTab d={d} darkMode={darkMode} fp={fp} />}
               {tab === 'evolutions' && <EvolutionsTab d={d} darkMode={darkMode} fp={fp} />}
               {tab === 'comparaison_ue' && <ComparaisonUETab d={d} darkMode={darkMode} fp={fp} />}
               {tab === 'simulateur' && <SimulateurNAOTab d={d} darkMode={darkMode} fp={fp} />}
