@@ -532,60 +532,123 @@ export default function FinancesPubliquesTab({ d, darkMode, fp: favoriProps = {}
 
       {/* ── COTISATIONS ─────────────────────────────────────────────────────── */}
       {activeTab === 'cotisations' && (() => {
-        const cotEmp = [
-          { name: 'Maladie-maternité',         taux: 13.00 },
-          { name: 'Retraite complémentaire T2', taux: 12.95 },
-          { name: 'Vieillesse plafonnée',       taux:  8.55 },
-          { name: 'Allocations familiales',     taux:  5.25 },
-          { name: 'Chômage (patron.)',          taux:  4.05 },
-          { name: 'Retraite complémentaire T1', taux:  4.72 },
-          { name: 'AT-MP (moyenne)',            taux:  2.22 },
-          { name: 'Vieillesse déplafonnée',     taux:  1.90 },
-        ].sort((a, b) => b.taux - a.taux);
-        const cotSal = [
-          { name: 'Retraite complémentaire T2', taux:  8.64 },
-          { name: 'CSG déductible',             taux:  6.80 },
-          { name: 'Vieillesse plafonnée',       taux:  6.90 },
-          { name: 'Retraite complémentaire T1', taux:  3.15 },
-          { name: 'CSG non déductible',         taux:  2.40 },
-          { name: 'CEG (AGIRC-ARRCO)',          taux:  0.86 },
-          { name: 'CRDS',                       taux:  0.50 },
-          { name: 'Vieillesse déplafonnée',     taux:  0.40 },
-        ].sort((a, b) => b.taux - a.taux);
-        const totalEmp = cotEmp.reduce((s, c) => s + c.taux, 0).toFixed(2);
-        const totalSal = cotSal.reduce((s, c) => s + c.taux, 0).toFixed(2);
-        return (
-          <div className="space-y-4">
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-              {[{ data: cotEmp, title: 'Cotisations employeur', total: totalEmp, color: C.secondary },
-                { data: cotSal, title: 'Cotisations salariales', total: totalSal, color: C.primary }].map(({ data, title, total, color }, ci) => (
-                <Card key={ci} title={`${title} — ≈ ${total}%`} darkMode={dm}>
-                  <ResponsiveContainer width="100%" height={220}>
-                    <BarChart layout="vertical" data={data} margin={{ top: 0, right: 50, left: 165, bottom: 0 }}>
-                      <CartesianGrid {...chartProps.cartesianGrid} />
-                      <XAxis type="number" unit="%" {...chartProps.xAxis} />
-                      <YAxis type="category" dataKey="name" {...chartProps.yAxis} width={163} />
-                      <Tooltip {...chartProps.tooltip} formatter={v => `${v}%`} />
-                      <Bar dataKey="taux" name="Taux" fill={color} radius={[0, 4, 4, 0]} fillOpacity={0.8} />
-                    </BarChart>
-                  </ResponsiveContainer>
-                </Card>
+        // ⚠️ Les cotisations retraite complémentaire (T1/T2) s'appliquent sur des
+        // tranches de salaire DIFFÉRENTES — elles ne s'additionnent PAS.
+        // T1 = tranche ≤ 1 PMSS (3 925€/mois), T2 = tranche 1 à 8 PMSS
+        // On présente les taux par tranche, pas un "total" trompeur.
+        // Source : URSSAF, AGIRC-ARRCO, taux 2025
+
+        // Cotisations s'appliquant sur la TOTALITÉ du salaire (ou sur tranche indiquée)
+        const cotEmpBase = [
+          { name: 'Maladie-maternité',     taux: 13.00, assiette: 'Totalité' },
+          { name: 'Vieillesse plafonnée',  taux:  8.55, assiette: '≤ 1 PMSS (3 925€)' },
+          { name: 'Vieillesse déplafonnée',taux:  1.90, assiette: 'Totalité' },
+          { name: 'Alloc. familiales',     taux:  5.25, assiette: 'Totalité (3,45% si ≤ 3,5 SMIC)' },
+          { name: 'AT-MP (moy. secteur)',  taux:  2.22, assiette: 'Totalité — variable' },
+          { name: 'Chômage',               taux:  4.05, assiette: '≤ 4 PMSS' },
+        ];
+        // Retraite complémentaire AGIRC-ARRCO — taux PAR TRANCHE (non cumulables)
+        const cotEmpRC = [
+          { name: 'Retraite compl. T1 (patronal)', taux: 4.72, assiette: 'Tr. A ≤ 1 PMSS' },
+          { name: 'Retraite compl. T2 (patronal)', taux: 12.95, assiette: 'Tr. B = 1 à 8 PMSS' },
+          { name: 'CEG T1 (patronal)',             taux: 1.29, assiette: 'Tr. A ≤ 1 PMSS' },
+          { name: 'CEG T2 (patronal)',             taux: 1.62, assiette: 'Tr. B = 1 à 8 PMSS' },
+        ];
+
+        const cotSalBase = [
+          { name: 'Vieillesse plafonnée',  taux: 6.90, assiette: '≤ 1 PMSS' },
+          { name: 'Vieillesse déplafonnée',taux: 0.40, assiette: 'Totalité' },
+          { name: 'CSG déductible',        taux: 6.80, assiette: '98,25% salaire brut' },
+          { name: 'CSG non déductible',    taux: 2.40, assiette: '98,25% salaire brut' },
+          { name: 'CRDS',                  taux: 0.50, assiette: '98,25% salaire brut' },
+        ];
+        const cotSalRC = [
+          { name: 'Retraite compl. T1 (salarial)', taux: 3.15, assiette: 'Tr. A ≤ 1 PMSS' },
+          { name: 'Retraite compl. T2 (salarial)', taux: 8.64, assiette: 'Tr. B = 1 à 8 PMSS' },
+          { name: 'CEG T1 (salarial)',             taux: 0.86, assiette: 'Tr. A ≤ 1 PMSS' },
+          { name: 'CEG T2 (salarial)',             taux: 1.08, assiette: 'Tr. B = 1 à 8 PMSS' },
+        ];
+
+        // Exemples de charge réelle par niveau de salaire
+        const exemples = [
+          { profil: 'SMIC (≤ 1 PMSS)',  brut: 1 802, emp: 39.5, sal: 22.4, net_ratio: 77.6 },
+          { profil: '2× PMSS',          brut: 7 850, emp: 43.2, sal: 24.8, net_ratio: 75.2 },
+          { profil: 'Cadre 5× PMSS',    brut: 19 625, emp: 44.1, sal: 25.5, net_ratio: 74.5 },
+        ];
+
+        const CotTable = ({ data, title, color }) => (
+          <Card title={title} darkMode={dm}>
+            <div className="space-y-1 mt-1">
+              {data.map((c, i) => (
+                <div key={i} className={`flex items-center justify-between py-1.5 border-b ${dm ? 'border-gray-700/50' : 'border-gray-100'}`}>
+                  <div className="flex-1 min-w-0 pr-2">
+                    <span className={`text-xs ${tx}`}>{c.name}</span>
+                    <span className={`block text-[10px] ${ts}`}>{c.assiette}</span>
+                  </div>
+                  <div className="flex items-center gap-2 flex-shrink-0">
+                    <div className={`w-20 h-1.5 rounded-full ${dm ? 'bg-gray-700' : 'bg-gray-200'}`}>
+                      <div className="h-1.5 rounded-full" style={{ width: `${Math.min(c.taux / 15 * 100, 100)}%`, backgroundColor: color }} />
+                    </div>
+                    <span className="text-xs font-bold w-10 text-right" style={{ color }}>{c.taux}%</span>
+                  </div>
+                </div>
               ))}
             </div>
-            <div className={`${dm ? 'bg-gray-800' : 'bg-gray-50'} rounded-xl p-4`}>
-              <p className={`text-sm font-semibold mb-3 ${tx}`}>💡 Coût total du travail</p>
-              <div className="grid grid-cols-3 gap-3">
-                {[['Cotis. employeur', `≈ ${totalEmp}%`, C.secondary],
-                  ['Cotis. salariales', `≈ ${totalSal}%`, C.primary],
-                  ['Charge totale', `≈ ${(+totalEmp + +totalSal).toFixed(1)}%`, C.purple]].map(([label, val, color], i) => (
-                  <div key={i} className={`text-center p-3 rounded-xl border ${dm ? 'border-gray-700' : 'border-gray-200'}`}>
-                    <p className={`text-[10px] ${ts}`}>{label}</p>
-                    <p className="text-lg font-bold" style={{ color }}>{val}</p>
-                  </div>
-                ))}
-              </div>
-              <p className={`text-[10px] mt-3 ${ts}`}>Source : URSSAF 2025 — Taux régime général</p>
+          </Card>
+        );
+
+        return (
+          <div className="space-y-4">
+            {/* Avertissement pédagogique */}
+            <div className={`${dm ? 'bg-amber-900/20 border-amber-700' : 'bg-amber-50 border-amber-300'} border rounded-xl p-3`}>
+              <p className={`text-xs font-semibold ${dm ? 'text-amber-300' : 'text-amber-800'}`}>⚠️ Comment lire ces taux</p>
+              <p className={`text-xs mt-1 ${dm ? 'text-amber-200' : 'text-amber-700'}`}>
+                Les cotisations retraite complémentaire (T1/T2) s'appliquent sur des <strong>tranches de salaire différentes</strong> — elles ne s'additionnent pas. T1 s'applique sur la partie ≤ 1 PMSS (3 925€/mois), T2 sur la partie entre 1 et 8 PMSS. Un salarié au SMIC ne paie que T1.
+              </p>
             </div>
+
+            {/* Cotisations sur assiette générale */}
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+              <CotTable data={cotEmpBase.sort((a,b) => b.taux - a.taux)} title="Cotisations employeur — base (totalité du salaire)" color={C.secondary} />
+              <CotTable data={cotSalBase.sort((a,b) => b.taux - a.taux)} title="Cotisations salariales — base" color={C.primary} />
+            </div>
+
+            {/* Retraite complémentaire par tranche */}
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+              <CotTable data={cotEmpRC} title="Retraite complémentaire AGIRC-ARRCO — part patronale (par tranche)" color={C.purple} />
+              <CotTable data={cotSalRC} title="Retraite complémentaire AGIRC-ARRCO — part salariale (par tranche)" color={C.cyan} />
+            </div>
+
+            {/* Exemples de charge réelle */}
+            <Card title="💡 Charge réelle selon le niveau de salaire (régime général 2025)" darkMode={dm}>
+              <div className="overflow-x-auto">
+                <table className="w-full text-xs mt-2">
+                  <thead>
+                    <tr className={`${dm ? 'text-gray-400' : 'text-gray-500'}`}>
+                      <th className="text-left pb-2 font-medium">Profil</th>
+                      <th className="text-right pb-2 font-medium">Salaire brut</th>
+                      <th className="text-right pb-2 font-medium">Charges pat.</th>
+                      <th className="text-right pb-2 font-medium">Charges sal.</th>
+                      <th className="text-right pb-2 font-medium">Net / brut</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    {exemples.map((e, i) => (
+                      <tr key={i} className={`border-t ${dm ? 'border-gray-700' : 'border-gray-100'}`}>
+                        <td className={`py-2 font-medium ${tx}`}>{e.profil}</td>
+                        <td className={`py-2 text-right ${ts}`}>{e.brut.toLocaleString('fr-FR')} €</td>
+                        <td className="py-2 text-right font-semibold text-red-500">≈ {e.emp}%</td>
+                        <td className="py-2 text-right font-semibold text-blue-500">≈ {e.sal}%</td>
+                        <td className="py-2 text-right font-semibold text-green-500">≈ {e.net_ratio}%</td>
+                      </tr>
+                    ))}
+                  </tbody>
+                </table>
+              </div>
+              <p className={`text-[10px] mt-3 ${ts}`}>
+                Source : URSSAF 2025, AGIRC-ARRCO 2025 — Régime général, non-cadre. AT-MP taux moyen secteur. Alloc. familiales taux plein.
+              </p>
+            </Card>
           </div>
         );
       })()}
