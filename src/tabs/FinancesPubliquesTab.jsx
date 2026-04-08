@@ -171,7 +171,7 @@ function VueEnsemble({ fp, darkMode }) {
               </defs>
               <CartesianGrid strokeDasharray="3 3" stroke={darkMode ? '#374151' : '#f0f0f0'} />
               <XAxis dataKey="annee" tick={{ fontSize: 10, fill: darkMode ? '#9ca3af' : '#6b7280' }} />
-              <YAxis domain={[80, 130]} tick={{ fontSize: 10, fill: darkMode ? '#9ca3af' : '#6b7280' }} unit="%" />
+              <YAxis domain={['auto', 'auto']} tick={{ fontSize: 10, fill: darkMode ? '#9ca3af' : '#6b7280' }} unit="%" />
               <Tooltip content={<TooltipBulle suffix="%" darkMode={darkMode} />} />
               <ReferenceLine y={60}  stroke="#ef4444" strokeDasharray="4 2" label={{ value: "60% Maastricht", fontSize: 9, fill: '#ef4444' }} />
               <ReferenceLine y={100} stroke="#f59e0b" strokeDasharray="4 2" label={{ value: "100%", fontSize: 9, fill: '#f59e0b' }} />
@@ -192,7 +192,8 @@ function VueEnsemble({ fp, darkMode }) {
             <BarChart data={consolidee.slice(-8)} margin={{ top: 5, right: 10, left: -10, bottom: 0 }}>
               <CartesianGrid strokeDasharray="3 3" stroke={darkMode ? '#374151' : '#f0f0f0'} />
               <XAxis dataKey="annee" tick={{ fontSize: 10, fill: darkMode ? '#9ca3af' : '#6b7280' }} />
-              <YAxis domain={['auto', 'auto']} tick={{ fontSize: 10, fill: darkMode ? '#9ca3af' : '#6b7280' }} unit="%" /> stroke="#ef4444" strokeDasharray="4 2" label={{ value: "-3% règle UE", fontSize: 9, fill: '#ef4444' }} />
+              <YAxis domain={['auto', 'auto']} tick={{ fontSize: 10, fill: darkMode ? '#9ca3af' : '#6b7280' }} unit="%" />
+              <ReferenceLine y={-3} stroke="#ef4444" strokeDasharray="4 2" label={{ value: "-3% règle UE", fontSize: 9, fill: '#ef4444' }} />
               <ReferenceLine y={0} stroke={darkMode ? '#4b5563' : '#d1d5db'} />
               <Bar dataKey="deficit" name="Déficit" radius={[4, 4, 0, 0]}>
                 {consolidee.slice(-8).map((e, i) => (
@@ -217,7 +218,7 @@ function VueEnsemble({ fp, darkMode }) {
           <LineChart data={consolidee} margin={{ top: 5, right: 10, left: -10, bottom: 0 }}>
             <CartesianGrid strokeDasharray="3 3" stroke={darkMode ? '#374151' : '#f0f0f0'} />
             <XAxis dataKey="annee" tick={{ fontSize: 10, fill: darkMode ? '#9ca3af' : '#6b7280' }} />
-            <YAxis domain={[48, 66]} tick={{ fontSize: 10, fill: darkMode ? '#9ca3af' : '#6b7280' }} unit="%" />
+            <YAxis domain={['auto', 'auto']} tick={{ fontSize: 10, fill: darkMode ? '#9ca3af' : '#6b7280' }} unit="%" />
             <Tooltip content={<TooltipBulle suffix="%" darkMode={darkMode} />} />
             <Legend wrapperStyle={{ fontSize: 11 }} />
             <Line type="monotone" dataKey="depenses" name="Dépenses APU" stroke={C.secondary} strokeWidth={2} dot={false} connectNulls />
@@ -281,7 +282,7 @@ function DetteCharge({ fp, darkMode }) {
               </defs>
               <CartesianGrid strokeDasharray="3 3" stroke={darkMode ? '#374151' : '#f0f0f0'} />
               <XAxis dataKey="annee" tick={{ fontSize: 10, fill: darkMode ? '#9ca3af' : '#6b7280' }} />
-              <YAxis domain={[90, 125]} unit="%" tick={{ fontSize: 10, fill: darkMode ? '#9ca3af' : '#6b7280' }} />
+              <YAxis domain={['auto', 'auto']} unit="%" tick={{ fontSize: 10, fill: darkMode ? '#9ca3af' : '#6b7280' }} />
               <Tooltip content={<TooltipBulle suffix="%" darkMode={darkMode} />} />
               <ReferenceLine y={60} stroke="#ef4444" strokeDasharray="4 2"
                 label={{ value: "60% Maastricht", position: 'right', fontSize: 9, fill: '#ef4444' }} />
@@ -587,7 +588,7 @@ function RecettesPrelevements({ fp, darkMode }) {
               </defs>
               <CartesianGrid strokeDasharray="3 3" stroke={darkMode ? '#374151' : '#f0f0f0'} />
               <XAxis dataKey="annee" tick={{ fontSize: 10, fill: darkMode ? '#9ca3af' : '#6b7280' }} />
-              <YAxis domain={[40, 48]} unit="%" tick={{ fontSize: 10, fill: darkMode ? '#9ca3af' : '#6b7280' }} />
+              <YAxis domain={['auto', 'auto']} unit="%" tick={{ fontSize: 10, fill: darkMode ? '#9ca3af' : '#6b7280' }} />
               <Tooltip content={<TooltipBulle suffix="%" darkMode={darkMode} />} />
               <Area type="monotone" dataKey="valeur" name="PO % PIB" stroke={C.primary} fill="url(#gradPO)" strokeWidth={2} dot={false} connectNulls />
             </AreaChart>
