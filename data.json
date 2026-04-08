@@ -1,6 +1,6 @@
 {
-  "last_updated": "08/04/2026 08:03",
-  "last_updated_iso": "2026-04-08T08:03:29.544868",
+  "last_updated": "08/04/2026 08:05",
+  "last_updated_iso": "2026-04-08T08:05:03.841105",
   "contact": "hspringragain@cftc.fr",
   "alertes": [
     {
@@ -32,7 +32,7 @@
       "date": "2026-04-08",
       "type": "info",
       "titre": "🔄 Données actualisées",
-      "message": "Le tableau de bord a été mis à jour le 08/04/2026 à 08:03.",
+      "message": "Le tableau de bord a été mis à jour le 08/04/2026 à 08:04.",
       "onglet": "conjoncture"
     }
   ],
@@ -204,7 +204,7 @@
     }
   ],
   "revue_presse": {
-    "derniere_maj": "08/04/2026 08:03",
+    "derniere_maj": "08/04/2026 08:05",
     "nb_sources": 7,
     "sources_noms": [
       "Le Monde Éco",
@@ -222,10 +222,10 @@
         "couleur": "#92400e",
         "emoji": "📊",
         "tag": "Presse économique",
-        "titre": "Cessez-le-feu en Iran : pourquoi les prix des carburants vont mettre plus de temps à baisser qu’à monter",
-        "resume": "DÉCRYPTAGE - L’annonce par Donald Trump d’une trêve dans le conflit iranien, en vue de pourparlers pour mettre fin à la guerre, a rapidement détendu les cours mondiaux du pétrole et du gaz. Pourtant, les prix ne vont pas baisser immédiatement pour les consommateurs.",
-        "lien": "https://www.lefigaro.fr/conjoncture/pourquoi-les-prix-des-carburants-vont-ils-mettre-plus-de-temps-a-baisser-qu-a-monter-20260408",
-        "date_iso": "2026-04-08T09:58:50+02:00",
+        "titre": "Pétrole, gaz, or, taux d’intérêt... Les marchés s’emballent après l’annonce d’un cessez-le-feu en Iran",
+        "resume": "Les prix du pétrole et du gaz se détendent, après que les États-Unis et l’Iran ont convenu d’un cessez-le-feu de deux semaines en échange d’une réouverture du détroit d’Ormuz.",
+        "lien": "https://www.lefigaro.fr/conjoncture/ultimatum-repousse-en-iran-le-petrole-plonge-sous-100-dollars-les-bourses-d-asie-s-envolent-20260408",
+        "date_iso": "2026-04-08T10:02:33+02:00",
         "date_fr": "08/04/2026",
         "pertinence": 0
       },
@@ -234,10 +234,10 @@
         "couleur": "#92400e",
         "emoji": "📊",
         "tag": "Presse économique",
-        "titre": "Pétrole, gaz, or... Les marchés s’emballent après l’annonce d’un cessez-le-feu en Iran",
-        "resume": "Les prix du pétrole et du gaz se détendent, après que les États-Unis et l’Iran ont convenu d’un cessez-le-feu de deux semaines en échange d’une réouverture du détroit d’Ormuz.",
-        "lien": "https://www.lefigaro.fr/conjoncture/ultimatum-repousse-en-iran-le-petrole-plonge-sous-100-dollars-les-bourses-d-asie-s-envolent-20260408",
-        "date_iso": "2026-04-08T09:53:05+02:00",
+        "titre": "Cessez-le-feu en Iran : pourquoi les prix des carburants vont mettre plus de temps à baisser qu’à monter",
+        "resume": "DÉCRYPTAGE - L’annonce par Donald Trump d’une trêve dans le conflit iranien, en vue de pourparlers pour mettre fin à la guerre, a rapidement détendu les cours mondiaux du pétrole et du gaz. Pourtant, les prix ne vont pas baisser immédiatement pour les consommateurs.",
+        "lien": "https://www.lefigaro.fr/conjoncture/pourquoi-les-prix-des-carburants-vont-ils-mettre-plus-de-temps-a-baisser-qu-a-monter-20260408",
+        "date_iso": "2026-04-08T09:58:50+02:00",
         "date_fr": "08/04/2026",
         "pertinence": 0
       },
@@ -3333,7 +3333,7 @@
       "note_lecture": "Le TEC-10 mesure le rendement des emprunts d'Etat francais a 10 ans. Un taux eleve rencherit le cout de la dette publique et impacte les taux de credit immobilier."
     },
     "petrole_brent": {
-      "valeur": 94.35,
+      "valeur": 94.55,
       "date": "2026-04-08",
       "unite": "USD/baril",
       "source": "Yahoo Finance",
@@ -4847,16 +4847,16 @@
         },
         {
           "date": "2026-04-08",
-          "valeur": 94.35,
+          "valeur": 94.55,
           "ma50": 86.22,
           "ma200": 70.67
         }
       ],
       "variations": {
-        "jour": -13.65,
-        "semaine": -20.28,
-        "mois": 1.79,
-        "ytd": 55.31
+        "jour": -13.47,
+        "semaine": -20.11,
+        "mois": 2.01,
+        "ytd": 55.64
       },
       "min_max": {
         "min": 58.92,
@@ -4867,9 +4867,9 @@
       "note_lecture": "Le prix du Brent influence directement les couts de transport et d'energie, donc l'inflation et le pouvoir d'achat des salaries."
     },
     "cac40": {
-      "valeur": 8227.09,
+      "valeur": 8218.37,
       "date": "2026-04-08",
-      "variation_jour_pct": 4.03,
+      "variation_jour_pct": 3.92,
       "unite": "points",
       "source": "Yahoo Finance",
       "nb_points": 254,
@@ -6394,16 +6394,16 @@
         },
         {
           "date": "2026-04-08",
-          "valeur": 8227.09,
-          "ma50": 8127.87,
-          "ma200": 8006.21
+          "valeur": 8218.37,
+          "ma50": 8127.7,
+          "ma200": 8006.16
         }
       ],
       "variations": {
-        "jour": 4.03,
-        "semaine": 5.85,
-        "mois": 2.25,
-        "ytd": 0.39
+        "jour": 3.92,
+        "semaine": 5.74,
+        "mois": 2.14,
+        "ytd": 0.28
       },
       "min_max": {
         "min": 6863.02,
@@ -7984,7 +7984,7 @@
       "note_lecture": "Le taux de change euro-dollar determine le prix de tout ce qui est importe en dollars : petrole, matieres premieres, electronique. Un euro faible rencherit les importations et alimente l'inflation."
     },
     "or": {
-      "valeur": 4845.2,
+      "valeur": 4843.6,
       "date": "2026-04-08",
       "unite": "USD/oz",
       "source": "Yahoo Finance",
@@ -9498,16 +9498,16 @@
         },
         {
           "date": "2026-04-08",
-          "valeur": 4845.2,
-          "ma50": 4921.16,
-          "ma200": 4136.25
+          "valeur": 4843.6,
+          "ma50": 4921.13,
+          "ma200": 4136.24
         }
       ],
       "variations": {
-        "jour": 4.04,
-        "semaine": 4.25,
-        "mois": -5.85,
-        "ytd": 12.3
+        "jour": 4.0,
+        "semaine": 4.22,
+        "mois": -5.88,
+        "ytd": 12.27
       },
       "min_max": {
         "min": 2968.4,
@@ -12574,7 +12574,7 @@
       "note_lecture": "Le cours du ble est un indicateur avance des prix alimentaires. La France etant le premier producteur europeen, son evolution impacte a la fois les consommateurs et le secteur agricole."
     },
     "lme_cuivre": {
-      "valeur": 5.74,
+      "valeur": 5.73,
       "date": "2026-04-08",
       "unite": "cts/lb",
       "source": "Yahoo Finance",
@@ -14088,16 +14088,16 @@
         },
         {
           "date": "2026-04-08",
-          "valeur": 5.74,
+          "valeur": 5.73,
           "ma50": 5.75,
           "ma200": 5.25
         }
       ],
       "variations": {
-        "jour": 3.61,
-        "semaine": 2.68,
-        "mois": -0.35,
-        "ytd": 1.77
+        "jour": 3.43,
+        "semaine": 2.5,
+        "mois": -0.52,
+        "ytd": 1.6
       },
       "min_max": {
         "min": 4.13,
@@ -19431,7 +19431,7 @@
     "meta": {
       "source_effectifs": "DSN via kali-data",
       "source_grilles": "SocialGouv kali-data (extraction automatique)",
-      "date_generation": "2026-04-08T08:03:57.247148",
+      "date_generation": "2026-04-08T08:05:35.818263",
       "mode": "100pct_automatique",
       "note": "Extraction heuristique depuis textes juridiques KALI. Statut a_verifier si grille non extraite ou confidence < 55%."
     },
@@ -21487,7 +21487,7 @@
     "sources": "INSEE - Enquête Emploi, DARES"
   },
   "previsions_cftc": {
-    "generated_at": "2026-04-08T08:03:57.376339",
+    "generated_at": "2026-04-08T08:05:35.936001",
     "model_version": "CFTC v7.0 (bivarié Phillips + log-normale + pondération temporelle)",
     "n_simulations": 1000,
     "horizon": "12 mois",
@@ -21496,7 +21496,7 @@
       "niveau": "excellent",
       "issues": [],
       "warnings": [],
-      "timestamp": "2026-04-08T08:03:57.376352"
+      "timestamp": "2026-04-08T08:05:35.936013"
     },
     "calibrage": {
       "volatilites": {
@@ -21524,7 +21524,7 @@
       "lognormal_offset": 3.0
     },
     "market_signals": {
-      "inflation_adjustment": 0.092,
+      "inflation_adjustment": 0.094,
       "chomage_adjustment": 0.175,
       "energie_outlook": "hausse",
       "ponderation_temporelle": {
@@ -21536,10 +21536,10 @@
     },
     "market_signals_details": {
       "brent": {
-        "valeur": 94.35,
+        "valeur": 94.55,
         "ref": 75.0,
-        "variation_ytd_pct": 55.31,
-        "impact_inflation_pt": 0.193,
+        "variation_ytd_pct": 55.64,
+        "impact_inflation_pt": 0.195,
         "poids_temporel": 1.0
       },
       "gaz_ttf": {
@@ -21566,7 +21566,7 @@
         "signal": "baissier"
       },
       "cac40_ytd": {
-        "variation_ytd_pct": 0.39,
+        "variation_ytd_pct": 0.28,
         "signal_chomage": "neutre"
       },
       "carburants_sp95": {
@@ -21696,9 +21696,9 @@
       "facteurs": {
         "cible_bdf": 1.4,
         "ajustement_climat": -0.03,
-        "ajustement_marches": 0.092,
+        "ajustement_marches": 0.094,
         "energie_outlook": "hausse",
-        "cible_ajustee": 1.462,
+        "cible_ajustee": 1.464,
         "volatilite_utilisee": 0.5
       },
       "asymetrie_ic": {
@@ -21941,7 +21941,7 @@
           }
         },
         "contribution_mediane": {
-          "signaux_marches_pt": 0.092,
+          "signaux_marches_pt": 0.094,
           "incertitude_bdf_sigma": 0.15,
           "label": "Déplacement de la prévision centrale"
         }
