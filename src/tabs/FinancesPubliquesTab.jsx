@@ -571,9 +571,9 @@ export default function FinancesPubliquesTab({ d, darkMode, fp: favoriProps = {}
 
         // Exemples de charge réelle par niveau de salaire
         const exemples = [
-          { profil: 'SMIC (≤ 1 PMSS)',  brut: 1802,  emp: 39.5, sal: 22.4, net_ratio: 77.6 },
-          { profil: '2× PMSS',          brut: 7850,  emp: 43.2, sal: 24.8, net_ratio: 75.2 },
-          { profil: 'Cadre 5× PMSS',    brut: 19625, emp: 44.1, sal: 25.5, net_ratio: 74.5 },
+          { profil: 'SMIC (≤ 1 PMSS)',  brut: 1802,  emp: 39.5, sal: 22.4, cout_total: Math.round(1802 * 1.395) },
+          { profil: '2× PMSS',          brut: 7850,  emp: 43.2, sal: 24.8, cout_total: Math.round(7850 * 1.432) },
+          { profil: 'Cadre 5× PMSS',    brut: 19625, emp: 44.1, sal: 25.5, cout_total: Math.round(19625 * 1.441) },
         ];
 
         const CotTable = ({ data, title, color }) => (
@@ -629,7 +629,7 @@ export default function FinancesPubliquesTab({ d, darkMode, fp: favoriProps = {}
                       <th className="text-right pb-2 font-medium">Salaire brut</th>
                       <th className="text-right pb-2 font-medium">Charges pat.</th>
                       <th className="text-right pb-2 font-medium">Charges sal.</th>
-                      <th className="text-right pb-2 font-medium">Net / brut</th>
+                      <th className="text-right pb-2 font-medium">Coût total employeur</th>
                     </tr>
                   </thead>
                   <tbody>
@@ -639,7 +639,7 @@ export default function FinancesPubliquesTab({ d, darkMode, fp: favoriProps = {}
                         <td className={`py-2 text-right ${ts}`}>{e.brut.toLocaleString('fr-FR')} €</td>
                         <td className="py-2 text-right font-semibold text-red-500">≈ {e.emp}%</td>
                         <td className="py-2 text-right font-semibold text-blue-500">≈ {e.sal}%</td>
-                        <td className="py-2 text-right font-semibold text-green-500">≈ {e.net_ratio}%</td>
+                        <td className="py-2 text-right font-semibold text-purple-500">{e.cout_total.toLocaleString('fr-FR')} €</td>
                       </tr>
                     ))}
                   </tbody>
