@@ -1,6 +1,6 @@
 {
-  "last_updated": "08/04/2026 12:14",
-  "last_updated_iso": "2026-04-08T12:14:55.668350",
+  "last_updated": "08/04/2026 12:57",
+  "last_updated_iso": "2026-04-08T12:57:17.910001",
   "contact": "hspringragain@cftc.fr",
   "alertes": [
     {
@@ -32,11 +32,22 @@
       "date": "2026-04-08",
       "type": "info",
       "titre": "🔄 Données actualisées",
-      "message": "Le tableau de bord a été mis à jour le 08/04/2026 à 12:14.",
+      "message": "Le tableau de bord a été mis à jour le 08/04/2026 à 12:57.",
       "onglet": "conjoncture"
     }
   ],
   "changelog": [
+    {
+      "version": "3.1.3",
+      "date": "2026-04-08",
+      "modifications": [
+        {
+          "type": "feature",
+          "titre": "Onglet finances publiques",
+          "description": "Vous trouverez un nouvel onglet finances publiques regroupant les indicateurs essentiels de cette thématique"
+        }
+      ]
+    },
     {
       "version": "3.1.2",
       "date": "2026-04-07",
@@ -204,7 +215,7 @@
     }
   ],
   "revue_presse": {
-    "derniere_maj": "08/04/2026 12:14",
+    "derniere_maj": "08/04/2026 12:57",
     "nb_sources": 7,
     "sources_noms": [
       "Le Monde Éco",
@@ -215,21 +226,56 @@
       "Institut Montaigne",
       "Euractiv FR"
     ],
-    "a_la_une": [
+    "a_la_une": [],
+    "tous": [
       {
         "source": "Le Figaro Éco",
         "couleur": "#92400e",
         "emoji": "📊",
         "tag": "Presse économique",
-        "titre": "L'ex-ministre Olivier Dussopt va être proposé à la présidence du conseil d’administration du groupe Emeis (ex-Orpea)",
-        "resume": "Olivier Dussopt a été successivement ministre délégué chargé des Comptes publics (2020-2022) puis du Travail, du Plein-emploi et de l’Insertion (2022-2024) - poste où il a notamment porté la réforme des retraites de 2023, actuellement suspendue.",
-        "lien": "https://www.lefigaro.fr/societes/l-ex-ministre-olivier-dussopt-va-etre-propose-a-la-presidence-du-conseil-d-administration-du-groupe-emeis-ex-orpea-20260408",
-        "date_iso": "2026-04-08T11:20:55+02:00",
+        "titre": "Le prix repère du gaz augmentera de 15% au 1er mai, annonce le régulateur",
+        "resume": "La Commission de régulation de l’énergie dévoile le nouveau tarif indicatif qui s’appliquera aux abonnés dont les contrats suivent ce repère.",
+        "lien": "https://www.lefigaro.fr/conjoncture/le-prix-repere-du-gaz-augmentera-de-15-au-1er-mai-annonce-le-regulateur-20260408",
+        "date_iso": "2026-04-08T14:40:47+02:00",
         "date_fr": "08/04/2026",
-        "pertinence": 4
-      }
-    ],
-    "tous": [
+        "pertinence": 0
+      },
+      {
+        "source": "Le Monde Éco",
+        "couleur": "#374151",
+        "emoji": "🌐",
+        "tag": "Presse économique",
+        "titre": "A Paris, un mois de grève pour des travailleurs sans-papiers exploités dans un salon de coiffure afro",
+        "resume": "Dans le 10ᵉ arrondissement de la capitale, treize coiffeuses et barbiers, dont neuf ne détiennent pas de titres de séjour, occupent leur institut depuis le 3 mars pour réclamer des salaires non versés et dénoncer leurs conditions de travail.",
+        "lien": "https://www.lemonde.fr/economie/article/2026/04/08/a-paris-un-mois-de-greve-pour-des-travailleurs-sans-papiers-exploites-dans-un-salon-de-coiffure-afro_6678264_3234.html",
+        "date_iso": "2026-04-08T14:40:39+02:00",
+        "date_fr": "08/04/2026",
+        "pertinence": 2
+      },
+      {
+        "source": "Le Monde Emploi",
+        "couleur": "#1f2937",
+        "emoji": "💼",
+        "tag": "Emploi & travail",
+        "titre": "A Paris, un mois de grève pour des travailleurs sans-papiers exploités dans un salon de coiffure afro",
+        "resume": "Dans le 10ᵉ arrondissement de la capitale, treize coiffeuses et barbiers, dont neuf ne détiennent pas de titres de séjour, occupent leur institut depuis le 3 mars pour réclamer des salaires non versés et dénoncer leurs conditions de travail.",
+        "lien": "https://www.lemonde.fr/economie/article/2026/04/08/a-paris-un-mois-de-greve-pour-des-travailleurs-sans-papiers-exploites-dans-un-salon-de-coiffure-afro_6678264_3234.html",
+        "date_iso": "2026-04-08T14:40:39+02:00",
+        "date_fr": "08/04/2026",
+        "pertinence": 2
+      },
+      {
+        "source": "Le Figaro Éco",
+        "couleur": "#92400e",
+        "emoji": "📊",
+        "tag": "Presse économique",
+        "titre": "Trêve au Moyen-Orient : un millier de bateaux impatients de franchir le détroit d’Ormuz",
+        "resume": "Le cessez-le-feu conclu cette nuit entre l’Iran et les États-Unis ouvre à nouveau ce passage clé pour l’économie mondiale.",
+        "lien": "https://www.lefigaro.fr/conjoncture/treve-au-moyen-orient-un-millier-de-bateaux-impatients-de-franchir-le-detroit-d-ormuz-20260408",
+        "date_iso": "2026-04-08T14:36:15+02:00",
+        "date_fr": "08/04/2026",
+        "pertinence": 0
+      },
       {
         "source": "Le Monde Éco",
         "couleur": "#374151",
@@ -241,6 +287,18 @@
         "date_iso": "2026-04-08T14:00:13+02:00",
         "date_fr": "08/04/2026",
         "pertinence": 0
+      },
+      {
+        "source": "Le Figaro Éco",
+        "couleur": "#92400e",
+        "emoji": "📊",
+        "tag": "Presse économique",
+        "titre": "80.000 photos, vidéos et audios de femmes diffusés sans consentement sur Telegram en Italie et en Espagne, accuse une ONG",
+        "resume": "Selon AI Forensics, près de 25.000 utilisateurs actifs sur des groupes et chaînes dédiés au partage de photos et vidéos de femmes dénudées, parfois contre rémunération.",
+        "lien": "https://www.lefigaro.fr/secteur/high-tech/80-000-photos-videos-et-audios-de-femmes-diffuses-sans-consentement-sur-telegram-en-italie-et-en-espagne-accuse-une-ong-20260408",
+        "date_iso": "2026-04-08T13:47:48+02:00",
+        "date_fr": "08/04/2026",
+        "pertinence": 1
       },
       {
         "source": "Le Monde Éco",
@@ -265,18 +323,6 @@
         "date_iso": "2026-04-08T13:04:40+02:00",
         "date_fr": "08/04/2026",
         "pertinence": 0
-      },
-      {
-        "source": "Le Figaro Éco",
-        "couleur": "#92400e",
-        "emoji": "📊",
-        "tag": "Presse économique",
-        "titre": "OpenAI écoute-t-il nos conversations avec ChatGPT ? Une arrestation à Strasbourg lance la polémique",
-        "resume": "DÉCRYPTAGE - L’entreprise américaine explique au Figaro le fonctionnement de ses outils de modération, alors qu’un homme a été arrêté par le Raid après avoir cherché sur le chatbot comment tuer un agent du renseignement.",
-        "lien": "https://www.lefigaro.fr/secteur/high-tech/openai-ecoute-t-il-nos-conversations-avec-chatgpt-une-arrestation-a-strasbourg-lance-la-polemique-20260408",
-        "date_iso": "2026-04-08T13:02:58+02:00",
-        "date_fr": "08/04/2026",
-        "pertinence": 1
       },
       {
         "source": "Le Figaro Éco",
@@ -315,14 +361,14 @@
         "pertinence": 1
       },
       {
-        "source": "Le Figaro Éco",
-        "couleur": "#92400e",
-        "emoji": "📊",
-        "tag": "Presse économique",
-        "titre": "Trêve au Moyen-Orient : un millier de bateaux impatients de franchir le détroit d’Ormuz",
-        "resume": "Le cessez-le-feu conclu cette nuit entre l’Iran et les États-Unis ouvre à nouveau ce passage clé pour l’économie mondiale.",
-        "lien": "https://www.lefigaro.fr/conjoncture/treve-au-moyen-orient-un-millier-de-bateaux-impatients-de-franchir-le-detroit-d-ormuz-20260408",
-        "date_iso": "2026-04-08T12:18:18+02:00",
+        "source": "Euractiv FR",
+        "couleur": "#0369a1",
+        "emoji": "🇪🇺",
+        "tag": "Europe & politique",
+        "titre": "La « daddy diplomacy » de Rutte s’essouffle, même après le recul de Trump sur l’Iran",
+        "resume": "Le mandat de Rutte « ne s'étend pas à l'imposition aux Européens de toute question sur laquelle ils n'ont pas été consultés. », a déclaré un diplomate de l’OTAN The post La « daddy diplomacy » de Rutte s’essouffle, même après le recul de Trump sur l’Iran appeared first on Euractiv FR .",
+        "lien": "https://euractiv.fr/news/la-daddy-diplomacy-de-rutte-sessouffle-meme-apres-le-recul-de-trump-sur-liran/",
+        "date_iso": "2026-04-08T12:23:29+00:00",
         "date_fr": "08/04/2026",
         "pertinence": 0
       },
@@ -373,18 +419,6 @@
         "date_iso": "2026-04-08T11:30:00+02:00",
         "date_fr": "08/04/2026",
         "pertinence": 0
-      },
-      {
-        "source": "Le Figaro Éco",
-        "couleur": "#92400e",
-        "emoji": "📊",
-        "tag": "Presse économique",
-        "titre": "L'ex-ministre Olivier Dussopt va être proposé à la présidence du conseil d’administration du groupe Emeis (ex-Orpea)",
-        "resume": "Olivier Dussopt a été successivement ministre délégué chargé des Comptes publics (2020-2022) puis du Travail, du Plein-emploi et de l’Insertion (2022-2024) - poste où il a notamment porté la réforme des retraites de 2023, actuellement suspendue.",
-        "lien": "https://www.lefigaro.fr/societes/l-ex-ministre-olivier-dussopt-va-etre-propose-a-la-presidence-du-conseil-d-administration-du-groupe-emeis-ex-orpea-20260408",
-        "date_iso": "2026-04-08T11:20:55+02:00",
-        "date_fr": "08/04/2026",
-        "pertinence": 4
       },
       {
         "source": "Le Figaro Éco",
@@ -553,42 +587,6 @@
         "date_iso": "2026-04-08T09:58:50+02:00",
         "date_fr": "08/04/2026",
         "pertinence": 0
-      },
-      {
-        "source": "Le Figaro Éco",
-        "couleur": "#92400e",
-        "emoji": "📊",
-        "tag": "Presse économique",
-        "titre": "Cessez-le-feu en Iran : l’approvisionnement en kérosène ne reviendra pas à la normale avant «plusieurs mois»",
-        "resume": "Malgré l’annonce d’un cessez-le-feu entre les États-Unis et l’Iran, la situation de l’approvisionnement en kérosène reste fragile, estime le directeur général de l’IATA.",
-        "lien": "https://www.lefigaro.fr/conjoncture/cessez-le-feu-en-iran-l-approvisionnement-en-kerosene-ne-reviendra-pas-a-la-normale-avant-plusieurs-mois-20260408",
-        "date_iso": "2026-04-08T09:50:48+02:00",
-        "date_fr": "08/04/2026",
-        "pertinence": 0
-      },
-      {
-        "source": "Euractiv FR",
-        "couleur": "#0369a1",
-        "emoji": "🇪🇺",
-        "tag": "Europe & politique",
-        "titre": "Les ménages confrontés à des factures d’énergie « dévastatrices » à cause de la guerre en Iran",
-        "resume": "La CES presse l’UE de prendre des mesures d’urgence pour préserver les moyens de subsistance et l’industrie The post Les ménages confrontés à des factures d’énergie « dévastatrices » à cause de la guerre en Iran appeared first on Euractiv FR .",
-        "lien": "https://euractiv.fr/news/les-menages-confrontes-a-des-factures-denergie-devastatrices-a-cause-de-la-guerre-en-iran/",
-        "date_iso": "2026-04-08T09:14:18+00:00",
-        "date_fr": "08/04/2026",
-        "pertinence": 0
-      },
-      {
-        "source": "Libération Éco",
-        "couleur": "#dc2626",
-        "emoji": "📰",
-        "tag": "Presse économique",
-        "titre": "Fin des auditions de la commission sur l’audiovisuel public ce mercredi, le rapport de Charles Alloncle attendu fin avril",
-        "resume": "Après quatre mois de débats sous haute tension, les 31 parlementaires qui siègent dans l’instance devront voter le 27 avril pour ou contre la publication du rapport. En cas de rejet - situation rare - les travaux ne seront pas rendus publics.",
-        "lien": "https://www.liberation.fr/economie/medias/fin-des-auditions-de-la-commission-sur-laudiovisuel-public-ce-mercredi-le-rapport-de-charles-alloncle-attendu-fin-avril-20260408_GGC5I6NSSJBXVOQPUNGFN3DSBA/",
-        "date_iso": "2026-04-08T09:13:10+00:00",
-        "date_fr": "08/04/2026",
-        "pertinence": 1
       }
     ]
   },
@@ -847,7 +845,7 @@
     "ecart_hf_eqtp": 25.8,
     "difficultes_recrutement": 61,
     "irl_glissement": 0.79,
-    "prix_gazole": 2.389,
+    "prix_gazole": 2.39,
     "taux_effort_locataires": 29.6,
     "croissance_pib": 0.7,
     "climat_affaires": 97,
@@ -2604,23 +2602,23 @@
   },
   "carburants": {
     "gazole": {
-      "prix": 2.389,
-      "variation_an": 29.1,
-      "variation_sem": 51.2
+      "prix": 2.39,
+      "variation_an": 29.2,
+      "variation_sem": 51.3
     },
     "sp95": {
-      "prix": 2.075,
-      "variation_an": 14.0,
-      "variation_sem": 20.6
+      "prix": 2.073,
+      "variation_an": 13.9,
+      "variation_sem": 20.5
     },
     "sp98": {
-      "prix": 2.132,
-      "variation_an": 14.0,
-      "variation_sem": 20.6
+      "prix": 2.129,
+      "variation_an": 13.9,
+      "variation_sem": 20.5
     },
     "e10": {
-      "prix": 2.015,
-      "variation_an": 12.6,
+      "prix": 2.014,
+      "variation_an": 12.5,
       "variation_sem": 19.9
     },
     "evolution": [
@@ -2899,10 +2897,10 @@
       },
       {
         "date": "2026-04-08",
-        "gazole": 2.389,
-        "sp95": 2.075,
-        "sp98": 2.132,
-        "e10": 2.015
+        "gazole": 2.39,
+        "sp95": 2.073,
+        "sp98": 2.129,
+        "e10": 2.014
       }
     ],
     "derniere_donnee": "2026-04-08 13:59",
@@ -3482,7 +3480,7 @@
       "note_lecture": "Le TEC-10 mesure le rendement des emprunts d'Etat francais a 10 ans. Un taux eleve rencherit le cout de la dette publique et impacte les taux de credit immobilier."
     },
     "petrole_brent": {
-      "valeur": 91.79,
+      "valeur": 91.25,
       "date": "2026-04-08",
       "unite": "USD/baril",
       "source": "Yahoo Finance",
@@ -4996,16 +4994,16 @@
         },
         {
           "date": "2026-04-08",
-          "valeur": 91.79,
-          "ma50": 86.17,
+          "valeur": 91.25,
+          "ma50": 86.16,
           "ma200": 70.66
         }
       ],
       "variations": {
-        "jour": -16.0,
-        "semaine": -22.44,
-        "mois": -0.97,
-        "ytd": 51.09
+        "jour": -16.49,
+        "semaine": -22.9,
+        "mois": -1.55,
+        "ytd": 50.21
       },
       "min_max": {
         "min": 58.92,
@@ -5016,9 +5014,9 @@
       "note_lecture": "Le prix du Brent influence directement les couts de transport et d'energie, donc l'inflation et le pouvoir d'achat des salaries."
     },
     "cac40": {
-      "valeur": 8291.51,
+      "valeur": 8295.17,
       "date": "2026-04-08",
-      "variation_jour_pct": 4.84,
+      "variation_jour_pct": 4.89,
       "unite": "points",
       "source": "Yahoo Finance",
       "nb_points": 254,
@@ -6543,16 +6541,16 @@
         },
         {
           "date": "2026-04-08",
-          "valeur": 8291.51,
-          "ma50": 8129.16,
-          "ma200": 8006.53
+          "valeur": 8295.17,
+          "ma50": 8129.23,
+          "ma200": 8006.55
         }
       ],
       "variations": {
-        "jour": 4.84,
-        "semaine": 6.68,
-        "mois": 3.05,
-        "ytd": 1.18
+        "jour": 4.89,
+        "semaine": 6.73,
+        "mois": 3.1,
+        "ytd": 1.22
       },
       "min_max": {
         "min": 6863.02,
@@ -8133,7 +8131,7 @@
       "note_lecture": "Le taux de change euro-dollar determine le prix de tout ce qui est importe en dollars : petrole, matieres premieres, electronique. Un euro faible rencherit les importations et alimente l'inflation."
     },
     "or": {
-      "valeur": 4831.2,
+      "valeur": 4827.4,
       "date": "2026-04-08",
       "unite": "USD/oz",
       "source": "Yahoo Finance",
@@ -9647,16 +9645,16 @@
         },
         {
           "date": "2026-04-08",
-          "valeur": 4831.2,
-          "ma50": 4920.88,
-          "ma200": 4136.18
+          "valeur": 4827.4,
+          "ma50": 4920.8,
+          "ma200": 4136.16
         }
       ],
       "variations": {
-        "jour": 3.74,
-        "semaine": 3.95,
-        "mois": -6.12,
-        "ytd": 11.98
+        "jour": 3.66,
+        "semaine": 3.87,
+        "mois": -6.19,
+        "ytd": 11.89
       },
       "min_max": {
         "min": 2968.4,
@@ -11195,7 +11193,7 @@
       "note_lecture": "Le prix du gaz naturel (TTF europeen) impacte directement les factures de chauffage et d'electricite des menages, ainsi que les couts de production industrielle."
     },
     "ble": {
-      "valeur": 578.5,
+      "valeur": 579.0,
       "date": "2026-04-08",
       "unite": "cents/boisseau",
       "source": "Yahoo Finance",
@@ -12703,16 +12701,16 @@
         },
         {
           "date": "2026-04-08",
-          "valeur": 578.5,
-          "ma50": 572.52,
+          "valeur": 579.0,
+          "ma50": 572.53,
           "ma200": 534.2
         }
       ],
       "variations": {
-        "jour": -3.26,
-        "semaine": -6.13,
-        "mois": -5.36,
-        "ytd": 14.22
+        "jour": -3.18,
+        "semaine": -6.04,
+        "mois": -5.28,
+        "ytd": 14.31
       },
       "min_max": {
         "min": 495.0,
@@ -14257,7 +14255,7 @@
       "note_lecture": "Le cuivre est le baromètre de l'activité industrielle mondiale ('Dr Copper'). Sa hausse signale une reprise économique, sa baisse anticipe un ralentissement. Utilisé massivement dans l'électrification et les énergies renouvelables."
     },
     "lme_aluminium": {
-      "valeur": 3377.25,
+      "valeur": 3382.75,
       "date": "2026-04-08",
       "unite": "cts/lb",
       "source": "Yahoo Finance",
@@ -15765,16 +15763,16 @@
         },
         {
           "date": "2026-04-08",
-          "valeur": 3377.25,
-          "ma50": 3162.77,
-          "ma200": 2799.95
+          "valeur": 3382.75,
+          "ma50": 3162.88,
+          "ma200": 2799.98
         }
       ],
       "variations": {
-        "jour": -0.57,
-        "semaine": -0.83,
-        "mois": 1.5,
-        "ytd": 14.95
+        "jour": -0.41,
+        "semaine": -0.67,
+        "mois": 1.66,
+        "ytd": 15.14
       },
       "min_max": {
         "min": 2166.25,
@@ -18181,7 +18179,7 @@
           "2023": 1.92,
           "2024": 1.78,
           "2025": 1.72,
-          "2026": 2.074
+          "2026": 2.073
         },
         "quantiteMensuelle": {
           "solo": 40,
@@ -19580,7 +19578,7 @@
     "meta": {
       "source_effectifs": "DSN via kali-data",
       "source_grilles": "SocialGouv kali-data (extraction automatique)",
-      "date_generation": "2026-04-08T12:15:26.002421",
+      "date_generation": "2026-04-08T12:57:38.389039",
       "mode": "100pct_automatique",
       "note": "Extraction heuristique depuis textes juridiques KALI. Statut a_verifier si grille non extraite ou confidence < 55%."
     },
@@ -21636,7 +21634,7 @@
     "sources": "INSEE - Enquête Emploi, DARES"
   },
   "previsions_cftc": {
-    "generated_at": "2026-04-08T12:15:26.142776",
+    "generated_at": "2026-04-08T12:57:38.504528",
     "model_version": "CFTC v7.0 (bivarié Phillips + log-normale + pondération temporelle)",
     "n_simulations": 1000,
     "horizon": "12 mois",
@@ -21645,7 +21643,7 @@
       "niveau": "excellent",
       "issues": [],
       "warnings": [],
-      "timestamp": "2026-04-08T12:15:26.142787"
+      "timestamp": "2026-04-08T12:57:38.504539"
     },
     "calibrage": {
       "volatilites": {
@@ -21673,7 +21671,7 @@
       "lognormal_offset": 3.0
     },
     "market_signals": {
-      "inflation_adjustment": 0.067,
+      "inflation_adjustment": 0.061,
       "chomage_adjustment": 0.175,
       "energie_outlook": "hausse",
       "ponderation_temporelle": {
@@ -21685,10 +21683,10 @@
     },
     "market_signals_details": {
       "brent": {
-        "valeur": 91.79,
+        "valeur": 91.25,
         "ref": 75.0,
-        "variation_ytd_pct": 51.09,
-        "impact_inflation_pt": 0.168,
+        "variation_ytd_pct": 50.21,
+        "impact_inflation_pt": 0.163,
         "poids_temporel": 1.0
       },
       "gaz_ttf": {
@@ -21715,11 +21713,11 @@
         "signal": "baissier"
       },
       "cac40_ytd": {
-        "variation_ytd_pct": 1.18,
+        "variation_ytd_pct": 1.22,
         "signal_chomage": "neutre"
       },
       "carburants_sp95": {
-        "variation_annuelle_pct": 14.0,
+        "variation_annuelle_pct": 13.9,
         "impact_inflation_pt": 0.004
       },
       "confiance_menages": {
@@ -21759,8 +21757,8 @@
           1.4,
           1.4,
           1.5,
-          1.5,
-          1.5,
+          1.4,
+          1.4,
           1.5
         ],
         "lower_bound": [
@@ -21774,7 +21772,7 @@
           1.0,
           1.1,
           1.1,
-          1.1,
+          1.0,
           1.1
         ],
         "upper_bound": [
@@ -21836,18 +21834,18 @@
         "methodology": "Monte Carlo bivarié (1000 sim.) + log-normale + Phillips ρ=-0.35 (v7)"
       },
       "probabilites": {
-        "inflation_sous_2pct": 91.0,
-        "inflation_cible_bce": 91.0,
+        "inflation_sous_2pct": 91.4,
+        "inflation_cible_bce": 91.4,
         "inflation_au_dessus_3pct": 0.0,
         "inflation_au_dessus_4pct": 0.0,
-        "description": "91.0% de chances que l'inflation reste sous 2% à 12 mois"
+        "description": "91.4% de chances que l'inflation reste sous 2% à 12 mois"
       },
       "facteurs": {
         "cible_bdf": 1.4,
         "ajustement_climat": -0.03,
-        "ajustement_marches": 0.067,
+        "ajustement_marches": 0.061,
         "energie_outlook": "hausse",
-        "cible_ajustee": 1.437,
+        "cible_ajustee": 1.431,
         "volatilite_utilisee": 0.5
       },
       "asymetrie_ic": {
@@ -21855,7 +21853,7 @@
         "queue_basse": 0.4,
         "ratio": 1.25
       },
-      "insight": "Inflation médiane à 12 mois : 1.5% [IC 80% : 1.1% - 2.0%]. Asymétrie : queue haute 0.5pt vs basse 0.4pt. 91.0% de probabilité de rester sous 2%."
+      "insight": "Inflation médiane à 12 mois : 1.5% [IC 80% : 1.1% - 2.0%]. Asymétrie : queue haute 0.5pt vs basse 0.4pt. 91.4% de probabilité de rester sous 2%."
     },
     "smic": {
       "current": {
@@ -22062,10 +22060,10 @@
       }
     },
     "notes_lecture": [
-      "📈 Inflation médiane à 12 mois : 1.5% [1.1% - 2.0%] — 91.0% de chances de rester sous 2% (asymétrie : +0.5pt / -0.4pt)",
+      "📈 Inflation médiane à 12 mois : 1.5% [1.1% - 2.0%] — 91.4% de chances de rester sous 2% (asymétrie : +0.5pt / -0.4pt)",
       "💰 SMIC janvier 2027 : 1858€ brut (+1.9%, fourchette 1.5-2.3%) — Pouvoir d'achat réel : +0.4% (+7€/mois)",
       "👥 Chômage Q4 : 7.8% [7.6% - 7.9%] — Tendance stable (corrélé Phillips ρ=-0.35)",
-      "📊 Signaux marchés : ↑ inflation 0.07pt, ↑ chômage 0.17pt, (poids temporel min : 0.95)",
+      "📊 Signaux marchés : ↑ inflation 0.06pt, ↑ chômage 0.17pt, (poids temporel min : 0.95)",
       "🎲 Scénario à surveiller : 🚀 Reprise économique forte (25%)",
       "💡 Recommandation NAO : demander au minimum +2.0% pour préserver le pouvoir d'achat"
     ],
@@ -22074,8 +22072,8 @@
         "ic_total_pts": 0.8,
         "sources": {
           "volatilite_historique": {
-            "ic_pts": 0.7,
-            "part_pct": 87.5,
+            "ic_pts": 0.8,
+            "part_pct": 100.0,
             "label": "Variabilité passée de l'inflation"
           },
           "signaux_marches": {
@@ -22084,13 +22082,13 @@
             "label": "Brent, gaz, EUR/USD, SMB..."
           },
           "incertitude_bdf": {
-            "ic_pts": 0.1,
-            "part_pct": 12.5,
+            "ic_pts": 0.0,
+            "part_pct": 0.0,
             "label": "Structure log-normale + résiduel"
           }
         },
         "contribution_mediane": {
-          "signaux_marches_pt": 0.067,
+          "signaux_marches_pt": 0.061,
           "incertitude_bdf_sigma": 0.15,
           "label": "Déplacement de la prévision centrale"
         }
