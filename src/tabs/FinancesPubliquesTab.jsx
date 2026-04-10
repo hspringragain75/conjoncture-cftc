@@ -118,28 +118,65 @@ export default function FinancesPubliquesTab({ d, darkMode, fp: favoriProps = {}
         {/* KPIs */}
         <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-6 gap-2">
           {[
-            { label: '🏛️ Dette / PIB',       value: fp.dette_publique_pib,            danger: v => v > 100, warn: v => v > 80 },
-            { label: '📉 Déficit / PIB',       value: fp.deficit_public_pib,            danger: v => v < -3,  warn: v => v < -1 },
-            { label: '💸 Dépenses APU',        value: fp.depenses_apu_pib },
-            { label: '🧾 Prél. obligatoires',  value: fp.prelevements_obligatoires_pib },
-            { label: '📈 Charge dette',        value: fp.charge_dette_pib,             warn: v => v > 2 },
-            { label: '🔨 Investissement pub.', value: fp.fbcf_apu_pib },
+            {
+              label: '🏛️ Dette / PIB',
+              value: fp.dette_publique_pib,
+              // Critère Maastricht 60%, moyenne UE ~82%
+              badge: v => v > 100 ? ['bg-red-100 text-red-700',    '⚠️ +100% PIB']
+                       : v > 80  ? ['bg-orange-100 text-orange-700','⚡ >moy. UE (82%)']
+                       :           ['bg-green-100 text-green-700',  '✓ <moy. UE'],
+            },
+            {
+              label: '📉 Déficit / PIB',
+              value: fp.deficit_public_pib,
+              // Règle UE : -3% max
+              badge: v => v < -5  ? ['bg-red-100 text-red-700',    '⚠️ Procédure UE']
+                       : v < -3   ? ['bg-orange-100 text-orange-700','⚡ Hors règle UE']
+                       : v < 0    ? ['bg-yellow-100 text-yellow-700','△ Déficitaire']
+                       :            ['bg-green-100 text-green-700',  '✓ Excédent'],
+            },
+            {
+              label: '💸 Dépenses APU',
+              value: fp.depenses_apu_pib,
+              // France 2e rang UE, moy. UE ~47%, moy. zone euro ~49%
+              badge: v => v > 57 ? ['bg-red-100 text-red-700',    '⚠️ 1er rang UE']
+                       : v > 52  ? ['bg-orange-100 text-orange-700','⚡ Top 3 UE']
+                       :           ['bg-yellow-100 text-yellow-700','△ > moy. UE (49%)'],
+            },
+            {
+              label: '🧾 Prél. obligatoires',
+              value: fp.prelevements_obligatoires_pib,
+              // France 1er rang UE, moy. UE ~40%, moy. zone euro ~41%
+              badge: v => v > 44 ? ['bg-red-100 text-red-700',    '⚠️ 1er rang UE']
+                       : v > 42  ? ['bg-orange-100 text-orange-700','⚡ Top 3 UE']
+                       :           ['bg-yellow-100 text-yellow-700','△ > moy. UE (40%)'],
+            },
+            {
+              label: '📈 Charge dette',
+              value: fp.charge_dette_pib,
+              // Coût des intérêts : +18% en 2024 avec remontée des taux
+              badge: v => v > 2.5 ? ['bg-red-100 text-red-700',    '⚠️ En forte hausse']
+                       : v > 1.5  ? ['bg-orange-100 text-orange-700','⚡ En hausse']
+                       :            ['bg-green-100 text-green-700',  '✓ Stable'],
+            },
+            {
+              label: '🔨 Investissement pub.',
+              value: fp.fbcf_apu_pib,
+              // Inférieur à la charge de la dette depuis 2024
+              badge: v => v != null && fp.charge_dette_pib != null && v < fp.charge_dette_pib
+                       ? ['bg-red-100 text-red-700',    '⚠️ < charge dette']
+                       : v < 3.5
+                       ? ['bg-orange-100 text-orange-700','⚡ Faible']
+                       : ['bg-green-100 text-green-700',  '✓ Correct'],
+            },
           ].map((k, i) => {
             const v = k.value;
-            const s = v == null ? 'none' : k.danger?.(v) ? 'danger' : k.warn?.(v) ? 'warn' : 'ok';
-            const badge = {
-              danger: 'bg-red-100 text-red-700',
-              warn:   'bg-orange-100 text-orange-700',
-              ok:     'bg-green-100 text-green-700',
-              none:   dm ? 'bg-gray-700 text-gray-300' : 'bg-gray-100 text-gray-500',
-            };
+            const [bgClass, label] = v != null ? k.badge(v) : [dm ? 'bg-gray-700 text-gray-300' : 'bg-gray-100 text-gray-500', '—'];
             return (
               <div key={i} className={`rounded-xl p-3 border ${dm ? 'bg-gray-800/60 border-gray-700' : 'bg-white border-gray-200'}`}>
                 <p className={`text-[10px] mb-1 ${ts}`}>{k.label}</p>
                 <p className={`text-lg font-bold ${tx}`}>{v != null ? `${v}%` : '—'}</p>
-                {v != null && <span className={`text-[9px] px-1.5 py-0.5 rounded-full font-medium ${badge[s]}`}>
-                  {s === 'danger' ? '⚠️ Critique' : s === 'warn' ? '⚡ Vigilance' : '✓ Normal'}
-                </span>}
+                {v != null && <span className={`text-[9px] px-1.5 py-0.5 rounded-full font-medium ${bgClass}`}>{label}</span>}
               </div>
             );
           })}
