@@ -1,6 +1,6 @@
 {
-  "last_updated": "13/04/2026 09:26",
-  "last_updated_iso": "2026-04-13T09:26:42.272458",
+  "last_updated": "13/04/2026 09:41",
+  "last_updated_iso": "2026-04-13T09:41:52.435770",
   "contact": "hspringragain@cftc.fr",
   "alertes": [
     {
@@ -32,7 +32,7 @@
       "date": "2026-04-13",
       "type": "info",
       "titre": "🔄 Données actualisées",
-      "message": "Le tableau de bord a été mis à jour le 13/04/2026 à 09:26.",
+      "message": "Le tableau de bord a été mis à jour le 13/04/2026 à 09:41.",
       "onglet": "conjoncture"
     }
   ],
@@ -215,7 +215,7 @@
     }
   ],
   "revue_presse": {
-    "derniere_maj": "13/04/2026 09:26",
+    "derniere_maj": "13/04/2026 09:41",
     "nb_sources": 7,
     "sources_noms": [
       "Le Monde Éco",
@@ -228,6 +228,30 @@
     ],
     "a_la_une": [],
     "tous": [
+      {
+        "source": "Le Monde Éco",
+        "couleur": "#374151",
+        "emoji": "🌐",
+        "tag": "Presse économique",
+        "titre": "1ᵉʳ-Mai : face à la colère des syndicats, le gouvernement temporise",
+        "resume": "A la suite de la lettre adressée par les organisations syndicales, appelant à renoncer à la proposition de loi sur l’élargissement du travail le 1ᵉʳ-Mai, le premier ministre, Sébastien Lecornu, repousse la commission mixte paritaire. Le ministre du travail, Jean-Pierre Farandou, recevra les syndicat",
+        "lien": "https://www.lemonde.fr/politique/article/2026/04/13/1-mai-face-a-la-colere-des-syndicats-le-gouvernement-temporise_6679701_823448.html",
+        "date_iso": "2026-04-13T11:33:31+02:00",
+        "date_fr": "13/04/2026",
+        "pertinence": 1
+      },
+      {
+        "source": "Le Monde Éco",
+        "couleur": "#374151",
+        "emoji": "🌐",
+        "tag": "Presse économique",
+        "titre": "En Chine, des aciéries à bout de souffle et des ouvriers déclassés : « Mon garçon ne reviendra plus vivre ici, c’est sale et sans avenir »",
+        "resume": "L’effondrement du secteur immobilier et le ralentissement des grands projets d’infrastructures ont plongé la sidérurgie chinoise dans une crise profonde. Dans le Liaoning, entre démantèlements de hauts-fourneaux et fusions géantes, la lutte étatique contre les surcapacités se solde par un coût socia",
+        "lien": "https://www.lemonde.fr/economie/article/2026/04/13/en-chine-des-acieries-a-bout-de-souffle-et-des-ouvriers-declasses-mon-garcon-ne-reviendra-plus-vivre-ici-c-est-sale-et-sans-avenir_6679699_3234.html",
+        "date_iso": "2026-04-13T11:30:05+02:00",
+        "date_fr": "13/04/2026",
+        "pertinence": 0
+      },
       {
         "source": "Le Figaro Éco",
         "couleur": "#92400e",
@@ -323,6 +347,18 @@
         "date_iso": "2026-04-13T09:42:24+02:00",
         "date_fr": "13/04/2026",
         "pertinence": 1
+      },
+      {
+        "source": "Euractiv FR",
+        "couleur": "#0369a1",
+        "emoji": "🇪🇺",
+        "tag": "Europe & politique",
+        "titre": "Analyse : Le rapprochement avec le mouvement MAGA a-t-il été fatal à Orbán ?",
+        "resume": "Le ministre belge de la Défense conseille de fuir à toutes jambes une accolade électorale MAGA The post Analyse : Le rapprochement avec le mouvement MAGA a-t-il été fatal à Orbán ? appeared first on Euractiv FR .",
+        "lien": "https://euractiv.fr/news/analyse-le-rapprochement-avec-le-mouvement-maga-a-t-il-ete-fatal-a-orban/",
+        "date_iso": "2026-04-13T09:40:49+00:00",
+        "date_fr": "13/04/2026",
+        "pertinence": 0
       },
       {
         "source": "Le Monde Éco",
@@ -551,42 +587,6 @@
         "date_iso": "2026-04-12T19:41:55+02:00",
         "date_fr": "12/04/2026",
         "pertinence": 0
-      },
-      {
-        "source": "Le Figaro Éco",
-        "couleur": "#92400e",
-        "emoji": "📊",
-        "tag": "Presse économique",
-        "titre": "La moitié des Français pensent qu’il n’est pas possible de réduire la dette sans baisser les pensions de retraite",
-        "resume": "Ils sont par ailleurs majoritaires à considérer que le niveau de vie des actifs doit être supérieur à celui des retraités, selon un sondage Ifop pour Les Actifs anonymes, révélé par La Tribune Dimanche.",
-        "lien": "https://www.lefigaro.fr/social/retraite-la-moitie-des-francais-pensent-qu-il-n-est-pas-possible-de-reduire-la-dette-sans-baisser-les-pensions-de-retraite-20260412",
-        "date_iso": "2026-04-12T19:26:05+02:00",
-        "date_fr": "12/04/2026",
-        "pertinence": 2
-      },
-      {
-        "source": "Le Figaro Éco",
-        "couleur": "#92400e",
-        "emoji": "📊",
-        "tag": "Presse économique",
-        "titre": "1er Mai : les syndicats s’énervent, Matignon temporise",
-        "resume": "Dans un courrier adressé à Sébastien Lecornu, les huit principales organisations syndicales dénoncent le « passage en force » du texte à l’Assemblée nationale.",
-        "lien": "https://www.lefigaro.fr/conjoncture/1er-mai-les-syndicats-s-enervent-matignon-temporise-20260412",
-        "date_iso": "2026-04-12T18:43:30+02:00",
-        "date_fr": "12/04/2026",
-        "pertinence": 0
-      },
-      {
-        "source": "Le Figaro Éco",
-        "couleur": "#92400e",
-        "emoji": "📊",
-        "tag": "Presse économique",
-        "titre": "1er mai : quelles professions seraient concernées par l’élargissement de l’autorisation de travailler ?",
-        "resume": "Alors que les syndicats appellent l’exécutif à «respecter la démocratie sociale», Matignon compte sur une commission mixte paritaire pour faire passer le texte avant la fin du mois.",
-        "lien": "https://www.lefigaro.fr/social/1er-mai-quelles-professions-seraient-concernees-par-l-elargissement-de-l-autorisation-de-travailler-20260412",
-        "date_iso": "2026-04-12T18:17:07+02:00",
-        "date_fr": "12/04/2026",
-        "pertinence": 1
       }
     ]
   },
@@ -3792,7 +3792,7 @@
       "note_lecture": "Le TEC-10 mesure le rendement des emprunts d'Etat francais a 10 ans. Un taux eleve rencherit le cout de la dette publique et impacte les taux de credit immobilier."
     },
     "petrole_brent": {
-      "valeur": 102.89,
+      "valeur": 102.59,
       "date": "2026-04-13",
       "unite": "USD/baril",
       "source": "Yahoo Finance",
@@ -5300,16 +5300,16 @@
         },
         {
           "date": "2026-04-13",
-          "valeur": 102.89,
+          "valeur": 102.59,
           "ma50": 87.97,
           "ma200": 71.13
         }
       ],
       "variations": {
-        "jour": 8.08,
-        "semaine": -6.27,
-        "mois": 11.86,
-        "ytd": 69.37
+        "jour": 7.76,
+        "semaine": -6.54,
+        "mois": 11.54,
+        "ytd": 68.87
       },
       "min_max": {
         "min": 58.92,
@@ -5320,9 +5320,9 @@
       "note_lecture": "Le prix du Brent influence directement les couts de transport et d'energie, donc l'inflation et le pouvoir d'achat des salaries."
     },
     "cac40": {
-      "valeur": 8184.68,
+      "valeur": 8192.25,
       "date": "2026-04-13",
-      "variation_jour_pct": -0.91,
+      "variation_jour_pct": -0.82,
       "unite": "points",
       "source": "Yahoo Finance",
       "nb_points": 253,
@@ -6841,16 +6841,16 @@
         },
         {
           "date": "2026-04-13",
-          "valeur": 8184.68,
-          "ma50": 8136.59,
-          "ma200": 8015.27
+          "valeur": 8192.25,
+          "ma50": 8136.74,
+          "ma200": 8015.3
         }
       ],
       "variations": {
-        "jour": -0.91,
-        "semaine": 2.79,
-        "mois": 1.58,
-        "ytd": -0.13
+        "jour": -0.82,
+        "semaine": 2.89,
+        "mois": 1.67,
+        "ytd": -0.04
       },
       "min_max": {
         "min": 7273.12,
@@ -8425,7 +8425,7 @@
       "note_lecture": "Le taux de change euro-dollar determine le prix de tout ce qui est importe en dollars : petrole, matieres premieres, electronique. Un euro faible rencherit les importations et alimente l'inflation."
     },
     "or": {
-      "valeur": 4742.0,
+      "valeur": 4740.8,
       "date": "2026-04-13",
       "unite": "USD/oz",
       "source": "Yahoo Finance",
@@ -9933,16 +9933,16 @@
         },
         {
           "date": "2026-04-13",
-          "valeur": 4742.0,
-          "ma50": 4891.17,
-          "ma200": 4157.36
+          "valeur": 4740.8,
+          "ma50": 4891.14,
+          "ma200": 4157.35
         }
       ],
       "variations": {
-        "jour": -0.42,
-        "semaine": 1.83,
-        "mois": -8.23,
-        "ytd": 9.91
+        "jour": -0.44,
+        "semaine": 1.8,
+        "mois": -8.26,
+        "ytd": 9.88
       },
       "min_max": {
         "min": 3181.4,
@@ -11475,7 +11475,7 @@
       "note_lecture": "Le prix du gaz naturel (TTF europeen) impacte directement les factures de chauffage et d'electricite des menages, ainsi que les couts de production industrielle."
     },
     "ble": {
-      "valeur": 581.5,
+      "valeur": 582.25,
       "date": "2026-04-13",
       "unite": "cents/boisseau",
       "source": "Yahoo Finance",
@@ -12977,16 +12977,16 @@
         },
         {
           "date": "2026-04-13",
-          "valeur": 581.5,
-          "ma50": 575.09,
+          "valeur": 582.25,
+          "ma50": 575.1,
           "ma200": 534.76
         }
       ],
       "variations": {
-        "jour": 1.84,
-        "semaine": -2.31,
-        "mois": -1.19,
-        "ytd": 14.81
+        "jour": 1.97,
+        "semaine": -2.18,
+        "mois": -1.06,
+        "ytd": 14.96
       },
       "min_max": {
         "min": 495.0,
@@ -14525,7 +14525,7 @@
       "note_lecture": "Le cuivre est le baromètre de l'activité industrielle mondiale ('Dr Copper'). Sa hausse signale une reprise économique, sa baisse anticipe un ralentissement. Utilisé massivement dans l'électrification et les énergies renouvelables."
     },
     "lme_aluminium": {
-      "valeur": 3496.25,
+      "valeur": 3486.0,
       "date": "2026-04-13",
       "unite": "cts/lb",
       "source": "Yahoo Finance",
@@ -16027,21 +16027,21 @@
         },
         {
           "date": "2026-04-13",
-          "valeur": 3496.25,
-          "ma50": 3180.39,
-          "ma200": 2813.76
+          "valeur": 3486.0,
+          "ma50": 3180.18,
+          "ma200": 2813.71
         }
       ],
       "variations": {
-        "jour": 1.94,
-        "semaine": 2.17,
-        "mois": 3.76,
-        "ytd": 19.0
+        "jour": 1.64,
+        "semaine": 1.87,
+        "mois": 3.46,
+        "ytd": 18.65
       },
       "min_max": {
         "min": 2269.75,
         "min_date": "2025-05-07",
-        "max": 3496.25,
+        "max": 3486.0,
         "max_date": "2026-04-13"
       },
       "note_lecture": "L'aluminium est très présent dans l'automobile, l'aéronautique et le packaging. Son prix dépend fortement du coût de l'énergie (électrolyse très énergivore), ce qui en fait un indicateur des coûts industriels."
@@ -19836,7 +19836,7 @@
     "meta": {
       "source_effectifs": "DSN via kali-data",
       "source_grilles": "SocialGouv kali-data (extraction automatique)",
-      "date_generation": "2026-04-13T09:26:58.887752",
+      "date_generation": "2026-04-13T09:42:13.109959",
       "mode": "100pct_automatique",
       "note": "Extraction heuristique depuis textes juridiques KALI. Statut a_verifier si grille non extraite ou confidence < 55%."
     },
@@ -21892,7 +21892,7 @@
     "sources": "INSEE - Enquête Emploi, DARES"
   },
   "previsions_cftc": {
-    "generated_at": "2026-04-13T09:26:59.014626",
+    "generated_at": "2026-04-13T09:42:13.219504",
     "model_version": "CFTC v7.0 (bivarié Phillips + log-normale + pondération temporelle)",
     "n_simulations": 1000,
     "horizon": "12 mois",
@@ -21901,7 +21901,7 @@
       "niveau": "excellent",
       "issues": [],
       "warnings": [],
-      "timestamp": "2026-04-13T09:26:59.014641"
+      "timestamp": "2026-04-13T09:42:13.219515"
     },
     "calibrage": {
       "volatilites": {
@@ -21929,7 +21929,7 @@
       "lognormal_offset": 3.0
     },
     "market_signals": {
-      "inflation_adjustment": 0.128,
+      "inflation_adjustment": 0.125,
       "chomage_adjustment": 0.175,
       "energie_outlook": "hausse",
       "ponderation_temporelle": {
@@ -21941,10 +21941,10 @@
     },
     "market_signals_details": {
       "brent": {
-        "valeur": 102.89,
+        "valeur": 102.59,
         "ref": 75.0,
-        "variation_ytd_pct": 69.37,
-        "impact_inflation_pt": 0.279,
+        "variation_ytd_pct": 68.87,
+        "impact_inflation_pt": 0.276,
         "poids_temporel": 1.0
       },
       "gaz_ttf": {
@@ -21971,7 +21971,7 @@
         "signal": "baissier"
       },
       "cac40_ytd": {
-        "variation_ytd_pct": -0.13,
+        "variation_ytd_pct": -0.04,
         "signal_chomage": "neutre"
       },
       "carburants_sp95": {
@@ -22067,7 +22067,7 @@
           1.3,
           1.5,
           1.6,
-          1.7,
+          1.6,
           1.7,
           1.6,
           1.8,
@@ -22092,18 +22092,18 @@
         "methodology": "Monte Carlo bivarié (1000 sim.) + log-normale + Phillips ρ=-0.35 (v7)"
       },
       "probabilites": {
-        "inflation_sous_2pct": 89.2,
-        "inflation_cible_bce": 89.2,
+        "inflation_sous_2pct": 89.3,
+        "inflation_cible_bce": 89.3,
         "inflation_au_dessus_3pct": 0.0,
         "inflation_au_dessus_4pct": 0.0,
-        "description": "89.2% de chances que l'inflation reste sous 2% à 12 mois"
+        "description": "89.3% de chances que l'inflation reste sous 2% à 12 mois"
       },
       "facteurs": {
         "cible_bdf": 1.4,
         "ajustement_climat": -0.03,
-        "ajustement_marches": 0.128,
+        "ajustement_marches": 0.125,
         "energie_outlook": "hausse",
-        "cible_ajustee": 1.498,
+        "cible_ajustee": 1.495,
         "volatilite_utilisee": 0.5
       },
       "asymetrie_ic": {
@@ -22111,7 +22111,7 @@
         "queue_basse": 0.5,
         "ratio": 0.8
       },
-      "insight": "Inflation médiane à 12 mois : 1.6% [IC 80% : 1.1% - 2.0%]. Asymétrie : queue haute 0.4pt vs basse 0.5pt. 89.2% de probabilité de rester sous 2%."
+      "insight": "Inflation médiane à 12 mois : 1.6% [IC 80% : 1.1% - 2.0%]. Asymétrie : queue haute 0.4pt vs basse 0.5pt. 89.3% de probabilité de rester sous 2%."
     },
     "smic": {
       "current": {
@@ -22318,10 +22318,10 @@
       }
     },
     "notes_lecture": [
-      "📈 Inflation médiane à 12 mois : 1.6% [1.1% - 2.0%] — 89.2% de chances de rester sous 2% (asymétrie : +0.4pt / -0.5pt)",
+      "📈 Inflation médiane à 12 mois : 1.6% [1.1% - 2.0%] — 89.3% de chances de rester sous 2% (asymétrie : +0.4pt / -0.5pt)",
       "💰 SMIC janvier 2027 : 1859€ brut (+2.0%, fourchette 1.6-2.4%) — Pouvoir d'achat réel : +0.4% (+7€/mois)",
       "👥 Chômage Q4 : 7.8% [7.6% - 7.9%] — Tendance stable (corrélé Phillips ρ=-0.35)",
-      "📊 Signaux marchés : ↑ inflation 0.13pt, ↑ chômage 0.17pt, (poids temporel min : 0.86)",
+      "📊 Signaux marchés : ↑ inflation 0.12pt, ↑ chômage 0.17pt, (poids temporel min : 0.86)",
       "🎲 Scénario à surveiller : 🚀 Reprise économique forte (25%)",
       "💡 Recommandation NAO : demander au minimum +2.1% pour préserver le pouvoir d'achat"
     ],
@@ -22346,7 +22346,7 @@
           }
         },
         "contribution_mediane": {
-          "signaux_marches_pt": 0.128,
+          "signaux_marches_pt": 0.125,
           "incertitude_bdf_sigma": 0.15,
           "label": "Déplacement de la prévision centrale"
         }
