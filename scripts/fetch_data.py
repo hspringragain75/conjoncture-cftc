@@ -253,16 +253,15 @@ def fetch_dares_all_records(dataset_id):
             break
     
     return all_records
-
-def build_deciles_salaires_prives_data():
     
+def build_deciles_salaires_prives_data():
     print("📊 Déciles salaires secteur privé (INSEE BTS)...")
 
     default_derniere = {
         "annee": "2022",
-        "d1": 14940,   # ~1 245€/mois
-        "d5": 24960,   # ~2 080€/mois
-        "d9": 48480,   # ~4 040€/mois
+        "d1": 14940,
+        "d5": 24960,
+        "d9": 48480,
     }
     default_interdecile = [
         {"annee": "2015", "d9_d1": 3.29, "d5_d1": 1.68},
@@ -280,17 +279,17 @@ def build_deciles_salaires_prives_data():
         {"annee": "2021", "d1": 14760, "d5": 24480, "d9": 47640},
         {"annee": "2022", "d1": 14940, "d5": 24960, "d9": 48480},
     ]
- 
-    d1_raw  = get_annual_values(SERIES_IDS["decile_d1_prive"],  2015)
-    d5_raw  = get_annual_values(SERIES_IDS["decile_d5_prive"],  2015)
-    d9_raw  = get_annual_values(SERIES_IDS["decile_d9_prive"],  2015)
-    r_d9d1  = get_annual_values(SERIES_IDS["interdecile_d9d1"], 2015)
-    r_d5d1  = get_annual_values(SERIES_IDS["interdecile_d5d1"], 2015)
- 
+
+    d1_raw = get_annual_values(SERIES_IDS["decile_d1_prive"], 2015)
+    d5_raw = get_annual_values(SERIES_IDS["decile_d5_prive"], 2015)
+    d9_raw = get_annual_values(SERIES_IDS["decile_d9_prive"], 2015)
+    r_d9d1 = get_annual_values(SERIES_IDS["interdecile_d9d1"], 2015)
+    r_d5d1 = get_annual_values(SERIES_IDS["interdecile_d5d1"], 2015)
+
     evolution = default_evolution
     interdecile = default_interdecile
     derniere_annee = default_derniere
- 
+
     if d1_raw and d5_raw and d9_raw:
         d1_dict = {e["annee"]: e["valeur"] for e in d1_raw}
         d5_dict = {e["annee"]: e["valeur"] for e in d5_raw}
@@ -307,11 +306,16 @@ def build_deciles_salaires_prives_data():
         ]
         if evolution:
             last = evolution[-1]
-            derniere_annee = {"annee": last["annee"], "d1": last["d1"], "d5": last["d5"], "d9": last["d9"]}
+            derniere_annee = {
+                "annee": last["annee"],
+                "d1": last["d1"],
+                "d5": last["d5"],
+                "d9": last["d9"],
+            }
             print(f"  ✓ {len(evolution)} années déciles — D1:{last['d1']}€ D5:{last['d5']}€ D9:{last['d9']}€ ({last['annee']})")
     else:
         print("  ⚠️ Déciles secteur privé : données par défaut")
- 
+
     if r_d9d1 and r_d5d1:
         r9_dict = {e["annee"]: e["valeur"] for e in r_d9d1}
         r5_dict = {e["annee"]: e["valeur"] for e in r_d5d1}
@@ -323,21 +327,23 @@ def build_deciles_salaires_prives_data():
         print(f"  ✓ {len(interdecile)} années rapports interdécile")
     else:
         print("  ⚠️ Rapports interdécile : données par défaut")
- 
+
     return {
-        "derniere_annee":  derniere_annee,
-        "evolution":       evolution,
-        "interdecile":     interdecile,
-        "source":          "INSEE — Base Tous Salariés (BTS)",
-        "note":            "Salaire net annuel en équivalent temps plein (EQTP). "
-                           "Secteur privé, ensemble des salariés. "
-                           "Publication annuelle (octobre N+1).",
+        "derniere_annee": derniere_annee,
+        "evolution": evolution,
+        "interdecile": interdecile,
+        "source": "INSEE — Base Tous Salariés (BTS)",
+        "note": (
+            "Salaire net annuel en équivalent temps plein (EQTP). "
+            "Secteur privé, ensemble des salariés. "
+            "Publication annuelle (octobre N+1)."
+        ),
     }
- 
- 
- def build_indices_fp_data():
+
+
+def build_indices_fp_data():
     print("📊 Indices grille indiciaire Fonction Publique (INSEE)...")
- 
+
     default_evolution = [
         {"annee": "2000", "ensemble": 100.0, "cat_a": 100.0, "cat_b": 100.0, "cat_c": 100.0},
         {"annee": "2005", "ensemble": 109.5, "cat_a": 108.2, "cat_b": 110.1, "cat_c": 112.3},
@@ -350,13 +356,13 @@ def build_deciles_salaires_prives_data():
         {"annee": "2022", "ensemble": 130.2, "cat_a": 127.8, "cat_b": 131.5, "cat_c": 136.2},
         {"annee": "2023", "ensemble": 136.5, "cat_a": 134.1, "cat_b": 138.0, "cat_c": 142.3},
         {"annee": "2024", "ensemble": 139.8, "cat_a": 137.2, "cat_b": 141.5, "cat_c": 146.0},
-        ]
- 
-        ens_raw   = get_annual_values(SERIES_IDS["itb_ensemble"], 2000)
-        cat_a_raw = get_annual_values(SERIES_IDS["itb_cat_a"],    2000)
-        cat_b_raw = get_annual_values(SERIES_IDS["itb_cat_b"],    2000)
-        cat_c_raw = get_annual_values(SERIES_IDS["itb_cat_c"],    2000)
- 
+    ]
+
+    ens_raw = get_annual_values(SERIES_IDS["itb_ensemble"], 2000)
+    cat_a_raw = get_annual_values(SERIES_IDS["itb_cat_a"], 2000)
+    cat_b_raw = get_annual_values(SERIES_IDS["itb_cat_b"], 2000)
+    cat_c_raw = get_annual_values(SERIES_IDS["itb_cat_c"], 2000)
+
     if ens_raw and cat_a_raw and cat_b_raw and cat_c_raw:
         e_dict = {e["annee"]: e["valeur"] for e in ens_raw}
         a_dict = {e["annee"]: e["valeur"] for e in cat_a_raw}
@@ -365,28 +371,33 @@ def build_deciles_salaires_prives_data():
         annees = sorted(set(e_dict) & set(a_dict) & set(b_dict) & set(c_dict))
         evolution = [
             {
-                "annee":    a,
+                "annee": a,
                 "ensemble": round(e_dict[a], 1),
-                "cat_a":    round(a_dict[a], 1),
-                "cat_b":    round(b_dict[a], 1),
-                "cat_c":    round(c_dict[a], 1),
+                "cat_a": round(a_dict[a], 1),
+                "cat_b": round(b_dict[a], 1),
+                "cat_c": round(c_dict[a], 1),
             }
             for a in annees
         ]
         last = evolution[-1] if evolution else {}
-        print(f"  ✓ {len(evolution)} années indices FP — Ens:{last.get('ensemble')} A:{last.get('cat_a')} B:{last.get('cat_b')} C:{last.get('cat_c')} ({last.get('annee')})")
-    return {
+        print(
+            f"  ✓ {len(evolution)} années indices FP — "
+            f"Ens:{last.get('ensemble')} A:{last.get('cat_a')} "
+            f"B:{last.get('cat_b')} C:{last.get('cat_c')} ({last.get('annee')})"
+        )
+        return {
             "evolution": evolution,
-            "source":    "INSEE — Indices traitement brut grille indiciaire (base 100 en 2000)",
-            "note":      "Séries BDM 001572130-33. Couvre les trois versants de la FP.",
+            "source": "INSEE — Indices traitement brut grille indiciaire (base 100 en 2000)",
+            "note": "Séries BDM 001572130-33. Couvre les trois versants de la FP.",
         }
- 
-        print("  ⚠️ Indices FP : données par défaut")
+
+    print("  ⚠️ Indices FP : données par défaut")
     return {
         "evolution": default_evolution,
-        "source":    "INSEE — Indices traitement brut grille indiciaire (base 100 en 2000)",
-        "note":      "Données par défaut (API indisponible).",
+        "source": "INSEE — Indices traitement brut grille indiciaire (base 100 en 2000)",
+        "note": "Données par défaut (API indisponible).",
     }
+
 # ============================================================================
 # CONSTRUCTION DES DONNÉES - EMPLOIS VACANTS DARES
 # ============================================================================
