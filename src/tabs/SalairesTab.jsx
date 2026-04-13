@@ -91,7 +91,7 @@ export default function SalairesTab({d, darkMode, fp={}}) {
       </Card>
 
       {/* ══════════════════════════════════════════════════════════════════════
-          2. Salaire médian (graphique) + Écart H/F
+          2. Salaire médian + Fonction Publique ITB
       ══════════════════════════════════════════════════════════════════════ */}
 
       <Card title="💰 Salaire médian net" darkMode={darkMode} favoriId="salaire_median" isFavori={fp.isFavori?.("salaire_median")} toggleFavori={fp.toggleFavori}>
@@ -106,36 +106,6 @@ export default function SalairesTab({d, darkMode, fp={}}) {
         </ResponsiveContainer>
         <p className="text-center text-xl font-bold text-green-600 mt-2">{d.salaire_median.montant_2024}€</p>
       </Card>
-
-      <Card title="👫 Écart H/F (EQTP)" darkMode={darkMode}>
-        <div className="grid grid-cols-3 gap-2 mb-3">
-          <div className={`text-center p-3 rounded-lg ${darkMode ? 'bg-pink-900/30' : 'bg-pink-50'}`}>
-            <p className={`text-xs mb-1 ${darkMode ? 'text-gray-400' : 'text-gray-500'}`}>Écart global</p>
-            <p className="text-xl font-bold text-pink-600">{d.ecart_hommes_femmes.ecart_global}%</p>
-          </div>
-          <div className={`text-center p-3 rounded-lg ${darkMode ? 'bg-pink-900/20' : 'bg-pink-50/60'}`}>
-            <p className={`text-xs mb-1 ${darkMode ? 'text-gray-400' : 'text-gray-500'}`}>EQTP</p>
-            <p className="text-xl font-bold text-pink-500">{d.ecart_hommes_femmes.ecart_eqtp}%</p>
-          </div>
-          <div className={`text-center p-3 rounded-lg ${darkMode ? 'bg-green-900/30' : 'bg-green-50'}`}>
-            <p className={`text-xs mb-1 ${darkMode ? 'text-gray-400' : 'text-gray-500'}`}>Poste égal</p>
-            <p className="text-xl font-bold text-green-600">{d.ecart_hommes_femmes.ecart_poste_comparable}%</p>
-          </div>
-        </div>
-        <ResponsiveContainer width="100%" height={165}>
-          <LineChart data={d.ecart_hommes_femmes.evolution}>
-            <CartesianGrid {...chartProps.cartesianGrid} />
-            <XAxis dataKey="annee" {...chartProps.xAxis} fontSize={11} />
-            <YAxis {...chartProps.yAxis} domain={[10,20]} fontSize={11} />
-            <Tooltip {...chartProps.tooltip} formatter={v=>`${v}%`} />
-            <Line strokeLinecap="round" strokeLinejoin="round" dataKey="ecart" stroke={C.pink} strokeWidth={3} dot={false} />
-          </LineChart>
-        </ResponsiveContainer>
-      </Card>
-
-      {/* ══════════════════════════════════════════════════════════════════════
-          3. Fonction Publique ITB + Inégalités salariales
-      ══════════════════════════════════════════════════════════════════════ */}
 
       {fp_data && (
         <Card
@@ -186,6 +156,10 @@ export default function SalairesTab({d, darkMode, fp={}}) {
         </Card>
       )}
 
+      {/* ══════════════════════════════════════════════════════════════════════
+          3. Inégalités salariales + Écart H/F
+      ══════════════════════════════════════════════════════════════════════ */}
+
       {interdecile && interdecile.length > 0 && (
         <Card
           title="⚖️ Inégalités salariales (secteur privé)"
@@ -227,6 +201,32 @@ export default function SalairesTab({d, darkMode, fp={}}) {
           </p>
         </Card>
       )}
+
+      <Card title="👫 Écart H/F (EQTP)" darkMode={darkMode}>
+        <div className="grid grid-cols-3 gap-2 mb-3">
+          <div className={`text-center p-3 rounded-lg ${darkMode ? 'bg-pink-900/30' : 'bg-pink-50'}`}>
+            <p className={`text-xs mb-1 ${darkMode ? 'text-gray-400' : 'text-gray-500'}`}>Écart global</p>
+            <p className="text-xl font-bold text-pink-600">{d.ecart_hommes_femmes.ecart_global}%</p>
+          </div>
+          <div className={`text-center p-3 rounded-lg ${darkMode ? 'bg-pink-900/20' : 'bg-pink-50/60'}`}>
+            <p className={`text-xs mb-1 ${darkMode ? 'text-gray-400' : 'text-gray-500'}`}>EQTP</p>
+            <p className="text-xl font-bold text-pink-500">{d.ecart_hommes_femmes.ecart_eqtp}%</p>
+          </div>
+          <div className={`text-center p-3 rounded-lg ${darkMode ? 'bg-green-900/30' : 'bg-green-50'}`}>
+            <p className={`text-xs mb-1 ${darkMode ? 'text-gray-400' : 'text-gray-500'}`}>Poste égal</p>
+            <p className="text-xl font-bold text-green-600">{d.ecart_hommes_femmes.ecart_poste_comparable}%</p>
+          </div>
+        </div>
+        <ResponsiveContainer width="100%" height={165}>
+          <LineChart data={d.ecart_hommes_femmes.evolution}>
+            <CartesianGrid {...chartProps.cartesianGrid} />
+            <XAxis dataKey="annee" {...chartProps.xAxis} fontSize={11} />
+            <YAxis {...chartProps.yAxis} domain={[10,20]} fontSize={11} />
+            <Tooltip {...chartProps.tooltip} formatter={v=>`${v}%`} />
+            <Line strokeLinecap="round" strokeLinejoin="round" dataKey="ecart" stroke={C.pink} strokeWidth={3} dot={false} />
+          </LineChart>
+        </ResponsiveContainer>
+      </Card>
 
       {/* ══════════════════════════════════════════════════════════════════════
           4. Salaires par secteur + PPV (secondaires)
