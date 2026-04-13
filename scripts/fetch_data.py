@@ -254,58 +254,8 @@ def fetch_dares_all_records(dataset_id):
     
     return all_records
 
-
-# ============================================================================
-# CONSTRUCTION DES DONNÉES - EMPLOIS VACANTS DARES
-# ============================================================================
-
-def build_emplois_vacants_data():
-    """
-    Construit les données d'emplois vacants (brutes) depuis l'API DARES
+def build_deciles_salaires_prives_data():
     
-    Datasets utilisés:
-    - dares_emploivacants_brut_emploisvacants : Nombre d'emplois vacants
-    - dares_emploivacants_brut_emploisoccupes : Nombre d'emplois occupés
-    
-    Retourne les données agrégées par trimestre pour l'ensemble des secteurs
-    """
-    print("📊 Récupération des données DARES - Emplois vacants...")
-    
-    # Données par défaut en cas d'échec API
-    default_data = {
-        "emplois_vacants": [
-            {"trimestre": "T1 2023", "valeur": 355000, "secteur": "Ensemble"},
-            {"trimestre": "T2 2023", "valeur": 360000, "secteur": "Ensemble"},
-            {"trimestre": "T3 2023", "valeur": 352000, "secteur": "Ensemble"},
-            {"trimestre": "T4 2023", "valeur": 348000, "secteur": "Ensemble"},
-            {"trimestre": "T1 2024", "valeur": 342000, "secteur": "Ensemble"},
-            {"trimestre": "T2 2024", "valeur": 338000, "secteur": "Ensemble"},
-            {"trimestre": "T3 2024", "valeur": 335000, "secteur": "Ensemble"},
-            {"trimestre": "T4 2024", "valeur": 330000, "secteur": "Ensemble"},
-        ],
-        "emplois_occupes": [
-            {"trimestre": "T1 2023", "valeur": 20150000, "secteur": "Ensemble"},
-            {"trimestre": "T2 2023", "valeur": 20200000, "secteur": "Ensemble"},
-            {"trimestre": "T3 2023", "valeur": 20180000, "secteur": "Ensemble"},
-            {"trimestre": "T4 2023", "valeur": 20220000, "secteur": "Ensemble"},
-            {"trimestre": "T1 2024", "valeur": 20250000, "secteur": "Ensemble"},
-            {"trimestre": "T2 2024", "valeur": 20280000, "secteur": "Ensemble"},
-            {"trimestre": "T3 2024", "valeur": 20300000, "secteur": "Ensemble"},
-            {"trimestre": "T4 2024", "valeur": 20320000, "secteur": "Ensemble"},
-        ],
-        "taux_vacance": [
-            {"trimestre": "T1 2023", "taux": 1.76},
-            {"trimestre": "T2 2023", "taux": 1.78},
-            {"trimestre": "T3 2023", "taux": 1.74},
-            {"trimestre": "T4 2023", "taux": 1.72},
-            {"trimestre": "T1 2024", "taux": 1.69},
-            {"trimestre": "T2 2024", "taux": 1.67},
-            {"trimestre": "T3 2024", "taux": 1.65},
-            {"trimestre": "T4 2024", "taux": 1.62},
-        ]
-    }
-    
-    def build_deciles_salaires_prives_data():
     print("📊 Déciles salaires secteur privé (INSEE BTS)...")
 
     default_derniere = {
@@ -436,6 +386,55 @@ def build_emplois_vacants_data():
         "evolution": default_evolution,
         "source":    "INSEE — Indices traitement brut grille indiciaire (base 100 en 2000)",
         "note":      "Données par défaut (API indisponible).",
+    }
+# ============================================================================
+# CONSTRUCTION DES DONNÉES - EMPLOIS VACANTS DARES
+# ============================================================================
+
+def build_emplois_vacants_data():
+    """
+    Construit les données d'emplois vacants (brutes) depuis l'API DARES
+    
+    Datasets utilisés:
+    - dares_emploivacants_brut_emploisvacants : Nombre d'emplois vacants
+    - dares_emploivacants_brut_emploisoccupes : Nombre d'emplois occupés
+    
+    Retourne les données agrégées par trimestre pour l'ensemble des secteurs
+    """
+    print("📊 Récupération des données DARES - Emplois vacants...")
+    
+    # Données par défaut en cas d'échec API
+    default_data = {
+        "emplois_vacants": [
+            {"trimestre": "T1 2023", "valeur": 355000, "secteur": "Ensemble"},
+            {"trimestre": "T2 2023", "valeur": 360000, "secteur": "Ensemble"},
+            {"trimestre": "T3 2023", "valeur": 352000, "secteur": "Ensemble"},
+            {"trimestre": "T4 2023", "valeur": 348000, "secteur": "Ensemble"},
+            {"trimestre": "T1 2024", "valeur": 342000, "secteur": "Ensemble"},
+            {"trimestre": "T2 2024", "valeur": 338000, "secteur": "Ensemble"},
+            {"trimestre": "T3 2024", "valeur": 335000, "secteur": "Ensemble"},
+            {"trimestre": "T4 2024", "valeur": 330000, "secteur": "Ensemble"},
+        ],
+        "emplois_occupes": [
+            {"trimestre": "T1 2023", "valeur": 20150000, "secteur": "Ensemble"},
+            {"trimestre": "T2 2023", "valeur": 20200000, "secteur": "Ensemble"},
+            {"trimestre": "T3 2023", "valeur": 20180000, "secteur": "Ensemble"},
+            {"trimestre": "T4 2023", "valeur": 20220000, "secteur": "Ensemble"},
+            {"trimestre": "T1 2024", "valeur": 20250000, "secteur": "Ensemble"},
+            {"trimestre": "T2 2024", "valeur": 20280000, "secteur": "Ensemble"},
+            {"trimestre": "T3 2024", "valeur": 20300000, "secteur": "Ensemble"},
+            {"trimestre": "T4 2024", "valeur": 20320000, "secteur": "Ensemble"},
+        ],
+        "taux_vacance": [
+            {"trimestre": "T1 2023", "taux": 1.76},
+            {"trimestre": "T2 2023", "taux": 1.78},
+            {"trimestre": "T3 2023", "taux": 1.74},
+            {"trimestre": "T4 2023", "taux": 1.72},
+            {"trimestre": "T1 2024", "taux": 1.69},
+            {"trimestre": "T2 2024", "taux": 1.67},
+            {"trimestre": "T3 2024", "taux": 1.65},
+            {"trimestre": "T4 2024", "taux": 1.62},
+        ]
     }
     
     # Récupération des emplois vacants
