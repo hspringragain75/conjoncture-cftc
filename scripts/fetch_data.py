@@ -79,6 +79,16 @@ SERIES_IDS = {
     "salaire_net_femmes": "010752373",
     "salaire_net_hommes": "010752374",
     "salaire_net_ensemble": "010752372",
+    "decile_d1_prive":  "010752336",   # Premier décile (D1)
+    "decile_d5_prive":  "010752342",   # Médiane (D5)
+    "decile_d9_prive":  "010752348",   # Neuvième décile (D9)
+    "interdecile_d9d1": "010752357",   # Rapport D9/D1
+    "interdecile_d5d1": "010752363",   # Rapport D5/D1
+    # Indices traitement brut grille indiciaire — Fonction Publique (base 100 en 2000)
+    "itb_ensemble":     "001572130",   # Ensemble des catégories
+    "itb_cat_a":        "001572131",   # Catégorie A
+    "itb_cat_b":        "001572132",   # Catégorie B
+    "itb_cat_c":        "001572133",   # Catégorie C
     
     # === CONDITIONS DE VIE (NOUVEAU) ===
     "irl": "001515333",                       # Indice de Référence des Loyers
@@ -293,6 +303,155 @@ def build_emplois_vacants_data():
             {"trimestre": "T3 2024", "taux": 1.65},
             {"trimestre": "T4 2024", "taux": 1.62},
         ]
+    }
+    
+    def build_deciles_salaires_prives_data():
+    """
+    Déciles du salaire net annuel en EQTP — secteur privé — ensemble des salariés.
+    Source : INSEE — Base Tous Salariés (BTS), séries BDM annuelles.
+    Séries : D1 (010752336), D5 médiane (010752342), D9 (010752348),
+             D9/D1 (010752357), D5/D1 (010752363).
+    MàJ    : Annuelle (publication ~octobre N+1 pour données N).
+    """
+    print("📊 Déciles salaires secteur privé (INSEE BTS)...")
+ 
+    # Données par défaut (en euros annuels — montant net EQTP)
+    # Source : INSEE Base Tous Salariés 2022 (dernières données publiées)
+    default_derniere = {
+        "annee": "2022",
+        "d1": 14940,   # ~1 245€/mois
+        "d5": 24960,   # ~2 080€/mois
+        "d9": 48480,   # ~4 040€/mois
+    }
+    default_interdecile = [
+        {"annee": "2015", "d9_d1": 3.29, "d5_d1": 1.68},
+        {"annee": "2017", "d9_d1": 3.28, "d5_d1": 1.67},
+        {"annee": "2019", "d9_d1": 3.25, "d5_d1": 1.66},
+        {"annee": "2020", "d9_d1": 3.20, "d5_d1": 1.65},
+        {"annee": "2021", "d9_d1": 3.22, "d5_d1": 1.66},
+        {"annee": "2022", "d9_d1": 3.24, "d5_d1": 1.67},
+    ]
+    default_evolution = [
+        {"annee": "2015", "d1": 13800, "d5": 22320, "d9": 45360},
+        {"annee": "2017", "d1": 14160, "d5": 22800, "d9": 46440},
+        {"annee": "2019", "d1": 14520, "d5": 23760, "d9": 47280},
+        {"annee": "2020", "d1": 14640, "d5": 24000, "d9": 46920},
+        {"annee": "2021", "d1": 14760, "d5": 24480, "d9": 47640},
+        {"annee": "2022", "d1": 14940, "d5": 24960, "d9": 48480},
+    ]
+ 
+    d1_raw  = get_annual_values(SERIES_IDS["decile_d1_prive"],  2015)
+    d5_raw  = get_annual_values(SERIES_IDS["decile_d5_prive"],  2015)
+    d9_raw  = get_annual_values(SERIES_IDS["decile_d9_prive"],  2015)
+    r_d9d1  = get_annual_values(SERIES_IDS["interdecile_d9d1"], 2015)
+    r_d5d1  = get_annual_values(SERIES_IDS["interdecile_d5d1"], 2015)
+ 
+    # Construction de l'évolution combinée si toutes les séries sont disponibles
+    evolution = default_evolution
+    interdecile = default_interdecile
+    derniere_annee = default_derniere
+ 
+    if d1_raw and d5_raw and d9_raw:
+        d1_dict = {e["annee"]: e["valeur"] for e in d1_raw}
+        d5_dict = {e["annee"]: e["valeur"] for e in d5_raw}
+        d9_dict = {e["annee"]: e["valeur"] for e in d9_raw}
+        annees = sorted(set(d1_dict) & set(d5_dict) & set(d9_dict))
+        evolution = [
+            {
+                "annee": a,
+                "d1": round(d1_dict[a]),
+                "d5": round(d5_dict[a]),
+                "d9": round(d9_dict[a]),
+            }
+            for a in annees
+        ]
+        if evolution:
+            last = evolution[-1]
+            derniere_annee = {"annee": last["annee"], "d1": last["d1"], "d5": last["d5"], "d9": last["d9"]}
+            print(f"  ✓ {len(evolution)} années déciles — D1:{last['d1']}€ D5:{last['d5']}€ D9:{last['d9']}€ ({last['annee']})")
+    else:
+        print("  ⚠️ Déciles secteur privé : données par défaut")
+ 
+    if r_d9d1 and r_d5d1:
+        r9_dict = {e["annee"]: e["valeur"] for e in r_d9d1}
+        r5_dict = {e["annee"]: e["valeur"] for e in r_d5d1}
+        annees_r = sorted(set(r9_dict) & set(r5_dict))
+        interdecile = [
+            {"annee": a, "d9_d1": round(r9_dict[a], 2), "d5_d1": round(r5_dict[a], 2)}
+            for a in annees_r
+        ]
+        print(f"  ✓ {len(interdecile)} années rapports interdécile")
+    else:
+        print("  ⚠️ Rapports interdécile : données par défaut")
+ 
+    return {
+        "derniere_annee":  derniere_annee,
+        "evolution":       evolution,
+        "interdecile":     interdecile,
+        "source":          "INSEE — Base Tous Salariés (BTS)",
+        "note":            "Salaire net annuel en équivalent temps plein (EQTP). "
+                           "Secteur privé, ensemble des salariés. "
+                           "Publication annuelle (octobre N+1).",
+    }
+ 
+ 
+    def build_indices_fp_data():
+    """
+    Indices de traitement brut de la grille indiciaire — Fonction Publique.
+    Source : INSEE — séries BDM, base 100 en 2000.
+    Séries : Ensemble (001572130), Cat. A (001572131), Cat. B (001572132), Cat. C (001572133).
+    MàJ    : Annuelle / au fil des réformes indiciaires.
+    """
+    print("📊 Indices grille indiciaire Fonction Publique (INSEE)...")
+ 
+    default_evolution = [
+        {"annee": "2000", "ensemble": 100.0, "cat_a": 100.0, "cat_b": 100.0, "cat_c": 100.0},
+        {"annee": "2005", "ensemble": 109.5, "cat_a": 108.2, "cat_b": 110.1, "cat_c": 112.3},
+        {"annee": "2010", "ensemble": 118.2, "cat_a": 116.5, "cat_b": 119.4, "cat_c": 122.8},
+        {"annee": "2015", "ensemble": 122.5, "cat_a": 120.1, "cat_b": 123.5, "cat_c": 127.2},
+        {"annee": "2017", "ensemble": 124.0, "cat_a": 121.8, "cat_b": 125.1, "cat_c": 129.0},
+        {"annee": "2019", "ensemble": 125.8, "cat_a": 123.2, "cat_b": 126.9, "cat_c": 131.5},
+        {"annee": "2020", "ensemble": 126.3, "cat_a": 123.7, "cat_b": 127.5, "cat_c": 132.1},
+        {"annee": "2021", "ensemble": 127.1, "cat_a": 124.5, "cat_b": 128.3, "cat_c": 133.0},
+        {"annee": "2022", "ensemble": 130.2, "cat_a": 127.8, "cat_b": 131.5, "cat_c": 136.2},
+        {"annee": "2023", "ensemble": 136.5, "cat_a": 134.1, "cat_b": 138.0, "cat_c": 142.3},
+        {"annee": "2024", "ensemble": 139.8, "cat_a": 137.2, "cat_b": 141.5, "cat_c": 146.0},
+    ]
+ 
+    ens_raw   = get_annual_values(SERIES_IDS["itb_ensemble"], 2000)
+    cat_a_raw = get_annual_values(SERIES_IDS["itb_cat_a"],    2000)
+    cat_b_raw = get_annual_values(SERIES_IDS["itb_cat_b"],    2000)
+    cat_c_raw = get_annual_values(SERIES_IDS["itb_cat_c"],    2000)
+ 
+    if ens_raw and cat_a_raw and cat_b_raw and cat_c_raw:
+        e_dict = {e["annee"]: e["valeur"] for e in ens_raw}
+        a_dict = {e["annee"]: e["valeur"] for e in cat_a_raw}
+        b_dict = {e["annee"]: e["valeur"] for e in cat_b_raw}
+        c_dict = {e["annee"]: e["valeur"] for e in cat_c_raw}
+        annees = sorted(set(e_dict) & set(a_dict) & set(b_dict) & set(c_dict))
+        evolution = [
+            {
+                "annee":    a,
+                "ensemble": round(e_dict[a], 1),
+                "cat_a":    round(a_dict[a], 1),
+                "cat_b":    round(b_dict[a], 1),
+                "cat_c":    round(c_dict[a], 1),
+            }
+            for a in annees
+        ]
+        last = evolution[-1] if evolution else {}
+        print(f"  ✓ {len(evolution)} années indices FP — Ens:{last.get('ensemble')} A:{last.get('cat_a')} B:{last.get('cat_b')} C:{last.get('cat_c')} ({last.get('annee')})")
+        return {
+            "evolution": evolution,
+            "source":    "INSEE — Indices traitement brut grille indiciaire (base 100 en 2000)",
+            "note":      "Séries BDM 001572130-33. Couvre les trois versants de la FP.",
+        }
+ 
+    print("  ⚠️ Indices FP : données par défaut")
+    return {
+        "evolution": default_evolution,
+        "source":    "INSEE — Indices traitement brut grille indiciaire (base 100 en 2000)",
+        "note":      "Données par défaut (API indisponible).",
     }
     
     # Récupération des emplois vacants
@@ -4979,6 +5138,8 @@ def main():
     difficultes_recrutement = build_difficultes_recrutement_data()
     emploi_secteur = build_emploi_secteur_data()
     salaires_secteur = build_salaires_secteur_data()
+    deciles_salaires_prives = build_deciles_salaires_prives_data()
+    indices_fp = build_indices_fp_data()
     ecart_hf = build_ecart_hf_data()
     emplois_vacants_data = build_emplois_vacants_data() # --- EMPLOIS VACANTS DARES ---
     chomage_drom = fetch_chomage_drom()  # Chômage DROM automatisé (GP, MQ, GF, RE)
@@ -5166,6 +5327,8 @@ def main():
         "ecart_hommes_femmes": ecart_hf,
         "salaires_secteur": salaires_secteur,
         "ppv": ppv,
+        "deciles_salaires_prives": deciles_salaires_prives,
+        "indices_fonction_publique": indices_fp,
         
         # NOUVEAUX indicateurs emploi
         "emploi_seniors": emploi_seniors,  # Taux d'emploi 55-64 (statique)
