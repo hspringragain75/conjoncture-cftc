@@ -134,50 +134,8 @@ export default function SalairesTab({d, darkMode, fp={}}) {
       </Card>
 
       {/* ══════════════════════════════════════════════════════════════════════
-          3. Inégalités salariales + Fonction Publique ITB
+          3. Fonction Publique ITB + Inégalités salariales
       ══════════════════════════════════════════════════════════════════════ */}
-
-      {interdecile && interdecile.length > 0 && (
-        <Card
-          title="⚖️ Inégalités salariales (secteur privé)"
-          darkMode={darkMode}
-          favoriId="interdecile_salaires"
-          isFavori={fp.isFavori?.("interdecile_salaires")}
-          toggleFavori={fp.toggleFavori}
-        >
-          {(() => {
-            const last = interdecile[interdecile.length - 1];
-            return (
-              <div className="grid grid-cols-2 gap-2 mb-3">
-                <div className={`text-center p-3 rounded-lg ${darkMode ? 'bg-red-900/30' : 'bg-red-50'}`}>
-                  <p className={`text-xs mb-1 ${darkMode ? 'text-gray-400' : 'text-gray-500'}`}>Ratio D9/D1</p>
-                  <p className="text-xl font-bold text-red-500">{last?.d9_d1?.toFixed(2) ?? '—'}</p>
-                  <p className={`text-xs ${darkMode ? 'text-gray-500' : 'text-gray-400'}`}>({last?.annee})</p>
-                </div>
-                <div className={`text-center p-3 rounded-lg ${darkMode ? 'bg-amber-900/30' : 'bg-amber-50'}`}>
-                  <p className={`text-xs mb-1 ${darkMode ? 'text-gray-400' : 'text-gray-500'}`}>Ratio D5/D1</p>
-                  <p className="text-xl font-bold text-amber-500">{last?.d5_d1?.toFixed(2) ?? '—'}</p>
-                  <p className={`text-xs ${darkMode ? 'text-gray-500' : 'text-gray-400'}`}>({last?.annee})</p>
-                </div>
-              </div>
-            );
-          })()}
-          <ResponsiveContainer width="100%" height={175}>
-            <LineChart data={interdecile}>
-              <CartesianGrid {...chartProps.cartesianGrid} />
-              <XAxis dataKey="annee" {...chartProps.xAxis} fontSize={11} />
-              <YAxis {...chartProps.yAxis} fontSize={11} domain={['auto','auto']} />
-              <Tooltip {...chartProps.tooltip} formatter={(v, name) => [v?.toFixed(2), name]} />
-              <Legend wrapperStyle={{ fontSize: 11 }} />
-              <Line type="monotone" dataKey="d9_d1" stroke={C.secondary}  strokeWidth={2.5} dot={false} name="D9/D1" />
-              <Line type="monotone" dataKey="d5_d1" stroke={C.quaternary} strokeWidth={2}   dot={false} name="D5/D1" />
-            </LineChart>
-          </ResponsiveContainer>
-          <p className={`text-xs text-center mt-1 ${darkMode ? 'text-gray-500' : 'text-gray-400'}`}>
-            D9/D1 élevé = inégalités fortes · Source INSEE Base Tous Salariés
-          </p>
-        </Card>
-      )}
 
       {fp_data && (
         <Card
@@ -224,6 +182,48 @@ export default function SalairesTab({d, darkMode, fp={}}) {
           </ResponsiveContainer>
           <p className={`text-xs text-center mt-1 ${darkMode ? 'text-gray-500' : 'text-gray-400'}`}>
             Indice grille indiciaire — base 100 en 2000 · Source INSEE BDM 001572130-33
+          </p>
+        </Card>
+      )}
+
+      {interdecile && interdecile.length > 0 && (
+        <Card
+          title="⚖️ Inégalités salariales (secteur privé)"
+          darkMode={darkMode}
+          favoriId="interdecile_salaires"
+          isFavori={fp.isFavori?.("interdecile_salaires")}
+          toggleFavori={fp.toggleFavori}
+        >
+          {(() => {
+            const last = interdecile[interdecile.length - 1];
+            return (
+              <div className="grid grid-cols-2 gap-2 mb-3">
+                <div className={`text-center p-3 rounded-lg ${darkMode ? 'bg-red-900/30' : 'bg-red-50'}`}>
+                  <p className={`text-xs mb-1 ${darkMode ? 'text-gray-400' : 'text-gray-500'}`}>Ratio D9/D1</p>
+                  <p className="text-xl font-bold text-red-500">{last?.d9_d1?.toFixed(2) ?? '—'}</p>
+                  <p className={`text-xs ${darkMode ? 'text-gray-500' : 'text-gray-400'}`}>({last?.annee})</p>
+                </div>
+                <div className={`text-center p-3 rounded-lg ${darkMode ? 'bg-amber-900/30' : 'bg-amber-50'}`}>
+                  <p className={`text-xs mb-1 ${darkMode ? 'text-gray-400' : 'text-gray-500'}`}>Ratio D5/D1</p>
+                  <p className="text-xl font-bold text-amber-500">{last?.d5_d1?.toFixed(2) ?? '—'}</p>
+                  <p className={`text-xs ${darkMode ? 'text-gray-500' : 'text-gray-400'}`}>({last?.annee})</p>
+                </div>
+              </div>
+            );
+          })()}
+          <ResponsiveContainer width="100%" height={175}>
+            <LineChart data={interdecile}>
+              <CartesianGrid {...chartProps.cartesianGrid} />
+              <XAxis dataKey="annee" {...chartProps.xAxis} fontSize={11} />
+              <YAxis {...chartProps.yAxis} fontSize={11} domain={['auto','auto']} />
+              <Tooltip {...chartProps.tooltip} formatter={(v, name) => [v?.toFixed(2), name]} />
+              <Legend wrapperStyle={{ fontSize: 11 }} />
+              <Line type="monotone" dataKey="d9_d1" stroke={C.secondary}  strokeWidth={2.5} dot={false} name="D9/D1" />
+              <Line type="monotone" dataKey="d5_d1" stroke={C.quaternary} strokeWidth={2}   dot={false} name="D5/D1" />
+            </LineChart>
+          </ResponsiveContainer>
+          <p className={`text-xs text-center mt-1 ${darkMode ? 'text-gray-500' : 'text-gray-400'}`}>
+            D9/D1 élevé = inégalités fortes · Source INSEE Base Tous Salariés
           </p>
         </Card>
       )}
