@@ -306,17 +306,8 @@ def build_emplois_vacants_data():
     }
     
     def build_deciles_salaires_prives_data():
-    """
-    Déciles du salaire net annuel en EQTP — secteur privé — ensemble des salariés.
-    Source : INSEE — Base Tous Salariés (BTS), séries BDM annuelles.
-    Séries : D1 (010752336), D5 médiane (010752342), D9 (010752348),
-             D9/D1 (010752357), D5/D1 (010752363).
-    MàJ    : Annuelle (publication ~octobre N+1 pour données N).
-    """
     print("📊 Déciles salaires secteur privé (INSEE BTS)...")
- 
-    # Données par défaut (en euros annuels — montant net EQTP)
-    # Source : INSEE Base Tous Salariés 2022 (dernières données publiées)
+
     default_derniere = {
         "annee": "2022",
         "d1": 14940,   # ~1 245€/mois
@@ -346,7 +337,6 @@ def build_emplois_vacants_data():
     r_d9d1  = get_annual_values(SERIES_IDS["interdecile_d9d1"], 2015)
     r_d5d1  = get_annual_values(SERIES_IDS["interdecile_d5d1"], 2015)
  
-    # Construction de l'évolution combinée si toutes les séries sont disponibles
     evolution = default_evolution
     interdecile = default_interdecile
     derniere_annee = default_derniere
@@ -396,12 +386,6 @@ def build_emplois_vacants_data():
  
  
     def build_indices_fp_data():
-    """
-    Indices de traitement brut de la grille indiciaire — Fonction Publique.
-    Source : INSEE — séries BDM, base 100 en 2000.
-    Séries : Ensemble (001572130), Cat. A (001572131), Cat. B (001572132), Cat. C (001572133).
-    MàJ    : Annuelle / au fil des réformes indiciaires.
-    """
     print("📊 Indices grille indiciaire Fonction Publique (INSEE)...")
  
     default_evolution = [
