@@ -2744,6 +2744,17 @@ def build_changelog():
     
     changelog = [
         {
+            "version": "3.1.4",
+            "date": "2026-04-08",
+            "modifications": [
+                {
+                    "type": "feature",
+                    "titre": "Salaires pas déciles et indices fonction publique",
+                    "description": "L'onglet salaires s'enrichit avec les données de salaires par déciles (1-5-9) et les indices des catégories de la fonction publique"
+                }
+            ]
+        },
+        {
             "version": "3.1.3",
             "date": "2026-04-08",
             "modifications": [
