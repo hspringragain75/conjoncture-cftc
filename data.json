@@ -1,6 +1,6 @@
 {
-  "last_updated": "13/04/2026 09:41",
-  "last_updated_iso": "2026-04-13T09:41:52.435770",
+  "last_updated": "13/04/2026 10:00",
+  "last_updated_iso": "2026-04-13T10:00:08.623828",
   "contact": "hspringragain@cftc.fr",
   "alertes": [
     {
@@ -32,11 +32,22 @@
       "date": "2026-04-13",
       "type": "info",
       "titre": "🔄 Données actualisées",
-      "message": "Le tableau de bord a été mis à jour le 13/04/2026 à 09:41.",
+      "message": "Le tableau de bord a été mis à jour le 13/04/2026 à 10:00.",
       "onglet": "conjoncture"
     }
   ],
   "changelog": [
+    {
+      "version": "3.1.4",
+      "date": "2026-04-08",
+      "modifications": [
+        {
+          "type": "feature",
+          "titre": "Salaires pas déciles et indices fonction publique",
+          "description": "L'onglet salaires s'enrichit avec les données de salaires par déciles (1-5-9) et les indices des catégories de la fonction publique"
+        }
+      ]
+    },
     {
       "version": "3.1.3",
       "date": "2026-04-08",
@@ -215,7 +226,7 @@
     }
   ],
   "revue_presse": {
-    "derniere_maj": "13/04/2026 09:41",
+    "derniere_maj": "13/04/2026 10:00",
     "nb_sources": 7,
     "sources_noms": [
       "Le Monde Éco",
@@ -226,19 +237,56 @@
       "Institut Montaigne",
       "Euractiv FR"
     ],
-    "a_la_une": [],
+    "a_la_une": [
+      {
+        "source": "Le Monde Éco",
+        "couleur": "#374151",
+        "emoji": "🌐",
+        "tag": "Presse économique",
+        "titre": "« Le sport féminin serait-il devenu bankable ? »",
+        "resume": "Revenus, audiences, sponsors, investissements… Les athlètes professionnelles gagnent du terrain. Une croissance exponentielle, rapporte Isabelle Chaperon, chroniqueuse au service Economie du « Monde ».",
+        "lien": "https://www.lemonde.fr/economie/article/2026/04/13/le-sport-feminin-serait-il-devenu-bankable_6679704_3234.html",
+        "date_iso": "2026-04-13T11:45:08+02:00",
+        "date_fr": "13/04/2026",
+        "pertinence": 3
+      }
+    ],
     "tous": [
       {
         "source": "Le Monde Éco",
         "couleur": "#374151",
         "emoji": "🌐",
         "tag": "Presse économique",
-        "titre": "1ᵉʳ-Mai : face à la colère des syndicats, le gouvernement temporise",
-        "resume": "A la suite de la lettre adressée par les organisations syndicales, appelant à renoncer à la proposition de loi sur l’élargissement du travail le 1ᵉʳ-Mai, le premier ministre, Sébastien Lecornu, repousse la commission mixte paritaire. Le ministre du travail, Jean-Pierre Farandou, recevra les syndicat",
+        "titre": "« Le sport féminin serait-il devenu bankable ? »",
+        "resume": "Revenus, audiences, sponsors, investissements… Les athlètes professionnelles gagnent du terrain. Une croissance exponentielle, rapporte Isabelle Chaperon, chroniqueuse au service Economie du « Monde ».",
+        "lien": "https://www.lemonde.fr/economie/article/2026/04/13/le-sport-feminin-serait-il-devenu-bankable_6679704_3234.html",
+        "date_iso": "2026-04-13T11:45:08+02:00",
+        "date_fr": "13/04/2026",
+        "pertinence": 3
+      },
+      {
+        "source": "Le Monde Éco",
+        "couleur": "#374151",
+        "emoji": "🌐",
+        "tag": "Presse économique",
+        "titre": "1ᵉʳ-Mai : le gouvernement temporise sur le texte autorisant le recours à des salariés après la colère des syndicats",
+        "resume": "A la suite de la lettre adressée par les organisations syndicales, appelant à renoncer à cette proposition de loi, le premier ministre, Sébastien Lecornu, repousse la commission mixte paritaire. Le ministre du travail, Jean-Pierre Farandou, recevra les syndicats lundi.",
         "lien": "https://www.lemonde.fr/politique/article/2026/04/13/1-mai-face-a-la-colere-des-syndicats-le-gouvernement-temporise_6679701_823448.html",
-        "date_iso": "2026-04-13T11:33:31+02:00",
+        "date_iso": "2026-04-13T11:33:29+02:00",
         "date_fr": "13/04/2026",
         "pertinence": 1
+      },
+      {
+        "source": "Le Figaro Éco",
+        "couleur": "#92400e",
+        "emoji": "📊",
+        "tag": "Presse économique",
+        "titre": "L’Allemagne réduit une taxe sur le diesel et l’essence pendant deux mois",
+        "resume": "Le chancelier allemand, Friedrich Merz, a annoncé la réduction de l’une des trois taxes sur les produits pétroliers pendant deux mois. Cela correspond à une baisse d’environ 17 centimes par litre.",
+        "lien": "https://www.lefigaro.fr/conjoncture/l-allemagne-reduit-une-taxe-sur-le-diesel-et-l-essence-pendant-deux-mois-20260413",
+        "date_iso": "2026-04-13T11:32:13+02:00",
+        "date_fr": "13/04/2026",
+        "pertinence": 0
       },
       {
         "source": "Le Monde Éco",
@@ -287,18 +335,6 @@
         "date_iso": "2026-04-13T10:30:09+02:00",
         "date_fr": "13/04/2026",
         "pertinence": 1
-      },
-      {
-        "source": "Le Figaro Éco",
-        "couleur": "#92400e",
-        "emoji": "📊",
-        "tag": "Presse économique",
-        "titre": "L’Allemagne réduit une taxe sur le diesel et l’essence pendant deux mois",
-        "resume": "Le chancelier allemand, Friedrich Merz, a annoncé la réduction de l’une des trois taxes sur les produits pétroliers pendant deux mois. Cela correspond à une baisse d’environ 17 centimes par litre.",
-        "lien": "https://www.lefigaro.fr/conjoncture/l-allemagne-reduit-une-taxe-sur-le-diesel-et-l-essence-pendant-deux-mois-20260413",
-        "date_iso": "2026-04-13T10:22:42+02:00",
-        "date_fr": "13/04/2026",
-        "pertinence": 0
       },
       {
         "source": "Le Monde Éco",
@@ -575,18 +611,6 @@
         "date_iso": "2026-04-13T02:20:08+02:00",
         "date_fr": "13/04/2026",
         "pertinence": 1
-      },
-      {
-        "source": "Le Figaro Éco",
-        "couleur": "#92400e",
-        "emoji": "📊",
-        "tag": "Presse économique",
-        "titre": "À quoi ressemble l’usine Peugeot de Sochaux à l’heure des robots et de l’IA ?",
-        "resume": "REPORTAGE - La plus vieille usine de Stellantis a engagé 320 millions d’euros pour se hisser au meilleur niveau de performance dans le groupe.",
-        "lien": "https://www.lefigaro.fr/economie/a-quoi-ressemble-l-usine-peugeot-de-sochaux-a-l-heure-des-robots-et-de-l-ia-20260412",
-        "date_iso": "2026-04-12T19:41:55+02:00",
-        "date_fr": "12/04/2026",
-        "pertinence": 0
       }
     ]
   },
@@ -3792,7 +3816,7 @@
       "note_lecture": "Le TEC-10 mesure le rendement des emprunts d'Etat francais a 10 ans. Un taux eleve rencherit le cout de la dette publique et impacte les taux de credit immobilier."
     },
     "petrole_brent": {
-      "valeur": 102.59,
+      "valeur": 102.72,
       "date": "2026-04-13",
       "unite": "USD/baril",
       "source": "Yahoo Finance",
@@ -5300,16 +5324,16 @@
         },
         {
           "date": "2026-04-13",
-          "valeur": 102.59,
+          "valeur": 102.72,
           "ma50": 87.97,
           "ma200": 71.13
         }
       ],
       "variations": {
-        "jour": 7.76,
-        "semaine": -6.54,
-        "mois": 11.54,
-        "ytd": 68.87
+        "jour": 7.9,
+        "semaine": -6.42,
+        "mois": 11.68,
+        "ytd": 69.09
       },
       "min_max": {
         "min": 58.92,
@@ -5320,9 +5344,9 @@
       "note_lecture": "Le prix du Brent influence directement les couts de transport et d'energie, donc l'inflation et le pouvoir d'achat des salaries."
     },
     "cac40": {
-      "valeur": 8192.25,
+      "valeur": 8193.85,
       "date": "2026-04-13",
-      "variation_jour_pct": -0.82,
+      "variation_jour_pct": -0.8,
       "unite": "points",
       "source": "Yahoo Finance",
       "nb_points": 253,
@@ -6841,16 +6865,16 @@
         },
         {
           "date": "2026-04-13",
-          "valeur": 8192.25,
-          "ma50": 8136.74,
-          "ma200": 8015.3
+          "valeur": 8193.85,
+          "ma50": 8136.78,
+          "ma200": 8015.31
         }
       ],
       "variations": {
-        "jour": -0.82,
-        "semaine": 2.89,
-        "mois": 1.67,
-        "ytd": -0.04
+        "jour": -0.8,
+        "semaine": 2.91,
+        "mois": 1.69,
+        "ytd": -0.02
       },
       "min_max": {
         "min": 7273.12,
@@ -8425,7 +8449,7 @@
       "note_lecture": "Le taux de change euro-dollar determine le prix de tout ce qui est importe en dollars : petrole, matieres premieres, electronique. Un euro faible rencherit les importations et alimente l'inflation."
     },
     "or": {
-      "valeur": 4740.8,
+      "valeur": 4735.6,
       "date": "2026-04-13",
       "unite": "USD/oz",
       "source": "Yahoo Finance",
@@ -9933,16 +9957,16 @@
         },
         {
           "date": "2026-04-13",
-          "valeur": 4740.8,
-          "ma50": 4891.14,
-          "ma200": 4157.35
+          "valeur": 4735.6,
+          "ma50": 4891.04,
+          "ma200": 4157.33
         }
       ],
       "variations": {
-        "jour": -0.44,
-        "semaine": 1.8,
-        "mois": -8.26,
-        "ytd": 9.88
+        "jour": -0.55,
+        "semaine": 1.69,
+        "mois": -8.36,
+        "ytd": 9.76
       },
       "min_max": {
         "min": 3181.4,
@@ -11475,7 +11499,7 @@
       "note_lecture": "Le prix du gaz naturel (TTF europeen) impacte directement les factures de chauffage et d'electricite des menages, ainsi que les couts de production industrielle."
     },
     "ble": {
-      "valeur": 582.25,
+      "valeur": 582.5,
       "date": "2026-04-13",
       "unite": "cents/boisseau",
       "source": "Yahoo Finance",
@@ -12977,16 +13001,16 @@
         },
         {
           "date": "2026-04-13",
-          "valeur": 582.25,
-          "ma50": 575.1,
+          "valeur": 582.5,
+          "ma50": 575.11,
           "ma200": 534.76
         }
       ],
       "variations": {
-        "jour": 1.97,
-        "semaine": -2.18,
-        "mois": -1.06,
-        "ytd": 14.96
+        "jour": 2.01,
+        "semaine": -2.14,
+        "mois": -1.02,
+        "ytd": 15.0
       },
       "min_max": {
         "min": 495.0,
@@ -12997,7 +13021,7 @@
       "note_lecture": "Le cours du ble est un indicateur avance des prix alimentaires. La France etant le premier producteur europeen, son evolution impacte a la fois les consommateurs et le secteur agricole."
     },
     "lme_cuivre": {
-      "valeur": 5.86,
+      "valeur": 5.85,
       "date": "2026-04-13",
       "unite": "cts/lb",
       "source": "Yahoo Finance",
@@ -14505,16 +14529,16 @@
         },
         {
           "date": "2026-04-13",
-          "valeur": 5.86,
+          "valeur": 5.85,
           "ma50": 5.74,
           "ma200": 5.27
         }
       ],
       "variations": {
-        "jour": -0.17,
-        "semaine": 5.02,
-        "mois": 0.17,
-        "ytd": 3.9
+        "jour": -0.34,
+        "semaine": 4.84,
+        "mois": 0.0,
+        "ytd": 3.72
       },
       "min_max": {
         "min": 4.33,
@@ -14525,7 +14549,7 @@
       "note_lecture": "Le cuivre est le baromètre de l'activité industrielle mondiale ('Dr Copper'). Sa hausse signale une reprise économique, sa baisse anticipe un ralentissement. Utilisé massivement dans l'électrification et les énergies renouvelables."
     },
     "lme_aluminium": {
-      "valeur": 3486.0,
+      "valeur": 3480.25,
       "date": "2026-04-13",
       "unite": "cts/lb",
       "source": "Yahoo Finance",
@@ -16027,21 +16051,21 @@
         },
         {
           "date": "2026-04-13",
-          "valeur": 3486.0,
-          "ma50": 3180.18,
-          "ma200": 2813.71
+          "valeur": 3480.25,
+          "ma50": 3180.07,
+          "ma200": 2813.68
         }
       ],
       "variations": {
-        "jour": 1.64,
-        "semaine": 1.87,
-        "mois": 3.46,
-        "ytd": 18.65
+        "jour": 1.47,
+        "semaine": 1.7,
+        "mois": 3.29,
+        "ytd": 18.46
       },
       "min_max": {
         "min": 2269.75,
         "min_date": "2025-05-07",
-        "max": 3486.0,
+        "max": 3480.25,
         "max_date": "2026-04-13"
       },
       "note_lecture": "L'aluminium est très présent dans l'automobile, l'aéronautique et le packaging. Son prix dépend fortement du coût de l'énergie (électrolyse très énergivore), ce qui en fait un indicateur des coûts industriels."
@@ -19836,7 +19860,7 @@
     "meta": {
       "source_effectifs": "DSN via kali-data",
       "source_grilles": "SocialGouv kali-data (extraction automatique)",
-      "date_generation": "2026-04-13T09:42:13.109959",
+      "date_generation": "2026-04-13T10:00:36.777136",
       "mode": "100pct_automatique",
       "note": "Extraction heuristique depuis textes juridiques KALI. Statut a_verifier si grille non extraite ou confidence < 55%."
     },
@@ -21892,7 +21916,7 @@
     "sources": "INSEE - Enquête Emploi, DARES"
   },
   "previsions_cftc": {
-    "generated_at": "2026-04-13T09:42:13.219504",
+    "generated_at": "2026-04-13T10:00:36.909176",
     "model_version": "CFTC v7.0 (bivarié Phillips + log-normale + pondération temporelle)",
     "n_simulations": 1000,
     "horizon": "12 mois",
@@ -21901,7 +21925,7 @@
       "niveau": "excellent",
       "issues": [],
       "warnings": [],
-      "timestamp": "2026-04-13T09:42:13.219515"
+      "timestamp": "2026-04-13T10:00:36.909189"
     },
     "calibrage": {
       "volatilites": {
@@ -21929,7 +21953,7 @@
       "lognormal_offset": 3.0
     },
     "market_signals": {
-      "inflation_adjustment": 0.125,
+      "inflation_adjustment": 0.126,
       "chomage_adjustment": 0.175,
       "energie_outlook": "hausse",
       "ponderation_temporelle": {
@@ -21941,10 +21965,10 @@
     },
     "market_signals_details": {
       "brent": {
-        "valeur": 102.59,
+        "valeur": 102.72,
         "ref": 75.0,
-        "variation_ytd_pct": 68.87,
-        "impact_inflation_pt": 0.276,
+        "variation_ytd_pct": 69.09,
+        "impact_inflation_pt": 0.277,
         "poids_temporel": 1.0
       },
       "gaz_ttf": {
@@ -21971,7 +21995,7 @@
         "signal": "baissier"
       },
       "cac40_ytd": {
-        "variation_ytd_pct": -0.04,
+        "variation_ytd_pct": -0.02,
         "signal_chomage": "neutre"
       },
       "carburants_sp95": {
@@ -22101,9 +22125,9 @@
       "facteurs": {
         "cible_bdf": 1.4,
         "ajustement_climat": -0.03,
-        "ajustement_marches": 0.125,
+        "ajustement_marches": 0.126,
         "energie_outlook": "hausse",
-        "cible_ajustee": 1.495,
+        "cible_ajustee": 1.496,
         "volatilite_utilisee": 0.5
       },
       "asymetrie_ic": {
@@ -22321,7 +22345,7 @@
       "📈 Inflation médiane à 12 mois : 1.6% [1.1% - 2.0%] — 89.3% de chances de rester sous 2% (asymétrie : +0.4pt / -0.5pt)",
       "💰 SMIC janvier 2027 : 1859€ brut (+2.0%, fourchette 1.6-2.4%) — Pouvoir d'achat réel : +0.4% (+7€/mois)",
       "👥 Chômage Q4 : 7.8% [7.6% - 7.9%] — Tendance stable (corrélé Phillips ρ=-0.35)",
-      "📊 Signaux marchés : ↑ inflation 0.12pt, ↑ chômage 0.17pt, (poids temporel min : 0.86)",
+      "📊 Signaux marchés : ↑ inflation 0.13pt, ↑ chômage 0.17pt, (poids temporel min : 0.86)",
       "🎲 Scénario à surveiller : 🚀 Reprise économique forte (25%)",
       "💡 Recommandation NAO : demander au minimum +2.1% pour préserver le pouvoir d'achat"
     ],
@@ -22346,7 +22370,7 @@
           }
         },
         "contribution_mediane": {
-          "signaux_marches_pt": 0.125,
+          "signaux_marches_pt": 0.126,
           "incertitude_bdf_sigma": 0.15,
           "label": "Déplacement de la prévision centrale"
         }
