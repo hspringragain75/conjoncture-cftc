@@ -335,10 +335,10 @@ def build_deciles_salaires_prives_data():
     }
  
  
-    def build_indices_fp_data():
-        print("📊 Indices grille indiciaire Fonction Publique (INSEE)...")
+ def build_indices_fp_data():
+    print("📊 Indices grille indiciaire Fonction Publique (INSEE)...")
  
-        default_evolution = [
+    default_evolution = [
         {"annee": "2000", "ensemble": 100.0, "cat_a": 100.0, "cat_b": 100.0, "cat_c": 100.0},
         {"annee": "2005", "ensemble": 109.5, "cat_a": 108.2, "cat_b": 110.1, "cat_c": 112.3},
         {"annee": "2010", "ensemble": 118.2, "cat_a": 116.5, "cat_b": 119.4, "cat_c": 122.8},
@@ -375,7 +375,7 @@ def build_deciles_salaires_prives_data():
         ]
         last = evolution[-1] if evolution else {}
         print(f"  ✓ {len(evolution)} années indices FP — Ens:{last.get('ensemble')} A:{last.get('cat_a')} B:{last.get('cat_b')} C:{last.get('cat_c')} ({last.get('annee')})")
-        return {
+    return {
             "evolution": evolution,
             "source":    "INSEE — Indices traitement brut grille indiciaire (base 100 en 2000)",
             "note":      "Séries BDM 001572130-33. Couvre les trois versants de la FP.",
