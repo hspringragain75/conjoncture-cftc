@@ -26,9 +26,6 @@ export default function SalairesTab({d, darkMode, fp={}}) {
   const d5m = toMensuel(lastDecile.d5);
   const d9m = toMensuel(lastDecile.d9);
 
-  // ── Salaire médian (intégré dans la card déciles) ──────────────────────────
-  const medianMensuel = d.salaire_median?.montant_2024 ?? null;
-
   // ── Fonction publique ──────────────────────────────────────────────────────
   const fp_data = d.indices_fonction_publique;
   const fpTrend = fp_data?.evolution ?? [];
@@ -40,7 +37,7 @@ export default function SalairesTab({d, darkMode, fp={}}) {
     <div className="grid grid-cols-1 md:grid-cols-2 gap-3 sm:gap-4">
 
       {/* ══════════════════════════════════════════════════════════════════════
-          1. CARD PRINCIPALE — Déciles + salaire médian
+          1. Déciles D1/D5/D9 — pleine largeur
       ══════════════════════════════════════════════════════════════════════ */}
       <Card
         title="📊 Structure des salaires — secteur privé (net EQTP)"
@@ -50,26 +47,17 @@ export default function SalairesTab({d, darkMode, fp={}}) {
         toggleFavori={fp.toggleFavori}
         className="md:col-span-2"
       >
-        {/* KPIs D1 / D5 / Salaire médian officiel / D9 */}
-        <div className="grid grid-cols-2 sm:grid-cols-4 gap-2 mb-4">
+        <div className="grid grid-cols-3 gap-2 mb-4">
           <div className={`text-center p-3 rounded-lg ${darkMode ? 'bg-red-900/30' : 'bg-red-50'}`}>
             <p className={`text-xs font-medium mb-1 ${darkMode ? 'text-gray-400' : 'text-gray-500'}`}>D1 · 10% les + modestes</p>
             <p className="text-2xl font-bold text-red-500">{d1m ? `${d1m.toLocaleString('fr-FR')}€` : '—'}</p>
             <p className={`text-xs mt-0.5 ${darkMode ? 'text-gray-500' : 'text-gray-400'}`}>/mois net</p>
           </div>
-
           <div className={`text-center p-3 rounded-lg ${darkMode ? 'bg-blue-900/30' : 'bg-blue-50'}`}>
             <p className={`text-xs font-medium mb-1 ${darkMode ? 'text-gray-400' : 'text-gray-500'}`}>D5 · Médiane BTS</p>
             <p className="text-2xl font-bold text-blue-500">{d5m ? `${d5m.toLocaleString('fr-FR')}€` : '—'}</p>
             <p className={`text-xs mt-0.5 ${darkMode ? 'text-gray-500' : 'text-gray-400'}`}>/mois net</p>
           </div>
-
-          <div className={`text-center p-3 rounded-lg border-2 ${darkMode ? 'bg-emerald-900/30 border-emerald-700' : 'bg-emerald-50 border-emerald-300'}`}>
-            <p className={`text-xs font-medium mb-1 ${darkMode ? 'text-gray-400' : 'text-gray-500'}`}>💰 Salaire médian officiel</p>
-            <p className="text-2xl font-bold text-emerald-600">{medianMensuel ? `${medianMensuel.toLocaleString('fr-FR')}€` : '—'}</p>
-            <p className={`text-xs mt-0.5 ${darkMode ? 'text-gray-500' : 'text-gray-400'}`}>/mois net · INSEE 2024</p>
-          </div>
-
           <div className={`text-center p-3 rounded-lg ${darkMode ? 'bg-green-900/30' : 'bg-green-50'}`}>
             <p className={`text-xs font-medium mb-1 ${darkMode ? 'text-gray-400' : 'text-gray-500'}`}>D9 · 10% les + aisés</p>
             <p className="text-2xl font-bold text-green-500">{d9m ? `${d9m.toLocaleString('fr-FR')}€` : '—'}</p>
@@ -103,7 +91,50 @@ export default function SalairesTab({d, darkMode, fp={}}) {
       </Card>
 
       {/* ══════════════════════════════════════════════════════════════════════
-          2. Inégalités salariales + Écart H/F
+          2. Salaire médian (graphique) + Écart H/F
+      ══════════════════════════════════════════════════════════════════════ */}
+
+      <Card title="💰 Salaire médian net" darkMode={darkMode} favoriId="salaire_median" isFavori={fp.isFavori?.("salaire_median")} toggleFavori={fp.toggleFavori}>
+        <ResponsiveContainer width="100%" height={200}>
+          <BarChart data={d.salaire_median.evolution}>
+            <CartesianGrid {...chartProps.cartesianGrid} />
+            <XAxis dataKey="annee" {...chartProps.xAxis} fontSize={11} />
+            <YAxis {...chartProps.yAxis} domain={[1800,2300]} fontSize={11} />
+            <Tooltip {...chartProps.tooltip} formatter={v=>`${v}€`} />
+            <Bar radius={[6, 6, 0, 0]} dataKey="montant" fill={C.primary} />
+          </BarChart>
+        </ResponsiveContainer>
+        <p className="text-center text-xl font-bold text-green-600 mt-2">{d.salaire_median.montant_2024}€</p>
+      </Card>
+
+      <Card title="👫 Écart H/F (EQTP)" darkMode={darkMode}>
+        <div className="grid grid-cols-3 gap-2 mb-3">
+          <div className={`text-center p-3 rounded-lg ${darkMode ? 'bg-pink-900/30' : 'bg-pink-50'}`}>
+            <p className={`text-xs mb-1 ${darkMode ? 'text-gray-400' : 'text-gray-500'}`}>Écart global</p>
+            <p className="text-xl font-bold text-pink-600">{d.ecart_hommes_femmes.ecart_global}%</p>
+          </div>
+          <div className={`text-center p-3 rounded-lg ${darkMode ? 'bg-pink-900/20' : 'bg-pink-50/60'}`}>
+            <p className={`text-xs mb-1 ${darkMode ? 'text-gray-400' : 'text-gray-500'}`}>EQTP</p>
+            <p className="text-xl font-bold text-pink-500">{d.ecart_hommes_femmes.ecart_eqtp}%</p>
+          </div>
+          <div className={`text-center p-3 rounded-lg ${darkMode ? 'bg-green-900/30' : 'bg-green-50'}`}>
+            <p className={`text-xs mb-1 ${darkMode ? 'text-gray-400' : 'text-gray-500'}`}>Poste égal</p>
+            <p className="text-xl font-bold text-green-600">{d.ecart_hommes_femmes.ecart_poste_comparable}%</p>
+          </div>
+        </div>
+        <ResponsiveContainer width="100%" height={165}>
+          <LineChart data={d.ecart_hommes_femmes.evolution}>
+            <CartesianGrid {...chartProps.cartesianGrid} />
+            <XAxis dataKey="annee" {...chartProps.xAxis} fontSize={11} />
+            <YAxis {...chartProps.yAxis} domain={[10,20]} fontSize={11} />
+            <Tooltip {...chartProps.tooltip} formatter={v=>`${v}%`} />
+            <Line strokeLinecap="round" strokeLinejoin="round" dataKey="ecart" stroke={C.pink} strokeWidth={3} dot={false} />
+          </LineChart>
+        </ResponsiveContainer>
+      </Card>
+
+      {/* ══════════════════════════════════════════════════════════════════════
+          3. Inégalités salariales + Fonction Publique ITB
       ══════════════════════════════════════════════════════════════════════ */}
 
       {interdecile && interdecile.length > 0 && (
@@ -148,35 +179,6 @@ export default function SalairesTab({d, darkMode, fp={}}) {
         </Card>
       )}
 
-      <Card title="👫 Écart H/F (EQTP)" darkMode={darkMode}>
-        <div className="grid grid-cols-3 gap-2 mb-3">
-          <div className={`text-center p-3 rounded-lg ${darkMode ? 'bg-pink-900/30' : 'bg-pink-50'}`}>
-            <p className={`text-xs mb-1 ${darkMode ? 'text-gray-400' : 'text-gray-500'}`}>Écart global</p>
-            <p className="text-xl font-bold text-pink-600">{d.ecart_hommes_femmes.ecart_global}%</p>
-          </div>
-          <div className={`text-center p-3 rounded-lg ${darkMode ? 'bg-pink-900/20' : 'bg-pink-50/60'}`}>
-            <p className={`text-xs mb-1 ${darkMode ? 'text-gray-400' : 'text-gray-500'}`}>EQTP</p>
-            <p className="text-xl font-bold text-pink-500">{d.ecart_hommes_femmes.ecart_eqtp}%</p>
-          </div>
-          <div className={`text-center p-3 rounded-lg ${darkMode ? 'bg-green-900/30' : 'bg-green-50'}`}>
-            <p className={`text-xs mb-1 ${darkMode ? 'text-gray-400' : 'text-gray-500'}`}>Poste égal</p>
-            <p className="text-xl font-bold text-green-600">{d.ecart_hommes_femmes.ecart_poste_comparable}%</p>
-          </div>
-        </div>
-        <ResponsiveContainer width="100%" height={175}>
-          <LineChart data={d.ecart_hommes_femmes.evolution}>
-            <CartesianGrid {...chartProps.cartesianGrid} />
-            <XAxis dataKey="annee" {...chartProps.xAxis} fontSize={11} />
-            <YAxis {...chartProps.yAxis} domain={[10,20]} fontSize={11} />
-            <Tooltip {...chartProps.tooltip} formatter={v=>`${v}%`} />
-            <Line strokeLinecap="round" strokeLinejoin="round" dataKey="ecart" stroke={C.pink} strokeWidth={3} dot={false} />
-          </LineChart>
-        </ResponsiveContainer>
-      </Card>
-
-      {/* ══════════════════════════════════════════════════════════════════════
-          3. Fonction Publique — indices ITB (pleine largeur)
-      ══════════════════════════════════════════════════════════════════════ */}
       {fp_data && (
         <Card
           title="🏛️ Indices traitement brut — Fonction Publique"
@@ -184,9 +186,8 @@ export default function SalairesTab({d, darkMode, fp={}}) {
           favoriId="indices_fp"
           isFavori={fp.isFavori?.("indices_fp")}
           toggleFavori={fp.toggleFavori}
-          className="md:col-span-2"
         >
-          <div className="grid grid-cols-4 gap-2 mb-3">
+          <div className="grid grid-cols-4 gap-1 mb-3">
             {[
               { label: 'Ensemble', key: 'ensemble', color: 'text-indigo-500', bg: darkMode ? 'bg-indigo-900/30' : 'bg-indigo-50' },
               { label: 'Cat. A',   key: 'cat_a',    color: 'text-blue-500',   bg: darkMode ? 'bg-blue-900/30'   : 'bg-blue-50'   },
@@ -195,22 +196,20 @@ export default function SalairesTab({d, darkMode, fp={}}) {
             ].map(({ label, key, color, bg }) => {
               const last = fpTrend.length ? fpTrend[fpTrend.length - 1] : null;
               return (
-                <div key={key} className={`text-center p-3 rounded-lg ${bg}`}>
-                  <p className={`text-xs font-medium mb-1 ${darkMode ? 'text-gray-400' : 'text-gray-500'}`}>{label}</p>
-                  <p className={`text-xl font-bold ${color}`}>{last?.[key] ?? '—'}</p>
-                  <p className={`text-xs mt-0.5 ${darkMode ? 'text-gray-500' : 'text-gray-400'}`}>base 100 · 2000</p>
+                <div key={key} className={`text-center p-2 rounded-lg ${bg}`}>
+                  <p className={`text-xs mb-1 ${darkMode ? 'text-gray-400' : 'text-gray-500'}`}>{label}</p>
+                  <p className={`text-base font-bold ${color}`}>{last?.[key] ?? '—'}</p>
                 </div>
               );
             })}
           </div>
-
-          <ResponsiveContainer width="100%" height={200}>
+          <ResponsiveContainer width="100%" height={185}>
             <LineChart data={fpTrend}>
               <CartesianGrid {...chartProps.cartesianGrid} />
               <XAxis dataKey="annee" {...chartProps.xAxis} fontSize={10} />
               <YAxis {...chartProps.yAxis} fontSize={10} domain={['auto','auto']} />
               <Tooltip {...chartProps.tooltip} />
-              <Legend wrapperStyle={{ fontSize: 11 }} />
+              <Legend wrapperStyle={{ fontSize: 10 }} />
               <ReferenceLine
                 y={100}
                 stroke={darkMode ? '#555' : '#ccc'}
@@ -223,7 +222,6 @@ export default function SalairesTab({d, darkMode, fp={}}) {
               <Line type="monotone" dataKey="cat_c"    stroke={C.quaternary} strokeWidth={1.8} dot={false} name="Cat. C" />
             </LineChart>
           </ResponsiveContainer>
-
           <p className={`text-xs text-center mt-1 ${darkMode ? 'text-gray-500' : 'text-gray-400'}`}>
             Indice grille indiciaire — base 100 en 2000 · Source INSEE BDM 001572130-33
           </p>
