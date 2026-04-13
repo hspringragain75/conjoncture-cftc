@@ -336,9 +336,9 @@ def build_deciles_salaires_prives_data():
  
  
     def build_indices_fp_data():
-    print("📊 Indices grille indiciaire Fonction Publique (INSEE)...")
+        print("📊 Indices grille indiciaire Fonction Publique (INSEE)...")
  
-    default_evolution = [
+        default_evolution = [
         {"annee": "2000", "ensemble": 100.0, "cat_a": 100.0, "cat_b": 100.0, "cat_c": 100.0},
         {"annee": "2005", "ensemble": 109.5, "cat_a": 108.2, "cat_b": 110.1, "cat_c": 112.3},
         {"annee": "2010", "ensemble": 118.2, "cat_a": 116.5, "cat_b": 119.4, "cat_c": 122.8},
@@ -350,12 +350,12 @@ def build_deciles_salaires_prives_data():
         {"annee": "2022", "ensemble": 130.2, "cat_a": 127.8, "cat_b": 131.5, "cat_c": 136.2},
         {"annee": "2023", "ensemble": 136.5, "cat_a": 134.1, "cat_b": 138.0, "cat_c": 142.3},
         {"annee": "2024", "ensemble": 139.8, "cat_a": 137.2, "cat_b": 141.5, "cat_c": 146.0},
-    ]
+        ]
  
-    ens_raw   = get_annual_values(SERIES_IDS["itb_ensemble"], 2000)
-    cat_a_raw = get_annual_values(SERIES_IDS["itb_cat_a"],    2000)
-    cat_b_raw = get_annual_values(SERIES_IDS["itb_cat_b"],    2000)
-    cat_c_raw = get_annual_values(SERIES_IDS["itb_cat_c"],    2000)
+        ens_raw   = get_annual_values(SERIES_IDS["itb_ensemble"], 2000)
+        cat_a_raw = get_annual_values(SERIES_IDS["itb_cat_a"],    2000)
+        cat_b_raw = get_annual_values(SERIES_IDS["itb_cat_b"],    2000)
+        cat_c_raw = get_annual_values(SERIES_IDS["itb_cat_c"],    2000)
  
     if ens_raw and cat_a_raw and cat_b_raw and cat_c_raw:
         e_dict = {e["annee"]: e["valeur"] for e in ens_raw}
@@ -381,7 +381,7 @@ def build_deciles_salaires_prives_data():
             "note":      "Séries BDM 001572130-33. Couvre les trois versants de la FP.",
         }
  
-    print("  ⚠️ Indices FP : données par défaut")
+        print("  ⚠️ Indices FP : données par défaut")
     return {
         "evolution": default_evolution,
         "source":    "INSEE — Indices traitement brut grille indiciaire (base 100 en 2000)",
