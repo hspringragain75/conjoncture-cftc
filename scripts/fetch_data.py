@@ -2749,7 +2749,7 @@ def build_changelog():
             "modifications": [
                 {
                     "type": "feature",
-                    "titre": "Salaires pas déciles et indices fonction publique",
+                    "titre": "Salaires par déciles et indices fonction publique",
                     "description": "L'onglet salaires s'enrichit avec les données de salaires par déciles (1-5-9) et les indices des catégories de la fonction publique"
                 }
             ]
